@@ -19,13 +19,14 @@ def parse(head_words: dict = None):
         # html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}#Polish")
         # parser.feed(str(html_page.read()))
 
-        with open('output/sample_małpa.html', 'r') as f:
+        with open('output/sample_cel.html', 'r') as f:
             contents = f.read()
             print(type(contents))
-            parser.feed('<div><p>lemmesome</p></div>')
+            parser.feed(contents)
             print("Output", parser.output)
+            print("")
 
-        parser.feed()
+        # parser.feed()
         print("Output", parser.output)
         # print("Data", parser.lsData)
         # print("Start tags", parser.lsStartTags)
@@ -53,14 +54,20 @@ class MyHTMLParser(HTMLParser):
     output = {}
     keys = []
     subkey = None
+    selected_lang = "polish"
 
     def handle_data(self, data):
 
-        if data.strip():
+        if data.strip() and data.strip() != "/":
+            if self.location not in ["insideselectedlang", "insidetable"]:
+                if self.lasttag == "span" and self.penultimatetag == "h2" and data.strip().lower() == self.selected_lang:
+                    self.location = "insideselectedlang"
+
             if self.mode and self.mode.split("-")[0] == "getword" and self.lasttag == "a":
                 word_index = int(self.mode.split("-")[1])
-                self.output[self.keys[word_index]][self.subkey] = data.strip()
-                self.mode = f"getword-{str(word_index+1)}"
+                key = self.keys[word_index]
+                subkey = self.subkey
+                self.output[key][subkey] = data.strip()
 
             if self.mode == "gettingkeys":
                 print(f"#GETTING {data.strip()}")
@@ -107,7 +114,7 @@ class MyHTMLParser(HTMLParser):
             if startTag == "table":
                 self.el_count += 1
 
-        elif startTag == "table":
+        elif startTag == "table" and self.location == "insideselectedlang":
             for attr in attrs:
                 print("attr", attr)
                 if attr[0] == "class" and attr[1] == "wikitable inflection-table":
@@ -127,6 +134,10 @@ class MyHTMLParser(HTMLParser):
         #         self.el_count = 0
 
     def handle_endtag(self, endTag):
+        if endTag == "span" and self.mode and self.mode.split("-")[0] == "getword":
+            word_index = int(self.mode.split("-")[1])
+            self.mode = f"getword-{str(word_index + 1)}"
+
         if endTag == "tr":
             if self.mode and self.mode.split("-")[0] == "getword":
                 print("#EXITING GETWORD")
