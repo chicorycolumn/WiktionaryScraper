@@ -1,0 +1,135 @@
+import html.entities
+import json
+from html.parser import HTMLParser
+from html import entities
+import urllib.request as urllib2
+import urllib as urllib
+from datetime import datetime
+from time import sleep
+
+
+def parse(head_words: dict = None):
+    parser = MyHTMLParser()
+
+    if not head_words:
+        head_words = ["małpa"]
+
+    for head_word in head_words:
+        # print(datetime.now().strftime('%H:%M:%S'), f"{head_word} is being loaded up as a Wiktionary page.")
+        # html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}#Polish")
+        # parser.feed(str(html_page.read()))
+        # parser.feed('<divid="content"class="mw-body"role="main"><aid="top"></a><divid="siteNotice"><divid="centralNotice"></div><!--CentralNotice--></div><divclass="mw-indicators"></div><h1id="firstHeading"class="firstHeading">małpa</h1><divid="bodyContent"class="vector-body"><divid="siteSub"class="noprint">DefinitionfromWiktionary,thefreedictionary</div><divid="contentSub"></div><divid="contentSub2"></div><divid="jump-to-nav"></div><aclass="mw-jump-link"href="#mw-head">Jumptonavigation</a><aclass="mw-jump-link"href="#searchInput">Jumptosearch</a><divid="mw-content-text"class="mw-body-contentmw-content-ltr"lang="en"dir="ltr"><divclass="mw-parser-output"><divid="toc"class="toc"role="navigation"aria-labelledby="mw-toc-heading"><inputtype="checkbox"role="button"id="toctogglecheckbox"class="toctogglecheckbox"style="display:none"><divclass="toctitle"lang="en"dir="ltr"><h2id="mw-toc-heading">Contents</h2><spanclass="toctogglespan"><labelclass="toctogglelabel"for="toctogglecheckbox"></label></span></div><ul><liclass="toclevel-1tocsection-1"><ahref="#Polish"><spanclass="tocnumber">1</span><spanclass="toctext">Polish</span></a><ul><liclass="toclevel-2tocsection-2"><ahref="#Etymology"><spanclass="tocnumber">1.1</span><spanclass="toctext">Etymology</span></a></li><liclass="toclevel-2tocsection-3"><ahref="#Pronunciation"><spanclass="tocnumber">1.2</span><spanclass="toctext">Pronunciation</span></a></li><liclass="toclevel-2tocsection-4"><ahref="#Noun"><spanclass="tocnumber">1.3</span><spanclass="toctext">Noun</span></a><ul><liclass="toclevel-3tocsection-5"><ahref="#Declension"><spanclass="tocnumber">1.3.1</span><spanclass="toctext">Declension</span></a></li><liclass="toclevel-3tocsection-6"><ahref="#Derived_terms"><spanclass="tocnumber">1.3.2</span><spanclass="toctext">Derivedterms</span></a></li><liclass="toclevel-3tocsection-7"><ahref="#Descendants"><spanclass="tocnumber">1.3.3</span><spanclass="toctext">Descendants</span></a></li></ul></li><liclass="toclevel-2tocsection-8"><ahref="#Further_reading"><spanclass="tocnumber">1.4</span><spanclass="toctext">Furtherreading</span></a></li></ul></li></ul></div><h2><spanclass="mw-headline"id="Polish">Polish</span><spanclass="mw-editsection"><spanclass="mw-editsection-bracket">[</span><ahref="/w/index.php?title=ma%C5%82pa&amp;action=edit&amp;section=1"title="Editsection:Polish">edit</a><spanclass="mw-editsection-bracket">]</span></span></h2><divclass="sister-wikipediasister-projectnoprintfloatright"style="border:1pxsolid#aaa;font-size:90%;background:#f9f9f9;width:250px;padding:4px;text-align:left;"><divstyle="float:left;"><divclass="floatnone"><imgalt=""src="//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Wikipedia-logo.png/44px-Wikipedia-logo.png"decoding="async"width="44"height="44"srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Wikipedia-logo.png/66px-Wikipedia-logo.png1.5x,//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Wikipedia-logo.png/88px-Wikipedia-logo.png2x"data-file-width="200"data-file-height="200"></div></div><divstyle="margin-left:60px;">Polish<ahref="/wiki/Wikipedia"title="Wikipedia">Wikipedia</a>hasanarticleon:<divstyle="margin-left:10px;"><bclass="Latn"lang="pl"><ahref="https://en.wikipedia.org/wiki/pl:ma%C5%82pa"class="extiw"title="w:pl:małpa">małpa</a></b></div></div><spanclass="interProject"><ahref="https://en.wikipedia.org/wiki/pl:ma%C5%82pa"class="extiw"title="w:pl:małpa">Wikipedia<sup>pl</sup></a></span></div><divclass="thumbtright"><divclass="thumbinner"style="width:222px;"><ahref="/wiki/File:Weisshandgibbon_tierpark_berlin.jpg"class="image"><imgalt=""src="//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Weisshandgibbon_tierpark_berlin.jpg/220px-Weisshandgibbon_tierpark_berlin.jpg"decoding="async"width="220"height="165"class="thumbimage"srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Weisshandgibbon_tierpark_berlin.jpg/330px-Weisshandgibbon_tierpark_berlin.jpg1.5x,//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Weisshandgibbon_tierpark_berlin.jpg/440px-Weisshandgibbon_tierpark_berlin.jpg2x"data-file-width="2048"data-file-height="1536"></a><divclass="thumbcaption"><divclass="magnify"><ahref="/wiki/File:Weisshandgibbon_tierpark_berlin.jpg"class="internal"title="Enlarge"></a></div>małpa</div></div></div><h3><spanclass="mw-headline"id="Etymology">Etymology</span><spanclass="mw-editsection"><spanclass="mw-editsection-bracket">[</span><ahref="/w/index.php?title=ma%C5%82pa&amp;action=edit&amp;section=2"title="Editsection:Etymology">edit</a><spanclass="mw-editsection-bracket">]</span></span></h3><p>From<spanclass="etyl"><ahref="https://en.wikipedia.org/wiki/German_language"class="extiw"title="w:Germanlanguage">German</a></span><iclass="Latnmention"lang="de"><ahref="/wiki/Maulaffe#German"title="Maulaffe">Maulaffe</a></i><spanclass="mention-gloss-parenannotation-paren">(</span><spanclass="mention-gloss-double-quote">“</span><spanclass="mention-gloss">gapingfool,gaper</span><spanclass="mention-gloss-double-quote">”</span><spanclass="mention-gloss-parenannotation-paren">)</span>,from<iclass="Latnmention"lang="de"><ahref="/wiki/Maul#German"title="Maul">Maul</a></i>+<iclass="Latnmention"lang="de"><ahref="/wiki/Affe#German"title="Affe">Affe</a></i>.</p><h3><spanclass="mw-headline"id="Pronunciation">Pronunciation</span><spanclass="mw-editsection"><spanclass="mw-editsection-bracket">[</span><ahref="/w/index.php?title=ma%C5%82pa&amp;action=edit&amp;section=3"title="Editsection:Pronunciation">edit</a><spanclass="mw-editsection-bracket">]</span></span></h3><ul><li><ahref="/wiki/Wiktionary:International_Phonetic_Alphabet"title="Wiktionary:InternationalPhoneticAlphabet">IPA</a><sup>(<ahref="/wiki/Appendix:Polish_pronunciation"title="Appendix:Polishpronunciation">key</a>)</sup>:<spanclass="IPA">/ˈmaw.pa/</span></li><li><styledata-mw-deduplicate="TemplateStyles:r50165410">.mw-parser-output.k-player.k-attribution{visibility:hidden}</style><tableclass="audiotable"style="vertical-align:bottom;display:inline-block;list-style:none;line-height:1em;border-collapse:collapse;"><tbody><tr><tdclass="unicodeaudiolink"style="padding-right:5px;padding-left:0;">Audio</td><tdclass="audiofile"><divclass="mediaContainer"style="width:175px"><divclass="mwPlayerContainerk-player"style="width:175px;position:relative;height:20px;"><divclass="videoHolder"><divclass="mwEmbedPlayer"id="mwe_player_0"style=""><imgsrc="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="class="playerPoster"style="position:absolute;inset:0px0px0px77.5px;height:20px;width:20px;"></div><divtitle="Playclip"class="play-btn-large"style="left:50%;top:50%;margin-left:-35px;margin-top:-27.5px;"></div></div><divclass="ui-state-defaultui-widget-headerui-helper-clearfixcontrol-barblock"style="height:20px;"><divtitle="Playeroptions"class="ui-state-defaultui-corner-blrButtonk-options"><span>Menu</span></div><divclass="ui-sliderui-slider-horizontalrButtonvolume-sliderui-widgetui-widget-contentui-corner-all"><divclass="ui-slider-rangeui-widget-headerui-slider-range-min"style="width:80%;"></div><aclass="ui-slider-handleui-state-defaultui-corner-all"href="#"style="left:80%;"></a></div><divtitle="Volumecontrol"class="ui-state-defaultui-corner-allui-icon_linkrButtonvolume_control"><spanclass="ui-iconui-icon-volume-on"></span></div><divclass="ui-widgettime-disp">0:00</div><divtitle="Playclip"class="ui-state-defaultui-corner-allui-icon_linklButtonplay-btn"><spanclass="ui-iconui-icon-play"></span></div></div></div></div></td><tdclass="audiometa"style="font-size:80%;">(<ahref="/wiki/File:pl-ma%C5%82pa.ogg"title="File:pl-małpa.ogg">file</a>)</td></tr></tbody></table></li></ul><h3><spanclass="mw-headline"id="Noun">Noun</span><spanclass="mw-editsection"><spanclass="mw-editsection-bracket">[</span><ahref="/w/index.php?title=ma%C5%82pa&amp;action=edit&amp;section=4"title="Editsection:Noun">edit</a><spanclass="mw-editsection-bracket">]</span></span></h3><p><strongclass="Latnheadword"lang="pl">małpa</strong>&nbsp;<spanclass="gender"><abbrtitle="femininegender">f</abbr></span>(<i>diminutive</i><bclass="Latn"lang="pl"><ahref="/wiki/ma%C5%82pka#Polish"title="małpka">małpka</a></b>)</p><ol><li><spanclass="Latn"lang="en"><ahref="/wiki/monkey#English"title="monkey">monkey</a></span>,<spanclass="Latn"lang="en"><ahref="/wiki/ape#English"title="ape">ape</a></span>(primate)</li><li><spanclass="Latn"lang="en"><ahref="/wiki/at_sign#English"title="atsign">atsign</a></span></li><li><spanclass="ib-brac">(</span><spanclass="ib-content"><ahref="/wiki/derogatory"title="derogatory">derogatory</a><spanclass="ib-comma">,</span><ahref="/wiki/ethnic"title="ethnic">ethnic</a><ahref="/wiki/slur"title="slur">slur</a></span><spanclass="ib-brac">)</span>A<spanclass="Latn"lang="en"><ahref="/wiki/black#English"title="black">black</a></span>person,apersonof<spanclass="Latn"lang="en"><ahref="/wiki/African#English"title="African">African</a></span>ancestry.</li></ol><h4><spanclass="mw-headline"id="Declension">Declension</span><spanclass="mw-editsection"><spanclass="mw-editsection-bracket">[</span><ahref="/w/index.php?title=ma%C5%82pa&amp;action=edit&amp;section=5"title="Editsection:Declension">edit</a><spanclass="mw-editsection-bracket">]</span></span></h4><divclass="NavFrameinflection-table-noun"style="width:29em"><divclass="NavHead"style="cursor:pointer;"><spanclass="NavToggle"><arole="button"tabindex="0">hide▲</a></span>Declensionof<spanclass="Latnmention"lang="pl">małpa</span></div><divclass="NavContent"style="display:block;"><tablestyle="width:29em;margin:0;"class="wikitableinflection-table"><tbody><tr><thstyle="width:8em;"></th><thscope="col">singular</th><thscope="col">plural</th></tr><tr><thtitle="mianownik(kto?co?)"scope="row">nominative</th><td><spanclass="Latn"lang="pl"><aclass="mw-selflinkselflink">małpa</a></span></td><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82py&amp;action=edit&amp;redlink=1"class="new"title="małpy(pagedoesnotexist)">małpy</a></span></td></tr><tr><thtitle="dopełniacz(kogo?czego?)"scope="row">genitive</th><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82py&amp;action=edit&amp;redlink=1"class="new"title="małpy(pagedoesnotexist)">małpy</a></span></td><td><spanclass="Latn"lang="pl"><ahref="/wiki/ma%C5%82p#Polish"title="małp">małp</a></span></td></tr><tr><thtitle="celownik(komu?czemu?)"scope="row">dative</th><td><spanclass="Latn"lang="pl"><ahref="/wiki/ma%C5%82pie#Polish"title="małpie">małpie</a></span></td><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82pom&amp;action=edit&amp;redlink=1"class="new"title="małpom(pagedoesnotexist)">małpom</a></span></td></tr><tr><thtitle="biernik(kogo?co?)"scope="row">accusative</th><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82p%C4%99&amp;action=edit&amp;redlink=1"class="new"title="małpę(pagedoesnotexist)">małpę</a></span></td><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82py&amp;action=edit&amp;redlink=1"class="new"title="małpy(pagedoesnotexist)">małpy</a></span></td></tr><tr><thtitle="narzędnik(kim?czym?)"scope="row">instrumental</th><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82p%C4%85&amp;action=edit&amp;redlink=1"class="new"title="małpą(pagedoesnotexist)">małpą</a></span></td><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82pami&amp;action=edit&amp;redlink=1"class="new"title="małpami(pagedoesnotexist)">małpami</a></span></td></tr><tr><thtitle="miejscownik(okim?oczym?)"scope="row">locative</th><td><spanclass="Latn"lang="pl"><ahref="/wiki/ma%C5%82pie#Polish"title="małpie">małpie</a></span></td><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82pach&amp;action=edit&amp;redlink=1"class="new"title="małpach(pagedoesnotexist)">małpach</a></span></td></tr><tr><thtitle="wołacz(o!)"scope="row">vocative</th><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82po&amp;action=edit&amp;redlink=1"class="new"title="małpo(pagedoesnotexist)">małpo</a></span></td><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82py&amp;action=edit&amp;redlink=1"class="new"title="małpy(pagedoesnotexist)">małpy</a></span></td></tr></tbody></table></div></div><h4><spanclass="mw-headline"id="Derived_terms">Derivedterms</span><spanclass="mw-editsection"><spanclass="mw-editsection-bracket">[</span><ahref="/w/index.php?title=ma%C5%82pa&amp;action=edit&amp;section=6"title="Editsection:Derivedterms">edit</a><spanclass="mw-editsection-bracket">]</span></span></h4><ul><li><spanclass="ib-bracqualifier-brac">(</span><spanclass="ib-contentqualifier-content">verb</span><spanclass="ib-bracqualifier-brac">)</span><spanclass="Latn"lang="pl"><ahref="/wiki/ma%C5%82powa%C4%87#Polish"title="małpować">małpować</a></span>&nbsp;<spanclass="gender"><abbrtitle="imperfectiveaspect">impf</abbr></span></li><li><spanclass="ib-bracqualifier-brac">(</span><spanclass="ib-contentqualifier-content">nouns</span><spanclass="ib-bracqualifier-brac">)</span><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82piarnia&amp;action=edit&amp;redlink=1"class="new"title="małpiarnia(pagedoesnotexist)">małpiarnia</a></span>&nbsp;<spanclass="gender"><abbrtitle="femininegender">f</abbr></span>,<spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82piarz&amp;action=edit&amp;redlink=1"class="new"title="małpiarz(pagedoesnotexist)">małpiarz</a></span>&nbsp;<spanclass="gender"><abbrtitle="masculinegender">m</abbr></span>,<spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82piatka&amp;action=edit&amp;redlink=1"class="new"title="małpiatka(pagedoesnotexist)">małpiatka</a></span>&nbsp;<spanclass="gender"><abbrtitle="femininegender">f</abbr></span>,<spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82pi%C4%85tko&amp;action=edit&amp;redlink=1"class="new"title="małpiątko(pagedoesnotexist)">małpiątko</a></span>&nbsp;<spanclass="gender"><abbrtitle="neutergender">n</abbr></span>,<spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82pi%C4%99&amp;action=edit&amp;redlink=1"class="new"title="małpię(pagedoesnotexist)">małpię</a></span>&nbsp;<spanclass="gender"><abbrtitle="neutergender">n</abbr></span>,<spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82piszon&amp;action=edit&amp;redlink=1"class="new"title="małpiszon(pagedoesnotexist)">małpiszon</a></span>&nbsp;<spanclass="gender"><abbrtitle="masculinegender">m</abbr></span>,<spanclass="Latn"lang="pl"><ahref="/wiki/ma%C5%82polud#Polish"title="małpolud">małpolud</a></span>&nbsp;<spanclass="gender"><abbrtitle="masculinegender">m</abbr></span></li><li><spanclass="ib-bracqualifier-brac">(</span><spanclass="ib-contentqualifier-content">adjectives</span><spanclass="ib-bracqualifier-brac">)</span><spanclass="Latn"lang="pl"><ahref="/wiki/ma%C5%82pi#Polish"title="małpi">małpi</a></span>,<spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82powaty&amp;action=edit&amp;redlink=1"class="new"title="małpowaty(pagedoesnotexist)">małpowaty</a></span></li></ul><h4><spanclass="mw-headline"id="Descendants">Descendants</span><spanclass="mw-editsection"><spanclass="mw-editsection-bracket">[</span><ahref="/w/index.php?title=ma%C5%82pa&amp;action=edit&amp;section=7"title="Editsection:Descendants">edit</a><spanclass="mw-editsection-bracket">]</span></span></h4><ul><li><spanclass="desc-arr"title="borrowed">→</span>Belarusian:<spanclass="Cyrl"lang="be"><ahref="/wiki/%D0%BC%D0%B0%D0%BB%D0%BF%D0%B0#Belarusian"title="малпа">ма́лпа</a></span><spanclass="mention-gloss-parenannotation-paren">(</span><spanlang="be-Latn"class="trLatn">málpa</span><spanclass="mention-gloss-parenannotation-paren">)</span><styledata-mw-deduplicate="TemplateStyles:r54857417">.mw-parser-output.desc-arr[title]{cursor:help}.mw-parser-output.desc-arr[title="uncertain"]{font-size:.7em;vertical-align:super}</style></li><li><spanclass="desc-arr"title="borrowed">→</span>Ukrainian:<spanclass="Cyrl"lang="uk"><ahref="/wiki/%D0%BC%D0%B0%D0%B2%D0%BF%D0%B0#Ukrainian"title="мавпа">ма́впа</a></span><spanclass="mention-gloss-parenannotation-paren">(</span><spanlang="uk-Latn"class="trLatn">mávpa</span><spanclass="mention-gloss-parenannotation-paren">)</span><linkrel="mw-deduplicated-inline-style"href="mw-data:TemplateStyles:r54857417"></li><li><spanclass="desc-arr"title="borrowed">→</span>Yiddish:<spanclass="Hebr"lang="yi"><ahref="/wiki/%D7%9E%D7%90%D6%B7%D7%9C%D7%A4%D6%BC%D7%A2#Yiddish"title="מאַלפּע">מאַלפּע</a></span>‎<spanclass="mention-gloss-parenannotation-paren">(</span><spanlang="yi-Latn"class="trLatn">malpe</span><spanclass="mention-gloss-parenannotation-paren">)</span><linkrel="mw-deduplicated-inline-style"href="mw-data:TemplateStyles:r54857417"></li></ul><h3><spanclass="mw-headline"id="Further_reading">Furtherreading</span><spanclass="mw-editsection"><spanclass="mw-editsection-bracket">[</span><ahref="/w/index.php?title=ma%C5%82pa&amp;action=edit&amp;section=8"title="Editsection:Furtherreading">edit</a><spanclass="mw-editsection-bracket">]</span></span></h3><ul><li><arel="nofollow"class="externaltext"href="https://www.wsjp.pl/index.php?szukaj=ma%C5%82pa">małpa</a>in<i>Wielkisłownikjęzykapolskiego</i>,InstytutJęzykaPolskiegoPAN</li><li><arel="nofollow"class="externaltext"href="http://sjp.pwn.pl/szukaj/ma%C5%82pa.html">małpa</a>inPolishdictionariesatPWN</li></ul><!--NewPPlimitreportParsedbymw1327Cachedtime:20210916175734Cacheexpiry:1814400Reducedexpiry:falseComplications:[]CPUtimeusage:0.404secondsRealtimeusage:0.525secondsPreprocessorvisitednodecount:8069/1000000Post‐expandincludesize:16566/2097152bytesTemplateargumentsize:996/2097152bytesHighestexpansiondepth:11/40Expensiveparserfunctioncount:0/500Unstriprecursiondepth:0/20Unstrippost‐expandsize:867/5000000bytesLuatimeusage:0.198/10.000secondsLuamemoryusage:7367025/52428800bytesNumberofWikibaseentitiesloaded:0/400--><!--Transclusionexpansiontimereport(%,ms,calls,template)100.00%459.7581-total20.11%92.46215Template:l18.26%83.9651Template:wp14.56%66.93617Template:redlink_category12.13%55.7521Template:lb8.15%37.4661Template:pl-noun7.34%33.7253Template:desc6.63%30.4821Template:pl-IPA5.72%26.3041Template:bor5.26%24.1642Template:m--><!--Savedinparsercachewithkeyenwiktionary:pcache:idhash:855045-0!canonicalandtimestamp20210916175733andrevisionid63512381.SerializedwithJSON.--></div><noscript><imgsrc="//en.wiktionary.org/wiki/Special:CentralAutoLogin/start?type=1x1"alt=""title=""width="1"height="1"style="border:none;position:absolute;"/></noscript><divclass="printfooter">Retrievedfrom"<adir="ltr"href="https://en.wiktionary.org/w/index.php?title=małpa&amp;oldid=63512381">https://en.wiktionary.org/w/index.php?title=małpa&amp;oldid=63512381</a>"</div></div><divid="catlinks"class="catlinks"data-mw="interface"><divid="mw-normal-catlinks"class="mw-normal-catlinks"><ahref="/wiki/Special:Categories"title="Special:Categories">Categories</a>:<ul><li><ahref="/wiki/Category:Polish_terms_borrowed_from_German"title="Category:PolishtermsborrowedfromGerman">PolishtermsborrowedfromGerman</a></li><li><ahref="/wiki/Category:Polish_terms_derived_from_German"title="Category:PolishtermsderivedfromGerman">PolishtermsderivedfromGerman</a></li><li><ahref="/wiki/Category:Polish_2-syllable_words"title="Category:Polish2-syllablewords">Polish2-syllablewords</a></li><li><ahref="/wiki/Category:Polish_terms_with_IPA_pronunciation"title="Category:PolishtermswithIPApronunciation">PolishtermswithIPApronunciation</a></li><li><ahref="/wiki/Category:Polish_terms_with_audio_links"title="Category:Polishtermswithaudiolinks">Polishtermswithaudiolinks</a></li><li><ahref="/wiki/Category:Polish_lemmas"title="Category:Polishlemmas">Polishlemmas</a></li><li><ahref="/wiki/Category:Polish_nouns"title="Category:Polishnouns">Polishnouns</a></li><li><ahref="/wiki/Category:Polish_feminine_nouns"title="Category:Polishfemininenouns">Polishfemininenouns</a></li><li><ahref="/wiki/Category:Polish_derogatory_terms"title="Category:Polishderogatoryterms">Polishderogatoryterms</a></li><li><ahref="/wiki/Category:Polish_ethnic_slurs"title="Category:Polishethnicslurs">Polishethnicslurs</a></li><li><ahref="/wiki/Category:pl:Male_people"title="Category:pl:Malepeople">pl:Malepeople</a></li><li><ahref="/wiki/Category:pl:Primates"title="Category:pl:Primates">pl:Primates</a></li><li><ahref="/wiki/Category:pl:Typography"title="Category:pl:Typography">pl:Typography</a></li></ul></div></div></div></div>')
+        # parser.feed('<divclass="NavFrameinflection-table-noun"style="width:29em"><divclass="NavHead"style="cursor:pointer;"><spanclass="NavToggle"><arole="button"tabindex="0">hide▲</a></span>Declensionof<spanclass="Latnmention"lang="pl">małpa</span></div><divclass="NavContent"style="display:block;"><tablestyle="width:29em;margin:0;"class="wikitableinflection-table"><tbody><tr><thstyle="width:8em;"></th><thscope="col">singular</th><thscope="col">plural</th></tr><tr><thtitle="mianownik(kto?co?)"scope="row">nominative</th><td><spanclass="Latn"lang="pl"><aclass="mw-selflinkselflink">małpa</a></span></td><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82py&amp;action=edit&amp;redlink=1"class="new"title="małpy(pagedoesnotexist)">małpy</a></span></td></tr><tr><thtitle="dopełniacz(kogo?czego?)"scope="row">genitive</th><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82py&amp;action=edit&amp;redlink=1"class="new"title="małpy(pagedoesnotexist)">małpy</a></span></td><td><spanclass="Latn"lang="pl"><ahref="/wiki/ma%C5%82p#Polish"title="małp">małp</a></span></td></tr><tr><thtitle="celownik(komu?czemu?)"scope="row">dative</th><td><spanclass="Latn"lang="pl"><ahref="/wiki/ma%C5%82pie#Polish"title="małpie">małpie</a></span></td><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82pom&amp;action=edit&amp;redlink=1"class="new"title="małpom(pagedoesnotexist)">małpom</a></span></td></tr><tr><thtitle="biernik(kogo?co?)"scope="row">accusative</th><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82p%C4%99&amp;action=edit&amp;redlink=1"class="new"title="małpę(pagedoesnotexist)">małpę</a></span></td><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82py&amp;action=edit&amp;redlink=1"class="new"title="małpy(pagedoesnotexist)">małpy</a></span></td></tr><tr><thtitle="narzędnik(kim?czym?)"scope="row">instrumental</th><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82p%C4%85&amp;action=edit&amp;redlink=1"class="new"title="małpą(pagedoesnotexist)">małpą</a></span></td><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82pami&amp;action=edit&amp;redlink=1"class="new"title="małpami(pagedoesnotexist)">małpami</a></span></td></tr><tr><thtitle="miejscownik(okim?oczym?)"scope="row">locative</th><td><spanclass="Latn"lang="pl"><ahref="/wiki/ma%C5%82pie#Polish"title="małpie">małpie</a></span></td><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82pach&amp;action=edit&amp;redlink=1"class="new"title="małpach(pagedoesnotexist)">małpach</a></span></td></tr><tr><thtitle="wołacz(o!)"scope="row">vocative</th><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82po&amp;action=edit&amp;redlink=1"class="new"title="małpo(pagedoesnotexist)">małpo</a></span></td><td><spanclass="Latn"lang="pl"><ahref="/w/index.php?title=ma%C5%82py&amp;action=edit&amp;redlink=1"class="new"title="małpy(pagedoesnotexist)">małpy</a></span></td></tr></tbody></table></div></div>')
+        parser.feed(
+            '<div class="group" title="fruit"><p>lemon</p><p>orange</p></div><div class="group" title="veg"><p>leek</p><p>okra</p></div>')
+
+        print("Output", parser.output)
+        # print("Data", parser.lsData)
+        # print("Start tags", parser.lsStartTags)
+        # print("End tags", parser.lsEndTags)
+        # print("Start End tags", parser.lsStartEndTags)
+        # print("Comments", parser.lsComments)
+
+        # write_output()
+        # sleep(2)
+
+
+class MyHTMLParser(HTMLParser):
+    # Initializing lists
+    lsStartTags = list()
+    lsEndTags = list()
+    lsStartEndTags = list()
+    lsComments = list()
+    lsData = list()
+    lsAll = list()
+    mode = None
+    location = None
+    el_count = 0
+    output = {}
+    keys = []
+    subkey = None
+
+    # HTML Parser Methods
+    def handle_starttag(self, startTag, attrs):
+        print("S TAG:", startTag)
+        self.lsStartTags.append(startTag)
+        self.lsAll.append(startTag)
+
+        if startTag == "div" and self.location == "insidediv":
+            self.el_count += 1
+
+        if startTag == "p" and self.location == "insidediv" and not self.el_count:
+            self.mode = "getdata"
+
+        for attr in attrs:
+            self.lsAll.append(attr)
+            if attr[0] == "title":
+                self.keys.append(attr[1])
+
+            if attr[0] == "class" and attr[1] == "group":
+                # self.mode = "getkey"
+                self.location = "insidediv"
+                self.el_count = 0
+
+    def handle_endtag(self, endTag):
+
+        if endTag == "div" and self.location == "insidediv":
+            if self.el_count:
+                self.el_count -= 1
+            else:
+                self.location = None
+
+        print("E TAG:", endTag)
+        self.lsEndTags.append(endTag)
+        self.lsAll.append(endTag)
+
+    def handle_startendtag(self, startendTag, attrs):
+        print("S/E TAG:", startendTag)
+        self.lsStartEndTags.append(startendTag)
+        self.lsAll.append(startendTag)
+
+    def handle_comment(self, data):
+        print("COMMENT:", data)
+        self.lsComments.append(data)
+        self.lsAll.append(data)
+
+    def handle_data(self, data):
+        if self.mode == "getkey":
+            self.keys.append(data)
+            self.mode = None
+
+        if self.mode == "getdata":
+            key = self.keys[-1]
+
+            if key not in self.output:
+                self.output[key] = []
+
+            self.output[key].append(data)
+            self.mode = None
+
+        print("DATA:", data)
+        self.lsData.append(data)
+        self.lsAll.append(data)
+
+
+def write_output(dict: dict = None):
+    if not dict:
+        dict = {
+            "singular": {
+                "nom": "małpa",
+                "gen": "małpy"
+            },
+            "plural": {
+                "nom": "małpy",
+                "gen": "małp"
+            },
+        }
+
+    json_object = json.dumps(dict, indent=4)
+
+    with open("output/sample.json", "w") as outfile:
+        outfile.write(json_object)
+
+
+if __name__ == '__main__':
+    parse()
