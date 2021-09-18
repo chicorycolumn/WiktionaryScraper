@@ -22,7 +22,7 @@ def parse(head_words: dict = None):
         with open('output/sample_małpa.html', 'r') as f:
             contents = f.read()
             print(type(contents))
-            parser.feed(contents)
+            parser.feed('<div><p>lemmesome</p></div>')
             print("Output", parser.output)
 
         parser.feed()
@@ -39,6 +39,8 @@ def parse(head_words: dict = None):
 
 class MyHTMLParser(HTMLParser):
     # Initializing lists
+    penultimatetag = None
+    lasttag_copy = None
     lsStartTags = list()
     lsEndTags = list()
     lsStartEndTags = list()
@@ -83,6 +85,8 @@ class MyHTMLParser(HTMLParser):
         # self.lsAll.append(data)
 
     def handle_starttag(self, startTag, attrs):
+        self.penultimatetag = self.lasttag_copy
+        self.lasttag_copy = startTag
         print("S TAG:", startTag)
         self.lsStartTags.append(startTag)
         self.lsAll.append(startTag)
@@ -170,7 +174,7 @@ def write_output(dict: dict = None):
 
     json_object = json.dumps(dict, indent=4)
 
-    with open("output/sample_małpa.json", "w") as outfile:
+    with open("output/sample.json", "w") as outfile:
         outfile.write(json_object)
 
 
