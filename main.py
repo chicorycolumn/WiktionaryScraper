@@ -67,7 +67,11 @@ class MyHTMLParser(HTMLParser):
                 word_index = int(self.mode.split("-")[1])
                 key = self.keys[word_index]
                 subkey = self.subkey
-                self.output[key][subkey] = data.strip()
+                if subkey not in self.output[key]:
+                    self.output[key][subkey] = data.strip()
+                else:
+                    self.output[key][subkey] = [self.output[key][subkey]]
+                    self.output[key][subkey].append(data.strip())
 
             if self.mode == "gettingkeys":
                 print(f"#GETTING {data.strip()}")
