@@ -56,7 +56,9 @@ class MyHTMLParser(HTMLParser):
 
         if data.strip():
             if self.mode and self.mode.split("-")[0] == "getword" and self.lasttag == "a":
-               self.output[self.keys[int(self.mode.split("-")[1])]][self.subkey] = data.strip()
+                word_index = int(self.mode.split("-")[1])
+                self.output[self.keys[word_index]][self.subkey] = data.strip()
+                self.mode = f"getword-{str(word_index+1)}"
 
             if self.mode == "gettingkeys":
                 print(f"#GETTING {data.strip()}")
@@ -121,12 +123,16 @@ class MyHTMLParser(HTMLParser):
         #         self.el_count = 0
 
     def handle_endtag(self, endTag):
+        if endTag == "tr":
+            if self.mode and self.mode.split("-")[0] == "getword":
+                print("#EXITING GETWORD")
+                self.mode = "getsubkey"
 
-        if endTag == "tr" and self.mode == "gettingkeys":
-            print("#EXITING HEADER TR")
-            for key in self.keys:
-                self.output[key] = {}
-            self.mode = "getsubkey"
+            elif self.mode == "gettingkeys":
+                print("#EXITING HEADER TR")
+                for key in self.keys:
+                    self.output[key] = {}
+                self.mode = "getsubkey"
 
         if endTag == "table" and self.location == "insidetable":
             if self.el_count:
