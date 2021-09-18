@@ -19,7 +19,7 @@ def parse(head_words: dict = None):
         # html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}#Polish")
         # parser.feed(str(html_page.read()))
 
-        with open('output/sample.html', 'r') as f:
+        with open('output/sample_małpa.html', 'r') as f:
             contents = f.read()
             print(type(contents))
             parser.feed(contents)
@@ -170,7 +170,7 @@ def write_output(dict: dict = None):
 
     json_object = json.dumps(dict, indent=4)
 
-    with open("output/sample.json", "w") as outfile:
+    with open("output/sample_małpa.json", "w") as outfile:
         outfile.write(json_object)
 
 
