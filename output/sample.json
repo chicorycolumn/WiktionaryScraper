@@ -1,10 +1,84 @@
 {
-    "singular": {
-        "nom": "ma\u0142pa",
-        "gen": "ma\u0142py"
+    "\\n": {
+        "nominative\\n": [
+            [
+                [
+                    "ma\\xc5\\x82pa",
+                    "\\n"
+                ],
+                "\\n"
+            ],
+            "ma\\xc5\\x82py"
+        ],
+        "genitive\\n": [
+            [
+                [
+                    "ma\\xc5\\x82py",
+                    "\\n"
+                ],
+                "\\n"
+            ],
+            "ma\\xc5\\x82p"
+        ],
+        "dative\\n": [
+            [
+                [
+                    "ma\\xc5\\x82pie",
+                    "\\n"
+                ],
+                "\\n"
+            ],
+            "ma\\xc5\\x82pom"
+        ],
+        "accusative\\n": [
+            [
+                [
+                    "ma\\xc5\\x82p\\xc4\\x99",
+                    "\\n"
+                ],
+                "\\n"
+            ],
+            "ma\\xc5\\x82py"
+        ],
+        "instrumental\\n": [
+            [
+                [
+                    "ma\\xc5\\x82p\\xc4\\x85",
+                    "\\n"
+                ],
+                "\\n"
+            ],
+            "ma\\xc5\\x82pami"
+        ],
+        "locative\\n": [
+            [
+                [
+                    "ma\\xc5\\x82pie",
+                    "\\n"
+                ],
+                "\\n"
+            ],
+            "ma\\xc5\\x82pach"
+        ],
+        "vocative\\n": [
+            [
+                [
+                    "ma\\xc5\\x82po",
+                    "\\n"
+                ],
+                "\\n"
+            ],
+            "ma\\xc5\\x82py"
+        ]
     },
-    "plural": {
-        "nom": "ma\u0142py",
-        "gen": "ma\u0142p"
-    }
+    "singular\\n": {
+        "nominative\\n": "\\n",
+        "genitive\\n": "\\n",
+        "dative\\n": "\\n",
+        "accusative\\n": "\\n",
+        "instrumental\\n": "\\n",
+        "locative\\n": "\\n",
+        "vocative\\n": "\\n"
+    },
+    "plural\\n": {}
 }

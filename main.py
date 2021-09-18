@@ -15,27 +15,29 @@ def parse(head_words: dict = None):
         head_words = ["małpa"]
 
     for head_word in head_words:
-        # print(datetime.now().strftime('%H:%M:%S'), f"{head_word} is being loaded up as a Wiktionary page.")
-        # html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}#Polish")
-        # parser.feed(str(html_page.read()))
+        html_string = html_from_head_word(head_word)
+        parser.feed(html_string)
+        if parser.output:
+            write_output(parser.output)
+        else:
+            print(f"# No output created for {head_word}")
 
-        with open('output/sample_cel.html', 'r') as f:
-            contents = f.read()
-            print(type(contents))
-            parser.feed(contents)
-            print("Output", parser.output)
-            print("")
+        # with open('output/sample_cel.html', 'r') as f:
+        #     contents = f.read()
+        #     print(type(contents))
+        #     parser.feed(contents)
+        #     print("Output", parser.output)
+        #     write_output(parser.output)
+        #     f.close()
 
-        # parser.feed()
-        print("Output", parser.output)
+        sleep(2)
+
         # print("Data", parser.lsData)
         # print("Start tags", parser.lsStartTags)
         # print("End tags", parser.lsEndTags)
         # print("Start End tags", parser.lsStartEndTags)
         # print("Comments", parser.lsComments)
 
-        # write_output()
-        # sleep(2)
 
 
 class MyHTMLParser(HTMLParser):
@@ -191,6 +193,12 @@ def write_output(dict: dict = None):
 
     with open("output/sample.json", "w") as outfile:
         outfile.write(json_object)
+
+
+def html_from_head_word(head_word):
+    print(datetime.now().strftime('%H:%M:%S'), f"{head_word} is being loaded up as a Wiktionary page.")
+    html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}")
+    return str(html_page.read())
 
 
 if __name__ == '__main__':
