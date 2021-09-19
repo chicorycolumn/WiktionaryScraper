@@ -29,6 +29,7 @@ def parse(head_words: dict = None, use_sample: bool = False):
             html_string = html_from_head_word(head_word)
             parse_inflection_tables.feed(html_string)
             output_arr = parse_inflection_tables.output_arr
+            parse_inflection_tables.output_arr = []
 
         if output_arr:
             print("Adding output_arr to result:", output_arr)
@@ -77,7 +78,7 @@ class MyHTMLParser(HTMLParser):
     def handle_data(self, data):
 
         if superstrip(data) and superstrip(data) not in ["/", ","]:
-            if self.location not in ["insideselectedlang", "insidetable"]:
+            if self.location != "insidetable":
                 if self.lasttag == "span" and self.penultimatetag == "h2":
                     lang_in_focus = superstrip(data).lower()
                     if lang_in_focus == self.selected_lang:
@@ -246,5 +247,5 @@ def double_decode(str):
 if __name__ == '__main__':
     # Sample ser has meanings in many languages, but we only want the Polish one.
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
-    parse(["rok"], True)
+    parse(["rok", "ser", "orzeł"], False)
     # write_output()
