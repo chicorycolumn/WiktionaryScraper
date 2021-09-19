@@ -69,7 +69,6 @@ class MyHTMLParser(HTMLParser):
 
     def reset_for_new_table(self):
         self.mode = None
-        self.location = None
         self.el_count = 0
         self.output = {}
         self.keys = []
@@ -77,12 +76,15 @@ class MyHTMLParser(HTMLParser):
 
     def handle_data(self, data):
 
-        if superstrip(data) and superstrip(data) != "/":
+        if superstrip(data) and superstrip(data) not in ["/", ","]:
             if self.location not in ["insideselectedlang", "insidetable"]:
-                if self.lasttag == "span" and self.penultimatetag == "h2" and superstrip(
-                        data).lower() == self.selected_lang:
-                    print(f"#------------------------>ENTERING SELECTED LANG", 'self.location = "insideselectedlang"')
-                    self.location = "insideselectedlang"
+                if self.lasttag == "span" and self.penultimatetag == "h2":
+                    lang_in_focus = superstrip(data).lower()
+                    if lang_in_focus == self.selected_lang:
+                        print(f"#------------------------>ENTERING SELECTED LANG", 'self.location = "insideselectedlang"')
+                        self.location = "insideselectedlang"
+                    else:
+                        self.location = None
 
             if self.mode and self.mode.split("-")[0] == "getword" and self.lasttag == "a":
                 word_index = int(self.mode.split("-")[1])
@@ -179,7 +181,7 @@ class MyHTMLParser(HTMLParser):
             if self.el_count:
                 self.el_count -= 1
             else:
-                self.location = None
+                self.location = "insideselectedlang"
                 self.output_arr.append(self.output)
                 self.reset_for_new_table()
 
@@ -214,7 +216,7 @@ def write_output(dict: dict = None):
     # json_object = json.dumps(dict, indent=4)
     json_object = json.dumps(dict, indent=4, ensure_ascii=False)
 
-    with open("output/sample.json", "w") as outfile:
+    with open("output/output.json", "w") as outfile:
         outfile.write(json_object)
 
 
