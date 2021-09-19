@@ -233,7 +233,7 @@ def superstrip(str):
 
 
 def double_decode(str):
-    return str.encode('ascii').decode('unicode-escape').encode('iso-8859-1').decode('utf-8')
+    return str.encode('utf-8').decode('unicode-escape').encode('iso-8859-1').decode('utf-8')
     # source: https://stackoverflow.com/a/49756591
     # 1. actually any encoding support printable ASCII would work, for example utf-8
     # 2. unescape the string, see https://stackoverflow.com/a/1885197
@@ -244,5 +244,5 @@ def double_decode(str):
 if __name__ == '__main__':
     # Sample ser has meanings in many languages, but we only want the Polish one.
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
-    parse(["ser"], False)
+    parse(["rok"], True)
     # write_output()
