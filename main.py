@@ -14,6 +14,8 @@ def parse(head_words: dict = None, use_sample: bool = False):
     if not head_words:
         head_words = ["małpa"]
 
+    result = {}
+
     for head_word in head_words:
         output = None
 
@@ -30,11 +32,13 @@ def parse(head_words: dict = None, use_sample: bool = False):
 
         if output:
             print("Writing output:", output)
-            write_output(output)
+            result[head_word] = [output]
         else:
             print(f"# No output created for {head_word}")
 
         sleep(2)
+
+    write_output(result)
 
         # print("Data", parser.lsData)
         # print("Start tags", parser.lsStartTags)
@@ -58,9 +62,18 @@ class MyHTMLParser(HTMLParser):
     location = None
     el_count = 0
     output = {}
+    output_arr = []
     keys = []
     subkey = None
     selected_lang = "polish"
+
+    def reset_for_new_table(self):
+        self.mode = None
+        self.location = None
+        self.el_count = 0
+        self.output = {}
+        self.keys = []
+        self.subkey = None
 
     def handle_data(self, data):
 
@@ -164,6 +177,8 @@ class MyHTMLParser(HTMLParser):
                 self.el_count -= 1
             else:
                 self.location = None
+                self.output_arr.append(self.output)
+                self.reset_for_new_table()
 
         print("E TAG:", endTag)
         self.lsEndTags.append(endTag)
@@ -223,5 +238,7 @@ def double_decode(str):
     # 4. finally decode again
 
 if __name__ == '__main__':
-    parse(["kierowca", "jabłko"], False)
+    # Sample ser has meanings in many languages, but we only want the Polish one.
+    # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
+    parse(["ser"], False)
     # write_output()
