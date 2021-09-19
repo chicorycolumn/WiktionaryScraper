@@ -9,7 +9,7 @@ from time import sleep
 
 
 def parse(head_words: dict = None, use_sample: bool = False):
-    parse_inflection_tables = MyHTMLParser()
+    parse_inflection_tables = MyHTMLParser(convert_charrefs=False)
 
     if not head_words:
         head_words = ["małpa"]
@@ -74,18 +74,18 @@ class MyHTMLParser(HTMLParser):
                 key = self.keys[word_index]
                 subkey = self.subkey
                 if subkey not in self.output[key]:
-                    self.output[key][subkey] = superstrip(data)
+                    self.output[key][subkey] = orth(data)
                 else:
                     self.output[key][subkey] = [self.output[key][subkey]]
-                    self.output[key][subkey].append(superstrip(data))
+                    self.output[key][subkey].append(orth(data))
 
             if self.mode == "gettingkeys":
-                print(f"#GETTING {superstrip(data)}")
-                self.keys.append(superstrip(data))
+                print(f"#GETTING {orth(data)}")
+                self.keys.append(orth(data))
 
             if self.mode == "gettingsubkey":
-                print(f"#GETTING {superstrip(data)}")
-                self.subkey = superstrip(data)
+                print(f"#GETTING {orth(data)}")
+                self.subkey = orth(data)
                 self.mode = "getword-0"
 
         # if self.mode == "getdata":
@@ -184,16 +184,17 @@ def write_output(dict: dict = None):
     if not dict:
         dict = {
             "singular": {
-                "nom": "małpa",
-                "gen": "małpy"
+                "nom": "ma\\xc5\\x82pa",
+                "acc": "ma\\xc5\\x82p\\xc4\\x99"
             },
-            "plural": {
-                "nom": "małpy",
-                "gen": "małp"
-            },
+            # "plural": {
+            #     "nom": "małpy",
+            #     "gen": "małp"
+            # },
         }
 
-    json_object = json.dumps(dict, indent=4)
+    # json_object = json.dumps(dict, indent=4)
+    json_object = json.dumps(dict, indent=4, ensure_ascii=False)
 
     with open("output/sample.json", "w") as outfile:
         outfile.write(json_object)
@@ -205,9 +206,22 @@ def html_from_head_word(head_word):
     return str(html_page.read())
 
 
+def orth(str):
+    return double_decode(superstrip(str))
+
+
 def superstrip(str):
     return str.replace("\\n", "").strip()
 
 
+def double_decode(str):
+    return str.encode('ascii').decode('unicode-escape').encode('iso-8859-1').decode('utf-8')
+    # source: https://stackoverflow.com/a/49756591
+    # 1. actually any encoding support printable ASCII would work, for example utf-8
+    # 2. unescape the string, see https://stackoverflow.com/a/1885197
+    # 3. latin-1 also works, see https://stackoverflow.com/q/7048745
+    # 4. finally decode again
+
 if __name__ == '__main__':
-    parse(None, False)
+    parse(["kierowca", "jabłko"], False)
+    # write_output()
