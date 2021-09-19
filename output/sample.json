@@ -1,84 +1,20 @@
 {
-    "\\n": {
-        "nominative\\n": [
-            [
-                [
-                    "ma\\xc5\\x82pa",
-                    "\\n"
-                ],
-                "\\n"
-            ],
-            "ma\\xc5\\x82py"
-        ],
-        "genitive\\n": [
-            [
-                [
-                    "ma\\xc5\\x82py",
-                    "\\n"
-                ],
-                "\\n"
-            ],
-            "ma\\xc5\\x82p"
-        ],
-        "dative\\n": [
-            [
-                [
-                    "ma\\xc5\\x82pie",
-                    "\\n"
-                ],
-                "\\n"
-            ],
-            "ma\\xc5\\x82pom"
-        ],
-        "accusative\\n": [
-            [
-                [
-                    "ma\\xc5\\x82p\\xc4\\x99",
-                    "\\n"
-                ],
-                "\\n"
-            ],
-            "ma\\xc5\\x82py"
-        ],
-        "instrumental\\n": [
-            [
-                [
-                    "ma\\xc5\\x82p\\xc4\\x85",
-                    "\\n"
-                ],
-                "\\n"
-            ],
-            "ma\\xc5\\x82pami"
-        ],
-        "locative\\n": [
-            [
-                [
-                    "ma\\xc5\\x82pie",
-                    "\\n"
-                ],
-                "\\n"
-            ],
-            "ma\\xc5\\x82pach"
-        ],
-        "vocative\\n": [
-            [
-                [
-                    "ma\\xc5\\x82po",
-                    "\\n"
-                ],
-                "\\n"
-            ],
-            "ma\\xc5\\x82py"
-        ]
+    "singular": {
+        "nominative": "ma\\xc5\\x82pa",
+        "genitive": "ma\\xc5\\x82py",
+        "dative": "ma\\xc5\\x82pie",
+        "accusative": "ma\\xc5\\x82p\\xc4\\x99",
+        "instrumental": "ma\\xc5\\x82p\\xc4\\x85",
+        "locative": "ma\\xc5\\x82pie",
+        "vocative": "ma\\xc5\\x82po"
     },
-    "singular\\n": {
-        "nominative\\n": "\\n",
-        "genitive\\n": "\\n",
-        "dative\\n": "\\n",
-        "accusative\\n": "\\n",
-        "instrumental\\n": "\\n",
-        "locative\\n": "\\n",
-        "vocative\\n": "\\n"
-    },
-    "plural\\n": {}
+    "plural": {
+        "nominative": "ma\\xc5\\x82py",
+        "genitive": "ma\\xc5\\x82p",
+        "dative": "ma\\xc5\\x82pom",
+        "accusative": "ma\\xc5\\x82py",
+        "instrumental": "ma\\xc5\\x82pami",
+        "locative": "ma\\xc5\\x82pach",
+        "vocative": "ma\\xc5\\x82py"
+    }
 }

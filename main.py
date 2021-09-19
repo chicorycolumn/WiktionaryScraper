@@ -8,27 +8,31 @@ from datetime import datetime
 from time import sleep
 
 
-def parse(head_words: dict = None):
-    parser = MyHTMLParser()
+def parse(head_words: dict = None, use_sample: bool = False):
+    parse_inflection_tables = MyHTMLParser()
 
     if not head_words:
         head_words = ["małpa"]
 
     for head_word in head_words:
-        html_string = html_from_head_word(head_word)
-        parser.feed(html_string)
-        if parser.output:
-            write_output(parser.output)
+        output = None
+
+        if use_sample:
+            with open(f'output/sample_{head_word}.html', 'r') as f:
+                contents = f.read()
+                parse_inflection_tables.feed(contents)
+                output = parse_inflection_tables.output
+                f.close()
+        else:
+            html_string = html_from_head_word(head_word)
+            parse_inflection_tables.feed(html_string)
+            output = parse_inflection_tables.output
+
+        if output:
+            print("Writing output:", output)
+            write_output(output)
         else:
             print(f"# No output created for {head_word}")
-
-        # with open('output/sample_cel.html', 'r') as f:
-        #     contents = f.read()
-        #     print(type(contents))
-        #     parser.feed(contents)
-        #     print("Output", parser.output)
-        #     write_output(parser.output)
-        #     f.close()
 
         sleep(2)
 
@@ -60,9 +64,9 @@ class MyHTMLParser(HTMLParser):
 
     def handle_data(self, data):
 
-        if data.strip() and data.strip() != "/":
+        if superstrip(data) and superstrip(data) != "/":
             if self.location not in ["insideselectedlang", "insidetable"]:
-                if self.lasttag == "span" and self.penultimatetag == "h2" and data.strip().lower() == self.selected_lang:
+                if self.lasttag == "span" and self.penultimatetag == "h2" and superstrip(data).lower() == self.selected_lang:
                     self.location = "insideselectedlang"
 
             if self.mode and self.mode.split("-")[0] == "getword" and self.lasttag == "a":
@@ -70,18 +74,18 @@ class MyHTMLParser(HTMLParser):
                 key = self.keys[word_index]
                 subkey = self.subkey
                 if subkey not in self.output[key]:
-                    self.output[key][subkey] = data.strip()
+                    self.output[key][subkey] = superstrip(data)
                 else:
                     self.output[key][subkey] = [self.output[key][subkey]]
-                    self.output[key][subkey].append(data.strip())
+                    self.output[key][subkey].append(superstrip(data))
 
             if self.mode == "gettingkeys":
-                print(f"#GETTING {data.strip()}")
-                self.keys.append(data.strip())
+                print(f"#GETTING {superstrip(data)}")
+                self.keys.append(superstrip(data))
 
             if self.mode == "gettingsubkey":
-                print(f"#GETTING {data.strip()}")
-                self.subkey = data.strip()
+                print(f"#GETTING {superstrip(data)}")
+                self.subkey = superstrip(data)
                 self.mode = "getword-0"
 
         # if self.mode == "getdata":
@@ -201,5 +205,9 @@ def html_from_head_word(head_word):
     return str(html_page.read())
 
 
+def superstrip(str):
+    return str.replace("\\n", "").strip()
+
+
 if __name__ == '__main__':
-    parse()
+    parse(None, False)
