@@ -1,6 +1,24 @@
 {
-    "singular": {
-        "nom": "ma\\xc5\\x82pa",
-        "acc": "ma\\xc5\\x82p\\xc4\\x99"
-    }
+    "ser": [
+        {
+            "singular": {
+                "nominative": "ser",
+                "genitive": "sera",
+                "dative": "serowi",
+                "accusative": "ser",
+                "instrumental": "serem",
+                "locative": "serze",
+                "vocative": "serze"
+            },
+            "plural": {
+                "nominative": "sery",
+                "genitive": "serów",
+                "dative": "serom",
+                "accusative": "sery",
+                "instrumental": "serami",
+                "locative": "serach",
+                "vocative": "sery"
+            }
+        }
+    ]
 }
