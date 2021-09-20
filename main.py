@@ -62,7 +62,8 @@ class MyHTMLParser(HTMLParser):
     mode = None
     location = None
     el_count = 0
-    output = {}
+    output_obj = {"gender": None, "definition": None, "inflections": {}}
+    inflections = {}
     output_arr = []
     keys = []
     subkey = None
@@ -71,13 +72,19 @@ class MyHTMLParser(HTMLParser):
     def reset_for_new_table(self):
         self.mode = None
         self.el_count = 0
-        self.output = {}
+        self.inflections = {}
+        self.output_obj = {"gender": None, "definition": None, "inflections": {}}
         self.keys = []
         self.subkey = None
 
     def handle_data(self, data):
-
         if superstrip(data) and superstrip(data) not in ["/", ","]:
+            if self.mode == "getgender":
+                if self.output_obj["gender"]:
+                    self.output_obj["gender"] += f" {orth(data)}"
+                else:
+                    self.output_obj["gender"] = orth(data)
+
             if self.location != "insidetable":
                 if self.lasttag == "span" and self.penultimatetag == "h2":
                     lang_in_focus = superstrip(data).lower()
@@ -91,11 +98,11 @@ class MyHTMLParser(HTMLParser):
                 word_index = int(self.mode.split("-")[1])
                 key = self.keys[word_index]
                 subkey = self.subkey
-                if subkey not in self.output[key]:
-                    self.output[key][subkey] = orth(data)
+                if subkey not in self.inflections[key]:
+                    self.inflections[key][subkey] = orth(data)
                 else:
-                    self.output[key][subkey] = [self.output[key][subkey]]
-                    self.output[key][subkey].append(orth(data))
+                    self.inflections[key][subkey] = [self.inflections[key][subkey]]
+                    self.inflections[key][subkey].append(orth(data))
 
             if self.mode == "gettingkeys":
                 print(f"#------------------------>GETTING {orth(data)}")
@@ -142,12 +149,19 @@ class MyHTMLParser(HTMLParser):
             if startTag == "table":
                 self.el_count += 1
 
-        elif startTag == "table" and self.location == "insideselectedlang":
-            for attr in attrs:
-                print("attr", attr)
-                if attr[0] == "class" and attr[1] == "wikitable inflection-table":
-                    print("#------------------------>ENTERING INFLECTION TABLE", 'self.location = "insidetable""')
-                    self.location = "insidetable"
+        elif self.location == "insideselectedlang":
+            if startTag == "span" and self.penultimatetag == "strong":
+                for attr in attrs:
+                    if attr[0] == "class" and attr[1] == "gender":
+                        print("#------------------------>GET GENDER", 'self.mode = "getgender"')
+                        self.mode = "getgender"
+
+            elif startTag == "table":
+                for attr in attrs:
+                    print("attr", attr)
+                    if attr[0] == "class" and attr[1] == "wikitable inflection-table":
+                        print("#------------------------>ENTERING INFLECTION TABLE", 'self.location = "insidetable""')
+                        self.location = "insidetable"
 
         # if startTag == "p" and self.location == "insidediv" and not self.el_count:
         #     self.mode = "getdata"
@@ -163,6 +177,9 @@ class MyHTMLParser(HTMLParser):
         #         self.el_count = 0
 
     def handle_endtag(self, endTag):
+        if endTag == "span" and self.mode == "getgender":
+            self.mode = None
+
         if endTag == "span" and self.mode and self.mode.split("-")[0] == "getword":
             word_index = int(self.mode.split("-")[1])
             self.mode = f"getword-{str(word_index + 1)}"
@@ -175,7 +192,7 @@ class MyHTMLParser(HTMLParser):
             elif self.mode == "gettingkeys":
                 print("#------------------------>EXITING HEADER TR")
                 for key in self.keys:
-                    self.output[key] = {}
+                    self.inflections[key] = {}
                 self.mode = "getsubkey"
 
         if endTag == "table" and self.location == "insidetable":
@@ -183,7 +200,8 @@ class MyHTMLParser(HTMLParser):
                 self.el_count -= 1
             else:
                 self.location = "insideselectedlang"
-                self.output_arr.append(self.output)
+                self.output_obj["inflections"] = self.inflections
+                self.output_arr.append(self.output_obj)
                 self.reset_for_new_table()
 
         print("E TAG:", endTag)
@@ -247,5 +265,5 @@ def double_decode(str):
 if __name__ == '__main__':
     # Sample ser has meanings in many languages, but we only want the Polish one.
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
-    parse(["rok", "ser", "orzeł"], False)
+    parse(["rok", "ser", "małpa"], True)
     # write_output()
