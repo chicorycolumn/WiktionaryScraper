@@ -77,6 +77,13 @@ class MyHTMLParser(HTMLParser):
         self.keys = []
         self.subkey = None
 
+
+    def reset_for_new_word(self):
+        self.reset_for_new_table()
+        self.output_arr = []
+        self.keys = []
+
+
     def handle_data(self, data):
         if superstrip(data) and superstrip(data) not in ["/", ","]:
             if self.mode == "getgender":
@@ -132,6 +139,9 @@ class MyHTMLParser(HTMLParser):
         print("S TAG:", startTag)
         self.lsStartTags.append(startTag)
         self.lsAll.append(startTag)
+
+        if startTag == "html":
+            self.reset_for_new_word()
 
         if self.location == "insidetable":
             if startTag == "th" and self.mode == "getsubkey":
