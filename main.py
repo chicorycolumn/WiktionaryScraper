@@ -62,20 +62,23 @@ class MyHTMLParser(HTMLParser):
     mode = None
     location = None
     el_count = 0
-    output_obj = {"gender": None, "definition": None, "inflections": {}}
+    output_obj = {"gender": None, "definitions": [], "usage": [], "inflections": {}}
     inflections = {}
     output_arr = []
     keys = []
     subkey = None
     selected_lang = "polish"
+    current_definition = None
+    current_usage = None
 
     def reset_for_new_table(self):
         self.mode = None
         self.el_count = 0
         self.inflections = {}
-        self.output_obj = {"gender": None, "definition": None, "inflections": {}}
+        self.output_obj = {"gender": None, "definitions": [], "usage": [], "inflections": {}}
         self.keys = []
         self.subkey = None
+        self.current_definition = None
 
 
     def reset_for_new_word(self):
@@ -86,6 +89,19 @@ class MyHTMLParser(HTMLParser):
 
     def handle_data(self, data):
         if superstrip(data) and superstrip(data) not in ["/", ","]:
+
+            if self.mode == "gettingusage":
+                if self.current_usage:
+                    self.current_usage += f" {orth(data)}"
+                else:
+                    self.current_usage = orth(data)
+
+            if self.mode == "gettingdefinition":
+                if self.current_definition:
+                    self.current_definition += f" {orth(data)}"
+                else:
+                    self.current_definition = orth(data)
+
             if self.mode == "getgender":
                 if self.output_obj["gender"]:
                     self.output_obj["gender"] += f" {orth(data)}"
@@ -140,6 +156,12 @@ class MyHTMLParser(HTMLParser):
         self.lsStartTags.append(startTag)
         self.lsAll.append(startTag)
 
+        if self.mode == "gettingdefinition" and startTag == "dd":
+            self.mode = "gettingusage"
+
+        if self.mode == "getdefinitions" and startTag == "li":
+            self.mode = "gettingdefinition"
+
         if startTag == "html":
             self.reset_for_new_word()
 
@@ -187,8 +209,21 @@ class MyHTMLParser(HTMLParser):
         #         self.el_count = 0
 
     def handle_endtag(self, endTag):
-        if endTag == "span" and self.mode == "getgender":
+        if self.mode == "gettingusage" and endTag == "dd":
+            self.mode = "gettingdefinition"
+            self.output_obj["usage"].append(self.current_usage)
+            self.current_usage = None
+
+        if self.mode == "gettingdefinition" and endTag == "li":
+            self.output_obj["definitions"].append(self.current_definition)
+            self.current_definition = None
+            self.mode = "getdefinitions"
+
+        if endTag == "ol" and self.mode == "getdefinitions":
             self.mode = None
+
+        if endTag == "span" and self.mode == "getgender":
+            self.mode = "getdefinitions"
 
         if endTag == "span" and self.mode and self.mode.split("-")[0] == "getword":
             word_index = int(self.mode.split("-")[1])
