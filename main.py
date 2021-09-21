@@ -6,6 +6,7 @@ import urllib.request as urllib2
 import urllib as urllib
 from datetime import datetime
 from time import sleep
+import re
 
 
 def parse(head_words: dict = None, use_sample: bool = False):
@@ -37,7 +38,8 @@ def parse(head_words: dict = None, use_sample: bool = False):
         else:
             print(f"# No output created for {head_word}")
 
-        sleep(2)
+        if not use_sample:
+            sleep(2)
 
     print("Writing result.")
     write_output(result)
@@ -62,7 +64,7 @@ class MyHTMLParser(HTMLParser):
     mode = None
     location = None
     el_count = 0
-    output_obj = {"gender": None, "definitions": [], "usage": [], "inflections": {}}
+    output_obj = {"gender": None, "definitions": [], "usage": [], "otherShapes": {}, "inflections": {}}
     inflections = {}
     output_arr = []
     keys = []
@@ -70,15 +72,20 @@ class MyHTMLParser(HTMLParser):
     selected_lang = "polish"
     current_definition = None
     current_usage = None
+    current_other_shape_key = None
+    current_other_shape_value = None
 
     def reset_for_new_table(self):
         self.mode = None
         self.el_count = 0
         self.inflections = {}
-        self.output_obj = {"gender": None, "definitions": [], "usage": [], "inflections": {}}
+        self.output_obj = {"gender": None, "definitions": [], "usage": [], "otherShapes": {}, "inflections": {}}
         self.keys = []
         self.subkey = None
         self.current_definition = None
+        self.current_usage = None
+        self.current_other_shape_key = None
+        self.current_other_shape_value = None
 
 
     def reset_for_new_word(self):
@@ -101,6 +108,12 @@ class MyHTMLParser(HTMLParser):
                     self.current_definition += f" {orth(data)}"
                 else:
                     self.current_definition = orth(data)
+
+            if self.mode == "getothershapes-value":
+                self.current_other_shape_value = orth(data)
+
+            if self.mode == "getothershapes-key":
+                self.current_other_shape_key = orth(data)
 
             if self.mode == "getgender":
                 if self.output_obj["gender"]:
@@ -162,6 +175,15 @@ class MyHTMLParser(HTMLParser):
         if self.mode == "getdefinitions" and startTag == "li":
             self.mode = "gettingdefinition"
 
+        if self.mode and self.mode.startswith("getothershapes") and startTag == "ol":
+            self.mode = "getdefinitions"
+
+        if self.mode == "getothershapes" and startTag == "b":
+            self.mode = "getothershapes-value"
+
+        if self.mode == "getothershapes" and startTag == "i":
+            self.mode = "getothershapes-key"
+
         if startTag == "html":
             self.reset_for_new_word()
 
@@ -222,8 +244,13 @@ class MyHTMLParser(HTMLParser):
         if endTag == "ol" and self.mode == "getdefinitions":
             self.mode = None
 
+        if self.mode and self.mode.startswith("getothershapes") and endTag == "b":
+            self.output_obj["otherShapes"][self.current_other_shape_key] = self.current_other_shape_value
+            self.current_other_shape_key = None
+            self.current_other_shape_value = None
+
         if endTag == "span" and self.mode == "getgender":
-            self.mode = "getdefinitions"
+            self.mode = "getothershapes"
 
         if endTag == "span" and self.mode and self.mode.split("-")[0] == "getword":
             word_index = int(self.mode.split("-")[1])
@@ -299,6 +326,7 @@ def superstrip(str):
 
 
 def double_decode(str):
+    str = re.sub(r"\s\s", "", str)
     return str.encode('utf-8').decode('unicode-escape').encode('iso-8859-1').decode('utf-8')
     # source: https://stackoverflow.com/a/49756591
     # 1. actually any encoding support printable ASCII would work, for example utf-8
