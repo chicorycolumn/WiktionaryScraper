@@ -293,10 +293,7 @@ def html_from_head_word(head_word):
 
 
 def brackets_to_end(s):
-    arr = s.split(" ")
-    if arr[0].startswith("("):
-        arr.append(arr.pop(0))
-    return str.join(" ", arr)
+    return re.sub(r"(?P<bracketed>\(.+\))\s(?P<nonbracketed>.+$)", r"\g<nonbracketed> \g<bracketed>", s)
 
 
 def trim_around_brackets(str):
@@ -328,5 +325,5 @@ if __name__ == '__main__':
     # Sample ser has meanings in many languages, but we only want the Polish one.
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
     # Sample baba has multiple other shapes.
-    parse(["baba", "cel", "małpa", "rok", "ser"], True)
+    parse(["baba"], True)
     # write_output()
