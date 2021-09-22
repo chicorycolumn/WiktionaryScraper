@@ -44,12 +44,6 @@ def parse(head_words: dict = None, use_sample: bool = False):
     print("Writing result.")
     write_output(result)
 
-    # print("Data", parser.lsData)
-    # print("Start tags", parser.lsStartTags)
-    # print("End tags", parser.lsEndTags)
-    # print("Start End tags", parser.lsStartEndTags)
-    # print("Comments", parser.lsComments)
-
 
 class MyHTMLParser(HTMLParser):
     # Initializing lists
@@ -161,19 +155,6 @@ class MyHTMLParser(HTMLParser):
                 self.subkey = orth(data)
                 self.mode = "getword-0"
 
-        # if self.mode == "getdata":
-        #     key = self.keys[-1]
-        #
-        #     if key not in self.output:
-        #         self.output[key] = []
-        #
-        #     self.output[key].append(data)
-        #     self.mode = None
-        #
-        # print("DATA:", data)
-        # self.lsData.append(data)
-        # self.lsAll.append(data)
-
     def handle_starttag(self, startTag, attrs):
         self.penultimatetag = self.lasttag_copy
         self.lasttag_copy = startTag
@@ -228,19 +209,6 @@ class MyHTMLParser(HTMLParser):
                     if attr[0] == "class" and attr[1] == "wikitable inflection-table":
                         print("#------------------------>ENTERING INFLECTION TABLE", 'self.location = "insidetable""')
                         self.location = "insidetable"
-
-        # if startTag == "p" and self.location == "insidediv" and not self.el_count:
-        #     self.mode = "getdata"
-
-        # for attr in attrs:
-        #     self.lsAll.append(attr)
-        #     if attr[0] == "title":
-        #         self.keys.append(attr[1])
-        #
-        #     if attr[0] == "class" and attr[1] == "group":
-        #         # self.mode = "getkey"
-        #         self.location = "insidediv"
-        #         self.el_count = 0
 
     def handle_endtag(self, endTag):
         if self.mode == "gettingusage" and endTag == "dd":
@@ -310,13 +278,8 @@ def write_output(dict: dict = None):
                 "nom": "ma\\xc5\\x82pa",
                 "acc": "ma\\xc5\\x82p\\xc4\\x99"
             },
-            # "plural": {
-            #     "nom": "małpy",
-            #     "gen": "małp"
-            # },
         }
 
-    # json_object = json.dumps(dict, indent=4)
     json_object = json.dumps(dict, indent=4, ensure_ascii=False)
 
     with open("output/output.json", "w") as outfile:
