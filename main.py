@@ -73,7 +73,9 @@ class MyHTMLParser(HTMLParser):
     current_definition = None
     current_usage = None
     current_other_shape_key = None
-    current_other_shape_value = None
+    current_other_shape_value = []
+    ignorable_narrow = [",", "/", "(", ")"]
+    ignorable_broad = ignorable_narrow + ["or", "and"]
 
     def reset_for_new_table(self):
         self.mode = None
@@ -85,7 +87,7 @@ class MyHTMLParser(HTMLParser):
         self.current_definition = None
         self.current_usage = None
         self.current_other_shape_key = None
-        self.current_other_shape_value = None
+        self.current_other_shape_value = []
 
 
     def reset_for_new_word(self):
@@ -109,10 +111,20 @@ class MyHTMLParser(HTMLParser):
                 else:
                     self.current_definition = orth(data)
 
-            if self.mode == "getothershapes-value":
-                self.current_other_shape_value = orth(data)
+            if self.mode and self.mode.startswith("getothershapes") \
+                    and self.lasttag == "i" \
+                    and orth(data) not in ["or", ",", "/"] \
+                    and self.current_other_shape_key \
+                    and self.current_other_shape_value:
+                self.output_obj["otherShapes"][self.current_other_shape_key] = self.current_other_shape_value
+                self.current_other_shape_key = None
+                self.current_other_shape_value = []
+                self.mode = "getothershapes-key"
 
-            if self.mode == "getothershapes-key":
+            if self.mode == "getothershapes-value" and orth(data) and orth(data) not in self.ignorable_broad:
+                self.current_other_shape_value.append(orth(data))
+
+            if self.mode == "getothershapes-key": #Not an elif.
                 self.current_other_shape_key = orth(data)
 
             if self.mode == "getgender":
@@ -237,17 +249,17 @@ class MyHTMLParser(HTMLParser):
             self.current_usage = None
 
         if self.mode == "gettingdefinition" and endTag == "li":
-            self.output_obj["definitions"].append(self.current_definition)
+            self.output_obj["definitions"].append(trim_around_brackets(self.current_definition))
             self.current_definition = None
             self.mode = "getdefinitions"
 
         if endTag == "ol" and self.mode == "getdefinitions":
             self.mode = None
 
-        if self.mode and self.mode.startswith("getothershapes") and endTag == "b":
+        if self.mode and self.mode.startswith("getothershapes") and endTag == "p":
             self.output_obj["otherShapes"][self.current_other_shape_key] = self.current_other_shape_value
             self.current_other_shape_key = None
-            self.current_other_shape_value = None
+            self.current_other_shape_value = []
 
         if endTag == "span" and self.mode == "getgender":
             self.mode = "getothershapes"
@@ -317,6 +329,12 @@ def html_from_head_word(head_word):
     return str(html_page.read())
 
 
+def trim_around_brackets(str):
+    str = re.sub(r"\(\s(\w)", "(\g<1>", str)
+    str = re.sub(r"(\w)\s\)", "\g<1>)", str)
+    return str
+
+
 def orth(str):
     return double_decode(superstrip(str))
 
@@ -338,5 +356,5 @@ def double_decode(str):
 if __name__ == '__main__':
     # Sample ser has meanings in many languages, but we only want the Polish one.
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
-    parse(["rok", "ser", "małpa"], True)
+    parse(["baba"], True)
     # write_output()
