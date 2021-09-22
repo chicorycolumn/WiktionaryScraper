@@ -178,7 +178,7 @@ class MyHTMLParser(HTMLParser):
         if self.mode and self.mode.startswith("getothershapes") and startTag == "ol":
             self.mode = "getdefinitions"
 
-        if self.mode == "getothershapes" and startTag == "b":
+        if self.mode == "getothershapes-key" and startTag == "b":
             self.mode = "getothershapes-value"
 
         if self.mode == "getothershapes" and startTag == "i":
