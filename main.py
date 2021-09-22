@@ -46,7 +46,6 @@ def parse(head_words: dict = None, use_sample: bool = False):
 
 
 class MyHTMLParser(HTMLParser):
-    # Initializing lists
     penultimatetag = None
     lasttag_copy = None
     lsStartTags = list()
@@ -328,5 +327,6 @@ def double_decode(str):
 if __name__ == '__main__':
     # Sample ser has meanings in many languages, but we only want the Polish one.
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
-    parse(["baba"], True)
+    # Sample baba has multiple other shapes.
+    parse(["baba", "cel", "małpa", "rok", "ser"], True)
     # write_output()
