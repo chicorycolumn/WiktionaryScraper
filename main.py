@@ -217,7 +217,8 @@ class MyHTMLParser(HTMLParser):
             self.current_usage = None
 
         if self.mode == "gettingdefinition" and endTag == "li":
-            self.output_obj["definitions"].append(trim_around_brackets(self.current_definition))
+            definition = brackets_to_end(trim_around_brackets(self.current_definition))
+            self.output_obj["definitions"].append(definition)
             self.current_definition = None
             self.mode = "getdefinitions"
 
@@ -292,9 +293,17 @@ def html_from_head_word(head_word):
     return str(html_page.read())
 
 
+def brackets_to_end(s):
+    arr = s.split(" ")
+    if arr[0].startswith("("):
+        arr.append(arr.pop(0))
+    return str.join(" ", arr)
+
+
 def trim_around_brackets(str):
     str = re.sub(r"\(\s(\w)", "(\g<1>", str)
     str = re.sub(r"(\w)\s\)", "\g<1>)", str)
+    str = re.sub(r"(\w)\s,", "\g<1>,", str)
     return str
 
 
