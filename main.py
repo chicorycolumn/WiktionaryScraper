@@ -92,6 +92,14 @@ class MyHTMLParser(HTMLParser):
     def handle_data(self, data):
         if superstrip(data) and superstrip(data) not in ["/", ","]:
 
+            if self.mode == "getderivedterms" and self.lasttag == "a":
+                if not self.output_arr[-1]["derivedTerms"]:
+                    self.output_arr[-1]["derivedTerms"] = []
+                self.output_arr[-1]["derivedTerms"].append(orth(data))
+
+            if self.location == "insideselectedlang" and orth(data) == "Derived terms" and self.penultimatetag == "h5":
+                self.mode = "getderivedterms"
+
             if self.mode == "gettingusage":
                 if self.current_usage:
                     self.current_usage += f" {orth(data)}"
@@ -160,6 +168,9 @@ class MyHTMLParser(HTMLParser):
         print("S TAG:", startTag)
         self.lsStartTags.append(startTag)
         self.lsAll.append(startTag)
+
+        if self.mode == "getderivedterms" and startTag in ["h1", "h2", "h3", "h4", "h5"]:
+            self.mode = None
 
         if self.mode == "gettingdefinition" and startTag == "dd":
             self.mode = "gettingusage"
@@ -325,5 +336,5 @@ if __name__ == '__main__':
     # Sample ser has meanings in many languages, but we only want the Polish one.
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
     # Sample baba has multiple other shapes.
-    parse(["baba"], True)
+    parse(["małpa"], True)
     # write_output()
