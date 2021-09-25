@@ -57,7 +57,7 @@ class MyHTMLParser(HTMLParser):
     mode = None
     location = None
     el_count = 0
-    output_obj = {"gender": None, "definitions": [], "usage": [], "otherShapes": {}, "inflections": {}}
+    output_obj = {"gender": None, "definitions": [], "usage": [], "otherShapes": {}, "derivedTerms": [], "inflections": {}}
     inflections = {}
     output_arr = []
     keys = []
@@ -74,7 +74,7 @@ class MyHTMLParser(HTMLParser):
         self.mode = None
         self.el_count = 0
         self.inflections = {}
-        self.output_obj = {"gender": None, "definitions": [], "usage": [], "otherShapes": {}, "inflections": {}}
+        self.output_obj = {"gender": None, "definitions": [], "usage": [], "otherShapes": {}, "derivedTerms": [], "inflections": {}}
         self.keys = []
         self.subkey = None
         self.current_definition = None
@@ -92,13 +92,12 @@ class MyHTMLParser(HTMLParser):
     def handle_data(self, data):
         if superstrip(data) and superstrip(data) not in ["/", ","]:
 
-            if self.mode == "getderivedterms" and self.lasttag == "a":
-                if not self.output_arr[-1]["derivedTerms"]:
-                    self.output_arr[-1]["derivedTerms"] = []
-                self.output_arr[-1]["derivedTerms"].append(orth(data))
+            if self.mode == "getderivedterms" and self.lasttag == "a" and orth(data) not in ["edit", "show ▼"]:
+               self.output_arr[-1]["derivedTerms"].append(orth(data))
 
-            if self.location == "insideselectedlang" and orth(data) == "Derived terms" and self.penultimatetag == "h5":
-                self.mode = "getderivedterms"
+            if self.location == "insideselectedlang" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
+                if orth(data) == "Derived terms":
+                    self.mode = "getderivedterms"
 
             if self.mode == "gettingusage":
                 if self.current_usage:
@@ -236,7 +235,8 @@ class MyHTMLParser(HTMLParser):
             self.mode = None
 
         if self.mode and self.mode.startswith("getothershapes") and endTag == "p":
-            self.output_obj["otherShapes"][self.current_other_shape_key] = self.current_other_shape_value
+            if self.current_other_shape_key != "null" and self.current_other_shape_value:
+                self.output_obj["otherShapes"][self.current_other_shape_key] = self.current_other_shape_value
             self.current_other_shape_key = None
             self.current_other_shape_value = []
 
@@ -336,5 +336,5 @@ if __name__ == '__main__':
     # Sample ser has meanings in many languages, but we only want the Polish one.
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
     # Sample baba has multiple other shapes.
-    parse(["małpa"], True)
+    parse(["rok", "baba", "małpa"], True)
     # write_output()
