@@ -10,7 +10,7 @@ import re
 
 
 def parse(head_words: dict = None, use_sample: bool = False):
-    parse_inflection_tables = MyHTMLParser(convert_charrefs=False)
+    parse_inflection_tables = PolishNounHTMLParser(convert_charrefs=False)
 
     if not head_words:
         head_words = ["małpa"]
@@ -57,20 +57,7 @@ gender_translation_ref = {
 }
 
 
-# translations: {ENG: ["woman", "lady"]},
-# tags: ["animate", "personTest1", "concrete"],
-# // selectors
-# lemma: "kobieta",
-# id: "pol-npe-001",
-# gender: "f",
-# // notes
-#
-# // inflections
-# otherShapes: {
-#     diminutive: "kobietka",
-# },
-# inflections:
-class MyHTMLParser(HTMLParser):
+class PolishNounHTMLParser(HTMLParser):
     penultimatetag = None
     lasttag_copy = None
 
@@ -81,6 +68,7 @@ class MyHTMLParser(HTMLParser):
     lsData = list()
     lsAll = list()
 
+    mode = None
     location = None
     output_arr = []
     selected_lang = "polish"
@@ -189,7 +177,7 @@ class MyHTMLParser(HTMLParser):
 
     def handle_starttag(self, startTag, attrs):
 
-        if startTag == "html":
+        if startTag in ["html", "body"]:
             self.reset_for_new_word()
             return
 
@@ -373,5 +361,5 @@ if __name__ == '__main__':
     # Sample ser has meanings in many languages, but we only want the Polish one.
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
     # Sample baba has multiple other shapes.
-    parse(["rok", "baba", "małpa"], True)
+    parse(["miesiąc", "rok", "małpa"])
     # write_output()
