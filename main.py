@@ -15,7 +15,7 @@ def parse(head_words: dict = None, use_sample: bool = False):
     if not head_words:
         head_words = ["małpa"]
 
-    result = {}
+    result = []
 
     for head_word in head_words:
         output_arr = None
@@ -34,7 +34,9 @@ def parse(head_words: dict = None, use_sample: bool = False):
 
         if output_arr:
             print("Adding output_arr to result:", output_arr)
-            result[head_word] = output_arr
+            for lemma_object in output_arr:
+                lemma_object["lemma"] = head_word
+            result.extend(output_arr)
         else:
             print(f"# No output created for {head_word}")
 
@@ -45,28 +47,43 @@ def parse(head_words: dict = None, use_sample: bool = False):
     write_output(result)
 
 
+gender_translation_ref = {
+    "pl": "nonvirile",
+    "m inan": "m3",
+    "m anim": "m2",
+    "m pers": "m1",
+    "f": "f",
+    "n": "n"
+}
+
+
+# translations: {ENG: ["woman", "lady"]},
+# tags: ["animate", "personTest1", "concrete"],
+# // selectors
+# lemma: "kobieta",
+# id: "pol-npe-001",
+# gender: "f",
+# // notes
+#
+# // inflections
+# otherShapes: {
+#     diminutive: "kobietka",
+# },
+# inflections:
 class MyHTMLParser(HTMLParser):
     penultimatetag = None
     lasttag_copy = None
+
     lsStartTags = list()
     lsEndTags = list()
     lsStartEndTags = list()
     lsComments = list()
     lsData = list()
     lsAll = list()
-    mode = None
+
     location = None
-    el_count = 0
-    output_obj = {"gender": None, "definitions": [], "usage": [], "otherShapes": {}, "derivedTerms": [], "inflections": {}}
-    inflections = {}
     output_arr = []
-    keys = []
-    subkey = None
     selected_lang = "polish"
-    current_definition = None
-    current_usage = None
-    current_other_shape_key = None
-    current_other_shape_value = []
     ignorable_narrow = [",", "/", "(", ")"]
     ignorable_broad = ignorable_narrow + ["or", "and"]
 
@@ -74,7 +91,17 @@ class MyHTMLParser(HTMLParser):
         self.mode = None
         self.el_count = 0
         self.inflections = {}
-        self.output_obj = {"gender": None, "definitions": [], "usage": [], "otherShapes": {}, "derivedTerms": [], "inflections": {}}
+        self.output_obj = {
+            "lemma": None,
+            "gender": None,
+            "id": None,
+            "translations": {"ENG": []},
+            "tags": [],
+            "usage": [],
+            "otherShapes": {},
+            "derivedTerms": [],
+            "inflections": {}
+        }
         self.keys = []
         self.subkey = None
         self.current_definition = None
@@ -82,18 +109,16 @@ class MyHTMLParser(HTMLParser):
         self.current_other_shape_key = None
         self.current_other_shape_value = []
 
-
     def reset_for_new_word(self):
         self.reset_for_new_table()
         self.output_arr = []
         self.keys = []
 
-
     def handle_data(self, data):
         if superstrip(data) and superstrip(data) not in ["/", ","]:
 
             if self.mode == "getderivedterms" and self.lasttag == "a" and orth(data) not in ["edit", "show ▼"]:
-               self.output_arr[-1]["derivedTerms"].append(orth(data))
+                self.output_arr[-1]["derivedTerms"].append(orth(data))
 
             if self.location == "insideselectedlang" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
                 if orth(data) == "Derived terms":
@@ -124,7 +149,7 @@ class MyHTMLParser(HTMLParser):
             if self.mode == "getothershapes-value" and orth(data) and orth(data) not in self.ignorable_broad:
                 self.current_other_shape_value.append(orth(data))
 
-            if self.mode == "getothershapes-key": #Not an elif.
+            if self.mode == "getothershapes-key":  # Not an elif.
                 self.current_other_shape_key = orth(data)
 
             if self.mode == "getgender":
@@ -137,7 +162,8 @@ class MyHTMLParser(HTMLParser):
                 if self.lasttag == "span" and self.penultimatetag == "h2":
                     lang_in_focus = superstrip(data).lower()
                     if lang_in_focus == self.selected_lang:
-                        print(f"#------------------------>ENTERING SELECTED LANG", 'self.location = "insideselectedlang"')
+                        print(f"#------------------------>ENTERING SELECTED LANG",
+                              'self.location = "insideselectedlang"')
                         self.location = "insideselectedlang"
                     else:
                         self.location = None
@@ -162,6 +188,11 @@ class MyHTMLParser(HTMLParser):
                 self.mode = "getword-0"
 
     def handle_starttag(self, startTag, attrs):
+
+        if startTag == "html":
+            self.reset_for_new_word()
+            return
+
         self.penultimatetag = self.lasttag_copy
         self.lasttag_copy = startTag
         print("S TAG:", startTag)
@@ -185,9 +216,6 @@ class MyHTMLParser(HTMLParser):
 
         if self.mode == "getothershapes" and startTag == "i":
             self.mode = "getothershapes-key"
-
-        if startTag == "html":
-            self.reset_for_new_word()
 
         if self.location == "insidetable":
             if startTag == "th" and self.mode == "getsubkey":
@@ -227,7 +255,7 @@ class MyHTMLParser(HTMLParser):
 
         if self.mode == "gettingdefinition" and endTag == "li":
             definition = brackets_to_end(trim_around_brackets(self.current_definition))
-            self.output_obj["definitions"].append(definition)
+            self.output_obj["translations"]["ENG"].append(definition)
             self.current_definition = None
             self.mode = "getdefinitions"
 
@@ -264,6 +292,15 @@ class MyHTMLParser(HTMLParser):
             else:
                 self.location = "insideselectedlang"
                 self.output_obj["inflections"] = self.inflections
+
+                self.output_obj["gender"] = gender_translation_ref[self.output_obj["gender"]]
+                if self.output_obj["gender"] == "m1":
+                    self.output_obj["tags"].append("person")
+                elif self.output_obj["gender"] == "m2":
+                    self.output_obj["tags"].append("animal")
+                elif self.output_obj["gender"] == "m3":
+                    self.output_obj["tags"].append("object")
+
                 self.output_arr.append(self.output_obj)
                 self.reset_for_new_table()
 
