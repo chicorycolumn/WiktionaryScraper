@@ -41,7 +41,7 @@ def parse(head_words: dict = None, use_sample: bool = False):
             print(f"# No output created for {head_word}")
 
         if not use_sample:
-            sleep(2)
+            sleep(1)
 
     print("Writing result.")
     write_output(result)
@@ -49,6 +49,11 @@ def parse(head_words: dict = None, use_sample: bool = False):
 
 gender_translation_ref = {
     "pl": "nonvirile",
+    "plural": "nonvirile",
+    "nvir": "nonvirile",
+    "nonvirile": "nonvirile",
+    "non virile": "nonvirile",
+    "m": "m3",
     "m inan": "m3",
     "m anim": "m2",
     "m pers": "m1",
@@ -72,7 +77,7 @@ class PolishNounHTMLParser(HTMLParser):
     location = None
     output_arr = []
     selected_lang = "polish"
-    ignorable_narrow = [",", "/", "(", ")"]
+    ignorable_narrow = [",", "/", ";"]
     ignorable_broad = ignorable_narrow + ["or", "and"]
 
     def reset_for_new_table(self):
@@ -82,9 +87,9 @@ class PolishNounHTMLParser(HTMLParser):
         self.output_obj = {
             "lemma": None,
             "gender": None,
-            "id": None,
-            "translations": {"ENG": []},
             "tags": [],
+            "translations": {"ENG": []},
+            "id": None,
             "usage": [],
             "otherShapes": {},
             "derivedTerms": [],
@@ -103,7 +108,7 @@ class PolishNounHTMLParser(HTMLParser):
         self.keys = []
 
     def handle_data(self, data):
-        if superstrip(data) and superstrip(data) not in ["/", ","]:
+        if superstrip(data) and superstrip(data) not in self.ignorable_narrow:
 
             if self.mode == "getderivedterms" and self.lasttag == "a" and orth(data) not in ["edit", "show ▼"]:
                 self.output_arr[-1]["derivedTerms"].append(orth(data))
@@ -243,7 +248,7 @@ class PolishNounHTMLParser(HTMLParser):
 
         if self.mode == "gettingdefinition" and endTag == "li":
             definition = brackets_to_end(trim_around_brackets(self.current_definition))
-            self.output_obj["translations"]["ENG"].append(definition)
+            self.output_obj["translations"]["ENG"].extend(split_definition_to_list(definition))
             self.current_definition = None
             self.mode = "getdefinitions"
 
@@ -287,10 +292,24 @@ class PolishNounHTMLParser(HTMLParser):
                 elif self.output_obj["gender"] == "m2":
                     self.output_obj["tags"].append("animal")
                 elif self.output_obj["gender"] == "m3":
-                    self.output_obj["tags"].append("object")
+                    self.output_obj["tags"].append("inanimate")
+
+                if "singular" in self.output_obj["inflections"] and "plural" not in self.output_obj["inflections"]:
+                    self.output_obj["lacking"] = True
+                    self.output_obj["tantumSingulare"] = True
+                elif "singular" not in self.output_obj["inflections"] and "plural" in self.output_obj["inflections"]:
+                    self.output_obj["lacking"] = True
+                    self.output_obj["tantumPlurale"] = True
 
                 self.output_arr.append(self.output_obj)
                 self.reset_for_new_table()
+
+        if endTag == "body":
+            for output_obj in self.output_arr:
+                for key in ["usage", "otherShapes", "derivedTerms"]:
+                    if not output_obj[key]:
+                        output_obj.pop(key)
+
 
         print("E TAG:", endTag)
         self.lsEndTags.append(endTag)
@@ -323,9 +342,14 @@ def write_output(dict: dict = None):
 
 
 def html_from_head_word(head_word):
-    print(datetime.now().strftime('%H:%M:%S'), f"{head_word} is being loaded up as a Wiktionary page.")
+    print("\n", datetime.now().strftime('%H:%M:%S'), f"{head_word} is being loaded up as a Wiktionary page.")
     html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}")
     return str(html_page.read())
+
+
+def split_definition_to_list(str):
+    match = re.match(r"(?P<nonbracketed>^.+?)\s(?P<bracketed>\(.+)", str)
+    return [match["nonbracketed"], match["bracketed"]] if match else [str]
 
 
 def brackets_to_end(s):
@@ -361,5 +385,5 @@ if __name__ == '__main__':
     # Sample ser has meanings in many languages, but we only want the Polish one.
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
     # Sample baba has multiple other shapes.
-    parse(["miesiąc", "rok", "małpa"])
+    parse(["drzwi", "tor", "bałagan"])
     # write_output()
