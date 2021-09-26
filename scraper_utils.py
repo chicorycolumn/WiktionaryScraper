@@ -9,6 +9,21 @@ from time import sleep
 import re
 
 
+def write_output(dict: dict = None):
+    if not dict:
+        dict = {
+            "singular": {
+                "nom": "ma\\xc5\\x82pa",
+                "acc": "ma\\xc5\\x82p\\xc4\\x99"
+            },
+        }
+
+    json_object = json.dumps(dict, indent=4, ensure_ascii=False)
+
+    with open("output/output.json", "w") as outfile:
+        outfile.write(json_object)
+
+
 def html_from_head_word(head_word):
     print("\n", datetime.now().strftime('%H:%M:%S'), f"{head_word} is being loaded up as a Wiktionary page.", "\n")
     html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}")

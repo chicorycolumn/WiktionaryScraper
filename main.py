@@ -360,21 +360,6 @@ class PolishNounHTMLParser(HTMLParser):
         self.lsAll.append(data)
 
 
-def write_output(dict: dict = None):
-    if not dict:
-        dict = {
-            "singular": {
-                "nom": "ma\\xc5\\x82pa",
-                "acc": "ma\\xc5\\x82p\\xc4\\x99"
-            },
-        }
-
-    json_object = json.dumps(dict, indent=4, ensure_ascii=False)
-
-    with open("output/output.json", "w") as outfile:
-        outfile.write(json_object)
-
-
 if __name__ == '__main__':
     # Sample ser has meanings in many languages, but we only want the Polish one.
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
