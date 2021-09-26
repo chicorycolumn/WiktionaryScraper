@@ -93,7 +93,8 @@ class PolishNounHTMLParser(HTMLParser):
             "usage": [],
             "otherShapes": {},
             "derivedTerms": [],
-            "inflections": {}
+            "synonyms": [],
+            "inflections": {},
         }
         self.keys = []
         self.subkey = None
@@ -123,6 +124,9 @@ class PolishNounHTMLParser(HTMLParser):
                 else:
                     self.current_usage = orth(data)
 
+            if self.lasttag == "span" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and orth(data).lower() == "usage notes":
+                self.mode = "gettingusage"
+
             if self.mode == "gettingdefinition":
                 if self.current_definition:
                     self.current_definition += f" {orth(data)}"
@@ -139,7 +143,7 @@ class PolishNounHTMLParser(HTMLParser):
                 self.current_other_shape_value = []
                 self.mode = "getothershapes-key"
 
-            if self.mode == "getothershapes-value" and orth(data) and orth(data) not in self.ignorable_broad:
+            if self.mode == "getothershapes-value" and orth(data) and orth(data) not in self.ignorable_broad + ["(", ")"]:
                 self.current_other_shape_value.append(orth(data))
 
             if self.mode == "getothershapes-key":  # Not an elif.
@@ -191,6 +195,10 @@ class PolishNounHTMLParser(HTMLParser):
         print("S TAG:", startTag)
         self.lsStartTags.append(startTag)
         self.lsAll.append(startTag)
+
+        if self.mode == "gettingusage" and startTag in ["h1", "h2", "h3", "h4"]:
+            self.output_obj["usage"].append(self.current_usage)
+            self.mode = None
 
         if self.mode == "getderivedterms" and startTag in ["h1", "h2", "h3", "h4", "h5"]:
             self.mode = None
@@ -306,7 +314,15 @@ class PolishNounHTMLParser(HTMLParser):
 
         if endTag == "body":
             for output_obj in self.output_arr:
-                for key in ["usage", "otherShapes", "derivedTerms"]:
+                if output_obj["usage"]:
+                    usages_copy = output_obj["usage"][:]
+                    for item in usages_copy:
+                        if item.startswith("Synonyms: see Thesaurus: "):
+                            match = re.match(r"(?P<drop_this>Synonyms\: see Thesaurus\:) (?P<keep_this>.+)", item)
+                            output_obj["synonyms"].append(match["keep_this"])
+                            output_obj["usage"].remove(item)
+
+                for key in ["usage", "otherShapes", "derivedTerms", "synonyms"]:
                     if not output_obj[key]:
                         output_obj.pop(key)
 
@@ -385,5 +401,5 @@ if __name__ == '__main__':
     # Sample ser has meanings in many languages, but we only want the Polish one.
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
     # Sample baba has multiple other shapes.
-    parse(["drzwi", "tor", "bałagan"])
+    parse(["drzwi", "bałagan"], True)
     # write_output()
