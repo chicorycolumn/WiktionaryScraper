@@ -63,3 +63,41 @@ def double_decode(str):
     # 3. latin-1 also works, see https://stackoverflow.com/q/7048745
     # 4. finally decode again
 
+
+def scrape_word_data(parser, head_words: dict = None, use_sample: bool = False):
+    if not head_words:
+        head_words = ["małpa"]
+
+    result = []
+
+    for head_word in head_words:
+        output_arr = None
+
+        if use_sample:
+            with open(f'output/sample_{head_word}.html', 'r') as f:
+                contents = f.read()
+                parser.feed(contents)
+                output_arr = parser.output_arr
+                f.close()
+        else:
+            try:
+                html_string = html_from_head_word(head_word)
+                parser.feed(html_string)
+                output_arr = parser.output_arr
+                parser.output_arr = []
+            except:
+                print("\n", f'# Failed to read html for "{head_word}"', "\n")
+
+        if output_arr:
+            print("Adding output_arr to result:", output_arr)
+            for lemma_object in output_arr:
+                lemma_object["lemma"] = head_word
+            result.extend(output_arr)
+        else:
+            print("\n", f'# Successfully read html but created no output for "{head_word}"', "\n")
+
+        print("Writing result.")
+        write_output(result)
+
+        if not use_sample:
+            sleep(1)

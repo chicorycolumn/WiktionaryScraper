@@ -1,69 +1,7 @@
-from scraper_utils import *
-import html.entities
-import json
+from scraper_utils.common import *
+from scraper_utils.Polish import gender_translation_ref as gender_translation_ref_polish
 from html.parser import HTMLParser
-from html import entities
-import urllib.request as urllib2
-import urllib as urllib
-from datetime import datetime
-from time import sleep
 import re
-
-
-def parse(head_words: dict = None, use_sample: bool = False):
-    parse_inflection_tables = PolishNounHTMLParser(convert_charrefs=False)
-
-    if not head_words:
-        head_words = ["małpa"]
-
-    result = []
-
-    for head_word in head_words:
-        output_arr = None
-
-        if use_sample:
-            with open(f'output/sample_{head_word}.html', 'r') as f:
-                contents = f.read()
-                parse_inflection_tables.feed(contents)
-                output_arr = parse_inflection_tables.output_arr
-                f.close()
-        else:
-            try:
-                html_string = html_from_head_word(head_word)
-                parse_inflection_tables.feed(html_string)
-                output_arr = parse_inflection_tables.output_arr
-                parse_inflection_tables.output_arr = []
-            except:
-                print("\n", f'# Failed to read html for "{head_word}"', "\n")
-
-        if output_arr:
-            print("Adding output_arr to result:", output_arr)
-            for lemma_object in output_arr:
-                lemma_object["lemma"] = head_word
-            result.extend(output_arr)
-        else:
-            print("\n", f'# Successfully read html but created no output for "{head_word}"', "\n")
-
-        print("Writing result.")
-        write_output(result)
-
-        if not use_sample:
-            sleep(1)
-
-
-gender_translation_ref = {
-    "pl": "nonvirile",
-    "plural": "nonvirile",
-    "nvir": "nonvirile",
-    "nonvirile": "nonvirile",
-    "non virile": "nonvirile",
-    "m": "m3",
-    "m inan": "m3",
-    "m anim": "m2",
-    "m pers": "m1",
-    "f": "f",
-    "n": "n"
-}
 
 
 class PolishNounHTMLParser(HTMLParser):
@@ -131,13 +69,15 @@ class PolishNounHTMLParser(HTMLParser):
                 else:
                     self.current_usage = orth(data)
 
-            if self.lasttag == "span" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and orth(data).lower() == "usage notes":
+            if self.lasttag == "span" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and orth(
+                    data).lower() == "usage notes":
                 self.mode = "gettingusage"
 
             if self.mode == "gettingsynonyms" and self.lastclass == "Latn" and orth(data):
                 self.output_arr[-1]["synonyms"].append(orth(data))
 
-            if self.lasttag == "span" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and orth(data).lower() == "synonyms":
+            if self.lasttag == "span" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and orth(
+                    data).lower() == "synonyms":
                 self.mode = "gettingsynonyms"
 
             if self.mode == "gettingdefinition":
@@ -156,7 +96,8 @@ class PolishNounHTMLParser(HTMLParser):
                 self.current_other_shape_value = []
                 self.mode = "getothershapes-key"
 
-            if self.mode == "getothershapes-value" and orth(data) and orth(data) not in self.ignorable_broad + ["(", ")"]:
+            if self.mode == "getothershapes-value" and orth(data) and orth(data) not in self.ignorable_broad + ["(",
+                                                                                                                ")"]:
                 self.current_other_shape_value.append(orth(data))
 
             if self.mode == "getothershapes-key":  # Not an elif.
@@ -312,7 +253,7 @@ class PolishNounHTMLParser(HTMLParser):
                 self.location = "insideselectedlang"
                 self.output_obj["inflections"] = self.inflections
 
-                self.output_obj["gender"] = gender_translation_ref[self.output_obj["gender"]]
+                self.output_obj["gender"] = gender_translation_ref_polish[self.output_obj["gender"]]
                 if self.output_obj["gender"] == "m1":
                     self.output_obj["tags"].append("person")
                 elif self.output_obj["gender"] == "m2":
@@ -344,7 +285,6 @@ class PolishNounHTMLParser(HTMLParser):
                     if not output_obj[key]:
                         output_obj.pop(key)
 
-
         print("E TAG:", endTag)
         self.lsEndTags.append(endTag)
         self.lsAll.append(endTag)
@@ -365,5 +305,9 @@ if __name__ == '__main__':
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
     # Sample baba has multiple other shapes.
     # parse(["dzień", "ręka", "brak"])
-    parse(["ser"], True)
+    scrape_word_data(
+        PolishNounHTMLParser(convert_charrefs=False),
+        ["ser"],
+        True
+    )
     # write_output()
