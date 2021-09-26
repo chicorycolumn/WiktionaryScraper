@@ -64,7 +64,7 @@ def double_decode(str):
     # 4. finally decode again
 
 
-def scrape_word_data(parser, head_words: dict = None, use_sample: bool = False):
+def scrape_word_data(language: str, parser, head_words: dict = None, use_sample: bool = False):
     if not head_words:
         head_words = ["małpa"]
 
@@ -74,7 +74,7 @@ def scrape_word_data(parser, head_words: dict = None, use_sample: bool = False):
         output_arr = None
 
         if use_sample:
-            with open(f'output/sample_{head_word}.html', 'r') as f:
+            with open(f'input/{language}/sample_{head_word}.html', 'r') as f:
                 contents = f.read()
                 parser.feed(contents)
                 output_arr = parser.output_arr

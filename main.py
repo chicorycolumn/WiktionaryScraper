@@ -306,6 +306,7 @@ if __name__ == '__main__':
     # Sample baba has multiple other shapes.
     # parse(["dzień", "ręka", "brak"])
     scrape_word_data(
+        "Polish",
         PolishNounHTMLParser(convert_charrefs=False),
         ["ser"],
         True
