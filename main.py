@@ -34,7 +34,7 @@ def parse(head_words: dict = None, use_sample: bool = False):
                 output_arr = parse_inflection_tables.output_arr
                 parse_inflection_tables.output_arr = []
             except:
-                print("ma przejebane!")
+                print("\n", f'# Failed to read html for "{head_word}"', "\n")
 
         if output_arr:
             print("Adding output_arr to result:", output_arr)
@@ -42,7 +42,7 @@ def parse(head_words: dict = None, use_sample: bool = False):
                 lemma_object["lemma"] = head_word
             result.extend(output_arr)
         else:
-            print(f"# No output created for {head_word}")
+            print("\n", f'# Successfully read html but created no output for "{head_word}"', "\n")
 
         print("Writing result.")
         write_output(result)
