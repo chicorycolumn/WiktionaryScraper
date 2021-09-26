@@ -1,3 +1,4 @@
+from scraper_utils import *
 import html.entities
 import json
 from html.parser import HTMLParser
@@ -374,50 +375,10 @@ def write_output(dict: dict = None):
         outfile.write(json_object)
 
 
-def html_from_head_word(head_word):
-    print("\n", datetime.now().strftime('%H:%M:%S'), f"{head_word} is being loaded up as a Wiktionary page.", "\n")
-    html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}")
-    return str(html_page.read())
-
-
-def split_definition_to_list(str):
-    match = re.match(r"(?P<nonbracketed>^.+?)\s(?P<bracketed>\(.+)", str)
-    return [match["nonbracketed"], match["bracketed"]] if match else [str]
-
-
-def brackets_to_end(s):
-    return re.sub(r"(?P<bracketed>\(.+\))\s(?P<nonbracketed>.+$)", r"\g<nonbracketed> \g<bracketed>", s)
-
-
-def trim_around_brackets(str):
-    str = re.sub(r"\(\s(\w)", "(\g<1>", str)
-    str = re.sub(r"(\w)\s\)", "\g<1>)", str)
-    str = re.sub(r"(\w)\s,", "\g<1>,", str)
-    return str
-
-
-def orth(str):
-    return double_decode(superstrip(str))
-
-
-def superstrip(str):
-    return str.replace("\\n", "").strip()
-
-
-def double_decode(str):
-    str = re.sub(r"\s\s", "", str)
-    return str.encode('utf-8').decode('unicode-escape').encode('iso-8859-1').decode('utf-8')
-    # source: https://stackoverflow.com/a/49756591
-    # 1. actually any encoding support printable ASCII would work, for example utf-8
-    # 2. unescape the string, see https://stackoverflow.com/a/1885197
-    # 3. latin-1 also works, see https://stackoverflow.com/q/7048745
-    # 4. finally decode again
-
-
 if __name__ == '__main__':
     # Sample ser has meanings in many languages, but we only want the Polish one.
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
     # Sample baba has multiple other shapes.
     # parse(["dzień", "ręka", "brak"])
-    parse(["dzień"], True)
+    parse(["ser"], True)
     # write_output()
