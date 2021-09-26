@@ -27,10 +27,13 @@ def parse(head_words: dict = None, use_sample: bool = False):
                 output_arr = parse_inflection_tables.output_arr
                 f.close()
         else:
-            html_string = html_from_head_word(head_word)
-            parse_inflection_tables.feed(html_string)
-            output_arr = parse_inflection_tables.output_arr
-            parse_inflection_tables.output_arr = []
+            try:
+                html_string = html_from_head_word(head_word)
+                parse_inflection_tables.feed(html_string)
+                output_arr = parse_inflection_tables.output_arr
+                parse_inflection_tables.output_arr = []
+            except:
+                print("ma przejebane!")
 
         if output_arr:
             print("Adding output_arr to result:", output_arr)
@@ -40,11 +43,11 @@ def parse(head_words: dict = None, use_sample: bool = False):
         else:
             print(f"# No output created for {head_word}")
 
+        print("Writing result.")
+        write_output(result)
+
         if not use_sample:
             sleep(1)
-
-    print("Writing result.")
-    write_output(result)
 
 
 gender_translation_ref = {
@@ -65,6 +68,8 @@ gender_translation_ref = {
 class PolishNounHTMLParser(HTMLParser):
     penultimatetag = None
     lasttag_copy = None
+    currentclass = None
+    lastclass = None
 
     lsStartTags = list()
     lsEndTags = list()
@@ -77,6 +82,7 @@ class PolishNounHTMLParser(HTMLParser):
     location = None
     output_arr = []
     selected_lang = "polish"
+
     ignorable_narrow = [",", "/", ";"]
     ignorable_broad = ignorable_narrow + ["or", "and"]
 
@@ -126,6 +132,12 @@ class PolishNounHTMLParser(HTMLParser):
 
             if self.lasttag == "span" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and orth(data).lower() == "usage notes":
                 self.mode = "gettingusage"
+
+            if self.mode == "gettingsynonyms" and self.lastclass == "Latn" and orth(data):
+                self.output_arr[-1]["synonyms"].append(orth(data))
+
+            if self.lasttag == "span" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and orth(data).lower() == "synonyms":
+                self.mode = "gettingsynonyms"
 
             if self.mode == "gettingdefinition":
                 if self.current_definition:
@@ -196,11 +208,16 @@ class PolishNounHTMLParser(HTMLParser):
         self.lsStartTags.append(startTag)
         self.lsAll.append(startTag)
 
+        self.currentclass = None
+        for attr in attrs:
+            if attr[0] == "class":
+                self.currentclass = self.lastclass = attr[1]
+
         if self.mode == "gettingusage" and startTag in ["h1", "h2", "h3", "h4"]:
             self.output_obj["usage"].append(self.current_usage)
             self.mode = None
 
-        if self.mode == "getderivedterms" and startTag in ["h1", "h2", "h3", "h4", "h5"]:
+        if self.mode in ["getderivedterms", "gettingsynonyms"] and startTag in ["h1", "h2", "h3", "h4"]:
             self.mode = None
 
         if self.mode == "gettingdefinition" and startTag == "dd":
@@ -358,7 +375,7 @@ def write_output(dict: dict = None):
 
 
 def html_from_head_word(head_word):
-    print("\n", datetime.now().strftime('%H:%M:%S'), f"{head_word} is being loaded up as a Wiktionary page.")
+    print("\n", datetime.now().strftime('%H:%M:%S'), f"{head_word} is being loaded up as a Wiktionary page.", "\n")
     html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}")
     return str(html_page.read())
 
@@ -401,5 +418,6 @@ if __name__ == '__main__':
     # Sample ser has meanings in many languages, but we only want the Polish one.
     # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
     # Sample baba has multiple other shapes.
-    parse(["drzwi", "bałagan"], True)
+    # parse(["dzień", "ręka", "brak"])
+    parse(["dzień"], True)
     # write_output()
