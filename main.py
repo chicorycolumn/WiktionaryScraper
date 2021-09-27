@@ -56,6 +56,16 @@ class PolishNounHTMLParser(HTMLParser):
     def handle_data(self, data):
         if superstrip(data) and superstrip(data) not in self.ignorable_narrow:
 
+            # Mode setting from within handle_data, which is not typical.
+            if self.location == "insidecurrentlanguage":
+                if self.lasttag == "span" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and orth(
+                        data).lower() == "usage notes":
+                    self.mode = "gettingusage"
+
+                if self.lasttag == "span" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and orth(
+                        data).lower() == "synonyms":
+                    self.mode = "gettingsynonyms"
+
             if self.mode == "getderivedterms" and self.lasttag == "a" and orth(data) not in ["edit", "show ▼"]:
                 self.output_arr[-1]["derivedTerms"].append(orth(data))
 
@@ -69,16 +79,8 @@ class PolishNounHTMLParser(HTMLParser):
                 else:
                     self.current_usage = orth(data)
 
-            if self.lasttag == "span" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and orth(
-                    data).lower() == "usage notes":
-                self.mode = "gettingusage"
-
             if self.mode == "gettingsynonyms" and self.lastclass == "Latn" and orth(data):
                 self.output_arr[-1]["synonyms"].append(orth(data))
-
-            if self.lasttag == "span" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and orth(
-                    data).lower() == "synonyms":
-                self.mode = "gettingsynonyms"
 
             if self.mode == "gettingdefinition":
                 if self.current_definition:
@@ -276,10 +278,18 @@ class PolishNounHTMLParser(HTMLParser):
                 if output_obj["usage"]:
                     usages_copy = output_obj["usage"][:]
                     for item in usages_copy:
-                        if item.startswith("Synonyms: see Thesaurus: "):
-                            match = re.match(r"(?P<drop_this>Synonyms\: see Thesaurus\:) (?P<keep_this>.+)", item)
-                            output_obj["synonyms"].append(match["keep_this"])
-                            output_obj["usage"].remove(item)
+                        cease = False
+                        for string in [
+                                        "Synonyms: see Thesaurus:",
+                                        "Synonym: see Thesaurus:",
+                                        "Synonyms:",
+                                        "Synonym:",
+                                       ]:
+                            if not cease and item.startswith(string):
+                                match = re.match(fr"(?P<drop_this>{string}) (?P<keep_this>.+)", item)
+                                output_obj["synonyms"].append(match["keep_this"])
+                                output_obj["usage"].remove(item)
+                                cease = True
 
                 for key in ["usage", "otherShapes", "derivedTerms", "synonyms"]:
                     if not output_obj[key]:
@@ -308,7 +318,7 @@ if __name__ == '__main__':
     scrape_word_data(
         "Polish",
         PolishNounHTMLParser(convert_charrefs=False),
-        ["ser"],
-        True
+        ["dziewczyna", "przyroda", "park"],
+        False
     )
     # write_output()
