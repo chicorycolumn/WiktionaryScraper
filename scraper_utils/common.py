@@ -71,8 +71,6 @@ def scrape_word_data(language: str, parser, head_words: dict = None, use_sample:
     result = []
 
     for head_word in head_words:
-        output_arr = None
-
         if use_sample:
             with open(f'input/{language}/sample_{head_word}.html', 'r') as f:
                 contents = f.read()
@@ -87,17 +85,17 @@ def scrape_word_data(language: str, parser, head_words: dict = None, use_sample:
                 parser.output_arr = []
             except:
                 print("\n", f'# Failed to read html for "{head_word}"', "\n")
+                return
 
         if output_arr:
-            print("Adding output_arr to result:", output_arr)
+            print("\n", f'Adding "{head_word}" output_arr to result:', output_arr, "\n")
             for lemma_object in output_arr:
                 lemma_object["lemma"] = head_word
             result.extend(output_arr)
+            print("Writing result.")
+            write_output(result)
         else:
             print("\n", f'# Successfully read html but created no output for "{head_word}"', "\n")
-
-        print("Writing result.")
-        write_output(result)
 
         if not use_sample:
             sleep(1)

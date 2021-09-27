@@ -280,11 +280,11 @@ class PolishNounHTMLParser(HTMLParser):
                     for item in usages_copy:
                         cease = False
                         for string in [
-                                        "Synonyms: see Thesaurus:",
-                                        "Synonym: see Thesaurus:",
-                                        "Synonyms:",
-                                        "Synonym:",
-                                       ]:
+                            "Synonyms: see Thesaurus:",
+                            "Synonym: see Thesaurus:",
+                            "Synonyms:",
+                            "Synonym:",
+                        ]:
                             if not cease and item.startswith(string):
                                 match = re.match(fr"(?P<drop_this>{string}) (?P<keep_this>.+)", item)
                                 output_obj["synonyms"].append(match["keep_this"])
@@ -318,7 +318,9 @@ if __name__ == '__main__':
     scrape_word_data(
         "Polish",
         PolishNounHTMLParser(convert_charrefs=False),
-        ["dziewczyna", "przyroda", "park"],
-        False
+        # ["prysznic", "glista", "gleba", "łeb", "BADWORD", "palec", "noga", "piła", "piłka"],
+        # False
+        ["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"],
+        True
     )
     # write_output()
