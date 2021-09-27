@@ -321,10 +321,9 @@ if __name__ == '__main__':
     scrape_word_data(
         "Polish",
         PolishNounHTMLParser(convert_charrefs=False),
-        # ["prysznic", "glista", "gleba", "łeb", "BADWORD", "palec", "noga", "piła", "piłka"],
-        # False
+        # ["prysznic", "glista", "gleba", "łeb", "palec", "noga", "piła", "piłka"],
         ["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"],
         True,
-        "output_polish_1"
+        "output_polish_1a"
     )
     # write_output()

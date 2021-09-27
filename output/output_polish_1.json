@@ -31,7 +31,7 @@
             "babcia"
         ],
         "inflections": {
-            "singularioooo": {
+            "singular": {
                 "nom": "baba",
                 "gen": "baby",
                 "dat": "babie",
@@ -49,9 +49,7 @@
                 "loc": "babach",
                 "voc": "baby"
             }
-        },
-        "lacking": true,
-        "tantumPlurale": true
+        }
     },
     {
         "lemma": "baba",
@@ -67,7 +65,7 @@
         },
         "id": null,
         "inflections": {
-            "singularioooo": {
+            "singular": {
                 "nom": "baba",
                 "gen": "baby",
                 "dat": "babie",
@@ -85,9 +83,7 @@
                 "loc": "babach",
                 "voc": "babowie"
             }
-        },
-        "lacking": true,
-        "tantumPlurale": true
+        }
     },
     {
         "lemma": "bałagan",
@@ -115,7 +111,7 @@
             "nieporządek"
         ],
         "inflections": {
-            "singularioooo": {
+            "singular": {
                 "nom": "bałagan",
                 "gen": "bałaganu",
                 "dat": "bałaganowi",
@@ -124,7 +120,9 @@
                 "loc": "bałaganie",
                 "voc": "bałaganie"
             }
-        }
+        },
+        "lacking": true,
+        "tantumSingulare": true
     },
     {
         "lemma": "cel",
@@ -144,7 +142,7 @@
         },
         "id": null,
         "inflections": {
-            "singularioooo": {
+            "singular": {
                 "nom": "cel",
                 "gen": "celu",
                 "dat": "celowi",
@@ -165,9 +163,7 @@
                 "loc": "celach",
                 "voc": "cele"
             }
-        },
-        "lacking": true,
-        "tantumPlurale": true
+        }
     },
     {
         "lemma": "cel",
@@ -183,7 +179,7 @@
         },
         "id": null,
         "inflections": {
-            "singularioooo": {
+            "singular": {
                 "nom": "cel",
                 "gen": "cela",
                 "dat": "celowi",
@@ -201,9 +197,7 @@
                 "loc": "celach",
                 "voc": "cele"
             }
-        },
-        "lacking": true,
-        "tantumPlurale": true
+        }
     },
     {
         "lemma": "drzwi",
@@ -260,7 +254,7 @@
             "dzienny"
         ],
         "inflections": {
-            "singularioooo": {
+            "singular": {
                 "nom": "dzień",
                 "gen": "dnia",
                 "dat": "dniowi",
@@ -287,9 +281,7 @@
                     "dnie"
                 ]
             }
-        },
-        "lacking": true,
-        "tantumPlurale": true
+        }
     },
     {
         "lemma": "małpa",
@@ -323,7 +315,7 @@
             "małpowaty"
         ],
         "inflections": {
-            "singularioooo": {
+            "singular": {
                 "nom": "małpa",
                 "gen": "małpy",
                 "dat": "małpie",
@@ -341,9 +333,7 @@
                 "loc": "małpach",
                 "voc": "małpy"
             }
-        },
-        "lacking": true,
-        "tantumPlurale": true
+        }
     },
     {
         "lemma": "miesiąc",
@@ -376,7 +366,7 @@
             "księżyc"
         ],
         "inflections": {
-            "singularioooo": {
+            "singular": {
                 "nom": "miesiąc",
                 "gen": "miesiąca",
                 "dat": "miesiącowi",
@@ -394,9 +384,7 @@
                 "loc": "miesiącach",
                 "voc": "miesiące"
             }
-        },
-        "lacking": true,
-        "tantumPlurale": true
+        }
     },
     {
         "lemma": "rok",
@@ -428,7 +416,7 @@
             "rzec"
         ],
         "inflections": {
-            "singularioooo": {
+            "singular": {
                 "nom": "rok",
                 "gen": "roku",
                 "dat": "rokowi",
@@ -446,9 +434,7 @@
                 "loc": "latach",
                 "voc": "lata"
             }
-        },
-        "lacking": true,
-        "tantumPlurale": true
+        }
     },
     {
         "lemma": "rok",
@@ -468,7 +454,7 @@
         },
         "id": null,
         "inflections": {
-            "singularioooo": {
+            "singular": {
                 "nom": "rok",
                 "gen": "roku",
                 "dat": "rokowi",
@@ -486,9 +472,7 @@
                 "loc": "rokach",
                 "voc": "roki"
             }
-        },
-        "lacking": true,
-        "tantumPlurale": true
+        }
     },
     {
         "lemma": "ser",
@@ -521,7 +505,7 @@
             "ser wegański"
         ],
         "inflections": {
-            "singularioooo": {
+            "singular": {
                 "nom": "ser",
                 "gen": "sera",
                 "dat": "serowi",
@@ -539,8 +523,6 @@
                 "loc": "serach",
                 "voc": "sery"
             }
-        },
-        "lacking": true,
-        "tantumPlurale": true
+        }
     }
 ]

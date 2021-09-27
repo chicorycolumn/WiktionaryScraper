@@ -85,7 +85,7 @@ def scrape_word_data(language: str, parser, head_words: dict, use_sample: bool, 
                 parser.output_arr = []
             except:
                 print("\n", f'# Failed to read html for "{head_word}"', "\n")
-                return
+                continue
 
         if output_arr:
             print("\n", f'Adding "{head_word}" output_arr to result:', output_arr, "\n")
