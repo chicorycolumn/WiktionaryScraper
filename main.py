@@ -312,6 +312,6 @@ if __name__ == '__main__':
         True,
         # ["prysznic", "glista", "gleba", "łeb", "palec", "noga", "piła", "piłka"],
         # False,
-        "output_polish_1a"
+        "expected_output_polish_1"
     )
     # write_output()

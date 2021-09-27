@@ -36,7 +36,7 @@ class TestPolishNounHTMLParser(TestCase):
             PolishNounHTMLParser(convert_charrefs=False),
             ["prysznic", "glista", "gleba", "łeb", "palec", "noga", "piła", "piłka"],
             False,
-            "output_polish_1"
+            "output_polish_2"
         )
 
         with open(f'output/output_polish_2.json', 'r') as f:
