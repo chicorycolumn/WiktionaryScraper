@@ -11,3 +11,14 @@ gender_translation_ref = {
     "f": "f",
     "n": "n"
 }
+
+case_ref = {
+    "nominative": "nom",
+    "genitive": "gen",
+    "dative": "dat",
+    "accusative": "acc",
+    "instrumental": "ins",
+    "locative": "loc",
+    "vocative": "voc",
+}
+

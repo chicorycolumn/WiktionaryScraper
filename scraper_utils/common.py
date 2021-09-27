@@ -9,7 +9,7 @@ from time import sleep
 import re
 
 
-def write_output(dict: dict = None):
+def write_output(dict: dict = None, output_file: str = "output"):
     if not dict:
         dict = {
             "singular": {
@@ -20,7 +20,7 @@ def write_output(dict: dict = None):
 
     json_object = json.dumps(dict, indent=4, ensure_ascii=False)
 
-    with open("output/output.json", "w") as outfile:
+    with open(f"output/{output_file}.json", "w") as outfile:
         outfile.write(json_object)
 
 
@@ -64,7 +64,7 @@ def double_decode(str):
     # 4. finally decode again
 
 
-def scrape_word_data(language: str, parser, head_words: dict = None, use_sample: bool = False):
+def scrape_word_data(language: str, parser, head_words: dict, use_sample: bool, output_file: str):
     if not head_words:
         head_words = ["małpa"]
 
@@ -93,7 +93,7 @@ def scrape_word_data(language: str, parser, head_words: dict = None, use_sample:
                 lemma_object["lemma"] = head_word
             result.extend(output_arr)
             print("Writing result.")
-            write_output(result)
+            write_output(result, output_file)
         else:
             print("\n", f'# Successfully read html but created no output for "{head_word}"', "\n")
 

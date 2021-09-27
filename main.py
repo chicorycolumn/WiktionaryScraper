@@ -1,5 +1,5 @@
 from scraper_utils.common import *
-from scraper_utils.Polish import gender_translation_ref as gender_translation_ref_polish
+from scraper_utils.Polish import gender_translation_ref as gender_translation_ref_polish, case_ref as case_ref_polish
 from html.parser import HTMLParser
 import re
 
@@ -133,11 +133,13 @@ class PolishNounHTMLParser(HTMLParser):
 
             if self.mode == "gettingkeys":
                 print(f"#------------------------>GETTING {orth(data)}")
-                self.keys.append(orth(data))
+                key_longhand = orth(data)
+                self.keys.append(case_ref_polish[key_longhand] if key_longhand in case_ref_polish else key_longhand)
 
             if self.mode == "gettingsubkey":
                 print(f"#------------------------>GETTING {orth(data)}")
-                self.subkey = orth(data)
+                subkey_longhand = orth(data)
+                self.subkey = case_ref_polish[subkey_longhand] if subkey_longhand in case_ref_polish else subkey_longhand
                 self.mode = "getword-0"
 
     def handle_starttag(self, startTag, attrs):
@@ -244,7 +246,8 @@ class PolishNounHTMLParser(HTMLParser):
 
             elif self.mode == "gettingkeys":
                 print("#------------------------>EXITING HEADER TR")
-                for key in self.keys:
+                for key_longhand in self.keys:
+                    key = case_ref_polish[key_longhand] if key_longhand in case_ref_polish else key_longhand
                     self.inflections[key] = {}
                 self.mode = "getsubkey"
 
@@ -321,6 +324,7 @@ if __name__ == '__main__':
         # ["prysznic", "glista", "gleba", "łeb", "BADWORD", "palec", "noga", "piła", "piłka"],
         # False
         ["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"],
-        True
+        True,
+        "output_polish_1"
     )
     # write_output()
