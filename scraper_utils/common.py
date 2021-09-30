@@ -24,6 +24,10 @@ def write_output(dict: dict = None, output_file: str = "output"):
         outfile.write(json_object)
 
 
+def add_string(locus, string):
+    return f"{locus} {string}" if locus else string
+
+
 def html_from_head_word(head_word):
     print("\n", datetime.now().strftime('%H:%M:%S'), f"{head_word} is being loaded up as a Wiktionary page.", "\n")
     html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}")
@@ -56,7 +60,11 @@ def superstrip(str):
 
 def double_decode(str):
     str = re.sub(r"\s\s", "", str)
-    return str.encode('utf-8').decode('unicode-escape').encode('iso-8859-1').decode('utf-8')
+    a = str.encode('utf-8')
+    b = a.decode('unicode-escape')
+    c = b.encode('iso-8859-1')
+    d = c.decode('utf-8', errors="replace")
+    return d
     # source: https://stackoverflow.com/a/49756591
     # 1. actually any encoding support printable ASCII would work, for example utf-8
     # 2. unescape the string, see https://stackoverflow.com/a/1885197

@@ -6,7 +6,7 @@ import re
 
 class PolishNounHTMLParser(HTMLParser):
     penultimatetag = None
-    lasttag_copy = None
+    _lasttag_copy = None
     currentclass = None
     lastclass = None
 
@@ -55,91 +55,86 @@ class PolishNounHTMLParser(HTMLParser):
 
     def handle_data(self, data):
 
-        if superstrip(data) and superstrip(data) not in self.ignorable_narrow:
+        data = orth(data)
 
-            if self.location == "insideselectedlang":
-                # Mode setting from within handle_data, which is not typical.
+        if not data or data in self.ignorable_narrow:
+            return
 
-                if self.lasttag == "span" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and orth(data).lower() == "usage notes":
-                    self.mode = "gettingusage"
+        if self.location == "insideselectedlang" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
+            # Mode setting from within handle_data, which is not typical.
 
-                if self.lasttag == "span" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and orth(data).lower() == "synonyms":
-                    self.mode = "gettingsynonyms"
+            if self.lasttag == "span" and data.lower() == "usage notes":
+                self.mode = "gettingusage"
 
-                if self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and orth(data).lower() == "derived terms":
-                    self.mode = "getderivedterms"
+            if self.lasttag == "span" and data.lower() == "synonyms":
+                self.mode = "gettingsynonyms"
 
-            if self.location != "insidetable":
-                if self.lasttag == "span" and self.penultimatetag == "h2":
-                    lang_in_focus = superstrip(data).lower()
-                    if lang_in_focus == self.selected_lang:
-                        self.location = "insideselectedlang"
-                    else:
-                        self.location = None
+            if data.lower() == "derived terms":
+                self.mode = "getderivedterms"
 
-            if not self.mode:
-                return
-
-            # Adding to last output object after exiting table, which is not typical.
-            if self.mode == "getderivedterms" and self.lasttag == "a" and orth(data) not in ["edit", "show ▼"]:
-                self.output_arr[-1]["derivedTerms"].append(orth(data))
-
-            if self.mode == "gettingusage":
-                if self.current_usage:
-                    self.current_usage += f" {orth(data)}"
+        if self.location != "insidetable":
+            if self.lasttag == "span" and self.penultimatetag == "h2":
+                lang_in_focus = superstrip(data).lower()
+                if lang_in_focus == self.selected_lang:
+                    self.location = "insideselectedlang"
                 else:
-                    self.current_usage = orth(data)
+                    self.location = None
 
-            if self.mode == "gettingsynonyms" and self.lastclass == "Latn" and orth(data):
-                self.output_arr[-1]["synonyms"].append(orth(data))
+        if not self.mode:
+            return
 
-            if self.mode == "gettingdefinition":
-                if self.current_definition:
-                    self.current_definition += f" {orth(data)}"
-                else:
-                    self.current_definition = orth(data)
+        # Adding to last output object after exiting table, which is not typical.
+        if self.mode == "getderivedterms" and self.lasttag == "a" and data not in ["edit", "show ▼"]:
+            self.output_arr[-1]["derivedTerms"].append(data)
 
-            if self.mode.startswith("getothershapes") \
-                    and self.lasttag == "i" \
-                    and orth(data) not in ["or", ",", "/"] \
-                    and self.current_other_shape_key \
-                    and self.current_other_shape_value:
-                self.output_obj["otherShapes"][self.current_other_shape_key] = self.current_other_shape_value
-                self.current_other_shape_key = None
-                self.current_other_shape_value = []
-                self.mode = "getothershapes-key"
+        if self.mode == "gettingusage":
+            self.current_usage = add_string(self.current_usage, data)
 
-            if self.mode == "getothershapes-value" and orth(data) and orth(data) not in self.ignorable_broad + ["(",                                                                                                                ")"]:
-                self.current_other_shape_value.append(orth(data))
+        if self.mode == "gettingsynonyms" and self.lastclass.startswith("Latn"):
+            self.output_arr[-1]["synonyms"].append(data)
 
-            if self.mode == "getothershapes-key":  # Not an elif.
-                self.current_other_shape_key = orth(data)
+        if self.mode == "gettingdefinition":
+            self.current_definition = add_string(self.current_definition, data)
 
-            if self.mode == "getgender":
-                if self.output_obj["gender"]:
-                    self.output_obj["gender"] += f" {orth(data)}"
-                else:
-                    self.output_obj["gender"] = orth(data)
+        if self.mode.startswith("getothershapes") \
+                and self.lasttag == "i" \
+                and data not in ["or", ",", "/"] \
+                and self.current_other_shape_key \
+                and self.current_other_shape_value:
+            self.output_obj["otherShapes"][self.current_other_shape_key] = self.current_other_shape_value
+            self.current_other_shape_key = None
+            self.current_other_shape_value = []
+            self.mode = "getothershapes-key"
 
-            if self.mode.startswith("getword") and self.lasttag == "a":
-                word_index = int(self.mode.split("-")[1])
-                key = self.keys[word_index]
-                subkey = self.subkey
-                if subkey not in self.inflections[key]:
-                    self.inflections[key][subkey] = orth(data)
-                else:
-                    if not isinstance(self.inflections[key][subkey], list):
-                        self.inflections[key][subkey] = [self.inflections[key][subkey]]
-                    self.inflections[key][subkey].append(orth(data))
+        if self.mode == "getothershapes-value" and data not in self.ignorable_broad + ["(", ")"]:
+            self.current_other_shape_value.append(data)
 
-            if self.mode == "gettingkeys":
-                key_longhand = orth(data)
-                self.keys.append(case_ref_polish[key_longhand] if key_longhand in case_ref_polish else key_longhand)
+        if self.mode == "getothershapes-key":  # Not an elif.
+            self.current_other_shape_key = data
 
-            if self.mode == "gettingsubkey":
-                subkey_longhand = orth(data)
-                self.subkey = case_ref_polish[subkey_longhand] if subkey_longhand in case_ref_polish else subkey_longhand
-                self.mode = "getword-0"
+        if self.mode == "getgender":
+            self.output_obj["gender"] = add_string(self.output_obj["gender"], data)
+
+
+        if self.mode.startswith("getword") and self.lasttag == "a":
+            word_index = int(self.mode.split("-")[1])
+            key = self.keys[word_index]
+            subkey = self.subkey
+            if subkey not in self.inflections[key]:
+                self.inflections[key][subkey] = data
+            else:
+                if not isinstance(self.inflections[key][subkey], list):
+                    self.inflections[key][subkey] = [self.inflections[key][subkey]]
+                self.inflections[key][subkey].append(data)
+
+        if self.mode == "gettingkeys":
+            key_longhand = data
+            self.keys.append(case_ref_polish[key_longhand] if key_longhand in case_ref_polish else key_longhand)
+
+        if self.mode == "gettingsubkey":
+            subkey_longhand = data
+            self.subkey = case_ref_polish[subkey_longhand] if subkey_longhand in case_ref_polish else subkey_longhand
+            self.mode = "getword-0"
 
     def handle_starttag(self, startTag, attrs):
 
@@ -147,8 +142,8 @@ class PolishNounHTMLParser(HTMLParser):
             self.reset_for_new_word()
             return
 
-        self.penultimatetag = self.lasttag_copy
-        self.lasttag_copy = startTag
+        self.penultimatetag = self._lasttag_copy
+        self._lasttag_copy = startTag
         self.lsStartTags.append(startTag)
         self.lsAll.append(startTag)
 
