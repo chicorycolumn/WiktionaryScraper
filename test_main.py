@@ -4,9 +4,9 @@ from scraper_utils.common import scrape_word_data
 
 
 @pytest.mark.parametrize("input_words,expected_path,use_local_data", [
-    (["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"], "polish_nouns_1", True),
+    # (["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"], "polish_nouns_1", True),
     (["prysznic", "glista", "gleba", "łeb", "BADWORD", "palec", "noga", "piła", "piłka"], "polish_nouns_2", False),
-    (["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"], "polish_nouns_3", True),
+    # (["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"], "polish_nouns_3", True),
 ])
 def test_PolishNounHTMLParser(input_words, expected_path, use_local_data):
     output_path = f"output_test{expected_path[-2:]}"
