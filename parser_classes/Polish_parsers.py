@@ -293,20 +293,3 @@ class PolishNounHTMLParser(HTMLParser):
     def handle_comment(self, data):
         self.lsComments.append(data)
         self.lsAll.append(data)
-
-
-if __name__ == '__main__':
-    # Sample ser has meanings in many languages, but we only want the Polish one.
-    # Sample rok has that too, but also, it has two inflection tables in Polish, and we want both.
-    # Sample baba has multiple other shapes.
-    # parse(["dzień", "ręka", "brak"])
-    scrape_word_data(
-        "Polish",
-        PolishNounHTMLParser(convert_charrefs=False),
-        ["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"],
-        True,
-        # ["prysznic", "glista", "gleba", "łeb", "palec", "noga", "piła", "piłka"],
-        # False,
-        "expected_output_polish_1"
-    )
-    # write_output()

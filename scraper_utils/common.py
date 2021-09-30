@@ -9,6 +9,43 @@ from time import sleep
 import re
 
 
+def scrape_word_data(language: str, parser, head_words: dict, use_sample: bool, output_file: str):
+    if not head_words:
+        head_words = ["małpa"]
+
+    result = []
+
+    for head_word in head_words:
+        if use_sample:
+            with open(f'input/{language}/sample_{head_word}.html', 'r') as f:
+                contents = f.read()
+                parser.feed(contents)
+                output_arr = parser.output_arr
+                f.close()
+        else:
+            try:
+                html_string = html_from_head_word(head_word)
+                parser.feed(html_string)
+                output_arr = parser.output_arr
+                parser.output_arr = []
+            except:
+                print("\n", f'# Failed to read html for "{head_word}"', "\n")
+                continue
+
+        if output_arr:
+            print("\n", f'Adding "{head_word}" output_arr to result:', output_arr, "\n")
+            for lemma_object in output_arr:
+                lemma_object["lemma"] = head_word
+            result.extend(output_arr)
+            print("Writing result.")
+            write_output(result, output_file)
+        else:
+            print("\n", f'# Successfully read html but created no output for "{head_word}"', "\n")
+
+        if not use_sample:
+            sleep(1)
+
+
 def write_output(dict: dict = None, output_file: str = "output"):
     if not dict:
         dict = {
@@ -24,14 +61,14 @@ def write_output(dict: dict = None, output_file: str = "output"):
         outfile.write(json_object)
 
 
-def add_string(locus, string):
-    return f"{locus} {string}" if locus else string
-
-
 def html_from_head_word(head_word):
     print("\n", datetime.now().strftime('%H:%M:%S'), f"{head_word} is being loaded up as a Wiktionary page.", "\n")
     html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}")
     return str(html_page.read())
+
+
+def add_string(locus, string):
+    return f"{locus} {string}" if locus else string
 
 
 def split_definition_to_list(str):
@@ -70,40 +107,3 @@ def double_decode(str):
     # 2. unescape the string, see https://stackoverflow.com/a/1885197
     # 3. latin-1 also works, see https://stackoverflow.com/q/7048745
     # 4. finally decode again
-
-
-def scrape_word_data(language: str, parser, head_words: dict, use_sample: bool, output_file: str):
-    if not head_words:
-        head_words = ["małpa"]
-
-    result = []
-
-    for head_word in head_words:
-        if use_sample:
-            with open(f'input/{language}/sample_{head_word}.html', 'r') as f:
-                contents = f.read()
-                parser.feed(contents)
-                output_arr = parser.output_arr
-                f.close()
-        else:
-            try:
-                html_string = html_from_head_word(head_word)
-                parser.feed(html_string)
-                output_arr = parser.output_arr
-                parser.output_arr = []
-            except:
-                print("\n", f'# Failed to read html for "{head_word}"', "\n")
-                continue
-
-        if output_arr:
-            print("\n", f'Adding "{head_word}" output_arr to result:', output_arr, "\n")
-            for lemma_object in output_arr:
-                lemma_object["lemma"] = head_word
-            result.extend(output_arr)
-            print("Writing result.")
-            write_output(result, output_file)
-        else:
-            print("\n", f'# Successfully read html but created no output for "{head_word}"', "\n")
-
-        if not use_sample:
-            sleep(1)
