@@ -1,7 +1,4 @@
-import html.entities
 import json
-from html.parser import HTMLParser
-from html import entities
 import urllib.request as urllib2
 import urllib as urllib
 from datetime import datetime
