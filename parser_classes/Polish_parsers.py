@@ -1,5 +1,5 @@
 from scraper_utils.common import *
-from scraper_utils.Polish import gender_translation_ref as gender_translation_ref_polish, case_ref as case_ref_polish
+from scraper_utils.Polish import *
 from html.parser import HTMLParser
 import re
 
@@ -115,7 +115,6 @@ class PolishNounHTMLParser(HTMLParser):
         if self.mode == "getgender":
             self.output_obj["gender"] = add_string(self.output_obj["gender"], data)
 
-
         if self.mode.startswith("getword") and self.lasttag == "a":
             word_index = int(self.mode.split("-")[1])
             key = self.keys[word_index]
@@ -129,11 +128,11 @@ class PolishNounHTMLParser(HTMLParser):
 
         if self.mode == "gettingkeys":
             key_longhand = data
-            self.keys.append(case_ref_polish[key_longhand] if key_longhand in case_ref_polish else key_longhand)
+            self.keys.append(case_ref[key_longhand] if key_longhand in case_ref else key_longhand)
 
         if self.mode == "gettingsubkey":
             subkey_longhand = data
-            self.subkey = case_ref_polish[subkey_longhand] if subkey_longhand in case_ref_polish else subkey_longhand
+            self.subkey = case_ref[subkey_longhand] if subkey_longhand in case_ref else subkey_longhand
             self.mode = "getword-0"
 
     def handle_starttag(self, startTag, attrs):
@@ -232,7 +231,7 @@ class PolishNounHTMLParser(HTMLParser):
 
             elif self.mode == "gettingkeys":
                 for key_longhand in self.keys:
-                    key = case_ref_polish[key_longhand] if key_longhand in case_ref_polish else key_longhand
+                    key = case_ref[key_longhand] if key_longhand in case_ref else key_longhand
                     self.inflections[key] = {}
                 self.mode = "getsubkey"
 
@@ -243,13 +242,10 @@ class PolishNounHTMLParser(HTMLParser):
                 self.location = "insideselectedlang"
                 self.output_obj["inflections"] = self.inflections
 
-                self.output_obj["gender"] = gender_translation_ref_polish[self.output_obj["gender"]]
-                if self.output_obj["gender"] == "m1":
-                    self.output_obj["tags"].append("person")
-                elif self.output_obj["gender"] == "m2":
-                    self.output_obj["tags"].append("animal")
-                elif self.output_obj["gender"] == "m3":
-                    self.output_obj["tags"].append("inanimate")
+                self.output_obj["gender"] = gender_translation_ref[self.output_obj["gender"]]
+                
+                if self.output_obj["gender"] in gender_to_tags_ref:
+                    self.output_obj["tags"].extend(gender_to_tags_ref[self.output_obj["gender"]])
 
                 if "singular" in self.output_obj["inflections"] and "plural" not in self.output_obj["inflections"]:
                     self.output_obj["lacking"] = True

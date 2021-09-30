@@ -12,6 +12,13 @@ gender_translation_ref = {
     "n": "n"
 }
 
+gender_to_tags_ref = {
+    "m1": ["person"],
+    "m2": ["animal"],
+    "m3": ["inanimate"],
+    "n": ["inanimate"],
+}
+
 case_ref = {
     "nominative": "nom",
     "genitive": "gen",
@@ -21,4 +28,3 @@ case_ref = {
     "locative": "loc",
     "vocative": "voc",
 }
-
