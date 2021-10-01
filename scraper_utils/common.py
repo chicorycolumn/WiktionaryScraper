@@ -26,18 +26,18 @@ def scrape_word_data(language: str, parser, head_words: dict, use_sample: bool, 
                 output_arr = parser.output_arr
                 parser.output_arr = []
             except:
-                print("\n", f'# Failed to read html for "{head_word}"', "\n")
+                print("\n", f'# Failed to read html for "{head_word}".', "\n")
                 continue
 
         if output_arr:
-            print("\n", f'Adding "{head_word}" output_arr to result:', output_arr, "\n")
+            print("\n", f'# Adding "{head_word}" output_arr to result.' "\n")
             for lemma_object in output_arr:
                 lemma_object["lemma"] = head_word
             result.extend(output_arr)
-            print("Writing result.")
+            print(f'# Writing result for "{head_word}".')
             write_output(result, output_file)
         else:
-            print("\n", f'# Successfully read html but created no output for "{head_word}"', "\n")
+            print("\n", f'# Successfully read html but created no output for "{head_word}".', "\n")
 
         if not use_sample:
             sleep(1)
@@ -59,7 +59,7 @@ def write_output(dict: dict = None, output_file: str = "output"):
 
 
 def html_from_head_word(head_word):
-    print("\n", datetime.now().strftime('%H:%M:%S'), f"{head_word} is being loaded up as a Wiktionary page.", "\n")
+    print("\n", datetime.now().strftime('%H:%M:%S'), f'# Loading up as Wiktionary page for "{head_word}".', "\n")
     html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}")
     return str(html_page.read())
 
