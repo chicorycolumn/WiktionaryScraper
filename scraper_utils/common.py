@@ -57,11 +57,25 @@ def scrape_word_data(
 
     if not no_temp_ids:
         for lemma_object in result:
-            lemma_object["temp_ id"] = f"{group_number}.{count}"
+            lemma_object["temp_id"] = f"{group_number}.{count}"
             count += 1
 
     write_output(result, filepaths["output"])
     write_output(rejected, filepaths["rejected"])
+
+    if "truncated" in filepaths:
+
+        def get_truncated(lemma_object):
+            return {
+                "temp_id": str(lemma_object["temp_id"]),
+                "lemma": lemma_object["lemma"],
+                "gender": lemma_object["gender"],
+                "tags": lemma_object["tags"],
+                "translations": lemma_object["translations"]
+            }
+
+        truncated_result = [get_truncated(lemma_object) for lemma_object in result]
+        write_output(truncated_result, filepaths["truncated"])
 
 
 def write_output(dict: dict = None, output_file: str = "output"):
