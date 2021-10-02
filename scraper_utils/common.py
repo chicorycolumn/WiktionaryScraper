@@ -6,11 +6,12 @@ from time import sleep
 import re
 
 
-def scrape_word_data(language: str, parser, head_words: dict, use_sample: bool, output_file: str):
+def scrape_word_data(language: str, parser, head_words: dict, use_sample: bool, output_file: str, rejected_file: str):
     if not head_words:
         head_words = ["małpa"]
 
     result = []
+    rejected = {"failed_to_read_html": [], "html_read_but_no_text_scraped": []}
 
     for head_word in head_words:
         if use_sample:
@@ -27,17 +28,20 @@ def scrape_word_data(language: str, parser, head_words: dict, use_sample: bool, 
                 parser.output_arr = []
             except:
                 print("\n", f'# Failed to read html for "{head_word}".', "\n")
+                rejected["failed_to_read_html"].append(head_word)
                 continue
 
         if output_arr:
-            print("\n", f'# Adding "{head_word}" output_arr to result.' "\n")
+            print(f'\n               # Adding "{head_word}" output_arr to result.' "\n")
             for lemma_object in output_arr:
                 lemma_object["lemma"] = head_word
             result.extend(output_arr)
-            print(f'# Writing result for "{head_word}".')
+            print(f'                     # Writing result for "{head_word}".')
             write_output(result, output_file)
+            write_output(rejected, rejected_file)
         else:
             print("\n", f'# Successfully read html but created no output for "{head_word}".', "\n")
+            rejected["html_read_but_no_text_scraped"].append(head_word)
 
         if not use_sample:
             sleep(1)
