@@ -11,8 +11,7 @@ def scrape_word_data(
         language: str,
         head_words: dict,
         use_sample: bool,
-        output_file: str,
-        rejected_file: str,
+        filepaths,
         group_number: int = int(str(datetime.now())[-3:]),
         no_temp_ids: bool = False
 ):
@@ -61,8 +60,8 @@ def scrape_word_data(
             lemma_object["temp_ id"] = f"{group_number}.{count}"
             count += 1
 
-    write_output(result, output_file)
-    write_output(rejected, rejected_file)
+    write_output(result, filepaths["output"])
+    write_output(rejected, filepaths["rejected"])
 
 
 def write_output(dict: dict = None, output_file: str = "output"):

@@ -15,6 +15,7 @@ def test_PolishNounHTMLParser(input_words: list, expected_path: str, use_sample:
 
     output_path = f"output_test{expected_path[-2:]}"
     rejected_path = f"rejected_test{expected_path[-2:]}"
+    expected_rejected_path = f"rejected_{expected_path}"
 
     with open(f'expected/{expected_path}.json', 'r') as f:
         expected = f.read()
@@ -25,8 +26,10 @@ def test_PolishNounHTMLParser(input_words: list, expected_path: str, use_sample:
         "Polish",
         input_words,
         use_sample,
-        output_path,
-        rejected_path,
+        filepaths={
+            "output": output_path,
+            "rejected": rejected_path,
+        },
         group_number=0,
         no_temp_ids=True
     )
@@ -36,3 +39,13 @@ def test_PolishNounHTMLParser(input_words: list, expected_path: str, use_sample:
         f.close()
 
     assert actual == expected
+
+    with open(f'expected/{expected_rejected_path}.json', 'r') as f:
+        expected_rejected = f.read()
+        f.close()
+
+    with open(f'output/{rejected_path}.json', 'r') as f:
+        actual_rejected = f.read()
+        f.close()
+
+    assert actual_rejected == expected_rejected

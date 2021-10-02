@@ -11,16 +11,17 @@ if __name__ == '__main__':
     print(f'## Starting, given {len(input_words)} words.')
 
     group_of_input_words = str(group_of_input_words)[-2:].zfill(2)
-    output_path = f"output_nouns_{group_of_input_words}"
-    rejected_path = f"rejected_nouns_{group_of_input_words}"
 
     scrape_word_data(
         PolishNounHTMLParser(convert_charrefs=False),
         "Polish",
         input_words,
         use_sample=use_sample,
-        output_file=output_path,
-        rejected_file=rejected_path,
+        filepaths={
+            "output": f"output_nouns_{group_of_input_words}",
+            "rejected": f"rejected_nouns_{group_of_input_words}",
+            "truncated": f"truncated_nouns_{group_of_input_words}",
+        },
         group_number=group_of_input_words
     )
 
