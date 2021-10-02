@@ -6,9 +6,20 @@ from time import sleep
 import re
 
 
-def scrape_word_data(language: str, parser, head_words: dict, use_sample: bool, output_file: str, rejected_file: str):
+def scrape_word_data(
+        parser,
+        language: str,
+        head_words: dict,
+        use_sample: bool,
+        output_file: str,
+        rejected_file: str,
+        group_number: int = int(str(datetime.now())[-3:]),
+        no_temp_ids: bool = False
+):
     if not head_words:
         head_words = ["małpa"]
+
+    count = 1
 
     result = []
     rejected = {"failed_to_read_html": [], "html_read_but_no_text_scraped": []}
@@ -36,15 +47,22 @@ def scrape_word_data(language: str, parser, head_words: dict, use_sample: bool, 
             for lemma_object in output_arr:
                 lemma_object["lemma"] = head_word
             result.extend(output_arr)
-            print(f'                     # Writing result for "{head_word}".')
-            write_output(result, output_file)
-            write_output(rejected, rejected_file)
         else:
             print("\n", f'# Successfully read html but created no output for "{head_word}".', "\n")
             rejected["html_read_but_no_text_scraped"].append(head_word)
 
         if not use_sample:
             sleep(1)
+
+    print(f'\n# Writing results".')
+
+    if not no_temp_ids:
+        for lemma_object in result:
+            lemma_object["temp_ id"] = f"{group_number}.{count}"
+            count += 1
+
+    write_output(result, output_file)
+    write_output(rejected, rejected_file)
 
 
 def write_output(dict: dict = None, output_file: str = "output"):
