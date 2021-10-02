@@ -1,419 +1,392 @@
 [
     {
-        "lemma": "nadzieja",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "hope"
-            ]
-        },
-        "id": null,
-        "derivedTerms": [
-            "Nadzieja",
-            "Hope",
-            "virtue",
-            "name"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "nadzieja",
-                "gen": "nadziei",
-                "dat": "nadziei",
-                "acc": "nadzieję",
-                "ins": "nadzieją",
-                "loc": "nadziei",
-                "voc": "nadziejo"
-            },
-            "plural": {
-                "nom": "nadzieje",
-                "gen": "nadziei",
-                "dat": "nadziejom",
-                "acc": "nadzieje",
-                "ins": "nadziejami",
-                "loc": "nadziejach",
-                "voc": "nadzieje"
-            }
-        }
-    },
-    {
-        "lemma": "słońce",
-        "gender": "n",
-        "tags": [
-            "inanimate"
-        ],
-        "translations": {
-            "ENG": [
-                "sun",
-                "(any star orbited by planets)",
-                "the Sun",
-                "(the star at the center of the Solar System)",
-                "A term of endearment dear honey sweetheart",
-                "solar mass",
-                "(physics colloquial)"
-            ]
-        },
-        "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "słonko"
-            ]
-        },
-        "derivedTerms": [
-            "słoneczny",
-            "przeciwsłoneczny",
-            "słonecznie",
-            "podsłońce"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "słońce",
-                "gen": "słońca",
-                "dat": "słońcu",
-                "acc": "słońce",
-                "ins": "słońcem",
-                "loc": "słońcu",
-                "voc": "słońce"
-            },
-            "plural": {
-                "nom": "słońca",
-                "gen": "słońc",
-                "dat": "słońcom",
-                "acc": "słońca",
-                "ins": "słońcami",
-                "loc": "słońcach",
-                "voc": "słońca"
-            }
-        }
-    },
-    {
-        "lemma": "wieczór",
+        "lemma": "prysznic",
         "gender": "m3",
         "tags": [
             "inanimate"
         ],
         "translations": {
             "ENG": [
-                "evening"
-            ]
-        },
-        "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "wieczorek"
-            ]
-        },
-        "derivedTerms": [
-            "wieczerzać",
-            "wieczornica",
-            "wieczerza",
-            "wieczorynka",
-            "wieczorny",
-            "wieczorowy",
-            "wieczorem",
-            "dobry wieczór"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "wieczór",
-                "gen": [
-                    "wieczoru",
-                    "wieczora"
-                ],
-                "dat": "wieczorowi",
-                "acc": "wieczór",
-                "ins": "wieczorem",
-                "loc": "wieczorze",
-                "voc": "wieczorze"
-            },
-            "plural": {
-                "nom": "wieczory",
-                "gen": "wieczorów",
-                "dat": "wieczorom",
-                "acc": "wieczory",
-                "ins": "wieczorami",
-                "loc": "wieczorach",
-                "voc": "wieczory"
-            }
-        }
-    },
-    {
-        "lemma": "sierpień",
-        "gender": "m3",
-        "tags": [
-            "inanimate"
-        ],
-        "translations": {
-            "ENG": [
-                "August",
-                "(month)"
-            ]
-        },
-        "id": null,
-        "derivedTerms": [
-            "sierpniowy"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "sierpień",
-                "gen": "sierpnia",
-                "dat": "sierpniowi",
-                "acc": "sierpień",
-                "ins": "sierpniem",
-                "loc": "sierpniu",
-                "voc": "sierpniu"
-            },
-            "plural": {
-                "nom": "sierpnie",
-                "gen": [
-                    "sierpni",
-                    "sierpniów"
-                ],
-                "dat": "sierpniom",
-                "acc": "sierpnie",
-                "ins": "sierpniami",
-                "loc": "sierpniach",
-                "voc": "sierpnie"
-            }
-        }
-    },
-    {
-        "lemma": "ból",
-        "gender": "m3",
-        "tags": [
-            "inanimate"
-        ],
-        "translations": {
-            "ENG": [
-                "pain aching"
-            ]
-        },
-        "id": null,
-        "derivedTerms": [
-            "przeciwbólowy"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "ból",
-                "gen": "bólu",
-                "dat": "bólowi",
-                "acc": "ból",
-                "ins": "bólem",
-                "loc": "bólu",
-                "voc": "bólu"
-            },
-            "plural": {
-                "nom": "bóle",
-                "gen": [
-                    "bólów",
-                    "bóli"
-                ],
-                "dat": "bólom",
-                "acc": "bóle",
-                "ins": "bólami",
-                "loc": "bólach",
-                "voc": "bóle"
-            }
-        }
-    },
-    {
-        "lemma": "złodziej",
-        "gender": "m1",
-        "tags": [
-            "person"
-        ],
-        "translations": {
-            "ENG": [
-                "thief",
-                "(one who carries out theft)"
-            ]
-        },
-        "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "złodziejaszek"
-            ],
-            "feminine": [
-                "złodziejka"
-            ]
-        },
-        "derivedTerms": [
-            "złodziejstwo",
-            "złodziejski"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "złodziej",
-                "gen": "złodzieja",
-                "dat": "złodziejowi",
-                "acc": "złodzieja",
-                "ins": "złodziejem",
-                "loc": "złodzieju",
-                "voc": "złodzieju"
-            },
-            "plural": {
-                "nom": "złodzieje",
-                "gen": [
-                    "złodziei",
-                    "złodziejów"
-                ],
-                "dat": "złodziejom",
-                "acc": [
-                    "złodziei",
-                    "złodziejów"
-                ],
-                "ins": "złodziejami",
-                "loc": "złodziejach",
-                "voc": "złodzieje"
-            }
-        }
-    },
-    {
-        "lemma": "wartość",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "value",
-                "(quality that renders something desirable or valuable)"
-            ]
-        },
-        "id": null,
-        "derivedTerms": [
-            "wartościowy",
-            "wartościować"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "wartość",
-                "gen": "wartości",
-                "dat": "wartości",
-                "acc": "wartość",
-                "ins": "wartością",
-                "loc": "wartości",
-                "voc": "wartości"
-            },
-            "plural": {
-                "nom": "wartości",
-                "gen": "wartości",
-                "dat": "wartościom",
-                "acc": "wartości",
-                "ins": "wartościami",
-                "loc": "wartościach",
-                "voc": "wartości"
-            }
-        }
-    },
-    {
-        "lemma": "owca",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "sheep ovine",
-                "(Ovis gen. et spp.)",
-                "ewe",
-                "(female sheep)"
-            ]
-        },
-        "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "owieczka"
-            ]
-        },
-        "derivedTerms": [
-            "owczarz",
-            "owczę",
-            "owczy"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "owca",
-                "gen": "owcy",
-                "dat": "owcy",
-                "acc": "owcę",
-                "ins": "owcą",
-                "loc": "owcy",
-                "voc": "owco"
-            },
-            "plural": {
-                "nom": "owce",
-                "gen": "owiec",
-                "dat": "owcom",
-                "acc": "owce",
-                "ins": "owcami",
-                "loc": "owcach",
-                "voc": "owce"
-            }
-        }
-    },
-    {
-        "lemma": "suszarka",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "dryer",
-                "(appliance that removes water from something)",
-                "hairdryer",
-                "drying rack drainer airer",
-                "radar gun",
-                "(slang humorous)"
+                "shower",
+                "(device for bathing)",
+                "shower",
+                "(instance of using this device in order to bathe oneself)"
             ]
         },
         "id": null,
         "usage": [
-            "suszarka bębnowa ― tumble dryer"
+            "Idę wziąć prysznic . ― I'm going to take a shower ."
+        ],
+        "derivedTerms": [
+            "prysznicowy"
+        ],
+        "synonyms": [
+            "natrysk"
         ],
         "inflections": {
             "singular": {
-                "nom": "suszarka",
-                "gen": "suszarki",
-                "dat": "suszarce",
-                "acc": "suszarkę",
-                "ins": "suszarką",
-                "loc": "suszarce",
-                "voc": "suszarko"
+                "nom": "prysznic",
+                "gen": [
+                    "prysznica",
+                    "prysznicu"
+                ],
+                "dat": "prysznicowi",
+                "acc": "prysznic",
+                "ins": "prysznicem",
+                "loc": "prysznicu",
+                "voc": "prysznicu"
             },
             "plural": {
-                "nom": "suszarki",
-                "gen": "suszarek",
-                "dat": "suszarkom",
-                "acc": "suszarki",
-                "ins": "suszarkami",
-                "loc": "suszarkach",
-                "voc": "suszarki"
+                "nom": "prysznice",
+                "gen": "pryszniców",
+                "dat": "prysznicom",
+                "acc": "prysznice",
+                "ins": "prysznicami",
+                "loc": "prysznicach",
+                "voc": "prysznice"
             }
         }
     },
     {
-        "lemma": "schody",
-        "gender": "nonvirile",
+        "lemma": "glista",
+        "gender": "f",
         "tags": [],
         "translations": {
             "ENG": [
-                "stairs stairway"
+                "roundworm",
+                "(animal of the phylum Nematoida)",
+                "earthworm",
+                "(colloquial)"
             ]
         },
         "id": null,
         "derivedTerms": [
-            "schodowy",
-            "klatka schodowa",
-            "ruchome schody"
+            "glistnica"
         ],
         "inflections": {
+            "singular": {
+                "nom": "glista",
+                "gen": "glisty",
+                "dat": "gliście",
+                "acc": "glistę",
+                "ins": "glistą",
+                "loc": "gliście",
+                "voc": "glisto"
+            },
             "plural": {
-                "nom": "schody",
-                "gen": "schodów",
-                "dat": "schodom",
-                "acc": "schody",
-                "ins": "schodami",
-                "loc": "schodach",
-                "voc": "schody"
+                "nom": "glisty",
+                "gen": "glist",
+                "dat": "glistom",
+                "acc": "glisty",
+                "ins": "glistami",
+                "loc": "glistach",
+                "voc": "glisty"
             }
+        }
+    },
+    {
+        "lemma": "gleba",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "soil",
+                "bail wipeout ; a fall, especially during a sports activity",
+                "(colloquial)",
+                "gleba",
+                "(mycology)"
+            ]
         },
-        "lacking": true,
-        "tantumPlurale": true
+        "id": null,
+        "derivedTerms": [
+            "glebnąć"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "gleba",
+                "gen": "gleby",
+                "dat": "glebie",
+                "acc": "glebę",
+                "ins": "glebą",
+                "loc": "glebie",
+                "voc": "glebo"
+            },
+            "plural": {
+                "nom": "gleby",
+                "gen": "gleb",
+                "dat": "glebom",
+                "acc": "gleby",
+                "ins": "glebami",
+                "loc": "glebach",
+                "voc": "gleby"
+            }
+        }
+    },
+    {
+        "lemma": "łeb",
+        "gender": "m3",
+        "tags": [
+            "inanimate"
+        ],
+        "translations": {
+            "ENG": [
+                "animal head",
+                "nut head",
+                "(colloquial)"
+            ]
+        },
+        "id": null,
+        "otherShapes": {
+            "diminutive": [
+                "łebek",
+                "łepek"
+            ]
+        },
+        "derivedTerms": [
+            "łebski",
+            "łepetyna",
+            "zakuty łeb",
+            "kocie łby",
+            "łeb w łeb"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "łeb",
+                "gen": "łba",
+                "dat": "łbu",
+                "acc": "łeb",
+                "ins": "łbem",
+                "loc": "łbie",
+                "voc": "łbie"
+            },
+            "plural": {
+                "nom": "łby",
+                "gen": "łbów",
+                "dat": "łbom",
+                "acc": "łby",
+                "ins": "łbami",
+                "loc": "łbach",
+                "voc": "łby"
+            }
+        }
+    },
+    {
+        "lemma": "palec",
+        "gender": "m3",
+        "tags": [
+            "inanimate"
+        ],
+        "translations": {
+            "ENG": [
+                "finger",
+                "toe"
+            ]
+        },
+        "id": null,
+        "otherShapes": {
+            "diminutive": [
+                "paluszek"
+            ],
+            "augmentative": [
+                "paluch"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "palec",
+                "gen": "palca",
+                "dat": "palcowi",
+                "acc": "palec",
+                "ins": "palcem",
+                "loc": "palcu",
+                "voc": "palcu"
+            },
+            "plural": {
+                "nom": "palce",
+                "gen": "palców",
+                "dat": "palcom",
+                "acc": "palce",
+                "ins": "palcami",
+                "loc": "palcach",
+                "voc": "palce"
+            }
+        }
+    },
+    {
+        "lemma": "noga",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "leg",
+                "A clumsy or inept person."
+            ]
+        },
+        "id": null,
+        "otherShapes": {
+            "diminutive": [
+                "nóżka"
+            ],
+            "augmentative": [
+                "nożysko"
+            ]
+        },
+        "derivedTerms": [
+            "nożny",
+            "beznogi",
+            "beznożny",
+            "czarnonogi",
+            "czteronogi",
+            "czteronożny",
+            "czworonogi",
+            "czworonożny",
+            "dwunogi",
+            "dwunożny",
+            "jednonogi",
+            "jednonożny",
+            "lewonożny",
+            "obunożny",
+            "prawonożny",
+            "dać nogę",
+            "odnóże",
+            "stonoga",
+            "-nóg"
+        ],
+        "synonyms": [
+            "niezdara"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "noga",
+                "gen": "nogi",
+                "dat": "nodze",
+                "acc": "nogę",
+                "ins": "nogą",
+                "loc": "nodze",
+                "voc": "nogo"
+            },
+            "plural": {
+                "nom": "nogi",
+                "gen": "nóg",
+                "dat": "nogom",
+                "acc": "nogi",
+                "ins": "nogami",
+                "loc": "nogach",
+                "voc": "nogi"
+            }
+        }
+    },
+    {
+        "lemma": "piła",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "saw",
+                "sawfish",
+                "(Pristidae spp.)"
+            ]
+        },
+        "id": null,
+        "otherShapes": {
+            "diminutive": [
+                "piłka"
+            ]
+        },
+        "derivedTerms": [
+            "opiłek",
+            "pilarz",
+            "pilnik",
+            "piłować"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "piła",
+                "gen": "piły",
+                "dat": "pile",
+                "acc": "piłę",
+                "ins": "piłą",
+                "loc": "pile",
+                "voc": "piło"
+            },
+            "plural": {
+                "nom": "piły",
+                "gen": "pił",
+                "dat": "piłom",
+                "acc": "piły",
+                "ins": "piłami",
+                "loc": "piłach",
+                "voc": "piły"
+            }
+        }
+    },
+    {
+        "lemma": "piłka",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "ball",
+                "(object, generally spherical, used for playing games)"
+            ]
+        },
+        "id": null,
+        "otherShapes": {
+            "diminutive": [
+                "piłeczka"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "piłka",
+                "gen": "piłki",
+                "dat": "piłce",
+                "acc": "piłkę",
+                "ins": "piłką",
+                "loc": "piłce",
+                "voc": "piłko"
+            },
+            "plural": {
+                "nom": "piłki",
+                "gen": "piłek",
+                "dat": "piłkom",
+                "acc": "piłki",
+                "ins": "piłkami",
+                "loc": "piłkach",
+                "voc": "piłki"
+            }
+        }
+    },
+    {
+        "lemma": "piłka",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "Diminutive of piła .",
+                "( “ saw ” )"
+            ]
+        },
+        "id": null,
+        "inflections": {
+            "singular": {
+                "nom": "piłka",
+                "gen": "piłki",
+                "dat": "piłce",
+                "acc": "piłkę",
+                "ins": "piłką",
+                "loc": "piłce",
+                "voc": "piłko"
+            },
+            "plural": {
+                "nom": "piłki",
+                "gen": "piłek",
+                "dat": "piłkom",
+                "acc": "piłki",
+                "ins": "piłkami",
+                "loc": "piłkach",
+                "voc": "piłki"
+            }
+        }
     }
 ]
