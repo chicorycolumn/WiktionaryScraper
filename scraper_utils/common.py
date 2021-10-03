@@ -1,7 +1,7 @@
 import json
 import urllib.request as urllib2
 import urllib as urllib
-from datetime import datetime
+from datetime import datetime, timedelta
 from time import sleep
 import re
 
@@ -23,7 +23,7 @@ def scrape_word_data(
     result = []
     rejected = {"failed_to_read_html": [], "html_read_but_no_text_scraped": []}
 
-    for head_word in head_words:
+    for (head_word_index, head_word) in enumerate(head_words):
         if use_sample:
             with open(f'input/{language}/sample_{head_word}.html', 'r') as f:
                 contents = f.read()
@@ -32,26 +32,34 @@ def scrape_word_data(
                 f.close()
         else:
             try:
-                html_string = html_from_head_word(head_word)
+                html_string = html_from_head_word(head_word, f"{head_word_index+1} of {len(head_words)}")
+                started_at = datetime.now()
                 parser.feed(html_string)
                 output_arr = parser.output_arr
                 parser.output_arr = []
             except:
-                print("\n", f'# Failed to read html for "{head_word}".', "\n")
+                print("\n", f'#                               FAILED to read html for "{head_word}".', "\n")
                 rejected["failed_to_read_html"].append(head_word)
                 continue
 
         if output_arr:
-            print(f'\n               # Adding "{head_word}" output_arr to result.' "\n")
+            print(f'\n               # SUCCESS Adding "{head_word}" output_arr to result.' "\n")
             for lemma_object in output_arr:
                 lemma_object["lemma"] = head_word
             result.extend(output_arr)
         else:
-            print("\n", f'# Successfully read html but created no output for "{head_word}".', "\n")
+            print("\n", f'#                                              FAILED Did read html but created no output for "{head_word}".', "\n")
             rejected["html_read_but_no_text_scraped"].append(head_word)
 
+        delay_seconds = 5
+
         if not use_sample:
-            sleep(1)
+            if datetime.now() < started_at + timedelta(seconds=delay_seconds):
+                if datetime.now() < started_at + timedelta(seconds=delay_seconds/2):
+                    sleep(delay_seconds)
+                else:
+                    sleep(delay_seconds/2)
+
 
     print(f'\n# Writing results".')
 
@@ -67,11 +75,11 @@ def scrape_word_data(
 
         def get_truncated(lemma_object):
             return {
-                "temp_id": str(lemma_object["temp_id"]),
                 "lemma": lemma_object["lemma"],
+                "tags": "xxxxxxxxx",
+                "translations": lemma_object["translations"],
+                "temp_id": str(lemma_object["temp_id"]),
                 "gender": lemma_object["gender"],
-                "tags": lemma_object["tags"],
-                "translations": lemma_object["translations"]
             }
 
         truncated_result = [get_truncated(lemma_object) for lemma_object in result]
@@ -93,8 +101,8 @@ def write_output(dict: dict = None, output_file: str = "output"):
         outfile.write(json_object)
 
 
-def html_from_head_word(head_word):
-    print("\n", datetime.now().strftime('%H:%M:%S'), f'# Loading up as Wiktionary page for "{head_word}".', "\n")
+def html_from_head_word(head_word, log_string):
+    print("\n", f'# Loading word [{log_string}] at <<{datetime.now().strftime("%H:%M:%S")}>> as Wiktionary page for "{head_word}".', "\n")
     html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}")
     return str(html_page.read())
 
