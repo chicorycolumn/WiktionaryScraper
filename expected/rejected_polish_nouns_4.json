@@ -1,7 +1,8 @@
 {
-    "failed_to_read_html": [
+    "failed_to_load_html": [
         "BADWORD",
         "ANOTHERBADWORD"
     ],
-    "html_read_but_no_text_scraped": []
+    "loaded_html_but_failed_when_reading": [],
+    "loaded_and_read_html_but_failed_to_create_output": []
 }
