@@ -21,39 +21,57 @@ def scrape_word_data(
     count = 1
 
     result = []
-    rejected = {"failed_to_read_html": [], "html_read_but_no_text_scraped": []}
+    rejected = {"failed_to_load_html": [], "loaded_html_but_failed_when_reading": [], "loaded_and_read_html_but_failed_to_create_output": []}
 
     for (head_word_index, head_word) in enumerate(head_words):
+        print(f'\n # Beginning for loop with "{head_word}"\n')
         if use_sample:
             with open(f'input/{language}/sample_{head_word}.html', 'r') as f:
                 contents = f.read()
                 parser.feed(contents)
                 output_arr = parser.output_arr
+                for lemma_object in output_arr:
+                    lemma_object["lemma"] = head_word
+                result.extend(output_arr)
                 f.close()
         else:
             try:
                 html_string = html_from_head_word(head_word, f"{head_word_index+1} of {len(head_words)}")
-                started_at = datetime.now()
-                parser.feed(html_string)
-                output_arr = parser.output_arr
-                parser.output_arr = []
+
+                try:
+                    started_at = datetime.now()
+                    parser.reset_for_new_table()
+                    parser.feed(html_string)
+                    output_arr = parser.output_arr
+                    parser.output_arr = []
+                    parser.reset()
+
+                    if output_arr:
+                        print(f'\n               # SUCCESS Adding "{head_word}" output_arr to result.' "\n")
+                        for lemma_object in output_arr:
+                            lemma_object["lemma"] = head_word
+                        result.extend(output_arr)
+                    else:
+                        print("\n",
+                              f'#                                              Loaded and read html for "{head_word}" but FAILED to create output.',
+                              "\n")
+                        rejected["loaded_and_read_html_but_failed_to_create_output"].append(head_word)
+
+
+                except:
+                    print("\n",
+                          f'#                               Loaded html for "{head_word}" but FAILED when reading it.', "\n")
+                    rejected["loaded_html_but_failed_when_reading"].append(head_word)
+                    parser.output_arr = []
+                    output_arr = []
+                    parser.reset()
+
             except:
-                print("\n", f'#                               FAILED to read html for "{head_word}".', "\n")
-                rejected["failed_to_read_html"].append(head_word)
-                continue
+                print("\n", f'#                               FAILED to even load html for "{head_word}".', "\n")
+                rejected["failed_to_load_html"].append(head_word)
 
-        if output_arr:
-            print(f'\n               # SUCCESS Adding "{head_word}" output_arr to result.' "\n")
-            for lemma_object in output_arr:
-                lemma_object["lemma"] = head_word
-            result.extend(output_arr)
-        else:
-            print("\n", f'#                                              FAILED Did read html but created no output for "{head_word}".', "\n")
-            rejected["html_read_but_no_text_scraped"].append(head_word)
+            delay_seconds = 1
 
-        delay_seconds = 5
-
-        if not use_sample:
             if datetime.now() < started_at + timedelta(seconds=delay_seconds):
                 if datetime.now() < started_at + timedelta(seconds=delay_seconds/2):
                     sleep(delay_seconds)
