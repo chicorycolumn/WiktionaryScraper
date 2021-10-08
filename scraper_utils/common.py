@@ -47,27 +47,24 @@ def scrape_word_data(
                     parser.reset()
 
                     if output_arr:
-                        print(f'\n               # SUCCESS Adding "{head_word}" output_arr to result.' "\n")
+                        print(f'\n{" "*15}# SUCCESS Adding "{head_word}" output_arr to result.' "\n")
                         for lemma_object in output_arr:
                             lemma_object["lemma"] = head_word
                         result.extend(output_arr)
                     else:
-                        print("\n",
-                              f'#                                              Loaded and read html for "{head_word}" but FAILED to create output.',
-                              "\n")
+                        print(f'\n#{" "*45}Loaded and read html for "{head_word}" but FAILED to create output.\n')
                         rejected["loaded_and_read_html_but_failed_to_create_output"].append(head_word)
 
 
                 except:
-                    print("\n",
-                          f'#                               Loaded html for "{head_word}" but FAILED when reading it.', "\n")
+                    print(f'\n#{" "*30}Loaded html for "{head_word}" but FAILED when reading it.\n')
                     rejected["loaded_html_but_failed_when_reading"].append(head_word)
                     parser.output_arr = []
                     output_arr = []
                     parser.reset()
 
             except:
-                print("\n", f'#                               FAILED to even load html for "{head_word}".', "\n")
+                print(f'\n#{" "*30}FAILED to even load html for "{head_word}".\n')
                 rejected["failed_to_load_html"].append(head_word)
 
             delay_seconds = 1
@@ -120,7 +117,7 @@ def write_output(dict: dict = None, output_file: str = "output"):
 
 
 def html_from_head_word(head_word, log_string):
-    print("\n", f'# Loading word [{log_string}] at <<{datetime.now().strftime("%H:%M:%S")}>> as Wiktionary page for "{head_word}".', "\n")
+    print(f'\n# Loading word [{log_string}] at <<{datetime.now().strftime("%H:%M:%S")}>> as Wiktionary page for "{head_word}".\n')
     html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}")
     return str(html_page.read())
 

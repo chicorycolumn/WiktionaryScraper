@@ -3,11 +3,11 @@ from scraper_utils.common import scrape_word_data
 from input.Polish.input_words import nouns_1
 
 if __name__ == '__main__':
-    # Group 1 = words 01-20
-    # Group 2 = words 21-60
+    # Group 1 = words 00 -  50
+    # Group 2 = words 50 - 100
 
-    group_of_input_words = 2
-    input_words = nouns_1[21:40]  # After adding words input folder, import, then select here how many want scrape.
+    group_of_input_words = 1
+    input_words = nouns_1[20:40]  # After adding words input folder, import, then select here how many want scrape.
     use_sample = False
 
     print(f'## Starting, given {len(input_words)} words.')
@@ -25,5 +25,4 @@ if __name__ == '__main__':
         group_number=group_of_input_words
     )
 
-    print(f'\n## Finished scraping at "{f"output_nouns_{group_of_input_words}"}" for {len(input_words)} words:',
-          input_words)
+    print(f'\n## Scraped at "{f"output_nouns_{group_of_input_words}"}" for {len(input_words)} words:', input_words)
