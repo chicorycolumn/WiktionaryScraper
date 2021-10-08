@@ -52,9 +52,9 @@ class PolishNounHTMLParser(HTMLParser):
         self.reset_for_new_table()
         self.output_arr = []
         self.keys = []
+        self.location = None
 
     def handle_data(self, data):
-
         data = orth(data)
 
         if not data or data in self.ignorable_narrow:
@@ -136,7 +136,6 @@ class PolishNounHTMLParser(HTMLParser):
             self.mode = "getword-0"
 
     def handle_starttag(self, startTag, attrs):
-
         if startTag in ["html", "body"]:
             self.reset_for_new_word()
             return
