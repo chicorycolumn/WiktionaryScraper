@@ -1,17 +1,22 @@
+UNCOUNTABLE = 1
+
+Is it a Material/Chemical/Bodypart/Schoolsubject/Weather/Noise/Emotion/Money/Measurement
+            c       ¢        b           ß          w      !      e     $       @
+
 Is it abstracttime, abstractschool, abstractwork, abstractgeometric, otherwise abstract?
             at             as            aw              ag            aa
     Return
 
-Is it Relatives, Jobs, Animal, otherwise Person?
-        r        j         a         p
+Is it Relatives, Jobs, Animal, AnimalPet Persontitle, otherwise Person?
+        r        j         a       æ          t         p
     Return
 
-Is it Food or Drink or Garments?
-        f       d        g
+Is it Food or Drink or Drinkalcoholic or Garments?
+        f         d          da            g
     Return
 
-Is it locationgeneral, locationbuilding, locationroom, locationnatural?
-            lg                lb              lr            ln
+Is it locationgeneral, locationbuilding, locationroom, locationnatural, locationspecial
+            lg                lb              lr            ln              ls
     Return
 
 Is it furniture, bedroomobjects, kitchenobjects, washroomobjects, housepart, otherwise house?
