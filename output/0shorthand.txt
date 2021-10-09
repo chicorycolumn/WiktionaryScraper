@@ -1,4 +1,4 @@
-UNCOUNTABLE = 1
+UNCOUNTABLE = u
 
 Is it a Material/Chemical/Bodypart/Schoolsubject/Weather/Noise/Emotion/Money/Measurement
             c       ¢        b           ß          w      !      e     $       @
@@ -24,8 +24,8 @@ Is it furniture, bedroomobjects, kitchenobjects, washroomobjects, housepart, oth
     Return
 
 If not enough selected:
-    Is it Holdable or Unholdable?
-              h          u
+    Is it Holdable?
+              h
     Is it Manmade or Natural?
               m          n
     Is it School or Work related?
