@@ -5,6 +5,212 @@ from scraper_utils.processing import *
 from input.Polish.input_words import nouns_1
 
 
+@pytest.mark.parametrize("lemma_object,expected_lemma_object", [
+    (
+            {"lemma": "chair", "tags": "hk"},
+            {
+                "lemma": "chair",
+                "tags": ["concrete", "holdable", "household object"],
+                "topics": ["home", "inside", "kitchen"]
+             }
+    ),
+    (
+            {"lemma": "vodka", "tags": "da"},
+            {
+                "lemma": "vodka",
+                "tags": ["alcoholic", "concrete", "drink", "holdable"],
+                "topics": ["inside", "kitchen", "nightclub", "restaurant"],
+             }
+    ),
+    (
+            {"lemma": "sand", "tags": "u,h,n"},
+            {
+                "lemma": "sand",
+                "tags": ["concrete", "holdable", "natural", "uncountable"],
+                "topics": ["outside"],
+             }
+    ),
+])
+def test_add_tags_and_topics_from_shorthand(lemma_object: object, expected_lemma_object: object):
+    test_shorthand_tag_ref = {
+        "u": {
+            "tags": ["uncountable"],
+            "topics": [],
+        },
+        "h": {
+            "tags": ["holdable", "concrete"],
+            "topics": [],
+        },
+        "m": {
+            "tags": ["manmade", "concrete"],
+            "topics": [],
+        },
+        "n": {
+            "tags": ["natural", "concrete"],
+            "topics": ["outside"],
+        },
+        "s": {
+            "tags": ["school"],
+            "topics": [],
+        },
+        "w": {
+            "tags": ["work"],
+            "topics": [],
+        },
+
+        # # # # # # # # # # #
+
+        "c": {
+            "tags": ["material", "uncountable", "concrete"],
+            "topics": ["basic"],
+        },
+        "¢": {
+            "tags": ["chemical", "c"],
+            "topics": ["science"],
+        },
+        "b": {
+            "tags": ["bodypart", "concrete"],
+            "topics": ["at the doctor", "basic", "body"],
+        },
+        "ß": {
+            "tags": ["schoolsubject", "abstract"],
+            "topics": ["school"],
+        },
+        "w": {
+            "tags": ["weather", "abstract", "uncountable"],
+            "topics": ["basic", "outdoor"],
+        },
+        "!": {
+            "tags": ["noise", "abstract"],
+            "topics": ["sense and perception"],
+        },
+        "e": {
+            "tags": ["emotion", "abstract"],
+            "topics": ["inside your head"],
+        },
+        "$": {
+            "tags": ["money"],
+            "topics": ["shopping", "maths", "travel"],
+        },
+        "@": {
+            "tags": ["measurement"],
+            "topics": ["maths"],
+        },
+        "at": {
+            "tags": ["abstract", "time"],
+            "topics": ["travel", "maths"],
+        },
+        "as": {
+            "tags": ["abstract"],
+            "topics": ["school"],
+        },
+        "aw": {
+            "tags": ["abstract"],
+            "topics": ["work"],
+        },
+        "ag": {
+            "tags": ["abstract"],
+            "topics": ["geometric", "maths"],
+        },
+        "aa": {
+            "tags": ["abstract"],
+            "topics": [],
+        },
+        "r": {
+            "tags": ["relative", "person", "living", "concrete"],
+            "topics": ["relationships"],
+        },
+        "j": {
+            "tags": ["profession", "person", "living", "concrete"],
+            "topics": ["work"],
+        },
+        "a": {
+            "tags": ["animal", "living", "concrete"],
+            "topics": ["outside"],
+        },
+        "æ": {
+            "tags": ["pet", "animal", "living", "concrete"],
+            "topics": ["home", "inside"],
+        },
+        "t": {
+            "tags": ["title", "person", "living", "concrete"],
+            "topics": [],
+        },
+        "p": {
+            "tags": ["person", "living", "concrete"],
+            "topics": [],
+        },
+        "f": {
+            "tags": ["food", "h"],
+            "topics": ["kitchen", "restaurant", "inside"],
+        },
+        "d": {
+            "tags": ["drink", "h"],
+            "topics": ["kitchen", "restaurant", "inside"],
+        },
+        "da": {
+            "tags": ["alcoholic", "d"],
+            "topics": ["kitchen", "restaurant", "nightclub", "inside"],
+        },
+        "g": {
+            "tags": ["clothes", "h"],
+            "topics": ["basic"],
+        },
+        "lg": {
+            "tags": ["location", "concrete"],
+            "topics": [],
+        },
+        "lb": {
+            "tags": ["location", "building", "concrete"],
+            "topics": ["inside"],
+        },
+        "lr": {
+            "tags": ["location", "room", "concrete"],
+            "topics": ["inside"],
+        },
+        "ln": {
+            "tags": ["location", "natural", "concrete"],
+            "topics": ["outside"],
+        },
+        "ls": {
+            "tags": ["special location", "abstract"],
+            "topics": ["religion"],
+        },
+        "hf": {
+            "tags": ["furniture", "concrete"],
+            "topics": ["home", "inside"],
+        },
+        "hh": {
+            "tags": ["household object", "h"],
+            "topics": ["home", "inside"],
+        },
+        "hf": {
+            "tags": ["furniture", "concrete"],
+            "topics": ["home", "inside"],
+        },
+        "hb": {
+            "tags": ["hh"],
+            "topics": ["home", "inside", "bedroom"],
+        },
+        "hk": {
+            "tags": ["hh"],
+            "topics": ["home", "inside", "kitchen"],
+        },
+        "hw": {
+            "tags": ["hh"],
+            "topics": ["home", "inside", "washroom"],
+        },
+        "hp": {
+            "tags": ["part of house", "concrete"],
+            "topics": ["home", "inside"],
+        }
+    }
+
+    add_tags_and_topics_from_shorthand(lemma_object, test_shorthand_tag_ref)
+
+    assert lemma_object == expected_lemma_object
+
+
 @pytest.mark.parametrize("input_stags,expected_output_tags", [
     (["c"], ["citrus", "fruit", "sweet", "food"]),
     (["o"], ["lends its name to a color", "citrus", "fruit", "sweet", "food"]),

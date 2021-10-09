@@ -7,6 +7,10 @@ import re
 from scraper_utils.common import *
 
 shorthand_tag_ref = {
+    "u": {
+        "tags": ["uncountable"],
+        "topics": [],
+    },
     "h": {
         "tags": ["holdable", "concrete"],
         "topics": [],
@@ -151,7 +155,7 @@ shorthand_tag_ref = {
         "topics": ["home", "inside"],
     },
     "hh": {
-        "tags": ["household objects", "h"],
+        "tags": ["household object", "h"],
         "topics": ["home", "inside"],
     },
     "hf": {
@@ -193,19 +197,22 @@ def recursively_expand_tags(input_stags: list, ref: object):
     return output_tags
 
 
-def add_tags_from_shorthand(lemma_object):
+def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
     shorthand_tags = lemma_object["tags"].split(",")
-    tags = []
+
+    tags = recursively_expand_tags(shorthand_tags, ref)
+
     topics = []
-
     for stag in shorthand_tags:
-        for tag in shorthand_tag_ref[stag]["tags"]:
+        for topic in ref[stag]["topics"]:
+            if topic not in topics:
+                topics.append(topic)
 
-            if tag in shorthand_tag_ref:
-                shorthand_tag_ref
-            else:
-                if tag not in tags:
-                    tags.append(tag)
+    tags.sort()
+    topics.sort()
+
+    lemma_object["tags"] = tags
+    lemma_object["topics"] = topics
 
 
 def untruncate_lemma_objects(group_numbers):
