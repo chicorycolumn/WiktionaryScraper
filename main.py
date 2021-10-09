@@ -6,8 +6,8 @@ if __name__ == '__main__':
     # Group 1 = words 00 -  50
     # Group 2 = words 50 - 100
 
-    group_of_input_words = 1
-    input_words = nouns_1[20:40]  # After adding words input folder, import, then select here how many want scrape.
+    group_of_input_words = 2
+    input_words = nouns_1[50:100]  # After adding words input folder, import, then select here how many want scrape.
     use_sample = False
 
     print(f'## Starting, given {len(input_words)} words.')

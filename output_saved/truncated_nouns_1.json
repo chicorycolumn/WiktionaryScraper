@@ -1,10 +1,10 @@
 [
     {
         "lemma": "brat",
-        "tags": "xxxxxxxxx",
+        "tags": "r",
         "translations": {
             "ENG": [
-                "brother Uwspółcześniona Biblia Gdańska, Mark 1:16:"
+                "brother"
             ]
         },
         "temp_id": "1.1",
@@ -12,7 +12,7 @@
     },
     {
         "lemma": "fizyka",
-        "tags": "xxxxxxxxx",
+        "tags": "ß",
         "translations": {
             "ENG": [
                 "physics"
@@ -23,7 +23,7 @@
     },
     {
         "lemma": "matematyka",
-        "tags": "xxxxxxxxx",
+        "tags": "ß",
         "translations": {
             "ENG": [
                 "mathematics"
@@ -34,7 +34,7 @@
     },
     {
         "lemma": "książka",
-        "tags": "xxxxxxxxx",
+        "tags": "h,m,s,w",
         "translations": {
             "ENG": [
                 "book"
@@ -45,7 +45,7 @@
     },
     {
         "lemma": "łyżka",
-        "tags": "xxxxxxxxx",
+        "tags": "hk",
         "translations": {
             "ENG": [
                 "spoon",
@@ -58,15 +58,10 @@
     },
     {
         "lemma": "szklanka",
-        "tags": "xxxxxxxxx",
+        "tags": "hk",
         "translations": {
             "ENG": [
-                "glass",
-                "(a vessel having a capacity of roughly 250 ml)",
-                "glass",
-                "(quantity) (metonymically)",
-                "black ice",
-                "(colloquial)"
+                "glass","drinking glass"
             ]
         },
         "temp_id": "1.6",
@@ -74,7 +69,7 @@
     },
     {
         "lemma": "chemia",
-        "tags": "xxxxxxxxx",
+        "tags": "ß",
         "translations": {
             "ENG": [
                 "chemistry"
@@ -85,11 +80,10 @@
     },
     {
         "lemma": "wiosna",
-        "tags": "xxxxxxxxx",
+        "tags": "at",
         "translations": {
             "ENG": [
-                "spring",
-                "(season)"
+                "spring"
             ]
         },
         "temp_id": "1.8",
@@ -97,7 +91,7 @@
     },
     {
         "lemma": "czekolada",
-        "tags": "xxxxxxxxx",
+        "tags": "f,1",
         "translations": {
             "ENG": [
                 "chocolate"
@@ -108,12 +102,10 @@
     },
     {
         "lemma": "cebula",
-        "tags": "xxxxxxxxx",
+        "tags": "f",
         "translations": {
             "ENG": [
-                "onion",
-                "bulb",
-                "(botany)"
+                "onion"
             ]
         },
         "temp_id": "1.10",
@@ -121,7 +113,7 @@
     },
     {
         "lemma": "herbata",
-        "tags": "xxxxxxxxx",
+        "tags": "d",
         "translations": {
             "ENG": [
                 "tea"
@@ -132,7 +124,7 @@
     },
     {
         "lemma": "zima",
-        "tags": "xxxxxxxxx",
+        "tags": "at",
         "translations": {
             "ENG": [
                 "winter"
@@ -143,12 +135,22 @@
     },
     {
         "lemma": "wieża",
-        "tags": "xxxxxxxxx",
+        "tags": "lb",
         "translations": {
             "ENG": [
-                "tower",
-                "rook",
-                "(chess)"
+                "tower"
+            ]
+        },
+        "temp_id": "1.13",
+        "gender": "f"
+    },
+    {
+        "lemma": "wieża",
+        "tags": "chess",
+        "translations": {
+            "ENG": [
+                "castle",
+                "rook"
             ]
         },
         "temp_id": "1.13",
@@ -156,13 +158,10 @@
     },
     {
         "lemma": "szkoła",
-        "tags": "xxxxxxxxx",
+        "tags": "lb",
         "translations": {
             "ENG": [
-                "school",
-                "(educational institution)",
-                "school",
-                "(doctrine)"
+                "school"
             ]
         },
         "temp_id": "1.14",
@@ -170,13 +169,10 @@
     },
     {
         "lemma": "podłoga",
-        "tags": "xxxxxxxxx",
+        "tags": "hp",
         "translations": {
             "ENG": [
-                "floor",
-                "(supporting surface of a room)",
-                "floor",
-                "(mathematics colloquial)"
+                "floor"
             ]
         },
         "temp_id": "1.15",
@@ -184,13 +180,21 @@
     },
     {
         "lemma": "góra",
-        "tags": "xxxxxxxxx",
+        "tags": "ln",
         "translations": {
             "ENG": [
-                "mountain",
-                "top",
-                "higher-ups",
-                "(colloquial)"
+                "mountain"
+            ]
+        },
+        "temp_id": "1.16",
+        "gender": "f"
+    },
+    {
+        "lemma": "góra",
+        "tags": "ag",
+        "translations": {
+            "ENG": [
+                "top"
             ]
         },
         "temp_id": "1.16",
@@ -198,7 +202,7 @@
     },
     {
         "lemma": "chłopak",
-        "tags": "xxxxxxxxx",
+        "tags": "p,r",
         "translations": {
             "ENG": [
                 "boy",
@@ -210,13 +214,11 @@
     },
     {
         "lemma": "chłopiec",
-        "tags": "xxxxxxxxx",
+        "tags": "p,r",
         "translations": {
             "ENG": [
                 "boy",
-                "(a male child)",
-                "boyfriend",
-                "(a male romantic partner) (colloquial dated)"
+                "boyfriend"
             ]
         },
         "temp_id": "1.18",
@@ -224,7 +226,7 @@
     },
     {
         "lemma": "budynek",
-        "tags": "xxxxxxxxx",
+        "tags": "lb",
         "translations": {
             "ENG": [
                 "building"
@@ -235,11 +237,10 @@
     },
     {
         "lemma": "stół",
-        "tags": "xxxxxxxxx",
+        "tags": "hf",
         "translations": {
             "ENG": [
-                "table",
-                "(furniture)"
+                "table"
             ]
         },
         "temp_id": "1.20",
@@ -247,11 +248,10 @@
     },
     {
         "lemma": "nauczycielka",
-        "tags": "xxxxxxxxx",
+        "tags": "j,s",
         "translations": {
             "ENG": [
-                "teacher",
-                "(female)"
+                "teacher"
             ]
         },
         "temp_id": "1.21",
@@ -259,7 +259,7 @@
     },
     {
         "lemma": "nauczyciel",
-        "tags": "xxxxxxxxx",
+        "tags": "j,s",
         "translations": {
             "ENG": [
                 "teacher"
@@ -270,7 +270,7 @@
     },
     {
         "lemma": "kwiat",
-        "tags": "xxxxxxxxx",
+        "tags": "h,n",
         "translations": {
             "ENG": [
                 "flower"
@@ -281,27 +281,20 @@
     },
     {
         "lemma": "ściana",
-        "tags": "xxxxxxxxx",
+        "tags": "hp",
         "translations": {
             "ENG": [
-                "wall",
-                "(substantial structure acting as side or division in a building)"
-            ]
+                "wall"]
         },
         "temp_id": "1.24",
         "gender": "f"
     },
     {
         "lemma": "lampa",
-        "tags": "xxxxxxxxx",
+        "tags": "hb",
         "translations": {
             "ENG": [
-                "A device that generates heat light or other radiation . Especially an electric light bulb .",
-                "(prescriptive)",
-                "A device containing oil, burnt through a wick for illumination ; an oil lamp .",
-                "A piece of furniture including one or more electric light sources .",
-                "face head",
-                "(slang)"
+                "light","lamp"
             ]
         },
         "temp_id": "1.25",
@@ -309,7 +302,7 @@
     },
     {
         "lemma": "wódka",
-        "tags": "xxxxxxxxx",
+        "tags": "da",
         "translations": {
             "ENG": [
                 "vodka"
@@ -320,10 +313,10 @@
     },
     {
         "lemma": "las",
-        "tags": "xxxxxxxxx",
+        "tags": "ln",
         "translations": {
             "ENG": [
-                "forest"
+                "forest", "woods"
             ]
         },
         "temp_id": "1.27",
@@ -331,7 +324,7 @@
     },
     {
         "lemma": "krok",
-        "tags": "xxxxxxxxx",
+        "tags": "ag",
         "translations": {
             "ENG": [
                 "step"
@@ -342,11 +335,10 @@
     },
     {
         "lemma": "mapa",
-        "tags": "xxxxxxxxx",
+        "tags": "h,m,s",
         "translations": {
             "ENG": [
-                "map",
-                "(sheet with geographical information on it)"
+                "map"
             ]
         },
         "temp_id": "1.29",
@@ -354,11 +346,10 @@
     },
     {
         "lemma": "klimat",
-        "tags": "xxxxxxxxx",
+        "tags": "w",
         "translations": {
             "ENG": [
-                "climate",
-                "(climatology)"
+                "climate"
             ]
         },
         "temp_id": "1.30",
@@ -366,7 +357,7 @@
     },
     {
         "lemma": "rok",
-        "tags": "xxxxxxxxx",
+        "tags": "at",
         "translations": {
             "ENG": [
                 "year"
@@ -376,28 +367,11 @@
         "gender": "m3"
     },
     {
-        "lemma": "rok",
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "skirt",
-                "(article of clothing) (Upper Silesia)",
-                "court case",
-                "(obsolete)",
-                "engagement betrothal",
-                "(obsolete)"
-            ]
-        },
-        "temp_id": "1.32",
-        "gender": "m3"
-    },
-    {
         "lemma": "grudzień",
-        "tags": "xxxxxxxxx",
+        "tags": "at",
         "translations": {
             "ENG": [
-                "December",
-                "(twelfth month in the Gregorian calendar, which has 31 days)."
+                "December"
             ]
         },
         "temp_id": "1.33",
@@ -405,12 +379,10 @@
     },
     {
         "lemma": "miesiąc",
-        "tags": "xxxxxxxxx",
+        "tags": "at",
         "translations": {
             "ENG": [
-                "month",
-                "moon J.Tuwim Dziewczynom :",
-                "(poetic)"
+                "month"
             ]
         },
         "temp_id": "1.34",
@@ -418,22 +390,32 @@
     },
     {
         "lemma": "los",
-        "tags": "xxxxxxxxx",
+        "tags": "aa",
         "translations": {
             "ENG": [
-                "fate",
-                "lottery ticket"
+                "fate"
             ]
         },
         "temp_id": "1.35",
         "gender": "m3"
     },
     {
-        "lemma": "huk",
-        "tags": "xxxxxxxxx",
+        "lemma": "los",
+        "tags": "h,m",
         "translations": {
             "ENG": [
-                "noise boom bang crash rumble"
+                "lottery ticket"
+            ]
+        },
+        "temp_id": "1.35a",
+        "gender": "m3"
+    },
+    {
+        "lemma": "huk",
+        "tags": "!",
+        "translations": {
+            "ENG": [
+                "noise","boom","bang","crash","rumble"
             ]
         },
         "temp_id": "1.36",
@@ -441,11 +423,10 @@
     },
     {
         "lemma": "most",
-        "tags": "xxxxxxxxx",
+        "tags": "lg",
         "translations": {
             "ENG": [
-                "bridge",
-                "(building over a river or valley)"
+                "bridge"
             ]
         },
         "temp_id": "1.37",
@@ -453,11 +434,11 @@
     },
     {
         "lemma": "słownik",
-        "tags": "xxxxxxxxx",
+        "tags": "h,m,s",
         "translations": {
             "ENG": [
-                "dictionary glossary lexicon",
-                "vocabulary, personal lexicon"
+                "dictionary",
+                "vocabulary"
             ]
         },
         "temp_id": "1.38",
@@ -465,48 +446,24 @@
     },
     {
         "lemma": "tor",
-        "tags": "xxxxxxxxx",
+        "tags": "u,m,ag",
         "translations": {
             "ENG": [
-                "track course path",
+                "track","course","path",
                 "rail track",
-                "lane",
-                "(a part of a sports track)",
-                "trajectory"
+                "railway track",
+                "lane"
             ]
         },
         "temp_id": "1.39",
         "gender": "m3"
     },
     {
-        "lemma": "tor",
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "thorium"
-            ]
-        },
-        "temp_id": "1.40",
-        "gender": "m3"
-    },
-    {
-        "lemma": "tor",
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "torr"
-            ]
-        },
-        "temp_id": "1.41",
-        "gender": "m3"
-    },
-    {
         "lemma": "bok",
-        "tags": "xxxxxxxxx",
+        "tags": "ag",
         "translations": {
             "ENG": [
-                "side flank",
-                "(neither the front nor the back)"
+                "side"
             ]
         },
         "temp_id": "1.42",
@@ -514,26 +471,42 @@
     },
     {
         "lemma": "natura",
-        "tags": "xxxxxxxxx",
+        "tags": "e",
+        "translations": {
+            "ENG": [
+                "nature"   ]
+        },
+        "temp_id": "1.43a",
+        "gender": "f"
+    },
+    {
+        "lemma": "natura",
+        "tags": "aa",
         "translations": {
             "ENG": [
                 "nature",
-                "(the natural world)",
-                "nature",
-                "(the key characteristics of something or something's natural behavior)"
-            ]
+                "the natural world"     ]
         },
         "temp_id": "1.43",
         "gender": "f"
     },
     {
         "lemma": "dom",
-        "tags": "xxxxxxxxx",
+        "tags": "lb",
         "translations": {
             "ENG": [
-                "home",
-                "house",
-                "(building)"
+                "house"
+            ]
+        },
+        "temp_id": "1.44",
+        "gender": "m3"
+    },
+    {
+        "lemma": "dom",
+        "tags": "aa",
+        "translations": {
+            "ENG": [
+                "home"
             ]
         },
         "temp_id": "1.44",
@@ -541,7 +514,7 @@
     },
     {
         "lemma": "syn",
-        "tags": "xxxxxxxxx",
+        "tags": "r",
         "translations": {
             "ENG": [
                 "son"
@@ -552,28 +525,20 @@
     },
     {
         "lemma": "koza",
-        "tags": "xxxxxxxxx",
+        "tags": "a",
         "translations": {
             "ENG": [
-                "goat",
-                "booger bogey",
-                "(piece of solid or semisolid mucus in the nostril) (colloquial)",
-                "jail prison",
-                "(slang)",
-                "Any spined loach",
-                "(Cobitis), especially Cobitis taenia, or golden loach (Sabanejewia)."
-            ]
+                "goat"    ]
         },
         "temp_id": "1.46",
         "gender": "f"
     },
     {
         "lemma": "moneta",
-        "tags": "xxxxxxxxx",
+        "tags": "$",
         "translations": {
             "ENG": [
-                "coin",
-                "(a piece of currency)"
+                "coin"
             ]
         },
         "temp_id": "1.47",
@@ -581,12 +546,10 @@
     },
     {
         "lemma": "niedziela",
-        "tags": "xxxxxxxxx",
+        "tags": "at",
         "translations": {
             "ENG": [
-                "Sunday",
-                "week",
-                "(archaic)"
+                "Sunday"
             ]
         },
         "temp_id": "1.48",
@@ -594,7 +557,7 @@
     },
     {
         "lemma": "sobota",
-        "tags": "xxxxxxxxx",
+        "tags": "at",
         "translations": {
             "ENG": [
                 "Saturday"
@@ -605,7 +568,7 @@
     },
     {
         "lemma": "woda",
-        "tags": "xxxxxxxxx",
+        "tags": "d,n,1",
         "translations": {
             "ENG": [
                 "water"
@@ -616,7 +579,7 @@
     },
     {
         "lemma": "kilogram",
-        "tags": "xxxxxxxxx",
+        "tags": "@",
         "translations": {
             "ENG": [
                 "kilogram"

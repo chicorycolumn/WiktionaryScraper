@@ -1,18 +1,10 @@
 [
     {
         "lemma": "marchewka",
-        "tags": "xxxxxxxxx",
+        "tags": "f",
         "translations": {
             "ENG": [
-                "Diminutive of marchew .",
-                "redhead",
-                "(person with red hair) (colloquial)",
-                "nose",
-                "(protuberance on the face) (school slang prison slang)",
-                "heel",
-                "(part of the foot) (regional)",
-                "A tall person .",
-                "(school slang)"
+                "carrot"
             ]
         },
         "temp_id": "2.1",
@@ -20,12 +12,10 @@
     },
     {
         "lemma": "port",
-        "tags": "xxxxxxxxx",
+        "tags": "lg",
         "translations": {
             "ENG": [
-                "port harbour",
-                "(area for ships)",
-                "port, a town or city containing such a place"
+                "port", "harbour"
             ]
         },
         "temp_id": "2.2",
@@ -33,7 +23,7 @@
     },
     {
         "lemma": "ser",
-        "tags": "xxxxxxxxx",
+        "tags": "f,1",
         "translations": {
             "ENG": [
                 "cheese"
@@ -44,11 +34,10 @@
     },
     {
         "lemma": "facet",
-        "tags": "xxxxxxxxx",
+        "tags": "p",
         "translations": {
             "ENG": [
-                "guy fellow chap",
-                "(colloquial)"
+                "guy", "fellow", "chap"
             ]
         },
         "temp_id": "2.4",
@@ -56,13 +45,10 @@
     },
     {
         "lemma": "panna",
-        "tags": "xxxxxxxxx",
+        "tags": "t",
         "translations": {
             "ENG": [
-                "unmarried woman",
-                "Miss",
-                "female virgin",
-                "(archaic)"
+                "miss"
             ]
         },
         "temp_id": "2.5",
@@ -70,7 +56,7 @@
     },
     {
         "lemma": "ocean",
-        "tags": "xxxxxxxxx",
+        "tags": "ln",
         "translations": {
             "ENG": [
                 "ocean"
@@ -81,39 +67,22 @@
     },
     {
         "lemma": "kapusta",
-        "tags": "xxxxxxxxx",
+        "tags": "f",
         "translations": {
             "ENG": [
                 "cabbage",
-                "kale",
-                "cash money",
-                "(slang)"
+                "kale"
             ]
         },
         "temp_id": "2.7",
         "gender": "f"
     },
     {
-        "lemma": "kapusta",
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "informant snitch",
-                "(slang)"
-            ]
-        },
-        "temp_id": "2.8",
-        "gender": "m1"
-    },
-    {
         "lemma": "malina",
-        "tags": "xxxxxxxxx",
+        "tags": "f",
         "translations": {
             "ENG": [
-                "raspberry",
-                "(certain species in the genus Rubus)",
-                "raspberry",
-                "(fruit)"
+                "raspberry"
             ]
         },
         "temp_id": "2.9",
@@ -121,10 +90,10 @@
     },
     {
         "lemma": "wanna",
-        "tags": "xxxxxxxxx",
+        "tags": "hw",
         "translations": {
             "ENG": [
-                "bath bathtub"
+                "bath","bathtub"
             ]
         },
         "temp_id": "2.10",
@@ -132,51 +101,54 @@
     },
     {
         "lemma": "guma",
-        "tags": "xxxxxxxxx",
+        "tags": "c",
         "translations": {
             "ENG": [
-                "rubber",
-                "(substance)",
-                "chewing gum",
-                "flat tire",
-                "(colloquial)",
-                "rubber condom",
-                "(colloquial)"
+                "rubber"
             ]
         },
         "temp_id": "2.11",
         "gender": "f"
     },
     {
-        "lemma": "język",
-        "tags": "xxxxxxxxx",
+        "lemma": "guma",
+        "tags": "f",
         "translations": {
             "ENG": [
-                "tongue",
-                "(the fleshy muscular organ in the mouth of a mammal)",
-                "language",
-                "(a method of interhuman communication)",
-                "language tongue",
-                "(the conventional system of communication used by a particular community)",
-                "language",
-                "(the parlance of a particular specialist field)",
-                "language",
-                "(a particular style or manner of expression; idiom)",
-                "language programming language",
-                "(computing)",
-                "tongue of a shoe"
+                "chewing gum"
+            ]
+        },
+        "temp_id": "2.11a",
+        "gender": "f"
+    },
+    {
+        "lemma": "język",
+        "tags": "b",
+        "translations": {
+            "ENG": [
+                "tongue"
             ]
         },
         "temp_id": "2.12",
         "gender": "m3"
     },
     {
-        "lemma": "ekran",
-        "tags": "xxxxxxxxx",
+        "lemma": "język",
+        "tags": "aa",
         "translations": {
             "ENG": [
-                "screen",
-                "(TV, monitor)"
+                "language"
+            ]
+        },
+        "temp_id": "2.12a",
+        "gender": "m3"
+    },
+    {
+        "lemma": "ekran",
+        "tags": "hh",
+        "translations": {
+            "ENG": [
+                "screen"
             ]
         },
         "temp_id": "2.13",
@@ -184,11 +156,10 @@
     },
     {
         "lemma": "student",
-        "tags": "xxxxxxxxx",
+        "tags": "p",
         "translations": {
             "ENG": [
-                "student",
-                "(academic, at university)"
+                "student"
             ]
         },
         "temp_id": "2.14",
@@ -196,25 +167,20 @@
     },
     {
         "lemma": "lista",
-        "tags": "xxxxxxxxx",
+        "tags": "h,m,s,w",
         "translations": {
             "ENG": [
-                "list",
-                "(a register or roll of paper consisting of an enumeration or compilation of a set of possible items)",
-                "list",
-                "(a codified representation of a list, used to store data or in processing)"
-            ]
+                "list"]
         },
         "temp_id": "2.15",
         "gender": "f"
     },
     {
         "lemma": "maj",
-        "tags": "xxxxxxxxx",
+        "tags": "at",
         "translations": {
             "ENG": [
-                "May",
-                "(month)"
+                "May"
             ]
         },
         "temp_id": "2.16",
@@ -222,7 +188,7 @@
     },
     {
         "lemma": "kanapa",
-        "tags": "xxxxxxxxx",
+        "tags": "hf",
         "translations": {
             "ENG": [
                 "sofa"
@@ -233,7 +199,7 @@
     },
     {
         "lemma": "droga",
-        "tags": "xxxxxxxxx",
+        "tags": "lg",
         "translations": {
             "ENG": [
                 "way",
@@ -245,15 +211,10 @@
     },
     {
         "lemma": "kot",
-        "tags": "xxxxxxxxx",
+        "tags": "æ",
         "translations": {
             "ENG": [
-                "cat tomcat",
-                "dust bunny",
-                "rookie",
-                "(slang chiefly military)",
-                "hare 1834 Adam Mickiewicz,chapter IV, in Pan Tadeusz, lines 934-935, page 189 :",
-                "(hunting jargon)"
+                "cat"
             ]
         },
         "temp_id": "2.19",
@@ -261,13 +222,10 @@
     },
     {
         "lemma": "lis",
-        "tags": "xxxxxxxxx",
+        "tags": "a",
         "translations": {
             "ENG": [
-                "fox",
-                "(Vulpini, especially the genus Vulpes)",
-                "fox fur",
-                "(colloquial)"
+                "fox"
             ]
         },
         "temp_id": "2.20",
@@ -275,25 +233,20 @@
     },
     {
         "lemma": "lis",
-        "tags": "xxxxxxxxx",
+        "tags": "p",
         "translations": {
             "ENG": [
-                "A clever or cunning person; fox .",
-                "(colloquial)"
-            ]
+                "A clever or cunning person" ]
         },
         "temp_id": "2.21",
         "gender": "m1"
     },
     {
         "lemma": "ptak",
-        "tags": "xxxxxxxxx",
+        "tags": "æ",
         "translations": {
             "ENG": [
-                "bird",
-                "(animal)",
-                "cock penis",
-                "(colloquial)"
+                "bird"
             ]
         },
         "temp_id": "2.22",
@@ -301,45 +254,21 @@
     },
     {
         "lemma": "wilk",
-        "tags": "xxxxxxxxx",
+        "tags": "a",
         "translations": {
             "ENG": [
-                "wolf",
-                "male wolf, he-wolf",
-                "(colloquial)",
-                "German Shepherd",
-                "(colloquial)",
-                "wolfskin",
-                "(colloquial)"
+                "wolf"
             ]
         },
         "temp_id": "2.23",
         "gender": "m2"
     },
     {
-        "lemma": "wilk",
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "meatgrinder",
-                "lupus",
-                "(medicine colloquial)",
-                "water sprout water shoot",
-                "(botany)"
-            ]
-        },
-        "temp_id": "2.24",
-        "gender": "m3"
-    },
-    {
         "lemma": "moment",
-        "tags": "xxxxxxxxx",
+        "tags": "at",
         "translations": {
             "ENG": [
-                "moment",
-                "(physics)",
-                "moment",
-                "(short period of time)"
+                "moment"
             ]
         },
         "temp_id": "2.25",
@@ -347,50 +276,33 @@
     },
     {
         "lemma": "hol",
-        "tags": "xxxxxxxxx",
+        "tags": "lr",
         "translations": {
             "ENG": [
-                "hall hallway",
+                "hall","hallway",
                 "lobby",
-                "vestibule anteroom"
+                "vestibule","anteroom"
             ]
         },
         "temp_id": "2.26",
         "gender": "m3"
     },
     {
-        "lemma": "hol",
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "haul tow"
-            ]
-        },
-        "temp_id": "2.27",
-        "gender": "m3"
-    },
-    {
         "lemma": "okno",
-        "tags": "xxxxxxxxx",
+        "tags": "hp",
         "translations": {
             "ENG": [
-                "window",
-                "(opening for light and air)",
-                "window",
-                "(area on a computer terminal or screen containing some kind of user interface) (computing)"
-            ]
+                "window"   ]
         },
         "temp_id": "2.28",
         "gender": "n"
     },
     {
         "lemma": "radio",
-        "tags": "xxxxxxxxx",
+        "tags": "hh",
         "translations": {
             "ENG": [
-                "radio",
-                "(a device that can receive the signal sent over radio waves)",
-                "radio station"
+                "radio"
             ]
         },
         "temp_id": "2.29",
@@ -398,7 +310,7 @@
     },
     {
         "lemma": "problem",
-        "tags": "xxxxxxxxx",
+        "tags": "a",
         "translations": {
             "ENG": [
                 "problem"
@@ -409,10 +321,10 @@
     },
     {
         "lemma": "schody",
-        "tags": "xxxxxxxxx",
+        "tags": "hp",
         "translations": {
             "ENG": [
-                "stairs stairway"
+                "stairs","stairway"
             ]
         },
         "temp_id": "2.31",
@@ -420,13 +332,10 @@
     },
     {
         "lemma": "grunt",
-        "tags": "xxxxxxxxx",
+        "tags": "ln",
         "translations": {
             "ENG": [
-                "soil",
-                "(construction geology)",
-                "ground",
-                "(the bottom of a body of water)"
+                "ground"
             ]
         },
         "temp_id": "2.32",
@@ -434,11 +343,10 @@
     },
     {
         "lemma": "alarm",
-        "tags": "xxxxxxxxx",
+        "tags": "aa",
         "translations": {
             "ENG": [
-                "alarm",
-                "The state of being alerted"
+                "alarm"
             ]
         },
         "temp_id": "2.33",
@@ -446,13 +354,10 @@
     },
     {
         "lemma": "ziom",
-        "tags": "xxxxxxxxx",
+        "tags": "t",
         "translations": {
             "ENG": [
-                "homie bro friend",
-                "(slang)",
-                "dude ; generic term for a person",
-                "(slang)"
+                "homie","bro","friend","dude"
             ]
         },
         "temp_id": "2.34",
@@ -460,15 +365,10 @@
     },
     {
         "lemma": "stan",
-        "tags": "xxxxxxxxx",
+        "tags": "aa",
         "translations": {
             "ENG": [
-                "state",
-                "(of affairs), condition",
-                "state",
-                "(political division of the United States)",
-                "state",
-                "(sovereign polity) (rare)"
+                "state"
             ]
         },
         "temp_id": "2.35",
@@ -476,7 +376,7 @@
     },
     {
         "lemma": "kura",
-        "tags": "xxxxxxxxx",
+        "tags": "a",
         "translations": {
             "ENG": [
                 "hen"
@@ -487,7 +387,7 @@
     },
     {
         "lemma": "mit",
-        "tags": "xxxxxxxxx",
+        "tags": "aa",
         "translations": {
             "ENG": [
                 "myth"
@@ -498,13 +398,10 @@
     },
     {
         "lemma": "tydzień",
-        "tags": "xxxxxxxxx",
+        "tags": "at",
         "translations": {
             "ENG": [
-                "week",
-                "(the seven days beginning with Sunday or Monday)",
-                "week",
-                "(a period of seven days)"
+                "week"
             ]
         },
         "temp_id": "2.38",
@@ -512,7 +409,7 @@
     },
     {
         "lemma": "dar",
-        "tags": "xxxxxxxxx",
+        "tags": "aa",
         "translations": {
             "ENG": [
                 "gift"
@@ -523,11 +420,10 @@
     },
     {
         "lemma": "pilot",
-        "tags": "xxxxxxxxx",
+        "tags": "j",
         "translations": {
             "ENG": [
-                "pilot",
-                "(controller of aircraft)"
+                "pilot"
             ]
         },
         "temp_id": "2.40",
@@ -535,7 +431,7 @@
     },
     {
         "lemma": "pilot",
-        "tags": "xxxxxxxxx",
+        "tags": "hh",
         "translations": {
             "ENG": [
                 "remote control"
@@ -546,7 +442,7 @@
     },
     {
         "lemma": "poniedziałek",
-        "tags": "xxxxxxxxx",
+        "tags": "at",
         "translations": {
             "ENG": [
                 "Monday"
@@ -557,7 +453,7 @@
     },
     {
         "lemma": "ulica",
-        "tags": "xxxxxxxxx",
+        "tags": "lg",
         "translations": {
             "ENG": [
                 "street"
@@ -568,7 +464,7 @@
     },
     {
         "lemma": "pluton",
-        "tags": "xxxxxxxxx",
+        "tags": "¢",
         "translations": {
             "ENG": [
                 "plutonium"
@@ -578,19 +474,8 @@
         "gender": "m3"
     },
     {
-        "lemma": "pluton",
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "platoon"
-            ]
-        },
-        "temp_id": "2.45",
-        "gender": "m3"
-    },
-    {
         "lemma": "raj",
-        "tags": "xxxxxxxxx",
+        "tags": "ls",
         "translations": {
             "ENG": [
                 "paradise",
@@ -602,10 +487,10 @@
     },
     {
         "lemma": "bratanek",
-        "tags": "xxxxxxxxx",
+        "tags": "r",
         "translations": {
             "ENG": [
-                "fraternal nephew"
+                "nephew"
             ]
         },
         "temp_id": "2.47",
@@ -613,10 +498,10 @@
     },
     {
         "lemma": "siostrzeniec",
-        "tags": "xxxxxxxxx",
+        "tags": "r",
         "translations": {
             "ENG": [
-                "sororal nephew"
+                "nephew"
             ]
         },
         "temp_id": "2.48",
@@ -624,7 +509,7 @@
     },
     {
         "lemma": "cud",
-        "tags": "xxxxxxxxx",
+        "tags": "aa",
         "translations": {
             "ENG": [
                 "miracle"
@@ -635,13 +520,10 @@
     },
     {
         "lemma": "papier",
-        "tags": "xxxxxxxxx",
+        "tags": "c",
         "translations": {
             "ENG": [
-                "paper",
-                "(material)",
-                "document, especially diploma certification, or proof",
-                "(colloquial)"
+                "paper"
             ]
         },
         "temp_id": "2.50",
@@ -649,7 +531,7 @@
     },
     {
         "lemma": "czajnik",
-        "tags": "xxxxxxxxx",
+        "tags": "hk",
         "translations": {
             "ENG": [
                 "kettle",
@@ -661,7 +543,7 @@
     },
     {
         "lemma": "nóż",
-        "tags": "xxxxxxxxx",
+        "tags": "hk",
         "translations": {
             "ENG": [
                 "knife"
@@ -672,11 +554,10 @@
     },
     {
         "lemma": "komputer",
-        "tags": "xxxxxxxxx",
+        "tags": "hh",
         "translations": {
             "ENG": [
-                "computer",
-                "(a programmable device)"
+                "computer"
             ]
         },
         "temp_id": "2.53",
@@ -684,7 +565,7 @@
     },
     {
         "lemma": "sufit",
-        "tags": "xxxxxxxxx",
+        "tags": "hp",
         "translations": {
             "ENG": [
                 "ceiling"
@@ -695,7 +576,7 @@
     },
     {
         "lemma": "szpital",
-        "tags": "xxxxxxxxx",
+        "tags": "lb",
         "translations": {
             "ENG": [
                 "hospital"
@@ -706,13 +587,10 @@
     },
     {
         "lemma": "telefon",
-        "tags": "xxxxxxxxx",
+        "tags": "hh",
         "translations": {
             "ENG": [
-                "telephone",
-                "telephone call",
-                "telephone number",
-                "mobile phone"
+                "telephone"
             ]
         },
         "temp_id": "2.56",
