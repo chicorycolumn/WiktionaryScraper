@@ -1,5 +1,5 @@
 from parser_classes.Polish_parsers import PolishNounHTMLParser
-from scraper_utils.common import scrape_word_data
+from scraper_utils.processing import scrape_word_data
 from input.Polish.input_words import nouns_1
 
 if __name__ == '__main__':
