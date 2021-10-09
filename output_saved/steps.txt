@@ -1,0 +1,15 @@
+Step One
+    output_nouns_99
+    truncated_nouns_99
+        Run scrape_word_data.
+
+Step Two
+        Manually add shorthand tags to truncated_nouns_99.
+
+Step Three
+    untruncated_nouns_99
+        Run untruncate_lemma_objects with argument [99].
+
+Step Four
+    finished_nouns_99
+        Run fill_out_lemma_objects with argument [99] and wordtype.

@@ -32,7 +32,7 @@ from input.Polish.input_words import nouns_1
     ),
 ])
 def test_add_tags_and_topics_from_shorthand(lemma_object: object, expected_lemma_object: object):
-    test_shorthand_tag_ref = {
+    test_shorthand_tag_ref_noun = {
         "u": {
             "tags": ["uncountable"],
             "topics": [],
@@ -206,7 +206,7 @@ def test_add_tags_and_topics_from_shorthand(lemma_object: object, expected_lemma
         }
     }
 
-    add_tags_and_topics_from_shorthand(lemma_object, test_shorthand_tag_ref)
+    add_tags_and_topics_from_shorthand(lemma_object, test_shorthand_tag_ref_noun)
 
     assert lemma_object == expected_lemma_object
 

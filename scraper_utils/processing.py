@@ -6,7 +6,7 @@ from time import sleep
 import re
 from scraper_utils.common import *
 
-shorthand_tag_ref = {
+shorthand_tag_refs = {"noun":{
     "u": {
         "tags": ["uncountable"],
         "topics": [],
@@ -178,7 +178,21 @@ shorthand_tag_ref = {
         "tags": ["part of house", "concrete"],
         "topics": ["home", "inside"],
     }
-}
+}}
+
+
+def fill_out_lemma_objects(group_numbers, wordtype):
+    for group_number in group_numbers:
+        res_arr = []
+
+        with open(f"../output_saved/untruncated_nouns_{group_number}.json", "r") as f:
+            untruncated_nouns = json.load(f)
+
+        for lemma_object in untruncated_nouns:
+            finished_lemma_object = add_tags_and_topics_from_shorthand(lemma_object, shorthand_tag_refs[wordtype])
+            res_arr.append(finished_lemma_object)
+
+        write_output(res_arr, f"finished_nouns_{group_number}", "../output_saved")
 
 
 def recursively_expand_tags(input_stags: list, ref: object):
@@ -233,7 +247,7 @@ def untruncate_lemma_objects(group_numbers):
 
             res_arr.append(lemma_object)
 
-        write_output(res_arr, f"finished_nouns_{group_number}", "../output_saved")
+        write_output(res_arr, f"untruncated_nouns_{group_number}", "../output_saved")
 
 
 def scrape_word_data(
