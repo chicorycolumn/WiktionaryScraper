@@ -6,9 +6,206 @@ from time import sleep
 import re
 from scraper_utils.common import *
 
+shorthand_tag_ref = {
+    "h": {
+        "tags": ["holdable", "concrete"],
+        "topics": [],
+    },
+    "m": {
+        "tags": ["manmade", "concrete"],
+        "topics": [],
+    },
+    "n": {
+        "tags": ["natural", "concrete"],
+        "topics": [],
+    },
+    "s": {
+        "tags": ["school"],
+        "topics": [],
+    },
+    "w": {
+        "tags": ["work"],
+        "topics": [],
+    },
 
-def add_tags_from_shorthand():
-    pass
+    # # # # # # # # # # #
+
+    "c": {
+        "tags": ["material", "uncountable", "concrete"],
+        "topics": ["basic"],
+    },
+    "¢": {
+        "tags": ["chemical", "c"],
+        "topics": ["science"],
+    },
+    "b": {
+        "tags": ["bodypart", "concrete"],
+        "topics": ["at the doctor", "basic", "body"],
+    },
+    "ß": {
+        "tags": ["schoolsubject", "abstract"],
+        "topics": ["school"],
+    },
+    "w": {
+        "tags": ["weather", "abstract", "uncountable"],
+        "topics": ["basic", "outdoor"],
+    },
+    "!": {
+        "tags": ["noise", "abstract"],
+        "topics": ["sense and perception"],
+    },
+    "e": {
+        "tags": ["emotion", "abstract"],
+        "topics": ["inside your head"],
+    },
+    "$": {
+        "tags": ["money"],
+        "topics": ["shopping", "maths", "travel"],
+    },
+    "@": {
+        "tags": ["measurement"],
+        "topics": ["maths"],
+    },
+    "at": {
+        "tags": ["abstract", "time"],
+        "topics": ["travel", "maths"],
+    },
+    "as": {
+        "tags": ["abstract"],
+        "topics": ["school"],
+    },
+    "aw": {
+        "tags": ["abstract"],
+        "topics": ["work"],
+    },
+    "ag": {
+        "tags": ["abstract"],
+        "topics": ["geometric", "maths"],
+    },
+    "aa": {
+        "tags": ["abstract"],
+        "topics": [],
+    },
+    "r": {
+        "tags": ["relative", "person", "living", "concrete"],
+        "topics": ["relationships"],
+    },
+    "j": {
+        "tags": ["profession", "person", "living", "concrete"],
+        "topics": ["work"],
+    },
+    "a": {
+        "tags": ["animal", "living", "concrete"],
+        "topics": ["outside"],
+    },
+    "æ": {
+        "tags": ["pet", "animal", "living", "concrete"],
+        "topics": ["home", "inside"],
+    },
+    "t": {
+        "tags": ["title", "person", "living", "concrete"],
+        "topics": [],
+    },
+    "p": {
+        "tags": ["person", "living", "concrete"],
+        "topics": [],
+    },
+    "f": {
+        "tags": ["food", "h"],
+        "topics": ["kitchen", "restaurant", "inside"],
+    },
+    "d": {
+        "tags": ["drink", "h"],
+        "topics": ["kitchen", "restaurant", "inside"],
+    },
+    "da": {
+        "tags": ["alcoholic", "d"],
+        "topics": ["kitchen", "restaurant", "nightclub", "inside"],
+    },
+    "g": {
+        "tags": ["clothes", "h"],
+        "topics": ["basic"],
+    },
+    "lg": {
+        "tags": ["location", "concrete"],
+        "topics": [],
+    },
+    "lb": {
+        "tags": ["location", "building", "concrete"],
+        "topics": ["inside"],
+    },
+    "lr": {
+        "tags": ["location", "room", "concrete"],
+        "topics": ["inside"],
+    },
+    "ln": {
+        "tags": ["location", "natural", "concrete"],
+        "topics": ["outside"],
+    },
+    "ls": {
+        "tags": ["special location", "abstract"],
+        "topics": ["religion"],
+    },
+    "hf": {
+        "tags": ["furniture", "concrete"],
+        "topics": ["home", "inside"],
+    },
+    "hh": {
+        "tags": ["household objects", "h"],
+        "topics": ["home", "inside"],
+    },
+    "hf": {
+        "tags": ["furniture", "concrete"],
+        "topics": ["home", "inside"],
+    },
+    "hb": {
+        "tags": ["hh"],
+        "topics": ["home", "inside", "bedroom"],
+    },
+    "hk": {
+        "tags": ["hh"],
+        "topics": ["home", "inside", "kitchen"],
+    },
+    "hw": {
+        "tags": ["hh"],
+        "topics": ["home", "inside", "washroom"],
+    },
+    "hp": {
+        "tags": ["part of house", "concrete"],
+        "topics": ["home", "inside"],
+    }
+}
+
+
+def recursively_expand_tags(input_stags: list, ref: object):
+    output_tags = []
+
+    def rat_inner(input_tags: list):
+        for tag in input_tags:
+            if tag in ref:
+                print(111, tag)
+                rat_inner(ref[tag]["tags"])
+            elif tag not in output_tags:
+                print(222, tag)
+                output_tags.append(tag)
+
+    rat_inner(input_stags)
+    return output_tags
+
+
+def add_tags_from_shorthand(lemma_object):
+    shorthand_tags = lemma_object["tags"].split(",")
+    tags = []
+    topics = []
+
+    for stag in shorthand_tags:
+        for tag in shorthand_tag_ref[stag]["tags"]:
+
+            if tag in shorthand_tag_ref:
+                shorthand_tag_ref
+            else:
+                if tag not in tags:
+                    tags.append(tag)
 
 
 def untruncate_lemma_objects(group_numbers):
@@ -47,7 +244,8 @@ def scrape_word_data(
     count = 1
 
     result = []
-    rejected = {"failed_to_load_html": [], "loaded_html_but_failed_when_reading": [], "loaded_and_read_html_but_failed_to_create_output": []}
+    rejected = {"failed_to_load_html": [], "loaded_html_but_failed_when_reading": [],
+                "loaded_and_read_html_but_failed_to_create_output": []}
 
     for (head_word_index, head_word) in enumerate(head_words):
         print(f'\n # Beginning for loop with "{head_word}"\n')
@@ -62,7 +260,7 @@ def scrape_word_data(
                 f.close()
         else:
             try:
-                html_string = html_from_head_word(head_word, f"{head_word_index+1} of {len(head_words)}")
+                html_string = html_from_head_word(head_word, f"{head_word_index + 1} of {len(head_words)}")
 
                 try:
                     started_at = datetime.now()
@@ -73,34 +271,33 @@ def scrape_word_data(
                     parser.reset()
 
                     if output_arr:
-                        print(f'\n{" "*15}# SUCCESS Adding "{head_word}" output_arr to result.' "\n")
+                        print(f'\n{" " * 15}# SUCCESS Adding "{head_word}" output_arr to result.' "\n")
                         for lemma_object in output_arr:
                             lemma_object["lemma"] = head_word
                         result.extend(output_arr)
                     else:
-                        print(f'\n#{" "*45}Loaded and read html for "{head_word}" but FAILED to create output.\n')
+                        print(f'\n#{" " * 45}Loaded and read html for "{head_word}" but FAILED to create output.\n')
                         rejected["loaded_and_read_html_but_failed_to_create_output"].append(head_word)
 
 
                 except:
-                    print(f'\n#{" "*30}Loaded html for "{head_word}" but FAILED when reading it.\n')
+                    print(f'\n#{" " * 30}Loaded html for "{head_word}" but FAILED when reading it.\n')
                     rejected["loaded_html_but_failed_when_reading"].append(head_word)
                     parser.output_arr = []
                     output_arr = []
                     parser.reset()
 
             except:
-                print(f'\n#{" "*30}FAILED to even load html for "{head_word}".\n')
+                print(f'\n#{" " * 30}FAILED to even load html for "{head_word}".\n')
                 rejected["failed_to_load_html"].append(head_word)
 
             delay_seconds = 1
 
             if datetime.now() < started_at + timedelta(seconds=delay_seconds):
-                if datetime.now() < started_at + timedelta(seconds=delay_seconds/2):
+                if datetime.now() < started_at + timedelta(seconds=delay_seconds / 2):
                     sleep(delay_seconds)
                 else:
-                    sleep(delay_seconds/2)
-
+                    sleep(delay_seconds / 2)
 
     print(f'\n# Writing results".')
 
@@ -113,7 +310,6 @@ def scrape_word_data(
     write_output(rejected, filepaths["rejected"])
 
     if "truncated" in filepaths:
-
         def get_truncated(lemma_object):
             return {
                 "lemma": lemma_object["lemma"],
