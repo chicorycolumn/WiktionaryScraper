@@ -1,4 +1,5 @@
 import pytest
+import json
 from parser_classes.Polish_parsers import PolishNounHTMLParser
 from scraper_utils.processing import scrape_word_data
 from input.Polish.input_words import nouns_1
@@ -19,7 +20,7 @@ def test_PolishNounHTMLParser(input_words: list, expected_path: str, use_sample:
     expected_rejected_path = f"rejected_{expected_path}"
 
     with open(f'expected/{expected_path}.json', 'r') as f:
-        expected = f.read()
+        expected = json.load(f)
         f.close()
 
     scrape_word_data(
@@ -36,17 +37,17 @@ def test_PolishNounHTMLParser(input_words: list, expected_path: str, use_sample:
     )
 
     with open(f'output/{output_path}.json', 'r') as f:
-        actual = f.read()
+        actual = json.load(f)
         f.close()
 
     assert actual == expected
 
     with open(f'expected/{expected_rejected_path}.json', 'r') as f:
-        expected_rejected = f.read()
+        expected_rejected = json.load(f)
         f.close()
 
     with open(f'output/{rejected_path}.json', 'r') as f:
-        actual_rejected = f.read()
+        actual_rejected = json.load(f)
         f.close()
 
     assert actual_rejected == expected_rejected

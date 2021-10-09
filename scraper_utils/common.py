@@ -6,7 +6,11 @@ from time import sleep
 import re
 
 
-def write_output(dict: dict = None, output_file: str = "output"):
+def get_base_id(id):
+    return re.search("^\d+\.\d+", str(id)).group()
+
+
+def write_output(dict: dict = None, output_file: str = "output", folder: str = "output"):
     if not dict:
         dict = {
             "singular": {
@@ -17,7 +21,7 @@ def write_output(dict: dict = None, output_file: str = "output"):
 
     json_object = json.dumps(dict, indent=4, ensure_ascii=False)
 
-    with open(f"output/{output_file}.json", "w") as outfile:
+    with open(f"{folder}/{output_file}.json", "w") as outfile:
         outfile.write(json_object)
 
 

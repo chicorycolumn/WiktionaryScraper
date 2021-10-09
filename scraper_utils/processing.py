@@ -11,6 +11,27 @@ def add_tags_from_shorthand():
     pass
 
 
+def untruncate_lemma_objects(group_numbers):
+    for group_number in group_numbers:
+        res_arr = []
+
+        with open(f"../output_saved/output_nouns_{group_number}.json", "r") as f:
+            nouns_long = json.load(f)
+        with open(f"../output_saved/truncated_nouns_{group_number}.json", "r") as f:
+            nouns_truncated = json.load(f)
+
+        for lemma_object in nouns_truncated:
+            lemma_object_long = [lol for lol in nouns_long if lol["temp_id"] == get_base_id(lemma_object["temp_id"])][0]
+
+            for key in lemma_object_long:
+                if key not in lemma_object:
+                    lemma_object[key] = lemma_object_long[key]
+
+            res_arr.append(lemma_object)
+
+        write_output(res_arr, f"finished_nouns_{group_number}", "../output_saved")
+
+
 def scrape_word_data(
         parser,
         language: str,
