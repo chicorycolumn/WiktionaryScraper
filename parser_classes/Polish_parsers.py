@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 import re
 
 
-class PolishNounHTMLParser(HTMLParser):
+class PolishNounParser(HTMLParser):
     penultimatetag = None
     _lasttag_copy = None
     currentclass = None

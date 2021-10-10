@@ -1,4 +1,4 @@
-nouns_1 = [
+input = [
   "brat",
   "fizyka",
   "matematyka",

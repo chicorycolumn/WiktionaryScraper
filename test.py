@@ -1,8 +1,6 @@
 import pytest
-import json
-from parser_classes.Polish_parsers import PolishNounHTMLParser
+from parser_classes.Polish_parsers import PolishNounParser
 from scraper_utils.processing import *
-from input.Polish.input_words import nouns_1
 
 
 @pytest.mark.parametrize("lemma_object,expected_lemma_object", [
@@ -238,28 +236,28 @@ def test_recursively_expand_tags(input_stags: list, expected_output_tags: list):
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
     (["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"], "polish_nouns_1", True),
-    (["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"],
-     "polish_nouns_2", True),
+    (["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"], "polish_nouns_2", True),
     (["prysznic", "glista", "gleba", "łeb", "BADWORD", "palec", "noga", "piła", "piłka"], "polish_nouns_3", False),
     (["prysznic", "BADWORD", "ANOTHERBADWORD", "glista"], "polish_nouns_4", False),
     (["prysznic", "polski", "glista"], "polish_nouns_5", False),
 ])
-def test_PolishNounHTMLParser(input_words: list, expected_path: str, use_sample: bool):
+def test_PolishNounParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "nouns"):
     print(f'# Starting, given {len(input_words)} words.')
 
     output_path = f"output_test{expected_path[-2:]}"
     rejected_path = f"rejected_test{expected_path[-2:]}"
     expected_rejected_path = f"rejected_{expected_path}"
 
-    with open(f'expected/{expected_path}.json', 'r') as f:
+    with open(f'expected/{wordtype}/{expected_path}.json', 'r') as f:
         expected = json.load(f)
         f.close()
 
     scrape_word_data(
-        PolishNounHTMLParser(convert_charrefs=False),
-        "Polish",
-        input_words,
-        use_sample,
+        parser=PolishNounParser(convert_charrefs=False),
+        language="Polish",
+        head_words=input_words,
+        use_sample=use_sample,
+        wordtype=wordtype,
         filepaths={
             "output": output_path,
             "rejected": rejected_path,
@@ -274,7 +272,7 @@ def test_PolishNounHTMLParser(input_words: list, expected_path: str, use_sample:
 
     assert actual == expected
 
-    with open(f'expected/{expected_rejected_path}.json', 'r') as f:
+    with open(f'expected/{wordtype}/{expected_rejected_path}.json', 'r') as f:
         expected_rejected = json.load(f)
         f.close()
 

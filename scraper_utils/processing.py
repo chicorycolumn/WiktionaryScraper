@@ -6,7 +6,7 @@ from time import sleep
 import re
 from scraper_utils.common import *
 
-shorthand_tag_refs = {"noun":{
+shorthand_tag_refs = {"nouns": {
     "u": {
         "tags": ["uncountable"],
         "topics": [],
@@ -185,14 +185,15 @@ def fill_out_lemma_objects(group_numbers, wordtype):
     for group_number in group_numbers:
         res_arr = []
 
-        with open(f"../output_saved/untruncated_nouns_{group_number}.json", "r") as f:
+        with open(f"output_saved/untruncated_nouns_{group_number}.json", "r") as f:
             untruncated_nouns = json.load(f)
+            f.close()
 
         for lemma_object in untruncated_nouns:
-            finished_lemma_object = add_tags_and_topics_from_shorthand(lemma_object, shorthand_tag_refs[wordtype])
-            res_arr.append(finished_lemma_object)
+            add_tags_and_topics_from_shorthand(lemma_object, shorthand_tag_refs[wordtype])
+            res_arr.append(lemma_object)
 
-        write_output(res_arr, f"finished_nouns_{group_number}", "../output_saved")
+        write_output(res_arr, f"finished_nouns_{group_number}", "output_saved")
 
 
 def recursively_expand_tags(input_stags: list, ref: object):
@@ -218,9 +219,10 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
 
     topics = []
     for stag in shorthand_tags:
-        for topic in ref[stag]["topics"]:
-            if topic not in topics:
-                topics.append(topic)
+        if stag in ref:
+            for topic in ref[stag]["topics"]:
+                if topic not in topics:
+                    topics.append(topic)
 
     tags.sort()
     topics.sort()
@@ -229,14 +231,16 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
     lemma_object["topics"] = topics
 
 
-def untruncate_lemma_objects(group_numbers):
+def untruncate_lemma_objects(group_numbers, wordtype):
     for group_number in group_numbers:
         res_arr = []
 
-        with open(f"../output_saved/output_nouns_{group_number}.json", "r") as f:
+        with open(f"../output_saved/{wordtype}/output_nouns_{group_number}.json", "r") as f:
             nouns_long = json.load(f)
-        with open(f"../output_saved/truncated_nouns_{group_number}.json", "r") as f:
+            f.close()
+        with open(f"../output_saved/{wordtype}/truncated_nouns_{group_number}.json", "r") as f:
             nouns_truncated = json.load(f)
+            f.close()
 
         for lemma_object in nouns_truncated:
             lemma_object_long = [lol for lol in nouns_long if lol["temp_id"] == get_base_id(lemma_object["temp_id"])][0]
@@ -247,23 +251,32 @@ def untruncate_lemma_objects(group_numbers):
 
             res_arr.append(lemma_object)
 
-        write_output(res_arr, f"untruncated_nouns_{group_number}", "../output_saved")
+        write_output(res_arr, f"untruncated_nouns_{group_number}", f"../output_saved/{wordtype}")
 
 
 def scrape_word_data(
         parser,
         language: str,
         head_words: dict,
+        wordtype: str,
         use_sample: bool,
-        filepaths,
+        filepaths: object = {},
         group_number: int = int(str(datetime.now())[-3:]),
-        no_temp_ids: bool = False
+        no_temp_ids: bool = False,
 ):
+    print(f'## Starting, given {len(head_words)} words.')
+
     if not head_words:
         head_words = ["małpa"]
 
-    count = 1
+    if not filepaths:
+        filepaths = {
+            "output": f"output_nouns_{group_number}",
+            "rejected": f"rejected_nouns_{group_number}",
+            "truncated": f"truncated_nouns_{group_number}",
+        }
 
+    count = 1
     result = []
     rejected = {"failed_to_load_html": [], "loaded_html_but_failed_when_reading": [],
                 "loaded_and_read_html_but_failed_to_create_output": []}
@@ -271,7 +284,7 @@ def scrape_word_data(
     for (head_word_index, head_word) in enumerate(head_words):
         print(f'\n # Beginning for loop with "{head_word}"\n')
         if use_sample:
-            with open(f'input/{language}/sample_{head_word}.html', 'r') as f:
+            with open(f'input/{language}/{wordtype}/sample_{head_word}.html', 'r') as f:
                 contents = f.read()
                 parser.feed(contents)
                 output_arr = parser.output_arr
@@ -342,3 +355,5 @@ def scrape_word_data(
 
         truncated_result = [get_truncated(lemma_object) for lemma_object in result]
         write_output(truncated_result, filepaths["truncated"])
+
+    print(f'\n## Scraped at "{filepaths["output"]}" for {len(head_words)} words:', head_words)
