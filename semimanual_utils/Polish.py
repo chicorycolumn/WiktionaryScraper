@@ -1,3 +1,6 @@
+from copy import deepcopy
+
+
 def get_value_from_keypath(dict, keypath):
     for key in keypath:
         dict = dict[key]
@@ -41,13 +44,19 @@ def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
         keypath.pop()
 
 
+def recursively_prefix_string_values(dict, prefix):
+    for key, value in dict.items():
+        if type(value) == str:
+            dict[key] = f"{prefix}{value}"
+        else:
+            recursively_prefix_string_values(value)
+
+
 def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma, adverb: str = None, comparative: str = None):
-    def recursively_prefix_string_values(dict, prefix):
-        for key, value in dict.items():
-            if type(value) == str:
-                dict[key] = f"{prefix}{value}"
-            else:
-                recursively_prefix_string_values(value)
+    # narodowy  comparative_type 0  is NOT COMPARABLE and has no adverb.
+    # stary     comparative_type 1  has REGULAR comparative/superlative (starszy, najstarszy).
+    # żółty     comparative_type 2  has COMPOUND comparative/superlative (bardziej żółty, najbardziej żółty).
+    # czerwony  comparative_type 3  has REGULAR AND COMPOUND comparative/superlative.
 
     lemma_mod_1 = lemma[0:-1] if lemma[-1] == "y" else lemma
     lemma_mod_2 = lemma[0:-1]
@@ -60,68 +69,68 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
         "id": None,
 
         "inflections": {
-            "adverb": adverb,
-            "simple": {
-                "singular": {
-                    "m1": {
-                        "nom": f"{lemma}",
-                        "gen": f"{lemma_mod_1}ego",
-                        "dat": f"{lemma_mod_1}emu",
-                        "acc": f"{lemma_mod_1}ego",
-                        "ins": f"{lemma}m",
-                        "loc": f"{lemma}m",
-                    },
-                    "m3": {
-                        "nom": f"{lemma}",
-                        "gen": f"{lemma_mod_1}ego",
-                        "dat": f"{lemma_mod_1}emu",
-                        "acc": f"{lemma}",
-                        "ins": f"{lemma}m",
-                        "loc": f"{lemma}m",
-                    },
-                    "f": {
-                        "nom": f"{lemma_mod_2}a",
-                        "gen": f"{lemma_mod_1}ej",
-                        "dat": f"{lemma_mod_1}ej",
-                        "acc": f"{lemma_mod_2}ą",
-                        "ins": f"{lemma_mod_2}ą",
-                        "loc": f"{lemma_mod_1}ej",
-                    },
-                    "n": {
-                        "nom": f"{lemma_mod_1}e",
-                        "gen": f"{lemma_mod_1}ego",
-                        "dat": f"{lemma_mod_1}emu",
-                        "acc": f"{lemma_mod_1}e",
-                        "ins": f"{lemma}m",
-                        "loc": f"{lemma}m",
-                    },
-                },
-                "plural": {
-                    "virile": {
-                        "nom": f"{pluvirnom_lemma}",
-                        "gen": f"{lemma}ch",
-                        "dat": f"{lemma}m",
-                        "acc": f"{lemma}ch",
-                        "ins": f"{lemma}mi",
-                        "loc": f"{lemma}ch",
-                    },
-                    "nonvirile": {
-                        "nom": f"{lemma_mod_1}e",
-                        "gen": f"{lemma}ch",
-                        "dat": f"{lemma}m",
-                        "acc": f"{lemma_mod_1}e",
-                        "ins": f"{lemma}mi",
-                        "loc": f"{lemma}ch",
-                    },
-                },
-            }
         }
+    }
+
+    simple = {
+        "singular": {
+            "m1": {
+                "nom": f"{lemma}",
+                "gen": f"{lemma_mod_1}ego",
+                "dat": f"{lemma_mod_1}emu",
+                "acc": f"{lemma_mod_1}ego",
+                "ins": f"{lemma}m",
+                "loc": f"{lemma}m",
+            },
+            "m3": {
+                "nom": f"{lemma}",
+                "gen": f"{lemma_mod_1}ego",
+                "dat": f"{lemma_mod_1}emu",
+                "acc": f"{lemma}",
+                "ins": f"{lemma}m",
+                "loc": f"{lemma}m",
+            },
+            "f": {
+                "nom": f"{lemma_mod_2}a",
+                "gen": f"{lemma_mod_1}ej",
+                "dat": f"{lemma_mod_1}ej",
+                "acc": f"{lemma_mod_2}ą",
+                "ins": f"{lemma_mod_2}ą",
+                "loc": f"{lemma_mod_1}ej",
+            },
+            "n": {
+                "nom": f"{lemma_mod_1}e",
+                "gen": f"{lemma_mod_1}ego",
+                "dat": f"{lemma_mod_1}emu",
+                "acc": f"{lemma_mod_1}e",
+                "ins": f"{lemma}m",
+                "loc": f"{lemma}m",
+            },
+        },
+        "plural": {
+            "virile": {
+                "nom": f"{pluvirnom_lemma}",
+                "gen": f"{lemma}ch",
+                "dat": f"{lemma}m",
+                "acc": f"{lemma}ch",
+                "ins": f"{lemma}mi",
+                "loc": f"{lemma}ch",
+            },
+            "nonvirile": {
+                "nom": f"{lemma_mod_1}e",
+                "gen": f"{lemma}ch",
+                "dat": f"{lemma}m",
+                "acc": f"{lemma_mod_1}e",
+                "ins": f"{lemma}mi",
+                "loc": f"{lemma}ch",
+            },
+        },
     }
 
     if comparative_type in [1, 3]:
         com_mod_1 = comparative[0:-1]
         pluvirnom_com = comparative[0:-2] + "i"
-        comparative_inflections = {
+        comparative_regular = {
             "singular": {
                 "m1": {
                     "nom": f"{comparative}",
@@ -175,11 +184,31 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
                 },
             },
         }
+        superlative_regular = deepcopy(comparative_regular)
+        recursively_prefix_string_values(superlative_regular, "naj")
+    elif comparative_type in [2, 3]:
+        comparative_compound = deepcopy(simple)
+        recursively_prefix_string_values(comparative_compound, "bardziej ")
+        superlative_compound = deepcopy(comparative_compound)
+        recursively_prefix_string_values(superlative_compound, "naj")
 
-        if comparative == 3:
-            recursively_prefix_string_values()
+    lemma_object["inflections"]["simple"] = simple
 
-    # narodowy  Type 0  is NOT COMPARABLE
-    # stary     Type 1  has REGULAR comparative/superlative (starszy and najstarszy)
-    # żółty     Type 2  has COMPOUND comparative/superlative (bardziej żółty and najbardziej żółty)
-    # czerwony  Type 3  has BOTH REGULAR AND COMPOUND comparative/superlative
+    if comparative_type and int(comparative_type):
+        if not adverb:
+            raise Exception(f"No adverb given but comparative type is {comparative_type}.")
+        lemma_object["inflections"]["adverb"] = adverb
+
+    if comparative_type == 1:
+        lemma_object["inflections"]["comparative"] = comparative_regular
+        lemma_object["inflections"]["superlative"] = superlative_regular
+    elif comparative_type == 2:
+        lemma_object["inflections"]["comparative"] = comparative_compound
+        lemma_object["inflections"]["superlative"] = superlative_compound
+    elif comparative_type == 3:
+        comparative_both = comparative_regular
+        recursively_combine_string_values_into_terminus_objects(comparative_regular, comparative_compound)
+        superlative_both = superlative_regular
+        recursively_combine_string_values_into_terminus_objects(superlative_regular, superlative_compound)
+        lemma_object["inflections"]["comparative"] = comparative_both
+        lemma_object["inflections"]["superlative"] = superlative_both
