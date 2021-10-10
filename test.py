@@ -1,6 +1,25 @@
 import pytest
 from parsers.Polish_parsers import PolishNounParser
 from scraper_utils.processing import *
+from semimanual_utils.Polish import *
+
+
+@pytest.mark.parametrize("input_args_sets,expected_path", [
+    (
+            [
+                ("niebieski", ["blue"], 2, "niebiescy", "niebiesko")
+            ],
+            "expected/adjectives/polish_adjectives_2"
+    ),
+])
+def test_generate_adjective(input_args_sets: list, expected_path: str):
+    with open(f"{expected_path}.json", "r") as f:
+        expected_adjectives = json.load(f)
+        f.close()
+
+    actual_adjectives = [generate_adjective(*input_args) for input_args in input_args_sets]
+
+    assert actual_adjectives == expected_adjectives
 
 
 @pytest.mark.parametrize("lemma_object,expected_lemma_object", [

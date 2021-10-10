@@ -49,13 +49,13 @@ def recursively_prefix_string_values(dict, prefix):
         if type(value) == str:
             dict[key] = f"{prefix}{value}"
         else:
-            recursively_prefix_string_values(value)
+            recursively_prefix_string_values(value, prefix)
 
 
 def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma, adverb: str = None, comparative: str = None):
     # narodowy  comparative_type 0  is NOT COMPARABLE and has no adverb.
     # stary     comparative_type 1  has REGULAR comparative/superlative (starszy, najstarszy).
-    # żółty     comparative_type 2  has COMPOUND comparative/superlative (bardziej żółty, najbardziej żółty).
+    # niebieski comparative_type 2  has COMPOUND comparative/superlative (bardziej niebieski, najbardziej niebieski).
     # czerwony  comparative_type 3  has REGULAR AND COMPOUND comparative/superlative.
 
     lemma_mod_1 = lemma[0:-1] if lemma[-1] == "y" else lemma
@@ -68,8 +68,7 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
         "lemma": lemma,
         "id": None,
 
-        "inflections": {
-        }
+        "inflections": {}
     }
 
     simple = {
@@ -212,3 +211,5 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
         recursively_combine_string_values_into_terminus_objects(superlative_regular, superlative_compound)
         lemma_object["inflections"]["comparative"] = comparative_both
         lemma_object["inflections"]["superlative"] = superlative_both
+
+    return lemma_object
