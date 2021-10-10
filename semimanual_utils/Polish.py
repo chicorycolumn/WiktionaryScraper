@@ -1,3 +1,46 @@
+def get_value_from_keypath(dict, keypath):
+    for key in keypath:
+        dict = dict[key]
+    return dict
+
+
+def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
+    # Note, dict1 values are favoured as "normal" while dict2 values will be "additionalInfrequent"
+
+    keypath = []
+
+    for key, value in dict1.items():
+        keypath.append(key)
+
+        if type(value) in [str, list]:
+            if type(value) == str:
+                normal = [value]
+            elif type(value) == list:
+                normal = value[:]
+
+            dict2_value = get_value_from_keypath(dict2, keypath)
+
+            if type(dict2_value) == str:
+                additionalInfrequent = [dict2_value]
+            elif type(dict2_value) == list:
+                additionalInfrequent = dict2_value[:]
+            else:
+                raise Exception(f"Unexpected type {type(dict2_value)} at keypath {keypath}.")
+
+            get_value_from_keypath(dict1, keypath[:-1])[key] = {
+                "isTerminus": True,
+                "normal": normal,
+                "additionalInfrequent": additionalInfrequent
+            }
+
+        elif type(value) == dict:
+            recursively_combine_string_values_into_terminus_objects(value, get_value_from_keypath(dict2, keypath))
+        else:
+            raise Exception(f"Unexpected type {type(dict2_value)} at keypath {keypath}.")
+
+        keypath.pop()
+
+
 def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma, adverb: str = None, comparative: str = None):
     def recursively_prefix_string_values(dict, prefix):
         for key, value in dict.items():
@@ -135,7 +178,6 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
 
         if comparative == 3:
             recursively_prefix_string_values()
-
 
     # narodowy  Type 0  is NOT COMPARABLE
     # stary     Type 1  has REGULAR comparative/superlative (starszy and najstarszy)
