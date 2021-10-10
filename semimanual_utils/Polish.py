@@ -63,7 +63,7 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
 
     lemma_object = {
         "translations": {"ENG": translations_list},
-        "tags": "xxxxxxxx",
+        "tags": "xxxxxxxxx",
 
         "lemma": lemma,
         "id": None,
