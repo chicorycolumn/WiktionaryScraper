@@ -1,4 +1,4 @@
-from parser_classes.Polish_parsers import PolishNounParser
+from parsers.Polish_parsers import PolishNounParser
 from scraper_utils.processing import *
 from input.Polish.nouns.head_words import input as nouns
 

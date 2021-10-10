@@ -1,5 +1,5 @@
 import pytest
-from parser_classes.Polish_parsers import PolishNounParser
+from parsers.Polish_parsers import PolishNounParser
 from scraper_utils.processing import *
 
 
