@@ -7,7 +7,13 @@ from semimanual_utils.Polish import *
 @pytest.mark.parametrize("input_args_sets,expected_path", [
     (
             [
-                ("stary", ["old"], 1, "starzy", "staro")
+                ("narodowy", ["national"], 0, "narodowi")
+            ],
+            "expected/adjectives/polish_adjectives_0"
+    ),
+    (
+            [
+                ("stary", ["old"], 1, "starzy", "staro", "starszy")
             ],
             "expected/adjectives/polish_adjectives_1"
     ),
@@ -17,6 +23,22 @@ from semimanual_utils.Polish import *
             ],
             "expected/adjectives/polish_adjectives_2"
     ),
+    (
+            [
+                ("czerwony", ["red"], 3, "czerwoni", "czerwono", "czerwieńszy")
+            ],
+            "expected/adjectives/polish_adjectives_3"
+    ),
+    (
+            [
+                ("narodowy", ["national"], 0, "narodowi"),
+                ("stary", ["old"], 1, "starzy", "staro", "starszy"),
+                ("niebieski", ["blue"], 2, "niebiescy", "niebiesko"),
+                ("czerwony", ["red"], 3, "czerwoni", "czerwono", "czerwieńszy")
+            ],
+            "expected/adjectives/polish_adjectives_4"
+    ),
+
 ])
 def test_generate_adjective(input_args_sets: list, expected_path: str):
     with open(f"{expected_path}.json", "r") as f:
@@ -35,7 +57,7 @@ def test_generate_adjective(input_args_sets: list, expected_path: str):
                 "lemma": "chair",
                 "tags": ["concrete", "holdable", "household object"],
                 "topics": ["home", "inside", "kitchen"]
-             }
+            }
     ),
     (
             {"lemma": "vodka", "tags": "da"},
@@ -43,7 +65,7 @@ def test_generate_adjective(input_args_sets: list, expected_path: str):
                 "lemma": "vodka",
                 "tags": ["alcoholic", "concrete", "drink", "holdable"],
                 "topics": ["inside", "kitchen", "nightclub", "restaurant"],
-             }
+            }
     ),
     (
             {"lemma": "sand", "tags": "u,h,n"},
@@ -51,7 +73,7 @@ def test_generate_adjective(input_args_sets: list, expected_path: str):
                 "lemma": "sand",
                 "tags": ["concrete", "holdable", "natural", "uncountable"],
                 "topics": ["outside"],
-             }
+            }
     ),
 ])
 def test_add_tags_and_topics_from_shorthand(lemma_object: object, expected_lemma_object: object):
@@ -242,13 +264,13 @@ def test_add_tags_and_topics_from_shorthand(lemma_object: object, expected_lemma
 ])
 def test_recursively_expand_tags(input_stags: list, expected_output_tags: list):
     ref = {
-        "f": {"tags":["food"]},
-        "fr": {"tags":["f", "fruit", "sweet"]},
-        "v": {"tags":["f", "vegetable", "savoury"]},
-        "c": {"tags":["fr", "citrus"]},
-        "o": {"tags":["c", "lends its name to a color"]},
-        "y": {"tags":["yellow"]},
-        "r": {"tags":["red"]}
+        "f": {"tags": ["food"]},
+        "fr": {"tags": ["f", "fruit", "sweet"]},
+        "v": {"tags": ["f", "vegetable", "savoury"]},
+        "c": {"tags": ["fr", "citrus"]},
+        "o": {"tags": ["c", "lends its name to a color"]},
+        "y": {"tags": ["yellow"]},
+        "r": {"tags": ["red"]}
     }
 
     actual_output_tags = recursively_expand_tags(input_stags, ref)
@@ -261,7 +283,8 @@ def test_recursively_expand_tags(input_stags: list, expected_output_tags: list):
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
     (["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"], "polish_nouns_1", True),
-    (["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"], "polish_nouns_2", True),
+    (["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"],
+     "polish_nouns_2", True),
     (["prysznic", "glista", "gleba", "łeb", "BADWORD", "palec", "noga", "piła", "piłka"], "polish_nouns_3", False),
     (["prysznic", "BADWORD", "ANOTHERBADWORD", "glista"], "polish_nouns_4", False),
     (["prysznic", "polski", "glista"], "polish_nouns_5", False),
