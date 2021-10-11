@@ -169,13 +169,11 @@ class PolishAdjectiveParser(HTMLParser):
                 if startTag == "td":
                     self.td_count += 1
                 if self.td_count == 1:
-                    self.mode == "gettinglemma"
+                    self.mode = "gettinglemma"
                 elif self.td_count in [2, 3]:
                     self.mode = "getpluvirnom"
                 elif self.td_count == 4:
-                    self.mode == "gettingpluvirnom"
-            else:
-                self.mode == "END"
+                    self.mode = "gettingpluvirnom"
 
         if self.mode == "gettranslations" and startTag == "ol":
             self.mode = "gettingtranslations"
@@ -227,6 +225,9 @@ class PolishAdjectiveParser(HTMLParser):
         #                 self.location = "insidetable"
 
     def handle_endtag(self, endTag):
+        if self.mode == "gettingpluvirnom" and endTag == "td":
+            self.mode = "END"
+
         if self.mode == "gettingtranslations" and endTag == "ol":
             self.mode = "getpluvirnom"
 
