@@ -1,10 +1,4 @@
-from scraper_utils.common import *
-from scraper_utils.Polish import *
-from html.parser import HTMLParser
-import re
-
-
-class PolishAdjectiveParser(HTMLParser):
+class PolishNounParser(HTMLParser):
     penultimatetag = None
     _lasttag_copy = None
     currentclass = None
@@ -30,12 +24,16 @@ class PolishAdjectiveParser(HTMLParser):
         self.el_count = 0
         self.inflections = {}
         self.output_obj = {
-            "lemma": "",
-            "translations_list": [],
-            "comparative_type": None,
-            "pluvirnom_lemma": None,
-            "adverb": None,
-            "comparative": None
+            "lemma": None,
+            "gender": None,
+            "tags": [],
+            "translations": {"ENG": []},
+            "id": None,
+            "usage": [],
+            "otherShapes": {},
+            "derivedTerms": [],
+            "synonyms": [],
+            "inflections": {},
         }
         self.keys = []
         self.subkey = None
@@ -56,20 +54,25 @@ class PolishAdjectiveParser(HTMLParser):
         if not data or data in self.ignorable_narrow:
             return
 
-        if self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
-            if self.location == "insideselectedlang"
-                if self.lasttag == "span" and data.lower() == "adjective":
-                    self.mode = "getcomparativeinfo"
-            elif data.lower() == self.selected_lang:
-                self.location = "insideselectedlang"
+        if self.location == "insideselectedlang" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
+            # Mode setting from within handle_data, which is not typical.
 
-        if self.location == "insideselectedlang":
+            if self.lasttag == "span" and data.lower() == "usage notes":
+                self.mode = "gettingusage"
 
-            if self.mode == "gettingcomparative":
+            if self.lasttag == "span" and data.lower() == "synonyms":
+                self.mode = "gettingsynonyms"
 
+            if data.lower() == "derived terms":
+                self.mode = "getderivedterms"
 
-            if self.lasttag == "i" and data.lower() == "comparative":
-                self.mode = "gettingcomparative"
+        if self.location != "insidetable":
+            if self.lasttag == "span" and self.penultimatetag == "h2":
+                lang_in_focus = superstrip(data).lower()
+                if lang_in_focus == self.selected_lang:
+                    self.location = "insideselectedlang"
+                else:
+                    self.location = None
 
         if not self.mode:
             return
@@ -279,4 +282,3 @@ class PolishAdjectiveParser(HTMLParser):
     def handle_comment(self, data):
         self.lsComments.append(data)
         self.lsAll.append(data)
-

@@ -70,7 +70,6 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
 
         "inflections": {}
     }
-
     simple = {
         "singular": {
             "m1": {
@@ -185,7 +184,7 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
         }
         superlative_regular = deepcopy(comparative_regular)
         recursively_prefix_string_values(superlative_regular, "naj")
-    elif comparative_type in [2, 3]:
+    if comparative_type in [2, 3]:
         comparative_compound = deepcopy(simple)
         recursively_prefix_string_values(comparative_compound, "bardziej ")
         superlative_compound = deepcopy(comparative_compound)
@@ -205,10 +204,10 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
         lemma_object["inflections"]["comparative"] = comparative_compound
         lemma_object["inflections"]["superlative"] = superlative_compound
     elif comparative_type == 3:
-        comparative_both = comparative_regular
-        recursively_combine_string_values_into_terminus_objects(comparative_regular, comparative_compound)
-        superlative_both = superlative_regular
-        recursively_combine_string_values_into_terminus_objects(superlative_regular, superlative_compound)
+        comparative_both = (comparative_compound)
+        recursively_combine_string_values_into_terminus_objects(comparative_compound, comparative_regular)
+        superlative_both = superlative_compound
+        recursively_combine_string_values_into_terminus_objects(superlative_compound, superlative_regular)
         lemma_object["inflections"]["comparative"] = comparative_both
         lemma_object["inflections"]["superlative"] = superlative_both
 
