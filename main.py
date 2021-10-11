@@ -1,6 +1,8 @@
-from parsers.Polish_parsers import PolishNounParser
+from parsers.Polish_parsers import *
 from scraper_utils.processing import *
 from input.Polish.nouns.head_words import input as nouns
+from input.Polish.adjectives.head_words import input as adjectives
+from semimanual_utils.Polish import *
 
 """"
 Step 1: scrape_word_data()
@@ -18,7 +20,23 @@ Step 4: fill_out_lemma_objects([99], wordtype)
                     finished_nouns_99 CREATED
 """
 
-if __name__ == '__main__':
+def get_adjectives():
+    wordtype = "adjectives"
+
+    scrape_word_data(
+        group_number=2,
+        head_words=["niebieski"],
+        wordtype=wordtype,
+
+        parser=PolishAdjectiveParser(convert_charrefs=False),
+        language="Polish",
+        use_sample=True,
+    )
+
+    # res_arr = [generate_adjective(args_set) for args_set in scraped_args_sets]
+
+
+def get_nouns():
     wordtype = "nouns"
 
     # Group 1 = words 00 -  50
@@ -36,3 +54,8 @@ if __name__ == '__main__':
     untruncate_lemma_objects([1, 2], wordtype)
 
     fill_out_lemma_objects([1], wordtype)
+
+
+if __name__ == '__main__':
+    # get_nouns()
+    get_adjectives()
