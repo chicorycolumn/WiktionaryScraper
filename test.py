@@ -7,6 +7,12 @@ from semimanual_utils.Polish import *
 @pytest.mark.parametrize("input_args_sets,expected_path", [
     (
             [
+                ("stary", ["old"], 1, "starzy", "staro")
+            ],
+            "expected/adjectives/polish_adjectives_1"
+    ),
+    (
+            [
                 ("niebieski", ["blue"], 2, "niebiescy", "niebiesko")
             ],
             "expected/adjectives/polish_adjectives_2"
