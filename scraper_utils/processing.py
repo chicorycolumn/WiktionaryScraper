@@ -283,15 +283,25 @@ def scrape_word_data(
 
     for (head_word_index, head_word) in enumerate(head_words):
         print(f'\n # Beginning for loop with "{head_word}"\n')
+
         parser.reset()
+
+        def add_output_arr_to_result(output_arr):
+            if output_arr:
+                print(f'\n{" " * 15}# SUCCESS Adding "{head_word}" output_arr to result.' "\n")
+                for lemma_object in output_arr:
+                    lemma_object["lemma"] = head_word
+                result.extend(output_arr)
+            else:
+                print(f'\n#{" " * 45}Loaded and read html for "{head_word}" but FAILED to create output.\n')
+                rejected["loaded_and_read_html_but_failed_to_create_output"].append(head_word)
+
         if use_sample:
             with open(f'input/{language}/{wordtype}/sample_{head_word}.html', 'r') as f:
                 contents = f.read()
                 parser.feed(contents)
                 output_arr = parser.output_arr
-                for lemma_object in output_arr:
-                    lemma_object["lemma"] = head_word
-                result.extend(output_arr)
+                add_output_arr_to_result(output_arr)
                 f.close()
         else:
             try:
@@ -303,15 +313,7 @@ def scrape_word_data(
                     parser.feed(html_string)
                     output_arr = parser.output_arr
                     parser.output_arr = []
-
-                    if output_arr:
-                        print(f'\n{" " * 15}# SUCCESS Adding "{head_word}" output_arr to result.' "\n")
-                        for lemma_object in output_arr:
-                            lemma_object["lemma"] = head_word
-                        result.extend(output_arr)
-                    else:
-                        print(f'\n#{" " * 45}Loaded and read html for "{head_word}" but FAILED to create output.\n')
-                        rejected["loaded_and_read_html_but_failed_to_create_output"].append(head_word)
+                    add_output_arr_to_result(output_arr)
 
                 except:
                     print(f'\n#{" " * 30}Loaded html for "{head_word}" but FAILED when reading it.\n')

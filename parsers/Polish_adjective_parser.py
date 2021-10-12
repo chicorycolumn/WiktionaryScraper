@@ -257,10 +257,19 @@ class PolishAdjectiveParser(HTMLParser):
             self.mode = "gettranslations"
 
         if self.location == "insideselectedlang" and (endTag == "body" or self.mode == "END"):
-            self.output_arr.append(self.output_obj)
-            output_obj = self.output_obj
 
-            print("swde1", output_obj)
+            if len(self.output_obj["translations"]) > 1:
+                self.output_obj["translations_additional"] = self.output_obj["translations"][1:]
+                self.output_obj["translations"] = self.output_obj["translations"][0:1]
+
+            if len(self.output_obj["lemma"]) > 1:
+                self.output_arr = []
+                return
+
+
+            self.output_arr.append(self.output_obj)
+
+
 
             self.location = None
             self.mode = None

@@ -329,8 +329,7 @@ def test_recursively_expand_tags(input_stags: list, expected_output_tags: list):
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
     (["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"], "polish_nouns_1", True),
-    (["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"],
-     "polish_nouns_2", True),
+    (["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"], "polish_nouns_2", True),
     (["prysznic", "glista", "gleba", "łeb", "BADWORD", "palec", "noga", "piła", "piłka"], "polish_nouns_3", False),
     (["prysznic", "BADWORD", "ANOTHERBADWORD", "glista"], "polish_nouns_4", False),
     (["prysznic", "polski", "glista"], "polish_nouns_5", False),

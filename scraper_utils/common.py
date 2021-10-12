@@ -10,15 +10,7 @@ def get_base_id(id):
     return re.search("^\d+\.\d+", str(id)).group()
 
 
-def write_output(dict: dict = None, output_file: str = "output", folder: str = "output"):
-    if not dict:
-        dict = {
-            "singular": {
-                "nom": "ma\\xc5\\x82pa",
-                "acc": "ma\\xc5\\x82p\\xc4\\x99"
-            },
-        }
-
+def write_output(dict: dict = {}, output_file: str = "output", folder: str = "output"):
     json_object = json.dumps(dict, indent=4, ensure_ascii=False)
 
     with open(f"{folder}/{output_file}.json", "w") as outfile:
