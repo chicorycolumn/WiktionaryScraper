@@ -81,7 +81,7 @@ def generate_adjectives(input_path: str, output_file: str, output_folder: str):
 
 
 
-def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma: list, adverb: list = [None], comparative: str = None):
+def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma: list, adverb: list = [], comparative: str = None):
     # narodowy  comparative_type 0  is NOT COMPARABLE and has no adverb.
     # stary     comparative_type 1  has REGULAR comparative/superlative (starszy, najstarszy).
     # niebieski comparative_type 2  has COMPOUND comparative/superlative (bardziej niebieski, najbardziej niebieski).

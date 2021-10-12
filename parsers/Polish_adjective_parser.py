@@ -291,7 +291,7 @@ class PolishAdjectiveParser(HTMLParser):
                 self.output_obj["comparative"] = self.output_obj["comparative"][0]
             elif len(self.output_obj["comparative"]) == 2 and self.output_obj["comparative"][0] == "bardziej":
                 self.output_obj["comparative_type"] = 2
-                self.output_obj["comparative"] = " ".join(self.output_obj["comparative"])
+                self.output_obj.pop("comparative")
             elif len(self.output_obj["comparative"]) == 3:
                 if self.output_obj["comparative"][0] == "bardziej":
                     self.output_obj["comparative_type"] = 3
