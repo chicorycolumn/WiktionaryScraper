@@ -275,21 +275,30 @@ class PolishAdjectiveParser(HTMLParser):
                 self.output_obj["translations"] = self.output_obj["translations"][0:1]
 
             if len(self.output_obj["comparative"]) == 0:
-                if self.output_obj["comparative_type"] != 0:
+                if self.output_obj["comparative_type"] == 0:
+                    self.output_obj.pop("comparative")
+                    if len(self.output_obj["adverb"]):
+                        print(f'#ERR Not comparable and yet is adverb? {self.output_obj["adverb"]}')
+                        return
+                    else:
+                        self.output_obj.pop("adverb")
+                else:
                     print(f'#ERR Did not collect enough comparatives {self.output_obj["comparative"]}')
                     return
+
             elif len(self.output_obj["comparative"]) == 1:
                 self.output_obj["comparative_type"] = 1
+                self.output_obj["comparative"] = self.output_obj["comparative"][0]
             elif len(self.output_obj["comparative"]) == 2 and self.output_obj["comparative"][0] == "bardziej":
                 self.output_obj["comparative_type"] = 2
-                self.output_obj["comparative"] = [" ".join(self.output_obj["comparative"])]
+                self.output_obj["comparative"] = " ".join(self.output_obj["comparative"])
             elif len(self.output_obj["comparative"]) == 3:
                 if self.output_obj["comparative"][0] == "bardziej":
                     self.output_obj["comparative_type"] = 3
-                    self.output_obj["comparative"] = [self.output_obj["comparative"][3]]
+                    self.output_obj["comparative"] = self.output_obj["comparative"][3]
                 elif self.output_obj["comparative"][1] == "bardziej":
                     self.output_obj["comparative_type"] = 3
-                    self.output_obj["comparative"] = [self.output_obj["comparative"][0]]
+                    self.output_obj["comparative"] = self.output_obj["comparative"][0]
                 else:
                     print(f'#ERR Wrong order of comparatives {self.output_obj["comparative"]}')
                     return

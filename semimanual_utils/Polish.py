@@ -81,7 +81,7 @@ def generate_adjectives(input_path: str, output_file: str, output_folder: str):
 
 
 
-def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma, adverb: str = None, comparative: str = None):
+def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma: list, adverb: list = [None], comparative: str = None):
     # narodowy  comparative_type 0  is NOT COMPARABLE and has no adverb.
     # stary     comparative_type 1  has REGULAR comparative/superlative (starszy, najstarszy).
     # niebieski comparative_type 2  has COMPOUND comparative/superlative (bardziej niebieski, najbardziej niebieski).
@@ -136,7 +136,11 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
         },
         "plural": {
             "virile": {
-                "nom": f"{pluvirnom_lemma}",
+                "nom": pluvirnom_lemma[0] if len(pluvirnom_lemma) == 1 else {
+                    "isTerminus": True,
+                    "normal": pluvirnom_lemma,
+                    "additionalInfrequent": []
+                },
                 "gen": f"{lemma}ch",
                 "dat": f"{lemma}m",
                 "acc": f"{lemma}ch",
@@ -224,7 +228,11 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
     if comparative_type and int(comparative_type):
         if not adverb:
             raise Exception(f"No adverb given but comparative type is {comparative_type}.")
-        lemma_object["inflections"]["adverb"] = adverb
+        lemma_object["inflections"]["adverb"] = adverb[0] if len(adverb) == 1 else {
+                    "isTerminus": True,
+                    "normal": adverb,
+                    "additionalInfrequent": []
+                }
 
     if comparative_type == 1:
         lemma_object["inflections"]["comparative"] = comparative_regular
