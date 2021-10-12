@@ -14,27 +14,23 @@ def get_adjectives():
                         output_adjectives_99 CREATED
                         rejected_adjectives_99 CREATED
 
-    Step 2: Manually add shorthand tags and whittle translations.
+    Step 2: Move to output_saved; manually add shorthand tags; whittle translations.
                         output_adjectives_99 MODIFIED
 
-    Step 3: untruncate_lemma_objects([99])
-                        untruncated_nouns_99 CREATED
-
-    Step 4: fill_out_lemma_objects([99], wordtype)
-                        finished_nouns_99 CREATED
+    Step 3: generate_adjectives([99])
+                        finished_adjectives_99 CREATED
     """
 
     scrape_word_data(
-        group_number=2,
-        head_words=["niebieski"],
+        group_number=233,
+        head_words=["niebieski"], # adjectives[0:50]
         wordtype=wordtype,
-
         parser=PolishAdjectiveParser(convert_charrefs=False),
         language="Polish",
-        use_sample=True,
+        use_sample=False,
     )
 
-    res_arr = [generate_adjective(protoadjective) for protoadjective in protoadjectives]
+    generate_adjectives([233], wordtype)
 
 
 def get_nouns():
@@ -46,7 +42,7 @@ def get_nouns():
                         truncated_nouns_99 CREATED
                         rejected_nouns_99 CREATED
 
-    Step 2: Manually add shorthand tags and whittle translations.
+    Step 2: Move to output_saved; manually add shorthand tags; whittle translations.
                         truncated_nouns_99 MODIFIED
 
     Step 3: untruncate_lemma_objects([99])
@@ -63,7 +59,6 @@ def get_nouns():
         group_number=2,
         head_words=nouns[50:100],
         wordtype=wordtype,
-
         parser=PolishNounParser(convert_charrefs=False),
         language="Polish",
         use_sample=False,

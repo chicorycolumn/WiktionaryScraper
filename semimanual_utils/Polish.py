@@ -54,30 +54,31 @@ def recursively_prefix_string_values(dict, prefix):
             recursively_prefix_string_values(value, prefix)
 
 
-def generate_adjectives(input_path: str, output_file: str, output_folder: str):
-    res_arr = []
+def generate_adjectives(group_numbers: int, wordtype: str):
+    for group_number in group_numbers:
+        res_arr = []
 
-    with open(input_path, "r") as f:
-        protoadjectives = json.load(f)
-        f.close()
+        with open(f"output_saved/{wordtype}/output_{wordtype}_{group_number}.json", "r") as f:
+            protoadjectives = json.load(f)
+            f.close()
 
-    for protoadjective in protoadjectives:
-        args = [
-            protoadjective["lemma"],
-            protoadjective["translations"],
-            protoadjective["comparative_type"],
-            protoadjective["pluvirnom_lemma"],
-        ]
+        for protoadjective in protoadjectives:
+            args = [
+                protoadjective["lemma"],
+                protoadjective["translations"],
+                protoadjective["comparative_type"],
+                protoadjective["pluvirnom"],
+            ]
 
-        for key in ["adverb", "comparative"]:
-            if key in protoadjective:
-                args.append(protoadjective[key])
+            for key in ["adverb", "comparative"]:
+                if key in protoadjective:
+                    args.append(protoadjective[key])
 
-        adjective = generate_adjective(*args)
+            adjective = generate_adjective(*args)
 
-        res_arr.append(adjective)
+            res_arr.append(adjective)
 
-    write_output(res_arr, output_file, output_folder)
+        write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved/{wordtype}")
 
 
 

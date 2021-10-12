@@ -235,10 +235,10 @@ def untruncate_lemma_objects(group_numbers, wordtype):
     for group_number in group_numbers:
         res_arr = []
 
-        with open(f"../output_saved/{wordtype}/output_nouns_{group_number}.json", "r") as f:
+        with open(f"../output_saved/{wordtype}/output_{wordtype}_{group_number}.json", "r") as f:
             nouns_long = json.load(f)
             f.close()
-        with open(f"../output_saved/{wordtype}/truncated_nouns_{group_number}.json", "r") as f:
+        with open(f"../output_saved/{wordtype}/truncated_{wordtype}_{group_number}.json", "r") as f:
             nouns_truncated = json.load(f)
             f.close()
 
@@ -251,7 +251,7 @@ def untruncate_lemma_objects(group_numbers, wordtype):
 
             res_arr.append(lemma_object)
 
-        write_output(res_arr, f"untruncated_nouns_{group_number}", f"../output_saved/{wordtype}")
+        write_output(res_arr, f"untruncated_{wordtype}_{group_number}", f"../output_saved/{wordtype}")
 
 
 def scrape_word_data(
