@@ -1,4 +1,6 @@
 from copy import deepcopy
+import json
+from scraper_utils.common import *
 
 
 def get_value_from_keypath(dict, keypath):
@@ -50,6 +52,33 @@ def recursively_prefix_string_values(dict, prefix):
             dict[key] = f"{prefix}{value}"
         else:
             recursively_prefix_string_values(value, prefix)
+
+
+def generate_adjectives(input_path: str, output_file: str, output_folder: str):
+    res_arr = []
+
+    with open(input_path, "r") as f:
+        protoadjectives = json.load(f)
+        f.close()
+
+    for protoadjective in protoadjectives:
+        args = [
+            protoadjective["lemma"],
+            protoadjective["translations"],
+            protoadjective["comparative_type"],
+            protoadjective["pluvirnom_lemma"],
+        ]
+
+        for key in ["adverb", "comparative"]:
+            if key in protoadjective:
+                args.append(protoadjective[key])
+
+        adjective = generate_adjective(*args)
+
+        res_arr.append(adjective)
+
+    write_output(res_arr, output_file, output_folder)
+
 
 
 def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma, adverb: str = None, comparative: str = None):

@@ -271,9 +271,9 @@ def scrape_word_data(
 
     if not filepaths:
         filepaths = {
-            "output": f"output_nouns_{group_number}",
-            "rejected": f"rejected_nouns_{group_number}",
-            "truncated": f"truncated_nouns_{group_number}",
+            "output": f"output_{wordtype}_{group_number}",
+            "rejected": f"rejected_{wordtype}_{group_number}",
+            "truncated": f"truncated_{wordtype}_{group_number}",
         }
 
     count = 1
