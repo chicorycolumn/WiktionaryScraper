@@ -9,7 +9,8 @@ from semimanual_utils.Polish import *
     (["narodowy"], "polish_protoadjectives_0", True),
     (["stary"], "polish_protoadjectives_1", True),
     (["niebieski"], "polish_protoadjectives_2", True),
-    (["czerwony"], "polish_protoadjectives_3", True)
+    (["czerwony"], "polish_protoadjectives_3", True),
+    (["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True)
 ])
 def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "adjectives"):
     print(f'# Starting, given {len(input_words)} words.')
