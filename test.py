@@ -6,7 +6,10 @@ from semimanual_utils.Polish import *
 
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
-    (["niebieski"], "polish_protoadjectives_1", True)
+    (["narodowy"], "polish_protoadjectives_0", True),
+    (["stary"], "polish_protoadjectives_1", True),
+    (["niebieski"], "polish_protoadjectives_2", True),
+    (["czerwony"], "polish_protoadjectives_3", True)
 ])
 def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "adjectives"):
     print(f'# Starting, given {len(input_words)} words.')
