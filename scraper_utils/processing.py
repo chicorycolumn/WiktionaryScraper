@@ -343,7 +343,7 @@ def scrape_word_data(
     write_output(result, filepaths["output"])
     write_output(rejected, filepaths["rejected"])
 
-    if "truncated" in filepaths:
+    if "truncated" in filepaths and wordtype in ["nouns"]:
         def get_truncated(lemma_object):
             return {
                 "lemma": lemma_object["lemma"],

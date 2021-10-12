@@ -5,32 +5,49 @@ from scraper_utils.processing import *
 from semimanual_utils.Polish import *
 
 
-@pytest.mark.parametrize("head_words,expected_proto_adjective_lemma_objects", [
-    (
-            ["niebieski"],
-            [
-                {'lemma': ['niebieski'],
-                 'translations': ['blue'],
-                 'translations_additional': ['dated', 'celestial', 'Synonym:', 'niebiański', 'heraldry', 'azure'],
-                 'comparative_type': None,
-                 'pluvirnom': ['niebiescy'],
-                 'adverb': ['niebiesko'],
-                 'comparative': ['bardziej niebieski']}
-            ]
-    ),
+@pytest.mark.parametrize("input_words,expected_path,use_sample", [
+    (["niebieski"], "polish_protoadjectives_1", True)
 ])
-def test_PolishAdjectiveParser(head_words: list, expected_proto_adjective_lemma_objects: object):
-    proto_adjective_lemma_objects = scrape_word_data(
-        group_number=99,
-        head_words=head_words,
-        wordtype="adjectives",
+def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "adjectives"):
+    print(f'# Starting, given {len(input_words)} words.')
 
+    output_path = f"output_test{expected_path[-2:]}"
+    rejected_path = f"rejected_test{expected_path[-2:]}"
+    expected_rejected_path = f"rejected_{expected_path}"
+
+    with open(f'expected/{wordtype}/{expected_path}.json', 'r') as f:
+        expected = json.load(f)
+        f.close()
+
+    scrape_word_data(
         parser=PolishAdjectiveParser(convert_charrefs=False),
         language="Polish",
-        use_sample=True,
+        head_words=input_words,
+        use_sample=use_sample,
+        wordtype=wordtype,
+        filepaths={
+            "output": output_path,
+            "rejected": rejected_path,
+        },
+        group_number=0,
+        no_temp_ids=True
     )
 
-    assert proto_adjective_lemma_objects == expected_proto_adjective_lemma_objects
+    with open(f'output/{output_path}.json', 'r') as f:
+        actual = json.load(f)
+        f.close()
+
+    assert actual == expected
+
+    with open(f'expected/{wordtype}/{expected_rejected_path}.json', 'r') as f:
+        expected_rejected = json.load(f)
+        f.close()
+
+    with open(f'output/{rejected_path}.json', 'r') as f:
+        actual_rejected = json.load(f)
+        f.close()
+
+    assert actual_rejected == expected_rejected
 
 
 @pytest.mark.parametrize("input_args_sets,expected_path", [

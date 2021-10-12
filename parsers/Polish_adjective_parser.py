@@ -256,9 +256,14 @@ class PolishAdjectiveParser(HTMLParser):
         if self.mode == "gettingadverb" and endTag == "p":
             self.mode = "gettranslations"
 
-        if endTag == "body" or self.mode == "END":
+        if self.location == "insideselectedlang" and (endTag == "body" or self.mode == "END"):
+            self.output_arr.append(self.output_obj)
             output_obj = self.output_obj
-            print("swde")
+
+            print("swde1", output_obj)
+
+            self.location = None
+            self.mode = None
             # for output_obj in self.output_arr:
             #     if output_obj["usage"]:
             #         usages_copy = output_obj["usage"][:]
