@@ -89,7 +89,8 @@ class PolishAdjectiveParser(HTMLParser):
                 self.output_obj["lemma"].append(data)
 
             if self.mode == "gettingtranslations":
-                self.output_obj["translations"].append(data)
+                data_arr = data.split(",")
+                self.output_obj["translations"].extend(data_arr)
 
             if self.mode == "gettingadverb":
                 self.output_obj["adverb"].append(data)
@@ -101,10 +102,15 @@ class PolishAdjectiveParser(HTMLParser):
                 self.mode = None
 
             if self.mode == "gettingcomparative":
-                self.output_obj["comparative"].append(data)
+                if data not in self.ignorable_broad:
+                    self.output_obj["comparative"].append(data)
 
-            if self.lasttag == "i" and data.lower() == "comparative":
-                self.mode = "gettingcomparative"
+            if self.mode == "getcomparativeinfo":
+                if self.lasttag == "i" and data.lower() == "comparative":
+                    self.mode = "gettingcomparative"
+                elif self.lasttag == "i" and data.lower() == "not comparable":
+                    self.output_obj["comparative_type"] = 0
+                    self.mode = "gettranslations"
 
         if self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
             if self.location == "insideselectedlang":
@@ -258,19 +264,38 @@ class PolishAdjectiveParser(HTMLParser):
 
         if self.location == "insideselectedlang" and (endTag == "body" or self.mode == "END"):
 
+            if len(self.output_obj["lemma"]) != 1:
+                print(f'#ERR Wrong number of lemmas {self.output_obj["lemma"]}')
+                return
+
             if len(self.output_obj["translations"]) > 1:
                 self.output_obj["translations_additional"] = self.output_obj["translations"][1:]
                 self.output_obj["translations"] = self.output_obj["translations"][0:1]
 
-            if len(self.output_obj["lemma"]) > 1:
-                self.output_arr = []
+            if len(self.output_obj["comparative"]) == 0:
+                if self.output_obj["comparative_type"] != 0:
+                    print(f'#ERR Did not collect enough comparatives {self.output_obj["comparative"]}')
+                    return
+            elif len(self.output_obj["comparative"]) == 1:
+                self.output_obj["comparative_type"] = 1
+            elif len(self.output_obj["comparative"]) == 2 and self.output_obj["comparative"][0] == "bardziej":
+                self.output_obj["comparative_type"] = 2
+                self.output_obj["comparative"] = [" ".join(self.output_obj["comparative"])]
+            elif len(self.output_obj["comparative"]) == 3:
+                if self.output_obj["comparative"][0] == "bardziej":
+                    self.output_obj["comparative_type"] = 3
+                    self.output_obj["comparative"] = [self.output_obj["comparative"][3]]
+                elif self.output_obj["comparative"][1] == "bardziej":
+                    self.output_obj["comparative_type"] = 3
+                    self.output_obj["comparative"] = [self.output_obj["comparative"][0]]
+                else:
+                    print(f'#ERR Wrong order of comparatives {self.output_obj["comparative"]}')
+                    return
+            else:
+                print(f'#ERR Wrong number of comparatives {self.output_obj["comparative"]}')
                 return
 
-
             self.output_arr.append(self.output_obj)
-
-
-
             self.location = None
             self.mode = None
             # for output_obj in self.output_arr:
