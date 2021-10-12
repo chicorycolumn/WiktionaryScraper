@@ -1,4 +1,4 @@
-from parsers.Polish_parsers import *
+from parsers.Polish_adjective_parser import *
 from scraper_utils.processing import *
 from input.Polish.nouns.head_words import input as nouns
 from input.Polish.adjectives.head_words import input as adjectives

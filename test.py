@@ -1,7 +1,36 @@
 import pytest
-from parsers.Polish_parsers import PolishNounParser
+from parsers.Polish_adjective_parser import *
+from parsers.Polish_noun_parser import *
 from scraper_utils.processing import *
 from semimanual_utils.Polish import *
+
+
+@pytest.mark.parametrize("head_words,expected_proto_adjective_lemma_objects", [
+    (
+            ["niebieski"],
+            [
+                {'lemma': ['niebieski'],
+                 'translations': ['blue'],
+                 'translations_additional': ['dated', 'celestial', 'Synonym:', 'niebiański', 'heraldry', 'azure'],
+                 'comparative_type': None,
+                 'pluvirnom': ['niebiescy'],
+                 'adverb': ['niebiesko'],
+                 'comparative': ['bardziej niebieski']}
+            ]
+    ),
+])
+def test_PolishAdjectiveParser(head_words: list, expected_proto_adjective_lemma_objects: object):
+    proto_adjective_lemma_objects = scrape_word_data(
+        group_number=99,
+        head_words=head_words,
+        wordtype="adjectives",
+
+        parser=PolishAdjectiveParser(convert_charrefs=False),
+        language="Polish",
+        use_sample=True,
+    )
+
+    assert proto_adjective_lemma_objects == expected_proto_adjective_lemma_objects
 
 
 @pytest.mark.parametrize("input_args_sets,expected_path", [

@@ -1,3 +1,9 @@
+from scraper_utils.common import *
+from scraper_utils.Polish import *
+from html.parser import HTMLParser
+import re
+
+
 class PolishNounParser(HTMLParser):
     penultimatetag = None
     _lasttag_copy = None
