@@ -52,8 +52,8 @@ class PolishAdjectiveParser(HTMLParser):
 
     def reset_for_new_table(self):
         self.mode = None
-        self.el_count = 0
-        self.inflections = {}
+        # self.el_count = 0
+        # self.inflections = {}
         self.output_obj = {
             "lemma": [],
             "translations": [],
@@ -62,17 +62,19 @@ class PolishAdjectiveParser(HTMLParser):
             "adverb": [],
             "comparative": []
         }
-        self.keys = []
-        self.subkey = None
-        self.current_definition = None
-        self.current_usage = None
-        self.current_other_shape_key = None
-        self.current_other_shape_value = []
+        # self.keys = []
+        # self.subkey = None
+        # self.current_definition = None
+        # self.current_usage = None
+        # self.current_other_shape_key = None
+        # self.current_other_shape_value = []
+        self.tr_count = 0
+        self.td_count = 0
 
     def reset_for_new_word(self):
         self.reset_for_new_table()
         self.output_arr = []
-        self.keys = []
+        # self.keys = []
         self.location = None
 
     def handle_data(self, data):
@@ -298,6 +300,11 @@ class PolishAdjectiveParser(HTMLParser):
             self.output_arr.append(self.output_obj)
             self.location = None
             self.mode = None
+            return
+
+        self.lsEndTags.append(endTag)
+        self.lsAll.append(endTag)
+
             # for output_obj in self.output_arr:
             #     if output_obj["usage"]:
             #         usages_copy = output_obj["usage"][:]
@@ -318,9 +325,6 @@ class PolishAdjectiveParser(HTMLParser):
             #     for key in ["usage", "otherShapes", "derivedTerms", "synonyms"]:
             #         if not output_obj[key]:
             #             output_obj.pop(key)
-
-        self.lsEndTags.append(endTag)
-        self.lsAll.append(endTag)
 
         # if self.mode == "gettingusage" and endTag == "dd":
         #     self.mode = "gettingdefinition"
