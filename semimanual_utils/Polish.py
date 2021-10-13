@@ -10,8 +10,6 @@ def get_value_from_keypath(dict, keypath):
 
 
 def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
-    # Note, dict1 values are favoured as "normal" while dict2 values will be "additionalInfrequent"
-
     keypath = []
 
     for key, value in dict1.items():
@@ -26,16 +24,17 @@ def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
             dict2_value = get_value_from_keypath(dict2, keypath)
 
             if type(dict2_value) == str:
-                additionalInfrequent = [dict2_value]
+                normal.append(dict2_value)
+                normal.reverse()
             elif type(dict2_value) == list:
-                additionalInfrequent = dict2_value[:]
+                normal.extend(dict2_value)
+                normal.reverse()
             else:
                 raise Exception(f"Unexpected type {type(dict2_value)} at keypath {keypath}.")
 
             get_value_from_keypath(dict1, keypath[:-1])[key] = {
                 "isTerminus": True,
-                "normal": normal,
-                "additionalInfrequent": additionalInfrequent
+                "normal": normal
             }
 
         elif type(value) == dict:
@@ -79,7 +78,6 @@ def generate_adjectives(group_numbers: int, wordtype: str):
             res_arr.append(adjective)
 
         write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved/{wordtype}")
-
 
 
 def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma: list, adverb: list = [], comparative: str = None):
