@@ -22,15 +22,15 @@ def get_adjectives():
     """
 
     scrape_word_data(
-        group_number=233,
-        head_words=["niebieski"], # adjectives[0:50]
+        group_number=101,
+        head_words=adjectives[0:5],
         wordtype=wordtype,
         parser=PolishAdjectiveParser(convert_charrefs=False),
         language="Polish",
         use_sample=False,
     )
 
-    generate_adjectives([233], wordtype)
+    generate_adjectives([101], wordtype)
 
 
 def get_nouns():
