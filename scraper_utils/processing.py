@@ -335,8 +335,16 @@ def scrape_word_data(
 
     if not no_temp_ids:
         for lemma_object in result:
-            lemma_object["temp_id"] = f"{group_number}.{count}"
+            lemma_object_copy = {}
+            lemma_object_copy["temp_id"] = f"{group_number}.{count}"
             count += 1
+            for key, value in lemma_object.items():
+                lemma_object_copy[key] = value
+            lemma_object_keys = [key for key in lemma_object]
+            for key in lemma_object_keys:
+                lemma_object.pop(key)
+            for key, value in lemma_object_copy.items():
+                lemma_object[key] = value
 
     write_output(result, filepaths["output"])
     write_output(rejected, filepaths["rejected"])
