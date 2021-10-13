@@ -191,7 +191,7 @@ class PolishAdjectiveParser(HTMLParser):
             if attr[0] == "class":
                 self.currentclass = self.lastclass = attr[1]
 
-        if self.mode in ["getpluvirnom", "gettinglemma", "gettingpluvirnom"]:
+        if self.mode in ["handlingtable", "gettinglemma", "gettingpluvirnom"]:
             if startTag == "tr":
                 self.tr_count += 1
 
@@ -201,9 +201,13 @@ class PolishAdjectiveParser(HTMLParser):
                 if self.td_count == 1:
                     self.mode = "gettinglemma"
                 elif self.td_count in [2, 3]:
-                    self.mode = "getpluvirnom"
+                    self.mode = "handlingtable"
                 elif self.td_count == 4:
                     self.mode = "gettingpluvirnom"
+
+        if self.location == "insideselectedlang" and self.mode == "readyfortable":
+            if startTag == "table" and "inflection-table" in self.currentclass.split(" "):
+                self.mode = "handlingtable"
 
         if self.mode == "gettranslations" and startTag == "ol":
             self.mode = "gettingtranslations"
@@ -259,7 +263,7 @@ class PolishAdjectiveParser(HTMLParser):
             self.mode = "END"
 
         if self.mode == "gettingtranslations" and endTag == "ol":
-            self.mode = "getpluvirnom"
+            self.mode = "readyfortable"
 
         if self.mode == "gettingadverb" and endTag == "p":
             self.mode = "gettranslations"
@@ -269,6 +273,16 @@ class PolishAdjectiveParser(HTMLParser):
             if len(self.output_obj["lemma"]) != 1:
                 print(f'#ERR Wrong number of lemmas {self.output_obj["lemma"]}')
                 return
+
+            lemma = self.output_obj["lemma"]
+            self.output_obj.pop("lemma")
+            self.output_obj["lemma"] = lemma
+
+            self.output_obj["tags"] = "xxxxxxxxx"
+
+            translations = self.output_obj["translations"]
+            self.output_obj.pop("translations")
+            self.output_obj["translations"] = translations
 
             if len(self.output_obj["translations"]) > 1:
                 self.output_obj["translations_additional"] = self.output_obj["translations"][1:]
@@ -295,7 +309,7 @@ class PolishAdjectiveParser(HTMLParser):
             elif len(self.output_obj["comparative"]) == 3:
                 if self.output_obj["comparative"][0] == "bardziej":
                     self.output_obj["comparative_type"] = 3
-                    self.output_obj["comparative"] = self.output_obj["comparative"][3]
+                    self.output_obj["comparative"] = self.output_obj["comparative"][2]
                 elif self.output_obj["comparative"][1] == "bardziej":
                     self.output_obj["comparative_type"] = 3
                     self.output_obj["comparative"] = self.output_obj["comparative"][0]
