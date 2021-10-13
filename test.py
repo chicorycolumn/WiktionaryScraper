@@ -10,7 +10,10 @@ from semimanual_utils.Polish import *
     (["stary"], "polish_protoadjectives_1", True),
     (["niebieski"], "polish_protoadjectives_2", True),
     (["czerwony"], "polish_protoadjectives_3", True),
-    (["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True)
+    (["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True),
+    (["czerwony", "BADWORD", "stary", "narodowy"], "polish_protoadjectives_5", False),
+    (["czerwony", "kobieta", "stary", "narodowy"], "polish_protoadjectives_6", False),
+    (["zielony"], "polish_protoadjectives_7", False)
 ])
 def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "adjectives"):
     print(f'# Starting, given {len(input_words)} words.')
@@ -57,38 +60,37 @@ def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample
 @pytest.mark.parametrize("input_args_sets,expected_path", [
     (
             [
-                ("narodowy", ["national"], 0, "narodowi")
+                ("narodowy", ["national"], 0, ["narodowi"])
             ],
             "expected/adjectives/polish_adjectives_0"
     ),
     (
             [
-                ("stary", ["old"], 1, "starzy", "staro", "starszy")
+                ("stary", ["old"], 1, ["starzy"], ["staro"], "starszy")
             ],
             "expected/adjectives/polish_adjectives_1"
     ),
     (
             [
-                ("niebieski", ["blue"], 2, "niebiescy", "niebiesko")
+                ("niebieski", ["blue"], 2, ["niebiescy"], ["niebiesko"])
             ],
             "expected/adjectives/polish_adjectives_2"
     ),
     (
             [
-                ("czerwony", ["red"], 3, "czerwoni", "czerwono", "czerwieńszy")
+                ("czerwony", ["red"], 3, ["czerwoni"], ["czerwono"], "czerwieńszy")
             ],
             "expected/adjectives/polish_adjectives_3"
     ),
     (
             [
-                ("narodowy", ["national"], 0, "narodowi"),
-                ("stary", ["old"], 1, "starzy", "staro", "starszy"),
-                ("niebieski", ["blue"], 2, "niebiescy", "niebiesko"),
-                ("czerwony", ["red"], 3, "czerwoni", "czerwono", "czerwieńszy")
+                ("narodowy", ["national"], 0, ["narodowi"]),
+                ("stary", ["old"], 1, ["starzy"], ["staro"], "starszy"),
+                ("niebieski", ["blue"], 2, ["niebiescy"], ["niebiesko"]),
+                ("czerwony", ["red"], 3, ["czerwoni"], ["czerwono"], "czerwieńszy")
             ],
             "expected/adjectives/polish_adjectives_4"
     ),
-
 ])
 def test_generate_adjective(input_args_sets: list, expected_path: str):
     with open(f"{expected_path}.json", "r") as f:
@@ -96,6 +98,8 @@ def test_generate_adjective(input_args_sets: list, expected_path: str):
         f.close()
 
     actual_adjectives = [generate_adjective(*input_args) for input_args in input_args_sets]
+
+    write_output(actual_adjectives, "polish_adjectives_4_updated", "expected/adjectives")
 
     assert actual_adjectives == expected_adjectives
 
