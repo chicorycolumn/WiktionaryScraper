@@ -1,6 +1,21 @@
 [
   {
     "tags": "xxxxxxxxx",
+    "lemma": "czerwony",
+    "translations": [
+      "red"
+    ],
+    "comparative_type": 3,
+    "pluvirnom": [
+      "czerwoni"
+    ],
+    "adverb": [
+      "czerwono"
+    ],
+    "comparative": "czerwieńszy"
+  },
+  {
+    "tags": "xxxxxxxxx",
     "lemma": "stary",
     "translations": [
       "old"
@@ -23,5 +38,16 @@
       "staro"
     ],
     "comparative": "starszy"
+  },
+  {
+    "tags": "xxxxxxxxx",
+    "lemma": "narodowy",
+    "translations": [
+      "national"
+    ],
+    "comparative_type": 0,
+    "pluvirnom": [
+      "narodowi"
+    ]
   }
 ]
