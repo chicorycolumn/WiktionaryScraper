@@ -6,14 +6,15 @@ from semimanual_utils.Polish import *
 
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
-    (["narodowy"], "polish_protoadjectives_0", True),
-    (["stary"], "polish_protoadjectives_1", True),
-    (["niebieski"], "polish_protoadjectives_2", True),
-    (["czerwony"], "polish_protoadjectives_3", True),
-    (["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True),
-    (["czerwony", "BADWORD", "stary", "narodowy"], "polish_protoadjectives_5", False),
-    (["czerwony", "kobieta", "stary", "narodowy"], "polish_protoadjectives_6", False),
-    (["zielony"], "polish_protoadjectives_7", False)
+    # (["narodowy"], "polish_protoadjectives_0", True),
+    # (["stary"], "polish_protoadjectives_1", True),
+    # (["niebieski"], "polish_protoadjectives_2", True),
+    # (["czerwony"], "polish_protoadjectives_3", True),
+    # (["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True),
+    # (["czerwony", "BADWORD", "stary", "narodowy"], "polish_protoadjectives_5", False),
+    # (["czerwony", "kobieta", "stary", "narodowy"], "polish_protoadjectives_6", False),
+    # (["zielony"], "polish_protoadjectives_7", False)
+    (["średniowieczny"], "polish_protoadjectives_8", True)
 ])
 def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "adjectives"):
     print(f'# Starting, given {len(input_words)} words.')
