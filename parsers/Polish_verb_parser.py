@@ -41,7 +41,6 @@ class PolishVerbParser(HTMLParser):
     current_row_data = []
 
     def add_new_row_obj(self):
-        print("                                  len(self.ingested_table)", len(self.ingested_table))
         self.ingested_table.append({
                 "closed": False,
                 "data": []
@@ -98,7 +97,12 @@ class PolishVerbParser(HTMLParser):
         data = orth(data)
 
         if not data or data in self.ignorable_narrow:
-            return
+
+            if self.location == "insidetable":
+                if data not in [","]:
+                    return
+            else:
+                return
 
         if self.location == "insidetable":
             self.current_row_data.append(data)
@@ -226,7 +230,6 @@ class PolishVerbParser(HTMLParser):
             if startTag == "tr":
                 msg = f'len(self.ingested_table) {len(self.ingested_table)} , self.row_num {self.row_num}'
                 while len(self.ingested_table) <= self.row_num:
-                    print("swde3")
                     self.add_new_row_obj()
 
         if self.location == "insideselectedlang":
@@ -305,9 +308,11 @@ class PolishVerbParser(HTMLParser):
                 self.row_num += 1
             elif endTag in ["th", "td"]:
                 row_data = f'{"#" if endTag == "th" else ""}{" ".join(self.current_row_data if self.current_row_data else ["<blank>"])}'
-                self.current_row_data = []
 
-                print("Examining row_data", row_data)
+                if " , " in row_data:
+                    row_data = row_data.split(" , ")
+
+                self.current_row_data = []
 
                 self.col_num = len(self.ingested_table[self.row_num]["data"])
 
@@ -319,7 +324,6 @@ class PolishVerbParser(HTMLParser):
 
                         while len(self.ingested_table) <= row_index:
                             t = self.ingested_table
-                            print("swde2")
                             self.add_new_row_obj()
 
                         row_obj = self.ingested_table[row_index]
