@@ -30,9 +30,22 @@ class PolishVerbParser(HTMLParser):
 
     row_num = 0
     col_num = 0
-    ingested_table = []
+    ingested_table = [
+        {
+            "closed": False,
+            "data": []
+        }
+    ]
     current_cell_rowspan = 1
     current_cell_colspan = 1
+    current_row_data = []
+
+    def add_new_row_obj(self):
+        print("                                  len(self.ingested_table)", len(self.ingested_table))
+        self.ingested_table.append({
+                "closed": False,
+                "data": []
+            })
 
     def reset_for_new_cell(self):
         self.current_cell_rowspan = 1
@@ -66,7 +79,13 @@ class PolishVerbParser(HTMLParser):
         self.current_extra_value = []
         self.row_num = 0
         self.col_num = 0
-        self.ingested_table = []
+        self.ingested_table = [
+            {
+                "closed": False,
+                "data": []
+            }
+        ]
+
 
     def reset_for_new_word(self):
         self.reset_for_new_table()
@@ -76,22 +95,15 @@ class PolishVerbParser(HTMLParser):
 
     def handle_data(self, data):
 
-        if data == "":
-            print("")
-
-        # if self.mode == "getrow":
-        #     if
-
         data = orth(data)
 
         if not data or data in self.ignorable_narrow:
             return
 
-        if self.location == "insideselectedlang":
+        if self.location == "insidetable":
+            self.current_row_data.append(data)
 
-            # if self.location == "handlingtable":
-            #     if self.lasttag == "th":
-            #         self.conj_key_1 =
+        if self.location == "insideselectedlang":
 
             if self.mode == "gettingdefinition":
                 self.current_definition = add_string(self.current_definition, data)
@@ -186,6 +198,7 @@ class PolishVerbParser(HTMLParser):
         #     self.mode = "getword-0"
 
     def handle_starttag(self, startTag, attrs):
+
         if startTag in ["html", "body"]:
             self.reset_for_new_word()
             return
@@ -196,6 +209,11 @@ class PolishVerbParser(HTMLParser):
         self.lsAll.append(startTag)
 
         self.currentclass = None
+
+        if startTag in ["td", "th"]:
+            self.current_cell_rowspan = 1
+            self.current_cell_colspan = 1
+
         for attr in attrs:
             if attr[0] == "class":
                 self.currentclass = self.lastclass = attr[1]
@@ -204,17 +222,16 @@ class PolishVerbParser(HTMLParser):
             elif attr[0] == "colspan":
                 self.current_cell_colspan = int(attr[1])
 
-
-
         if self.location == "insidetable":
-
             if startTag == "tr":
-                self.row_num += 1
-                self.mode = "getrow"
+                msg = f'len(self.ingested_table) {len(self.ingested_table)} , self.row_num {self.row_num}'
+                while len(self.ingested_table) <= self.row_num:
+                    print("swde3")
+                    self.add_new_row_obj()
 
         if self.location == "insideselectedlang":
 
-            if self.mode == "getdefinitions":
+            if self.mode == "gettable":
                 if startTag == "table" and "inflection-table" in self.currentclass.split(" "):
                     self.mode = None
                     self.location = "insidetable"
@@ -276,13 +293,44 @@ class PolishVerbParser(HTMLParser):
         #                 self.location = "insidetable"
 
     def handle_endtag(self, endTag):
-        # if self.mode == "gettingusage" and endTag == "dd":
-        #     self.mode = "gettingdefinition"
-        #     self.output_obj["usage"].append(self.current_usage)
-        #     self.current_usage = None
-        #
-        if self.location == "insidetable" and self.mode == "getrow" and endTag == "tr":
-            self.mode = None
+        if self.location == "insidetable":
+            if endTag == "table":
+                t = self.ingested_table
+                print("")
+
+            if endTag == "tr":
+                self.mode = None
+                self.ingested_table[self.row_num]["closed"] = True
+                t = self.ingested_table
+                self.row_num += 1
+            elif endTag in ["th", "td"]:
+                row_data = f'{"#" if endTag == "th" else ""}{" ".join(self.current_row_data if self.current_row_data else ["<blank>"])}'
+                self.current_row_data = []
+
+                print("Examining row_data", row_data)
+
+                self.col_num = len(self.ingested_table[self.row_num]["data"])
+
+                for row_i in range(self.current_cell_rowspan):
+                    for col_i in range(self.current_cell_colspan):
+
+                        row_index = self.row_num + row_i
+                        col_index = self.col_num + col_i
+
+                        while len(self.ingested_table) <= row_index:
+                            t = self.ingested_table
+                            print("swde2")
+                            self.add_new_row_obj()
+
+                        row_obj = self.ingested_table[row_index]
+
+                        while len(row_obj["data"]) <= col_index:
+                            row_obj["data"].append("")
+
+                        row_obj["data"][col_index] = row_data
+
+                        print(f'Add row data "{row_data}" at {row_index}-{col_index}')
+
 
         if self.mode == "gettingdefinition" and endTag == "li":
             # definition = brackets_to_end(trim_around_brackets(self.current_definition))
@@ -292,7 +340,7 @@ class PolishVerbParser(HTMLParser):
             self.mode = "getdefinitions"
 
         if endTag == "ol" and self.mode == "getdefinitions":
-            self.mode = None
+            self.mode = "gettable"
         #
         # if self.mode and self.mode.startswith("getothershapes") and endTag == "p":
         #     if self.current_other_shape_key != "null" and self.current_other_shape_value:
