@@ -1,18 +1,57 @@
 import pytest
 from parsers.Polish_adjective_parser import *
 from parsers.Polish_noun_parser import *
+from parsers.Polish_verb_parser import *
 from scraper_utils.processing import *
 from semimanual_utils.Polish import *
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
-    (["pisać"], "polish_protoverbs_1", True),
-    (["napisać"], "polish_protoverbs_2", True),
-    (["czytać"], "polish_protoverbs_3", True),
-    (["przeczytać"], "polish_protoverbs_4", True),
-    (["badać", "zabadać", "widzieć", "zobaczyć"], "polish_protoverbs_5", True),
+    (["pisać"], "polish_protoverbs_1", True), #impf
+    # (["napisać"], "polish_protoverbs_2", True), #pf
+    # (["czytać"], "polish_protoverbs_3", True), #impf
+    # (["przeczytać"], "polish_protoverbs_4", True), #pf
+    # (["badać", "zabadać", "widzieć", "zobaczyć"], "polish_protoverbs_5", True),
 ])
 def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "verbs"):
-    pass
+    print(f'# Starting, given {len(input_words)} words.')
+
+    output_path = f"output_test{expected_path[-2:]}"
+    rejected_path = f"rejected_test{expected_path[-2:]}"
+    expected_rejected_path = f"rejected_{expected_path}"
+
+    with open(f'expected/{wordtype}/{expected_path}.json', 'r') as f:
+        expected = json.load(f)
+        f.close()
+
+    scrape_word_data(
+        parser=PolishVerbParser(convert_charrefs=False),
+        language="Polish",
+        head_words=input_words,
+        use_sample=use_sample,
+        wordtype=wordtype,
+        filepaths={
+            "output": output_path,
+            "rejected": rejected_path,
+        },
+        group_number=0,
+        no_temp_ids=True
+    )
+
+    with open(f'output/{output_path}.json', 'r') as f:
+        actual = json.load(f)
+        f.close()
+
+    assert actual == expected
+
+    with open(f'expected/{wordtype}/{expected_rejected_path}.json', 'r') as f:
+        expected_rejected = json.load(f)
+        f.close()
+
+    with open(f'output/{rejected_path}.json', 'r') as f:
+        actual_rejected = json.load(f)
+        f.close()
+
+    assert actual_rejected == expected_rejected
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
     (["narodowy"], "polish_protoadjectives_0", True),
