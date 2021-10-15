@@ -1,0 +1,99 @@
+[
+  {
+    "translations": {
+      "ENG": [
+        "read"
+      ]
+    },
+    "tags": [
+      "basic2"
+    ],
+    "lemma": "przeczytać",
+    "id": "pol-ver-002-pf-01",
+    "aspect": "perfective",
+    "inflections": {
+      "infinitive": "przeczytać",
+      "verbal": {
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "przeczytano"
+            },
+            "plural": {
+              "allPluralGenders": "przeczytano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "przeczytałem",
+              "f": "przeczytałam"
+            },
+            "plural": {
+              "virile": "przeczytaliśmy",
+              "nonvirile": "przeczytałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "przeczytałeś",
+              "f": "przeczytałaś"
+            },
+            "plural": {
+              "virile": "przeczytaliście",
+              "nonvirile": "przeczytałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "przeczytał",
+              "f": "przeczytała",
+              "n": "przeczytało"
+            },
+            "plural": {
+              "virile": "przeczytali",
+              "nonvirile": "przeczytały"
+            }
+          }
+        },
+        "future": {
+          "impersonal": {
+            "singular": true,
+            "plural": true
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "przeczytam"
+            },
+            "plural": {
+              "allPluralGenders": "przeczytamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "przeczytasz"
+            },
+            "plural": {
+              "allPluralGenders": "przeczytacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "przeczyta"
+            },
+            "plural": {
+              "allPluralGenders": "przeczytają"
+            }
+          }
+        },
+        "present": false,
+        "conditional": true,
+        "imperative": "przeczytaj"
+      },
+      "activeAdjectival": false,
+      "passiveAdjectival": "przeczytany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "przeczytawszy",
+      "verbalNoun": "przeczytanie"
+    }
+  }
+]

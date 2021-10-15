@@ -4,6 +4,15 @@ from parsers.Polish_noun_parser import *
 from scraper_utils.processing import *
 from semimanual_utils.Polish import *
 
+@pytest.mark.parametrize("input_words,expected_path,use_sample", [
+    (["pisać"], "polish_protoverbs_1", True),
+    (["napisać"], "polish_protoverbs_2", True),
+    (["czytać"], "polish_protoverbs_3", True),
+    (["przeczytać"], "polish_protoverbs_4", True),
+    (["badać", "zabadać", "widzieć", "zobaczyć"], "polish_protoverbs_5", True),
+])
+def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "verbs"):
+    pass
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
     (["narodowy"], "polish_protoadjectives_0", True),

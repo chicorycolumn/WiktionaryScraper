@@ -1,0 +1,99 @@
+[
+  {
+    "translations": {
+      "ENG": [
+        "write"
+      ]
+    },
+    "tags": [
+      "basic3"
+    ],
+    "lemma": "napisać",
+    "id": "pol-ver-004-pf-01",
+    "aspect": "perfective",
+    "inflections": {
+      "infinitive": "napisać",
+      "verbal": {
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "napisano"
+            },
+            "plural": {
+              "allPluralGenders": "napisano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "napisałem",
+              "f": "napisałam"
+            },
+            "plural": {
+              "virile": "napisaliśmy",
+              "nonvirile": "napisałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "napisałeś",
+              "f": "napisałaś"
+            },
+            "plural": {
+              "virile": "napisaliście",
+              "nonvirile": "napisałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "napisał",
+              "f": "napisała",
+              "n": "napisało"
+            },
+            "plural": {
+              "virile": "napisali",
+              "nonvirile": "napisały"
+            }
+          }
+        },
+        "future": {
+          "impersonal": {
+            "singular": true,
+            "plural": true
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "napiszę"
+            },
+            "plural": {
+              "allPluralGenders": "napiszemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "napiszesz"
+            },
+            "plural": {
+              "allPluralGenders": "napiszecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "napisze"
+            },
+            "plural": {
+              "allPluralGenders": "napiszą"
+            }
+          }
+        },
+        "present": false,
+        "conditional": true,
+        "imperative": "napisz"
+      },
+      "activeAdjectival": false,
+      "passiveAdjectival": "napisany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "napisawszy",
+      "verbalNoun": "napisanie"
+    }
+  }
+]

@@ -1,0 +1,390 @@
+[
+  {
+    "translations": {
+      "ENG": [
+        "research"
+      ]
+    },
+    "tags": [
+      "science"
+    ],
+    "lemma": "badać",
+    "id": "pol-ver-003-im-01",
+    "aspect": "imperfective",
+    "inflections": {
+      "infinitive": "badać",
+      "verbal": {
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "badano"
+            },
+            "plural": {
+              "allPluralGenders": "badano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "badałem",
+              "f": "badałam"
+            },
+            "plural": {
+              "virile": "badaliśmy",
+              "nonvirile": "badałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "badałeś",
+              "f": "badałaś"
+            },
+            "plural": {
+              "virile": "badaliście",
+              "nonvirile": "badałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "badał",
+              "f": "badała",
+              "n": "badało"
+            },
+            "plural": {
+              "virile": "badali",
+              "nonvirile": "badały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": true,
+            "plural": true
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "badam"
+            },
+            "plural": {
+              "allPluralGenders": "badamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "badasz"
+            },
+            "plural": {
+              "allPluralGenders": "badacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "bada"
+            },
+            "plural": {
+              "allPluralGenders": "badają"
+            }
+          }
+        },
+        "future": true,
+        "conditional": true,
+        "imperative": "badaj"
+      },
+      "activeAdjectival": "badający",
+      "passiveAdjectival": "badany",
+      "contemporaryAdverbial": "badając",
+      "anteriorAdverbial": false,
+      "verbalNoun": "badanie"
+    }
+  },
+  {
+    "translations": {
+      "ENG": [
+        "research"
+      ]
+    },
+    "tags": [
+      "science"
+    ],
+    "lemma": "zbadać",
+    "id": "pol-ver-003-pf-01",
+    "aspect": "perfective",
+    "inflections": {
+      "infinitive": "zbadać",
+      "verbal": {
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zbadano"
+            },
+            "plural": {
+              "allPluralGenders": "zbadano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zbadałem",
+              "f": "zbadałam"
+            },
+            "plural": {
+              "virile": "zbadaliśmy",
+              "nonvirile": "zbadałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zbadałeś",
+              "f": "zbadałaś"
+            },
+            "plural": {
+              "virile": "zbadaliście",
+              "nonvirile": "zbadałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zbadał",
+              "f": "zbadała",
+              "n": "zbadało"
+            },
+            "plural": {
+              "virile": "zbadali",
+              "nonvirile": "zbadały"
+            }
+          }
+        },
+        "present": false,
+        "future": {
+          "impersonal": {
+            "singular": true,
+            "plural": true
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "zbadam"
+            },
+            "plural": {
+              "allPluralGenders": "zbadamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "zbadasz"
+            },
+            "plural": {
+              "allPluralGenders": "zbadacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zbada"
+            },
+            "plural": {
+              "allPluralGenders": "zbadają"
+            }
+          }
+        },
+        "conditional": true,
+        "imperative": "zbadaj"
+      },
+      "activeAdjectival": false,
+      "passiveAdjectival": "zbadany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zbadawszy",
+      "verbalNoun": "zbadanie"
+    }
+  },
+  {
+    "translations": {
+      "ENG": [
+        "see"
+      ]
+    },
+    "tags": [
+      "basic1"
+    ],
+    "lemma": "widzieć",
+    "id": "pol-ver-007-im-01",
+    "aspect": "imperfective",
+    "inflections": {
+      "infinitive": "widzieć",
+      "verbal": {
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "widziano"
+            },
+            "plural": {
+              "allPluralGenders": "widziano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "widziałem",
+              "f": "widziałam"
+            },
+            "plural": {
+              "virile": "widzieliśmy",
+              "nonvirile": "widziałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "widziałeś",
+              "f": "widziałaś"
+            },
+            "plural": {
+              "virile": "widzieliście",
+              "nonvirile": "widziałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "widział",
+              "f": "widziała",
+              "n": "widziało"
+            },
+            "plural": {
+              "virile": "widzieli",
+              "nonvirile": "widziały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": true,
+            "plural": true
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "widzę"
+            },
+            "plural": {
+              "allPluralGenders": "widzimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "widzisz"
+            },
+            "plural": {
+              "allPluralGenders": "widzicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "widzi"
+            },
+            "plural": {
+              "allPluralGenders": "widzą"
+            }
+          }
+        },
+        "future": true,
+        "conditional": true,
+        "imperative": "widź"
+      },
+      "activeAdjectival": "twidzący",
+      "passiveAdjectival": "widziany",
+      "contemporaryAdverbial": "widząc",
+      "anteriorAdverbial": false,
+      "verbalNoun": "widzenie"
+    }
+  },
+  {
+    "translations": {
+      "ENG": [
+        "see"
+      ]
+    },
+    "tags": [
+      "basic1"
+    ],
+    "lemma": "zobaczyć",
+    "id": "pol-ver-007-pf-01",
+    "aspect": "perfective",
+    "inflections": {
+      "infinitive": "zobaczyć",
+      "verbal": {
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zobaczono"
+            },
+            "plural": {
+              "allPluralGenders": "zobaczono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zobaczyłem",
+              "f": "zobaczyłam"
+            },
+            "plural": {
+              "virile": "zobaczyliśmy",
+              "nonvirile": "zobaczyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zobaczyłeś",
+              "f": "zobaczyłaś"
+            },
+            "plural": {
+              "virile": "zobaczyliście",
+              "nonvirile": "zobaczyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zobaczył",
+              "f": "zobaczyła",
+              "n": "zobaczyło"
+            },
+            "plural": {
+              "virile": "zobaczyli",
+              "nonvirile": "zobaczyły"
+            }
+          }
+        },
+        "present": false,
+        "future": {
+          "impersonal": {
+            "singular": true,
+            "plural": true
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "zobaczę"
+            },
+            "plural": {
+              "allPluralGenders": "zobaczymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "zobaczysz"
+            },
+            "plural": {
+              "allPluralGenders": "zobaczycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zobaczy"
+            },
+            "plural": {
+              "allPluralGenders": "zobaczą"
+            }
+          }
+        },
+        "conditional": true,
+        "imperative": "zobacz"
+      },
+      "activeAdjectival": false,
+      "passiveAdjectival": "zobaczony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zobaczywszy",
+      "verbalNoun": "zobaczenie"
+    }
+  }
+]

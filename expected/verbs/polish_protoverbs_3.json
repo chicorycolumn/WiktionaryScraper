@@ -1,0 +1,98 @@
+[  {
+    "translations": {
+      "ENG": [
+        "read"
+      ]
+    },
+    "tags": [
+      "basic2"
+    ],
+    "lemma": "czytać",
+    "id": "pol-ver-002-im-01",
+    "aspect": "imperfective",
+    "inflections": {
+      "infinitive": "czytać",
+      "verbal": {
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "czytano"
+            },
+            "plural": {
+              "allPluralGenders": "czytano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "czytałem",
+              "f": "czytałam"
+            },
+            "plural": {
+              "virile": "czytaliśmy",
+              "nonvirile": "czytałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "czytałeś",
+              "f": "czytałaś"
+            },
+            "plural": {
+              "virile": "czytaliście",
+              "nonvirile": "czytałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "czytał",
+              "f": "czytała",
+              "n": "czytało"
+            },
+            "plural": {
+              "virile": "czytali",
+              "nonvirile": "czytały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": true,
+            "plural": true
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "czytam"
+            },
+            "plural": {
+              "allPluralGenders": "czytamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "czytasz"
+            },
+            "plural": {
+              "allPluralGenders": "czytacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "czyta"
+            },
+            "plural": {
+              "allPluralGenders": "czytają"
+            }
+          }
+        },
+        "future": true,
+        "conditional": true,
+        "imperative": "czytaj"
+      },
+      "activeAdjectival": "czytający",
+      "passiveAdjectival": "czytany",
+      "contemporaryAdverbial": "czytając",
+      "anteriorAdverbial": false,
+      "verbalNoun": "czytanie"
+    }
+  }
+]
