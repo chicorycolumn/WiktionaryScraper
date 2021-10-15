@@ -46,6 +46,7 @@ class PolishAdjectiveParser(HTMLParser):
 
     ignorable_narrow = [",", "/", ";"]
     ignorable_broad = ignorable_narrow + ["or", "and"]
+    ignorable_translations = ["relational"]
 
     tr_count = 0
     td_count = 0
@@ -92,7 +93,7 @@ class PolishAdjectiveParser(HTMLParser):
 
             if self.mode == "gettingtranslations":
                 data_arr = data.split(",")
-                self.output_obj["translations"].extend(data_arr)
+                self.output_obj["translations"].extend([w for w in data_arr if w not in self.ignorable_translations])
 
             if self.mode == "gettingadverb":
                 self.output_obj["adverb"].append(data)
@@ -267,6 +268,11 @@ class PolishAdjectiveParser(HTMLParser):
 
         if self.mode == "gettingadverb" and endTag == "p":
             self.mode = "gettranslations"
+
+        if self.mode == "getcomparativeinfo":
+            if endTag == "p" and not self.output_obj["comparative_type"]:
+                self.output_obj["comparative_type"] = 0
+                self.mode = "gettranslations"
 
         if self.location == "insideselectedlang" and (endTag == "body" or self.mode == "END"):
 
