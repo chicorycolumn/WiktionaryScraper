@@ -298,8 +298,53 @@ class PolishVerbParser(HTMLParser):
     def handle_endtag(self, endTag):
         if self.location == "insidetable":
             if endTag == "table":
-                t = self.ingested_table
-                print("")
+
+                def add_value_at_keychain(value, keychain, dict):
+                    for index, key in enumerate(keychain):
+                        if key not in dict:
+                            dict[key] = {}
+                        if index + 1 == len(keychain):
+                            dict[key] = value
+                        else:
+                            dict = dict[key]
+
+                t = [row["data"] for row in self.ingested_table]
+                inflections = {}
+                index_of_first_data_row = 0
+                header_rows = []
+
+                for index, row in enumerate(t):
+                    if all(type(item) is str and item.startswith("#") for item in row):
+                        header_rows.append(row)
+                    else:
+                        index_of_first_data_row = index
+                        break
+
+                for list_index, list in enumerate(t[index_of_first_data_row:]):
+
+                    keychain_base = []
+
+                    for cell in list:
+                        if type(cell) == str and cell.startswith("#"):
+                            if not len(keychain_base) or cell != keychain_base[-1]:
+                                keychain_base.append(cell)
+
+                    for cell_index, cell in enumerate(list):
+                        if type(cell) is not str or not cell.startswith("#"):
+                            keychain = keychain_base[:]
+                            for header_row in header_rows:
+                                if not header_row[cell_index].startswith("#"):
+                                    print("# Error 151")
+                                keychain.append(header_row[cell_index][1:])
+
+                            if cell != "<blank>":
+                                add_value_at_keychain(cell, keychain, inflections)
+
+                self.output_obj["inflections"] = inflections
+                self.output_arr.append(self.output_obj)
+                self.location = None
+                self.mode = None
+                return
 
             if endTag == "tr":
                 self.mode = None
