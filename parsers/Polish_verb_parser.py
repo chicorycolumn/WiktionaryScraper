@@ -1,6 +1,7 @@
 from scraper_utils.common import *
 from scraper_utils.Polish import *
 from html.parser import HTMLParser
+from copy import deepcopy
 import re
 
 
@@ -57,7 +58,8 @@ class PolishVerbParser(HTMLParser):
             "aspect": [],
             "secondary_aspects": [],
             "other_shapes": {},
-            "tags": [],
+            "tags": "xxxxxxxxx",
+            "translations_info": [],
             "translations": {"ENG": []},
             # "id": None,
             # "usage": [],
@@ -333,10 +335,27 @@ class PolishVerbParser(HTMLParser):
                 else:
                     self.output_obj["aspect"] = aspect_ref[self.output_obj["aspect"][0]]
 
-                self.output_arr.append(self.output_obj)
+                for tinfo in self.output_obj["translations_info"][:]:
+                    search1 = re.search(r"(?P<first_bracketed>\(.*?\))", tinfo)
+                    if re.search(r"reflexive", search1["first_bracketed"]): #Requires "się".
+                        copied_lemma_object = deepcopy(self.output_obj)
+                        copied_lemma_object["translations_info"] = [tinfo]
+                        copied_lemma_object["reflexive"] = True
+                        self.output_arr.append(copied_lemma_object)
+                        self.output_obj["translations_info"] = [t for t in self.output_obj["translations_info"] if t != tinfo]
+                    if re.search(r"impersonal", search1["first_bracketed"]): #Requires "się".
+                        copied_lemma_object = deepcopy(self.output_obj)
+                        copied_lemma_object["translations_info"] = [tinfo]
+                        copied_lemma_object["impersonal"] = True
+                        self.output_arr.append(copied_lemma_object)
+                        self.output_obj["translations_info"] = [t for t in self.output_obj["translations_info"] if t != tinfo]
+
+
+                self.output_arr.insert(0, self.output_obj)
                 self.location = None
                 self.mode = None
                 aalobj = self.output_obj
+                aaouta = self.output_arr
                 return
 
             elif endTag == "tr":
@@ -374,7 +393,7 @@ class PolishVerbParser(HTMLParser):
 
         if self.mode == "gettingdefinition" and endTag == "li":
             # definition = brackets_to_end(trim_around_brackets(self.current_definition))
-            self.output_obj["translations"]["ENG"].extend(split_definition_to_list(self.current_definition))
+            self.output_obj["translations_info"].append(self.current_definition)
             self.current_definition = None
             self.mode = "getdefinitions"
 
