@@ -103,6 +103,9 @@ class PolishVerbParser(HTMLParser):
                 self.current_definition = add_string(self.current_definition, data)
 
             if self.mode == "getaspect":
+                if data in ["(", ")"]:
+                    return
+
                 if self.lasttag == "i":
                     self.current_extra_key = data
 
@@ -304,7 +307,7 @@ class PolishVerbParser(HTMLParser):
 
                     for cell in list:
                         if type(cell) == str and cell.startswith("#"):
-                            if not len(keychain_base) or cell != keychain_base[-1]:
+                            if not len(keychain_base) or cell not in keychain_base:
                                 keychain_base.append(cell)
 
                     for cell_index, cell in enumerate(list):
@@ -313,15 +316,17 @@ class PolishVerbParser(HTMLParser):
                             for header_row in header_rows:
                                 if not header_row[cell_index].startswith("#"):
                                     print("# Error 151")
-                                keychain.append(header_row[cell_index][1:])
+                                keychain.append(header_row[cell_index])
 
                             if cell != "<blank>":
-                                add_value_at_keychain(cell, keychain, inflections)
+                                add_value_at_keychain(cell, [k[1:] for k in keychain], inflections)
 
                 self.output_obj["inflections"] = inflections
+
                 self.output_arr.append(self.output_obj)
                 self.location = None
                 self.mode = None
+                aalobj = self.output_obj
                 return
 
             elif endTag == "tr":

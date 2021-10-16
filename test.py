@@ -6,7 +6,8 @@ from scraper_utils.processing import *
 from semimanual_utils.Polish import *
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
-    (["pisać"], "polish_protoverbs_1", True), #impf
+    (["pisywać"], "polish_protoverbs_0", True), #impf freq
+    # (["pisać"], "polish_protoverbs_1", True), #impf
     # (["napisać"], "polish_protoverbs_2", True), #pf
     # (["czytać"], "polish_protoverbs_3", True), #impf
     # (["przeczytać"], "polish_protoverbs_4", True), #pf
