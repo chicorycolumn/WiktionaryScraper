@@ -37,6 +37,9 @@ class PolishVerbParser(HTMLParser):
     current_row_data = []
     current_derived_term = []
 
+    got_derived_terms = False
+    got_related_terms = False
+
     def add_new_row_obj(self):
         self.ingested_table.append({
                 "closed": False,
@@ -84,6 +87,8 @@ class PolishVerbParser(HTMLParser):
 
 
     def reset_for_new_word(self):
+        self.got_derived_terms = False
+        self.got_related_terms = False
         self.reset_for_new_table()
         self.output_arr = []
         self.keys = []
@@ -99,8 +104,6 @@ class PolishVerbParser(HTMLParser):
             else:
                 return
 
-
-
         if self.location == "insideselectedlang":
             if self.mode == "gettingderivedterms":
                 self.current_derived_term.append(data)
@@ -109,8 +112,8 @@ class PolishVerbParser(HTMLParser):
                 if self.lasttag in ["h1", "h2", "h3", "h4", "h5"] or self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
                     if data.lower() in ["derived terms", "related terms"]:
                         self.mode = "gettingderivedterms"
-                    # else:
-                    #     self.mode = "END"
+                    else:
+                        self.mode = "getderivedterms"
 
             if self.mode == "gettingdefinition":
                 self.current_definition = add_string(self.current_definition, data)
@@ -142,6 +145,8 @@ class PolishVerbParser(HTMLParser):
                 if lang_in_focus == self.selected_lang:
                     self.location = "insideselectedlang"
                 else:
+                    if self.location == "insideselectedlang":
+                        self.mode = "END"
                     self.location = None
 
 
@@ -417,8 +422,23 @@ class PolishVerbParser(HTMLParser):
                 self.reset_for_new_cell()
 
         if self.mode == "gettingderivedterms" and endTag == "li":
-            self.output_obj["derivedTerms"].append(" ".join(self.current_derived_term))
-            self.current_derived_term = []
+            derived_term = " ".join(self.current_derived_term)
+
+            strings_to_cut = [
+                f"[ edit ] show ▼ verbs derived from {self.output_obj['lemma']}",
+                "Related terms [ edit ]"
+            ]
+
+            for to_cut in strings_to_cut:
+                if to_cut in derived_term:
+                    derived_term = derived_term.replace(to_cut, "")
+                    if derived_term.startswith(" "):
+                        derived_term = derived_term[1:]
+
+            if "further reading" not in derived_term.lower() and f"in {self.selected_lang} dictionaries" not in derived_term.lower():
+                self.current_derived_term = []
+                self.output_obj["derivedTerms"].append(derived_term)
+
 
         if self.mode == "gettingdefinition" and endTag == "li":
             # definition = brackets_to_end(trim_around_brackets(self.current_definition))
