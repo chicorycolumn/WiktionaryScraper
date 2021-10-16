@@ -35,6 +35,7 @@ class PolishVerbParser(HTMLParser):
     current_cell_rowspan = 1
     current_cell_colspan = 1
     current_row_data = []
+    current_derived_term = []
 
     def add_new_row_obj(self):
         self.ingested_table.append({
@@ -61,6 +62,7 @@ class PolishVerbParser(HTMLParser):
             "tags": "xxxxxxxxx",
             "translations_info": [],
             "translations": {"ENG": []},
+            "derivedTerms": []
             # "id": None,
             # "usage": [],
             # "otherShapes": {},
@@ -72,14 +74,13 @@ class PolishVerbParser(HTMLParser):
         self.subkey = None
         self.current_definition = None
         self.current_usage = None
-        self.current_other_shape_key = None
-        self.current_other_shape_value = []
 
         self.current_other_shapes_key = None
         self.current_other_shapes_value = []
         self.row_num = 0
         self.col_num = 0
         self.ingested_table = []
+        self.current_derived_term = []
 
 
     def reset_for_new_word(self):
@@ -98,10 +99,19 @@ class PolishVerbParser(HTMLParser):
             else:
                 return
 
-        if self.location == "insidetable":
-            self.current_row_data.append(data)
+
 
         if self.location == "insideselectedlang":
+            if self.mode == "gettingderivedterms":
+                self.current_derived_term.append(data)
+
+            if self.mode == "getderivedterms":
+                if self.lasttag in ["h1", "h2", "h3", "h4", "h5"] or self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
+                    if data.lower() in ["derived terms", "related terms"]:
+                        self.mode = "gettingderivedterms"
+                    # else:
+                    #     self.mode = "END"
+
             if self.mode == "gettingdefinition":
                 self.current_definition = add_string(self.current_definition, data)
 
@@ -121,13 +131,19 @@ class PolishVerbParser(HTMLParser):
                 if self.lastclass == "Latn headword":
                     self.output_obj["lemma"] = data
 
-        if self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
-            if self.location == "insideselectedlang":
-                if self.lasttag == "span" and data.lower() == "verb":
-                    self.mode = "getaspect"
+            if self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and self.lasttag == "span" and data.lower() == "verb":
+                self.mode = "getaspect"
 
-            elif data.lower() == self.selected_lang:
-                self.location = "insideselectedlang"
+        if self.location == "insidetable":
+            self.current_row_data.append(data)
+        else:
+            if self.lasttag == "span" and self.penultimatetag == "h2":
+                lang_in_focus = superstrip(data).lower()
+                if lang_in_focus == self.selected_lang:
+                    self.location = "insideselectedlang"
+                else:
+                    self.location = None
+
 
         # if self.location == "insideselectedlang" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
         #     # Mode setting from within handle_data, which is not typical.
@@ -288,79 +304,84 @@ class PolishVerbParser(HTMLParser):
         #                 self.location = "insidetable"
 
     def handle_endtag(self, endTag):
+        if self.mode == "END" or endTag in ["body", "html"]:
+            def add_value_at_keychain(value, keychain, dict):
+                for index, key in enumerate(keychain):
+                    if key not in dict:
+                        dict[key] = {}
+                    if index + 1 == len(keychain):
+                        dict[key] = value
+                    else:
+                        dict = dict[key]
+
+            t = [row["data"] for row in self.ingested_table]
+            inflections = {}
+            index_of_first_data_row = 0
+            header_rows = []
+
+            for index, row in enumerate(t):
+                if all(type(item) is str and item.startswith("#") for item in row):
+                    header_rows.append(row)
+                else:
+                    index_of_first_data_row = index
+                    break
+
+            for list_index, list in enumerate(t[index_of_first_data_row:]):
+                keychain_base = []
+
+                for cell in list:
+                    if type(cell) == str and cell.startswith("#"):
+                        if not len(keychain_base) or cell not in keychain_base:
+                            keychain_base.append(cell)
+
+                for cell_index, cell in enumerate(list):
+                    if type(cell) is not str or not cell.startswith("#"):
+                        keychain = keychain_base[:]
+                        for header_row in header_rows:
+                            if not header_row[cell_index].startswith("#"):
+                                print("# Error 151")
+                            keychain.append(header_row[cell_index])
+
+                        if cell != "<blank>":
+                            add_value_at_keychain(cell, [k[1:] for k in keychain], inflections)
+
+            self.output_obj["inflections"] = inflections
+
+            if len(self.output_obj["aspect"]) != 1:
+                print(f'#ERR len(self.output_obj["aspect"]) is {len(self.output_obj["aspect"])} should be 1')
+                return
+            else:
+                self.output_obj["aspect"] = aspect_ref[self.output_obj["aspect"][0]]
+
+            for tinfo in self.output_obj["translations_info"][:]:
+                print(">", tinfo)
+                search1 = re.search(r"(?P<first_bracketed>\(.*?\))", tinfo)
+                if re.search(r"reflexive", search1["first_bracketed"]):  # Requires "się".
+                    copied_lemma_object = deepcopy(self.output_obj)
+                    copied_lemma_object["translations_info"] = [tinfo]
+                    copied_lemma_object["reflexive"] = True
+                    self.output_arr.append(copied_lemma_object)
+                    self.output_obj["translations_info"] = [t for t in self.output_obj["translations_info"] if
+                                                            t != tinfo]
+                if re.search(r"impersonal", search1["first_bracketed"]):  # Requires "się".
+                    copied_lemma_object = deepcopy(self.output_obj)
+                    copied_lemma_object["translations_info"] = [tinfo]
+                    copied_lemma_object["impersonal"] = True
+                    self.output_arr.append(copied_lemma_object)
+                    self.output_obj["translations_info"] = [t for t in self.output_obj["translations_info"] if
+                                                            t != tinfo]
+
+            self.output_arr.insert(0, self.output_obj)
+            self.location = None
+            self.mode = None
+            aalobj = self.output_obj
+            aaouta = self.output_arr
+            return
+
         if self.location == "insidetable":
             if endTag == "table":
-
-                def add_value_at_keychain(value, keychain, dict):
-                    for index, key in enumerate(keychain):
-                        if key not in dict:
-                            dict[key] = {}
-                        if index + 1 == len(keychain):
-                            dict[key] = value
-                        else:
-                            dict = dict[key]
-
-                t = [row["data"] for row in self.ingested_table]
-                inflections = {}
-                index_of_first_data_row = 0
-                header_rows = []
-
-                for index, row in enumerate(t):
-                    if all(type(item) is str and item.startswith("#") for item in row):
-                        header_rows.append(row)
-                    else:
-                        index_of_first_data_row = index
-                        break
-
-                for list_index, list in enumerate(t[index_of_first_data_row:]):
-                    keychain_base = []
-
-                    for cell in list:
-                        if type(cell) == str and cell.startswith("#"):
-                            if not len(keychain_base) or cell not in keychain_base:
-                                keychain_base.append(cell)
-
-                    for cell_index, cell in enumerate(list):
-                        if type(cell) is not str or not cell.startswith("#"):
-                            keychain = keychain_base[:]
-                            for header_row in header_rows:
-                                if not header_row[cell_index].startswith("#"):
-                                    print("# Error 151")
-                                keychain.append(header_row[cell_index])
-
-                            if cell != "<blank>":
-                                add_value_at_keychain(cell, [k[1:] for k in keychain], inflections)
-
-                self.output_obj["inflections"] = inflections
-
-                if len(self.output_obj["aspect"]) != 1:
-                    print(f'#ERR len(self.output_obj["aspect"]) is {len(self.output_obj["aspect"])} should be 1')
-                    return
-                else:
-                    self.output_obj["aspect"] = aspect_ref[self.output_obj["aspect"][0]]
-
-                for tinfo in self.output_obj["translations_info"][:]:
-                    search1 = re.search(r"(?P<first_bracketed>\(.*?\))", tinfo)
-                    if re.search(r"reflexive", search1["first_bracketed"]): #Requires "się".
-                        copied_lemma_object = deepcopy(self.output_obj)
-                        copied_lemma_object["translations_info"] = [tinfo]
-                        copied_lemma_object["reflexive"] = True
-                        self.output_arr.append(copied_lemma_object)
-                        self.output_obj["translations_info"] = [t for t in self.output_obj["translations_info"] if t != tinfo]
-                    if re.search(r"impersonal", search1["first_bracketed"]): #Requires "się".
-                        copied_lemma_object = deepcopy(self.output_obj)
-                        copied_lemma_object["translations_info"] = [tinfo]
-                        copied_lemma_object["impersonal"] = True
-                        self.output_arr.append(copied_lemma_object)
-                        self.output_obj["translations_info"] = [t for t in self.output_obj["translations_info"] if t != tinfo]
-
-
-                self.output_arr.insert(0, self.output_obj)
-                self.location = None
-                self.mode = None
-                aalobj = self.output_obj
-                aaouta = self.output_arr
-                return
+                self.location = "insideselectedlang"
+                self.mode = "getderivedterms"
 
             elif endTag == "tr":
                 self.mode = None
@@ -394,6 +415,10 @@ class PolishVerbParser(HTMLParser):
                         print(f'Added row data "{row_data}" at {row_index}-{col_index}')
 
                 self.reset_for_new_cell()
+
+        if self.mode == "gettingderivedterms" and endTag == "li":
+            self.output_obj["derivedTerms"].append(" ".join(self.current_derived_term))
+            self.current_derived_term = []
 
         if self.mode == "gettingdefinition" and endTag == "li":
             # definition = brackets_to_end(trim_around_brackets(self.current_definition))
