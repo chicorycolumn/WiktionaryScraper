@@ -25,8 +25,8 @@ class PolishVerbParser(HTMLParser):
     ignorable_narrow = [",", "/", ";"]
     ignorable_broad = ignorable_narrow + ["or", "and"]
 
-    current_extra_key = None
-    current_extra_value = []
+    current_other_shapes_key = None
+    current_other_shapes_value = []
 
     row_num = 0
     col_num = 0
@@ -55,7 +55,8 @@ class PolishVerbParser(HTMLParser):
         self.output_obj = {
             "lemma": None,
             "aspect": [],
-            "extra": {},
+            "secondary_aspects": [],
+            "other_shapes": {},
             "tags": [],
             "translations": {"ENG": []},
             # "id": None,
@@ -72,8 +73,8 @@ class PolishVerbParser(HTMLParser):
         self.current_other_shape_key = None
         self.current_other_shape_value = []
 
-        self.current_extra_key = None
-        self.current_extra_value = []
+        self.current_other_shapes_key = None
+        self.current_other_shapes_value = []
         self.row_num = 0
         self.col_num = 0
         self.ingested_table = []
@@ -107,10 +108,10 @@ class PolishVerbParser(HTMLParser):
                     return
 
                 if self.lasttag == "i":
-                    self.current_extra_key = data
+                    self.current_other_shapes_key = data
 
                 if "b" in [self.penultimatetag, self.lasttag]:
-                    self.current_extra_value.append(data)
+                    self.current_other_shapes_value.append(data)
 
                 if self.lasttag == "abbr":
                     self.output_obj["aspect"].append(data)
@@ -229,11 +230,14 @@ class PolishVerbParser(HTMLParser):
                 self.mode = "gettingdefinition"
 
             if self.mode == "getaspect":
-                if startTag == "i":
-                    self.output_obj["extra"][self.current_extra_key] = self.current_extra_value[:]
-                    self.current_extra_key = None
-                    self.current_extra_value = []
-                elif startTag == "ol":
+                if startTag in ["i", "ol"]:
+                    if self.current_other_shapes_value:
+                        self.output_obj["other_shapes"][self.current_other_shapes_key] = self.current_other_shapes_value[:]
+                        self.current_other_shapes_key = None
+                        self.current_other_shapes_value = []
+                    elif self.current_other_shapes_key:
+                        self.output_obj["secondary_aspects"].append(self.current_other_shapes_key)
+                if startTag == "ol":
                     self.mode = "getdefinitions"
 
         # if self.mode == "gettingusage" and startTag in ["h1", "h2", "h3", "h4"]:
@@ -322,6 +326,12 @@ class PolishVerbParser(HTMLParser):
                                 add_value_at_keychain(cell, [k[1:] for k in keychain], inflections)
 
                 self.output_obj["inflections"] = inflections
+
+                if len(self.output_obj["aspect"]) != 1:
+                    print(f'#ERR len(self.output_obj["aspect"]) is {len(self.output_obj["aspect"])} should be 1')
+                    return
+                else:
+                    self.output_obj["aspect"] = aspect_ref[self.output_obj["aspect"][0]]
 
                 self.output_arr.append(self.output_obj)
                 self.location = None

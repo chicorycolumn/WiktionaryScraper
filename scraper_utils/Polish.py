@@ -37,6 +37,16 @@ def make_inflection_skeleton(lemma_object):
     else:
         raise ValueError("#ERR Is neither perfective nor imperfective.")
 
+
+aspect_ref = {
+    "impf": "imperfective",
+    "im": "imperfective",
+    "imperfective": "imperfective",
+    "pf": "perfective",
+    "perfective": "perfective",
+}
+
+
 gender_translation_ref = {
     "pl": "nonvirile",
     "plural": "nonvirile",
