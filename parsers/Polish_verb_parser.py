@@ -118,10 +118,14 @@ class PolishVerbParser(HTMLParser):
                 if self.lasttag == "abbr":
                     self.output_obj["aspect"].append(data)
 
+                if self.lastclass == "Latn headword":
+                    self.output_obj["lemma"] = data
+
         if self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
             if self.location == "insideselectedlang":
                 if self.lasttag == "span" and data.lower() == "verb":
                     self.mode = "getaspect"
+
             elif data.lower() == self.selected_lang:
                 self.location = "insideselectedlang"
 
