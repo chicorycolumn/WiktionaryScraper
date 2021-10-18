@@ -1,6 +1,3 @@
-import json
-import urllib.request as urllib2
-import urllib as urllib
 from datetime import datetime, timedelta
 from time import sleep
 import re

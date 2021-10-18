@@ -1,4 +1,3 @@
-
 def make_inflection_skeleton(lemma_object):
     full_inflections = lemma_object["inflections"]
 
