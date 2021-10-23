@@ -1,0 +1,21 @@
+Do the language heading detection as normal.
+
+When you get to a h3 then span with class mw-headline and value "Adjective", CHANGE MODE TO GETCOMP
+
+i with value "comparative", then collect all values and join with space, that's the comparative.
+
+i with value "superlative", do the same.
+
+i with value "adverb", do the same, and stop when end tag is p.
+
+You will also use these to work out the comparativeType.
+
+NOW CHANGE MODE TO GETTRANS
+
+You enter an ol. Gather all values into translations arr until you exit ol.
+
+Now get the ultimate value of the 4th td inside the 3rd tr, that's the pluvirnom.
+
+End.
+
+

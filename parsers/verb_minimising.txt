@@ -1,0 +1,25 @@
+IMPERFECTIVE
+
+Write a fxn which programmatically:
+
+1) Autocruncher rollout
+
+	a) Look through values of keys [m, f, n]
+	   and if they all contain same exact value, at this level, then replace all with allSingularGenders key.
+
+	b) But if only [m, f] available then do allSingularGendersExcludingNeuter
+
+	c) Do the same with [virile, nonvirile] to allPluralGenders.
+
+2) Autoglancer activate
+
+	a) Do a broad check that future key holds the right number of keys and values, and if so, set it to true.
+	   After all, impf future has no exceptions that I can ever think of encountering.
+
+	b) Same for conditional.
+
+	c) Same for imperative.
+
+	d) Get the Ad*ials in uniformity.
+
+3) Make it have one value for infinitive and for verbal noun.
