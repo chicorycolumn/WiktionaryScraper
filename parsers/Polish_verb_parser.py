@@ -361,20 +361,26 @@ class PolishVerbParser(HTMLParser):
             for tinfo in self.output_obj["translations_info"][:]:
                 print(">", tinfo)
                 search1 = re.search(r"(?P<first_bracketed>\(.*?\))", tinfo)
-                if re.search(r"reflexive", search1["first_bracketed"]):  # Requires "się".
-                    copied_lemma_object = deepcopy(self.output_obj)
-                    copied_lemma_object["translations_info"] = [tinfo]
-                    copied_lemma_object["reflexive"] = True
-                    self.output_arr.append(copied_lemma_object)
-                    self.output_obj["translations_info"] = [t for t in self.output_obj["translations_info"] if
-                                                            t != tinfo]
-                if re.search(r"impersonal", search1["first_bracketed"]):  # Requires "się".
-                    copied_lemma_object = deepcopy(self.output_obj)
-                    copied_lemma_object["translations_info"] = [tinfo]
-                    copied_lemma_object["impersonal"] = True
-                    self.output_arr.append(copied_lemma_object)
-                    self.output_obj["translations_info"] = [t for t in self.output_obj["translations_info"] if
-                                                            t != tinfo]
+                if search1 and search1["first_bracketed"]:
+                    if re.search(r"reflexive", search1["first_bracketed"]):  # Requires "się".
+                        copied_lemma_object = deepcopy(self.output_obj)
+                        copied_lemma_object["translations_info"] = [tinfo]
+                        copied_lemma_object["reflexive"] = True
+                        self.output_arr.append(copied_lemma_object)
+                        self.output_obj["translations_info"] = [t for t in self.output_obj["translations_info"] if t != tinfo]
+                    if re.search(r"impersonal", search1["first_bracketed"]):  # Requires "się".
+                        copied_lemma_object = deepcopy(self.output_obj)
+                        copied_lemma_object["translations_info"] = [tinfo]
+                        copied_lemma_object["impersonal"] = True
+                        self.output_arr.append(copied_lemma_object)
+                        self.output_obj["translations_info"] = [t for t in self.output_obj["translations_info"] if t != tinfo]
+
+            recursively_replace_keys_in_dict(self.output_obj, minimised_gender_key_ref_polish)
+
+            self.output_obj["inflections"]["infinitive"] = self.output_obj["inflections"]["infinitive"]["singular"]["m"]
+            if "verbal noun" in self.output_obj["inflections"]:
+                self.output_obj["inflections"]["verbalNoun"] = self.output_obj["inflections"]["verbal noun"]["singular"]["m"]
+                self.output_obj["inflections"].pop("verbal noun")
 
             self.output_arr.insert(0, self.output_obj)
             self.location = None

@@ -4,15 +4,35 @@ import urllib as urllib
 from datetime import datetime
 import re
 
+minimised_gender_key_ref_polish = {
+    "masculine": "m",
+    "feminine": "f",
+    "neuter": "n"
+}
+
+def recursively_replace_keys_in_dict(dic, key_ref):
+    for key, value in dic.items():
+        print(key)
+        if key in key_ref:
+            print(">", key)
+            dic[key_ref[key]] = value
+            dic.pop(key)
+        if type(value) is dict:
+            print(">>", key)
+            recursively_replace_keys_in_dict(value, key_ref)
+
 
 def get_base_id(id):
     return re.search("^\d+\.\d+", str(id)).group()
 
 
-def write_output(dict: dict = {}, output_file: str = "output", folder: str = "output"):
+def write_output(dict: dict = {}, output_file: str = "output", folder: str = "output", full_output_path: str = None):
     json_object = json.dumps(dict, indent=4, ensure_ascii=False)
 
-    with open(f"{folder}/{output_file}.json", "w") as outfile:
+    if not full_output_path:
+        full_output_path = f"{folder}/{output_file}.json"
+
+    with open(full_output_path, "w") as outfile:
         outfile.write(json_object)
 
 
