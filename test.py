@@ -3,15 +3,42 @@ from parsers.Polish_adjective_parser import *
 from parsers.Polish_noun_parser import *
 from parsers.Polish_verb_parser import *
 from scraper_utils.processing import *
+from scraper_utils.Polish import minimise_inflections
 from semimanual_utils.Polish import *
+
+@pytest.mark.parametrize("input_path,expected_path", [
+    # (["pisywać"], "polish_protoverbs_0", True), #impf freq
+    # (["pisać"], "polish_protoverbs_1", True), #impf
+    # (["napisać"], "polish_protoverbs_2", True), #pf
+    ("parsed_protoverb_3", "minimised_polish_verb_3"), #impf
+    # (["przeczytać"], "polish_protoverbs_4", True), #pf
+    # (["badać", "zbadać", "widzieć", "zobaczyć"], "polish_protoverbs_5", True),
+])
+def test_verb_minimiser(input_path: str, expected_path: str, wordtype: str = "verbs"):
+    with open(f'expected/{wordtype}/{expected_path}.json', 'r') as f:
+        expected = json.load(f)
+        f.close()
+
+    with open(f'input/Polish/{wordtype}/{input_path}.json', 'r') as f:
+        input = json.load(f)
+        f.close()
+
+    minimise_inflections(input, expected_path)
+
+    with open(f'output/{expected_path}.json', 'r') as f:
+        actual = json.load(f)
+        f.close()
+
+    assert actual["inflections"] == expected["inflections"]
+
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
     # (["pisywać"], "polish_protoverbs_0", True), #impf freq
-    (["pisać"], "polish_protoverbs_1", True), #impf
+    # (["pisać"], "polish_protoverbs_1", True), #impf
     # (["napisać"], "polish_protoverbs_2", True), #pf
-    # (["czytać"], "polish_protoverbs_3", True), #impf
+    (["czytać"], "polish_protoverbs_3", True), #impf
     # (["przeczytać"], "polish_protoverbs_4", True), #pf
-    # (["badać", "zabadać", "widzieć", "zobaczyć"], "polish_protoverbs_5", True),
+    # (["badać", "zbadać", "widzieć", "zobaczyć"], "polish_protoverbs_5", True),
 ])
 def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "verbs"):
     print(f'# Starting, given {len(input_words)} words.')
@@ -53,6 +80,7 @@ def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: boo
         f.close()
 
     assert actual_rejected == expected_rejected
+
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
     (["narodowy"], "polish_protoadjectives_0", True),
