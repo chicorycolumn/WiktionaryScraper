@@ -1,6 +1,5 @@
 from datetime import datetime, timedelta
 from time import sleep
-import re
 from scraper_utils.common import *
 
 shorthand_tag_refs = {"nouns": {
