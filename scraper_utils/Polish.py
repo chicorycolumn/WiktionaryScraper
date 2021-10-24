@@ -1,6 +1,5 @@
-import json
 import copy
-from scraper_utils.common import write_output, recursively_count_strings, recursively_replace_keys_in_dict, recursively_minimise
+from scraper_utils.common import recursively_count_strings, recursively_replace_keys_in_dict, recursively_minimise
 
 
 def minimise_inflections(lemma_object):
