@@ -6,7 +6,8 @@ from scraper_utils.common import write_output, recursively_count_strings, recurs
 def minimise_inflections(lemma_object, output_path):
     full_inflections = deepcopy(lemma_object["inflections"])
 
-    #Step One: Adverbials and Adjectivals
+    # STEP ONE
+    #       Adverbials and Adjectivals
 
     adverbials_ref = {
         "active adjectival participle": "activeAdjectival",
@@ -18,12 +19,15 @@ def minimise_inflections(lemma_object, output_path):
 
     for py_key, js_key in adverbials_ref.items():
         if py_key in full_inflections and full_inflections[py_key]:
-            full_inflections[js_key] = full_inflections[py_key]["singular"]["m"] if py_key != "imperative" else full_inflections[py_key]["2nd"]["singular"]["m"]
-            full_inflections.pop(py_key)
+            full_inflections[js_key] = full_inflections[py_key]["singular"]["m"] if py_key != "imperative" else \
+                full_inflections[py_key]["2nd"]["singular"]["m"]
+            if py_key != js_key:
+                full_inflections.pop(py_key)
         else:
             full_inflections[js_key] = False
 
-    #Step Two: Shortcutting future and conditional for imperfective lemma objects.
+    # STEP TWO
+    #       Shortcutting future and conditional for imperfective lemma objects.
 
     if lemma_object["aspect"] == "imperfective" and lemma_object["lemma"] != "być":
         tense_ref = {
@@ -36,11 +40,14 @@ def minimise_inflections(lemma_object, output_path):
             expected_count = js_key_and_count[1]
             actual_count = recursively_count_strings(full_inflections[py_key])
             if actual_count != expected_count:
-                raise Exception(f'Future tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}.')
+                raise Exception(
+                    f'Future tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}.')
             full_inflections[js_key] = True
-            full_inflections.pop(py_key)
+            if py_key != js_key:
+                full_inflections.pop(py_key)
 
-    #Step Three: Minimise, eg where "m", "f", "n" keys all hold same value, minimise to just "allSingularGenders" key.
+    # STEP THREE
+    #       Minimise, eg where "m", "f", "n" keys all hold same value, minimise to just "allSingularGenders" key.
 
     combined_keys = {
         "allSingularGenders": ["m", "f", "n"],
@@ -66,17 +73,31 @@ def minimise_inflections(lemma_object, output_path):
 
     recursively_minimise(full_inflections)
 
-    #Step Four: Small tidying eg key names "1st" to "1per".
+    # STEP FOUR
+    #       Modify key names "1st" to "1per", and move what needs under verbal.
+
     recursively_replace_keys_in_dict(full_inflections, {
         "1st": "1per",
         "2nd": "2per",
-        "3rd": "3per",
-        "past tense": "past",
-        "present tense": "present",
+        "3rd": "3per"
     })
 
-    res = {"verbal": {"past": {}, "present": {}, "future": {}, "conditional": {}, "imperative": {}}}
-    res["inflections"] = full_inflections
+    res = {"inflections": full_inflections}
+    res["inflections"]["verbal"] = {}
+    move_to_verbal_ref = {
+        "conditional": "conditional",
+        "future": "future",
+        "imperative": "imperative",
+        "past tense": "past",
+        "present tense": "present",
+    }
+    for py_key, js_key in move_to_verbal_ref.items():
+        if py_key in res["inflections"]:
+            res["inflections"]["verbal"][js_key] = res["inflections"][py_key]
+            res["inflections"].pop(py_key)
+
+    # STEP FIVE
+    #       Return
 
     write_output(dict=res, output_file=output_path)
 
