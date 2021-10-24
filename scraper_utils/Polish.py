@@ -5,7 +5,29 @@ from scraper_utils.common import write_output
 
 def minimise_inflections(lemma_object, output_path):
     full_inflections = deepcopy(lemma_object["inflections"])
-    res = {"verbal": {"past": {}, "present": {}, "future": {}, "conditional": {}, "imperative": {}}}
+
+    if full_inflections["active adjectival participle"] and (
+        not full_inflections["contemporary adverbial participle"]
+        or "contemporary adverbial participle" not in full_inflections
+    ):
+        raise Exception("How can there be an ActAdj like czytający but no ContAdv like czytając?")
+
+    if full_inflections["active adjectival participle"]:
+        full_inflections["activeAdjectival"] = full_inflections["passive adjectival participle"]["singular"]["m"]
+        full_inflections.pop("active adjectival participle")
+
+    if "anterior adverbial participle" not in full_inflections:
+        full_inflections["anteriorAdverbial"] = False
+
+    if full_inflections["passive adjectival participle"]:
+        full_inflections["passiveAdjectival"] = full_inflections["passive adjectival participle"]["singular"]["m"]
+        full_inflections.pop("passive adjectival participle")
+
+    full_inflections["contemporaryAdverbial"] = full_inflections["contemporary adverbial participle"]["singular"]["m"]
+    full_inflections.pop("contemporary adverbial participle")
+
+
+
     combined_keys = {
         "allSingularGenders": ["m", "f", "n"],
         "allSingularGendersExcludingNeuter": ["m", "f"],
@@ -30,6 +52,7 @@ def minimise_inflections(lemma_object, output_path):
 
     recursively_minimise(full_inflections)
 
+    res = {"verbal": {"past": {}, "present": {}, "future": {}, "conditional": {}, "imperative": {}}}
     res["inflections"] = full_inflections
 
     write_output(dict=res, output_file=output_path)
