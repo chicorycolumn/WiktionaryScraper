@@ -10,12 +10,29 @@ minimised_gender_key_ref_polish = {
     "neuter": "n"
 }
 
+
+def recursively_count_strings(obj):
+    strings = []
+
+    def rcs_inner(obj):
+        for key, value in obj.items() if type(obj) is dict else enumerate(obj):
+            if type(value) in [dict, list]:
+                rcs_inner(value)
+            elif type(value) is str:
+                strings.append(value)
+
+    rcs_inner(obj)
+    return len(strings)
+
+
 def recursively_replace_keys_in_dict(dic, key_ref):
+    print("### key_ref", key_ref)
     for key, value in dic.items():
-        print(key)
+        print("}}}}", key)
         if key in key_ref:
             print(">", key)
             dic[key_ref[key]] = value
+            print(f"## Replaced {key} with {key_ref[key]}")
             dic.pop(key)
         if type(value) is dict:
             print(">>", key)

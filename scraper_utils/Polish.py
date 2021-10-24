@@ -1,32 +1,46 @@
 import json
 from copy import deepcopy
-from scraper_utils.common import write_output
+from scraper_utils.common import write_output, recursively_count_strings, recursively_replace_keys_in_dict
 
 
 def minimise_inflections(lemma_object, output_path):
     full_inflections = deepcopy(lemma_object["inflections"])
 
-    if full_inflections["active adjectival participle"] and (
-        not full_inflections["contemporary adverbial participle"]
-        or "contemporary adverbial participle" not in full_inflections
-    ):
-        raise Exception("How can there be an ActAdj like czytający but no ContAdv like czytając?")
+    #Step One: Adverbials and Adjectivals
 
-    if full_inflections["active adjectival participle"]:
-        full_inflections["activeAdjectival"] = full_inflections["passive adjectival participle"]["singular"]["m"]
-        full_inflections.pop("active adjectival participle")
+    adverbials_ref = {
+        "active adjectival participle": "activeAdjectival",
+        "passive adjectival participle": "passiveAdjectival",
+        "contemporary adverbial participle": "contemporaryAdverbial",
+        "anterior adverbial participle": "anteriorAdverbial",
+        "imperative": "imperative",
+    }
 
-    if "anterior adverbial participle" not in full_inflections:
-        full_inflections["anteriorAdverbial"] = False
+    for py_key, js_key in adverbials_ref.items():
+        if py_key in full_inflections and full_inflections[py_key]:
+            full_inflections[js_key] = full_inflections[py_key]["singular"]["m"] if py_key != "imperative" else full_inflections[py_key]["2nd"]["singular"]["m"]
+            full_inflections.pop(py_key)
+        else:
+            full_inflections[js_key] = False
 
-    if full_inflections["passive adjectival participle"]:
-        full_inflections["passiveAdjectival"] = full_inflections["passive adjectival participle"]["singular"]["m"]
-        full_inflections.pop("passive adjectival participle")
+    #Step Two: Shortcutting future and conditional for imperfective lemma objects.
 
-    full_inflections["contemporaryAdverbial"] = full_inflections["contemporary adverbial participle"]["singular"]["m"]
-    full_inflections.pop("contemporary adverbial participle")
+    if lemma_object["aspect"] == "imperfective" and lemma_object["lemma"] != "być":
+        tense_ref = {
+            "future tense": ["future", 31],
+            "conditional": ["conditional", 18]
+        }
 
+        for py_key, js_key_and_count in tense_ref.items():
+            js_key = js_key_and_count[0]
+            expected_count = js_key_and_count[1]
+            actual_count = recursively_count_strings(full_inflections[py_key])
+            if actual_count != expected_count:
+                raise Exception(f'Future tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}.')
+            full_inflections[js_key] = True
+            full_inflections.pop(py_key)
 
+    #Step Three: Minimise, eg where "m", "f", "n" keys all hold same value, minimise to just "allSingularGenders" key.
 
     combined_keys = {
         "allSingularGenders": ["m", "f", "n"],
@@ -52,11 +66,17 @@ def minimise_inflections(lemma_object, output_path):
 
     recursively_minimise(full_inflections)
 
+    #Step Four: Small tidying eg key names "1st" to "1per".
+    recursively_replace_keys_in_dict(full_inflections, {
+        "1st": "1per",
+        "2nd": "2per",
+        "3rd": "lemme",
+    })
+
     res = {"verbal": {"past": {}, "present": {}, "future": {}, "conditional": {}, "imperative": {}}}
     res["inflections"] = full_inflections
 
     write_output(dict=res, output_file=output_path)
-
 
 
 aspect_ref = {
