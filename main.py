@@ -1,9 +1,38 @@
 from parsers.Polish_adjective_parser import *
 from parsers.Polish_noun_parser import *
+from parsers.Polish_verb_parser import *
 from scraper_utils.processing import *
 from input.Polish.nouns.head_words import input as nouns
 from input.Polish.adjectives.head_words import input as adjectives
+from input.Polish.verbs.head_words import input as verbs
 from semimanual_utils.Polish import *
+
+
+def get_verbs():
+    wordtype = "verbs"
+
+    """
+    Step 1: scrape_word_data()
+                        output_verbs_99 CREATED
+                        rejected_verbs_99 CREATED
+
+    Step 2: Move to output_saved; manually add shorthand tags; format translations.
+                        output_verbs_99 MODIFIED
+
+    Step 3: generate_verbs([99])
+                        finished_verbs_99 CREATED
+    """
+
+    scrape_word_data(
+        group_number=101,
+        head_words=verbs[0:5],
+        wordtype=wordtype,
+        parser=PolishVerbParser(convert_charrefs=False),
+        language="Polish",
+        use_sample=False,
+    )
+
+    generate_verbs([101], wordtype)
 
 
 def get_adjectives():
