@@ -12,6 +12,25 @@ minimised_gender_key_ref_polish = {
 }
 
 
+def recursively_minimise(dic, ref):
+    def rm_inner(dic):
+        for combined_key, keys in ref.items():
+            if keys[0] in dic and all(key in dic for key in keys):
+                # This dic contains all keys of this arr, eg [m, f, n], so it let's replace with "allSingularGenders"
+                # provided of course, they all contain same value.
+                values = [json.dumps(dic[key]) for key in keys]
+                if all(v == values[0] for v in values[1:]):
+                    # They all contain the same value, eg at keys "m", "f", and "n".
+                    dic[combined_key] = copy.deepcopy(dic[keys[0]])
+                    for key in keys:
+                        dic.pop(key)
+                    return
+        for k, v in dic.items():
+            if type(v) is dict:
+                rm_inner(v)
+    rm_inner(dic)
+
+
 def recursively_count_strings(obj):
     strings = []
 

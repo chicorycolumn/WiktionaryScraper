@@ -1,10 +1,10 @@
 import json
-from copy import deepcopy
-from scraper_utils.common import write_output, recursively_count_strings, recursively_replace_keys_in_dict
+import copy
+from scraper_utils.common import write_output, recursively_count_strings, recursively_replace_keys_in_dict, recursively_minimise
 
 
 def minimise_inflections(lemma_object, output_path):
-    full_inflections = deepcopy(lemma_object["inflections"])
+    full_inflections = copy.deepcopy(lemma_object["inflections"])
 
     # STEP ONE
     #       Adverbials and Adjectivals
@@ -19,8 +19,8 @@ def minimise_inflections(lemma_object, output_path):
 
     for py_key, js_key in adverbials_ref.items():
         if py_key in full_inflections and full_inflections[py_key]:
-            full_inflections[js_key] = full_inflections[py_key]["singular"]["m"] if py_key != "imperative" else \
-                full_inflections[py_key]["2nd"]["singular"]["m"]
+            full_inflections[js_key] = full_inflections[py_key]["singular"]["m"] if py_key != "imperative" \
+                else full_inflections[py_key]["2nd"]["singular"]["m"]
             if py_key != js_key:
                 full_inflections.pop(py_key)
         else:
@@ -49,29 +49,11 @@ def minimise_inflections(lemma_object, output_path):
     # STEP THREE
     #       Minimise, eg where "m", "f", "n" keys all hold same value, minimise to just "allSingularGenders" key.
 
-    combined_keys = {
+    recursively_minimise(full_inflections, {
         "allSingularGenders": ["m", "f", "n"],
         "allSingularGendersExcludingNeuter": ["m", "f"],
         "allPluralGenders": ["virile", "nonvirile"]
-    }
-
-    def recursively_minimise(dic):
-        for combined_key, keys in combined_keys.items():
-            if keys[0] in dic and all(key in dic for key in keys):
-                # This dic contains all keys of this arr, eg [m, f, n], so it let's replace with "allSingularGenders"
-                # provided of course, they all contain same value.
-                values = [json.dumps(dic[key]) for key in keys]
-                if all(v == values[0] for v in values[1:]):
-                    # They all contain the same value, eg at keys "m", "f", and "n".
-                    dic[combined_key] = deepcopy(dic[keys[0]])
-                    for key in keys:
-                        dic.pop(key)
-                    return
-        for k, v in dic.items():
-            if type(v) is dict:
-                recursively_minimise(v)
-
-    recursively_minimise(full_inflections)
+    })
 
     # STEP FOUR
     #       Modify key names "1st" to "1per", and move what needs under verbal.
