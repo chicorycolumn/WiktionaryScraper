@@ -195,16 +195,16 @@ def fill_out_lemma_objects(group_numbers, wordtype):
 def recursively_expand_tags(input_stags: list, ref: object):
     output_tags = []
 
-    def rat_inner(input_tags: list):
+    def ret_inner(input_tags: list):
         for tag in input_tags:
             if tag in ref:
                 print(111, tag)
-                rat_inner(ref[tag]["tags"])
+                ret_inner(ref[tag]["tags"])
             elif tag not in output_tags:
                 print(222, tag)
                 output_tags.append(tag)
 
-    rat_inner(input_stags)
+    ret_inner(input_stags)
     return output_tags
 
 

@@ -70,7 +70,9 @@ def minimise_inflections(lemma_object, output_path):
     recursively_replace_keys_in_dict(full_inflections, {
         "1st": "1per",
         "2nd": "2per",
-        "3rd": "lemme",
+        "3rd": "3per",
+        "past tense": "past",
+        "present tense": "present",
     })
 
     res = {"verbal": {"past": {}, "present": {}, "future": {}, "conditional": {}, "imperative": {}}}
