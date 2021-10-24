@@ -349,23 +349,10 @@ class PolishVerbParser(HTMLParser):
                 self.reset_for_new_cell()
 
         if self.mode == "gettingderivedterms" and endTag == "li":
-            derived_term = " ".join(self.current_derived_term)
-
-            strings_to_cut = [
-                f"[ edit ] show ▼ verbs derived from {self.output_obj['lemma']}",
-                "Related terms [ edit ]"
-            ]
-
-            for to_cut in strings_to_cut:
-                if to_cut in derived_term:
-                    derived_term = derived_term.replace(to_cut, "")
-                    if derived_term.startswith(" "):
-                        derived_term = derived_term[1:]
-
+            derived_term = trim_chaff_from_derived_terms(" ".join(self.current_derived_term), self.output_obj['lemma'])
             if "further reading" not in derived_term.lower() and f"in {self.selected_lang} dictionaries" not in derived_term.lower():
                 self.current_derived_term = []
                 self.output_obj["derivedTerms"].append(derived_term)
-
 
         if self.mode == "gettingdefinition" and endTag == "li":
             # definition = brackets_to_end(trim_around_brackets(self.current_definition))

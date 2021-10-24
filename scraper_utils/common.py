@@ -6,6 +6,22 @@ from datetime import datetime
 import re
 
 
+def trim_chaff_from_derived_terms(string, lemma):
+    strings_to_cut = [
+        f"[ edit ] show ▼ verbs derived from {lemma}",
+        "[ edit ] show ▼ ",
+        "related terms [ edit ]",
+        "[ edit ] ",
+        f"verbs derived from {lemma} "
+    ]
+    for to_cut in strings_to_cut:
+        if to_cut in string.lower():
+            string = string.lower().replace(to_cut, "")
+            if string.startswith(" "):
+                string = string[1:]
+    return string
+
+
 def recursively_minimise(dic, ref):
     def rm_inner(dic):
         for combined_key, keys in ref.items():
