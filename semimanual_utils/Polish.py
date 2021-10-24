@@ -1,6 +1,7 @@
 from copy import deepcopy
 import json
 from scraper_utils.common import *
+from scraper_utils.Polish import minimise_inflections
 
 
 def get_value_from_keypath(dict, keypath):
@@ -51,6 +52,17 @@ def recursively_prefix_string_values(dict, prefix):
             dict[key] = f"{prefix}{value}"
         else:
             recursively_prefix_string_values(value, prefix)
+
+
+def generate_verbs(group_numbers: int, wordtype: str):
+    for group_number in group_numbers:
+        with open(f"output_saved/{wordtype}/output_{wordtype}_{group_number}.json", "r") as f:
+            protoverbs = json.load(f)
+            f.close()
+
+        minimised_verbs = [minimise_inflections(protoverb) for protoverb in protoverbs]
+
+        write_output(minimised_verbs, f"finished_{wordtype}_{group_number}", f"output_saved/{wordtype}")
 
 
 def generate_adjectives(group_numbers: int, wordtype: str):
