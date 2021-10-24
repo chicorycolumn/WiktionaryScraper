@@ -6,6 +6,23 @@ from scraper_utils.common import write_output, recursively_count_strings, recurs
 def minimise_inflections(lemma_object, output_path):
     full_inflections = copy.deepcopy(lemma_object["inflections"])
 
+    # STEP ZERO
+    #       Modify key names "1st" to "1per".
+
+    recursively_replace_keys_in_dict(full_inflections, {
+        "masculine": "m",
+        "feminine": "f",
+        "neuter": "n",
+        "1st": "1per",
+        "2nd": "2per",
+        "3rd": "3per"
+    })
+
+    full_inflections["infinitive"] = full_inflections["infinitive"]["singular"]["m"]
+    if "verbal noun" in full_inflections:
+        full_inflections["verbalNoun"] = full_inflections["verbal noun"]["singular"]["m"]
+        full_inflections.pop("verbal noun")
+
     # STEP ONE
     #       Adverbials and Adjectivals
 
@@ -20,7 +37,7 @@ def minimise_inflections(lemma_object, output_path):
     for py_key, js_key in adverbials_ref.items():
         if py_key in full_inflections and full_inflections[py_key]:
             full_inflections[js_key] = full_inflections[py_key]["singular"]["m"] if py_key != "imperative" \
-                else full_inflections[py_key]["2nd"]["singular"]["m"]
+                else full_inflections[py_key]["2per"]["singular"]["m"]
             if py_key != js_key:
                 full_inflections.pop(py_key)
         else:
@@ -56,16 +73,10 @@ def minimise_inflections(lemma_object, output_path):
     })
 
     # STEP FOUR
-    #       Modify key names "1st" to "1per", and move what needs under verbal.
+    #       Move what needs under verbal.
 
-    recursively_replace_keys_in_dict(full_inflections, {
-        "1st": "1per",
-        "2nd": "2per",
-        "3rd": "3per"
-    })
-
-    res = {"inflections": full_inflections}
-    res["inflections"]["verbal"] = {}
+    lemma_object["inflections"] = full_inflections
+    lemma_object["inflections"]["verbal"] = {}
     move_to_verbal_ref = {
         "conditional": "conditional",
         "future": "future",
@@ -74,14 +85,14 @@ def minimise_inflections(lemma_object, output_path):
         "present tense": "present",
     }
     for py_key, js_key in move_to_verbal_ref.items():
-        if py_key in res["inflections"]:
-            res["inflections"]["verbal"][js_key] = res["inflections"][py_key]
-            res["inflections"].pop(py_key)
+        if py_key in lemma_object["inflections"]:
+            lemma_object["inflections"]["verbal"][js_key] = lemma_object["inflections"][py_key]
+            lemma_object["inflections"].pop(py_key)
 
     # STEP FIVE
     #       Return
 
-    write_output(dict=res, output_file=output_path)
+    write_output(dict=lemma_object, output_file=output_path)
 
 
 aspect_ref = {

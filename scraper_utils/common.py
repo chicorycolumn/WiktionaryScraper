@@ -5,12 +5,6 @@ import urllib as urllib
 from datetime import datetime
 import re
 
-minimised_gender_key_ref_polish = {
-    "masculine": "m",
-    "feminine": "f",
-    "neuter": "n"
-}
-
 
 def recursively_minimise(dic, ref):
     def rm_inner(dic):
