@@ -3,42 +3,50 @@ from parsers.Polish_adjective_parser import *
 from parsers.Polish_noun_parser import *
 from parsers.Polish_verb_parser import *
 from scraper_utils.processing import *
-from scraper_utils.Polish import minimise_inflections
+from scraper_utils.Polish import minimise_inflections as minimise_inflections_polish
+from scraper_utils.Polish import test_helper_shorthand_tag_ref_noun
 from semimanual_utils.Polish import *
 
+
 @pytest.mark.parametrize("input_path,expected_path", [
-    # (["pisywać"], "polish_protoverbs_0", True), #impf freq
-    # (["pisać"], "polish_protoverbs_1", True), #impf
-    # (["napisać"], "polish_protoverbs_2", True), #pf
-    ("parsed_protoverb_3", "minimised_polish_verb_3"), #impf
-    # (["przeczytać"], "polish_protoverbs_4", True), #pf
-    # (["badać", "zbadać", "widzieć", "zobaczyć"], "polish_protoverbs_5", True),
+    ("parsed_polish_protoverbs_0", "minimised_polish_verbs_0"),  # impf frequentative: pisywać
+    ("parsed_polish_protoverbs_1", "minimised_polish_verbs_1"),  # impf: pisać
+    ("parsed_polish_protoverbs_2", "minimised_polish_verbs_2"),  # pf: napisać
+    ("parsed_polish_protoverbs_3", "minimised_polish_verbs_3"),  # impf: czytać
+    ("parsed_polish_protoverbs_4", "minimised_polish_verbs_4"),  # pf: przeczytać
+    ("parsed_polish_protoverbs_5", "minimised_polish_verbs_5"),  # various: badać, zbadać, widzieć, zobaczyć
 ])
-def test_verb_minimiser(input_path: str, expected_path: str, wordtype: str = "verbs"):
+def test_polish_verb_minimiser(input_path: str, expected_path: str, wordtype: str = "verbs"):
     with open(f'expected/{wordtype}/{expected_path}.json', 'r') as f:
         expected = json.load(f)
         f.close()
 
-    with open(f'input/Polish/{wordtype}/{input_path}.json', 'r') as f:
+    with open(f'expected/{wordtype}/{input_path}.json', 'r') as f:
         input = json.load(f)
         f.close()
 
-    minimise_inflections(input, expected_path)
+    minimised_verbs = [minimise_inflections_polish(protoverb) for protoverb in input
+                       if "reflexive" not in protoverb and "impersonal" not in protoverb]
+
+    write_output(dict=minimised_verbs, output_file=expected_path)
 
     with open(f'output/{expected_path}.json', 'r') as f:
         actual = json.load(f)
         f.close()
 
-    assert actual["inflections"] == expected["inflections"]
+    actual = [obj["inflections"] for obj in actual]
+    expected = [obj["inflections"] for obj in expected]
+
+    assert actual == expected
 
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
-    # (["pisywać"], "polish_protoverbs_0", True), #impf freq
-    # (["pisać"], "polish_protoverbs_1", True), #impf
-    # (["napisać"], "polish_protoverbs_2", True), #pf
-    (["czytać"], "polish_protoverbs_3", True), #impf
-    # (["przeczytać"], "polish_protoverbs_4", True), #pf
-    # (["badać", "zbadać", "widzieć", "zobaczyć"], "polish_protoverbs_5", True),
+    (["pisywać"], "parsed_polish_protoverbs_0", True), #impf frequentative
+    (["pisać"], "parsed_polish_protoverbs_1", True),  # impf
+    (["napisać"], "parsed_polish_protoverbs_2", True), #pf
+    (["czytać"], "parsed_polish_protoverbs_3", True), #impf
+    (["przeczytać"], "parsed_polish_protoverbs_4", True), #pf
+    (["badać", "zbadać", "widzieć", "zobaczyć"], "parsed_polish_protoverbs_5", True), #various
 ])
 def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "verbs"):
     print(f'# Starting, given {len(input_words)} words.')
@@ -209,182 +217,7 @@ def test_generate_adjective(input_args_sets: list, expected_path: str):
     ),
 ])
 def test_add_tags_and_topics_from_shorthand(lemma_object: object, expected_lemma_object: object):
-    test_shorthand_tag_ref_noun = {
-        "u": {
-            "tags": ["uncountable"],
-            "topics": [],
-        },
-        "h": {
-            "tags": ["holdable", "concrete"],
-            "topics": [],
-        },
-        "m": {
-            "tags": ["manmade", "concrete"],
-            "topics": [],
-        },
-        "n": {
-            "tags": ["natural", "concrete"],
-            "topics": ["outside"],
-        },
-        "s": {
-            "tags": ["school"],
-            "topics": [],
-        },
-        "w": {
-            "tags": ["work"],
-            "topics": [],
-        },
-
-        # # # # # # # # # # #
-
-        "c": {
-            "tags": ["material", "uncountable", "concrete"],
-            "topics": ["basic"],
-        },
-        "¢": {
-            "tags": ["chemical", "c"],
-            "topics": ["science"],
-        },
-        "b": {
-            "tags": ["bodypart", "concrete"],
-            "topics": ["at the doctor", "basic", "body"],
-        },
-        "ß": {
-            "tags": ["schoolsubject", "abstract"],
-            "topics": ["school"],
-        },
-        "w": {
-            "tags": ["weather", "abstract", "uncountable"],
-            "topics": ["basic", "outdoor"],
-        },
-        "!": {
-            "tags": ["noise", "abstract"],
-            "topics": ["sense and perception"],
-        },
-        "e": {
-            "tags": ["emotion", "abstract"],
-            "topics": ["inside your head"],
-        },
-        "$": {
-            "tags": ["money"],
-            "topics": ["shopping", "maths", "travel"],
-        },
-        "@": {
-            "tags": ["measurement"],
-            "topics": ["maths"],
-        },
-        "at": {
-            "tags": ["abstract", "time"],
-            "topics": ["travel", "maths"],
-        },
-        "as": {
-            "tags": ["abstract"],
-            "topics": ["school"],
-        },
-        "aw": {
-            "tags": ["abstract"],
-            "topics": ["work"],
-        },
-        "ag": {
-            "tags": ["abstract"],
-            "topics": ["geometric", "maths"],
-        },
-        "aa": {
-            "tags": ["abstract"],
-            "topics": [],
-        },
-        "r": {
-            "tags": ["relative", "person", "living", "concrete"],
-            "topics": ["relationships"],
-        },
-        "j": {
-            "tags": ["profession", "person", "living", "concrete"],
-            "topics": ["work"],
-        },
-        "a": {
-            "tags": ["animal", "living", "concrete"],
-            "topics": ["outside"],
-        },
-        "æ": {
-            "tags": ["pet", "animal", "living", "concrete"],
-            "topics": ["home", "inside"],
-        },
-        "t": {
-            "tags": ["title", "person", "living", "concrete"],
-            "topics": [],
-        },
-        "p": {
-            "tags": ["person", "living", "concrete"],
-            "topics": [],
-        },
-        "f": {
-            "tags": ["food", "h"],
-            "topics": ["kitchen", "restaurant", "inside"],
-        },
-        "d": {
-            "tags": ["drink", "h"],
-            "topics": ["kitchen", "restaurant", "inside"],
-        },
-        "da": {
-            "tags": ["alcoholic", "d"],
-            "topics": ["kitchen", "restaurant", "nightclub", "inside"],
-        },
-        "g": {
-            "tags": ["clothes", "h"],
-            "topics": ["basic"],
-        },
-        "lg": {
-            "tags": ["location", "concrete"],
-            "topics": [],
-        },
-        "lb": {
-            "tags": ["location", "building", "concrete"],
-            "topics": ["inside"],
-        },
-        "lr": {
-            "tags": ["location", "room", "concrete"],
-            "topics": ["inside"],
-        },
-        "ln": {
-            "tags": ["location", "natural", "concrete"],
-            "topics": ["outside"],
-        },
-        "ls": {
-            "tags": ["special location", "abstract"],
-            "topics": ["religion"],
-        },
-        "hf": {
-            "tags": ["furniture", "concrete"],
-            "topics": ["home", "inside"],
-        },
-        "hh": {
-            "tags": ["household object", "h"],
-            "topics": ["home", "inside"],
-        },
-        "hf": {
-            "tags": ["furniture", "concrete"],
-            "topics": ["home", "inside"],
-        },
-        "hb": {
-            "tags": ["hh"],
-            "topics": ["home", "inside", "bedroom"],
-        },
-        "hk": {
-            "tags": ["hh"],
-            "topics": ["home", "inside", "kitchen"],
-        },
-        "hw": {
-            "tags": ["hh"],
-            "topics": ["home", "inside", "washroom"],
-        },
-        "hp": {
-            "tags": ["part of house", "concrete"],
-            "topics": ["home", "inside"],
-        }
-    }
-
-    add_tags_and_topics_from_shorthand(lemma_object, test_shorthand_tag_ref_noun)
-
+    add_tags_and_topics_from_shorthand(lemma_object, test_helper_shorthand_tag_ref_noun)
     assert lemma_object == expected_lemma_object
 
 
@@ -415,7 +248,8 @@ def test_recursively_expand_tags(input_stags: list, expected_output_tags: list):
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
     (["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"], "polish_nouns_1", True),
-    (["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"], "polish_nouns_2", True),
+    (["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"],
+     "polish_nouns_2", True),
     (["prysznic", "glista", "gleba", "łeb", "BADWORD", "palec", "noga", "piła", "piłka"], "polish_nouns_3", False),
     (["prysznic", "BADWORD", "ANOTHERBADWORD", "glista"], "polish_nouns_4", False),
     (["prysznic", "polski", "glista"], "polish_nouns_5", False),
