@@ -57,12 +57,12 @@
         },
         "future": {
           "impersonal": {
-            "singular": true,
-            "plural": true
+            "singular": {"allSingularGenders": "napisze się"},
+            "plural": {"allPluralGenders": "napisze się"}
           },
           "1per": {
             "singular": {
-              "allSingularGendersExcludingNeuter": "napiszę"
+              "allSingularGenders": "napiszę"
             },
             "plural": {
               "allPluralGenders": "napiszemy"
@@ -70,7 +70,7 @@
           },
           "2per": {
             "singular": {
-              "allSingularGendersExcludingNeuter": "napiszesz"
+              "allSingularGenders": "napiszesz"
             },
             "plural": {
               "allPluralGenders": "napiszecie"

@@ -57,12 +57,16 @@
         },
         "present": {
           "impersonal": {
-            "singular": true,
-            "plural": true
+            "singular": {
+              "allSingularGenders": "bada się"
+            },
+            "plural": {
+              "allPluralGenders": "bada się"
+            }
           },
           "1per": {
             "singular": {
-              "allSingularGendersExcludingNeuter": "badam"
+              "allSingularGenders": "badam"
             },
             "plural": {
               "allPluralGenders": "badamy"
@@ -70,7 +74,7 @@
           },
           "2per": {
             "singular": {
-              "allSingularGendersExcludingNeuter": "badasz"
+              "allSingularGenders": "badasz"
             },
             "plural": {
               "allPluralGenders": "badacie"
@@ -155,12 +159,16 @@
         "present": false,
         "future": {
           "impersonal": {
-            "singular": true,
-            "plural": true
+            "singular": {
+              "allSingularGenders": "zbada się"
+            },
+            "plural": {
+              "allPluralGenders": "zbada się"
+            }
           },
           "1per": {
             "singular": {
-              "allSingularGendersExcludingNeuter": "zbadam"
+              "allSingularGenders": "zbadam"
             },
             "plural": {
               "allPluralGenders": "zbadamy"
@@ -168,7 +176,7 @@
           },
           "2per": {
             "singular": {
-              "allSingularGendersExcludingNeuter": "zbadasz"
+              "allSingularGenders": "zbadasz"
             },
             "plural": {
               "allPluralGenders": "zbadacie"
@@ -251,12 +259,16 @@
         },
         "present": {
           "impersonal": {
-            "singular": true,
-            "plural": true
+            "singular": {
+              "allSingularGenders": "widzi się"
+            },
+            "plural": {
+              "allPluralGenders": "widzi się"
+            }
           },
           "1per": {
             "singular": {
-              "allSingularGendersExcludingNeuter": "widzę"
+              "allSingularGenders": "widzę"
             },
             "plural": {
               "allPluralGenders": "widzimy"
@@ -264,7 +276,7 @@
           },
           "2per": {
             "singular": {
-              "allSingularGendersExcludingNeuter": "widzisz"
+              "allSingularGenders": "widzisz"
             },
             "plural": {
               "allPluralGenders": "widzicie"
@@ -283,7 +295,7 @@
         "conditional": true,
         "imperative": "widź"
       },
-      "activeAdjectival": "twidzący",
+      "activeAdjectival": "widzący",
       "passiveAdjectival": "widziany",
       "contemporaryAdverbial": "widząc",
       "anteriorAdverbial": false,
@@ -349,12 +361,16 @@
         "present": false,
         "future": {
           "impersonal": {
-            "singular": true,
-            "plural": true
+            "singular": {
+              "allSingularGenders": "zobaczy się"
+            },
+            "plural": {
+              "allPluralGenders": "zobaczy się"
+            }
           },
           "1per": {
             "singular": {
-              "allSingularGendersExcludingNeuter": "zobaczę"
+              "allSingularGenders": "zobaczę"
             },
             "plural": {
               "allPluralGenders": "zobaczymy"
@@ -362,7 +378,7 @@
           },
           "2per": {
             "singular": {
-              "allSingularGendersExcludingNeuter": "zobaczysz"
+              "allSingularGenders": "zobaczysz"
             },
             "plural": {
               "allPluralGenders": "zobaczycie"

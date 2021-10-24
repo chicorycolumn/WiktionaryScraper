@@ -5,8 +5,11 @@
         "write"
       ]
     },
-    "tags": "xxxxxxxxx",
+    "tags": [
+      "basic3"
+    ],
     "lemma": "pisać",
+    "id": "pol-ver-004-im-01",
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "pisać",
@@ -54,12 +57,16 @@
         },
         "present": {
           "impersonal": {
-            "singular": true,
-            "plural": true
+            "singular": {
+              "allSingularGenders": "pisze się"
+            },
+            "plural": {
+              "allPluralGenders": "pisze się"
+            }
           },
           "1per": {
             "singular": {
-              "allSingularGendersExcludingNeuter": "piszę"
+              "allSingularGenders": "piszę"
             },
             "plural": {
               "allPluralGenders": "piszemy"
@@ -67,7 +74,7 @@
           },
           "2per": {
             "singular": {
-              "allSingularGendersExcludingNeuter": "piszesz"
+              "allSingularGenders": "piszesz"
             },
             "plural": {
               "allPluralGenders": "piszecie"
