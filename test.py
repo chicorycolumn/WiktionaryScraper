@@ -25,8 +25,7 @@ def test_polish_verb_minimiser(input_path: str, expected_path: str, wordtype: st
         input = json.load(f)
         f.close()
 
-    minimised_verbs = [minimise_inflections_polish(protoverb) for protoverb in input
-                       if "reflexive" not in protoverb and "impersonal" not in protoverb]
+    minimised_verbs = [minimise_inflections_polish(protoverb) for protoverb in input]
 
     write_output(dict=minimised_verbs, output_file=expected_path)
 

@@ -1,2869 +1,1150 @@
 [
-  {
-    "lemma": "badać",
-    "aspect": "imperfective",
-    "secondary_aspects": [],
-    "other_shapes": {
-      "perfective": [
-        "zbadać"
-      ]
+    {
+        "lemma": "badać",
+        "aspect": "imperfective",
+        "secondary_aspects": [],
+        "other_shapes": {
+            "perfective": [
+                "zbadać"
+            ]
+        },
+        "tags": "xxxxxxxxx",
+        "translations_info": [
+            "( transitive ) to explore , to research , to study",
+            "( reflexive ) to be examined"
+        ],
+        "translations": {
+            "ENG": []
+        },
+        "derivedTerms": [
+            "( nouns ) badacz badaczka badanie",
+            "( verb ) bóść"
+        ],
+        "inflections": {
+            "infinitive": {
+                "singular": {
+                    "masculine": "badać",
+                    "feminine": "badać",
+                    "neuter": "badać"
+                },
+                "plural": {
+                    "virile": "badać",
+                    "nonvirile": "badać"
+                }
+            },
+            "present tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "badam",
+                        "feminine": "badam",
+                        "neuter": "badam"
+                    },
+                    "plural": {
+                        "virile": "badamy",
+                        "nonvirile": "badamy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "badasz",
+                        "feminine": "badasz",
+                        "neuter": "badasz"
+                    },
+                    "plural": {
+                        "virile": "badacie",
+                        "nonvirile": "badacie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "bada",
+                        "feminine": "bada",
+                        "neuter": "bada"
+                    },
+                    "plural": {
+                        "virile": "badają",
+                        "nonvirile": "badają"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "bada się",
+                        "feminine": "bada się",
+                        "neuter": "bada się"
+                    },
+                    "plural": {
+                        "virile": "bada się",
+                        "nonvirile": "bada się"
+                    }
+                }
+            },
+            "past tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "badałem",
+                        "feminine": "badałam"
+                    },
+                    "plural": {
+                        "virile": "badaliśmy",
+                        "nonvirile": "badałyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "badałeś",
+                        "feminine": "badałaś"
+                    },
+                    "plural": {
+                        "virile": "badaliście",
+                        "nonvirile": "badałyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "badał",
+                        "feminine": "badała",
+                        "neuter": "badało"
+                    },
+                    "plural": {
+                        "virile": "badali",
+                        "nonvirile": "badały"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "badano",
+                        "feminine": "badano",
+                        "neuter": "badano"
+                    },
+                    "plural": {
+                        "virile": "badano",
+                        "nonvirile": "badano"
+                    }
+                }
+            },
+            "future tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": [
+                            "będę badał",
+                            "będę badać"
+                        ],
+                        "feminine": [
+                            "będę badała",
+                            "będę badać"
+                        ]
+                    },
+                    "plural": {
+                        "virile": [
+                            "będziemy badali",
+                            "będziemy badać"
+                        ],
+                        "nonvirile": [
+                            "będziemy badały",
+                            "będziemy badać"
+                        ]
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": [
+                            "będziesz badał",
+                            "będziesz badać"
+                        ],
+                        "feminine": [
+                            "będziesz badała",
+                            "będziesz badać"
+                        ]
+                    },
+                    "plural": {
+                        "virile": [
+                            "będziecie badali",
+                            "będziecie badać"
+                        ],
+                        "nonvirile": [
+                            "będziecie badały",
+                            "będziecie badać"
+                        ]
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": [
+                            "będzie badał",
+                            "będzie badać"
+                        ],
+                        "feminine": [
+                            "będzie badała",
+                            "będzie badać"
+                        ],
+                        "neuter": [
+                            "będzie badało",
+                            "będzie badać"
+                        ]
+                    },
+                    "plural": {
+                        "virile": [
+                            "będą badali",
+                            "będą badać"
+                        ],
+                        "nonvirile": [
+                            "będą badały",
+                            "będą badać"
+                        ]
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "będzie badać się",
+                        "feminine": "będzie badać się",
+                        "neuter": "będzie badać się"
+                    },
+                    "plural": {
+                        "virile": "będzie badać się",
+                        "nonvirile": "będzie badać się"
+                    }
+                }
+            },
+            "conditional": {
+                "1st": {
+                    "singular": {
+                        "masculine": "badałbym",
+                        "feminine": "badałabym"
+                    },
+                    "plural": {
+                        "virile": "badalibyśmy",
+                        "nonvirile": "badałybyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "badałbyś",
+                        "feminine": "badałabyś"
+                    },
+                    "plural": {
+                        "virile": "badalibyście",
+                        "nonvirile": "badałybyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "badałby",
+                        "feminine": "badałaby",
+                        "neuter": "badałoby"
+                    },
+                    "plural": {
+                        "virile": "badaliby",
+                        "nonvirile": "badałyby"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "badano by",
+                        "feminine": "badano by",
+                        "neuter": "badano by"
+                    },
+                    "plural": {
+                        "virile": "badano by",
+                        "nonvirile": "badano by"
+                    }
+                }
+            },
+            "imperative": {
+                "1st": {
+                    "singular": {
+                        "masculine": "niech badam",
+                        "feminine": "niech badam",
+                        "neuter": "niech badam"
+                    },
+                    "plural": {
+                        "virile": "badajmy",
+                        "nonvirile": "badajmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "badaj",
+                        "feminine": "badaj",
+                        "neuter": "badaj"
+                    },
+                    "plural": {
+                        "virile": "badajcie",
+                        "nonvirile": "badajcie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "niech bada",
+                        "feminine": "niech bada",
+                        "neuter": "niech bada"
+                    },
+                    "plural": {
+                        "virile": "niech badają",
+                        "nonvirile": "niech badają"
+                    }
+                }
+            },
+            "active adjectival participle": {
+                "singular": {
+                    "masculine": "badający",
+                    "feminine": "badająca",
+                    "neuter": "badające"
+                },
+                "plural": {
+                    "virile": "badający",
+                    "nonvirile": "badające"
+                }
+            },
+            "passive adjectival participle": {
+                "singular": {
+                    "masculine": "badany",
+                    "feminine": "badana",
+                    "neuter": "badane"
+                },
+                "plural": {
+                    "virile": "badani",
+                    "nonvirile": "badane"
+                }
+            },
+            "contemporary adverbial participle": {
+                "singular": {
+                    "masculine": "badając",
+                    "feminine": "badając",
+                    "neuter": "badając"
+                },
+                "plural": {
+                    "virile": "badając",
+                    "nonvirile": "badając"
+                }
+            },
+            "verbal noun": {
+                "singular": {
+                    "masculine": "badanie",
+                    "feminine": "badanie",
+                    "neuter": "badanie"
+                },
+                "plural": {
+                    "virile": "badanie",
+                    "nonvirile": "badanie"
+                }
+            }
+        }
     },
-    "tags": "xxxxxxxxx",
-    "translations_info": [
-      "( transitive ) to explore , to research , to study"
-    ],
-    "translations": {
-      "ENG": []
+    {
+        "lemma": "zbadać",
+        "aspect": "perfective",
+        "secondary_aspects": [],
+        "other_shapes": {
+            "imperfective": [
+                "badać"
+            ]
+        },
+        "tags": "xxxxxxxxx",
+        "translations_info": [
+            "( transitive ) to explore , to research , to study",
+            "( reflexive ) to be examined"
+        ],
+        "translations": {
+            "ENG": []
+        },
+        "derivedTerms": [
+            "( nouns ) badacz badaczka badanie"
+        ],
+        "inflections": {
+            "infinitive": {
+                "singular": {
+                    "masculine": "zbadać",
+                    "feminine": "zbadać",
+                    "neuter": "zbadać"
+                },
+                "plural": {
+                    "virile": "zbadać",
+                    "nonvirile": "zbadać"
+                }
+            },
+            "future tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "zbadam",
+                        "feminine": "zbadam",
+                        "neuter": "zbadam"
+                    },
+                    "plural": {
+                        "virile": "zbadamy",
+                        "nonvirile": "zbadamy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "zbadasz",
+                        "feminine": "zbadasz",
+                        "neuter": "zbadasz"
+                    },
+                    "plural": {
+                        "virile": "zbadacie",
+                        "nonvirile": "zbadacie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "zbada",
+                        "feminine": "zbada",
+                        "neuter": "zbada"
+                    },
+                    "plural": {
+                        "virile": "zbadają",
+                        "nonvirile": "zbadają"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "zbada się",
+                        "feminine": "zbada się",
+                        "neuter": "zbada się"
+                    },
+                    "plural": {
+                        "virile": "zbada się",
+                        "nonvirile": "zbada się"
+                    }
+                }
+            },
+            "past tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "zbadałem",
+                        "feminine": "zbadałam"
+                    },
+                    "plural": {
+                        "virile": "zbadaliśmy",
+                        "nonvirile": "zbadałyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "zbadałeś",
+                        "feminine": "zbadałaś"
+                    },
+                    "plural": {
+                        "virile": "zbadaliście",
+                        "nonvirile": "zbadałyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "zbadał",
+                        "feminine": "zbadała",
+                        "neuter": "zbadało"
+                    },
+                    "plural": {
+                        "virile": "zbadali",
+                        "nonvirile": "zbadały"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "zbadano",
+                        "feminine": "zbadano",
+                        "neuter": "zbadano"
+                    },
+                    "plural": {
+                        "virile": "zbadano",
+                        "nonvirile": "zbadano"
+                    }
+                }
+            },
+            "conditional": {
+                "1st": {
+                    "singular": {
+                        "masculine": "zbadałbym",
+                        "feminine": "zbadałabym"
+                    },
+                    "plural": {
+                        "virile": "zbadalibyśmy",
+                        "nonvirile": "zbadałybyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "zbadałbyś",
+                        "feminine": "zbadałabyś"
+                    },
+                    "plural": {
+                        "virile": "zbadalibyście",
+                        "nonvirile": "zbadałybyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "zbadałby",
+                        "feminine": "zbadałaby",
+                        "neuter": "zbadałoby"
+                    },
+                    "plural": {
+                        "virile": "zbadaliby",
+                        "nonvirile": "zbadałyby"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "zbadano by",
+                        "feminine": "zbadano by",
+                        "neuter": "zbadano by"
+                    },
+                    "plural": {
+                        "virile": "zbadano by",
+                        "nonvirile": "zbadano by"
+                    }
+                }
+            },
+            "imperative": {
+                "1st": {
+                    "singular": {
+                        "masculine": "niech zbadam",
+                        "feminine": "niech zbadam",
+                        "neuter": "niech zbadam"
+                    },
+                    "plural": {
+                        "virile": "zbadajmy",
+                        "nonvirile": "zbadajmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "zbadaj",
+                        "feminine": "zbadaj",
+                        "neuter": "zbadaj"
+                    },
+                    "plural": {
+                        "virile": "zbadajcie",
+                        "nonvirile": "zbadajcie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "niech zbada",
+                        "feminine": "niech zbada",
+                        "neuter": "niech zbada"
+                    },
+                    "plural": {
+                        "virile": "niech zbadają",
+                        "nonvirile": "niech zbadają"
+                    }
+                }
+            },
+            "passive adjectival participle": {
+                "singular": {
+                    "masculine": "zbadany",
+                    "feminine": "zbadana",
+                    "neuter": "zbadane"
+                },
+                "plural": {
+                    "virile": "zbadani",
+                    "nonvirile": "zbadane"
+                }
+            },
+            "anterior adverbial participle": {
+                "singular": {
+                    "masculine": "zbadawszy",
+                    "feminine": "zbadawszy",
+                    "neuter": "zbadawszy"
+                },
+                "plural": {
+                    "virile": "zbadawszy",
+                    "nonvirile": "zbadawszy"
+                }
+            },
+            "verbal noun": {
+                "singular": {
+                    "masculine": "zbadanie",
+                    "feminine": "zbadanie",
+                    "neuter": "zbadanie"
+                },
+                "plural": {
+                    "virile": "zbadanie",
+                    "nonvirile": "zbadanie"
+                }
+            }
+        }
     },
-    "derivedTerms": [
-      "( nouns ) badacz badaczka badanie",
-      "( verb ) bóść"
-    ],
-    "inflections": {
-      "infinitive": {
-        "singular": {
-          "masculine": "badać",
-          "feminine": "badać",
-          "neuter": "badać"
-        },
-        "plural": {
-          "virile": "badać",
-          "nonvirile": "badać"
-        }
-      },
-      "present tense": {
-        "1st": {
-          "singular": {
-            "masculine": "badam",
-            "feminine": "badam",
-            "neuter": "badam"
-          },
-          "plural": {
-            "virile": "badamy",
-            "nonvirile": "badamy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "badasz",
-            "feminine": "badasz",
-            "neuter": "badasz"
-          },
-          "plural": {
-            "virile": "badacie",
-            "nonvirile": "badacie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "bada",
-            "feminine": "bada",
-            "neuter": "bada"
-          },
-          "plural": {
-            "virile": "badają",
-            "nonvirile": "badają"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "bada się",
-            "feminine": "bada się",
-            "neuter": "bada się"
-          },
-          "plural": {
-            "virile": "bada się",
-            "nonvirile": "bada się"
-          }
-        }
-      },
-      "past tense": {
-        "1st": {
-          "singular": {
-            "masculine": "badałem",
-            "feminine": "badałam"
-          },
-          "plural": {
-            "virile": "badaliśmy",
-            "nonvirile": "badałyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "badałeś",
-            "feminine": "badałaś"
-          },
-          "plural": {
-            "virile": "badaliście",
-            "nonvirile": "badałyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "badał",
-            "feminine": "badała",
-            "neuter": "badało"
-          },
-          "plural": {
-            "virile": "badali",
-            "nonvirile": "badały"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "badano",
-            "feminine": "badano",
-            "neuter": "badano"
-          },
-          "plural": {
-            "virile": "badano",
-            "nonvirile": "badano"
-          }
-        }
-      },
-      "future tense": {
-        "1st": {
-          "singular": {
-            "masculine": [
-              "będę badał",
-              "będę badać"
+    {
+        "lemma": "widzieć",
+        "aspect": "imperfective",
+        "secondary_aspects": [],
+        "other_shapes": {
+            "perfective": [
+                "zobaczyć"
             ],
-            "feminine": [
-              "będę badała",
-              "będę badać"
+            "indeterminate": [
+                "widywać"
             ]
-          },
-          "plural": {
-            "virile": [
-              "będziemy badali",
-              "będziemy badać"
+        },
+        "tags": "xxxxxxxxx",
+        "translations_info": [
+            "( transitive ) to see (perceive with the eyes)",
+            "( reflexive ) to see oneself",
+            "( reflexive ) to see one another, to meet"
+        ],
+        "translations": {
+            "ENG": []
+        },
+        "derivedTerms": [
+            "odwidzieć pf",
+            "przewidzieć pf przewidywać impf",
+            "przywidzieć pf przywidywać impf",
+            "zwidzieć pf zwidywać impf",
+            "( verbs ) widać widywać",
+            "( nouns ) wid m widmo n widok m widownia f widz m widziadło n",
+            "( adjectives ) widoczny widomy widzialny",
+            "( adverb ) widocznie"
+        ],
+        "inflections": {
+            "infinitive": {
+                "singular": {
+                    "masculine": "widzieć",
+                    "feminine": "widzieć",
+                    "neuter": "widzieć"
+                },
+                "plural": {
+                    "virile": "widzieć",
+                    "nonvirile": "widzieć"
+                }
+            },
+            "present tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "widzę",
+                        "feminine": "widzę",
+                        "neuter": "widzę"
+                    },
+                    "plural": {
+                        "virile": "widzimy",
+                        "nonvirile": "widzimy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "widzisz",
+                        "feminine": "widzisz",
+                        "neuter": "widzisz"
+                    },
+                    "plural": {
+                        "virile": "widzicie",
+                        "nonvirile": "widzicie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "widzi",
+                        "feminine": "widzi",
+                        "neuter": "widzi"
+                    },
+                    "plural": {
+                        "virile": "widzą",
+                        "nonvirile": "widzą"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "widzi się",
+                        "feminine": "widzi się",
+                        "neuter": "widzi się"
+                    },
+                    "plural": {
+                        "virile": "widzi się",
+                        "nonvirile": "widzi się"
+                    }
+                }
+            },
+            "past tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "widziałem",
+                        "feminine": "widziałam"
+                    },
+                    "plural": {
+                        "virile": "widzieliśmy",
+                        "nonvirile": "widziałyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "widziałeś",
+                        "feminine": "widziałaś"
+                    },
+                    "plural": {
+                        "virile": "widzieliście",
+                        "nonvirile": "widziałyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "widział",
+                        "feminine": "widziała",
+                        "neuter": "widziało"
+                    },
+                    "plural": {
+                        "virile": "widzieli",
+                        "nonvirile": "widziały"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "widziano",
+                        "feminine": "widziano",
+                        "neuter": "widziano"
+                    },
+                    "plural": {
+                        "virile": "widziano",
+                        "nonvirile": "widziano"
+                    }
+                }
+            },
+            "future tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": [
+                            "będę widział",
+                            "będę widzieć"
+                        ],
+                        "feminine": [
+                            "będę widziała",
+                            "będę widzieć"
+                        ]
+                    },
+                    "plural": {
+                        "virile": [
+                            "będziemy widzieli",
+                            "będziemy widzieć"
+                        ],
+                        "nonvirile": [
+                            "będziemy widziały",
+                            "będziemy widzieć"
+                        ]
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": [
+                            "będziesz widział",
+                            "będziesz widzieć"
+                        ],
+                        "feminine": [
+                            "będziesz widziała",
+                            "będziesz widzieć"
+                        ]
+                    },
+                    "plural": {
+                        "virile": [
+                            "będziecie widzieli",
+                            "będziecie widzieć"
+                        ],
+                        "nonvirile": [
+                            "będziecie widziały",
+                            "będziecie widzieć"
+                        ]
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": [
+                            "będzie widział",
+                            "będzie widzieć"
+                        ],
+                        "feminine": [
+                            "będzie widziała",
+                            "będzie widzieć"
+                        ],
+                        "neuter": [
+                            "będzie widziało",
+                            "będzie widzieć"
+                        ]
+                    },
+                    "plural": {
+                        "virile": [
+                            "będą widzieli",
+                            "będą widzieć"
+                        ],
+                        "nonvirile": [
+                            "będą widziały",
+                            "będą widzieć"
+                        ]
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "będzie widzieć się",
+                        "feminine": "będzie widzieć się",
+                        "neuter": "będzie widzieć się"
+                    },
+                    "plural": {
+                        "virile": "będzie widzieć się",
+                        "nonvirile": "będzie widzieć się"
+                    }
+                }
+            },
+            "conditional": {
+                "1st": {
+                    "singular": {
+                        "masculine": "widziałbym",
+                        "feminine": "widziałabym"
+                    },
+                    "plural": {
+                        "virile": "widzielibyśmy",
+                        "nonvirile": "widziałybyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "widziałbyś",
+                        "feminine": "widziałabyś"
+                    },
+                    "plural": {
+                        "virile": "widzielibyście",
+                        "nonvirile": "widziałybyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "widziałby",
+                        "feminine": "widziałaby",
+                        "neuter": "widziałoby"
+                    },
+                    "plural": {
+                        "virile": "widzieliby",
+                        "nonvirile": "widziałyby"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "widziano by",
+                        "feminine": "widziano by",
+                        "neuter": "widziano by"
+                    },
+                    "plural": {
+                        "virile": "widziano by",
+                        "nonvirile": "widziano by"
+                    }
+                }
+            },
+            "imperative": {
+                "1st": {
+                    "singular": {
+                        "masculine": "niech widzę",
+                        "feminine": "niech widzę",
+                        "neuter": "niech widzę"
+                    },
+                    "plural": {
+                        "virile": "widźmy",
+                        "nonvirile": "widźmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "widź",
+                        "feminine": "widź",
+                        "neuter": "widź"
+                    },
+                    "plural": {
+                        "virile": "widźcie",
+                        "nonvirile": "widźcie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "niech widzi",
+                        "feminine": "niech widzi",
+                        "neuter": "niech widzi"
+                    },
+                    "plural": {
+                        "virile": "niech widzą",
+                        "nonvirile": "niech widzą"
+                    }
+                }
+            },
+            "active adjectival participle": {
+                "singular": {
+                    "masculine": "widzący",
+                    "feminine": "widząca",
+                    "neuter": "widzące"
+                },
+                "plural": {
+                    "virile": "widzący",
+                    "nonvirile": "widzące"
+                }
+            },
+            "passive adjectival participle": {
+                "singular": {
+                    "masculine": "widziany",
+                    "feminine": "widziana",
+                    "neuter": "widziane"
+                },
+                "plural": {
+                    "virile": "widziani",
+                    "nonvirile": "widziane"
+                }
+            },
+            "contemporary adverbial participle": {
+                "singular": {
+                    "masculine": "widząc",
+                    "feminine": "widząc",
+                    "neuter": "widząc"
+                },
+                "plural": {
+                    "virile": "widząc",
+                    "nonvirile": "widząc"
+                }
+            },
+            "verbal noun": {
+                "singular": {
+                    "masculine": "widzenie",
+                    "feminine": "widzenie",
+                    "neuter": "widzenie"
+                },
+                "plural": {
+                    "virile": "widzenie",
+                    "nonvirile": "widzenie"
+                }
+            }
+        }
+    },
+    {
+        "lemma": "zobaczyć",
+        "aspect": "perfective",
+        "secondary_aspects": [],
+        "other_shapes": {
+            "imperfective": [
+                "widzieć"
             ],
-            "nonvirile": [
-              "będziemy badały",
-              "będziemy badać"
+            "indeterminate": [
+                "widywać"
             ]
-          }
         },
-        "2nd": {
-          "singular": {
-            "masculine": [
-              "będziesz badał",
-              "będziesz badać"
-            ],
-            "feminine": [
-              "będziesz badała",
-              "będziesz badać"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będziecie badali",
-              "będziecie badać"
-            ],
-            "nonvirile": [
-              "będziecie badały",
-              "będziecie badać"
-            ]
-          }
+        "tags": "xxxxxxxxx",
+        "translations_info": [
+            "( transitive ) to see (perceive with the eyes)",
+            "( reflexive ) to see oneself",
+            "( reflexive ) to see one another, to meet"
+        ],
+        "translations": {
+            "ENG": []
         },
-        "3rd": {
-          "singular": {
-            "masculine": [
-              "będzie badał",
-              "będzie badać"
-            ],
-            "feminine": [
-              "będzie badała",
-              "będzie badać"
-            ],
-            "neuter": [
-              "będzie badało",
-              "będzie badać"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będą badali",
-              "będą badać"
-            ],
-            "nonvirile": [
-              "będą badały",
-              "będą badać"
-            ]
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "będzie badać się",
-            "feminine": "będzie badać się",
-            "neuter": "będzie badać się"
-          },
-          "plural": {
-            "virile": "będzie badać się",
-            "nonvirile": "będzie badać się"
-          }
+        "derivedTerms": [
+            "do zobaczenia"
+        ],
+        "inflections": {
+            "infinitive": {
+                "singular": {
+                    "masculine": "zobaczyć",
+                    "feminine": "zobaczyć",
+                    "neuter": "zobaczyć"
+                },
+                "plural": {
+                    "virile": "zobaczyć",
+                    "nonvirile": "zobaczyć"
+                }
+            },
+            "future tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "zobaczę",
+                        "feminine": "zobaczę",
+                        "neuter": "zobaczę"
+                    },
+                    "plural": {
+                        "virile": "zobaczymy",
+                        "nonvirile": "zobaczymy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "zobaczysz",
+                        "feminine": "zobaczysz",
+                        "neuter": "zobaczysz"
+                    },
+                    "plural": {
+                        "virile": "zobaczycie",
+                        "nonvirile": "zobaczycie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "zobaczy",
+                        "feminine": "zobaczy",
+                        "neuter": "zobaczy"
+                    },
+                    "plural": {
+                        "virile": "zobaczą",
+                        "nonvirile": "zobaczą"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "zobaczy się",
+                        "feminine": "zobaczy się",
+                        "neuter": "zobaczy się"
+                    },
+                    "plural": {
+                        "virile": "zobaczy się",
+                        "nonvirile": "zobaczy się"
+                    }
+                }
+            },
+            "past tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "zobaczyłem",
+                        "feminine": "zobaczyłam"
+                    },
+                    "plural": {
+                        "virile": "zobaczyliśmy",
+                        "nonvirile": "zobaczyłyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "zobaczyłeś",
+                        "feminine": "zobaczyłaś"
+                    },
+                    "plural": {
+                        "virile": "zobaczyliście",
+                        "nonvirile": "zobaczyłyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "zobaczył",
+                        "feminine": "zobaczyła",
+                        "neuter": "zobaczyło"
+                    },
+                    "plural": {
+                        "virile": "zobaczyli",
+                        "nonvirile": "zobaczyły"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "zobaczono",
+                        "feminine": "zobaczono",
+                        "neuter": "zobaczono"
+                    },
+                    "plural": {
+                        "virile": "zobaczono",
+                        "nonvirile": "zobaczono"
+                    }
+                }
+            },
+            "conditional": {
+                "1st": {
+                    "singular": {
+                        "masculine": "zobaczyłbym",
+                        "feminine": "zobaczyłabym"
+                    },
+                    "plural": {
+                        "virile": "zobaczylibyśmy",
+                        "nonvirile": "zobaczyłybyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "zobaczyłbyś",
+                        "feminine": "zobaczyłabyś"
+                    },
+                    "plural": {
+                        "virile": "zobaczylibyście",
+                        "nonvirile": "zobaczyłybyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "zobaczyłby",
+                        "feminine": "zobaczyłaby",
+                        "neuter": "zobaczyłoby"
+                    },
+                    "plural": {
+                        "virile": "zobaczyliby",
+                        "nonvirile": "zobaczyłyby"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "zobaczono by",
+                        "feminine": "zobaczono by",
+                        "neuter": "zobaczono by"
+                    },
+                    "plural": {
+                        "virile": "zobaczono by",
+                        "nonvirile": "zobaczono by"
+                    }
+                }
+            },
+            "imperative": {
+                "1st": {
+                    "singular": {
+                        "masculine": "niech zobaczę",
+                        "feminine": "niech zobaczę",
+                        "neuter": "niech zobaczę"
+                    },
+                    "plural": {
+                        "virile": "zobaczmy",
+                        "nonvirile": "zobaczmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "zobacz",
+                        "feminine": "zobacz",
+                        "neuter": "zobacz"
+                    },
+                    "plural": {
+                        "virile": "zobaczcie",
+                        "nonvirile": "zobaczcie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "niech zobaczy",
+                        "feminine": "niech zobaczy",
+                        "neuter": "niech zobaczy"
+                    },
+                    "plural": {
+                        "virile": "niech zobaczą",
+                        "nonvirile": "niech zobaczą"
+                    }
+                }
+            },
+            "passive adjectival participle": {
+                "singular": {
+                    "masculine": "zobaczony",
+                    "feminine": "zobaczona",
+                    "neuter": "zobaczone"
+                },
+                "plural": {
+                    "virile": "zobaczeni",
+                    "nonvirile": "zobaczone"
+                }
+            },
+            "anterior adverbial participle": {
+                "singular": {
+                    "masculine": "zobaczywszy",
+                    "feminine": "zobaczywszy",
+                    "neuter": "zobaczywszy"
+                },
+                "plural": {
+                    "virile": "zobaczywszy",
+                    "nonvirile": "zobaczywszy"
+                }
+            },
+            "verbal noun": {
+                "singular": {
+                    "masculine": "zobaczenie",
+                    "feminine": "zobaczenie",
+                    "neuter": "zobaczenie"
+                },
+                "plural": {
+                    "virile": "zobaczenie",
+                    "nonvirile": "zobaczenie"
+                }
+            }
         }
-      },
-      "conditional": {
-        "1st": {
-          "singular": {
-            "masculine": "badałbym",
-            "feminine": "badałabym"
-          },
-          "plural": {
-            "virile": "badalibyśmy",
-            "nonvirile": "badałybyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "badałbyś",
-            "feminine": "badałabyś"
-          },
-          "plural": {
-            "virile": "badalibyście",
-            "nonvirile": "badałybyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "badałby",
-            "feminine": "badałaby",
-            "neuter": "badałoby"
-          },
-          "plural": {
-            "virile": "badaliby",
-            "nonvirile": "badałyby"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "badano by",
-            "feminine": "badano by",
-            "neuter": "badano by"
-          },
-          "plural": {
-            "virile": "badano by",
-            "nonvirile": "badano by"
-          }
-        }
-      },
-      "imperative": {
-        "1st": {
-          "singular": {
-            "masculine": "niech badam",
-            "feminine": "niech badam",
-            "neuter": "niech badam"
-          },
-          "plural": {
-            "virile": "badajmy",
-            "nonvirile": "badajmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "badaj",
-            "feminine": "badaj",
-            "neuter": "badaj"
-          },
-          "plural": {
-            "virile": "badajcie",
-            "nonvirile": "badajcie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "niech bada",
-            "feminine": "niech bada",
-            "neuter": "niech bada"
-          },
-          "plural": {
-            "virile": "niech badają",
-            "nonvirile": "niech badają"
-          }
-        }
-      },
-      "active adjectival participle": {
-        "singular": {
-          "masculine": "badający",
-          "feminine": "badająca",
-          "neuter": "badające"
-        },
-        "plural": {
-          "virile": "badający",
-          "nonvirile": "badające"
-        }
-      },
-      "passive adjectival participle": {
-        "singular": {
-          "masculine": "badany",
-          "feminine": "badana",
-          "neuter": "badane"
-        },
-        "plural": {
-          "virile": "badani",
-          "nonvirile": "badane"
-        }
-      },
-      "contemporary adverbial participle": {
-        "singular": {
-          "masculine": "badając",
-          "feminine": "badając",
-          "neuter": "badając"
-        },
-        "plural": {
-          "virile": "badając",
-          "nonvirile": "badając"
-        }
-      },
-      "verbal noun": {
-        "singular": {
-          "masculine": "badanie",
-          "feminine": "badanie",
-          "neuter": "badanie"
-        },
-        "plural": {
-          "virile": "badanie",
-          "nonvirile": "badanie"
-        }
-      }
     }
-  },
-  {
-    "lemma": "badać",
-    "aspect": "imperfective",
-    "secondary_aspects": [],
-    "other_shapes": {
-      "perfective": [
-        "zbadać"
-      ]
-    },
-    "tags": "xxxxxxxxx",
-    "translations_info": [
-      "( reflexive ) to be examined"
-    ],
-    "translations": {
-      "ENG": []
-    },
-    "derivedTerms": [
-      "( nouns ) badacz badaczka badanie",
-      "( verb ) bóść"
-    ],
-    "inflections": {
-      "infinitive": {
-        "singular": {
-          "masculine": "badać",
-          "feminine": "badać",
-          "neuter": "badać"
-        },
-        "plural": {
-          "virile": "badać",
-          "nonvirile": "badać"
-        }
-      },
-      "present tense": {
-        "1st": {
-          "singular": {
-            "masculine": "badam",
-            "feminine": "badam",
-            "neuter": "badam"
-          },
-          "plural": {
-            "virile": "badamy",
-            "nonvirile": "badamy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "badasz",
-            "feminine": "badasz",
-            "neuter": "badasz"
-          },
-          "plural": {
-            "virile": "badacie",
-            "nonvirile": "badacie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "bada",
-            "feminine": "bada",
-            "neuter": "bada"
-          },
-          "plural": {
-            "virile": "badają",
-            "nonvirile": "badają"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "bada się",
-            "feminine": "bada się",
-            "neuter": "bada się"
-          },
-          "plural": {
-            "virile": "bada się",
-            "nonvirile": "bada się"
-          }
-        }
-      },
-      "past tense": {
-        "1st": {
-          "singular": {
-            "masculine": "badałem",
-            "feminine": "badałam"
-          },
-          "plural": {
-            "virile": "badaliśmy",
-            "nonvirile": "badałyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "badałeś",
-            "feminine": "badałaś"
-          },
-          "plural": {
-            "virile": "badaliście",
-            "nonvirile": "badałyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "badał",
-            "feminine": "badała",
-            "neuter": "badało"
-          },
-          "plural": {
-            "virile": "badali",
-            "nonvirile": "badały"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "badano",
-            "feminine": "badano",
-            "neuter": "badano"
-          },
-          "plural": {
-            "virile": "badano",
-            "nonvirile": "badano"
-          }
-        }
-      },
-      "future tense": {
-        "1st": {
-          "singular": {
-            "masculine": [
-              "będę badał",
-              "będę badać"
-            ],
-            "feminine": [
-              "będę badała",
-              "będę badać"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będziemy badali",
-              "będziemy badać"
-            ],
-            "nonvirile": [
-              "będziemy badały",
-              "będziemy badać"
-            ]
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": [
-              "będziesz badał",
-              "będziesz badać"
-            ],
-            "feminine": [
-              "będziesz badała",
-              "będziesz badać"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będziecie badali",
-              "będziecie badać"
-            ],
-            "nonvirile": [
-              "będziecie badały",
-              "będziecie badać"
-            ]
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": [
-              "będzie badał",
-              "będzie badać"
-            ],
-            "feminine": [
-              "będzie badała",
-              "będzie badać"
-            ],
-            "neuter": [
-              "będzie badało",
-              "będzie badać"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będą badali",
-              "będą badać"
-            ],
-            "nonvirile": [
-              "będą badały",
-              "będą badać"
-            ]
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "będzie badać się",
-            "feminine": "będzie badać się",
-            "neuter": "będzie badać się"
-          },
-          "plural": {
-            "virile": "będzie badać się",
-            "nonvirile": "będzie badać się"
-          }
-        }
-      },
-      "conditional": {
-        "1st": {
-          "singular": {
-            "masculine": "badałbym",
-            "feminine": "badałabym"
-          },
-          "plural": {
-            "virile": "badalibyśmy",
-            "nonvirile": "badałybyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "badałbyś",
-            "feminine": "badałabyś"
-          },
-          "plural": {
-            "virile": "badalibyście",
-            "nonvirile": "badałybyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "badałby",
-            "feminine": "badałaby",
-            "neuter": "badałoby"
-          },
-          "plural": {
-            "virile": "badaliby",
-            "nonvirile": "badałyby"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "badano by",
-            "feminine": "badano by",
-            "neuter": "badano by"
-          },
-          "plural": {
-            "virile": "badano by",
-            "nonvirile": "badano by"
-          }
-        }
-      },
-      "imperative": {
-        "1st": {
-          "singular": {
-            "masculine": "niech badam",
-            "feminine": "niech badam",
-            "neuter": "niech badam"
-          },
-          "plural": {
-            "virile": "badajmy",
-            "nonvirile": "badajmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "badaj",
-            "feminine": "badaj",
-            "neuter": "badaj"
-          },
-          "plural": {
-            "virile": "badajcie",
-            "nonvirile": "badajcie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "niech bada",
-            "feminine": "niech bada",
-            "neuter": "niech bada"
-          },
-          "plural": {
-            "virile": "niech badają",
-            "nonvirile": "niech badają"
-          }
-        }
-      },
-      "active adjectival participle": {
-        "singular": {
-          "masculine": "badający",
-          "feminine": "badająca",
-          "neuter": "badające"
-        },
-        "plural": {
-          "virile": "badający",
-          "nonvirile": "badające"
-        }
-      },
-      "passive adjectival participle": {
-        "singular": {
-          "masculine": "badany",
-          "feminine": "badana",
-          "neuter": "badane"
-        },
-        "plural": {
-          "virile": "badani",
-          "nonvirile": "badane"
-        }
-      },
-      "contemporary adverbial participle": {
-        "singular": {
-          "masculine": "badając",
-          "feminine": "badając",
-          "neuter": "badając"
-        },
-        "plural": {
-          "virile": "badając",
-          "nonvirile": "badając"
-        }
-      },
-      "verbal noun": {
-        "singular": {
-          "masculine": "badanie",
-          "feminine": "badanie",
-          "neuter": "badanie"
-        },
-        "plural": {
-          "virile": "badanie",
-          "nonvirile": "badanie"
-        }
-      }
-    },
-    "reflexive": true
-  },
-  {
-    "lemma": "zbadać",
-    "aspect": "perfective",
-    "secondary_aspects": [],
-    "other_shapes": {
-      "imperfective": [
-        "badać"
-      ]
-    },
-    "tags": "xxxxxxxxx",
-    "translations_info": [
-      "( transitive ) to explore , to research , to study"
-    ],
-    "translations": {
-      "ENG": []
-    },
-    "derivedTerms": [
-      "( nouns ) badacz badaczka badanie"
-    ],
-    "inflections": {
-      "infinitive": {
-        "singular": {
-          "masculine": "zbadać",
-          "feminine": "zbadać",
-          "neuter": "zbadać"
-        },
-        "plural": {
-          "virile": "zbadać",
-          "nonvirile": "zbadać"
-        }
-      },
-      "future tense": {
-        "1st": {
-          "singular": {
-            "masculine": "zbadam",
-            "feminine": "zbadam",
-            "neuter": "zbadam"
-          },
-          "plural": {
-            "virile": "zbadamy",
-            "nonvirile": "zbadamy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zbadasz",
-            "feminine": "zbadasz",
-            "neuter": "zbadasz"
-          },
-          "plural": {
-            "virile": "zbadacie",
-            "nonvirile": "zbadacie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zbada",
-            "feminine": "zbada",
-            "neuter": "zbada"
-          },
-          "plural": {
-            "virile": "zbadają",
-            "nonvirile": "zbadają"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zbada się",
-            "feminine": "zbada się",
-            "neuter": "zbada się"
-          },
-          "plural": {
-            "virile": "zbada się",
-            "nonvirile": "zbada się"
-          }
-        }
-      },
-      "past tense": {
-        "1st": {
-          "singular": {
-            "masculine": "zbadałem",
-            "feminine": "zbadałam"
-          },
-          "plural": {
-            "virile": "zbadaliśmy",
-            "nonvirile": "zbadałyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zbadałeś",
-            "feminine": "zbadałaś"
-          },
-          "plural": {
-            "virile": "zbadaliście",
-            "nonvirile": "zbadałyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zbadał",
-            "feminine": "zbadała",
-            "neuter": "zbadało"
-          },
-          "plural": {
-            "virile": "zbadali",
-            "nonvirile": "zbadały"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zbadano",
-            "feminine": "zbadano",
-            "neuter": "zbadano"
-          },
-          "plural": {
-            "virile": "zbadano",
-            "nonvirile": "zbadano"
-          }
-        }
-      },
-      "conditional": {
-        "1st": {
-          "singular": {
-            "masculine": "zbadałbym",
-            "feminine": "zbadałabym"
-          },
-          "plural": {
-            "virile": "zbadalibyśmy",
-            "nonvirile": "zbadałybyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zbadałbyś",
-            "feminine": "zbadałabyś"
-          },
-          "plural": {
-            "virile": "zbadalibyście",
-            "nonvirile": "zbadałybyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zbadałby",
-            "feminine": "zbadałaby",
-            "neuter": "zbadałoby"
-          },
-          "plural": {
-            "virile": "zbadaliby",
-            "nonvirile": "zbadałyby"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zbadano by",
-            "feminine": "zbadano by",
-            "neuter": "zbadano by"
-          },
-          "plural": {
-            "virile": "zbadano by",
-            "nonvirile": "zbadano by"
-          }
-        }
-      },
-      "imperative": {
-        "1st": {
-          "singular": {
-            "masculine": "niech zbadam",
-            "feminine": "niech zbadam",
-            "neuter": "niech zbadam"
-          },
-          "plural": {
-            "virile": "zbadajmy",
-            "nonvirile": "zbadajmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zbadaj",
-            "feminine": "zbadaj",
-            "neuter": "zbadaj"
-          },
-          "plural": {
-            "virile": "zbadajcie",
-            "nonvirile": "zbadajcie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "niech zbada",
-            "feminine": "niech zbada",
-            "neuter": "niech zbada"
-          },
-          "plural": {
-            "virile": "niech zbadają",
-            "nonvirile": "niech zbadają"
-          }
-        }
-      },
-      "passive adjectival participle": {
-        "singular": {
-          "masculine": "zbadany",
-          "feminine": "zbadana",
-          "neuter": "zbadane"
-        },
-        "plural": {
-          "virile": "zbadani",
-          "nonvirile": "zbadane"
-        }
-      },
-      "anterior adverbial participle": {
-        "singular": {
-          "masculine": "zbadawszy",
-          "feminine": "zbadawszy",
-          "neuter": "zbadawszy"
-        },
-        "plural": {
-          "virile": "zbadawszy",
-          "nonvirile": "zbadawszy"
-        }
-      },
-      "verbal noun": {
-        "singular": {
-          "masculine": "zbadanie",
-          "feminine": "zbadanie",
-          "neuter": "zbadanie"
-        },
-        "plural": {
-          "virile": "zbadanie",
-          "nonvirile": "zbadanie"
-        }
-      }
-    }
-  },
-  {
-    "lemma": "zbadać",
-    "aspect": "perfective",
-    "secondary_aspects": [],
-    "other_shapes": {
-      "imperfective": [
-        "badać"
-      ]
-    },
-    "tags": "xxxxxxxxx",
-    "translations_info": [
-      "( reflexive ) to be examined"
-    ],
-    "translations": {
-      "ENG": []
-    },
-    "derivedTerms": [
-      "( nouns ) badacz badaczka badanie"
-    ],
-    "inflections": {
-      "infinitive": {
-        "singular": {
-          "masculine": "zbadać",
-          "feminine": "zbadać",
-          "neuter": "zbadać"
-        },
-        "plural": {
-          "virile": "zbadać",
-          "nonvirile": "zbadać"
-        }
-      },
-      "future tense": {
-        "1st": {
-          "singular": {
-            "masculine": "zbadam",
-            "feminine": "zbadam",
-            "neuter": "zbadam"
-          },
-          "plural": {
-            "virile": "zbadamy",
-            "nonvirile": "zbadamy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zbadasz",
-            "feminine": "zbadasz",
-            "neuter": "zbadasz"
-          },
-          "plural": {
-            "virile": "zbadacie",
-            "nonvirile": "zbadacie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zbada",
-            "feminine": "zbada",
-            "neuter": "zbada"
-          },
-          "plural": {
-            "virile": "zbadają",
-            "nonvirile": "zbadają"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zbada się",
-            "feminine": "zbada się",
-            "neuter": "zbada się"
-          },
-          "plural": {
-            "virile": "zbada się",
-            "nonvirile": "zbada się"
-          }
-        }
-      },
-      "past tense": {
-        "1st": {
-          "singular": {
-            "masculine": "zbadałem",
-            "feminine": "zbadałam"
-          },
-          "plural": {
-            "virile": "zbadaliśmy",
-            "nonvirile": "zbadałyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zbadałeś",
-            "feminine": "zbadałaś"
-          },
-          "plural": {
-            "virile": "zbadaliście",
-            "nonvirile": "zbadałyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zbadał",
-            "feminine": "zbadała",
-            "neuter": "zbadało"
-          },
-          "plural": {
-            "virile": "zbadali",
-            "nonvirile": "zbadały"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zbadano",
-            "feminine": "zbadano",
-            "neuter": "zbadano"
-          },
-          "plural": {
-            "virile": "zbadano",
-            "nonvirile": "zbadano"
-          }
-        }
-      },
-      "conditional": {
-        "1st": {
-          "singular": {
-            "masculine": "zbadałbym",
-            "feminine": "zbadałabym"
-          },
-          "plural": {
-            "virile": "zbadalibyśmy",
-            "nonvirile": "zbadałybyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zbadałbyś",
-            "feminine": "zbadałabyś"
-          },
-          "plural": {
-            "virile": "zbadalibyście",
-            "nonvirile": "zbadałybyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zbadałby",
-            "feminine": "zbadałaby",
-            "neuter": "zbadałoby"
-          },
-          "plural": {
-            "virile": "zbadaliby",
-            "nonvirile": "zbadałyby"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zbadano by",
-            "feminine": "zbadano by",
-            "neuter": "zbadano by"
-          },
-          "plural": {
-            "virile": "zbadano by",
-            "nonvirile": "zbadano by"
-          }
-        }
-      },
-      "imperative": {
-        "1st": {
-          "singular": {
-            "masculine": "niech zbadam",
-            "feminine": "niech zbadam",
-            "neuter": "niech zbadam"
-          },
-          "plural": {
-            "virile": "zbadajmy",
-            "nonvirile": "zbadajmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zbadaj",
-            "feminine": "zbadaj",
-            "neuter": "zbadaj"
-          },
-          "plural": {
-            "virile": "zbadajcie",
-            "nonvirile": "zbadajcie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "niech zbada",
-            "feminine": "niech zbada",
-            "neuter": "niech zbada"
-          },
-          "plural": {
-            "virile": "niech zbadają",
-            "nonvirile": "niech zbadają"
-          }
-        }
-      },
-      "passive adjectival participle": {
-        "singular": {
-          "masculine": "zbadany",
-          "feminine": "zbadana",
-          "neuter": "zbadane"
-        },
-        "plural": {
-          "virile": "zbadani",
-          "nonvirile": "zbadane"
-        }
-      },
-      "anterior adverbial participle": {
-        "singular": {
-          "masculine": "zbadawszy",
-          "feminine": "zbadawszy",
-          "neuter": "zbadawszy"
-        },
-        "plural": {
-          "virile": "zbadawszy",
-          "nonvirile": "zbadawszy"
-        }
-      },
-      "verbal noun": {
-        "singular": {
-          "masculine": "zbadanie",
-          "feminine": "zbadanie",
-          "neuter": "zbadanie"
-        },
-        "plural": {
-          "virile": "zbadanie",
-          "nonvirile": "zbadanie"
-        }
-      }
-    },
-    "reflexive": true
-  },
-  {
-    "lemma": "widzieć",
-    "aspect": "imperfective",
-    "secondary_aspects": [],
-    "other_shapes": {
-      "perfective": [
-        "zobaczyć"
-      ],
-      "indeterminate": [
-        "widywać"
-      ]
-    },
-    "tags": "xxxxxxxxx",
-    "translations_info": [
-      "( transitive ) to see (perceive with the eyes)"
-    ],
-    "translations": {
-      "ENG": []
-    },
-    "derivedTerms": [
-      "odwidzieć pf",
-      "przewidzieć pf przewidywać impf",
-      "przywidzieć pf przywidywać impf",
-      "zwidzieć pf zwidywać impf",
-      "( verbs ) widać widywać",
-      "( nouns ) wid m widmo n widok m widownia f widz m widziadło n",
-      "( adjectives ) widoczny widomy widzialny",
-      "( adverb ) widocznie"
-    ],
-    "inflections": {
-      "infinitive": {
-        "singular": {
-          "masculine": "widzieć",
-          "feminine": "widzieć",
-          "neuter": "widzieć"
-        },
-        "plural": {
-          "virile": "widzieć",
-          "nonvirile": "widzieć"
-        }
-      },
-      "present tense": {
-        "1st": {
-          "singular": {
-            "masculine": "widzę",
-            "feminine": "widzę",
-            "neuter": "widzę"
-          },
-          "plural": {
-            "virile": "widzimy",
-            "nonvirile": "widzimy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "widzisz",
-            "feminine": "widzisz",
-            "neuter": "widzisz"
-          },
-          "plural": {
-            "virile": "widzicie",
-            "nonvirile": "widzicie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "widzi",
-            "feminine": "widzi",
-            "neuter": "widzi"
-          },
-          "plural": {
-            "virile": "widzą",
-            "nonvirile": "widzą"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "widzi się",
-            "feminine": "widzi się",
-            "neuter": "widzi się"
-          },
-          "plural": {
-            "virile": "widzi się",
-            "nonvirile": "widzi się"
-          }
-        }
-      },
-      "past tense": {
-        "1st": {
-          "singular": {
-            "masculine": "widziałem",
-            "feminine": "widziałam"
-          },
-          "plural": {
-            "virile": "widzieliśmy",
-            "nonvirile": "widziałyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "widziałeś",
-            "feminine": "widziałaś"
-          },
-          "plural": {
-            "virile": "widzieliście",
-            "nonvirile": "widziałyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "widział",
-            "feminine": "widziała",
-            "neuter": "widziało"
-          },
-          "plural": {
-            "virile": "widzieli",
-            "nonvirile": "widziały"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "widziano",
-            "feminine": "widziano",
-            "neuter": "widziano"
-          },
-          "plural": {
-            "virile": "widziano",
-            "nonvirile": "widziano"
-          }
-        }
-      },
-      "future tense": {
-        "1st": {
-          "singular": {
-            "masculine": [
-              "będę widział",
-              "będę widzieć"
-            ],
-            "feminine": [
-              "będę widziała",
-              "będę widzieć"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będziemy widzieli",
-              "będziemy widzieć"
-            ],
-            "nonvirile": [
-              "będziemy widziały",
-              "będziemy widzieć"
-            ]
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": [
-              "będziesz widział",
-              "będziesz widzieć"
-            ],
-            "feminine": [
-              "będziesz widziała",
-              "będziesz widzieć"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będziecie widzieli",
-              "będziecie widzieć"
-            ],
-            "nonvirile": [
-              "będziecie widziały",
-              "będziecie widzieć"
-            ]
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": [
-              "będzie widział",
-              "będzie widzieć"
-            ],
-            "feminine": [
-              "będzie widziała",
-              "będzie widzieć"
-            ],
-            "neuter": [
-              "będzie widziało",
-              "będzie widzieć"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będą widzieli",
-              "będą widzieć"
-            ],
-            "nonvirile": [
-              "będą widziały",
-              "będą widzieć"
-            ]
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "będzie widzieć się",
-            "feminine": "będzie widzieć się",
-            "neuter": "będzie widzieć się"
-          },
-          "plural": {
-            "virile": "będzie widzieć się",
-            "nonvirile": "będzie widzieć się"
-          }
-        }
-      },
-      "conditional": {
-        "1st": {
-          "singular": {
-            "masculine": "widziałbym",
-            "feminine": "widziałabym"
-          },
-          "plural": {
-            "virile": "widzielibyśmy",
-            "nonvirile": "widziałybyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "widziałbyś",
-            "feminine": "widziałabyś"
-          },
-          "plural": {
-            "virile": "widzielibyście",
-            "nonvirile": "widziałybyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "widziałby",
-            "feminine": "widziałaby",
-            "neuter": "widziałoby"
-          },
-          "plural": {
-            "virile": "widzieliby",
-            "nonvirile": "widziałyby"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "widziano by",
-            "feminine": "widziano by",
-            "neuter": "widziano by"
-          },
-          "plural": {
-            "virile": "widziano by",
-            "nonvirile": "widziano by"
-          }
-        }
-      },
-      "imperative": {
-        "1st": {
-          "singular": {
-            "masculine": "niech widzę",
-            "feminine": "niech widzę",
-            "neuter": "niech widzę"
-          },
-          "plural": {
-            "virile": "widźmy",
-            "nonvirile": "widźmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "widź",
-            "feminine": "widź",
-            "neuter": "widź"
-          },
-          "plural": {
-            "virile": "widźcie",
-            "nonvirile": "widźcie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "niech widzi",
-            "feminine": "niech widzi",
-            "neuter": "niech widzi"
-          },
-          "plural": {
-            "virile": "niech widzą",
-            "nonvirile": "niech widzą"
-          }
-        }
-      },
-      "active adjectival participle": {
-        "singular": {
-          "masculine": "widzący",
-          "feminine": "widząca",
-          "neuter": "widzące"
-        },
-        "plural": {
-          "virile": "widzący",
-          "nonvirile": "widzące"
-        }
-      },
-      "passive adjectival participle": {
-        "singular": {
-          "masculine": "widziany",
-          "feminine": "widziana",
-          "neuter": "widziane"
-        },
-        "plural": {
-          "virile": "widziani",
-          "nonvirile": "widziane"
-        }
-      },
-      "contemporary adverbial participle": {
-        "singular": {
-          "masculine": "widząc",
-          "feminine": "widząc",
-          "neuter": "widząc"
-        },
-        "plural": {
-          "virile": "widząc",
-          "nonvirile": "widząc"
-        }
-      },
-      "verbal noun": {
-        "singular": {
-          "masculine": "widzenie",
-          "feminine": "widzenie",
-          "neuter": "widzenie"
-        },
-        "plural": {
-          "virile": "widzenie",
-          "nonvirile": "widzenie"
-        }
-      }
-    }
-  },
-  {
-    "lemma": "widzieć",
-    "aspect": "imperfective",
-    "secondary_aspects": [],
-    "other_shapes": {
-      "perfective": [
-        "zobaczyć"
-      ],
-      "indeterminate": [
-        "widywać"
-      ]
-    },
-    "tags": "xxxxxxxxx",
-    "translations_info": [
-      "( reflexive ) to see oneself"
-    ],
-    "translations": {
-      "ENG": []
-    },
-    "derivedTerms": [
-      "odwidzieć pf",
-      "przewidzieć pf przewidywać impf",
-      "przywidzieć pf przywidywać impf",
-      "zwidzieć pf zwidywać impf",
-      "( verbs ) widać widywać",
-      "( nouns ) wid m widmo n widok m widownia f widz m widziadło n",
-      "( adjectives ) widoczny widomy widzialny",
-      "( adverb ) widocznie"
-    ],
-    "inflections": {
-      "infinitive": {
-        "singular": {
-          "masculine": "widzieć",
-          "feminine": "widzieć",
-          "neuter": "widzieć"
-        },
-        "plural": {
-          "virile": "widzieć",
-          "nonvirile": "widzieć"
-        }
-      },
-      "present tense": {
-        "1st": {
-          "singular": {
-            "masculine": "widzę",
-            "feminine": "widzę",
-            "neuter": "widzę"
-          },
-          "plural": {
-            "virile": "widzimy",
-            "nonvirile": "widzimy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "widzisz",
-            "feminine": "widzisz",
-            "neuter": "widzisz"
-          },
-          "plural": {
-            "virile": "widzicie",
-            "nonvirile": "widzicie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "widzi",
-            "feminine": "widzi",
-            "neuter": "widzi"
-          },
-          "plural": {
-            "virile": "widzą",
-            "nonvirile": "widzą"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "widzi się",
-            "feminine": "widzi się",
-            "neuter": "widzi się"
-          },
-          "plural": {
-            "virile": "widzi się",
-            "nonvirile": "widzi się"
-          }
-        }
-      },
-      "past tense": {
-        "1st": {
-          "singular": {
-            "masculine": "widziałem",
-            "feminine": "widziałam"
-          },
-          "plural": {
-            "virile": "widzieliśmy",
-            "nonvirile": "widziałyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "widziałeś",
-            "feminine": "widziałaś"
-          },
-          "plural": {
-            "virile": "widzieliście",
-            "nonvirile": "widziałyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "widział",
-            "feminine": "widziała",
-            "neuter": "widziało"
-          },
-          "plural": {
-            "virile": "widzieli",
-            "nonvirile": "widziały"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "widziano",
-            "feminine": "widziano",
-            "neuter": "widziano"
-          },
-          "plural": {
-            "virile": "widziano",
-            "nonvirile": "widziano"
-          }
-        }
-      },
-      "future tense": {
-        "1st": {
-          "singular": {
-            "masculine": [
-              "będę widział",
-              "będę widzieć"
-            ],
-            "feminine": [
-              "będę widziała",
-              "będę widzieć"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będziemy widzieli",
-              "będziemy widzieć"
-            ],
-            "nonvirile": [
-              "będziemy widziały",
-              "będziemy widzieć"
-            ]
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": [
-              "będziesz widział",
-              "będziesz widzieć"
-            ],
-            "feminine": [
-              "będziesz widziała",
-              "będziesz widzieć"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będziecie widzieli",
-              "będziecie widzieć"
-            ],
-            "nonvirile": [
-              "będziecie widziały",
-              "będziecie widzieć"
-            ]
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": [
-              "będzie widział",
-              "będzie widzieć"
-            ],
-            "feminine": [
-              "będzie widziała",
-              "będzie widzieć"
-            ],
-            "neuter": [
-              "będzie widziało",
-              "będzie widzieć"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będą widzieli",
-              "będą widzieć"
-            ],
-            "nonvirile": [
-              "będą widziały",
-              "będą widzieć"
-            ]
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "będzie widzieć się",
-            "feminine": "będzie widzieć się",
-            "neuter": "będzie widzieć się"
-          },
-          "plural": {
-            "virile": "będzie widzieć się",
-            "nonvirile": "będzie widzieć się"
-          }
-        }
-      },
-      "conditional": {
-        "1st": {
-          "singular": {
-            "masculine": "widziałbym",
-            "feminine": "widziałabym"
-          },
-          "plural": {
-            "virile": "widzielibyśmy",
-            "nonvirile": "widziałybyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "widziałbyś",
-            "feminine": "widziałabyś"
-          },
-          "plural": {
-            "virile": "widzielibyście",
-            "nonvirile": "widziałybyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "widziałby",
-            "feminine": "widziałaby",
-            "neuter": "widziałoby"
-          },
-          "plural": {
-            "virile": "widzieliby",
-            "nonvirile": "widziałyby"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "widziano by",
-            "feminine": "widziano by",
-            "neuter": "widziano by"
-          },
-          "plural": {
-            "virile": "widziano by",
-            "nonvirile": "widziano by"
-          }
-        }
-      },
-      "imperative": {
-        "1st": {
-          "singular": {
-            "masculine": "niech widzę",
-            "feminine": "niech widzę",
-            "neuter": "niech widzę"
-          },
-          "plural": {
-            "virile": "widźmy",
-            "nonvirile": "widźmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "widź",
-            "feminine": "widź",
-            "neuter": "widź"
-          },
-          "plural": {
-            "virile": "widźcie",
-            "nonvirile": "widźcie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "niech widzi",
-            "feminine": "niech widzi",
-            "neuter": "niech widzi"
-          },
-          "plural": {
-            "virile": "niech widzą",
-            "nonvirile": "niech widzą"
-          }
-        }
-      },
-      "active adjectival participle": {
-        "singular": {
-          "masculine": "widzący",
-          "feminine": "widząca",
-          "neuter": "widzące"
-        },
-        "plural": {
-          "virile": "widzący",
-          "nonvirile": "widzące"
-        }
-      },
-      "passive adjectival participle": {
-        "singular": {
-          "masculine": "widziany",
-          "feminine": "widziana",
-          "neuter": "widziane"
-        },
-        "plural": {
-          "virile": "widziani",
-          "nonvirile": "widziane"
-        }
-      },
-      "contemporary adverbial participle": {
-        "singular": {
-          "masculine": "widząc",
-          "feminine": "widząc",
-          "neuter": "widząc"
-        },
-        "plural": {
-          "virile": "widząc",
-          "nonvirile": "widząc"
-        }
-      },
-      "verbal noun": {
-        "singular": {
-          "masculine": "widzenie",
-          "feminine": "widzenie",
-          "neuter": "widzenie"
-        },
-        "plural": {
-          "virile": "widzenie",
-          "nonvirile": "widzenie"
-        }
-      }
-    },
-    "reflexive": true
-  },
-  {
-    "lemma": "widzieć",
-    "aspect": "imperfective",
-    "secondary_aspects": [],
-    "other_shapes": {
-      "perfective": [
-        "zobaczyć"
-      ],
-      "indeterminate": [
-        "widywać"
-      ]
-    },
-    "tags": "xxxxxxxxx",
-    "translations_info": [
-      "( reflexive ) to see one another, to meet"
-    ],
-    "translations": {
-      "ENG": []
-    },
-    "derivedTerms": [
-      "odwidzieć pf",
-      "przewidzieć pf przewidywać impf",
-      "przywidzieć pf przywidywać impf",
-      "zwidzieć pf zwidywać impf",
-      "( verbs ) widać widywać",
-      "( nouns ) wid m widmo n widok m widownia f widz m widziadło n",
-      "( adjectives ) widoczny widomy widzialny",
-      "( adverb ) widocznie"
-    ],
-    "inflections": {
-      "infinitive": {
-        "singular": {
-          "masculine": "widzieć",
-          "feminine": "widzieć",
-          "neuter": "widzieć"
-        },
-        "plural": {
-          "virile": "widzieć",
-          "nonvirile": "widzieć"
-        }
-      },
-      "present tense": {
-        "1st": {
-          "singular": {
-            "masculine": "widzę",
-            "feminine": "widzę",
-            "neuter": "widzę"
-          },
-          "plural": {
-            "virile": "widzimy",
-            "nonvirile": "widzimy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "widzisz",
-            "feminine": "widzisz",
-            "neuter": "widzisz"
-          },
-          "plural": {
-            "virile": "widzicie",
-            "nonvirile": "widzicie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "widzi",
-            "feminine": "widzi",
-            "neuter": "widzi"
-          },
-          "plural": {
-            "virile": "widzą",
-            "nonvirile": "widzą"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "widzi się",
-            "feminine": "widzi się",
-            "neuter": "widzi się"
-          },
-          "plural": {
-            "virile": "widzi się",
-            "nonvirile": "widzi się"
-          }
-        }
-      },
-      "past tense": {
-        "1st": {
-          "singular": {
-            "masculine": "widziałem",
-            "feminine": "widziałam"
-          },
-          "plural": {
-            "virile": "widzieliśmy",
-            "nonvirile": "widziałyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "widziałeś",
-            "feminine": "widziałaś"
-          },
-          "plural": {
-            "virile": "widzieliście",
-            "nonvirile": "widziałyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "widział",
-            "feminine": "widziała",
-            "neuter": "widziało"
-          },
-          "plural": {
-            "virile": "widzieli",
-            "nonvirile": "widziały"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "widziano",
-            "feminine": "widziano",
-            "neuter": "widziano"
-          },
-          "plural": {
-            "virile": "widziano",
-            "nonvirile": "widziano"
-          }
-        }
-      },
-      "future tense": {
-        "1st": {
-          "singular": {
-            "masculine": [
-              "będę widział",
-              "będę widzieć"
-            ],
-            "feminine": [
-              "będę widziała",
-              "będę widzieć"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będziemy widzieli",
-              "będziemy widzieć"
-            ],
-            "nonvirile": [
-              "będziemy widziały",
-              "będziemy widzieć"
-            ]
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": [
-              "będziesz widział",
-              "będziesz widzieć"
-            ],
-            "feminine": [
-              "będziesz widziała",
-              "będziesz widzieć"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będziecie widzieli",
-              "będziecie widzieć"
-            ],
-            "nonvirile": [
-              "będziecie widziały",
-              "będziecie widzieć"
-            ]
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": [
-              "będzie widział",
-              "będzie widzieć"
-            ],
-            "feminine": [
-              "będzie widziała",
-              "będzie widzieć"
-            ],
-            "neuter": [
-              "będzie widziało",
-              "będzie widzieć"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będą widzieli",
-              "będą widzieć"
-            ],
-            "nonvirile": [
-              "będą widziały",
-              "będą widzieć"
-            ]
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "będzie widzieć się",
-            "feminine": "będzie widzieć się",
-            "neuter": "będzie widzieć się"
-          },
-          "plural": {
-            "virile": "będzie widzieć się",
-            "nonvirile": "będzie widzieć się"
-          }
-        }
-      },
-      "conditional": {
-        "1st": {
-          "singular": {
-            "masculine": "widziałbym",
-            "feminine": "widziałabym"
-          },
-          "plural": {
-            "virile": "widzielibyśmy",
-            "nonvirile": "widziałybyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "widziałbyś",
-            "feminine": "widziałabyś"
-          },
-          "plural": {
-            "virile": "widzielibyście",
-            "nonvirile": "widziałybyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "widziałby",
-            "feminine": "widziałaby",
-            "neuter": "widziałoby"
-          },
-          "plural": {
-            "virile": "widzieliby",
-            "nonvirile": "widziałyby"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "widziano by",
-            "feminine": "widziano by",
-            "neuter": "widziano by"
-          },
-          "plural": {
-            "virile": "widziano by",
-            "nonvirile": "widziano by"
-          }
-        }
-      },
-      "imperative": {
-        "1st": {
-          "singular": {
-            "masculine": "niech widzę",
-            "feminine": "niech widzę",
-            "neuter": "niech widzę"
-          },
-          "plural": {
-            "virile": "widźmy",
-            "nonvirile": "widźmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "widź",
-            "feminine": "widź",
-            "neuter": "widź"
-          },
-          "plural": {
-            "virile": "widźcie",
-            "nonvirile": "widźcie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "niech widzi",
-            "feminine": "niech widzi",
-            "neuter": "niech widzi"
-          },
-          "plural": {
-            "virile": "niech widzą",
-            "nonvirile": "niech widzą"
-          }
-        }
-      },
-      "active adjectival participle": {
-        "singular": {
-          "masculine": "widzący",
-          "feminine": "widząca",
-          "neuter": "widzące"
-        },
-        "plural": {
-          "virile": "widzący",
-          "nonvirile": "widzące"
-        }
-      },
-      "passive adjectival participle": {
-        "singular": {
-          "masculine": "widziany",
-          "feminine": "widziana",
-          "neuter": "widziane"
-        },
-        "plural": {
-          "virile": "widziani",
-          "nonvirile": "widziane"
-        }
-      },
-      "contemporary adverbial participle": {
-        "singular": {
-          "masculine": "widząc",
-          "feminine": "widząc",
-          "neuter": "widząc"
-        },
-        "plural": {
-          "virile": "widząc",
-          "nonvirile": "widząc"
-        }
-      },
-      "verbal noun": {
-        "singular": {
-          "masculine": "widzenie",
-          "feminine": "widzenie",
-          "neuter": "widzenie"
-        },
-        "plural": {
-          "virile": "widzenie",
-          "nonvirile": "widzenie"
-        }
-      }
-    },
-    "reflexive": true
-  },
-  {
-    "lemma": "zobaczyć",
-    "aspect": "perfective",
-    "secondary_aspects": [],
-    "other_shapes": {
-      "imperfective": [
-        "widzieć"
-      ],
-      "indeterminate": [
-        "widywać"
-      ]
-    },
-    "tags": "xxxxxxxxx",
-    "translations_info": [
-      "( transitive ) to see (perceive with the eyes)"
-    ],
-    "translations": {
-      "ENG": []
-    },
-    "derivedTerms": [
-      "do zobaczenia"
-    ],
-    "inflections": {
-      "infinitive": {
-        "singular": {
-          "masculine": "zobaczyć",
-          "feminine": "zobaczyć",
-          "neuter": "zobaczyć"
-        },
-        "plural": {
-          "virile": "zobaczyć",
-          "nonvirile": "zobaczyć"
-        }
-      },
-      "future tense": {
-        "1st": {
-          "singular": {
-            "masculine": "zobaczę",
-            "feminine": "zobaczę",
-            "neuter": "zobaczę"
-          },
-          "plural": {
-            "virile": "zobaczymy",
-            "nonvirile": "zobaczymy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zobaczysz",
-            "feminine": "zobaczysz",
-            "neuter": "zobaczysz"
-          },
-          "plural": {
-            "virile": "zobaczycie",
-            "nonvirile": "zobaczycie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zobaczy",
-            "feminine": "zobaczy",
-            "neuter": "zobaczy"
-          },
-          "plural": {
-            "virile": "zobaczą",
-            "nonvirile": "zobaczą"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zobaczy się",
-            "feminine": "zobaczy się",
-            "neuter": "zobaczy się"
-          },
-          "plural": {
-            "virile": "zobaczy się",
-            "nonvirile": "zobaczy się"
-          }
-        }
-      },
-      "past tense": {
-        "1st": {
-          "singular": {
-            "masculine": "zobaczyłem",
-            "feminine": "zobaczyłam"
-          },
-          "plural": {
-            "virile": "zobaczyliśmy",
-            "nonvirile": "zobaczyłyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zobaczyłeś",
-            "feminine": "zobaczyłaś"
-          },
-          "plural": {
-            "virile": "zobaczyliście",
-            "nonvirile": "zobaczyłyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zobaczył",
-            "feminine": "zobaczyła",
-            "neuter": "zobaczyło"
-          },
-          "plural": {
-            "virile": "zobaczyli",
-            "nonvirile": "zobaczyły"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zobaczono",
-            "feminine": "zobaczono",
-            "neuter": "zobaczono"
-          },
-          "plural": {
-            "virile": "zobaczono",
-            "nonvirile": "zobaczono"
-          }
-        }
-      },
-      "conditional": {
-        "1st": {
-          "singular": {
-            "masculine": "zobaczyłbym",
-            "feminine": "zobaczyłabym"
-          },
-          "plural": {
-            "virile": "zobaczylibyśmy",
-            "nonvirile": "zobaczyłybyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zobaczyłbyś",
-            "feminine": "zobaczyłabyś"
-          },
-          "plural": {
-            "virile": "zobaczylibyście",
-            "nonvirile": "zobaczyłybyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zobaczyłby",
-            "feminine": "zobaczyłaby",
-            "neuter": "zobaczyłoby"
-          },
-          "plural": {
-            "virile": "zobaczyliby",
-            "nonvirile": "zobaczyłyby"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zobaczono by",
-            "feminine": "zobaczono by",
-            "neuter": "zobaczono by"
-          },
-          "plural": {
-            "virile": "zobaczono by",
-            "nonvirile": "zobaczono by"
-          }
-        }
-      },
-      "imperative": {
-        "1st": {
-          "singular": {
-            "masculine": "niech zobaczę",
-            "feminine": "niech zobaczę",
-            "neuter": "niech zobaczę"
-          },
-          "plural": {
-            "virile": "zobaczmy",
-            "nonvirile": "zobaczmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zobacz",
-            "feminine": "zobacz",
-            "neuter": "zobacz"
-          },
-          "plural": {
-            "virile": "zobaczcie",
-            "nonvirile": "zobaczcie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "niech zobaczy",
-            "feminine": "niech zobaczy",
-            "neuter": "niech zobaczy"
-          },
-          "plural": {
-            "virile": "niech zobaczą",
-            "nonvirile": "niech zobaczą"
-          }
-        }
-      },
-      "passive adjectival participle": {
-        "singular": {
-          "masculine": "zobaczony",
-          "feminine": "zobaczona",
-          "neuter": "zobaczone"
-        },
-        "plural": {
-          "virile": "zobaczeni",
-          "nonvirile": "zobaczone"
-        }
-      },
-      "anterior adverbial participle": {
-        "singular": {
-          "masculine": "zobaczywszy",
-          "feminine": "zobaczywszy",
-          "neuter": "zobaczywszy"
-        },
-        "plural": {
-          "virile": "zobaczywszy",
-          "nonvirile": "zobaczywszy"
-        }
-      },
-      "verbal noun": {
-        "singular": {
-          "masculine": "zobaczenie",
-          "feminine": "zobaczenie",
-          "neuter": "zobaczenie"
-        },
-        "plural": {
-          "virile": "zobaczenie",
-          "nonvirile": "zobaczenie"
-        }
-      }
-    }
-  },
-  {
-    "lemma": "zobaczyć",
-    "aspect": "perfective",
-    "secondary_aspects": [],
-    "other_shapes": {
-      "imperfective": [
-        "widzieć"
-      ],
-      "indeterminate": [
-        "widywać"
-      ]
-    },
-    "tags": "xxxxxxxxx",
-    "translations_info": [
-      "( reflexive ) to see oneself"
-    ],
-    "translations": {
-      "ENG": []
-    },
-    "derivedTerms": [
-      "do zobaczenia"
-    ],
-    "inflections": {
-      "infinitive": {
-        "singular": {
-          "masculine": "zobaczyć",
-          "feminine": "zobaczyć",
-          "neuter": "zobaczyć"
-        },
-        "plural": {
-          "virile": "zobaczyć",
-          "nonvirile": "zobaczyć"
-        }
-      },
-      "future tense": {
-        "1st": {
-          "singular": {
-            "masculine": "zobaczę",
-            "feminine": "zobaczę",
-            "neuter": "zobaczę"
-          },
-          "plural": {
-            "virile": "zobaczymy",
-            "nonvirile": "zobaczymy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zobaczysz",
-            "feminine": "zobaczysz",
-            "neuter": "zobaczysz"
-          },
-          "plural": {
-            "virile": "zobaczycie",
-            "nonvirile": "zobaczycie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zobaczy",
-            "feminine": "zobaczy",
-            "neuter": "zobaczy"
-          },
-          "plural": {
-            "virile": "zobaczą",
-            "nonvirile": "zobaczą"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zobaczy się",
-            "feminine": "zobaczy się",
-            "neuter": "zobaczy się"
-          },
-          "plural": {
-            "virile": "zobaczy się",
-            "nonvirile": "zobaczy się"
-          }
-        }
-      },
-      "past tense": {
-        "1st": {
-          "singular": {
-            "masculine": "zobaczyłem",
-            "feminine": "zobaczyłam"
-          },
-          "plural": {
-            "virile": "zobaczyliśmy",
-            "nonvirile": "zobaczyłyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zobaczyłeś",
-            "feminine": "zobaczyłaś"
-          },
-          "plural": {
-            "virile": "zobaczyliście",
-            "nonvirile": "zobaczyłyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zobaczył",
-            "feminine": "zobaczyła",
-            "neuter": "zobaczyło"
-          },
-          "plural": {
-            "virile": "zobaczyli",
-            "nonvirile": "zobaczyły"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zobaczono",
-            "feminine": "zobaczono",
-            "neuter": "zobaczono"
-          },
-          "plural": {
-            "virile": "zobaczono",
-            "nonvirile": "zobaczono"
-          }
-        }
-      },
-      "conditional": {
-        "1st": {
-          "singular": {
-            "masculine": "zobaczyłbym",
-            "feminine": "zobaczyłabym"
-          },
-          "plural": {
-            "virile": "zobaczylibyśmy",
-            "nonvirile": "zobaczyłybyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zobaczyłbyś",
-            "feminine": "zobaczyłabyś"
-          },
-          "plural": {
-            "virile": "zobaczylibyście",
-            "nonvirile": "zobaczyłybyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zobaczyłby",
-            "feminine": "zobaczyłaby",
-            "neuter": "zobaczyłoby"
-          },
-          "plural": {
-            "virile": "zobaczyliby",
-            "nonvirile": "zobaczyłyby"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zobaczono by",
-            "feminine": "zobaczono by",
-            "neuter": "zobaczono by"
-          },
-          "plural": {
-            "virile": "zobaczono by",
-            "nonvirile": "zobaczono by"
-          }
-        }
-      },
-      "imperative": {
-        "1st": {
-          "singular": {
-            "masculine": "niech zobaczę",
-            "feminine": "niech zobaczę",
-            "neuter": "niech zobaczę"
-          },
-          "plural": {
-            "virile": "zobaczmy",
-            "nonvirile": "zobaczmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zobacz",
-            "feminine": "zobacz",
-            "neuter": "zobacz"
-          },
-          "plural": {
-            "virile": "zobaczcie",
-            "nonvirile": "zobaczcie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "niech zobaczy",
-            "feminine": "niech zobaczy",
-            "neuter": "niech zobaczy"
-          },
-          "plural": {
-            "virile": "niech zobaczą",
-            "nonvirile": "niech zobaczą"
-          }
-        }
-      },
-      "passive adjectival participle": {
-        "singular": {
-          "masculine": "zobaczony",
-          "feminine": "zobaczona",
-          "neuter": "zobaczone"
-        },
-        "plural": {
-          "virile": "zobaczeni",
-          "nonvirile": "zobaczone"
-        }
-      },
-      "anterior adverbial participle": {
-        "singular": {
-          "masculine": "zobaczywszy",
-          "feminine": "zobaczywszy",
-          "neuter": "zobaczywszy"
-        },
-        "plural": {
-          "virile": "zobaczywszy",
-          "nonvirile": "zobaczywszy"
-        }
-      },
-      "verbal noun": {
-        "singular": {
-          "masculine": "zobaczenie",
-          "feminine": "zobaczenie",
-          "neuter": "zobaczenie"
-        },
-        "plural": {
-          "virile": "zobaczenie",
-          "nonvirile": "zobaczenie"
-        }
-      }
-    },
-    "reflexive": true
-  },
-  {
-    "lemma": "zobaczyć",
-    "aspect": "perfective",
-    "secondary_aspects": [],
-    "other_shapes": {
-      "imperfective": [
-        "widzieć"
-      ],
-      "indeterminate": [
-        "widywać"
-      ]
-    },
-    "tags": "xxxxxxxxx",
-    "translations_info": [
-      "( reflexive ) to see one another, to meet"
-    ],
-    "translations": {
-      "ENG": []
-    },
-    "derivedTerms": [
-      "do zobaczenia"
-    ],
-    "inflections": {
-      "infinitive": {
-        "singular": {
-          "masculine": "zobaczyć",
-          "feminine": "zobaczyć",
-          "neuter": "zobaczyć"
-        },
-        "plural": {
-          "virile": "zobaczyć",
-          "nonvirile": "zobaczyć"
-        }
-      },
-      "future tense": {
-        "1st": {
-          "singular": {
-            "masculine": "zobaczę",
-            "feminine": "zobaczę",
-            "neuter": "zobaczę"
-          },
-          "plural": {
-            "virile": "zobaczymy",
-            "nonvirile": "zobaczymy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zobaczysz",
-            "feminine": "zobaczysz",
-            "neuter": "zobaczysz"
-          },
-          "plural": {
-            "virile": "zobaczycie",
-            "nonvirile": "zobaczycie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zobaczy",
-            "feminine": "zobaczy",
-            "neuter": "zobaczy"
-          },
-          "plural": {
-            "virile": "zobaczą",
-            "nonvirile": "zobaczą"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zobaczy się",
-            "feminine": "zobaczy się",
-            "neuter": "zobaczy się"
-          },
-          "plural": {
-            "virile": "zobaczy się",
-            "nonvirile": "zobaczy się"
-          }
-        }
-      },
-      "past tense": {
-        "1st": {
-          "singular": {
-            "masculine": "zobaczyłem",
-            "feminine": "zobaczyłam"
-          },
-          "plural": {
-            "virile": "zobaczyliśmy",
-            "nonvirile": "zobaczyłyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zobaczyłeś",
-            "feminine": "zobaczyłaś"
-          },
-          "plural": {
-            "virile": "zobaczyliście",
-            "nonvirile": "zobaczyłyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zobaczył",
-            "feminine": "zobaczyła",
-            "neuter": "zobaczyło"
-          },
-          "plural": {
-            "virile": "zobaczyli",
-            "nonvirile": "zobaczyły"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zobaczono",
-            "feminine": "zobaczono",
-            "neuter": "zobaczono"
-          },
-          "plural": {
-            "virile": "zobaczono",
-            "nonvirile": "zobaczono"
-          }
-        }
-      },
-      "conditional": {
-        "1st": {
-          "singular": {
-            "masculine": "zobaczyłbym",
-            "feminine": "zobaczyłabym"
-          },
-          "plural": {
-            "virile": "zobaczylibyśmy",
-            "nonvirile": "zobaczyłybyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zobaczyłbyś",
-            "feminine": "zobaczyłabyś"
-          },
-          "plural": {
-            "virile": "zobaczylibyście",
-            "nonvirile": "zobaczyłybyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "zobaczyłby",
-            "feminine": "zobaczyłaby",
-            "neuter": "zobaczyłoby"
-          },
-          "plural": {
-            "virile": "zobaczyliby",
-            "nonvirile": "zobaczyłyby"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "zobaczono by",
-            "feminine": "zobaczono by",
-            "neuter": "zobaczono by"
-          },
-          "plural": {
-            "virile": "zobaczono by",
-            "nonvirile": "zobaczono by"
-          }
-        }
-      },
-      "imperative": {
-        "1st": {
-          "singular": {
-            "masculine": "niech zobaczę",
-            "feminine": "niech zobaczę",
-            "neuter": "niech zobaczę"
-          },
-          "plural": {
-            "virile": "zobaczmy",
-            "nonvirile": "zobaczmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "zobacz",
-            "feminine": "zobacz",
-            "neuter": "zobacz"
-          },
-          "plural": {
-            "virile": "zobaczcie",
-            "nonvirile": "zobaczcie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "niech zobaczy",
-            "feminine": "niech zobaczy",
-            "neuter": "niech zobaczy"
-          },
-          "plural": {
-            "virile": "niech zobaczą",
-            "nonvirile": "niech zobaczą"
-          }
-        }
-      },
-      "passive adjectival participle": {
-        "singular": {
-          "masculine": "zobaczony",
-          "feminine": "zobaczona",
-          "neuter": "zobaczone"
-        },
-        "plural": {
-          "virile": "zobaczeni",
-          "nonvirile": "zobaczone"
-        }
-      },
-      "anterior adverbial participle": {
-        "singular": {
-          "masculine": "zobaczywszy",
-          "feminine": "zobaczywszy",
-          "neuter": "zobaczywszy"
-        },
-        "plural": {
-          "virile": "zobaczywszy",
-          "nonvirile": "zobaczywszy"
-        }
-      },
-      "verbal noun": {
-        "singular": {
-          "masculine": "zobaczenie",
-          "feminine": "zobaczenie",
-          "neuter": "zobaczenie"
-        },
-        "plural": {
-          "virile": "zobaczenie",
-          "nonvirile": "zobaczenie"
-        }
-      }
-    },
-    "reflexive": true
-  }
 ]
