@@ -52,6 +52,14 @@ def recursively_prefix_string_values(dict, prefix):
             dict[key] = f"{prefix}{value}"
         else:
             recursively_prefix_string_values(value, prefix)
+#
+# def recursively_prefix_string_values(obj, prefix):
+#     for key, value in obj.items() if type(obj) is dict else enumerate(obj):
+#         if type(value) == str:
+#             obj[key] = f"{prefix}{value}"
+#         elif type(value) in [dict, list]:
+#             recursively_prefix_string_values(value, prefix)
+
 
 
 def generate_verbs(group_numbers: int, wordtype: str):
