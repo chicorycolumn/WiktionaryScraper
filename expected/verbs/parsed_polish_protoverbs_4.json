@@ -1,238 +1,237 @@
 [
-  {
-    "lemma": "przeczytać",
-    "aspect": "perfective",
-    "secondary_aspects": [],
-    "other_shapes": {
-      "imperfective determinate": [
-        "czytać"
-      ],
-      "frequentative": [
-        "czytywać"
-      ]
-    },
-    "tags": "xxxxxxxxx",
-    "translations_info": [
-      "to read ; to read up"
-    ],
-    "translations": {
-      "ENG": []
-    },
-    "derivedTerms": [],
-    "inflections": {
-      "infinitive": {
-        "singular": {
-          "masculine": "przeczytać",
-          "feminine": "przeczytać",
-          "neuter": "przeczytać"
+    {
+        "lemma": "przeczytać",
+        "aspect": "perfective",
+        "secondary_aspects": [],
+        "other_shapes": {
+            "imperfective determinate": [
+                "czytać"
+            ],
+            "frequentative": [
+                "czytywać"
+            ]
         },
-        "plural": {
-          "virile": "przeczytać",
-          "nonvirile": "przeczytać"
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "to read ; to read up"
+            ]
+        },
+        "derivedTerms": [],
+        "inflections": {
+            "infinitive": {
+                "singular": {
+                    "masculine": "przeczytać",
+                    "feminine": "przeczytać",
+                    "neuter": "przeczytać"
+                },
+                "plural": {
+                    "virile": "przeczytać",
+                    "nonvirile": "przeczytać"
+                }
+            },
+            "future tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "przeczytam",
+                        "feminine": "przeczytam",
+                        "neuter": "przeczytam"
+                    },
+                    "plural": {
+                        "virile": "przeczytamy",
+                        "nonvirile": "przeczytamy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "przeczytasz",
+                        "feminine": "przeczytasz",
+                        "neuter": "przeczytasz"
+                    },
+                    "plural": {
+                        "virile": "przeczytacie",
+                        "nonvirile": "przeczytacie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "przeczyta",
+                        "feminine": "przeczyta",
+                        "neuter": "przeczyta"
+                    },
+                    "plural": {
+                        "virile": "przeczytają",
+                        "nonvirile": "przeczytają"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "przeczyta się",
+                        "feminine": "przeczyta się",
+                        "neuter": "przeczyta się"
+                    },
+                    "plural": {
+                        "virile": "przeczyta się",
+                        "nonvirile": "przeczyta się"
+                    }
+                }
+            },
+            "past tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "przeczytałem",
+                        "feminine": "przeczytałam"
+                    },
+                    "plural": {
+                        "virile": "przeczytaliśmy",
+                        "nonvirile": "przeczytałyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "przeczytałeś",
+                        "feminine": "przeczytałaś"
+                    },
+                    "plural": {
+                        "virile": "przeczytaliście",
+                        "nonvirile": "przeczytałyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "przeczytał",
+                        "feminine": "przeczytała",
+                        "neuter": "przeczytało"
+                    },
+                    "plural": {
+                        "virile": "przeczytali",
+                        "nonvirile": "przeczytały"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "przeczytano",
+                        "feminine": "przeczytano",
+                        "neuter": "przeczytano"
+                    },
+                    "plural": {
+                        "virile": "przeczytano",
+                        "nonvirile": "przeczytano"
+                    }
+                }
+            },
+            "conditional": {
+                "1st": {
+                    "singular": {
+                        "masculine": "przeczytałbym",
+                        "feminine": "przeczytałabym"
+                    },
+                    "plural": {
+                        "virile": "przeczytalibyśmy",
+                        "nonvirile": "przeczytałybyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "przeczytałbyś",
+                        "feminine": "przeczytałabyś"
+                    },
+                    "plural": {
+                        "virile": "przeczytalibyście",
+                        "nonvirile": "przeczytałybyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "przeczytałby",
+                        "feminine": "przeczytałaby",
+                        "neuter": "przeczytałoby"
+                    },
+                    "plural": {
+                        "virile": "przeczytaliby",
+                        "nonvirile": "przeczytałyby"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "przeczytano by",
+                        "feminine": "przeczytano by",
+                        "neuter": "przeczytano by"
+                    },
+                    "plural": {
+                        "virile": "przeczytano by",
+                        "nonvirile": "przeczytano by"
+                    }
+                }
+            },
+            "imperative": {
+                "1st": {
+                    "singular": {
+                        "masculine": "niech przeczytam",
+                        "feminine": "niech przeczytam",
+                        "neuter": "niech przeczytam"
+                    },
+                    "plural": {
+                        "virile": "przeczytajmy",
+                        "nonvirile": "przeczytajmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "przeczytaj",
+                        "feminine": "przeczytaj",
+                        "neuter": "przeczytaj"
+                    },
+                    "plural": {
+                        "virile": "przeczytajcie",
+                        "nonvirile": "przeczytajcie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "niech przeczyta",
+                        "feminine": "niech przeczyta",
+                        "neuter": "niech przeczyta"
+                    },
+                    "plural": {
+                        "virile": "niech przeczytają",
+                        "nonvirile": "niech przeczytają"
+                    }
+                }
+            },
+            "passive adjectival participle": {
+                "singular": {
+                    "masculine": "przeczytany",
+                    "feminine": "przeczytana",
+                    "neuter": "przeczytane"
+                },
+                "plural": {
+                    "virile": "przeczytani",
+                    "nonvirile": "przeczytane"
+                }
+            },
+            "anterior adverbial participle": {
+                "singular": {
+                    "masculine": "przeczytawszy",
+                    "feminine": "przeczytawszy",
+                    "neuter": "przeczytawszy"
+                },
+                "plural": {
+                    "virile": "przeczytawszy",
+                    "nonvirile": "przeczytawszy"
+                }
+            },
+            "verbal noun": {
+                "singular": {
+                    "masculine": "przeczytanie",
+                    "feminine": "przeczytanie",
+                    "neuter": "przeczytanie"
+                },
+                "plural": {
+                    "virile": "przeczytanie",
+                    "nonvirile": "przeczytanie"
+                }
+            }
         }
-      },
-      "future tense": {
-        "1st": {
-          "singular": {
-            "masculine": "przeczytam",
-            "feminine": "przeczytam",
-            "neuter": "przeczytam"
-          },
-          "plural": {
-            "virile": "przeczytamy",
-            "nonvirile": "przeczytamy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "przeczytasz",
-            "feminine": "przeczytasz",
-            "neuter": "przeczytasz"
-          },
-          "plural": {
-            "virile": "przeczytacie",
-            "nonvirile": "przeczytacie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "przeczyta",
-            "feminine": "przeczyta",
-            "neuter": "przeczyta"
-          },
-          "plural": {
-            "virile": "przeczytają",
-            "nonvirile": "przeczytają"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "przeczyta się",
-            "feminine": "przeczyta się",
-            "neuter": "przeczyta się"
-          },
-          "plural": {
-            "virile": "przeczyta się",
-            "nonvirile": "przeczyta się"
-          }
-        }
-      },
-      "past tense": {
-        "1st": {
-          "singular": {
-            "masculine": "przeczytałem",
-            "feminine": "przeczytałam"
-          },
-          "plural": {
-            "virile": "przeczytaliśmy",
-            "nonvirile": "przeczytałyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "przeczytałeś",
-            "feminine": "przeczytałaś"
-          },
-          "plural": {
-            "virile": "przeczytaliście",
-            "nonvirile": "przeczytałyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "przeczytał",
-            "feminine": "przeczytała",
-            "neuter": "przeczytało"
-          },
-          "plural": {
-            "virile": "przeczytali",
-            "nonvirile": "przeczytały"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "przeczytano",
-            "feminine": "przeczytano",
-            "neuter": "przeczytano"
-          },
-          "plural": {
-            "virile": "przeczytano",
-            "nonvirile": "przeczytano"
-          }
-        }
-      },
-      "conditional": {
-        "1st": {
-          "singular": {
-            "masculine": "przeczytałbym",
-            "feminine": "przeczytałabym"
-          },
-          "plural": {
-            "virile": "przeczytalibyśmy",
-            "nonvirile": "przeczytałybyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "przeczytałbyś",
-            "feminine": "przeczytałabyś"
-          },
-          "plural": {
-            "virile": "przeczytalibyście",
-            "nonvirile": "przeczytałybyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "przeczytałby",
-            "feminine": "przeczytałaby",
-            "neuter": "przeczytałoby"
-          },
-          "plural": {
-            "virile": "przeczytaliby",
-            "nonvirile": "przeczytałyby"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "przeczytano by",
-            "feminine": "przeczytano by",
-            "neuter": "przeczytano by"
-          },
-          "plural": {
-            "virile": "przeczytano by",
-            "nonvirile": "przeczytano by"
-          }
-        }
-      },
-      "imperative": {
-        "1st": {
-          "singular": {
-            "masculine": "niech przeczytam",
-            "feminine": "niech przeczytam",
-            "neuter": "niech przeczytam"
-          },
-          "plural": {
-            "virile": "przeczytajmy",
-            "nonvirile": "przeczytajmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "przeczytaj",
-            "feminine": "przeczytaj",
-            "neuter": "przeczytaj"
-          },
-          "plural": {
-            "virile": "przeczytajcie",
-            "nonvirile": "przeczytajcie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "niech przeczyta",
-            "feminine": "niech przeczyta",
-            "neuter": "niech przeczyta"
-          },
-          "plural": {
-            "virile": "niech przeczytają",
-            "nonvirile": "niech przeczytają"
-          }
-        }
-      },
-      "passive adjectival participle": {
-        "singular": {
-          "masculine": "przeczytany",
-          "feminine": "przeczytana",
-          "neuter": "przeczytane"
-        },
-        "plural": {
-          "virile": "przeczytani",
-          "nonvirile": "przeczytane"
-        }
-      },
-      "anterior adverbial participle": {
-        "singular": {
-          "masculine": "przeczytawszy",
-          "feminine": "przeczytawszy",
-          "neuter": "przeczytawszy"
-        },
-        "plural": {
-          "virile": "przeczytawszy",
-          "nonvirile": "przeczytawszy"
-        }
-      },
-      "verbal noun": {
-        "singular": {
-          "masculine": "przeczytanie",
-          "feminine": "przeczytanie",
-          "neuter": "przeczytanie"
-        },
-        "plural": {
-          "virile": "przeczytanie",
-          "nonvirile": "przeczytanie"
-        }
-      }
     }
-  }
 ]

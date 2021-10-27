@@ -1,348 +1,347 @@
 [
-  {
-    "lemma": "czytać",
-    "aspect": "imperfective",
-    "secondary_aspects": [
-      "determinate"
-    ],
-    "other_shapes": {
-      "perfective": [
-        "przeczytać"
-      ],
-      "frequentative": [
-        "czytywać"
-      ]
-    },
-    "tags": "xxxxxxxxx",
-    "translations_info": [
-      "to read Tomek czyta interesującą książkę. ― Tomek is reading an interesting book."
-    ],
-    "translations": {
-      "ENG": []
-    },
-    "derivedTerms": [
-      "wczytywać impf wczytać pf",
-      "wyczytywać impf wyczytać pf",
-      "sczytywać impf sczytać pf",
-      "doczytywać impf doczytać pf",
-      "odczytywać impf odczytać pf",
-      "poczytywać impf poczytać pf",
-      "oczytywać impf oczytać pf",
-      "obczytywać impf obczytać pf",
-      "podczytywać impf",
-      "przeczytywać impf przeczytać pf",
-      "zaczytywać impf zaczytać pf",
-      "naczytać pf",
-      "rozczytywać impf rozczytać pf"
-    ],
-    "inflections": {
-      "infinitive": {
-        "singular": {
-          "masculine": "czytać",
-          "feminine": "czytać",
-          "neuter": "czytać"
-        },
-        "plural": {
-          "virile": "czytać",
-          "nonvirile": "czytać"
-        }
-      },
-      "present tense": {
-        "1st": {
-          "singular": {
-            "masculine": "czytam",
-            "feminine": "czytam",
-            "neuter": "czytam"
-          },
-          "plural": {
-            "virile": "czytamy",
-            "nonvirile": "czytamy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "czytasz",
-            "feminine": "czytasz",
-            "neuter": "czytasz"
-          },
-          "plural": {
-            "virile": "czytacie",
-            "nonvirile": "czytacie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "czyta",
-            "feminine": "czyta",
-            "neuter": "czyta"
-          },
-          "plural": {
-            "virile": "czytają",
-            "nonvirile": "czytają"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "czyta się",
-            "feminine": "czyta się",
-            "neuter": "czyta się"
-          },
-          "plural": {
-            "virile": "czyta się",
-            "nonvirile": "czyta się"
-          }
-        }
-      },
-      "past tense": {
-        "1st": {
-          "singular": {
-            "masculine": "czytałem",
-            "feminine": "czytałam"
-          },
-          "plural": {
-            "virile": "czytaliśmy",
-            "nonvirile": "czytałyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "czytałeś",
-            "feminine": "czytałaś"
-          },
-          "plural": {
-            "virile": "czytaliście",
-            "nonvirile": "czytałyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "czytał",
-            "feminine": "czytała",
-            "neuter": "czytało"
-          },
-          "plural": {
-            "virile": "czytali",
-            "nonvirile": "czytały"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "czytano",
-            "feminine": "czytano",
-            "neuter": "czytano"
-          },
-          "plural": {
-            "virile": "czytano",
-            "nonvirile": "czytano"
-          }
-        }
-      },
-      "future tense": {
-        "1st": {
-          "singular": {
-            "masculine": [
-              "będę czytał",
-              "będę czytać"
+    {
+        "lemma": "czytać",
+        "aspect": "imperfective",
+        "secondary_aspects": [
+            "determinate"
+        ],
+        "other_shapes": {
+            "perfective": [
+                "przeczytać"
             ],
-            "feminine": [
-              "będę czytała",
-              "będę czytać"
+            "frequentative": [
+                "czytywać"
             ]
-          },
-          "plural": {
-            "virile": [
-              "będziemy czytali",
-              "będziemy czytać"
-            ],
-            "nonvirile": [
-              "będziemy czytały",
-              "będziemy czytać"
+        },
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "to read Tomek czyta interesującą książkę. ― Tomek is reading an interesting book."
             ]
-          }
         },
-        "2nd": {
-          "singular": {
-            "masculine": [
-              "będziesz czytał",
-              "będziesz czytać"
-            ],
-            "feminine": [
-              "będziesz czytała",
-              "będziesz czytać"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będziecie czytali",
-              "będziecie czytać"
-            ],
-            "nonvirile": [
-              "będziecie czytały",
-              "będziecie czytać"
-            ]
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": [
-              "będzie czytał",
-              "będzie czytać"
-            ],
-            "feminine": [
-              "będzie czytała",
-              "będzie czytać"
-            ],
-            "neuter": [
-              "będzie czytało",
-              "będzie czytać"
-            ]
-          },
-          "plural": {
-            "virile": [
-              "będą czytali",
-              "będą czytać"
-            ],
-            "nonvirile": [
-              "będą czytały",
-              "będą czytać"
-            ]
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "będzie czytać się",
-            "feminine": "będzie czytać się",
-            "neuter": "będzie czytać się"
-          },
-          "plural": {
-            "virile": "będzie czytać się",
-            "nonvirile": "będzie czytać się"
-          }
+        "derivedTerms": [
+            "wczytywać impf wczytać pf",
+            "wyczytywać impf wyczytać pf",
+            "sczytywać impf sczytać pf",
+            "doczytywać impf doczytać pf",
+            "odczytywać impf odczytać pf",
+            "poczytywać impf poczytać pf",
+            "oczytywać impf oczytać pf",
+            "obczytywać impf obczytać pf",
+            "podczytywać impf",
+            "przeczytywać impf przeczytać pf",
+            "zaczytywać impf zaczytać pf",
+            "naczytać pf",
+            "rozczytywać impf rozczytać pf"
+        ],
+        "inflections": {
+            "infinitive": {
+                "singular": {
+                    "masculine": "czytać",
+                    "feminine": "czytać",
+                    "neuter": "czytać"
+                },
+                "plural": {
+                    "virile": "czytać",
+                    "nonvirile": "czytać"
+                }
+            },
+            "present tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "czytam",
+                        "feminine": "czytam",
+                        "neuter": "czytam"
+                    },
+                    "plural": {
+                        "virile": "czytamy",
+                        "nonvirile": "czytamy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "czytasz",
+                        "feminine": "czytasz",
+                        "neuter": "czytasz"
+                    },
+                    "plural": {
+                        "virile": "czytacie",
+                        "nonvirile": "czytacie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "czyta",
+                        "feminine": "czyta",
+                        "neuter": "czyta"
+                    },
+                    "plural": {
+                        "virile": "czytają",
+                        "nonvirile": "czytają"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "czyta się",
+                        "feminine": "czyta się",
+                        "neuter": "czyta się"
+                    },
+                    "plural": {
+                        "virile": "czyta się",
+                        "nonvirile": "czyta się"
+                    }
+                }
+            },
+            "past tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "czytałem",
+                        "feminine": "czytałam"
+                    },
+                    "plural": {
+                        "virile": "czytaliśmy",
+                        "nonvirile": "czytałyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "czytałeś",
+                        "feminine": "czytałaś"
+                    },
+                    "plural": {
+                        "virile": "czytaliście",
+                        "nonvirile": "czytałyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "czytał",
+                        "feminine": "czytała",
+                        "neuter": "czytało"
+                    },
+                    "plural": {
+                        "virile": "czytali",
+                        "nonvirile": "czytały"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "czytano",
+                        "feminine": "czytano",
+                        "neuter": "czytano"
+                    },
+                    "plural": {
+                        "virile": "czytano",
+                        "nonvirile": "czytano"
+                    }
+                }
+            },
+            "future tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": [
+                            "będę czytał",
+                            "będę czytać"
+                        ],
+                        "feminine": [
+                            "będę czytała",
+                            "będę czytać"
+                        ]
+                    },
+                    "plural": {
+                        "virile": [
+                            "będziemy czytali",
+                            "będziemy czytać"
+                        ],
+                        "nonvirile": [
+                            "będziemy czytały",
+                            "będziemy czytać"
+                        ]
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": [
+                            "będziesz czytał",
+                            "będziesz czytać"
+                        ],
+                        "feminine": [
+                            "będziesz czytała",
+                            "będziesz czytać"
+                        ]
+                    },
+                    "plural": {
+                        "virile": [
+                            "będziecie czytali",
+                            "będziecie czytać"
+                        ],
+                        "nonvirile": [
+                            "będziecie czytały",
+                            "będziecie czytać"
+                        ]
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": [
+                            "będzie czytał",
+                            "będzie czytać"
+                        ],
+                        "feminine": [
+                            "będzie czytała",
+                            "będzie czytać"
+                        ],
+                        "neuter": [
+                            "będzie czytało",
+                            "będzie czytać"
+                        ]
+                    },
+                    "plural": {
+                        "virile": [
+                            "będą czytali",
+                            "będą czytać"
+                        ],
+                        "nonvirile": [
+                            "będą czytały",
+                            "będą czytać"
+                        ]
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "będzie czytać się",
+                        "feminine": "będzie czytać się",
+                        "neuter": "będzie czytać się"
+                    },
+                    "plural": {
+                        "virile": "będzie czytać się",
+                        "nonvirile": "będzie czytać się"
+                    }
+                }
+            },
+            "conditional": {
+                "1st": {
+                    "singular": {
+                        "masculine": "czytałbym",
+                        "feminine": "czytałabym"
+                    },
+                    "plural": {
+                        "virile": "czytalibyśmy",
+                        "nonvirile": "czytałybyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "czytałbyś",
+                        "feminine": "czytałabyś"
+                    },
+                    "plural": {
+                        "virile": "czytalibyście",
+                        "nonvirile": "czytałybyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "czytałby",
+                        "feminine": "czytałaby",
+                        "neuter": "czytałoby"
+                    },
+                    "plural": {
+                        "virile": "czytaliby",
+                        "nonvirile": "czytałyby"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "czytano by",
+                        "feminine": "czytano by",
+                        "neuter": "czytano by"
+                    },
+                    "plural": {
+                        "virile": "czytano by",
+                        "nonvirile": "czytano by"
+                    }
+                }
+            },
+            "imperative": {
+                "1st": {
+                    "singular": {
+                        "masculine": "niech czytam",
+                        "feminine": "niech czytam",
+                        "neuter": "niech czytam"
+                    },
+                    "plural": {
+                        "virile": "czytajmy",
+                        "nonvirile": "czytajmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "czytaj",
+                        "feminine": "czytaj",
+                        "neuter": "czytaj"
+                    },
+                    "plural": {
+                        "virile": "czytajcie",
+                        "nonvirile": "czytajcie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "niech czyta",
+                        "feminine": "niech czyta",
+                        "neuter": "niech czyta"
+                    },
+                    "plural": {
+                        "virile": "niech czytają",
+                        "nonvirile": "niech czytają"
+                    }
+                }
+            },
+            "active adjectival participle": {
+                "singular": {
+                    "masculine": "czytający",
+                    "feminine": "czytająca",
+                    "neuter": "czytające"
+                },
+                "plural": {
+                    "virile": "czytający",
+                    "nonvirile": "czytające"
+                }
+            },
+            "passive adjectival participle": {
+                "singular": {
+                    "masculine": "czytany",
+                    "feminine": "czytana",
+                    "neuter": "czytane"
+                },
+                "plural": {
+                    "virile": "czytani",
+                    "nonvirile": "czytane"
+                }
+            },
+            "contemporary adverbial participle": {
+                "singular": {
+                    "masculine": "czytając",
+                    "feminine": "czytając",
+                    "neuter": "czytając"
+                },
+                "plural": {
+                    "virile": "czytając",
+                    "nonvirile": "czytając"
+                }
+            },
+            "verbal noun": {
+                "singular": {
+                    "masculine": "czytanie",
+                    "feminine": "czytanie",
+                    "neuter": "czytanie"
+                },
+                "plural": {
+                    "virile": "czytanie",
+                    "nonvirile": "czytanie"
+                }
+            }
         }
-      },
-      "conditional": {
-        "1st": {
-          "singular": {
-            "masculine": "czytałbym",
-            "feminine": "czytałabym"
-          },
-          "plural": {
-            "virile": "czytalibyśmy",
-            "nonvirile": "czytałybyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "czytałbyś",
-            "feminine": "czytałabyś"
-          },
-          "plural": {
-            "virile": "czytalibyście",
-            "nonvirile": "czytałybyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "czytałby",
-            "feminine": "czytałaby",
-            "neuter": "czytałoby"
-          },
-          "plural": {
-            "virile": "czytaliby",
-            "nonvirile": "czytałyby"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "czytano by",
-            "feminine": "czytano by",
-            "neuter": "czytano by"
-          },
-          "plural": {
-            "virile": "czytano by",
-            "nonvirile": "czytano by"
-          }
-        }
-      },
-      "imperative": {
-        "1st": {
-          "singular": {
-            "masculine": "niech czytam",
-            "feminine": "niech czytam",
-            "neuter": "niech czytam"
-          },
-          "plural": {
-            "virile": "czytajmy",
-            "nonvirile": "czytajmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "czytaj",
-            "feminine": "czytaj",
-            "neuter": "czytaj"
-          },
-          "plural": {
-            "virile": "czytajcie",
-            "nonvirile": "czytajcie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "niech czyta",
-            "feminine": "niech czyta",
-            "neuter": "niech czyta"
-          },
-          "plural": {
-            "virile": "niech czytają",
-            "nonvirile": "niech czytają"
-          }
-        }
-      },
-      "active adjectival participle": {
-        "singular": {
-          "masculine": "czytający",
-          "feminine": "czytająca",
-          "neuter": "czytające"
-        },
-        "plural": {
-          "virile": "czytający",
-          "nonvirile": "czytające"
-        }
-      },
-      "passive adjectival participle": {
-        "singular": {
-          "masculine": "czytany",
-          "feminine": "czytana",
-          "neuter": "czytane"
-        },
-        "plural": {
-          "virile": "czytani",
-          "nonvirile": "czytane"
-        }
-      },
-      "contemporary adverbial participle": {
-        "singular": {
-          "masculine": "czytając",
-          "feminine": "czytając",
-          "neuter": "czytając"
-        },
-        "plural": {
-          "virile": "czytając",
-          "nonvirile": "czytając"
-        }
-      },
-      "verbal noun": {
-        "singular": {
-          "masculine": "czytanie",
-          "feminine": "czytanie",
-          "neuter": "czytanie"
-        },
-        "plural": {
-          "virile": "czytanie",
-          "nonvirile": "czytanie"
-        }
-      }
     }
-  }
 ]

@@ -1,235 +1,234 @@
 [
-  {
-    "lemma": "napisać",
-    "aspect": "perfective",
-    "secondary_aspects": [],
-    "other_shapes": {
-      "imperfective": [
-        "pisać"
-      ]
-    },
-    "tags": "xxxxxxxxx",
-    "translations_info": [
-      "( transitive ) to write"
-    ],
-    "translations": {
-      "ENG": []
-    },
-    "derivedTerms": [],
-    "inflections": {
-      "infinitive": {
-        "singular": {
-          "masculine": "napisać",
-          "feminine": "napisać",
-          "neuter": "napisać"
+    {
+        "lemma": "napisać",
+        "aspect": "perfective",
+        "secondary_aspects": [],
+        "other_shapes": {
+            "imperfective": [
+                "pisać"
+            ]
         },
-        "plural": {
-          "virile": "napisać",
-          "nonvirile": "napisać"
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "( transitive ) to write"
+            ]
+        },
+        "derivedTerms": [],
+        "inflections": {
+            "infinitive": {
+                "singular": {
+                    "masculine": "napisać",
+                    "feminine": "napisać",
+                    "neuter": "napisać"
+                },
+                "plural": {
+                    "virile": "napisać",
+                    "nonvirile": "napisać"
+                }
+            },
+            "future tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "napiszę",
+                        "feminine": "napiszę",
+                        "neuter": "napiszę"
+                    },
+                    "plural": {
+                        "virile": "napiszemy",
+                        "nonvirile": "napiszemy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "napiszesz",
+                        "feminine": "napiszesz",
+                        "neuter": "napiszesz"
+                    },
+                    "plural": {
+                        "virile": "napiszecie",
+                        "nonvirile": "napiszecie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "napisze",
+                        "feminine": "napisze",
+                        "neuter": "napisze"
+                    },
+                    "plural": {
+                        "virile": "napiszą",
+                        "nonvirile": "napiszą"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "napisze się",
+                        "feminine": "napisze się",
+                        "neuter": "napisze się"
+                    },
+                    "plural": {
+                        "virile": "napisze się",
+                        "nonvirile": "napisze się"
+                    }
+                }
+            },
+            "past tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "napisałem",
+                        "feminine": "napisałam"
+                    },
+                    "plural": {
+                        "virile": "napisaliśmy",
+                        "nonvirile": "napisałyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "napisałeś",
+                        "feminine": "napisałaś"
+                    },
+                    "plural": {
+                        "virile": "napisaliście",
+                        "nonvirile": "napisałyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "napisał",
+                        "feminine": "napisała",
+                        "neuter": "napisało"
+                    },
+                    "plural": {
+                        "virile": "napisali",
+                        "nonvirile": "napisały"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "napisano",
+                        "feminine": "napisano",
+                        "neuter": "napisano"
+                    },
+                    "plural": {
+                        "virile": "napisano",
+                        "nonvirile": "napisano"
+                    }
+                }
+            },
+            "conditional": {
+                "1st": {
+                    "singular": {
+                        "masculine": "napisałbym",
+                        "feminine": "napisałabym"
+                    },
+                    "plural": {
+                        "virile": "napisalibyśmy",
+                        "nonvirile": "napisałybyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "napisałbyś",
+                        "feminine": "napisałabyś"
+                    },
+                    "plural": {
+                        "virile": "napisalibyście",
+                        "nonvirile": "napisałybyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "napisałby",
+                        "feminine": "napisałaby",
+                        "neuter": "napisałoby"
+                    },
+                    "plural": {
+                        "virile": "napisaliby",
+                        "nonvirile": "napisałyby"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "napisano by",
+                        "feminine": "napisano by",
+                        "neuter": "napisano by"
+                    },
+                    "plural": {
+                        "virile": "napisano by",
+                        "nonvirile": "napisano by"
+                    }
+                }
+            },
+            "imperative": {
+                "1st": {
+                    "singular": {
+                        "masculine": "niech napiszę",
+                        "feminine": "niech napiszę",
+                        "neuter": "niech napiszę"
+                    },
+                    "plural": {
+                        "virile": "napiszmy",
+                        "nonvirile": "napiszmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "napisz",
+                        "feminine": "napisz",
+                        "neuter": "napisz"
+                    },
+                    "plural": {
+                        "virile": "napiszcie",
+                        "nonvirile": "napiszcie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "niech napisze",
+                        "feminine": "niech napisze",
+                        "neuter": "niech napisze"
+                    },
+                    "plural": {
+                        "virile": "niech napiszą",
+                        "nonvirile": "niech napiszą"
+                    }
+                }
+            },
+            "passive adjectival participle": {
+                "singular": {
+                    "masculine": "napisany",
+                    "feminine": "napisana",
+                    "neuter": "napisane"
+                },
+                "plural": {
+                    "virile": "napisani",
+                    "nonvirile": "napisane"
+                }
+            },
+            "anterior adverbial participle": {
+                "singular": {
+                    "masculine": "napisawszy",
+                    "feminine": "napisawszy",
+                    "neuter": "napisawszy"
+                },
+                "plural": {
+                    "virile": "napisawszy",
+                    "nonvirile": "napisawszy"
+                }
+            },
+            "verbal noun": {
+                "singular": {
+                    "masculine": "napisanie",
+                    "feminine": "napisanie",
+                    "neuter": "napisanie"
+                },
+                "plural": {
+                    "virile": "napisanie",
+                    "nonvirile": "napisanie"
+                }
+            }
         }
-      },
-      "future tense": {
-        "1st": {
-          "singular": {
-            "masculine": "napiszę",
-            "feminine": "napiszę",
-            "neuter": "napiszę"
-          },
-          "plural": {
-            "virile": "napiszemy",
-            "nonvirile": "napiszemy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "napiszesz",
-            "feminine": "napiszesz",
-            "neuter": "napiszesz"
-          },
-          "plural": {
-            "virile": "napiszecie",
-            "nonvirile": "napiszecie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "napisze",
-            "feminine": "napisze",
-            "neuter": "napisze"
-          },
-          "plural": {
-            "virile": "napiszą",
-            "nonvirile": "napiszą"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "napisze się",
-            "feminine": "napisze się",
-            "neuter": "napisze się"
-          },
-          "plural": {
-            "virile": "napisze się",
-            "nonvirile": "napisze się"
-          }
-        }
-      },
-      "past tense": {
-        "1st": {
-          "singular": {
-            "masculine": "napisałem",
-            "feminine": "napisałam"
-          },
-          "plural": {
-            "virile": "napisaliśmy",
-            "nonvirile": "napisałyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "napisałeś",
-            "feminine": "napisałaś"
-          },
-          "plural": {
-            "virile": "napisaliście",
-            "nonvirile": "napisałyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "napisał",
-            "feminine": "napisała",
-            "neuter": "napisało"
-          },
-          "plural": {
-            "virile": "napisali",
-            "nonvirile": "napisały"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "napisano",
-            "feminine": "napisano",
-            "neuter": "napisano"
-          },
-          "plural": {
-            "virile": "napisano",
-            "nonvirile": "napisano"
-          }
-        }
-      },
-      "conditional": {
-        "1st": {
-          "singular": {
-            "masculine": "napisałbym",
-            "feminine": "napisałabym"
-          },
-          "plural": {
-            "virile": "napisalibyśmy",
-            "nonvirile": "napisałybyśmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "napisałbyś",
-            "feminine": "napisałabyś"
-          },
-          "plural": {
-            "virile": "napisalibyście",
-            "nonvirile": "napisałybyście"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "napisałby",
-            "feminine": "napisałaby",
-            "neuter": "napisałoby"
-          },
-          "plural": {
-            "virile": "napisaliby",
-            "nonvirile": "napisałyby"
-          }
-        },
-        "impersonal": {
-          "singular": {
-            "masculine": "napisano by",
-            "feminine": "napisano by",
-            "neuter": "napisano by"
-          },
-          "plural": {
-            "virile": "napisano by",
-            "nonvirile": "napisano by"
-          }
-        }
-      },
-      "imperative": {
-        "1st": {
-          "singular": {
-            "masculine": "niech napiszę",
-            "feminine": "niech napiszę",
-            "neuter": "niech napiszę"
-          },
-          "plural": {
-            "virile": "napiszmy",
-            "nonvirile": "napiszmy"
-          }
-        },
-        "2nd": {
-          "singular": {
-            "masculine": "napisz",
-            "feminine": "napisz",
-            "neuter": "napisz"
-          },
-          "plural": {
-            "virile": "napiszcie",
-            "nonvirile": "napiszcie"
-          }
-        },
-        "3rd": {
-          "singular": {
-            "masculine": "niech napisze",
-            "feminine": "niech napisze",
-            "neuter": "niech napisze"
-          },
-          "plural": {
-            "virile": "niech napiszą",
-            "nonvirile": "niech napiszą"
-          }
-        }
-      },
-      "passive adjectival participle": {
-        "singular": {
-          "masculine": "napisany",
-          "feminine": "napisana",
-          "neuter": "napisane"
-        },
-        "plural": {
-          "virile": "napisani",
-          "nonvirile": "napisane"
-        }
-      },
-      "anterior adverbial participle": {
-        "singular": {
-          "masculine": "napisawszy",
-          "feminine": "napisawszy",
-          "neuter": "napisawszy"
-        },
-        "plural": {
-          "virile": "napisawszy",
-          "nonvirile": "napisawszy"
-        }
-      },
-      "verbal noun": {
-        "singular": {
-          "masculine": "napisanie",
-          "feminine": "napisanie",
-          "neuter": "napisanie"
-        },
-        "plural": {
-          "virile": "napisanie",
-          "nonvirile": "napisanie"
-        }
-      }
     }
-  }
 ]
