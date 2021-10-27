@@ -1,6 +1,7 @@
 from datetime import timedelta
 from time import sleep
 from scraper_utils.common import *
+from semimanual_utils.Polish import generate_adjective
 
 shorthand_tag_refs = {"nouns": {
     "u": {
@@ -231,10 +232,10 @@ def untruncate_lemma_objects(group_numbers, wordtype):
     for group_number in group_numbers:
         res_arr = []
 
-        with open(f"../output_saved/{wordtype}/output_{wordtype}_{group_number}.json", "r") as f:
+        with open(f"output_saved/{wordtype}/output_{wordtype}_{group_number}.json", "r") as f:
             nouns_long = json.load(f)
             f.close()
-        with open(f"../output_saved/{wordtype}/truncated_{wordtype}_{group_number}.json", "r") as f:
+        with open(f"output_saved/{wordtype}/truncated_{wordtype}_{group_number}.json", "r") as f:
             nouns_truncated = json.load(f)
             f.close()
 
@@ -247,7 +248,7 @@ def untruncate_lemma_objects(group_numbers, wordtype):
 
             res_arr.append(lemma_object)
 
-        write_output(res_arr, f"untruncated_{wordtype}_{group_number}", f"../output_saved/{wordtype}")
+        write_output(res_arr, f"untruncated_{wordtype}_{group_number}", f"output_saved/{wordtype}")
 
 
 def scrape_word_data(
@@ -345,15 +346,28 @@ def scrape_word_data(
     write_output(result, filepaths["output"])
     write_output(rejected, filepaths["rejected"])
 
-    if "truncated" in filepaths and wordtype in ["nouns"]:
+    if wordtype == "adjectives":
+        adjectives = [generate_adjective(
+            lemma=protoadjective["lemma"],
+            translations_list=protoadjective["translations"],
+            comparative_type=protoadjective["comparative_type"],
+            pluvirnom_lemma=protoadjective["pluvirnom_lemma"],
+            adverb=protoadjective["adverb"],
+            comparative=protoadjective["comparative"],
+        ) for protoadjective in result]
+        result = adjectives
+
+    if "truncated" in filepaths:
         def get_truncated(lemma_object):
-            return {
+            truncated_lemma_object = {
                 "lemma": lemma_object["lemma"],
                 "tags": "xxxxxxxxx",
                 "translations": lemma_object["translations"],
                 "temp_id": str(lemma_object["temp_id"]),
-                "gender": lemma_object["gender"],
             }
+            if wordtype == "nouns":
+                truncated_lemma_object["gender"] = lemma_object["gender"]
+            return truncated_lemma_object
 
         truncated_result = [get_truncated(lemma_object) for lemma_object in result]
         write_output(truncated_result, filepaths["truncated"])

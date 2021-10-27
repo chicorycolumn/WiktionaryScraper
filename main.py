@@ -8,8 +8,13 @@ from input.Polish.verbs.head_words import input as verbs
 from semimanual_utils.Polish import *
 
 
+current_wordtype = "n"
+
+
 def get_verbs():
     wordtype = "verbs"
+    if current_wordtype != wordtype[0]:
+        return
 
     """
     Step 1: scrape_word_data()
@@ -37,17 +42,26 @@ def get_verbs():
 
 def get_adjectives():
     wordtype = "adjectives"
+    if current_wordtype != wordtype[0]:
+        return
 
     """
     Step 1: scrape_word_data()
+                        output_protoadjectives_99 CREATED
+                        rejected_protoadjectives_99 CREATED
+            generate_adjectives([99]) (run automatically)
                         output_adjectives_99 CREATED
-                        rejected_adjectives_99 CREATED
-
+                        truncated_adjectives_99 CREATED
+                        
     Step 2: Move to output_saved; manually add shorthand tags; whittle translations.
-                        output_adjectives_99 MODIFIED
+                        truncated_adjectives_99 MODIFIED
+                    
+    Step 3: untruncate_lemma_objects([99])
+                        untruncated_adjectives_99 CREATED
 
-    Step 3: generate_adjectives([99])
+    Step 4: fill_out_lemma_objects([99], wordtype)
                         finished_adjectives_99 CREATED
+                        
     """
 
     scrape_word_data(
@@ -59,11 +73,13 @@ def get_adjectives():
         use_sample=False,
     )
 
-    generate_adjectives([101], wordtype)
+    # generate_adjectives([101], wordtype)
 
 
 def get_nouns():
     wordtype = "nouns"
+    if current_wordtype != wordtype[0]:
+        return
 
     """
     Step 1: scrape_word_data()
@@ -99,5 +115,6 @@ def get_nouns():
 
 
 if __name__ == '__main__':
-    # get_nouns()
+    get_nouns()
     get_adjectives()
+    get_verbs()
