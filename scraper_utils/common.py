@@ -57,17 +57,12 @@ def recursively_count_strings(obj):
 
 def recursively_replace_keys_in_dict(dic, key_ref):
     def rrkid_inner(dic, key_ref):
-        print("### key_ref", key_ref)
         for key in copy.deepcopy(dic):
             value = dic[key]
-            print("}}}}", key)
             if key in key_ref:
-                print(">", key)
                 dic[key_ref[key]] = value
-                print(f"## Replaced {key} with {key_ref[key]}")
                 dic.pop(key)
             if type(value) is dict:
-                print(">>", key)
                 recursively_replace_keys_in_dict(value, key_ref)
 
     rrkid_inner(dic, key_ref)

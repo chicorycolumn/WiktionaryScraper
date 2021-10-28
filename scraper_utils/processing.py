@@ -199,10 +199,8 @@ def recursively_expand_tags(input_stags: list, ref: object):
     def ret_inner(input_tags: list):
         for tag in input_tags:
             if tag in ref:
-                print(111, tag)
                 ret_inner(ref[tag]["tags"])
             elif tag not in output_tags:
-                print(222, tag)
                 output_tags.append(tag)
 
     ret_inner(input_stags)

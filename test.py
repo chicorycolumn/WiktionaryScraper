@@ -180,25 +180,25 @@ def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample
             [
                 ("oogly", ["almost boogly", "a little woogly"], 0, ["oogli", "ooglji"])
             ],
-            "expected/adjectives/polish_adjectives_5"
+            "expected/adjectives/polish_adjectives_5a"
     ),
     (
             [
                 ("oogly", ["almost boogly", "a little woogly"], 1, ["oogli", "ooglji"], ["ooglo", "ooglie"], "ooglszy")
             ],
-            "expected/adjectives/polish_adjectives_6"
+            "expected/adjectives/polish_adjectives_5b"
     ),
     (
             [
                 ("oogly", ["almost boogly", "a little woogly"], 2, ["oogli", "ooglji"], ["ooglo", "ooglie"])
             ],
-            "expected/adjectives/polish_adjectives_7"
+            "expected/adjectives/polish_adjectives_5c"
     ),
     (
             [
                 ("oogly", ["almost boogly", "a little woogly"],3, ["oogli", "ooglji"], ["ooglo", "ooglie"], "ooglszy")
             ],
-            "expected/adjectives/polish_adjectives_8"
+            "expected/adjectives/polish_adjectives_5d"
     ),
 ])
 def test_generate_adjective(input_args_sets: list, expected_path: str):
