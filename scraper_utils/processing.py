@@ -3,7 +3,18 @@ from time import sleep
 from scraper_utils.common import *
 from semimanual_utils.Polish import generate_adjective
 
-shorthand_tag_refs = {"nouns": {
+shorthand_tag_refs = {
+    "k": {
+        "tags": ["colour"],
+        "topics": ["basic"],
+    },
+    "z": {
+        "tags": ["dimensions"],
+        "topics": ["basic"],
+    },
+
+    # # # # # # # # # # #
+
     "u": {
         "tags": ["uncountable"],
         "topics": [],
@@ -175,22 +186,22 @@ shorthand_tag_refs = {"nouns": {
         "tags": ["part of house", "concrete"],
         "topics": ["home", "inside"],
     }
-}}
+}
 
 
 def expand_tags_and_topics(group_numbers, wordtype):
     for group_number in group_numbers:
         res_arr = []
 
-        with open(f"output_saved/untruncated_nouns_{group_number}.json", "r") as f:
-            untruncated_nouns = json.load(f)
+        with open(f"output_saved/untruncated_{wordtype}_{group_number}.json", "r") as f:
+            untruncated_lobjs = json.load(f)
             f.close()
 
-        for lemma_object in untruncated_nouns:
-            add_tags_and_topics_from_shorthand(lemma_object, shorthand_tag_refs[wordtype])
+        for lemma_object in untruncated_lobjs:
+            add_tags_and_topics_from_shorthand(lemma_object, shorthand_tag_refs)
             res_arr.append(lemma_object)
 
-        write_output(res_arr, f"finished_nouns_{group_number}", "output_saved")
+        write_output(res_arr, f"finished_{wordtype}_{group_number}", "output_saved")
 
 
 def recursively_expand_tags(input_stags: list, ref: object):
@@ -230,15 +241,15 @@ def untruncate_lemma_objects(group_numbers, wordtype):
     for group_number in group_numbers:
         res_arr = []
 
-        with open(f"output_saved/{wordtype}/output_{wordtype}_{group_number}.json", "r") as f:
-            nouns_long = json.load(f)
+        with open(f"output_saved/output_{wordtype}_{group_number}.json", "r") as f:
+            lobjs_long = json.load(f)
             f.close()
-        with open(f"output_saved/{wordtype}/truncated_{wordtype}_{group_number}.json", "r") as f:
-            nouns_truncated = json.load(f)
+        with open(f"output_saved/truncated_{wordtype}_{group_number}.json", "r") as f:
+            lobjs_truncated = json.load(f)
             f.close()
 
-        for lemma_object in nouns_truncated:
-            lemma_object_long = [lol for lol in nouns_long if lol["temp_id"] == get_base_id(lemma_object["temp_id"])][0]
+        for lemma_object in lobjs_truncated:
+            lemma_object_long = [lol for lol in lobjs_long if lol["temp_id"] == get_base_id(lemma_object["temp_id"])][0]
 
             for key in lemma_object_long:
                 if key not in lemma_object:
@@ -246,7 +257,7 @@ def untruncate_lemma_objects(group_numbers, wordtype):
 
             res_arr.append(lemma_object)
 
-        write_output(res_arr, f"untruncated_{wordtype}_{group_number}", f"output_saved/{wordtype}")
+        write_output(res_arr, f"untruncated_{wordtype}_{group_number}", f"output_saved")
 
 
 def scrape_word_data(

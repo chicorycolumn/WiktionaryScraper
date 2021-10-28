@@ -73,7 +73,9 @@ def get_adjectives():
         use_sample=False,
     )
 
-    # generate_adjectives([101], wordtype)
+    untruncate_lemma_objects([44], wordtype)
+
+    expand_tags_and_topics([44], wordtype)
 
 
 def get_nouns():
