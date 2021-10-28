@@ -6,6 +6,10 @@ from scraper_utils.common import *
 from semimanual_utils.Polish import generate_adjective
 
 shorthand_tag_refs = {
+    "v": {
+        "tags": ["movement"],
+        "topics": [],
+    },
     "k": {
         "tags": ["colour"],
         "topics": ["basic"],
