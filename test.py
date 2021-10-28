@@ -143,38 +143,44 @@ def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample
 
 
 @pytest.mark.parametrize("input_args_sets,expected_path", [
+    # (
+    #         [
+    #             ("narodowy", ["national"], 0, ["narodowi"])
+    #         ],
+    #         "expected/adjectives/polish_adjectives_0"
+    # ),
+    # (
+    #         [
+    #             ("stary", ["old"], 1, ["starzy"], ["staro"], "starszy")
+    #         ],
+    #         "expected/adjectives/polish_adjectives_1"
+    # ),
+    # (
+    #         [
+    #             ("niebieski", ["blue"], 2, ["niebiescy"], ["niebiesko"])
+    #         ],
+    #         "expected/adjectives/polish_adjectives_2"
+    # ),
+    # (
+    #         [
+    #             ("czerwony", ["red"], 3, ["czerwoni"], ["czerwono"], "czerwieńszy")
+    #         ],
+    #         "expected/adjectives/polish_adjectives_3"
+    # ),
+    # (
+    #         [
+    #             ("narodowy", ["national"], 0, ["narodowi"]),
+    #             ("stary", ["old"], 1, ["starzy"], ["staro"], "starszy"),
+    #             ("niebieski", ["blue"], 2, ["niebiescy"], ["niebiesko"]),
+    #             ("czerwony", ["red"], 3, ["czerwoni"], ["czerwono"], "czerwieńszy")
+    #         ],
+    #         "expected/adjectives/polish_adjectives_4"
+    # ),
     (
             [
-                ("narodowy", ["national"], 0, ["narodowi"])
+                ("oogly", ["almost boogly", "a little woogly"], 0, ["oogli", "ooglji"])
             ],
-            "expected/adjectives/polish_adjectives_0"
-    ),
-    (
-            [
-                ("stary", ["old"], 1, ["starzy"], ["staro"], "starszy")
-            ],
-            "expected/adjectives/polish_adjectives_1"
-    ),
-    (
-            [
-                ("niebieski", ["blue"], 2, ["niebiescy"], ["niebiesko"])
-            ],
-            "expected/adjectives/polish_adjectives_2"
-    ),
-    (
-            [
-                ("czerwony", ["red"], 3, ["czerwoni"], ["czerwono"], "czerwieńszy")
-            ],
-            "expected/adjectives/polish_adjectives_3"
-    ),
-    (
-            [
-                ("narodowy", ["national"], 0, ["narodowi"]),
-                ("stary", ["old"], 1, ["starzy"], ["staro"], "starszy"),
-                ("niebieski", ["blue"], 2, ["niebiescy"], ["niebiesko"]),
-                ("czerwony", ["red"], 3, ["czerwoni"], ["czerwono"], "czerwieńszy")
-            ],
-            "expected/adjectives/polish_adjectives_4"
+            "expected/adjectives/polish_adjectives_5"
     ),
 ])
 def test_generate_adjective(input_args_sets: list, expected_path: str):

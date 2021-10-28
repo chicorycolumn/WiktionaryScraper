@@ -1,0 +1,76 @@
+[
+  {
+    "translations": {
+      "ENG": [
+        "almost boogly",
+        "a little woogly"
+      ]
+    },
+    "tags": "xxxxxxxxx",
+    "lemma": "oogly",
+    "id": null,
+    "inflections": {
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "oogly",
+            "gen": "ooglego",
+            "dat": "ooglemu",
+            "acc": "ooglego",
+            "ins": "ooglym",
+            "loc": "ooglym"
+          },
+          "m3": {
+            "nom": "oogly",
+            "gen": "ooglego",
+            "dat": "ooglemu",
+            "acc": "oogly",
+            "ins": "ooglym",
+            "loc": "ooglym"
+          },
+          "f": {
+            "nom": "oogla",
+            "gen": "ooglej",
+            "dat": "ooglej",
+            "acc": "ooglą",
+            "ins": "ooglą",
+            "loc": "ooglej"
+          },
+          "n": {
+            "nom": "oogle",
+            "gen": "ooglego",
+            "dat": "ooglemu",
+            "acc": "oogle",
+            "ins": "ooglym",
+            "loc": "ooglym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "oogli",
+                "ooglji"
+              ],
+              "additionalInfrequent": []
+            },
+            "gen": "ooglych",
+            "dat": "ooglym",
+            "acc": "ooglych",
+            "ins": "ooglymi",
+            "loc": "ooglych"
+          },
+          "nonvirile": {
+            "nom": "oogle",
+            "gen": "ooglych",
+            "dat": "ooglym",
+            "acc": "oogle",
+            "ins": "ooglymi",
+            "loc": "ooglych"
+          }
+        }
+      }
+    }
+  }
+]
