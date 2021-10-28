@@ -9,7 +9,8 @@ from semimanual_utils.Polish import *
 
 
 @pytest.mark.parametrize("input_path,expected_path", [
-    ("test_nouns_to_id_1.json", "expected_nouns_with_id_1.json")
+    ("test_nouns_to_id_1.json", "expected_nouns_with_id_1.json"),
+    ("test_verbs_to_id_1.json", "expected_verbs_with_id_1.json")
 ])
 def test_make_ids(input_path, expected_path):
     with open(f'expected/{input_path}', "r") as f:

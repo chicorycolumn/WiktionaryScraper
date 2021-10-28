@@ -1,0 +1,44 @@
+[
+  {
+    "lemma": "pisywać",
+    "aspect": "imperfective",
+    "id": "pol-ver-101-fr",
+    "secondary_aspects": [
+      "indeterminate",
+      "frequentative"
+    ],
+    "other_shapes": {
+      "perfective": [
+        "napisać"
+      ],
+      "imperfective": [
+        "pisać"
+      ]
+    }
+  },
+  {
+    "lemma": "pisać",
+    "aspect": "imperfective",
+    "id": "pol-ver-101-pf",
+    "secondary_aspects": [],
+    "other_shapes": {
+      "perfective": [
+        "napisać"
+      ],
+      "indeterminate": [
+        "pisywać"
+      ]
+    }
+  },
+  {
+    "lemma": "napisać",
+    "aspect": "perfective",
+    "id": "pol-ver-101-im",
+    "secondary_aspects": [],
+    "other_shapes": {
+      "imperfective": [
+        "pisać"
+      ]
+    }
+  }
+]

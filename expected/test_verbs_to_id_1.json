@@ -1,0 +1,44 @@
+[
+  {
+    "lemma": "pisywać",
+    "aspect": "imperfective",
+    "temp_id": "333.1",
+    "secondary_aspects": [
+      "indeterminate",
+      "frequentative"
+    ],
+    "other_shapes": {
+      "perfective": [
+        "napisać"
+      ],
+      "imperfective": [
+        "pisać"
+      ]
+    }
+  },
+  {
+    "lemma": "pisać",
+    "aspect": "imperfective",
+    "temp_id": "333.2",
+    "secondary_aspects": [],
+    "other_shapes": {
+      "perfective": [
+        "napisać"
+      ],
+      "indeterminate": [
+        "pisywać"
+      ]
+    }
+  },
+  {
+    "lemma": "napisać",
+    "aspect": "perfective",
+    "temp_id": "333.3",
+    "secondary_aspects": [],
+    "other_shapes": {
+      "imperfective": [
+        "pisać"
+      ]
+    }
+  }
+]
