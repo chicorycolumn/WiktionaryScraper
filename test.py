@@ -9,82 +9,28 @@ from semimanual_utils.Polish import *
 
 
 @pytest.mark.parametrize("input_path,expected_path", [
-    (
-            [
-                {
-                    "lemma": "zamek",
-                    "tags": "xxxxxxxxx",
-                    "translations": {
-                        "ENG": [
-                            "lock",
-                            "zip fastener zipper zip"
-                        ]
-                    },
-                    "temp_id": "333.1",
-                    "gender": "m3"
-                },
-                {
-                    "lemma": "zamek",
-                    "tags": "xxxxxxxxx",
-                    "translations": {
-                        "ENG": [
-                            "castle"
-                        ]
-                    },
-                    "temp_id": "333.2",
-                    "gender": "m3"
-                },
-                {
-                    "lemma": "mysz",
-                    "tags": "xxxxxxxxx",
-                    "translations": {
-                        "ENG": [
-                            "mouse"
-                        ]
-                    },
-                    "temp_id": "333.3",
-                    "gender": "f"
-                }
-            ],
-            [
-                {
-                    "lemma": "zamek",
-                    "tags": "xxxxxxxxx",
-                    "translations": {
-                        "ENG": [
-                            "lock",
-                            "zip fastener zipper zip"
-                        ]
-                    },
-                    "id": "pol-nco-001-zamek",
-                    "gender": "m3"
-                },
-                {
-                    "lemma": "zamek",
-                    "tags": "xxxxxxxxx",
-                    "translations": {
-                        "ENG": [
-                            "castle"
-                        ]
-                    },
-                    "id": "pol-nco-002-zamek",
-                    "gender": "m3"
-                },
-                {
-                    "lemma": "mysz",
-                    "tags": "xxxxxxxxx",
-                    "translations": {
-                        "ENG": [
-                            "mouse"
-                        ]
-                    },
-                    "id": "pol-nco-003-mysz",
-                    "gender": "f"
-                }
-            ]
-    )])
-def test_make_ids(input, expected):
-    actual = make_ids(input)
+    ("test_nouns_to_id_1.json", "expected_nouns_with_id_1.json")
+])
+def test_make_ids(input_path, expected_path):
+    with open(f'expected/{input_path}', "r") as f:
+        input = json.load(f)
+        f.close()
+
+    with open(f'expected/{expected_path}', "r") as f:
+        expected = json.load(f)
+        f.close()
+
+    existing_lemma_objects = []
+    path = "expected/mock_existing"
+    for root, dirs, files in os.walk(path):
+        for file in files:
+            print(file)
+            with open(f'{path}/{file}', "r") as f:
+                loaded = json.load(f)
+                existing_lemma_objects.extend(loaded)
+                f.close()
+
+    actual = make_ids("nouns", input, existing_lemma_objects)
     assert actual == expected
 
 

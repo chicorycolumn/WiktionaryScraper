@@ -199,6 +199,68 @@ shorthand_tag_refs = {
 }
 
 
+def make_ids(wordtype, lemma_objects, existing_lemma_objects):
+    res_arr = []
+
+    if wordtype == "nouns":
+        for lemma_object in lemma_objects:
+            if lemma_object["gender"] == "m1":
+                lemma_object["isPerson"] = True
+
+    id_number_counts = {
+        "nou": 0,
+        "npr": 0,
+        "ver": 0,
+        "adj": 0,
+    }
+    for elobj in existing_lemma_objects:
+        split = elobj["id"].split("-")
+        lang = split[0]
+        wordtypeshortcode = split[1]
+        number = split[2]
+        if lang != "pol":
+            raise Exception("220")
+        if int(number) > id_number_counts[wordtypeshortcode]:
+            id_number_counts[wordtypeshortcode] = int(number)
+
+    for lemma_object in lemma_objects:
+        if wordtype == "adjectives":
+            wordtypeshortcode = "adj"
+        elif wordtype == "verbs":
+            wordtypeshortcode = "ver"
+        elif wordtype == "nouns":
+            wordtypeshortcode = "npr" if lemma_object["lemma"][0] == lemma_object["lemma"][0].upper() else "nou"
+
+        number = id_number_counts[wordtypeshortcode] + 1
+        id = f'{"pol"}-{wordtypeshortcode}-{"{0:03}".format(number)}-{lemma_object["lemma"]}'
+
+        for elobj in res_arr:
+            if elobj["id"][0:13] == id[0:13] and not id.endswith("*"):
+                id += "*"
+            if not elobj["id"].endswith("*"):
+                elobj["id"] += "*"
+        for elobj in existing_lemma_objects:
+            if elobj["id"][0:13] == id[0:13] and not id.endswith("*"):
+                id += "*"
+            if not elobj["id"].endswith("*"):
+                with open("TODO.txt", "a") as f:
+                    f.write(
+                        "\n" +
+                        f'Give asterisk to "{elobj["id"]}".'
+                        + "\n"
+                    )
+                    f.close()
+
+        lemma_object["id"] = id
+        lemma_object.pop("temp_id")
+        res_arr.append(lemma_object)
+        id_number_counts[wordtypeshortcode] += 1
+
+    return res_arr
+
+
+
+
 def expand_tags_and_topics(group_number, wordtype):
     res_arr = []
 
