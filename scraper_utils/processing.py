@@ -236,34 +236,32 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
     lemma_object["topics"] = topics
 
 
-def finalise_lemma_objects(group_numbers, wordtype):
-    untruncate_lemma_objects(group_numbers, wordtype)
-    for group_number in group_numbers:
-        res_arr = expand_tags_and_topics(group_number, wordtype)
-        write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved/{wordtype}")
+def finalise_lemma_objects(group_number, wordtype):
+    untruncate_lemma_objects(group_number, wordtype)
+    res_arr = expand_tags_and_topics(group_number, wordtype)
+    write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved/{wordtype}")
 
 
-def untruncate_lemma_objects(group_numbers, wordtype):
-    for group_number in group_numbers:
-        res_arr = []
+def untruncate_lemma_objects(group_number, wordtype):
+    res_arr = []
 
-        with open(f"output_saved/output_{wordtype}_{group_number}.json", "r") as f:
-            lobjs_long = json.load(f)
-            f.close()
-        with open(f"output_saved/truncated_{wordtype}_{group_number}.json", "r") as f:
-            lobjs_truncated = json.load(f)
-            f.close()
+    with open(f"output_saved/output_{wordtype}_{group_number}.json", "r") as f:
+        lobjs_long = json.load(f)
+        f.close()
+    with open(f"output_saved/truncated_{wordtype}_{group_number}.json", "r") as f:
+        lobjs_truncated = json.load(f)
+        f.close()
 
-        for lemma_object in lobjs_truncated:
-            lemma_object_long = [lol for lol in lobjs_long if lol["temp_id"] == get_base_id(lemma_object["temp_id"])][0]
+    for lemma_object in lobjs_truncated:
+        lemma_object_long = [lol for lol in lobjs_long if lol["temp_id"] == get_base_id(lemma_object["temp_id"])][0]
 
-            for key in lemma_object_long:
-                if key not in lemma_object:
-                    lemma_object[key] = lemma_object_long[key]
+        for key in lemma_object_long:
+            if key not in lemma_object:
+                lemma_object[key] = lemma_object_long[key]
 
-            res_arr.append(lemma_object)
+        res_arr.append(lemma_object)
 
-        write_output(res_arr, f"untruncated_{wordtype}_{group_number}", f"output_saved")
+    write_output(res_arr, f"untruncated_{wordtype}_{group_number}", f"output_saved")
 
 
 def scrape_word_data(
