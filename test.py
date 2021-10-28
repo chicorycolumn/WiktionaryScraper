@@ -9,6 +9,86 @@ from semimanual_utils.Polish import *
 
 
 @pytest.mark.parametrize("input_path,expected_path", [
+    (
+            [
+                {
+                    "lemma": "zamek",
+                    "tags": "xxxxxxxxx",
+                    "translations": {
+                        "ENG": [
+                            "lock",
+                            "zip fastener zipper zip"
+                        ]
+                    },
+                    "temp_id": "333.1",
+                    "gender": "m3"
+                },
+                {
+                    "lemma": "zamek",
+                    "tags": "xxxxxxxxx",
+                    "translations": {
+                        "ENG": [
+                            "castle"
+                        ]
+                    },
+                    "temp_id": "333.2",
+                    "gender": "m3"
+                },
+                {
+                    "lemma": "mysz",
+                    "tags": "xxxxxxxxx",
+                    "translations": {
+                        "ENG": [
+                            "mouse"
+                        ]
+                    },
+                    "temp_id": "333.3",
+                    "gender": "f"
+                }
+            ],
+            [
+                {
+                    "lemma": "zamek",
+                    "tags": "xxxxxxxxx",
+                    "translations": {
+                        "ENG": [
+                            "lock",
+                            "zip fastener zipper zip"
+                        ]
+                    },
+                    "id": "pol-nco-001-zamek",
+                    "gender": "m3"
+                },
+                {
+                    "lemma": "zamek",
+                    "tags": "xxxxxxxxx",
+                    "translations": {
+                        "ENG": [
+                            "castle"
+                        ]
+                    },
+                    "id": "pol-nco-002-zamek",
+                    "gender": "m3"
+                },
+                {
+                    "lemma": "mysz",
+                    "tags": "xxxxxxxxx",
+                    "translations": {
+                        "ENG": [
+                            "mouse"
+                        ]
+                    },
+                    "id": "pol-nco-003-mysz",
+                    "gender": "f"
+                }
+            ]
+    )])
+def test_make_ids(input, expected):
+    actual = make_ids(input)
+    assert actual == expected
+
+
+@pytest.mark.parametrize("input_path,expected_path", [
     ("parsed_polish_protoverbs_0", "minimised_polish_verbs_0"),  # impf frequentative: pisywać
     ("parsed_polish_protoverbs_1", "minimised_polish_verbs_1"),  # impf: pisać
     ("parsed_polish_protoverbs_2", "minimised_polish_verbs_2"),  # pf: napisać
@@ -40,12 +120,12 @@ def test_polish_verb_minimiser(input_path: str, expected_path: str, wordtype: st
 
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
-    (["pisywać"], "parsed_polish_protoverbs_0", True), #impf frequentative
+    (["pisywać"], "parsed_polish_protoverbs_0", True),  # impf frequentative
     (["pisać"], "parsed_polish_protoverbs_1", True),  # impf
-    (["napisać"], "parsed_polish_protoverbs_2", True), #pf
-    (["czytać"], "parsed_polish_protoverbs_3", True), #impf
-    (["przeczytać"], "parsed_polish_protoverbs_4", True), #pf
-    (["badać", "zbadać", "widzieć", "zobaczyć"], "parsed_polish_protoverbs_5", True), #various
+    (["napisać"], "parsed_polish_protoverbs_2", True),  # pf
+    (["czytać"], "parsed_polish_protoverbs_3", True),  # impf
+    (["przeczytać"], "parsed_polish_protoverbs_4", True),  # pf
+    (["badać", "zbadać", "widzieć", "zobaczyć"], "parsed_polish_protoverbs_5", True),  # various
 ])
 def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "verbs"):
     print(f'# Starting, given {len(input_words)} words.')
@@ -196,7 +276,7 @@ def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample
     ),
     (
             [
-                ("oogly", ["almost boogly", "a little woogly"],3, ["oogli", "ooglji"], ["ooglo", "ooglie"], "ooglszy")
+                ("oogly", ["almost boogly", "a little woogly"], 3, ["oogli", "ooglji"], ["ooglo", "ooglie"], "ooglszy")
             ],
             "expected/adjectives/polish_adjectives_5d"
     ),
