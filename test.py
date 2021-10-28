@@ -72,7 +72,7 @@ def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: boo
         no_temp_ids=True
     )
 
-    with open(f'output/{output_path}.json', 'r') as f:
+    with open(f'output/{output_path}_scraped.json', 'r') as f:
         actual = json.load(f)
         f.close()
 
@@ -125,7 +125,7 @@ def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample
         no_temp_ids=True
     )
 
-    with open(f'output/{output_path}.json', 'r') as f:
+    with open(f'output/{output_path}_scraped.json', 'r') as f:
         actual = json.load(f)
         f.close()
 
