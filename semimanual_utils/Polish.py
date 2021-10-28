@@ -78,38 +78,11 @@ def recursively_prefix_string_values(obj, prefix):
             recursively_prefix_string_values(value, prefix)
 
 
-def generate_adjectives(group_numbers: int, wordtype: str):
-    for group_number in group_numbers:
-        res_arr = []
-
-        with open(f"output_saved/{wordtype}/output_{wordtype}_{group_number}.json", "r") as f:
-            protoadjectives = json.load(f)
-            f.close()
-
-        for protoadjective in protoadjectives:
-            args = [
-                protoadjective["lemma"],
-                protoadjective["translations"],
-                protoadjective["comparative_type"],
-                protoadjective["pluvirnom"],
-            ]
-
-            for key in ["adverb", "comparative"]:
-                if key in protoadjective:
-                    args.append(protoadjective[key])
-
-            adjective = generate_adjective(*args)
-
-            res_arr.append(adjective)
-
-        write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved/{wordtype}")
-
-
 def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma: list, adverb: list = [], comparative: str = None, lemma_object: dict = None):
-    # narodowy  comparative_type 0  is NOT COMPARABLE and has no adverb.
-    # stary     comparative_type 1  has REGULAR comparative/superlative (starszy, najstarszy).
-    # niebieski comparative_type 2  has COMPOUND comparative/superlative (bardziej niebieski, najbardziej niebieski).
-    # czerwony  comparative_type 3  has REGULAR AND COMPOUND comparative/superlative.
+    # comparative_type 0   'narodowy'   is NOT COMPARABLE and has no adverb.
+    # comparative_type 1   'stary'      has REGULAR comparative+superlative (starszy, najstarszy).
+    # comparative_type 2   'niebieski'  has COMPOUND comparative+superlative (bardziej niebieski, najbardziej niebieski).
+    # comparative_type 3   'czerwony'   has REGULAR AND COMPOUND comparative+superlative.
 
     lemma_mod_1 = lemma[0:-1] if lemma[-1] == "y" else lemma
     lemma_mod_2 = lemma[0:-1]

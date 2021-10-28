@@ -4,6 +4,7 @@ import urllib.request as urllib2
 import urllib as urllib
 from datetime import datetime
 import re
+import os
 
 
 def trim_chaff_from_derived_terms(string, lemma):
@@ -73,6 +74,9 @@ def get_base_id(id):
 
 
 def write_output(dict: dict = {}, output_file: str = "output", folder: str = "output", full_output_path: str = None):
+    if not os.path.isdir(folder):
+        os.mkdir(folder)
+
     json_object = json.dumps(dict, indent=4, ensure_ascii=False)
 
     if not full_output_path:
