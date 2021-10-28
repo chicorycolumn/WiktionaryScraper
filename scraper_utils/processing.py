@@ -1,5 +1,7 @@
 from datetime import timedelta
 from time import sleep
+
+from scraper_utils.Polish import minimise_inflections
 from scraper_utils.common import *
 from semimanual_utils.Polish import generate_adjective
 
@@ -360,7 +362,7 @@ def scrape_word_data(
 
     if wordtype == "adjectives":
         write_output(result, f'{filepaths["output"]}_protoadjective')
-        adjectives = [generate_adjective(
+        generated_adjectives = [generate_adjective(
             lemma=protoadjective["lemma"],
             translations_list=protoadjective["translations"],
             comparative_type=protoadjective["comparative_type"],
@@ -369,7 +371,11 @@ def scrape_word_data(
             comparative=protoadjective["comparative"] if "comparative" in protoadjective else [],
             lemma_object=protoadjective
         ) for protoadjective in result]
-        result = adjectives
+        result = generated_adjectives
+    elif wordtype == "verbs":
+        write_output(result, f'{filepaths["output"]}_fullverb')
+        minimised_verbs = [minimise_inflections(fullverb) for fullverb in result]
+        result = minimised_verbs
 
     write_output(result, filepaths["output"])
 

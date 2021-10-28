@@ -78,18 +78,6 @@ def recursively_prefix_string_values(obj, prefix):
             recursively_prefix_string_values(value, prefix)
 
 
-
-def generate_verbs(group_numbers: int, wordtype: str):
-    for group_number in group_numbers:
-        with open(f"output_saved/{wordtype}/output_{wordtype}_{group_number}.json", "r") as f:
-            protoverbs = json.load(f)
-            f.close()
-
-        minimised_verbs = [minimise_inflections(protoverb) for protoverb in protoverbs]
-
-        write_output(minimised_verbs, f"finished_{wordtype}_{group_number}", f"output_saved/{wordtype}")
-
-
 def generate_adjectives(group_numbers: int, wordtype: str):
     for group_number in group_numbers:
         res_arr = []

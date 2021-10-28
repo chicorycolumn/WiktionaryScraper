@@ -13,13 +13,19 @@ def get_verbs(head_words, group_number, step):
 
     """
     Step 1: scrape_word_data()
-                        output_verbs_99 CREATED
                         rejected_verbs_99 CREATED
+                        output_fullverbs_99 CREATED (only useful if minimise_verbs has error)
+                    minimise_verbs()
+                        output_verbs_99 CREATED
+                        truncated_verbs_99 CREATED
 
-    Step 2: Move to output_saved; manually add shorthand tags; format translations.
-                        output_verbs_99 MODIFIED
+    Step 2: Move the three files to output_saved; manually add shorthand tags; format translations.
+                        truncated_verbs_99 MODIFIED
 
-    Step 3: generate_verbs([99])
+    Step 3: finalise_lemma_objects()
+                untruncate_lemma_objects()
+                        untruncated_verbs_99 CREATED
+                expand_tags_and_topics()
                         finished_verbs_99 CREATED
     """
 
@@ -33,7 +39,7 @@ def get_verbs(head_words, group_number, step):
             use_sample=False,
         )
     elif step == 3:
-        generate_verbs([101], wordtype)
+        finalise_lemma_objects(group_number, wordtype)
 
 
 def get_adjectives(head_words, group_number, step):
@@ -43,17 +49,17 @@ def get_adjectives(head_words, group_number, step):
     Step 1: scrape_word_data()
                         output_protoadjectives_99 CREATED (only useful is generate_adjectives had error)
                         rejected_protoadjectives_99 CREATED
-                generate_adjectives([99])
+                generate_adjectives()
                         output_adjectives_99 CREATED
                         truncated_adjectives_99 CREATED
                         
     Step 2: Move the three files to output_saved; manually add shorthand tags; whittle translations.
                         truncated_adjectives_99 MODIFIED
                     
-    Step 3: finalise_lemma_objects([99])
-                untruncate_lemma_objects([99])
+    Step 3: finalise_lemma_objects()
+                untruncate_lemma_objects()
                         untruncated_adjectives_99 CREATED
-                expand_tags_and_topics([99], wordtype)
+                expand_tags_and_topics()
                         finished_adjectives_99 CREATED
                         
     """
@@ -84,10 +90,10 @@ def get_nouns(head_words, group_number, step):
     Step 2: Move all three files to output_saved; manually add shorthand tags; whittle translations.
                         truncated_nouns_99 MODIFIED
                     
-    Step 3: finalise_lemma_objects([99])
-                untruncate_lemma_objects([99])
+    Step 3: finalise_lemma_objects()
+                untruncate_lemma_objects()
                         untruncated_nouns_99 CREATED
-                expand_tags_and_topics([99], wordtype)
+                expand_tags_and_topics()
                         finished_nouns_99 CREATED
 
     # Group 1 = words 00 -  50
@@ -108,9 +114,9 @@ def get_nouns(head_words, group_number, step):
 
 
 if __name__ == '__main__':
-    wordtype = "adj"
+    wordtype = "v"
     group_number = 333
-    input_indexes = []
+    input_indexes = [0,5]
     step = 1
 
     if wordtype[0] == "a":
