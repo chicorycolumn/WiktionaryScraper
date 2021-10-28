@@ -143,44 +143,62 @@ def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample
 
 
 @pytest.mark.parametrize("input_args_sets,expected_path", [
-    # (
-    #         [
-    #             ("narodowy", ["national"], 0, ["narodowi"])
-    #         ],
-    #         "expected/adjectives/polish_adjectives_0"
-    # ),
-    # (
-    #         [
-    #             ("stary", ["old"], 1, ["starzy"], ["staro"], "starszy")
-    #         ],
-    #         "expected/adjectives/polish_adjectives_1"
-    # ),
-    # (
-    #         [
-    #             ("niebieski", ["blue"], 2, ["niebiescy"], ["niebiesko"])
-    #         ],
-    #         "expected/adjectives/polish_adjectives_2"
-    # ),
-    # (
-    #         [
-    #             ("czerwony", ["red"], 3, ["czerwoni"], ["czerwono"], "czerwieńszy")
-    #         ],
-    #         "expected/adjectives/polish_adjectives_3"
-    # ),
-    # (
-    #         [
-    #             ("narodowy", ["national"], 0, ["narodowi"]),
-    #             ("stary", ["old"], 1, ["starzy"], ["staro"], "starszy"),
-    #             ("niebieski", ["blue"], 2, ["niebiescy"], ["niebiesko"]),
-    #             ("czerwony", ["red"], 3, ["czerwoni"], ["czerwono"], "czerwieńszy")
-    #         ],
-    #         "expected/adjectives/polish_adjectives_4"
-    # ),
+    (
+            [
+                ("narodowy", ["national"], 0, ["narodowi"])
+            ],
+            "expected/adjectives/polish_adjectives_0"
+    ),
+    (
+            [
+                ("stary", ["old"], 1, ["starzy"], ["staro"], "starszy")
+            ],
+            "expected/adjectives/polish_adjectives_1"
+    ),
+    (
+            [
+                ("niebieski", ["blue"], 2, ["niebiescy"], ["niebiesko"])
+            ],
+            "expected/adjectives/polish_adjectives_2"
+    ),
+    (
+            [
+                ("czerwony", ["red"], 3, ["czerwoni"], ["czerwono"], "czerwieńszy")
+            ],
+            "expected/adjectives/polish_adjectives_3"
+    ),
+    (
+            [
+                ("narodowy", ["national"], 0, ["narodowi"]),
+                ("stary", ["old"], 1, ["starzy"], ["staro"], "starszy"),
+                ("niebieski", ["blue"], 2, ["niebiescy"], ["niebiesko"]),
+                ("czerwony", ["red"], 3, ["czerwoni"], ["czerwono"], "czerwieńszy")
+            ],
+            "expected/adjectives/polish_adjectives_4"
+    ),
     (
             [
                 ("oogly", ["almost boogly", "a little woogly"], 0, ["oogli", "ooglji"])
             ],
             "expected/adjectives/polish_adjectives_5"
+    ),
+    (
+            [
+                ("oogly", ["almost boogly", "a little woogly"], 1, ["oogli", "ooglji"], ["ooglo", "ooglie"], "ooglszy")
+            ],
+            "expected/adjectives/polish_adjectives_6"
+    ),
+    (
+            [
+                ("oogly", ["almost boogly", "a little woogly"], 2, ["oogli", "ooglji"], ["ooglo", "ooglie"])
+            ],
+            "expected/adjectives/polish_adjectives_7"
+    ),
+    (
+            [
+                ("oogly", ["almost boogly", "a little woogly"],3, ["oogli", "ooglji"], ["ooglo", "ooglie"], "ooglszy")
+            ],
+            "expected/adjectives/polish_adjectives_8"
     ),
 ])
 def test_generate_adjective(input_args_sets: list, expected_path: str):
@@ -190,7 +208,7 @@ def test_generate_adjective(input_args_sets: list, expected_path: str):
 
     actual_adjectives = [generate_adjective(*input_args) for input_args in input_args_sets]
 
-    write_output(actual_adjectives, "polish_adjectives_4_updated", "expected/adjectives")
+    write_output(actual_adjectives, expected_path.split("/")[-1], "output")
 
     assert actual_adjectives == expected_adjectives
 

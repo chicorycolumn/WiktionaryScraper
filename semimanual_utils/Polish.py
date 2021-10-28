@@ -16,13 +16,17 @@ def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
     for key, value in dict1.items():
         keypath.append(key)
 
-        print("swde1", key, value)
+        if type(value) in [str, list] or (type(value) is dict and "isTerminus" in value and value["isTerminus"]):
+            normal = []
+            additionalInfrequent = []
 
-        if type(value) in [str, list]:
             if type(value) == str:
                 normal = [value]
             elif type(value) == list:
                 normal = value[:]
+            elif type(value) == dict:
+                normal = value["normal"][:]
+                additionalInfrequent = value["additionalInfrequent"][:] if "additionalInfrequent" in value else []
 
             dict2_value = get_value_from_keypath(dict2, keypath)
 
@@ -32,18 +36,29 @@ def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
             elif type(dict2_value) == list:
                 normal.extend(dict2_value)
                 normal.reverse()
+            elif type(dict2_value) == dict and "isTerminus" in dict2_value and dict2_value["isTerminus"]:
+                normal.extend(dict2_value["normal"] if "normal" in dict2_value else [])
+                additionalInfrequent.extend(dict2_value["additionalInfrequent"] if "additionalInfrequent" in dict2_value else [])
             else:
                 raise Exception(f"Unexpected type {type(dict2_value)} at keypath {keypath}.")
 
-            get_value_from_keypath(dict1, keypath[:-1])[key] = {
+            terminus_object = {
                 "isTerminus": True,
-                "normal": normal
+                "normal": normal,
             }
+
+            if additionalInfrequent:
+                terminus_object["additionalInfrequent"] = additionalInfrequent
+
+            get_value_from_keypath(dict1, keypath[:-1])[key] = terminus_object
+
+
+
 
         elif type(value) == dict:
             recursively_combine_string_values_into_terminus_objects(value, get_value_from_keypath(dict2, keypath))
         else:
-            raise Exception(f"Unexpected type {type(dict2_value)} at keypath {keypath}.")
+            raise Exception(f"Unexpected type {type(value)} of {value} at keypath {keypath}.")
 
         keypath.pop()
 

@@ -1,0 +1,200 @@
+[
+  {
+    "translations": {
+      "ENG": [
+        "almost boogly",
+        "a little woogly"
+      ]
+    },
+    "tags": "xxxxxxxxx",
+    "lemma": "oogly",
+    "id": null,
+    "inflections": {
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "oogly",
+            "gen": "ooglego",
+            "dat": "ooglemu",
+            "acc": "ooglego",
+            "ins": "ooglym",
+            "loc": "ooglym"
+          },
+          "m3": {
+            "nom": "oogly",
+            "gen": "ooglego",
+            "dat": "ooglemu",
+            "acc": "oogly",
+            "ins": "ooglym",
+            "loc": "ooglym"
+          },
+          "f": {
+            "nom": "oogla",
+            "gen": "ooglej",
+            "dat": "ooglej",
+            "acc": "ooglą",
+            "ins": "ooglą",
+            "loc": "ooglej"
+          },
+          "n": {
+            "nom": "oogle",
+            "gen": "ooglego",
+            "dat": "ooglemu",
+            "acc": "oogle",
+            "ins": "ooglym",
+            "loc": "ooglym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "oogli",
+                "ooglji"
+              ],
+              "additionalInfrequent": []
+            },
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "oogli",
+                "ooglji"
+              ],
+              "additionalInfrequent": []
+            },
+            "gen": "ooglych",
+            "dat": "ooglym",
+            "acc": "ooglych",
+            "ins": "ooglymi",
+            "loc": "ooglych"
+          },
+          "nonvirile": {
+            "nom": "oogle",
+            "gen": "ooglych",
+            "dat": "ooglym",
+            "acc": "oogle",
+            "ins": "ooglymi",
+            "loc": "ooglych"
+          }
+        }
+      },
+      "adverb": {
+        "isTerminus": true,
+        "normal": [
+          "ooglo",
+          "ooglie"
+        ],
+        "additionalInfrequent": []
+      },
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "ooglszy",
+            "gen": "ooglszego",
+            "dat": "ooglszemu",
+            "acc": "ooglszego",
+            "ins": "ooglszym",
+            "loc": "ooglszym"
+          },
+          "m3": {
+            "nom": "ooglszy",
+            "gen": "ooglszego",
+            "dat": "ooglszemu",
+            "acc": "ooglszy",
+            "ins": "ooglszym",
+            "loc": "ooglszym"
+          },
+          "f": {
+            "nom": "ooglsza",
+            "gen": "ooglszej",
+            "dat": "ooglszej",
+            "acc": "ooglszą",
+            "ins": "ooglszą",
+            "loc": "ooglszej"
+          },
+          "n": {
+            "nom": "ooglsze",
+            "gen": "ooglszego",
+            "dat": "ooglszemu",
+            "acc": "ooglsze",
+            "ins": "ooglszym",
+            "loc": "ooglszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "ooglsi",
+            "gen": "ooglszych",
+            "dat": "ooglszym",
+            "acc": "ooglszych",
+            "ins": "ooglszymi",
+            "loc": "ooglszych"
+          },
+          "nonvirile": {
+            "nom": "ooglsze",
+            "gen": "ooglszych",
+            "dat": "ooglszym",
+            "acc": "ooglsze",
+            "ins": "ooglszymi",
+            "loc": "ooglszych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najooglszy",
+            "gen": "najooglszego",
+            "dat": "najooglszemu",
+            "acc": "najooglszego",
+            "ins": "najooglszym",
+            "loc": "najooglszym"
+          },
+          "m3": {
+            "nom": "najooglszy",
+            "gen": "najooglszego",
+            "dat": "najooglszemu",
+            "acc": "najooglszy",
+            "ins": "najooglszym",
+            "loc": "najooglszym"
+          },
+          "f": {
+            "nom": "najooglsza",
+            "gen": "najooglszej",
+            "dat": "najooglszej",
+            "acc": "najooglszą",
+            "ins": "najooglszą",
+            "loc": "najooglszej"
+          },
+          "n": {
+            "nom": "najooglsze",
+            "gen": "najooglszego",
+            "dat": "najooglszemu",
+            "acc": "najooglsze",
+            "ins": "najooglszym",
+            "loc": "najooglszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najooglsi",
+            "gen": "najooglszych",
+            "dat": "najooglszym",
+            "acc": "najooglszych",
+            "ins": "najooglszymi",
+            "loc": "najooglszych"
+          },
+          "nonvirile": {
+            "nom": "najooglsze",
+            "gen": "najooglszych",
+            "dat": "najooglszym",
+            "acc": "najooglsze",
+            "ins": "najooglszymi",
+            "loc": "najooglszych"
+          }
+        }
+      }
+    }
+  }
+]

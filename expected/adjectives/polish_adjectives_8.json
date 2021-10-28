@@ -1,0 +1,626 @@
+[
+  {
+    "translations": {
+      "ENG": [
+        "almost boogly",
+        "a little woogly"
+      ]
+    },
+    "tags": "xxxxxxxxx",
+    "lemma": "oogly",
+    "id": null,
+    "inflections": {
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "oogly",
+            "gen": "ooglego",
+            "dat": "ooglemu",
+            "acc": "ooglego",
+            "ins": "ooglym",
+            "loc": "ooglym"
+          },
+          "m3": {
+            "nom": "oogly",
+            "gen": "ooglego",
+            "dat": "ooglemu",
+            "acc": "oogly",
+            "ins": "ooglym",
+            "loc": "ooglym"
+          },
+          "f": {
+            "nom": "oogla",
+            "gen": "ooglej",
+            "dat": "ooglej",
+            "acc": "ooglą",
+            "ins": "ooglą",
+            "loc": "ooglej"
+          },
+          "n": {
+            "nom": "oogle",
+            "gen": "ooglego",
+            "dat": "ooglemu",
+            "acc": "oogle",
+            "ins": "ooglym",
+            "loc": "ooglym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "oogli",
+                "ooglji"
+              ],
+              "additionalInfrequent": []
+            },
+            "gen": "ooglych",
+            "dat": "ooglym",
+            "acc": "ooglych",
+            "ins": "ooglymi",
+            "loc": "ooglych"
+          },
+          "nonvirile": {
+            "nom": "oogle",
+            "gen": "ooglych",
+            "dat": "ooglym",
+            "acc": "oogle",
+            "ins": "ooglymi",
+            "loc": "ooglych"
+          }
+        }
+      },
+      "adverb": {
+        "isTerminus": true,
+        "normal": [
+          "ooglo",
+          "ooglie"
+        ],
+        "additionalInfrequent": []
+      },
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszy",
+                "bardziej oogly"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszego",
+                "bardziej ooglego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszemu",
+                "bardziej ooglemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszego",
+                "bardziej ooglego"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszym",
+                "bardziej ooglym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszym",
+                "bardziej ooglym"
+              ]
+            }
+          },
+          "m3": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszy",
+                "bardziej oogly"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszego",
+                "bardziej ooglego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszemu",
+                "bardziej ooglemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszy",
+                "bardziej oogly"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszym",
+                "bardziej ooglym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszym",
+                "bardziej ooglym"
+              ]
+            }
+          },
+          "f": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "ooglsza",
+                "bardziej oogla"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszej",
+                "bardziej ooglej"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszej",
+                "bardziej ooglej"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszą",
+                "bardziej ooglą"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszą",
+                "bardziej ooglą"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszej",
+                "bardziej ooglej"
+              ]
+            }
+          },
+          "n": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "ooglsze",
+                "bardziej oogle"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszego",
+                "bardziej ooglego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszemu",
+                "bardziej ooglemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "ooglsze",
+                "bardziej oogle"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszym",
+                "bardziej ooglym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszym",
+                "bardziej ooglym"
+              ]
+            }
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "ooglsi",
+                "bardziej ooglji",
+                "bardziej oogli"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszych",
+                "bardziej ooglych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszym",
+                "bardziej ooglym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszych",
+                "bardziej ooglych"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszymi",
+                "bardziej ooglymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszych",
+                "bardziej ooglych"
+              ]
+            }
+          },
+          "nonvirile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "ooglsze",
+                "bardziej oogle"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszych",
+                "bardziej ooglych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszym",
+                "bardziej ooglym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "ooglsze",
+                "bardziej oogle"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszymi",
+                "bardziej ooglymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "ooglszych",
+                "bardziej ooglych"
+              ]
+            }
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszy",
+                "najbardziej oogly"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszego",
+                "najbardziej ooglego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszemu",
+                "najbardziej ooglemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszego",
+                "najbardziej ooglego"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszym",
+                "najbardziej ooglym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszym",
+                "najbardziej ooglym"
+              ]
+            }
+          },
+          "m3": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszy",
+                "najbardziej oogly"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszego",
+                "najbardziej ooglego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszemu",
+                "najbardziej ooglemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszy",
+                "najbardziej oogly"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszym",
+                "najbardziej ooglym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszym",
+                "najbardziej ooglym"
+              ]
+            }
+          },
+          "f": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najooglsza",
+                "najbardziej oogla"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszej",
+                "najbardziej ooglej"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszej",
+                "najbardziej ooglej"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszą",
+                "najbardziej ooglą"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszą",
+                "najbardziej ooglą"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszej",
+                "najbardziej ooglej"
+              ]
+            }
+          },
+          "n": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najooglsze",
+                "najbardziej oogle"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszego",
+                "najbardziej ooglego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszemu",
+                "najbardziej ooglemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najooglsze",
+                "najbardziej oogle"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszym",
+                "najbardziej ooglym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszym",
+                "najbardziej ooglym"
+              ]
+            }
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najooglsi",
+                "najbardziej ooglji",
+                "najbardziej oogli"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszych",
+                "najbardziej ooglych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszym",
+                "najbardziej ooglym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszych",
+                "najbardziej ooglych"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszymi",
+                "najbardziej ooglymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszych",
+                "najbardziej ooglych"
+              ]
+            }
+          },
+          "nonvirile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najooglsze",
+                "najbardziej oogle"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszych",
+                "najbardziej ooglych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszym",
+                "najbardziej ooglym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najooglsze",
+                "najbardziej oogle"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszymi",
+                "najbardziej ooglymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najooglszych",
+                "najbardziej ooglych"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+]
