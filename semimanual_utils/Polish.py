@@ -117,7 +117,7 @@ def generate_adjectives(group_numbers: int, wordtype: str):
         write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved/{wordtype}")
 
 
-def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma: list, adverb: list = [], comparative: str = None):
+def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma: list, adverb: list = [], comparative: str = None, lemma_object: dict = None):
     # narodowy  comparative_type 0  is NOT COMPARABLE and has no adverb.
     # stary     comparative_type 1  has REGULAR comparative/superlative (starszy, najstarszy).
     # niebieski comparative_type 2  has COMPOUND comparative/superlative (bardziej niebieski, najbardziej niebieski).
@@ -126,15 +126,15 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
     lemma_mod_1 = lemma[0:-1] if lemma[-1] == "y" else lemma
     lemma_mod_2 = lemma[0:-1]
 
-    lemma_object = {
-        "translations": {"ENG": translations_list},
-        "tags": "xxxxxxxxx",
+    if not lemma_object:
+        lemma_object = {
+            "translations": {"ENG": translations_list},
+            "tags": "xxxxxxxxx",
+            "lemma": lemma,
+            "id": None,
+        }
+    lemma_object["inflections"] = {}
 
-        "lemma": lemma,
-        "id": None,
-
-        "inflections": {}
-    }
     simple = {
         "singular": {
             "m1": {
@@ -283,5 +283,9 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
         recursively_combine_string_values_into_terminus_objects(superlative_compound, superlative_regular)
         lemma_object["inflections"]["comparative"] = comparative_both
         lemma_object["inflections"]["superlative"] = superlative_both
+
+    for unneeded_key in ["comparative", "comparative_type", "pluvirnom_lemma"]:
+        if unneeded_key in lemma_object:
+            lemma_object.pop(unneeded_key)
 
     return lemma_object

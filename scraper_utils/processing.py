@@ -178,7 +178,7 @@ shorthand_tag_refs = {"nouns": {
 }}
 
 
-def fill_out_lemma_objects(group_numbers, wordtype):
+def expand_tags_and_topics(group_numbers, wordtype):
     for group_number in group_numbers:
         res_arr = []
 
@@ -341,10 +341,10 @@ def scrape_word_data(
             for key, value in lemma_object_copy.items():
                 lemma_object[key] = value
 
-    write_output(result, filepaths["output"])
     write_output(rejected, filepaths["rejected"])
 
     if wordtype == "adjectives":
+        write_output(result, f'{filepaths["output"]}_protoadjective')
         adjectives = [generate_adjective(
             lemma=protoadjective["lemma"],
             translations_list=protoadjective["translations"],
@@ -352,8 +352,11 @@ def scrape_word_data(
             pluvirnom_lemma=protoadjective["pluvirnom_lemma"] if "pluvirnom_lemma" in protoadjective else [],
             adverb=protoadjective["adverb"] if "adverb" in protoadjective else [],
             comparative=protoadjective["comparative"] if "comparative" in protoadjective else [],
+            lemma_object=protoadjective
         ) for protoadjective in result]
         result = adjectives
+
+    write_output(result, filepaths["output"])
 
     if "truncated" in filepaths:
         def get_truncated(lemma_object):

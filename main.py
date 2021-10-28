@@ -49,24 +49,24 @@ def get_adjectives():
     Step 1: scrape_word_data()
                         output_protoadjectives_99 CREATED
                         rejected_protoadjectives_99 CREATED
-            generate_adjectives([99]) (run automatically)
+            generate_adjectives([99]) (is run automatically)
                         output_adjectives_99 CREATED
                         truncated_adjectives_99 CREATED
                         
-    Step 2: Move to output_saved; manually add shorthand tags; whittle translations.
+    Step 2: Move the three files (not output_protoadjectives) to output_saved; manually add shorthand tags; whittle translations.
                         truncated_adjectives_99 MODIFIED
                     
     Step 3: untruncate_lemma_objects([99])
                         untruncated_adjectives_99 CREATED
 
-    Step 4: fill_out_lemma_objects([99], wordtype)
+    Step 4: expand_tags_and_topics([99], wordtype)
                         finished_adjectives_99 CREATED
                         
     """
 
     scrape_word_data(
-        group_number=55,
-        head_words=adjectives[5:10],
+        group_number=44,
+        head_words=adjectives[10: 15],
         wordtype=wordtype,
         parser=PolishAdjectiveParser(convert_charrefs=False),
         language="Polish",
@@ -87,13 +87,13 @@ def get_nouns():
                         truncated_nouns_99 CREATED
                         rejected_nouns_99 CREATED
 
-    Step 2: Move to output_saved; manually add shorthand tags; whittle translations.
+    Step 2: Move all three files to output_saved; manually add shorthand tags; whittle translations.
                         truncated_nouns_99 MODIFIED
 
     Step 3: untruncate_lemma_objects([99])
                         untruncated_nouns_99 CREATED
 
-    Step 4: fill_out_lemma_objects([99], wordtype)
+    Step 4: expand_tags_and_topics([99], wordtype)
                         finished_nouns_99 CREATED
 
     # Group 1 = words 00 -  50
@@ -111,7 +111,7 @@ def get_nouns():
 
     untruncate_lemma_objects([1, 2], wordtype)
 
-    fill_out_lemma_objects([1], wordtype)
+    expand_tags_and_topics([1], wordtype)
 
 
 if __name__ == '__main__':
