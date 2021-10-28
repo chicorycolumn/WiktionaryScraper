@@ -31,7 +31,7 @@ def test_make_ids(input_path, expected_path):
                 existing_lemma_objects.extend(loaded)
                 f.close()
 
-    actual = make_ids("nouns", input, existing_lemma_objects)
+    actual = make_ids(wordtype="nouns", lemma_objects=input, existing_lemma_objects=existing_lemma_objects)
     assert actual == expected
 
 

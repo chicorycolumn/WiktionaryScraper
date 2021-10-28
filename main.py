@@ -9,8 +9,12 @@ from semimanual_utils.Polish import *
 
 
 if __name__ == '__main__':
+    # Note! Manually check all feminine nouns to see if add "isPerson": True.
+
     wordtypecode = "v"
     group_number = 333
+    run_make_ids = False
+
     input_indexes = [0, 5]
     step = 3
     scraping_already_done = False
@@ -50,7 +54,10 @@ if __name__ == '__main__':
     else:
         raise Exception(f'Expected wordtypecode to be one of ["a","n","v"]')
 
-    if step == 1:
+    if run_make_ids:
+        make_ids(wordtype, group_number)
+        pass
+    elif step == 1:
         scrape_word_data(
             group_number=group_number,
             head_words=head_words,

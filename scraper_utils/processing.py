@@ -199,7 +199,7 @@ shorthand_tag_refs = {
 }
 
 
-def make_ids(wordtype, lemma_objects, existing_lemma_objects):
+def make_ids(wordtype, group_number = None, lemma_objects = None, existing_lemma_objects=None):
     res_arr = []
 
     if wordtype == "nouns":
