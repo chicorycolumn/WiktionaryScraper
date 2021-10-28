@@ -279,7 +279,7 @@ def scrape_word_data(
         language: str,
         head_words: dict,
         wordtype: str,
-        use_sample: bool,
+        use_sample: bool = False,
         filepaths: object = {},
         group_number: int = int(str(datetime.now())[-3:]),
         no_temp_ids: bool = False,

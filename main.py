@@ -8,124 +8,56 @@ from input.Polish.verbs.head_words import input as verbs
 from semimanual_utils.Polish import *
 
 
-def get_verbs(head_words, group_number, step, scraping_already_done):
-    wordtype = "verbs"
-
-    """
-    Step 1: scrape_word_data()
-                        rejected_verbs_99 CREATED
-                        output_verbs_99_scraped CREATED (ignore unless minimise_verbs has error)
-                    minimise_verbs()
-                        output_verbs_99 CREATED
-                        truncated_verbs_99 CREATED
-
-    Step 2: Move the three files to output_saved; manually add shorthand tags; format translations.
-                        truncated_verbs_99 MODIFIED
-
-    Step 3: finalise_lemma_objects()
-                untruncate_lemma_objects()
-                        untruncated_verbs_99 CREATED
-                expand_tags_and_topics()
-                        finished_verbs_99 CREATED
-    """
-
-    if step == 1:
-        scrape_word_data(
-            group_number=group_number,
-            head_words=head_words,
-            wordtype=wordtype,
-            parser=PolishVerbParser(convert_charrefs=False),
-            language="Polish",
-            use_sample=False,
-            scraping_already_done=scraping_already_done
-        )
-    elif step == 3:
-        finalise_lemma_objects(group_number, wordtype)
-
-
-def get_adjectives(head_words, group_number, step, scraping_already_done):
-    wordtype = "adjectives"
-
-    """
-    Step 1: scrape_word_data()
-                        output_protoadjectives_99_scraped CREATED (ignore unless generate_adjectives had error)
-                        rejected_protoadjectives_99 CREATED
-                generate_adjectives()
-                        output_adjectives_99 CREATED
-                        truncated_adjectives_99 CREATED
-                        
-    Step 2: Move the three files to output_saved; manually add shorthand tags; whittle translations.
-                        truncated_adjectives_99 MODIFIED
-                    
-    Step 3: finalise_lemma_objects()
-                untruncate_lemma_objects()
-                        untruncated_adjectives_99 CREATED
-                expand_tags_and_topics()
-                        finished_adjectives_99 CREATED
-                        
-    """
-
-    if step == 1:
-        scrape_word_data(
-            group_number=group_number,
-            head_words=head_words,
-            wordtype=wordtype,
-            parser=PolishAdjectiveParser(convert_charrefs=False),
-            language="Polish",
-            use_sample=False,
-            scraping_already_done=scraping_already_done
-        )
-    elif step == 3:
-        finalise_lemma_objects(group_number, wordtype)
-
-
-def get_nouns(head_words, group_number, step, scraping_already_done):
-    wordtype = "nouns"
-
-    """
-    Step 1: scrape_word_data()
-                        output_nouns_99 CREATED
-                        output_nouns_99_scraped CREATED (ignore)
-                        truncated_nouns_99 CREATED
-                        rejected_nouns_99 CREATED
-
-    Step 2: Move all three files to output_saved; manually add shorthand tags; whittle translations.
-                        truncated_nouns_99 MODIFIED
-                    
-    Step 3: finalise_lemma_objects()
-                untruncate_lemma_objects()
-                        untruncated_nouns_99 CREATED
-                expand_tags_and_topics()
-                        finished_nouns_99 CREATED
-
-    # Group 1 = words 00 -  50
-    # Group 2 = words 50 - 100
-    """
-
-    if step == 1:
-        scrape_word_data(
-            group_number=group_number,
-            head_words=head_words,
-            wordtype=wordtype,
-            parser=PolishNounParser(convert_charrefs=False),
-            language="Polish",
-            use_sample=False,
-            scraping_already_done=scraping_already_done
-        )
-    elif step == 3:
-        finalise_lemma_objects(group_number, wordtype)
-
-
 if __name__ == '__main__':
-    wordtype = "v"
+    wordtypecode = "v"
     group_number = 333
     input_indexes = [0, 5]
     step = 3
     scraping_already_done = False
 
-    if wordtype[0] == "a":
-        get_adjectives(adjectives[input_indexes[0]:input_indexes[1]], group_number, step, scraping_already_done)
-    elif wordtype[0] == "n":
-        get_nouns(nouns[input_indexes[0]:input_indexes[1]], group_number, step, scraping_already_done)
-    elif wordtype[0] == "v":
-        get_verbs(verbs[input_indexes[0]:input_indexes[1]], group_number, step, scraping_already_done)
+    """
+    Nouns: Group1: 0-50, Group2: 50-100
+    
+    Step 1: scrape_word_data()
+                        output_*_99_scraped CREATED (ignore unless next fxn encounters error)
+                        rejected_*_99 CREATED
+                generate_adjectives()/minimise_verbs()
+                        output_*_99 CREATED
+                        truncated_*_99 CREATED
+
+    Step 2: Move the three files to output_saved; manually add shorthand tags; whittle translations.
+                        truncated_*_99 MODIFIED
+
+    Step 3: finalise_lemma_objects()
+                untruncate_lemma_objects()
+                        untruncated_*_99 CREATED
+                expand_tags_and_topics()
+                        finished_*_99 CREATED             
+    """
+
+    if wordtypecode[0] == "a":
+        wordtype = "adjectives"
+        parser = PolishAdjectiveParser(convert_charrefs=False)
+        head_words = adjectives[input_indexes[0]:input_indexes[1]]
+    elif wordtypecode[0] == "n":
+        wordtype = "nouns"
+        parser = PolishNounParser(convert_charrefs=False)
+        head_words = nouns[input_indexes[0]:input_indexes[1]]
+    elif wordtypecode[0] == "v":
+        wordtype = "verbs"
+        parser = PolishVerbParser(convert_charrefs=False)
+        head_words = verbs[input_indexes[0]:input_indexes[1]]
+    else:
+        raise Exception(f'Expected wordtypecode to be one of ["a","n","v"]')
+
+    if step == 1:
+        scrape_word_data(
+            group_number=group_number,
+            head_words=head_words,
+            wordtype=wordtype,
+            parser=parser,
+            language="Polish",
+            scraping_already_done=scraping_already_done
+        )
+    elif step == 3:
+        finalise_lemma_objects(group_number, wordtype)
