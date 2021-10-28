@@ -47,35 +47,40 @@ def get_adjectives():
 
     """
     Step 1: scrape_word_data()
-                        output_protoadjectives_99 CREATED
+                        output_protoadjectives_99 CREATED (only useful is generate_adjectives had error)
                         rejected_protoadjectives_99 CREATED
-            generate_adjectives([99]) (is run automatically)
+                generate_adjectives([99])
                         output_adjectives_99 CREATED
                         truncated_adjectives_99 CREATED
                         
-    Step 2: Move the three files (not output_protoadjectives) to output_saved; manually add shorthand tags; whittle translations.
+    Step 2: Move the three files to output_saved; manually add shorthand tags; whittle translations.
                         truncated_adjectives_99 MODIFIED
                     
-    Step 3: untruncate_lemma_objects([99])
+    Step 3: finalise_lemma_objects([99])
+                untruncate_lemma_objects([99])
                         untruncated_adjectives_99 CREATED
-
-    Step 4: expand_tags_and_topics([99], wordtype)
+                expand_tags_and_topics([99], wordtype)
                         finished_adjectives_99 CREATED
                         
     """
 
-    scrape_word_data(
-        group_number=44,
-        head_words=adjectives[10: 15],
-        wordtype=wordtype,
-        parser=PolishAdjectiveParser(convert_charrefs=False),
-        language="Polish",
-        use_sample=False,
-    )
+    group_numbers = [222]
+    head_words = adjectives[15: 20]
+    step = 3
 
-    untruncate_lemma_objects([44], wordtype)
+    if step == 1:
+        for group_number in group_numbers:
+            scrape_word_data(
+                group_number=group_number,
+                head_words=head_words,
+                wordtype=wordtype,
+                parser=PolishAdjectiveParser(convert_charrefs=False),
+                language="Polish",
+                use_sample=False,
+            )
+    elif step == 3:
+        finalise_lemma_objects(group_numbers, wordtype)
 
-    expand_tags_and_topics([44], wordtype)
 
 
 def get_nouns():
@@ -91,11 +96,11 @@ def get_nouns():
 
     Step 2: Move all three files to output_saved; manually add shorthand tags; whittle translations.
                         truncated_nouns_99 MODIFIED
-
-    Step 3: untruncate_lemma_objects([99])
+                    
+    Step 3: finalise_lemma_objects([99])
+                untruncate_lemma_objects([99])
                         untruncated_nouns_99 CREATED
-
-    Step 4: expand_tags_and_topics([99], wordtype)
+                expand_tags_and_topics([99], wordtype)
                         finished_nouns_99 CREATED
 
     # Group 1 = words 00 -  50
@@ -103,17 +108,15 @@ def get_nouns():
     """
 
     scrape_word_data(
-        group_number=2,
-        head_words=nouns[50:100],
+        group_number=66,
+        head_words=nouns[100:105],
         wordtype=wordtype,
         parser=PolishNounParser(convert_charrefs=False),
         language="Polish",
         use_sample=False,
     )
 
-    untruncate_lemma_objects([1, 2], wordtype)
-
-    expand_tags_and_topics([1], wordtype)
+    # finalise_lemma_objects([2], wordtype)
 
 
 if __name__ == '__main__':
