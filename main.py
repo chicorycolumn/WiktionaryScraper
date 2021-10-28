@@ -8,7 +8,7 @@ from input.Polish.verbs.head_words import input as verbs
 from semimanual_utils.Polish import *
 
 
-current_wordtype = "n"
+current_wordtype = "a"
 
 
 def get_verbs():
@@ -65,8 +65,8 @@ def get_adjectives():
     """
 
     scrape_word_data(
-        group_number=101,
-        head_words=adjectives[0:5],
+        group_number=55,
+        head_words=adjectives[5:10],
         wordtype=wordtype,
         parser=PolishAdjectiveParser(convert_charrefs=False),
         language="Polish",

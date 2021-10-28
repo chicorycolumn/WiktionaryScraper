@@ -351,9 +351,9 @@ def scrape_word_data(
             lemma=protoadjective["lemma"],
             translations_list=protoadjective["translations"],
             comparative_type=protoadjective["comparative_type"],
-            pluvirnom_lemma=protoadjective["pluvirnom_lemma"],
-            adverb=protoadjective["adverb"],
-            comparative=protoadjective["comparative"],
+            pluvirnom_lemma=protoadjective["pluvirnom_lemma"] if "pluvirnom_lemma" in protoadjective else [],
+            adverb=protoadjective["adverb"] if "adverb" in protoadjective else [],
+            comparative=protoadjective["comparative"] if "comparative" in protoadjective else [],
         ) for protoadjective in result]
         result = adjectives
 

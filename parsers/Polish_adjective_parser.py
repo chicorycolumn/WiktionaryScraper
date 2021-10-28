@@ -59,7 +59,7 @@ class PolishAdjectiveParser(HTMLParser):
             "lemma": [],
             "translations": [],
             "comparative_type": None,
-            "pluvirnom": [],
+            "pluvirnom_lemma": [],
             "adverb": [],
             "comparative": []
         }
@@ -86,7 +86,7 @@ class PolishAdjectiveParser(HTMLParser):
 
         if self.location == "insideselectedlang":
             if self.mode == "gettingpluvirnom":
-                self.output_obj["pluvirnom"].append(data)
+                self.output_obj["pluvirnom_lemma"].append(data)
 
             if self.mode == "gettinglemma":
                 self.output_obj["lemma"].append(data)
@@ -222,6 +222,7 @@ class PolishAdjectiveParser(HTMLParser):
                     print(f'#ERR Wrong order of comparatives {self.output_obj["comparative"]}')
                     return
             else:
+                print(f'#ERR Wrong number of comparatives {self.output_obj["comparative"]}')
                 print(f'#ERR Wrong number of comparatives {self.output_obj["comparative"]}')
                 return
 

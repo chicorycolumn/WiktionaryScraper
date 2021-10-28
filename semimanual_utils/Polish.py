@@ -16,6 +16,8 @@ def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
     for key, value in dict1.items():
         keypath.append(key)
 
+        print("swde1", key, value)
+
         if type(value) in [str, list]:
             if type(value) == str:
                 normal = [value]
@@ -46,19 +48,19 @@ def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
         keypath.pop()
 
 
-def recursively_prefix_string_values(dict, prefix):
-    for key, value in dict.items():
-        if type(value) == str:
-            dict[key] = f"{prefix}{value}"
-        else:
-            recursively_prefix_string_values(value, prefix)
-#
-# def recursively_prefix_string_values(obj, prefix):
-#     for key, value in obj.items() if type(obj) is dict else enumerate(obj):
+# def recursively_prefix_string_values(dict, prefix):
+#     for key, value in dict.items():
 #         if type(value) == str:
-#             obj[key] = f"{prefix}{value}"
-#         elif type(value) in [dict, list]:
+#             dict[key] = f"{prefix}{value}"
+#         else:
 #             recursively_prefix_string_values(value, prefix)
+#
+def recursively_prefix_string_values(obj, prefix):
+    for key, value in obj.items() if type(obj) is dict else enumerate(obj):
+        if type(value) == str:
+            obj[key] = f"{prefix}{value}"
+        elif type(value) in [dict, list]:
+            recursively_prefix_string_values(value, prefix)
 
 
 
@@ -260,7 +262,7 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
         lemma_object["inflections"]["comparative"] = comparative_compound
         lemma_object["inflections"]["superlative"] = superlative_compound
     elif comparative_type == 3:
-        comparative_both = (comparative_compound)
+        comparative_both = comparative_compound
         recursively_combine_string_values_into_terminus_objects(comparative_compound, comparative_regular)
         superlative_both = superlative_compound
         recursively_combine_string_values_into_terminus_objects(superlative_compound, superlative_regular)
