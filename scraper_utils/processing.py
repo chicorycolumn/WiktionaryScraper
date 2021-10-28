@@ -64,8 +64,12 @@ shorthand_tag_refs = {
         "tags": ["weather", "abstract", "uncountable"],
         "topics": ["basic", "outdoor"],
     },
-    "!": {
+    "!!": {
         "tags": ["noise", "abstract"],
+        "topics": ["sense and perception"],
+    },
+    "!": {
+        "tags": ["perception", "abstract"],
         "topics": ["sense and perception"],
     },
     "e": {
@@ -275,12 +279,8 @@ def scrape_word_data(
         filepaths: object = {},
         group_number: int = int(str(datetime.now())[-3:]),
         no_temp_ids: bool = False,
+        scraping_already_done: bool = False,
 ):
-    print(f'## Starting, given {len(head_words)} words.')
-
-    if not head_words:
-        head_words = ["małpa"]
-
     if not filepaths:
         filepaths = {
             "output": f"output_{wordtype}_{group_number}",
@@ -288,80 +288,90 @@ def scrape_word_data(
             "truncated": f"truncated_{wordtype}_{group_number}",
         }
 
-    count = 1
-    result = []
-    rejected = {"failed_to_load_html": [], "loaded_html_but_failed_when_reading": [],
-                "loaded_and_read_html_but_failed_to_create_output": []}
+    if scraping_already_done:
+        with open(f"output/output_{wordtype}_{group_number}_scraped.json", "r") as f:
+            result = json.load(f)
+            f.close()
+    else:
+        print(f'## Starting, given {len(head_words)} words.')
 
-    for (head_word_index, head_word) in enumerate(head_words):
-        print(f'\n # Beginning for loop with "{head_word}"\n')
+        if not head_words:
+            head_words = ["małpa"]
 
-        parser.reset()
+        count = 1
+        result = []
+        rejected = {"failed_to_load_html": [], "loaded_html_but_failed_when_reading": [],
+                    "loaded_and_read_html_but_failed_to_create_output": []}
 
-        def add_output_arr_to_result(output_arr):
-            if output_arr:
-                print(f'\n{" " * 15}# SUCCESS Adding "{head_word}" output_arr to result.' "\n")
-                for lemma_object in output_arr:
-                    lemma_object["lemma"] = head_word
-                result.extend(output_arr)
-            else:
-                print(f'\n#{" " * 45}Loaded and read html for "{head_word}" but FAILED to create output.\n')
-                rejected["loaded_and_read_html_but_failed_to_create_output"].append(head_word)
+        for (head_word_index, head_word) in enumerate(head_words):
+            print(f'\n # Beginning for loop with "{head_word}"\n')
 
-        if use_sample:
-            with open(f'input/{language}/{wordtype}/sample_{head_word}.html', 'r') as f:
-                contents = f.read()
-                parser.feed(contents)
-                output_arr = parser.output_arr
-                add_output_arr_to_result(output_arr)
-                f.close()
-        else:
-            try:
-                html_string = html_from_head_word(head_word, f"{head_word_index + 1} of {len(head_words)}")
+            parser.reset()
 
-                try:
-                    started_at = datetime.now()
-                    parser.reset_for_new_table()
-                    parser.feed(html_string)
+            def add_output_arr_to_result(output_arr):
+                if output_arr:
+                    print(f'\n{" " * 15}# SUCCESS Adding "{head_word}" output_arr to result.' "\n")
+                    for lemma_object in output_arr:
+                        lemma_object["lemma"] = head_word
+                    result.extend(output_arr)
+                else:
+                    print(f'\n#{" " * 45}Loaded and read html for "{head_word}" but FAILED to create output.\n')
+                    rejected["loaded_and_read_html_but_failed_to_create_output"].append(head_word)
+
+            if use_sample:
+                with open(f'input/{language}/{wordtype}/sample_{head_word}.html', 'r') as f:
+                    contents = f.read()
+                    parser.feed(contents)
                     output_arr = parser.output_arr
-                    parser.output_arr = []
                     add_output_arr_to_result(output_arr)
+                    f.close()
+            else:
+                try:
+                    html_string = html_from_head_word(head_word, f"{head_word_index + 1} of {len(head_words)}")
+
+                    try:
+                        started_at = datetime.now()
+                        parser.reset_for_new_table()
+                        parser.feed(html_string)
+                        output_arr = parser.output_arr
+                        parser.output_arr = []
+                        add_output_arr_to_result(output_arr)
+
+                    except:
+                        print(f'\n#{" " * 30}Loaded html for "{head_word}" but FAILED when reading it.\n')
+                        rejected["loaded_html_but_failed_when_reading"].append(head_word)
 
                 except:
-                    print(f'\n#{" " * 30}Loaded html for "{head_word}" but FAILED when reading it.\n')
-                    rejected["loaded_html_but_failed_when_reading"].append(head_word)
+                    print(f'\n#{" " * 30}FAILED to even load html for "{head_word}".\n')
+                    rejected["failed_to_load_html"].append(head_word)
 
-            except:
-                print(f'\n#{" " * 30}FAILED to even load html for "{head_word}".\n')
-                rejected["failed_to_load_html"].append(head_word)
+                delay_seconds = 1
 
-            delay_seconds = 1
+                if datetime.now() < started_at + timedelta(seconds=delay_seconds):
+                    if datetime.now() < started_at + timedelta(seconds=delay_seconds / 2):
+                        sleep(delay_seconds)
+                    else:
+                        sleep(delay_seconds / 2)
 
-            if datetime.now() < started_at + timedelta(seconds=delay_seconds):
-                if datetime.now() < started_at + timedelta(seconds=delay_seconds / 2):
-                    sleep(delay_seconds)
-                else:
-                    sleep(delay_seconds / 2)
+        print(f'\n# Writing results".')
 
-    print(f'\n# Writing results".')
+        if not no_temp_ids:
+            for lemma_object in result:
+                lemma_object_copy = {}
+                lemma_object_copy["temp_id"] = f"{group_number}.{count}"
+                count += 1
+                for key, value in lemma_object.items():
+                    lemma_object_copy[key] = value
+                lemma_object_keys = [key for key in lemma_object]
+                for key in lemma_object_keys:
+                    lemma_object.pop(key)
+                for key, value in lemma_object_copy.items():
+                    lemma_object[key] = value
 
-    if not no_temp_ids:
-        for lemma_object in result:
-            lemma_object_copy = {}
-            lemma_object_copy["temp_id"] = f"{group_number}.{count}"
-            count += 1
-            for key, value in lemma_object.items():
-                lemma_object_copy[key] = value
-            lemma_object_keys = [key for key in lemma_object]
-            for key in lemma_object_keys:
-                lemma_object.pop(key)
-            for key, value in lemma_object_copy.items():
-                lemma_object[key] = value
-
-    write_output(rejected, filepaths["rejected"])
+        write_output(rejected, filepaths["rejected"])
+        write_output(result, f'{filepaths["output"]}_scraped')
 
     if wordtype == "adjectives":
-        write_output(result, f'{filepaths["output"]}_protoadjective')
         generated_adjectives = [generate_adjective(
             lemma=protoadjective["lemma"],
             translations_list=protoadjective["translations"],
@@ -373,7 +383,6 @@ def scrape_word_data(
         ) for protoadjective in result]
         result = generated_adjectives
     elif wordtype == "verbs":
-        write_output(result, f'{filepaths["output"]}_fullverb')
         minimised_verbs = [minimise_inflections(fullverb) for fullverb in result]
         result = minimised_verbs
 

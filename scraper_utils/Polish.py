@@ -61,11 +61,22 @@ def minimise_inflections(lemma_object):
 
         for py_key, js_key_and_count in tense_ref.items():
             js_key = js_key_and_count[0]
+            if js_key == "future":
+                print("")
             expected_count = js_key_and_count[1]
             actual_count = recursively_count_strings(full_inflections[py_key])
             if actual_count != expected_count:
-                raise Exception(
-                    f'Future tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}.')
+                if actual_count + 5 == expected_count:
+                    with open("TODO.txt", "a") as f:
+                        f.write(
+                            "\n" +
+                            f'"{js_key.capitalize()}" tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}. I think the Wiktionary page was missing the "{js_key} impersonal", but nevertheless the word does have it, so I have gone ahead and minimised the "{js_key} impersonal" to True boolean. If you disagree, you must change that.'
+                            + "\n"
+                        )
+                        f.close()
+                else:
+                    raise Exception(
+                        f'{js_key} tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}.')
             full_inflections[js_key] = True
             if py_key != js_key:
                 full_inflections.pop(py_key)

@@ -8,13 +8,13 @@ from input.Polish.verbs.head_words import input as verbs
 from semimanual_utils.Polish import *
 
 
-def get_verbs(head_words, group_number, step):
+def get_verbs(head_words, group_number, step, scraping_already_done):
     wordtype = "verbs"
 
     """
     Step 1: scrape_word_data()
                         rejected_verbs_99 CREATED
-                        output_fullverbs_99 CREATED (only useful if minimise_verbs has error)
+                        output_verbs_99_scraped CREATED (ignore unless minimise_verbs has error)
                     minimise_verbs()
                         output_verbs_99 CREATED
                         truncated_verbs_99 CREATED
@@ -37,17 +37,18 @@ def get_verbs(head_words, group_number, step):
             parser=PolishVerbParser(convert_charrefs=False),
             language="Polish",
             use_sample=False,
+            scraping_already_done=scraping_already_done
         )
     elif step == 3:
         finalise_lemma_objects(group_number, wordtype)
 
 
-def get_adjectives(head_words, group_number, step):
+def get_adjectives(head_words, group_number, step, scraping_already_done):
     wordtype = "adjectives"
 
     """
     Step 1: scrape_word_data()
-                        output_protoadjectives_99 CREATED (only useful is generate_adjectives had error)
+                        output_protoadjectives_99_scraped CREATED (ignore unless generate_adjectives had error)
                         rejected_protoadjectives_99 CREATED
                 generate_adjectives()
                         output_adjectives_99 CREATED
@@ -72,18 +73,19 @@ def get_adjectives(head_words, group_number, step):
             parser=PolishAdjectiveParser(convert_charrefs=False),
             language="Polish",
             use_sample=False,
+            scraping_already_done=scraping_already_done
         )
     elif step == 3:
         finalise_lemma_objects(group_number, wordtype)
 
 
-
-def get_nouns(head_words, group_number, step):
+def get_nouns(head_words, group_number, step, scraping_already_done):
     wordtype = "nouns"
 
     """
     Step 1: scrape_word_data()
                         output_nouns_99 CREATED
+                        output_nouns_99_scraped CREATED (ignore)
                         truncated_nouns_99 CREATED
                         rejected_nouns_99 CREATED
 
@@ -108,6 +110,7 @@ def get_nouns(head_words, group_number, step):
             parser=PolishNounParser(convert_charrefs=False),
             language="Polish",
             use_sample=False,
+            scraping_already_done=scraping_already_done
         )
     elif step == 3:
         finalise_lemma_objects(group_number, wordtype)
@@ -116,12 +119,13 @@ def get_nouns(head_words, group_number, step):
 if __name__ == '__main__':
     wordtype = "v"
     group_number = 333
-    input_indexes = [0,5]
-    step = 1
+    input_indexes = [0, 5]
+    step = 3
+    scraping_already_done = False
 
     if wordtype[0] == "a":
-        get_adjectives(adjectives[input_indexes[0]:input_indexes[1]], group_number, step)
+        get_adjectives(adjectives[input_indexes[0]:input_indexes[1]], group_number, step, scraping_already_done)
     elif wordtype[0] == "n":
-        get_nouns(nouns[input_indexes[0]:input_indexes[1]], group_number, step)
+        get_nouns(nouns[input_indexes[0]:input_indexes[1]], group_number, step, scraping_already_done)
     elif wordtype[0] == "v":
-        get_verbs(verbs[input_indexes[0]:input_indexes[1]], group_number, step)
+        get_verbs(verbs[input_indexes[0]:input_indexes[1]], group_number, step, scraping_already_done)
