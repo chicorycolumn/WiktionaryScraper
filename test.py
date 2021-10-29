@@ -8,11 +8,11 @@ from scraper_utils.Polish import test_helper_shorthand_tag_ref_noun
 from semimanual_utils.Polish import *
 
 
-@pytest.mark.parametrize("input_path,expected_path", [
-    ("test_nouns_to_id_1.json", "expected_nouns_with_id_1.json"),
-    ("test_verbs_to_id_1.json", "expected_verbs_with_id_1.json")
+@pytest.mark.parametrize("input_path,expected_path,wordtype", [
+    # ("test_nouns_to_id_1.json", "expected_nouns_with_id_1.json", "nouns"),
+    ("test_verbs_to_id_1.json", "expected_verbs_with_id_1.json", "verbs")
 ])
-def test_make_ids(input_path, expected_path):
+def test_make_ids(input_path, expected_path, wordtype):
     with open(f'expected/{input_path}', "r") as f:
         input = json.load(f)
         f.close()
@@ -31,7 +31,7 @@ def test_make_ids(input_path, expected_path):
                 existing_lemma_objects.extend(loaded)
                 f.close()
 
-    actual = make_ids(wordtype="nouns", lemma_objects=input, existing_lemma_objects=existing_lemma_objects)
+    actual = make_ids(wordtype=wordtype, lemma_objects=input, existing_lemma_objects=existing_lemma_objects)
     assert actual == expected
 
 
