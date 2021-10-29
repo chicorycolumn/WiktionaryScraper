@@ -207,12 +207,11 @@ def write_todo(msg):
             + str(datetime.now())[:-10]
             + " "
             + msg
-            + "\n"
         )
         f.close()
 
 
-def make_ids(wordtype, group_number=None, lemma_objects=None, existing_lemma_objects=None, is_first_time=False):
+def make_ids(langcode, wordtype, group_number=None, lemma_objects=None, existing_lemma_objects=None, is_first_time=False):
     # To do: Group the IDs for:
     #       verbs that are otherShapes of each other
     #       nouns that are otherShapes of each other
@@ -292,7 +291,7 @@ def make_ids(wordtype, group_number=None, lemma_objects=None, existing_lemma_obj
         else:
             id_number_counts[wordtypeshortcode] += 1
 
-        id = f'{"pol"}-{wordtypeshortcode}-{number}{sibling_info[0:4]}-{lemma_object["lemma"]}'
+        id = f'{langcode}-{wordtypeshortcode}-{number}{sibling_info[0:4]}-{lemma_object["lemma"]}'
 
         lemma_object["id"] = id
         lemma_object.pop("temp_id")
