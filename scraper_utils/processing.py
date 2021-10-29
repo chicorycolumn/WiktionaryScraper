@@ -4,6 +4,7 @@ from time import sleep
 from scraper_utils.Polish import minimise_inflections
 from scraper_utils.common import *
 from semimanual_utils.Polish import generate_adjective
+from input.Polish.nouns.head_words import person_nouns_without_m1_gender
 
 shorthand_tag_refs = {
     "v": {
@@ -199,17 +200,41 @@ shorthand_tag_refs = {
 }
 
 
-def make_ids(wordtype, group_number = None, lemma_objects = None, existing_lemma_objects=None):
+def make_ids(wordtype, group_number=None, lemma_objects=None, existing_lemma_objects=None, is_first_time=False):
+    # To do: Group the IDs for:
+    #       verbs that are otherShapes of each other
+    #       nouns that are otherShapes of each other
+
+    """
+    So what this means is:
+    When examining a lobj to give it its id,
+    Look to see if any existing lobjs list this as an otherShape.
+
+    """
+
+    if not is_first_time:
+        existing_lemmas = []
+        for lemma_object in lemma_objects:
+            if any(elobj["lemma"] == lemma_object["lemma"] for elobj in existing_lemma_objects):
+                existing_lemmas.append(lemma_object["lemma"])
+        if existing_lemmas:
+            print("#PLEASE MANUALLY CHECK that these lemmas are not already created as existing lemma objects:")
+            print("START LIST")
+            for lemma in existing_lemmas:
+                print(lemma)
+            print("END LIST")
+            return
+
     res_arr = []
 
     if wordtype == "nouns":
         for lemma_object in lemma_objects:
-            if lemma_object["gender"] == "m1":
-                lemma_object["isPerson"] = True
+            if lemma_object["lemma"][0] == lemma_object["lemma"][0].upper():
+                lemma_object["isProperNoun"] = True
 
     id_number_counts = {
-        "nou": 0,
-        "npr": 0,
+        "nco": 0,
+        "npe": 0,
         "ver": 0,
         "adj": 0,
     }
@@ -229,7 +254,9 @@ def make_ids(wordtype, group_number = None, lemma_objects = None, existing_lemma
         elif wordtype == "verbs":
             wordtypeshortcode = "ver"
         elif wordtype == "nouns":
-            wordtypeshortcode = "npr" if lemma_object["lemma"][0] == lemma_object["lemma"][0].upper() else "nou"
+            wordtypeshortcode = "npe" \
+                if lemma_object["gender"] == "m1" or lemma_object["lemma"] in person_nouns_without_m1_gender \
+                else "nco"
 
         number = id_number_counts[wordtypeshortcode] + 1
         id = f'{"pol"}-{wordtypeshortcode}-{"{0:03}".format(number)}-{lemma_object["lemma"]}'
@@ -257,8 +284,6 @@ def make_ids(wordtype, group_number = None, lemma_objects = None, existing_lemma
         id_number_counts[wordtypeshortcode] += 1
 
     return res_arr
-
-
 
 
 def expand_tags_and_topics(group_number, wordtype):
