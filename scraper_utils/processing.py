@@ -200,6 +200,18 @@ shorthand_tag_refs = {
 }
 
 
+def write_todo(msg):
+    with open("TODO.txt", "a") as f:
+        f.write(
+            "\n"
+            + str(datetime.now())[:-10]
+            + " "
+            + msg
+            + "\n"
+        )
+        f.close()
+
+
 def make_ids(wordtype, group_number=None, lemma_objects=None, existing_lemma_objects=None, is_first_time=False):
     # To do: Group the IDs for:
     #       verbs that are otherShapes of each other
@@ -258,30 +270,33 @@ def make_ids(wordtype, group_number=None, lemma_objects=None, existing_lemma_obj
                 if lemma_object["gender"] == "m1" or lemma_object["lemma"] in person_nouns_without_m1_gender \
                 else "nco"
 
+        sibling_info = ""
         number = id_number_counts[wordtypeshortcode] + 1
-        id = f'{"pol"}-{wordtypeshortcode}-{"{0:03}".format(number)}-{lemma_object["lemma"]}'
+        number = "{0:03}".format(number)
 
-        for elobj in res_arr:
-            if elobj["id"][0:13] == id[0:13] and not id.endswith("*"):
-                id += "*"
-            if not elobj["id"].endswith("*"):
-                elobj["id"] += "*"
-        for elobj in existing_lemma_objects:
-            if elobj["id"][0:13] == id[0:13] and not id.endswith("*"):
-                id += "*"
-            if not elobj["id"].endswith("*"):
-                with open("TODO.txt", "a") as f:
-                    f.write(
-                        "\n" +
-                        f'Give asterisk to "{elobj["id"]}".'
-                        + "\n"
-                    )
-                    f.close()
+        for elobj in existing_lemma_objects + res_arr:
+            if not sibling_info and "otherShapes" in elobj:
+                for shape_key, shape_values in elobj["otherShapes"].items():
+                    if lemma_object["lemma"] in shape_values:
+                        sibling_info = shape_key
+                        number = elobj["id"].split("-")[2].split("|")[0]
+                        parent_info = "??"
+                        if "otherShapes" in lemma_object:
+                            for sh_key, sh_values in lemma_object["otherShapes"]:
+                                if elobj["lemma"] in sh_values:
+                                    parent_info = sh_key
+                        write_todo(f'Manually add sibling_info "{parent_info}" to id of "{elobj["id"]}".')
+
+        if sibling_info:
+            sibling_info = "|" + sibling_info
+        else:
+            id_number_counts[wordtypeshortcode] += 1
+
+        id = f'{"pol"}-{wordtypeshortcode}-{number}{sibling_info[0:4]}-{lemma_object["lemma"]}'
 
         lemma_object["id"] = id
         lemma_object.pop("temp_id")
         res_arr.append(lemma_object)
-        id_number_counts[wordtypeshortcode] += 1
 
     return res_arr
 
