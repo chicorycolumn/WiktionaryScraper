@@ -220,7 +220,6 @@ def make_ids(langcode, wordtype, group_number=None, lemma_objects=None, existing
     So what this means is:
     When examining a lobj to give it its id,
     Look to see if any existing lobjs list this as an otherShape.
-
     """
 
     if not is_first_time:
