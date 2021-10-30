@@ -70,7 +70,7 @@ def minimise_inflections(lemma_object):
                     with open("TODO.txt", "a") as f:
                         f.write(
                             "\n" +
-                            f'"{js_key.capitalize()}" tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}. I think the Wiktionary page was missing the "{js_key} impersonal", but nevertheless the word does have it, so I have gone ahead and minimised the "{js_key} impersonal" to True boolean. If you disagree, you must change that.'
+                            f'The "{js_key}" tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}. I think the Wiktionary page was missing the "{js_key} impersonal", but nevertheless the word does have it, so I have gone ahead and minimised the "{js_key} impersonal" to True boolean. If you disagree, you must change that.'
                             + "\n"
                         )
                         f.close()

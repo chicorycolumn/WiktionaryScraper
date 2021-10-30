@@ -36,7 +36,7 @@ def test_make_ids(input_path, expected_path, wordtype):
     write_output(actual, expected_path.split(".")[0])
 
     with open(f'output/{expected_path}', "r") as f:
-        expected = json.load(f)
+        actual = json.load(f)
         f.close()
 
     assert actual == expected
