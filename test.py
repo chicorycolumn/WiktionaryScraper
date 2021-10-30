@@ -9,20 +9,20 @@ from semimanual_utils.Polish import *
 
 
 @pytest.mark.parametrize("input_path,expected_path,wordtype", [
-    ("test_nouns_to_id_1.json", "expected_nouns_with_id_1.json", "nouns"),
-    # ("test_verbs_to_id_1.json", "expected_verbs_with_id_1.json", "verbs")
+    ("test_nouns_to_id_1", "with_ids/nouns_with_ids_1", "nouns"),
+    # ("test_verbs_to_id_1.json", "with_ids/verbs_with_ids_1.json", "verbs")
 ])
 def test_make_ids(input_path, expected_path, wordtype):
-    with open(f'expected/{input_path}', "r") as f:
+    with open(f'testdata/input/{input_path}.json', "r") as f:
         input = json.load(f)
         f.close()
 
-    with open(f'expected/{expected_path}', "r") as f:
+    with open(f'expected/{expected_path}.json', "r") as f:
         expected = json.load(f)
         f.close()
 
     existing_lemma_objects = []
-    path = "expected/mock_existing"
+    path = f"testdata/existing/{wordtype}"
     for root, dirs, files in os.walk(path):
         for file in files:
             print(file)
@@ -33,9 +33,9 @@ def test_make_ids(input_path, expected_path, wordtype):
 
     actual = make_ids(langcode="pol", wordtype=wordtype, lemma_objects=input, existing_lemma_objects=existing_lemma_objects)
 
-    write_output(actual, expected_path.split(".")[0])
+    write_output(actual, expected_path.split("/")[-1])
 
-    with open(f'output/{expected_path}', "r") as f:
+    with open(f'output/{expected_path.split("/")[-1]}.json', "r") as f:
         actual = json.load(f)
         f.close()
 
