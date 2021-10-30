@@ -1,6 +1,7 @@
-from utils.postprocessing.common import *
-
 from copy import deepcopy
+
+from utils.postprocessing.common import recursively_prefix_string_values, \
+    recursively_combine_string_values_into_terminus_objects
 
 
 def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma: list, adverb: list = [], comparative: str = None, lemma_object: dict = None):

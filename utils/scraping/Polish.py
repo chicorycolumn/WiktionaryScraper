@@ -1,8 +1,11 @@
-from utils.postprocessing.Polish import *
-from utils.general.common import *
+from utils.postprocessing.common import recursively_minimise
+from utils.general.common import recursively_replace_keys_in_dict, recursively_count_strings
 
 import copy
 
+
+def sayHi():
+    print("swde")
 
 def minimise_inflections(lemma_object):
     full_inflections = copy.deepcopy(lemma_object["inflections"])
@@ -153,7 +156,7 @@ case_ref = {
     "vocative": "voc",
 }
 
-shorthand_tag_refs = {
+give_shorthand_tag_refs = {
     "v": {
         "tags": ["movement"],
         "topics": [],
@@ -212,7 +215,7 @@ shorthand_tag_refs = {
         "tags": ["schoolsubject", "abstract"],
         "topics": ["school"],
     },
-    "w": {
+    "ł": {
         "tags": ["weather", "abstract", "uncountable"],
         "topics": ["basic", "outdoor"],
     },
@@ -322,10 +325,6 @@ shorthand_tag_refs = {
     },
     "hh": {
         "tags": ["household object", "h"],
-        "topics": ["home", "inside"],
-    },
-    "hf": {
-        "tags": ["furniture", "concrete"],
         "topics": ["home", "inside"],
     },
     "hb": {

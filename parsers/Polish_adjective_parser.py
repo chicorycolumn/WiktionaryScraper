@@ -1,10 +1,6 @@
-from utils.general.common import *
-from utils.scraping.common import *
-from utils.scraping.Polish import *
-from utils.postprocessing.common import *
-from utils.postprocessing.Polish import *
-
 from html.parser import HTMLParser
+
+from utils.scraping.common import orth
 
 """
 Do the language heading detection as normal.

@@ -1,10 +1,9 @@
-from utils.general.common import *
-from utils.scraping.common import *
-from utils.scraping.Polish import *
-from utils.postprocessing.common import *
-from utils.postprocessing.Polish import *
-
 from html.parser import HTMLParser
+import re
+
+from utils.scraping.Polish import case_ref, gender_translation_ref, gender_to_tags_ref
+from utils.scraping.common import orth, superstrip, add_string, brackets_to_end, trim_around_brackets, \
+    split_definition_to_list
 
 
 class PolishNounParser(HTMLParser):

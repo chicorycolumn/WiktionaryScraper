@@ -1,10 +1,9 @@
-from utils.general.common import *
-from utils.scraping.common import *
-from utils.scraping.Polish import *
+from utils.scraping.Polish import sayHi
+from utils.general.common import write_todo, write_output, get_value_from_keypath, get_base_temp_id
+from input.Polish.nouns.head_words import person_nouns_without_m1_gender
+
 import copy
 import json
-
-from input.Polish.nouns.head_words import person_nouns_without_m1_gender
 
 
 def make_ids(langcode, wordtype, group_number=None, lemma_objects=None, existing_lemma_objects=None, is_first_time=False):
@@ -78,6 +77,7 @@ def make_ids(langcode, wordtype, group_number=None, lemma_objects=None, existing
             for elobj in existing_or_result_lemma_objects:
                 if not sibling_info and "otherShapes" in elobj:
                     for shape_key, shape_values in elobj["otherShapes"].items():
+                        print("swde1", elobj["lemma"], shape_key, shape_values)
                         if lemma_object["lemma"] in shape_values:
                             sibling_info.append(shape_key[0:4])
                             number = elobj["id"].split("-")[2]
@@ -177,6 +177,7 @@ def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
 
 
 def expand_tags_and_topics(group_number, wordtype):
+    sayHi()
     res_arr = []
 
     with open(f"output_saved/untruncated_{wordtype}_{group_number}.json", "r") as f:
@@ -226,7 +227,7 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
 def finalise_lemma_objects(group_number, wordtype):
     untruncate_lemma_objects(group_number, wordtype)
     res_arr = expand_tags_and_topics(group_number, wordtype)
-    write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved/{wordtype}")
+    write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved")
 
 
 def untruncate_lemma_objects(group_number, wordtype):

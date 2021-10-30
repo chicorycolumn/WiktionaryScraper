@@ -1,9 +1,15 @@
-from parsers.Polish_adjective_parser import *
-from parsers.Polish_noun_parser import *
-from parsers.Polish_verb_parser import *
+from parsers.Polish_adjective_parser import PolishAdjectiveParser
+from parsers.Polish_noun_parser import PolishNounParser
+from parsers.Polish_verb_parser import PolishVerbParser
 
 from datetime import timedelta, datetime
 from time import sleep
+import json
+
+from utils.general.common import write_output
+from utils.postprocessing.Polish import generate_adjective
+from utils.scraping.Polish import minimise_inflections
+from utils.scraping.common import html_from_head_word
 
 
 def scrape_word_data(
@@ -14,7 +20,7 @@ def scrape_word_data(
         filepaths: object = {},
         group_number: int = int(str(datetime.now())[-3:]),
         no_temp_ids: bool = False,
-        scraping_already_done: bool = False,
+        skip_scraping: bool = False,
 ):
     if wordtype == "adjectives":
         parser = PolishAdjectiveParser(convert_charrefs=False)
@@ -30,7 +36,7 @@ def scrape_word_data(
             "truncated": f"truncated_{wordtype}_{group_number}",
         }
 
-    if scraping_already_done:
+    if skip_scraping:
         with open(f"output/output_{wordtype}_{group_number}_scraped.json", "r") as f:
             result = json.load(f)
             f.close()
