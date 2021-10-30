@@ -229,12 +229,11 @@ def make_ids(langcode, wordtype, group_number=None, lemma_objects=None, existing
             if any(elobj["lemma"] == lemma_object["lemma"] for elobj in existing_lemma_objects):
                 existing_lemmas.append(lemma_object["lemma"])
         if existing_lemmas:
-            print("#PLEASE MANUALLY CHECK that these lemmas are not already created as existing lemma objects:")
             print("START LIST")
             for lemma in existing_lemmas:
                 print(lemma)
             print("END LIST")
-            return
+            raise Exception("#PLEASE MANUALLY CHECK that these lemmas are not already created as existing lemma objects.")
 
     res_arr = []
 
@@ -273,41 +272,45 @@ def make_ids(langcode, wordtype, group_number=None, lemma_objects=None, existing
         number = id_number_counts[wordtypeshortcode] + 1
         number = "{0:03}".format(number)
 
+        iterations = [[existing_lemma_objects, True], [res_arr, False]]
+
         # Give lobjs same id number if they are otherShapes of each other.
-        for elobj in existing_lemma_objects + res_arr:
-            if not sibling_info and "otherShapes" in elobj:
-                for shape_key, shape_values in elobj["otherShapes"].items():
-                    if lemma_object["lemma"] in shape_values:
-                        sibling_info.append(shape_key[0:4])
-                        number = elobj["id"].split("-")[2]
-                        parent_info = "??"
-                        if "otherShapes" in lemma_object:
-                            for sh_key, sh_values in lemma_object["otherShapes"]:
-                                if elobj["lemma"] in sh_values:
-                                    parent_info = sh_key
-                        write_todo(f'Manually add sibling_info "{parent_info[0:4]}" to id of "{elobj["id"]}".')
+        for iteration in iterations:
+            existing_or_result_lemma_objects = iteration[0]
+            is_existing = iteration[1]
+
+            for elobj in existing_or_result_lemma_objects:
+                if not sibling_info and "otherShapes" in elobj:
+                    for shape_key, shape_values in elobj["otherShapes"].items():
+                        if lemma_object["lemma"] in shape_values:
+                            sibling_info.append(shape_key[0:4])
+                            number = elobj["id"].split("-")[2]
+                            if "(" not in elobj["id"].split("-")[3]:
+                                parent_info = "?"
+                                if "otherShapes" in lemma_object:
+                                    for sh_key, sh_values in lemma_object["otherShapes"]:
+                                        if elobj["lemma"] in sh_values:
+                                            parent_info = sh_key
+                                if is_existing or len(parent_info) == 1:
+                                    write_todo(f'Manually add sibling_info "{parent_info[0:4]}" to id of "{elobj["id"]}".')
+                                else:
+                                    elobj["id"] += f'({parent_info})'
 
         if sibling_info:
-            sibling_info = sibling_info[0]
+            sibling_info = [sibling_info[0]]
 
         # Give lobjs sibling info if are same lemma but don't give same number.
-        for elobj in res_arr:
-            if elobj["lemma"] == lemma_object["lemma"]:
-                sibling_info.append(lemma_object["translations"]["ENG"][0])
-            split_elobj_id = elobj["id"].split("-")
-            e_lemma = elobj["id"].split("-")[3]
-            if "(" not in e_lemma:
-                e_lang = split_elobj_id[0]
-                e_wordtypeshortcode = split_elobj_id[1]
-                e_number = split_elobj_id[2]
-                e_lemma = split_elobj_id[3] + f'({elobj["translations"]["ENG"][0]})'
-                elobj["id"] = "-".join([e_lang, e_wordtypeshortcode, e_number, e_lemma])
-        for elobj in existing_lemma_objects:
-            if elobj["lemma"] == lemma_object["lemma"]:
-                sibling_info.append(lemma_object["translations"]["ENG"][0])
-            e_lemma = elobj["id"].split("-")[3]
-            if "(" not in e_lemma:
-                write_todo(f'Lemma object "{elobj["id"]}" needs append "{elobj["translations"]["ENG"][0]}" to its ID.')
+        for iteration in iterations:
+            existing_or_result_lemma_objects = iteration[0]
+            is_existing = iteration[1]
+            for elobj in existing_or_result_lemma_objects:
+                if elobj["lemma"] == lemma_object["lemma"]:
+                    sibling_info.append(lemma_object["translations"]["ENG"][0])
+                    if "(" not in elobj["id"].split("-")[3]:
+                        if is_existing:
+                            write_todo(f'To "{elobj["id"]}" ID must append "{elobj["translations"]["ENG"][0]}"')
+                        else:
+                            elobj["id"] += f'({elobj["translations"]["ENG"][0]})'
 
         if int(number) == id_number_counts[wordtypeshortcode] + 1:
             id_number_counts[wordtypeshortcode] += 1
