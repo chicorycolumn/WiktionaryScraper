@@ -1,5 +1,5 @@
 from html.parser import HTMLParser
-from utils.scraping.Polish import aspect_ref
+from utils.scraping.Polish_dicts import aspect_ref
 from utils.scraping.common import orth, superstrip, add_string, trim_chaff_from_derived_terms
 
 

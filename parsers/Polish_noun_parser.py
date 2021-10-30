@@ -1,7 +1,7 @@
 from html.parser import HTMLParser
 import re
 
-from utils.scraping.Polish import case_ref, gender_translation_ref, gender_to_tags_ref
+from utils.scraping.Polish_dicts import case_ref, gender_translation_ref, gender_to_tags_ref
 from utils.scraping.common import orth, superstrip, add_string, brackets_to_end, trim_around_brackets, \
     split_definition_to_list
 

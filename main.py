@@ -7,7 +7,7 @@ from utils.postprocessing.common import make_ids, finalise_lemma_objects
 if __name__ == '__main__':
     # Note! Manually check all feminine nouns to see if add "isPerson": True.
 
-    step = 1
+    step = 3
     wordtype = "verbs"
     group_number = 777
     input_indexes = [0, 5]

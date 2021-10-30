@@ -1,10 +1,9 @@
-from utils.scraping.Polish import sayHi
 from utils.general.common import write_todo, write_output, get_value_from_keypath, get_base_temp_id
 from input.Polish.nouns.head_words import person_nouns_without_m1_gender
 
 import copy
 import json
-
+from utils.scraping.Polish_dicts import shorthand_tag_refs
 
 def make_ids(langcode, wordtype, group_number=None, lemma_objects=None, existing_lemma_objects=None, is_first_time=False):
     # To do: Group the IDs for:
@@ -176,19 +175,6 @@ def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
 
 
 
-def expand_tags_and_topics(group_number, wordtype):
-    sayHi()
-    res_arr = []
-
-    with open(f"output_saved/untruncated_{wordtype}_{group_number}.json", "r") as f:
-        untruncated_lobjs = json.load(f)
-        f.close()
-
-    for lemma_object in untruncated_lobjs:
-        add_tags_and_topics_from_shorthand(lemma_object, shorthand_tag_refs)
-        res_arr.append(lemma_object)
-
-    return res_arr
 
 
 def recursively_expand_tags(input_stags: list, ref: object):
@@ -222,12 +208,6 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
 
     lemma_object["tags"] = tags
     lemma_object["topics"] = topics
-
-
-def finalise_lemma_objects(group_number, wordtype):
-    untruncate_lemma_objects(group_number, wordtype)
-    res_arr = expand_tags_and_topics(group_number, wordtype)
-    write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved")
 
 
 def untruncate_lemma_objects(group_number, wordtype):
@@ -279,3 +259,23 @@ def recursively_prefix_string_values(obj, prefix):
             obj[key] = f"{prefix}{value}"
         elif type(value) in [dict, list]:
             recursively_prefix_string_values(value, prefix)
+
+
+def expand_tags_and_topics(group_number, wordtype):
+    res_arr = []
+
+    with open(f"output_saved/untruncated_{wordtype}_{group_number}.json", "r") as f:
+        untruncated_lobjs = json.load(f)
+        f.close()
+
+    for lemma_object in untruncated_lobjs:
+        add_tags_and_topics_from_shorthand(lemma_object, shorthand_tag_refs)
+        res_arr.append(lemma_object)
+
+    return res_arr
+
+
+def finalise_lemma_objects(group_number, wordtype):
+    untruncate_lemma_objects(group_number, wordtype)
+    res_arr = expand_tags_and_topics(group_number, wordtype)
+    write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved")
