@@ -83,14 +83,14 @@ def make_ids(langcode, wordtype, group_number=None, lemma_objects=None, existing
                             if "(" not in elobj["id"].split("-")[3]:
                                 parent_info = "?"
                                 if "otherShapes" in lemma_object:
-                                    for sh_key, sh_values in lemma_object["otherShapes"]:
+                                    for sh_key, sh_values in lemma_object["otherShapes"].items():
                                         if elobj["lemma"] in sh_values:
                                             parent_info = sh_key
                                 if is_existing or len(parent_info) == 1:
                                     write_todo(
                                         f'Manually add sibling_info "{parent_info[0:4]}" to id of "{elobj["id"]}".')
                                 else:
-                                    elobj["id"] += f'({parent_info})'
+                                    elobj["id"] += f'({parent_info[0:4]})'
 
         if sibling_info:
             sibling_info = [sibling_info[0]]

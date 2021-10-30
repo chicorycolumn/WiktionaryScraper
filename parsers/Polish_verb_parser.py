@@ -24,8 +24,8 @@ class PolishVerbParser(HTMLParser):
     ignorable_narrow = [",", "/", ";"]
     ignorable_broad = ignorable_narrow + ["or", "and"]
 
-    current_other_shapes_key = None
-    current_other_shapes_value = []
+    current_otherShapes_key = None
+    current_otherShapes_value = []
 
     row_num = 0
     col_num = 0
@@ -58,8 +58,8 @@ class PolishVerbParser(HTMLParser):
         self.output_obj = {
             "lemma": None,
             "aspect": [],
-            "secondary_aspects": [],
-            "other_shapes": {},
+            "secondaryAspects": [],
+            "otherShapes": {},
             "tags": "xxxxxxxxx",
             "translations": {"ENG": []},
             "derivedTerms": []
@@ -75,8 +75,8 @@ class PolishVerbParser(HTMLParser):
         self.current_definition = None
         self.current_usage = None
 
-        self.current_other_shapes_key = None
-        self.current_other_shapes_value = []
+        self.current_otherShapes_key = None
+        self.current_otherShapes_value = []
         self.row_num = 0
         self.col_num = 0
         self.ingested_table = []
@@ -120,10 +120,10 @@ class PolishVerbParser(HTMLParser):
                     return
 
                 if self.lasttag == "i":
-                    self.current_other_shapes_key = data
+                    self.current_otherShapes_key = data
 
                 if "b" in [self.penultimatetag, self.lasttag]:
-                    self.current_other_shapes_value.append(data)
+                    self.current_otherShapes_value.append(data)
 
                 if self.lasttag == "abbr":
                     self.output_obj["aspect"].append(data)
@@ -183,12 +183,12 @@ class PolishVerbParser(HTMLParser):
 
             if self.mode == "getaspect":
                 if startTag in ["i", "ol"]:
-                    if self.current_other_shapes_value:
-                        self.output_obj["other_shapes"][self.current_other_shapes_key] = self.current_other_shapes_value[:]
-                        self.current_other_shapes_key = None
-                        self.current_other_shapes_value = []
-                    elif self.current_other_shapes_key:
-                        self.output_obj["secondary_aspects"].append(self.current_other_shapes_key)
+                    if self.current_otherShapes_value:
+                        self.output_obj["otherShapes"][self.current_otherShapes_key] = self.current_otherShapes_value[:]
+                        self.current_otherShapes_key = None
+                        self.current_otherShapes_value = []
+                    elif self.current_otherShapes_key:
+                        self.output_obj["secondaryAspects"].append(self.current_otherShapes_key)
                 if startTag == "ol":
                     self.mode = "getdefinitions"
 
