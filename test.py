@@ -9,8 +9,8 @@ from semimanual_utils.Polish import *
 
 
 @pytest.mark.parametrize("input_path,expected_path,wordtype", [
-    # ("test_nouns_to_id_1.json", "expected_nouns_with_id_1.json", "nouns"),
-    ("test_verbs_to_id_1.json", "expected_verbs_with_id_1.json", "verbs")
+    ("test_nouns_to_id_1.json", "expected_nouns_with_id_1.json", "nouns"),
+    # ("test_verbs_to_id_1.json", "expected_verbs_with_id_1.json", "verbs")
 ])
 def test_make_ids(input_path, expected_path, wordtype):
     with open(f'expected/{input_path}', "r") as f:
@@ -32,6 +32,13 @@ def test_make_ids(input_path, expected_path, wordtype):
                 f.close()
 
     actual = make_ids(langcode="pol", wordtype=wordtype, lemma_objects=input, existing_lemma_objects=existing_lemma_objects)
+
+    write_output(actual, expected_path.split(".")[0])
+
+    with open(f'output/{expected_path}', "r") as f:
+        expected = json.load(f)
+        f.close()
+
     assert actual == expected
 
 

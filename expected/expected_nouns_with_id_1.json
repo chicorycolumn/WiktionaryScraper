@@ -8,7 +8,7 @@
         "zip fastener zipper zip"
       ]
     },
-    "id": "pol-nou-004|lock-zamek",
+    "id": "pol-nco-003-zamek(lock)",
     "gender": "m3"
   },
   {
@@ -19,8 +19,19 @@
         "castle"
       ]
     },
-    "id": "pol-nou-005|castle-zamek",
+    "id": "pol-nco-004-zamek(castle)",
     "gender": "m3"
+  },
+  {
+    "lemma": "dziewczyna",
+    "tags": "xxxxxxxxx",
+    "translations": {
+      "ENG": [
+        "girl"
+      ]
+    },
+    "id": "pol-npe-003-dziewczyna",
+    "gender": "f"
   },
   {
     "lemma": "mysz",
@@ -30,7 +41,7 @@
         "mouse"
       ]
     },
-    "id": "pol-nou-006-mysz",
+    "id": "pol-nco-005-mysz",
     "gender": "f"
   }
 ]

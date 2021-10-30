@@ -1,18 +1,52 @@
 [
   {
-    "lemma": "czytywać",
-    "id": "pol-nco-001-czytywać"
+    "lemma": "pisywać",
+    "id": "pol-nco-001-pisywać",
+    "aspect": "imperfective",
+    "secondary_aspects": [
+      "indeterminate",
+      "frequentative"
+    ],
+    "other_shapes": {
+      "perfective": [
+        "napisać"
+      ],
+      "imperfective": [
+        "pisać"
+      ]
+    },
+    "tags": "xxxxxxxxx",
+    "translations": {
+      "ENG": [
+        "( transitive ) to write occasionally"
+      ]
+    }
   },
   {
     "lemma": "twierdzić",
-    "id": "pol-nco-002-twierdzić"
+    "id": "pol-nco-002-twierdzić",
+    "translations": {
+      "ENG": [
+        "( transitive ) to claim"
+      ]
+    }
   },
   {
     "lemma": "jechać",
-    "id": "pol-npe-005-jechać"
+    "id": "pol-npe-005-jechać",
+    "translations": {
+      "ENG": [
+        "( intransitive ) to travel"
+      ]
+    }
   },
   {
     "lemma": "oznajmić",
-    "id": "pol-npe-006-oznajmić"
+    "id": "pol-npe-006-oznajmić",
+    "translations": {
+      "ENG": [
+        "( transitive ) to write occasionally"
+      ]
+    }
   }
 ]
