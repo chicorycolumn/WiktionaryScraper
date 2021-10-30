@@ -1,13 +1,16 @@
 [
   {
     "lemma": "pisywać",
-    "aspect": "imperfective",
+    "tags": [
+      "school"
+    ],
     "translations": {
       "ENG": [
         "( transitive ) to write occasionally"
       ]
     },
     "id": "pol-ver-007-pisywać(inde)",
+    "aspect": "imperfective",
     "secondary_aspects": [
       "indeterminate",
       "frequentative"
@@ -19,17 +22,116 @@
       "imperfective": [
         "pisać"
       ]
-    }
+    },
+    "derivedTerms": [],
+    "inflections": {
+      "infinitive": "pisywać",
+      "verbalNoun": "pisywanie",
+      "activeAdjectival": "pisujący",
+      "passiveAdjectival": "pisywany",
+      "contemporaryAdverbial": "pisując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "pisuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "pisywano"
+            },
+            "plural": {
+              "allPluralGenders": "pisywano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "pisywałem",
+              "f": "pisywałam"
+            },
+            "plural": {
+              "virile": "pisywaliśmy",
+              "nonvirile": "pisywałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "pisywałeś",
+              "f": "pisywałaś"
+            },
+            "plural": {
+              "virile": "pisywaliście",
+              "nonvirile": "pisywałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "pisywał",
+              "f": "pisywała",
+              "n": "pisywało"
+            },
+            "plural": {
+              "virile": "pisywali",
+              "nonvirile": "pisywały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "pisuje się"
+            },
+            "plural": {
+              "allPluralGenders": "pisuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "pisuję"
+            },
+            "plural": {
+              "allPluralGenders": "pisujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "pisujesz"
+            },
+            "plural": {
+              "allPluralGenders": "pisujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "pisuje"
+            },
+            "plural": {
+              "allPluralGenders": "pisują"
+            }
+          }
+        }
+      }
+    },
+    "topics": []
   },
   {
     "lemma": "pisać",
-    "aspect": "imperfective",
+    "tags": [
+      "school"
+    ],
     "translations": {
       "ENG": [
-        "( transitive ) to write"
+        "( transitive intransitive ) to write ( to form letters, words or symbols on a surface in order to communicate )",
+        "( transitive ) to write ( to compose a text for written or printed reproduction or publication )",
+        "( intransitive ) to write ( to engage in written conversation )",
+        "( intransitive ) to write ( to be an author )",
+        "( transitive intransitive ) to write , to take ( to fill in a written exam )",
+        "( colloquial ) to say ( to indicate in a written form ) Gazety piszą zgoła co innego. The newspapers say something entirely different.",
+        "( colloquial proscribed impersonal ) to say , to state , to read ( to indicate in a written form ) Na ich stronie internetowej pisze , że urządzenie jest wykonane z komponentów najwyższej jakości. Their website says that the device is built of top-tier quality components. Na etykiecie wyraźnie pisze , do czego służy urządzenie. The label clearly states what the device is designed for."
       ]
     },
     "id": "pol-ver-008-pisać(impe)",
+    "aspect": "imperfective",
     "secondary_aspects": [],
     "other_shapes": {
       "perfective": [
@@ -38,22 +140,224 @@
       "indeterminate": [
         "pisywać"
       ]
-    }
+    },
+    "derivedTerms": [
+      "dopisywać impf dopisać pf",
+      "nadpisywać impf nadpisać pf",
+      "odpisywać impf odpisać pf",
+      "opisywać impf opisać pf",
+      "popisywać impf popisać pf",
+      "podpisywać impf ,( podpisać pf",
+      "przepisywać impf przepisać pf",
+      "przypisywać impf przypisać pf",
+      "rozpisywać impf rozpisać pf",
+      "spisywać impf spisać pf",
+      "wpisywać impf wpisać pf",
+      "wypisywać impf wypisać pf",
+      "zapisywać impf zapisać pf",
+      "( nouns ) pisadło n pisak m pisanina f pisanka f pisarz m pismak m pismo n pisownia f",
+      "( adjectives ) pisarski pisemny",
+      "( adverb ) pisemnie",
+      "( nouns ) długopis m napis m odpis m opis m , , popis m przepis m przypis m rozpiska f spis m wypis m wypiska f zapis m zapiski pl",
+      "( adjectives ) opisowy"
+    ],
+    "inflections": {
+      "infinitive": "pisać",
+      "verbalNoun": "pisanie",
+      "activeAdjectival": "piszący",
+      "passiveAdjectival": "pisany",
+      "contemporaryAdverbial": "pisząc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "pisz",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "pisano"
+            },
+            "plural": {
+              "allPluralGenders": "pisano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "pisałem",
+              "f": "pisałam"
+            },
+            "plural": {
+              "virile": "pisaliśmy",
+              "nonvirile": "pisałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "pisałeś",
+              "f": "pisałaś"
+            },
+            "plural": {
+              "virile": "pisaliście",
+              "nonvirile": "pisałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "pisał",
+              "f": "pisała",
+              "n": "pisało"
+            },
+            "plural": {
+              "virile": "pisali",
+              "nonvirile": "pisały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "pisze się"
+            },
+            "plural": {
+              "allPluralGenders": "pisze się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "piszę"
+            },
+            "plural": {
+              "allPluralGenders": "piszemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "piszesz"
+            },
+            "plural": {
+              "allPluralGenders": "piszecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "pisze"
+            },
+            "plural": {
+              "allPluralGenders": "piszą"
+            }
+          }
+        }
+      }
+    },
+    "topics": []
   },
   {
     "lemma": "napisać",
-    "aspect": "perfective",
+    "tags": [
+      "school"
+    ],
     "translations": {
       "ENG": [
-        "( transitive ) to write occasionally"
+        "( transitive ) to write"
       ]
     },
     "id": "pol-ver-009-napisać(perf)",
+    "aspect": "perfective",
     "secondary_aspects": [],
     "other_shapes": {
       "imperfective": [
         "pisać"
       ]
-    }
+    },
+    "derivedTerms": [],
+    "inflections": {
+      "infinitive": "napisać",
+      "verbalNoun": "napisanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "napisany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "napisawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "napisze się"
+            },
+            "plural": {
+              "allPluralGenders": "napisze się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "napiszę"
+            },
+            "plural": {
+              "allPluralGenders": "napiszemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "napiszesz"
+            },
+            "plural": {
+              "allPluralGenders": "napiszecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "napisze"
+            },
+            "plural": {
+              "allPluralGenders": "napiszą"
+            }
+          }
+        },
+        "imperative": "napisz",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "napisano"
+            },
+            "plural": {
+              "allPluralGenders": "napisano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "napisałem",
+              "f": "napisałam"
+            },
+            "plural": {
+              "virile": "napisaliśmy",
+              "nonvirile": "napisałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "napisałeś",
+              "f": "napisałaś"
+            },
+            "plural": {
+              "virile": "napisaliście",
+              "nonvirile": "napisałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "napisał",
+              "f": "napisała",
+              "n": "napisało"
+            },
+            "plural": {
+              "virile": "napisali",
+              "nonvirile": "napisały"
+            }
+          }
+        },
+        "present": false
+      }
+    },
+    "topics": []
   }
 ]

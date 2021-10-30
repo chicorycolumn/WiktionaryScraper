@@ -1,12 +1,18 @@
+from parsers.common import scrape_word_data
+from utils.scraping.Polish import minimise_inflections
+from utils.general.common import write_output
+from utils.postprocessing.Polish import generate_adjective
+from utils.postprocessing.common import make_ids, add_tags_and_topics_from_shorthand, recursively_expand_tags
 from testdata.test_helpers.Polish import test_helper_shorthand_tag_ref_noun
-from parsers.common import *
 
+import json
 import pytest
+import os
 
 
 @pytest.mark.parametrize("input_path,expected_path,wordtype", [
-    ("test_nouns_to_id_1", "with_ids/nouns_with_ids_1", "nouns"),
-    # ("test_verbs_to_id_1", "with_ids/verbs_with_ids_1", "verbs")
+    # ("test_nouns_to_id_1", "with_ids/nouns_with_ids_1", "nouns"),
+    ("test_verbs_to_id_1", "with_ids/verbs_with_ids_1", "verbs")
 ])
 def test_make_ids(input_path, expected_path, wordtype):
     with open(f'testdata/input/{input_path}.json', "r") as f:
