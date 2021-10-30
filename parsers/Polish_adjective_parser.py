@@ -176,7 +176,7 @@ class PolishAdjectiveParser(HTMLParser):
                 self.output_obj["comparative_type"] = 0
                 self.mode = "gettranslations"
 
-        if self.location == "insideselectedlang" and (endTag == "body" or self.mode == "END"):
+        if self.mode and self.location == "insideselectedlang" and (endTag == "body" or self.mode == "END"):
 
             if len(self.output_obj["lemma"]) != 1:
                 print(f'#ERR Wrong number of lemmas {self.output_obj["lemma"]}')

@@ -259,7 +259,7 @@ class PolishNounParser(HTMLParser):
                 self.output_arr.append(self.output_obj)
                 self.reset_for_new_table()
 
-        if endTag == "body":
+        if self.mode != "STOP" and endTag == "body":
             for output_obj in self.output_arr:
                 if output_obj["usage"]:
                     usages_copy = output_obj["usage"][:]
@@ -280,6 +280,8 @@ class PolishNounParser(HTMLParser):
                 for key in ["usage", "otherShapes", "derivedTerms", "synonyms"]:
                     if not output_obj[key]:
                         output_obj.pop(key)
+
+            self.mode = "STOP"
 
         self.lsEndTags.append(endTag)
         self.lsAll.append(endTag)

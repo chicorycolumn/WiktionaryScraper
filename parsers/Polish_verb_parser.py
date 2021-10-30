@@ -238,7 +238,7 @@ class PolishVerbParser(HTMLParser):
         #                 self.location = "insidetable"
 
     def handle_endtag(self, endTag):
-        if self.mode == "END" or endTag in ["body", "html"]:
+        if self.mode and (self.mode == "END" or endTag in ["body", "html"]):
             def add_value_at_keychain(value, keychain, dict):
                 for index, key in enumerate(keychain):
                     if key not in dict:
