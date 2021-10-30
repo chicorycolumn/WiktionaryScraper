@@ -1,16 +1,12 @@
+from testdata.test_helpers.Polish import test_helper_shorthand_tag_ref_noun
+from parsers.common import *
+
 import pytest
-from parsers.Polish_adjective_parser import *
-from parsers.Polish_noun_parser import *
-from parsers.Polish_verb_parser import *
-from scraper_utils.processing import *
-from scraper_utils.Polish import minimise_inflections as minimise_inflections_polish
-from scraper_utils.Polish import test_helper_shorthand_tag_ref_noun
-from semimanual_utils.Polish import *
 
 
 @pytest.mark.parametrize("input_path,expected_path,wordtype", [
     ("test_nouns_to_id_1", "with_ids/nouns_with_ids_1", "nouns"),
-    # ("test_verbs_to_id_1.json", "with_ids/verbs_with_ids_1.json", "verbs")
+    # ("test_verbs_to_id_1", "with_ids/verbs_with_ids_1", "verbs")
 ])
 def test_make_ids(input_path, expected_path, wordtype):
     with open(f'testdata/input/{input_path}.json', "r") as f:
@@ -59,7 +55,7 @@ def test_polish_verb_minimiser(input_path: str, expected_path: str, wordtype: st
         input = json.load(f)
         f.close()
 
-    minimised_verbs = [minimise_inflections_polish(protoverb) for protoverb in input]
+    minimised_verbs = [minimise_inflections(protoverb) for protoverb in input]
 
     write_output(dict=minimised_verbs, output_file=expected_path)
 
@@ -93,7 +89,6 @@ def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: boo
         f.close()
 
     scrape_word_data(
-        parser=PolishVerbParser(convert_charrefs=False),
         language="Polish",
         head_words=input_words,
         use_sample=use_sample,
@@ -146,7 +141,6 @@ def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample
         f.close()
 
     scrape_word_data(
-        parser=PolishAdjectiveParser(convert_charrefs=False),
         language="Polish",
         head_words=input_words,
         use_sample=use_sample,
@@ -323,7 +317,6 @@ def test_PolishNounParser(input_words: list, expected_path: str, use_sample: boo
         f.close()
 
     scrape_word_data(
-        parser=PolishNounParser(convert_charrefs=False),
         language="Polish",
         head_words=input_words,
         use_sample=use_sample,

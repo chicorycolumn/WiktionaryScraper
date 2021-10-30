@@ -1,17 +1,19 @@
-from parsers.Polish_adjective_parser import *
-from parsers.Polish_noun_parser import *
-from parsers.Polish_verb_parser import *
-from scraper_utils.processing import *
+from utils.general.common import *
+from utils.scraping.common import *
+from utils.scraping.Polish import *
+from utils.postprocessing.common import *
+from utils.postprocessing.Polish import *
+from parsers.common import *
+
 from input.Polish.nouns.head_words import input as nouns
 from input.Polish.adjectives.head_words import input as adjectives
 from input.Polish.verbs.head_words import input as verbs
-from semimanual_utils.Polish import *
 
 
 if __name__ == '__main__':
     # Note! Manually check all feminine nouns to see if add "isPerson": True.
 
-    wordtypecode = "v"
+    wordtype = "verbs"
     group_number = 333
     run_make_ids = False
 
@@ -39,20 +41,13 @@ if __name__ == '__main__':
                         finished_*_99 CREATED             
     """
 
-    if wordtypecode[0] == "a":
-        wordtype = "adjectives"
-        parser = PolishAdjectiveParser(convert_charrefs=False)
-        head_words = adjectives[input_indexes[0]:input_indexes[1]]
-    elif wordtypecode[0] == "n":
-        wordtype = "nouns"
-        parser = PolishNounParser(convert_charrefs=False)
-        head_words = nouns[input_indexes[0]:input_indexes[1]]
-    elif wordtypecode[0] == "v":
-        wordtype = "verbs"
-        parser = PolishVerbParser(convert_charrefs=False)
-        head_words = verbs[input_indexes[0]:input_indexes[1]]
-    else:
-        raise Exception(f'Expected wordtypecode to be one of ["a","n","v"]')
+    head_words_ref = {
+        "adjectives": adjectives,
+        "nouns": nouns,
+        "verbs": verbs
+    }
+    input_list = head_words_ref[wordtype]
+    head_words = input_list[input_indexes[0]:input_indexes[1]]
 
     if run_make_ids:
         make_ids(wordtype, group_number)
@@ -62,7 +57,6 @@ if __name__ == '__main__':
             group_number=group_number,
             head_words=head_words,
             wordtype=wordtype,
-            parser=parser,
             language="Polish",
             scraping_already_done=scraping_already_done
         )
