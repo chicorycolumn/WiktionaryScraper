@@ -293,4 +293,4 @@ def finalise_lemma_objects(group_number, wordtype, langcode, skip_make_ids=False
     res_arr = expand_tags_and_topics(group_number, wordtype)
     if not skip_make_ids:
         make_ids(langcode=langcode, wordtype=wordtype, lemma_objects=res_arr, is_first_time=is_first_time)
-    write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved")
+    write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved/{wordtype}")

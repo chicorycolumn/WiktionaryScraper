@@ -1,0 +1,101 @@
+[
+    {
+        "lemma": "herbata",
+        "tags": [
+            "concrete",
+            "drink",
+            "holdable"
+        ],
+        "translations": {
+            "ENG": [
+                "tea"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-010-herbata",
+        "otherShapes": {
+            "diminutive": [
+                "herbatka"
+            ],
+            "augmentative": [
+                "herbacina"
+            ]
+        },
+        "derivedTerms": [
+            "herbatnik",
+            "herbaciarnia",
+            "herbatnica",
+            "herbaciarka",
+            "herbaciany",
+            "herbatni",
+            "herbatowy"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "herbata",
+                "gen": "herbaty",
+                "dat": "herbacie",
+                "acc": "herbatę",
+                "ins": "herbatą",
+                "loc": "herbacie",
+                "voc": "herbato"
+            },
+            "plural": {
+                "nom": "herbaty",
+                "gen": "herbat",
+                "dat": "herbatom",
+                "acc": "herbaty",
+                "ins": "herbatami",
+                "loc": "herbatach",
+                "voc": "herbaty"
+            }
+        },
+        "topics": [
+            "inside",
+            "kitchen",
+            "restaurant"
+        ]
+    },
+    {
+        "lemma": "zima",
+        "tags": [
+            "abstract",
+            "time"
+        ],
+        "translations": {
+            "ENG": [
+                "winter"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-011-zima",
+        "derivedTerms": [
+            "zimowy",
+            "zimny"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "zima",
+                "gen": "zimy",
+                "dat": "zimie",
+                "acc": "zimę",
+                "ins": "zimą",
+                "loc": "zimie",
+                "voc": "zimo"
+            },
+            "plural": {
+                "nom": "zimy",
+                "gen": "zim",
+                "dat": "zimom",
+                "acc": "zimy",
+                "ins": "zimami",
+                "loc": "zimach",
+                "voc": "zimy"
+            }
+        },
+        "topics": [
+            "maths",
+            "travel"
+        ]
+    }
+]
