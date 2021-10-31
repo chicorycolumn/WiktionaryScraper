@@ -11,8 +11,8 @@ import os
 
 
 @pytest.mark.parametrize("input_path,expected_path,wordtype", [
-    # ("test_nouns_to_id_1", "with_ids/nouns_with_ids_1", "nouns"),
-    # ("test_verbs_to_id_1", "with_ids/verbs_with_ids_1", "verbs"),
+    ("test_nouns_to_id_1", "with_ids/nouns_with_ids_1", "nouns"),
+    ("test_verbs_to_id_1", "with_ids/verbs_with_ids_1", "verbs"),
     ("test_verbs_to_id_2", "with_ids/verbs_with_ids_2", "verbs")
 ])
 def test_make_ids(input_path, expected_path, wordtype):
@@ -24,17 +24,9 @@ def test_make_ids(input_path, expected_path, wordtype):
         expected = json.load(f)
         f.close()
 
-    existing_lemma_objects = []
-    path = f"testdata/existing/{wordtype}"
-    for root, dirs, files in os.walk(path):
-        for file in files:
-            print(file)
-            with open(f'{path}/{file}', "r") as f:
-                loaded = json.load(f)
-                existing_lemma_objects.extend(loaded)
-                f.close()
+    existing_lemma_objects_path = f"testdata/existing/{wordtype}"
 
-    actual = make_ids(langcode="pol", wordtype=wordtype, lemma_objects=input, existing_lemma_objects=existing_lemma_objects)
+    actual = make_ids(langcode="pol", wordtype=wordtype, lemma_objects=input, existing_lemma_objects_path=existing_lemma_objects_path)
 
     write_output(actual, expected_path.split("/")[-1])
 

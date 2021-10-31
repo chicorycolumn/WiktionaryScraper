@@ -4,14 +4,20 @@ from input.Polish.nouns.head_words import person_nouns_without_m1_gender
 import copy
 import json
 import re
+import os
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 
-def make_ids(langcode, wordtype, group_number=None, lemma_objects=None, existing_lemma_objects=None, is_first_time=False):
-    """
-    So what this means is:
-    When examining a lobj to give it its id,
-    Look to see if any existing lobjs list this as an otherShape.
-    """
+def make_ids(langcode, wordtype, lemma_objects=None, existing_lemma_objects_path=None, is_first_time=False):
+    if not existing_lemma_objects_path:
+        existing_lemma_objects_path = f'output_saved/{wordtype}'
+    existing_lemma_objects = []
+    for root, dirs, files in os.walk(existing_lemma_objects_path):
+        for file in files:
+            print(file)
+            with open(f'{existing_lemma_objects_path}/{file}', "r") as f:
+                loaded = json.load(f)
+                existing_lemma_objects.extend(loaded)
+                f.close()
 
     if not is_first_time:
         existing_lemmas = []
@@ -282,7 +288,9 @@ def expand_tags_and_topics(group_number, wordtype):
     return res_arr
 
 
-def finalise_lemma_objects(group_number, wordtype):
+def finalise_lemma_objects(group_number, wordtype, langcode, skip_make_ids=False, is_first_time=False):
     untruncate_lemma_objects(group_number, wordtype)
     res_arr = expand_tags_and_topics(group_number, wordtype)
+    if not skip_make_ids:
+        make_ids(langcode=langcode, wordtype=wordtype, lemma_objects=res_arr, is_first_time=is_first_time)
     write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved")

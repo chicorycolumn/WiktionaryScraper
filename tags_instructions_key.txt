@@ -3,8 +3,8 @@ k = Colour, v = Movement, z = Dimensions
 
 Uncountable = u
 
-Is it Material/Chemical/Bodypart/Schoolsubject/Weather/Noise/Emotion/Money/Measurement
-           c       ¢        b           ß          w      !      e     $       @
+Is it Material/Chemical/Bodypart/Schoolsubject/Weather/Perception/Noise/Emotion/Money/Measurement
+           c        ¢       b           ß         w        !        !!      e      $      @
 
 Is it abstracttime, abstractschool, abstractwork, abstractgeometric, otherwise abstract?
             at             as            aw              ag            aa
@@ -14,16 +14,16 @@ Is it Relatives, Jobs, Animal, AnimalPet Persontitle, otherwise Person?
         r        j         a       æ          t         p
     Return
 
-Is it Food or Drink or Drinkalcoholic or Garments?
-        f         d          da            g
+Is it Food(sweet/sav) and/or fruit/veg or Drink or Drinkalcoholic or Garments?
+        f(w/v)                f(fr/ve)        d          da            g
     Return
 
 Is it locationgeneral, locationbuilding, locationroom, locationnatural, locationspecial
             lg                lb              lr            ln              ls
     Return
 
-Is it furniture, bedroomobjects, kitchenobjects, washroomobjects, housepart, otherwise house?
-           hf           hb             hk             hw             hp            hh
+Is it general house, bedroomobjects, kitchenobjects, washroomobjects, housepart
+           hh(f)         hb(f)           hk(f)         hw(f)             hp
     Return
 
 If not enough selected:

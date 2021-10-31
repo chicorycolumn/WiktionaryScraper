@@ -168,6 +168,22 @@ shorthand_tag_refs = {
         "tags": ["food", "h"],
         "topics": ["kitchen", "restaurant", "inside"],
     },
+    "fw": {
+        "tags": ["sweet", "f"],
+        "topics": ["kitchen", "restaurant", "inside"],
+    },
+    "fv": {
+        "tags": ["savoury", "f"],
+        "topics": ["kitchen", "restaurant", "inside"],
+    },
+    "ffr": {
+        "tags": ["fruit", "f"],
+        "topics": ["kitchen", "restaurant", "inside"],
+    },
+    "fve": {
+        "tags": ["vegetable", "f"],
+        "topics": ["kitchen", "restaurant", "inside"],
+    },
     "d": {
         "tags": ["drink", "h"],
         "topics": ["kitchen", "restaurant", "inside"],
@@ -200,7 +216,7 @@ shorthand_tag_refs = {
         "tags": ["special location", "abstract"],
         "topics": ["religion"],
     },
-    "hf": {
+    "hhf": {
         "tags": ["furniture", "concrete"],
         "topics": ["home", "inside"],
     },
@@ -208,13 +224,25 @@ shorthand_tag_refs = {
         "tags": ["household object", "h"],
         "topics": ["home", "inside"],
     },
+    "hbf": {
+        "tags": ["hhf"],
+        "topics": ["home", "inside", "bedroom"],
+    },
     "hb": {
         "tags": ["hh"],
         "topics": ["home", "inside", "bedroom"],
     },
+    "hkf": {
+        "tags": ["hhf"],
+        "topics": ["home", "inside", "kitchen"],
+    },
     "hk": {
         "tags": ["hh"],
         "topics": ["home", "inside", "kitchen"],
+    },
+    "hwf": {
+        "tags": ["hhf"],
+        "topics": ["home", "inside", "washroom"],
     },
     "hw": {
         "tags": ["hh"],

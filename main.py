@@ -7,17 +7,20 @@ from utils.postprocessing.common import make_ids, finalise_lemma_objects
 if __name__ == '__main__':
     # Note! Manually check all feminine nouns to see if add "isPerson": True.
 
-    step = 1
+    step = 3
     wordtype = "nouns"
-    group_number = 1
-    input_indexes = [0, 100]
+    group_number = 111
+    input_indexes = [0, 10]
 
+    is_first_time = True
     skip_make_ids = False
     skip_scraping = False
     these_headwords_only = []
 
+    langcode = "pol"
+    language = "Polish"
+
     """
-    
     Step 1: scrape_word_data()
                         output_*_99_scraped CREATED (ignore unless next fxn encounters error)
                         rejected_*_99 CREATED
@@ -44,16 +47,13 @@ if __name__ == '__main__':
     head_words = these_headwords_only if these_headwords_only \
         else head_words_ref[wordtype][input_indexes[0]:input_indexes[1]]
 
-    if not skip_make_ids:
-        make_ids(wordtype, group_number)
-        pass
-    elif step == 1:
+    if step == 1:
         scrape_word_data(
             group_number=group_number,
             head_words=head_words,
             wordtype=wordtype,
-            language="Polish",
+            language=language,
             skip_scraping=skip_scraping
         )
     elif step == 3:
-        finalise_lemma_objects(group_number, wordtype)
+        finalise_lemma_objects(group_number, wordtype, langcode, skip_make_ids, is_first_time)
