@@ -151,7 +151,7 @@ class PolishAdjectiveParser(HTMLParser):
                     self.mode = "gettingpluvirnom"
 
         if self.location == "insideselectedlang" and self.mode == "readyfortable":
-            if startTag == "table" and "inflection-table" in self.currentclass.split(" "):
+            if startTag == "table" and self.currentclass and "inflection-table" in self.currentclass.split(" "):
                 self.mode = "handlingtable"
 
         if self.mode == "gettranslations" and startTag == "ol":

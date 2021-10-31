@@ -1,6 +1,6 @@
 from html.parser import HTMLParser
 from utils.scraping.Polish_dicts import aspect_ref
-from utils.scraping.common import orth, superstrip, add_string, trim_chaff_from_derived_terms
+from utils.scraping.common import orth, superstrip, add_string, trim_chaff_from_derived_terms, add_value_at_keychain
 
 
 class PolishVerbParser(HTMLParser):
@@ -37,6 +37,50 @@ class PolishVerbParser(HTMLParser):
 
     got_derived_terms = False
     got_related_terms = False
+
+    def add_lobj_and_reset(self):
+        t = [row["data"] for row in self.ingested_table]
+        inflections = {}
+        index_of_first_data_row = 0
+        header_rows = []
+
+        for index, row in enumerate(t):
+            if all(type(item) is str and item.startswith("#") for item in row):
+                header_rows.append(row)
+            else:
+                index_of_first_data_row = index
+                break
+
+        for list_index, list in enumerate(t[index_of_first_data_row:]):
+            keychain_base = []
+
+            for cell in list:
+                if type(cell) == str and cell.startswith("#"):
+                    if not len(keychain_base) or cell not in keychain_base:
+                        keychain_base.append(cell)
+
+            for cell_index, cell in enumerate(list):
+                if type(cell) is not str or not cell.startswith("#"):
+                    keychain = keychain_base[:]
+                    for header_row in header_rows:
+                        if not header_row[cell_index].startswith("#"):
+                            print("# Error 151")
+                        keychain.append(header_row[cell_index])
+
+                    if cell != "<blank>":
+                        add_value_at_keychain(cell, [k[1:] for k in keychain], inflections)
+
+        self.output_obj["inflections"] = inflections
+        print("#####", self.output_obj["aspect"])
+        if len(self.output_obj["aspect"]) != 1:
+            print(
+                f'#ERR self.output_obj["aspect"] is {type(self.output_obj["aspect"])} {self.output_obj["aspect"]} should have length 1')
+            return
+        else:
+            self.output_obj["aspect"] = aspect_ref[self.output_obj["aspect"][0]]
+
+        self.output_arr.append(self.output_obj)
+        self.reset_for_new_table()
 
     def add_new_row_obj(self):
         self.ingested_table.append({
@@ -102,6 +146,12 @@ class PolishVerbParser(HTMLParser):
                 return
 
         if self.location == "insideselectedlang":
+            if self.lasttag in ["h1", "h2", "h3", "h4", "h5"] or self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
+                split = data.split(" ")
+                if split[0].lower() == "etymology" and len(split) > 1 and int(split[1]) > 1:
+                    self.add_lobj_and_reset()
+
+
             if self.mode == "gettingderivedterms":
                 self.current_derived_term.append(data)
 
@@ -174,7 +224,7 @@ class PolishVerbParser(HTMLParser):
 
         if self.location == "insideselectedlang":
             if self.mode == "gettable":
-                if startTag == "table" and "inflection-table" in self.currentclass.split(" "):
+                if startTag == "table" and self.currentclass and "inflection-table" in self.currentclass.split(" "):
                     self.mode = None
                     self.location = "insidetable"
 
@@ -235,72 +285,9 @@ class PolishVerbParser(HTMLParser):
 
     def handle_endtag(self, endTag):
         if self.mode and (self.mode == "END" or endTag in ["body", "html"]):
-            def add_value_at_keychain(value, keychain, dict):
-                for index, key in enumerate(keychain):
-                    if key not in dict:
-                        dict[key] = {}
-                    if index + 1 == len(keychain):
-                        dict[key] = value
-                    else:
-                        dict = dict[key]
 
-            t = [row["data"] for row in self.ingested_table]
-            inflections = {}
-            index_of_first_data_row = 0
-            header_rows = []
+            self.add_lobj_and_reset()
 
-            for index, row in enumerate(t):
-                if all(type(item) is str and item.startswith("#") for item in row):
-                    header_rows.append(row)
-                else:
-                    index_of_first_data_row = index
-                    break
-
-            for list_index, list in enumerate(t[index_of_first_data_row:]):
-                keychain_base = []
-
-                for cell in list:
-                    if type(cell) == str and cell.startswith("#"):
-                        if not len(keychain_base) or cell not in keychain_base:
-                            keychain_base.append(cell)
-
-                for cell_index, cell in enumerate(list):
-                    if type(cell) is not str or not cell.startswith("#"):
-                        keychain = keychain_base[:]
-                        for header_row in header_rows:
-                            if not header_row[cell_index].startswith("#"):
-                                print("# Error 151")
-                            keychain.append(header_row[cell_index])
-
-                        if cell != "<blank>":
-                            add_value_at_keychain(cell, [k[1:] for k in keychain], inflections)
-
-            self.output_obj["inflections"] = inflections
-
-            if len(self.output_obj["aspect"]) != 1:
-                print(f'#ERR len(self.output_obj["aspect"]) is {len(self.output_obj["aspect"])} should be 1')
-                return
-            else:
-                self.output_obj["aspect"] = aspect_ref[self.output_obj["aspect"][0]]
-
-            # for tinfo in self.output_obj["translations"][:]:
-            #     print(">", tinfo)
-            #     search1 = re.search(r"(?P<first_bracketed>\(.*?\))", tinfo)
-            #     if search1 and search1["first_bracketed"]:
-            #         if re.search(r"reflexive", search1["first_bracketed"]):  # Requires "się".
-            #             copied_lemma_object = deepcopy(self.output_obj)
-            #             copied_lemma_object["translations"] = [tinfo]
-            #             copied_lemma_object["reflexive"] = True
-            #             self.output_arr.append(copied_lemma_object)
-            #             self.output_obj["translations"] = [t for t in self.output_obj["translations"] if t != tinfo]
-            #         if re.search(r"impersonal", search1["first_bracketed"]):  # Requires "się".
-            #             copied_lemma_object = deepcopy(self.output_obj)
-            #             copied_lemma_object["translations"] = [tinfo]
-            #             copied_lemma_object["impersonal"] = True
-            #             self.output_arr.append(copied_lemma_object)
-            #             self.output_obj["translations"] = [t for t in self.output_obj["translations"] if t != tinfo]
-
-            self.output_arr.insert(0, self.output_obj)
             self.location = None
             self.mode = None
             aalobj = self.output_obj
@@ -347,7 +334,8 @@ class PolishVerbParser(HTMLParser):
             derived_term = trim_chaff_from_derived_terms(" ".join(self.current_derived_term), self.output_obj['lemma'])
             if "further reading" not in derived_term.lower() and f"in {self.selected_lang} dictionaries" not in derived_term.lower():
                 self.current_derived_term = []
-                self.output_obj["derivedTerms"].append(derived_term)
+                if derived_term:
+                    self.output_obj["derivedTerms"].append(derived_term)
 
         if self.mode == "gettingdefinition" and endTag == "li":
             # definition = brackets_to_end(trim_around_brackets(self.current_definition))
@@ -357,7 +345,7 @@ class PolishVerbParser(HTMLParser):
 
         if endTag == "ol" and self.mode == "getdefinitions":
             self.mode = "gettable"
-        #
+
         # if self.mode and self.mode.startswith("getothershapes") and endTag == "p":
         #     if self.current_other_shape_key != "null" and self.current_other_shape_value:
         #         self.output_obj["otherShapes"][self.current_other_shape_key] = self.current_other_shape_value

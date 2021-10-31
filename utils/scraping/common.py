@@ -4,6 +4,16 @@ from datetime import datetime
 import re
 
 
+def add_value_at_keychain(value, keychain, dict):
+    for index, key in enumerate(keychain):
+        if key not in dict:
+            dict[key] = {}
+        if index + 1 == len(keychain):
+            dict[key] = value
+        else:
+            dict = dict[key]
+
+
 def trim_chaff_from_derived_terms(string, lemma):
     strings_to_cut = [
         f"[ edit ] show ▼ verbs derived from {lemma}",
