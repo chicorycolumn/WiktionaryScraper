@@ -1,5 +1,5 @@
 from utils.postprocessing.common import recursively_minimise
-from utils.general.common import recursively_replace_keys_in_dict, recursively_count_strings
+from utils.general.common import recursively_replace_keys_in_dict, recursively_count_strings, write_todo
 
 import copy
 
@@ -69,13 +69,7 @@ def minimise_inflections(lemma_object):
             actual_count = recursively_count_strings(full_inflections[py_key])
             if actual_count != expected_count:
                 if actual_count + 5 == expected_count:
-                    with open("TODO.txt", "a") as f:
-                        f.write(
-                            "\n" +
-                            f'The "{js_key}" tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}. I think the Wiktionary page was missing the "{js_key} impersonal", but nevertheless the word does have it, so I have gone ahead and minimised the "{js_key} impersonal" to True boolean. If you disagree, you must change that.'
-                            + "\n"
-                        )
-                        f.close()
+                    write_todo(f'The "{js_key}" tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}. I think the Wiktionary page was missing the "{js_key} impersonal", but nevertheless the word does have it, so I have gone ahead and minimised the "{js_key} impersonal" to True boolean. If you disagree, you must change that.')
                 else:
                     raise Exception(
                         f'{js_key} tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}.')

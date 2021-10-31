@@ -7,15 +7,14 @@ from utils.postprocessing.common import make_ids, finalise_lemma_objects
 if __name__ == '__main__':
     # Note! Manually check all feminine nouns to see if add "isPerson": True.
 
-    step = 3
+    step = 1
     wordtype = "verbs"
-    group_number = 777
+    group_number = 999
     input_indexes = [0, 5]
 
     skip_make_ids = True
     skip_scraping = False
-    # these_headwords_only = []
-    these_headwords_only = ["pisywać", "pisać", "napisać"]
+    these_headwords_only = []
 
     """
     Nouns: Group1: 0-50, Group2: 50-100
