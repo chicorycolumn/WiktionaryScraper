@@ -82,6 +82,7 @@ def test_polish_verb_minimiser(input_path: str, expected_path: str, wordtype: st
     (["czytać"], "parsed_polish_protoverbs_3", True),  # impf
     (["przeczytać"], "parsed_polish_protoverbs_4", True),  # pf
     (["badać", "zbadać", "widzieć", "zobaczyć"], "parsed_polish_protoverbs_5", True),  # various
+    (["stać"], "parsed_polish_protoverbs_6", True),  # verb has two meanings and two conj tables
 ])
 def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "verbs"):
     print(f'# Starting, given {len(input_words)} words.')
@@ -305,11 +306,11 @@ def test_recursively_expand_tags(input_stags: list, expected_output_tags: list):
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
     (["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"], "polish_nouns_1", True),
-    (["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"],
-     "polish_nouns_2", True),
+    (["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"], "polish_nouns_2", True),
     (["prysznic", "glista", "gleba", "łeb", "BADWORD", "palec", "noga", "piła", "piłka"], "polish_nouns_3", False),
     (["prysznic", "BADWORD", "ANOTHERBADWORD", "glista"], "polish_nouns_4", False),
     (["prysznic", "polski", "glista"], "polish_nouns_5", False),
+    (["kapusta"], "polish_nouns_6", True), # has two meanings and two conjugation tables
 ])
 def test_PolishNounParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "nouns"):
     print(f'# Starting, given {len(input_words)} words.')

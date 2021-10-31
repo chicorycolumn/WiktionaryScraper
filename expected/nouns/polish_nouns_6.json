@@ -1,0 +1,85 @@
+[
+    {
+        "lemma": "kapusta",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "cabbage",
+                "kale",
+                "cash money",
+                "(slang)"
+            ]
+        },
+        "id": null,
+        "otherShapes": {
+            "diminutive": [
+                "kapustka"
+            ],
+            "augmentative": [
+                "kapucha"
+            ]
+        },
+        "derivedTerms": [
+            "kapuściany",
+            "kapuśniak"
+        ],
+        "synonyms": [
+            "pieniądze"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "kapusta",
+                "gen": "kapusty",
+                "dat": "kapuście",
+                "acc": "kapustę",
+                "ins": "kapustą",
+                "loc": "kapuście",
+                "voc": "kapusto"
+            },
+            "plural": {
+                "nom": "kapusty",
+                "gen": "kapust",
+                "dat": "kapustom",
+                "acc": "kapusty",
+                "ins": "kapustami",
+                "loc": "kapustach",
+                "voc": "kapusty"
+            }
+        }
+    },
+    {
+        "lemma": "kapusta",
+        "gender": "m1",
+        "tags": [
+            "person"
+        ],
+        "translations": {
+            "ENG": [
+                "informant snitch",
+                "(slang)"
+            ]
+        },
+        "id": null,
+        "inflections": {
+            "singular": {
+                "nom": "kapusta",
+                "gen": "kapusty",
+                "dat": "kapuście",
+                "acc": "kapustę",
+                "ins": "kapustą",
+                "loc": "kapuście",
+                "voc": "kapusto"
+            },
+            "plural": {
+                "nom": "kapusty",
+                "gen": "kapustów",
+                "dat": "kapustom",
+                "acc": "kapustów",
+                "ins": "kapustami",
+                "loc": "kapustach",
+                "voc": "kapusty"
+            }
+        }
+    }
+]
