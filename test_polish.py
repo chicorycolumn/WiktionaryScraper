@@ -11,8 +11,9 @@ import os
 
 
 @pytest.mark.parametrize("input_path,expected_path,wordtype", [
-    ("test_nouns_to_id_1", "with_ids/nouns_with_ids_1", "nouns"),
-    ("test_verbs_to_id_1", "with_ids/verbs_with_ids_1", "verbs")
+    # ("test_nouns_to_id_1", "with_ids/nouns_with_ids_1", "nouns"),
+    # ("test_verbs_to_id_1", "with_ids/verbs_with_ids_1", "verbs"),
+    ("test_verbs_to_id_2", "with_ids/verbs_with_ids_2", "verbs")
 ])
 def test_make_ids(input_path, expected_path, wordtype):
     with open(f'testdata/input/{input_path}.json', "r") as f:

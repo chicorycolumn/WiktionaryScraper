@@ -8,21 +8,20 @@ if __name__ == '__main__':
     # Note! Manually check all feminine nouns to see if add "isPerson": True.
 
     step = 1
-    wordtype = "verbs"
-    group_number = 999
-    input_indexes = [0, 5]
+    wordtype = "nouns"
+    group_number = 1
+    input_indexes = [0, 100]
 
-    skip_make_ids = True
+    skip_make_ids = False
     skip_scraping = False
     these_headwords_only = []
 
     """
-    Nouns: Group1: 0-50, Group2: 50-100
     
     Step 1: scrape_word_data()
                         output_*_99_scraped CREATED (ignore unless next fxn encounters error)
                         rejected_*_99 CREATED
-                generate_adjectives()/minimise_verbs()
+                generate_adjective()/minimise_verbs()
                         output_*_99 CREATED
                         truncated_*_99 CREATED
 

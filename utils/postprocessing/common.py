@@ -3,13 +3,10 @@ from input.Polish.nouns.head_words import person_nouns_without_m1_gender
 
 import copy
 import json
+import re
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 
 def make_ids(langcode, wordtype, group_number=None, lemma_objects=None, existing_lemma_objects=None, is_first_time=False):
-    # To do: Group the IDs for:
-    #       verbs that are otherShapes of each other
-    #       nouns that are otherShapes of each other
-
     """
     So what this means is:
     When examining a lobj to give it its id,
@@ -101,12 +98,22 @@ def make_ids(langcode, wordtype, group_number=None, lemma_objects=None, existing
             is_existing = iteration[1]
             for elobj in existing_or_result_lemma_objects:
                 if elobj["lemma"] == lemma_object["lemma"]:
-                    sibling_info.append(lemma_object["translations"]["ENG"][0])
+
+                    first_translation = lemma_object["translations"]["ENG"][0]
+                    sibling_info_datum = first_translation if wordtype != "verbs" \
+                        else re.match(r".+?to\s(?P<bare_infinitive>.+?)\s", first_translation)["bare_infinitive"]
+
+                    sibling_info.append(sibling_info_datum)
+
                     if "(" not in elobj["id"].split("-")[3]:
+                        first_translation = elobj["translations"]["ENG"][0]
+                        parent_info_datum = first_translation if wordtype != "verbs" \
+                            else re.match(r".+?to\s(?P<bare_infinitive>.+?)\s", first_translation)["bare_infinitive"]
+
                         if is_existing:
-                            write_todo(f'To "{elobj["id"]}" ID must append "{elobj["translations"]["ENG"][0]}"')
+                            write_todo(f'To "{elobj["id"]}" ID must append "{parent_info_datum}"')
                         else:
-                            elobj["id"] += f'({elobj["translations"]["ENG"][0]})'
+                            elobj["id"] += f'({parent_info_datum})'
 
         if int(number) == id_number_counts[wordtypeshortcode] + 1:
             id_number_counts[wordtypeshortcode] += 1
