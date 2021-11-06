@@ -1,0 +1,87 @@
+[
+    {
+        "lemma": "herbata",
+        "tags": "d",
+        "translations": {
+            "ENG": [
+                "tea"
+            ]
+        },
+        "temp_id": "222.1",
+        "gender": "f",
+        "id": null,
+        "otherShapes": {
+            "diminutive": [
+                "herbatka"
+            ],
+            "augmentative": [
+                "herbacina"
+            ]
+        },
+        "derivedTerms": [
+            "herbatnik",
+            "herbaciarnia",
+            "herbatnica",
+            "herbaciarka",
+            "herbaciany",
+            "herbatni",
+            "herbatowy"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "herbata",
+                "gen": "herbaty",
+                "dat": "herbacie",
+                "acc": "herbatę",
+                "ins": "herbatą",
+                "loc": "herbacie",
+                "voc": "herbato"
+            },
+            "plural": {
+                "nom": "herbaty",
+                "gen": "herbat",
+                "dat": "herbatom",
+                "acc": "herbaty",
+                "ins": "herbatami",
+                "loc": "herbatach",
+                "voc": "herbaty"
+            }
+        }
+    },
+    {
+        "lemma": "zima",
+        "tags": "at",
+        "translations": {
+            "ENG": [
+                "winter"
+            ]
+        },
+        "temp_id": "222.2",
+        "gender": "f",
+        "id": null,
+        "derivedTerms": [
+            "zimowy",
+            "zimny"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "zima",
+                "gen": "zimy",
+                "dat": "zimie",
+                "acc": "zimę",
+                "ins": "zimą",
+                "loc": "zimie",
+                "voc": "zimo"
+            },
+            "plural": {
+                "nom": "zimy",
+                "gen": "zim",
+                "dat": "zimom",
+                "acc": "zimy",
+                "ins": "zimami",
+                "loc": "zimach",
+                "voc": "zimy"
+            }
+        }
+    }
+]
