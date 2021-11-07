@@ -107,12 +107,6 @@ class PolishVerbParser(HTMLParser):
             "tags": "xxxxxxxxx",
             "translations": {"ENG": []},
             "derivedTerms": []
-            # "id": None,
-            # "usage": [],
-            # "otherShapes": {},
-            # "derivedTerms": [],
-            # "synonyms": [],
-            # "inflections": {},
         }
         self.keys = []
         self.subkey = None
@@ -242,47 +236,6 @@ class PolishVerbParser(HTMLParser):
                 if startTag == "ol":
                     self.mode = "getdefinitions"
 
-        # if self.mode == "gettingusage" and startTag in ["h1", "h2", "h3", "h4"]:
-        #     self.output_obj["usage"].append(self.current_usage)
-        #     self.mode = None
-        #
-        # if self.mode in ["getderivedterms", "gettingsynonyms"] and startTag in ["h1", "h2", "h3", "h4"]:
-        #     self.mode = None
-        #
-        # if self.mode == "gettingdefinition" and startTag == "dd":
-        #     self.mode = "gettingusage"
-        #
-        #
-        # if self.mode == "getothershapes-key" and startTag == "b":
-        #     self.mode = "getothershapes-value"
-        #
-        # if self.mode == "getothershapes" and startTag == "i":
-        #     self.mode = "getothershapes-key"
-        #
-        # if self.location == "insidetable":
-        #     if startTag == "th" and self.mode == "getsubkey":
-        #         self.mode = "gettingsubkey"
-        #
-        #     if startTag == "th" and self.mode == "getkeys":
-        #         self.mode = "gettingkeys"
-        #
-        #     if startTag == "tr" and not self.keys:
-        #         self.mode = "getkeys"
-        #
-        #     if startTag == "table":
-        #         self.el_count += 1
-        #
-        # elif self.location == "insideselectedlang":
-        #     if startTag == "span" and self.penultimatetag == "strong":
-        #         for attr in attrs:
-        #             if attr[0] == "class" and attr[1] == "gender":
-        #                 self.mode = "getgender"
-        #
-        #     elif startTag == "table":
-        #         for attr in attrs:
-        #             if attr[0] == "class" and attr[1] == "wikitable inflection-table":
-        #                 self.location = "insidetable"
-
     def handle_endtag(self, endTag):
         if self.mode and (self.mode == "END" or endTag in ["body", "html"]):
 
@@ -345,51 +298,6 @@ class PolishVerbParser(HTMLParser):
 
         if endTag == "ol" and self.mode == "getdefinitions":
             self.mode = "gettable"
-
-        # if self.mode and self.mode.startswith("getothershapes") and endTag == "p":
-        #     if self.current_other_shape_key != "null" and self.current_other_shape_value:
-        #         self.output_obj["otherShapes"][self.current_other_shape_key] = self.current_other_shape_value
-        #     self.current_other_shape_key = None
-        #     self.current_other_shape_value = []
-        #
-        # if endTag == "span" and self.mode == "getgender":
-        #     self.mode = "getothershapes"
-        #
-        # if endTag == "span" and self.mode and self.mode.split("-")[0] == "getword":
-        #     word_index = int(self.mode.split("-")[1])
-        #     self.mode = f"getword-{str(word_index + 1)}"
-        #
-        # if endTag == "tr":
-        #     if self.mode and self.mode.split("-")[0] == "getword":
-        #         self.mode = "getsubkey"
-        #
-        #     elif self.mode == "gettingkeys":
-        #         for key_longhand in self.keys:
-        #             key = case_ref[key_longhand] if key_longhand in case_ref else key_longhand
-        #             self.inflections[key] = {}
-        #         self.mode = "getsubkey"
-        #
-        # if endTag == "table" and self.location == "insidetable":
-        #     if self.el_count:
-        #         self.el_count -= 1
-        #     else:
-        #         self.location = "insideselectedlang"
-        #         self.output_obj["inflections"] = self.inflections
-        #
-        #         self.output_obj["gender"] = gender_translation_ref[self.output_obj["gender"]]
-        #
-        #         if self.output_obj["gender"] in gender_to_tags_ref:
-        #             self.output_obj["tags"].extend(gender_to_tags_ref[self.output_obj["gender"]])
-        #
-        #         if "singular" in self.output_obj["inflections"] and "plural" not in self.output_obj["inflections"]:
-        #             self.output_obj["lacking"] = True
-        #             self.output_obj["tantumSingulare"] = True
-        #         elif "singular" not in self.output_obj["inflections"] and "plural" in self.output_obj["inflections"]:
-        #             self.output_obj["lacking"] = True
-        #             self.output_obj["tantumPlurale"] = True
-        #
-        #         self.output_arr.append(self.output_obj)
-        #         self.reset_for_new_table()
 
         self.lsEndTags.append(endTag)
         self.lsAll.append(endTag)
