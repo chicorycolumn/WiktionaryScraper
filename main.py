@@ -9,8 +9,8 @@ if __name__ == '__main__':
 
     step = 3
     wordtype = "nouns"
-    group_number = 111
-    input_indexes = [0, 10]
+    group_number = 222
+    input_indexes = [10, 12]
 
     is_first_time = True
     skip_make_ids = False
