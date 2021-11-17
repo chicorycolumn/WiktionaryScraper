@@ -77,6 +77,8 @@ def test_polish_verb_minimiser(input_path: str, expected_path: str, wordtype: st
     (["przeczytać"], "parsed_polish_protoverbs_4", True),  # pf
     (["badać", "zbadać", "widzieć", "zobaczyć"], "parsed_polish_protoverbs_5", True),  # various
     (["stać"], "parsed_polish_protoverbs_6", True),  # verb has two meanings and two conj tables
+    (["kopać"], "parsed_polish_protoverbs_7", True),  # verb has two meanings and one conj table
+    (["brać"], "parsed_polish_protoverbs_8", True),  # page contains one noun one verb, homonyms
 ])
 def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "verbs"):
     print(f'# Starting, given {len(input_words)} words.')
