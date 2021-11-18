@@ -307,6 +307,7 @@ def test_recursively_expand_tags(input_stags: list, expected_output_tags: list):
     (["prysznic", "BADWORD", "ANOTHERBADWORD", "glista"], "polish_nouns_4", False),
     (["prysznic", "polski", "glista"], "polish_nouns_5", False),
     (["kapusta"], "polish_nouns_6", True), # has two meanings and two conjugation tables
+    (["brać"], "polish_nouns_7", True), # page has one verb one noun, homonyms
 ])
 def test_PolishNounParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "nouns"):
     print(f'# Starting, given {len(input_words)} words.')
