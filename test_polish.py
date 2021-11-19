@@ -301,13 +301,13 @@ def test_recursively_expand_tags(input_stags: list, expected_output_tags: list):
 
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
-    (["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"], "polish_nouns_1", True),
-    (["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"], "polish_nouns_2", True),
-    (["prysznic", "glista", "gleba", "łeb", "BADWORD", "palec", "noga", "piła", "piłka"], "polish_nouns_3", False),
-    (["prysznic", "BADWORD", "ANOTHERBADWORD", "glista"], "polish_nouns_4", False),
-    (["prysznic", "polski", "glista"], "polish_nouns_5", False),
-    (["kapusta"], "polish_nouns_6", True), # has two meanings and two conjugation tables
-    (["brać"], "polish_nouns_7", True), # page has one verb one noun, homonyms
+    (["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"], "polish_nouns_1", True), # Normal words
+    (["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"], "polish_nouns_2", True), # Normal words
+    (["prysznic", "glista", "gleba", "łeb", "BADWORD", "palec", "noga", "piła", "piłka"], "polish_nouns_3", False), # Some failing words
+    (["prysznic", "BADWORD", "ANOTHERBADWORD", "glista"], "polish_nouns_4", False), # Some failing words
+    (["prysznic", "polski", "glista"], "polish_nouns_5", False), # Some failing words
+    (["kapusta"], "polish_nouns_6", True), # Word with two meanings and two conjugation tables
+    (["brać"], "polish_nouns_7", True), # Word's page has one verb one noun, homonyms
 ])
 def test_PolishNounParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "nouns"):
     print(f'# Starting, given {len(input_words)} words.')
