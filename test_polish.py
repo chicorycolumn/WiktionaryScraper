@@ -122,13 +122,13 @@ def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: boo
 
 
 @pytest.mark.parametrize("input_words,expected_path,use_sample", [
-    (["narodowy"], "polish_protoadjectives_0", True),
-    (["stary"], "polish_protoadjectives_1", True),
-    (["niebieski"], "polish_protoadjectives_2", True),
-    (["czerwony"], "polish_protoadjectives_3", True),
-    (["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True),
-    (["czerwony", "BADWORD", "stary", "narodowy"], "polish_protoadjectives_5", False),
-    (["czerwony", "kobieta", "stary", "narodowy"], "polish_protoadjectives_6", False),
+    (["narodowy"], "polish_protoadjectives_0", True), #type 1
+    (["stary"], "polish_protoadjectives_1", True), #type 2
+    (["niebieski"], "polish_protoadjectives_2", True), #type 3
+    (["czerwony"], "polish_protoadjectives_3", True), #type 4
+    (["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True), #types 1-4
+    (["czerwony", "BADWORD", "stary", "narodowy"], "polish_protoadjectives_5", False), #contains failing word
+    (["czerwony", "kobieta", "stary", "narodowy"], "polish_protoadjectives_6", False), #contains noun
     (["zielony"], "polish_protoadjectives_7", False),
     (["średniowieczny", "śródziemnomorski"], "polish_protoadjectives_8", True)
 ])
