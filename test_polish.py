@@ -130,7 +130,7 @@ def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: boo
     (["czerwony", "BADWORD", "stary", "narodowy"], "polish_protoadjectives_5", False), #contains failing word
     (["czerwony", "kobieta", "stary", "narodowy"], "polish_protoadjectives_6", False), #contains noun
     (["zielony"], "polish_protoadjectives_7", False),
-    (["średniowieczny", "śródziemnomorski"], "polish_protoadjectives_8", True)
+    (["średniowieczny", "śródziemnomorski"], "polish_protoadjectives_8", True) #less common adjective
 ])
 def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "adjectives"):
     print(f'# Starting, given {len(input_words)} words.')
