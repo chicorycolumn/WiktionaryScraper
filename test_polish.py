@@ -129,7 +129,7 @@ def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: boo
     (["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True), #types 1-4
     (["czerwony", "BADWORD", "stary", "narodowy"], "polish_protoadjectives_5", False), #contains failing word
     (["czerwony", "kobieta", "stary", "narodowy"], "polish_protoadjectives_6", False), #contains noun
-    (["zielony"], "polish_protoadjectives_7", False),
+    (["zielony"], "polish_protoadjectives_7", False), #type 2
     (["średniowieczny", "śródziemnomorski"], "polish_protoadjectives_8", True) #less common adjective
 ])
 def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "adjectives"):
