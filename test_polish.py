@@ -11,9 +11,9 @@ import os
 
 
 @pytest.mark.parametrize("input_path,expected_path,wordtype", [
-    ("test_nouns_to_id_1", "with_ids/nouns_with_ids_1", "nouns"),
-    ("test_verbs_to_id_1", "with_ids/verbs_with_ids_1", "verbs"),
-    ("test_verbs_to_id_2", "with_ids/verbs_with_ids_2", "verbs")
+    ("test_nouns_to_id_1", "with_ids/nouns_with_ids_1", "nouns"), #contains both of homonym 'zamek'
+    ("test_verbs_to_id_1", "with_ids/verbs_with_ids_1", "verbs"), #the freq, im, pf forms of pisać
+    ("test_verbs_to_id_2", "with_ids/verbs_with_ids_2", "verbs") #'stać' which has both an im and a pf form
     # ("test_adjectives_to_id_1", "with_ids/adjectives_with_ids_1", "adjectives")
 ])
 def test_make_ids(input_path, expected_path, wordtype):
