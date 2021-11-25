@@ -209,25 +209,25 @@ def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample
     ),
     (
             [
-                ("oogly", ["almost boogly", "a little woogly"], 0, ["oogli", "ooglji"])
+                ("oogly", ["almost boogly", "a little woogly"], 0, ["oogli", "ooglji"]) #Two pluvirnoms
             ],
             "expected/adjectives/polish_adjectives_5a"
     ),
     (
             [
-                ("oogly", ["almost boogly", "a little woogly"], 1, ["oogli", "ooglji"], ["ooglo", "ooglie"], "ooglszy")
+                ("oogly", ["almost boogly", "a little woogly"], 1, ["oogli", "ooglji"], ["ooglo", "ooglie"], "ooglszy") #Two pluvirnoms and two adverbs
             ],
             "expected/adjectives/polish_adjectives_5b"
     ),
     (
             [
-                ("oogly", ["almost boogly", "a little woogly"], 2, ["oogli", "ooglji"], ["ooglo", "ooglie"])
+                ("oogly", ["almost boogly", "a little woogly"], 2, ["oogli", "ooglji"], ["ooglo", "ooglie"]) #Two pluvirnoms and two adverbs
             ],
             "expected/adjectives/polish_adjectives_5c"
     ),
     (
             [
-                ("oogly", ["almost boogly", "a little woogly"], 3, ["oogli", "ooglji"], ["ooglo", "ooglie"], "ooglszy")
+                ("oogly", ["almost boogly", "a little woogly"], 3, ["oogli", "ooglji"], ["ooglo", "ooglie"], "ooglszy") #Two pluvirnoms and two adverbs
             ],
             "expected/adjectives/polish_adjectives_5d"
     ),
