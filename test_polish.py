@@ -246,7 +246,7 @@ def test_generate_adjective(input_args_sets: list, expected_path: str):
 
 @pytest.mark.parametrize("lemma_object,expected_lemma_object", [
     (
-            {"lemma": "chair", "tags": "hk"},
+            {"lemma": "chair", "tags": "hk"}, # Nested tags.
             {
                 "lemma": "chair",
                 "tags": ["concrete", "holdable", "household object"],
@@ -254,7 +254,7 @@ def test_generate_adjective(input_args_sets: list, expected_path: str):
             }
     ),
     (
-            {"lemma": "vodka", "tags": "da"},
+            {"lemma": "vodka", "tags": "da"}, # Nested tags.
             {
                 "lemma": "vodka",
                 "tags": ["alcoholic", "concrete", "drink", "holdable"],
@@ -262,7 +262,7 @@ def test_generate_adjective(input_args_sets: list, expected_path: str):
             }
     ),
     (
-            {"lemma": "sand", "tags": "u,h,n"},
+            {"lemma": "sand", "tags": "u,h,n"}, # Unrelated tags.
             {
                 "lemma": "sand",
                 "tags": ["concrete", "holdable", "natural", "uncountable"],
