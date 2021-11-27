@@ -42,6 +42,8 @@ class PolishVerbParser(HTMLParser):
     got_related_terms = False
 
     def add_lobj_and_reset(self, diff_word_same_conj: bool = False):
+        print("\n", "add_lobj_and_reset", "\n")
+
         t = [row["data"] for row in self.ingested_table]
         inflections = {}
         index_of_first_data_row = 0
@@ -162,12 +164,28 @@ class PolishVerbParser(HTMLParser):
             else:
                 return
 
-        if self.location == "insideselectedlang":
+        if self.location in ["insideselectedlang", "insideword"] \
+                and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] \
+                and self.lasttag == "span" \
+                and data.lower() == "verb":
+
+            self.location = "insideword"
+            print('location = "insideword"')
+            self.diff_word_same_conj_count += 1
+
+            if self.diff_word_same_conj_count > 1:
+                self.add_lobj_and_reset(diff_word_same_conj = True)
+
+            self.mode = "getaspect"
+            print('mode = "getaspect"')
+
+        if self.location == "insideword":
             if self.lasttag in ["h1", "h2", "h3", "h4", "h5"] or self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
                 split = data.split(" ")
                 if split[0].lower() == "etymology" and len(split) > 1 and int(split[1]) > 1:
+                    self.location = "insideselectedlang"
+                    print('location = "insideselectedlang"')
                     self.add_lobj_and_reset()
-
 
             if self.mode == "gettingderivedterms":
                 self.current_derived_term.append(data)
@@ -200,15 +218,6 @@ class PolishVerbParser(HTMLParser):
                 if self.lastclass == "Latn headword":
                     self.output_obj["lemma"] = data
 
-            if self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and self.lasttag == "span" and data.lower() == "verb":
-                self.diff_word_same_conj_count += 1
-
-                if self.diff_word_same_conj_count > 1:
-                    self.add_lobj_and_reset(diff_word_same_conj = True)
-
-                self.mode = "getaspect"
-                print('mode = "getaspect"')
-
         if self.location == "insidetable":
             self.current_row_data.append(data)
         else:
@@ -218,7 +227,7 @@ class PolishVerbParser(HTMLParser):
                     self.location = "insideselectedlang"
                     print('location = "insideselectedlang"')
                 else:
-                    if self.location == "insideselectedlang":
+                    if self.location in ["insideselectedlang", "insideword"]:
                         self.mode = "END"
                         print('mode = "END"')
                     self.location = None
@@ -250,7 +259,7 @@ class PolishVerbParser(HTMLParser):
                 while len(self.ingested_table) <= self.row_num:
                     self.add_new_row_obj()
 
-        if self.location == "insideselectedlang":
+        if self.location == "insideword":
             if self.mode == "gettable":
                 if startTag == "table" and self.currentclass and "inflection-table" in self.currentclass.split(" "):
                     self.mode = None
@@ -276,6 +285,7 @@ class PolishVerbParser(HTMLParser):
 
     def handle_endtag(self, endTag):
         if self.mode and (self.mode == "END" or endTag in ["body", "html"]):
+            print("ENDING")
 
             self.add_lobj_and_reset()
 
@@ -289,8 +299,8 @@ class PolishVerbParser(HTMLParser):
 
         if self.location == "insidetable":
             if endTag == "table":
-                self.location = "insideselectedlang"
-                print('location = "insideselectedlang"')
+                self.location = "insideword"
+                print('location = "insideword"')
                 self.mode = "getderivedterms"
                 print('mode = "getderivedterms"')
 
