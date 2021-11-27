@@ -51,7 +51,10 @@ class PolishAdjectiveParser(HTMLParser):
     td_count = 0
 
     def reset_for_new_table(self):
+        print("\n", "reset_for_new_table", "\n")
+
         self.mode = None
+        print('mode = None')
         # self.el_count = 0
         # self.inflections = {}
         self.output_obj = {
@@ -72,10 +75,13 @@ class PolishAdjectiveParser(HTMLParser):
         self.td_count = 0
 
     def reset_for_new_word(self):
+        print("\n", "reset_for_new_word", "\n")
+
         self.reset_for_new_table()
         self.output_arr = []
         # self.keys = []
         self.location = None
+        print('location = None')
 
     def handle_data(self, data):
         data = orth(data)
@@ -105,9 +111,11 @@ class PolishAdjectiveParser(HTMLParser):
 
             if self.lasttag == "i" and data.lower() == "adverb":
                 self.mode = "gettingadverb"
+                print('mode = "gettingadverb"')
 
             if self.lasttag == "i" and data.lower() == "superlative":
                 self.mode = None
+                print('mode = None')
 
             if self.mode == "gettingcomparative":
                 if data not in self.ignorable_broad:
@@ -116,17 +124,22 @@ class PolishAdjectiveParser(HTMLParser):
             if self.mode == "getcomparativeinfo":
                 if self.lasttag == "i" and data.lower() == "comparative":
                     self.mode = "gettingcomparative"
+                    print('mode = "gettingcomparative"')
                 elif self.lasttag == "i" and data.lower() == "not comparable":
                     self.output_obj["comparative_type"] = 0
                     self.mode = "gettranslations"
+                    print('mode = "gettranslations"')
 
         if self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
             if self.location == "insideselectedlang":
                 if self.lasttag == "span" and data.lower() == "adjective":
                     self.location = "insideword"
+                    print('location = "insideword"')
                     self.mode = "getcomparativeinfo"
+                    print('mode = "getcomparativeinfo"')
             elif data.lower() == self.selected_lang:
                 self.location = "insideselectedlang"
+                print('location = "insideselectedlang"')
 
     def handle_starttag(self, startTag, attrs):
         if startTag in ["html", "body"]:
@@ -152,32 +165,41 @@ class PolishAdjectiveParser(HTMLParser):
                     self.td_count += 1
                 if self.td_count == 1:
                     self.mode = "gettinglemma"
+                    print('mode = "gettinglemma"')
                 elif self.td_count in [2, 3]:
                     self.mode = "handlingtable"
+                    print('mode = "handlingtable"')
                 elif self.td_count == 4:
                     self.mode = "gettingpluvirnom"
+                    print('mode = "gettingpluvirnom"')
 
         if self.location == "insideword" and self.mode == "readyfortable":
             if startTag == "table" and self.currentclass and "inflection-table" in self.currentclass.split(" "):
                 self.mode = "handlingtable"
+                print('mode = "handlingtable"')
 
         if self.mode == "gettranslations" and startTag == "ol":
             self.mode = "gettingtranslations"
+            print('mode = "gettingtranslations"')
 
     def handle_endtag(self, endTag):
         if self.mode == "gettingpluvirnom" and endTag == "td":
             self.mode = "END"
+            print('mode = "END"')
 
         if self.mode == "gettingtranslations" and endTag == "ol":
             self.mode = "readyfortable"
+            print('mode = "readyfortable"')
 
         if self.mode == "gettingadverb" and endTag == "p":
             self.mode = "gettranslations"
+            print('mode = "gettranslations"')
 
         if self.mode == "getcomparativeinfo":
             if endTag == "p" and not self.output_obj["comparative_type"]:
                 self.output_obj["comparative_type"] = 0
                 self.mode = "gettranslations"
+                print('mode = "gettranslations"')
 
         if self.mode and self.location in ["insideselectedlang", "insideword"] and (endTag == "body" or self.mode == "END"):
 
@@ -234,7 +256,9 @@ class PolishAdjectiveParser(HTMLParser):
 
             self.output_arr.append(self.output_obj)
             self.location = None
+            print('location = None')
             self.mode = None
+            print('mode = None')
             return
 
         self.lsEndTags.append(endTag)
