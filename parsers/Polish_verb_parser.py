@@ -114,11 +114,13 @@ class PolishVerbParser(HTMLParser):
             })
 
     def reset_for_new_cell(self):
+        print("\n", "reset_for_new_cell", "\n")
         self.current_cell_rowspan = 1
         self.current_cell_colspan = 1
         self.current_row_data = []
 
     def reset_for_new_table(self):
+        print("\n", "reset_for_new_table", "\n")
         self.reset_for_new_cell()
 
         self.mode = None
@@ -141,6 +143,7 @@ class PolishVerbParser(HTMLParser):
         self.diff_word_same_conj_objects = []
 
     def reset_for_new_word(self):
+        print("\n", "reset_for_new_word", "\n")
         self.got_derived_terms = False
         self.got_related_terms = False
         self.reset_for_new_table()

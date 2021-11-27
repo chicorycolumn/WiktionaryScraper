@@ -28,7 +28,9 @@ class PolishNounParser(HTMLParser):
     ignorable_broad = ignorable_narrow + ["or", "and"]
 
     def reset_for_new_table(self):
+        print("\n", "reset_for_new_table", "\n")
         self.mode = None
+        print('mode = None')
         self.el_count = 0
         self.inflections = {}
         self.output_obj = {
@@ -51,10 +53,12 @@ class PolishNounParser(HTMLParser):
         self.current_other_shape_value = []
 
     def reset_for_new_word(self):
+        print("\n", "reset_for_new_table", "\n")
         self.reset_for_new_table()
         self.output_arr = []
         self.keys = []
         self.location = None
+        print('location = None')
 
     def handle_data(self, data):
         data = orth(data)
@@ -67,20 +71,25 @@ class PolishNounParser(HTMLParser):
 
             if self.lasttag == "span" and data.lower() == "usage notes":
                 self.mode = "gettingusage"
+                print('mode = "gettingusage"')
 
             if self.lasttag == "span" and data.lower() == "synonyms":
                 self.mode = "gettingsynonyms"
+                print('mode = "gettingsynonyms"')
 
             if data.lower() == "derived terms":
                 self.mode = "getderivedterms"
+                print('mode = "getderivedterms"')
 
         if self.location != "insidetable":
             if self.lasttag == "span" and self.penultimatetag == "h2":
                 lang_in_focus = superstrip(data).lower()
                 if lang_in_focus == self.selected_lang:
                     self.location = "insideselectedlang"
+                    print('location = "insideselectedlang"')
                 else:
                     self.location = None
+                    print('location = None')
 
         if not self.mode:
             return
@@ -107,6 +116,7 @@ class PolishNounParser(HTMLParser):
             self.current_other_shape_key = None
             self.current_other_shape_value = []
             self.mode = "getothershapes-key"
+            print('mode = "getothershapes-key"')
 
         if self.mode == "getothershapes-value" and data not in self.ignorable_broad + ["(", ")"]:
             self.current_other_shape_value.append(data)
@@ -136,6 +146,7 @@ class PolishNounParser(HTMLParser):
             subkey_longhand = data
             self.subkey = case_ref[subkey_longhand] if subkey_longhand in case_ref else subkey_longhand
             self.mode = "getword-0"
+            print('mode = "getword-0"')
 
     def handle_starttag(self, startTag, attrs):
         if startTag in ["html", "body"]:
@@ -155,34 +166,44 @@ class PolishNounParser(HTMLParser):
         if self.mode == "gettingusage" and startTag in ["h1", "h2", "h3", "h4"]:
             self.output_obj["usage"].append(self.current_usage)
             self.mode = None
+            print('mode = None')
 
         if self.mode in ["getderivedterms", "gettingsynonyms"] and startTag in ["h1", "h2", "h3", "h4"]:
             self.mode = None
+            print('mode = None')
 
         if self.mode == "gettingdefinition" and startTag == "dd":
             self.mode = "gettingusage"
+            print('mode = "gettingusage"')
 
         if self.mode == "getdefinitions" and startTag == "li":
             self.mode = "gettingdefinition"
+            print('mode = "gettingdefinition"')
 
         if self.mode and self.mode.startswith("getothershapes") and startTag == "ol":
             self.mode = "getdefinitions"
+            print('mode = "getdefinitions"')
 
         if self.mode == "getothershapes-key" and startTag == "b":
             self.mode = "getothershapes-value"
+            print('mode = "getothershapes-value"')
 
         if self.mode == "getothershapes" and startTag == "i":
             self.mode = "getothershapes-key"
+            print('mode = "getothershapes-key"')
 
         if self.location == "insidetable":
             if startTag == "th" and self.mode == "getsubkey":
                 self.mode = "gettingsubkey"
+                print('mode = "gettingsubkey"')
 
             if startTag == "th" and self.mode == "getkeys":
                 self.mode = "gettingkeys"
+                print('mode = "gettingkeys"')
 
             if startTag == "tr" and not self.keys:
                 self.mode = "getkeys"
+                print('mode = "getkeys"')
 
             if startTag == "table":
                 self.el_count += 1
@@ -192,15 +213,18 @@ class PolishNounParser(HTMLParser):
                 for attr in attrs:
                     if attr[0] == "class" and attr[1] == "gender":
                         self.mode = "getgender"
+                        print('mode = "getgender"')
 
             elif startTag == "table":
                 for attr in attrs:
                     if attr[0] == "class" and attr[1] == "wikitable inflection-table":
                         self.location = "insidetable"
+                        print('location = "insidetable"')
 
     def handle_endtag(self, endTag):
         if self.mode == "gettingusage" and endTag == "dd":
             self.mode = "gettingdefinition"
+            print('mode = "gettingdefinition"')
             self.output_obj["usage"].append(self.current_usage)
             self.current_usage = None
 
@@ -209,9 +233,11 @@ class PolishNounParser(HTMLParser):
             self.output_obj["translations"]["ENG"].extend(split_definition_to_list(definition))
             self.current_definition = None
             self.mode = "getdefinitions"
+            print('mode = "getdefinitions"')
 
         if endTag == "ol" and self.mode == "getdefinitions":
             self.mode = None
+            print('mode = None')
 
         if self.mode and self.mode.startswith("getothershapes") and endTag == "p":
             if self.current_other_shape_key != "null" and self.current_other_shape_value:
@@ -221,26 +247,31 @@ class PolishNounParser(HTMLParser):
 
         if endTag == "span" and self.mode == "getgender":
             self.mode = "getothershapes"
+            print('mode = "getothershapes"')
 
         if endTag == "span" and self.mode and self.mode.split("-")[0] == "getword":
             word_index = int(self.mode.split("-")[1])
             self.mode = f"getword-{str(word_index + 1)}"
+            print('mode = ' + f"getword-{str(word_index + 1)}")
 
         if endTag == "tr":
             if self.mode and self.mode.split("-")[0] == "getword":
                 self.mode = "getsubkey"
+                print('mode = "getsubkey"')
 
             elif self.mode == "gettingkeys":
                 for key_longhand in self.keys:
                     key = case_ref[key_longhand] if key_longhand in case_ref else key_longhand
                     self.inflections[key] = {}
                 self.mode = "getsubkey"
+                print('mode = "getsubkey"')
 
         if endTag == "table" and self.location == "insidetable":
             if self.el_count:
                 self.el_count -= 1
             else:
                 self.location = "insideselectedlang"
+                print('location = "insideselectedlang"')
                 self.output_obj["inflections"] = self.inflections
 
                 self.output_obj["gender"] = gender_translation_ref[self.output_obj["gender"]]
@@ -281,6 +312,7 @@ class PolishNounParser(HTMLParser):
                         output_obj.pop(key)
 
             self.mode = "STOP"
+            print('mode = "STOP"')
 
         self.lsEndTags.append(endTag)
         self.lsAll.append(endTag)
