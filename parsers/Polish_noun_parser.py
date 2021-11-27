@@ -66,7 +66,25 @@ class PolishNounParser(HTMLParser):
         if not data or data in self.ignorable_narrow:
             return
 
-        if self.location == "insideselectedlang" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
+        if self.location in ["insideselectedlang", "insideword"] \
+                and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] \
+                and self.lasttag == "span" \
+                and data.lower() == "noun":
+
+            self.location = "insideword"
+            print('location = "insideword"')
+
+            self.mode = "getaspect"
+            print('mode = "getaspect"')
+
+        if self.location == "insideword":
+            if self.lasttag in ["h1", "h2", "h3", "h4", "h5"] or self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
+                split = data.split(" ")
+                if split[0].lower() == "etymology" and len(split) > 1 and int(split[1]) > 1:
+                    self.location = "insideselectedlang"
+                    print('location = "insideselectedlang"')
+
+        if self.location == "insideword" and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
             # Mode setting from within handle_data, which is not typical.
 
             if self.lasttag == "span" and data.lower() == "usage notes":
@@ -208,7 +226,7 @@ class PolishNounParser(HTMLParser):
             if startTag == "table":
                 self.el_count += 1
 
-        elif self.location == "insideselectedlang":
+        elif self.location == "insideword":
             if startTag == "span" and self.penultimatetag == "strong":
                 for attr in attrs:
                     if attr[0] == "class" and attr[1] == "gender":
@@ -270,8 +288,10 @@ class PolishNounParser(HTMLParser):
             if self.el_count:
                 self.el_count -= 1
             else:
-                self.location = "insideselectedlang"
-                print('location = "insideselectedlang"')
+                print("\n", "add_lobj_and_reset", "\n")
+
+                self.location = "insideword"
+                print('location = "insideword"')
                 self.output_obj["inflections"] = self.inflections
 
                 self.output_obj["gender"] = gender_translation_ref[self.output_obj["gender"]]

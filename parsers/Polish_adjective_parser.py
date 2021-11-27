@@ -83,7 +83,13 @@ class PolishAdjectiveParser(HTMLParser):
         if not data or data in self.ignorable_narrow + ["(", ")"]:
             return
 
-        if self.location == "insideselectedlang":
+        if self.location == "insideword":
+            if self.lasttag in ["h1", "h2", "h3", "h4", "h5"] or self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
+                split = data.split(" ")
+                if split[0].lower() == "etymology" and len(split) > 1 and int(split[1]) > 1:
+                    self.location = "insideselectedlang"
+                    print('location = "insideselectedlang"')
+
             if self.mode == "gettingpluvirnom":
                 self.output_obj["pluvirnom_lemma"].append(data)
 
@@ -117,6 +123,7 @@ class PolishAdjectiveParser(HTMLParser):
         if self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
             if self.location == "insideselectedlang":
                 if self.lasttag == "span" and data.lower() == "adjective":
+                    self.location = "insideword"
                     self.mode = "getcomparativeinfo"
             elif data.lower() == self.selected_lang:
                 self.location = "insideselectedlang"
@@ -150,7 +157,7 @@ class PolishAdjectiveParser(HTMLParser):
                 elif self.td_count == 4:
                     self.mode = "gettingpluvirnom"
 
-        if self.location == "insideselectedlang" and self.mode == "readyfortable":
+        if self.location == "insideword" and self.mode == "readyfortable":
             if startTag == "table" and self.currentclass and "inflection-table" in self.currentclass.split(" "):
                 self.mode = "handlingtable"
 
@@ -172,7 +179,7 @@ class PolishAdjectiveParser(HTMLParser):
                 self.output_obj["comparative_type"] = 0
                 self.mode = "gettranslations"
 
-        if self.mode and self.location == "insideselectedlang" and (endTag == "body" or self.mode == "END"):
+        if self.mode and self.location in ["insideselectedlang", "insideword"] and (endTag == "body" or self.mode == "END"):
 
             if len(self.output_obj["lemma"]) != 1:
                 print(f'#ERR Wrong number of lemmas {self.output_obj["lemma"]}')
