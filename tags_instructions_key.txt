@@ -2,31 +2,30 @@ k = Colour, v = Movement, z = Dimensions
 
 Uncountable = u
 
-Is it Garments/Material/Chemical/Bodypart/Schoolsubject/Weather/Perception/Noise/Emotion/MoneyShopping/Measurement
-          g        c        ¢       b           ß         ł        !        !!      e         $          @
+Garment/Material/Chemical/Body/SchSubject/Weather/Perception/Noise/Emotion/Emotional/MoneyShopping/Measurement/Container
+    g       c      ¢       b       ß         ł       !        !!      e       ee         $             @         @@
 
-Is it abstracttime, abstractschool, abstractwork, abstractgeometric, otherwise abstract?
-            at             as            aw              ag            aa
+abstracttime, abstractschool, abstractwork, abstractgeometric, otherwise abstract?
+     at             as            aw              ag            aa
 
-Is it Relatives, Jobs, Animal, AnimalPet Persontitle, otherwise Person?
-        r        j         a       æ          t         p
+Relatives, Jobs, Animal, AnimalPet Persontitle, otherwise Person?
+   r        j       a        æ          t         p
 
-Is it sweet/savoury, fruit/veg, or food otherwise? Drink or Drinkalcoholic?
-        sw/sv          fr/ve         f               d          da
+sweet/savoury, fruit/veg, or food otherwise? Drink or Drinkalcoholic?
+   sw/sv          fr/ve         f               d          da
 
-Is it locationgeneral, locationbuilding, locationroom, locationnatural, locationspecial
-            lg                lb              lr            ln              ls
+locationgeneral, locationbuilding, locationroom, locationnatural, locationspecial
+     lg                lb              lr            ln              ls
 
-(f) for furniture
-Is it general house, bedroomobjects, kitchenobjects, washroomobjects, housepart?
-           hh(f)         hb(f)           hk(f)         hw(f)             hp
+general house, bedroomobjects, kitchenobjects, washroomobjects, housepart?          (f for furniture)
+      hh(f)         hb(f)           hk(f)         hw(f)             hp
 
 If not enough selected:
-    Is it Holdable?
-              h
-    Is it Manmade or Natural?
-              m          n
-    Hobby, School, Work, Sporty, Computing, Law, Medicine, Tech, Religion, Curseword, 'olidaysTravel?
-      q       s      w      y        x        l     µ       ŧ       ¶          ĸ           o
+    Holdable?
+       h
+    Manmade or Natural?
+       m          n
+    Hobby, School, Work, Sporty, Computing, Law, Medic, Tech, Religion, Curseword, 'olidaysTravelTransport?
+       q      s      w      y        x       l      µ     ŧ      ¶          ĸ           o
 
 Unused single letter codes: iøþŋ
