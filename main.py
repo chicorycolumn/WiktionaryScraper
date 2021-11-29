@@ -5,43 +5,44 @@ from parsers.common import scrape_word_data
 from utils.postprocessing.common import make_ids, finalise_lemma_objects
 
 if __name__ == '__main__':
-    # Note! Manually check all feminine nouns to see if add "isPerson": True.
 
-    step = 3
+    step = 2
     wordtype = "nouns"
-    group_number = 222
-    input_indexes = [10, 12]
+    group_number = 333
+    input_indexes = [8, 13]
 
-    is_first_time = True
+    is_first_time = False
     skip_make_ids = False
     skip_scraping = False
     these_headwords_only = []
 
     langcode = "pol"
-    language = "Polish"
 
     """
     Step 1: scrape_word_data()
-                        output_*_99_scraped CREATED (ignore unless next fxn encounters error)
-                        rejected_*_99 CREATED
+                        output_words_99_scraped CREATED (ignore unless next fxn encounters error)
+                        rejected_words_99 CREATED
                 generate_adjective()/minimise_verbs()
-                        output_*_99 CREATED
-                        truncated_*_99 CREATED
+                        output_words_99 CREATED
+                        truncated_words_99 CREATED
 
-    Step 2: Move the three files to output_saved; manually add shorthand tags; whittle translations.
-                        truncated_*_99 MODIFIED
+    Step 1.5: Whittle translations and manually add shorthand tags in truncated_words_99. Move all files to output_saved.
+                        truncated_words_99 MODIFIED
 
-    Step 3: finalise_lemma_objects()
+    Step 2: finalise_lemma_objects()
                 untruncate_lemma_objects()
-                        untruncated_*_99 CREATED
+                        untruncated_words_99 CREATED
                 expand_tags_and_topics()
-                        finished_*_99 CREATED             
+                        finished_words_99 CREATED             
     """
 
     head_words_ref = {
         "adjectives": adjectives,
         "nouns": nouns,
         "verbs": verbs
+    }
+    lang_ref = {
+        "pol": "Polish"
     }
 
     head_words = these_headwords_only if these_headwords_only \
@@ -52,8 +53,8 @@ if __name__ == '__main__':
             group_number=group_number,
             head_words=head_words,
             wordtype=wordtype,
-            language=language,
+            language=lang_ref[langcode],
             skip_scraping=skip_scraping
         )
-    elif step == 3:
+    elif step == 2:
         finalise_lemma_objects(group_number, wordtype, langcode, skip_make_ids, is_first_time)
