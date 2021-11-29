@@ -60,6 +60,28 @@ class PolishNounParser(HTMLParser):
         self.location = None
         print('location = None')
 
+    def add_lobj_and_reset(self):
+        print("\n", "add_lobj_and_reset", "\n")
+
+        self.location = "insideword"
+        print('location = "insideword"')
+        self.output_obj["inflections"] = self.inflections
+
+        self.output_obj["gender"] = gender_translation_ref[self.output_obj["gender"]]
+
+        if self.output_obj["gender"] in gender_to_tags_ref:
+            self.output_obj["tags"].extend(gender_to_tags_ref[self.output_obj["gender"]])
+
+        if "singular" in self.output_obj["inflections"] and "plural" not in self.output_obj["inflections"]:
+            self.output_obj["lacking"] = True
+            self.output_obj["tantumSingulare"] = True
+        elif "singular" not in self.output_obj["inflections"] and "plural" in self.output_obj["inflections"]:
+            self.output_obj["lacking"] = True
+            self.output_obj["tantumPlurale"] = True
+
+        self.output_arr.append(self.output_obj)
+        self.reset_for_new_table()
+
     def handle_data(self, data):
         data = orth(data)
 
@@ -288,26 +310,7 @@ class PolishNounParser(HTMLParser):
             if self.el_count:
                 self.el_count -= 1
             else:
-                print("\n", "add_lobj_and_reset", "\n")
-
-                self.location = "insideword"
-                print('location = "insideword"')
-                self.output_obj["inflections"] = self.inflections
-
-                self.output_obj["gender"] = gender_translation_ref[self.output_obj["gender"]]
-
-                if self.output_obj["gender"] in gender_to_tags_ref:
-                    self.output_obj["tags"].extend(gender_to_tags_ref[self.output_obj["gender"]])
-
-                if "singular" in self.output_obj["inflections"] and "plural" not in self.output_obj["inflections"]:
-                    self.output_obj["lacking"] = True
-                    self.output_obj["tantumSingulare"] = True
-                elif "singular" not in self.output_obj["inflections"] and "plural" in self.output_obj["inflections"]:
-                    self.output_obj["lacking"] = True
-                    self.output_obj["tantumPlurale"] = True
-
-                self.output_arr.append(self.output_obj)
-                self.reset_for_new_table()
+                self.add_lobj_and_reset()
 
         if self.mode != "STOP" and endTag == "body":
             for output_obj in self.output_arr:
