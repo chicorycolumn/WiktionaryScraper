@@ -19,7 +19,7 @@ import os
     (["badać", "zbadać", "widzieć", "zobaczyć"], "parsed_polish_protoverbs_5", True), # various
     (["stać"], "parsed_polish_protoverbs_6", True),               # Verb has two meanings and two conj tables
     (["kopać"], "parsed_polish_protoverbs_7", True),              # Allohom! Verb has two meanings and one conj table
-    (["brać"], "parsed_polish_protoverbs_8", True),               # Page contains one noun one verb, homonyms
+    (["brać"], "parsed_polish_protoverbs_8", True),               # Page contains one noun one verb, homonyms (not nec to list as allohoms as are diff wordtypes).
 ])
 def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "verbs"):
     print(f'# Starting, given {len(input_words)} words.')
@@ -121,7 +121,7 @@ def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample
     (4, ["prysznic", "BADWORD", "ANOTHERBADWORD", "glista"], "polish_nouns_4", False),  # Some failing words
     (5, ["prysznic", "polski", "glista"], "polish_nouns_5", False),  # Some failing words
     (6, ["kapusta"], "polish_nouns_6", True),  # Word with two meanings and two conjugation tables
-    (7, ["brać"], "polish_nouns_7", True),  # Word's page has one verb one noun, homonyms
+    (7, ["brać"], "polish_nouns_7", True),  # Word's page has one verb one noun, homonyms (not nec to list as allohoms as are diff wordtypes).
 ])
 def test_PolishNounParser(n: int, input_words: list, expected_path: str, use_sample: bool, wordtype: str = "nouns"):
     print(f'# Starting, given {len(input_words)} words.')
