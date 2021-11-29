@@ -7,7 +7,7 @@ import re
 import os
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 
-def make_ids(langcode, wordtype, lemma_objects=None, existing_lemma_objects_path=None, is_first_time=False):
+def make_ids(langcode, wordtype, group_number="None", lemma_objects=None, existing_lemma_objects_path=None, is_first_time=False):
     if not existing_lemma_objects_path:
         existing_lemma_objects_path = f'output_saved/{wordtype}'
     existing_lemma_objects = []
@@ -21,16 +21,19 @@ def make_ids(langcode, wordtype, lemma_objects=None, existing_lemma_objects_path
 
     if not is_first_time:
         existing_lemmas = []
+        passing_lemmas = []
         for lemma_object in lemma_objects:
             if any(elobj["lemma"] == lemma_object["lemma"] for elobj in existing_lemma_objects):
                 existing_lemmas.append(lemma_object["lemma"])
+            else:
+                passing_lemmas.append(lemma_object)
         if existing_lemmas:
-            print("START LIST")
+            print("LIST I THINK ARE DUPLICATES. I did not create IDs for these lObjs:")
             for lemma in existing_lemmas:
                 print(lemma)
-            print("END LIST")
-            raise Exception(
-                "#PLEASE MANUALLY CHECK that these lemmas are not already created as existing lemma objects.")
+                write_todo(f'Group {group_number} lObj "{lemma}" I believe already done. Removed from this output.')
+            print("/LIST")
+        lemma_objects = passing_lemmas
 
     res_arr = []
 
@@ -79,7 +82,6 @@ def make_ids(langcode, wordtype, lemma_objects=None, existing_lemma_objects_path
             for elobj in existing_or_result_lemma_objects:
                 if not sibling_info and "otherShapes" in elobj:
                     for shape_key, shape_values in elobj["otherShapes"].items():
-                        print("swde1", elobj["lemma"], shape_key, shape_values)
                         if lemma_object["lemma"] in shape_values:
                             sibling_info.append(shape_key[0:4])
                             number = elobj["id"].split("-")[2]
@@ -186,10 +188,6 @@ def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
         keypath.pop()
 
 
-
-
-
-
 def recursively_expand_tags(input_stags: list, ref: object):
     output_tags = []
 
@@ -292,5 +290,5 @@ def finalise_lemma_objects(group_number, wordtype, langcode, skip_make_ids=False
     untruncate_lemma_objects(group_number, wordtype)
     res_arr = expand_tags_and_topics(group_number, wordtype)
     if not skip_make_ids:
-        make_ids(langcode=langcode, wordtype=wordtype, lemma_objects=res_arr, is_first_time=is_first_time)
+        res_arr = make_ids(langcode=langcode, wordtype=wordtype, lemma_objects=res_arr, is_first_time=is_first_time, group_number=group_number)
     write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved/{wordtype}")

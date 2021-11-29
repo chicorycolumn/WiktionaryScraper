@@ -44,7 +44,7 @@ def recursively_replace_keys_in_dict(dic, key_ref):
                 dic[key_ref[key]] = value
                 dic.pop(key)
             if type(value) is dict:
-                recursively_replace_keys_in_dict(value, key_ref) #swde use inner fxn instead
+                rrkid_inner(value, key_ref)
 
     rrkid_inner(dic, key_ref)
 
