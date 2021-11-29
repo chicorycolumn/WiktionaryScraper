@@ -1,35 +1,32 @@
 k = Colour, v = Movement, z = Dimensions
 
-
 Uncountable = u
 
-Is it Material/Chemical/Bodypart/Schoolsubject/Weather/Perception/Noise/Emotion/Money/Measurement
-           c        ¢       b           ß         w        !        !!      e      $      @
+Is it Garments/Material/Chemical/Bodypart/Schoolsubject/Weather/Perception/Noise/Emotion/MoneyShopping/Measurement
+          g        c        ¢       b           ß         ł        !        !!      e         $          @
 
 Is it abstracttime, abstractschool, abstractwork, abstractgeometric, otherwise abstract?
             at             as            aw              ag            aa
-    Return
 
 Is it Relatives, Jobs, Animal, AnimalPet Persontitle, otherwise Person?
         r        j         a       æ          t         p
-    Return
 
-Is it Food(sweet/sav) and/or fruit/veg or Drink or Drinkalcoholic or Garments?
-        f(w/v)                f(fr/ve)        d          da            g
-    Return
+Is it sweet/savoury, fruit/veg, or food otherwise? Drink or Drinkalcoholic?
+        sw/sv          fr/ve         f               d          da
 
 Is it locationgeneral, locationbuilding, locationroom, locationnatural, locationspecial
             lg                lb              lr            ln              ls
-    Return
 
-Is it general house, bedroomobjects, kitchenobjects, washroomobjects, housepart
+(f) for furniture
+Is it general house, bedroomobjects, kitchenobjects, washroomobjects, housepart?
            hh(f)         hb(f)           hk(f)         hw(f)             hp
-    Return
 
 If not enough selected:
     Is it Holdable?
               h
     Is it Manmade or Natural?
               m          n
-    Is it School or Work related?
-              s          w
+    Hobby, School, Work, Sporty, Computing, Law, Medicine, Tech, Religion, Curseword, 'olidaysTravel?
+      q       s      w      y        x        l     µ       ŧ       ¶          ĸ           o
+
+Unused single letter codes: iøþŋ

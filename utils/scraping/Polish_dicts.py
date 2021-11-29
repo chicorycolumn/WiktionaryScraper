@@ -168,19 +168,19 @@ shorthand_tag_refs = {
         "tags": ["food", "h"],
         "topics": ["kitchen", "restaurant", "inside"],
     },
-    "fw": {
+    "sw": {
         "tags": ["sweet", "f"],
         "topics": ["kitchen", "restaurant", "inside"],
     },
-    "fv": {
+    "sv": {
         "tags": ["savoury", "f"],
         "topics": ["kitchen", "restaurant", "inside"],
     },
-    "ffr": {
+    "fr": {
         "tags": ["fruit", "f"],
         "topics": ["kitchen", "restaurant", "inside"],
     },
-    "fve": {
+    "ve": {
         "tags": ["vegetable", "f"],
         "topics": ["kitchen", "restaurant", "inside"],
     },
