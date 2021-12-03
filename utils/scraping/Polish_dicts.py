@@ -69,12 +69,28 @@ shorthand_tag_refs = {
         "tags": ["natural", "concrete"],
         "topics": [],
     },
-    "s": {
-        "tags": ["school"],
+    "q": {
+        "tags": ["hobby"],
         "topics": [],
     },
     "w": {
         "tags": ["work"],
+        "topics": [],
+    },
+    "s": {
+        "tags": ["school"],
+        "topics": [],
+    },
+    "x": {
+        "tags": ["computing"],
+        "topics": [],
+    },
+    "y": {
+        "tags": ["sport"],
+        "topics": [],
+    },
+    "l": {
+        "tags": ["law"],
         "topics": [],
     },
 
