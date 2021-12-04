@@ -1,26 +1,30 @@
-k = Colour, v = Movement, z = Dimensions
+0) Uncountable = u
 
-Uncountable = u
+1) Perception, Noise, Emotion, Thought, OtherwiseMental, Movement, Body
+        !        !!      e        €           ee             v       b
 
-Garment/Material/Chemical/Body/SchSubject/Weather/Perception/Noise/Emotion/Emotional/MoneyShopping/Measurement/Container
-    g       c      ¢       b       ß         ł       !        !!      e       ee         $             @         @@
+2) Colour, Dimensions, Garment, MoneyShopping, Measurement, Container
+       k        z         g          $             @         @@
 
-abstracttime, abstractschool, abstractwork, abstractgeometric, otherwise abstract?
-     at             as            aw              ag            aa
+3) Material, Chemical, SchSubject, Weather,
+       c         ¢          ß         ł
 
-Relatives, Jobs, Animal, AnimalPet Persontitle, otherwise Person?
-   r        j       a        æ          t         p
+4) abstracttime, abstractschool, abstractwork, abstractgeometric, otherwise abstract?
+        at             as            aw              ag            aa
 
-sweet/savoury, fruit/veg, or food otherwise? Drink or Drinkalcoholic?
-   sw/sv          fr/ve         f               d          da
+5) Relatives, Jobs, Animal, AnimalPet Persontitle, otherwise Person?
+       r        j       a        æ          t         p
 
-locationgeneral, locationbuilding, locationroom, locationnatural, locationspecial
-     lg                lb              lr            ln              ls
+6) sweet/savoury, fruit/veg, or food otherwise? Drink or Drinkalcoholic?
+       sw/sv          fr/ve         f               d          da
 
-general house, bedroomobjects, kitchenobjects, washroomobjects, housepart?          (f for furniture)
-      hh(f)         hb(f)           hk(f)         hw(f)             hp
+7A) locationgeneral, locationbuilding, locationroom, locationnatural, locationspecial
+         lg                lb              lr            ln              ls
 
-If not enough selected:
+7B) general house, bedroomobjects, kitchenobjects, washroomobjects, housepart?          (f for furniture)
+         hh(f)         hb(f)           hk(f)         hw(f)             hp
+
+8) If not enough selected:
     Holdable?
        h
     Manmade or Natural?
