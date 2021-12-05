@@ -38,21 +38,7 @@ case_ref = {
 }
 
 shorthand_tag_refs = {
-    "v": {
-        "tags": ["movement"],
-        "topics": [],
-    },
-    "k": {
-        "tags": ["colour"],
-        "topics": ["basic"],
-    },
-    "z": {
-        "tags": ["dimensions"],
-        "topics": ["basic"],
-    },
-
-    # # # # # # # # # # #
-
+    ############### 0) Foundation
     "u": {
         "tags": ["uncountable"],
         "topics": [],
@@ -69,64 +55,53 @@ shorthand_tag_refs = {
         "tags": ["natural", "concrete"],
         "topics": [],
     },
-    "q": {
-        "tags": ["hobby"],
+    
+    ############### 1) Mind and Body
+    "!!": {
+        "tags": ["noise", "aa"],
+        "topics": ["sense and perception"],
+    },
+    "!": {
+        "tags": ["perception", "aa"],
+        "topics": ["sense and perception"],
+    },
+    "ø": {
+        "tags": ["speech", "aa"],
+        "topics": ["mental world"],
+    },
+    "e": {
+        "tags": ["emotion", "aa"],
+        "topics": ["mental world"],
+    },
+    "€": {
+        "tags": ["thought", "aa"],
+        "topics": ["mental world"],
+    },
+    "ee": {
+        "tags": ["aa"],
+        "topics": ["mental world"],
+    },
+    "v": {
+        "tags": ["movement"],
         "topics": [],
-    },
-    "w": {
-        "tags": ["work"],
-        "topics": [],
-    },
-    "s": {
-        "tags": ["school"],
-        "topics": [],
-    },
-    "x": {
-        "tags": ["computing"],
-        "topics": [],
-    },
-    "y": {
-        "tags": ["sport"],
-        "topics": [],
-    },
-    "l": {
-        "tags": ["law"],
-        "topics": [],
-    },
-
-    # # # # # # # # # # #
-
-    "c": {
-        "tags": ["material", "uncountable", "concrete"],
-        "topics": ["basic"],
-    },
-    "¢": {
-        "tags": ["chemical", "c"],
-        "topics": ["science"],
     },
     "b": {
         "tags": ["bodypart", "concrete"],
         "topics": ["at the doctor", "basic", "body"],
     },
-    "ß": {
-        "tags": ["schoolsubject", "abstract"],
-        "topics": ["school"],
+    "bb": {
+        "tags": ["b"],
+        "topics": ["at the doctor", "basic", "body"],
     },
-    "ł": {
-        "tags": ["weather", "abstract", "uncountable"],
-        "topics": ["basic", "outdoor"],
+    
+    ############### 2) Appearance
+    "k": {
+        "tags": ["colour"],
+        "topics": ["basic"],
     },
-    "!!": {
-        "tags": ["noise", "abstract"],
-        "topics": ["sense and perception"],
-    },
-    "!": {
-        "tags": ["perception", "abstract"],
-        "topics": ["sense and perception"],
-    },
-    "e": {
-        "tags": ["emotion", "abstract"],
-        "topics": ["inside your head"],
+    "z": {
+        "tags": ["dimension"],
+        "topics": ["basic"],
     },
     "$": {
         "tags": ["money"],
@@ -136,32 +111,62 @@ shorthand_tag_refs = {
         "tags": ["measurement"],
         "topics": ["maths"],
     },
+    "@@": {
+        "tags": ["container", "h"],
+        "topics": [],
+    },
+    "g": {
+        "tags": ["clothes", "h"],
+        "topics": ["basic"],
+    },
+
+    ############### 3) Miscellaneous
+    "c": {
+        "tags": ["material", "uncountable", "concrete"],
+        "topics": ["basic"],
+    },
+    "¢": {
+        "tags": ["chemical", "c"],
+        "topics": ["science"],
+    },
+    "ß": {
+        "tags": ["schoolsubject", "aa"],
+        "topics": ["school"],
+    },
+    "ł": {
+        "tags": ["weather", "aa"],
+        "topics": ["basic", "outdoor"],
+    },
+
+    ############### 4) Abstract
     "at": {
-        "tags": ["abstract", "time"],
+        "tags": ["aa", "time"],
         "topics": ["travel", "maths"],
     },
     "as": {
-        "tags": ["abstract"],
+        "tags": ["aa"],
         "topics": ["school"],
     },
     "aw": {
-        "tags": ["abstract"],
+        "tags": ["aa"],
         "topics": ["work"],
     },
     "ag": {
-        "tags": ["abstract"],
+        "tags": ["aa"],
         "topics": ["geometric", "maths"],
     },
     "aa": {
         "tags": ["abstract"],
         "topics": [],
     },
+
+    ############### 5) People
     "r": {
-        "tags": ["relative", "person", "living", "concrete"],
+        "tags": ["relative", "p"],
         "topics": ["relationships"],
     },
     "j": {
-        "tags": ["profession", "person", "living", "concrete"],
+        "tags": ["profession", "p"],
         "topics": ["work"],
     },
     "a": {
@@ -169,17 +174,19 @@ shorthand_tag_refs = {
         "topics": ["outside"],
     },
     "æ": {
-        "tags": ["pet", "animal", "living", "concrete"],
+        "tags": ["pet", "a"],
         "topics": ["home", "inside"],
     },
     "t": {
-        "tags": ["title", "person", "living", "concrete"],
+        "tags": ["title", "p"],
         "topics": [],
     },
     "p": {
         "tags": ["person", "living", "concrete"],
         "topics": [],
     },
+
+    ############### 6) Food
     "f": {
         "tags": ["food", "h"],
         "topics": ["kitchen", "restaurant", "inside"],
@@ -208,10 +215,8 @@ shorthand_tag_refs = {
         "tags": ["alcoholic", "d"],
         "topics": ["kitchen", "restaurant", "nightclub", "inside"],
     },
-    "g": {
-        "tags": ["clothes", "h"],
-        "topics": ["basic"],
-    },
+
+    ############### 7A) Location
     "lg": {
         "tags": ["location", "concrete"],
         "topics": [],
@@ -229,9 +234,11 @@ shorthand_tag_refs = {
         "topics": ["outside"],
     },
     "ls": {
-        "tags": ["special location", "abstract"],
+        "tags": ["special location", "aa"],
         "topics": ["religion"],
     },
+
+    ############### 7B) House
     "hhf": {
         "tags": ["furniture", "concrete"],
         "topics": ["home", "inside"],
@@ -267,5 +274,58 @@ shorthand_tag_refs = {
     "hp": {
         "tags": ["part of house", "concrete"],
         "topics": ["home", "inside"],
-    }
+    },
+
+    ############### 8) Fields
+    "q": {
+        "tags": ["hobby"],
+        "topics": [],
+    },
+    "w": {
+        "tags": ["work"],
+        "topics": [],
+    },
+    "s": {
+        "tags": ["school"],
+        "topics": [],
+    },
+    "x": {
+        "tags": ["computing"],
+        "topics": [],
+    },
+    "y": {
+        "tags": ["sport"],
+        "topics": [],
+    },
+    "l": {
+        "tags": ["law"],
+        "topics": [],
+    },
+    "µ": {
+        "tags": ["medicine"],
+        "topics": [],
+    },
+    "i": {
+        "tags": ["tech"],
+        "topics": [],
+    },
+    "¶": {
+        "tags": ["religion"],
+        "topics": [],
+    },
+    "ĸ": {
+        "tags": ["curseword"],
+        "topics": [],
+    },
+    "ŧ": {
+        "tags": ["transport"],
+        "topics": ["travel"],
+    },
+
+    # # # # # # # # # # #
+
+
+
+
+
 }
