@@ -65,7 +65,7 @@ shorthand_tag_refs = {
         "tags": ["perception", "aa"],
         "topics": ["sense and perception"],
     },
-    "ø": {
+    "o": {
         "tags": ["speech", "aa"],
         "topics": ["mental world"],
     },
@@ -86,11 +86,11 @@ shorthand_tag_refs = {
         "topics": [],
     },
     "b": {
-        "tags": ["bodypart", "concrete"],
+        "tags": ["body", "concrete"],
         "topics": ["at the doctor", "basic", "body"],
     },
     "bb": {
-        "tags": ["b"],
+        "tags": ["b", "bodypart"],
         "topics": ["at the doctor", "basic", "body"],
     },
     
@@ -105,11 +105,11 @@ shorthand_tag_refs = {
     },
     "$": {
         "tags": ["money"],
-        "topics": ["shopping", "maths", "travel"],
+        "topics": ["shopping", "math", "travel"],
     },
     "@": {
         "tags": ["measurement"],
-        "topics": ["maths"],
+        "topics": ["math"],
     },
     "@@": {
         "tags": ["container", "h"],
@@ -139,9 +139,13 @@ shorthand_tag_refs = {
     },
 
     ############### 4) Abstract
+    "aa": {
+        "tags": ["abstract"],
+        "topics": [],
+    },
     "at": {
         "tags": ["aa", "time"],
-        "topics": ["travel", "maths"],
+        "topics": ["travel", "math"],
     },
     "as": {
         "tags": ["aa"],
@@ -153,17 +157,17 @@ shorthand_tag_refs = {
     },
     "ag": {
         "tags": ["aa"],
-        "topics": ["geometric", "maths"],
-    },
-    "aa": {
-        "tags": ["abstract"],
-        "topics": [],
+        "topics": ["geometry", "math"],
     },
 
     ############### 5) People
+    "p": {
+        "tags": ["person", "living", "concrete"],
+        "topics": [],
+    },
     "r": {
         "tags": ["relative", "p"],
-        "topics": ["relationships"],
+        "topics": ["relationship"],
     },
     "j": {
         "tags": ["profession", "p"],
@@ -179,10 +183,6 @@ shorthand_tag_refs = {
     },
     "t": {
         "tags": ["title", "p"],
-        "topics": [],
-    },
-    "p": {
-        "tags": ["person", "living", "concrete"],
         "topics": [],
     },
 
@@ -216,29 +216,29 @@ shorthand_tag_refs = {
         "topics": ["kitchen", "restaurant", "nightclub", "inside"],
     },
 
-    ############### 7A) Location
-    "lg": {
+    ############### 7) Location
+    "ll": {
         "tags": ["location", "concrete"],
         "topics": [],
     },
     "lb": {
-        "tags": ["location", "building", "concrete"],
+        "tags": ["ll", "building"],
         "topics": ["inside"],
     },
     "lr": {
-        "tags": ["location", "room", "concrete"],
+        "tags": ["ll", "room"],
         "topics": ["inside"],
     },
     "ln": {
-        "tags": ["location", "natural", "concrete"],
+        "tags": ["ll", "natural"],
         "topics": ["outside"],
     },
     "ls": {
         "tags": ["special location", "aa"],
-        "topics": ["religion"],
+        "topics": [],
     },
 
-    ############### 7B) House
+    ############### 8) House
     "hhf": {
         "tags": ["furniture", "concrete"],
         "topics": ["home", "inside"],
@@ -276,7 +276,7 @@ shorthand_tag_refs = {
         "topics": ["home", "inside"],
     },
 
-    ############### 8) Fields
+    ############### 9) Fields
     "q": {
         "tags": ["hobby"],
         "topics": [],
@@ -321,6 +321,10 @@ shorthand_tag_refs = {
         "tags": ["transport"],
         "topics": ["travel"],
     },
+    "ø": {
+        "tags": ["love"],
+        "topics": ["relationship"],
+    }
 
     # # # # # # # # # # #
 
