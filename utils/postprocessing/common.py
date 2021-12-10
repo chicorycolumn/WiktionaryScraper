@@ -203,7 +203,17 @@ def recursively_expand_tags(input_stags: list, ref: object):
 
 
 def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
-    shorthand_tags = lemma_object["tags"].split(",")
+    shorthand_tag_chars = lemma_object["tags"].split("")
+    numeric_stag_chars = []
+    alphabetical_stag_chars = []
+
+    for stag_char in shorthand_tag_chars:
+        if bool(re.match(r"^\d$", stag_char)):
+            numeric_stag_chars.append(stag_char)
+        else:
+            alphabetical_stag_chars.append(stag_char)
+
+    shorthand_tags = "".join(alphabetical_stag_chars).split(",")
 
     tags = recursively_expand_tags(shorthand_tags, ref)
 
@@ -216,6 +226,11 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
 
     tags.sort()
     topics.sort()
+
+    if len(numeric_stag_chars) != 1:
+        write_todo(f'Please assign a frequency category to "{lemma_object["lemma"]}".')
+    else:
+        tags.prepend(f'FREQ{numeric_stag_chars[0]}')
 
     lemma_object["tags"] = tags
     lemma_object["topics"] = topics

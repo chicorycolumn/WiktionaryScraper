@@ -38,7 +38,7 @@ case_ref = {
 }
 
 shorthand_tag_refs = {
-    ############### 0) Foundation
+    ############### 1) Foundation
     "u": {
         "tags": ["uncountable"],
         "topics": [],
@@ -55,8 +55,32 @@ shorthand_tag_refs = {
         "tags": ["natural", "concrete"],
         "topics": [],
     },
+    "0": {
+        "tags": ["FREQ0"],
+        "topics": [],
+    },
+    "1": {
+        "tags": ["FREQ1"],
+        "topics": [],
+    },
+    "2": {
+        "tags": ["FREQ2"],
+        "topics": [],
+    },
+    "3": {
+        "tags": ["FREQ3"],
+        "topics": [],
+    },
+    "4": {
+        "tags": ["FREQ4"],
+        "topics": [],
+    },
+    "5": {
+        "tags": ["FREQ5"],
+        "topics": [],
+    },
     
-    ############### 1) Mind and Body
+    ############### 2) Mind and Body
     "!!": {
         "tags": ["noise", "aa"],
         "topics": ["sense and perception"],
@@ -94,7 +118,7 @@ shorthand_tag_refs = {
         "topics": ["at the doctor", "basic", "body"],
     },
     
-    ############### 2) Appearance
+    ############### 3) Miscellaneous
     "k": {
         "tags": ["colour"],
         "topics": ["basic"],
@@ -119,8 +143,6 @@ shorthand_tag_refs = {
         "tags": ["clothes", "h"],
         "topics": ["basic"],
     },
-
-    ############### 3) Miscellaneous
     "c": {
         "tags": ["material", "uncountable", "concrete"],
         "topics": ["basic"],
