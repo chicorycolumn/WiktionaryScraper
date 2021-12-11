@@ -53,7 +53,7 @@ shorthand_tag_refs = {
     },
     "n": {
         "tags": ["natural", "concrete"],
-        "topics": [],
+        "topics": ["outside"],
     },
     "0": {
         "tags": ["FREQ0"],
@@ -109,12 +109,12 @@ shorthand_tag_refs = {
         "tags": ["movement"],
         "topics": [],
     },
-    "b": {
+    "bb": {
         "tags": ["body", "concrete"],
         "topics": ["at the doctor", "basic", "body"],
     },
-    "bb": {
-        "tags": ["b", "bodypart"],
+    "bp": {
+        "tags": ["bb", "bodypart"],
         "topics": ["at the doctor", "basic", "body"],
     },
     
@@ -152,7 +152,7 @@ shorthand_tag_refs = {
         "topics": ["science"],
     },
     "ß": {
-        "tags": ["schoolsubject", "aa"],
+        "tags": ["school subject", "aa"],
         "topics": ["school"],
     },
     "ł": {
@@ -225,7 +225,7 @@ shorthand_tag_refs = {
         "tags": ["fruit", "f"],
         "topics": ["kitchen", "restaurant", "inside"],
     },
-    "ve": {
+    "vg": {
         "tags": ["vegetable", "f"],
         "topics": ["kitchen", "restaurant", "inside"],
     },
@@ -346,6 +346,26 @@ shorthand_tag_refs = {
     "ø": {
         "tags": ["love"],
         "topics": ["relationship"],
+    },
+    "£": {
+        "tags": ["language"],
+        "topics": [],
+    },
+    "¬": {
+        "tags": ["violence"],
+        "topics": [],
+    },
+    "¬¬": {
+        "tags": ["entertainment"],
+        "topics": [],
+    },
+    "þ": {
+        "tags": ["slang"],
+        "topics": [],
+    },
+    "ŋ": {
+        "tags": ["holiday"],
+        "topics": [],
     }
 
     # # # # # # # # # # #
