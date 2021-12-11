@@ -7,11 +7,11 @@ from utils.postprocessing.common import make_ids, finalise_lemma_objects
 if __name__ == '__main__':
 
     step = 2
+    group_number = 1
     wordtype = "nouns"
-    group_number = 333
-    input_indexes = [8, 13]
+    input_indexes = [0, 100]
 
-    is_first_time = False
+    is_first_time = True
     skip_make_ids = False
     skip_scraping = False
     these_headwords_only = []
@@ -26,7 +26,13 @@ if __name__ == '__main__':
                         output_words_99 CREATED
                         truncated_words_99 CREATED
 
-    Step 1.5: Whittle translations and manually add shorthand tags in truncated_words_99. Move all files to output_saved.
+    Step 1.5: Take truncated_words_99 and whittle translations 
+(Don't worry about strings in the translations array that start and end with brackets, they will be removed automatically.)
+(Don't worry about duplicated translations eg ["wolf", "wolf"] as these will be removed automatically.)
+              Manually add shorthand tags. 
+(Make sure include frequency tag, but no comma needed. eg "v1" or "!,g1" or "b,n,w,t1".)
+              Flag lobjs for deletion simply by adding '!' at start of lemma.
+              Move all files to output_saved.
                         truncated_words_99 MODIFIED
 
     Step 2: finalise_lemma_objects()
