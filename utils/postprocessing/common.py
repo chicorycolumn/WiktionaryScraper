@@ -7,7 +7,9 @@ import re
 import os
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 
-def make_ids(langcode, wordtype, group_number="None", lemma_objects=None, existing_lemma_objects_path=None, is_first_time=False):
+
+def make_ids(langcode, wordtype, group_number="None", lemma_objects=None, existing_lemma_objects_path=None,
+             is_first_time=False):
     if not existing_lemma_objects_path:
         existing_lemma_objects_path = f'output_saved/{wordtype}'
     existing_lemma_objects = []
@@ -163,7 +165,8 @@ def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
                 normal.reverse()
             elif type(dict2_value) == dict and "isTerminus" in dict2_value and dict2_value["isTerminus"]:
                 normal.extend(dict2_value["normal"] if "normal" in dict2_value else [])
-                additionalInfrequent.extend(dict2_value["additionalInfrequent"] if "additionalInfrequent" in dict2_value else [])
+                additionalInfrequent.extend(
+                    dict2_value["additionalInfrequent"] if "additionalInfrequent" in dict2_value else [])
             else:
                 raise Exception(f"Unexpected type {type(dict2_value)} at keypath {keypath}.")
 
@@ -203,7 +206,7 @@ def recursively_expand_tags(input_stags: list, ref: object):
 
 
 def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
-    shorthand_tag_chars = lemma_object["tags"].split("")
+    shorthand_tag_chars = list(lemma_object["tags"])
     numeric_stag_chars = []
     alphabetical_stag_chars = []
 
@@ -223,14 +226,16 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
             for topic in ref[stag]["topics"]:
                 if topic not in topics:
                     topics.append(topic)
+        else:
+            write_todo(f'Unknown shorthand tag "{stag}" on lemma object "{lemma_object["lemma"]}".')
 
     tags.sort()
     topics.sort()
 
-    if len(numeric_stag_chars) != 1:
-        write_todo(f'Please assign a frequency category to "{lemma_object["lemma"]}".')
+    if len(numeric_stag_chars) == 1:
+        tags = [f'FREQ{numeric_stag_chars[0]}'] + tags
     else:
-        tags.prepend(f'FREQ{numeric_stag_chars[0]}')
+        write_todo(f'Please assign a frequency category to "{lemma_object["lemma"]}".')
 
     lemma_object["tags"] = tags
     lemma_object["topics"] = topics
@@ -287,6 +292,14 @@ def recursively_prefix_string_values(obj, prefix):
             recursively_prefix_string_values(value, prefix)
 
 
+def auto_whittle_translations_arr(arr):
+    new_arr = []
+    for s in [s for s in arr if not re.match(r"^\(.*\)", s)]:
+        if s not in new_arr:
+            new_arr.append(s)
+    return new_arr
+
+
 def expand_tags_and_topics(group_number, wordtype):
     res_arr = []
 
@@ -295,8 +308,10 @@ def expand_tags_and_topics(group_number, wordtype):
         f.close()
 
     for lemma_object in untruncated_lobjs:
-        add_tags_and_topics_from_shorthand(lemma_object, shorthand_tag_refs)
-        res_arr.append(lemma_object)
+        if not lemma_object["lemma"].startswith("!"):
+            lemma_object["translations"]["ENG"] = auto_whittle_translations_arr(lemma_object["translations"]["ENG"])
+            add_tags_and_topics_from_shorthand(lemma_object, shorthand_tag_refs)
+            res_arr.append(lemma_object)
 
     return res_arr
 
@@ -305,5 +320,6 @@ def finalise_lemma_objects(group_number, wordtype, langcode, skip_make_ids=False
     untruncate_lemma_objects(group_number, wordtype)
     res_arr = expand_tags_and_topics(group_number, wordtype)
     if not skip_make_ids:
-        res_arr = make_ids(langcode=langcode, wordtype=wordtype, lemma_objects=res_arr, is_first_time=is_first_time, group_number=group_number)
+        res_arr = make_ids(langcode=langcode, wordtype=wordtype, lemma_objects=res_arr, is_first_time=is_first_time,
+                           group_number=group_number)
     write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved/{wordtype}")
