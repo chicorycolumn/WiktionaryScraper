@@ -37,9 +37,9 @@ if __name__ == '__main__':
 
     Step 2: finalise_lemma_objects()
                 untruncate_lemma_objects()
-                        untruncated_words_99 CREATED
+                        untruncated_words_99 CREATED (Remember, this won't have the tags expanded. Look to the other file.)
                 expand_tags_and_topics()
-                        finished_words_99 CREATED             
+                        finished_words_99 CREATED
     """
 
     head_words_ref = {

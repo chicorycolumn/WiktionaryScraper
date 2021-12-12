@@ -95,7 +95,11 @@ def make_ids(langcode, wordtype, group_number="None", lemma_objects=None, existi
                                             parent_info = sh_key
                                 if is_existing or len(parent_info) == 1:
                                     write_todo(
-                                        f'Manually add sibling_info "{parent_info[0:4]}" to id of "{elobj["id"]}".')
+                                        f'Add (sibling_info) to end of ID "{elobj["id"]}" describing it from perspective of "{lemma_object["lemma"]}".     '
+                                        f'This is because "{elobj["lemma"]}" mentions "{lemma_object["lemma"]}" as an otherShape, '
+                                        f'so "{lemma_object["lemma"]}" received a parenthesised sibling_info at the end of its ID, '
+                                        f'but "{lemma_object["lemma"]}" did not reciprocate. '
+                                    )
                                 else:
                                     elobj["id"] += f'({parent_info[0:4]})'
 
