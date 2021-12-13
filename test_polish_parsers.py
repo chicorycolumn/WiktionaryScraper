@@ -10,18 +10,19 @@ import pytest
 import os
 
 
-@pytest.mark.parametrize("input_words,expected_path,use_sample", [
-    (["pisywać"], "parsed_polish_protoverbs_0", True),            # impf frequentative
-    (["pisać"], "parsed_polish_protoverbs_1", True),              # impf
-    (["napisać"], "parsed_polish_protoverbs_2", True),            # pf
-    (["czytać"], "parsed_polish_protoverbs_3", True),             # impf
-    (["przeczytać"], "parsed_polish_protoverbs_4", True),         # pf
-    (["badać", "zbadać", "widzieć", "zobaczyć"], "parsed_polish_protoverbs_5", True), # various
-    (["stać"], "parsed_polish_protoverbs_6", True),               # Verb has two meanings and two conj tables
-    (["kopać"], "parsed_polish_protoverbs_7", True),              # Allohom! Verb has two meanings and one conj table
-    (["brać"], "parsed_polish_protoverbs_8", True),               # Page contains one noun one verb, homonyms (not nec to list as allohoms as are diff wordtypes).
+@pytest.mark.parametrize("input_words,expected_path,use_sample,skip_extras", [
+    (["pisywać"], "parsed_polish_protoverbs_0", True, True),            # impf frequentative
+    (["pisać"], "parsed_polish_protoverbs_1", True, True),              # impf
+    (["napisać"], "parsed_polish_protoverbs_2", True, True),            # pf
+    (["czytać"], "parsed_polish_protoverbs_3", True, True),             # impf
+    (["przeczytać"], "parsed_polish_protoverbs_4", True, True),         # pf
+    (["badać", "zobaczyć", "zbadać", "widzieć", "widywać"], "parsed_polish_protoverbs_5", True, True), # various
+    (["badać", "zobaczyć"], "parsed_polish_protoverbs_5", True, False),   # Testing the additional parsing of otherShapes.
+    (["stać"], "parsed_polish_protoverbs_6", True, True),               # Verb has two meanings and two conj tables
+    (["kopać"], "parsed_polish_protoverbs_7", True, True),              # Allohom! Verb has two meanings and one conj table
+    (["brać"], "parsed_polish_protoverbs_8", True, True),               # Page contains one noun one verb, homonyms (not nec to list as allohoms as are diff wordtypes).
 ])
-def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: bool, wordtype: str = "verbs"):
+def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: bool, skip_extras: bool, wordtype: str = "verbs"):
     print(f'# Starting, given {len(input_words)} words.')
 
     output_path = f"output_test{expected_path[-2:]}"
@@ -42,7 +43,8 @@ def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: boo
             "rejected": rejected_path,
         },
         group_number=0,
-        no_temp_ids=True
+        no_temp_ids=True,
+        skip_extras=skip_extras
     )
 
     with open(f'output/{output_path}_scraped.json', 'r') as f:

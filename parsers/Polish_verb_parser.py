@@ -1,5 +1,7 @@
 import copy
 from html.parser import HTMLParser
+
+from utils.general.common import write_todo
 from utils.scraping.Polish_dicts import aspect_ref
 from utils.scraping.common import orth, superstrip, add_string, trim_chaff_from_derived_terms, add_value_at_keychain
 
@@ -92,6 +94,7 @@ class PolishVerbParser(HTMLParser):
                     out_obj["derivedTerms"] = copy.deepcopy(self.output_obj["derivedTerms"])
                     out_obj["inflections"] = copy.deepcopy(self.output_obj["inflections"])
                     out_obj["allohomInfo"] = None
+                    write_todo(f'At least two lobjs of "{out_obj["lemma"]}" needs allohomInfo added.')
                     self.output_obj["allohomInfo"] = None
                     out_obj.pop("diff_word_same_conj")
 

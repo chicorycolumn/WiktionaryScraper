@@ -6,10 +6,70 @@ from datetime import timedelta, datetime
 from time import sleep
 import json
 
-from utils.general.common import write_output
+from utils.general.common import write_output, write_todo
 from utils.postprocessing.Polish import generate_adjective
 from utils.scraping.Polish import minimise_inflections
 from utils.scraping.common import html_from_head_word
+
+
+def add_output_arr_to_result(output_arr, head_word, result, rejected):
+    if output_arr:
+        print(f'\n{" " * 15}# SUCCESS Adding "{head_word}" output_arr to result.' "\n")
+        for lemma_object in output_arr:
+            lemma_object["lemma"] = head_word
+        result.extend(output_arr)
+    else:
+        print(f'\n#{" " * 45}Loaded and read html for "{head_word}" but FAILED to create output.\n')
+        rejected["loaded_and_read_html_but_failed_to_create_output"].append(head_word)
+
+
+def trigger_parser(head_words, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_to_parse):
+    for (head_word_index, head_word) in enumerate(head_words):
+        print(f'\n # Beginning for loop with "{head_word}"\n')
+
+        parser.reset()
+
+        if use_sample:
+            with open(f'input/{language}/{wordtype}/sample_{head_word}.html', 'r') as f:
+                contents = f.read()
+                parser.feed(contents)
+                output_arr = parser.output_arr
+                add_output_arr_to_result(output_arr, head_word, result, rejected)
+                f.close()
+        else:
+            try:
+                html_string = html_from_head_word(head_word, f"{head_word_index + 1} of {len(head_words)}")
+
+                try:
+                    started_at = datetime.now()
+                    parser.reset_for_new_table()
+                    parser.feed(html_string)
+                    output_arr = parser.output_arr
+                    parser.output_arr = []
+                    add_output_arr_to_result(output_arr, head_word, result, rejected)
+
+                except:
+                    print(f'\n#{" " * 30}Loaded html for "{head_word}" but FAILED when reading it.\n')
+                    rejected["loaded_html_but_failed_when_reading"].append(head_word)
+
+            except:
+                print(f'\n#{" " * 30}FAILED to even load html for "{head_word}".\n')
+                rejected["failed_to_load_html"].append(head_word)
+
+            delay_seconds = 1
+
+            if datetime.now() < started_at + timedelta(seconds=delay_seconds):
+                if datetime.now() < started_at + timedelta(seconds=delay_seconds / 2):
+                    sleep(delay_seconds)
+                else:
+                    sleep(delay_seconds / 2)
+
+    for lobj in result:
+        if "otherShapes" in lobj:
+            for other_shapes_key, other_shapes_values in lobj["otherShapes"].items():
+                for other_shapes_value in other_shapes_values:
+                    if other_shapes_value not in head_words:
+                        extra_lemmas_to_parse.append(other_shapes_value)
 
 
 def scrape_word_data(
@@ -21,6 +81,7 @@ def scrape_word_data(
         group_number: int = int(str(datetime.now())[-3:]),
         no_temp_ids: bool = False,
         skip_scraping: bool = False,
+        skip_extras: bool = False,
 ):
     if wordtype == "adjectives":
         parser = PolishAdjectiveParser(convert_charrefs=False)
@@ -48,58 +109,18 @@ def scrape_word_data(
 
         count = 1
         result = []
-        rejected = {"failed_to_load_html": [], "loaded_html_but_failed_when_reading": [],
-                    "loaded_and_read_html_but_failed_to_create_output": []}
+        rejected = {"failed_to_load_html": [], "loaded_html_but_failed_when_reading": [], "loaded_and_read_html_but_failed_to_create_output": []}
+        extra = []
 
-        for (head_word_index, head_word) in enumerate(head_words):
-            print(f'\n # Beginning for loop with "{head_word}"\n')
+        trigger_parser(head_words, parser, use_sample, language, wordtype, result, rejected, extra)
 
-            parser.reset()
-
-            def add_output_arr_to_result(output_arr):
-                if output_arr:
-                    print(f'\n{" " * 15}# SUCCESS Adding "{head_word}" output_arr to result.' "\n")
-                    for lemma_object in output_arr:
-                        lemma_object["lemma"] = head_word
-                    result.extend(output_arr)
-                else:
-                    print(f'\n#{" " * 45}Loaded and read html for "{head_word}" but FAILED to create output.\n')
-                    rejected["loaded_and_read_html_but_failed_to_create_output"].append(head_word)
-
-            if use_sample:
-                with open(f'input/{language}/{wordtype}/sample_{head_word}.html', 'r') as f:
-                    contents = f.read()
-                    parser.feed(contents)
-                    output_arr = parser.output_arr
-                    add_output_arr_to_result(output_arr)
-                    f.close()
-            else:
-                try:
-                    html_string = html_from_head_word(head_word, f"{head_word_index + 1} of {len(head_words)}")
-
-                    try:
-                        started_at = datetime.now()
-                        parser.reset_for_new_table()
-                        parser.feed(html_string)
-                        output_arr = parser.output_arr
-                        parser.output_arr = []
-                        add_output_arr_to_result(output_arr)
-
-                    except:
-                        print(f'\n#{" " * 30}Loaded html for "{head_word}" but FAILED when reading it.\n')
-                        rejected["loaded_html_but_failed_when_reading"].append(head_word)
-
-                except:
-                    print(f'\n#{" " * 30}FAILED to even load html for "{head_word}".\n')
-                    rejected["failed_to_load_html"].append(head_word)
-
-                delay_seconds = 1
-
-                if datetime.now() < started_at + timedelta(seconds=delay_seconds):
-                    if datetime.now() < started_at + timedelta(seconds=delay_seconds / 2):
-                        sleep(delay_seconds)
-                    else:
-                        sleep(delay_seconds / 2)
+        if not skip_extras and wordtype in ["verbs"] and extra:
+            print(f"# There are {len(extra)} extra headwords now after parsing the original headwords:", extra)
+            extra_2 = []
+            trigger_parser(extra, parser, use_sample, language, wordtype, result, rejected, extra_2)
+            extra_2 = [l for l in extra_2 if l not in head_words]
+            if extra_2:
+                write_todo(f'There are {len(extra_2)} doubly extra headwords, they have not been parsed: {extra_2}')
 
         print(f'\n# Writing results".')
 
