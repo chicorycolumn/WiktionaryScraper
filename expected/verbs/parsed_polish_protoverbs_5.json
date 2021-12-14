@@ -330,6 +330,245 @@
         }
     },
     {
+        "lemma": "zobaczyć",
+        "aspect": "perfective",
+        "secondaryAspects": [],
+        "otherShapes": {
+            "imperfective": [
+                "widzieć"
+            ],
+            "indeterminate": [
+                "widywać"
+            ]
+        },
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "( transitive ) to see (perceive with the eyes)",
+                "( reflexive ) to see oneself",
+                "( reflexive ) to see one another, to meet"
+            ]
+        },
+        "derivedTerms": [
+            "do zobaczenia"
+        ],
+        "inflections": {
+            "infinitive": {
+                "singular": {
+                    "masculine": "zobaczyć",
+                    "feminine": "zobaczyć",
+                    "neuter": "zobaczyć"
+                },
+                "plural": {
+                    "virile": "zobaczyć",
+                    "nonvirile": "zobaczyć"
+                }
+            },
+            "future tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "zobaczę",
+                        "feminine": "zobaczę",
+                        "neuter": "zobaczę"
+                    },
+                    "plural": {
+                        "virile": "zobaczymy",
+                        "nonvirile": "zobaczymy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "zobaczysz",
+                        "feminine": "zobaczysz",
+                        "neuter": "zobaczysz"
+                    },
+                    "plural": {
+                        "virile": "zobaczycie",
+                        "nonvirile": "zobaczycie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "zobaczy",
+                        "feminine": "zobaczy",
+                        "neuter": "zobaczy"
+                    },
+                    "plural": {
+                        "virile": "zobaczą",
+                        "nonvirile": "zobaczą"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "zobaczy się",
+                        "feminine": "zobaczy się",
+                        "neuter": "zobaczy się"
+                    },
+                    "plural": {
+                        "virile": "zobaczy się",
+                        "nonvirile": "zobaczy się"
+                    }
+                }
+            },
+            "past tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "zobaczyłem",
+                        "feminine": "zobaczyłam"
+                    },
+                    "plural": {
+                        "virile": "zobaczyliśmy",
+                        "nonvirile": "zobaczyłyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "zobaczyłeś",
+                        "feminine": "zobaczyłaś"
+                    },
+                    "plural": {
+                        "virile": "zobaczyliście",
+                        "nonvirile": "zobaczyłyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "zobaczył",
+                        "feminine": "zobaczyła",
+                        "neuter": "zobaczyło"
+                    },
+                    "plural": {
+                        "virile": "zobaczyli",
+                        "nonvirile": "zobaczyły"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "zobaczono",
+                        "feminine": "zobaczono",
+                        "neuter": "zobaczono"
+                    },
+                    "plural": {
+                        "virile": "zobaczono",
+                        "nonvirile": "zobaczono"
+                    }
+                }
+            },
+            "conditional": {
+                "1st": {
+                    "singular": {
+                        "masculine": "zobaczyłbym",
+                        "feminine": "zobaczyłabym"
+                    },
+                    "plural": {
+                        "virile": "zobaczylibyśmy",
+                        "nonvirile": "zobaczyłybyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "zobaczyłbyś",
+                        "feminine": "zobaczyłabyś"
+                    },
+                    "plural": {
+                        "virile": "zobaczylibyście",
+                        "nonvirile": "zobaczyłybyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "zobaczyłby",
+                        "feminine": "zobaczyłaby",
+                        "neuter": "zobaczyłoby"
+                    },
+                    "plural": {
+                        "virile": "zobaczyliby",
+                        "nonvirile": "zobaczyłyby"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "zobaczono by",
+                        "feminine": "zobaczono by",
+                        "neuter": "zobaczono by"
+                    },
+                    "plural": {
+                        "virile": "zobaczono by",
+                        "nonvirile": "zobaczono by"
+                    }
+                }
+            },
+            "imperative": {
+                "1st": {
+                    "singular": {
+                        "masculine": "niech zobaczę",
+                        "feminine": "niech zobaczę",
+                        "neuter": "niech zobaczę"
+                    },
+                    "plural": {
+                        "virile": "zobaczmy",
+                        "nonvirile": "zobaczmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "zobacz",
+                        "feminine": "zobacz",
+                        "neuter": "zobacz"
+                    },
+                    "plural": {
+                        "virile": "zobaczcie",
+                        "nonvirile": "zobaczcie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "niech zobaczy",
+                        "feminine": "niech zobaczy",
+                        "neuter": "niech zobaczy"
+                    },
+                    "plural": {
+                        "virile": "niech zobaczą",
+                        "nonvirile": "niech zobaczą"
+                    }
+                }
+            },
+            "passive adjectival participle": {
+                "singular": {
+                    "masculine": "zobaczony",
+                    "feminine": "zobaczona",
+                    "neuter": "zobaczone"
+                },
+                "plural": {
+                    "virile": "zobaczeni",
+                    "nonvirile": "zobaczone"
+                }
+            },
+            "anterior adverbial participle": {
+                "singular": {
+                    "masculine": "zobaczywszy",
+                    "feminine": "zobaczywszy",
+                    "neuter": "zobaczywszy"
+                },
+                "plural": {
+                    "virile": "zobaczywszy",
+                    "nonvirile": "zobaczywszy"
+                }
+            },
+            "verbal noun": {
+                "singular": {
+                    "masculine": "zobaczenie",
+                    "feminine": "zobaczenie",
+                    "neuter": "zobaczenie"
+                },
+                "plural": {
+                    "virile": "zobaczenie",
+                    "nonvirile": "zobaczenie"
+                }
+            }
+        }
+    },
+    {
         "lemma": "zbadać",
         "aspect": "perfective",
         "secondaryAspects": [],
@@ -905,240 +1144,301 @@
         }
     },
     {
-        "lemma": "zobaczyć",
-        "aspect": "perfective",
-        "secondaryAspects": [],
+        "lemma": "widywać",
+        "aspect": "imperfective",
+        "secondaryAspects": [
+            "indeterminate",
+            "frequentative"
+        ],
         "otherShapes": {
+            "perfective": [
+                "zobaczyć"
+            ],
             "imperfective": [
                 "widzieć"
-            ],
-            "indeterminate": [
-                "widywać"
             ]
         },
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "( transitive ) to see (perceive with the eyes)",
-                "( reflexive ) to see oneself",
+                "( transitive ) to see once in a while",
                 "( reflexive ) to see one another, to meet"
             ]
         },
-        "derivedTerms": [
-            "do zobaczenia"
-        ],
+        "derivedTerms": [],
         "inflections": {
             "infinitive": {
                 "singular": {
-                    "masculine": "zobaczyć",
-                    "feminine": "zobaczyć",
-                    "neuter": "zobaczyć"
+                    "masculine": "widywać",
+                    "feminine": "widywać",
+                    "neuter": "widywać"
                 },
                 "plural": {
-                    "virile": "zobaczyć",
-                    "nonvirile": "zobaczyć"
+                    "virile": "widywać",
+                    "nonvirile": "widywać"
                 }
             },
-            "future tense": {
+            "present tense": {
                 "1st": {
                     "singular": {
-                        "masculine": "zobaczę",
-                        "feminine": "zobaczę",
-                        "neuter": "zobaczę"
+                        "masculine": "widuję",
+                        "feminine": "widuję",
+                        "neuter": "widuję"
                     },
                     "plural": {
-                        "virile": "zobaczymy",
-                        "nonvirile": "zobaczymy"
+                        "virile": "widujemy",
+                        "nonvirile": "widujemy"
                     }
                 },
                 "2nd": {
                     "singular": {
-                        "masculine": "zobaczysz",
-                        "feminine": "zobaczysz",
-                        "neuter": "zobaczysz"
+                        "masculine": "widujesz",
+                        "feminine": "widujesz",
+                        "neuter": "widujesz"
                     },
                     "plural": {
-                        "virile": "zobaczycie",
-                        "nonvirile": "zobaczycie"
+                        "virile": "widujecie",
+                        "nonvirile": "widujecie"
                     }
                 },
                 "3rd": {
                     "singular": {
-                        "masculine": "zobaczy",
-                        "feminine": "zobaczy",
-                        "neuter": "zobaczy"
+                        "masculine": "widuje",
+                        "feminine": "widuje",
+                        "neuter": "widuje"
                     },
                     "plural": {
-                        "virile": "zobaczą",
-                        "nonvirile": "zobaczą"
+                        "virile": "widują",
+                        "nonvirile": "widują"
                     }
                 },
                 "impersonal": {
                     "singular": {
-                        "masculine": "zobaczy się",
-                        "feminine": "zobaczy się",
-                        "neuter": "zobaczy się"
+                        "masculine": "widuje się",
+                        "feminine": "widuje się",
+                        "neuter": "widuje się"
                     },
                     "plural": {
-                        "virile": "zobaczy się",
-                        "nonvirile": "zobaczy się"
+                        "virile": "widuje się",
+                        "nonvirile": "widuje się"
                     }
                 }
             },
             "past tense": {
                 "1st": {
                     "singular": {
-                        "masculine": "zobaczyłem",
-                        "feminine": "zobaczyłam"
+                        "masculine": "widywałem",
+                        "feminine": "widywałam"
                     },
                     "plural": {
-                        "virile": "zobaczyliśmy",
-                        "nonvirile": "zobaczyłyśmy"
+                        "virile": "widywaliśmy",
+                        "nonvirile": "widywałyśmy"
                     }
                 },
                 "2nd": {
                     "singular": {
-                        "masculine": "zobaczyłeś",
-                        "feminine": "zobaczyłaś"
+                        "masculine": "widywałeś",
+                        "feminine": "widywałaś"
                     },
                     "plural": {
-                        "virile": "zobaczyliście",
-                        "nonvirile": "zobaczyłyście"
+                        "virile": "widywaliście",
+                        "nonvirile": "widywałyście"
                     }
                 },
                 "3rd": {
                     "singular": {
-                        "masculine": "zobaczył",
-                        "feminine": "zobaczyła",
-                        "neuter": "zobaczyło"
+                        "masculine": "widywał",
+                        "feminine": "widywała",
+                        "neuter": "widywało"
                     },
                     "plural": {
-                        "virile": "zobaczyli",
-                        "nonvirile": "zobaczyły"
+                        "virile": "widywali",
+                        "nonvirile": "widywały"
+                    }
+                }
+            },
+            "future tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": [
+                            "będę widywał",
+                            "będę widywać"
+                        ],
+                        "feminine": [
+                            "będę widywała",
+                            "będę widywać"
+                        ]
+                    },
+                    "plural": {
+                        "virile": [
+                            "będziemy widywali",
+                            "będziemy widywać"
+                        ],
+                        "nonvirile": [
+                            "będziemy widywały",
+                            "będziemy widywać"
+                        ]
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": [
+                            "będziesz widywał",
+                            "będziesz widywać"
+                        ],
+                        "feminine": [
+                            "będziesz widywała",
+                            "będziesz widywać"
+                        ]
+                    },
+                    "plural": {
+                        "virile": [
+                            "będziecie widywali",
+                            "będziecie widywać"
+                        ],
+                        "nonvirile": [
+                            "będziecie widywały",
+                            "będziecie widywać"
+                        ]
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": [
+                            "będzie widywał",
+                            "będzie widywać"
+                        ],
+                        "feminine": [
+                            "będzie widywała",
+                            "będzie widywać"
+                        ],
+                        "neuter": [
+                            "będzie widywało",
+                            "będzie widywać"
+                        ]
+                    },
+                    "plural": {
+                        "virile": [
+                            "będą widywali",
+                            "będą widywać"
+                        ],
+                        "nonvirile": [
+                            "będą widywały",
+                            "będą widywać"
+                        ]
                     }
                 },
                 "impersonal": {
                     "singular": {
-                        "masculine": "zobaczono",
-                        "feminine": "zobaczono",
-                        "neuter": "zobaczono"
+                        "masculine": "będzie widywać się",
+                        "feminine": "będzie widywać się",
+                        "neuter": "będzie widywać się"
                     },
                     "plural": {
-                        "virile": "zobaczono",
-                        "nonvirile": "zobaczono"
+                        "virile": "będzie widywać się",
+                        "nonvirile": "będzie widywać się"
                     }
                 }
             },
             "conditional": {
                 "1st": {
                     "singular": {
-                        "masculine": "zobaczyłbym",
-                        "feminine": "zobaczyłabym"
+                        "masculine": "widywałbym",
+                        "feminine": "widywałabym"
                     },
                     "plural": {
-                        "virile": "zobaczylibyśmy",
-                        "nonvirile": "zobaczyłybyśmy"
+                        "virile": "widywalibyśmy",
+                        "nonvirile": "widywałybyśmy"
                     }
                 },
                 "2nd": {
                     "singular": {
-                        "masculine": "zobaczyłbyś",
-                        "feminine": "zobaczyłabyś"
+                        "masculine": "widywałbyś",
+                        "feminine": "widywałabyś"
                     },
                     "plural": {
-                        "virile": "zobaczylibyście",
-                        "nonvirile": "zobaczyłybyście"
+                        "virile": "widywalibyście",
+                        "nonvirile": "widywałybyście"
                     }
                 },
                 "3rd": {
                     "singular": {
-                        "masculine": "zobaczyłby",
-                        "feminine": "zobaczyłaby",
-                        "neuter": "zobaczyłoby"
+                        "masculine": "widywałby",
+                        "feminine": "widywałaby",
+                        "neuter": "widywałoby"
                     },
                     "plural": {
-                        "virile": "zobaczyliby",
-                        "nonvirile": "zobaczyłyby"
-                    }
-                },
-                "impersonal": {
-                    "singular": {
-                        "masculine": "zobaczono by",
-                        "feminine": "zobaczono by",
-                        "neuter": "zobaczono by"
-                    },
-                    "plural": {
-                        "virile": "zobaczono by",
-                        "nonvirile": "zobaczono by"
+                        "virile": "widywaliby",
+                        "nonvirile": "widywałyby"
                     }
                 }
             },
             "imperative": {
                 "1st": {
                     "singular": {
-                        "masculine": "niech zobaczę",
-                        "feminine": "niech zobaczę",
-                        "neuter": "niech zobaczę"
+                        "masculine": "niech widuję",
+                        "feminine": "niech widuję",
+                        "neuter": "niech widuję"
                     },
                     "plural": {
-                        "virile": "zobaczmy",
-                        "nonvirile": "zobaczmy"
+                        "virile": "widujmy",
+                        "nonvirile": "widujmy"
                     }
                 },
                 "2nd": {
                     "singular": {
-                        "masculine": "zobacz",
-                        "feminine": "zobacz",
-                        "neuter": "zobacz"
+                        "masculine": "widuj",
+                        "feminine": "widuj",
+                        "neuter": "widuj"
                     },
                     "plural": {
-                        "virile": "zobaczcie",
-                        "nonvirile": "zobaczcie"
+                        "virile": "widujcie",
+                        "nonvirile": "widujcie"
                     }
                 },
                 "3rd": {
                     "singular": {
-                        "masculine": "niech zobaczy",
-                        "feminine": "niech zobaczy",
-                        "neuter": "niech zobaczy"
+                        "masculine": "niech widuje",
+                        "feminine": "niech widuje",
+                        "neuter": "niech widuje"
                     },
                     "plural": {
-                        "virile": "niech zobaczą",
-                        "nonvirile": "niech zobaczą"
+                        "virile": "niech widują",
+                        "nonvirile": "niech widują"
                     }
                 }
             },
-            "passive adjectival participle": {
+            "active adjectival participle": {
                 "singular": {
-                    "masculine": "zobaczony",
-                    "feminine": "zobaczona",
-                    "neuter": "zobaczone"
+                    "masculine": "widujący",
+                    "feminine": "widująca",
+                    "neuter": "widujące"
                 },
                 "plural": {
-                    "virile": "zobaczeni",
-                    "nonvirile": "zobaczone"
+                    "virile": "widujący",
+                    "nonvirile": "widujące"
                 }
             },
-            "anterior adverbial participle": {
+            "contemporary adverbial participle": {
                 "singular": {
-                    "masculine": "zobaczywszy",
-                    "feminine": "zobaczywszy",
-                    "neuter": "zobaczywszy"
+                    "masculine": "widując",
+                    "feminine": "widując",
+                    "neuter": "widując"
                 },
                 "plural": {
-                    "virile": "zobaczywszy",
-                    "nonvirile": "zobaczywszy"
+                    "virile": "widując",
+                    "nonvirile": "widując"
                 }
             },
             "verbal noun": {
                 "singular": {
-                    "masculine": "zobaczenie",
-                    "feminine": "zobaczenie",
-                    "neuter": "zobaczenie"
+                    "masculine": "widywanie",
+                    "feminine": "widywanie",
+                    "neuter": "widywanie"
                 },
                 "plural": {
-                    "virile": "zobaczenie",
-                    "nonvirile": "zobaczenie"
+                    "virile": "widywanie",
+                    "nonvirile": "widywanie"
                 }
             }
         }
