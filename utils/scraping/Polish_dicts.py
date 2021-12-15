@@ -79,85 +79,101 @@ shorthand_tag_refs = {
         "tags": ["FREQ5"],
         "topics": [],
     },
-    
+
     ############### 2) Mind and Body
-    "!!": {
+    "!": {  # bang crash boom
         "tags": ["noise", "aa"],
         "topics": ["sense and perception"],
     },
-    "!": {
+    "~": {  # sight sound smell
         "tags": ["perception", "aa"],
         "topics": ["sense and perception"],
     },
-    "o": {
-        "tags": ["speech", "aa"],
-        "topics": ["mental world"],
+    "o": {  # noun verb swear-word
+        "tags": ["wordtype", "aa"],
+        "topics": ["language"],
     },
-    "e": {
+    "e": {  # anger happiness sadness
         "tags": ["emotion", "aa"],
-        "topics": ["mental world"],
+        "topics": ["mental"],
     },
-    "€": {
+    "€": {  # idea realisation
         "tags": ["thought", "aa"],
-        "topics": ["mental world"],
+        "topics": ["mental"],
     },
     "ee": {
         "tags": ["aa"],
-        "topics": ["mental world"],
+        "topics": ["mental"],
     },
-    "v": {
+    "v": {  # kick jump roll
         "tags": ["movement"],
-        "topics": [],
+        "topics": ["body"],
     },
-    "bb": {
-        "tags": ["body", "concrete"],
-        "topics": ["at the doctor", "basic", "body"],
+    "bb": {  # sneeze snot ache
+        "tags": [],
+        "topics": ["at the doctor", "body"],
     },
-    "bp": {
-        "tags": ["bb", "bodypart"],
-        "topics": ["at the doctor", "basic", "body"],
+    "bp": {  # toe eye skin
+        "tags": ["bodypart"],
+        "topics": ["at the doctor", "body"],
     },
-    
+
     ############### 3) Miscellaneous
-    "k": {
+    "k": {  # red yellow
         "tags": ["colour"],
-        "topics": ["basic"],
+        "topics": ["sense and perception"],
     },
-    "z": {
+    "ð": {  # spiky smooth hot cold
+        "tags": ["texture"],
+        "topics": ["sense and perception"],
+    },
+    "đ": {  # sour sweet
+        "tags": ["flavour"],
+        "topics": ["sense and perception"],
+    },
+    "z": {  # big small wide
         "tags": ["dimension"],
-        "topics": ["basic"],
+        "topics": ["sense and perception"],
     },
-    "$": {
+    "$": {  # cheap expensive buy sell cost
         "tags": ["money"],
-        "topics": ["shopping", "math", "travel"],
+        "topics": ["shopping"],
     },
-    "@": {
+    "@": {  # inch metre litre
         "tags": ["measurement"],
         "topics": ["math"],
     },
-    "@@": {
+    "@@": {  # cup fistful load
         "tags": ["container", "h"],
         "topics": [],
     },
-    "g": {
+    "g": {  # scarf tie shoe
         "tags": ["clothes", "h"],
-        "topics": ["basic"],
+        "topics": ["fashion"],
     },
-    "c": {
+    "gg": {  # scarf tie shoe
+        "tags": [],
+        "topics": ["fashion"],
+    },
+    "c": {  # cotton steel cardboard
         "tags": ["material", "uncountable", "concrete"],
-        "topics": ["basic"],
+        "topics": ["engineering"],
     },
-    "¢": {
+    "¢": { # hydrogen helium lithium
         "tags": ["chemical", "c"],
         "topics": ["science"],
     },
-    "ß": {
+    "ß": { # biology chemistry physics
         "tags": ["school subject", "aa"],
         "topics": ["school"],
     },
-    "ł": {
+    "ł": { # rainy sunny windy
+        "tags": ["weather type", "aa"],
+        "topics": ["outdoor"],
+    },
+    "łł": { # climate albedo humidity
         "tags": ["weather", "aa"],
-        "topics": ["basic", "outdoor"],
+        "topics": ["outdoor"],
     },
 
     ############### 4) Abstract
@@ -166,8 +182,8 @@ shorthand_tag_refs = {
         "topics": [],
     },
     "at": {
-        "tags": ["aa", "time"],
-        "topics": ["travel", "math"],
+        "tags": ["aa"],
+        "topics": ["time"],
     },
     "as": {
         "tags": ["aa"],
@@ -179,7 +195,7 @@ shorthand_tag_refs = {
     },
     "ag": {
         "tags": ["aa"],
-        "topics": ["geometry", "math"],
+        "topics": ["geometry"],
     },
 
     ############### 5) People
@@ -304,36 +320,48 @@ shorthand_tag_refs = {
         "topics": [],
     },
     "w": {
-        "tags": ["work"],
-        "topics": [],
+        "tags": [],
+        "topics": ["work"],
     },
     "s": {
-        "tags": ["school"],
-        "topics": [],
+        "tags": [],
+        "topics": ["school"],
     },
     "x": {
-        "tags": ["computing"],
-        "topics": [],
+        "tags": ["computer part"],
+        "topics": ["computing"],
+    },
+    "xx": {
+        "tags": [],
+        "topics": ["computing"],
     },
     "y": {
         "tags": ["sport"],
-        "topics": [],
+        "topics": ["sport"],
+    },
+    "yy": {
+        "tags": [],
+        "topics": ["sport"],
     },
     "l": {
-        "tags": ["law"],
-        "topics": [],
+        "tags": [],
+        "topics": ["law"],
     },
     "µ": {
-        "tags": ["medicine"],
-        "topics": [],
+        "tags": [],
+        "topics": ["medicine"],
     },
     "i": {
-        "tags": ["tech"],
-        "topics": [],
+        "tags": [],
+        "topics": ["tech"],
     },
     "¶": {
         "tags": ["religion"],
-        "topics": [],
+        "topics": ["religion"],
+    },
+    "¶¶": {
+        "tags": [],
+        "topics": ["religion"],
     },
     "ĸ": {
         "tags": ["curseword"],
@@ -343,35 +371,111 @@ shorthand_tag_refs = {
         "tags": ["transport"],
         "topics": ["travel"],
     },
+    "ŧŧ": {
+        "tags": [],
+        "topics": ["travel"],
+    },
     "ø": {
-        "tags": ["love"],
-        "topics": ["relationship"],
+        "tags": [],
+        "topics": ["love", "relationship"],
     },
     "£": {
         "tags": ["language"],
-        "topics": [],
+        "topics": ["language"],
+    },
+    "££": {
+        "tags": [],
+        "topics": ["language"],
+    },
+    "|": {
+        "tags": [],
+        "topics": ["violence"],
     },
     "¬": {
-        "tags": ["violence"],
-        "topics": [],
-    },
-    "¬¬": {
-        "tags": ["entertainment"],
-        "topics": [],
+        "tags": [],
+        "topics": ["entertainment"],
     },
     "þ": {
+        "tags": ["holiday"],
+        "topics": ["holiday"],
+    },
+    "þþ": {
+        "tags": [],
+        "topics": ["holiday"],
+    },
+    "ŋ": {
         "tags": ["slang"],
         "topics": [],
     },
-    "ŋ": {
-        "tags": ["holiday"],
-        "topics": [],
-    }
+    "art": {
+        "tags": [],
+        "topics": ["art"],
+    },
+    "bio": {
+        "tags": [],
+        "topics": ["biology"],
+    },
+    "bus": {
+        "tags": [],
+        "topics": ["business"],
+    },
+    "che": {
+        "tags": [],
+        "topics": ["chemistry"],
+    },
+    "dan": {
+        "tags": [],
+        "topics": ["dance"],
+    },
+    "eng": {
+        "tags": [],
+        "topics": ["engineering"],
+    },
+    "his": {
+        "tags": [],
+        "topics": ["history"],
+    },
+    "the": {
+        "tags": [],
+        "topics": ["theatre"],
+    },
+    "geo": {
+        "tags": [],
+        "topics": ["geography"],
+    },
+    "coo": {
+        "tags": [],
+        "topics": ["cooking"],
+    },
+    "ene": {
+        "tags": [],
+        "topics": ["energy and sustainability"],
+    },
+    "jou": {
+        "tags": [],
+        "topics": ["journalism"],
+    },
+    "mat": {
+        "tags": [],
+        "topics": ["math"],
+    },
+    "mus": {
+        "tags": [],
+        "topics": ["music"],
+    },
+    "phy": {
+        "tags": [],
+        "topics": ["physics"],
+    },
+    "phi": {
+        "tags": [],
+        "topics": ["philosophy and ethics"],
+    },
+    "soc": {
+        "tags": [],
+        "topics": ["sociology"],
+    },
 
     # # # # # # # # # # #
-
-
-
-
 
 }
