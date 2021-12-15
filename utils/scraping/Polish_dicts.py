@@ -111,11 +111,11 @@ shorthand_tag_refs = {
     },
     "bb": {  # sneeze snot ache
         "tags": [],
-        "topics": ["at the doctor", "body"],
+        "topics": ["medicine", "body"],
     },
     "bp": {  # toe eye skin
         "tags": ["bodypart"],
-        "topics": ["at the doctor", "body"],
+        "topics": ["medicine", "body"],
     },
 
     ############### 3) Miscellaneous
@@ -129,7 +129,7 @@ shorthand_tag_refs = {
     },
     "đ": {  # sour sweet
         "tags": ["flavour"],
-        "topics": ["sense and perception"],
+        "topics": ["sense and perception", "cooking"],
     },
     "z": {  # big small wide
         "tags": ["dimension"],
@@ -137,7 +137,7 @@ shorthand_tag_refs = {
     },
     "$": {  # cheap expensive buy sell cost
         "tags": ["money"],
-        "topics": ["shopping"],
+        "topics": ["shopping", "business"],
     },
     "@": {  # inch metre litre
         "tags": ["measurement"],
@@ -159,21 +159,21 @@ shorthand_tag_refs = {
         "tags": ["material", "uncountable", "concrete"],
         "topics": ["engineering"],
     },
-    "¢": { # hydrogen helium lithium
+    "¢": {  # hydrogen helium lithium
         "tags": ["chemical", "c"],
-        "topics": ["science"],
+        "topics": ["chemistry"],
     },
-    "ß": { # biology chemistry physics
+    "ß": {  # biology chemistry physics
         "tags": ["school subject", "aa"],
         "topics": ["school"],
     },
-    "ł": { # rainy sunny windy
+    "ł": {  # rainy sunny windy
         "tags": ["weather type", "aa"],
-        "topics": ["outdoor"],
+        "topics": ["outdoor", "geography"],
     },
-    "łł": { # climate albedo humidity
+    "łł": {  # climate albedo humidity
         "tags": ["weather", "aa"],
-        "topics": ["outdoor"],
+        "topics": ["outdoor", "geography"],
     },
 
     ############### 4) Abstract
@@ -199,17 +199,25 @@ shorthand_tag_refs = {
     },
 
     ############### 5) People
+    "py": {
+        "tags": ["personality"],
+        "topics": ["people"],
+    },
     "p": {
         "tags": ["person", "living", "concrete"],
-        "topics": [],
+        "topics": ["people"],
     },
     "r": {
         "tags": ["relative", "p"],
-        "topics": ["relationship"],
+        "topics": ["people"],  # ie relationships / friendships / people descriptions
+    },
+    "pp": {
+        "tags": [],
+        "topics": ["people"],
     },
     "j": {
         "tags": ["profession", "p"],
-        "topics": ["work"],
+        "topics": ["work", "people"],
     },
     "a": {
         "tags": ["animal", "living", "concrete"],
@@ -221,7 +229,7 @@ shorthand_tag_refs = {
     },
     "t": {
         "tags": ["title", "p"],
-        "topics": [],
+        "topics": ["people"],
     },
 
     ############### 6) Food
@@ -269,7 +277,11 @@ shorthand_tag_refs = {
     },
     "ln": {
         "tags": ["ll", "natural"],
-        "topics": ["outside"],
+        "topics": ["outside", "geography"],
+    },
+    "lc": {
+        "tags": ["ll", "nation"],
+        "topics": ["outside", "geography"],
     },
     "ls": {
         "tags": ["special location", "aa"],
@@ -352,6 +364,10 @@ shorthand_tag_refs = {
         "topics": ["medicine"],
     },
     "i": {
+        "tags": ["device"],
+        "topics": ["tech"],
+    },
+    "ii": {
         "tags": [],
         "topics": ["tech"],
     },
@@ -377,7 +393,7 @@ shorthand_tag_refs = {
     },
     "ø": {
         "tags": [],
-        "topics": ["love", "relationship"],
+        "topics": ["love", "people"],
     },
     "£": {
         "tags": ["language"],
@@ -474,6 +490,22 @@ shorthand_tag_refs = {
     "soc": {
         "tags": [],
         "topics": ["sociology"],
+    },
+    "pol": {
+        "tags": [],
+        "topics": ["politics"],
+    },
+    "gem": {
+        "tags": [],
+        "topics": ["geometry"],
+    },
+    "sg": {
+        "tags": [],
+        "topics": ["social glue"],
+    },
+    "rp": {
+        "tags": [],
+        "topics": ["request and permission"],
     },
 
     # # # # # # # # # # #
