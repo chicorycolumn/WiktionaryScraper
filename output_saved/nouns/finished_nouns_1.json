@@ -74,7 +74,7 @@
             }
         },
         "topics": [
-            "relationship"
+            "people"
         ]
     },
     {
@@ -169,8 +169,7 @@
             "FREQ1",
             "concrete",
             "holdable",
-            "household object",
-            "school"
+            "household object"
         ],
         "translations": {
             "ENG": [
@@ -211,7 +210,8 @@
         "topics": [
             "bedroom",
             "home",
-            "inside"
+            "inside",
+            "school"
         ]
     },
     {
@@ -273,6 +273,7 @@
         "tags": [
             "FREQ1",
             "concrete",
+            "container",
             "holdable",
             "household object"
         ],
@@ -359,8 +360,7 @@
         "lemma": "wiosna",
         "tags": [
             "FREQ2",
-            "abstract",
-            "time"
+            "abstract"
         ],
         "translations": {
             "ENG": [
@@ -400,8 +400,7 @@
             }
         },
         "topics": [
-            "math",
-            "travel"
+            "time"
         ]
     },
     {
@@ -562,8 +561,7 @@
         "lemma": "zima",
         "tags": [
             "FREQ2",
-            "abstract",
-            "time"
+            "abstract"
         ],
         "translations": {
             "ENG": [
@@ -597,8 +595,7 @@
             }
         },
         "topics": [
-            "math",
-            "travel"
+            "time"
         ]
     },
     {
@@ -660,8 +657,7 @@
             "FREQ2",
             "building",
             "concrete",
-            "location",
-            "school"
+            "location"
         ],
         "translations": {
             "ENG": [
@@ -707,7 +703,8 @@
             }
         },
         "topics": [
-            "inside"
+            "inside",
+            "school"
         ]
     },
     {
@@ -758,18 +755,16 @@
         "tags": [
             "FREQ3",
             "concrete",
-            "dimension",
             "location",
             "natural"
         ],
         "translations": {
             "ENG": [
-                "mountain",
-                "top"
+                "mountain"
             ]
         },
         "gender": "f",
-        "id": "pol-nco-015-góra",
+        "id": "pol-nco-015-góra(mountain)",
         "usage": [
             "Klasztor znajdował się na szczycie wysokiej góry . ― The monastery was situated on the top of a high mountain .",
             "Góra strony powinna być pusta. ― The top of the page should be empty.",
@@ -815,8 +810,71 @@
             }
         },
         "topics": [
-            "basic",
+            "geography",
             "outside"
+        ]
+    },
+    {
+        "lemma": "góra",
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "dimension"
+        ],
+        "translations": {
+            "ENG": [
+                "top"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-016-góra(top)",
+        "usage": [
+            "Klasztor znajdował się na szczycie wysokiej góry . ― The monastery was situated on the top of a high mountain .",
+            "Góra strony powinna być pusta. ― The top of the page should be empty.",
+            "Nie pomogę wam w tym projekcie, dopóki góra go nie przyklepie. ― I won't help you with this project until the higher-ups sign off on it."
+        ],
+        "otherShapes": {
+            "diminutive": [
+                "górka"
+            ]
+        },
+        "derivedTerms": [
+            "górski",
+            "górzysty",
+            "górować",
+            "górny"
+        ],
+        "synonyms": [
+            "najpóźniej",
+            "najdalej",
+            ", (",
+            "co",
+            ")",
+            "najwyżej"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "góra",
+                "gen": "góry",
+                "dat": "górze",
+                "acc": "górę",
+                "ins": "górą",
+                "loc": "górze",
+                "voc": "góro"
+            },
+            "plural": {
+                "nom": "góry",
+                "gen": "gór",
+                "dat": "górom",
+                "acc": "góry",
+                "ins": "górami",
+                "loc": "górach",
+                "voc": "góry"
+            }
+        },
+        "topics": [
+            "geometry",
+            "sense and perception"
         ]
     },
     {
@@ -835,7 +893,7 @@
             ]
         },
         "gender": "m1",
-        "id": "pol-npe-002-chłopak(augm)",
+        "id": "pol-npe-002-chłopak",
         "otherShapes": {
             "diminutive": [
                 "chłopiec"
@@ -868,7 +926,8 @@
             }
         },
         "topics": [
-            "relationship"
+            "love",
+            "people"
         ]
     },
     {
@@ -877,8 +936,7 @@
             "FREQ1",
             "concrete",
             "living",
-            "person",
-            "relative"
+            "person"
         ],
         "translations": {
             "ENG": [
@@ -922,7 +980,7 @@
             }
         },
         "topics": [
-            "relationship"
+            "people"
         ]
     },
     {
@@ -939,7 +997,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-016-budynek",
+        "id": "pol-nco-017-budynek",
         "synonyms": [
             "budowla gmach"
         ],
@@ -980,7 +1038,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-017-stół",
+        "id": "pol-nco-018-stół",
         "otherShapes": {
             "diminutive": [
                 "stolik"
@@ -1060,6 +1118,8 @@
             }
         },
         "topics": [
+            "people",
+            "school",
             "work"
         ]
     },
@@ -1109,6 +1169,8 @@
             }
         },
         "topics": [
+            "people",
+            "school",
             "work"
         ]
     },
@@ -1126,7 +1188,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-018-kwiat",
+        "id": "pol-nco-019-kwiat",
         "otherShapes": {
             "diminutive": [
                 "kwiatek"
@@ -1172,7 +1234,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-019-ściana",
+        "id": "pol-nco-020-ściana",
         "derivedTerms": [
             "ścienny",
             "równoległościan"
@@ -1207,6 +1269,7 @@
         "tags": [
             "FREQ2",
             "concrete",
+            "device",
             "furniture"
         ],
         "translations": {
@@ -1215,7 +1278,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-020-lampa",
+        "id": "pol-nco-021-lampa",
         "otherShapes": {
             "diminutive": [
                 "lampka"
@@ -1247,7 +1310,8 @@
         "topics": [
             "bedroom",
             "home",
-            "inside"
+            "inside",
+            "tech"
         ]
     },
     {
@@ -1265,7 +1329,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-021-wódka",
+        "id": "pol-nco-022-wódka",
         "otherShapes": {
             "diminutive": [
                 "wódeczka"
@@ -1315,7 +1379,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-022-las",
+        "id": "pol-nco-023-las",
         "otherShapes": {
             "diminutive": [
                 "lasek"
@@ -1342,6 +1406,7 @@
             }
         },
         "topics": [
+            "geography",
             "outside"
         ]
     },
@@ -1349,8 +1414,7 @@
         "lemma": "krok",
         "tags": [
             "FREQ4",
-            "abstract",
-            "thought"
+            "abstract"
         ],
         "translations": {
             "ENG": [
@@ -1358,7 +1422,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-023-krok",
+        "id": "pol-nco-024-krok",
         "otherShapes": {
             "diminutive": [
                 "kroczek"
@@ -1385,15 +1449,13 @@
             }
         },
         "topics": [
-            "mental world"
+            "mental"
         ]
     },
     {
         "lemma": "mapa",
         "tags": [
-            "FREQ3",
-            "school",
-            "transport"
+            "FREQ3"
         ],
         "translations": {
             "ENG": [
@@ -1401,7 +1463,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-024-mapa",
+        "id": "pol-nco-025-mapa",
         "inflections": {
             "singular": {
                 "nom": "mapa",
@@ -1423,6 +1485,7 @@
             }
         },
         "topics": [
+            "geography",
             "travel"
         ]
     },
@@ -1431,9 +1494,8 @@
         "tags": [
             "FREQ4",
             "abstract",
-            "school",
             "transport",
-            "weather"
+            "weather type"
         ],
         "translations": {
             "ENG": [
@@ -1441,7 +1503,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-025-klimat",
+        "id": "pol-nco-026-klimat",
         "inflections": {
             "singular": {
                 "nom": "klimat",
@@ -1463,8 +1525,9 @@
             }
         },
         "topics": [
-            "basic",
+            "geography",
             "outdoor",
+            "school",
             "travel"
         ]
     },
@@ -1472,8 +1535,7 @@
         "lemma": "rok",
         "tags": [
             "FREQ1",
-            "abstract",
-            "time"
+            "abstract"
         ],
         "translations": {
             "ENG": [
@@ -1481,7 +1543,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-026-rok",
+        "id": "pol-nco-027-rok",
         "usage": [
             "w zeszłym roku ― last year",
             "w przyszłym roku ― next year"
@@ -1516,16 +1578,14 @@
             }
         },
         "topics": [
-            "math",
-            "travel"
+            "time"
         ]
     },
     {
         "lemma": "grudzień",
         "tags": [
             "FREQ2",
-            "abstract",
-            "time"
+            "abstract"
         ],
         "translations": {
             "ENG": [
@@ -1533,7 +1593,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-027-grudzień",
+        "id": "pol-nco-028-grudzień",
         "derivedTerms": [
             "grudniowy"
         ],
@@ -1561,16 +1621,14 @@
             }
         },
         "topics": [
-            "math",
-            "travel"
+            "time"
         ]
     },
     {
         "lemma": "miesiąc",
         "tags": [
             "FREQ1",
-            "abstract",
-            "time"
+            "abstract"
         ],
         "translations": {
             "ENG": [
@@ -1578,7 +1636,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-028-miesiąc",
+        "id": "pol-nco-029-miesiąc",
         "usage": [
             "Świec nie zapalajcie,",
             "Bo wam miesiąc osrebrzy łagodnie świetlice."
@@ -1616,8 +1674,7 @@
             }
         },
         "topics": [
-            "math",
-            "travel"
+            "time"
         ]
     },
     {
@@ -1634,7 +1691,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-029-los",
+        "id": "pol-nco-030-los",
         "derivedTerms": [
             "losować",
             "losowy"
@@ -1662,7 +1719,9 @@
                 "voc": "losy"
             }
         },
-        "topics": []
+        "topics": [
+            "religion"
+        ]
     },
     {
         "lemma": "huk",
@@ -1680,7 +1739,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-030-huk",
+        "id": "pol-nco-031-huk",
         "inflections": {
             "singular": {
                 "nom": "huk",
@@ -1719,7 +1778,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-031-most",
+        "id": "pol-nco-032-most",
         "inflections": {
             "singular": {
                 "nom": "most",
@@ -1749,9 +1808,7 @@
         "tags": [
             "FREQ4",
             "concrete",
-            "holdable",
-            "language",
-            "school"
+            "holdable"
         ],
         "translations": {
             "ENG": [
@@ -1760,7 +1817,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-032-słownik",
+        "id": "pol-nco-033-słownik",
         "usage": [
             "Przy użyciu słownika sprawdzam definicję słów, których nie znam. I use the dictionary to look up definitions of words I don't know.",
             "Usage notes [ edit ] Słownik is a Polish word which is usually translated as “dictionary”, but its usage is much wider than that. Almost anything that contains definitions of words is a “słownik”. While generally in Polish an encyclopedia is not usually considered to be a słownik ,specialist encyclopedias often are thus called as in ”Słownik Chemiczny”. This particular meaning is similar to glossary or lexicon (“Lexicon of Chemistry”)."
@@ -1798,13 +1855,15 @@
                 "voc": "słowniki"
             }
         },
-        "topics": []
+        "topics": [
+            "language",
+            "school"
+        ]
     },
     {
         "lemma": "tor",
         "tags": [
-            "FREQ3",
-            "transport"
+            "FREQ3"
         ],
         "translations": {
             "ENG": [
@@ -1813,7 +1872,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-033-tor",
+        "id": "pol-nco-034-tor",
         "derivedTerms": [
             "torować",
             "torowiec",
@@ -1857,7 +1916,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-034-bok",
+        "id": "pol-nco-035-bok",
         "derivedTerms": [
             "boczek",
             "boczniak",
@@ -1901,8 +1960,7 @@
             }
         },
         "topics": [
-            "geometry",
-            "math"
+            "geometry"
         ]
     },
     {
@@ -1919,7 +1977,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-035-natura",
+        "id": "pol-nco-036-natura",
         "usage": [
             "On jest dość miły z natury. ― He's quite nice by nature."
         ],
@@ -1958,7 +2016,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-036-dom",
+        "id": "pol-nco-037-dom",
         "usage": [
             "Idę do domu . ― I'm going home."
         ],
@@ -2049,7 +2107,7 @@
             }
         },
         "topics": [
-            "relationship"
+            "people"
         ]
     },
     {
@@ -2066,7 +2124,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-037-koza",
+        "id": "pol-nco-038-koza",
         "otherShapes": {
             "diminutive": [
                 "kózka"
@@ -2115,7 +2173,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-038-moneta",
+        "id": "pol-nco-039-moneta",
         "otherShapes": {
             "diminutive": [
                 "monetka"
@@ -2149,17 +2207,15 @@
             }
         },
         "topics": [
-            "math",
-            "shopping",
-            "travel"
+            "business",
+            "shopping"
         ]
     },
     {
         "lemma": "niedziela",
         "tags": [
             "FREQ2",
-            "abstract",
-            "time"
+            "abstract"
         ],
         "translations": {
             "ENG": [
@@ -2167,7 +2223,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-039-niedziela",
+        "id": "pol-nco-040-niedziela",
         "derivedTerms": [
             "niedzielny"
         ],
@@ -2195,16 +2251,14 @@
             }
         },
         "topics": [
-            "math",
-            "travel"
+            "time"
         ]
     },
     {
         "lemma": "sobota",
         "tags": [
             "FREQ2",
-            "abstract",
-            "time"
+            "abstract"
         ],
         "translations": {
             "ENG": [
@@ -2212,7 +2266,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-040-sobota",
+        "id": "pol-nco-041-sobota",
         "otherShapes": {
             "diminutive": [
                 "sobótka"
@@ -2242,8 +2296,7 @@
             }
         },
         "topics": [
-            "math",
-            "travel"
+            "time"
         ]
     },
     {
@@ -2263,7 +2316,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-041-woda",
+        "id": "pol-nco-042-woda",
         "derivedTerms": [
             "powódź",
             "powodzianin",
@@ -2323,7 +2376,8 @@
             }
         },
         "topics": [
-            "basic",
+            "chemistry",
+            "engineering",
             "inside",
             "kitchen",
             "outside",
@@ -2342,7 +2396,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-042-złoty",
+        "id": "pol-nco-043-złoty",
         "otherShapes": {
             "abbreviation": [
                 "zł"
@@ -2369,9 +2423,8 @@
             }
         },
         "topics": [
-            "math",
-            "shopping",
-            "travel"
+            "business",
+            "shopping"
         ]
     },
     {
@@ -2386,7 +2439,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-043-kilogram",
+        "id": "pol-nco-044-kilogram",
         "synonyms": [
             "kilo"
         ],
@@ -2429,7 +2482,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-044-marchewka",
+        "id": "pol-nco-045-marchewka",
         "otherShapes": {
             "diminutive": [
                 "marcheweczka"
@@ -2483,7 +2536,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-045-port",
+        "id": "pol-nco-046-port",
         "derivedTerms": [
             "portowy"
         ],
@@ -2507,7 +2560,9 @@
                 "voc": "porty"
             }
         },
-        "topics": []
+        "topics": [
+            "travel"
+        ]
     },
     {
         "lemma": "ser",
@@ -2524,7 +2579,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-046-ser",
+        "id": "pol-nco-047-ser",
         "otherShapes": {
             "diminutive": [
                 "serek"
@@ -2614,7 +2669,9 @@
                 "voc": "faceci"
             }
         },
-        "topics": []
+        "topics": [
+            "people"
+        ]
     },
     {
         "lemma": "panna",
@@ -2666,7 +2723,9 @@
                 "voc": "panny"
             }
         },
-        "topics": []
+        "topics": [
+            "people"
+        ]
     },
     {
         "lemma": "ocean",
@@ -2682,7 +2741,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-047-ocean",
+        "id": "pol-nco-048-ocean",
         "derivedTerms": [
             "oceaniczny",
             "oceanografia"
@@ -2708,6 +2767,7 @@
             }
         },
         "topics": [
+            "geography",
             "outside"
         ]
     },
@@ -2727,7 +2787,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-048-kapusta",
+        "id": "pol-nco-049-kapusta",
         "otherShapes": {
             "diminutive": [
                 "kapustka"
@@ -2784,7 +2844,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-049-malina",
+        "id": "pol-nco-050-malina",
         "otherShapes": {
             "diminutive": [
                 "malinka"
@@ -2838,7 +2898,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-050-wanna",
+        "id": "pol-nco-051-wanna",
         "derivedTerms": [
             "wannowy"
         ],
@@ -2882,7 +2942,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-051-guma(rubber)",
+        "id": "pol-nco-052-guma(rubber)",
         "otherShapes": {
             "diminutive": [
                 "gumka"
@@ -2913,7 +2973,7 @@
             }
         },
         "topics": [
-            "basic"
+            "engineering"
         ]
     },
     {
@@ -2931,7 +2991,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-052-guma(chewing gum)",
+        "id": "pol-nco-053-guma(chewing gum)",
         "otherShapes": {
             "diminutive": [
                 "gumka"
@@ -2971,9 +3031,7 @@
         "lemma": "język",
         "tags": [
             "FREQ3",
-            "body",
-            "bodypart",
-            "concrete"
+            "bodypart"
         ],
         "translations": {
             "ENG": [
@@ -2981,7 +3039,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-053-język(tongue)",
+        "id": "pol-nco-054-język(tongue)",
         "otherShapes": {
             "diminutive": [
                 "języczek"
@@ -3023,16 +3081,14 @@
             }
         },
         "topics": [
-            "at the doctor",
-            "basic",
-            "body"
+            "body",
+            "medicine"
         ]
     },
     {
         "lemma": "język",
         "tags": [
-            "FREQ3",
-            "language"
+            "FREQ3"
         ],
         "translations": {
             "ENG": [
@@ -3040,7 +3096,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-054-język(language)",
+        "id": "pol-nco-055-język(language)",
         "otherShapes": {
             "diminutive": [
                 "języczek"
@@ -3081,14 +3137,16 @@
                 "voc": "języki"
             }
         },
-        "topics": []
+        "topics": [
+            "language"
+        ]
     },
     {
         "lemma": "ekran",
         "tags": [
             "FREQ4",
-            "computing",
-            "tech"
+            "computer part",
+            "device"
         ],
         "translations": {
             "ENG": [
@@ -3096,7 +3154,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-055-ekran",
+        "id": "pol-nco-056-ekran",
         "inflections": {
             "singular": {
                 "nom": "ekran",
@@ -3117,7 +3175,10 @@
                 "voc": "ekrany"
             }
         },
-        "topics": []
+        "topics": [
+            "computing",
+            "tech"
+        ]
     },
     {
         "lemma": "student",
@@ -3167,15 +3228,14 @@
             }
         },
         "topics": [
+            "people",
             "work"
         ]
     },
     {
         "lemma": "lista",
         "tags": [
-            "FREQ4",
-            "school",
-            "work"
+            "FREQ4"
         ],
         "translations": {
             "ENG": [
@@ -3183,7 +3243,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-056-lista",
+        "id": "pol-nco-057-lista",
         "synonyms": [
             "spis",
             "wykaz"
@@ -3208,14 +3268,16 @@
                 "voc": "listy"
             }
         },
-        "topics": []
+        "topics": [
+            "school",
+            "work"
+        ]
     },
     {
         "lemma": "maj",
         "tags": [
             "FREQ2",
-            "abstract",
-            "time"
+            "abstract"
         ],
         "translations": {
             "ENG": [
@@ -3223,7 +3285,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-057-maj",
+        "id": "pol-nco-058-maj",
         "derivedTerms": [
             "majowy"
         ],
@@ -3248,8 +3310,7 @@
             }
         },
         "topics": [
-            "math",
-            "travel"
+            "time"
         ]
     },
     {
@@ -3265,7 +3326,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-058-kanapa",
+        "id": "pol-nco-059-kanapa",
         "inflections": {
             "singular": {
                 "nom": "kanapa",
@@ -3297,8 +3358,7 @@
             "FREQ3",
             "abstract",
             "concrete",
-            "location",
-            "transport"
+            "location"
         ],
         "translations": {
             "ENG": [
@@ -3307,7 +3367,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-059-droga",
+        "id": "pol-nco-060-droga",
         "otherShapes": {
             "diminutive": [
                 "dróżka"
@@ -3364,7 +3424,7 @@
             ]
         },
         "gender": "m2",
-        "id": "pol-nco-060-kot",
+        "id": "pol-nco-061-kot",
         "usage": [
             "W istocie, kot czuł s tyłu myśliwych i psiarnie Rwał w pole, słuchy wytknął jak dwa różki sarnie In very truth, the hare felt behind it the hunters and the pack; it was making for the field; it stretched out behind it its ears like two deer's horns [transl. by George Rapall Noyes ]"
         ],
@@ -3427,7 +3487,7 @@
             ]
         },
         "gender": "m2",
-        "id": "pol-nco-061-lis",
+        "id": "pol-nco-062-lis",
         "otherShapes": {
             "diminutive": [
                 "lisek"
@@ -3488,7 +3548,7 @@
             ]
         },
         "gender": "m2",
-        "id": "pol-nco-062-ptak",
+        "id": "pol-nco-063-ptak",
         "otherShapes": {
             "diminutive": [
                 "ptaszek"
@@ -3552,7 +3612,7 @@
             ]
         },
         "gender": "m2",
-        "id": "pol-nco-063-wilk",
+        "id": "pol-nco-064-wilk",
         "otherShapes": {
             "diminutive": [
                 "wilczek"
@@ -3603,8 +3663,7 @@
         "lemma": "moment",
         "tags": [
             "FREQ2",
-            "abstract",
-            "time"
+            "abstract"
         ],
         "translations": {
             "ENG": [
@@ -3612,7 +3671,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-064-moment",
+        "id": "pol-nco-065-moment",
         "usage": [
             "moment bezwładności – moment of inertia",
             "moment gnący moment zginający – bending moment",
@@ -3653,8 +3712,7 @@
             }
         },
         "topics": [
-            "math",
-            "travel"
+            "time"
         ]
     },
     {
@@ -3674,7 +3732,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-065-hol",
+        "id": "pol-nco-066-hol",
         "otherShapes": {
             "diminutive": [
                 "holik"
@@ -3725,7 +3783,7 @@
             ]
         },
         "gender": "n",
-        "id": "pol-nco-066-okno",
+        "id": "pol-nco-067-okno",
         "otherShapes": {
             "diminutive": [
                 "okienko"
@@ -3765,10 +3823,9 @@
         "tags": [
             "FREQ3",
             "concrete",
-            "entertainment",
+            "device",
             "holdable",
-            "household object",
-            "tech"
+            "household object"
         ],
         "translations": {
             "ENG": [
@@ -3776,7 +3833,7 @@
             ]
         },
         "gender": "n",
-        "id": "pol-nco-067-radio",
+        "id": "pol-nco-068-radio",
         "otherShapes": {
             "diminutive": [
                 "radyjko"
@@ -3876,8 +3933,10 @@
             }
         },
         "topics": [
+            "entertainment",
             "home",
-            "inside"
+            "inside",
+            "tech"
         ]
     },
     {
@@ -3892,7 +3951,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-068-problem",
+        "id": "pol-nco-069-problem",
         "otherShapes": {
             "diminutive": [
                 "problemik"
@@ -3934,7 +3993,7 @@
             ]
         },
         "gender": "nonvirile",
-        "id": "pol-nco-069-schody",
+        "id": "pol-nco-070-schody",
         "derivedTerms": [
             "schodowy",
             "klatka schodowa",
@@ -3972,7 +4031,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-070-grunt",
+        "id": "pol-nco-071-grunt",
         "derivedTerms": [
             "gruntowność",
             "gruntowy",
@@ -4000,6 +4059,7 @@
             }
         },
         "topics": [
+            "geography",
             "outside"
         ]
     },
@@ -4008,7 +4068,8 @@
         "tags": [
             "FREQ4",
             "abstract",
-            "perception"
+            "device",
+            "noise"
         ],
         "translations": {
             "ENG": [
@@ -4016,7 +4077,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-071-alarm",
+        "id": "pol-nco-072-alarm",
         "usage": [
             "Hypernym: alert",
             "Hypernym: alert"
@@ -4062,7 +4123,8 @@
             }
         },
         "topics": [
-            "sense and perception"
+            "sense and perception",
+            "tech"
         ]
     },
     {
@@ -4111,51 +4173,7 @@
     {
         "lemma": "stan",
         "tags": [
-            "FREQ3",
-            "transport"
-        ],
-        "translations": {
-            "ENG": [
-                "state"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-072-stan(state)",
-        "derivedTerms": [
-            "błogostan",
-            "kwiatostan",
-            "owocostan",
-            "pustostan"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "stan",
-                "gen": "stanu",
-                "dat": "stanowi",
-                "acc": "stan",
-                "ins": "stanem",
-                "loc": "stanie",
-                "voc": "stanie"
-            },
-            "plural": {
-                "nom": "stany",
-                "gen": "stanów",
-                "dat": "stanom",
-                "acc": "stany",
-                "ins": "stanami",
-                "loc": "stanach",
-                "voc": "stany"
-            }
-        },
-        "topics": [
-            "travel"
-        ]
-    },
-    {
-        "lemma": "stan",
-        "tags": [
-            "FREQ3",
-            "abstract"
+            "FREQ3"
         ],
         "translations": {
             "ENG": [
@@ -4191,7 +4209,50 @@
             }
         },
         "topics": [
-            "mental world"
+            "geography"
+        ]
+    },
+    {
+        "lemma": "stan",
+        "tags": [
+            "FREQ3",
+            "abstract"
+        ],
+        "translations": {
+            "ENG": [
+                "state"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-074-stan(state)",
+        "derivedTerms": [
+            "błogostan",
+            "kwiatostan",
+            "owocostan",
+            "pustostan"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "stan",
+                "gen": "stanu",
+                "dat": "stanowi",
+                "acc": "stan",
+                "ins": "stanem",
+                "loc": "stanie",
+                "voc": "stanie"
+            },
+            "plural": {
+                "nom": "stany",
+                "gen": "stanów",
+                "dat": "stanom",
+                "acc": "stany",
+                "ins": "stanami",
+                "loc": "stanach",
+                "voc": "stany"
+            }
+        },
+        "topics": [
+            "mental"
         ]
     },
     {
@@ -4208,7 +4269,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-074-kura",
+        "id": "pol-nco-075-kura",
         "otherShapes": {
             "diminutive": [
                 "kurka"
@@ -4247,8 +4308,7 @@
     {
         "lemma": "mit",
         "tags": [
-            "FREQ5",
-            "religion"
+            "FREQ5"
         ],
         "translations": {
             "ENG": [
@@ -4256,7 +4316,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-075-mit",
+        "id": "pol-nco-076-mit",
         "derivedTerms": [
             "mityczny"
         ],
@@ -4280,14 +4340,15 @@
                 "voc": "mity"
             }
         },
-        "topics": []
+        "topics": [
+            "religion"
+        ]
     },
     {
         "lemma": "tydzień",
         "tags": [
             "FREQ2",
-            "abstract",
-            "time"
+            "abstract"
         ],
         "translations": {
             "ENG": [
@@ -4295,7 +4356,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-076-tydzień",
+        "id": "pol-nco-077-tydzień",
         "usage": [
             "( Ty ) musisz czekać do następnego tygodnia . ― You must/have to wait till next week.",
             "Do następnego tygodnia ! ― See you next week!",
@@ -4322,15 +4383,13 @@
             }
         },
         "topics": [
-            "math",
-            "travel"
+            "time"
         ]
     },
     {
         "lemma": "dar",
         "tags": [
-            "FREQ4",
-            "holiday"
+            "FREQ4"
         ],
         "translations": {
             "ENG": [
@@ -4338,7 +4397,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-077-dar",
+        "id": "pol-nco-078-dar",
         "inflections": {
             "singular": {
                 "nom": "dar",
@@ -4359,7 +4418,10 @@
                 "voc": "dary"
             }
         },
-        "topics": []
+        "topics": [
+            "holiday",
+            "people"
+        ]
     },
     {
         "lemma": "pilot",
@@ -4398,6 +4460,7 @@
             }
         },
         "topics": [
+            "people",
             "work"
         ]
     },
@@ -4406,10 +4469,8 @@
         "tags": [
             "FREQ3",
             "concrete",
-            "entertainment",
             "holdable",
-            "household object",
-            "transport"
+            "household object"
         ],
         "translations": {
             "ENG": [
@@ -4417,7 +4478,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-078-pilot(remote control)",
+        "id": "pol-nco-079-pilot(remote control)",
         "inflections": {
             "singular": {
                 "nom": "pilot",
@@ -4439,17 +4500,17 @@
             }
         },
         "topics": [
+            "entertainment",
             "home",
             "inside",
-            "travel"
+            "tech"
         ]
     },
     {
         "lemma": "poniedziałek",
         "tags": [
             "FREQ2",
-            "abstract",
-            "time"
+            "abstract"
         ],
         "translations": {
             "ENG": [
@@ -4457,7 +4518,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-079-poniedziałek",
+        "id": "pol-nco-080-poniedziałek",
         "inflections": {
             "singular": {
                 "nom": "poniedziałek",
@@ -4479,8 +4540,7 @@
             }
         },
         "topics": [
-            "math",
-            "travel"
+            "time"
         ]
     },
     {
@@ -4488,8 +4548,7 @@
         "tags": [
             "FREQ3",
             "concrete",
-            "location",
-            "transport"
+            "location"
         ],
         "translations": {
             "ENG": [
@@ -4497,7 +4556,7 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-080-ulica",
+        "id": "pol-nco-081-ulica",
         "otherShapes": {
             "abbreviation": [
                 "ul."
@@ -4545,7 +4604,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-081-raj",
+        "id": "pol-nco-082-raj",
         "usage": [
             "wrota raju ― gates to paradise",
             "istny raj ― true paradise",
@@ -4582,7 +4641,9 @@
                 "voc": "raje"
             }
         },
-        "topics": []
+        "topics": [
+            "religion"
+        ]
     },
     {
         "lemma": "bratanek",
@@ -4631,7 +4692,7 @@
             }
         },
         "topics": [
-            "relationship"
+            "people"
         ]
     },
     {
@@ -4674,7 +4735,7 @@
             }
         },
         "topics": [
-            "relationship"
+            "people"
         ]
     },
     {
@@ -4689,7 +4750,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-082-cud",
+        "id": "pol-nco-083-cud",
         "derivedTerms": [
             "cudny",
             "cudowny",
@@ -4724,7 +4785,9 @@
                 ]
             }
         },
-        "topics": []
+        "topics": [
+            "religion"
+        ]
     },
     {
         "lemma": "papier",
@@ -4732,9 +4795,7 @@
             "FREQ3",
             "concrete",
             "material",
-            "school",
-            "uncountable",
-            "work"
+            "uncountable"
         ],
         "translations": {
             "ENG": [
@@ -4742,7 +4803,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-083-papier",
+        "id": "pol-nco-084-papier",
         "usage": [
             "Książkę wydrukowano na papierze wysokiej jakości. The book was printed on high-quality paper .",
             "Masz papier na to, że jesteś elektrykiem? Do you have the papers to prove that you're an electrician?"
@@ -4764,7 +4825,9 @@
         "lacking": true,
         "tantumSingulare": true,
         "topics": [
-            "basic"
+            "engineering",
+            "school",
+            "work"
         ]
     },
     {
@@ -4782,7 +4845,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-084-czajnik",
+        "id": "pol-nco-085-czajnik",
         "otherShapes": {
             "diminutive": [
                 "czajniczek"
@@ -4831,7 +4894,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-085-nóż",
+        "id": "pol-nco-086-nóż",
         "otherShapes": {
             "diminutive": [
                 "nożyk"
@@ -4873,7 +4936,7 @@
         "lemma": "komputer",
         "tags": [
             "FREQ3",
-            "tech"
+            "device"
         ],
         "translations": {
             "ENG": [
@@ -4881,7 +4944,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-086-komputer",
+        "id": "pol-nco-087-komputer",
         "otherShapes": {
             "diminutive": [
                 "komputerek"
@@ -4913,7 +4976,9 @@
                 "voc": "komputery"
             }
         },
-        "topics": []
+        "topics": [
+            "tech"
+        ]
     },
     {
         "lemma": "sufit",
@@ -4928,7 +4993,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-087-sufit",
+        "id": "pol-nco-088-sufit",
         "derivedTerms": [
             "sufitowy"
         ],
@@ -4966,8 +5031,7 @@
             "FREQ3",
             "building",
             "concrete",
-            "location",
-            "medicine"
+            "location"
         ],
         "translations": {
             "ENG": [
@@ -4975,7 +5039,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-088-szpital",
+        "id": "pol-nco-089-szpital",
         "usage": [
             "Hypernym: lecznica",
             "Hyponyms: klinika lazaret"
@@ -5011,14 +5075,15 @@
             }
         },
         "topics": [
-            "inside"
+            "inside",
+            "medicine"
         ]
     },
     {
         "lemma": "telefon",
         "tags": [
             "FREQ2",
-            "tech"
+            "device"
         ],
         "translations": {
             "ENG": [
@@ -5026,7 +5091,7 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-089-telefon",
+        "id": "pol-nco-090-telefon",
         "derivedTerms": [
             "telefoniczny",
             "telefonować",
@@ -5052,6 +5117,8 @@
                 "voc": "telefony"
             }
         },
-        "topics": []
+        "topics": [
+            "tech"
+        ]
     }
 ]

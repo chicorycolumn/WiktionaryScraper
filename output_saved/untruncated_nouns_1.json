@@ -231,7 +231,7 @@
     },
     {
         "lemma": "szklanka",
-        "tags": "hk1",
+        "tags": "@@,hk1",
         "translations": {
             "ENG": [
                 "glass"
@@ -636,10 +636,65 @@
     },
     {
         "lemma": "góra",
-        "tags": "ln3,z",
+        "tags": "ln3",
         "translations": {
             "ENG": [
-                "mountain",
+                "mountain"
+            ]
+        },
+        "temp_id": "1.16",
+        "gender": "f",
+        "id": null,
+        "usage": [
+            "Klasztor znajdował się na szczycie wysokiej góry . ― The monastery was situated on the top of a high mountain .",
+            "Góra strony powinna być pusta. ― The top of the page should be empty.",
+            "Nie pomogę wam w tym projekcie, dopóki góra go nie przyklepie. ― I won't help you with this project until the higher-ups sign off on it."
+        ],
+        "otherShapes": {
+            "diminutive": [
+                "górka"
+            ]
+        },
+        "derivedTerms": [
+            "górski",
+            "górzysty",
+            "górować",
+            "górny"
+        ],
+        "synonyms": [
+            "najpóźniej",
+            "najdalej",
+            ", (",
+            "co",
+            ")",
+            "najwyżej"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "góra",
+                "gen": "góry",
+                "dat": "górze",
+                "acc": "górę",
+                "ins": "górą",
+                "loc": "górze",
+                "voc": "góro"
+            },
+            "plural": {
+                "nom": "góry",
+                "gen": "gór",
+                "dat": "górom",
+                "acc": "góry",
+                "ins": "górami",
+                "loc": "górach",
+                "voc": "góry"
+            }
+        }
+    },
+    {
+        "lemma": "góra",
+        "tags": "ag,z4",
+        "translations": {
+            "ENG": [
                 "top"
             ]
         },
@@ -693,7 +748,7 @@
     },
     {
         "lemma": "chłopak",
-        "tags": "r1",
+        "tags": "ø,r1",
         "translations": {
             "ENG": [
                 "boy",
@@ -737,7 +792,7 @@
     },
     {
         "lemma": "chłopiec",
-        "tags": "r1",
+        "tags": "p1",
         "translations": {
             "ENG": [
                 "boy"
@@ -862,7 +917,7 @@
     },
     {
         "lemma": "nauczycielka",
-        "tags": "j2",
+        "tags": "s,j2",
         "translations": {
             "ENG": [
                 "teacher"
@@ -899,7 +954,7 @@
     },
     {
         "lemma": "nauczyciel",
-        "tags": "j2",
+        "tags": "s,j2",
         "translations": {
             "ENG": [
                 "teacher"
@@ -1016,7 +1071,7 @@
     },
     {
         "lemma": "lampa",
-        "tags": "hbf2",
+        "tags": "i,hbf2",
         "translations": {
             "ENG": [
                 "lamp"
@@ -1133,7 +1188,7 @@
     },
     {
         "lemma": "krok",
-        "tags": "aa,€4",
+        "tags": "aa,ee4",
         "translations": {
             "ENG": [
                 "step"
@@ -1170,7 +1225,7 @@
     },
     {
         "lemma": "mapa",
-        "tags": "s,ŧ3",
+        "tags": "geo,ŧŧ3",
         "translations": {
             "ENG": [
                 "map"
@@ -1405,7 +1460,7 @@
     },
     {
         "lemma": "huk",
-        "tags": "!!4",
+        "tags": "!4",
         "translations": {
             "ENG": [
                 "boom",
@@ -1472,7 +1527,7 @@
     },
     {
         "lemma": "słownik",
-        "tags": "£,s,h4",
+        "tags": "££,s,h4",
         "translations": {
             "ENG": [
                 "dictionary",
@@ -1522,7 +1577,7 @@
     },
     {
         "lemma": "tor",
-        "tags": "ŧ3",
+        "tags": "ŧŧ3",
         "translations": {
             "ENG": [
                 "track",
@@ -1907,7 +1962,7 @@
     },
     {
         "lemma": "woda",
-        "tags": "n,d,c1",
+        "tags": "che,n,d,c1",
         "translations": {
             "ENG": [
                 "water"
@@ -2094,7 +2149,7 @@
     },
     {
         "lemma": "port",
-        "tags": "ll3",
+        "tags": "ŧŧ,ll3",
         "translations": {
             "ENG": [
                 "port",
@@ -2567,7 +2622,7 @@
     },
     {
         "lemma": "język",
-        "tags": "£3",
+        "tags": "££3",
         "translations": {
             "ENG": [
                 "language"
@@ -2801,7 +2856,7 @@
     },
     {
         "lemma": "droga",
-        "tags": "ll,ŧ,aa3",
+        "tags": "ll,ŧŧ,aa3",
         "translations": {
             "ENG": [
                 "way",
@@ -3329,7 +3384,7 @@
     },
     {
         "lemma": "radio",
-        "tags": "i,¬¬,hh3",
+        "tags": "i,¬,hh3",
         "translations": {
             "ENG": [
                 "radio",
@@ -3548,7 +3603,7 @@
     },
     {
         "lemma": "alarm",
-        "tags": "!4",
+        "tags": "i,!4",
         "translations": {
             "ENG": [
                 "alarm",
@@ -3611,7 +3666,7 @@
     },
     {
         "lemma": "ziom",
-        "tags": "þ4",
+        "tags": "ŋ4",
         "translations": {
             "ENG": [
                 "homie",
@@ -3653,7 +3708,7 @@
     },
     {
         "lemma": "stan",
-        "tags": "ŧ3",
+        "tags": "geo3",
         "translations": {
             "ENG": [
                 "state",
@@ -3696,7 +3751,7 @@
     },
     {
         "lemma": "stan",
-        "tags": "aa,ee3",
+        "tags": "ee3",
         "translations": {
             "ENG": [
                 "state",
@@ -3782,7 +3837,7 @@
     },
     {
         "lemma": "mit",
-        "tags": "¶5",
+        "tags": "¶¶5",
         "translations": {
             "ENG": [
                 "myth"
@@ -3857,7 +3912,7 @@
     },
     {
         "lemma": "dar",
-        "tags": "ŋ4",
+        "tags": "þþ,pp4",
         "translations": {
             "ENG": [
                 "gift"
@@ -3922,7 +3977,7 @@
     },
     {
         "lemma": "pilot",
-        "tags": "hh,ŧ,¬¬3",
+        "tags": "hh,¬,ii,h3",
         "translations": {
             "ENG": [
                 "remote control"
@@ -3986,7 +4041,7 @@
     },
     {
         "lemma": "ulica",
-        "tags": "ll,ŧ3",
+        "tags": "ll,ŧŧ3",
         "translations": {
             "ENG": [
                 "street"
