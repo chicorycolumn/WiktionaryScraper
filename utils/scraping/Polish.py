@@ -59,7 +59,8 @@ def minimise_inflections(lemma_object):
                 "conditional": ["conditional", 18]
             }
         else:
-            raise Exception(f'Unexpected lemma object aspect: "{lemma_object["aspect"]}".')
+            write_todo(f'SKIPPED. Lobj "{lemma_object["lemma"]}" has unexpected aspect: "{lemma_object["aspect"]}".')
+            return
 
         for py_key, js_key_and_count in tense_ref.items():
             js_key = js_key_and_count[0]
@@ -71,8 +72,9 @@ def minimise_inflections(lemma_object):
                 if actual_count + 5 == expected_count:
                     write_todo(f'The "{js_key}" tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}. I think the Wiktionary page was missing the "{js_key} impersonal", but nevertheless the word does have it, so I have gone ahead and minimised the "{js_key} impersonal" to True boolean. If you disagree, you must change that.')
                 else:
-                    raise Exception(
-                        f'{js_key} tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}.')
+                    write_todo(f'SKIPPED. "{js_key}" tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}.')
+                    return
+
             full_inflections[js_key] = True
             if py_key != js_key:
                 full_inflections.pop(py_key)

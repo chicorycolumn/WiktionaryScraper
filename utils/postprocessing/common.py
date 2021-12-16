@@ -61,6 +61,8 @@ def make_ids(langcode, wordtype, group_number="None", lemma_objects=None, existi
             id_number_counts[wordtypeshortcode] = int(number)
 
     for lemma_object in lemma_objects:
+        print_todo = False
+
         if wordtype == "adjectives":
             wordtypeshortcode = "adj"
         elif wordtype == "verbs":
@@ -124,10 +126,13 @@ def make_ids(langcode, wordtype, group_number="None", lemma_objects=None, existi
                         parent_info_datum = first_translation if wordtype != "verbs" \
                             else re.match(r".+?to\s(?P<bare_infinitive>.+?)\s", first_translation)["bare_infinitive"]
 
+                        print_todo = True
+
                         if is_existing:
-                            write_todo(f'To "{elobj["id"]}" ID must append "{parent_info_datum}"')
+                            write_todo(f'To "{elobj["id"]}" ID must append "{parent_info_datum}"...')
                         else:
                             elobj["id"] += f'({parent_info_datum})'
+                            write_todo(f'To "{elobj["id"]}" ID appended "{parent_info_datum}"...')
 
         if int(number) == id_number_counts[wordtypeshortcode] + 1:
             id_number_counts[wordtypeshortcode] += 1
@@ -137,6 +142,9 @@ def make_ids(langcode, wordtype, group_number="None", lemma_objects=None, existi
         lemma_object["id"] = id
         lemma_object.pop("temp_id")
         res_arr.append(lemma_object)
+
+        if print_todo:
+            write_todo(f'...or should you delete "{id}" because is a duplicate?')
 
     return res_arr
 

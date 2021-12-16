@@ -152,8 +152,15 @@ def scrape_word_data(
         ) for protoadjective in result]
         result = generated_adjectives
     elif wordtype == "verbs":
-        minimised_verbs = [minimise_inflections(fullverb) for fullverb in result]
-        result = minimised_verbs
+        result_filtered = []
+
+        for fullverb in result:
+            if "infinitive" not in fullverb["inflections"]:
+                write_todo(f'"{fullverb["lemma"]}" has no infinitive. Kicking it out.')
+            else:
+                result_filtered.append(fullverb)
+
+        result = [minimise_inflections(fullverb) for fullverb in result_filtered]
 
     write_output(result, filepaths["output"])
 
