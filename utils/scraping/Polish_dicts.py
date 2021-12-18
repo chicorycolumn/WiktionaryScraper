@@ -499,6 +499,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["geometry"],
     },
+    "pl": {
+        "tags": [],
+        "topics": ["planning"],
+    },
     "sg": {
         "tags": [],
         "topics": ["social glue"],
