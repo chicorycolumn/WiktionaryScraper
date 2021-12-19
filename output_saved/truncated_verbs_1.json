@@ -1,14 +1,4 @@
 [
-    {
-    "lemma": "stać",
-    "tags": "3",
-    "translations": {
-      "ENG": [
-        "to become[r]"
-      ]
-    },
-    "temp_id": "1.45"
-  },
   {
     "lemma": "stać",
     "tags": "3v,bb",
@@ -41,6 +31,16 @@
       ]
     },
     "temp_id": "1.9"
+  },
+  {
+    "lemma": "stać",
+    "tags": "4aa",
+    "translations": {
+      "ENG": [
+        "to become[r]"
+      ]
+    },
+    "temp_id": "1.45"
   },
   {
     "lemma": "wstać",
@@ -97,12 +97,10 @@
   },
   {
     "lemma": "pobiec",
-    "tags": "xxxxxxxxx",
+    "tags": "3yy,bb,v",
     "translations": {
       "ENG": [
-        "( intransitive ) to run forward",
-        "( intransitive colloquial ) to nip , to dash ( make a quick journey )",
-        "( intransitive literary of thoughts, glances, etc. ) to turn , to wander"
+        "to run[i]"
       ]
     },
     "temp_id": "1.60"
@@ -119,22 +117,21 @@
   },
   {
     "lemma": "posiedzieć",
-    "tags": "xxxxxxxxx",
+    "tags": "2bb,s",
     "translations": {
       "ENG": [
-        "( intransitive ) to sit for a while"
+        "to sit for a while[i]"
       ]
     },
     "temp_id": "1.56"
   },
   {
     "lemma": "siąść",
-    "tags": "xxxxxxxxx",
+    "tags": "2bb,s",
     "translations": {
       "ENG": [
-        "( intransitive ) to sit down Synonym: usiąść",
-        "( intransitive of animals or airplanes ) to land",
-        "( intransitive colloquial ) to go sour , to go downhill"
+        "to sit down[i]",
+        "to sit[i]"
       ]
     },
     "temp_id": "1.57"
@@ -155,8 +152,7 @@
     "translations": {
       "ENG": [
         "to sit down[i]",
-        "( intransitive ) of animals or airplains to land",
-        "( intransitive colloquial ) to go sour , to go downhill"
+        "to sit[i]"
       ]
     },
     "temp_id": "1.7"
@@ -173,10 +169,11 @@
   },
   {
     "lemma": "upadać",
-    "tags": "4v",
+    "tags": "4v,bb",
     "translations": {
       "ENG": [
         "to fall down[i]",
+        "to fall[i]",
         "to drop[i]"
       ]
     },
@@ -184,12 +181,12 @@
   },
   {
     "lemma": "upaść",
-    "tags": "4v",
+    "tags": "4v,bb",
     "translations": {
       "ENG": [
-        "to fall",
-        "to drop",
-        "to fall down"
+        "to fall down[i]",
+        "to fall[i]",
+        "to drop[i]"
       ]
     },
     "temp_id": "1.30"
@@ -214,19 +211,44 @@
     },
     "temp_id": "1.15"
   },
-    {
-    "lemma": "wkładać",
-    "tags": "xxxxxxxxx",
+  {
+    "lemma": "położyć",
+    "tags": "3v,ag,bb",
     "translations": {
       "ENG": [
-        "( transitive ) to put in (to place inside something)"
+        "to put",
+        "to lay",
+        "to lie down[r]"
+      ]
+    },
+    "temp_id": "67.1"
+  },
+  {
+    "lemma": "kłaść",
+    "tags": "3v,ag,bb",
+    "translations": {
+      "ENG": [
+        "to put",
+        "to lay",
+        "to lie down[r]"
+      ]
+    },
+    "temp_id": "67.2"
+  },
+  {
+    "lemma": "wkładać",
+    "tags": "3v,ag,bb",
+    "translations": {
+      "ENG": [
+        "to put in",
+        "to put inside"
       ]
     },
     "temp_id": "1.50"
   },
   {
     "lemma": "włożyć",
-    "tags": "3v,ag",
+    "tags": "3v,ag,bb",
     "translations": {
       "ENG": [
         "to put in",
@@ -281,16 +303,15 @@
     },
     "temp_id": "1.19"
   },
-    {
+  {
     "lemma": "dać",
-    "tags": "xxxxxxxxx",
+    "tags": "2sg,rp",
     "translations": {
       "ENG": [
-        "( transitive ) to give Dałeś dzieciom obiad? ― Did you give lunch to the children?",
-        "( intransitive ) to let ; to allow ; to permit Daj mi posłuchać. ― Let me listen.",
-        "( intransitive vulgar ) to put out ; to consent to sex (used mainly of women) Jak było u niego? Dałaś mu? ― How was it at his place? Did you put out ?",
-        "( reflexive ) to give in ; to let go",
-        "( reflexive ) to be feasible"
+        "to give",
+        "to let",
+        "to allow",
+        "to permit"
       ]
     },
     "temp_id": "1.51"
@@ -351,28 +372,11 @@
     "temp_id": "1.26"
   },
   {
-    "lemma": "zejść",
-    "tags": "xxxxxxxxx",
-    "translations": {
-      "ENG": [
-        "( intransitive ) to descend , to go down Synonym: zleźć",
-        "( intransitive ) to depreciate , to decrease in value",
-        "( intransitive ) to give way",
-        "( intransitive euphemistic ) to die",
-        "( intransitive colloquial ) to shift , to sell quickly",
-        "( intransitive colloquial of a stain ) to come out",
-        "( reflexive ) to descend , to converge , to gather Synonym: zleźć",
-        "( reflexive ) to get back together"
-      ]
-    },
-    "temp_id": "1.66"
-  },
-  {
     "lemma": "jeść",
     "tags": "bb,f,coo1",
     "translations": {
       "ENG": [
-        "to eat[t]",
+        "to eat",
         "to eat[i]"
       ]
     },
@@ -383,27 +387,28 @@
     "tags": "bb,f,coo1",
     "translations": {
       "ENG": [
-        "to eat"
+        "to eat",
+        "to eat[i]"
       ]
     },
     "temp_id": "1.2"
   },
   {
     "lemma": "zjadać",
-    "tags": "xxxxxxxxx",
+    "tags": "bb,f,coo1",
     "translations": {
       "ENG": [
-        "( transitive ) to eat up"
+        "to eat up"
       ]
     },
     "temp_id": "1.53"
   },
   {
     "lemma": "jadać",
-    "tags": "xxxxxxxxx",
+    "tags": "bb,f,coo1",
     "translations": {
       "ENG": [
-        "( transitive ) to eat habitually Jadałem tam, kiedy byłem studentem. ― I used to eat there when I was a student."
+        "to eat habitually"
       ]
     },
     "temp_id": "1.61"
@@ -432,10 +437,10 @@
   },
   {
     "lemma": "bywać",
-    "tags": "xxxxxxxxx",
+    "tags": "1",
     "translations": {
       "ENG": [
-        "( intransitive ) to be once in a while; to appear , to frequent , to happen (to be) On bywa całkiem wredny. ― He can be pretty mean."
+        "to be habitually[i]"
       ]
     },
     "temp_id": "1.62"
@@ -466,17 +471,17 @@
   },
   {
     "lemma": "wypijać",
-    "tags": "xxxxxxxxx",
+    "tags": "1ff",
     "translations": {
       "ENG": [
-        "( transitive ) to drink up , to drink Synonyms: see Thesaurus: pić"
+        "to drink up"
       ]
     },
     "temp_id": "1.63"
   },
   {
     "lemma": "wypić",
-    "tags": "1ff",
+    "tags": "1ff,bb",
     "translations": {
       "ENG": [
         "to drink"
@@ -486,7 +491,7 @@
   },
   {
     "lemma": "pić",
-    "tags": "1ff",
+    "tags": "1ff,bb",
     "translations": {
       "ENG": [
         "to drink"
@@ -496,7 +501,7 @@
   },
   {
     "lemma": "ugotować",
-    "tags": "2coo",
+    "tags": "2coo,bb",
     "translations": {
       "ENG": [
         "to cook",
@@ -507,7 +512,7 @@
   },
   {
     "lemma": "gotować",
-    "tags": "2coo",
+    "tags": "2coo,bb",
     "translations": {
       "ENG": [
         "to cook",
@@ -528,8 +533,6 @@
     },
     "temp_id": "1.49"
   },
-
-
   {
     "lemma": "mieć",
     "tags": "1",
@@ -542,28 +545,17 @@
   },
   {
     "lemma": "miewać",
-    "tags": "xxxxxxxxx",
+    "tags": "1",
     "translations": {
       "ENG": [
-        "( intransitive ) to have something repeatedly; to have a tendency for something W dzieciństwie miewałem częste bóle głowy. ― As a child, I used to have frequent headaches.",
-        "( reflexive ) to fare (to be in any state, or pass through any experience, good or bad)"
+        "to have habitually"
       ]
     },
     "temp_id": "1.64"
   },
   {
-    "lemma": "przyjeżdżać",
-    "tags": "xxxxxxxxx",
-    "translations": {
-      "ENG": [
-        "( intransitive ) to arrive , to pull in (in a vehicle)"
-      ]
-    },
-    "temp_id": "1.38"
-  },
-  {
     "lemma": "przynieść",
-    "tags": "3v,sg",
+    "tags": "3v,sg,bb",
     "translations": {
       "ENG": [
         "to bring",
@@ -574,18 +566,17 @@
   },
   {
     "lemma": "zanosić",
-    "tags": "xxxxxxxxx",
+    "tags": "3v,ŧŧ,bb",
     "translations": {
       "ENG": [
-        "( transitive ) to carry , to transport by carrying",
-        "( reflexive ) to be in the air , to look like"
+        "to carry"
       ]
     },
     "temp_id": "1.59"
   },
   {
     "lemma": "przynosić",
-    "tags": "3v,sg",
+    "tags": "3v,sg,bb",
     "translations": {
       "ENG": [
         "to bring",
@@ -596,7 +587,7 @@
   },
   {
     "lemma": "zanieść",
-    "tags": "4sg,v,bb",
+    "tags": "3v,ŧŧ,bb",
     "translations": {
       "ENG": [
         "to carry"
@@ -605,29 +596,30 @@
     "temp_id": "1.14"
   },
   {
-    "lemma": "przyjść",
-    "tags": "xxxxxxxxx",
-    "translations": {
-      "ENG": [
-        "( intransitive ) to arrive , to come"
-      ]
-    },
-    "temp_id": "1.52"
-  },
-  {
     "lemma": "schodzić",
-    "tags": "xxxxxxxxx",
+    "tags": "3v,ŧŧ,bb",
     "translations": {
       "ENG": [
-        "( intransitive colloquial especially of shoes ) to wear out",
-        "( reflexive ) to walk a long distance Synonym: zleźć się"
+        "to descend[i]",
+        "to go down[i]"
       ]
     },
     "temp_id": "1.48"
   },
   {
+    "lemma": "zejść",
+    "tags": "3v,ŧŧ,bb",
+    "translations": {
+      "ENG": [
+        "to descend[i]",
+        "to go down[i]"
+      ]
+    },
+    "temp_id": "1.66"
+  },
+  {
     "lemma": "przychodzić",
-    "tags": "xxxxxxxxx",
+    "tags": "3v,ŧŧ,bb",
     "translations": {
       "ENG": [
         "to arrive[i]",
@@ -641,9 +633,101 @@
     "tags": "3v,ŧŧ",
     "translations": {
       "ENG": [
-        "to arrive[i]"
+        "to arrive[i]",
+        "to come[i]"
       ]
     },
     "temp_id": "1.11"
+  },
+  {
+    "lemma": "przyjść",
+    "tags": "3v,ŧŧ,bb",
+    "translations": {
+      "ENG": [
+        "to arrive[i]",
+        "to come[i]"
+      ]
+    },
+    "temp_id": "1.52"
+  },
+  {
+    "lemma": "przyjeżdżać",
+    "tags": "3v,ŧŧ",
+    "translations": {
+      "ENG": [
+        "to arrive[i]",
+        "to come[i]"
+      ]
+    },
+    "temp_id": "1.38"
+  },
+  {
+    "lemma": "iść",
+    "tags": "3v,ŧŧ,bb",
+    "translations": {
+      "ENG": [
+        "to go[i]",
+        "to walk[i]"
+      ]
+    },
+    "temp_id": "66.1"
+  },
+  {
+    "lemma": "pójść",
+    "tags": "3v,ŧŧ,bb",
+    "translations": {
+      "ENG": [
+        "to go[i]",
+        "to walk[i]"
+      ]
+    },
+    "temp_id": "66.2"
+  },
+  {
+    "lemma": "chodzić",
+    "tags": "3v,ŧŧ,bb",
+    "translations": {
+      "ENG": [
+        "to go[i]",
+        "to walk[i]"
+      ]
+    },
+    "temp_id": "66.3"
+  },
+  {
+    "lemma": "jechać",
+    "tags": "3v,ŧŧ",
+    "translations": {
+      "ENG": [
+        "to go[i]",
+        "to ride[i]",
+        "to drive[i]"
+      ]
+    },
+    "temp_id": "66.4"
+  },
+  {
+    "lemma": "pojechać",
+    "tags": "3v,ŧŧ",
+    "translations": {
+      "ENG": [
+        "to go[i]",
+        "to ride[i]",
+        "to drive[i]"
+      ]
+    },
+    "temp_id": "66.5"
+  },
+  {
+    "lemma": "jeździć",
+    "tags": "3v,ŧŧ",
+    "translations": {
+      "ENG": [
+        "to go[i]",
+        "to ride[i]",
+        "to drive[i]"
+      ]
+    },
+    "temp_id": "66.6"
   }
 ]
