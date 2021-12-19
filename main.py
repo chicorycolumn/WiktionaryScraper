@@ -6,10 +6,10 @@ from utils.postprocessing.common import make_ids, finalise_lemma_objects
 
 if __name__ == '__main__':
 
-    step = 2
+    step = 1
     group_number = 1
-    wordtype = "nouns"
-    input_indexes = [0, 100]
+    wordtype = "verbs"
+    input_indexes = [0, 50]
 
     is_first_time = True
     skip_make_ids = False
@@ -20,7 +20,7 @@ if __name__ == '__main__':
 
     """
     Step 1: scrape_word_data()
-                        output_words_99_scraped CREATED (ignore unless next fxn encounters error)
+                        output_words_99_scraped CREATED (delete unless next fxn encounters error)
                         rejected_words_99 CREATED
                 generate_adjective()/minimise_verbs()
                         output_words_99 CREATED
@@ -53,6 +53,8 @@ if __name__ == '__main__':
 
     head_words = these_headwords_only if these_headwords_only \
         else head_words_ref[wordtype][input_indexes[0]:input_indexes[1]]
+
+    head_words = {el for el in head_words}
 
     if step == 1:
         scrape_word_data(
