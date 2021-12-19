@@ -1,4 +1,4 @@
-from parsers.common import scrape_word_data
+from parsers.common import scrape_word_data, reorder_lemma_objects_in_result
 from utils.scraping.Polish import minimise_inflections
 from utils.general.common import write_output
 from utils.postprocessing.Polish import generate_adjective
@@ -8,6 +8,33 @@ from testdata.test_helpers.Polish import test_helper_shorthand_tag_ref_noun
 import json
 import pytest
 import os
+
+
+@pytest.mark.parametrize("input,expected", [
+    ([
+         {"lemma": "sunflux"},
+         {"lemma": "blog"},
+         {"lemma": "bloggo"},
+         {"lemma": "sunflo"},
+         {"lemma": "bloggy"},
+     ],
+     [
+         {"lemma": "blog"},
+         {"lemma": "bloggo"},
+         {"lemma": "bloggy"},
+         {"lemma": "sunflux"},
+         {"lemma": "sunflo"},
+     ])
+])
+def test_reorder_lemma_objects_in_result(input, expected):
+    extra_lemmas_objs = [
+        {"lemma": "blog", "extra_lemmas": ["bloggo", "bloggy", "blogger"], "lemma_objects": []},
+        {"lemma": "sunflo", "extra_lemmas": ["sunflu", "sunflux", "sunflox"], "lemma_objects": []},
+        {"lemma": "bloggy", "extra_lemmas": ["bloggo"], "lemma_objects": []},
+    ]
+
+    ordered_result = reorder_lemma_objects_in_result(input, extra_lemmas_objs)
+    assert ordered_result == expected
 
 
 @pytest.mark.parametrize("input_path,expected_path,wordtype", [

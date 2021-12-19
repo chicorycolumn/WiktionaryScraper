@@ -66,10 +66,39 @@ def trigger_parser(head_words, parser, use_sample, language, wordtype, result, r
 
     for lobj in result:
         if "otherShapes" in lobj:
+            extra_lemmas_object = {"lemma": lobj["lemma"], "extra_lemmas": [], "lemma_objects": []}
             for other_shapes_key, other_shapes_values in lobj["otherShapes"].items():
                 for other_shapes_value in other_shapes_values:
-                    if other_shapes_value not in head_words:
-                        extra_lemmas_to_parse.append(other_shapes_value)
+                    extra_lemmas_object["extra_lemmas"].append(other_shapes_value)
+            extra_lemmas_to_parse.append(extra_lemmas_object)
+
+
+def reorder_lemma_objects_in_result(result, extra_lemmas_objs):
+    result_length = len(result)
+
+    indexes = [i for i in range(0, len(result))]
+    indexes.reverse()
+
+    for index in indexes:
+        lobj = result[index]
+        for extra_lemmas_obj in extra_lemmas_objs:
+            if lobj["lemma"] in extra_lemmas_obj["extra_lemmas"] + [extra_lemmas_obj["lemma"]]:
+                extra_lemmas_obj["lemma_objects"].append(result.pop(index))
+                break
+
+    ordered_result = []
+
+    for extra_lemmas_obj in extra_lemmas_objs:
+        extra_lemmas_obj["lemma_objects"].reverse()
+        for lobj in extra_lemmas_obj["lemma_objects"]:
+            ordered_result.append(lobj)
+    for lobj in result:
+        ordered_result.append(lobj)
+
+    if result_length != len(ordered_result):
+        raise Exception(f'reorder_lemma_objects_in_result failed. Input had {result_length} lobjs but output {len(ordered_result)} and should be the same.')
+
+    return ordered_result
 
 
 def scrape_word_data(
@@ -109,20 +138,35 @@ def scrape_word_data(
 
         count = 1
         result = []
-        rejected = {"failed_to_load_html": [], "loaded_html_but_failed_when_reading": [], "loaded_and_read_html_but_failed_to_create_output": []}
-        extra = []
+        rejected = {"failed_to_load_html": [], "loaded_html_but_failed_when_reading": [],
+                    "loaded_and_read_html_but_failed_to_create_output": []}
 
-        trigger_parser(head_words, parser, use_sample, language, wordtype, result, rejected, extra)
+        extra_lemmas_objs = []
+
+        trigger_parser(head_words, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs)
+
+        extra = []
+        for extra_lemmas_obj in extra_lemmas_objs:
+            for el in extra_lemmas_obj["extra_lemmas"]:
+                if el not in head_words:
+                    extra.append(el)
 
         if not skip_extras and wordtype in ["verbs"] and extra:
             print(f"# There are {len(extra)} extra headwords now after parsing the original headwords:", extra)
+            extra_lemmas_objs_2 = []
+            trigger_parser(extra, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs_2)
+
             extra_2 = []
-            trigger_parser(extra, parser, use_sample, language, wordtype, result, rejected, extra_2)
-            extra_2 = [l for l in extra_2 if l not in head_words]
+            for extra_lemmas_obj in extra_lemmas_objs_2:
+                for el in extra_lemmas_obj["extra_lemmas"]:
+                    if el not in head_words:
+                        extra_2.append(el)
             if extra_2:
                 write_todo(f'There are {len(extra_2)} doubly extra headwords, they have not been parsed: {extra_2}')
 
         print(f'\n# Writing results".')
+
+        result = reorder_lemma_objects_in_result(result, extra_lemmas_objs)
 
         if not no_temp_ids:
             for lemma_object in result:
@@ -176,7 +220,7 @@ def scrape_word_data(
                 truncated_lemma_object["gender"] = lemma_object["gender"]
             return truncated_lemma_object
 
-        truncated_result = [get_truncated(lemma_object) for lemma_object in result]
+        truncated_result = [get_truncated(lemma_object) for lemma_object in [el for el in result if el]]
         write_output(truncated_result, filepaths["truncated"])
 
     print(f'\n## Scraped at "{filepaths["output"]}" for {len(head_words)} words:', head_words)
