@@ -1,21 +1,21 @@
 [
     {
         "lemma": "wstawać",
-        "tags": "xxxxxxxxx",
+        "tags": "v,bb4",
         "translations": {
             "ENG": [
-                "to get up (to rise from bed)",
-                "to stand up (to rise, e.g., from a chair)"
+                "to get up[i]",
+                "to stand up[i]"
             ]
         },
         "temp_id": "1.1"
     },
     {
         "lemma": "zjeść",
-        "tags": "xxxxxxxxx",
+        "tags": "bb,f,coo1",
         "translations": {
             "ENG": [
-                "( transitive ) to eat"
+                "to eat"
             ]
         },
         "temp_id": "1.2"
@@ -25,66 +25,45 @@
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "( intransitive ) to arrive , to come"
+                "to arrive[i]","to come[i]"
             ]
         },
         "temp_id": "1.3"
     },
     {
         "lemma": "brać",
-        "tags": "xxxxxxxxx",
+        "tags": "v,bb,sg2",
         "translations": {
             "ENG": [
-                "( transitive ) to take ( to grab with the hands ) Synonym: chwytać",
-                "( transitive ) to take ( to take someone or something somewhere with oneself ) Synonym: zabierać",
-                "( transitive ) to take ( into one's possession )",
-                "( transitive ) to get ( buy or rent into one's possession )",
-                "( transitive ) to take ( by force )",
-                "( transitive ) to take ( advantage of ) Synonym: korzystać",
-                "( transitive ) to get ( as payment )",
-                "( transitive ) to take on ( a responsibility )",
-                "( transitive ) to take ( medicine ) Synonyms: przyjmować zażywać",
-                "( transitive ) to beat ( be better than ) Synonyms: see Thesaurus: bić",
-                "( transitive ) to put on ( clothes ) Synonym: zakładać",
-                "( transitive colloquial ) to interest Synonyms: ciekawić interesować",
-                "( transitive colloquial of a disease ) to take ( attack someone )",
-                "( transitive colloquial of an emotion ) to take hold ( control someone )",
-                "( transitive ) to take after ( someone's traits )",
-                "( transitive slang ) to take ; to have sex Synonyms: see Thesaurus: uprawiać seks",
-                "( transitive fishing ) to bite ; to take the bait",
-                "( reflexive ) to start an activity Bierz się do roboty! ― Get to work! brać ślub ― to get married"
+                "to take"
             ]
         },
         "temp_id": "1.4"
     },
     {
         "lemma": "biec",
-        "tags": "xxxxxxxxx",
+        "tags": "3yy,bb,v",
         "translations": {
             "ENG": [
-                "( intransitive ) to run (of living things: to move quickly on foot) Pies biegnie do swojego pana. ― The dog runs to his master.",
-                "( intransitive ) to run (to form a route) Te tory kolejowe biegną do starego portu. ― These railway tracks run to the old port."
-            ]
+"to run[i]"            ]
         },
         "temp_id": "1.5"
     },
     {
         "lemma": "siedzieć",
-        "tags": "xxxxxxxxx",
+        "tags": "2bb,s",
         "translations": {
             "ENG": [
-                "( intransitive ) to sit , to be seated",
-                "( colloquial ) to be in prison , to serve time , to do time za co siedzisz ? ― What are you in for?"
-            ]
+"to sit[i]"            ]
         },
         "temp_id": "1.6"
     },
     {
         "lemma": "siadać",
-        "tags": "xxxxxxxxx",
+        "tags": "2bb,s",
         "translations": {
             "ENG": [
-                "( intransitive ) to sit down",
+                "to sit down[i]",
                 "( intransitive ) of animals or airplains to land",
                 "( intransitive colloquial ) to go sour , to go downhill"
             ]
@@ -93,202 +72,167 @@
     },
     {
         "lemma": "stawać",
-        "tags": "xxxxxxxxx",
+        "tags": "4aa",
         "translations": {
             "ENG": [
-                "( intransitive ) to stop",
-                "( reflexive ) to become"
+                "to become[r]"
             ]
         },
         "temp_id": "1.9"
     },
     {
         "lemma": "wstać",
-        "tags": "xxxxxxxxx",
+        "tags": "v,bb4",
         "translations": {
             "ENG": [
-                "( intransitive ) to get up (to rise from bed)",
-                "( intransitive ) to stand up (to rise, e.g., from a chair)"
+                "to get up[i]",
+                "to stand up[i]"
             ]
         },
         "temp_id": "1.10"
     },
     {
         "lemma": "przyjechać",
-        "tags": "xxxxxxxxx",
+        "tags": "3v,ŧŧ",
         "translations": {
             "ENG": [
-                "( intransitive ) to arrive (by driving or riding )"
+                "to arrive[i]"
             ]
         },
         "temp_id": "1.11"
     },
     {
         "lemma": "upadać",
-        "tags": "xxxxxxxxx",
+        "tags": "4v",
         "translations": {
             "ENG": [
-                "( intransitive ) to fall down drop",
-                "( intransitive ) to collapse"
-            ]
+                "to fall down[i]","to drop[i]"]
         },
         "temp_id": "1.12"
     },
     {
         "lemma": "przynosić",
-        "tags": "xxxxxxxxx",
+        "tags": "3v,sg",
         "translations": {
             "ENG": [
-                "( transitive ) to bring (on foot), to fetch Przynoszę ci pozdrowienia/wiadomość. ― I bring you greetings/news.",
-                "( transitive ) to bring on , to occasion , to cause",
-                "( transitive ) to print , to publish"
+                "to bring","to fetch"
             ]
         },
         "temp_id": "1.13"
     },
     {
         "lemma": "zanieść",
-        "tags": "xxxxxxxxx",
+        "tags": "4sg,v,bb",
         "translations": {
             "ENG": [
-                "( transitive ) to carry , to transport by carrying",
-                "( reflexive ) to be in the air , to look like"
+                "to carry"
             ]
         },
         "temp_id": "1.14"
     },
     {
         "lemma": "przygotowywać",
-        "tags": "xxxxxxxxx",
+        "tags": "4coo,pl",
         "translations": {
             "ENG": [
-                "( transitive ) to prepare"
+                "to prepare"
             ]
         },
         "temp_id": "1.15"
     },
     {
         "lemma": "włożyć",
-        "tags": "xxxxxxxxx",
+        "tags": "3v,ag",
         "translations": {
             "ENG": [
-                "( transitive ) to put in ( to place inside )",
-                "( colloquial transitive ) to invest"
+                "to put in",
+                "to put inside"
             ]
         },
         "temp_id": "1.16"
     },
     {
         "lemma": "usiąść",
-        "tags": "xxxxxxxxx",
+        "tags": "2bb,s",
         "translations": {
             "ENG": [
-                "( intransitive ) to sit down"
+                "to sit down[i]"
             ]
         },
         "temp_id": "1.17"
     },
     {
         "lemma": "zmienić",
-        "tags": "xxxxxxxxx",
+        "tags": "2",
         "translations": {
             "ENG": [
-                "( transitive ) to change , to modify",
-                "( transitive ) to change , to replace"
+                "to change","to modify","to replace"
             ]
         },
         "temp_id": "1.18"
     },
     {
         "lemma": "liczyć",
-        "tags": "xxxxxxxxx",
+        "tags": "3mat,s",
         "translations": {
             "ENG": [
-                "( transitive ) to count (to enumerate or determine number)",
-                "( transitive ) to count (to depend on) [+ na (accusative) = on who or what] Zawsze możesz na mnie liczyć . ― You can always count on me.",
-                "( transitive ) to count (to be included or considered as something)",
-                "( transitive ) to compute",
-                "( reflexive ) to count , to matter"
+                "to count","to count on","to matter"
             ]
         },
         "temp_id": "1.19"
     },
     {
         "lemma": "dawać",
-        "tags": "xxxxxxxxx",
+        "tags": "2sg,rp",
         "translations": {
             "ENG": [
-                "( transitive ) to give Nie dawaj mu zapałek, bo zrobi sobie krzywdę. ― Don't give him matches, or he'll hurt himself. Krowy dają mleko. ― Cows give milk.",
-                "( intransitive ) to let ; to allow ; to permit Dlaczego nie dajesz mi pojeździć na swoim motorze? ― Why won't you let me ride your bike for a while?",
-                "( intransitive vulgar ) to put out ; to consent to sex (used mainly of women) Chodzi cały czas wkurwiony, bo żona już mu nie daje . ― He's angry all the time because his wife won't put out anymore.",
-                "( reflexive ) to give in ; to let go",
-                "( reflexive ) to be feasible"
+                "to give","to let","to allow","to permit"
             ]
         },
         "temp_id": "1.20"
     },
     {
         "lemma": "wracać",
-        "tags": "xxxxxxxxx",
+        "tags": "3v,ŧŧ",
         "translations": {
             "ENG": [
-                "( intransitive ) to return , to come back"
+                "to return[i]","to come back[i]"
             ]
         },
         "temp_id": "1.21"
     },
     {
         "lemma": "woleć",
-        "tags": "xxxxxxxxx",
+        "tags": "2ee",
         "translations": {
             "ENG": [
-                "( intransitive ) to prefer Wolisz brunetki czy blondynki? ― Do you prefer brunettes or blondes?",
-                "( auxiliary intransitive ) to prefer (usually in the conditional) Wolę jeździć na rowerze niż pływać. ― I prefer cycling to swimming. Wolałbym umrzeć. ― I would prefer to die."
+                "to prefer[i]"
             ]
         },
         "temp_id": "1.22"
     },
     {
         "lemma": "wziąć",
-        "tags": "xxxxxxxxx",
+        "tags": "v,bb,sg2",
         "translations": {
             "ENG": [
-                "( transitive ) to take ( to grab with the hands ) Synonym: chwycić",
-                "( transitive ) to take ( to take someone or something somewhere with oneself ) Synonym: zabrać",
-                "( transitive ) to take ( into one's possession )",
-                "( transitive ) to get ( buy or rent into one's possession )",
-                "( transitive ) to take ( by force )",
-                "( transitive ) to take ( advantage of ) Synonym: skorzystać",
-                "( transitive ) to get ( as payment )",
-                "( transitive ) to take on ( a responsibility )",
-                "( transitive ) to take ( medicine ) Synonyms: przyjąć zażyć",
-                "( transitive ) to beat ( be better than ) Synonyms: see Thesaurus: bić",
-                "( transitive ) to put on ( clothes ) Synonym: założyć",
-                "( transitive colloquial ) to interest Synonyms: ( imperfective only ) ciekawić zainteresować",
-                "( transitive colloquial of a disease ) to take ( attack someone )",
-                "( transitive colloquial of an emotion ) to take hold ( control someone )",
-                "( transitive ) to take after ( someone's traits )",
-                "( transitive slang ) to take ; to have sex Synonyms: see Thesaurus: uprawiać seks",
-                "( transitive fishing ) to bite ; to take the bait",
-                "( reflexive ) to start an activity Weź się do roboty! ― Get to work!",
-                "Used as a weak verb in collocations wziąć ślub ― to get married"
+                "to take"
             ]
         },
         "temp_id": "1.23"
     },
     {
         "lemma": "zmieniać",
-        "tags": "xxxxxxxxx",
+        "tags": "2",
         "translations": {
             "ENG": [
-                "to change , to modify",
-                "to change , to replace"
+                "to change","to modify","to replace"
             ]
         },
         "temp_id": "1.24"
     },
     {
-        "lemma": "dziać",
+        "lemma": "!dziać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -299,31 +243,32 @@
     },
     {
         "lemma": "dziać",
-        "tags": "xxxxxxxxx",
+        "tags": "4aa,pl",
         "translations": {
             "ENG": [
-                "( reflexive ) to happen"
+                "to happen[r]"
             ]
         },
         "temp_id": "1.26"
     },
     {
         "lemma": "biegać",
-        "tags": "xxxxxxxxx",
+        "tags": "3yy,bb",
         "translations": {
             "ENG": [
-                "( intransitive ) to run",
-                "( intransitive ) to jog Biegam każdego ranka. ― I go jogging every morning."
+                "to run[i]",
+                "to jog[i]"
             ]
         },
         "temp_id": "1.27"
     },
     {
         "lemma": "jeść",
-        "tags": "xxxxxxxxx",
+        "tags": "bb,f,coo1",
         "translations": {
             "ENG": [
-                "( transitive intransitive ) to eat"
+                "to eat[t]",
+                "to eat[i]"
             ]
         },
         "temp_id": "1.28"
