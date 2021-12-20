@@ -69,6 +69,10 @@ def trigger_parser(head_words, parser, use_sample, language, wordtype, result, r
             extra_lemmas_object = {"lemma": lobj["lemma"], "extra_lemmas": [], "lemma_objects": []}
             for other_shapes_key, other_shapes_values in lobj["otherShapes"].items():
                 for other_shapes_value in other_shapes_values:
+
+                    if "się" in other_shapes_value:
+                        other_shapes_value = " ".join([s for s in other_shapes_value.split(" ") if s != "się"])
+
                     extra_lemmas_object["extra_lemmas"].append(other_shapes_value)
             extra_lemmas_to_parse.append(extra_lemmas_object)
 

@@ -70,9 +70,9 @@ def minimise_inflections(lemma_object):
             actual_count = recursively_count_strings(full_inflections[py_key])
             if actual_count != expected_count:
                 if actual_count + 5 == expected_count:
-                    write_todo(f'The "{js_key}" tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}. I think the Wiktionary page was missing the "{js_key} impersonal", I have gone ahead and minimised the "{js_key}" to True boolean. If you disagree, you must change that.')
+                    write_todo(f'The "{js_key}" tense on {lemma_object["aspect"]} "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}. I think the Wiktionary page was missing the "{js_key} impersonal", I have gone ahead and minimised the "{js_key}" to True boolean. If you disagree, you must change that.')
                 else:
-                    write_todo(f'SKIPPED this entire lobj in minimise_inflections. "{js_key}" tense on "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}.')
+                    write_todo(f'SKIPPED this entire lobj in minimise_inflections. "{js_key}" tense on {lemma_object["aspect"]} "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}.')
                     return
 
             full_inflections[js_key] = True

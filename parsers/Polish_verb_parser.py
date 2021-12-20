@@ -99,7 +99,7 @@ class PolishVerbParser(HTMLParser):
                     out_obj["derivedTerms"] = copy.deepcopy(self.output_obj["derivedTerms"])
                     out_obj["inflections"] = copy.deepcopy(self.output_obj["inflections"])
                     out_obj["allohomInfo"] = None
-                    write_todo(f'At least two lobjs of "{out_obj["lemma"]}" needs allohomInfo added.')
+                    write_todo(f'At least two lobjs of "{out_obj["lemma"]}" will need allohomInfo added.')
                     self.output_obj["allohomInfo"] = None
                     out_obj.pop("diff_word_same_conj")
 

@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     is_first_time = True
     skip_make_ids = False
-    skip_scraping = False
+    skip_scraping = False # set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
     these_headwords_only = []
 
     langcode = "pol"
