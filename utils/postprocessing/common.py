@@ -263,15 +263,14 @@ def untruncate_lemma_objects(group_number, wordtype):
         lobjs_truncated = json.load(f)
         f.close()
 
-    for lemma_object in lobjs_truncated:
-        lemma_object_long = [lol for lol in lobjs_long if lol["temp_id"] == get_base_temp_id(lemma_object["temp_id"])][
-            0]
+    for lobj_truncated in lobjs_truncated:
+        lobj_long = [l for l in lobjs_long if l["temp_id"] == get_base_temp_id(lobj_truncated["temp_id"])][0]
 
-        for key in lemma_object_long:
-            if key not in lemma_object:
-                lemma_object[key] = lemma_object_long[key]
+        for key in lobj_long:
+            if key not in lobj_truncated:
+                lobj_truncated[key] = lobj_long[key]
 
-        res_arr.append(lemma_object)
+        res_arr.append(lobj_truncated)
 
     write_output(res_arr, f"untruncated_{wordtype}_{group_number}", f"output_saved")
 

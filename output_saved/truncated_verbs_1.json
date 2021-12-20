@@ -1,6 +1,7 @@
 [
   {
     "lemma": "stać",
+    "allohomInfo": { "singleWordtype": true, "text": "bodily action", "emoji": "\uD83D\uDC6D" },
     "tags": "3v,bb",
     "translations": {
       "ENG": [
@@ -34,6 +35,7 @@
   },
   {
     "lemma": "stać",
+    "allohomInfo": { "singleWordtype": true, "text": "abstract verb", "emoji": "\uD83D\uDD03" },
     "tags": "4aa",
     "translations": {
       "ENG": [
@@ -521,16 +523,16 @@
     },
     "temp_id": "1.44"
   },
-      {
-        "lemma": "potrzebować",
+  {
+    "lemma": "potrzebować",
     "tags": "1rp",
-        "translations": {
-            "ENG": [
-                "to need"
-            ]
-        },
-        "temp_id": "77.1"
+    "translations": {
+      "ENG": [
+        "to need"
+      ]
     },
+    "temp_id": "77.1"
+  },
   {
     "lemma": "musieć",
     "tags": "1rp",
@@ -704,17 +706,17 @@
     },
     "temp_id": "66.3"
   },
-      {
-        "lemma": "schodzić",
+  {
+    "lemma": "schodzić",
     "tags": "3v,ŧŧ,bb",
     "translations": {
       "ENG": [
         "to descend[i]",
         "to go down[i]"
-            ]
-        },
-        "temp_id": "666.1"
+      ]
     },
+    "temp_id": "666.1"
+  },
   {
     "lemma": "jechać",
     "tags": "3v,ŧŧ",
