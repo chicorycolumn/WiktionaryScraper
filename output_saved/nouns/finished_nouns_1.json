@@ -765,6 +765,7 @@
         },
         "gender": "f",
         "id": "pol-nco-015-góra(mountain)",
+        "allohomInfo": { "singleWordtype": true, "text": "geographic place", "emoji": "⛰️" },
         "usage": [
             "Klasztor znajdował się na szczycie wysokiej góry . ― The monastery was situated on the top of a high mountain .",
             "Góra strony powinna być pusta. ― The top of the page should be empty.",
@@ -828,6 +829,7 @@
         },
         "gender": "f",
         "id": "pol-nco-016-góra(top)",
+        "allohomInfo": { "singleWordtype": true, "text": "part of an object", "emoji": "⬆️️" },
         "usage": [
             "Klasztor znajdował się na szczycie wysokiej góry . ― The monastery was situated on the top of a high mountain .",
             "Góra strony powinna być pusta. ― The top of the page should be empty.",
@@ -2943,6 +2945,7 @@
         },
         "gender": "f",
         "id": "pol-nco-052-guma(rubber)",
+        "allohomInfo": { "singleWordtype": true, "text": "a material", "emoji": "✏️️️" },
         "otherShapes": {
             "diminutive": [
                 "gumka"
@@ -2992,6 +2995,7 @@
         },
         "gender": "f",
         "id": "pol-nco-053-guma(chewing gum)",
+        "allohomInfo": { "singleWordtype": true, "text": "a kind of sweet", "emoji": "\uD83C\uDF6C️️️" },
         "otherShapes": {
             "diminutive": [
                 "gumka"
@@ -3040,6 +3044,7 @@
         },
         "gender": "m3",
         "id": "pol-nco-054-język(tongue)",
+        "allohomInfo": { "singleWordtype": true, "text": "a body part", "emoji": "\uD83D\uDC45️️️" },
         "otherShapes": {
             "diminutive": [
                 "języczek"
@@ -3097,6 +3102,7 @@
         },
         "gender": "m3",
         "id": "pol-nco-055-język(language)",
+        "allohomInfo": { "singleWordtype": true, "text": "spoken", "emoji": "\uD83D\uDD24️️️" },
         "otherShapes": {
             "diminutive": [
                 "języczek"
@@ -4181,7 +4187,8 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-073-stan(state)",
+        "id": "pol-nco-073-stan(political state)",
+        "allohomInfo": { "singleWordtype": true, "text": "a place", "emoji": "\uD83D\uDDFA️️️️" },
         "derivedTerms": [
             "błogostan",
             "kwiatostan",
@@ -4224,7 +4231,8 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-074-stan(state)",
+        "id": "pol-nco-074-stan(mental state)",
+        "allohomInfo": { "singleWordtype": true, "text": "abstract", "emoji": "\uD83E\uDDE0" },
         "derivedTerms": [
             "błogostan",
             "kwiatostan",
@@ -4439,6 +4447,7 @@
         },
         "gender": "m1",
         "id": "pol-npe-009-pilot(pilot)",
+        "allohomInfo": { "singleWordtype": true, "text": "a job", "emoji": "✈️" },
         "inflections": {
             "singular": {
                 "nom": "pilot",
@@ -4479,6 +4488,7 @@
         },
         "gender": "m3",
         "id": "pol-nco-079-pilot(remote control)",
+        "allohomInfo": { "singleWordtype": true, "text": "a household object", "emoji": "\uD83D\uDCDF️" },
         "inflections": {
             "singular": {
                 "nom": "pilot",
