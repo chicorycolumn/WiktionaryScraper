@@ -21,6 +21,7 @@ import os
     (["stać"], "parsed_polish_protoverbs_6", True, True),               # Verb has two meanings and two conj tables
     (["kopać"], "parsed_polish_protoverbs_7", True, True),              # Allohom! Verb has two meanings and one conj table
     (["brać"], "parsed_polish_protoverbs_8", True, True),               # Page contains one noun one verb, homonyms (not nec to list as allohoms as are diff wordtypes).
+    (["chodzić"], "parsed_polish_protoverbs_9", True, True),            # Verb has two meanings and two conj tables like stać but was tripping up.
 ])
 def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: bool, skip_extras: bool, wordtype: str = "verbs"):
     print(f'# Starting, given {len(input_words)} words.')

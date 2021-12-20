@@ -168,8 +168,7 @@ class PolishVerbParser(HTMLParser):
                 return
 
         if self.location in ["insideselectedlang", "insideword"] \
-                and \
-                (
+                and (
                         (self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and self.lasttag == "span" and data.lower() == "verb")
                  or
                         (self.mode == "gettable" and self.lastclass == "Latn headword")
@@ -177,9 +176,16 @@ class PolishVerbParser(HTMLParser):
 
             self.location = "insideword"
             print('location = "insideword"')
+
+            if self.ingested_table:
+                self.add_lobj_and_reset(diff_word_same_conj=False)
+
             self.diff_word_same_conj_count += 1
 
             if self.diff_word_same_conj_count > 1:
+                print("swde11")
+                print("COND A", (self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and self.lasttag == "span" and data.lower() == "verb"))
+                print("COND B", (self.mode == "gettable" and self.lastclass == "Latn headword"))
                 self.add_lobj_and_reset(diff_word_same_conj = True)
 
             self.mode = "getaspect"
