@@ -44,7 +44,7 @@ class PolishVerbParser(HTMLParser):
     got_related_terms = False
 
     def add_lobj_and_reset(self, diff_word_same_conj: bool = False):
-        print("\n", "add_lobj_and_reset", "\n")
+        print("add_lobj_and_reset", "\n")
 
         t = [row["data"] for row in self.ingested_table]
         inflections = {}
@@ -119,17 +119,17 @@ class PolishVerbParser(HTMLParser):
             })
 
     def reset_for_new_cell(self):
-        print("\n", "reset_for_new_cell", "\n")
+        print("reset_for_new_cell")
         self.current_cell_rowspan = 1
         self.current_cell_colspan = 1
         self.current_row_data = []
 
     def reset_for_new_table(self):
-        print("\n", "reset_for_new_table", "\n")
+        print("reset_for_new_table", "\n")
         self.reset_for_new_cell()
 
         self.mode = None
-        print('mode = None')
+        print('mode = None (reset_for_new_table)')
         self.el_count = 0
         self.inflections = {}
         self.output_obj = self.generate_empty_output_object()
@@ -148,7 +148,7 @@ class PolishVerbParser(HTMLParser):
         self.diff_word_same_conj_objects = []
 
     def reset_for_new_word(self):
-        print("\n", "reset_for_new_word", "\n")
+        print("reset_for_new_word", "\n")
         self.got_derived_terms = False
         self.got_related_terms = False
         self.reset_for_new_table()
@@ -168,9 +168,12 @@ class PolishVerbParser(HTMLParser):
                 return
 
         if self.location in ["insideselectedlang", "insideword"] \
-                and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] \
-                and self.lasttag == "span" \
-                and data.lower() == "verb":
+                and \
+                (
+                        (self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] and self.lasttag == "span" and data.lower() == "verb")
+                 or
+                        (self.mode == "gettable" and self.lastclass == "Latn headword")
+                ):
 
             self.location = "insideword"
             print('location = "insideword"')
@@ -266,7 +269,7 @@ class PolishVerbParser(HTMLParser):
             if self.mode == "gettable":
                 if startTag == "table" and self.currentclass and "inflection-table" in self.currentclass.split(" "):
                     self.mode = None
-                    print('mode = None')
+                    print('mode = None (startTag == "table" and self.currentclass and "inflection-table"...)')
                     self.location = "insidetable"
                     print('location = "insidetable"')
 
@@ -289,13 +292,11 @@ class PolishVerbParser(HTMLParser):
     def handle_endtag(self, endTag):
         if self.mode and (self.mode == "END" or endTag in ["body", "html"]):
             print("ENDING")
-
             self.add_lobj_and_reset()
-
             self.location = None
             print('location = None')
             self.mode = None
-            print('mode = None')
+            print('mode = None (ENDING)')
             aalobj = self.output_obj
             aaouta = self.output_arr
             return
@@ -309,7 +310,7 @@ class PolishVerbParser(HTMLParser):
 
             elif endTag == "tr":
                 self.mode = None
-                print('mode = None')
+                print('mode = None (self.location == "insidetable" and endTag == "tr")')
                 self.ingested_table[self.row_num]["closed"] = True
                 self.row_num += 1
 

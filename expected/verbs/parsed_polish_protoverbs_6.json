@@ -1,5 +1,6 @@
 [
     {
+        "allohomInfo": null,
         "lemma": "stać",
         "aspect": "perfective",
         "secondaryAspects": [],
@@ -12,6 +13,245 @@
         "translations": {
             "ENG": [
                 "( reflexive ) to become Myślisz, że się zmieni, gdy stanie się sławna? ― Do you think she will change when she becomes famous? Po kilku dniach stali się najlepszymi przyjaciółmi. ― After a few days, they became best friends. Jego twarz stała się czerwona ze złości. ― His face turned red with anger."
+            ]
+        },
+        "derivedTerms": [
+            "verbs derived from stawać dostawać impf dostać pf przedostawać impf przedostać pf",
+            "wydostawać impf wydostać pf",
+            "podostawać impf",
+            "nastawać impf nastać pf",
+            "obstawać impf obstać pf",
+            "odstawać impf odstać pf",
+            "ostawać impf ostać pf zostawać impf zostać pf pozostawać impf pozostać pf",
+            "postawać impf postać pf",
+            "przestawać impf przestać pf poprzestawać impf poprzestać pf",
+            "zaprzestawać impf zaprzestać pf",
+            "przystawać impf przystać pf",
+            "rozstawać impf rozstać pf",
+            "ustawać impf ustać pf",
+            "wstawać impf wstać pf powstawać impf powstać pf",
+            "wystawać impf wystać pf",
+            "zastawać impf zastać pf"
+        ],
+        "inflections": {
+            "infinitive": {
+                "singular": {
+                    "masculine": "stać",
+                    "feminine": "stać",
+                    "neuter": "stać"
+                },
+                "plural": {
+                    "virile": "stać",
+                    "nonvirile": "stać"
+                }
+            },
+            "future tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "stanę",
+                        "feminine": "stanę",
+                        "neuter": "stanę"
+                    },
+                    "plural": {
+                        "virile": "staniemy",
+                        "nonvirile": "staniemy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "staniesz",
+                        "feminine": "staniesz",
+                        "neuter": "staniesz"
+                    },
+                    "plural": {
+                        "virile": "staniecie",
+                        "nonvirile": "staniecie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "stanie",
+                        "feminine": "stanie",
+                        "neuter": "stanie"
+                    },
+                    "plural": {
+                        "virile": "staną",
+                        "nonvirile": "staną"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "stanie się",
+                        "feminine": "stanie się",
+                        "neuter": "stanie się"
+                    },
+                    "plural": {
+                        "virile": "stanie się",
+                        "nonvirile": "stanie się"
+                    }
+                }
+            },
+            "past tense": {
+                "1st": {
+                    "singular": {
+                        "masculine": "stałem",
+                        "feminine": "stałam"
+                    },
+                    "plural": {
+                        "virile": "staliśmy",
+                        "nonvirile": "stałyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "stałeś",
+                        "feminine": "stałaś"
+                    },
+                    "plural": {
+                        "virile": "staliście",
+                        "nonvirile": "stałyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "stał",
+                        "feminine": "stała",
+                        "neuter": "stało"
+                    },
+                    "plural": {
+                        "virile": "stali",
+                        "nonvirile": "stały"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "stano",
+                        "feminine": "stano",
+                        "neuter": "stano"
+                    },
+                    "plural": {
+                        "virile": "stano",
+                        "nonvirile": "stano"
+                    }
+                }
+            },
+            "conditional": {
+                "1st": {
+                    "singular": {
+                        "masculine": "stałbym",
+                        "feminine": "stałabym"
+                    },
+                    "plural": {
+                        "virile": "stalibyśmy",
+                        "nonvirile": "stałybyśmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "stałbyś",
+                        "feminine": "stałabyś"
+                    },
+                    "plural": {
+                        "virile": "stalibyście",
+                        "nonvirile": "stałybyście"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "stałby",
+                        "feminine": "stałaby",
+                        "neuter": "stałoby"
+                    },
+                    "plural": {
+                        "virile": "staliby",
+                        "nonvirile": "stałyby"
+                    }
+                },
+                "impersonal": {
+                    "singular": {
+                        "masculine": "stano by",
+                        "feminine": "stano by",
+                        "neuter": "stano by"
+                    },
+                    "plural": {
+                        "virile": "stano by",
+                        "nonvirile": "stano by"
+                    }
+                }
+            },
+            "imperative": {
+                "1st": {
+                    "singular": {
+                        "masculine": "niech stanę",
+                        "feminine": "niech stanę",
+                        "neuter": "niech stanę"
+                    },
+                    "plural": {
+                        "virile": "stańmy",
+                        "nonvirile": "stańmy"
+                    }
+                },
+                "2nd": {
+                    "singular": {
+                        "masculine": "stań",
+                        "feminine": "stań",
+                        "neuter": "stań"
+                    },
+                    "plural": {
+                        "virile": "stańcie",
+                        "nonvirile": "stańcie"
+                    }
+                },
+                "3rd": {
+                    "singular": {
+                        "masculine": "niech stanie",
+                        "feminine": "niech stanie",
+                        "neuter": "niech stanie"
+                    },
+                    "plural": {
+                        "virile": "niech staną",
+                        "nonvirile": "niech staną"
+                    }
+                }
+            },
+            "anterior adverbial participle": {
+                "singular": {
+                    "masculine": "stawszy",
+                    "feminine": "stawszy",
+                    "neuter": "stawszy"
+                },
+                "plural": {
+                    "virile": "stawszy",
+                    "nonvirile": "stawszy"
+                }
+            },
+            "verbal noun": {
+                "singular": {
+                    "masculine": "stanie",
+                    "feminine": "stanie",
+                    "neuter": "stanie"
+                },
+                "plural": {
+                    "virile": "stanie",
+                    "nonvirile": "stanie"
+                }
+            }
+        }
+    },
+    {
+        "allohomInfo": null,
+        "lemma": "stać",
+        "aspect": "perfective",
+        "secondaryAspects": [],
+        "otherShapes": {
+            "imperfective": [
+                "dziać się"
+            ]
+        },
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "( reflexive ) to happen , to bechance ( used only in 3rd person, non-personal ) Co tu się stało ? ― What happened here? Stała się rzecz niepojęta, Tomek pogodził się z ojcem! ― Something incomprehensible happened , Tom reconciled with his father! Czuję, że stanie się coś złego. ― I feel that something bad will happen . Co się stało , to się nie odstanie. ― What's done is done ."
             ]
         },
         "derivedTerms": [
