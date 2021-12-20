@@ -17,7 +17,7 @@ import os
     (["czytać"], "parsed_polish_protoverbs_3", True, True),             # impf
     (["przeczytać"], "parsed_polish_protoverbs_4", True, True),         # pf
     (["badać", "zobaczyć", "zbadać", "widzieć", "widywać"], "parsed_polish_protoverbs_5", True, True), # various
-    (["badać", "zobaczyć"], "parsed_polish_protoverbs_5", True, False),   # Testing the additional parsing of otherShapes.
+    (["badać", "zobaczyć"], "parsed_polish_protoverbs_5", True, False), # Testing the additional parsing of otherShapes.
     (["stać"], "parsed_polish_protoverbs_6", True, True),               # Verb has two meanings and two conj tables
     (["kopać"], "parsed_polish_protoverbs_7", True, True),              # Allohom! Verb has two meanings and one conj table
     (["brać"], "parsed_polish_protoverbs_8", True, True),               # Page contains one noun one verb, homonyms (not nec to list as allohoms as are diff wordtypes).
