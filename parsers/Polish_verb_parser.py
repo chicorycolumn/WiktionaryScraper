@@ -80,13 +80,13 @@ class PolishVerbParser(HTMLParser):
         self.output_obj["inflections"] = inflections
         print("#####", self.output_obj["aspect"])
 
-        override_aspect_length_check = True
+        override_aspect_length_check = False
         if override_aspect_length_check:
+            write_todo(f'Hey! Set override_aspect_length_check back to False when you are done overriding.')
             self.output_obj["aspect"] = [self.output_obj["aspect"][0]]
 
         if len(self.output_obj["aspect"]) != 1:
-            print(
-                f'#ERR output_obj["aspect"] is {self.output_obj["aspect"]} but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word and set override_aspect_length_check to True.')
+            write_todo(f'#ERR output_obj["aspect"] is {self.output_obj["aspect"]} but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word and TEMPORARILY set override_aspect_length_check to True.')
             return
         else:
             self.output_obj["aspect"] = aspect_ref[self.output_obj["aspect"][0]]

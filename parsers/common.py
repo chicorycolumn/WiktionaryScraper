@@ -1,3 +1,5 @@
+import re
+
 from parsers.Polish_adjective_parser import PolishAdjectiveParser
 from parsers.Polish_noun_parser import PolishNounParser
 from parsers.Polish_verb_parser import PolishVerbParser
@@ -38,7 +40,7 @@ def trigger_parser(head_words, parser, use_sample, language, wordtype, result, r
                 f.close()
         else:
             try:
-                html_string = html_from_head_word(head_word, f"{head_word_index + 1} of {len(head_words)}")
+                html_string = html_from_head_word(head_word, head_word_index, len(head_words))
 
                 try:
                     started_at = datetime.now()
@@ -155,18 +157,21 @@ def scrape_word_data(
                 if el not in head_words:
                     extra.append(el)
 
-        if not skip_extras and wordtype in ["verbs"] and extra:
-            print(f"# There are {len(extra)} extra headwords now after parsing the original headwords:", extra)
-            extra_lemmas_objs_2 = []
-            trigger_parser(extra, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs_2)
+        if extra and not skip_extras:
+            if wordtype in ["verbs", "adjectives"]:
+                print(f"# There are {len(extra)} extra headwords now after parsing the original headwords:", extra)
+                extra_lemmas_objs_2 = []
+                trigger_parser(extra, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs_2)
 
-            extra_2 = []
-            for extra_lemmas_obj in extra_lemmas_objs_2:
-                for el in extra_lemmas_obj["extra_lemmas"]:
-                    if el not in head_words:
-                        extra_2.append(el)
-            if extra_2:
-                write_todo(f'There are {len(extra_2)} doubly extra headwords, they have not been parsed: {extra_2}')
+                extra_2 = []
+                for extra_lemmas_obj in extra_lemmas_objs_2:
+                    for el in extra_lemmas_obj["extra_lemmas"]:
+                        if el not in head_words:
+                            extra_2.append(el)
+                if extra_2:
+                    write_todo(f'There are {len(extra_2)} doubly extra headwords, they have not been parsed: {extra_2}')
+            else:
+                write_todo(f'Want to parse any of {len(extra)} extra lemmas? (I did not because of wordtype) {extra}')
 
         print(f'\n# Writing results".')
 
@@ -211,6 +216,16 @@ def scrape_word_data(
         result = [minimise_inflections(fullverb) for fullverb in result_filtered]
 
     write_output(result, filepaths["output"])
+
+    another_round_of_potential_extra_lemmas_to_parse = []
+    for lobj in result:
+        if "translations_additional" in lobj:
+            for ta in lobj["translations_additional"]:
+                if ta not in head_words and bool(re.search(r"^[a-zA-Z]+$", ta)):
+                    another_round_of_potential_extra_lemmas_to_parse.append(ta)
+    if another_round_of_potential_extra_lemmas_to_parse:
+        write_todo(f'Want to parse any of {len(another_round_of_potential_extra_lemmas_to_parse)}'
+                   f' translations_additional lemmas? (I did not): {another_round_of_potential_extra_lemmas_to_parse}')
 
     if "truncated" in filepaths:
         def get_truncated(lemma_object):
