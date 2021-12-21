@@ -155,7 +155,8 @@ def test_PolishNounParser(n: int, input_words: list, expected_path: str, use_sam
             "rejected": rejected_path,
         },
         group_number=0,
-        no_temp_ids=True
+        no_temp_ids=True,
+        test_only_boolean_override_check_existing=True
     )
 
     with open(f'output/{output_path}.json', 'r') as f:

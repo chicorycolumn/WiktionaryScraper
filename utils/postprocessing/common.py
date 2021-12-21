@@ -1,4 +1,5 @@
-from utils.general.common import write_todo, write_output, get_value_from_keypath, get_base_temp_id
+from utils.general.common import write_todo, write_output, get_value_from_keypath, get_base_temp_id, \
+    get_existing_lemma_objects
 from input.Polish.nouns.head_words import person_nouns_without_m1_gender
 
 import copy
@@ -8,34 +9,9 @@ import os
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 
 
-def make_ids(langcode, wordtype, group_number="None", lemma_objects=None, existing_lemma_objects_path=None,
-             is_first_time=False):
-    if not existing_lemma_objects_path:
-        existing_lemma_objects_path = f'output_saved/{wordtype}'
-    existing_lemma_objects = []
-    for root, dirs, files in os.walk(existing_lemma_objects_path):
-        for file in files:
-            print(file)
-            with open(f'{existing_lemma_objects_path}/{file}', "r") as f:
-                loaded = json.load(f)
-                existing_lemma_objects.extend(loaded)
-                f.close()
+def make_ids(langcode, wordtype, lemma_objects=None, existing_lobjs_path=None):
 
-    if not is_first_time:
-        existing_lemmas = []
-        passing_lemmas = []
-        for lemma_object in lemma_objects:
-            if any(elobj["lemma"] == lemma_object["lemma"] for elobj in existing_lemma_objects):
-                existing_lemmas.append(lemma_object["lemma"])
-            else:
-                passing_lemmas.append(lemma_object)
-        if existing_lemmas:
-            print("LIST I THINK ARE DUPLICATES. I did not create IDs for these lObjs:")
-            for lemma in existing_lemmas:
-                print(lemma)
-                write_todo(f'Group {group_number} lObj "{lemma}" I believe already done. Removed from this output.')
-            print("/LIST")
-        lemma_objects = passing_lemmas
+    existing_lemma_objects = get_existing_lemma_objects(wordtype, existing_lobjs_path=existing_lobjs_path)
 
     res_arr = []
 
@@ -327,10 +303,9 @@ def expand_tags_and_topics(group_number, wordtype):
     return res_arr
 
 
-def finalise_lemma_objects(group_number, wordtype, langcode, skip_make_ids=False, is_first_time=False):
+def finalise_lemma_objects(group_number, wordtype, langcode, skip_make_ids=False):
     untruncate_lemma_objects(group_number, wordtype)
     res_arr = expand_tags_and_topics(group_number, wordtype)
     if not skip_make_ids:
-        res_arr = make_ids(langcode=langcode, wordtype=wordtype, lemma_objects=res_arr, is_first_time=is_first_time,
-                           group_number=group_number)
+        res_arr = make_ids(langcode=langcode, wordtype=wordtype, lemma_objects=res_arr)
     write_output(res_arr, f"finished_{wordtype}_{group_number}", f"output_saved/{wordtype}")

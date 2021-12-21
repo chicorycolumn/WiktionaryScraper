@@ -8,7 +8,7 @@ from datetime import timedelta, datetime
 from time import sleep
 import json
 
-from utils.general.common import write_output, write_todo
+from utils.general.common import write_output, write_todo, get_existing_lemma_objects
 from utils.postprocessing.Polish import generate_adjective
 from utils.scraping.Polish import minimise_inflections
 from utils.scraping.common import html_from_head_word
@@ -25,7 +25,27 @@ def add_output_arr_to_result(output_arr, head_word, result, rejected):
         rejected["loaded_and_read_html_but_failed_to_create_output"].append(head_word)
 
 
-def trigger_parser(head_words, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_to_parse):
+def trigger_parser(head_words_raw, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_to_parse, test_only_boolean_override_check_existing=False):
+    if not test_only_boolean_override_check_existing:
+        already_parsed_headwords = get_existing_lemma_objects(wordtype, lemmas_only=True)
+        head_words = []
+        headwords_not_to_parse = []
+
+        for headword in head_words_raw:
+            if headword in already_parsed_headwords:
+                headwords_not_to_parse.append(headword)
+            else:
+                head_words.append(headword)
+
+        if headwords_not_to_parse:
+            write_todo(f'I did not parse these {len(headwords_not_to_parse)} headwords you asked, as lobjs already exist for them: {headwords_not_to_parse}')
+    else:
+        write_todo(f'Remember to set test_only_boolean_override_check_existing back to False.')
+        head_words = head_words_raw
+        if len(head_words) > 10:
+            write_todo(f'Actually, I refuse to override rejection of already existing headwords for more than ten.')
+            return
+
     for (head_word_index, head_word) in enumerate(head_words):
         print(f'\n # Beginning for loop with "{head_word}"\n')
 
@@ -117,6 +137,7 @@ def scrape_word_data(
         no_temp_ids: bool = False,
         skip_scraping: bool = False,
         skip_extras: bool = False,
+        test_only_boolean_override_check_existing = False
 ):
     if wordtype == "adjectives":
         parser = PolishAdjectiveParser(convert_charrefs=False)
@@ -149,7 +170,7 @@ def scrape_word_data(
 
         extra_lemmas_objs = []
 
-        trigger_parser(head_words, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs)
+        trigger_parser(head_words, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs, test_only_boolean_override_check_existing=test_only_boolean_override_check_existing)
 
         extra = []
         for extra_lemmas_obj in extra_lemmas_objs:
@@ -161,7 +182,7 @@ def scrape_word_data(
             if wordtype in ["verbs", "adjectives"]:
                 print(f"# There are {len(extra)} extra headwords now after parsing the original headwords:", extra)
                 extra_lemmas_objs_2 = []
-                trigger_parser(extra, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs_2)
+                trigger_parser(extra, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs_2, test_only_boolean_override_check_existing=test_only_boolean_override_check_existing)
 
                 extra_2 = []
                 for extra_lemmas_obj in extra_lemmas_objs_2:

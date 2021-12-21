@@ -52,10 +52,9 @@ def test_make_ids(input_path, expected_path, wordtype):
         expected = json.load(f)
         f.close()
 
-    existing_lemma_objects_path = f"testdata/existing/{wordtype}"
+    existing_lobjs_path = f"testdata/existing/{wordtype}"
 
-    actual = make_ids(langcode="pol", wordtype=wordtype, lemma_objects=input,
-                      existing_lemma_objects_path=existing_lemma_objects_path)
+    actual = make_ids(langcode="pol", wordtype=wordtype, lemma_objects=input, existing_lobjs_path=existing_lobjs_path)
 
     write_output(actual, expected_path.split("/")[-1])
 

@@ -5,6 +5,25 @@ import re
 import os
 
 
+def get_existing_lemma_objects(wordtype: str, lemmas_only: bool = False, existing_lobjs_path: str = None):
+    if not existing_lobjs_path:
+        existing_lobjs_path = f'output_saved/{wordtype}'
+
+    existing_lemma_objects = []
+    for root, dirs, files in os.walk(existing_lobjs_path):
+        for file in files:
+            print(file)
+            with open(f'{existing_lobjs_path}/{file}', "r") as f:
+                loaded = json.load(f)
+                existing_lemma_objects.extend(loaded)
+                f.close()
+
+    if lemmas_only:
+        return [lobj["lemma"] for lobj in existing_lemma_objects]
+
+    return existing_lemma_objects
+
+
 def get_value_from_keypath(dict, keypath):
     for key in keypath:
         dict = dict[key]
