@@ -172,10 +172,12 @@ def scrape_word_data(
 
         trigger_parser(head_words, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs, test_only_boolean_override_check_existing=test_only_boolean_override_check_existing)
 
+        existing_lemmas = get_existing_lemma_objects(wordtype, lemmas_only=True)
+
         extra = []
         for extra_lemmas_obj in extra_lemmas_objs:
             for el in extra_lemmas_obj["extra_lemmas"]:
-                if el not in head_words:
+                if el not in head_words + existing_lemmas:
                     extra.append(el)
 
         if extra and not skip_extras:
@@ -187,7 +189,7 @@ def scrape_word_data(
                 extra_2 = []
                 for extra_lemmas_obj in extra_lemmas_objs_2:
                     for el in extra_lemmas_obj["extra_lemmas"]:
-                        if el not in head_words:
+                        if el not in head_words + extra + existing_lemmas:
                             extra_2.append(el)
                 if extra_2:
                     write_todo(f'There are {len(extra_2)} doubly extra headwords, they have not been parsed: {extra_2}')
@@ -242,7 +244,7 @@ def scrape_word_data(
     for lobj in result:
         if "translations_additional" in lobj:
             for ta in lobj["translations_additional"]:
-                if ta not in head_words and bool(re.search(r"^[a-zA-Z]+$", ta)):
+                if ta not in head_words + existing_lemmas and bool(re.search(r"^[a-zA-Z]+$", ta)):
                     another_round_of_potential_extra_lemmas_to_parse.append(ta)
     if another_round_of_potential_extra_lemmas_to_parse:
         write_todo(f'Want to parse any of {len(another_round_of_potential_extra_lemmas_to_parse)}'
