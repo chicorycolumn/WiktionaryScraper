@@ -1,1 +1,8 @@
 Here are the verbs with no conditional impersonal but the super boolean conditional has been set to True by the minimiser. But we will never use this to create sentences so is okay for now: [brać,biec,usiąść,móc,stać,schodzić,musieć,wkładać,siąść,stanąć,zejść,iść,pójść]
+.
+Just as verbs will additionally scrape the pages of otherShapes word, so adjectives should for any word in translations_additional, alth-
+-ough these can't be done auto, so print them all at end of process for all lobjs, into the TODO.
+.
+I think if a new list of headwords contain headwords already done and existing lobjs, then just don't scrape those, bec-
+-ause currently it does scrape them and adds a () to IDs of both. But no, just do nothing instead should be.
+.
