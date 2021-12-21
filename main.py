@@ -7,11 +7,10 @@ from utils.postprocessing.common import make_ids, finalise_lemma_objects
 if __name__ == '__main__':
 
     step = 1
-    group_number = 1
+    group_number = 22
     wordtype = "verbs"
     input_indexes = [0, 50]
 
-    is_first_time = True
     skip_make_ids = False
     skip_scraping = False # set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
     these_headwords_only = []
@@ -54,7 +53,7 @@ if __name__ == '__main__':
     head_words = these_headwords_only if these_headwords_only \
         else head_words_ref[wordtype][input_indexes[0]:input_indexes[1]]
 
-    head_words = {el for el in head_words}
+    head_words = list({el for el in head_words})
 
     if step == 1:
         scrape_word_data(
@@ -65,4 +64,4 @@ if __name__ == '__main__':
             skip_scraping=skip_scraping
         )
     elif step == 2:
-        finalise_lemma_objects(group_number, wordtype, langcode, skip_make_ids, is_first_time)
+        finalise_lemma_objects(group_number, wordtype, langcode, skip_make_ids)
