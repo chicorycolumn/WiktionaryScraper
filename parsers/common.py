@@ -180,6 +180,8 @@ def scrape_word_data(
                 if el not in head_words + existing_lemmas:
                     extra.append(el)
 
+        extra = list(set(extra))
+
         if extra and not skip_extras:
             if wordtype in ["verbs", "adjectives"]:
                 print(f"# There are {len(extra)} extra headwords now after parsing the original headwords:", extra)
@@ -191,6 +193,9 @@ def scrape_word_data(
                     for el in extra_lemmas_obj["extra_lemmas"]:
                         if el not in head_words + extra + existing_lemmas:
                             extra_2.append(el)
+
+                extra_2 = list(set(extra_2))
+
                 if extra_2:
                     write_todo(f'There are {len(extra_2)} doubly extra headwords, they have not been parsed: {extra_2}')
             else:
@@ -246,6 +251,9 @@ def scrape_word_data(
             for ta in lobj["translations_additional"]:
                 if ta not in head_words + existing_lemmas and bool(re.search(r"^[a-zA-Z]+$", ta)):
                     another_round_of_potential_extra_lemmas_to_parse.append(ta)
+
+    another_round_of_potential_extra_lemmas_to_parse = list(set(another_round_of_potential_extra_lemmas_to_parse))
+
     if another_round_of_potential_extra_lemmas_to_parse:
         write_todo(f'Want to parse any of {len(another_round_of_potential_extra_lemmas_to_parse)}'
                    f' translations_additional lemmas? (I did not): {another_round_of_potential_extra_lemmas_to_parse}')
