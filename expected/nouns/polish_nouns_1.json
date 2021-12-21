@@ -86,120 +86,6 @@
         }
     },
     {
-        "lemma": "bałagan",
-        "gender": "m3",
-        "tags": [
-            "inanimate"
-        ],
-        "translations": {
-            "ENG": [
-                "mess disorder"
-            ]
-        },
-        "id": null,
-        "derivedTerms": [
-            "bałaganiarz",
-            "bałaganiara",
-            "bałaganiarstwo",
-            "bałaganienie",
-            "nabałaganienie",
-            "bałaganić",
-            "nabałaganić",
-            "bałaganiarsko"
-        ],
-        "synonyms": [
-            "nieporządek"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "bałagan",
-                "gen": "bałaganu",
-                "dat": "bałaganowi",
-                "acc": "bałagan",
-                "ins": "bałaganem",
-                "loc": "bałaganie",
-                "voc": "bałaganie"
-            }
-        },
-        "lacking": true,
-        "tantumSingulare": true
-    },
-    {
-        "lemma": "cel",
-        "gender": "m3",
-        "tags": [
-            "inanimate"
-        ],
-        "translations": {
-            "ENG": [
-                "goal aim objective",
-                "target",
-                "(shooting)",
-                "target",
-                "(military)",
-                "destination"
-            ]
-        },
-        "id": null,
-        "inflections": {
-            "singular": {
-                "nom": "cel",
-                "gen": "celu",
-                "dat": "celowi",
-                "acc": "cel",
-                "ins": "celem",
-                "loc": "celu",
-                "voc": "celu"
-            },
-            "plural": {
-                "nom": "cele",
-                "gen": [
-                    "celi",
-                    "celów"
-                ],
-                "dat": "celom",
-                "acc": "cele",
-                "ins": "celami",
-                "loc": "celach",
-                "voc": "cele"
-            }
-        }
-    },
-    {
-        "lemma": "cel",
-        "gender": "m2",
-        "tags": [
-            "animal"
-        ],
-        "translations": {
-            "ENG": [
-                "aim, ability to hit a target with a weapon",
-                "(colloquial)"
-            ]
-        },
-        "id": null,
-        "inflections": {
-            "singular": {
-                "nom": "cel",
-                "gen": "cela",
-                "dat": "celowi",
-                "acc": "cela",
-                "ins": "celem",
-                "loc": "celu",
-                "voc": "celu"
-            },
-            "plural": {
-                "nom": "cele",
-                "gen": "celów",
-                "dat": "celom",
-                "acc": "cele",
-                "ins": "celami",
-                "loc": "celach",
-                "voc": "cele"
-            }
-        }
-    },
-    {
         "lemma": "drzwi",
         "gender": "nonvirile",
         "tags": [],
@@ -393,6 +279,171 @@
         }
     },
     {
+        "lemma": "ser",
+        "gender": "m3",
+        "tags": [
+            "inanimate"
+        ],
+        "translations": {
+            "ENG": [
+                "cheese"
+            ]
+        },
+        "id": null,
+        "otherShapes": {
+            "diminutive": [
+                "serek"
+            ]
+        },
+        "derivedTerms": [
+            "sernik",
+            "serny",
+            "serowaty",
+            "serowy",
+            "ser biały",
+            "ser krowi",
+            "ser pleśniowy",
+            "ser śmietankowy",
+            "ser topiony",
+            "ser żółty",
+            "ser wegański"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "ser",
+                "gen": "sera",
+                "dat": "serowi",
+                "acc": "ser",
+                "ins": "serem",
+                "loc": "serze",
+                "voc": "serze"
+            },
+            "plural": {
+                "nom": "sery",
+                "gen": "serów",
+                "dat": "serom",
+                "acc": "sery",
+                "ins": "serami",
+                "loc": "serach",
+                "voc": "sery"
+            }
+        }
+    },
+        {
+        "lemma": "bałagan",
+        "gender": "m3",
+        "tags": [
+            "inanimate"
+        ],
+        "translations": {
+            "ENG": [
+                "mess disorder"
+            ]
+        },
+        "id": null,
+        "derivedTerms": [
+            "bałaganiarz",
+            "bałaganiara",
+            "bałaganiarstwo",
+            "bałaganienie",
+            "nabałaganienie",
+            "bałaganić",
+            "nabałaganić",
+            "bałaganiarsko"
+        ],
+        "synonyms": [
+            "nieporządek"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "bałagan",
+                "gen": "bałaganu",
+                "dat": "bałaganowi",
+                "acc": "bałagan",
+                "ins": "bałaganem",
+                "loc": "bałaganie",
+                "voc": "bałaganie"
+            }
+        },
+        "lacking": true,
+        "tantumSingulare": true
+    },
+        {
+        "lemma": "cel",
+        "gender": "m3",
+        "tags": [
+            "inanimate"
+        ],
+        "translations": {
+            "ENG": [
+                "goal aim objective",
+                "target",
+                "(shooting)",
+                "target",
+                "(military)",
+                "destination"
+            ]
+        },
+        "id": null,
+        "inflections": {
+            "singular": {
+                "nom": "cel",
+                "gen": "celu",
+                "dat": "celowi",
+                "acc": "cel",
+                "ins": "celem",
+                "loc": "celu",
+                "voc": "celu"
+            },
+            "plural": {
+                "nom": "cele",
+                "gen": [
+                    "celi",
+                    "celów"
+                ],
+                "dat": "celom",
+                "acc": "cele",
+                "ins": "celami",
+                "loc": "celach",
+                "voc": "cele"
+            }
+        }
+    },
+    {
+        "lemma": "cel",
+        "gender": "m2",
+        "tags": [
+            "animal"
+        ],
+        "translations": {
+            "ENG": [
+                "aim, ability to hit a target with a weapon",
+                "(colloquial)"
+            ]
+        },
+        "id": null,
+        "inflections": {
+            "singular": {
+                "nom": "cel",
+                "gen": "cela",
+                "dat": "celowi",
+                "acc": "cela",
+                "ins": "celem",
+                "loc": "celu",
+                "voc": "celu"
+            },
+            "plural": {
+                "nom": "cele",
+                "gen": "celów",
+                "dat": "celom",
+                "acc": "cele",
+                "ins": "celami",
+                "loc": "celach",
+                "voc": "cele"
+            }
+        }
+    },
+        {
         "lemma": "rok",
         "gender": "m3",
         "tags": [
@@ -477,57 +528,6 @@
                 "ins": "rokami",
                 "loc": "rokach",
                 "voc": "roki"
-            }
-        }
-    },
-    {
-        "lemma": "ser",
-        "gender": "m3",
-        "tags": [
-            "inanimate"
-        ],
-        "translations": {
-            "ENG": [
-                "cheese"
-            ]
-        },
-        "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "serek"
-            ]
-        },
-        "derivedTerms": [
-            "sernik",
-            "serny",
-            "serowaty",
-            "serowy",
-            "ser biały",
-            "ser krowi",
-            "ser pleśniowy",
-            "ser śmietankowy",
-            "ser topiony",
-            "ser żółty",
-            "ser wegański"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "ser",
-                "gen": "sera",
-                "dat": "serowi",
-                "acc": "ser",
-                "ins": "serem",
-                "loc": "serze",
-                "voc": "serze"
-            },
-            "plural": {
-                "nom": "sery",
-                "gen": "serów",
-                "dat": "serom",
-                "acc": "sery",
-                "ins": "serami",
-                "loc": "serach",
-                "voc": "sery"
             }
         }
     }

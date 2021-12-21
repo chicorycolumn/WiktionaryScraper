@@ -1,42 +1,5 @@
 [
     {
-        "lemma": "nadzieja",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "hope"
-            ]
-        },
-        "id": null,
-        "derivedTerms": [
-            "Nadzieja",
-            "Hope",
-            "virtue",
-            "name"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "nadzieja",
-                "gen": "nadziei",
-                "dat": "nadziei",
-                "acc": "nadzieję",
-                "ins": "nadzieją",
-                "loc": "nadziei",
-                "voc": "nadziejo"
-            },
-            "plural": {
-                "nom": "nadzieje",
-                "gen": "nadziei",
-                "dat": "nadziejom",
-                "acc": "nadzieje",
-                "ins": "nadziejami",
-                "loc": "nadziejach",
-                "voc": "nadzieje"
-            }
-        }
-    },
-    {
         "lemma": "słońce",
         "gender": "n",
         "tags": [
@@ -137,6 +100,139 @@
             }
         }
     },
+        {
+        "lemma": "złodziej",
+        "gender": "m1",
+        "tags": [
+            "person"
+        ],
+        "translations": {
+            "ENG": [
+                "thief",
+                "(one who carries out theft)"
+            ]
+        },
+        "id": null,
+        "otherShapes": {
+            "diminutive": [
+                "złodziejaszek"
+            ],
+            "feminine": [
+                "złodziejka"
+            ]
+        },
+        "derivedTerms": [
+            "złodziejstwo",
+            "złodziejski"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "złodziej",
+                "gen": "złodzieja",
+                "dat": "złodziejowi",
+                "acc": "złodzieja",
+                "ins": "złodziejem",
+                "loc": "złodzieju",
+                "voc": "złodzieju"
+            },
+            "plural": {
+                "nom": "złodzieje",
+                "gen": [
+                    "złodziei",
+                    "złodziejów"
+                ],
+                "dat": "złodziejom",
+                "acc": [
+                    "złodziei",
+                    "złodziejów"
+                ],
+                "ins": "złodziejami",
+                "loc": "złodziejach",
+                "voc": "złodzieje"
+            }
+        }
+    },
+        {
+        "lemma": "owca",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "sheep ovine",
+                "(Ovis gen. et spp.)",
+                "ewe",
+                "(female sheep)"
+            ]
+        },
+        "id": null,
+        "otherShapes": {
+            "diminutive": [
+                "owieczka"
+            ]
+        },
+        "derivedTerms": [
+            "owczarz",
+            "owczę",
+            "owczy"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "owca",
+                "gen": "owcy",
+                "dat": "owcy",
+                "acc": "owcę",
+                "ins": "owcą",
+                "loc": "owcy",
+                "voc": "owco"
+            },
+            "plural": {
+                "nom": "owce",
+                "gen": "owiec",
+                "dat": "owcom",
+                "acc": "owce",
+                "ins": "owcami",
+                "loc": "owcach",
+                "voc": "owce"
+            }
+        }
+    },
+    {
+        "lemma": "nadzieja",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "hope"
+            ]
+        },
+        "id": null,
+        "derivedTerms": [
+            "Nadzieja",
+            "Hope",
+            "virtue",
+            "name"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "nadzieja",
+                "gen": "nadziei",
+                "dat": "nadziei",
+                "acc": "nadzieję",
+                "ins": "nadzieją",
+                "loc": "nadziei",
+                "voc": "nadziejo"
+            },
+            "plural": {
+                "nom": "nadzieje",
+                "gen": "nadziei",
+                "dat": "nadziejom",
+                "acc": "nadzieje",
+                "ins": "nadziejami",
+                "loc": "nadziejach",
+                "voc": "nadzieje"
+            }
+        }
+    },
     {
         "lemma": "sierpień",
         "gender": "m3",
@@ -217,58 +313,6 @@
         }
     },
     {
-        "lemma": "złodziej",
-        "gender": "m1",
-        "tags": [
-            "person"
-        ],
-        "translations": {
-            "ENG": [
-                "thief",
-                "(one who carries out theft)"
-            ]
-        },
-        "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "złodziejaszek"
-            ],
-            "feminine": [
-                "złodziejka"
-            ]
-        },
-        "derivedTerms": [
-            "złodziejstwo",
-            "złodziejski"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "złodziej",
-                "gen": "złodzieja",
-                "dat": "złodziejowi",
-                "acc": "złodzieja",
-                "ins": "złodziejem",
-                "loc": "złodzieju",
-                "voc": "złodzieju"
-            },
-            "plural": {
-                "nom": "złodzieje",
-                "gen": [
-                    "złodziei",
-                    "złodziejów"
-                ],
-                "dat": "złodziejom",
-                "acc": [
-                    "złodziei",
-                    "złodziejów"
-                ],
-                "ins": "złodziejami",
-                "loc": "złodziejach",
-                "voc": "złodzieje"
-            }
-        }
-    },
-    {
         "lemma": "wartość",
         "gender": "f",
         "tags": [],
@@ -301,50 +345,6 @@
                 "ins": "wartościami",
                 "loc": "wartościach",
                 "voc": "wartości"
-            }
-        }
-    },
-    {
-        "lemma": "owca",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "sheep ovine",
-                "(Ovis gen. et spp.)",
-                "ewe",
-                "(female sheep)"
-            ]
-        },
-        "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "owieczka"
-            ]
-        },
-        "derivedTerms": [
-            "owczarz",
-            "owczę",
-            "owczy"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "owca",
-                "gen": "owcy",
-                "dat": "owcy",
-                "acc": "owcę",
-                "ins": "owcą",
-                "loc": "owcy",
-                "voc": "owco"
-            },
-            "plural": {
-                "nom": "owce",
-                "gen": "owiec",
-                "dat": "owcom",
-                "acc": "owce",
-                "ins": "owcami",
-                "loc": "owcach",
-                "voc": "owce"
             }
         }
     },

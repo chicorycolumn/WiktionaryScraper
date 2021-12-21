@@ -1,128 +1,5 @@
 [
-    {
-        "lemma": "prysznic",
-        "gender": "m3",
-        "tags": [
-            "inanimate"
-        ],
-        "translations": {
-            "ENG": [
-                "shower",
-                "(device for bathing)",
-                "shower",
-                "(instance of using this device in order to bathe oneself)"
-            ]
-        },
-        "id": null,
-        "usage": [
-            "Idę wziąć prysznic . ― I'm going to take a shower ."
-        ],
-        "derivedTerms": [
-            "prysznicowy"
-        ],
-        "synonyms": [
-            "natrysk"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "prysznic",
-                "gen": [
-                    "prysznica",
-                    "prysznicu"
-                ],
-                "dat": "prysznicowi",
-                "acc": "prysznic",
-                "ins": "prysznicem",
-                "loc": "prysznicu",
-                "voc": "prysznicu"
-            },
-            "plural": {
-                "nom": "prysznice",
-                "gen": "pryszniców",
-                "dat": "prysznicom",
-                "acc": "prysznice",
-                "ins": "prysznicami",
-                "loc": "prysznicach",
-                "voc": "prysznice"
-            }
-        }
-    },
-    {
-        "lemma": "glista",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "roundworm",
-                "(animal of the phylum Nematoida)",
-                "earthworm",
-                "(colloquial)"
-            ]
-        },
-        "id": null,
-        "derivedTerms": [
-            "glistnica"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "glista",
-                "gen": "glisty",
-                "dat": "gliście",
-                "acc": "glistę",
-                "ins": "glistą",
-                "loc": "gliście",
-                "voc": "glisto"
-            },
-            "plural": {
-                "nom": "glisty",
-                "gen": "glist",
-                "dat": "glistom",
-                "acc": "glisty",
-                "ins": "glistami",
-                "loc": "glistach",
-                "voc": "glisty"
-            }
-        }
-    },
-    {
-        "lemma": "gleba",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "soil",
-                "bail wipeout ; a fall, especially during a sports activity",
-                "(colloquial)",
-                "gleba",
-                "(mycology)"
-            ]
-        },
-        "id": null,
-        "derivedTerms": [
-            "glebnąć"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "gleba",
-                "gen": "gleby",
-                "dat": "glebie",
-                "acc": "glebę",
-                "ins": "glebą",
-                "loc": "glebie",
-                "voc": "glebo"
-            },
-            "plural": {
-                "nom": "gleby",
-                "gen": "gleb",
-                "dat": "glebom",
-                "acc": "gleby",
-                "ins": "glebami",
-                "loc": "glebach",
-                "voc": "gleby"
-            }
-        }
-    },
-    {
+        {
         "lemma": "łeb",
         "gender": "m3",
         "tags": [
@@ -389,6 +266,129 @@
                 "ins": "piłkami",
                 "loc": "piłkach",
                 "voc": "piłki"
+            }
+        }
+    },
+    {
+        "lemma": "prysznic",
+        "gender": "m3",
+        "tags": [
+            "inanimate"
+        ],
+        "translations": {
+            "ENG": [
+                "shower",
+                "(device for bathing)",
+                "shower",
+                "(instance of using this device in order to bathe oneself)"
+            ]
+        },
+        "id": null,
+        "usage": [
+            "Idę wziąć prysznic . ― I'm going to take a shower ."
+        ],
+        "derivedTerms": [
+            "prysznicowy"
+        ],
+        "synonyms": [
+            "natrysk"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "prysznic",
+                "gen": [
+                    "prysznica",
+                    "prysznicu"
+                ],
+                "dat": "prysznicowi",
+                "acc": "prysznic",
+                "ins": "prysznicem",
+                "loc": "prysznicu",
+                "voc": "prysznicu"
+            },
+            "plural": {
+                "nom": "prysznice",
+                "gen": "pryszniców",
+                "dat": "prysznicom",
+                "acc": "prysznice",
+                "ins": "prysznicami",
+                "loc": "prysznicach",
+                "voc": "prysznice"
+            }
+        }
+    },
+    {
+        "lemma": "glista",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "roundworm",
+                "(animal of the phylum Nematoida)",
+                "earthworm",
+                "(colloquial)"
+            ]
+        },
+        "id": null,
+        "derivedTerms": [
+            "glistnica"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "glista",
+                "gen": "glisty",
+                "dat": "gliście",
+                "acc": "glistę",
+                "ins": "glistą",
+                "loc": "gliście",
+                "voc": "glisto"
+            },
+            "plural": {
+                "nom": "glisty",
+                "gen": "glist",
+                "dat": "glistom",
+                "acc": "glisty",
+                "ins": "glistami",
+                "loc": "glistach",
+                "voc": "glisty"
+            }
+        }
+    },
+    {
+        "lemma": "gleba",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "soil",
+                "bail wipeout ; a fall, especially during a sports activity",
+                "(colloquial)",
+                "gleba",
+                "(mycology)"
+            ]
+        },
+        "id": null,
+        "derivedTerms": [
+            "glebnąć"
+        ],
+        "inflections": {
+            "singular": {
+                "nom": "gleba",
+                "gen": "gleby",
+                "dat": "glebie",
+                "acc": "glebę",
+                "ins": "glebą",
+                "loc": "glebie",
+                "voc": "glebo"
+            },
+            "plural": {
+                "nom": "gleby",
+                "gen": "gleb",
+                "dat": "glebom",
+                "acc": "gleby",
+                "ins": "glebami",
+                "loc": "glebach",
+                "voc": "gleby"
             }
         }
     }
