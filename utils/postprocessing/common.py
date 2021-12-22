@@ -65,7 +65,7 @@ def make_ids(langcode, wordtype, lemma_objects=None, existing_lobjs_path=None):
                         if lemma_object["lemma"] in shape_values:
                             sibling_info.append(shape_key[0:4])
                             number = elobj["id"].split("-")[2]
-                            if "(" not in elobj["id"].split("-")[3]:
+                            if wordtype not in ["verbs"] and "(" not in elobj["id"].split("-")[3]:
                                 parent_info = "?"
                                 if "otherShapes" in lemma_object:
                                     for sh_key, sh_values in lemma_object["otherShapes"].items():
@@ -84,6 +84,9 @@ def make_ids(langcode, wordtype, lemma_objects=None, existing_lobjs_path=None):
         if sibling_info:
             sibling_info = [sibling_info[0]]
 
+        if wordtype == "verbs":
+            sibling_info = []
+
         # Give lobjs sibling info if are same lemma but don't give same number.
         for iteration in iterations:
             existing_or_result_lemma_objects = iteration[0]
@@ -92,15 +95,22 @@ def make_ids(langcode, wordtype, lemma_objects=None, existing_lobjs_path=None):
                 if elobj["lemma"] == lemma_object["lemma"]:
 
                     first_translation = lemma_object["translations"]["ENG"][0]
-                    sibling_info_datum = first_translation if wordtype != "verbs" \
-                        else re.match(r".+?to\s(?P<bare_infinitive>.+?)\s", first_translation)["bare_infinitive"]
+
+                    if wordtype == "verbs":
+                        split_first_translation = first_translation.split(" ")
+                        if len(split_first_translation) < 2 or split_first_translation[0] != "to":
+                            write_todo(f'This verb "{lemma_object["lemma"]}" has first translation without "to". It is {first_translation}. I have proceeded creating ID for this lobj but you may want to check it in the output yourself.')
+                            sibling_info_datum = split_first_translation[0]
+                        else:
+                            sibling_info_datum = split_first_translation[1]
+                    else:
+                        sibling_info_datum = first_translation
 
                     sibling_info.append(sibling_info_datum)
 
-                    if "(" not in elobj["id"].split("-")[3]:
+                    if wordtype not in ["verbs"] and "(" not in elobj["id"].split("-")[3]:
                         first_translation = elobj["translations"]["ENG"][0]
-                        parent_info_datum = first_translation if wordtype != "verbs" \
-                            else re.match(r".+?to\s(?P<bare_infinitive>.+?)\s", first_translation)["bare_infinitive"]
+                        parent_info_datum = first_translation
 
                         print_todo = True
 
@@ -206,10 +216,10 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
 
     shorthand_tags = "".join(alphabetical_stag_chars).split(",")
 
-    tags = recursively_expand_tags(shorthand_tags, ref)
+    tags = recursively_expand_tags(shorthand_tags, ref) if shorthand_tags else []
 
     topics = []
-    for stag in shorthand_tags:
+    for stag in shorthand_tags if shorthand_tags else []:
         if stag in ref:
             for topic in ref[stag]["topics"]:
                 if topic not in topics:

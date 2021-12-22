@@ -203,7 +203,7 @@ def scrape_word_data(
 
         print(f'\n# Writing results".')
 
-        result = reorder_lemma_objects_in_result(result, extra_lemmas_objs)
+        result = reorder_lemma_objects_in_result([el for el in result if el], extra_lemmas_objs)
 
         if not no_temp_ids:
             for lemma_object in result:
