@@ -6,8 +6,8 @@ from utils.postprocessing.common import make_ids, finalise_lemma_objects
 
 if __name__ == '__main__':
 
-    step = 1
-    group_number = 22
+    step = 2
+    group_number = 1
     wordtype = "verbs"
     input_indexes = [0, 50]
 
@@ -38,7 +38,7 @@ if __name__ == '__main__':
                 untruncate_lemma_objects()
                         untruncated_words_99 CREATED (Remember, this won't have the tags expanded. Look to the other file.)
                 expand_tags_and_topics()
-                        finished_words_99 CREATED
+                        wordtype_folder/finished_words_99 CREATED
     """
 
     head_words_ref = {
