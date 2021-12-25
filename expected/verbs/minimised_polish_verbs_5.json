@@ -103,107 +103,6 @@
   {
     "translations": {
       "ENG": [
-        "see"
-      ]
-    },
-    "tags": [
-      "basic1"
-    ],
-    "lemma": "zobaczyć",
-    "id": "pol-ver-007-pf-01",
-    "aspect": "perfective",
-    "inflections": {
-      "infinitive": "zobaczyć",
-      "verbal": {
-        "past": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "zobaczono"
-            },
-            "plural": {
-              "allPluralGenders": "zobaczono"
-            }
-          },
-          "1per": {
-            "singular": {
-              "m": "zobaczyłem",
-              "f": "zobaczyłam"
-            },
-            "plural": {
-              "virile": "zobaczyliśmy",
-              "nonvirile": "zobaczyłyśmy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "m": "zobaczyłeś",
-              "f": "zobaczyłaś"
-            },
-            "plural": {
-              "virile": "zobaczyliście",
-              "nonvirile": "zobaczyłyście"
-            }
-          },
-          "3per": {
-            "singular": {
-              "m": "zobaczył",
-              "f": "zobaczyła",
-              "n": "zobaczyło"
-            },
-            "plural": {
-              "virile": "zobaczyli",
-              "nonvirile": "zobaczyły"
-            }
-          }
-        },
-        "present": false,
-        "future": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "zobaczy się"
-            },
-            "plural": {
-              "allPluralGenders": "zobaczy się"
-            }
-          },
-          "1per": {
-            "singular": {
-              "allSingularGenders": "zobaczę"
-            },
-            "plural": {
-              "allPluralGenders": "zobaczymy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "allSingularGenders": "zobaczysz"
-            },
-            "plural": {
-              "allPluralGenders": "zobaczycie"
-            }
-          },
-          "3per": {
-            "singular": {
-              "allSingularGenders": "zobaczy"
-            },
-            "plural": {
-              "allPluralGenders": "zobaczą"
-            }
-          }
-        },
-        "conditional": true,
-        "imperative": "zobacz"
-      },
-      "activeAdjectival": false,
-      "passiveAdjectival": "zobaczony",
-      "contemporaryAdverbial": false,
-      "anteriorAdverbial": "zobaczywszy",
-      "verbalNoun": "zobaczenie"
-    }
-  },
-  {
-    "translations": {
-      "ENG": [
         "research"
       ]
     },
@@ -300,6 +199,107 @@
       "contemporaryAdverbial": false,
       "anteriorAdverbial": "zbadawszy",
       "verbalNoun": "zbadanie"
+    }
+  },
+  {
+    "translations": {
+      "ENG": [
+        "see"
+      ]
+    },
+    "tags": [
+      "basic1"
+    ],
+    "lemma": "zobaczyć",
+    "id": "pol-ver-007-pf-01",
+    "aspect": "perfective",
+    "inflections": {
+      "infinitive": "zobaczyć",
+      "verbal": {
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zobaczono"
+            },
+            "plural": {
+              "allPluralGenders": "zobaczono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zobaczyłem",
+              "f": "zobaczyłam"
+            },
+            "plural": {
+              "virile": "zobaczyliśmy",
+              "nonvirile": "zobaczyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zobaczyłeś",
+              "f": "zobaczyłaś"
+            },
+            "plural": {
+              "virile": "zobaczyliście",
+              "nonvirile": "zobaczyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zobaczył",
+              "f": "zobaczyła",
+              "n": "zobaczyło"
+            },
+            "plural": {
+              "virile": "zobaczyli",
+              "nonvirile": "zobaczyły"
+            }
+          }
+        },
+        "present": false,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zobaczy się"
+            },
+            "plural": {
+              "allPluralGenders": "zobaczy się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zobaczę"
+            },
+            "plural": {
+              "allPluralGenders": "zobaczymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zobaczysz"
+            },
+            "plural": {
+              "allPluralGenders": "zobaczycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zobaczy"
+            },
+            "plural": {
+              "allPluralGenders": "zobaczą"
+            }
+          }
+        },
+        "conditional": true,
+        "imperative": "zobacz"
+      },
+      "activeAdjectival": false,
+      "passiveAdjectival": "zobaczony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zobaczywszy",
+      "verbalNoun": "zobaczenie"
     }
   },
   {

@@ -9,6 +9,22 @@ import os
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 
 
+def get_distinguisher_info_of_verb_allohom(lemma_object, wordtype):
+    first_translation = lemma_object["translations"]["ENG"][0]
+
+    if wordtype == "verbs":
+        trimmed_first_translation = re.search(r"to.*", first_translation).group()
+        split_first_translation = trimmed_first_translation.split(" ")
+        if len(split_first_translation) < 2 or split_first_translation[0] != "to":
+            write_todo(
+                f'This verb "{lemma_object["lemma"]}" has first translation without "to". It is {first_translation}. I have proceeded creating ID for this lobj but you may want to check it in the output yourself.')
+            return split_first_translation[0]
+        else:
+            return split_first_translation[1]
+
+    return first_translation
+
+
 def make_ids(langcode, wordtype, lemma_objects=None, existing_lobjs_path=None):
 
     existing_lemma_objects = get_existing_lemma_objects(wordtype, existing_lobjs_path=existing_lobjs_path)
@@ -59,66 +75,53 @@ def make_ids(langcode, wordtype, lemma_objects=None, existing_lobjs_path=None):
             existing_or_result_lemma_objects = iteration[0]
             is_existing = iteration[1]
 
-            for elobj in existing_or_result_lemma_objects:
-                if not sibling_info and "otherShapes" in elobj:
-                    for shape_key, shape_values in elobj["otherShapes"].items():
-                        if lemma_object["lemma"] in shape_values:
-                            sibling_info.append(shape_key[0:4])
-                            number = elobj["id"].split("-")[2]
-                            if wordtype not in ["verbs"] and "(" not in elobj["id"].split("-")[3]:
-                                parent_info = "?"
-                                if "otherShapes" in lemma_object:
-                                    for sh_key, sh_values in lemma_object["otherShapes"].items():
-                                        if elobj["lemma"] in sh_values:
-                                            parent_info = sh_key
-                                if is_existing or len(parent_info) == 1:
-                                    write_todo(
-                                        f'Add (sibling_info) to end of ID "{elobj["id"]}" describing it from perspective of "{lemma_object["lemma"]}".     '
-                                        f'This is because "{elobj["lemma"]}" mentions "{lemma_object["lemma"]}" as an otherShape, '
-                                        f'so "{lemma_object["lemma"]}" received a parenthesised sibling_info at the end of its ID, '
-                                        f'but "{lemma_object["lemma"]}" did not reciprocate. '
-                                    )
-                                else:
-                                    elobj["id"] += f'({parent_info[0:4]})'
+            # Give lobjs sibling info if are same lemma but don't give same number.
+            for iteration in iterations:
+                existing_or_result_lemma_objects = iteration[0]
+                is_existing = iteration[1]
+                for elobj in existing_or_result_lemma_objects:
+                    if elobj["lemma"] == lemma_object["lemma"]:
+                        sibling_info_datum = get_distinguisher_info_of_verb_allohom(lemma_object, wordtype)
+                        sibling_info.append(sibling_info_datum)
+
+                        if "(" not in elobj["id"].split("-")[3]:
+                            parent_info_datum = get_distinguisher_info_of_verb_allohom(elobj, wordtype)
+                            print_todo = True
+                            if is_existing:
+                                write_todo(f'To "{elobj["id"]}" ID must append "{parent_info_datum}"...')
+                            else:
+                                elobj["id"] += f'({parent_info_datum})'
+                                write_todo(f'To "{elobj["id"]}" ID appended "{parent_info_datum}"...')
+
+            if not sibling_info:
+                for elobj in existing_or_result_lemma_objects:
+                    if not sibling_info and "otherShapes" in elobj:
+                        for shape_key, shape_values in elobj["otherShapes"].items():
+                            if lemma_object["lemma"] in shape_values:
+                                number = elobj["id"].split("-")[2]
+
+                                if wordtype not in ["verbs"]:
+                                    sibling_info.append(shape_key[0:4])
+
+                                    if "(" not in elobj["id"].split("-")[3]:
+                                        parent_info = "?"
+
+                                        if "otherShapes" in lemma_object:
+                                            for sh_key, sh_values in lemma_object["otherShapes"].items():
+                                                if elobj["lemma"] in sh_values:
+                                                    parent_info = sh_key
+
+                                        if is_existing or len(parent_info) == 1:
+                                            write_todo(
+                                                f'Add (sibling_info) to end of ID "{elobj["id"]}" describing it from perspective of "{lemma_object["lemma"]}".     '
+                                                f'This is because "{elobj["lemma"]}" mentions "{lemma_object["lemma"]}" as an otherShape, '
+                                                f'so "{lemma_object["lemma"]}" received a parenthesised sibling_info at the end of its ID, '
+                                                f'but "{lemma_object["lemma"]}" did not reciprocate. ')
+                                        else:
+                                            elobj["id"] += f'({parent_info[0:4]})'
 
         if sibling_info:
             sibling_info = [sibling_info[0]]
-
-        if wordtype == "verbs":
-            sibling_info = []
-
-        # Give lobjs sibling info if are same lemma but don't give same number.
-        for iteration in iterations:
-            existing_or_result_lemma_objects = iteration[0]
-            is_existing = iteration[1]
-            for elobj in existing_or_result_lemma_objects:
-                if elobj["lemma"] == lemma_object["lemma"]:
-
-                    first_translation = lemma_object["translations"]["ENG"][0]
-
-                    if wordtype == "verbs":
-                        split_first_translation = first_translation.split(" ")
-                        if len(split_first_translation) < 2 or split_first_translation[0] != "to":
-                            write_todo(f'This verb "{lemma_object["lemma"]}" has first translation without "to". It is {first_translation}. I have proceeded creating ID for this lobj but you may want to check it in the output yourself.')
-                            sibling_info_datum = split_first_translation[0]
-                        else:
-                            sibling_info_datum = split_first_translation[1]
-                    else:
-                        sibling_info_datum = first_translation
-
-                    sibling_info.append(sibling_info_datum)
-
-                    if wordtype not in ["verbs"] and "(" not in elobj["id"].split("-")[3]:
-                        first_translation = elobj["translations"]["ENG"][0]
-                        parent_info_datum = first_translation
-
-                        print_todo = True
-
-                        if is_existing:
-                            write_todo(f'To "{elobj["id"]}" ID must append "{parent_info_datum}"...')
-                        else:
-                            elobj["id"] += f'({parent_info_datum})'
-                            write_todo(f'To "{elobj["id"]}" ID appended "{parent_info_datum}"...')
 
         if int(number) == id_number_counts[wordtypeshortcode] + 1:
             id_number_counts[wordtypeshortcode] += 1
@@ -130,7 +133,7 @@ def make_ids(langcode, wordtype, lemma_objects=None, existing_lobjs_path=None):
         res_arr.append(lemma_object)
 
         if print_todo:
-            write_todo(f'...or should you delete "{id}" because is a duplicate?')
+            write_todo(f'                               ...I assume "{id}" is not merely a duplicate.')
 
     return res_arr
 
