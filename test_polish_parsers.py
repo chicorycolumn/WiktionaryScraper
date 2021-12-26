@@ -10,22 +10,20 @@ import pytest
 import os
 
 
-@pytest.mark.parametrize("input_words,expected_path,use_sample,skip_extras", [
-    (["pisywać"], "parsed_polish_protoverbs_0", True, True),  # impf frequentative
-    (["pisać"], "parsed_polish_protoverbs_1", True, True),  # impf
-    (["napisać"], "parsed_polish_protoverbs_2", True, True),  # pf
-    (["czytać"], "parsed_polish_protoverbs_3", True, True),  # impf
-    (["przeczytać"], "parsed_polish_protoverbs_4", True, True),  # pf
-    (["badać", "zobaczyć", "zbadać", "widzieć", "widywać"], "parsed_polish_protoverbs_5", True, True),  # various
-    (["badać", "zobaczyć"], "parsed_polish_protoverbs_5", True, False),  # Testing the additional parsing of otherShapes.
-    (["stać"], "parsed_polish_protoverbs_6", True, True),  # Verb has two meanings and two conj tables
-    (["kopać"], "parsed_polish_protoverbs_7", True, True),  # Allohom! Verb has two meanings and one conj table
-    (["brać"], "parsed_polish_protoverbs_8", True, True),  # Page contains one noun one verb, homonyms (not nec to list as allohoms as are diff wordtypes).
-    (["chodzić"], "parsed_polish_protoverbs_9", True, True),  # Verb has two meanings and two conj tables like stać but was tripping up.
+@pytest.mark.parametrize("index,input_words,expected_path,use_sample,skip_extras", [
+    (1, ["pisywać"], "parsed_polish_protoverbs_0", True, True),  # impf frequentative
+    (2, ["pisać"], "parsed_polish_protoverbs_1", True, True),  # impf
+    (3, ["napisać"], "parsed_polish_protoverbs_2", True, True),  # pf
+    (4, ["czytać"], "parsed_polish_protoverbs_3", True, True),  # impf
+    (5, ["przeczytać"], "parsed_polish_protoverbs_4", True, True),  # pf
+    (6, ["badać", "zobaczyć", "zbadać", "widzieć", "widywać"], "parsed_polish_protoverbs_5", True, True),  # various
+    (7, ["badać", "zobaczyć"], "parsed_polish_protoverbs_5", True, False),  # Testing the additional parsing of otherShapes.
+    (8, ["stać"], "parsed_polish_protoverbs_6", True, True),  # Verb has two meanings and two conj tables
+    (9, ["kopać"], "parsed_polish_protoverbs_7", True, True),  # Allohom! Verb has two meanings and one conj table
+    (10, ["brać"], "parsed_polish_protoverbs_8", True, True),  # Page contains one noun one verb, homonyms (not nec to list as allohoms as are diff wordtypes).
+    (11, ["chodzić"], "parsed_polish_protoverbs_9", True, True),  # Verb has two meanings and two conj tables like stać but was tripping up.
 ])
-def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: bool, skip_extras: bool, wordtype: str = "verbs"):
-    print(f'# Starting, given {len(input_words)} words.')
-
+def test_PolishVerbParser(index, input_words: list, expected_path: str, use_sample: bool, skip_extras: bool, wordtype: str = "verbs"):
     output_path = f"output_test{expected_path[-2:]}"
     rejected_path = f"rejected_test{expected_path[-2:]}"
     expected_rejected_path = f"rejected_{expected_path}"
@@ -45,7 +43,8 @@ def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: boo
         },
         group_number=0,
         no_temp_ids=True,
-        skip_extras=skip_extras
+        skip_extras=skip_extras,
+        test_only_boolean_override_check_existing=True
     )
 
     with open(f'output/{output_path}_scraped.json', 'r') as f:
@@ -65,19 +64,19 @@ def test_PolishVerbParser(input_words: list, expected_path: str, use_sample: boo
     assert actual_rejected == expected_rejected
 
 
-@pytest.mark.parametrize("input_words,expected_path,use_sample,skip_extras", [
-    (["narodowy"], "polish_protoadjectives_0", True, True),  # type 1
-    (["stary"], "polish_protoadjectives_1", True, True),  # type 2
-    (["niebieski"], "polish_protoadjectives_2", True, True),  # type 3
-    (["czerwony"], "polish_protoadjectives_3", True, True),  # type 4
-    (["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True, True),  # types 1-4
-    (["czerwony", "BADWORD", "stary", "narodowy"], "polish_protoadjectives_5", False, True),  # contains failing word
-    (["czerwony", "kobieta", "stary", "narodowy"], "polish_protoadjectives_6", False, True),  # contains noun
-    (["zielony"], "polish_protoadjectives_7", False, True),  # type 2
-    (["średniowieczny", "śródziemnomorski"], "polish_protoadjectives_8", True, True),  # less common adjective
-    (["czerwony", "stary", "narodowy", "niebieski", "zielony"], "polish_protoadjectives_9", True, False),  # use extras if present (though none are)
+@pytest.mark.parametrize("index,input_words,expected_path,use_sample,skip_extras", [
+    (1, ["narodowy"], "polish_protoadjectives_0", True, True),  # type 1
+    (2, ["stary"], "polish_protoadjectives_1", True, True),  # type 2
+    (3, ["niebieski"], "polish_protoadjectives_2", True, True),  # type 3
+    (4, ["czerwony"], "polish_protoadjectives_3", True, True),  # type 4
+    (5, ["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True, True),  # types 1-4
+    (6, ["czerwony", "BADWORD", "stary", "narodowy"], "polish_protoadjectives_5", False, True),  # contains failing word
+    (7, ["czerwony", "kobieta", "stary", "narodowy"], "polish_protoadjectives_6", False, True),  # contains noun
+    (8, ["zielony"], "polish_protoadjectives_7", False, True),  # type 2
+    (9, ["średniowieczny", "śródziemnomorski"], "polish_protoadjectives_8", True, True),  # less common adjective
+    (10, ["czerwony", "stary", "narodowy", "niebieski", "zielony"], "polish_protoadjectives_9", True, False),  # use extras if present (though none are)
 ])
-def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample: bool, skip_extras: bool, wordtype: str = "adjectives"):
+def test_PolishAdjectiveParser(index, input_words: list, expected_path: str, use_sample: bool, skip_extras: bool, wordtype: str = "adjectives"):
     print(f'# Starting, given {len(input_words)} words.')
 
     output_path = f"output_test{expected_path[-2:]}"
@@ -99,7 +98,8 @@ def test_PolishAdjectiveParser(input_words: list, expected_path: str, use_sample
         },
         group_number=0,
         no_temp_ids=True,
-        skip_extras=skip_extras
+        skip_extras=skip_extras,
+        test_only_boolean_override_check_existing=True
     )
 
     with open(f'output/{output_path}_scraped.json', 'r') as f:
