@@ -38,7 +38,9 @@ def trigger_parser(head_words_raw, parser, use_sample, language, wordtype, resul
                 head_words.append(headword)
 
         if headwords_not_to_parse:
-            write_todo(f'I did not parse these {len(headwords_not_to_parse)} headwords you asked, as lobjs already exist for them: {headwords_not_to_parse}')
+            if "already_existing" not in rejected:
+                rejected["already_existing"] = []
+            rejected["already_existing"].extend(headwords_not_to_parse)
     else:
         write_todo(f'Remember to set test_only_boolean_override_check_existing back to False.')
         head_words = head_words_raw
