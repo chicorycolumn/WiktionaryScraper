@@ -22,6 +22,21 @@ import os
     (9, ["kopać"], "parsed_polish_protoverbs_7", True, True),  # Allohom! Verb has two meanings and one conj table
     (10, ["brać"], "parsed_polish_protoverbs_8", True, True),  # Page contains one noun one verb, homonyms (not nec to list as allohoms as are diff wordtypes).
     (11, ["chodzić"], "parsed_polish_protoverbs_9", True, True),  # Verb has two meanings and two conj tables like stać but was tripping up.
+    (12, ["główny",
+        "bezpłatny",
+        "konieczny",
+        "cały",
+        "kiepski",
+        "martwy",
+        "tradycyjny",
+        "ostateczny",
+        "następny"], "parsed_polish_protoverbs_10", True, True),  # loaded_html_but_failed_when_reading
+    (13, ["zgniły",
+        "wrażliwy",
+        "głodny",
+        "zmęczony",
+        "słodki",
+        "gotowy"], "parsed_polish_protoverbs_11", True, True),  # loaded_and_read_html_but_failed_to_create_output
 ])
 def test_PolishVerbParser(index, input_words: list, expected_path: str, use_sample: bool, skip_extras: bool, wordtype: str = "verbs"):
     output_path = f"output_test{expected_path[-2:]}"
