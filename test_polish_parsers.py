@@ -22,21 +22,6 @@ import os
     (9, ["kopać"], "parsed_polish_protoverbs_7", True, True),  # Allohom! Verb has two meanings and one conj table
     (10, ["brać"], "parsed_polish_protoverbs_8", True, True),  # Page contains one noun one verb, homonyms (not nec to list as allohoms as are diff wordtypes).
     (11, ["chodzić"], "parsed_polish_protoverbs_9", True, True),  # Verb has two meanings and two conj tables like stać but was tripping up.
-    (12, ["główny",
-        "bezpłatny",
-        "konieczny",
-        "cały",
-        "kiepski",
-        "martwy",
-        "tradycyjny",
-        "ostateczny",
-        "następny"], "parsed_polish_protoverbs_10", True, True),  # loaded_html_but_failed_when_reading
-    (13, ["zgniły",
-        "wrażliwy",
-        "głodny",
-        "zmęczony",
-        "słodki",
-        "gotowy"], "parsed_polish_protoverbs_11", True, True),  # loaded_and_read_html_but_failed_to_create_output
 ])
 def test_PolishVerbParser(index, input_words: list, expected_path: str, use_sample: bool, skip_extras: bool, wordtype: str = "verbs"):
     output_path = f"output_test{expected_path[-2:]}"
@@ -90,6 +75,23 @@ def test_PolishVerbParser(index, input_words: list, expected_path: str, use_samp
     (8, ["zielony"], "polish_protoadjectives_7", False, True),  # type 2
     (9, ["średniowieczny", "śródziemnomorski"], "polish_protoadjectives_8", True, True),  # less common adjective
     (10, ["czerwony", "stary", "narodowy", "niebieski", "zielony"], "polish_protoadjectives_9", True, False),  # use extras if present (though none are)
+    (11, [
+        "główny",
+        # "bezpłatny",
+        # "konieczny",
+        # "cały",
+        # "kiepski",
+        # "martwy",
+        # "tradycyjny",
+        # "ostateczny",
+        # "następny"
+    ], "polish_protoadjectives_10", True, True),  # loaded_html_but_failed_when_reading
+    (12, ["zgniły",
+        "wrażliwy",
+        "głodny",
+        "zmęczony",
+        "słodki",
+        "gotowy"], "polish_protoadjectives_11", True, True),  # loaded_and_read_html_but_failed_to_create_output
 ])
 def test_PolishAdjectiveParser(index, input_words: list, expected_path: str, use_sample: bool, skip_extras: bool, wordtype: str = "adjectives"):
     print(f'# Starting, given {len(input_words)} words.')
