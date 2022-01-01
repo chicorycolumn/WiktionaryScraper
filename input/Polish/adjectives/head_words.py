@@ -1,5 +1,5 @@
 input = ['młody', 'powolny', 'wspaniały', 'niezwykły', 'główny', 'ładny', 'pewny', 'słodki', 'tradycyjny', 'cały',
-         'głęboki', 'meczący', 'prawdziwy', 'powszechny', 'martwy', 'niski', 'ciepły', 'słaby', 'szczupły',
+         'głęboki', 'męczący', 'prawdziwy', 'powszechny', 'martwy', 'niski', 'ciepły', 'słaby', 'szczupły',
          'niebezpieczny', 'zgniły', 'pomarańczowy', 'żywy', 'potężny', 'ostateczny', 'wielki', 'męczący', 'gorzki',
          'bezpłatny', 'gotowy', 'odważny', 'kiepski', 'czarny', 'lekki', 'ciasny', 'następny', 'kwadratowy', 'głodny',
          'błędny', 'zmęczony', 'uważny', 'zwykły', 'zielony', 'jasny', 'wolny', 'czarujący', 'konieczny', 'wrażliwy',
