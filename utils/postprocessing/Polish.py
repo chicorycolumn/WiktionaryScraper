@@ -149,10 +149,6 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
 
     lemma_object["inflections"]["simple"] = simple
 
-    if comparative_type and int(comparative_type):
-        if not adverb:
-            write_todo(f'Lobj "{lemma_object["lemma"]}" no adverb supplied but comparative type is {comparative_type}.')
-
     if adverb:
         lemma_object["inflections"]["adverb"] = adverb[0] if len(adverb) == 1 else {
                     "isTerminus": True,

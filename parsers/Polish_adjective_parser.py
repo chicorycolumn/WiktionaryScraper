@@ -54,7 +54,7 @@ class PolishAdjectiveParser(HTMLParser):
         print("\n", "reset_for_new_table", "\n")
 
         self.mode = None
-        print('mode = None')
+        print('mode = None (1)')
         # self.el_count = 0
         # self.inflections = {}
         self.output_obj = {
@@ -104,6 +104,8 @@ class PolishAdjectiveParser(HTMLParser):
             self.output_obj["translations_additional"] = self.output_obj["translations"][1:]
             self.output_obj["translations"] = self.output_obj["translations"][0:1]
 
+        self.output_obj["translations"] = {"ENG": self.output_obj["translations"]}
+
         if len(self.output_obj["comparative"]) == 0:
             if self.output_obj["comparative_type"] == 0:
                 self.output_obj.pop("comparative")
@@ -133,11 +135,14 @@ class PolishAdjectiveParser(HTMLParser):
             print(f'#ERR Wrong quantity of comparatives {self.output_obj["comparative"]}')
             return
 
+        if "adverb" in self.output_obj and not self.output_obj["adverb"]:
+            self.output_obj.pop("adverb")
+
         self.output_arr.append(self.output_obj)
         self.location = None
         print('location = None')
         self.mode = None
-        print('mode = None')
+        print('mode = None (2)')
         return
 
     def handle_data(self, data):
@@ -175,8 +180,8 @@ class PolishAdjectiveParser(HTMLParser):
                 print('mode = "gettingadverb"')
 
             if self.lasttag == "i" and data.lower() == "superlative":
-                self.mode = None
-                print('mode = None')
+                self.mode = "getadverb"
+                print('mode = "getadverb"')
 
             if self.mode == "gettingcomparative":
                 if data not in self.ignorable_broad:
@@ -216,6 +221,10 @@ class PolishAdjectiveParser(HTMLParser):
         for attr in attrs:
             if attr[0] == "class":
                 self.currentclass = self.lastclass = attr[1]
+
+        if self.mode == "getadverb" and startTag == "ol":
+            self.mode = "gettranslations"
+            print('mode = "gettranslations"')
 
         if self.mode in ["handlingtable", "gettinglemma", "gettingpluvirnom"]:
             if startTag == "tr":
