@@ -77,21 +77,21 @@ def test_PolishVerbParser(index, input_words: list, expected_path: str, use_samp
     (10, ["czerwony", "stary", "narodowy", "niebieski", "zielony"], "polish_protoadjectives_9", True, False),  # use extras if present (though none are)
     (11, [
         "główny",
-        # "bezpłatny",
-        # "konieczny",
-        # "cały",
-        # "kiepski",
-        # "martwy",
-        # "tradycyjny",
-        # "ostateczny",
-        # "następny"
-    ], "polish_protoadjectives_10", True, True),  # loaded_html_but_failed_when_reading
-    (12, ["zgniły",
-        "wrażliwy",
-        "głodny",
-        "zmęczony",
-        "słodki",
-        "gotowy"], "polish_protoadjectives_11", True, True),  # loaded_and_read_html_but_failed_to_create_output
+        "bezpłatny",
+        "konieczny",
+        "cały",
+        "kiepski",
+        "martwy",
+        "tradycyjny",
+        "ostateczny",
+        "następny"
+    ], "polish_protoadjectives_10", False, True),  # loaded_html_but_failed_when_reading
+    # (12, ["zgniły",
+    #     "wrażliwy",
+    #     "głodny",
+    #     "zmęczony",
+    #     "słodki",
+    #     "gotowy"], "polish_protoadjectives_11", True, True),  # loaded_and_read_html_but_failed_to_create_output
 ])
 def test_PolishAdjectiveParser(index, input_words: list, expected_path: str, use_sample: bool, skip_extras: bool, wordtype: str = "adjectives"):
     print(f'# Starting, given {len(input_words)} words.')

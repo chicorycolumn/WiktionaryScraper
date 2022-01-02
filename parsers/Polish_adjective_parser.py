@@ -164,7 +164,11 @@ class PolishAdjectiveParser(HTMLParser):
                 self.output_obj["translations"].extend([w for w in data_arr if w not in self.ignorable_translations])
 
             if self.mode == "gettingadverb":
-                self.output_obj["adverb"].append(data)
+                if self.lasttag == "i" and data.lower() != "adverb":
+                    self.mode = "gotadverb"
+                    print('mode = "gotadverb"')
+                else:
+                    self.output_obj["adverb"].append(data)
 
             if self.lasttag == "i" and data.lower() == "adverb":
                 self.mode = "gettingadverb"
@@ -248,7 +252,7 @@ class PolishAdjectiveParser(HTMLParser):
             self.mode = "readyfortable"
             print('mode = "readyfortable"')
 
-        if self.mode == "gettingadverb" and endTag == "p":
+        if self.mode in ["gettingadverb", "gotadverb"] and endTag == "p":
             self.mode = "gettranslations"
             print('mode = "gettranslations"')
 
