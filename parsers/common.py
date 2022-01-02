@@ -257,7 +257,7 @@ def scrape_word_data(
     another_round_of_potential_extra_lemmas_to_parse = list(set(another_round_of_potential_extra_lemmas_to_parse))
 
     if another_round_of_potential_extra_lemmas_to_parse:
-        write_todo(f'Want to parse any of {len(another_round_of_potential_extra_lemmas_to_parse)}'
+        write_todo(f'Want to parse any (if they are {language}) of {len(another_round_of_potential_extra_lemmas_to_parse)}'
                    f' translations_additional lemmas? (I did not): {another_round_of_potential_extra_lemmas_to_parse}')
 
     if "truncated" in filepaths:

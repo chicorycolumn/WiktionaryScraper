@@ -17,13 +17,17 @@ import os
     (4, ["czytać"], "parsed_polish_protoverbs_3", True, True),  # impf
     (5, ["przeczytać"], "parsed_polish_protoverbs_4", True, True),  # pf
     (6, ["badać", "zobaczyć", "zbadać", "widzieć", "widywać"], "parsed_polish_protoverbs_5", True, True),  # various
-    (7, ["badać", "zobaczyć"], "parsed_polish_protoverbs_5", True, False),  # Testing the additional parsing of otherShapes.
+    (7, ["badać", "zobaczyć"], "parsed_polish_protoverbs_5", True, False),
+    # Testing the additional parsing of otherShapes.
     (8, ["stać"], "parsed_polish_protoverbs_6", True, True),  # Verb has two meanings and two conj tables
     (9, ["kopać"], "parsed_polish_protoverbs_7", True, True),  # Allohom! Verb has two meanings and one conj table
-    (10, ["brać"], "parsed_polish_protoverbs_8", True, True),  # Page contains one noun one verb, homonyms (not nec to list as allohoms as are diff wordtypes).
-    (11, ["chodzić"], "parsed_polish_protoverbs_9", True, True),  # Verb has two meanings and two conj tables like stać but was tripping up.
+    (10, ["brać"], "parsed_polish_protoverbs_8", True, True),
+    # Page contains one noun one verb, homonyms (not nec to list as allohoms as are diff wordtypes).
+    (11, ["chodzić"], "parsed_polish_protoverbs_9", True, True),
+    # Verb has two meanings and two conj tables like stać but was tripping up.
 ])
-def test_PolishVerbParser(index, input_words: list, expected_path: str, use_sample: bool, skip_extras: bool, wordtype: str = "verbs"):
+def test_PolishVerbParser(index, input_words: list, expected_path: str, use_sample: bool, skip_extras: bool,
+                          wordtype: str = "verbs"):
     output_path = f"output_test{expected_path[-2:]}"
     rejected_path = f"rejected_test{expected_path[-2:]}"
     expected_rejected_path = f"rejected_{expected_path}"
@@ -65,35 +69,24 @@ def test_PolishVerbParser(index, input_words: list, expected_path: str, use_samp
 
 
 @pytest.mark.parametrize("index,input_words,expected_path,use_sample,skip_extras", [
-    (1, ["narodowy"], "polish_protoadjectives_0", True, True),  # type 1
-    (2, ["stary"], "polish_protoadjectives_1", True, True),  # type 2
-    (3, ["niebieski"], "polish_protoadjectives_2", True, True),  # type 3
-    (4, ["czerwony"], "polish_protoadjectives_3", True, True),  # type 4
-    (5, ["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True, True),  # types 1-4
+    (1, ["narodowy"], "polish_protoadjectives_0", True, True),  # type 0
+    (2, ["stary"], "polish_protoadjectives_1", True, True),  # type 1
+    (3, ["niebieski"], "polish_protoadjectives_2", True, True),  # type 2
+    (4, ["czerwony"], "polish_protoadjectives_3", True, True),  # type 3
+    (5, ["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True, True),  # types 0-3
     (6, ["czerwony", "BADWORD", "stary", "narodowy"], "polish_protoadjectives_5", False, True),  # contains failing word
     (7, ["czerwony", "kobieta", "stary", "narodowy"], "polish_protoadjectives_6", False, True),  # contains noun
-    (8, ["zielony"], "polish_protoadjectives_7", False, True),  # type 2
+    (8, ["zielony"], "polish_protoadjectives_7", False, True),  # type 3
     (9, ["średniowieczny", "śródziemnomorski"], "polish_protoadjectives_8", True, True),  # less common adjective
-    (10, ["czerwony", "stary", "narodowy", "niebieski", "zielony"], "polish_protoadjectives_9", True, False),  # use extras if present (though none are)
-    (11, [
-        "główny",
-        "bezpłatny",
-        "konieczny",
-        "cały",
-        "kiepski",
-        "martwy",
-        "tradycyjny",
-        "ostateczny",
-        "następny"
-    ], "polish_protoadjectives_10", False, True),  # loaded_html_but_failed_when_reading
-    # (12, ["zgniły",
-    #     "wrażliwy",
-    #     "głodny",
-    #     "zmęczony",
-    #     "słodki",
-    #     "gotowy"], "polish_protoadjectives_11", True, True),  # loaded_and_read_html_but_failed_to_create_output
+    (10, ["czerwony", "stary", "narodowy", "niebieski", "zielony"],
+     "polish_protoadjectives_9", True, False),  # use extras if present (though none are)
+    (11, ["główny", "bezpłatny", "konieczny", "cały", "kiepski", "martwy", "tradycyjny", "ostateczny", "następny"],
+     "polish_protoadjectives_10", False, True),  # loaded_html_but_failed_when_reading
+    (12, ["zgniły", "wrażliwy", "głodny", "zmęczony", "słodki", "gotowy"],
+     "polish_protoadjectives_11", False, True),  # loaded_and_read_html_but_failed_to_create_output
 ])
-def test_PolishAdjectiveParser(index, input_words: list, expected_path: str, use_sample: bool, skip_extras: bool, wordtype: str = "adjectives"):
+def test_PolishAdjectiveParser(index, input_words: list, expected_path: str, use_sample: bool, skip_extras: bool,
+                               wordtype: str = "adjectives"):
     print(f'# Starting, given {len(input_words)} words.')
 
     output_path = f"output_test{expected_path[-2:]}"
