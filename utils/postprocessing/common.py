@@ -48,7 +48,7 @@ def make_ids(langcode, wordtype, lemma_objects=None, existing_lobjs_path=None):
         wordtypeshortcode = split[1]
         number = split[2]
         if lang != "pol":
-            raise Exception("220")
+            raise Exception(f'ERR 172: Failure in make_ids. I am loading up existing lobjs to check IDs I am about to create, but this ID of existing lobj is not Polish? "{elobj["id"]}".')
         if int(number) > id_number_counts[wordtypeshortcode]:
             id_number_counts[wordtypeshortcode] = int(number)
 
@@ -169,7 +169,7 @@ def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
                 additionalInfrequent.extend(
                     dict2_value["additionalInfrequent"] if "additionalInfrequent" in dict2_value else [])
             else:
-                raise Exception(f"Unexpected type {type(dict2_value)} at keypath {keypath}.")
+                raise Exception(f"ERR 051: Failure in recursively_com... Unexpected type {type(dict2_value)} at keypath {keypath}.")
 
             terminus_object = {
                 "isTerminus": True,
@@ -181,13 +181,10 @@ def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
 
             get_value_from_keypath(dict1, keypath[:-1])[key] = terminus_object
 
-
-
-
         elif type(value) == dict:
             recursively_combine_string_values_into_terminus_objects(value, get_value_from_keypath(dict2, keypath))
         else:
-            raise Exception(f"Unexpected type {type(value)} of {value} at keypath {keypath}.")
+            raise Exception(f"ERR 619: Failure in recursively_com... Unexpected type {type(value)} of {value} at keypath {keypath}.")
 
         keypath.pop()
 

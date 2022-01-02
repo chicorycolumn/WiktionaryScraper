@@ -1,11 +1,12 @@
 from copy import deepcopy
 
+from utils.general.common import write_todo
 from utils.postprocessing.common import recursively_prefix_string_values, \
     recursively_combine_string_values_into_terminus_objects
 
 
 def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma: list, adverb: list = [], comparative: str = None, lemma_object: dict = None):
-    # comparative_type 0   'narodowy'   is NOT COMPARABLE and has no adverb.
+    # comparative_type 0   'narodowy'   is NOT COMPARABLE (but may or may not have adverb).
     # comparative_type 1   'stary'      has REGULAR comparative+superlative (starszy, najstarszy).
     # comparative_type 2   'niebieski'  has COMPOUND comparative+superlative (bardziej niebieski, najbardziej niebieski).
     # comparative_type 3   'czerwony'   has REGULAR AND COMPOUND comparative+superlative.
@@ -150,7 +151,9 @@ def generate_adjective(lemma: str, translations_list: list, comparative_type: in
 
     if comparative_type and int(comparative_type):
         if not adverb:
-            raise Exception(f"No adverb given but comparative type is {comparative_type}.")
+            write_todo(f'Lobj "{lemma_object["lemma"]}" no adverb supplied but comparative type is {comparative_type}.')
+
+    if adverb:
         lemma_object["inflections"]["adverb"] = adverb[0] if len(adverb) == 1 else {
                     "isTerminus": True,
                     "normal": adverb,

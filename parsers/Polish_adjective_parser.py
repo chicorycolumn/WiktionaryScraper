@@ -87,7 +87,7 @@ class PolishAdjectiveParser(HTMLParser):
         print("\n", "add_lobj_and_reset", "\n")
 
         if len(self.output_obj["lemma"]) != 1:
-            print(f'#ERR Wrong number of lemmas {self.output_obj["lemma"]}')
+            print(f'#ERR Wrong quantity of lemmas {self.output_obj["lemma"]}')
             return
 
         lemma = self.output_obj["lemma"]
@@ -107,10 +107,7 @@ class PolishAdjectiveParser(HTMLParser):
         if len(self.output_obj["comparative"]) == 0:
             if self.output_obj["comparative_type"] == 0:
                 self.output_obj.pop("comparative")
-                if len(self.output_obj["adverb"]):
-                    print(f'#ERR Not comparable and yet is adverb? {self.output_obj["adverb"]}')
-                    return
-                else:
+                if not len(self.output_obj["adverb"]):
                     self.output_obj.pop("adverb")
             else:
                 print(f'#ERR Did not collect enough comparatives {self.output_obj["comparative"]}')
@@ -133,8 +130,7 @@ class PolishAdjectiveParser(HTMLParser):
                 print(f'#ERR Wrong order of comparatives {self.output_obj["comparative"]}')
                 return
         else:
-            print(f'#ERR Wrong number of comparatives {self.output_obj["comparative"]}')
-            print(f'#ERR Wrong number of comparatives {self.output_obj["comparative"]}')
+            print(f'#ERR Wrong quantity of comparatives {self.output_obj["comparative"]}')
             return
 
         self.output_arr.append(self.output_obj)

@@ -124,7 +124,7 @@ def reorder_lemma_objects_in_result(result, extra_lemmas_objs):
         ordered_result.append(lobj)
 
     if result_length != len(ordered_result):
-        raise Exception(f'reorder_lemma_objects_in_result failed. Input had {result_length} lobjs but output {len(ordered_result)} and should be the same.')
+        raise Exception(f'ERR 530: Failure in reorder_lemma_objects_in_result. Input had {result_length} lobjs but output {len(ordered_result)} and should be the same.')
 
     return ordered_result
 
