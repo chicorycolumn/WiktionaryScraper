@@ -55,6 +55,8 @@ def test_PolishVerbParser(index, input_words: list, expected_path: str, use_samp
         actual = json.load(f)
         f.close()
 
+    actual.sort(key=lambda lobj: lobj["lemma"])
+    expected.sort(key=lambda lobj: lobj["lemma"])
     assert actual == expected
 
     with open(f'expected/{wordtype}/{expected_rejected_path}.json', 'r') as f:
@@ -116,6 +118,8 @@ def test_PolishAdjectiveParser(index, input_words: list, expected_path: str, use
         actual = json.load(f)
         f.close()
 
+    actual.sort(key=lambda lobj: lobj["lemma"])
+    expected.sort(key=lambda lobj: lobj["lemma"])
     assert actual == expected
 
     with open(f'expected/{wordtype}/{expected_rejected_path}.json', 'r') as f:
@@ -173,6 +177,8 @@ def test_PolishNounParser(n: int, input_words: list, expected_path: str, use_sam
         actual = json.load(f)
         f.close()
 
+    actual.sort(key=lambda lobj: lobj["lemma"])
+    expected.sort(key=lambda lobj: lobj["lemma"])
     assert actual == expected
 
     with open(f'expected/{wordtype}/{expected_rejected_path}.json', 'r') as f:
