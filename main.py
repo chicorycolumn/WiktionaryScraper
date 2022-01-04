@@ -6,39 +6,55 @@ from utils.postprocessing.common import make_ids, finalise_lemma_objects
 
 if __name__ == '__main__':
 
-    step = 2
+    step = 1
     group_number = 1
-    wordtype = "verbs"
+    wordtype = "adjectives"
     input_indexes = [0, 50]
 
-    skip_make_ids = False
-    skip_scraping = False # set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
+    skip_make_ids = False  # only set True when manually testing.
+    skip_scraping = False  # only set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
     these_headwords_only = []
 
     langcode = "pol"
 
     """
-    Step 1: scrape_word_data()
-                        output_words_99_scraped CREATED (delete unless next fxn encounters error)
+    
+    Step 1  Run this file with step = 1
+            
+            scrape_word_data()
+                        output_words_99_scraped CREATED (Only useful if following fxn encounters error)
                         rejected_words_99 CREATED
+            
                 generate_adjective()/minimise_verbs()
                         output_words_99 CREATED
                         truncated_words_99 CREATED
+                        
 
-    Step 1.5: Take truncated_words_99 and whittle translations 
-(Don't worry about strings in the translations array that start and end with brackets, they will be removed automatically.)
-(Don't worry about duplicated translations eg ["wolf", "wolf"] as these will be removed automatically.)
-              Manually add shorthand tags. 
-(Make sure include frequency tag, but no comma needed. eg "v1" or "!,g1" or "b,n,w,t1".)
-              Flag lobjs for deletion simply by adding '!' at start of lemma.
-              Move all files to output_saved.
+    Step 1.5 Move all files to output_saved.
+    
+               (i) Delete *_scraped then move all three files to output_saved.
+    
+              (ii)  Take truncated_words_99 and whittle translations
+    
+Don't worry about strings in the translations array that start and end with brackets, they will be removed automatically.
+Don't worry about duplicated translations eg ["wolf", "wolf"] as these will be removed automatically.
+              
+             (iii) Manually add shorthand tags. 
+
+Make sure include frequency tag, but no comma needed. eg "v1" or "!,g1" or "b,n,w,t1".
+Flag lobjs for deletion simply by adding '!' at start of lemma.
+              
                         truncated_words_99 MODIFIED
 
-    Step 2: finalise_lemma_objects()
+
+    Step 2  Run this file with step = 2 
+    
+            finalise_lemma_objects()
                 untruncate_lemma_objects()
-                        untruncated_words_99 CREATED (Remember, this won't have the tags expanded. Look to the other file.)
+                        untruncated_words_99 CREATED (This won't have the tags expanded. Look to the other file.)
                 expand_tags_and_topics()
                         wordtype_folder/finished_words_99 CREATED
+                        
     """
 
     head_words_ref = {
