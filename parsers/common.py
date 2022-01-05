@@ -180,7 +180,7 @@ def scrape_word_data(
         for extra_lemmas_obj in extra_lemmas_objs:
             for el in extra_lemmas_obj["extra_lemmas"]:
                 if el not in head_words + existing_lemmas:
-                    extra.append(el)
+                    extra.append(el.lower())
 
         extra = list(set(extra))
 
@@ -194,7 +194,7 @@ def scrape_word_data(
                 for extra_lemmas_obj in extra_lemmas_objs_2:
                     for el in extra_lemmas_obj["extra_lemmas"]:
                         if el not in head_words + extra + existing_lemmas:
-                            extra_2.append(el)
+                            extra_2.append(el.lower())
 
                 extra_2 = list(set(extra_2))
 

@@ -22,4 +22,22 @@ input = ['młody', 'powolny', 'wspaniały', 'niezwykły', 'główny', 'ładny', 
          'przyjemny', 'dostępny', 'ogromny', 'okropny', 'międzynarodowy', 'dobry', 'piękny', 'łatwy', 'biały',
          'prawidłowy', 'cienki', 'prosty', 'miękki', 'caly', 'znudzony', 'popularny', 'pusty', 'nerwowy', 'pechowy',
          'spokojny', 'wąski', 'zamknięty', 'odpowiedzialny', 'obecny', 'niewinny', 'wczesny', 'mokry', 'straszny',
-         'szczęśliwy', 'głupi', 'miły', 'ostry', 'śmieszny', 'daleki', 'szybki', 'końcowy', 'obcy', 'biedny']
+         'szczęśliwy', 'głupi', 'miły', 'ostry', 'śmieszny', 'daleki', 'szybki', 'końcowy', 'obcy', 'biedny',
+
+'browny',
+'bezwarunkowy',
+'trudny',
+'mierny',
+'znojny',
+'ciemny',
+'zasadniczy',
+'wolny',
+'podstawowy',
+'wrony',
+'mocny',
+'silny',
+'skoczny',
+'potrzebny',
+'poprzedni'
+
+         ]
