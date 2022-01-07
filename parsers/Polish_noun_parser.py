@@ -39,10 +39,13 @@ class PolishNounParser(HTMLParser):
             "tags": [],
             "translations": {"ENG": []},
             "id": None,
-            "usage": [],
-            "otherShapes": {},
-            "derivedTerms": [],
-            "synonyms": [],
+            "extra": {
+                "otherShapes": {},
+                "synonyms": [],
+                "antonyms": [],
+                "derivedTerms": [],
+                "usage": [],
+            },
             "inflections": {},
         }
         self.keys = []
@@ -117,6 +120,10 @@ class PolishNounParser(HTMLParser):
                 self.mode = "gettingsynonyms"
                 print('mode = "gettingsynonyms"')
 
+            if self.lasttag == "span" and data.lower() == "antonyms":
+                self.mode = "gettingantonyms"
+                print('mode = "gettingantonyms"')
+
             if data.lower() == "derived terms":
                 self.mode = "getderivedterms"
                 print('mode = "getderivedterms"')
@@ -136,13 +143,16 @@ class PolishNounParser(HTMLParser):
 
         # Adding to last output object after exiting table, which is not typical.
         if self.mode == "getderivedterms" and self.lasttag == "a" and data not in ["edit", "show ▼"]:
-            self.output_arr[-1]["derivedTerms"].append(data)
+            self.output_arr[-1]["extra"]["derivedTerms"].append(data)
 
         if self.mode == "gettingusage":
             self.current_usage = add_string(self.current_usage, data)
 
         if self.mode == "gettingsynonyms" and self.lastclass.startswith("Latn"):
-            self.output_arr[-1]["synonyms"].append(data)
+            self.output_arr[-1]["extra"]["synonyms"].append(data)
+
+        if self.mode == "gettingantonyms" and self.lastclass.startswith("Latn"):
+            self.output_arr[-1]["extra"]["antonyms"].append(data)
 
         if self.mode == "gettingdefinition":
             self.current_definition = add_string(self.current_definition, data)
@@ -152,7 +162,7 @@ class PolishNounParser(HTMLParser):
                 and data not in ["or", ",", "/"] \
                 and self.current_other_shape_key \
                 and self.current_other_shape_value:
-            self.output_obj["otherShapes"][self.current_other_shape_key] = self.current_other_shape_value
+            self.output_obj["extra"]["otherShapes"][self.current_other_shape_key] = self.current_other_shape_value
             self.current_other_shape_key = None
             self.current_other_shape_value = []
             self.mode = "getothershapes-key"
@@ -204,11 +214,11 @@ class PolishNounParser(HTMLParser):
                 self.currentclass = self.lastclass = attr[1]
 
         if self.mode == "gettingusage" and startTag in ["h1", "h2", "h3", "h4"]:
-            self.output_obj["usage"].append(self.current_usage)
+            self.output_obj["extra"]["usage"].append(self.current_usage)
             self.mode = None
             print('mode = None')
 
-        if self.mode in ["getderivedterms", "gettingsynonyms"] and startTag in ["h1", "h2", "h3", "h4"]:
+        if self.mode in ["getderivedterms", "gettingsynonyms", "gettingantonyms"] and startTag in ["h1", "h2", "h3", "h4"]:
             self.mode = None
             print('mode = None')
 
@@ -265,7 +275,7 @@ class PolishNounParser(HTMLParser):
         if self.mode == "gettingusage" and endTag == "dd":
             self.mode = "gettingdefinition"
             print('mode = "gettingdefinition"')
-            self.output_obj["usage"].append(self.current_usage)
+            self.output_obj["extra"]["usage"].append(self.current_usage)
             self.current_usage = None
 
         if self.mode == "gettingdefinition" and endTag == "li":
@@ -281,7 +291,7 @@ class PolishNounParser(HTMLParser):
 
         if self.mode and self.mode.startswith("getothershapes") and endTag == "p":
             if self.current_other_shape_key != "null" and self.current_other_shape_value:
-                self.output_obj["otherShapes"][self.current_other_shape_key] = self.current_other_shape_value
+                self.output_obj["extra"]["otherShapes"][self.current_other_shape_key] = self.current_other_shape_value
             self.current_other_shape_key = None
             self.current_other_shape_value = []
 
@@ -314,8 +324,8 @@ class PolishNounParser(HTMLParser):
 
         if self.mode != "STOP" and endTag == "body":
             for output_obj in self.output_arr:
-                if output_obj["usage"]:
-                    usages_copy = output_obj["usage"][:]
+                if output_obj["extra"]["usage"]:
+                    usages_copy = output_obj["extra"]["usage"][:]
                     for item in usages_copy:
                         cease = False
                         for string in [
@@ -326,13 +336,29 @@ class PolishNounParser(HTMLParser):
                         ]:
                             if not cease and item.startswith(string):
                                 match = re.match(fr"(?P<drop_this>{string}) (?P<keep_this>.+)", item)
-                                output_obj["synonyms"].append(match["keep_this"])
-                                output_obj["usage"].remove(item)
+                                output_obj["extra"]["synonyms"].append(match["keep_this"])
+                                output_obj["extra"]["usage"].remove(item)
                                 cease = True
 
-                for key in ["usage", "otherShapes", "derivedTerms", "synonyms"]:
-                    if not output_obj[key]:
-                        output_obj.pop(key)
+                    for item in usages_copy:
+                        cease = False
+                        for string in [
+                            "Antonyms: see Thesaurus:",
+                            "Antonym: see Thesaurus:",
+                            "Antonyms:",
+                            "Antonym:",
+                        ]:
+                            if not cease and item.startswith(string):
+                                match = re.match(fr"(?P<drop_this>{string}) (?P<keep_this>.+)", item)
+                                output_obj["extra"]["antonyms"].append(match["keep_this"])
+                                output_obj["extra"]["usage"].remove(item)
+                                cease = True
+
+                for key in ["usage", "otherShapes", "derivedTerms", "synonyms", "antonyms"]:
+                    if not output_obj["extra"][key]:
+                        output_obj["extra"].pop(key)
+                if not output_obj["extra"]:
+                    output_obj.pop("extra")
 
             self.mode = "STOP"
             print('mode = "STOP"')

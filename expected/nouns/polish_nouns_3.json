@@ -1,5 +1,134 @@
 [
-        {
+    {
+        "lemma": "prysznic",
+        "gender": "m3",
+        "tags": [
+            "inanimate"
+        ],
+        "translations": {
+            "ENG": [
+                "shower",
+                "(device for bathing)",
+                "shower",
+                "(instance of using this device in order to bathe oneself)"
+            ]
+        },
+        "id": null,
+        "extra": {
+            "synonyms": [
+                "natrysk"
+            ],
+            "derivedTerms": [
+                "prysznicowy"
+            ],
+            "usage": [
+                "Idę wziąć prysznic . ― I'm going to take a shower ."
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "prysznic",
+                "gen": [
+                    "prysznica",
+                    "prysznicu"
+                ],
+                "dat": "prysznicowi",
+                "acc": "prysznic",
+                "ins": "prysznicem",
+                "loc": "prysznicu",
+                "voc": "prysznicu"
+            },
+            "plural": {
+                "nom": "prysznice",
+                "gen": "pryszniców",
+                "dat": "prysznicom",
+                "acc": "prysznice",
+                "ins": "prysznicami",
+                "loc": "prysznicach",
+                "voc": "prysznice"
+            }
+        }
+    },
+    {
+        "lemma": "glista",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "roundworm",
+                "(animal of the phylum Nematoida)",
+                "earthworm",
+                "(colloquial)"
+            ]
+        },
+        "id": null,
+        "extra": {
+            "derivedTerms": [
+                "glistnica"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "glista",
+                "gen": "glisty",
+                "dat": "gliście",
+                "acc": "glistę",
+                "ins": "glistą",
+                "loc": "gliście",
+                "voc": "glisto"
+            },
+            "plural": {
+                "nom": "glisty",
+                "gen": "glist",
+                "dat": "glistom",
+                "acc": "glisty",
+                "ins": "glistami",
+                "loc": "glistach",
+                "voc": "glisty"
+            }
+        }
+    },
+    {
+        "lemma": "gleba",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "soil",
+                "bail wipeout ; a fall, especially during a sports activity",
+                "(colloquial)",
+                "gleba",
+                "(mycology)"
+            ]
+        },
+        "id": null,
+        "extra": {
+            "derivedTerms": [
+                "glebnąć"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "gleba",
+                "gen": "gleby",
+                "dat": "glebie",
+                "acc": "glebę",
+                "ins": "glebą",
+                "loc": "glebie",
+                "voc": "glebo"
+            },
+            "plural": {
+                "nom": "gleby",
+                "gen": "gleb",
+                "dat": "glebom",
+                "acc": "gleby",
+                "ins": "glebami",
+                "loc": "glebach",
+                "voc": "gleby"
+            }
+        }
+    },
+    {
         "lemma": "łeb",
         "gender": "m3",
         "tags": [
@@ -13,19 +142,21 @@
             ]
         },
         "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "łebek",
-                "łepek"
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "łebek",
+                    "łepek"
+                ]
+            },
+            "derivedTerms": [
+                "łebski",
+                "łepetyna",
+                "zakuty łeb",
+                "kocie łby",
+                "łeb w łeb"
             ]
         },
-        "derivedTerms": [
-            "łebski",
-            "łepetyna",
-            "zakuty łeb",
-            "kocie łby",
-            "łeb w łeb"
-        ],
         "inflections": {
             "singular": {
                 "nom": "łeb",
@@ -61,17 +192,19 @@
             ]
         },
         "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "paluszek"
-            ],
-            "augmentative": [
-                "paluch"
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "paluszek"
+                ],
+                "augmentative": [
+                    "paluch"
+                ]
+            },
+            "derivedTerms": [
+                "palcówka"
             ]
         },
-        "derivedTerms": [
-            "palcówka"
-        ],
         "inflections": {
             "singular": {
                 "nom": "palec",
@@ -104,40 +237,42 @@
             ]
         },
         "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "nóżka"
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "nóżka"
+                ],
+                "augmentative": [
+                    "nożysko"
+                ]
+            },
+            "synonyms": [
+                "niezdara"
             ],
-            "augmentative": [
-                "nożysko"
+            "derivedTerms": [
+                "nożny",
+                "beznogi",
+                "beznożny",
+                "czarnonogi",
+                "czteronogi",
+                "czteronożny",
+                "czworonogi",
+                "czworonożny",
+                "dwunogi",
+                "dwunożny",
+                "jednonogi",
+                "jednonożny",
+                "lewonożny",
+                "obunożny",
+                "prawonożny",
+                "dać nogę",
+                "nogogłaszczka",
+                "odnóże",
+                "stonoga",
+                "szczękonóże",
+                "-nóg"
             ]
         },
-        "derivedTerms": [
-            "nożny",
-            "beznogi",
-            "beznożny",
-            "czarnonogi",
-            "czteronogi",
-            "czteronożny",
-            "czworonogi",
-            "czworonożny",
-            "dwunogi",
-            "dwunożny",
-            "jednonogi",
-            "jednonożny",
-            "lewonożny",
-            "obunożny",
-            "prawonożny",
-            "dać nogę",
-            "nogogłaszczka",
-            "odnóże",
-            "stonoga",
-            "szczękonóże",
-            "-nóg"
-        ],
-        "synonyms": [
-            "niezdara"
-        ],
         "inflections": {
             "singular": {
                 "nom": "noga",
@@ -171,17 +306,19 @@
             ]
         },
         "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "piłka"
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "piłka"
+                ]
+            },
+            "derivedTerms": [
+                "opiłek",
+                "pilarz",
+                "pilnik",
+                "piłować"
             ]
         },
-        "derivedTerms": [
-            "opiłek",
-            "pilarz",
-            "pilnik",
-            "piłować"
-        ],
         "inflections": {
             "singular": {
                 "nom": "piła",
@@ -214,10 +351,12 @@
             ]
         },
         "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "piłeczka"
-            ]
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "piłeczka"
+                ]
+            }
         },
         "inflections": {
             "singular": {
@@ -269,129 +408,6 @@
                 "ins": "piłkami",
                 "loc": "piłkach",
                 "voc": "piłki"
-            }
-        }
-    },
-    {
-        "lemma": "prysznic",
-        "gender": "m3",
-        "tags": [
-            "inanimate"
-        ],
-        "translations": {
-            "ENG": [
-                "shower",
-                "(device for bathing)",
-                "shower",
-                "(instance of using this device in order to bathe oneself)"
-            ]
-        },
-        "id": null,
-        "usage": [
-            "Idę wziąć prysznic . ― I'm going to take a shower ."
-        ],
-        "derivedTerms": [
-            "prysznicowy"
-        ],
-        "synonyms": [
-            "natrysk"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "prysznic",
-                "gen": [
-                    "prysznica",
-                    "prysznicu"
-                ],
-                "dat": "prysznicowi",
-                "acc": "prysznic",
-                "ins": "prysznicem",
-                "loc": "prysznicu",
-                "voc": "prysznicu"
-            },
-            "plural": {
-                "nom": "prysznice",
-                "gen": "pryszniców",
-                "dat": "prysznicom",
-                "acc": "prysznice",
-                "ins": "prysznicami",
-                "loc": "prysznicach",
-                "voc": "prysznice"
-            }
-        }
-    },
-    {
-        "lemma": "glista",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "roundworm",
-                "(animal of the phylum Nematoida)",
-                "earthworm",
-                "(colloquial)"
-            ]
-        },
-        "id": null,
-        "derivedTerms": [
-            "glistnica"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "glista",
-                "gen": "glisty",
-                "dat": "gliście",
-                "acc": "glistę",
-                "ins": "glistą",
-                "loc": "gliście",
-                "voc": "glisto"
-            },
-            "plural": {
-                "nom": "glisty",
-                "gen": "glist",
-                "dat": "glistom",
-                "acc": "glisty",
-                "ins": "glistami",
-                "loc": "glistach",
-                "voc": "glisty"
-            }
-        }
-    },
-    {
-        "lemma": "gleba",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "soil",
-                "bail wipeout ; a fall, especially during a sports activity",
-                "(colloquial)",
-                "gleba",
-                "(mycology)"
-            ]
-        },
-        "id": null,
-        "derivedTerms": [
-            "glebnąć"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "gleba",
-                "gen": "gleby",
-                "dat": "glebie",
-                "acc": "glebę",
-                "ins": "glebą",
-                "loc": "glebie",
-                "voc": "glebo"
-            },
-            "plural": {
-                "nom": "gleby",
-                "gen": "gleb",
-                "dat": "glebom",
-                "acc": "gleby",
-                "ins": "glebami",
-                "loc": "glebach",
-                "voc": "gleby"
             }
         }
     }

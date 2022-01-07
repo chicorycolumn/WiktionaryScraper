@@ -16,20 +16,22 @@
             ]
         },
         "id": null,
-        "otherShapes": {
-            "diminutive": [
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "babka",
+                    "babcia"
+                ],
+                "augmentative": [
+                    "babsko",
+                    "babisko"
+                ]
+            },
+            "synonyms": [
                 "babka",
                 "babcia"
-            ],
-            "augmentative": [
-                "babsko",
-                "babisko"
             ]
         },
-        "synonyms": [
-            "babka",
-            "babcia"
-        ],
         "inflections": {
             "singular": {
                 "nom": "baba",
@@ -86,250 +88,6 @@
         }
     },
     {
-        "lemma": "drzwi",
-        "gender": "nonvirile",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "door",
-                "(plural only)"
-            ]
-        },
-        "id": null,
-        "usage": [
-            "Usage notes [ edit ] As with all non-masculine personal pluralia tantum in Polish, one uses collective numerals with drzwi , e.g. troje drzwi ."
-        ],
-        "otherShapes": {
-            "diminutive": [
-                "drzwiczki"
-            ]
-        },
-        "inflections": {
-            "plural": {
-                "nom": "drzwi",
-                "gen": "drzwi",
-                "dat": "drzwiom",
-                "acc": "drzwi",
-                "ins": "drzwiami",
-                "loc": "drzwiach",
-                "voc": "drzwi"
-            }
-        },
-        "lacking": true,
-        "tantumPlurale": true
-    },
-    {
-        "lemma": "dzień",
-        "gender": "m3",
-        "tags": [
-            "inanimate"
-        ],
-        "translations": {
-            "ENG": [
-                "day",
-                "daytime"
-            ]
-        },
-        "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "dzionek"
-            ]
-        },
-        "derivedTerms": [
-            "codziennie",
-            "dniówka",
-            "dziennik",
-            "dzienny"
-        ],
-        "synonyms": [
-            "doba"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "dzień",
-                "gen": "dnia",
-                "dat": "dniowi",
-                "acc": "dzień",
-                "ins": "dniem",
-                "loc": "dniu",
-                "voc": "dniu"
-            },
-            "plural": {
-                "nom": [
-                    "dni",
-                    "dnie"
-                ],
-                "gen": "dni",
-                "dat": "dniom",
-                "acc": [
-                    "dni",
-                    "dnie"
-                ],
-                "ins": "dniami",
-                "loc": "dniach",
-                "voc": [
-                    "dni",
-                    "dnie"
-                ]
-            }
-        }
-    },
-    {
-        "lemma": "małpa",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "monkey ape",
-                "(primate)",
-                "at sign",
-                "A black person, a person of African ancestry.",
-                "(derogatory ethnic slur)"
-            ]
-        },
-        "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "małpka"
-            ]
-        },
-        "derivedTerms": [
-            "małpować",
-            "małpiarnia",
-            "małpiarz",
-            "małpiatka",
-            "małpiątko",
-            "małpię",
-            "małpiszon",
-            "małpolud",
-            "małpi",
-            "małpowaty"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "małpa",
-                "gen": "małpy",
-                "dat": "małpie",
-                "acc": "małpę",
-                "ins": "małpą",
-                "loc": "małpie",
-                "voc": "małpo"
-            },
-            "plural": {
-                "nom": "małpy",
-                "gen": "małp",
-                "dat": "małpom",
-                "acc": "małpy",
-                "ins": "małpami",
-                "loc": "małpach",
-                "voc": "małpy"
-            }
-        }
-    },
-    {
-        "lemma": "miesiąc",
-        "gender": "m3",
-        "tags": [
-            "inanimate"
-        ],
-        "translations": {
-            "ENG": [
-                "month",
-                "moon quotations ▼ J.Tuwim Dziewczynom :",
-                "(poetic)"
-            ]
-        },
-        "id": null,
-        "usage": [
-            "Świec nie zapalajcie,",
-            "Bo wam miesiąc osrebrzy łagodnie świetlice."
-        ],
-        "otherShapes": {
-            "diminutive": [
-                "miesiączek"
-            ]
-        },
-        "derivedTerms": [
-            "miesięczny",
-            "miesiączka"
-        ],
-        "synonyms": [
-            "księżyc"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "miesiąc",
-                "gen": "miesiąca",
-                "dat": "miesiącowi",
-                "acc": "miesiąc",
-                "ins": "miesiącem",
-                "loc": "miesiącu",
-                "voc": "miesiącu"
-            },
-            "plural": {
-                "nom": "miesiące",
-                "gen": "miesięcy",
-                "dat": "miesiącom",
-                "acc": "miesiące",
-                "ins": "miesiącami",
-                "loc": "miesiącach",
-                "voc": "miesiące"
-            }
-        }
-    },
-    {
-        "lemma": "ser",
-        "gender": "m3",
-        "tags": [
-            "inanimate"
-        ],
-        "translations": {
-            "ENG": [
-                "cheese"
-            ]
-        },
-        "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "serek"
-            ]
-        },
-        "derivedTerms": [
-            "sernik",
-            "serny",
-            "serowaty",
-            "serowy",
-            "ser biały",
-            "ser krowi",
-            "ser pleśniowy",
-            "ser śmietankowy",
-            "ser topiony",
-            "ser żółty",
-            "ser wegański"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "ser",
-                "gen": "sera",
-                "dat": "serowi",
-                "acc": "ser",
-                "ins": "serem",
-                "loc": "serze",
-                "voc": "serze"
-            },
-            "plural": {
-                "nom": "sery",
-                "gen": "serów",
-                "dat": "serom",
-                "acc": "sery",
-                "ins": "serami",
-                "loc": "serach",
-                "voc": "sery"
-            }
-        }
-    },
-    {
         "lemma": "bałagan",
         "gender": "m3",
         "tags": [
@@ -341,19 +99,21 @@
             ]
         },
         "id": null,
-        "derivedTerms": [
-            "bałaganiarz",
-            "bałaganiara",
-            "bałaganiarstwo",
-            "bałaganienie",
-            "nabałaganienie",
-            "bałaganić",
-            "nabałaganić",
-            "bałaganiarsko"
-        ],
-        "synonyms": [
-            "nieporządek"
-        ],
+        "extra": {
+            "synonyms": [
+                "nieporządek"
+            ],
+            "derivedTerms": [
+                "bałaganiarz",
+                "bałaganiara",
+                "bałaganiarstwo",
+                "bałaganienie",
+                "nabałaganienie",
+                "bałaganić",
+                "nabałaganić",
+                "bałaganiarsko"
+            ]
+        },
         "inflections": {
             "singular": {
                 "nom": "bałagan",
@@ -444,6 +204,210 @@
         }
     },
     {
+        "lemma": "drzwi",
+        "gender": "nonvirile",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "door",
+                "(plural only)"
+            ]
+        },
+        "id": null,
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "drzwiczki"
+                ]
+            },
+            "usage": [
+                "Usage notes [ edit ] As with all non-masculine personal pluralia tantum in Polish, one uses collective numerals with drzwi , e.g. troje drzwi ."
+            ]
+        },
+        "inflections": {
+            "plural": {
+                "nom": "drzwi",
+                "gen": "drzwi",
+                "dat": "drzwiom",
+                "acc": "drzwi",
+                "ins": "drzwiami",
+                "loc": "drzwiach",
+                "voc": "drzwi"
+            }
+        },
+        "lacking": true,
+        "tantumPlurale": true
+    },
+    {
+        "lemma": "dzień",
+        "gender": "m3",
+        "tags": [
+            "inanimate"
+        ],
+        "translations": {
+            "ENG": [
+                "day",
+                "daytime"
+            ]
+        },
+        "id": null,
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "dzionek"
+                ]
+            },
+            "synonyms": [
+                "doba"
+            ],
+            "antonyms": [
+                "noc"
+            ],
+            "derivedTerms": [
+                "codziennie",
+                "dniówka",
+                "dziennik",
+                "dzienny"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "dzień",
+                "gen": "dnia",
+                "dat": "dniowi",
+                "acc": "dzień",
+                "ins": "dniem",
+                "loc": "dniu",
+                "voc": "dniu"
+            },
+            "plural": {
+                "nom": [
+                    "dni",
+                    "dnie"
+                ],
+                "gen": "dni",
+                "dat": "dniom",
+                "acc": [
+                    "dni",
+                    "dnie"
+                ],
+                "ins": "dniami",
+                "loc": "dniach",
+                "voc": [
+                    "dni",
+                    "dnie"
+                ]
+            }
+        }
+    },
+    {
+        "lemma": "małpa",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "monkey ape",
+                "(primate)",
+                "at sign",
+                "A black person, a person of African ancestry.",
+                "(derogatory ethnic slur)"
+            ]
+        },
+        "id": null,
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "małpka"
+                ]
+            },
+            "derivedTerms": [
+                "małpować",
+                "małpiarnia",
+                "małpiarz",
+                "małpiatka",
+                "małpiątko",
+                "małpię",
+                "małpiszon",
+                "małpolud",
+                "małpi",
+                "małpowaty"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "małpa",
+                "gen": "małpy",
+                "dat": "małpie",
+                "acc": "małpę",
+                "ins": "małpą",
+                "loc": "małpie",
+                "voc": "małpo"
+            },
+            "plural": {
+                "nom": "małpy",
+                "gen": "małp",
+                "dat": "małpom",
+                "acc": "małpy",
+                "ins": "małpami",
+                "loc": "małpach",
+                "voc": "małpy"
+            }
+        }
+    },
+    {
+        "lemma": "miesiąc",
+        "gender": "m3",
+        "tags": [
+            "inanimate"
+        ],
+        "translations": {
+            "ENG": [
+                "month",
+                "moon quotations ▼ J.Tuwim Dziewczynom :",
+                "(poetic)"
+            ]
+        },
+        "id": null,
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "miesiączek"
+                ]
+            },
+            "synonyms": [
+                "księżyc"
+            ],
+            "derivedTerms": [
+                "miesięczny",
+                "miesiączka"
+            ],
+            "usage": [
+                "Świec nie zapalajcie,",
+                "Bo wam miesiąc osrebrzy łagodnie świetlice."
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "miesiąc",
+                "gen": "miesiąca",
+                "dat": "miesiącowi",
+                "acc": "miesiąc",
+                "ins": "miesiącem",
+                "loc": "miesiącu",
+                "voc": "miesiącu"
+            },
+            "plural": {
+                "nom": "miesiące",
+                "gen": "miesięcy",
+                "dat": "miesiącom",
+                "acc": "miesiące",
+                "ins": "miesiącami",
+                "loc": "miesiącach",
+                "voc": "miesiące"
+            }
+        }
+    },
+    {
         "lemma": "rok",
         "gender": "m3",
         "tags": [
@@ -455,23 +419,25 @@
             ]
         },
         "id": null,
-        "usage": [
-            "w zeszłym roku ― last year",
-            "w przyszłym roku ― next year"
-        ],
-        "derivedTerms": [
-            "adjectives derived from rok",
-            "roczny",
-            "coroczny",
-            "nouns derived from rok",
-            "rocznica",
-            "rocznik",
-            "proper nouns derived from rok",
-            "Nowy Rok",
-            "verbs derived from rok",
-            "rokować",
-            "rzec"
-        ],
+        "extra": {
+            "derivedTerms": [
+                "adjectives derived from rok",
+                "roczny",
+                "coroczny",
+                "nouns derived from rok",
+                "rocznica",
+                "rocznik",
+                "proper nouns derived from rok",
+                "Nowy Rok",
+                "verbs derived from rok",
+                "rokować",
+                "rzec"
+            ],
+            "usage": [
+                "w zeszłym roku ― last year",
+                "w przyszłym roku ― next year"
+            ]
+        },
         "inflections": {
             "singular": {
                 "nom": "rok",
@@ -528,6 +494,59 @@
                 "ins": "rokami",
                 "loc": "rokach",
                 "voc": "roki"
+            }
+        }
+    },
+    {
+        "lemma": "ser",
+        "gender": "m3",
+        "tags": [
+            "inanimate"
+        ],
+        "translations": {
+            "ENG": [
+                "cheese"
+            ]
+        },
+        "id": null,
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "serek"
+                ]
+            },
+            "derivedTerms": [
+                "sernik",
+                "serny",
+                "serowaty",
+                "serowy",
+                "ser biały",
+                "ser krowi",
+                "ser pleśniowy",
+                "ser śmietankowy",
+                "ser topiony",
+                "ser żółty",
+                "ser wegański"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "ser",
+                "gen": "sera",
+                "dat": "serowi",
+                "acc": "ser",
+                "ins": "serem",
+                "loc": "serze",
+                "voc": "serze"
+            },
+            "plural": {
+                "nom": "sery",
+                "gen": "serów",
+                "dat": "serom",
+                "acc": "sery",
+                "ins": "serami",
+                "loc": "serach",
+                "voc": "sery"
             }
         }
     }

@@ -1,5 +1,44 @@
 [
     {
+        "lemma": "nadzieja",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "hope"
+            ]
+        },
+        "id": null,
+        "extra": {
+            "derivedTerms": [
+                "Nadzieja",
+                "Hope",
+                "virtue",
+                "name"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "nadzieja",
+                "gen": "nadziei",
+                "dat": "nadziei",
+                "acc": "nadzieję",
+                "ins": "nadzieją",
+                "loc": "nadziei",
+                "voc": "nadziejo"
+            },
+            "plural": {
+                "nom": "nadzieje",
+                "gen": "nadziei",
+                "dat": "nadziejom",
+                "acc": "nadzieje",
+                "ins": "nadziejami",
+                "loc": "nadziejach",
+                "voc": "nadzieje"
+            }
+        }
+    },
+    {
         "lemma": "słońce",
         "gender": "n",
         "tags": [
@@ -17,17 +56,19 @@
             ]
         },
         "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "słonko"
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "słonko"
+                ]
+            },
+            "derivedTerms": [
+                "słoneczny",
+                "przeciwsłoneczny",
+                "słonecznie",
+                "podsłońce"
             ]
         },
-        "derivedTerms": [
-            "słoneczny",
-            "przeciwsłoneczny",
-            "słonecznie",
-            "podsłońce"
-        ],
         "inflections": {
             "singular": {
                 "nom": "słońce",
@@ -61,21 +102,23 @@
             ]
         },
         "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "wieczorek"
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "wieczorek"
+                ]
+            },
+            "derivedTerms": [
+                "wieczerzać",
+                "wieczornica",
+                "wieczerza",
+                "wieczorynka",
+                "wieczorny",
+                "wieczorowy",
+                "wieczorem",
+                "dobry wieczór"
             ]
         },
-        "derivedTerms": [
-            "wieczerzać",
-            "wieczornica",
-            "wieczerza",
-            "wieczorynka",
-            "wieczorny",
-            "wieczorowy",
-            "wieczorem",
-            "dobry wieczór"
-        ],
         "inflections": {
             "singular": {
                 "nom": "wieczór",
@@ -100,139 +143,6 @@
             }
         }
     },
-        {
-        "lemma": "złodziej",
-        "gender": "m1",
-        "tags": [
-            "person"
-        ],
-        "translations": {
-            "ENG": [
-                "thief",
-                "(one who carries out theft)"
-            ]
-        },
-        "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "złodziejaszek"
-            ],
-            "feminine": [
-                "złodziejka"
-            ]
-        },
-        "derivedTerms": [
-            "złodziejstwo",
-            "złodziejski"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "złodziej",
-                "gen": "złodzieja",
-                "dat": "złodziejowi",
-                "acc": "złodzieja",
-                "ins": "złodziejem",
-                "loc": "złodzieju",
-                "voc": "złodzieju"
-            },
-            "plural": {
-                "nom": "złodzieje",
-                "gen": [
-                    "złodziei",
-                    "złodziejów"
-                ],
-                "dat": "złodziejom",
-                "acc": [
-                    "złodziei",
-                    "złodziejów"
-                ],
-                "ins": "złodziejami",
-                "loc": "złodziejach",
-                "voc": "złodzieje"
-            }
-        }
-    },
-        {
-        "lemma": "owca",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "sheep ovine",
-                "(Ovis gen. et spp.)",
-                "ewe",
-                "(female sheep)"
-            ]
-        },
-        "id": null,
-        "otherShapes": {
-            "diminutive": [
-                "owieczka"
-            ]
-        },
-        "derivedTerms": [
-            "owczarz",
-            "owczę",
-            "owczy"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "owca",
-                "gen": "owcy",
-                "dat": "owcy",
-                "acc": "owcę",
-                "ins": "owcą",
-                "loc": "owcy",
-                "voc": "owco"
-            },
-            "plural": {
-                "nom": "owce",
-                "gen": "owiec",
-                "dat": "owcom",
-                "acc": "owce",
-                "ins": "owcami",
-                "loc": "owcach",
-                "voc": "owce"
-            }
-        }
-    },
-    {
-        "lemma": "nadzieja",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "hope"
-            ]
-        },
-        "id": null,
-        "derivedTerms": [
-            "Nadzieja",
-            "Hope",
-            "virtue",
-            "name"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "nadzieja",
-                "gen": "nadziei",
-                "dat": "nadziei",
-                "acc": "nadzieję",
-                "ins": "nadzieją",
-                "loc": "nadziei",
-                "voc": "nadziejo"
-            },
-            "plural": {
-                "nom": "nadzieje",
-                "gen": "nadziei",
-                "dat": "nadziejom",
-                "acc": "nadzieje",
-                "ins": "nadziejami",
-                "loc": "nadziejach",
-                "voc": "nadzieje"
-            }
-        }
-    },
     {
         "lemma": "sierpień",
         "gender": "m3",
@@ -246,9 +156,11 @@
             ]
         },
         "id": null,
-        "derivedTerms": [
-            "sierpniowy"
-        ],
+        "extra": {
+            "derivedTerms": [
+                "sierpniowy"
+            ]
+        },
         "inflections": {
             "singular": {
                 "nom": "sierpień",
@@ -285,9 +197,11 @@
             ]
         },
         "id": null,
-        "derivedTerms": [
-            "przeciwbólowy"
-        ],
+        "extra": {
+            "derivedTerms": [
+                "przeciwbólowy"
+            ]
+        },
         "inflections": {
             "singular": {
                 "nom": "ból",
@@ -313,6 +227,60 @@
         }
     },
     {
+        "lemma": "złodziej",
+        "gender": "m1",
+        "tags": [
+            "person"
+        ],
+        "translations": {
+            "ENG": [
+                "thief",
+                "(one who carries out theft)"
+            ]
+        },
+        "id": null,
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "złodziejaszek"
+                ],
+                "feminine": [
+                    "złodziejka"
+                ]
+            },
+            "derivedTerms": [
+                "złodziejstwo",
+                "złodziejski"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "złodziej",
+                "gen": "złodzieja",
+                "dat": "złodziejowi",
+                "acc": "złodzieja",
+                "ins": "złodziejem",
+                "loc": "złodzieju",
+                "voc": "złodzieju"
+            },
+            "plural": {
+                "nom": "złodzieje",
+                "gen": [
+                    "złodziei",
+                    "złodziejów"
+                ],
+                "dat": "złodziejom",
+                "acc": [
+                    "złodziei",
+                    "złodziejów"
+                ],
+                "ins": "złodziejami",
+                "loc": "złodziejach",
+                "voc": "złodzieje"
+            }
+        }
+    },
+    {
         "lemma": "wartość",
         "gender": "f",
         "tags": [],
@@ -323,10 +291,12 @@
             ]
         },
         "id": null,
-        "derivedTerms": [
-            "wartościowy",
-            "wartościować"
-        ],
+        "extra": {
+            "derivedTerms": [
+                "wartościowy",
+                "wartościować"
+            ]
+        },
         "inflections": {
             "singular": {
                 "nom": "wartość",
@@ -349,6 +319,52 @@
         }
     },
     {
+        "lemma": "owca",
+        "gender": "f",
+        "tags": [],
+        "translations": {
+            "ENG": [
+                "sheep ovine",
+                "(Ovis gen. et spp.)",
+                "ewe",
+                "(female sheep)"
+            ]
+        },
+        "id": null,
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "owieczka"
+                ]
+            },
+            "derivedTerms": [
+                "owczarz",
+                "owczę",
+                "owczy"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "owca",
+                "gen": "owcy",
+                "dat": "owcy",
+                "acc": "owcę",
+                "ins": "owcą",
+                "loc": "owcy",
+                "voc": "owco"
+            },
+            "plural": {
+                "nom": "owce",
+                "gen": "owiec",
+                "dat": "owcom",
+                "acc": "owce",
+                "ins": "owcami",
+                "loc": "owcach",
+                "voc": "owce"
+            }
+        }
+    },
+    {
         "lemma": "suszarka",
         "gender": "f",
         "tags": [],
@@ -363,9 +379,11 @@
             ]
         },
         "id": null,
-        "usage": [
-            "suszarka bębnowa ― tumble dryer"
-        ],
+        "extra": {
+            "usage": [
+                "suszarka bębnowa ― tumble dryer"
+            ]
+        },
         "inflections": {
             "singular": {
                 "nom": "suszarka",
@@ -397,11 +415,13 @@
             ]
         },
         "id": null,
-        "derivedTerms": [
-            "schodowy",
-            "klatka schodowa",
-            "ruchome schody"
-        ],
+        "extra": {
+            "derivedTerms": [
+                "schodowy",
+                "klatka schodowa",
+                "ruchome schody"
+            ]
+        },
         "inflections": {
             "plural": {
                 "nom": "schody",
