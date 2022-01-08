@@ -4,6 +4,45 @@ from datetime import datetime
 import re
 
 
+def process_extra(output_obj):
+    if output_obj["extra"]["usage"]:
+        usages_copy = output_obj["extra"]["usage"][:]
+        for item in usages_copy:
+            cease = False
+            for string in [
+                "Synonyms: see Thesaurus:",
+                "Synonym: see Thesaurus:",
+                "Synonyms:",
+                "Synonym:",
+            ]:
+                if not cease and item.startswith(string):
+                    match = re.match(fr"(?P<drop_this>{string}) (?P<keep_this>.+)", item)
+                    print("Move this from Usage to Synonyms:", match["keep_this"])
+                    output_obj["extra"]["synonyms"].append(match["keep_this"])
+                    output_obj["extra"]["usage"].remove(item)
+                    cease = True
+
+        for item in usages_copy:
+            cease = False
+            for string in [
+                "Antonyms: see Thesaurus:",
+                "Antonym: see Thesaurus:",
+                "Antonyms:",
+                "Antonym:",
+            ]:
+                if not cease and item.startswith(string):
+                    match = re.match(fr"(?P<drop_this>{string}) (?P<keep_this>.+)", item)
+                    print("Move this from Usage to Antonyms:", match["keep_this"])
+                    output_obj["extra"]["antonyms"].append(match["keep_this"])
+                    output_obj["extra"]["usage"].remove(item)
+                    cease = True
+
+    for key in ["usage", "otherShapes", "derivedTerms", "synonyms", "antonyms"]:
+        if not output_obj["extra"][key]:
+            output_obj["extra"].pop(key)
+    if not output_obj["extra"]:
+        output_obj.pop("extra")
+
 def add_value_at_keychain(value, keychain, dict):
     for index, key in enumerate(keychain):
         if key not in dict:

@@ -3,7 +3,7 @@ import re
 
 from utils.scraping.Polish_dicts import case_ref, gender_translation_ref, gender_to_tags_ref
 from utils.scraping.common import orth, superstrip, add_string, brackets_to_end, trim_around_brackets, \
-    split_definition_to_list
+    split_definition_to_list, process_extra
 
 
 class PolishNounParser(HTMLParser):
@@ -28,7 +28,7 @@ class PolishNounParser(HTMLParser):
     ignorable_broad = ignorable_narrow + ["or", "and"]
 
     def reset_for_new_table(self):
-        print("\n", "reset_for_new_table", "\n")
+        print("reset_for_new_table", "\n")
         self.mode = None
         print('mode = None')
         self.el_count = 0
@@ -56,7 +56,7 @@ class PolishNounParser(HTMLParser):
         self.current_other_shape_value = []
 
     def reset_for_new_word(self):
-        print("\n", "reset_for_new_table", "\n")
+        print("reset_for_new_table", "\n")
         self.reset_for_new_table()
         self.output_arr = []
         self.keys = []
@@ -64,7 +64,7 @@ class PolishNounParser(HTMLParser):
         print('location = None')
 
     def add_lobj_and_reset(self):
-        print("\n", "add_lobj_and_reset", "\n")
+        print("add_lobj_and_reset", "\n")
 
         self.location = "insideword"
         print('location = "insideword"')
@@ -95,12 +95,8 @@ class PolishNounParser(HTMLParser):
                 and self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"] \
                 and self.lasttag == "span" \
                 and data.lower() == "noun":
-
             self.location = "insideword"
             print('location = "insideword"')
-
-            self.mode = "getaspect"
-            print('mode = "getaspect"')
 
         if self.location == "insideword":
             if self.lasttag in ["h1", "h2", "h3", "h4", "h5"] or self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
@@ -324,41 +320,7 @@ class PolishNounParser(HTMLParser):
 
         if self.mode != "STOP" and endTag == "body":
             for output_obj in self.output_arr:
-                if output_obj["extra"]["usage"]:
-                    usages_copy = output_obj["extra"]["usage"][:]
-                    for item in usages_copy:
-                        cease = False
-                        for string in [
-                            "Synonyms: see Thesaurus:",
-                            "Synonym: see Thesaurus:",
-                            "Synonyms:",
-                            "Synonym:",
-                        ]:
-                            if not cease and item.startswith(string):
-                                match = re.match(fr"(?P<drop_this>{string}) (?P<keep_this>.+)", item)
-                                output_obj["extra"]["synonyms"].append(match["keep_this"])
-                                output_obj["extra"]["usage"].remove(item)
-                                cease = True
-
-                    for item in usages_copy:
-                        cease = False
-                        for string in [
-                            "Antonyms: see Thesaurus:",
-                            "Antonym: see Thesaurus:",
-                            "Antonyms:",
-                            "Antonym:",
-                        ]:
-                            if not cease and item.startswith(string):
-                                match = re.match(fr"(?P<drop_this>{string}) (?P<keep_this>.+)", item)
-                                output_obj["extra"]["antonyms"].append(match["keep_this"])
-                                output_obj["extra"]["usage"].remove(item)
-                                cease = True
-
-                for key in ["usage", "otherShapes", "derivedTerms", "synonyms", "antonyms"]:
-                    if not output_obj["extra"][key]:
-                        output_obj["extra"].pop(key)
-                if not output_obj["extra"]:
-                    output_obj.pop("extra")
+                process_extra(output_obj)
 
             self.mode = "STOP"
             print('mode = "STOP"')
