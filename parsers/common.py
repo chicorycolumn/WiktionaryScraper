@@ -89,9 +89,9 @@ def trigger_parser(head_words_raw, parser, use_sample, language, wordtype, resul
                     sleep(delay_seconds / 2)
 
     for lobj in result:
-        if "otherShapes" in lobj:
+        if "extra" in lobj and "otherShapes" in lobj["extra"]:
             extra_lemmas_object = {"lemma": lobj["lemma"], "extra_lemmas": [], "lemma_objects": []}
-            for other_shapes_key, other_shapes_values in lobj["otherShapes"].items():
+            for other_shapes_key, other_shapes_values in lobj["extra"]["otherShapes"].items():
                 for other_shapes_value in other_shapes_values:
 
                     if "się" in other_shapes_value:

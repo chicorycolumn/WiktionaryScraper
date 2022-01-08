@@ -214,7 +214,19 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
         else:
             alphabetical_stag_chars.append(stag_char)
 
-    shorthand_tags = "".join(alphabetical_stag_chars).split(",")
+    stags = "".join(alphabetical_stag_chars).split(",")
+    literal_tags = []
+    literal_topics = []
+    shorthand_tags = []
+
+    for stag in stags:
+        if stag[0] == "*":
+            if stag[1] == "*":
+                literal_topics.append(stag[2:])
+            else:
+                literal_tags.append(stag[1:])
+        else:
+            shorthand_tags.append(stag)
 
     tags = recursively_expand_tags(shorthand_tags, ref) if shorthand_tags else []
 
@@ -227,6 +239,8 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
         else:
             write_todo(f'Unknown shorthand tag "{stag}" on lemma object "{lemma_object["lemma"]}".')
 
+    tags.extend(literal_tags)
+    topics.extend(literal_topics)
     tags.sort()
     topics.sort()
 
