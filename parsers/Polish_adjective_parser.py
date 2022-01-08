@@ -59,7 +59,7 @@ class PolishAdjectiveParser(HTMLParser):
         # self.inflections = {}
         self.output_obj = {
             "lemma": [],
-            "translations": [],
+            "translations": {"ENG": []},
             "comparative_type": None,
             "pluvirnom_lemma": [],
             "adverb": [],
@@ -100,11 +100,9 @@ class PolishAdjectiveParser(HTMLParser):
         self.output_obj.pop("translations")
         self.output_obj["translations"] = translations
 
-        if len(self.output_obj["translations"]) > 1:
-            self.output_obj["translations_additional"] = self.output_obj["translations"][1:]
-            self.output_obj["translations"] = self.output_obj["translations"][0:1]
-
-        self.output_obj["translations"] = {"ENG": self.output_obj["translations"]}
+        if len(self.output_obj["translations"]["ENG"]) > 1:
+            self.output_obj["translations_additional"] = self.output_obj["translations"]["ENG"][1:]
+            self.output_obj["translations"]["ENG"] = self.output_obj["translations"]["ENG"][0:1]
 
         if len(self.output_obj["comparative"]) == 0:
             if self.output_obj["comparative_type"] == 0:
@@ -166,7 +164,7 @@ class PolishAdjectiveParser(HTMLParser):
 
             if self.mode == "gettingtranslations":
                 data_arr = data.split(",")
-                self.output_obj["translations"].extend([w for w in data_arr if w not in self.ignorable_translations])
+                self.output_obj["translations"]["ENG"].extend([w for w in data_arr if w not in self.ignorable_translations])
 
             if self.mode == "gettingadverb":
                 if self.lasttag == "i" and data.lower() != "adverb":
