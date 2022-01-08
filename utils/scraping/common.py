@@ -52,12 +52,18 @@ def process_extra(output_obj):
     for key in ["usage", "otherShapes", "derivedTerms", "synonyms", "antonyms"]:
         if not output_obj["extra"][key]:
             output_obj["extra"].pop(key)
-        else:
-            output_obj["extra"][key] = list(set(output_obj["extra"][key]))
+        elif type(output_obj["extra"][key]) is list:
             arr = []
-            for el in output_obj["extra"][key]:
-                arr.extend(el.split(" "))
+            for str in output_obj["extra"][key]:
+                if str not in arr:
+                    arr.append(str)
             output_obj["extra"][key] = arr
+
+            arr = []
+            if key not in ["usage", "derivedTerms"]:
+                for el in output_obj["extra"][key]:
+                    arr.extend(el.split(" "))
+                output_obj["extra"][key] = arr
 
     if not output_obj["extra"]:
         output_obj.pop("extra")
