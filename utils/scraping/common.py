@@ -6,6 +6,18 @@ import re
 
 def process_extra(output_obj):
     if output_obj["extra"]["usage"]:
+
+        adjusted_usage_arr = []
+        for str in output_obj["extra"]["usage"]:
+            mat = re.match(r".+(Antonym|Synonym).+", str)
+            match = re.search(r"(?P<first_bit>.+)(?P<second_bit>(Antonym|Synonym).+)", str)
+
+            if mat:
+                adjusted_usage_arr.extend([match["first_bit"].strip(), match["second_bit"].strip()])
+            else:
+                adjusted_usage_arr.append(str.strip())
+        output_obj["extra"]["usage"] = adjusted_usage_arr
+
         usages_copy = output_obj["extra"]["usage"][:]
         for item in usages_copy:
             cease = False
@@ -40,6 +52,13 @@ def process_extra(output_obj):
     for key in ["usage", "otherShapes", "derivedTerms", "synonyms", "antonyms"]:
         if not output_obj["extra"][key]:
             output_obj["extra"].pop(key)
+        else:
+            output_obj["extra"][key] = list(set(output_obj["extra"][key]))
+            arr = []
+            for el in output_obj["extra"][key]:
+                arr.extend(el.split(" "))
+            output_obj["extra"][key] = arr
+
     if not output_obj["extra"]:
         output_obj.pop("extra")
 

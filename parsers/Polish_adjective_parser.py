@@ -1,7 +1,8 @@
 from copy import deepcopy
 from html.parser import HTMLParser
 
-from utils.scraping.common import orth, add_string, brackets_to_end, trim_around_brackets, split_definition_to_list
+from utils.scraping.common import orth, add_string, brackets_to_end, trim_around_brackets, split_definition_to_list, \
+    process_extra
 
 """
 Do the language heading detection as normal.
@@ -137,11 +138,7 @@ class PolishAdjectiveParser(HTMLParser):
         if "adverb" in self.output_obj and not self.output_obj["adverb"]:
             self.output_obj.pop("adverb")
 
-        for key in ["usage", "otherShapes", "derivedTerms", "synonyms", "antonyms"]:
-            if not self.output_obj["extra"][key]:
-                self.output_obj["extra"].pop(key)
-        if not self.output_obj["extra"]:
-            self.output_obj.pop("extra")
+        process_extra(self.output_obj)
 
         self.output_arr.append(self.output_obj)
         self.location = None
