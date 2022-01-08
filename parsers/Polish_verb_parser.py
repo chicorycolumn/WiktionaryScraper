@@ -96,12 +96,18 @@ class PolishVerbParser(HTMLParser):
         else:
             for out_obj in self.output_arr:
                 if "diff_word_same_conj" in out_obj and out_obj["diff_word_same_conj"]:
-                    out_obj["derivedTerms"] = copy.deepcopy(self.output_obj["derivedTerms"])
+                    out_obj["extra"]["derivedTerms"] = copy.deepcopy(self.output_obj["extra"]["derivedTerms"])
                     out_obj["inflections"] = copy.deepcopy(self.output_obj["inflections"])
                     out_obj["allohomInfo"] = None
                     write_todo(f'At least two lobjs of "{out_obj["lemma"]}" will need allohomInfo added.')
                     self.output_obj["allohomInfo"] = None
                     out_obj.pop("diff_word_same_conj")
+
+        for key in ["derivedTerms", "otherShapes"]:
+            if not self.output_obj["extra"][key]:
+                self.output_obj["extra"].pop(key)
+        if not self.output_obj["extra"]:
+            self.output_obj.pop("extra")
 
         self.output_arr.append(self.output_obj)
         self.reset_for_new_table()
@@ -111,10 +117,12 @@ class PolishVerbParser(HTMLParser):
             "lemma": None,
             "aspect": [],
             "secondaryAspects": [],
-            "otherShapes": {},
+            "extra": {
+                "otherShapes": {},
+                "derivedTerms": []
+            },
             "tags": "xxxxxxxxx",
             "translations": {"ENG": []},
-            "derivedTerms": []
         }
 
     def add_new_row_obj(self):
@@ -291,7 +299,7 @@ class PolishVerbParser(HTMLParser):
             if self.mode == "getaspect":
                 if startTag in ["i", "ol"]:
                     if self.current_otherShapes_value:
-                        self.output_obj["otherShapes"][self.current_otherShapes_key] = self.current_otherShapes_value[:]
+                        self.output_obj["extra"]["otherShapes"][self.current_otherShapes_key] = self.current_otherShapes_value[:]
                         self.current_otherShapes_key = None
                         self.current_otherShapes_value = []
                     elif self.current_otherShapes_key:
@@ -356,7 +364,7 @@ class PolishVerbParser(HTMLParser):
             if "further reading" not in derived_term.lower() and f"in {self.selected_lang} dictionaries" not in derived_term.lower():
                 self.current_derived_term = []
                 if derived_term:
-                    self.output_obj["derivedTerms"].append(derived_term)
+                    self.output_obj["extra"]["derivedTerms"].append(derived_term)
 
         if self.mode == "gettingdefinition" and endTag == "li":
             # definition = brackets_to_end(trim_around_brackets(self.current_definition))

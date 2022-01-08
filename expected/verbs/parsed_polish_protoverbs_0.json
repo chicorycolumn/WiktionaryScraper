@@ -1,26 +1,28 @@
 [
     {
         "lemma": "pisywać",
-        "aspect": "imperfective",
-        "secondaryAspects": [
-            "indeterminate",
-            "frequentative"
-        ],
-        "otherShapes": {
+        "extra": {
+                    "otherShapes": {
             "perfective": [
                 "napisać"
             ],
             "imperfective": [
                 "pisać"
             ]
+        }
         },
+        "aspect": "imperfective",
+        "secondaryAspects": [
+            "indeterminate",
+            "frequentative"
+        ],
+
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
                 "( transitive ) to write occasionally"
             ]
         },
-        "derivedTerms": [],
         "inflections": {
             "infinitive": {
                 "singular": {

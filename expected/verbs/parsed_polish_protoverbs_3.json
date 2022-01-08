@@ -5,6 +5,7 @@
         "secondaryAspects": [
             "determinate"
         ],
+    "extra": {
         "otherShapes": {
             "perfective": [
                 "przeczytać"
@@ -12,14 +13,7 @@
             "frequentative": [
                 "czytywać"
             ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to read Tomek czyta interesującą książkę. ― Tomek is reading an interesting book."
-            ]
-        },
-        "derivedTerms": [
+        },        "derivedTerms": [
             "wczytywać impf wczytać pf",
             "wyczytywać impf wyczytać pf",
             "sczytywać impf sczytać pf",
@@ -33,7 +27,14 @@
             "zaczytywać impf zaczytać pf",
             "naczytać pf",
             "rozczytywać impf rozczytać pf"
-        ],
+        ]
+    },
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "to read Tomek czyta interesującą książkę. ― Tomek is reading an interesting book."
+            ]
+        },
         "inflections": {
             "infinitive": {
                 "singular": {

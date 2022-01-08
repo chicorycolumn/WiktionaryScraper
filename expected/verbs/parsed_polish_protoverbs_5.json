@@ -3,11 +3,16 @@
         "lemma": "badać",
         "aspect": "imperfective",
         "secondaryAspects": [],
+    "extra": {
         "otherShapes": {
             "perfective": [
                 "zbadać"
             ]
-        },
+        },         "derivedTerms": [
+            "( nouns ) badacz badaczka badanie",
+            "( verb ) bóść"
+        ]
+    },
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -15,10 +20,6 @@
                 "( reflexive ) to be examined"
             ]
         },
-        "derivedTerms": [
-            "( nouns ) badacz badaczka badanie",
-            "( verb ) bóść"
-        ],
         "inflections": {
             "infinitive": {
                 "singular": {
@@ -333,11 +334,15 @@
         "lemma": "zbadać",
         "aspect": "perfective",
         "secondaryAspects": [],
+    "extra": {
         "otherShapes": {
             "imperfective": [
                 "badać"
             ]
-        },
+        },        "derivedTerms": [
+            "( nouns ) badacz badaczka badanie"
+        ]
+    },
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -345,9 +350,6 @@
                 "( reflexive ) to be examined"
             ]
         },
-        "derivedTerms": [
-            "( nouns ) badacz badaczka badanie"
-        ],
         "inflections": {
             "infinitive": {
                 "singular": {
@@ -568,6 +570,7 @@
         "lemma": "zobaczyć",
         "aspect": "perfective",
         "secondaryAspects": [],
+    "extra": {
         "otherShapes": {
             "imperfective": [
                 "widzieć"
@@ -575,7 +578,10 @@
             "indeterminate": [
                 "widywać"
             ]
-        },
+        },         "derivedTerms": [
+            "do zobaczenia"
+        ]
+    },
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -584,9 +590,6 @@
                 "( reflexive ) to see one another, to meet"
             ]
         },
-        "derivedTerms": [
-            "do zobaczenia"
-        ],
         "inflections": {
             "infinitive": {
                 "singular": {
@@ -807,6 +810,7 @@
         "lemma": "widzieć",
         "aspect": "imperfective",
         "secondaryAspects": [],
+    "extra": {
         "otherShapes": {
             "perfective": [
                 "zobaczyć"
@@ -814,16 +818,7 @@
             "indeterminate": [
                 "widywać"
             ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "( transitive ) to see (perceive with the eyes)",
-                "( reflexive ) to see oneself",
-                "( reflexive ) to see one another, to meet"
-            ]
-        },
-        "derivedTerms": [
+        },         "derivedTerms": [
             "odwidzieć pf",
             "przewidzieć pf przewidywać impf",
             "przywidzieć pf przywidywać impf",
@@ -832,7 +827,16 @@
             "( nouns ) wid m widmo n widok m widownia f widz m widziadło n",
             "( adjectives ) widoczny widomy widzialny",
             "( adverb ) widocznie"
-        ],
+        ]
+    },
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "( transitive ) to see (perceive with the eyes)",
+                "( reflexive ) to see oneself",
+                "( reflexive ) to see one another, to meet"
+            ]
+        },
         "inflections": {
             "infinitive": {
                 "singular": {
@@ -1150,6 +1154,7 @@
             "indeterminate",
             "frequentative"
         ],
+    "extra": {
         "otherShapes": {
             "perfective": [
                 "zobaczyć"
@@ -1157,7 +1162,8 @@
             "imperfective": [
                 "widzieć"
             ]
-        },
+        }
+    },
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1165,7 +1171,6 @@
                 "( reflexive ) to see one another, to meet"
             ]
         },
-        "derivedTerms": [],
         "inflections": {
             "infinitive": {
                 "singular": {
