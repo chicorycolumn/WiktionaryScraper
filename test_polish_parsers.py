@@ -71,20 +71,19 @@ def test_PolishVerbParser(index, input_words: list, expected_path: str, use_samp
 
 
 @pytest.mark.parametrize("index,input_words,expected_path,use_sample,skip_extras", [
-    (1, ["narodowy"], "polish_protoadjectives_0", True, True),  # type 0
-    (2, ["stary"], "polish_protoadjectives_1", True, True),  # type 1
-    (3, ["niebieski"], "polish_protoadjectives_2", True, True),  # type 2
-    (4, ["czerwony"], "polish_protoadjectives_3", True, True),  # type 3
-    (5, ["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True, True),  # types 0-3
-    (6, ["czerwony", "BADWORD", "stary", "narodowy"], "polish_protoadjectives_5", False, True),  # contains failing word
-    (7, ["czerwony", "kobieta", "stary", "narodowy"], "polish_protoadjectives_6", False, True),  # contains noun
-    (8, ["zielony"], "polish_protoadjectives_7", False, True),  # type 3
-    (9, ["średniowieczny", "śródziemnomorski"], "polish_protoadjectives_8", True, True),  # less common adjective
-    (10, ["czerwony", "stary", "narodowy", "niebieski", "zielony"],
+    (0, ["narodowy"], "polish_protoadjectives_0", True, True),  # type 0
+    (1, ["stary"], "polish_protoadjectives_1", True, True),  # type 1
+    (2, ["niebieski"], "polish_protoadjectives_2", True, True),  # type 2
+    (3, ["czerwony"], "polish_protoadjectives_3", True, True),  # type 3
+    (4, ["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True, True),  # types 0-3
+    (5, ["czerwony", "BADWORD", "stary", "narodowy"], "polish_protoadjectives_5", False, True),  # contains failing word
+    (6, ["czerwony", "kobieta", "stary", "narodowy"], "polish_protoadjectives_6", False, True),  # contains noun
+    (8, ["średniowieczny", "śródziemnomorski"], "polish_protoadjectives_8", True, True),  # less common adjective
+    (9, ["czerwony", "stary", "narodowy", "niebieski"],
      "polish_protoadjectives_9", True, False),  # use extras if present (though none are)
-    (11, ["główny", "bezpłatny", "konieczny", "cały", "kiepski", "martwy", "tradycyjny", "ostateczny", "następny"],
+    (10, ["główny", "bezpłatny", "konieczny", "cały", "kiepski", "martwy", "tradycyjny", "ostateczny", "następny"],
      "polish_protoadjectives_10", False, True),  # loaded_html_but_failed_when_reading
-    (12, ["zgniły", "wrażliwy", "głodny", "zmęczony", "słodki", "gotowy"],
+    (11, ["zgniły", "wrażliwy", "głodny", "zmęczony", "słodki", "gotowy"],
      "polish_protoadjectives_11", False, True),  # loaded_and_read_html_but_failed_to_create_output
 ])
 def test_PolishAdjectiveParser(index, input_words: list, expected_path: str, use_sample: bool, skip_extras: bool,
