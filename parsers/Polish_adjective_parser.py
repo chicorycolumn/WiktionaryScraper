@@ -2,7 +2,7 @@ from copy import deepcopy
 from html.parser import HTMLParser
 
 from utils.scraping.common import orth, add_string, brackets_to_end, trim_around_brackets, split_definition_to_list, \
-    process_extra
+    process_extra, format_brackets_for_translation_strings
 
 """
 Do the language heading detection as normal.
@@ -140,7 +140,7 @@ class PolishAdjectiveParser(HTMLParser):
 
         process_extra(self.output_obj)
 
-        self.output_obj["translations"]["ENG"] = [str for str in self.output_obj["translations"]["ENG"] if str != "relational"]
+        self.output_obj["translations"]["ENG"] = format_brackets_for_translation_strings(self.output_obj["translations"]["ENG"])
 
         self.output_arr.append(self.output_obj)
         self.location = None
@@ -151,6 +151,10 @@ class PolishAdjectiveParser(HTMLParser):
 
     def handle_data(self, data):
         data = orth(data)
+
+        if data and self.location == "insideword" and self.mode == "gettingdefinition":
+            self.current_definition.append(data)
+        # Translations will make use of brackets, so comes before subsequent return statement.
 
         if not data or data in self.ignorable_narrow + ["(", ")"]:
             return
@@ -170,9 +174,6 @@ class PolishAdjectiveParser(HTMLParser):
 
             if self.mode == "gettinglemma":
                 self.output_obj["lemma"].append(data)
-
-            if self.mode == "gettingdefinition":
-                self.current_definition.append(f"({data})" if self.lasttag == "span" else data)
 
             if self.mode == "gettingadverb":
                 if self.lasttag == "i" and data.lower() != "adverb":

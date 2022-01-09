@@ -4,6 +4,26 @@ from datetime import datetime
 import re
 
 
+def format_brackets_for_translation_strings(input):
+    res = []
+    in_parentheses = False
+    parenthetical_strings = []
+    for str in input:
+        if not re.match(r"[()a-zA-Z0-9]+", str):
+            continue
+        if str == "(":
+            in_parentheses = True
+        elif str == ")":
+            in_parentheses = False
+            res.append(f"({' '.join(parenthetical_strings)})")
+            parenthetical_strings = []
+        elif in_parentheses:
+            parenthetical_strings.append(str)
+        else:
+            res.append(str)
+    return res
+
+
 def process_extra(output_obj):
     if output_obj["extra"]["usage"]:
 
