@@ -1,83 +1,83 @@
 [
-  {
-    "tags": "xxxxxxxxx",
-    "lemma": "czerwony",
-    "translations": {
-      "ENG": [
-        "red"
-      ]
+    {
+        "translations": {
+            "ENG": [
+                "red"
+            ]
+        },
+        "comparative_type": 3,
+        "pluvirnom_lemma": [
+            "czerwoni"
+        ],
+        "adverb": [
+            "czerwono"
+        ],
+        "comparative": "czerwieńszy",
+        "lemma": "czerwony",
+        "tags": "xxxxxxxxx"
     },
-    "comparative_type": 3,
-    "pluvirnom_lemma": [
-      "czerwoni"
-    ],
-    "adverb": [
-      "czerwono"
-    ],
-    "comparative": "czerwieńszy"
-  },
-  {
-    "tags": "xxxxxxxxx",
-    "lemma": "niebieski",
-    "translations": {
-      "ENG": [
-        "blue"
-      ]
+    {
+        "translations": {
+            "ENG": [
+                "blue",
+                "dated",
+                "celestial",
+                "heraldry",
+                "azure"
+            ]
+        },
+        "comparative_type": 2,
+        "pluvirnom_lemma": [
+            "niebiescy"
+        ],
+        "adverb": [
+            "niebiesko"
+        ],
+        "extra": {
+            "synonyms": [
+                "niebiański"
+            ]
+        },
+        "lemma": "niebieski",
+        "tags": "xxxxxxxxx"
     },
-    "translations_additional": [
-      "dated",
-      "celestial",
-      "Synonym:",
-      "niebiański",
-      "heraldry",
-      "azure"
-    ],
-    "comparative_type": 2,
-    "pluvirnom_lemma": [
-      "niebiescy"
-    ],
-    "adverb": [
-      "niebiesko"
-    ]
-  },
-  {
-    "tags": "xxxxxxxxx",
-    "lemma": "stary",
-    "translations": {
-      "ENG": [
-        "old"
-      ]
+    {
+        "translations": {
+            "ENG": [
+                "old",
+                "(in the late stage of life)",
+                "old",
+                "(having existed for a long time, or having known something for a long time)"
+            ]
+        },
+        "comparative_type": 1,
+        "pluvirnom_lemma": [
+            "starzy"
+        ],
+        "adverb": [
+            "staro"
+        ],
+        "comparative": "starszy",
+        "extra": {
+            "antonyms": [
+                "młody",
+                "nowy"
+            ]
+        },
+        "lemma": "stary",
+        "tags": "xxxxxxxxx"
     },
-    "translations_additional": [
-      "in the late stage of life",
-      "Antonym:",
-      "młody",
-      "old",
-      "having existed for a long time",
-      " or having known something for a long time",
-      "Antonym:",
-      "nowy"
-    ],
-    "comparative_type": 1,
-    "pluvirnom_lemma": [
-      "starzy"
-    ],
-    "adverb": [
-      "staro"
-    ],
-    "comparative": "starszy"
-  },
-  {
-    "tags": "xxxxxxxxx",
-    "lemma": "narodowy",
-    "translations": {
-      "ENG": [
-        "national"
-      ]
-    },
-    "comparative_type": 0,
-    "pluvirnom_lemma": [
-      "narodowi"
-    ]
-  }
+    {
+        "translations": {
+            "ENG": [
+                "national"
+            ]
+        },
+        "comparative_type": 0,
+        "pluvirnom_lemma": [
+            "narodowi"
+        ],
+        "lemma": "narodowy",
+        "tags": "xxxxxxxxx"
+    }
 ]

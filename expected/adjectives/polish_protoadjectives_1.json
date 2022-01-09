@@ -1,29 +1,28 @@
 [
-  {
-    "tags": "xxxxxxxxx",
-    "lemma": "stary",
-    "translations": {
-      "ENG": [
-        "old"
-      ]
-    },
-    "translations_additional": [
-      "in the late stage of life",
-      "Antonym:",
-      "młody",
-      "old",
-      "having existed for a long time",
-      " or having known something for a long time",
-      "Antonym:",
-      "nowy"
-    ],
-    "comparative_type": 1,
-    "pluvirnom_lemma": [
-      "starzy"
-    ],
-    "adverb": [
-      "staro"
-    ],
-    "comparative": "starszy"
-  }
+    {
+        "translations": {
+            "ENG": [
+                "old",
+                "(in the late stage of life)",
+                "old",
+                "(having existed for a long time, or having known something for a long time)"
+            ]
+        },
+        "comparative_type": 1,
+        "pluvirnom_lemma": [
+            "starzy"
+        ],
+        "adverb": [
+            "staro"
+        ],
+        "comparative": "starszy",
+        "extra": {
+            "antonyms": [
+                "młody",
+                "nowy"
+            ]
+        },
+        "lemma": "stary",
+        "tags": "xxxxxxxxx"
+    }
 ]

@@ -1,26 +1,27 @@
 [
-  {
-    "tags": "xxxxxxxxx",
-    "lemma": "niebieski",
-    "translations": {
-      "ENG": [
-        "blue"
-      ]
-    },
-    "translations_additional": [
-      "dated",
-      "celestial",
-      "Synonym:",
-      "niebiański",
-      "heraldry",
-      "azure"
-    ],
-    "comparative_type": 2,
-    "pluvirnom_lemma": [
-      "niebiescy"
-    ],
-    "adverb": [
-      "niebiesko"
-    ]
-  }
+    {
+        "translations": {
+            "ENG": [
+                "blue",
+                "dated",
+                "celestial",
+                "heraldry",
+                "azure"
+            ]
+        },
+        "comparative_type": 2,
+        "pluvirnom_lemma": [
+            "niebiescy"
+        ],
+        "adverb": [
+            "niebiesko"
+        ],
+        "extra": {
+            "synonyms": [
+                "niebiański"
+            ]
+        },
+        "lemma": "niebieski",
+        "tags": "xxxxxxxxx"
+    }
 ]

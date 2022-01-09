@@ -140,6 +140,8 @@ class PolishAdjectiveParser(HTMLParser):
 
         process_extra(self.output_obj)
 
+        self.output_obj["translations"]["ENG"] = [str for str in self.output_obj["translations"]["ENG"] if str != "relational"]
+
         self.output_arr.append(self.output_obj)
         self.location = None
         print('location = None')
@@ -152,8 +154,6 @@ class PolishAdjectiveParser(HTMLParser):
 
         if not data or data in self.ignorable_narrow + ["(", ")"]:
             return
-
-        print("               ", data)
 
         if self.location == "insideword":
             if self.lasttag in ["h1", "h2", "h3", "h4", "h5"] or self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:

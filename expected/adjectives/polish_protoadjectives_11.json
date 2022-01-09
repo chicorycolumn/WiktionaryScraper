@@ -1,124 +1,116 @@
 [
-  {
-    "comparative_type": 2,
-    "pluvirnom_lemma": [
-      "zgnili"
-    ],
-    "lemma": "zgniły",
-    "tags": "xxxxxxxxx",
-    "translations": {
-      "ENG": [
-        "rotten"
-      ]
+    {
+        "translations": {
+            "ENG": [
+                "rotten",
+                "decayed",
+                "putrid",
+                "color",
+                "brownish",
+                "browny",
+                ", like",
+                "decaying",
+                "leaves",
+                "Upper Silesia",
+                "lazy"
+            ]
+        },
+        "comparative_type": 2,
+        "pluvirnom_lemma": [
+            "zgnili"
+        ],
+        "lemma": "zgniły",
+        "tags": "xxxxxxxxx"
     },
-    "translations_additional": [
-      "decayed",
-      "putrid",
-      "color",
-      "brownish",
-      "browny",
-      "",
-      " like",
-      "decaying",
-      "leaves",
-      "Upper Silesia",
-      "lazy"
-    ]
-  },
-  {
-    "comparative_type": 3,
-    "pluvirnom_lemma": [
-      "wrażliwi"
-    ],
-    "comparative": "wrażliwszy",
-    "lemma": "wrażliwy",
-    "tags": "xxxxxxxxx",
-    "translations": {
-      "ENG": [
-        "sensitive"
-      ]
+    {
+        "translations": {
+            "ENG": [
+                "sensitive",
+                "tender",
+                "susceptible",
+                "impressionable"
+            ]
+        },
+        "comparative_type": 3,
+        "pluvirnom_lemma": [
+            "wrażliwi"
+        ],
+        "comparative": "wrażliwszy",
+        "extra": {
+            "antonyms": [
+                "niewrażliwy"
+            ]
+        },
+        "lemma": "wrażliwy",
+        "tags": "xxxxxxxxx"
     },
-    "translations_additional": [
-      "tender",
-      "susceptible",
-      "Antonym:",
-      "niewrażliwy",
-      "impressionable"
-    ]
-  },
-  {
-    "comparative_type": 1,
-    "pluvirnom_lemma": [
-      "głodni"
-    ],
-    "comparative": "głodniejszy",
-    "lemma": "głodny",
-    "tags": "xxxxxxxxx",
-    "translations": {
-      "ENG": [
-        "hungry"
-      ]
+    {
+        "translations": {
+            "ENG": [
+                "hungry"
+            ]
+        },
+        "comparative_type": 1,
+        "pluvirnom_lemma": [
+            "głodni"
+        ],
+        "comparative": "głodniejszy",
+        "lemma": "głodny",
+        "tags": "xxxxxxxxx"
+    },
+    {
+        "translations": {
+            "ENG": [
+                "tired",
+                "weary"
+            ]
+        },
+        "comparative_type": 2,
+        "pluvirnom_lemma": [
+            "zmęczeni"
+        ],
+        "lemma": "zmęczony",
+        "tags": "xxxxxxxxx"
+    },
+    {
+        "translations": {
+            "ENG": [
+                "sweet",
+                "; tasting of",
+                "sugar",
+                "sweet;",
+                "cute"
+            ]
+        },
+        "comparative_type": 1,
+        "pluvirnom_lemma": [
+            "słodcy"
+        ],
+        "comparative": "słodszy",
+        "lemma": "słodki",
+        "tags": "xxxxxxxxx"
+    },
+    {
+        "translations": {
+            "ENG": [
+                "ready",
+                "prepared",
+                "finished",
+                "done",
+                "completed",
+                "willing",
+                "set",
+                "poised",
+                "ready-made",
+                "off-the-peg"
+            ]
+        },
+        "comparative_type": 1,
+        "pluvirnom_lemma": [
+            "gotowi"
+        ],
+        "comparative": "gotowszy",
+        "lemma": "gotowy",
+        "tags": "xxxxxxxxx"
     }
-  },
-  {
-    "comparative_type": 2,
-    "pluvirnom_lemma": [
-      "zmęczeni"
-    ],
-    "lemma": "zmęczony",
-    "tags": "xxxxxxxxx",
-    "translations": {
-      "ENG": [
-        "tired"
-      ]
-    },
-    "translations_additional": [
-      "weary"
-    ]
-  },
-  {
-    "comparative_type": 1,
-    "pluvirnom_lemma": [
-      "słodcy"
-    ],
-    "comparative": "słodszy",
-    "lemma": "słodki",
-    "tags": "xxxxxxxxx",
-    "translations": {
-      "ENG": [
-        "sweet"
-      ]
-    },
-    "translations_additional": [
-      "; tasting of",
-      "sugar",
-      "sweet;",
-      "cute"
-    ]
-  },
-  {
-    "comparative_type": 1,
-    "pluvirnom_lemma": [
-      "gotowi"
-    ],
-    "comparative": "gotowszy",
-    "lemma": "gotowy",
-    "tags": "xxxxxxxxx",
-    "translations": {
-      "ENG": [
-        "ready"
-      ]
-    },
-    "translations_additional": [
-      "prepared",
-      "finished",
-      "done",
-      "completed",
-      "willing",
-      "set",
-      "poised",
-      "ready-made",
-      "off-the-peg"
-    ]
-  }
 ]
