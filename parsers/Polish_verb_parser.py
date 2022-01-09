@@ -3,7 +3,8 @@ from html.parser import HTMLParser
 
 from utils.general.common import write_todo
 from utils.scraping.Polish_dicts import aspect_ref
-from utils.scraping.common import orth, superstrip, add_string, trim_chaff_from_derived_terms, add_value_at_keychain
+from utils.scraping.common import orth, superstrip, add_string, trim_chaff_from_derived_terms, add_value_at_keychain, \
+    brackets_to_end, trim_around_brackets, format_verb_translation_properties
 
 
 class PolishVerbParser(HTMLParser):
@@ -367,8 +368,9 @@ class PolishVerbParser(HTMLParser):
                     self.output_obj["extra"]["derivedTerms"].append(derived_term)
 
         if self.mode == "gettingdefinition" and endTag == "li":
-            # definition = brackets_to_end(trim_around_brackets(self.current_definition))
-            self.output_obj["translations"]["ENG"].append(self.current_definition)
+            definition = brackets_to_end(trim_around_brackets(self.current_definition))
+            definition = format_verb_translation_properties(definition)
+            self.output_obj["translations"]["ENG"].append(definition)
             self.current_definition = None
             self.mode = "getdefinitions"
             print('mode = "getdefinitions"')
