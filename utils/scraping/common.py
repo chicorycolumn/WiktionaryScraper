@@ -4,6 +4,38 @@ from datetime import datetime
 import re
 
 
+def format_verb_translation_properties(s):
+    ref = {
+        "reflexive": "r",
+        "intransitive": "i",
+        "transitive": "t",
+    }
+
+    bracketed_parts = re.findall(r"\(.+?\)", s)
+    properties_string = None
+    if bracketed_parts:
+        for bracketed_part in bracketed_parts:
+            bracketed_part_strings = bracketed_part[1:-1].split(" ")
+            if any(bracketed_part_string in ref for bracketed_part_string in bracketed_part_strings):
+                properties_string = bracketed_part
+                properties_formatted_arr = []
+                for bracketed_part_string in bracketed_part_strings:
+                    if bracketed_part_string in ref:
+                        properties_formatted_arr.append(ref[bracketed_part_string])
+                    else:
+                        properties_formatted_arr.append(bracketed_part_string)
+                properties_formatted_str = f'[{",".join(properties_formatted_arr)}]'
+
+    infinitive = re.match(r".+?[\(]", s).group()[0:-1].strip() if "(" in s else s.strip()
+
+    if properties_string:
+        if properties_formatted_str == "[t]":
+            properties_formatted_str = ""
+        s = s.replace(properties_string, "").replace(infinitive, f'{infinitive}{properties_formatted_str}')
+
+    return s.strip()
+
+
 def format_brackets_for_translation_strings(input):
     res = []
     in_parentheses = False
