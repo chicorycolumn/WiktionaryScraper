@@ -9,6 +9,9 @@ def format_verb_translation_properties(s):
         "reflexive": "r",
         "intransitive": "i",
         "transitive": "t",
+        "pronominal": "pr",
+        "reciprocal": "rc",
+        "passive": "pa",
     }
 
     bracketed_parts = re.findall(r"\(.+?\)", s)
