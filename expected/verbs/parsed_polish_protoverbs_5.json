@@ -3,21 +3,22 @@
         "lemma": "badać",
         "aspect": "imperfective",
         "secondaryAspects": [],
-    "extra": {
-        "otherShapes": {
-            "perfective": [
-                "zbadać"
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "zbadać"
+                ]
+            },
+            "derivedTerms": [
+                "( nouns ) badacz badaczka badanie",
+                "( verb ) bóść"
             ]
-        },         "derivedTerms": [
-            "( nouns ) badacz badaczka badanie",
-            "( verb ) bóść"
-        ]
-    },
+        },
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "( transitive ) to explore , to research , to study",
-                "( reflexive ) to be examined"
+                "to explore, to research, to study",
+                "to be examined[r]"
             ]
         },
         "inflections": {
@@ -334,20 +335,21 @@
         "lemma": "zbadać",
         "aspect": "perfective",
         "secondaryAspects": [],
-    "extra": {
-        "otherShapes": {
-            "imperfective": [
-                "badać"
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "badać"
+                ]
+            },
+            "derivedTerms": [
+                "( nouns ) badacz badaczka badanie"
             ]
-        },        "derivedTerms": [
-            "( nouns ) badacz badaczka badanie"
-        ]
-    },
+        },
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "( transitive ) to explore , to research , to study",
-                "( reflexive ) to be examined"
+                "to explore, to research, to study",
+                "to be examined[r]"
             ]
         },
         "inflections": {
@@ -570,24 +572,25 @@
         "lemma": "zobaczyć",
         "aspect": "perfective",
         "secondaryAspects": [],
-    "extra": {
-        "otherShapes": {
-            "imperfective": [
-                "widzieć"
-            ],
-            "indeterminate": [
-                "widywać"
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "widzieć"
+                ],
+                "indeterminate": [
+                    "widywać"
+                ]
+            },
+            "derivedTerms": [
+                "do zobaczenia"
             ]
-        },         "derivedTerms": [
-            "do zobaczenia"
-        ]
-    },
+        },
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "( transitive ) to see (perceive with the eyes)",
-                "( reflexive ) to see oneself",
-                "( reflexive ) to see one another, to meet"
+                "to see (perceive with the eyes)",
+                "to see oneself[r]",
+                "to see one another, to meet[r]"
             ]
         },
         "inflections": {
@@ -810,31 +813,32 @@
         "lemma": "widzieć",
         "aspect": "imperfective",
         "secondaryAspects": [],
-    "extra": {
-        "otherShapes": {
-            "perfective": [
-                "zobaczyć"
-            ],
-            "indeterminate": [
-                "widywać"
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "zobaczyć"
+                ],
+                "indeterminate": [
+                    "widywać"
+                ]
+            },
+            "derivedTerms": [
+                "odwidzieć pf",
+                "przewidzieć pf przewidywać impf",
+                "przywidzieć pf przywidywać impf",
+                "zwidzieć pf zwidywać impf",
+                "( verbs ) widać widywać",
+                "( nouns ) wid m widmo n widok m widownia f widz m widziadło n",
+                "( adjectives ) widoczny widomy widzialny",
+                "( adverb ) widocznie"
             ]
-        },         "derivedTerms": [
-            "odwidzieć pf",
-            "przewidzieć pf przewidywać impf",
-            "przywidzieć pf przywidywać impf",
-            "zwidzieć pf zwidywać impf",
-            "( verbs ) widać widywać",
-            "( nouns ) wid m widmo n widok m widownia f widz m widziadło n",
-            "( adjectives ) widoczny widomy widzialny",
-            "( adverb ) widocznie"
-        ]
-    },
+        },
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "( transitive ) to see (perceive with the eyes)",
-                "( reflexive ) to see oneself",
-                "( reflexive ) to see one another, to meet"
+                "to see (perceive with the eyes)",
+                "to see oneself[r]",
+                "to see one another, to meet[r]"
             ]
         },
         "inflections": {
@@ -1154,21 +1158,21 @@
             "indeterminate",
             "frequentative"
         ],
-    "extra": {
-        "otherShapes": {
-            "perfective": [
-                "zobaczyć"
-            ],
-            "imperfective": [
-                "widzieć"
-            ]
-        }
-    },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "zobaczyć"
+                ],
+                "imperfective": [
+                    "widzieć"
+                ]
+            }
+        },
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "( transitive ) to see once in a while",
-                "( reflexive ) to see one another, to meet"
+                "to see once in a while",
+                "to see one another, to meet[r]"
             ]
         },
         "inflections": {
