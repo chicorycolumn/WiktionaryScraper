@@ -28,6 +28,7 @@ class PolishVerbParser(HTMLParser):
     ignorable_narrow = [",", "/", ";"]
     ignorable_broad = ignorable_narrow + ["or", "and"]
 
+    current_usage = []
     current_otherShapes_key = None
     current_otherShapes_value = []
 
@@ -104,7 +105,7 @@ class PolishVerbParser(HTMLParser):
                     self.output_obj["allohomInfo"] = None
                     out_obj.pop("diff_word_same_conj")
 
-        for key in ["derivedTerms", "otherShapes"]:
+        for key in ["derivedTerms", "otherShapes", "usage"]:
             if not self.output_obj["extra"][key]:
                 self.output_obj["extra"].pop(key)
         if not self.output_obj["extra"]:
@@ -119,6 +120,7 @@ class PolishVerbParser(HTMLParser):
             "aspect": [],
             "secondaryAspects": [],
             "extra": {
+                "usage": [],
                 "otherShapes": {},
                 "derivedTerms": []
             },
@@ -150,7 +152,7 @@ class PolishVerbParser(HTMLParser):
         self.keys = []
         self.subkey = None
         self.current_definition = None
-        self.current_usage = None
+        self.current_usage = []
 
         self.current_otherShapes_key = None
         self.current_otherShapes_value = []
@@ -226,7 +228,14 @@ class PolishVerbParser(HTMLParser):
                         print('mode = "getderivedterms"')
 
             if self.mode == "gettingdefinition":
-                self.current_definition = add_string(self.current_definition, data)
+                if "example" in self.lastclass \
+                        or (
+                        "translation" in self.lastclass
+                        and (self.lasttag in ["span", "b", "i"] or self.penultimatetag in ["span"])
+                ):
+                    self.current_usage.append(data)
+                else:
+                    self.current_definition = add_string(self.current_definition, data)
 
             if self.mode == "getaspect":
                 if data in ["(", ")"]:
@@ -371,6 +380,11 @@ class PolishVerbParser(HTMLParser):
             definition = brackets_to_end(trim_around_brackets(self.current_definition))
             definition = format_verb_translation_properties(definition)
             self.output_obj["translations"]["ENG"].append(definition)
+
+            if self.current_usage:
+                self.output_obj["extra"]["usage"].append(self.current_usage[:])
+                self.current_usage = []
+
             self.current_definition = None
             self.mode = "getdefinitions"
             print('mode = "getdefinitions"')
