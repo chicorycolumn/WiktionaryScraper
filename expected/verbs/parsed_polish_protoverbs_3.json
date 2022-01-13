@@ -5,34 +5,46 @@
         "secondaryAspects": [
             "determinate"
         ],
-    "extra": {
-        "otherShapes": {
-            "perfective": [
-                "przeczytać"
+        "extra": {
+            "usage": [
+                [
+                    "Tomek",
+                    "czyta",
+                    "interesującą książkę.",
+                    "―",
+                    "Tomek is",
+                    "reading",
+                    "an interesting book."
+                ]
             ],
-            "frequentative": [
-                "czytywać"
+            "otherShapes": {
+                "perfective": [
+                    "przeczytać"
+                ],
+                "frequentative": [
+                    "czytywać"
+                ]
+            },
+            "derivedTerms": [
+                "wczytywać impf wczytać pf",
+                "wyczytywać impf wyczytać pf",
+                "sczytywać impf sczytać pf",
+                "doczytywać impf doczytać pf",
+                "odczytywać impf odczytać pf",
+                "poczytywać impf poczytać pf",
+                "oczytywać impf oczytać pf",
+                "obczytywać impf obczytać pf",
+                "podczytywać impf",
+                "przeczytywać impf przeczytać pf",
+                "zaczytywać impf zaczytać pf",
+                "naczytać pf",
+                "rozczytywać impf rozczytać pf"
             ]
-        },        "derivedTerms": [
-            "wczytywać impf wczytać pf",
-            "wyczytywać impf wyczytać pf",
-            "sczytywać impf sczytać pf",
-            "doczytywać impf doczytać pf",
-            "odczytywać impf odczytać pf",
-            "poczytywać impf poczytać pf",
-            "oczytywać impf oczytać pf",
-            "obczytywać impf obczytać pf",
-            "podczytywać impf",
-            "przeczytywać impf przeczytać pf",
-            "zaczytywać impf zaczytać pf",
-            "naczytać pf",
-            "rozczytywać impf rozczytać pf"
-        ]
-    },
+        },
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "to read Tomek czyta interesującą książkę. ― Tomek is reading an interesting book."
+                "to read"
             ]
         },
         "inflections": {
