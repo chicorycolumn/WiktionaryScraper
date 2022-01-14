@@ -15,44 +15,46 @@
         },
         "gender": "m1",
         "id": "pol-npe-001-brat",
-        "usage": [
-            "A przechadzając się nad Morzem Galilejskim, zobaczył Szymona i Andrzeja, jego brata , zarzucających sieć w morze; byli bowiem rybakami. As Jesus was strolling beside the Sea of Galilee, he saw Simon and Andrew, his brother , casting a net into the sea; they were fishermen"
-        ],
-        "otherShapes": {
-            "diminutive": [
-                "braciszek"
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "braciszek"
+                ]
+            },
+            "derivedTerms": [
+                "bracki",
+                "braterski",
+                "bratni",
+                "pobratymczy",
+                "bratersko",
+                "po bratersku",
+                "brachol",
+                "bractwo",
+                "brać",
+                "brat łata",
+                "bratanek",
+                "bratanica",
+                "bratanka",
+                "bratowa",
+                "bratczyk",
+                "bratek",
+                "brateńko",
+                "bratul",
+                "bratunio",
+                "rozbrat",
+                "pobratymstwo",
+                "pobratymiec",
+                "pobratymca",
+                "półbrat",
+                "bratać",
+                "być za pan brat",
+                "rozbratać",
+                "zbratać"
+            ],
+            "usage": [
+                "A przechadzając się nad Morzem Galilejskim, zobaczył Szymona i Andrzeja, jego brata , zarzucających sieć w morze; byli bowiem rybakami. As Jesus was strolling beside the Sea of Galilee, he saw Simon and Andrew, his brother , casting a net into the sea; they were fishermen"
             ]
         },
-        "derivedTerms": [
-            "bracki",
-            "braterski",
-            "bratni",
-            "pobratymczy",
-            "bratersko",
-            "po bratersku",
-            "brachol",
-            "bractwo",
-            "brać",
-            "brat łata",
-            "bratanek",
-            "bratanica",
-            "bratanka",
-            "bratowa",
-            "bratczyk",
-            "bratek",
-            "brateńko",
-            "bratul",
-            "bratunio",
-            "rozbrat",
-            "pobratymstwo",
-            "pobratymiec",
-            "pobratymca",
-            "półbrat",
-            "bratać",
-            "być za pan brat",
-            "rozbratać",
-            "zbratać"
-        ],
         "inflections": {
             "singular": {
                 "nom": "brat",
@@ -78,92 +80,6 @@
         ]
     },
     {
-        "lemma": "fizyka",
-        "tags": [
-            "FREQ2",
-            "abstract",
-            "school subject"
-        ],
-        "translations": {
-            "ENG": [
-                "physics"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-001-fizyka",
-        "usage": [
-            "Madlen studiuje fizykę na Uniwersytecie Wiedeńskim. ― Madlen studies physics at the University of Vienna."
-        ],
-        "derivedTerms": [
-            "agrofizyka"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "fizyka",
-                "gen": "fizyki",
-                "dat": "fizyce",
-                "acc": "fizykę",
-                "ins": "fizyką",
-                "loc": "fizyce",
-                "voc": "fizyko"
-            },
-            "plural": {
-                "nom": "fizyki",
-                "gen": "fizyk",
-                "dat": "fizykom",
-                "acc": "fizyki",
-                "ins": "fizykami",
-                "loc": "fizykach",
-                "voc": "fizyki"
-            }
-        },
-        "topics": [
-            "school"
-        ]
-    },
-    {
-        "lemma": "matematyka",
-        "tags": [
-            "FREQ2",
-            "abstract",
-            "school subject"
-        ],
-        "translations": {
-            "ENG": [
-                "mathematics"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-002-matematyka",
-        "derivedTerms": [
-            "matematyczny",
-            "matematyk"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "matematyka",
-                "gen": "matematyki",
-                "dat": "matematyce",
-                "acc": "matematykę",
-                "ins": "matematyką",
-                "loc": "matematyce",
-                "voc": "matematyko"
-            },
-            "plural": {
-                "nom": "matematyki",
-                "gen": "matematyk",
-                "dat": "matematykom",
-                "acc": "matematyki",
-                "ins": "matematykami",
-                "loc": "matematykach",
-                "voc": "matematyki"
-            }
-        },
-        "topics": [
-            "school"
-        ]
-    },
-    {
         "lemma": "książka",
         "tags": [
             "FREQ1",
@@ -177,16 +93,18 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-003-książka",
-        "otherShapes": {
-            "diminutive": [
-                "książeczka"
+        "id": "pol-nco-001-książka",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "książeczka"
+                ]
+            },
+            "derivedTerms": [
+                "książkowy",
+                "(adjective)"
             ]
         },
-        "derivedTerms": [
-            "książkowy",
-            "(adjective)"
-        ],
         "inflections": {
             "singular": {
                 "nom": "książka",
@@ -230,18 +148,20 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-004-łyżka",
-        "otherShapes": {
-            "diminutive": [
-                "łyżeczka"
-            ],
-            "augmentative": [
-                "łycha"
+        "id": "pol-nco-002-łyżka",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "łyżeczka"
+                ],
+                "augmentative": [
+                    "łycha"
+                ]
+            },
+            "derivedTerms": [
+                "łyżka do butów"
             ]
         },
-        "derivedTerms": [
-            "łyżka do butów"
-        ],
         "inflections": {
             "singular": {
                 "nom": "łyżka",
@@ -283,15 +203,21 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-005-szklanka",
-        "otherShapes": {
-            "diminutive": [
-                "szklaneczka"
+        "id": "pol-nco-003-szklanka",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "szklaneczka"
+                ]
+            },
+            "synonyms": [
+                "czarny",
+                "lód",
+                "gołoledź",
+                "ślizgawica",
+                "ślizgawka"
             ]
         },
-        "synonyms": [
-            "czarny lód gołoledź ślizgawica ślizgawka"
-        ],
         "inflections": {
             "singular": {
                 "nom": "szklanka",
@@ -319,44 +245,6 @@
         ]
     },
     {
-        "lemma": "chemia",
-        "tags": [
-            "FREQ2",
-            "abstract",
-            "school subject"
-        ],
-        "translations": {
-            "ENG": [
-                "chemistry"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-006-chemia",
-        "derivedTerms": [
-            "agrochemia",
-            "chemik",
-            "chemiczka",
-            "chemiczny",
-            "chemicznie"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "chemia",
-                "gen": "chemii",
-                "dat": "chemii",
-                "acc": "chemię",
-                "ins": "chemią",
-                "loc": "chemii",
-                "voc": "chemio"
-            }
-        },
-        "lacking": true,
-        "tantumSingulare": true,
-        "topics": [
-            "school"
-        ]
-    },
-    {
         "lemma": "wiosna",
         "tags": [
             "FREQ2",
@@ -368,17 +256,19 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-007-wiosna",
-        "otherShapes": {
-            "diminutive": [
-                "wiosenka"
+        "id": "pol-nco-004-wiosna",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "wiosenka"
+                ]
+            },
+            "derivedTerms": [
+                "wiosenny",
+                "wiosennie",
+                "wiosną"
             ]
         },
-        "derivedTerms": [
-            "wiosenny",
-            "wiosennie",
-            "wiosną"
-        ],
         "inflections": {
             "singular": {
                 "nom": "wiosna",
@@ -404,51 +294,6 @@
         ]
     },
     {
-        "lemma": "czekolada",
-        "tags": [
-            "FREQ2",
-            "concrete",
-            "food",
-            "holdable",
-            "sweet"
-        ],
-        "translations": {
-            "ENG": [
-                "chocolate"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-008-czekolada",
-        "derivedTerms": [
-            "czekoladowy"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "czekolada",
-                "gen": "czekolady",
-                "dat": "czekoladzie",
-                "acc": "czekoladę",
-                "ins": "czekoladą",
-                "loc": "czekoladzie",
-                "voc": "czekolado"
-            },
-            "plural": {
-                "nom": "czekolady",
-                "gen": "czekolad",
-                "dat": "czekoladom",
-                "acc": "czekolady",
-                "ins": "czekoladami",
-                "loc": "czekoladach",
-                "voc": "czekolady"
-            }
-        },
-        "topics": [
-            "inside",
-            "kitchen",
-            "restaurant"
-        ]
-    },
-    {
         "lemma": "cebula",
         "tags": [
             "FREQ2",
@@ -463,16 +308,18 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-009-cebula",
-        "otherShapes": {
-            "diminutive": [
-                "cebulka"
+        "id": "pol-nco-005-cebula",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "cebulka"
+                ]
+            },
+            "derivedTerms": [
+                "cebulowy",
+                "bulwocebula"
             ]
         },
-        "derivedTerms": [
-            "cebulowy",
-            "bulwocebula"
-        ],
         "inflections": {
             "singular": {
                 "nom": "cebula",
@@ -513,24 +360,26 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-010-herbata",
-        "otherShapes": {
-            "diminutive": [
-                "herbatka"
-            ],
-            "augmentative": [
-                "herbacina"
+        "id": "pol-nco-006-herbata",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "herbatka"
+                ],
+                "augmentative": [
+                    "herbacina"
+                ]
+            },
+            "derivedTerms": [
+                "herbatnik",
+                "herbaciarnia",
+                "herbatnica",
+                "herbaciarka",
+                "herbaciany",
+                "herbatni",
+                "herbatowy"
             ]
         },
-        "derivedTerms": [
-            "herbatnik",
-            "herbaciarnia",
-            "herbatnica",
-            "herbaciarka",
-            "herbaciany",
-            "herbatni",
-            "herbatowy"
-        ],
         "inflections": {
             "singular": {
                 "nom": "herbata",
@@ -558,47 +407,6 @@
         ]
     },
     {
-        "lemma": "zima",
-        "tags": [
-            "FREQ2",
-            "abstract"
-        ],
-        "translations": {
-            "ENG": [
-                "winter"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-011-zima",
-        "derivedTerms": [
-            "zimowy",
-            "zimny"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "zima",
-                "gen": "zimy",
-                "dat": "zimie",
-                "acc": "zimę",
-                "ins": "zimą",
-                "loc": "zimie",
-                "voc": "zimo"
-            },
-            "plural": {
-                "nom": "zimy",
-                "gen": "zim",
-                "dat": "zimom",
-                "acc": "zimy",
-                "ins": "zimami",
-                "loc": "zimach",
-                "voc": "zimy"
-            }
-        },
-        "topics": [
-            "time"
-        ]
-    },
-    {
         "lemma": "wieża",
         "tags": [
             "FREQ3",
@@ -612,21 +420,23 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-012-wieża",
-        "usage": [
-            "Usage notes [ edit ] This word refers exclusively to buildings with military or utility function, not to tall office or residential buildings. For those, the word wieżowiec is used instead."
-        ],
-        "otherShapes": {
-            "diminutive": [
-                "wieżyczka"
+        "id": "pol-nco-007-wieża",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "wieżyczka"
+                ]
+            },
+            "derivedTerms": [
+                "wieża Babel",
+                "wieża z kości słoniowej",
+                "wieżowy",
+                "(adjective)"
+            ],
+            "usage": [
+                "Usage notes [ edit ] This word refers exclusively to buildings with military or utility function, not to tall office or residential buildings. For those, the word wieżowiec is used instead."
             ]
         },
-        "derivedTerms": [
-            "wieża Babel",
-            "wieża z kości słoniowej",
-            "wieżowy",
-            "(adjective)"
-        ],
         "inflections": {
             "singular": {
                 "nom": "wieża",
@@ -665,23 +475,25 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-013-szkoła",
-        "usage": [
-            "Hyponyms: uczelnia uniwersytet kolegium"
-        ],
-        "otherShapes": {
-            "diminutive": [
-                "szkółka"
+        "id": "pol-nco-008-szkoła",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "szkółka"
+                ]
+            },
+            "derivedTerms": [
+                "szkolić",
+                "wyszkolić",
+                "przeszkolić",
+                "szkolnictwo",
+                "szkolenie",
+                "szkolny"
+            ],
+            "usage": [
+                "Hyponyms: uczelnia uniwersytet kolegium"
             ]
         },
-        "derivedTerms": [
-            "szkolić",
-            "wyszkolić",
-            "przeszkolić",
-            "szkolnictwo",
-            "szkolenie",
-            "szkolny"
-        ],
         "inflections": {
             "singular": {
                 "nom": "szkoła",
@@ -708,175 +520,47 @@
         ]
     },
     {
-        "lemma": "podłoga",
+        "lemma": "telefon",
         "tags": [
             "FREQ2",
-            "concrete",
-            "part of house"
+            "device"
         ],
         "translations": {
             "ENG": [
-                "floor"
+                "telephone"
             ]
         },
-        "gender": "f",
-        "id": "pol-nco-014-podłoga",
-        "derivedTerms": [
-            "podłogowy",
-            "(adjective)"
-        ],
+        "gender": "m3",
+        "id": "pol-nco-009-telefon",
+        "extra": {
+            "derivedTerms": [
+                "telefoniczny",
+                "telefonować",
+                "telefonistka"
+            ]
+        },
         "inflections": {
             "singular": {
-                "nom": "podłoga",
-                "gen": "podłogi",
-                "dat": "podłodze",
-                "acc": "podłogę",
-                "ins": "podłogą",
-                "loc": "podłodze",
-                "voc": "podłogo"
+                "nom": "telefon",
+                "gen": "telefonu",
+                "dat": "telefonowi",
+                "acc": "telefon",
+                "ins": "telefonem",
+                "loc": "telefonie",
+                "voc": "telefonie"
             },
             "plural": {
-                "nom": "podłogi",
-                "gen": "podłóg",
-                "dat": "podłogom",
-                "acc": "podłogi",
-                "ins": "podłogami",
-                "loc": "podłogach",
-                "voc": "podłogi"
+                "nom": "telefony",
+                "gen": "telefonów",
+                "dat": "telefonom",
+                "acc": "telefony",
+                "ins": "telefonami",
+                "loc": "telefonach",
+                "voc": "telefony"
             }
         },
         "topics": [
-            "home",
-            "inside"
-        ]
-    },
-    {
-        "lemma": "góra",
-        "tags": [
-            "FREQ3",
-            "concrete",
-            "location",
-            "natural"
-        ],
-        "translations": {
-            "ENG": [
-                "mountain"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-015-góra(mountain)",
-        "allohomInfo": { "singleWordtype": true, "text": "geographic place", "emoji": "⛰️" },
-        "usage": [
-            "Klasztor znajdował się na szczycie wysokiej góry . ― The monastery was situated on the top of a high mountain .",
-            "Góra strony powinna być pusta. ― The top of the page should be empty.",
-            "Nie pomogę wam w tym projekcie, dopóki góra go nie przyklepie. ― I won't help you with this project until the higher-ups sign off on it."
-        ],
-        "otherShapes": {
-            "diminutive": [
-                "górka"
-            ]
-        },
-        "derivedTerms": [
-            "górski",
-            "górzysty",
-            "górować",
-            "górny"
-        ],
-        "synonyms": [
-            "najpóźniej",
-            "najdalej",
-            ", (",
-            "co",
-            ")",
-            "najwyżej"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "góra",
-                "gen": "góry",
-                "dat": "górze",
-                "acc": "górę",
-                "ins": "górą",
-                "loc": "górze",
-                "voc": "góro"
-            },
-            "plural": {
-                "nom": "góry",
-                "gen": "gór",
-                "dat": "górom",
-                "acc": "góry",
-                "ins": "górami",
-                "loc": "górach",
-                "voc": "góry"
-            }
-        },
-        "topics": [
-            "geography",
-            "outside"
-        ]
-    },
-    {
-        "lemma": "góra",
-        "tags": [
-            "FREQ4",
-            "abstract",
-            "dimension"
-        ],
-        "translations": {
-            "ENG": [
-                "top"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-016-góra(top)",
-        "allohomInfo": { "singleWordtype": true, "text": "part of an object", "emoji": "⬆️️" },
-        "usage": [
-            "Klasztor znajdował się na szczycie wysokiej góry . ― The monastery was situated on the top of a high mountain .",
-            "Góra strony powinna być pusta. ― The top of the page should be empty.",
-            "Nie pomogę wam w tym projekcie, dopóki góra go nie przyklepie. ― I won't help you with this project until the higher-ups sign off on it."
-        ],
-        "otherShapes": {
-            "diminutive": [
-                "górka"
-            ]
-        },
-        "derivedTerms": [
-            "górski",
-            "górzysty",
-            "górować",
-            "górny"
-        ],
-        "synonyms": [
-            "najpóźniej",
-            "najdalej",
-            ", (",
-            "co",
-            ")",
-            "najwyżej"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "góra",
-                "gen": "góry",
-                "dat": "górze",
-                "acc": "górę",
-                "ins": "górą",
-                "loc": "górze",
-                "voc": "góro"
-            },
-            "plural": {
-                "nom": "góry",
-                "gen": "gór",
-                "dat": "górom",
-                "acc": "góry",
-                "ins": "górami",
-                "loc": "górach",
-                "voc": "góry"
-            }
-        },
-        "topics": [
-            "geometry",
-            "sense and perception"
+            "tech"
         ]
     },
     {
@@ -896,10 +580,12 @@
         },
         "gender": "m1",
         "id": "pol-npe-002-chłopak(augm)",
-        "otherShapes": {
-            "diminutive": [
-                "chłopiec"
-            ]
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "chłopiec"
+                ]
+            }
         },
         "inflections": {
             "singular": {
@@ -946,21 +632,40 @@
             ]
         },
         "gender": "m1",
-        "id": "pol-npe-002-chłopiec(dimi)",
-        "usage": [
-            "Antonyms: ( by age ) mężczyzna ( by gender ) dziewczyna",
-            "Usage notes [ edit ] The word chłopiec is usually used for people younger than chłopak ."
-        ],
-        "otherShapes": {
-            "diminutive": [
-                "chłopczyk"
+        "id": "pol-npe-003-chłopiec(dimi)",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "chłopczyk"
+                ]
+            },
+            "synonyms": [
+                "chłopak",
+                "małolat",
+                "młodzieniec",
+                "młodzik",
+                "podrostek",
+                "chłopak",
+                "partner",
+                "dziewczyna",
+                "partnerka"
+            ],
+            "antonyms": [
+                "(",
+                "by",
+                "age",
+                ")",
+                "mężczyzna",
+                "(",
+                "by",
+                "gender",
+                ")",
+                "dziewczyna"
+            ],
+            "usage": [
+                "Usage notes [ edit ] The word chłopiec is usually used for people younger than chłopak ."
             ]
         },
-        "synonyms": [
-            "chłopak małolat młodzieniec młodzik podrostek",
-            "chłopak partner",
-            "dziewczyna partnerka"
-        ],
         "inflections": {
             "singular": {
                 "nom": "chłopiec",
@@ -986,48 +691,6 @@
         ]
     },
     {
-        "lemma": "budynek",
-        "tags": [
-            "FREQ2",
-            "building",
-            "concrete",
-            "location"
-        ],
-        "translations": {
-            "ENG": [
-                "building"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-017-budynek",
-        "synonyms": [
-            "budowla gmach"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "budynek",
-                "gen": "budynku",
-                "dat": "budynkowi",
-                "acc": "budynek",
-                "ins": "budynkiem",
-                "loc": "budynku",
-                "voc": "budynku"
-            },
-            "plural": {
-                "nom": "budynki",
-                "gen": "budynków",
-                "dat": "budynkom",
-                "acc": "budynki",
-                "ins": "budynkami",
-                "loc": "budynkach",
-                "voc": "budynki"
-            }
-        },
-        "topics": [
-            "inside"
-        ]
-    },
-    {
         "lemma": "stół",
         "tags": [
             "FREQ1",
@@ -1040,19 +703,21 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-018-stół",
-        "otherShapes": {
-            "diminutive": [
-                "stolik"
+        "id": "pol-nco-010-stół",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "stolik"
+                ]
+            },
+            "derivedTerms": [
+                "stołować",
+                "stołowy",
+                "stołek",
+                "stołeczek",
+                "stołówka"
             ]
         },
-        "derivedTerms": [
-            "stołować",
-            "stołowy",
-            "stołek",
-            "stołeczek",
-            "stołówka"
-        ],
         "inflections": {
             "singular": {
                 "nom": "stół",
@@ -1093,11 +758,13 @@
             ]
         },
         "gender": "f",
-        "id": "pol-npe-003-nauczycielka(femi)",
-        "otherShapes": {
-            "masculine": [
-                "nauczyciel"
-            ]
+        "id": "pol-npe-004-nauczycielka(femi)",
+        "extra": {
+            "otherShapes": {
+                "masculine": [
+                    "nauczyciel"
+                ]
+            }
         },
         "inflections": {
             "singular": {
@@ -1140,16 +807,18 @@
             ]
         },
         "gender": "m1",
-        "id": "pol-npe-003-nauczyciel(masc)",
-        "otherShapes": {
-            "feminine": [
-                "nauczycielka"
+        "id": "pol-npe-005-nauczyciel(masc)",
+        "extra": {
+            "otherShapes": {
+                "feminine": [
+                    "nauczycielka"
+                ]
+            },
+            "derivedTerms": [
+                "nauczycielski",
+                "nauczycielstwo"
             ]
         },
-        "derivedTerms": [
-            "nauczycielski",
-            "nauczycielstwo"
-        ],
         "inflections": {
             "singular": {
                 "nom": "nauczyciel",
@@ -1190,11 +859,13 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-019-kwiat",
-        "otherShapes": {
-            "diminutive": [
-                "kwiatek"
-            ]
+        "id": "pol-nco-011-kwiat",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "kwiatek"
+                ]
+            }
         },
         "inflections": {
             "singular": {
@@ -1224,49 +895,6 @@
         ]
     },
     {
-        "lemma": "ściana",
-        "tags": [
-            "FREQ3",
-            "concrete",
-            "part of house"
-        ],
-        "translations": {
-            "ENG": [
-                "wall"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-020-ściana",
-        "derivedTerms": [
-            "ścienny",
-            "równoległościan"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "ściana",
-                "gen": "ściany",
-                "dat": "ścianie",
-                "acc": "ścianę",
-                "ins": "ścianą",
-                "loc": "ścianie",
-                "voc": "ściano"
-            },
-            "plural": {
-                "nom": "ściany",
-                "gen": "ścian",
-                "dat": "ścianom",
-                "acc": "ściany",
-                "ins": "ścianami",
-                "loc": "ścianach",
-                "voc": "ściany"
-            }
-        },
-        "topics": [
-            "home",
-            "inside"
-        ]
-    },
-    {
         "lemma": "lampa",
         "tags": [
             "FREQ2",
@@ -1280,15 +908,17 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-021-lampa",
-        "otherShapes": {
-            "diminutive": [
-                "lampka"
+        "id": "pol-nco-012-lampa",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "lampka"
+                ]
+            },
+            "derivedTerms": [
+                "lampowy"
             ]
         },
-        "derivedTerms": [
-            "lampowy"
-        ],
         "inflections": {
             "singular": {
                 "nom": "lampa",
@@ -1331,13 +961,18 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-022-wódka",
-        "otherShapes": {
-            "diminutive": [
-                "wódeczka"
-            ],
-            "augmentative": [
-                "wóda"
+        "id": "pol-nco-013-wódka",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "wódeczka"
+                ],
+                "augmentative": [
+                    "wóda"
+                ]
+            },
+            "synonyms": [
+                "antygrypina"
             ]
         },
         "inflections": {
@@ -1381,11 +1016,13 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-023-las",
-        "otherShapes": {
-            "diminutive": [
-                "lasek"
-            ]
+        "id": "pol-nco-014-las",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "lasek"
+                ]
+            }
         },
         "inflections": {
             "singular": {
@@ -1424,11 +1061,13 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-024-krok",
-        "otherShapes": {
-            "diminutive": [
-                "kroczek"
-            ]
+        "id": "pol-nco-015-krok",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "kroczek"
+                ]
+            }
         },
         "inflections": {
             "singular": {
@@ -1455,178 +1094,6 @@
         ]
     },
     {
-        "lemma": "mapa",
-        "tags": [
-            "FREQ3"
-        ],
-        "translations": {
-            "ENG": [
-                "map"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-025-mapa",
-        "inflections": {
-            "singular": {
-                "nom": "mapa",
-                "gen": "mapy",
-                "dat": "mapie",
-                "acc": "mapę",
-                "ins": "mapą",
-                "loc": "mapie",
-                "voc": "mapo"
-            },
-            "plural": {
-                "nom": "mapy",
-                "gen": "map",
-                "dat": "mapom",
-                "acc": "mapy",
-                "ins": "mapami",
-                "loc": "mapach",
-                "voc": "mapy"
-            }
-        },
-        "topics": [
-            "geography",
-            "travel"
-        ]
-    },
-    {
-        "lemma": "klimat",
-        "tags": [
-            "FREQ4",
-            "abstract",
-            "transport",
-            "weather type"
-        ],
-        "translations": {
-            "ENG": [
-                "climate"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-026-klimat",
-        "inflections": {
-            "singular": {
-                "nom": "klimat",
-                "gen": "klimatu",
-                "dat": "klimatowi",
-                "acc": "klimat",
-                "ins": "klimatem",
-                "loc": "klimacie",
-                "voc": "klimacie"
-            },
-            "plural": {
-                "nom": "klimaty",
-                "gen": "klimatów",
-                "dat": "klimatom",
-                "acc": "klimaty",
-                "ins": "klimatami",
-                "loc": "klimatach",
-                "voc": "klimaty"
-            }
-        },
-        "topics": [
-            "geography",
-            "outdoor",
-            "school",
-            "travel"
-        ]
-    },
-    {
-        "lemma": "rok",
-        "tags": [
-            "FREQ1",
-            "abstract"
-        ],
-        "translations": {
-            "ENG": [
-                "year"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-027-rok",
-        "usage": [
-            "w zeszłym roku ― last year",
-            "w przyszłym roku ― next year"
-        ],
-        "derivedTerms": [
-            "roczny",
-            "coroczny",
-            "rocznica",
-            "rocznik",
-            "Nowy Rok",
-            "rokować",
-            "rzec"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "rok",
-                "gen": "roku",
-                "dat": "rokowi",
-                "acc": "rok",
-                "ins": "rokiem",
-                "loc": "roku",
-                "voc": "roku"
-            },
-            "plural": {
-                "nom": "lata",
-                "gen": "lat",
-                "dat": "latom",
-                "acc": "lata",
-                "ins": "latami",
-                "loc": "latach",
-                "voc": "lata"
-            }
-        },
-        "topics": [
-            "time"
-        ]
-    },
-    {
-        "lemma": "grudzień",
-        "tags": [
-            "FREQ2",
-            "abstract"
-        ],
-        "translations": {
-            "ENG": [
-                "December"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-028-grudzień",
-        "derivedTerms": [
-            "grudniowy"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "grudzień",
-                "gen": "grudnia",
-                "dat": "grudniowi",
-                "acc": "grudzień",
-                "ins": "grudniem",
-                "loc": "grudniu",
-                "voc": "grudniu"
-            },
-            "plural": {
-                "nom": "grudnie",
-                "gen": [
-                    "grudni",
-                    "grudniów"
-                ],
-                "dat": "grudniom",
-                "acc": "grudnie",
-                "ins": "grudniami",
-                "loc": "grudniach",
-                "voc": "grudnie"
-            }
-        },
-        "topics": [
-            "time"
-        ]
-    },
-    {
         "lemma": "miesiąc",
         "tags": [
             "FREQ1",
@@ -1638,23 +1105,25 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-029-miesiąc",
-        "usage": [
-            "Świec nie zapalajcie,",
-            "Bo wam miesiąc osrebrzy łagodnie świetlice."
-        ],
-        "otherShapes": {
-            "diminutive": [
-                "miesiączek"
+        "id": "pol-nco-016-miesiąc",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "miesiączek"
+                ]
+            },
+            "synonyms": [
+                "księżyc"
+            ],
+            "derivedTerms": [
+                "miesięczny",
+                "miesiączka"
+            ],
+            "usage": [
+                "Świec nie zapalajcie,",
+                "Bo wam miesiąc osrebrzy łagodnie świetlice."
             ]
         },
-        "derivedTerms": [
-            "miesięczny",
-            "miesiączka"
-        ],
-        "synonyms": [
-            "księżyc"
-        ],
         "inflections": {
             "singular": {
                 "nom": "miesiąc",
@@ -1680,132 +1149,6 @@
         ]
     },
     {
-        "lemma": "los",
-        "tags": [
-            "FREQ4",
-            "abstract",
-            "religion"
-        ],
-        "translations": {
-            "ENG": [
-                "fate",
-                "lottery ticket"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-030-los",
-        "derivedTerms": [
-            "losować",
-            "losowy"
-        ],
-        "synonyms": [
-            "kupon"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "los",
-                "gen": "losu",
-                "dat": "losowi",
-                "acc": "los",
-                "ins": "losem",
-                "loc": "losie",
-                "voc": "losie"
-            },
-            "plural": {
-                "nom": "losy",
-                "gen": "losów",
-                "dat": "losom",
-                "acc": "losy",
-                "ins": "losami",
-                "loc": "losach",
-                "voc": "losy"
-            }
-        },
-        "topics": [
-            "religion"
-        ]
-    },
-    {
-        "lemma": "huk",
-        "tags": [
-            "FREQ4",
-            "abstract",
-            "noise"
-        ],
-        "translations": {
-            "ENG": [
-                "boom",
-                "bang",
-                "crash",
-                "rumble"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-031-huk",
-        "inflections": {
-            "singular": {
-                "nom": "huk",
-                "gen": "huku",
-                "dat": "hukowi",
-                "acc": "huk",
-                "ins": "hukiem",
-                "loc": "huku",
-                "voc": "huku"
-            },
-            "plural": {
-                "nom": "huki",
-                "gen": "huków",
-                "dat": "hukom",
-                "acc": "huki",
-                "ins": "hukami",
-                "loc": "hukach",
-                "voc": "huki"
-            }
-        },
-        "topics": [
-            "sense and perception"
-        ]
-    },
-    {
-        "lemma": "most",
-        "tags": [
-            "FREQ3",
-            "building",
-            "concrete",
-            "location"
-        ],
-        "translations": {
-            "ENG": [
-                "bridge"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-032-most",
-        "inflections": {
-            "singular": {
-                "nom": "most",
-                "gen": "mostu",
-                "dat": "mostowi",
-                "acc": "most",
-                "ins": "mostem",
-                "loc": "moście",
-                "voc": "moście"
-            },
-            "plural": {
-                "nom": "mosty",
-                "gen": "mostów",
-                "dat": "mostom",
-                "acc": "mosty",
-                "ins": "mostami",
-                "loc": "mostach",
-                "voc": "mosty"
-            }
-        },
-        "topics": [
-            "inside"
-        ]
-    },
-    {
         "lemma": "słownik",
         "tags": [
             "FREQ4",
@@ -1819,24 +1162,28 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-033-słownik",
-        "usage": [
-            "Przy użyciu słownika sprawdzam definicję słów, których nie znam. I use the dictionary to look up definitions of words I don't know.",
-            "Usage notes [ edit ] Słownik is a Polish word which is usually translated as “dictionary”, but its usage is much wider than that. Almost anything that contains definitions of words is a “słownik”. While generally in Polish an encyclopedia is not usually considered to be a słownik ,specialist encyclopedias often are thus called as in ”Słownik Chemiczny”. This particular meaning is similar to glossary or lexicon (“Lexicon of Chemistry”)."
-        ],
-        "otherShapes": {
-            "diminutive": [
-                "słowniczek"
+        "id": "pol-nco-017-słownik",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "słowniczek"
+                ]
+            },
+            "synonyms": [
+                "dykcjonarz",
+                "(archaic)",
+                "słownictwo",
+                "zasób",
+                "słowny"
+            ],
+            "derivedTerms": [
+                "słownikowy"
+            ],
+            "usage": [
+                "Przy użyciu słownika sprawdzam definicję słów, których nie znam. I use the dictionary to look up definitions of words I don't know.",
+                "Usage notes [ edit ] Słownik is a Polish word which is usually translated as “dictionary”, but its usage is much wider than that. Almost anything that contains definitions of words is a “słownik”. While generally in Polish an encyclopedia is not usually considered to be a słownik ,specialist encyclopedias often are thus called as in ”Słownik Chemiczny”. This particular meaning is similar to glossary or lexicon (“Lexicon of Chemistry”)."
             ]
         },
-        "derivedTerms": [
-            "słownikowy"
-        ],
-        "synonyms": [
-            "dykcjonarz",
-            "(archaic)",
-            "słownictwo zasób słowny"
-        ],
         "inflections": {
             "singular": {
                 "nom": "słownik",
@@ -1874,14 +1221,16 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-034-tor",
-        "derivedTerms": [
-            "torować",
-            "torowiec",
-            "torowisko",
-            "torowy",
-            "dwutorowy"
-        ],
+        "id": "pol-nco-018-tor",
+        "extra": {
+            "derivedTerms": [
+                "torować",
+                "torowiec",
+                "torowisko",
+                "torowy",
+                "dwutorowy"
+            ]
+        },
         "inflections": {
             "singular": {
                 "nom": "tor",
@@ -1907,158 +1256,6 @@
         ]
     },
     {
-        "lemma": "bok",
-        "tags": [
-            "FREQ3",
-            "abstract"
-        ],
-        "translations": {
-            "ENG": [
-                "side"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-035-bok",
-        "derivedTerms": [
-            "boczek",
-            "boczniak",
-            "bocznica",
-            "pobocze",
-            "ubocze",
-            "zboczeniec",
-            "boczyć",
-            "zbaczać",
-            "zboczyć",
-            "boczny",
-            "poboczny",
-            "zboczony",
-            "bocznie",
-            "pobocznie",
-            "na bok",
-            "u boku",
-            "z boku"
-        ],
-        "synonyms": [
-            "strona"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "bok",
-                "gen": "boku",
-                "dat": "bokowi",
-                "acc": "bok",
-                "ins": "bokiem",
-                "loc": "boku",
-                "voc": "boku"
-            },
-            "plural": {
-                "nom": "boki",
-                "gen": "boków",
-                "dat": "bokom",
-                "acc": "boki",
-                "ins": "bokami",
-                "loc": "bokach",
-                "voc": "boki"
-            }
-        },
-        "topics": [
-            "geometry"
-        ]
-    },
-    {
-        "lemma": "natura",
-        "tags": [
-            "FREQ3",
-            "abstract",
-            "concrete",
-            "natural"
-        ],
-        "translations": {
-            "ENG": [
-                "nature"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-036-natura",
-        "usage": [
-            "On jest dość miły z natury. ― He's quite nice by nature."
-        ],
-        "synonyms": [
-            "przyroda"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "natura",
-                "gen": "natury",
-                "dat": "naturze",
-                "acc": "naturę",
-                "ins": "naturą",
-                "loc": "naturze",
-                "voc": "naturo"
-            }
-        },
-        "lacking": true,
-        "tantumSingulare": true,
-        "topics": [
-            "outside"
-        ]
-    },
-    {
-        "lemma": "dom",
-        "tags": [
-            "FREQ1",
-            "building",
-            "concrete",
-            "location"
-        ],
-        "translations": {
-            "ENG": [
-                "home",
-                "house"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-037-dom",
-        "usage": [
-            "Idę do domu . ― I'm going home."
-        ],
-        "derivedTerms": [
-            "domorosły",
-            "domowy",
-            "domator",
-            "domek",
-            "domokrążca",
-            "domownik",
-            "z domu"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "dom",
-                "gen": "domu",
-                "dat": "domowi",
-                "acc": "dom",
-                "ins": "domem",
-                "loc": "domu",
-                "voc": [
-                    "domu",
-                    "domie"
-                ]
-            },
-            "plural": {
-                "nom": "domy",
-                "gen": "domów",
-                "dat": "domom",
-                "acc": "domy",
-                "ins": "domami",
-                "loc": "domach",
-                "voc": "domy"
-            }
-        },
-        "topics": [
-            "inside"
-        ]
-    },
-    {
         "lemma": "syn",
         "tags": [
             "FREQ1",
@@ -2073,21 +1270,23 @@
             ]
         },
         "gender": "m1",
-        "id": "pol-npe-004-syn",
-        "otherShapes": {
-            "diminutive": [
-                "synek"
+        "id": "pol-npe-006-syn",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "synek"
+                ]
+            },
+            "derivedTerms": [
+                "syneczek",
+                "synek",
+                "syncio",
+                "synulek",
+                "synuś",
+                "synal",
+                "synalek"
             ]
         },
-        "derivedTerms": [
-            "syneczek",
-            "synek",
-            "syncio",
-            "synulek",
-            "synuś",
-            "synal",
-            "synalek"
-        ],
         "inflections": {
             "singular": {
                 "nom": "syn",
@@ -2113,6 +1312,133 @@
         ]
     },
     {
+        "lemma": "góra",
+        "tags": [
+            "FREQ3",
+            "concrete",
+            "location",
+            "natural"
+        ],
+        "translations": {
+            "ENG": [
+                "mountain"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-019-góra(mountain)",
+        "allohomInfo": { "singleWordtype": true, "text": "geographic place", "emoji": "⛰️" },
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "górka"
+                ]
+            },
+            "synonyms": [
+                "najpóźniej",
+                "najdalej",
+                "co najwyżej"
+            ],
+            "derivedTerms": [
+                "górski",
+                "górzysty",
+                "górować",
+                "górny"
+            ],
+            "usage": [
+                "Klasztor znajdował się na szczycie wysokiej góry . ― The monastery was situated on the top of a high mountain .",
+                "Góra strony powinna być pusta. ― The top of the page should be empty.",
+                "Nie pomogę wam w tym projekcie, dopóki góra go nie przyklepie. ― I won't help you with this project until the higher-ups sign off on it."
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "góra",
+                "gen": "góry",
+                "dat": "górze",
+                "acc": "górę",
+                "ins": "górą",
+                "loc": "górze",
+                "voc": "góro"
+            },
+            "plural": {
+                "nom": "góry",
+                "gen": "gór",
+                "dat": "górom",
+                "acc": "góry",
+                "ins": "górami",
+                "loc": "górach",
+                "voc": "góry"
+            }
+        },
+        "topics": [
+            "geography",
+            "outside"
+        ]
+    },
+    {
+        "lemma": "góra",
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "dimension"
+        ],
+        "translations": {
+            "ENG": [
+                "top"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-020-góra(top)",
+        "allohomInfo": { "singleWordtype": true, "text": "part of an object", "emoji": "⬆️️" },
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "górka"
+                ]
+            },
+            "synonyms": [
+                "najpóźniej",
+                "najdalej",
+                "co najwyżej"
+            ],
+            "derivedTerms": [
+                "górski",
+                "górzysty",
+                "górować",
+                "górny"
+            ],
+            "usage": [
+                "Klasztor znajdował się na szczycie wysokiej góry . ― The monastery was situated on the top of a high mountain .",
+                "Góra strony powinna być pusta. ― The top of the page should be empty.",
+                "Nie pomogę wam w tym projekcie, dopóki góra go nie przyklepie. ― I won't help you with this project until the higher-ups sign off on it."
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "góra",
+                "gen": "góry",
+                "dat": "górze",
+                "acc": "górę",
+                "ins": "górą",
+                "loc": "górze",
+                "voc": "góro"
+            },
+            "plural": {
+                "nom": "góry",
+                "gen": "gór",
+                "dat": "górom",
+                "acc": "góry",
+                "ins": "górami",
+                "loc": "górach",
+                "voc": "góry"
+            }
+        },
+        "topics": [
+            "geometry",
+            "sense and perception"
+        ]
+    },
+    {
         "lemma": "koza",
         "tags": [
             "FREQ2",
@@ -2126,19 +1452,21 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-038-koza",
-        "otherShapes": {
-            "diminutive": [
+        "id": "pol-nco-021-koza",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "kózka"
+                ]
+            },
+            "synonyms": [
                 "kózka"
+            ],
+            "derivedTerms": [
+                "kozi",
+                "koziarz"
             ]
         },
-        "derivedTerms": [
-            "kozi",
-            "koziarz"
-        ],
-        "synonyms": [
-            "kózka"
-        ],
         "inflections": {
             "singular": {
                 "nom": "koza",
@@ -2175,19 +1503,21 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-039-moneta",
-        "otherShapes": {
-            "diminutive": [
-                "monetka"
+        "id": "pol-nco-022-moneta",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "monetka"
+                ]
+            },
+            "derivedTerms": [
+                "monetowy",
+                "brać za dobrą monetę",
+                "wziąć za dobrą monetę",
+                "przyjmować za dobrą monetę",
+                "przyjąć za dobrą monetę"
             ]
         },
-        "derivedTerms": [
-            "monetowy",
-            "brać za dobrą monetę",
-            "wziąć za dobrą monetę",
-            "przyjmować za dobrą monetę",
-            "przyjąć za dobrą monetę"
-        ],
         "inflections": {
             "singular": {
                 "nom": "moneta",
@@ -2214,49 +1544,6 @@
         ]
     },
     {
-        "lemma": "niedziela",
-        "tags": [
-            "FREQ2",
-            "abstract"
-        ],
-        "translations": {
-            "ENG": [
-                "Sunday"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-040-niedziela",
-        "derivedTerms": [
-            "niedzielny"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "niedziela",
-                "gen": "niedzieli",
-                "dat": "niedzieli",
-                "acc": "niedzielę",
-                "ins": "niedzielą",
-                "loc": "niedzieli",
-                "voc": "niedzielo"
-            },
-            "plural": {
-                "nom": "niedziele",
-                "gen": [
-                    "niedzieli",
-                    "niedziel"
-                ],
-                "dat": "niedzielom",
-                "acc": "niedziele",
-                "ins": "niedzielami",
-                "loc": "niedzielach",
-                "voc": "niedziele"
-            }
-        },
-        "topics": [
-            "time"
-        ]
-    },
-    {
         "lemma": "sobota",
         "tags": [
             "FREQ2",
@@ -2268,15 +1555,17 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-041-sobota",
-        "otherShapes": {
-            "diminutive": [
-                "sobótka"
+        "id": "pol-nco-023-sobota",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "sobótka"
+                ]
+            },
+            "derivedTerms": [
+                "sobotni"
             ]
         },
-        "derivedTerms": [
-            "sobotni"
-        ],
         "inflections": {
             "singular": {
                 "nom": "sobota",
@@ -2302,91 +1591,6 @@
         ]
     },
     {
-        "lemma": "woda",
-        "tags": [
-            "FREQ1",
-            "concrete",
-            "drink",
-            "holdable",
-            "material",
-            "natural",
-            "uncountable"
-        ],
-        "translations": {
-            "ENG": [
-                "water"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-042-woda",
-        "derivedTerms": [
-            "powódź",
-            "powodzianin",
-            "powodzianka",
-            "wódka",
-            "wodniak",
-            "wodnik",
-            "Wodnik",
-            "wodociąg",
-            "wodogrzmot",
-            "wodojądrze",
-            "wodolecznictwo",
-            "wodolot",
-            "wodonercze",
-            "wodopój",
-            "wodorost",
-            "wodospad",
-            "wodostan",
-            "wodotrysk",
-            "wodór",
-            "wodowstręt",
-            "wódka",
-            "nawadniać",
-            "nawodniać",
-            "nawodnić",
-            "odwadniać",
-            "odwodniać",
-            "odwodnić",
-            "rozwadniać",
-            "rozwodnić",
-            "wodować",
-            "zwodować",
-            "zawadniać",
-            "zawodnić",
-            "wodnisty",
-            "wodny",
-            "wodoszczelny"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "woda",
-                "gen": "wody",
-                "dat": "wodzie",
-                "acc": "wodę",
-                "ins": "wodą",
-                "loc": "wodzie",
-                "voc": "wodo"
-            },
-            "plural": {
-                "nom": "wody",
-                "gen": "wód",
-                "dat": "wodom",
-                "acc": "wody",
-                "ins": "wodami",
-                "loc": "wodach",
-                "voc": "wody"
-            }
-        },
-        "topics": [
-            "chemistry",
-            "engineering",
-            "inside",
-            "kitchen",
-            "outside",
-            "restaurant"
-        ]
-    },
-    {
         "lemma": "złoty",
         "tags": [
             "FREQ3",
@@ -2398,11 +1602,13 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-043-złoty",
-        "otherShapes": {
-            "abbreviation": [
-                "zł"
-            ]
+        "id": "pol-nco-024-złoty",
+        "extra": {
+            "otherShapes": {
+                "abbreviation": [
+                    "zł"
+                ]
+            }
         },
         "inflections": {
             "singular": {
@@ -2430,46 +1636,6 @@
         ]
     },
     {
-        "lemma": "kilogram",
-        "tags": [
-            "FREQ3",
-            "measurement"
-        ],
-        "translations": {
-            "ENG": [
-                "kilogram"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-044-kilogram",
-        "synonyms": [
-            "kilo"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "kilogram",
-                "gen": "kilograma",
-                "dat": "kilogramowi",
-                "acc": "kilogram",
-                "ins": "kilogramem",
-                "loc": "kilogramie",
-                "voc": "kilogramie"
-            },
-            "plural": {
-                "nom": "kilogramy",
-                "gen": "kilogramów",
-                "dat": "kilogramom",
-                "acc": "kilogramy",
-                "ins": "kilogramami",
-                "loc": "kilogramach",
-                "voc": "kilogramy"
-            }
-        },
-        "topics": [
-            "math"
-        ]
-    },
-    {
         "lemma": "marchewka",
         "tags": [
             "FREQ2",
@@ -2484,20 +1650,23 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-045-marchewka",
-        "otherShapes": {
-            "diminutive": [
-                "marcheweczka"
+        "id": "pol-nco-025-marchewka",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "marcheweczka"
+                ]
+            },
+            "synonyms": [
+                "wiewiórka",
+                "rudzielec",
+                "nos",
+                "pięta"
+            ],
+            "derivedTerms": [
+                "marchewkowy"
             ]
         },
-        "derivedTerms": [
-            "marchewkowy"
-        ],
-        "synonyms": [
-            "wiewiórka rudzielec",
-            "nos",
-            "pięta"
-        ],
         "inflections": {
             "singular": {
                 "nom": "marchewka",
@@ -2525,48 +1694,6 @@
         ]
     },
     {
-        "lemma": "port",
-        "tags": [
-            "FREQ3",
-            "concrete",
-            "location"
-        ],
-        "translations": {
-            "ENG": [
-                "port",
-                "harbour"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-046-port",
-        "derivedTerms": [
-            "portowy"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "port",
-                "gen": "portu",
-                "dat": "portowi",
-                "acc": "port",
-                "ins": "portem",
-                "loc": "porcie",
-                "voc": "porcie"
-            },
-            "plural": {
-                "nom": "porty",
-                "gen": "portów",
-                "dat": "portom",
-                "acc": "porty",
-                "ins": "portami",
-                "loc": "portach",
-                "voc": "porty"
-            }
-        },
-        "topics": [
-            "travel"
-        ]
-    },
-    {
         "lemma": "ser",
         "tags": [
             "FREQ2",
@@ -2581,25 +1708,27 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-047-ser",
-        "otherShapes": {
-            "diminutive": [
-                "serek"
+        "id": "pol-nco-026-ser",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "serek"
+                ]
+            },
+            "derivedTerms": [
+                "sernik",
+                "serny",
+                "serowaty",
+                "serowy",
+                "ser biały",
+                "ser krowi",
+                "ser pleśniowy",
+                "ser śmietankowy",
+                "ser topiony",
+                "ser żółty",
+                "ser wegański"
             ]
         },
-        "derivedTerms": [
-            "sernik",
-            "serny",
-            "serowaty",
-            "serowy",
-            "ser biały",
-            "ser krowi",
-            "ser pleśniowy",
-            "ser śmietankowy",
-            "ser topiony",
-            "ser żółty",
-            "ser wegański"
-        ],
         "inflections": {
             "singular": {
                 "nom": "ser",
@@ -2642,14 +1771,16 @@
             ]
         },
         "gender": "m1",
-        "id": "pol-npe-005-facet",
-        "otherShapes": {
-            "diminutive": [
-                "facecik"
-            ],
-            "feminine": [
-                "facetka"
-            ]
+        "id": "pol-npe-007-facet",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "facecik"
+                ],
+                "feminine": [
+                    "facetka"
+                ]
+            }
         },
         "inflections": {
             "singular": {
@@ -2690,21 +1821,23 @@
             ]
         },
         "gender": "f",
-        "id": "pol-npe-006-panna",
-        "otherShapes": {
-            "diminutive": [
-                "panienka"
-            ],
-            "augmentative": [
-                "pannica",
-                "pannisko"
+        "id": "pol-npe-008-panna",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "panienka"
+                ],
+                "augmentative": [
+                    "pannica",
+                    "pannisko"
+                ]
+            },
+            "derivedTerms": [
+                "panieński",
+                "panieństwo",
+                "Panna"
             ]
         },
-        "derivedTerms": [
-            "panieński",
-            "panieństwo",
-            "Panna"
-        ],
         "inflections": {
             "singular": {
                 "nom": "panna",
@@ -2730,47 +1863,152 @@
         ]
     },
     {
-        "lemma": "ocean",
+        "lemma": "siostrzeniec",
         "tags": [
-            "FREQ2",
+            "FREQ3",
             "concrete",
-            "location",
-            "natural"
+            "living",
+            "person",
+            "relative"
         ],
         "translations": {
             "ENG": [
-                "ocean"
+                "nephew"
             ]
         },
-        "gender": "m3",
-        "id": "pol-nco-048-ocean",
-        "derivedTerms": [
-            "oceaniczny",
-            "oceanografia"
-        ],
+        "gender": "m1",
+        "id": "pol-npe-009-siostrzeniec",
         "inflections": {
             "singular": {
-                "nom": "ocean",
-                "gen": "oceanu",
-                "dat": "oceanowi",
-                "acc": "ocean",
-                "ins": "oceanem",
-                "loc": "oceanie",
-                "voc": "oceanie"
+                "nom": "siostrzeniec",
+                "gen": "siostrzeńca",
+                "dat": "siostrzeńcowi",
+                "acc": "siostrzeńca",
+                "ins": "siostrzeńcem",
+                "loc": "siostrzeńcu",
+                "voc": [
+                    "siostrzeńcu",
+                    "siostrzeńcze"
+                ]
             },
             "plural": {
-                "nom": "oceany",
-                "gen": "oceanów",
-                "dat": "oceanom",
-                "acc": "oceany",
-                "ins": "oceanami",
-                "loc": "oceanach",
-                "voc": "oceany"
+                "nom": "siostrzeńcy",
+                "gen": "siostrzeńców",
+                "dat": "siostrzeńcom",
+                "acc": "siostrzeńców",
+                "ins": "siostrzeńcami",
+                "loc": "siostrzeńcach",
+                "voc": "siostrzeńcy"
             }
         },
         "topics": [
-            "geography",
-            "outside"
+            "people"
+        ]
+    },
+    {
+        "lemma": "student",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "living",
+            "person",
+            "profession"
+        ],
+        "translations": {
+            "ENG": [
+                "student"
+            ]
+        },
+        "gender": "m1",
+        "id": "pol-npe-010-student",
+        "extra": {
+            "otherShapes": {
+                "feminine": [
+                    "studentka"
+                ]
+            },
+            "derivedTerms": [
+                "studencki"
+            ],
+            "usage": [
+                "Hypernyms: uczeń uczennica"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "student",
+                "gen": "studenta",
+                "dat": "studentowi",
+                "acc": "studenta",
+                "ins": "studentem",
+                "loc": "studencie",
+                "voc": "studencie"
+            },
+            "plural": {
+                "nom": "studenci",
+                "gen": "studentów",
+                "dat": "studentom",
+                "acc": "studentów",
+                "ins": "studentami",
+                "loc": "studentach",
+                "voc": "studenci"
+            }
+        },
+        "topics": [
+            "people",
+            "work"
+        ]
+    },
+    {
+        "lemma": "bratanek",
+        "tags": [
+            "FREQ3",
+            "concrete",
+            "living",
+            "person",
+            "relative"
+        ],
+        "translations": {
+            "ENG": [
+                "nephew"
+            ]
+        },
+        "gender": "m1",
+        "id": "pol-npe-011-bratanek",
+        "extra": {
+            "synonyms": [
+                "brataniec",
+                "synowiec"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "bratanek",
+                "gen": "bratanka",
+                "dat": "bratankowi",
+                "acc": "bratanka",
+                "ins": "bratankiem",
+                "loc": "bratanku",
+                "voc": "bratanku"
+            },
+            "plural": {
+                "nom": [
+                    "bratankowie",
+                    "bratanki"
+                ],
+                "gen": "bratanków",
+                "dat": "bratankom",
+                "acc": "bratanków",
+                "ins": "bratankami",
+                "loc": "bratankach",
+                "voc": [
+                    "bratankowie",
+                    "bratanki"
+                ]
+            }
+        },
+        "topics": [
+            "people"
         ]
     },
     {
@@ -2789,22 +2027,24 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-049-kapusta",
-        "otherShapes": {
-            "diminutive": [
-                "kapustka"
+        "id": "pol-nco-027-kapusta",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "kapustka"
+                ],
+                "augmentative": [
+                    "kapucha"
+                ]
+            },
+            "synonyms": [
+                "pieniądze"
             ],
-            "augmentative": [
-                "kapucha"
+            "derivedTerms": [
+                "kapuściany",
+                "kapuśniak"
             ]
         },
-        "derivedTerms": [
-            "kapuściany",
-            "kapuśniak"
-        ],
-        "synonyms": [
-            "pieniądze"
-        ],
         "inflections": {
             "singular": {
                 "nom": "kapusta",
@@ -2846,20 +2086,22 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-050-malina",
-        "otherShapes": {
-            "diminutive": [
-                "malinka"
+        "id": "pol-nco-028-malina",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "malinka"
+                ]
+            },
+            "derivedTerms": [
+                "malinowy",
+                "malinowo",
+                "maliniak",
+                "malinica",
+                "malinnik",
+                "malinówka"
             ]
         },
-        "derivedTerms": [
-            "malinowy",
-            "malinowo",
-            "maliniak",
-            "malinica",
-            "malinnik",
-            "malinówka"
-        ],
         "inflections": {
             "singular": {
                 "nom": "malina",
@@ -2887,50 +2129,6 @@
         ]
     },
     {
-        "lemma": "wanna",
-        "tags": [
-            "FREQ2",
-            "concrete",
-            "furniture"
-        ],
-        "translations": {
-            "ENG": [
-                "bath",
-                "bathtub"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-051-wanna",
-        "derivedTerms": [
-            "wannowy"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "wanna",
-                "gen": "wanny",
-                "dat": "wannie",
-                "acc": "wannę",
-                "ins": "wanną",
-                "loc": "wannie",
-                "voc": "wanno"
-            },
-            "plural": {
-                "nom": "wanny",
-                "gen": "wanien",
-                "dat": "wannom",
-                "acc": "wanny",
-                "ins": "wannami",
-                "loc": "wannach",
-                "voc": "wanny"
-            }
-        },
-        "topics": [
-            "home",
-            "inside",
-            "washroom"
-        ]
-    },
-    {
         "lemma": "guma",
         "tags": [
             "FREQ4",
@@ -2944,17 +2142,19 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-052-guma(rubber)",
+        "id": "pol-nco-029-guma(rubber)",
         "allohomInfo": { "singleWordtype": true, "text": "a material", "emoji": "✏️️️" },
-        "otherShapes": {
-            "diminutive": [
-                "gumka"
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "gumka"
+                ]
+            },
+            "derivedTerms": [
+                "gumka",
+                "gumowy"
             ]
         },
-        "derivedTerms": [
-            "gumka",
-            "gumowy"
-        ],
         "inflections": {
             "singular": {
                 "nom": "guma",
@@ -2994,17 +2194,19 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-053-guma(chewing gum)",
+        "id": "pol-nco-030-guma(chewing gum)",
         "allohomInfo": { "singleWordtype": true, "text": "a kind of sweet", "emoji": "\uD83C\uDF6C️️️" },
-        "otherShapes": {
-            "diminutive": [
-                "gumka"
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "gumka"
+                ]
+            },
+            "derivedTerms": [
+                "gumka",
+                "gumowy"
             ]
         },
-        "derivedTerms": [
-            "gumka",
-            "gumowy"
-        ],
         "inflections": {
             "singular": {
                 "nom": "guma",
@@ -3032,333 +2234,6 @@
         ]
     },
     {
-        "lemma": "język",
-        "tags": [
-            "FREQ3",
-            "bodypart"
-        ],
-        "translations": {
-            "ENG": [
-                "tongue"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-054-język(tongue)",
-        "allohomInfo": { "singleWordtype": true, "text": "a body part", "emoji": "\uD83D\uDC45️️️" },
-        "otherShapes": {
-            "diminutive": [
-                "języczek"
-            ],
-            "augmentative": [
-                "jęzor"
-            ]
-        },
-        "derivedTerms": [
-            "językowy",
-            "języczek",
-            "językoznawstwo",
-            "język migowy",
-            "język obcy",
-            "język sztuczny",
-            "trzymać język za zębami"
-        ],
-        "synonyms": [
-            "mowa"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "język",
-                "gen": "języka",
-                "dat": "językowi",
-                "acc": "język",
-                "ins": "językiem",
-                "loc": "języku",
-                "voc": "języku"
-            },
-            "plural": {
-                "nom": "języki",
-                "gen": "języków",
-                "dat": "językom",
-                "acc": "języki",
-                "ins": "językami",
-                "loc": "językach",
-                "voc": "języki"
-            }
-        },
-        "topics": [
-            "body",
-            "medicine"
-        ]
-    },
-    {
-        "lemma": "język",
-        "tags": [
-            "FREQ3"
-        ],
-        "translations": {
-            "ENG": [
-                "language"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-055-język(language)",
-        "allohomInfo": { "singleWordtype": true, "text": "spoken", "emoji": "\uD83D\uDD24️️️" },
-        "otherShapes": {
-            "diminutive": [
-                "języczek"
-            ],
-            "augmentative": [
-                "jęzor"
-            ]
-        },
-        "derivedTerms": [
-            "językowy",
-            "języczek",
-            "językoznawstwo",
-            "język migowy",
-            "język obcy",
-            "język sztuczny",
-            "trzymać język za zębami"
-        ],
-        "synonyms": [
-            "mowa"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "język",
-                "gen": "języka",
-                "dat": "językowi",
-                "acc": "język",
-                "ins": "językiem",
-                "loc": "języku",
-                "voc": "języku"
-            },
-            "plural": {
-                "nom": "języki",
-                "gen": "języków",
-                "dat": "językom",
-                "acc": "języki",
-                "ins": "językami",
-                "loc": "językach",
-                "voc": "języki"
-            }
-        },
-        "topics": [
-            "language"
-        ]
-    },
-    {
-        "lemma": "ekran",
-        "tags": [
-            "FREQ4",
-            "computer part",
-            "device"
-        ],
-        "translations": {
-            "ENG": [
-                "screen"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-056-ekran",
-        "inflections": {
-            "singular": {
-                "nom": "ekran",
-                "gen": "ekranu",
-                "dat": "ekranowi",
-                "acc": "ekran",
-                "ins": "ekranem",
-                "loc": "ekranie",
-                "voc": "ekranie"
-            },
-            "plural": {
-                "nom": "ekrany",
-                "gen": "ekranów",
-                "dat": "ekranom",
-                "acc": "ekrany",
-                "ins": "ekranami",
-                "loc": "ekranach",
-                "voc": "ekrany"
-            }
-        },
-        "topics": [
-            "computing",
-            "tech"
-        ]
-    },
-    {
-        "lemma": "student",
-        "tags": [
-            "FREQ2",
-            "concrete",
-            "living",
-            "person",
-            "profession"
-        ],
-        "translations": {
-            "ENG": [
-                "student"
-            ]
-        },
-        "gender": "m1",
-        "id": "pol-npe-007-student",
-        "usage": [
-            "Hypernyms: uczeń uczennica"
-        ],
-        "otherShapes": {
-            "feminine": [
-                "studentka"
-            ]
-        },
-        "derivedTerms": [
-            "studencki"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "student",
-                "gen": "studenta",
-                "dat": "studentowi",
-                "acc": "studenta",
-                "ins": "studentem",
-                "loc": "studencie",
-                "voc": "studencie"
-            },
-            "plural": {
-                "nom": "studenci",
-                "gen": "studentów",
-                "dat": "studentom",
-                "acc": "studentów",
-                "ins": "studentami",
-                "loc": "studentach",
-                "voc": "studenci"
-            }
-        },
-        "topics": [
-            "people",
-            "work"
-        ]
-    },
-    {
-        "lemma": "lista",
-        "tags": [
-            "FREQ4"
-        ],
-        "translations": {
-            "ENG": [
-                "list"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-057-lista",
-        "synonyms": [
-            "spis",
-            "wykaz"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "lista",
-                "gen": "listy",
-                "dat": "liście",
-                "acc": "listę",
-                "ins": "listą",
-                "loc": "liście",
-                "voc": "listo"
-            },
-            "plural": {
-                "nom": "listy",
-                "gen": "list",
-                "dat": "listom",
-                "acc": "listy",
-                "ins": "listami",
-                "loc": "listach",
-                "voc": "listy"
-            }
-        },
-        "topics": [
-            "school",
-            "work"
-        ]
-    },
-    {
-        "lemma": "maj",
-        "tags": [
-            "FREQ2",
-            "abstract"
-        ],
-        "translations": {
-            "ENG": [
-                "May"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-058-maj",
-        "derivedTerms": [
-            "majowy"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "maj",
-                "gen": "maja",
-                "dat": "majowi",
-                "acc": "maj",
-                "ins": "majem",
-                "loc": "maju",
-                "voc": "maju"
-            },
-            "plural": {
-                "nom": "maje",
-                "gen": "majów",
-                "dat": "majom",
-                "acc": "maje",
-                "ins": "majami",
-                "loc": "majach",
-                "voc": "maje"
-            }
-        },
-        "topics": [
-            "time"
-        ]
-    },
-    {
-        "lemma": "kanapa",
-        "tags": [
-            "FREQ3",
-            "concrete",
-            "furniture"
-        ],
-        "translations": {
-            "ENG": [
-                "sofa"
-            ]
-        },
-        "gender": "f",
-        "id": "pol-nco-059-kanapa",
-        "inflections": {
-            "singular": {
-                "nom": "kanapa",
-                "gen": "kanapy",
-                "dat": "kanapie",
-                "acc": "kanapę",
-                "ins": "kanapą",
-                "loc": "kanapie",
-                "voc": "kanapo"
-            },
-            "plural": {
-                "nom": "kanapy",
-                "gen": "kanap",
-                "dat": "kanapom",
-                "acc": "kanapy",
-                "ins": "kanapami",
-                "loc": "kanapach",
-                "voc": "kanapy"
-            }
-        },
-        "topics": [
-            "home",
-            "inside"
-        ]
-    },
-    {
         "lemma": "droga",
         "tags": [
             "FREQ3",
@@ -3373,24 +2248,26 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-060-droga",
-        "otherShapes": {
-            "diminutive": [
-                "dróżka"
+        "id": "pol-nco-031-droga",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "dróżka"
+                ]
+            },
+            "derivedTerms": [
+                "drogowy",
+                "drogą",
+                "po drodze",
+                "w drodze",
+                "bezdroże",
+                "podróż",
+                "rozdroże",
+                "na drodze",
+                "stawać na drodze",
+                "stanąć na drodze"
             ]
         },
-        "derivedTerms": [
-            "drogowy",
-            "drogą",
-            "po drodze",
-            "w drodze",
-            "bezdroże",
-            "podróż",
-            "rozdroże",
-            "na drodze",
-            "stawać na drodze",
-            "stanąć na drodze"
-        ],
         "inflections": {
             "singular": {
                 "nom": "droga",
@@ -3430,30 +2307,32 @@
             ]
         },
         "gender": "m2",
-        "id": "pol-nco-061-kot",
-        "usage": [
-            "W istocie, kot czuł s tyłu myśliwych i psiarnie Rwał w pole, słuchy wytknął jak dwa różki sarnie In very truth, the hare felt behind it the hunters and the pack; it was making for the field; it stretched out behind it its ears like two deer's horns [transl. by George Rapall Noyes ]"
-        ],
-        "otherShapes": {
-            "diminutive": [
-                "kotek",
-                "koteczek"
+        "id": "pol-nco-032-kot",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "kotek",
+                    "koteczek"
+                ],
+                "augmentative": [
+                    "kocur"
+                ],
+                "feminine": [
+                    "kocica",
+                    "kotka"
+                ]
+            },
+            "derivedTerms": [
+                "koci",
+                "(",
+                "kociak",
+                "kocię",
+                "kocić się"
             ],
-            "augmentative": [
-                "kocur"
-            ],
-            "feminine": [
-                "kocica",
-                "kotka"
+            "usage": [
+                "W istocie, kot czuł s tyłu myśliwych i psiarnie Rwał w pole, słuchy wytknął jak dwa różki sarnie In very truth, the hare felt behind it the hunters and the pack; it was making for the field; it stretched out behind it its ears like two deer's horns [transl. by George Rapall Noyes ]"
             ]
         },
-        "derivedTerms": [
-            "koci",
-            "(",
-            "kociak",
-            "kocię",
-            "kocić się"
-        ],
         "inflections": {
             "singular": {
                 "nom": "kot",
@@ -3493,29 +2372,31 @@
             ]
         },
         "gender": "m2",
-        "id": "pol-nco-062-lis",
-        "otherShapes": {
-            "diminutive": [
-                "lisek"
-            ],
-            "augmentative": [
-                "lisisko"
-            ],
-            "feminine": [
-                "lisica"
+        "id": "pol-nco-033-lis",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "lisek"
+                ],
+                "augmentative": [
+                    "lisisko"
+                ],
+                "feminine": [
+                    "lisica"
+                ]
+            },
+            "derivedTerms": [
+                "lisaty",
+                "lisawy",
+                "lisi",
+                "lisiątko",
+                "lisię",
+                "lisiura",
+                "lisowaty",
+                "lisowczyk",
+                "liszka"
             ]
         },
-        "derivedTerms": [
-            "lisaty",
-            "lisawy",
-            "lisi",
-            "lisiątko",
-            "lisię",
-            "lisiura",
-            "lisowaty",
-            "lisowczyk",
-            "liszka"
-        ],
         "inflections": {
             "singular": {
                 "nom": "lis",
@@ -3554,32 +2435,34 @@
             ]
         },
         "gender": "m2",
-        "id": "pol-nco-063-ptak",
-        "otherShapes": {
-            "diminutive": [
-                "ptaszek"
+        "id": "pol-nco-034-ptak",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "ptaszek"
+                ],
+                "augmentative": [
+                    "ptaszysko"
+                ]
+            },
+            "synonyms": [
+                "prącie"
             ],
-            "augmentative": [
-                "ptaszysko"
+            "derivedTerms": [
+                "ptasi",
+                "ptaszy",
+                "ptaszarnia",
+                "ptaszek",
+                "ptaszę",
+                "ptasznica",
+                "ptaszniczka",
+                "ptasznik",
+                "ptaszydło",
+                "ptaszyna",
+                "ptaszysko",
+                "ptaszkować"
             ]
         },
-        "derivedTerms": [
-            "ptasi",
-            "ptaszy",
-            "ptaszarnia",
-            "ptaszek",
-            "ptaszę",
-            "ptasznica",
-            "ptaszniczka",
-            "ptasznik",
-            "ptaszydło",
-            "ptaszyna",
-            "ptaszysko",
-            "ptaszkować"
-        ],
-        "synonyms": [
-            "prącie"
-        ],
         "inflections": {
             "singular": {
                 "nom": "ptak",
@@ -3618,29 +2501,33 @@
             ]
         },
         "gender": "m2",
-        "id": "pol-nco-064-wilk",
-        "otherShapes": {
-            "diminutive": [
-                "wilczek"
+        "id": "pol-nco-035-wilk",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "wilczek"
+                ],
+                "augmentative": [
+                    "wilczysko"
+                ],
+                "feminine": [
+                    "wilczyca"
+                ]
+            },
+            "synonyms": [
+                "basior",
+                "owczarek",
+                "niemiecki",
+                "wilczur",
+                "wilczura"
             ],
-            "augmentative": [
-                "wilczysko"
-            ],
-            "feminine": [
-                "wilczyca"
+            "derivedTerms": [
+                "patrzeć wilkiem",
+                "wilczur",
+                "wilczy",
+                "wilczy głód"
             ]
         },
-        "derivedTerms": [
-            "patrzeć wilkiem",
-            "wilczur",
-            "wilczy",
-            "wilczy głód"
-        ],
-        "synonyms": [
-            "basior",
-            "owczarek niemiecki wilczur",
-            "wilczura"
-        ],
         "inflections": {
             "singular": {
                 "nom": "wilk",
@@ -3666,59 +2553,123 @@
         ]
     },
     {
-        "lemma": "moment",
+        "lemma": "język",
         "tags": [
-            "FREQ2",
-            "abstract"
+            "FREQ3",
+            "bodypart"
         ],
         "translations": {
             "ENG": [
-                "moment"
+                "tongue"
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-065-moment",
-        "usage": [
-            "moment bezwładności – moment of inertia",
-            "moment gnący moment zginający – bending moment",
-            "moment pędu – angular momentum, moment of momentum",
-            "moment siły – moment of force",
-            "moment skręcający – twisting moment"
-        ],
-        "otherShapes": {
-            "diminutive": [
-                "momencik"
+        "id": "pol-nco-036-język(tongue)",
+        "allohomInfo": { "singleWordtype": true, "text": "a body part", "emoji": "\uD83D\uDC45️️️" },
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "języczek"
+                ],
+                "augmentative": [
+                    "jęzor"
+                ]
+            },
+            "synonyms": [
+                "mowa"
+            ],
+            "derivedTerms": [
+                "językowy",
+                "języczek",
+                "językoznawstwo",
+                "język migowy",
+                "język obcy",
+                "język sztuczny",
+                "trzymać język za zębami"
             ]
         },
-        "derivedTerms": [
-            "momentalny",
-            "momentami"
-        ],
-        "synonyms": [
-            "chwila"
-        ],
         "inflections": {
             "singular": {
-                "nom": "moment",
-                "gen": "momentu",
-                "dat": "momentowi",
-                "acc": "moment",
-                "ins": "momentem",
-                "loc": "momencie",
-                "voc": "momencie"
+                "nom": "język",
+                "gen": "języka",
+                "dat": "językowi",
+                "acc": "język",
+                "ins": "językiem",
+                "loc": "języku",
+                "voc": "języku"
             },
             "plural": {
-                "nom": "momenty",
-                "gen": "momentów",
-                "dat": "momentom",
-                "acc": "momenty",
-                "ins": "momentami",
-                "loc": "momentach",
-                "voc": "momenty"
+                "nom": "języki",
+                "gen": "języków",
+                "dat": "językom",
+                "acc": "języki",
+                "ins": "językami",
+                "loc": "językach",
+                "voc": "języki"
             }
         },
         "topics": [
-            "time"
+            "body",
+            "medicine"
+        ]
+    },
+    {
+        "lemma": "język",
+        "tags": [
+            "FREQ3"
+        ],
+        "translations": {
+            "ENG": [
+                "language"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-037-język(language)",
+        "allohomInfo": { "singleWordtype": true, "text": "spoken", "emoji": "\uD83D\uDD24️️️" },
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "języczek"
+                ],
+                "augmentative": [
+                    "jęzor"
+                ]
+            },
+            "synonyms": [
+                "mowa"
+            ],
+            "derivedTerms": [
+                "językowy",
+                "języczek",
+                "językoznawstwo",
+                "język migowy",
+                "język obcy",
+                "język sztuczny",
+                "trzymać język za zębami"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "język",
+                "gen": "języka",
+                "dat": "językowi",
+                "acc": "język",
+                "ins": "językiem",
+                "loc": "języku",
+                "voc": "języku"
+            },
+            "plural": {
+                "nom": "języki",
+                "gen": "języków",
+                "dat": "językom",
+                "acc": "języki",
+                "ins": "językami",
+                "loc": "językach",
+                "voc": "języki"
+            }
+        },
+        "topics": [
+            "language"
         ]
     },
     {
@@ -3738,16 +2689,21 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-066-hol",
-        "otherShapes": {
-            "diminutive": [
-                "holik"
+        "id": "pol-nco-038-hol",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "holik"
+                ]
+            },
+            "synonyms": [
+                "kuluar",
+                "lobby",
+                "przedsionek",
+                "przysienie",
+                "sień"
             ]
         },
-        "synonyms": [
-            "kuluar lobby",
-            "przedsionek przysienie sień"
-        ],
         "inflections": {
             "singular": {
                 "nom": "hol",
@@ -3777,6 +2733,64 @@
         ]
     },
     {
+        "lemma": "moment",
+        "tags": [
+            "FREQ2",
+            "abstract"
+        ],
+        "translations": {
+            "ENG": [
+                "moment"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-039-moment",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "momencik"
+                ]
+            },
+            "synonyms": [
+                "chwila"
+            ],
+            "derivedTerms": [
+                "momentalny",
+                "momentami"
+            ],
+            "usage": [
+                "moment bezwładności – moment of inertia",
+                "moment gnący moment zginający – bending moment",
+                "moment pędu – angular momentum, moment of momentum",
+                "moment siły – moment of force",
+                "moment skręcający – twisting moment"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "moment",
+                "gen": "momentu",
+                "dat": "momentowi",
+                "acc": "moment",
+                "ins": "momentem",
+                "loc": "momencie",
+                "voc": "momencie"
+            },
+            "plural": {
+                "nom": "momenty",
+                "gen": "momentów",
+                "dat": "momentom",
+                "acc": "momenty",
+                "ins": "momentami",
+                "loc": "momentach",
+                "voc": "momenty"
+            }
+        },
+        "topics": [
+            "time"
+        ]
+    },
+    {
         "lemma": "okno",
         "tags": [
             "FREQ2",
@@ -3789,16 +2803,18 @@
             ]
         },
         "gender": "n",
-        "id": "pol-nco-067-okno",
-        "otherShapes": {
-            "diminutive": [
-                "okienko"
+        "id": "pol-nco-040-okno",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "okienko"
+                ]
+            },
+            "derivedTerms": [
+                "okiennica",
+                "okienny"
             ]
         },
-        "derivedTerms": [
-            "okiennica",
-            "okienny"
-        ],
         "inflections": {
             "singular": {
                 "nom": "okno",
@@ -3839,85 +2855,87 @@
             ]
         },
         "gender": "n",
-        "id": "pol-nco-068-radio",
-        "otherShapes": {
-            "diminutive": [
-                "radyjko"
+        "id": "pol-nco-041-radio",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "radyjko"
+                ]
+            },
+            "synonyms": [
+                "radioodbiornik",
+                "rozgłośnia",
+                "radiostacja"
+            ],
+            "derivedTerms": [
+                "radioabonent",
+                "radioaktywność",
+                "radioamator",
+                "radioaparat",
+                "radioastronomia",
+                "radioautografia",
+                "radiobiologia",
+                "radiobusola",
+                "radiochemia",
+                "radiochronologia",
+                "radiodewiacja",
+                "radiodroma",
+                "radioecho",
+                "radioekologia",
+                "radioelektronika",
+                "radioelektryka",
+                "radiofonia",
+                "radiofonizacja",
+                "radiofotografia",
+                "radiografia",
+                "radiogram",
+                "radiointerferometr",
+                "radioizotop",
+                "radiokompas",
+                "radiokomunikacja",
+                "radiola",
+                "radiolatarnia",
+                "radiolinia",
+                "radioliza",
+                "radiolog",
+                "radiologia",
+                "radiolokacja",
+                "radioluminescencja",
+                "radiomechanik",
+                "radiometeorologia",
+                "radiometr",
+                "radiometria",
+                "radiomigracyjny",
+                "radiomonter",
+                "radionawigacja",
+                "radionuklid",
+                "radioodbiornik",
+                "radiooficer",
+                "radiooperator",
+                "radiopajęczarz",
+                "radiopeleng",
+                "radioskop",
+                "radioskopia",
+                "radiosłuchacz",
+                "radiosonda",
+                "radiospektograf",
+                "radiospektroskopia",
+                "radiostacja",
+                "radiotechnik",
+                "radiotechnika",
+                "radiotelefon",
+                "radiotelefonia",
+                "radiotelegraf",
+                "radiotelegram",
+                "radiotelekomunikacja",
+                "radiotelemechanika",
+                "radiotelemetria",
+                "radioteleskop",
+                "radioterapia",
+                "radiowiec",
+                "radiowy"
             ]
         },
-        "derivedTerms": [
-            "radioabonent",
-            "radioaktywność",
-            "radioamator",
-            "radioaparat",
-            "radioastronomia",
-            "radioautografia",
-            "radiobiologia",
-            "radiobusola",
-            "radiochemia",
-            "radiochronologia",
-            "radiodewiacja",
-            "radiodroma",
-            "radioecho",
-            "radioekologia",
-            "radioelektronika",
-            "radioelektryka",
-            "radiofonia",
-            "radiofonizacja",
-            "radiofotografia",
-            "radiografia",
-            "radiogram",
-            "radiointerferometr",
-            "radioizotop",
-            "radiokompas",
-            "radiokomunikacja",
-            "radiola",
-            "radiolatarnia",
-            "radiolinia",
-            "radioliza",
-            "radiolog",
-            "radiologia",
-            "radiolokacja",
-            "radioluminescencja",
-            "radiomechanik",
-            "radiometeorologia",
-            "radiometr",
-            "radiometria",
-            "radiomigracyjny",
-            "radiomonter",
-            "radionawigacja",
-            "radionuklid",
-            "radioodbiornik",
-            "radiooficer",
-            "radiooperator",
-            "radiopajęczarz",
-            "radiopeleng",
-            "radioskop",
-            "radioskopia",
-            "radiosłuchacz",
-            "radiosonda",
-            "radiospektograf",
-            "radiospektroskopia",
-            "radiostacja",
-            "radiotechnik",
-            "radiotechnika",
-            "radiotelefon",
-            "radiotelefonia",
-            "radiotelegraf",
-            "radiotelegram",
-            "radiotelekomunikacja",
-            "radiotelemechanika",
-            "radiotelemetria",
-            "radioteleskop",
-            "radioterapia",
-            "radiowiec",
-            "radiowy"
-        ],
-        "synonyms": [
-            "radioodbiornik",
-            "rozgłośnia",
-            "radiostacja"
-        ],
         "inflections": {
             "singular": {
                 "nom": "radio",
@@ -3957,11 +2975,13 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-069-problem",
-        "otherShapes": {
-            "diminutive": [
-                "problemik"
-            ]
+        "id": "pol-nco-042-problem",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "problemik"
+                ]
+            }
         },
         "inflections": {
             "singular": {
@@ -3986,284 +3006,6 @@
         "topics": []
     },
     {
-        "lemma": "schody",
-        "tags": [
-            "FREQ2",
-            "concrete",
-            "part of house"
-        ],
-        "translations": {
-            "ENG": [
-                "stairs",
-                "stairway"
-            ]
-        },
-        "gender": "nonvirile",
-        "id": "pol-nco-070-schody",
-        "derivedTerms": [
-            "schodowy",
-            "klatka schodowa",
-            "ruchome schody"
-        ],
-        "inflections": {
-            "plural": {
-                "nom": "schody",
-                "gen": "schodów",
-                "dat": "schodom",
-                "acc": "schody",
-                "ins": "schodami",
-                "loc": "schodach",
-                "voc": "schody"
-            }
-        },
-        "lacking": true,
-        "tantumPlurale": true,
-        "topics": [
-            "home",
-            "inside"
-        ]
-    },
-    {
-        "lemma": "grunt",
-        "tags": [
-            "FREQ4",
-            "concrete",
-            "location",
-            "natural"
-        ],
-        "translations": {
-            "ENG": [
-                "ground"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-071-grunt",
-        "derivedTerms": [
-            "gruntowność",
-            "gruntowy",
-            "gruntowny",
-            "gruntownie"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "grunt",
-                "gen": "gruntu",
-                "dat": "gruntowi",
-                "acc": "grunt",
-                "ins": "gruntem",
-                "loc": "gruncie",
-                "voc": "gruncie"
-            },
-            "plural": {
-                "nom": "grunty",
-                "gen": "gruntów",
-                "dat": "gruntom",
-                "acc": "grunty",
-                "ins": "gruntami",
-                "loc": "gruntach",
-                "voc": "grunty"
-            }
-        },
-        "topics": [
-            "geography",
-            "outside"
-        ]
-    },
-    {
-        "lemma": "alarm",
-        "tags": [
-            "FREQ4",
-            "abstract",
-            "device",
-            "noise"
-        ],
-        "translations": {
-            "ENG": [
-                "alarm"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-072-alarm",
-        "usage": [
-            "Hypernym: alert",
-            "Hypernym: alert"
-        ],
-        "derivedTerms": [
-            "alarmista",
-            "dzwonek alarmowy",
-            "sygnał alarmowy",
-            "alarmistyczny",
-            "alarmowy",
-            "alarmujący",
-            "alarmistycznie",
-            "alarmowo",
-            "alarmująco",
-            "alarmować",
-            "zaalarmować",
-            "bić na alarm",
-            "uderzać na alarm",
-            "uderzyć na alarm"
-        ],
-        "synonyms": [
-            "alert",
-            "alert"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "alarm",
-                "gen": "alarmu",
-                "dat": "alarmowi",
-                "acc": "alarm",
-                "ins": "alarmem",
-                "loc": "alarmie",
-                "voc": "alarmie"
-            },
-            "plural": {
-                "nom": "alarmy",
-                "gen": "alarmów",
-                "dat": "alarmom",
-                "acc": "alarmy",
-                "ins": "alarmami",
-                "loc": "alarmach",
-                "voc": "alarmy"
-            }
-        },
-        "topics": [
-            "sense and perception",
-            "tech"
-        ]
-    },
-    {
-        "lemma": "ziom",
-        "tags": [
-            "FREQ4",
-            "slang"
-        ],
-        "translations": {
-            "ENG": [
-                "homie",
-                "bro",
-                "dude"
-            ]
-        },
-        "gender": "m1",
-        "id": "pol-npe-008-ziom",
-        "synonyms": [
-            "facet",
-            "kolo",
-            "typ",
-            "hiter"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "ziom",
-                "gen": "zioma",
-                "dat": "ziomowi",
-                "acc": "zioma",
-                "ins": "ziomem",
-                "loc": "ziomie",
-                "voc": "ziomie"
-            },
-            "plural": {
-                "nom": "ziomy",
-                "gen": "ziomów",
-                "dat": "ziomom",
-                "acc": "ziomów",
-                "ins": "ziomami",
-                "loc": "ziomach",
-                "voc": "ziomy"
-            }
-        },
-        "topics": []
-    },
-    {
-        "lemma": "stan",
-        "tags": [
-            "FREQ3"
-        ],
-        "translations": {
-            "ENG": [
-                "state"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-073-stan(political state)",
-        "allohomInfo": { "singleWordtype": true, "text": "a place", "emoji": "\uD83D\uDDFA️️️️" },
-        "derivedTerms": [
-            "błogostan",
-            "kwiatostan",
-            "owocostan",
-            "pustostan"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "stan",
-                "gen": "stanu",
-                "dat": "stanowi",
-                "acc": "stan",
-                "ins": "stanem",
-                "loc": "stanie",
-                "voc": "stanie"
-            },
-            "plural": {
-                "nom": "stany",
-                "gen": "stanów",
-                "dat": "stanom",
-                "acc": "stany",
-                "ins": "stanami",
-                "loc": "stanach",
-                "voc": "stany"
-            }
-        },
-        "topics": [
-            "geography"
-        ]
-    },
-    {
-        "lemma": "stan",
-        "tags": [
-            "FREQ3",
-            "abstract"
-        ],
-        "translations": {
-            "ENG": [
-                "state"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-074-stan(mental state)",
-        "allohomInfo": { "singleWordtype": true, "text": "abstract", "emoji": "\uD83E\uDDE0" },
-        "derivedTerms": [
-            "błogostan",
-            "kwiatostan",
-            "owocostan",
-            "pustostan"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "stan",
-                "gen": "stanu",
-                "dat": "stanowi",
-                "acc": "stan",
-                "ins": "stanem",
-                "loc": "stanie",
-                "voc": "stanie"
-            },
-            "plural": {
-                "nom": "stany",
-                "gen": "stanów",
-                "dat": "stanom",
-                "acc": "stany",
-                "ins": "stanami",
-                "loc": "stanach",
-                "voc": "stany"
-            }
-        },
-        "topics": [
-            "mental"
-        ]
-    },
-    {
         "lemma": "kura",
         "tags": [
             "FREQ3",
@@ -4277,17 +3019,19 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-075-kura",
-        "otherShapes": {
-            "diminutive": [
-                "kurka"
-            ],
-            "augmentative": [
-                "kurzysko"
-            ],
-            "masculine": [
-                "kogut"
-            ]
+        "id": "pol-nco-043-kura",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "kurka"
+                ],
+                "augmentative": [
+                    "kurzysko"
+                ],
+                "masculine": [
+                    "kogut"
+                ]
+            }
         },
         "inflections": {
             "singular": {
@@ -4314,246 +3058,6 @@
         ]
     },
     {
-        "lemma": "mit",
-        "tags": [
-            "FREQ5"
-        ],
-        "translations": {
-            "ENG": [
-                "myth"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-076-mit",
-        "derivedTerms": [
-            "mityczny"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "mit",
-                "gen": "mitu",
-                "dat": "mitowi",
-                "acc": "mit",
-                "ins": "mitem",
-                "loc": "micie",
-                "voc": "micie"
-            },
-            "plural": {
-                "nom": "mity",
-                "gen": "mitów",
-                "dat": "mitom",
-                "acc": "mity",
-                "ins": "mitami",
-                "loc": "mitach",
-                "voc": "mity"
-            }
-        },
-        "topics": [
-            "religion"
-        ]
-    },
-    {
-        "lemma": "tydzień",
-        "tags": [
-            "FREQ2",
-            "abstract"
-        ],
-        "translations": {
-            "ENG": [
-                "week"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-077-tydzień",
-        "usage": [
-            "( Ty ) musisz czekać do następnego tygodnia . ― You must/have to wait till next week.",
-            "Do następnego tygodnia ! ― See you next week!",
-            "Tydzień przed Wielkanocą jest niezwykły dla chrześcijan . ― The week before Easter is special for Christians."
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "tydzień",
-                "gen": "tygodnia",
-                "dat": "tygodniowi",
-                "acc": "tydzień",
-                "ins": "tygodniem",
-                "loc": "tygodniu",
-                "voc": "tygodniu"
-            },
-            "plural": {
-                "nom": "tygodnie",
-                "gen": "tygodni",
-                "dat": "tygodniom",
-                "acc": "tygodnie",
-                "ins": "tygodniami",
-                "loc": "tygodniach",
-                "voc": "tygodnie"
-            }
-        },
-        "topics": [
-            "time"
-        ]
-    },
-    {
-        "lemma": "dar",
-        "tags": [
-            "FREQ4"
-        ],
-        "translations": {
-            "ENG": [
-                "gift"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-078-dar",
-        "inflections": {
-            "singular": {
-                "nom": "dar",
-                "gen": "daru",
-                "dat": "darowi",
-                "acc": "dar",
-                "ins": "darem",
-                "loc": "darze",
-                "voc": "darze"
-            },
-            "plural": {
-                "nom": "dary",
-                "gen": "darów",
-                "dat": "darom",
-                "acc": "dary",
-                "ins": "darami",
-                "loc": "darach",
-                "voc": "dary"
-            }
-        },
-        "topics": [
-            "holiday",
-            "people"
-        ]
-    },
-    {
-        "lemma": "pilot",
-        "tags": [
-            "FREQ4",
-            "concrete",
-            "living",
-            "person",
-            "profession"
-        ],
-        "translations": {
-            "ENG": [
-                "pilot"
-            ]
-        },
-        "gender": "m1",
-        "id": "pol-npe-009-pilot(pilot)",
-        "allohomInfo": { "singleWordtype": true, "text": "a job", "emoji": "✈️" },
-        "inflections": {
-            "singular": {
-                "nom": "pilot",
-                "gen": "pilota",
-                "dat": "pilotowi",
-                "acc": "pilota",
-                "ins": "pilotem",
-                "loc": "pilocie",
-                "voc": "pilocie"
-            },
-            "plural": {
-                "nom": "piloci",
-                "gen": "pilotów",
-                "dat": "pilotom",
-                "acc": "pilotów",
-                "ins": "pilotami",
-                "loc": "pilotach",
-                "voc": "piloci"
-            }
-        },
-        "topics": [
-            "people",
-            "work"
-        ]
-    },
-    {
-        "lemma": "pilot",
-        "tags": [
-            "FREQ3",
-            "concrete",
-            "holdable",
-            "household object"
-        ],
-        "translations": {
-            "ENG": [
-                "remote control"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-079-pilot(remote control)",
-        "allohomInfo": { "singleWordtype": true, "text": "a household object", "emoji": "\uD83D\uDCDF️" },
-        "inflections": {
-            "singular": {
-                "nom": "pilot",
-                "gen": "pilota",
-                "dat": "pilotowi",
-                "acc": "pilot",
-                "ins": "pilotem",
-                "loc": "pilocie",
-                "voc": "pilocie"
-            },
-            "plural": {
-                "nom": "piloty",
-                "gen": "pilotów",
-                "dat": "pilotom",
-                "acc": "piloty",
-                "ins": "pilotami",
-                "loc": "pilotach",
-                "voc": "piloty"
-            }
-        },
-        "topics": [
-            "entertainment",
-            "home",
-            "inside",
-            "tech"
-        ]
-    },
-    {
-        "lemma": "poniedziałek",
-        "tags": [
-            "FREQ2",
-            "abstract"
-        ],
-        "translations": {
-            "ENG": [
-                "Monday"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-080-poniedziałek",
-        "inflections": {
-            "singular": {
-                "nom": "poniedziałek",
-                "gen": "poniedziałku",
-                "dat": "poniedziałkowi",
-                "acc": "poniedziałek",
-                "ins": "poniedziałkiem",
-                "loc": "poniedziałku",
-                "voc": "poniedziałku"
-            },
-            "plural": {
-                "nom": "poniedziałki",
-                "gen": "poniedziałków",
-                "dat": "poniedziałkom",
-                "acc": "poniedziałki",
-                "ins": "poniedziałkami",
-                "loc": "poniedziałkach",
-                "voc": "poniedziałki"
-            }
-        },
-        "topics": [
-            "time"
-        ]
-    },
-    {
         "lemma": "ulica",
         "tags": [
             "FREQ3",
@@ -4566,14 +3070,16 @@
             ]
         },
         "gender": "f",
-        "id": "pol-nco-081-ulica",
-        "otherShapes": {
-            "abbreviation": [
-                "ul."
-            ],
-            "diminutive": [
-                "uliczka"
-            ]
+        "id": "pol-nco-044-ulica",
+        "extra": {
+            "otherShapes": {
+                "abbreviation": [
+                    "ul."
+                ],
+                "diminutive": [
+                    "uliczka"
+                ]
+            }
         },
         "inflections": {
             "singular": {
@@ -4600,206 +3106,6 @@
         ]
     },
     {
-        "lemma": "raj",
-        "tags": [
-            "FREQ5",
-            "abstract",
-            "religion",
-            "special location"
-        ],
-        "translations": {
-            "ENG": [
-                "paradise",
-                "heaven"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-082-raj",
-        "usage": [
-            "wrota raju ― gates to paradise",
-            "istny raj ― true paradise",
-            "raj utracony ― paradise lost",
-            "wygnanie z raju ― expulsion from paradise",
-            "raje podatkowe ― tax havens ( lit. tax paradises)",
-            "raj na ziemi ― heaven on earth"
-        ],
-        "derivedTerms": [
-            "rajski"
-        ],
-        "synonyms": [
-            "Eden",
-            "niebiosa",
-            "niebo"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "raj",
-                "gen": "raju",
-                "dat": "rajowi",
-                "acc": "raj",
-                "ins": "rajem",
-                "loc": "raju",
-                "voc": "raju"
-            },
-            "plural": {
-                "nom": "raje",
-                "gen": "rajów",
-                "dat": "rajom",
-                "acc": "raje",
-                "ins": "rajami",
-                "loc": "rajach",
-                "voc": "raje"
-            }
-        },
-        "topics": [
-            "religion"
-        ]
-    },
-    {
-        "lemma": "bratanek",
-        "tags": [
-            "FREQ3",
-            "concrete",
-            "living",
-            "person",
-            "relative"
-        ],
-        "translations": {
-            "ENG": [
-                "nephew"
-            ]
-        },
-        "gender": "m1",
-        "id": "pol-npe-010-bratanek",
-        "synonyms": [
-            "brataniec",
-            "synowiec"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "bratanek",
-                "gen": "bratanka",
-                "dat": "bratankowi",
-                "acc": "bratanka",
-                "ins": "bratankiem",
-                "loc": "bratanku",
-                "voc": "bratanku"
-            },
-            "plural": {
-                "nom": [
-                    "bratankowie",
-                    "bratanki"
-                ],
-                "gen": "bratanków",
-                "dat": "bratankom",
-                "acc": "bratanków",
-                "ins": "bratankami",
-                "loc": "bratankach",
-                "voc": [
-                    "bratankowie",
-                    "bratanki"
-                ]
-            }
-        },
-        "topics": [
-            "people"
-        ]
-    },
-    {
-        "lemma": "siostrzeniec",
-        "tags": [
-            "FREQ3",
-            "concrete",
-            "living",
-            "person",
-            "relative"
-        ],
-        "translations": {
-            "ENG": [
-                "nephew"
-            ]
-        },
-        "gender": "m1",
-        "id": "pol-npe-011-siostrzeniec",
-        "inflections": {
-            "singular": {
-                "nom": "siostrzeniec",
-                "gen": "siostrzeńca",
-                "dat": "siostrzeńcowi",
-                "acc": "siostrzeńca",
-                "ins": "siostrzeńcem",
-                "loc": "siostrzeńcu",
-                "voc": [
-                    "siostrzeńcu",
-                    "siostrzeńcze"
-                ]
-            },
-            "plural": {
-                "nom": "siostrzeńcy",
-                "gen": "siostrzeńców",
-                "dat": "siostrzeńcom",
-                "acc": "siostrzeńców",
-                "ins": "siostrzeńcami",
-                "loc": "siostrzeńcach",
-                "voc": "siostrzeńcy"
-            }
-        },
-        "topics": [
-            "people"
-        ]
-    },
-    {
-        "lemma": "cud",
-        "tags": [
-            "FREQ5",
-            "religion"
-        ],
-        "translations": {
-            "ENG": [
-                "miracle"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-083-cud",
-        "derivedTerms": [
-            "cudny",
-            "cudowny",
-            "cudotwórca"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "cud",
-                "gen": "cudu",
-                "dat": "cudowi",
-                "acc": "cud",
-                "ins": "cudem",
-                "loc": "cudzie",
-                "voc": "cudzie"
-            },
-            "plural": {
-                "nom": [
-                    "cuda",
-                    "cudy"
-                ],
-                "gen": "cudów",
-                "dat": "cudom",
-                "acc": [
-                    "cuda",
-                    "cudy"
-                ],
-                "ins": "cudami",
-                "loc": "cudach",
-                "voc": [
-                    "cuda",
-                    "cudy"
-                ]
-            }
-        },
-        "topics": [
-            "religion"
-        ]
-    },
-    {
         "lemma": "papier",
         "tags": [
             "FREQ3",
@@ -4813,14 +3119,25 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-084-papier",
-        "usage": [
-            "Książkę wydrukowano na papierze wysokiej jakości. The book was printed on high-quality paper .",
-            "Masz papier na to, że jesteś elektrykiem? Do you have the papers to prove that you're an electrician?"
-        ],
-        "derivedTerms": [
-            "papierowy"
-        ],
+        "id": "pol-nco-045-papier",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "papierek"
+                ],
+                "augmentative": [
+                    "papierzysko"
+                ]
+            },
+            "derivedTerms": [
+                "papierowy",
+                "papiery"
+            ],
+            "usage": [
+                "Książkę wydrukowano na papierze wysokiej jakości. The book was printed on high-quality paper .",
+                "Masz papier na to, że jesteś elektrykiem? Do you have the papers to prove that you're an electrician?"
+            ]
+        },
         "inflections": {
             "singular": {
                 "nom": "papier",
@@ -4855,15 +3172,17 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-085-czajnik",
-        "otherShapes": {
-            "diminutive": [
-                "czajniczek"
+        "id": "pol-nco-046-czajnik",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "czajniczek"
+                ]
+            },
+            "synonyms": [
+                "imbryk"
             ]
         },
-        "synonyms": [
-            "imbryk"
-        ],
         "inflections": {
             "singular": {
                 "nom": "czajnik",
@@ -4904,18 +3223,20 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-086-nóż",
-        "otherShapes": {
-            "diminutive": [
-                "nożyk"
-            ],
-            "augmentative": [
-                "nożysko"
+        "id": "pol-nco-047-nóż",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "nożyk"
+                ],
+                "augmentative": [
+                    "nożysko"
+                ]
+            },
+            "derivedTerms": [
+                "nożowy"
             ]
         },
-        "derivedTerms": [
-            "nożowy"
-        ],
         "inflections": {
             "singular": {
                 "nom": "nóż",
@@ -4954,18 +3275,20 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-087-komputer",
-        "otherShapes": {
-            "diminutive": [
-                "komputerek"
+        "id": "pol-nco-048-komputer",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "komputerek"
+                ]
+            },
+            "derivedTerms": [
+                "komputeryzacja",
+                "superkomputer",
+                "komputerowy",
+                "komputerowo"
             ]
         },
-        "derivedTerms": [
-            "komputeryzacja",
-            "superkomputer",
-            "komputerowy",
-            "komputerowo"
-        ],
         "inflections": {
             "singular": {
                 "nom": "komputer",
@@ -4991,51 +3314,6 @@
         ]
     },
     {
-        "lemma": "sufit",
-        "tags": [
-            "FREQ3",
-            "concrete",
-            "part of house"
-        ],
-        "translations": {
-            "ENG": [
-                "ceiling"
-            ]
-        },
-        "gender": "m3",
-        "id": "pol-nco-088-sufit",
-        "derivedTerms": [
-            "sufitowy"
-        ],
-        "synonyms": [
-            "strop"
-        ],
-        "inflections": {
-            "singular": {
-                "nom": "sufit",
-                "gen": "sufitu",
-                "dat": "sufitowi",
-                "acc": "sufit",
-                "ins": "sufitem",
-                "loc": "suficie",
-                "voc": "suficie"
-            },
-            "plural": {
-                "nom": "sufity",
-                "gen": "sufitów",
-                "dat": "sufitom",
-                "acc": "sufity",
-                "ins": "sufitami",
-                "loc": "sufitach",
-                "voc": "sufity"
-            }
-        },
-        "topics": [
-            "home",
-            "inside"
-        ]
-    },
-    {
         "lemma": "szpital",
         "tags": [
             "FREQ3",
@@ -5049,21 +3327,23 @@
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-089-szpital",
-        "usage": [
-            "Hypernym: lecznica",
-            "Hyponyms: klinika lazaret"
-        ],
-        "otherShapes": {
-            "diminutive": [
-                "szpitalik"
+        "id": "pol-nco-049-szpital",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "szpitalik"
+                ]
+            },
+            "derivedTerms": [
+                "szpitalnik",
+                "szpitalny",
+                "szpitalnie"
+            ],
+            "usage": [
+                "Hypernym: lecznica",
+                "Hyponyms: klinika lazaret"
             ]
         },
-        "derivedTerms": [
-            "szpitalnik",
-            "szpitalny",
-            "szpitalnie"
-        ],
         "inflections": {
             "singular": {
                 "nom": "szpital",
@@ -5090,45 +3370,2008 @@
         ]
     },
     {
-        "lemma": "telefon",
+        "lemma": "fizyka",
         "tags": [
             "FREQ2",
+            "abstract",
+            "school subject"
+        ],
+        "translations": {
+            "ENG": [
+                "physics"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-050-fizyka",
+        "extra": {
+            "derivedTerms": [
+                "agrofizyka"
+            ],
+            "usage": [
+                "Madlen studiuje fizykę na Uniwersytecie Wiedeńskim. ― Madlen studies physics at the University of Vienna."
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "fizyka",
+                "gen": "fizyki",
+                "dat": "fizyce",
+                "acc": "fizykę",
+                "ins": "fizyką",
+                "loc": "fizyce",
+                "voc": "fizyko"
+            },
+            "plural": {
+                "nom": "fizyki",
+                "gen": "fizyk",
+                "dat": "fizykom",
+                "acc": "fizyki",
+                "ins": "fizykami",
+                "loc": "fizykach",
+                "voc": "fizyki"
+            }
+        },
+        "topics": [
+            "school"
+        ]
+    },
+    {
+        "lemma": "matematyka",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "school subject"
+        ],
+        "translations": {
+            "ENG": [
+                "mathematics"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-051-matematyka",
+        "extra": {
+            "derivedTerms": [
+                "matematyczny",
+                "matematyk"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "matematyka",
+                "gen": "matematyki",
+                "dat": "matematyce",
+                "acc": "matematykę",
+                "ins": "matematyką",
+                "loc": "matematyce",
+                "voc": "matematyko"
+            },
+            "plural": {
+                "nom": "matematyki",
+                "gen": "matematyk",
+                "dat": "matematykom",
+                "acc": "matematyki",
+                "ins": "matematykami",
+                "loc": "matematykach",
+                "voc": "matematyki"
+            }
+        },
+        "topics": [
+            "school"
+        ]
+    },
+    {
+        "lemma": "chemia",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "school subject"
+        ],
+        "translations": {
+            "ENG": [
+                "chemistry"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-052-chemia",
+        "extra": {
+            "derivedTerms": [
+                "agrochemia",
+                "chemik",
+                "chemiczka",
+                "chemiczny",
+                "chemicznie"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "chemia",
+                "gen": "chemii",
+                "dat": "chemii",
+                "acc": "chemię",
+                "ins": "chemią",
+                "loc": "chemii",
+                "voc": "chemio"
+            }
+        },
+        "lacking": true,
+        "tantumSingulare": true,
+        "topics": [
+            "school"
+        ]
+    },
+    {
+        "lemma": "czekolada",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "food",
+            "holdable",
+            "sweet"
+        ],
+        "translations": {
+            "ENG": [
+                "chocolate"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-053-czekolada",
+        "extra": {
+            "derivedTerms": [
+                "czekoladowy"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "czekolada",
+                "gen": "czekolady",
+                "dat": "czekoladzie",
+                "acc": "czekoladę",
+                "ins": "czekoladą",
+                "loc": "czekoladzie",
+                "voc": "czekolado"
+            },
+            "plural": {
+                "nom": "czekolady",
+                "gen": "czekolad",
+                "dat": "czekoladom",
+                "acc": "czekolady",
+                "ins": "czekoladami",
+                "loc": "czekoladach",
+                "voc": "czekolady"
+            }
+        },
+        "topics": [
+            "inside",
+            "kitchen",
+            "restaurant"
+        ]
+    },
+    {
+        "lemma": "zima",
+        "tags": [
+            "FREQ2",
+            "abstract"
+        ],
+        "translations": {
+            "ENG": [
+                "winter"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-054-zima",
+        "extra": {
+            "derivedTerms": [
+                "zimowy",
+                "zimny"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "zima",
+                "gen": "zimy",
+                "dat": "zimie",
+                "acc": "zimę",
+                "ins": "zimą",
+                "loc": "zimie",
+                "voc": "zimo"
+            },
+            "plural": {
+                "nom": "zimy",
+                "gen": "zim",
+                "dat": "zimom",
+                "acc": "zimy",
+                "ins": "zimami",
+                "loc": "zimach",
+                "voc": "zimy"
+            }
+        },
+        "topics": [
+            "time"
+        ]
+    },
+    {
+        "lemma": "podłoga",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "part of house"
+        ],
+        "translations": {
+            "ENG": [
+                "floor"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-055-podłoga",
+        "extra": {
+            "derivedTerms": [
+                "podłogowy",
+                "(adjective)"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "podłoga",
+                "gen": "podłogi",
+                "dat": "podłodze",
+                "acc": "podłogę",
+                "ins": "podłogą",
+                "loc": "podłodze",
+                "voc": "podłogo"
+            },
+            "plural": {
+                "nom": "podłogi",
+                "gen": "podłóg",
+                "dat": "podłogom",
+                "acc": "podłogi",
+                "ins": "podłogami",
+                "loc": "podłogach",
+                "voc": "podłogi"
+            }
+        },
+        "topics": [
+            "home",
+            "inside"
+        ]
+    },
+    {
+        "lemma": "budynek",
+        "tags": [
+            "FREQ2",
+            "building",
+            "concrete",
+            "location"
+        ],
+        "translations": {
+            "ENG": [
+                "building"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-056-budynek",
+        "extra": {
+            "synonyms": [
+                "budowla",
+                "gmach"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "budynek",
+                "gen": "budynku",
+                "dat": "budynkowi",
+                "acc": "budynek",
+                "ins": "budynkiem",
+                "loc": "budynku",
+                "voc": "budynku"
+            },
+            "plural": {
+                "nom": "budynki",
+                "gen": "budynków",
+                "dat": "budynkom",
+                "acc": "budynki",
+                "ins": "budynkami",
+                "loc": "budynkach",
+                "voc": "budynki"
+            }
+        },
+        "topics": [
+            "inside"
+        ]
+    },
+    {
+        "lemma": "ściana",
+        "tags": [
+            "FREQ3",
+            "concrete",
+            "part of house"
+        ],
+        "translations": {
+            "ENG": [
+                "wall"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-057-ściana",
+        "extra": {
+            "derivedTerms": [
+                "ścienny",
+                "równoległościan",
+                "zaścianek"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "ściana",
+                "gen": "ściany",
+                "dat": "ścianie",
+                "acc": "ścianę",
+                "ins": "ścianą",
+                "loc": "ścianie",
+                "voc": "ściano"
+            },
+            "plural": {
+                "nom": "ściany",
+                "gen": "ścian",
+                "dat": "ścianom",
+                "acc": "ściany",
+                "ins": "ścianami",
+                "loc": "ścianach",
+                "voc": "ściany"
+            }
+        },
+        "topics": [
+            "home",
+            "inside"
+        ]
+    },
+    {
+        "lemma": "mapa",
+        "tags": [
+            "FREQ3"
+        ],
+        "translations": {
+            "ENG": [
+                "map"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-058-mapa",
+        "inflections": {
+            "singular": {
+                "nom": "mapa",
+                "gen": "mapy",
+                "dat": "mapie",
+                "acc": "mapę",
+                "ins": "mapą",
+                "loc": "mapie",
+                "voc": "mapo"
+            },
+            "plural": {
+                "nom": "mapy",
+                "gen": "map",
+                "dat": "mapom",
+                "acc": "mapy",
+                "ins": "mapami",
+                "loc": "mapach",
+                "voc": "mapy"
+            }
+        },
+        "topics": [
+            "geography",
+            "travel"
+        ]
+    },
+    {
+        "lemma": "klimat",
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "transport",
+            "weather type"
+        ],
+        "translations": {
+            "ENG": [
+                "climate"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-059-klimat",
+        "inflections": {
+            "singular": {
+                "nom": "klimat",
+                "gen": "klimatu",
+                "dat": "klimatowi",
+                "acc": "klimat",
+                "ins": "klimatem",
+                "loc": "klimacie",
+                "voc": "klimacie"
+            },
+            "plural": {
+                "nom": "klimaty",
+                "gen": "klimatów",
+                "dat": "klimatom",
+                "acc": "klimaty",
+                "ins": "klimatami",
+                "loc": "klimatach",
+                "voc": "klimaty"
+            }
+        },
+        "topics": [
+            "geography",
+            "outdoor",
+            "school",
+            "travel"
+        ]
+    },
+    {
+        "lemma": "rok",
+        "tags": [
+            "FREQ1",
+            "abstract"
+        ],
+        "translations": {
+            "ENG": [
+                "year"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-060-rok",
+        "extra": {
+            "derivedTerms": [
+                "roczny",
+                "coroczny",
+                "rocznica",
+                "rocznik",
+                "Nowy Rok",
+                "rokować",
+                "rzec"
+            ],
+            "usage": [
+                "w zeszłym roku ― last year",
+                "w przyszłym roku ― next year"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "rok",
+                "gen": "roku",
+                "dat": "rokowi",
+                "acc": "rok",
+                "ins": "rokiem",
+                "loc": "roku",
+                "voc": "roku"
+            },
+            "plural": {
+                "nom": "lata",
+                "gen": "lat",
+                "dat": "latom",
+                "acc": "lata",
+                "ins": "latami",
+                "loc": "latach",
+                "voc": "lata"
+            }
+        },
+        "topics": [
+            "time"
+        ]
+    },
+    {
+        "lemma": "stan",
+        "tags": [
+            "FREQ3"
+        ],
+        "translations": {
+            "ENG": [
+                "state"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-061-stan(political state)",
+        "allohomInfo": { "singleWordtype": true, "text": "a place", "emoji": "\uD83D\uDDFA️️️️" },
+        "extra": {
+            "derivedTerms": [
+                "błogostan",
+                "kwiatostan",
+                "owocostan",
+                "pustostan"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "stan",
+                "gen": "stanu",
+                "dat": "stanowi",
+                "acc": "stan",
+                "ins": "stanem",
+                "loc": "stanie",
+                "voc": "stanie"
+            },
+            "plural": {
+                "nom": "stany",
+                "gen": "stanów",
+                "dat": "stanom",
+                "acc": "stany",
+                "ins": "stanami",
+                "loc": "stanach",
+                "voc": "stany"
+            }
+        },
+        "topics": [
+            "geography"
+        ]
+    },
+    {
+        "lemma": "stan",
+        "tags": [
+            "FREQ3",
+            "abstract"
+        ],
+        "translations": {
+            "ENG": [
+                "state"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-062-stan(mental state)",
+        "allohomInfo": { "singleWordtype": true, "text": "abstract", "emoji": "\uD83E\uDDE0" },
+        "extra": {
+            "derivedTerms": [
+                "błogostan",
+                "kwiatostan",
+                "owocostan",
+                "pustostan"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "stan",
+                "gen": "stanu",
+                "dat": "stanowi",
+                "acc": "stan",
+                "ins": "stanem",
+                "loc": "stanie",
+                "voc": "stanie"
+            },
+            "plural": {
+                "nom": "stany",
+                "gen": "stanów",
+                "dat": "stanom",
+                "acc": "stany",
+                "ins": "stanami",
+                "loc": "stanach",
+                "voc": "stany"
+            }
+        },
+        "topics": [
+            "mental"
+        ]
+    },
+    {
+        "lemma": "los",
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "religion"
+        ],
+        "translations": {
+            "ENG": [
+                "fate",
+                "lottery ticket"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-063-los",
+        "extra": {
+            "synonyms": [
+                "kupon"
+            ],
+            "derivedTerms": [
+                "losować",
+                "losowy"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "los",
+                "gen": "losu",
+                "dat": "losowi",
+                "acc": "los",
+                "ins": "losem",
+                "loc": "losie",
+                "voc": "losie"
+            },
+            "plural": {
+                "nom": "losy",
+                "gen": "losów",
+                "dat": "losom",
+                "acc": "losy",
+                "ins": "losami",
+                "loc": "losach",
+                "voc": "losy"
+            }
+        },
+        "topics": [
+            "religion"
+        ]
+    },
+    {
+        "lemma": "huk",
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "noise"
+        ],
+        "translations": {
+            "ENG": [
+                "boom",
+                "bang",
+                "crash",
+                "rumble"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-064-huk",
+        "inflections": {
+            "singular": {
+                "nom": "huk",
+                "gen": "huku",
+                "dat": "hukowi",
+                "acc": "huk",
+                "ins": "hukiem",
+                "loc": "huku",
+                "voc": "huku"
+            },
+            "plural": {
+                "nom": "huki",
+                "gen": "huków",
+                "dat": "hukom",
+                "acc": "huki",
+                "ins": "hukami",
+                "loc": "hukach",
+                "voc": "huki"
+            }
+        },
+        "topics": [
+            "sense and perception"
+        ]
+    },
+    {
+        "lemma": "most",
+        "tags": [
+            "FREQ3",
+            "building",
+            "concrete",
+            "location"
+        ],
+        "translations": {
+            "ENG": [
+                "bridge"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-065-most",
+        "inflections": {
+            "singular": {
+                "nom": "most",
+                "gen": "mostu",
+                "dat": "mostowi",
+                "acc": "most",
+                "ins": "mostem",
+                "loc": "moście",
+                "voc": "moście"
+            },
+            "plural": {
+                "nom": "mosty",
+                "gen": "mostów",
+                "dat": "mostom",
+                "acc": "mosty",
+                "ins": "mostami",
+                "loc": "mostach",
+                "voc": "mosty"
+            }
+        },
+        "topics": [
+            "inside"
+        ]
+    },
+    {
+        "lemma": "bok",
+        "tags": [
+            "FREQ3",
+            "abstract"
+        ],
+        "translations": {
+            "ENG": [
+                "side"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-066-bok",
+        "extra": {
+            "synonyms": [
+                "strona"
+            ],
+            "derivedTerms": [
+                "boczek",
+                "boczniak",
+                "bocznica",
+                "pobocze",
+                "ubocze",
+                "zboczeniec",
+                "boczyć",
+                "zbaczać",
+                "zboczyć",
+                "boczny",
+                "poboczny",
+                "zboczony",
+                "bocznie",
+                "pobocznie",
+                "na bok",
+                "u boku",
+                "z boku"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "bok",
+                "gen": "boku",
+                "dat": "bokowi",
+                "acc": "bok",
+                "ins": "bokiem",
+                "loc": "boku",
+                "voc": "boku"
+            },
+            "plural": {
+                "nom": "boki",
+                "gen": "boków",
+                "dat": "bokom",
+                "acc": "boki",
+                "ins": "bokami",
+                "loc": "bokach",
+                "voc": "boki"
+            }
+        },
+        "topics": [
+            "geometry"
+        ]
+    },
+    {
+        "lemma": "natura",
+        "tags": [
+            "FREQ3",
+            "abstract",
+            "concrete",
+            "natural"
+        ],
+        "translations": {
+            "ENG": [
+                "nature"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-067-natura",
+        "extra": {
+            "synonyms": [
+                "przyroda"
+            ],
+            "derivedTerms": [
+                "antynaturalizm",
+                "nadnaturalność",
+                "naturalia",
+                "naturalista",
+                "naturalistka",
+                "naturalizacja",
+                "naturalizm",
+                "naturalność",
+                "naturoterapeuta",
+                "naturszczyk",
+                "naturysta",
+                "naturystka",
+                "naturyzm",
+                "antynaturalistyczny",
+                "nadnaturalny",
+                "naturalistyczny",
+                "naturalny",
+                "naturystyczny",
+                "nadnaturalnie",
+                "naturalistycznie",
+                "naturalnie",
+                "naturalizować",
+                "znaturalizować"
+            ],
+            "usage": [
+                "On jest dość miły z natury. ― He's quite nice by nature."
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "natura",
+                "gen": "natury",
+                "dat": "naturze",
+                "acc": "naturę",
+                "ins": "naturą",
+                "loc": "naturze",
+                "voc": "naturo"
+            }
+        },
+        "lacking": true,
+        "tantumSingulare": true,
+        "topics": [
+            "outside"
+        ]
+    },
+    {
+        "lemma": "dom",
+        "tags": [
+            "FREQ1",
+            "building",
+            "concrete",
+            "location"
+        ],
+        "translations": {
+            "ENG": [
+                "home",
+                "house"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-068-dom",
+        "extra": {
+            "derivedTerms": [
+                "domorosły",
+                "domowy",
+                "domator",
+                "domek",
+                "domokrążca",
+                "domownik",
+                "z domu"
+            ],
+            "usage": [
+                "Idę do domu . ― I'm going home."
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "dom",
+                "gen": "domu",
+                "dat": "domowi",
+                "acc": "dom",
+                "ins": "domem",
+                "loc": "domu",
+                "voc": [
+                    "domu",
+                    "domie"
+                ]
+            },
+            "plural": {
+                "nom": "domy",
+                "gen": "domów",
+                "dat": "domom",
+                "acc": "domy",
+                "ins": "domami",
+                "loc": "domach",
+                "voc": "domy"
+            }
+        },
+        "topics": [
+            "inside"
+        ]
+    },
+    {
+        "lemma": "niedziela",
+        "tags": [
+            "FREQ2",
+            "abstract"
+        ],
+        "translations": {
+            "ENG": [
+                "Sunday"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-069-niedziela",
+        "extra": {
+            "derivedTerms": [
+                "niedzielny"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "niedziela",
+                "gen": "niedzieli",
+                "dat": "niedzieli",
+                "acc": "niedzielę",
+                "ins": "niedzielą",
+                "loc": "niedzieli",
+                "voc": "niedzielo"
+            },
+            "plural": {
+                "nom": "niedziele",
+                "gen": [
+                    "niedzieli",
+                    "niedziel"
+                ],
+                "dat": "niedzielom",
+                "acc": "niedziele",
+                "ins": "niedzielami",
+                "loc": "niedzielach",
+                "voc": "niedziele"
+            }
+        },
+        "topics": [
+            "time"
+        ]
+    },
+    {
+        "lemma": "woda",
+        "tags": [
+            "FREQ1",
+            "concrete",
+            "drink",
+            "holdable",
+            "material",
+            "natural",
+            "uncountable"
+        ],
+        "translations": {
+            "ENG": [
+                "water"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-070-woda",
+        "extra": {
+            "derivedTerms": [
+                "powódź",
+                "powodzianin",
+                "powodzianka",
+                "wódka",
+                "wodniak",
+                "wodnik",
+                "Wodnik",
+                "wodociąg",
+                "wodogrzmot",
+                "wodojądrze",
+                "wodolecznictwo",
+                "wodolot",
+                "wodonercze",
+                "wodopój",
+                "wodorost",
+                "wodospad",
+                "wodostan",
+                "wodotrysk",
+                "wodór",
+                "wodowstręt",
+                "nawadniać",
+                "nawodniać",
+                "nawodnić",
+                "odwadniać",
+                "odwodniać",
+                "odwodnić",
+                "rozwadniać",
+                "rozwodnić",
+                "wodować",
+                "zwodować",
+                "zawadniać",
+                "zawodnić",
+                "wodnisty",
+                "wodny",
+                "wodoszczelny"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "woda",
+                "gen": "wody",
+                "dat": "wodzie",
+                "acc": "wodę",
+                "ins": "wodą",
+                "loc": "wodzie",
+                "voc": "wodo"
+            },
+            "plural": {
+                "nom": "wody",
+                "gen": "wód",
+                "dat": "wodom",
+                "acc": "wody",
+                "ins": "wodami",
+                "loc": "wodach",
+                "voc": "wody"
+            }
+        },
+        "topics": [
+            "chemistry",
+            "engineering",
+            "inside",
+            "kitchen",
+            "outside",
+            "restaurant"
+        ]
+    },
+    {
+        "lemma": "kilogram",
+        "tags": [
+            "FREQ3",
+            "measurement"
+        ],
+        "translations": {
+            "ENG": [
+                "kilogram"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-071-kilogram",
+        "extra": {
+            "synonyms": [
+                "kilo"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "kilogram",
+                "gen": "kilograma",
+                "dat": "kilogramowi",
+                "acc": "kilogram",
+                "ins": "kilogramem",
+                "loc": "kilogramie",
+                "voc": "kilogramie"
+            },
+            "plural": {
+                "nom": "kilogramy",
+                "gen": "kilogramów",
+                "dat": "kilogramom",
+                "acc": "kilogramy",
+                "ins": "kilogramami",
+                "loc": "kilogramach",
+                "voc": "kilogramy"
+            }
+        },
+        "topics": [
+            "math"
+        ]
+    },
+    {
+        "lemma": "port",
+        "tags": [
+            "FREQ3",
+            "concrete",
+            "location"
+        ],
+        "translations": {
+            "ENG": [
+                "port",
+                "harbour"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-072-port",
+        "extra": {
+            "derivedTerms": [
+                "portowy"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "port",
+                "gen": "portu",
+                "dat": "portowi",
+                "acc": "port",
+                "ins": "portem",
+                "loc": "porcie",
+                "voc": "porcie"
+            },
+            "plural": {
+                "nom": "porty",
+                "gen": "portów",
+                "dat": "portom",
+                "acc": "porty",
+                "ins": "portami",
+                "loc": "portach",
+                "voc": "porty"
+            }
+        },
+        "topics": [
+            "travel"
+        ]
+    },
+    {
+        "lemma": "ocean",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "location",
+            "natural"
+        ],
+        "translations": {
+            "ENG": [
+                "ocean"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-073-ocean",
+        "extra": {
+            "derivedTerms": [
+                "oceaniczny",
+                "oceanografia"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "ocean",
+                "gen": "oceanu",
+                "dat": "oceanowi",
+                "acc": "ocean",
+                "ins": "oceanem",
+                "loc": "oceanie",
+                "voc": "oceanie"
+            },
+            "plural": {
+                "nom": "oceany",
+                "gen": "oceanów",
+                "dat": "oceanom",
+                "acc": "oceany",
+                "ins": "oceanami",
+                "loc": "oceanach",
+                "voc": "oceany"
+            }
+        },
+        "topics": [
+            "geography",
+            "outside"
+        ]
+    },
+    {
+        "lemma": "wanna",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "furniture"
+        ],
+        "translations": {
+            "ENG": [
+                "bath",
+                "bathtub"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-074-wanna",
+        "extra": {
+            "derivedTerms": [
+                "wannowy"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "wanna",
+                "gen": "wanny",
+                "dat": "wannie",
+                "acc": "wannę",
+                "ins": "wanną",
+                "loc": "wannie",
+                "voc": "wanno"
+            },
+            "plural": {
+                "nom": "wanny",
+                "gen": "wanien",
+                "dat": "wannom",
+                "acc": "wanny",
+                "ins": "wannami",
+                "loc": "wannach",
+                "voc": "wanny"
+            }
+        },
+        "topics": [
+            "home",
+            "inside",
+            "washroom"
+        ]
+    },
+    {
+        "lemma": "ekran",
+        "tags": [
+            "FREQ4",
+            "computer part",
             "device"
         ],
         "translations": {
             "ENG": [
-                "telephone"
+                "screen"
             ]
         },
         "gender": "m3",
-        "id": "pol-nco-090-telefon",
-        "derivedTerms": [
-            "telefoniczny",
-            "telefonować",
-            "telefonistka"
-        ],
+        "id": "pol-nco-075-ekran",
         "inflections": {
             "singular": {
-                "nom": "telefon",
-                "gen": "telefonu",
-                "dat": "telefonowi",
-                "acc": "telefon",
-                "ins": "telefonem",
-                "loc": "telefonie",
-                "voc": "telefonie"
+                "nom": "ekran",
+                "gen": "ekranu",
+                "dat": "ekranowi",
+                "acc": "ekran",
+                "ins": "ekranem",
+                "loc": "ekranie",
+                "voc": "ekranie"
             },
             "plural": {
-                "nom": "telefony",
-                "gen": "telefonów",
-                "dat": "telefonom",
-                "acc": "telefony",
-                "ins": "telefonami",
-                "loc": "telefonach",
-                "voc": "telefony"
+                "nom": "ekrany",
+                "gen": "ekranów",
+                "dat": "ekranom",
+                "acc": "ekrany",
+                "ins": "ekranami",
+                "loc": "ekranach",
+                "voc": "ekrany"
             }
         },
         "topics": [
+            "computing",
             "tech"
+        ]
+    },
+    {
+        "lemma": "lista",
+        "tags": [
+            "FREQ4"
+        ],
+        "translations": {
+            "ENG": [
+                "list"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-076-lista",
+        "extra": {
+            "synonyms": [
+                "spis",
+                "wykaz"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "lista",
+                "gen": "listy",
+                "dat": "liście",
+                "acc": "listę",
+                "ins": "listą",
+                "loc": "liście",
+                "voc": "listo"
+            },
+            "plural": {
+                "nom": "listy",
+                "gen": "list",
+                "dat": "listom",
+                "acc": "listy",
+                "ins": "listami",
+                "loc": "listach",
+                "voc": "listy"
+            }
+        },
+        "topics": [
+            "school",
+            "work"
+        ]
+    },
+    {
+        "lemma": "maj",
+        "tags": [
+            "FREQ2",
+            "abstract"
+        ],
+        "translations": {
+            "ENG": [
+                "May"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-077-maj",
+        "extra": {
+            "derivedTerms": [
+                "majowy"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "maj",
+                "gen": "maja",
+                "dat": "majowi",
+                "acc": "maj",
+                "ins": "majem",
+                "loc": "maju",
+                "voc": "maju"
+            },
+            "plural": {
+                "nom": "maje",
+                "gen": "majów",
+                "dat": "majom",
+                "acc": "maje",
+                "ins": "majami",
+                "loc": "majach",
+                "voc": "maje"
+            }
+        },
+        "topics": [
+            "time"
+        ]
+    },
+    {
+        "lemma": "kanapa",
+        "tags": [
+            "FREQ3",
+            "concrete",
+            "furniture"
+        ],
+        "translations": {
+            "ENG": [
+                "sofa"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-078-kanapa",
+        "inflections": {
+            "singular": {
+                "nom": "kanapa",
+                "gen": "kanapy",
+                "dat": "kanapie",
+                "acc": "kanapę",
+                "ins": "kanapą",
+                "loc": "kanapie",
+                "voc": "kanapo"
+            },
+            "plural": {
+                "nom": "kanapy",
+                "gen": "kanap",
+                "dat": "kanapom",
+                "acc": "kanapy",
+                "ins": "kanapami",
+                "loc": "kanapach",
+                "voc": "kanapy"
+            }
+        },
+        "topics": [
+            "home",
+            "inside"
+        ]
+    },
+    {
+        "lemma": "schody",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "part of house"
+        ],
+        "translations": {
+            "ENG": [
+                "stairs",
+                "stairway"
+            ]
+        },
+        "gender": "nonvirile",
+        "id": "pol-nco-079-schody",
+        "extra": {
+            "derivedTerms": [
+                "schodowy",
+                "klatka schodowa",
+                "ruchome schody"
+            ]
+        },
+        "inflections": {
+            "plural": {
+                "nom": "schody",
+                "gen": "schodów",
+                "dat": "schodom",
+                "acc": "schody",
+                "ins": "schodami",
+                "loc": "schodach",
+                "voc": "schody"
+            }
+        },
+        "lacking": true,
+        "tantumPlurale": true,
+        "topics": [
+            "home",
+            "inside"
+        ]
+    },
+    {
+        "lemma": "grunt",
+        "tags": [
+            "FREQ4",
+            "concrete",
+            "location",
+            "natural"
+        ],
+        "translations": {
+            "ENG": [
+                "ground"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-080-grunt",
+        "extra": {
+            "derivedTerms": [
+                "gruntowność",
+                "gruntowy",
+                "gruntowny",
+                "gruntownie"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "grunt",
+                "gen": "gruntu",
+                "dat": "gruntowi",
+                "acc": "grunt",
+                "ins": "gruntem",
+                "loc": "gruncie",
+                "voc": "gruncie"
+            },
+            "plural": {
+                "nom": "grunty",
+                "gen": "gruntów",
+                "dat": "gruntom",
+                "acc": "grunty",
+                "ins": "gruntami",
+                "loc": "gruntach",
+                "voc": "grunty"
+            }
+        },
+        "topics": [
+            "geography",
+            "outside"
+        ]
+    },
+    {
+        "lemma": "alarm",
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "device",
+            "noise"
+        ],
+        "translations": {
+            "ENG": [
+                "alarm"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-081-alarm",
+        "extra": {
+            "synonyms": [
+                "alert"
+            ],
+            "derivedTerms": [
+                "alarmista",
+                "dzwonek alarmowy",
+                "sygnał alarmowy",
+                "alarmistyczny",
+                "alarmowy",
+                "alarmujący",
+                "alarmistycznie",
+                "alarmowo",
+                "alarmująco",
+                "alarmować",
+                "zaalarmować",
+                "bić na alarm",
+                "uderzać na alarm",
+                "uderzyć na alarm"
+            ],
+            "usage": [
+                "Hypernym: alert"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "alarm",
+                "gen": "alarmu",
+                "dat": "alarmowi",
+                "acc": "alarm",
+                "ins": "alarmem",
+                "loc": "alarmie",
+                "voc": "alarmie"
+            },
+            "plural": {
+                "nom": "alarmy",
+                "gen": "alarmów",
+                "dat": "alarmom",
+                "acc": "alarmy",
+                "ins": "alarmami",
+                "loc": "alarmach",
+                "voc": "alarmy"
+            }
+        },
+        "topics": [
+            "sense and perception",
+            "tech"
+        ]
+    },
+    {
+        "lemma": "ziom",
+        "tags": [
+            "FREQ4",
+            "slang"
+        ],
+        "translations": {
+            "ENG": [
+                "homie",
+                "bro",
+                "dude"
+            ]
+        },
+        "gender": "m1",
+        "id": "pol-npe-012-ziom",
+        "extra": {
+            "synonyms": [
+                "facet",
+                "kolo",
+                "typ",
+                "hiter"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "ziom",
+                "gen": "zioma",
+                "dat": "ziomowi",
+                "acc": "zioma",
+                "ins": "ziomem",
+                "loc": "ziomie",
+                "voc": "ziomie"
+            },
+            "plural": {
+                "nom": "ziomy",
+                "gen": "ziomów",
+                "dat": "ziomom",
+                "acc": "ziomów",
+                "ins": "ziomami",
+                "loc": "ziomach",
+                "voc": "ziomy"
+            }
+        },
+        "topics": []
+    },
+    {
+        "lemma": "grudzień",
+        "tags": [
+            "FREQ2",
+            "abstract"
+        ],
+        "translations": {
+            "ENG": [
+                "December"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-082-grudzień",
+        "extra": {
+            "derivedTerms": [
+                "grudniowy"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "grudzień",
+                "gen": "grudnia",
+                "dat": "grudniowi",
+                "acc": "grudzień",
+                "ins": "grudniem",
+                "loc": "grudniu",
+                "voc": "grudniu"
+            },
+            "plural": {
+                "nom": "grudnie",
+                "gen": [
+                    "grudni",
+                    "grudniów"
+                ],
+                "dat": "grudniom",
+                "acc": "grudnie",
+                "ins": "grudniami",
+                "loc": "grudniach",
+                "voc": "grudnie"
+            }
+        },
+        "topics": [
+            "time"
+        ]
+    },
+    {
+        "lemma": "mit",
+        "tags": [
+            "FREQ5"
+        ],
+        "translations": {
+            "ENG": [
+                "myth"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-083-mit",
+        "extra": {
+            "derivedTerms": [
+                "mityczny"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "mit",
+                "gen": "mitu",
+                "dat": "mitowi",
+                "acc": "mit",
+                "ins": "mitem",
+                "loc": "micie",
+                "voc": "micie"
+            },
+            "plural": {
+                "nom": "mity",
+                "gen": "mitów",
+                "dat": "mitom",
+                "acc": "mity",
+                "ins": "mitami",
+                "loc": "mitach",
+                "voc": "mity"
+            }
+        },
+        "topics": [
+            "religion"
+        ]
+    },
+    {
+        "lemma": "tydzień",
+        "tags": [
+            "FREQ2",
+            "abstract"
+        ],
+        "translations": {
+            "ENG": [
+                "week"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-084-tydzień",
+        "extra": {
+            "usage": [
+                "( Ty ) musisz czekać do następnego tygodnia . ― You must/have to wait till next week.",
+                "Do następnego tygodnia ! ― See you next week!",
+                "Tydzień przed Wielkanocą jest niezwykły dla chrześcijan . ― The week before Easter is special for Christians."
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "tydzień",
+                "gen": "tygodnia",
+                "dat": "tygodniowi",
+                "acc": "tydzień",
+                "ins": "tygodniem",
+                "loc": "tygodniu",
+                "voc": "tygodniu"
+            },
+            "plural": {
+                "nom": "tygodnie",
+                "gen": "tygodni",
+                "dat": "tygodniom",
+                "acc": "tygodnie",
+                "ins": "tygodniami",
+                "loc": "tygodniach",
+                "voc": "tygodnie"
+            }
+        },
+        "topics": [
+            "time"
+        ]
+    },
+    {
+        "lemma": "dar",
+        "tags": [
+            "FREQ4"
+        ],
+        "translations": {
+            "ENG": [
+                "gift"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-085-dar",
+        "inflections": {
+            "singular": {
+                "nom": "dar",
+                "gen": "daru",
+                "dat": "darowi",
+                "acc": "dar",
+                "ins": "darem",
+                "loc": "darze",
+                "voc": "darze"
+            },
+            "plural": {
+                "nom": "dary",
+                "gen": "darów",
+                "dat": "darom",
+                "acc": "dary",
+                "ins": "darami",
+                "loc": "darach",
+                "voc": "dary"
+            }
+        },
+        "topics": [
+            "holiday",
+            "people"
+        ]
+    },
+    {
+        "lemma": "pilot",
+        "tags": [
+            "FREQ4",
+            "concrete",
+            "living",
+            "person",
+            "profession"
+        ],
+        "translations": {
+            "ENG": [
+                "pilot"
+            ]
+        },
+        "gender": "m1",
+        "id": "pol-npe-013-pilot(pilot)",
+        "allohomInfo": { "singleWordtype": true, "text": "a job", "emoji": "✈️" },
+        "inflections": {
+            "singular": {
+                "nom": "pilot",
+                "gen": "pilota",
+                "dat": "pilotowi",
+                "acc": "pilota",
+                "ins": "pilotem",
+                "loc": "pilocie",
+                "voc": "pilocie"
+            },
+            "plural": {
+                "nom": "piloci",
+                "gen": "pilotów",
+                "dat": "pilotom",
+                "acc": "pilotów",
+                "ins": "pilotami",
+                "loc": "pilotach",
+                "voc": "piloci"
+            }
+        },
+        "topics": [
+            "people",
+            "work"
+        ]
+    },
+    {
+        "lemma": "pilot",
+        "tags": [
+            "FREQ3",
+            "concrete",
+            "holdable",
+            "household object"
+        ],
+        "translations": {
+            "ENG": [
+                "remote control"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-086-pilot(remote control)",
+        "allohomInfo": { "singleWordtype": true, "text": "a household object", "emoji": "\uD83D\uDCDF️" },
+        "inflections": {
+            "singular": {
+                "nom": "pilot",
+                "gen": "pilota",
+                "dat": "pilotowi",
+                "acc": "pilot",
+                "ins": "pilotem",
+                "loc": "pilocie",
+                "voc": "pilocie"
+            },
+            "plural": {
+                "nom": "piloty",
+                "gen": "pilotów",
+                "dat": "pilotom",
+                "acc": "piloty",
+                "ins": "pilotami",
+                "loc": "pilotach",
+                "voc": "piloty"
+            }
+        },
+        "topics": [
+            "entertainment",
+            "home",
+            "inside",
+            "tech"
+        ]
+    },
+    {
+        "lemma": "poniedziałek",
+        "tags": [
+            "FREQ2",
+            "abstract"
+        ],
+        "translations": {
+            "ENG": [
+                "Monday"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-087-poniedziałek",
+        "inflections": {
+            "singular": {
+                "nom": "poniedziałek",
+                "gen": "poniedziałku",
+                "dat": "poniedziałkowi",
+                "acc": "poniedziałek",
+                "ins": "poniedziałkiem",
+                "loc": "poniedziałku",
+                "voc": "poniedziałku"
+            },
+            "plural": {
+                "nom": "poniedziałki",
+                "gen": "poniedziałków",
+                "dat": "poniedziałkom",
+                "acc": "poniedziałki",
+                "ins": "poniedziałkami",
+                "loc": "poniedziałkach",
+                "voc": "poniedziałki"
+            }
+        },
+        "topics": [
+            "time"
+        ]
+    },
+    {
+        "lemma": "raj",
+        "tags": [
+            "FREQ5",
+            "abstract",
+            "religion",
+            "special location"
+        ],
+        "translations": {
+            "ENG": [
+                "paradise",
+                "heaven"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-088-raj",
+        "extra": {
+            "synonyms": [
+                "Eden",
+                "niebiosa",
+                "niebo"
+            ],
+            "derivedTerms": [
+                "rajski"
+            ],
+            "usage": [
+                "wrota raju ― gates to paradise",
+                "istny raj ― true paradise",
+                "raj utracony ― paradise lost",
+                "wygnanie z raju ― expulsion from paradise",
+                "raje podatkowe ― tax havens ( lit. tax paradises)",
+                "raj na ziemi ― heaven on earth"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "raj",
+                "gen": "raju",
+                "dat": "rajowi",
+                "acc": "raj",
+                "ins": "rajem",
+                "loc": "raju",
+                "voc": "raju"
+            },
+            "plural": {
+                "nom": "raje",
+                "gen": "rajów",
+                "dat": "rajom",
+                "acc": "raje",
+                "ins": "rajami",
+                "loc": "rajach",
+                "voc": "raje"
+            }
+        },
+        "topics": [
+            "religion"
+        ]
+    },
+    {
+        "lemma": "cud",
+        "tags": [
+            "FREQ5",
+            "religion"
+        ],
+        "translations": {
+            "ENG": [
+                "miracle"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-089-cud",
+        "extra": {
+            "derivedTerms": [
+                "cudny",
+                "cudowny",
+                "cudotwórca"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "cud",
+                "gen": "cudu",
+                "dat": "cudowi",
+                "acc": "cud",
+                "ins": "cudem",
+                "loc": "cudzie",
+                "voc": "cudzie"
+            },
+            "plural": {
+                "nom": [
+                    "cuda",
+                    "cudy"
+                ],
+                "gen": "cudów",
+                "dat": "cudom",
+                "acc": [
+                    "cuda",
+                    "cudy"
+                ],
+                "ins": "cudami",
+                "loc": "cudach",
+                "voc": [
+                    "cuda",
+                    "cudy"
+                ]
+            }
+        },
+        "topics": [
+            "religion"
+        ]
+    },
+    {
+        "lemma": "sufit",
+        "tags": [
+            "FREQ3",
+            "concrete",
+            "part of house"
+        ],
+        "translations": {
+            "ENG": [
+                "ceiling"
+            ]
+        },
+        "gender": "m3",
+        "id": "pol-nco-090-sufit",
+        "extra": {
+            "synonyms": [
+                "strop"
+            ],
+            "derivedTerms": [
+                "sufitowy"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "sufit",
+                "gen": "sufitu",
+                "dat": "sufitowi",
+                "acc": "sufit",
+                "ins": "sufitem",
+                "loc": "suficie",
+                "voc": "suficie"
+            },
+            "plural": {
+                "nom": "sufity",
+                "gen": "sufitów",
+                "dat": "sufitom",
+                "acc": "sufity",
+                "ins": "sufitami",
+                "loc": "sufitach",
+                "voc": "sufity"
+            }
+        },
+        "topics": [
+            "home",
+            "inside"
         ]
     }
 ]
