@@ -2,19 +2,21 @@ from input.Polish.nouns.head_words import input as nouns
 from input.Polish.adjectives.head_words import input as adjectives
 from input.Polish.verbs.head_words import input as verbs
 from parsers.common import scrape_word_data
-from utils.postprocessing.common import make_ids, finalise_lemma_objects
+from utils.postprocessing.common import finalise_lemma_objects
+from utils.scraping.common import re_scrape_and_check_against_existing
 
 if __name__ == '__main__':
 
-    step = 1
-    group_number = 1
-    wordtype = "adjectives"
-    input_indexes = [0, 50]
+    # re_scrape_and_check_against_existing("nouns", "new_nouns")
 
+    step = 1
+    group_number = 2
+    input_indexes = [0, 50]
+    wordtype = "v"
+    these_headwords_only = []
+    # these_headwords_only = ['ciemny']
     skip_make_ids = False  # only set True when manually testing.
     skip_scraping = False  # only set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
-    these_headwords_only = []
-
     langcode = "pol"
 
     """
@@ -56,6 +58,10 @@ Flag lobjs for deletion simply by adding '!' at start of lemma.
                         wordtype_folder/finished_words_99 CREATED
                         
     """
+    wordtypes = ["nouns", "verbs", "adjectives"]
+    for w in wordtypes:
+        if wordtype[0] == w[0] or wordtype[0:3] == w[0:3] or wordtype == w:
+            wordtype = w
 
     head_words_ref = {
         "adjectives": adjectives,

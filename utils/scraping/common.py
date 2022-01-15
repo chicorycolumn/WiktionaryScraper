@@ -3,6 +3,8 @@ import urllib as urllib
 from datetime import datetime
 import re
 
+from utils.general.common import get_existing_lemma_objects, write_todo, write_output
+
 
 def format_verb_translation_properties(s):
     ref = {
@@ -195,3 +197,36 @@ def double_decode(str):
     # 2. unescape the string, see https://stackoverflow.com/a/1885197
     # 3. latin-1 also works, see https://stackoverflow.com/q/7048745
     # 4. finally decode again
+
+
+def re_scrape_and_check_against_existing(filename_of_existing, filename_of_new):
+    old = get_existing_lemma_objects(filename_of_existing)
+    new = get_existing_lemma_objects(filename_of_new)
+
+    old_ids = [lobj["id"] for lobj in old]
+    new_ids = [lobj["id"] for lobj in new]
+
+    new_and_improved = []
+
+    for new_lobj in new:
+        corresponding_old_lobjs = [lobj for lobj in old if
+                                   lobj["id"].split("-")[-1] == new_lobj["id"].split("-")[-1]]
+        if len(corresponding_old_lobjs) != 1:
+
+            searchterm = new_lobj["id"].split("-")[-1]
+            if "(" in searchterm:
+                searchterm = searchterm[0: searchterm.index("(")]
+
+            possibly_matching = [lobj["id"] for lobj in old if searchterm in lobj["id"]]
+            write_todo(
+                f'{new_lobj["id"]} had {len(corresponding_old_lobjs)} corresponding old lobjs, so am skipping it.')
+            write_todo(" ".join(possibly_matching))
+        else:
+            pass
+            old_lobj = corresponding_old_lobjs[0]
+            new_lobj["tags"] = old_lobj["tags"]
+            new_lobj["topics"] = old_lobj["topics"]
+            new_lobj["translations"] = old_lobj["translations"]
+            new_and_improved.append(new_lobj)
+
+    write_output(dict=new_and_improved, output_file="lemme", folder="output_saved")
