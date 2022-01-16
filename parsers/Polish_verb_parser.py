@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 from utils.general.common import write_todo
 from utils.scraping.Polish_dicts import aspect_ref
 from utils.scraping.common import orth, superstrip, add_string, trim_chaff_from_derived_terms, add_value_at_keychain, \
-    brackets_to_end, trim_around_brackets, format_verb_translation_properties
+    brackets_to_end, trim_around_brackets, format_verb_translation_properties, format_usage_string_list
 
 
 class PolishVerbParser(HTMLParser):
@@ -382,7 +382,8 @@ class PolishVerbParser(HTMLParser):
             self.output_obj["translations"]["ENG"].append(definition)
 
             if self.current_usage:
-                self.output_obj["extra"]["usage"].append(self.current_usage[:])
+                formatted_current_usage = format_usage_string_list(self.current_usage)
+                self.output_obj["extra"]["usage"].extend(formatted_current_usage)
                 self.current_usage = []
 
             self.current_definition = None

@@ -1,9 +1,30 @@
+import copy
 import urllib.request as urllib2
 import urllib as urllib
 from datetime import datetime
 import re
 
 from utils.general.common import get_existing_lemma_objects, write_todo, write_output
+
+
+def format_usage_string_list(usage_string_list):
+    temp_arr = []
+    halfway_arr = []
+    final_arr = []
+
+    for index, str in enumerate(usage_string_list):
+        temp_arr.append(str)
+        if index == len(usage_string_list) - 1 or "." in str or "?" in str or "!" in str:
+            halfway_arr.append(" ".join(temp_arr))
+            temp_arr = []
+
+    for index, str in enumerate(halfway_arr):
+        temp_arr.append(str)
+        if index == len(halfway_arr) - 1 or "―" in str:
+            final_arr.append(" ".join(temp_arr))
+            temp_arr = []
+
+    return final_arr
 
 
 def format_verb_translation_properties(s):
@@ -199,12 +220,56 @@ def double_decode(str):
     # 4. finally decode again
 
 
-def re_scrape_and_check_against_existing(filename_of_existing, filename_of_new):
-    old = get_existing_lemma_objects(filename_of_existing)
-    new = get_existing_lemma_objects(filename_of_new)
+def check_rescraped_against_existing(folder_of_existing, folder_of_new):
+    old = get_existing_lemma_objects(folder_of_existing)
+    new = get_existing_lemma_objects(folder_of_new)
 
     old_ids = [lobj["id"] for lobj in old]
     new_ids = [lobj["id"] for lobj in new]
+
+    old_lemmas = [id.split("-")[-1] for id in old_ids]
+    new_lemmas = [id.split("-")[-1] for id in new_ids]
+
+    # new_arr = []
+    #
+    # for old_lemma in old_lemmas:
+    #     found = [new_lobj for new_lobj in new if new_lobj["id"].split("-")[-1] == old_lemma]
+    #     if found:
+    #         new_arr.extend(found)
+
+    # true_just_alphabetized = []
+    # for lobj in new:
+    #     alphabetized_lobj = {}
+    #     keys = list(lobj.keys())
+    #     keys.sort()
+    #     for key in keys:
+    #         alphabetized_lobj[key] = lobj[key]
+    #     true_just_alphabetized.append(alphabetized_lobj)
+
+    for old_lobj in old:
+        found = [new_lobj for new_lobj in new if new_lobj["id"].split("-")[-1] == old_lobj["id"].split("-")[-1]]
+        if len(found) != 1:
+            write_todo(f'"ERR 2133" {old_lobj["id"]}')
+        else:
+            new_lobj = found[0]
+            if "extra" in new_lobj:
+                old_lobj["extra"] = new_lobj["extra"]
+                for key in list(new_lobj["extra"].keys()):
+                    if key in old_lobj:
+                        old_lobj.pop(key)
+            # extra = {}
+            # for key in ["otherShapes", "synonyms", "antonyms", "derivedTerms", "usage"]:
+            #     if key in lobj:
+            #         print(">", lobj[key])
+            #         extra[key] = copy.deepcopy(lobj[key])
+            #         lobj.pop(key)
+            # if extra:
+            #     lobj["extra"] = extra
+
+    write_output(old, "old_with_extra_object")
+
+    old_lemmas.sort()
+    new_lemmas.sort()
 
     new_and_improved = []
 
