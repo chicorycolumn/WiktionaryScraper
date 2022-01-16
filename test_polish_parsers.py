@@ -11,19 +11,19 @@ import os
 
 
 @pytest.mark.parametrize("index,input_words,expected_path,use_sample,skip_extras", [
-    (1, ["pisywać"], "parsed_polish_protoverbs_0", True, True),  # impf frequentative
-    (2, ["pisać"], "parsed_polish_protoverbs_1", True, True),  # impf
-    (3, ["napisać"], "parsed_polish_protoverbs_2", True, True),  # pf
-    (4, ["czytać"], "parsed_polish_protoverbs_3", True, True),  # impf
-    (5, ["przeczytać"], "parsed_polish_protoverbs_4", True, True),  # pf
-    (6, ["badać", "zobaczyć", "zbadać", "widzieć", "widywać"], "parsed_polish_protoverbs_5", True, True),  # various
-    (7, ["badać", "zobaczyć"], "parsed_polish_protoverbs_5", True, False),
+    ("V0", ["pisywać"], "parsed_polish_protoverbs_0", True, True),  # impf frequentative
+    ("V1", ["pisać"], "parsed_polish_protoverbs_1", True, True),  # impf
+    ("V2", ["napisać"], "parsed_polish_protoverbs_2", True, True),  # pf
+    ("V3", ["czytać"], "parsed_polish_protoverbs_3", True, True),  # impf
+    ("V4", ["przeczytać"], "parsed_polish_protoverbs_4", True, True),  # pf
+    ("V5a", ["badać", "zobaczyć", "zbadać", "widzieć", "widywać"], "parsed_polish_protoverbs_5", True, True),  # various
+    ("V5b", ["badać", "zobaczyć"], "parsed_polish_protoverbs_5", True, False),
     # Testing the additional parsing of otherShapes.
-    (8, ["stać"], "parsed_polish_protoverbs_6", True, True),  # Verb has two meanings and two conj tables
-    (9, ["kopać"], "parsed_polish_protoverbs_7", True, True),  # Allohom! Verb has two meanings and one conj table
-    (10, ["brać"], "parsed_polish_protoverbs_8", True, True),
+    ("V6", ["stać"], "parsed_polish_protoverbs_6", True, True),  # Verb has two meanings and two conj tables
+    ("V7", ["kopać"], "parsed_polish_protoverbs_7", True, True),  # Allohom! Verb has two meanings and one conj table
+    ("V8", ["brać"], "parsed_polish_protoverbs_8", True, True),
     # Page contains one noun one verb, homonyms (not nec to list as allohoms as are diff wordtypes).
-    (11, ["chodzić"], "parsed_polish_protoverbs_9", True, True),
+    ("V9", ["chodzić"], "parsed_polish_protoverbs_9", True, True),
     # Verb has two meanings and two conj tables like stać but was tripping up.
 ])
 def test_PolishVerbParser(index, input_words: list, expected_path: str, use_sample: bool, skip_extras: bool,
@@ -71,19 +71,19 @@ def test_PolishVerbParser(index, input_words: list, expected_path: str, use_samp
 
 
 @pytest.mark.parametrize("index,input_words,expected_path,use_sample,skip_extras", [
-    (0, ["narodowy"], "polish_protoadjectives_0", True, True),  # type 0
-    (1, ["stary"], "polish_protoadjectives_1", True, True),  # type 1
-    (2, ["niebieski"], "polish_protoadjectives_2", True, True),  # type 2
-    (3, ["czerwony"], "polish_protoadjectives_3", True, True),  # type 3
-    (4, ["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True, True),  # types 0-3
-    (5, ["czerwony", "BADWORD", "stary", "narodowy"], "polish_protoadjectives_5", False, True),  # contains failing word
-    (6, ["czerwony", "kobieta", "stary", "narodowy"], "polish_protoadjectives_6", False, True),  # contains noun
-    (8, ["średniowieczny", "śródziemnomorski"], "polish_protoadjectives_8", True, True),  # less common adjective
-    (9, ["czerwony", "stary", "narodowy", "niebieski"],
+    ('A0', ["narodowy"], "polish_protoadjectives_0", True, True),  # type 0
+    ('A1', ["stary"], "polish_protoadjectives_1", True, True),  # type 1
+    ('A2', ["niebieski"], "polish_protoadjectives_2", True, True),  # type 2
+    ('A3', ["czerwony"], "polish_protoadjectives_3", True, True),  # type 3
+    ('A4', ["czerwony", "niebieski", "stary", "narodowy"], "polish_protoadjectives_4", True, True),  # types 0-3
+    ('A5', ["czerwony", "BADWORD", "stary", "narodowy"], "polish_protoadjectives_5", False, True),  # contains failing word
+    ('A6', ["czerwony", "kobieta", "stary", "narodowy"], "polish_protoadjectives_6", True, True),  # contains noun
+    ('A8', ["średniowieczny", "śródziemnomorski"], "polish_protoadjectives_8", True, True),  # less common adjective
+    ('A9', ["czerwony", "stary", "narodowy", "niebieski"],
      "polish_protoadjectives_9", True, False),  # use extras if present (though none are)
-    (10, ["główny", "bezpłatny", "konieczny", "cały", "kiepski", "martwy", "tradycyjny", "ostateczny", "następny"],
+    ('A10', ["główny", "bezpłatny", "konieczny", "cały", "kiepski", "martwy", "tradycyjny", "ostateczny", "następny"],
      "polish_protoadjectives_10", False, True),  # loaded_html_but_failed_when_reading
-    (11, ["zgniły", "wrażliwy", "głodny", "zmęczony", "słodki", "gotowy"],
+    ('A11', ["zgniły", "wrażliwy", "głodny", "zmęczony", "słodki", "gotowy"],
      "polish_protoadjectives_11", False, True),  # loaded_and_read_html_but_failed_to_create_output
 ])
 def test_PolishAdjectiveParser(index, input_words: list, expected_path: str, use_sample: bool, skip_extras: bool,
@@ -133,19 +133,19 @@ def test_PolishAdjectiveParser(index, input_words: list, expected_path: str, use
 
 
 @pytest.mark.parametrize("n,input_words,expected_path,use_sample", [
-    (1, ["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"],
+    ('N1', ["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"],
      "polish_nouns_1", True),  # Normal words
-    (2, ["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"],
+    ('N2', ["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"],
      "polish_nouns_2", True),  # Normal words
-    (3, ["prysznic", "glista", "gleba", "łeb", "BADWORD", "palec", "noga", "piła", "piłka"],
+    ('N3', ["gleba", "łeb", "BADWORD", "palec", "noga", "piła", "piłka"],
      "polish_nouns_3", False),  # Some failing words
-    (4, ["prysznic", "BADWORD", "ANOTHERBADWORD", "glista"],
+    ('N4', ["prysznic", "BADWORD", "ANOTHERBADWORD", "glista"],
      "polish_nouns_4", False),  # Some failing words
-    (5, ["prysznic", "polski", "glista"],
-     "polish_nouns_5", False),  # Some failing words
-    (6, ["kapusta"],
+    ('N5', ["prysznic", "polski", "glista"],
+     "polish_nouns_5", True),  # Some failing words
+    ('N6', ["kapusta"],
      "polish_nouns_6", True),  # Word with two meanings and two conjugation tables.
-    (7, ["brać"],
+    ('N7', ["brać"],
      "polish_nouns_7", True),  # Page has 1 verb 1 noun, homonyms (not nec list as allohoms as diff wordtypes).
 ])
 def test_PolishNounParser(n: int, input_words: list, expected_path: str, use_sample: bool, wordtype: str = "nouns"):
