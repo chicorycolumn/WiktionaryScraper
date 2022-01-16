@@ -1,51 +1,12 @@
 [
     {
-        "lemma": "stać",
         "allohomInfo": {
             "singleWordtype": true,
             "text": "bodily action",
             "emoji": "👭"
         },
-        "tags": [
-            "FREQ3",
-            "movement"
-        ],
-        "translations": {
-            "ENG": [
-                "to stand[i]",
-                "to stop[i]"
-            ]
-        },
         "aspect": "imperfective",
-        "secondaryAspects": [
-            "determinate"
-        ],
-        "otherShapes": {
-            "perfective": [
-                "stanąć"
-            ],
-            "indeterminate": [
-                "stawać"
-            ]
-        },
-        "derivedTerms": [
-            "dostawać impf dostać pf",
-            "nastać pf",
-            "obstawać impf obstać pf",
-            "odstawać impf odstać pf",
-            "ostawać impf ostać pf",
-            "podstawać impf podstać pf",
-            "postawać impf postać pf",
-            "przestać pf",
-            "przystać pf",
-            "ustawać impf ustać pf",
-            "wystawać impf wystać pf",
-            "zastawać impf zastać pf",
-            "( nouns ) stojak stójka",
-            "( verbs ) stawiać",
-            "( nouns ) stado stan stół",
-            "( adjective ) stary"
-        ],
+        "id": "pol-ver-001-stać(stand[i])",
         "inflections": {
             "infinitive": "stać",
             "verbalNoun": "stanie",
@@ -126,40 +87,65 @@
                 }
             }
         },
-        "topics": [
-            "body",
-            "medicine"
+        "lemma": "stać",
+        "secondaryAspects": [
+            "determinate"
         ],
-        "id": "pol-ver-001-stać(stand[i])"
-    },
-    {
-        "lemma": "stanąć",
         "tags": [
             "FREQ3",
             "movement"
         ],
+        "topics": [
+            "body",
+            "medicine"
+        ],
         "translations": {
             "ENG": [
                 "to stand[i]",
-                "to stop[i]",
-                "to step on"
+                "to stop[i]"
             ]
         },
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective determinate": [
-                "stać"
+        "extra": {
+            "usage": [
+                "Dlaczego ci ludzie tu stoją ? ― Why are these people standing here?",
+                "Stała przed nim przez pięć minut. ― She stood in front of him for five minutes.",
+                "Te książki wcześniej stały na półce. ― These books were previously on the shelf.",
+                "Na przystanku stoi autobus. ― There is a bus at the stop.",
+                "Stała w korku przez pięć minut. ― She was in traffic for five minutes.",
+                "Zegarek stał , a ja nie mogłem go naprawić. ― The watch wasn't working and I couldn't fix it.",
+                "Od kilku miesięcy gospodarka stoi w miejscu . ― The economy has been in stagnation for several months now."
             ],
-            "frequentative": [
-                "stawać"
+            "otherShapes": {
+                "perfective": [
+                    "stanąć"
+                ],
+                "indeterminate": [
+                    "stawać"
+                ]
+            },
+            "derivedTerms": [
+                "dostawać impf dostać pf",
+                "nastać pf",
+                "obstawać impf obstać pf",
+                "odstawać impf odstać pf",
+                "ostawać impf ostać pf",
+                "podstawać impf podstać pf",
+                "postawać impf postać pf",
+                "przestać pf",
+                "przystać pf",
+                "ustawać impf ustać pf",
+                "wystawać impf wystać pf",
+                "zastawać impf zastać pf",
+                "( nouns ) stojak stójka",
+                "( verbs ) stawiać",
+                "( nouns ) stado stan stół",
+                "( adjective ) stary"
             ]
-        },
-        "derivedTerms": [
-            "( verb ) przystanąć ( noun ) przystanek",
-            "( noun ) przystań",
-            "stawać na drodze stanąć na drodze"
-        ],
+        }
+    },
+    {
+        "aspect": "perfective",
+        "id": "pol-ver-001-stanąć",
         "inflections": {
             "infinitive": "stanąć",
             "verbalNoun": "stanięcie",
@@ -240,55 +226,51 @@
                 "present": false
             }
         },
+        "lemma": "stanąć",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine"
         ],
-        "id": "pol-ver-001-stanąć"
-    },
-    {
-        "lemma": "stawać",
-        "tags": [
-            "FREQ4",
-            "abstract"
-        ],
         "translations": {
             "ENG": [
-                "to become[r]"
+                "to stand[i]",
+                "to stop[i]",
+                "to step on"
             ]
         },
-        "aspect": "imperfective",
-        "secondaryAspects": [
-            "indeterminate",
-            "frequentative"
-        ],
-        "otherShapes": {
-            "imperfective determinate": [
-                "stać"
+        "extra": {
+            "usage": [
+                "Nie mogę się doczekać, kiedy stanę na szczycie tej góry. ― I can't wait to stand on the summit of that mountain.",
+                "Stańcie tutaj i się nie ruszajcie! ― Stand here and don't move!",
+                "Maszyna zaskrzypiała i stanęła . ― The machine squeaked and stopped .",
+                "Stanęliśmy pod sklepem. ― We parked next to the store.",
+                "Uważaj, żeby nie stanąć na luźnej desce. ― Watch out so you don't step on a loose board.",
+                "Zobacz czy podłoga jest czysta, zanim na niej staniesz . ― See if floor is clean before stepping on it.",
+                "Już ci stanął ? ― You are already hard?"
             ],
-            "perfective": [
-                "stanąć"
+            "otherShapes": {
+                "imperfective determinate": [
+                    "stać"
+                ],
+                "frequentative": [
+                    "stawać"
+                ]
+            },
+            "derivedTerms": [
+                "( verb ) przystanąć ( noun ) przystanek",
+                "( noun ) przystań",
+                "stawać na drodze stanąć na drodze"
             ]
-        },
-        "derivedTerms": [
-            "dostawać impf dostać pf przedostawać impf przedostać pf",
-            "wydostawać impf wydostać pf",
-            "podostawać impf",
-            "nastawać impf nastać pf",
-            "obstawać impf obstać pf",
-            "odstawać impf odstać pf",
-            "ostawać impf ostać pf zostawać impf zostać pf pozostawać impf pozostać pf",
-            "postawać impf postać pf",
-            "przestawać impf przestać pf poprzestawać impf poprzestać pf",
-            "zaprzestawać impf zaprzestać pf",
-            "przystawać impf przystać pf",
-            "rozstawać impf rozstać pf",
-            "ustawać impf ustać pf",
-            "wstawać impf wstać pf powstawać impf powstać pf",
-            "wystawać impf wystać pf",
-            "zastawać impf zastać pf",
-            "stawać na drodze stanąć na drodze"
-        ],
+        }
+    },
+    {
+        "aspect": "imperfective",
+        "id": "pol-ver-002-stawać",
         "inflections": {
             "infinitive": "stawać",
             "verbalNoun": "stawanie",
@@ -377,50 +359,59 @@
                 }
             }
         },
-        "topics": [],
-        "id": "pol-ver-002-stawać"
-    },
-    {
-        "lemma": "stać",
-        "allohomInfo": {
-            "singleWordtype": true,
-            "text": "abstract verb",
-            "emoji": "🔃"
-        },
+        "lemma": "stawać",
+        "secondaryAspects": [
+            "indeterminate",
+            "frequentative"
+        ],
         "tags": [
             "FREQ4",
             "abstract"
         ],
+        "topics": [],
         "translations": {
             "ENG": [
                 "to become[r]"
             ]
         },
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "stawać się"
+        "extra": {
+            "otherShapes": {
+                "imperfective determinate": [
+                    "stać"
+                ],
+                "perfective": [
+                    "stanąć"
+                ]
+            },
+            "derivedTerms": [
+                "dostawać impf dostać pf przedostawać impf przedostać pf",
+                "wydostawać impf wydostać pf",
+                "podostawać impf",
+                "nastawać impf nastać pf",
+                "obstawać impf obstać pf",
+                "odstawać impf odstać pf",
+                "ostawać impf ostać pf zostawać impf zostać pf pozostawać impf pozostać pf",
+                "postawać impf postać pf",
+                "przestawać impf przestać pf poprzestawać impf poprzestać pf",
+                "zaprzestawać impf zaprzestać pf",
+                "przystawać impf przystać pf",
+                "rozstawać impf rozstać pf",
+                "ustawać impf ustać pf",
+                "wstawać impf wstać pf powstawać impf powstać pf",
+                "wystawać impf wystać pf",
+                "zastawać impf zastać pf",
+                "stawać na drodze stanąć na drodze"
             ]
+        }
+    },
+    {
+        "allohomInfo": {
+            "singleWordtype": true,
+            "text": "abstract verb",
+            "emoji": "🔃"
         },
-        "derivedTerms": [
-            "verbs derived from stać dostawać impf dostać pf przedostawać impf przedostać pf",
-            "wydostawać impf wydostać pf",
-            "podostawać impf",
-            "nastawać impf nastać pf",
-            "obstawać impf obstać pf",
-            "odstawać impf odstać pf",
-            "ostawać impf ostać pf zostawać impf zostać pf pozostawać impf pozostać pf",
-            "postawać impf postać pf",
-            "przestawać impf przestać pf poprzestawać impf poprzestać pf",
-            "zaprzestawać impf zaprzestać pf",
-            "przystawać impf przystać pf",
-            "rozstawać impf rozstać pf",
-            "ustawać impf ustać pf",
-            "wstawać impf wstać pf powstawać impf powstać pf",
-            "wystawać impf wystać pf",
-            "zastawać impf zastać pf"
-        ],
+        "aspect": "perfective",
+        "id": "pol-ver-002-stać(become[r])",
         "inflections": {
             "infinitive": "stać",
             "verbalNoun": "stanie",
@@ -509,29 +500,53 @@
                 "present": false
             }
         },
-        "topics": [],
-        "id": "pol-ver-002-stać(become[r])"
-    },
-    {
-        "lemma": "wstać",
+        "lemma": "stać",
+        "secondaryAspects": [],
         "tags": [
             "FREQ4",
-            "movement"
+            "abstract"
         ],
+        "topics": [],
         "translations": {
             "ENG": [
-                "to get up[i]",
-                "to stand up[i]"
+                "to become[r]"
             ]
         },
+        "extra": {
+            "usage": [
+                "Myślisz, że się zmieni, gdy stanie się sławna? ― Do you think she will change when she becomes famous?",
+                "Po kilku dniach stali się najlepszymi przyjaciółmi. ― After a few days, they became best friends.",
+                "Jego twarz stała się czerwona ze złości. ― His face turned red with anger."
+            ],
+            "otherShapes": {
+                "imperfective": [
+                    "stawać się"
+                ]
+            },
+            "derivedTerms": [
+                "verbs derived from stać dostawać impf dostać pf przedostawać impf przedostać pf",
+                "wydostawać impf wydostać pf",
+                "podostawać impf",
+                "nastawać impf nastać pf",
+                "obstawać impf obstać pf",
+                "odstawać impf odstać pf",
+                "ostawać impf ostać pf zostawać impf zostać pf pozostawać impf pozostać pf",
+                "postawać impf postać pf",
+                "przestawać impf przestać pf poprzestawać impf poprzestać pf",
+                "zaprzestawać impf zaprzestać pf",
+                "przystawać impf przystać pf",
+                "rozstawać impf rozstać pf",
+                "ustawać impf ustać pf",
+                "wstawać impf wstać pf powstawać impf powstać pf",
+                "wystawać impf wystać pf",
+                "zastawać impf zastać pf"
+            ]
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "wstawać"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-003-wstać",
         "inflections": {
             "infinitive": "wstać",
             "verbalNoun": "wstanie",
@@ -620,17 +635,15 @@
                 "present": false
             }
         },
-        "topics": [
-            "body",
-            "medicine"
-        ],
-        "id": "pol-ver-003-wstać"
-    },
-    {
-        "lemma": "wstawać",
+        "lemma": "wstać",
+        "secondaryAspects": [],
         "tags": [
             "FREQ4",
             "movement"
+        ],
+        "topics": [
+            "body",
+            "medicine"
         ],
         "translations": {
             "ENG": [
@@ -638,14 +651,18 @@
                 "to stand up[i]"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "wstawać"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "wstać"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-003-wstawać",
         "inflections": {
             "infinitive": "wstawać",
             "verbalNoun": "wstawanie",
@@ -734,56 +751,33 @@
                 }
             }
         },
+        "lemma": "wstawać",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ4",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine"
         ],
-        "id": "pol-ver-003-wstawać"
-    },
-    {
-        "lemma": "brać",
-        "tags": [
-            "FREQ2",
-            "movement"
-        ],
         "translations": {
             "ENG": [
-                "to take"
+                "to get up[i]",
+                "to stand up[i]"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "wstać"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "wziąć"
-            ]
-        },
-        "derivedTerms": [
-            "words derived from brać brać na ambicję impf wziąć na ambicję pf",
-            "brać na ambit impf wziąć na ambit pf",
-            "brać udział impf wziąć udział pf",
-            "brać górę impf wziąć górę pf",
-            "brać pod uwagę impf wziąć pod uwagę pf",
-            "brać się w garść impf wziąć się w garść pf",
-            "brać nogi za pas impf wziąć nogi za pas pf",
-            "brać sprawy w swoje ręce impf wziąć sprawy w swoje ręce pf",
-            "brać na spytki impf wziąć na spytki pf",
-            "brać za dobrą monetę impf wziąć za dobrą monetę pf",
-            "dobierać impf dobrać pf",
-            "nabierać impf nabrać pf",
-            "obierać impf obrać pf",
-            "odbierać impf odebrać pf",
-            "pobierać impf pobrać pf",
-            "podbierać impf podebrać pf",
-            "przebierać impf przebrać pf",
-            "przybierać impf przybrać pf",
-            "rozbierać impf rozebrać pf",
-            "wybierać impf wybrać pf",
-            "wzbierać impf wezbrać pf",
-            "zabierać impf zabrać pf",
-            "zbierać impf zebrać pf pozbierać impf",
-            "( noun ) biorca"
-        ],
+        "id": "pol-ver-004-brać",
         "inflections": {
             "infinitive": "brać",
             "verbalNoun": "branie",
@@ -864,52 +858,63 @@
                 }
             }
         },
+        "lemma": "brać",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ2",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "social glue"
-        ],
-        "id": "pol-ver-004-brać"
-    },
-    {
-        "lemma": "wziąć",
-        "tags": [
-            "FREQ2",
-            "movement"
         ],
         "translations": {
             "ENG": [
                 "to take"
             ]
         },
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "brać"
+        "extra": {
+            "usage": [
+                "Bierz się do roboty! ― Get to work!",
+                "brać ślub ― to get married"
+            ],
+            "otherShapes": {
+                "perfective": [
+                    "wziąć"
+                ]
+            },
+            "derivedTerms": [
+                "words derived from brać brać na ambicję impf wziąć na ambicję pf",
+                "brać na ambit impf wziąć na ambit pf",
+                "brać udział impf wziąć udział pf",
+                "brać górę impf wziąć górę pf",
+                "brać pod uwagę impf wziąć pod uwagę pf",
+                "brać się w garść impf wziąć się w garść pf",
+                "brać nogi za pas impf wziąć nogi za pas pf",
+                "brać sprawy w swoje ręce impf wziąć sprawy w swoje ręce pf",
+                "brać na spytki impf wziąć na spytki pf",
+                "brać za dobrą monetę impf wziąć za dobrą monetę pf",
+                "dobierać impf dobrać pf",
+                "nabierać impf nabrać pf",
+                "obierać impf obrać pf",
+                "odbierać impf odebrać pf",
+                "pobierać impf pobrać pf",
+                "podbierać impf podebrać pf",
+                "przebierać impf przebrać pf",
+                "przybierać impf przybrać pf",
+                "rozbierać impf rozebrać pf",
+                "wybierać impf wybrać pf",
+                "wzbierać impf wezbrać pf",
+                "zabierać impf zabrać pf",
+                "zbierać impf zebrać pf pozbierać impf",
+                "( noun ) bierka biorca"
             ]
-        },
-        "derivedTerms": [
-            "derived terms brać na ambicję impf wziąć na ambicję pf",
-            "brać na ambit impf wziąć na ambit pf",
-            "brać za dobrą monetę impf wziąć za dobrą monetę pf",
-            "powziąć pf",
-            "przedsiębrać impf przedsięwziąć pf",
-            "uwzinać impf uwziąć pf",
-            "zawzinać impf zawziąć pf",
-            "( noun ) wziątka",
-            "verbs related to wziąć ( old polish ) jąć dojmować impf dojąć pf",
-            "obejmować impf objąć pf",
-            "odejmować impf odjąć pf",
-            "najmować impf nająć pf wynajmować impf wynająć pf",
-            "podejmować impf podjąć pf",
-            "pojmować impf pojąć pf",
-            "przejmować impf przejąć pf",
-            "przyjmować impf przyjąć pf",
-            "ujmować impf ująć pf",
-            "zajmować impf zająć pf",
-            "zdejmować impf zdjąć pf"
-        ],
+        }
+    },
+    {
+        "aspect": "perfective",
+        "id": "pol-ver-004-wziąć",
         "inflections": {
             "infinitive": "wziąć",
             "verbalNoun": "wzięcie",
@@ -998,57 +1003,58 @@
                 "present": false
             }
         },
+        "lemma": "wziąć",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ2",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "social glue"
         ],
-        "id": "pol-ver-004-wziąć"
-    },
-    {
-        "lemma": "biegać",
-        "tags": [
-            "FREQ3"
-        ],
         "translations": {
             "ENG": [
-                "to run[i]",
-                "to jog[i]"
+                "to take"
             ]
         },
-        "aspect": "imperfective",
-        "secondaryAspects": [
-            "indeterminate"
-        ],
-        "otherShapes": {
-            "imperfective determinate": [
-                "biec"
+        "extra": {
+            "usage": [
+                "Weź się do roboty! ― Get to work!",
+                "wziąć ślub ― to get married"
             ],
-            "perfective": [
-                "pobiec"
+            "otherShapes": {
+                "imperfective": [
+                    "brać"
+                ]
+            },
+            "derivedTerms": [
+                "derived terms brać na ambicję impf wziąć na ambicję pf",
+                "brać na ambit impf wziąć na ambit pf",
+                "brać za dobrą monetę impf wziąć za dobrą monetę pf",
+                "powziąć pf",
+                "przedsiębrać impf przedsięwziąć pf",
+                "uwzinać impf uwziąć pf",
+                "zawzinać impf zawziąć pf",
+                "( noun ) wziątka",
+                "verbs related to wziąć ( old polish ) jąć dojmować impf dojąć pf",
+                "obejmować impf objąć pf",
+                "odejmować impf odjąć pf",
+                "najmować impf nająć pf wynajmować impf wynająć pf",
+                "podejmować impf podjąć pf",
+                "pojmować impf pojąć pf",
+                "przejmować impf przejąć pf",
+                "przyjmować impf przyjąć pf",
+                "ujmować impf ująć pf",
+                "zajmować impf zająć pf",
+                "zdejmować impf zdjąć pf"
             ]
-        },
-        "derivedTerms": [
-            "verbs derived from biec dobiegać impf dobiec pf dobiegnąć pf",
-            "nabiegać impf nabiec pf nabiegnąć pf",
-            "nadbiegać impf nadbiec pf nadbiegnąć pf",
-            "obiegać impf obiec pf obiegnąć pf",
-            "odbiegać impf odbiec pf odbiegnąć pf",
-            "pobiegać impf pobiec pf pobiegnąć pf zapobiegać impf zapobiec pf zapobiegnąć pf",
-            "podbiegać impf podbiec pf podbiegnąć pf",
-            "przebiegać impf przebiec pf przebiegnąć pf",
-            "przybiegać impf przybiec pf przybiegnąć pf",
-            "rozbiegać impf rozbiec pf",
-            "ubiegać impf ubiec pf ubiegnąć pf",
-            "wbiegać impf wbiec pf wbiegnąć pf",
-            "wybiegać impf wybiec pf wybiegnąć pf",
-            "zabiegać impf zabiec pf zabiegnąć pf",
-            "zbiegać impf zbiec pf zbiegnąć pf",
-            "( noun ) bieganina",
-            "( verbs ) biegnąć bieżeć",
-            "( nouns ) bieg biegacz biegun",
-            "( adjective ) biegły"
-        ],
+        }
+    },
+    {
+        "aspect": "imperfective",
+        "id": "pol-ver-005-biegać",
         "inflections": {
             "infinitive": "biegać",
             "verbalNoun": "bieganie",
@@ -1137,28 +1143,63 @@
                 }
             }
         },
+        "lemma": "biegać",
+        "secondaryAspects": [
+            "indeterminate"
+        ],
+        "tags": [
+            "FREQ3"
+        ],
         "topics": [
             "body",
             "medicine",
             "sport"
         ],
-        "id": "pol-ver-005-biegać"
-    },
-    {
-        "lemma": "pobiec",
-        "tags": [
-            "FREQ3",
-            "movement"
-        ],
         "translations": {
             "ENG": [
-                "to run[i]"
+                "to run[i]",
+                "to jog[i]"
             ]
         },
+        "extra": {
+            "usage": [
+                "Biegam każdego ranka. ― I go jogging every morning."
+            ],
+            "otherShapes": {
+                "imperfective determinate": [
+                    "biec"
+                ],
+                "perfective": [
+                    "pobiec"
+                ]
+            },
+            "derivedTerms": [
+                "verbs derived from biec dobiegać impf dobiec pf dobiegnąć pf",
+                "nabiegać impf nabiec pf nabiegnąć pf",
+                "nadbiegać impf nadbiec pf nadbiegnąć pf",
+                "obiegać impf obiec pf obiegnąć pf",
+                "odbiegać impf odbiec pf odbiegnąć pf",
+                "pobiegać impf pobiec pf pobiegnąć pf zapobiegać impf zapobiec pf zapobiegnąć pf",
+                "podbiegać impf podbiec pf podbiegnąć pf",
+                "przebiegać impf przebiec pf przebiegnąć pf",
+                "przybiegać impf przybiec pf przybiegnąć pf",
+                "rozbiegać impf rozbiec pf",
+                "ubiegać impf ubiec pf ubiegnąć pf",
+                "wbiegać impf wbiec pf wbiegnąć pf",
+                "wybiegać impf wybiec pf wybiegnąć pf",
+                "zabiegać impf zabiec pf zabiegnąć pf",
+                "zbiegać impf zbiec pf zbiegnąć pf",
+                "( noun ) bieganina",
+                "( verbs ) biegnąć bieżeć",
+                "( nouns ) bieg biegacz biegun",
+                "( adjective ) biegły"
+            ]
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {},
         "derivedTerms": [],
+        "id": "pol-ver-005-pobiec",
         "inflections": {
             "infinitive": "pobiec",
             "verbalNoun": "pobiegnięcie",
@@ -1247,56 +1288,27 @@
                 "present": false
             }
         },
+        "lemma": "pobiec",
+        "otherShapes": {},
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "sport"
         ],
-        "id": "pol-ver-005-pobiec"
-    },
-    {
-        "lemma": "biec",
-        "tags": [
-            "FREQ3",
-            "movement"
-        ],
         "translations": {
             "ENG": [
                 "to run[i]"
             ]
-        },
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [
-            "determinate"
-        ],
-        "otherShapes": {
-            "perfective": [
-                "pobiec"
-            ],
-            "indeterminate": [
-                "biegać"
-            ]
-        },
-        "derivedTerms": [
-            "dobiegać impf dobiec pf dobiegnąć pf",
-            "nabiegać impf nabiec pf nabiegnąć pf",
-            "nadbiegać impf nadbiec pf nadbiegnąć pf",
-            "obiegać impf obiec pf obiegnąć pf",
-            "odbiegać impf odbiec pf odbiegnąć pf",
-            "pobiegać impf pobiec pf pobiegnąć pf zapobiegać impf zapobiec pf zapobiegnąć pf",
-            "podbiegać impf podbiec pf podbiegnąć pf",
-            "przebiegać impf przebiec pf przebiegnąć pf",
-            "przybiegać impf przybiec pf przybiegnąć pf",
-            "rozbiegać impf rozbiec pf",
-            "ubiegać impf ubiec pf ubiegnąć pf",
-            "wbiegać impf wbiec pf wbiegnąć pf",
-            "wybiegać impf wybiec pf wybiegnąć pf",
-            "zabiegać impf zabiec pf zabiegnąć pf",
-            "zbiegać impf zbiec pf zbiegnąć pf",
-            "( verbs ) biegnąć bieżeć",
-            "( nouns ) bieg biegacz biegun",
-            "( adjective ) biegły"
-        ],
+        "id": "pol-ver-005-biec",
         "inflections": {
             "infinitive": "biec biegnąć",
             "activeAdjectival": "biegnący",
@@ -1376,27 +1388,63 @@
                 }
             }
         },
+        "lemma": "biec",
+        "secondaryAspects": [
+            "determinate"
+        ],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "sport"
         ],
-        "id": "pol-ver-005-biec"
-    },
-    {
-        "lemma": "posiedzieć",
-        "tags": [
-            "FREQ2"
-        ],
         "translations": {
             "ENG": [
-                "to sit for a while[i]"
+                "to run[i]"
             ]
         },
+        "extra": {
+            "usage": [
+                "Pies biegnie do swojego pana. ― The dog runs to his master.",
+                "Te tory kolejowe biegną do starego portu. ― These railway tracks run to the old port."
+            ],
+            "otherShapes": {
+                "perfective": [
+                    "pobiec"
+                ],
+                "indeterminate": [
+                    "biegać"
+                ]
+            },
+            "derivedTerms": [
+                "dobiegać impf dobiec pf dobiegnąć pf",
+                "nabiegać impf nabiec pf nabiegnąć pf",
+                "nadbiegać impf nadbiec pf nadbiegnąć pf",
+                "obiegać impf obiec pf obiegnąć pf",
+                "odbiegać impf odbiec pf odbiegnąć pf",
+                "pobiegać impf pobiec pf pobiegnąć pf zapobiegać impf zapobiec pf zapobiegnąć pf",
+                "podbiegać impf podbiec pf podbiegnąć pf",
+                "przebiegać impf przebiec pf przebiegnąć pf",
+                "przybiegać impf przybiec pf przybiegnąć pf",
+                "rozbiegać impf rozbiec pf",
+                "ubiegać impf ubiec pf ubiegnąć pf",
+                "wbiegać impf wbiec pf wbiegnąć pf",
+                "wybiegać impf wybiec pf wybiegnąć pf",
+                "zabiegać impf zabiec pf zabiegnąć pf",
+                "zbiegać impf zbiec pf zbiegnąć pf",
+                "( verbs ) biegnąć bieżeć",
+                "( nouns ) bieg biegacz biegun",
+                "( adjective ) biegły"
+            ]
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {},
         "derivedTerms": [],
+        "id": "pol-ver-006-posiedzieć",
         "inflections": {
             "infinitive": "posiedzieć",
             "verbalNoun": "posiedzenie",
@@ -1485,48 +1533,26 @@
                 "present": false
             }
         },
+        "lemma": "posiedzieć",
+        "otherShapes": {},
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ2"
+        ],
         "topics": [
             "body",
             "medicine",
             "school"
         ],
-        "id": "pol-ver-006-posiedzieć"
-    },
-    {
-        "lemma": "siąść",
-        "tags": [
-            "FREQ2"
-        ],
         "translations": {
             "ENG": [
-                "to sit down[i]",
-                "to sit[i]"
+                "to sit for a while[i]"
             ]
-        },
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "siadać"
-            ]
-        },
-        "derivedTerms": [
-            "dosiadać impf dosiąść pf",
-            "nasiadać impf nasiąść pf",
-            "osiadać impf osiąść pf",
-            "obsiadać impf obsiąść pf",
-            "posiadać impf posiąść pf",
-            "przesiadać impf przesiąść pf",
-            "podsiadać impf podsiąść pf",
-            "przysiadać impf przysiąść pf",
-            "rozsiadać impf rozsiąść pf",
-            "wsiadać impf wsiąść pf",
-            "wysiadać impf wysiąść pf",
-            "zsiadać impf zsiąść pf",
-            "zasiadać impf zasiąść pf",
-            "( verbs ) sadzać sadzić siedzieć",
-            "( nouns ) sad siedziba siodło"
-        ],
+        "id": "pol-ver-007-siąść",
         "inflections": {
             "infinitive": "siąść",
             "activeAdjectival": false,
@@ -1606,44 +1632,50 @@
                 "present": false
             }
         },
+        "lemma": "siąść",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ2"
+        ],
         "topics": [
             "body",
             "medicine",
             "school"
         ],
-        "id": "pol-ver-007-siąść"
-    },
-    {
-        "lemma": "siedzieć",
-        "tags": [
-            "FREQ2"
-        ],
         "translations": {
             "ENG": [
+                "to sit down[i]",
                 "to sit[i]"
             ]
         },
-        "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "posiedzieć"
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "siadać"
+                ]
+            },
+            "derivedTerms": [
+                "dosiadać impf dosiąść pf",
+                "nasiadać impf nasiąść pf",
+                "osiadać impf osiąść pf",
+                "obsiadać impf obsiąść pf",
+                "posiadać impf posiąść pf",
+                "przesiadać impf przesiąść pf",
+                "podsiadać impf podsiąść pf",
+                "przysiadać impf przysiąść pf",
+                "rozsiadać impf rozsiąść pf",
+                "wsiadać impf wsiąść pf",
+                "wysiadać impf wysiąść pf",
+                "zsiadać impf zsiąść pf",
+                "zasiadać impf zasiąść pf",
+                "( verbs ) sadzać sadzić siedzieć",
+                "( nouns ) sad siedziba siodło"
             ]
-        },
-        "derivedTerms": [
-            "dosiadywać impf dosiedzieć pf",
-            "nasiedzieć pf",
-            "odsiadywać impf odsiedzieć pf",
-            "posiadywać impf posiedzieć pf",
-            "przesiedzieć pf",
-            "podsiadywać impf podsiedzieć pf",
-            "przysiadywać impf przysiedzieć pf przysiąść pf",
-            "usiedzieć pf",
-            "wysiadywać impf wysiedzieć pf",
-            "( nouns ) posiedzenie n siedzenie n siedzisko n zasiedzenie n",
-            "( verbs ) sadzać ( “ to seat ” ) sadzić ( “ to plant ” ) siąść ( “ to sit down ” ) usiąść",
-            "( nouns ) siedziba f siodło n sąsiad m pl"
-        ],
+        }
+    },
+    {
+        "aspect": "imperfective",
+        "id": "pol-ver-008-siedzieć",
         "inflections": {
             "infinitive": "siedzieć",
             "verbalNoun": "siedzenie",
@@ -1732,54 +1764,49 @@
                 }
             }
         },
+        "lemma": "siedzieć",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ2"
+        ],
         "topics": [
             "body",
             "medicine",
             "school"
         ],
-        "id": "pol-ver-008-siedzieć"
-    },
-    {
-        "lemma": "siadać",
-        "tags": [
-            "FREQ2"
-        ],
         "translations": {
             "ENG": [
-                "to sit down[i]",
                 "to sit[i]"
             ]
         },
-        "aspect": "imperfective",
-        "secondaryAspects": [
-            "the latter is more modern"
-        ],
-        "otherShapes": {
-            "perfective": [
-                "siąść"
+        "extra": {
+            "usage": [
+                "za co siedzisz ? ― What are you in for?"
             ],
-            "or": [
-                "usiąść",
-                ");"
+            "otherShapes": {
+                "perfective": [
+                    "posiedzieć"
+                ]
+            },
+            "derivedTerms": [
+                "dosiadywać impf dosiedzieć pf",
+                "nasiedzieć pf",
+                "odsiadywać impf odsiedzieć pf",
+                "posiadywać impf posiedzieć pf",
+                "przesiedzieć pf",
+                "podsiadywać impf podsiedzieć pf",
+                "przysiadywać impf przysiedzieć pf przysiąść pf",
+                "usiedzieć pf",
+                "wysiadywać impf wysiedzieć pf",
+                "( nouns ) posiedzenie n siedzenie n siedzisko n zasiedzenie n",
+                "( verbs ) sadzać ( “ to seat ” ) sadzić ( “ to plant ” ) siąść ( “ to sit down ” ) usiąść",
+                "( nouns ) siedziba f siodło n sąsiad m pl"
             ]
-        },
-        "derivedTerms": [
-            "verbs derived from siąść dosiadać impf dosiąść pf",
-            "nasiadać impf nasiąść pf",
-            "osiadać impf osiąść pf",
-            "obsiadać impf obsiąść pf",
-            "posiadać impf posiąść pf",
-            "przesiadać impf przesiąść pf",
-            "podsiadać impf podsiąść pf",
-            "przysiadać impf przysiąść pf",
-            "rozsiadać impf rozsiąść pf",
-            "wsiadać impf wsiąść pf",
-            "wysiadać impf wysiąść pf",
-            "zsiadać impf zsiąść pf",
-            "zasiadać impf zasiąść pf",
-            "( verbs ) sadzać sadzić siedzieć",
-            "( nouns ) sad siedziba siodło"
-        ],
+        }
+    },
+    {
+        "aspect": "imperfective",
+        "id": "pol-ver-007-siadać",
         "inflections": {
             "infinitive": "siadać",
             "verbalNoun": "siadanie",
@@ -1868,34 +1895,56 @@
                 }
             }
         },
+        "lemma": "siadać",
+        "secondaryAspects": [
+            "the latter is more modern"
+        ],
+        "tags": [
+            "FREQ2"
+        ],
         "topics": [
             "body",
             "medicine",
             "school"
         ],
-        "id": "pol-ver-007-siadać"
-    },
-    {
-        "lemma": "usiąść",
-        "tags": [
-            "FREQ2"
-        ],
         "translations": {
             "ENG": [
-                "to sit down[i]"
+                "to sit down[i]",
+                "to sit[i]"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "siąść"
+                ],
+                "or": [
+                    "usiąść",
+                    ");"
+                ]
+            },
+            "derivedTerms": [
+                "verbs derived from siąść dosiadać impf dosiąść pf",
+                "nasiadać impf nasiąść pf",
+                "osiadać impf osiąść pf",
+                "obsiadać impf obsiąść pf",
+                "posiadać impf posiąść pf",
+                "przesiadać impf przesiąść pf",
+                "podsiadać impf podsiąść pf",
+                "przysiadać impf przysiąść pf",
+                "rozsiadać impf rozsiąść pf",
+                "wsiadać impf wsiąść pf",
+                "wysiadać impf wysiąść pf",
+                "zsiadać impf zsiąść pf",
+                "zasiadać impf zasiąść pf",
+                "( verbs ) sadzać sadzić siedzieć",
+                "( nouns ) sad siedziba siodło"
+            ]
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "siadać"
-            ]
-        },
-        "derivedTerms": [
-            "( verbs ) sadzać sadzić siedzieć",
-            "( nouns ) siedzenie siedziba siedzisko siodło"
-        ],
+        "id": "pol-ver-007-usiąść",
         "inflections": {
             "infinitive": "usiąść",
             "activeAdjectival": false,
@@ -1975,38 +2024,36 @@
                 "present": false
             }
         },
+        "lemma": "usiąść",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ2"
+        ],
         "topics": [
             "body",
             "medicine",
             "school"
         ],
-        "id": "pol-ver-007-usiąść"
-    },
-    {
-        "lemma": "upadać",
-        "tags": [
-            "FREQ4",
-            "movement"
-        ],
         "translations": {
             "ENG": [
-                "to fall down[i]",
-                "to fall[i]",
-                "to drop[i]"
+                "to sit down[i]"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "siadać"
+                ]
+            },
+            "derivedTerms": [
+                "( verbs ) sadzać sadzić siedzieć",
+                "( nouns ) siedzenie siedziba siedzisko siodło"
+            ]
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "upaść"
-            ]
-        },
-        "derivedTerms": [
-            "upadek",
-            "upadłość",
-            "upadły"
-        ],
+        "id": "pol-ver-009-upadać",
         "inflections": {
             "infinitive": "upadać",
             "verbalNoun": "upadanie",
@@ -2095,17 +2142,15 @@
                 }
             }
         },
-        "topics": [
-            "body",
-            "medicine"
-        ],
-        "id": "pol-ver-009-upadać"
-    },
-    {
-        "lemma": "upaść",
+        "lemma": "upadać",
+        "secondaryAspects": [],
         "tags": [
             "FREQ4",
             "movement"
+        ],
+        "topics": [
+            "body",
+            "medicine"
         ],
         "translations": {
             "ENG": [
@@ -2114,14 +2159,23 @@
                 "to drop[i]"
             ]
         },
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "upadać"
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "upaść"
+                ]
+            },
+            "derivedTerms": [
+                "upadek",
+                "upadłość",
+                "upadły"
             ]
-        },
+        }
+    },
+    {
+        "aspect": "perfective",
         "derivedTerms": [],
+        "id": "pol-ver-009-upaść",
         "inflections": {
             "infinitive": "upaść",
             "verbalNoun": "upasienie",
@@ -2210,30 +2264,33 @@
                 "present": false
             }
         },
+        "lemma": "upaść",
+        "otherShapes": {
+            "imperfective": [
+                "upadać"
+            ]
+        },
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ4",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine"
         ],
-        "id": "pol-ver-009-upaść"
-    },
-    {
-        "lemma": "przygotować",
-        "tags": [
-            "FREQ4"
-        ],
         "translations": {
             "ENG": [
-                "to prepare"
+                "to fall down[i]",
+                "to fall[i]",
+                "to drop[i]"
             ]
-        },
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "przygotowywać"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-010-przygotować",
         "inflections": {
             "infinitive": "przygotować",
             "verbalNoun": "przygotowanie",
@@ -2322,30 +2379,32 @@
                 "present": false
             }
         },
+        "lemma": "przygotować",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ4"
+        ],
         "topics": [
             "cooking",
             "planning"
-        ],
-        "id": "pol-ver-010-przygotować"
-    },
-    {
-        "lemma": "przygotowywać",
-        "tags": [
-            "FREQ4"
         ],
         "translations": {
             "ENG": [
                 "to prepare"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "przygotowywać"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "przygotować"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-010-przygotowywać",
         "inflections": {
             "infinitive": "przygotowywać",
             "verbalNoun": "przygotowywanie",
@@ -2434,33 +2493,30 @@
                 }
             }
         },
+        "lemma": "przygotowywać",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ4"
+        ],
         "topics": [
             "cooking",
             "planning"
         ],
-        "id": "pol-ver-010-przygotowywać"
-    },
-    {
-        "lemma": "położyć",
-        "tags": [
-            "FREQ3",
-            "abstract",
-            "movement"
-        ],
         "translations": {
             "ENG": [
-                "to put",
-                "to lay",
-                "to lie down[r]"
+                "to prepare"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "przygotować"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "kłaść"
-            ]
-        },
         "derivedTerms": [
             "verbs related to położyć dokładać impf dołożyć pf",
             "nadkładać impf nadłożyć pf",
@@ -2480,6 +2536,7 @@
             "zakładać impf założyć pf",
             "( phrases ) kłaść akcent położyć akcent kłaść nacisk położyć nacisk"
         ],
+        "id": "pol-ver-011-położyć",
         "inflections": {
             "infinitive": "położyć",
             "verbalNoun": "położenie",
@@ -2568,19 +2625,22 @@
                 "present": false
             }
         },
-        "topics": [
-            "body",
-            "geometry",
-            "medicine"
-        ],
-        "id": "pol-ver-011-położyć"
-    },
-    {
-        "lemma": "kłaść",
+        "lemma": "położyć",
+        "otherShapes": {
+            "imperfective": [
+                "kłaść"
+            ]
+        },
+        "secondaryAspects": [],
         "tags": [
             "FREQ3",
             "abstract",
             "movement"
+        ],
+        "topics": [
+            "body",
+            "geometry",
+            "medicine"
         ],
         "translations": {
             "ENG": [
@@ -2588,14 +2648,10 @@
                 "to lay",
                 "to lie down[r]"
             ]
-        },
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "położyć"
-            ]
-        },
         "derivedTerms": [
             "dokładać impf dołożyć pf",
             "nadkładać impf nadłożyć pf",
@@ -2633,6 +2689,7 @@
             "zakład zakładacz zakładca zakładnica zakładnictwo zakładowca zakładziny",
             "( adjective ) pokładny"
         ],
+        "id": "pol-ver-011-kłaść",
         "inflections": {
             "infinitive": "kłaść",
             "verbalNoun": "kładzenie",
@@ -2721,34 +2778,35 @@
                 }
             }
         },
-        "topics": [
-            "body",
-            "geometry",
-            "medicine"
-        ],
-        "id": "pol-ver-011-kłaść"
-    },
-    {
-        "lemma": "wkładać",
+        "lemma": "kłaść",
+        "otherShapes": {
+            "perfective": [
+                "położyć"
+            ]
+        },
+        "secondaryAspects": [],
         "tags": [
             "FREQ3",
             "abstract",
             "movement"
         ],
+        "topics": [
+            "body",
+            "geometry",
+            "medicine"
+        ],
         "translations": {
             "ENG": [
-                "to put in",
-                "to put inside"
+                "to put",
+                "to lay",
+                "to lie down[r]"
             ]
-        },
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "włożyć"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-012-wkładać",
         "inflections": {
             "infinitive": "wkładać",
             "activeAdjectival": "wkładający",
@@ -2828,19 +2886,17 @@
                 }
             }
         },
-        "topics": [
-            "body",
-            "geometry",
-            "medicine"
-        ],
-        "id": "pol-ver-012-wkładać"
-    },
-    {
-        "lemma": "włożyć",
+        "lemma": "wkładać",
+        "secondaryAspects": [],
         "tags": [
             "FREQ3",
             "abstract",
             "movement"
+        ],
+        "topics": [
+            "body",
+            "geometry",
+            "medicine"
         ],
         "translations": {
             "ENG": [
@@ -2848,14 +2904,18 @@
                 "to put inside"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "włożyć"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "wkładać"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-012-włożyć",
         "inflections": {
             "infinitive": "włożyć",
             "verbalNoun": "włożenie",
@@ -2944,36 +3004,35 @@
                 "present": false
             }
         },
+        "lemma": "włożyć",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "abstract",
+            "movement"
+        ],
         "topics": [
             "body",
             "geometry",
             "medicine"
         ],
-        "id": "pol-ver-012-włożyć"
-    },
-    {
-        "lemma": "zmienić",
-        "tags": [
-            "FREQ2",
-            ""
-        ],
         "translations": {
             "ENG": [
-                "to change",
-                "to modify",
-                "to replace"
+                "to put in",
+                "to put inside"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "wkładać"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "zmieniać"
-            ]
-        },
-        "derivedTerms": [
-            "zmiana"
-        ],
+        "id": "pol-ver-013-zmienić",
         "inflections": {
             "infinitive": "zmienić",
             "verbalNoun": "zmienienie",
@@ -3062,15 +3121,13 @@
                 "present": false
             }
         },
-        "topics": [],
-        "id": "pol-ver-013-zmienić"
-    },
-    {
-        "lemma": "zmieniać",
+        "lemma": "zmienić",
+        "secondaryAspects": [],
         "tags": [
             "FREQ2",
             ""
         ],
+        "topics": [],
         "translations": {
             "ENG": [
                 "to change",
@@ -3078,16 +3135,20 @@
                 "to replace"
             ]
         },
-        "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "zmienić"
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "zmieniać"
+                ]
+            },
+            "derivedTerms": [
+                "zmiana"
             ]
-        },
-        "derivedTerms": [
-            "zmiana"
-        ],
+        }
+    },
+    {
+        "aspect": "imperfective",
+        "id": "pol-ver-013-zmieniać",
         "inflections": {
             "infinitive": "zmieniać",
             "verbalNoun": "zmienianie",
@@ -3176,23 +3237,35 @@
                 }
             }
         },
-        "topics": [],
-        "id": "pol-ver-013-zmieniać"
-    },
-    {
-        "lemma": "policzyć",
+        "lemma": "zmieniać",
+        "secondaryAspects": [],
         "tags": [
-            "FREQ3"
+            "FREQ2",
+            ""
         ],
+        "topics": [],
         "translations": {
             "ENG": [
-                "to count"
+                "to change",
+                "to modify",
+                "to replace"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "zmienić"
+                ]
+            },
+            "derivedTerms": [
+                "zmiana"
+            ]
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {},
         "derivedTerms": [],
+        "id": "pol-ver-014-policzyć",
         "inflections": {
             "infinitive": "policzyć",
             "verbalNoun": "policzenie",
@@ -3281,48 +3354,25 @@
                 "present": false
             }
         },
+        "lemma": "policzyć",
+        "otherShapes": {},
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3"
+        ],
         "topics": [
             "math",
             "school"
         ],
-        "id": "pol-ver-014-policzyć"
-    },
-    {
-        "lemma": "liczyć",
-        "tags": [
-            "FREQ3"
-        ],
         "translations": {
             "ENG": [
-                "to count",
-                "to count on",
-                "to matter"
+                "to count"
             ]
-        },
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "policzyć"
-            ]
-        },
-        "derivedTerms": [
-            "doliczać impf doliczyć pf",
-            "naliczać impf naliczyć pf",
-            "nadliczyć pf",
-            "obliczać impf obliczyć pf",
-            "odliczać impf odliczyć pf",
-            "podliczać impf podliczyć pf",
-            "policzać impf policzyć pf",
-            "przeliczać impf przeliczyć pf",
-            "rozliczać impf rozliczyć pf",
-            "wliczać impf wliczyć pf",
-            "wyliczać impf wyliczyć pf",
-            "zaliczać impf zaliczyć pf",
-            "zliczać impf zliczyć pf",
-            "( nouns ) bezlik liczba liczebnik licznik liczydło liczyrzepa lik",
-            "( adjectives ) liczbowy liczebny liczny"
-        ],
+        "id": "pol-ver-015-liczyć",
         "inflections": {
             "infinitive": "liczyć",
             "verbalNoun": "liczenie",
@@ -3411,58 +3461,53 @@
                 }
             }
         },
+        "lemma": "liczyć",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3"
+        ],
         "topics": [
             "math",
             "school"
         ],
-        "id": "pol-ver-015-liczyć"
-    },
-    {
-        "lemma": "dać",
-        "tags": [
-            "FREQ2"
-        ],
         "translations": {
             "ENG": [
-                "to give",
-                "to let",
-                "to allow",
-                "to permit"
+                "to count",
+                "to count on",
+                "to matter"
             ]
         },
+        "extra": {
+            "usage": [
+                "Zawsze możesz na mnie liczyć . ― You can always count on me."
+            ],
+            "otherShapes": {
+                "perfective": [
+                    "policzyć"
+                ]
+            },
+            "derivedTerms": [
+                "doliczać impf doliczyć pf",
+                "naliczać impf naliczyć pf",
+                "nadliczyć pf",
+                "obliczać impf obliczyć pf",
+                "odliczać impf odliczyć pf",
+                "podliczać impf podliczyć pf",
+                "policzać impf policzyć pf",
+                "przeliczać impf przeliczyć pf",
+                "rozliczać impf rozliczyć pf",
+                "wliczać impf wliczyć pf",
+                "wyliczać impf wyliczyć pf",
+                "zaliczać impf zaliczyć pf",
+                "zliczać impf zliczyć pf",
+                "( nouns ) bezlik liczba liczebnik licznik liczydło liczyrzepa lik",
+                "( adjectives ) liczbowy liczebny liczny"
+            ]
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "dawać"
-            ]
-        },
-        "derivedTerms": [
-            "dodawać impf dodać pf",
-            "nadawać impf nadać pf",
-            "naddawać impf naddać pf",
-            "oddawać impf oddać pf",
-            "poddawać impf poddać pf",
-            "podawać impf podać pf",
-            "przedawać impf przedać pf sprzedawać impf sprzedać pf",
-            "przydawać impf przydać pf",
-            "rozdawać impf rozdać pf",
-            "udawać impf udać pf",
-            "wdawać impf wdać pf",
-            "wydawać impf wydać pf",
-            "wzdawać impf wzdać pf",
-            "zadawać impf zadać pf",
-            "zdawać impf zdać pf",
-            "( nouns ) datek dawca dodatek podanie podatek podatnik rozdanie wydanie wydatek zadanie zadatek",
-            "( adjectives ) dodatni podatny przydatny wydatny zdatny życiodajny",
-            "( particle ) dajmy na to",
-            "( verbs ) darować darzyć wydarzyć zdarzyć",
-            "( nouns ) dar m ( “ gift ” ) danina f ( “ tribute ” ) wydarzenie n ( “ event ” ) zdarzenie n ( “ incident ” )",
-            "( adjective ) daremny darmowy",
-            "( adverb ) darmo",
-            "references ^ k. nitsch , editor (1956), “ dać, dajać ”, in słownik staropolski (in old polish), volume 2, warsaw polish academy of sciences , page 10",
-            "^ B. Sieradzka-Baziur , editor (2011–2015), “ 1. dać, dajać ”, in Słownik pojęciowy języka staropolskiego Conceptual Dictionary of Old Polish (in Polish), Kraków IJP PAN →ISBN"
-        ],
+        "id": "pol-ver-016-dać",
         "inflections": {
             "infinitive": "dać",
             "verbalNoun": "danie",
@@ -3551,16 +3596,14 @@
                 "present": false
             }
         },
+        "lemma": "dać",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ2"
+        ],
         "topics": [
             "request and permission",
             "social glue"
-        ],
-        "id": "pol-ver-016-dać"
-    },
-    {
-        "lemma": "dawać",
-        "tags": [
-            "FREQ2"
         ],
         "translations": {
             "ENG": [
@@ -3570,33 +3613,49 @@
                 "to permit"
             ]
         },
-        "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "dać"
+        "extra": {
+            "usage": [
+                "Dałeś dzieciom obiad? ― Did you give lunch to the children?",
+                "Daj mi posłuchać. ― Let me listen.",
+                "Jak było u niego? Dałaś mu? ― How was it at his place? Did you",
+                "put out ?"
+            ],
+            "otherShapes": {
+                "imperfective": [
+                    "dawać"
+                ]
+            },
+            "derivedTerms": [
+                "dodawać impf dodać pf",
+                "nadawać impf nadać pf",
+                "naddawać impf naddać pf",
+                "oddawać impf oddać pf",
+                "poddawać impf poddać pf",
+                "podawać impf podać pf",
+                "przedawać impf przedać pf sprzedawać impf sprzedać pf",
+                "przydawać impf przydać pf",
+                "rozdawać impf rozdać pf",
+                "udawać impf udać pf",
+                "wdawać impf wdać pf",
+                "wydawać impf wydać pf",
+                "wzdawać impf wzdać pf",
+                "zadawać impf zadać pf",
+                "zdawać impf zdać pf",
+                "( nouns ) datek dawca dodatek podanie podatek podatnik rozdanie wydanie wydatek zadanie zadatek",
+                "( adjectives ) dodatni podatny przydatny wydatny zdatny życiodajny",
+                "( particle ) dajmy na to",
+                "( verbs ) darować darzyć wydarzyć zdarzyć",
+                "( nouns ) dar m ( “ gift ” ) danina f ( “ tribute ” ) wydarzenie n ( “ event ” ) zdarzenie n ( “ incident ” )",
+                "( adjective ) daremny darmowy",
+                "( adverb ) darmo",
+                "references ^ k. nitsch , editor (1956), “ dać, dajać ”, in słownik staropolski (in old polish), volume 2, warsaw polish academy of sciences , page 10",
+                "^ B. Sieradzka-Baziur , editor (2011–2015), “ 1. dać, dajać ”, in Słownik pojęciowy języka staropolskiego Conceptual Dictionary of Old Polish (in Polish), Kraków IJP PAN →ISBN"
             ]
-        },
-        "derivedTerms": [
-            "dodawać impf dodać pf",
-            "nadawać impf nadać pf",
-            "naddawać impf naddać pf",
-            "oddawać impf oddać pf",
-            "poddawać impf poddać pf",
-            "podawać impf podać pf",
-            "przedawać impf przedać pf sprzedawać impf sprzedać pf",
-            "przydawać impf przydać pf",
-            "rozdawać impf rozdać pf",
-            "udawać impf udać pf",
-            "wdawać impf wdać pf",
-            "wydawać impf wydać pf",
-            "wzdawać impf wzdać pf",
-            "zadawać impf zadać pf",
-            "zdawać impf zdać pf",
-            "dawać dupy",
-            "( nouns ) dar podarek udar",
-            "( verbs ) darzyć darować"
-        ],
+        }
+    },
+    {
+        "aspect": "imperfective",
+        "id": "pol-ver-016-dawać",
         "inflections": {
             "infinitive": "dawać",
             "verbalNoun": "dawanie",
@@ -3685,45 +3744,60 @@
                 }
             }
         },
+        "lemma": "dawać",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ2"
+        ],
         "topics": [
             "request and permission",
             "social glue"
         ],
-        "id": "pol-ver-016-dawać"
-    },
-    {
-        "lemma": "wrócić",
-        "tags": [
-            "FREQ3",
-            "movement"
-        ],
         "translations": {
             "ENG": [
-                "to return[i]",
-                "to come back[i]"
+                "to give",
+                "to let",
+                "to allow",
+                "to permit"
             ]
         },
+        "extra": {
+            "usage": [
+                "Nie dawaj mu zapałek, bo zrobi sobie krzywdę. ― Don't give him matches, or he'll hurt himself.",
+                "Krowy dają mleko. ― Cows give milk.",
+                "Dlaczego nie dajesz mi pojeździć na swoim motorze? ― Why won't you let me ride your bike for a while?",
+                "Chodzi cały czas wkurwiony, bo żona już mu nie daje . ― He's angry all the time because his wife won't put out anymore."
+            ],
+            "otherShapes": {
+                "perfective": [
+                    "dać"
+                ]
+            },
+            "derivedTerms": [
+                "dodawać impf dodać pf",
+                "nadawać impf nadać pf",
+                "naddawać impf naddać pf",
+                "oddawać impf oddać pf",
+                "poddawać impf poddać pf",
+                "podawać impf podać pf",
+                "przedawać impf przedać pf sprzedawać impf sprzedać pf",
+                "przydawać impf przydać pf",
+                "rozdawać impf rozdać pf",
+                "udawać impf udać pf",
+                "wdawać impf wdać pf",
+                "wydawać impf wydać pf",
+                "wzdawać impf wzdać pf",
+                "zadawać impf zadać pf",
+                "zdawać impf zdać pf",
+                "dawać dupy",
+                "( nouns ) dar podarek udar",
+                "( verbs ) darzyć darować"
+            ]
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "wracać"
-            ]
-        },
-        "derivedTerms": [
-            "nawracać impf nawrócić pf",
-            "obracać impf obrócić pf",
-            "odwracać impf odwrócić pf",
-            "powracać impf powrócić pf",
-            "przewracać impf przewrócić pf",
-            "wywracać impf wywrócić pf",
-            "zawracać impf zawrócić pf",
-            "zwracać impf zwrócić pf",
-            "( nouns ) nawrót obrót odwrót powrót przewrotka przewrót wywrotka zwrot zwrotka zwrotnica zwrotnik",
-            "( adjectives ) nawrotny nawrotowy obrotny obrotowy odwrotny powrotny przewrotny wywrotowy zawrotny zwrotny",
-            "( verb ) wiercić (się)",
-            "( nouns ) warstwa wrota wrotycz wrzeciono wrzemię"
-        ],
+        "id": "pol-ver-017-wrócić",
         "inflections": {
             "infinitive": "wrócić",
             "verbalNoun": "wrócenie",
@@ -3812,17 +3886,15 @@
                 "present": false
             }
         },
-        "topics": [
-            "body",
-            "travel"
-        ],
-        "id": "pol-ver-017-wrócić"
-    },
-    {
-        "lemma": "wracać",
+        "lemma": "wrócić",
+        "secondaryAspects": [],
         "tags": [
             "FREQ3",
             "movement"
+        ],
+        "topics": [
+            "body",
+            "travel"
         ],
         "translations": {
             "ENG": [
@@ -3830,14 +3902,32 @@
                 "to come back[i]"
             ]
         },
-        "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "wrócić"
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "wracać"
+                ]
+            },
+            "derivedTerms": [
+                "nawracać impf nawrócić pf",
+                "obracać impf obrócić pf",
+                "odwracać impf odwrócić pf",
+                "powracać impf powrócić pf",
+                "przewracać impf przewrócić pf",
+                "wywracać impf wywrócić pf",
+                "zawracać impf zawrócić pf",
+                "zwracać impf zwrócić pf",
+                "( nouns ) nawrót obrót odwrót powrót przewrotka przewrót wywrotka zwrot zwrotka zwrotnica zwrotnik",
+                "( adjectives ) nawrotny nawrotowy obrotny obrotowy odwrotny powrotny przewrotny wywrotowy zawrotny zwrotny",
+                "( verb ) wiercić (się)",
+                "( nouns ) warstwa wrota wrotycz wrzeciono wrzemię"
             ]
-        },
+        }
+    },
+    {
+        "aspect": "imperfective",
         "derivedTerms": [],
+        "id": "pol-ver-017-wracać",
         "inflections": {
             "infinitive": "wracać",
             "verbalNoun": "wracanie",
@@ -3926,27 +4016,34 @@
                 }
             }
         },
+        "lemma": "wracać",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "travel"
         ],
-        "id": "pol-ver-017-wracać"
-    },
-    {
-        "lemma": "woleć",
-        "tags": [
-            "FREQ2",
-            "abstract"
-        ],
         "translations": {
             "ENG": [
-                "to prefer[i]"
+                "to return[i]",
+                "to come back[i]"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "wrócić"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {},
         "derivedTerms": [],
+        "id": "pol-ver-018-woleć",
         "inflections": {
             "infinitive": "woleć",
             "activeAdjectival": "wolący",
@@ -4034,35 +4131,38 @@
                 }
             }
         },
+        "lemma": "woleć",
+        "otherShapes": {},
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ2",
+            "abstract"
+        ],
         "topics": [
             "mental"
         ],
-        "id": "pol-ver-018-woleć"
-    },
-    {
-        "lemma": "dziać",
-        "tags": [
-            "FREQ4",
-            "abstract"
-        ],
         "translations": {
             "ENG": [
-                "to happen[r]"
+                "to prefer[i]"
             ]
         },
+        "extra": {
+            "usage": [
+                "Wolisz brunetki czy blondynki? ― Do you prefer brunettes or blondes?",
+                "Wolę jeździć na rowerze niż pływać. ― I prefer cycling to swimming.",
+                "Wolałbym umrzeć. ― I would prefer to die."
+            ]
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "stać się"
-            ]
-        },
         "derivedTerms": [
             "( verb ) nadziewać nadziać podziewać podziać przywdziewać przywdziać spodziewać",
             "( nouns ) dzianie dzianina dzieje nadzieja nadzienie",
             "( adjective ) dziejowy",
             "references ^ k. nitsch , editor (1957), “ dziać, dzieć, dziejać ”, in słownik staropolski (in old polish), volume 2, warsaw, kraków polish academy of sciences , page 252"
         ],
+        "id": "pol-ver-019-dziać",
         "inflections": {
             "infinitive": "dziać",
             "verbalNoun": "dzianie",
@@ -4151,59 +4251,29 @@
                 }
             }
         },
+        "lemma": "dziać",
+        "otherShapes": {
+            "perfective": [
+                "stać się"
+            ]
+        },
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ4",
+            "abstract"
+        ],
         "topics": [
             "planning"
         ],
-        "id": "pol-ver-019-dziać"
-    },
-    {
-        "lemma": "jeść",
-        "tags": [
-            "FREQ1",
-            "concrete",
-            "food",
-            "holdable"
-        ],
         "translations": {
             "ENG": [
-                "to eat",
-                "to eat[i]"
+                "to happen[r]"
             ]
-        },
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [
-            "determinate"
-        ],
-        "otherShapes": {
-            "perfective": [
-                "zjeść"
-            ],
-            "frequentative": [
-                "jadać"
-            ]
-        },
-        "derivedTerms": [
-            "dojadać impf dojeść pf",
-            "najadać impf najeść pf",
-            "objadać impf objeść pf",
-            "odjadać impf odjeść pf",
-            "pojadać impf pojeść pf",
-            "przejadać impf przejeść pf",
-            "podjadać impf podjeść pf",
-            "ujadać impf ujeść pf",
-            "wyjadać impf wyjeść pf",
-            "zjadać impf zjeść pf",
-            "zajadać impf zajeść pf",
-            "nadjadać impf nadjeść pf",
-            "( noun ) jadło",
-            "( adjective ) zjadliwy zajadły",
-            "( verb ) śniadać ( noun ) śniadanie",
-            "( noun ) obiad",
-            "synonyms ( to eat ) : ( colloquial ) pałaszować pożywiać się spożywać zakąszać ( of animals, vulgar when referring to humans ) żreć",
-            "Synonyms: see Thesaurus: jeść",
-            "references ^ s. urbańczyk , editor (1961), “ jeść ”, in słownik staropolski (in old polish), volume 3, wrocław, kraków, warsaw polish academy of sciences , page 191",
-            "^ B. Sieradzka-Baziur , editor (2011–2015), “ jeść ”, in Słownik pojęciowy języka staropolskiego Conceptual Dictionary of Old Polish (in Polish), Kraków IJP PAN →ISBN"
-        ],
+        "id": "pol-ver-020-jeść",
         "inflections": {
             "infinitive": "jeść",
             "verbalNoun": "jedzenie",
@@ -4292,6 +4362,16 @@
                 }
             }
         },
+        "lemma": "jeść",
+        "secondaryAspects": [
+            "determinate"
+        ],
+        "tags": [
+            "FREQ1",
+            "concrete",
+            "food",
+            "holdable"
+        ],
         "topics": [
             "body",
             "cooking",
@@ -4300,36 +4380,49 @@
             "medicine",
             "restaurant"
         ],
-        "id": "pol-ver-020-jeść"
-    },
-    {
-        "lemma": "zjeść",
-        "tags": [
-            "FREQ1",
-            "concrete",
-            "food",
-            "holdable"
-        ],
         "translations": {
             "ENG": [
                 "to eat",
                 "to eat[i]"
             ]
         },
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "jeść"
-            ],
-            "or": [
-                "zjadać"
-            ],
-            "frequentative": [
-                "jadać"
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "zjeść"
+                ],
+                "frequentative": [
+                    "jadać"
+                ]
+            },
+            "derivedTerms": [
+                "dojadać impf dojeść pf",
+                "najadać impf najeść pf",
+                "objadać impf objeść pf",
+                "odjadać impf odjeść pf",
+                "pojadać impf pojeść pf",
+                "przejadać impf przejeść pf",
+                "podjadać impf podjeść pf",
+                "ujadać impf ujeść pf",
+                "wyjadać impf wyjeść pf",
+                "zjadać impf zjeść pf",
+                "zajadać impf zajeść pf",
+                "nadjadać impf nadjeść pf",
+                "( noun ) jadło",
+                "( adjective ) zjadliwy zajadły",
+                "( verb ) śniadać ( noun ) śniadanie",
+                "( noun ) obiad",
+                "synonyms ( to eat ) : ( colloquial ) pałaszować pożywiać się spożywać zakąszać ( of animals, vulgar when referring to humans ) żreć",
+                "Synonyms: see Thesaurus: jeść",
+                "references ^ s. urbańczyk , editor (1961), “ jeść ”, in słownik staropolski (in old polish), volume 3, wrocław, kraków, warsaw polish academy of sciences , page 191",
+                "^ B. Sieradzka-Baziur , editor (2011–2015), “ jeść ”, in Słownik pojęciowy języka staropolskiego Conceptual Dictionary of Old Polish (in Polish), Kraków IJP PAN →ISBN"
             ]
-        },
+        }
+    },
+    {
+        "aspect": "perfective",
         "derivedTerms": [],
+        "id": "pol-ver-020-zjeść",
         "inflections": {
             "infinitive": "zjeść",
             "verbalNoun": "zjedzenie",
@@ -4418,6 +4511,14 @@
                 "present": false
             }
         },
+        "lemma": "zjeść",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ1",
+            "concrete",
+            "food",
+            "holdable"
+        ],
         "topics": [
             "body",
             "cooking",
@@ -4426,29 +4527,30 @@
             "medicine",
             "restaurant"
         ],
-        "id": "pol-ver-020-zjeść"
-    },
-    {
-        "lemma": "zjadać",
-        "tags": [
-            "FREQ1",
-            "concrete",
-            "food",
-            "holdable"
-        ],
         "translations": {
             "ENG": [
-                "to eat up"
+                "to eat",
+                "to eat[i]"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "jeść"
+                ],
+                "or": [
+                    "zjadać"
+                ],
+                "frequentative": [
+                    "jadać"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "zjeść"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-020-zjadać",
         "inflections": {
             "infinitive": "zjadać",
             "verbalNoun": "zjadanie",
@@ -4537,6 +4639,14 @@
                 }
             }
         },
+        "lemma": "zjadać",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ1",
+            "concrete",
+            "food",
+            "holdable"
+        ],
         "topics": [
             "body",
             "cooking",
@@ -4545,48 +4655,22 @@
             "medicine",
             "restaurant"
         ],
-        "id": "pol-ver-020-zjadać"
-    },
-    {
-        "lemma": "jadać",
-        "tags": [
-            "FREQ1",
-            "concrete",
-            "food",
-            "holdable"
-        ],
         "translations": {
             "ENG": [
-                "to eat habitually"
+                "to eat up"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "zjeść"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [
-            "indeterminate",
-            "frequentative"
-        ],
-        "otherShapes": {
-            "imperfective determinate": [
-                "jeść"
-            ],
-            "perfective": [
-                "zjeść"
-            ]
-        },
-        "derivedTerms": [
-            "dojadać impf dojeść pf",
-            "najadać impf najeść pf",
-            "objadać impf objeść pf",
-            "odjadać impf odjeść pf",
-            "pojadać impf pojeść pf",
-            "przejadać impf przejeść pf",
-            "podjadać impf podjeść pf",
-            "ujadać impf ujeść pf",
-            "wyjadać impf wyjeść pf",
-            "zjadać impf zjeść pf",
-            "zajadać impf zajeść pf",
-            "nadjadać impf nadjeść pf"
-        ],
+        "id": "pol-ver-020-jadać",
         "inflections": {
             "infinitive": "jadać",
             "verbalNoun": "jadanie",
@@ -4675,6 +4759,17 @@
                 }
             }
         },
+        "lemma": "jadać",
+        "secondaryAspects": [
+            "indeterminate",
+            "frequentative"
+        ],
+        "tags": [
+            "FREQ1",
+            "concrete",
+            "food",
+            "holdable"
+        ],
         "topics": [
             "body",
             "cooking",
@@ -4683,28 +4778,42 @@
             "medicine",
             "restaurant"
         ],
-        "id": "pol-ver-020-jadać"
-    },
-    {
-        "lemma": "umieć",
-        "tags": [
-            "FREQ2",
-            ""
-        ],
         "translations": {
             "ENG": [
-                "can",
-                "to know",
-                "to be able to[i]"
+                "to eat habitually"
             ]
         },
+        "extra": {
+            "usage": [
+                "Jadałem tam, kiedy byłem studentem. ― I used to eat there when I was a student."
+            ],
+            "otherShapes": {
+                "imperfective determinate": [
+                    "jeść"
+                ],
+                "perfective": [
+                    "zjeść"
+                ]
+            },
+            "derivedTerms": [
+                "dojadać impf dojeść pf",
+                "najadać impf najeść pf",
+                "objadać impf objeść pf",
+                "odjadać impf odjeść pf",
+                "pojadać impf pojeść pf",
+                "przejadać impf przejeść pf",
+                "podjadać impf podjeść pf",
+                "ujadać impf ujeść pf",
+                "wyjadać impf wyjeść pf",
+                "zjadać impf zjeść pf",
+                "zajadać impf zajeść pf",
+                "nadjadać impf nadjeść pf"
+            ]
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {},
-        "derivedTerms": [
-            "( verbs ) naumieć rozumieć zrozumieć zdumiewać zdumieć",
-            "( nouns ) um rozum [Term?]"
-        ],
+        "id": "pol-ver-021-umieć",
         "inflections": {
             "infinitive": "umieć",
             "verbalNoun": "umienie",
@@ -4793,27 +4902,30 @@
                 }
             }
         },
-        "topics": [],
-        "id": "pol-ver-021-umieć"
-    },
-    {
-        "lemma": "być",
+        "lemma": "umieć",
+        "otherShapes": {},
+        "secondaryAspects": [],
         "tags": [
-            "FREQ1",
+            "FREQ2",
             ""
         ],
+        "topics": [],
         "translations": {
             "ENG": [
-                "to be[i]"
+                "can",
+                "to know",
+                "to be able to[i]"
             ]
         },
+        "extra": {
+            "derivedTerms": [
+                "( verbs ) naumieć rozumieć zrozumieć zdumiewać zdumieć",
+                "( nouns ) um rozum [Term?]"
+            ]
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "indeterminate": [
-                "bywać"
-            ]
-        },
         "derivedTerms": [
             "dobywać impf dobyć pf wydobywać impf wydobyć pf",
             "zdobywać impf zdobyć pf",
@@ -4833,6 +4945,7 @@
             "references ^ k. nitsch , editor (1954), “ 1. być ”, in słownik staropolski (in old polish), volume 1, warsaw polish academy of sciences , page 182",
             "^ B. Sieradzka-Baziur , editor (2011–2015), “ być ”, in Słownik pojęciowy języka staropolskiego Conceptual Dictionary of Old Polish (in Polish), Kraków IJP PAN →ISBN"
         ],
+        "id": "pol-ver-022-być",
         "inflections": {
             "infinitive": "być",
             "verbalNoun": "bycie",
@@ -4974,30 +5087,26 @@
                 }
             }
         },
-        "topics": [],
-        "id": "pol-ver-022-być"
-    },
-    {
-        "lemma": "bywać",
+        "lemma": "być",
+        "otherShapes": {
+            "indeterminate": [
+                "bywać"
+            ]
+        },
+        "secondaryAspects": [],
         "tags": [
             "FREQ1",
             ""
         ],
+        "topics": [],
         "translations": {
             "ENG": [
-                "to be habitually[i]"
+                "to be[i]"
             ]
-        },
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [
-            "indeterminate",
-            "frequentative"
-        ],
-        "otherShapes": {
-            "imperfective": [
-                "być"
-            ]
-        },
         "derivedTerms": [
             "dobywać impf dobyć pf wydobywać impf wydobyć pf",
             "zdobywać impf zdobyć pf",
@@ -5012,6 +5121,7 @@
             "wyzbywać impf wyzbyć pf",
             "( noun ) bywalec"
         ],
+        "id": "pol-ver-022-bywać",
         "inflections": {
             "infinitive": "bywać",
             "verbalNoun": "bywanie",
@@ -5100,42 +5210,30 @@
                 }
             }
         },
-        "topics": [],
-        "id": "pol-ver-022-bywać"
-    },
-    {
-        "lemma": "móc",
+        "lemma": "bywać",
+        "otherShapes": {
+            "imperfective": [
+                "być"
+            ]
+        },
+        "secondaryAspects": [
+            "indeterminate",
+            "frequentative"
+        ],
         "tags": [
             "FREQ1",
             ""
         ],
+        "topics": [],
         "translations": {
             "ENG": [
-                "to be able to[i]",
-                "can",
-                "may",
-                "might",
-                "to be allowed[i]"
+                "to be habitually[i]"
             ]
-        },
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {},
-        "derivedTerms": [
-            "domagać impf niedomagać impf",
-            "mocować impf",
-            "pomagać impf pomóc pf dopomagać impf dopomóc pf",
-            "wspomagać impf wspomóc pf",
-            "przemagać impf przemóc pf",
-            "wymagać impf wymóc pf",
-            "wzmagać impf wzmóc pf",
-            "zmagać impf zmóc pf",
-            "zaniemagać impf zaniemóc pf",
-            "( defective verb ) można",
-            "( nouns ) możność możny",
-            "( adjectives ) możliwy możny",
-            "( noun ) moc"
-        ],
+        "id": "pol-ver-023-móc",
         "inflections": {
             "infinitive": "móc",
             "activeAdjectival": "mogący",
@@ -5215,32 +5313,44 @@
                 }
             }
         },
-        "topics": [],
-        "id": "pol-ver-023-móc"
-    },
-    {
-        "lemma": "chcieć",
+        "lemma": "móc",
+        "otherShapes": {},
+        "secondaryAspects": [],
         "tags": [
             "FREQ1",
-            "abstract"
+            ""
         ],
+        "topics": [],
         "translations": {
             "ENG": [
-                "to want"
+                "to be able to[i]",
+                "can",
+                "may",
+                "might",
+                "to be allowed[i]"
             ]
         },
+        "extra": {
+            "derivedTerms": [
+                "domagać impf niedomagać impf",
+                "mocować impf",
+                "pomagać impf pomóc pf dopomagać impf dopomóc pf",
+                "wspomagać impf wspomóc pf",
+                "przemagać impf przemóc pf",
+                "wymagać impf wymóc pf",
+                "wzmagać impf wzmóc pf",
+                "zmagać impf zmóc pf",
+                "zaniemagać impf zaniemóc pf",
+                "( defective verb ) można",
+                "( nouns ) możność możny",
+                "( adjectives ) możliwy możny",
+                "( noun ) moc"
+            ]
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "zechcieć"
-            ]
-        },
-        "derivedTerms": [
-            "chęć",
-            "references ^ k. nitsch , editor (1954), “ chcieć, chocieć, kcieć, ścieć ”, in słownik staropolski (in old polish), volume 1, warsaw polish academy of sciences , page 224",
-            "^ B. Sieradzka-Baziur , editor (2011–2015), “ chcieć, chocieć, kcieć, ścieć ”, in Słownik pojęciowy języka staropolskiego Conceptual Dictionary of Old Polish (in Polish), Kraków IJP PAN →ISBN"
-        ],
+        "id": "pol-ver-024-chcieć",
         "inflections": {
             "infinitive": "chcieć",
             "verbalNoun": "chcenie",
@@ -5329,29 +5439,37 @@
                 }
             }
         },
+        "lemma": "chcieć",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ1",
+            "abstract"
+        ],
         "topics": [
             "mental"
         ],
-        "id": "pol-ver-024-chcieć"
-    },
-    {
-        "lemma": "wypijać",
-        "tags": [
-            "FREQ1"
-        ],
         "translations": {
             "ENG": [
-                "to drink up"
+                "to want"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "zechcieć"
+                ]
+            },
+            "derivedTerms": [
+                "chęć",
+                "references ^ k. nitsch , editor (1954), “ chcieć, chocieć, kcieć, ścieć ”, in słownik staropolski (in old polish), volume 1, warsaw polish academy of sciences , page 224",
+                "^ B. Sieradzka-Baziur , editor (2011–2015), “ chcieć, chocieć, kcieć, ścieć ”, in Słownik pojęciowy języka staropolskiego Conceptual Dictionary of Old Polish (in Polish), Kraków IJP PAN →ISBN"
+            ]
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "wypić"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-025-wypijać",
         "inflections": {
             "infinitive": "wypijać",
             "verbalNoun": "wypijanie",
@@ -5440,34 +5558,33 @@
                 }
             }
         },
+        "lemma": "wypijać",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ1"
+        ],
         "topics": [
             "inside",
             "kitchen",
             "restaurant"
         ],
-        "id": "pol-ver-025-wypijać"
-    },
-    {
-        "lemma": "wypić",
-        "tags": [
-            "FREQ1"
-        ],
         "translations": {
             "ENG": [
-                "to drink"
+                "to drink up"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "wypić"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "pić"
-            ],
-            "or": [
-                "wypijać"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-025-wypić",
         "inflections": {
             "infinitive": "wypić",
             "verbalNoun": "wypicie",
@@ -5556,6 +5673,11 @@
                 "present": false
             }
         },
+        "lemma": "wypić",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ1"
+        ],
         "topics": [
             "body",
             "inside",
@@ -5563,44 +5685,25 @@
             "medicine",
             "restaurant"
         ],
-        "id": "pol-ver-025-wypić"
-    },
-    {
-        "lemma": "pić",
-        "tags": [
-            "FREQ1"
-        ],
         "translations": {
             "ENG": [
                 "to drink"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "pić"
+                ],
+                "or": [
+                    "wypijać"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {},
-        "derivedTerms": [
-            "dopijać impf dopić pf",
-            "napić pf",
-            "odpijać impf odpić pf",
-            "opijać impf opić pf",
-            "podpijać impf podpić pf",
-            "popijać impf popić pf",
-            "przepijać impf przepić pf",
-            "rozpijać impf rozpić pf",
-            "spijać impf spić pf",
-            "wpijać impf wpić pf",
-            "wypijać impf wypić pf",
-            "upijać impf upić pf",
-            "zapijać impf zapić pf",
-            "( nouns ) pijus pijawa pijaczka pijalnia pijanica pijaństwo pijak",
-            "( adjectives ) pijany pitny pijacki",
-            "( phrases ) pić do poduszki",
-            "( verbs ) poić",
-            "( nouns ) piwo napój",
-            "descendants → german: pitschen .mw-parser-output .desc-arr[title]{cursor:help}.mw-parser-output .desc-arr[title=\"uncertain\"]{font-size:.7em;vertical-align:super}",
-            "see also synonyms: see thesaurus: pić",
-            "noun pić genitive plural of picie"
-        ],
+        "id": "pol-ver-025-pić",
         "inflections": {
             "infinitive": "pić",
             "verbalNoun": "picie",
@@ -5689,6 +5792,12 @@
                 }
             }
         },
+        "lemma": "pić",
+        "otherShapes": {},
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ1"
+        ],
         "topics": [
             "body",
             "inside",
@@ -5696,27 +5805,44 @@
             "medicine",
             "restaurant"
         ],
-        "id": "pol-ver-025-pić"
-    },
-    {
-        "lemma": "ugotować",
-        "tags": [
-            "FREQ2"
-        ],
         "translations": {
             "ENG": [
-                "to cook",
-                "to boil"
+                "to drink"
             ]
         },
+        "extra": {
+            "usage": [
+                "Dlaczego pijesz do mnie ? ― Why are you alluding to me?"
+            ],
+            "derivedTerms": [
+                "dopijać impf dopić pf",
+                "napić pf",
+                "odpijać impf odpić pf",
+                "opijać impf opić pf",
+                "podpijać impf podpić pf",
+                "popijać impf popić pf",
+                "przepijać impf przepić pf",
+                "rozpijać impf rozpić pf",
+                "spijać impf spić pf",
+                "wpijać impf wpić pf",
+                "wypijać impf wypić pf",
+                "upijać impf upić pf",
+                "zapijać impf zapić pf",
+                "( nouns ) pijus pijawa pijaczka pijalnia pijanica pijaństwo pijak",
+                "( adjectives ) pijany pitny pijacki",
+                "( phrases ) pić do poduszki",
+                "( verbs ) poić",
+                "( nouns ) piwo napój",
+                "descendants → german: pitschen .mw-parser-output .desc-arr[title]{cursor:help}.mw-parser-output .desc-arr[title=\"uncertain\"]{font-size:.7em;vertical-align:super}",
+                "see also synonyms: see thesaurus: pić",
+                "noun pić genitive plural of picie"
+            ]
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "gotować"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-026-ugotować",
         "inflections": {
             "infinitive": "ugotować",
             "verbalNoun": "ugotowanie",
@@ -5805,17 +5931,15 @@
                 "present": false
             }
         },
+        "lemma": "ugotować",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ2"
+        ],
         "topics": [
             "body",
             "cooking",
             "medicine"
-        ],
-        "id": "pol-ver-026-ugotować"
-    },
-    {
-        "lemma": "gotować",
-        "tags": [
-            "FREQ2"
         ],
         "translations": {
             "ENG": [
@@ -5823,26 +5947,17 @@
                 "to boil"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "gotować"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "ugotować"
-            ]
-        },
-        "derivedTerms": [
-            "dogotować pf dogotowywać impf",
-            "nagotować pf nagotowywać impf",
-            "obgotować pf obgotowywać impf",
-            "podgotować pf podgotowywać impf",
-            "przegotować pf przegotowywać impf",
-            "przygotować pf przygotowywać impf",
-            "rozgotować pf rozgotowywać impf",
-            "ugotować pf",
-            "wygotować pf wygotowywać impf",
-            "zagotować pf zagotowywać impf",
-            "zgotować pf zgotowywać impf"
-        ],
+        "id": "pol-ver-026-gotować",
         "inflections": {
             "infinitive": "gotować",
             "verbalNoun": "gotowanie",
@@ -5931,34 +6046,52 @@
                 }
             }
         },
+        "lemma": "gotować",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ2"
+        ],
         "topics": [
             "body",
             "cooking",
             "medicine"
         ],
-        "id": "pol-ver-026-gotować"
-    },
-    {
-        "lemma": "potrzebować",
-        "tags": [
-            "FREQ1"
-        ],
         "translations": {
             "ENG": [
-                "to need"
+                "to cook",
+                "to boil"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "ugotować"
+                ]
+            },
+            "derivedTerms": [
+                "dogotować pf dogotowywać impf",
+                "nagotować pf nagotowywać impf",
+                "obgotować pf obgotowywać impf",
+                "podgotować pf podgotowywać impf",
+                "przegotować pf przegotowywać impf",
+                "przygotować pf przygotowywać impf",
+                "rozgotować pf rozgotowywać impf",
+                "ugotować pf",
+                "wygotować pf wygotowywać impf",
+                "zagotować pf zagotowywać impf",
+                "zgotować pf zgotowywać impf"
+            ]
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [
-            "genitive"
-        ],
-        "otherShapes": {},
         "derivedTerms": [
             "( nouns ) potrzeba potrzebujący",
             "( adjective ) potrzebny",
             "( adverb ) potrzebnie",
             "( verbs ) trzeba trza"
         ],
+        "id": "pol-ver-027-potrzebować",
         "inflections": {
             "infinitive": "potrzebować",
             "verbalNoun": "potrzebowanie",
@@ -6047,29 +6180,26 @@
                 }
             }
         },
-        "topics": [
-            "request and permission"
+        "lemma": "potrzebować",
+        "otherShapes": {},
+        "secondaryAspects": [
+            "genitive"
         ],
-        "id": "pol-ver-027-potrzebować"
-    },
-    {
-        "lemma": "musieć",
         "tags": [
             "FREQ1"
         ],
+        "topics": [
+            "request and permission"
+        ],
         "translations": {
             "ENG": [
-                "must[i]",
-                "to have to[i]",
-                "to need to[i]"
+                "to need"
             ]
-        },
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {},
-        "derivedTerms": [
-            "( verbs ) przymuszać przymusić zmuszać zmusić"
-        ],
+        "id": "pol-ver-028-musieć",
         "inflections": {
             "infinitive": "musieć",
             "activeAdjectival": "muszący",
@@ -6149,30 +6279,37 @@
                 }
             }
         },
+        "lemma": "musieć",
+        "otherShapes": {},
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ1"
+        ],
         "topics": [
             "request and permission"
         ],
-        "id": "pol-ver-028-musieć"
-    },
-    {
-        "lemma": "mieć",
-        "tags": [
-            "FREQ1",
-            ""
-        ],
         "translations": {
             "ENG": [
-                "to have"
+                "must[i]",
+                "to have to[i]",
+                "to need to[i]"
             ]
         },
+        "extra": {
+            "usage": [
+                "Musimy porozmawiać. ― We need to talk.",
+                "Musiałem coś zjeść. ― I had to eat something.",
+                "Muszę iść. ― I must go."
+            ],
+            "derivedTerms": [
+                "( verbs ) przymuszać przymusić zmuszać zmusić"
+            ]
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "frequentative": [
-                "miewać"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-029-mieć",
         "inflections": {
             "infinitive": "mieć",
             "activeAdjectival": "mający",
@@ -6260,31 +6397,37 @@
                 }
             }
         },
-        "topics": [],
-        "id": "pol-ver-029-mieć"
-    },
-    {
-        "lemma": "miewać",
+        "lemma": "mieć",
+        "secondaryAspects": [],
         "tags": [
             "FREQ1",
             ""
         ],
+        "topics": [],
         "translations": {
             "ENG": [
-                "to have habitually"
+                "to have"
             ]
         },
+        "extra": {
+            "usage": [
+                "Mam kota. ― I have a cat.",
+                "Mam 22 lata. ― I am 22 [years old]. (literally",
+                "I have 22 years. )",
+                "Mamy iść na zakupy. ― We have to go shopping.",
+                "Masz się za lepszego? ― You think you're better than me?"
+            ],
+            "otherShapes": {
+                "frequentative": [
+                    "miewać"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [
-            "indeterminate",
-            "frequentative"
-        ],
-        "otherShapes": {
-            "imperfective": [
-                "mieć"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-029-miewać",
         "inflections": {
             "infinitive": "miewać",
             "verbalNoun": "miewanie",
@@ -6373,29 +6516,36 @@
                 }
             }
         },
-        "topics": [],
-        "id": "pol-ver-029-miewać"
-    },
-    {
-        "lemma": "przynieść",
-        "tags": [
-            "FREQ3",
-            "movement"
+        "lemma": "miewać",
+        "secondaryAspects": [
+            "indeterminate",
+            "frequentative"
         ],
+        "tags": [
+            "FREQ1",
+            ""
+        ],
+        "topics": [],
         "translations": {
             "ENG": [
-                "to bring",
-                "to fetch"
+                "to have habitually"
             ]
         },
+        "extra": {
+            "usage": [
+                "W dzieciństwie miewałem częste bóle głowy. ― As a child, I used to have frequent headaches."
+            ],
+            "otherShapes": {
+                "imperfective": [
+                    "mieć"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "przynosić"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-030-przynieść",
         "inflections": {
             "infinitive": "przynieść",
             "verbalNoun": "przyniesienie",
@@ -6484,32 +6634,35 @@
                 "present": false
             }
         },
+        "lemma": "przynieść",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "social glue"
         ],
-        "id": "pol-ver-030-przynieść"
-    },
-    {
-        "lemma": "zanosić",
-        "tags": [
-            "FREQ3",
-            "movement"
-        ],
         "translations": {
             "ENG": [
-                "to carry"
+                "to bring",
+                "to fetch"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "przynosić"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "zanieść"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-031-zanosić",
         "inflections": {
             "infinitive": "zanosić",
             "verbalNoun": "zanoszenie",
@@ -6598,33 +6751,34 @@
                 }
             }
         },
+        "lemma": "zanosić",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "travel"
         ],
-        "id": "pol-ver-031-zanosić"
-    },
-    {
-        "lemma": "przynosić",
-        "tags": [
-            "FREQ3",
-            "movement"
-        ],
         "translations": {
             "ENG": [
-                "to bring",
-                "to fetch"
+                "to carry"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "zanieść"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "przynieść"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-030-przynosić",
         "inflections": {
             "infinitive": "przynosić",
             "verbalNoun": "przynoszenie",
@@ -6713,32 +6867,38 @@
                 }
             }
         },
+        "lemma": "przynosić",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "social glue"
         ],
-        "id": "pol-ver-030-przynosić"
-    },
-    {
-        "lemma": "zanieść",
-        "tags": [
-            "FREQ3",
-            "movement"
-        ],
         "translations": {
             "ENG": [
-                "to carry"
+                "to bring",
+                "to fetch"
             ]
         },
+        "extra": {
+            "usage": [
+                "Przynoszę ci pozdrowienia/wiadomość. ― I bring you greetings/news."
+            ],
+            "otherShapes": {
+                "perfective": [
+                    "przynieść"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "zanosić"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-031-zanieść",
         "inflections": {
             "infinitive": "zanieść",
             "verbalNoun": "zaniesienie",
@@ -6827,35 +6987,36 @@
                 "present": false
             }
         },
+        "lemma": "zanieść",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "travel"
         ],
-        "id": "pol-ver-031-zanieść"
-    },
-    {
-        "lemma": "schodzić",
-        "tags": [
-            "FREQ3",
-            "movement"
-        ],
         "translations": {
             "ENG": [
-                "to descend[i]",
-                "to go down[i]"
+                "to carry"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "zanosić"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "zejść"
-            ]
-        },
         "derivedTerms": [
             "schodzić na psy zejść na psy schodzić z obłoków zejść z obłoków"
         ],
+        "id": "pol-ver-032-schodzić",
         "inflections": {
             "infinitive": "schodzić",
             "verbalNoun": "schodzenie",
@@ -6944,35 +7105,32 @@
                 }
             }
         },
+        "lemma": "schodzić",
+        "otherShapes": {
+            "perfective": [
+                "zejść"
+            ]
+        },
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "travel"
-        ],
-        "id": "pol-ver-032-schodzić"
-    },
-    {
-        "lemma": "zejść",
-        "tags": [
-            "FREQ3",
-            "movement"
         ],
         "translations": {
             "ENG": [
                 "to descend[i]",
                 "to go down[i]"
             ]
-        },
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "schodzić"
-            ]
-        },
-        "derivedTerms": [
-            "schodzić na psy zejść na psy schodzić z obłoków zejść z obłoków"
-        ],
+        "id": "pol-ver-032-zejść",
         "inflections": {
             "infinitive": "zejść",
             "verbalNoun": "zejście",
@@ -7053,33 +7211,38 @@
                 "present": false
             }
         },
+        "lemma": "zejść",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "travel"
         ],
-        "id": "pol-ver-032-zejść"
-    },
-    {
-        "lemma": "przychodzić",
-        "tags": [
-            "FREQ3",
-            "movement"
-        ],
         "translations": {
             "ENG": [
-                "to arrive[i]",
-                "to come[i]"
+                "to descend[i]",
+                "to go down[i]"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "schodzić"
+                ]
+            },
+            "derivedTerms": [
+                "schodzić na psy zejść na psy schodzić z obłoków zejść z obłoków"
+            ]
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "przyjść"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-033-przychodzić",
         "inflections": {
             "infinitive": "przychodzić",
             "verbalNoun": "przychodzenie",
@@ -7168,18 +7331,16 @@
                 }
             }
         },
+        "lemma": "przychodzić",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "travel"
-        ],
-        "id": "pol-ver-033-przychodzić"
-    },
-    {
-        "lemma": "przyjechać",
-        "tags": [
-            "FREQ3",
-            "movement"
         ],
         "translations": {
             "ENG": [
@@ -7187,14 +7348,18 @@
                 "to come[i]"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "przyjść"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "przyjeżdżać"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-034-przyjechać",
         "inflections": {
             "infinitive": "przyjechać",
             "verbalNoun": "przyjechanie",
@@ -7283,17 +7448,15 @@
                 "present": false
             }
         },
-        "topics": [
-            "body",
-            "travel"
-        ],
-        "id": "pol-ver-034-przyjechać"
-    },
-    {
-        "lemma": "przyjść",
+        "lemma": "przyjechać",
+        "secondaryAspects": [],
         "tags": [
             "FREQ3",
             "movement"
+        ],
+        "topics": [
+            "body",
+            "travel"
         ],
         "translations": {
             "ENG": [
@@ -7301,14 +7464,18 @@
                 "to come[i]"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "przyjeżdżać"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "przychodzić"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-033-przyjść",
         "inflections": {
             "infinitive": "przyjść",
             "verbalNoun": "przyjście",
@@ -7397,18 +7564,16 @@
                 "present": false
             }
         },
+        "lemma": "przyjść",
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "travel"
-        ],
-        "id": "pol-ver-033-przyjść"
-    },
-    {
-        "lemma": "przyjeżdżać",
-        "tags": [
-            "FREQ3",
-            "movement"
         ],
         "translations": {
             "ENG": [
@@ -7416,16 +7581,17 @@
                 "to come[i]"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "przychodzić"
+                ]
+            }
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "przyjechać"
-            ]
-        },
-        "derivedTerms": [
-            "przyjazd ( “ arrival ” )"
-        ],
+        "id": "pol-ver-034-przyjeżdżać",
         "inflections": {
             "infinitive": "przyjeżdżać",
             "verbalNoun": "przyjeżdżanie",
@@ -7514,34 +7680,35 @@
                 }
             }
         },
-        "topics": [
-            "body",
-            "travel"
-        ],
-        "id": "pol-ver-034-przyjeżdżać"
-    },
-    {
-        "lemma": "iść",
+        "lemma": "przyjeżdżać",
+        "secondaryAspects": [],
         "tags": [
             "FREQ3",
             "movement"
         ],
+        "topics": [
+            "body",
+            "travel"
+        ],
         "translations": {
             "ENG": [
-                "to go[i]",
-                "to walk[i]"
+                "to arrive[i]",
+                "to come[i]"
             ]
         },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "przyjechać"
+                ]
+            },
+            "derivedTerms": [
+                "przyjazd ( “ arrival ” )"
+            ]
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "pójść"
-            ],
-            "indeterminate": [
-                "chodzić"
-            ]
-        },
         "derivedTerms": [
             "dochodzić impf dojść pf",
             "nachodzić impf najść pf",
@@ -7559,6 +7726,7 @@
             "zachodzić impf zajść pf",
             "schodzić impf zejść pf"
         ],
+        "id": "pol-ver-035-iść",
         "inflections": {
             "infinitive": "iść",
             "activeAdjectival": "idący",
@@ -7638,36 +7806,36 @@
                 }
             }
         },
+        "lemma": "iść",
+        "otherShapes": {
+            "perfective": [
+                "pójść"
+            ],
+            "indeterminate": [
+                "chodzić"
+            ]
+        },
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "travel"
-        ],
-        "id": "pol-ver-035-iść"
-    },
-    {
-        "lemma": "pójść",
-        "tags": [
-            "FREQ3",
-            "movement"
         ],
         "translations": {
             "ENG": [
                 "to go[i]",
                 "to walk[i]"
             ]
-        },
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "iść"
-            ],
-            "indeterminate": [
-                "chodzić"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-035-pójść",
         "inflections": {
             "infinitive": "pójść",
             "verbalNoun": "pójście",
@@ -7748,28 +7916,34 @@
                 "present": false
             }
         },
+        "lemma": "pójść",
+        "otherShapes": {
+            "imperfective": [
+                "iść"
+            ],
+            "indeterminate": [
+                "chodzić"
+            ]
+        },
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "travel"
-        ],
-        "id": "pol-ver-035-pójść"
-    },
-    {
-        "lemma": "chodzić",
-        "tags": [
-            "FREQ3",
-            "movement"
         ],
         "translations": {
             "ENG": [
                 "to go[i]",
                 "to walk[i]"
             ]
-        },
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {},
         "derivedTerms": [
             "dochodzić impf dojść pf",
             "nachodzić impf najść pf",
@@ -7789,6 +7963,7 @@
             "see also chadzać",
             "iść"
         ],
+        "id": "pol-ver-035-chodzić",
         "inflections": {
             "infinitive": "chodzić",
             "verbalNoun": "chodzenie",
@@ -7877,36 +8052,27 @@
                 }
             }
         },
+        "lemma": "chodzić",
+        "otherShapes": {},
+        "secondaryAspects": [],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "medicine",
             "travel"
         ],
-        "id": "pol-ver-035-chodzić"
-    },
-    {
-        "lemma": "jechać",
-        "tags": [
-            "FREQ3",
-            "movement"
-        ],
         "translations": {
             "ENG": [
                 "to go[i]",
-                "to ride[i]",
-                "to drive[i]"
+                "to walk[i]"
             ]
-        },
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "perfective": [
-                "pojechać"
-            ],
-            "indeterminate": [
-                "jeździć"
-            ]
-        },
         "derivedTerms": [
             "dojeżdżać impf dojechać pf nadojeżdżać pf",
             "podojeżdżać impf",
@@ -7929,6 +8095,7 @@
             "nazjeżdżać pf",
             "pozjeżdżać impf"
         ],
+        "id": "pol-ver-036-jechać",
         "inflections": {
             "infinitive": "jechać",
             "verbalNoun": "jechanie",
@@ -8017,17 +8184,23 @@
                 }
             }
         },
-        "topics": [
-            "body",
-            "travel"
-        ],
-        "id": "pol-ver-036-jechać"
-    },
-    {
-        "lemma": "pojechać",
+        "lemma": "jechać",
+        "otherShapes": {
+            "perfective": [
+                "pojechać"
+            ],
+            "indeterminate": [
+                "jeździć"
+            ]
+        },
+        "secondaryAspects": [],
         "tags": [
             "FREQ3",
             "movement"
+        ],
+        "topics": [
+            "body",
+            "travel"
         ],
         "translations": {
             "ENG": [
@@ -8035,18 +8208,12 @@
                 "to ride[i]",
                 "to drive[i]"
             ]
-        },
+        }
+    },
+    {
         "aspect": "perfective",
-        "secondaryAspects": [],
-        "otherShapes": {
-            "imperfective": [
-                "jechać"
-            ],
-            "indeterminate": [
-                "jeździć"
-            ]
-        },
         "derivedTerms": [],
+        "id": "pol-ver-036-pojechać",
         "inflections": {
             "infinitive": "pojechać",
             "verbalNoun": "pojechanie",
@@ -8135,17 +8302,23 @@
                 "present": false
             }
         },
-        "topics": [
-            "body",
-            "travel"
-        ],
-        "id": "pol-ver-036-pojechać"
-    },
-    {
-        "lemma": "jeździć",
+        "lemma": "pojechać",
+        "otherShapes": {
+            "imperfective": [
+                "jechać"
+            ],
+            "indeterminate": [
+                "jeździć"
+            ]
+        },
+        "secondaryAspects": [],
         "tags": [
             "FREQ3",
             "movement"
+        ],
+        "topics": [
+            "body",
+            "travel"
         ],
         "translations": {
             "ENG": [
@@ -8153,24 +8326,16 @@
                 "to ride[i]",
                 "to drive[i]"
             ]
-        },
+        }
+    },
+    {
         "aspect": "imperfective",
-        "secondaryAspects": [
-            "indeterminate"
-        ],
-        "otherShapes": {
-            "imperfective determinate": [
-                "jechać"
-            ],
-            "perfective": [
-                "pojechać"
-            ]
-        },
         "derivedTerms": [
             "( verb ) ujeżdżać",
             "( nouns ) jazda jezdnia jeździec objazd wyjazd",
             "( adjective ) jezdny jeździecki"
         ],
+        "id": "pol-ver-036-jeździć",
         "inflections": {
             "infinitive": "jeździć",
             "verbalNoun": "jeżdżenie",
@@ -8259,10 +8424,32 @@
                 }
             }
         },
+        "lemma": "jeździć",
+        "otherShapes": {
+            "imperfective determinate": [
+                "jechać"
+            ],
+            "perfective": [
+                "pojechać"
+            ]
+        },
+        "secondaryAspects": [
+            "indeterminate"
+        ],
+        "tags": [
+            "FREQ3",
+            "movement"
+        ],
         "topics": [
             "body",
             "travel"
         ],
-        "id": "pol-ver-036-jeździć"
+        "translations": {
+            "ENG": [
+                "to go[i]",
+                "to ride[i]",
+                "to drive[i]"
+            ]
+        }
     }
 ]
