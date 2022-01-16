@@ -3,18 +3,18 @@ from input.Polish.adjectives.head_words import input as adjectives
 from input.Polish.verbs.head_words import input as verbs
 from parsers.common import scrape_word_data
 from utils.postprocessing.common import finalise_lemma_objects
-from utils.scraping.common import re_scrape_and_check_against_existing
+from utils.scraping.common import check_rescraped_against_existing
 
 if __name__ == '__main__':
 
-    # re_scrape_and_check_against_existing("nouns", "new_nouns")
+    # check_rescraped_against_existing("verbs_old", "verbs_new")
 
-    step = 1
-    group_number = 2
+    step = 2
+    group_number = 1
     input_indexes = [0, 50]
     wordtype = "v"
     these_headwords_only = []
-    # these_headwords_only = ['ciemny']
+    # these_headwords_only = ['woleć']
     skip_make_ids = False  # only set True when manually testing.
     skip_scraping = False  # only set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
     langcode = "pol"

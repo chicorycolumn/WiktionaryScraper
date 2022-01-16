@@ -61,6 +61,8 @@ def trigger_parser(head_words_raw, parser, use_sample, language, wordtype, resul
                 add_output_arr_to_result(output_arr, head_word, result, rejected)
                 f.close()
         else:
+            started_at = datetime.now()
+
             try:
                 html_string = html_from_head_word(head_word, head_word_index, len(head_words))
 
