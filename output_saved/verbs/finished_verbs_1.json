@@ -2517,25 +2517,6 @@
     },
     {
         "aspect": "perfective",
-        "derivedTerms": [
-            "verbs related to położyć dokładać impf dołożyć pf",
-            "nadkładać impf nadłożyć pf",
-            "nakładać impf nałożyć pf",
-            "okładać impf ołożyć pf",
-            "obkładać impf obłożyć pf",
-            "odkładać impf odłożyć pf",
-            "składać impf złożyć pf",
-            "pokładać impf",
-            "podkładać impf podłożyć pf",
-            "przekładać impf przełożyć pf",
-            "przykładać impf przyłożyć pf",
-            "rozkładać impf rozłożyć pf",
-            "układać impf ułożyć pf",
-            "wkładać impf włożyć pf",
-            "wykładać impf wyłożyć pf",
-            "zakładać impf założyć pf",
-            "( phrases ) kłaść akcent położyć akcent kłaść nacisk położyć nacisk"
-        ],
         "id": "pol-ver-011-położyć",
         "inflections": {
             "infinitive": "położyć",
@@ -2626,11 +2607,6 @@
             }
         },
         "lemma": "położyć",
-        "otherShapes": {
-            "imperfective": [
-                "kłaść"
-            ]
-        },
         "secondaryAspects": [],
         "tags": [
             "FREQ3",
@@ -2648,47 +2624,36 @@
                 "to lay",
                 "to lie down[r]"
             ]
+        },
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "kłaść"
+                ]
+            },
+            "derivedTerms": [
+                "verbs related to położyć dokładać impf dołożyć pf",
+                "nadkładać impf nadłożyć pf",
+                "nakładać impf nałożyć pf",
+                "okładać impf ołożyć pf",
+                "obkładać impf obłożyć pf",
+                "odkładać impf odłożyć pf",
+                "składać impf złożyć pf",
+                "pokładać impf",
+                "podkładać impf podłożyć pf",
+                "przekładać impf przełożyć pf",
+                "przykładać impf przyłożyć pf",
+                "rozkładać impf rozłożyć pf",
+                "układać impf ułożyć pf",
+                "wkładać impf włożyć pf",
+                "wykładać impf wyłożyć pf",
+                "zakładać impf założyć pf",
+                "( phrases ) kłaść akcent położyć akcent kłaść nacisk położyć nacisk"
+            ]
         }
     },
     {
         "aspect": "imperfective",
-        "derivedTerms": [
-            "dokładać impf dołożyć pf",
-            "nadkładać impf nadłożyć pf",
-            "nakładać impf nałożyć pf",
-            "okładać impf ołożyć pf",
-            "obkładać impf obłożyć pf",
-            "odkładać impf odłożyć pf",
-            "składać impf złożyć pf",
-            "pokładać impf",
-            "podkładać impf podłożyć pf",
-            "przekładać impf przełożyć pf",
-            "przykładać impf przyłożyć pf",
-            "rozkładać impf rozłożyć pf",
-            "układać impf ułożyć pf poukładać impf",
-            "wkładać impf włożyć pf",
-            "wykładać impf wyłożyć pf",
-            "zakładać impf założyć pf",
-            "( phrases ) kłaść akcent położyć akcent kłaść nacisk położyć nacisk",
-            "nouns related to kłaść ( nouns )",
-            "kład kładka",
-            "pokład pokładnik",
-            "pokładełko",
-            "pokładziny",
-            "nadkład",
-            "nakład nakładek nakładka nakładnik nakładacz nakładaczka nakładarka",
-            "okład okładkarz okładnica okładzina okładka",
-            "odkład odkładnia odkładnica",
-            "skład składaczka składnik składnia",
-            "pokład pokładanka pokładnik pokładnica pokładowiec pokładziny pokładówka",
-            "podkład podkładacz podkładka podkładzina",
-            "przykład przykładek przykładka przykładzina przykładność przykładnica",
-            "rozkład rozkładalność rozkładarka rozkładnia rozkładnik rozkładowiec",
-            "wkład wkładca wkładka",
-            "wykład wykładacz wykładca",
-            "zakład zakładacz zakładca zakładnica zakładnictwo zakładowca zakładziny",
-            "( adjective ) pokładny"
-        ],
         "id": "pol-ver-011-kłaść",
         "inflections": {
             "infinitive": "kłaść",
@@ -2779,11 +2744,6 @@
             }
         },
         "lemma": "kłaść",
-        "otherShapes": {
-            "perfective": [
-                "położyć"
-            ]
-        },
         "secondaryAspects": [],
         "tags": [
             "FREQ3",
@@ -2800,6 +2760,50 @@
                 "to put",
                 "to lay",
                 "to lie down[r]"
+            ]
+        },
+        "extra": {
+            "otherShapes": {
+                "perfective": [
+                    "położyć"
+                ]
+            },
+            "derivedTerms": [
+                "dokładać impf dołożyć pf",
+                "nadkładać impf nadłożyć pf",
+                "nakładać impf nałożyć pf",
+                "okładać impf ołożyć pf",
+                "obkładać impf obłożyć pf",
+                "odkładać impf odłożyć pf",
+                "składać impf złożyć pf",
+                "pokładać impf",
+                "podkładać impf podłożyć pf",
+                "przekładać impf przełożyć pf",
+                "przykładać impf przyłożyć pf",
+                "rozkładać impf rozłożyć pf",
+                "układać impf ułożyć pf poukładać impf",
+                "wkładać impf włożyć pf",
+                "wykładać impf wyłożyć pf",
+                "zakładać impf założyć pf",
+                "( phrases ) kłaść akcent położyć akcent kłaść nacisk położyć nacisk",
+                "nouns related to kłaść ( nouns )",
+                "kład kładka",
+                "pokład pokładnik",
+                "pokładełko",
+                "pokładziny",
+                "nadkład",
+                "nakład nakładek nakładka nakładnik nakładacz nakładaczka nakładarka",
+                "okład okładkarz okładnica okładzina okładka",
+                "odkład odkładnia odkładnica",
+                "skład składaczka składnik składnia",
+                "pokład pokładanka pokładnik pokładnica pokładowiec pokładziny pokładówka",
+                "podkład podkładacz podkładka podkładzina",
+                "przykład przykładek przykładka przykładzina przykładność przykładnica",
+                "rozkład rozkładalność rozkładarka rozkładnia rozkładnik rozkładowiec",
+                "wkład wkładca wkładka",
+                "wykład wykładacz wykładca",
+                "zakład zakładacz zakładca zakładnica zakładnictwo zakładowca zakładziny",
+                "( adjective ) pokładny"
             ]
         }
     },
@@ -5107,20 +5111,6 @@
     },
     {
         "aspect": "imperfective",
-        "derivedTerms": [
-            "dobywać impf dobyć pf wydobywać impf wydobyć pf",
-            "zdobywać impf zdobyć pf",
-            "nabywać impf nabyć pf",
-            "obywać impf obyć pf",
-            "odbywać impf odbyć pf",
-            "pobyć pf",
-            "przebywać impf przebyć pf",
-            "przybywać impf przybyć pf",
-            "ubywać impf ubyć pf",
-            "zbywać impf zbyć pf pozbywać impf pozbyć pf",
-            "wyzbywać impf wyzbyć pf",
-            "( noun ) bywalec"
-        ],
         "id": "pol-ver-022-bywać",
         "inflections": {
             "infinitive": "bywać",
@@ -5211,11 +5201,6 @@
             }
         },
         "lemma": "bywać",
-        "otherShapes": {
-            "imperfective": [
-                "być"
-            ]
-        },
         "secondaryAspects": [
             "indeterminate",
             "frequentative"
@@ -5228,6 +5213,30 @@
         "translations": {
             "ENG": [
                 "to be habitually[i]"
+            ]
+        },
+        "extra": {
+            "usage": [
+                "On bywa całkiem wredny. ― He can be pretty mean."
+            ],
+            "otherShapes": {
+                "imperfective": [
+                    "być"
+                ]
+            },
+            "derivedTerms": [
+                "dobywać impf dobyć pf wydobywać impf wydobyć pf",
+                "zdobywać impf zdobyć pf",
+                "nabywać impf nabyć pf",
+                "obywać impf obyć pf",
+                "odbywać impf odbyć pf",
+                "pobyć pf",
+                "przebywać impf przebyć pf",
+                "przybywać impf przybyć pf",
+                "ubywać impf ubyć pf",
+                "zbywać impf zbyć pf pozbywać impf pozbyć pf",
+                "wyzbywać impf wyzbyć pf",
+                "( noun ) bywalec"
             ]
         }
     },
@@ -7709,23 +7718,6 @@
     },
     {
         "aspect": "imperfective",
-        "derivedTerms": [
-            "dochodzić impf dojść pf",
-            "nachodzić impf najść pf",
-            "nadchodzić impf nadejść pf",
-            "obchodzić impf obejść pf",
-            "odchodzić impf odejść pf",
-            "podchodzić impf podejść pf",
-            "przechodzić impf przejść pf",
-            "przychodzić impf przyjść pf",
-            "rozchodzić impf rozejść pf",
-            "uchodzić impf ujść pf",
-            "wchodzić impf wejść pf",
-            "wychodzić impf wyjść pf",
-            "wschodzić impf wzejść pf",
-            "zachodzić impf zajść pf",
-            "schodzić impf zejść pf"
-        ],
         "id": "pol-ver-035-iść",
         "inflections": {
             "infinitive": "iść",
@@ -7807,14 +7799,6 @@
             }
         },
         "lemma": "iść",
-        "otherShapes": {
-            "perfective": [
-                "pójść"
-            ],
-            "indeterminate": [
-                "chodzić"
-            ]
-        },
         "secondaryAspects": [],
         "tags": [
             "FREQ3",
@@ -7829,6 +7813,36 @@
             "ENG": [
                 "to go[i]",
                 "to walk[i]"
+            ]
+        },
+        "extra": {
+            "usage": [
+                "Wszystko idzie zgodnie z planem. ― Everything is going according to plan."
+            ],
+            "otherShapes": {
+                "perfective": [
+                    "pójść"
+                ],
+                "indeterminate": [
+                    "chodzić"
+                ]
+            },
+            "derivedTerms": [
+                "dochodzić impf dojść pf",
+                "nachodzić impf najść pf",
+                "nadchodzić impf nadejść pf",
+                "obchodzić impf obejść pf",
+                "odchodzić impf odejść pf",
+                "podchodzić impf podejść pf",
+                "przechodzić impf przejść pf",
+                "przychodzić impf przyjść pf",
+                "rozchodzić impf rozejść pf",
+                "uchodzić impf ujść pf",
+                "wchodzić impf wejść pf",
+                "wychodzić impf wyjść pf",
+                "wschodzić impf wzejść pf",
+                "zachodzić impf zajść pf",
+                "schodzić impf zejść pf"
             ]
         }
     },
@@ -7917,14 +7931,6 @@
             }
         },
         "lemma": "pójść",
-        "otherShapes": {
-            "imperfective": [
-                "iść"
-            ],
-            "indeterminate": [
-                "chodzić"
-            ]
-        },
         "secondaryAspects": [],
         "tags": [
             "FREQ3",
@@ -7940,29 +7946,23 @@
                 "to go[i]",
                 "to walk[i]"
             ]
+        },
+        "extra": {
+            "usage": [
+                "No to poszło gładko. ― Well that went smoothly."
+            ],
+            "otherShapes": {
+                "imperfective": [
+                    "iść"
+                ],
+                "indeterminate": [
+                    "chodzić"
+                ]
+            }
         }
     },
     {
         "aspect": "imperfective",
-        "derivedTerms": [
-            "dochodzić impf dojść pf",
-            "nachodzić impf najść pf",
-            "nadchodzić impf nadejść pf",
-            "obchodzić impf obejść pf",
-            "odchodzić impf odejść pf",
-            "podchodzić impf podejść pf",
-            "przechodzić impf przejść pf",
-            "przychodzić impf przyjść pf",
-            "rozchodzić impf rozejść pf",
-            "uchodzić impf ujść pf",
-            "wchodzić impf wejść pf",
-            "wychodzić impf wyjść pf",
-            "wschodzić impf wzejść pf",
-            "zachodzić impf zajść pf",
-            "schodzić impf zejść pf",
-            "see also chadzać",
-            "iść"
-        ],
         "id": "pol-ver-035-chodzić",
         "inflections": {
             "infinitive": "chodzić",
@@ -8069,32 +8069,38 @@
                 "to go[i]",
                 "to walk[i]"
             ]
+        },
+        "extra": {
+            "usage": [
+                "Chodzę na siłownię dwa razy w tygodniu. ― I go to the gym twice a week.",
+                "Mój laptop chodzi na baterii najwyżej trzy godziny. ― My laptop works on battery for at most three hours.",
+                "Ten zegarek dawno przestał chodzić . ― This clock stopped ticking a long time ago.",
+                "O co ci chodzi ? ― What do you mean ?",
+                "O co chodzi w tym filmie? ― What is this movie about?"
+            ],
+            "derivedTerms": [
+                "dochodzić impf dojść pf",
+                "nachodzić impf najść pf",
+                "nadchodzić impf nadejść pf",
+                "obchodzić impf obejść pf",
+                "odchodzić impf odejść pf",
+                "podchodzić impf podejść pf",
+                "przechodzić impf przejść pf",
+                "przychodzić impf przyjść pf",
+                "rozchodzić impf rozejść pf",
+                "uchodzić impf ujść pf",
+                "wchodzić impf wejść pf",
+                "wychodzić impf wyjść pf",
+                "wschodzić impf wzejść pf",
+                "zachodzić impf zajść pf",
+                "schodzić impf zejść pf",
+                "see also chadzać",
+                "iść"
+            ]
         }
     },
     {
         "aspect": "imperfective",
-        "derivedTerms": [
-            "dojeżdżać impf dojechać pf nadojeżdżać pf",
-            "podojeżdżać impf",
-            "najeżdżać impf najechać pf ponajeżdżać impf",
-            "nadjeżdżać impf nadjechać pf",
-            "ponadjeżdżać impf",
-            "objeżdżać impf objechać pf naobjeżdżać pf",
-            "poobjeżdżać impf",
-            "odjeżdżać impf odjechać pf poodjeżdżać impf",
-            "podjeżdżać impf podjechać pf popodjeżdżać impf",
-            "przejeżdżać impf przejechać pf poprzejeżdżać impf",
-            "przyjeżdżać impf przyjechać pf poprzyjeżdżać impf",
-            "rozjeżdżać impf rozjechać pf narozjeżdżać pf",
-            "ujeżdżać impf ujechać pf naujeżdżać pf",
-            "wjeżdżać impf wjechać pf powjeżdżać impf",
-            "nawjeżdżać pf",
-            "wyjeżdżać impf wyjechać pf powyjeżdżać impf",
-            "zajeżdżać impf zajechać pf pozajeżdżać impf",
-            "zjeżdżać impf zjechać pf napozjeżdżać pf",
-            "nazjeżdżać pf",
-            "pozjeżdżać impf"
-        ],
         "id": "pol-ver-036-jechać",
         "inflections": {
             "infinitive": "jechać",
@@ -8185,14 +8191,6 @@
             }
         },
         "lemma": "jechać",
-        "otherShapes": {
-            "perfective": [
-                "pojechać"
-            ],
-            "indeterminate": [
-                "jeździć"
-            ]
-        },
         "secondaryAspects": [],
         "tags": [
             "FREQ3",
@@ -8207,6 +8205,45 @@
                 "to go[i]",
                 "to ride[i]",
                 "to drive[i]"
+            ]
+        },
+        "extra": {
+            "usage": [
+                "Dlaczego tu tak jedzie ? ― Why does it stink so much here?",
+                "Jeśli żul jedzie tramwajem, to potem tramwaj jedzie żulem. ― If a bum takes the tram then the tram stinks like a bum.",
+                "Jak się odpalił to jechał koncert za koncertem. ― When he started he put on concert after concert.",
+                "Szef w robocie ostro mu jechał . ― His boss was chewing him out hard.",
+                "Jak dostał bonusa to całą grę go jechał . ― When he received the bonus he owned the whole game."
+            ],
+            "otherShapes": {
+                "perfective": [
+                    "pojechać"
+                ],
+                "indeterminate": [
+                    "jeździć"
+                ]
+            },
+            "derivedTerms": [
+                "dojeżdżać impf dojechać pf nadojeżdżać pf",
+                "podojeżdżać impf",
+                "najeżdżać impf najechać pf ponajeżdżać impf",
+                "nadjeżdżać impf nadjechać pf",
+                "ponadjeżdżać impf",
+                "objeżdżać impf objechać pf naobjeżdżać pf",
+                "poobjeżdżać impf",
+                "odjeżdżać impf odjechać pf poodjeżdżać impf",
+                "podjeżdżać impf podjechać pf popodjeżdżać impf",
+                "przejeżdżać impf przejechać pf poprzejeżdżać impf",
+                "przyjeżdżać impf przyjechać pf poprzyjeżdżać impf",
+                "rozjeżdżać impf rozjechać pf narozjeżdżać pf",
+                "ujeżdżać impf ujechać pf naujeżdżać pf",
+                "wjeżdżać impf wjechać pf powjeżdżać impf",
+                "nawjeżdżać pf",
+                "wyjeżdżać impf wyjechać pf powyjeżdżać impf",
+                "zajeżdżać impf zajechać pf pozajeżdżać impf",
+                "zjeżdżać impf zjechać pf napozjeżdżać pf",
+                "nazjeżdżać pf",
+                "pozjeżdżać impf"
             ]
         }
     },
@@ -8303,14 +8340,6 @@
             }
         },
         "lemma": "pojechać",
-        "otherShapes": {
-            "imperfective": [
-                "jechać"
-            ],
-            "indeterminate": [
-                "jeździć"
-            ]
-        },
         "secondaryAspects": [],
         "tags": [
             "FREQ3",
@@ -8326,15 +8355,20 @@
                 "to ride[i]",
                 "to drive[i]"
             ]
+        },
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "jechać"
+                ],
+                "indeterminate": [
+                    "jeździć"
+                ]
+            }
         }
     },
     {
         "aspect": "imperfective",
-        "derivedTerms": [
-            "( verb ) ujeżdżać",
-            "( nouns ) jazda jezdnia jeździec objazd wyjazd",
-            "( adjective ) jezdny jeździecki"
-        ],
         "id": "pol-ver-036-jeździć",
         "inflections": {
             "infinitive": "jeździć",
@@ -8425,14 +8459,6 @@
             }
         },
         "lemma": "jeździć",
-        "otherShapes": {
-            "imperfective determinate": [
-                "jechać"
-            ],
-            "perfective": [
-                "pojechać"
-            ]
-        },
         "secondaryAspects": [
             "indeterminate"
         ],
@@ -8449,6 +8475,21 @@
                 "to go[i]",
                 "to ride[i]",
                 "to drive[i]"
+            ]
+        },
+        "extra": {
+            "otherShapes": {
+                "imperfective determinate": [
+                    "jechać"
+                ],
+                "perfective": [
+                    "pojechać"
+                ]
+            },
+            "derivedTerms": [
+                "( verb ) ujeżdżać",
+                "( nouns ) jazda jezdnia jeździec objazd wyjazd",
+                "( adjective ) jezdny jeździecki"
             ]
         }
     }
