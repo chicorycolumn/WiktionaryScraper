@@ -141,7 +141,9 @@ def process_extra(output_obj):
             if key not in ["usage", "derivedTerms"]:
                 for el in output_obj["extra"][key]:
                     arr.extend(el.split(" "))
-                output_obj["extra"][key] = arr
+                output_obj["extra"][key] = [
+                    el for el in arr if el.lower() not in ["see", "also", "thesaurus", "thesaurus:"]
+                ]
 
     if not output_obj["extra"]:
         output_obj.pop("extra")
