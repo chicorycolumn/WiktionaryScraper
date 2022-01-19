@@ -119,9 +119,13 @@ shorthand_tag_refs = {
     },
 
     ############### 3) Miscellaneous
+    "kk": {  # tall short light dark
+        "tags": [],
+        "topics": ["sense and perception", "appearance"],
+    },
     "k": {  # red yellow
         "tags": ["colour"],
-        "topics": ["sense and perception"],
+        "topics": ["sense and perception", "appearance"],
     },
     "ð": {  # spiky smooth hot cold
         "tags": ["texture"],
@@ -133,7 +137,7 @@ shorthand_tag_refs = {
     },
     "z": {  # big small wide
         "tags": ["dimension"],
-        "topics": ["sense and perception"],
+        "topics": ["sense and perception", "appearance"],
     },
     "$": {  # cheap expensive buy sell cost
         "tags": ["money"],
@@ -151,7 +155,7 @@ shorthand_tag_refs = {
         "tags": ["clothes", "h"],
         "topics": ["fashion"],
     },
-    "gg": {  # scarf tie shoe
+    "gg": {  #
         "tags": [],
         "topics": ["fashion"],
     },
@@ -168,12 +172,20 @@ shorthand_tag_refs = {
         "topics": ["school"],
     },
     "ł": {  # rainy sunny windy
-        "tags": ["weather type", "aa"],
+        "tags": ["weather type"],
         "topics": ["outdoor", "geography"],
     },
     "łł": {  # climate albedo humidity
-        "tags": ["weather", "aa"],
+        "tags": ["weather"],
         "topics": ["outdoor", "geography"],
+    },
+    "łłł": {  # hot cold cool
+        "tags": ["temperature", "weather"],
+        "topics": ["outdoor", "geography"],
+    },
+    "fq": {  # often sometimes custom
+        "tags": ["frequency", "aa"],
+        "topics": [],
     },
 
     ############### 4) Abstract
@@ -196,6 +208,14 @@ shorthand_tag_refs = {
     "ag": {
         "tags": ["aa"],
         "topics": ["geometry"],
+    },
+    "an": {
+        "tags": ["aa", "abstract noun"],
+        "topics": [],
+    },
+    "pr": {
+        "tags": ["aa"],
+        "topics": ["probability"],
     },
 
     ############### 5) People
@@ -514,6 +534,20 @@ shorthand_tag_refs = {
     "rp": {
         "tags": [],
         "topics": ["request and permission"],
+    },
+
+    ############### 10) Appraisal
+    "+": {
+        "tags": ["positive judgment"],
+        "topics": ["judgment"],
+    },
+    "-": {
+        "tags": ["negative judgment"],
+        "topics": ["judgment"],
+    },
+    "=": {
+        "tags": ["neutral judgment"],
+        "topics": ["judgment"],
     },
 
     # # # # # # # # # # #

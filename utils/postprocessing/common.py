@@ -203,7 +203,7 @@ def recursively_expand_tags(input_stags: list, ref: object):
     return output_tags
 
 
-def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
+def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object, wordtype: str=None):
     shorthand_tag_chars = list(lemma_object["tags"])
     numeric_stag_chars = []
     alphabetical_stag_chars = []
@@ -248,6 +248,13 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object):
         tags = [f'FREQ{numeric_stag_chars[0]}'] + tags
     else:
         write_todo(f'Please assign a frequency category to "{lemma_object["lemma"]}".')
+
+    if wordtype in ["adjectives", "verbs"]:
+        if "abstract" not in tags:
+            if "concrete" not in tags:
+                tags.append("concrete")
+        elif "concrete" in tags:
+            write_todo(f'{lemma_object["id"]} has both "abstract" and "concrete" in tags. Please remove one.')
 
     lemma_object["tags"] = tags
     lemma_object["topics"] = topics
@@ -321,7 +328,7 @@ def expand_tags_and_topics(group_number, wordtype):
     for lemma_object in untruncated_lobjs:
         if not lemma_object["lemma"].startswith("!"):
             lemma_object["translations"]["ENG"] = auto_whittle_translations_arr(lemma_object["translations"]["ENG"])
-            add_tags_and_topics_from_shorthand(lemma_object, shorthand_tag_refs)
+            add_tags_and_topics_from_shorthand(lemma_object, shorthand_tag_refs, wordtype)
             res_arr.append(lemma_object)
 
     return res_arr
