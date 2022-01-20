@@ -1,0 +1,936 @@
+[
+    {
+        "lemma": "kiepski",
+        "tags": "3-,q",
+        "translations": {
+            "ENG": [
+                "(colloquial)",
+                "bad",
+                "(not good)",
+                "(colloquial)",
+                "lame"
+            ]
+        },
+        "temp_id": "1.1"
+    },
+    {
+        "lemma": "zły",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "bad",
+                "(not good)",
+                "incorrect",
+                "evil",
+                "angry",
+                "mad",
+                "(displaying or feeling anger)"
+            ]
+        },
+        "temp_id": "1.2"
+    },
+    {
+        "lemma": "jasny",
+        "tags": "3łł,+,kk",
+        "translations": {
+            "ENG": [
+                "bright",
+                "light",
+                "evident",
+                "obvious",
+                "clear",
+                "(color)"
+            ]
+        },
+        "temp_id": "1.3"
+    },
+    {
+        "lemma": "niejasny",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "unclear",
+                "vague",
+                "cryptic"
+            ]
+        },
+        "temp_id": "1.4"
+    },
+    {
+        "lemma": "ciemny",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "dark",
+                "(being poorly lit)",
+                "dark",
+                "(having a color approaching black)",
+                "dark",
+                "(having dark skin)",
+                "intense",
+                "(of a color)",
+                "dark",
+                "(having a low pitch)",
+                "shady",
+                "(not trustworthy)",
+                "dark",
+                "mysterious",
+                "(having an unknown nature)",
+                "dark",
+                "(having a sad atmosphere)"
+            ]
+        },
+        "temp_id": "1.5"
+    },
+    {
+        "lemma": "pomarańczowy",
+        "tags": "1k",
+        "translations": {
+            "ENG": [
+                "orange",
+                "(color)",
+                "(relational)"
+            ]
+        },
+        "temp_id": "1.6"
+    },
+    {
+        "lemma": "szczupły",
+        "tags": "3bb",
+        "translations": {
+            "ENG": [
+                "slim",
+                "slender"
+            ]
+        },
+        "temp_id": "1.7"
+    },
+    {
+        "lemma": "smukły",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "svelte",
+                "slender"
+            ]
+        },
+        "temp_id": "1.8"
+    },
+    {
+        "lemma": "wysmukły",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "svelte",
+                "slender"
+            ]
+        },
+        "temp_id": "1.9"
+    },
+    {
+        "lemma": "słaby",
+        "tags": "3-,q",
+        "translations": {
+            "ENG": [
+                "weak",
+                "poor",
+                "(in quality)"
+            ]
+        },
+        "temp_id": "1.10"
+    },
+    {
+        "lemma": "dobry",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "good",
+                "correct",
+                "(of answers)",
+                "good"
+            ]
+        },
+        "temp_id": "1.11"
+    },
+    {
+        "lemma": "silny",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "strong"
+            ]
+        },
+        "temp_id": "1.12"
+    },
+    {
+        "lemma": "mierny",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "mediocre"
+            ]
+        },
+        "temp_id": "1.13"
+    },
+    {
+        "lemma": "mocny",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "strong",
+                "sturdy",
+                "tight",
+                "(under high tension)",
+                "powerful"
+            ]
+        },
+        "temp_id": "1.14"
+    },
+    {
+        "lemma": "wspaniały",
+        "tags": "2+",
+        "translations": {
+            "ENG": [
+                "magnificent",
+                "excellent"
+            ]
+        },
+        "temp_id": "1.15"
+    },
+    {
+        "lemma": "ciężki",
+        "tags": "3z",
+        "translations": {
+            "ENG": [
+                "heavy",
+                "(having great weight)",
+                "difficult",
+                "(requiring much effort)"
+            ]
+        },
+        "temp_id": "1.16"
+    },
+    {
+        "lemma": "lekki",
+        "tags": "2@,kk",
+        "translations": {
+            "ENG": [
+                "light",
+                "(of low weight)",
+                "(figuratively)"
+            ]
+        },
+        "temp_id": "1.17"
+    },
+    {
+        "lemma": "trudny",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "difficult"
+            ]
+        },
+        "temp_id": "1.18"
+    },
+    {
+        "lemma": "wrażliwy",
+        "tags": "4py",
+        "translations": {
+            "ENG": [
+                "sensitive",
+                "tender",
+                "susceptible",
+                "impressionable"
+            ]
+        },
+        "temp_id": "1.19"
+    },
+    {
+        "lemma": "niewrażliwy",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "insensitive",
+                "impervious"
+            ]
+        },
+        "temp_id": "1.20"
+    },
+    {
+        "lemma": "powszechny",
+        "tags": "4fq",
+        "translations": {
+            "ENG": [
+                "common",
+                "(found in large numbers or in a large quantity)",
+                "frequent"
+            ]
+        },
+        "temp_id": "1.21"
+    },
+    {
+        "lemma": "częsty",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "frequent"
+            ]
+        },
+        "temp_id": "1.22"
+    },
+    {
+        "lemma": "martwy",
+        "tags": "3bio,bb",
+        "translations": {
+            "ENG": [
+                "dead",
+                "(no longer living)",
+                "inanimate"
+            ]
+        },
+        "temp_id": "1.23"
+    },
+    {
+        "lemma": "żywy",
+        "tags": "4+,pp,bio,py,+",
+        "translations": {
+            "ENG": [
+                "(not comparable)",
+                "live",
+                "alive",
+                "living",
+                "(comparable)",
+                "lively",
+                "vivacious",
+                "(of a colour)",
+                "vivid",
+                "vibrant"
+            ]
+        },
+        "temp_id": "1.24"
+    },
+    {
+        "lemma": "żwawy",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "lively",
+                "energetic",
+                "sprightly"
+            ]
+        },
+        "temp_id": "1.25"
+    },
+    {
+        "lemma": "bezpłatny",
+        "tags": "3$",
+        "translations": {
+            "ENG": [
+                "free of charge",
+                "free"
+            ]
+        },
+        "temp_id": "1.26"
+    },
+    {
+        "lemma": "płatny",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "paid",
+                "(not free of charge)",
+                "payable",
+                "(that which is to be paid in a certain manner)"
+            ]
+        },
+        "temp_id": "1.27"
+    },
+    {
+        "lemma": "młody",
+        "tags": "1bb,kk",
+        "translations": {
+            "ENG": [
+                "young",
+                "(in the early part of life or growth)"
+            ]
+        },
+        "temp_id": "1.28"
+    },
+    {
+        "lemma": "stary",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "old",
+                "(in the late stage of life)",
+                "old",
+                "(having existed for a long time, or having known something for a long time)"
+            ]
+        },
+        "temp_id": "1.29"
+    },
+    {
+        "lemma": "czarny",
+        "tags": "1k",
+        "translations": {
+            "ENG": [
+                "black"
+            ]
+        },
+        "temp_id": "1.30"
+    },
+    {
+        "lemma": "biały",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "white"
+            ]
+        },
+        "temp_id": "1.31"
+    },
+    {
+        "lemma": "wrony",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "(color of animals)",
+                "black"
+            ]
+        },
+        "temp_id": "1.32"
+    },
+    {
+        "lemma": "kary",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "black",
+                "(of horse)"
+            ]
+        },
+        "temp_id": "1.33"
+    },
+    {
+        "lemma": "konieczny",
+        "tags": "3rp",
+        "translations": {
+            "ENG": [
+                "necessary"
+            ]
+        },
+        "temp_id": "1.34"
+    },
+    {
+        "lemma": "zasadniczy",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "elementary",
+                "basic",
+                "fundamental",
+                "essential",
+                "principal",
+                "chief",
+                "main",
+                "prime",
+                "principled",
+                "scrupulous"
+            ]
+        },
+        "temp_id": "1.35"
+    },
+    {
+        "lemma": "potrzebny",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "necessary"
+            ]
+        },
+        "temp_id": "1.36"
+    },
+    {
+        "lemma": "bezwarunkowy",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "implicit",
+                "unconditional"
+            ]
+        },
+        "temp_id": "1.37"
+    },
+    {
+        "lemma": "niezbędny",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "necessary",
+                "indispensable",
+                "essential"
+            ]
+        },
+        "temp_id": "1.38"
+    },
+    {
+        "lemma": "podstawowy",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "basic",
+                "elementary",
+                "primary",
+                "principal"
+            ]
+        },
+        "temp_id": "1.39"
+    },
+    {
+        "lemma": "nieuchronny",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "inescapable",
+                "unavoidable"
+            ]
+        },
+        "temp_id": "1.40"
+    },
+    {
+        "lemma": "głęboki",
+        "tags": "2z",
+        "translations": {
+            "ENG": [
+                "deep",
+                "profound"
+            ]
+        },
+        "temp_id": "1.41"
+    },
+    {
+        "lemma": "miałki",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "friable",
+                "crumbly",
+                "fine",
+                "powdery",
+                "bland",
+                "unremarkable",
+                "superficial",
+                "(Poznań)",
+                "shallow"
+            ]
+        },
+        "temp_id": "1.42"
+    },
+    {
+        "lemma": "płytki",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "shallow"
+            ]
+        },
+        "temp_id": "1.43"
+    },
+    {
+        "lemma": "następny",
+        "tags": "3fq",
+        "translations": {
+            "ENG": [
+                "next",
+                "(following in a sequence)"
+            ]
+        },
+        "temp_id": "1.44"
+    },
+    {
+        "lemma": "poprzedni",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "previous",
+                "prior"
+            ]
+        },
+        "temp_id": "1.45"
+    },
+    {
+        "lemma": "wielki",
+        "tags": "1kk,z",
+        "translations": {
+            "ENG": [
+                "big",
+                "large",
+                "great",
+                "grand"
+            ]
+        },
+        "temp_id": "1.46"
+    },
+    {
+        "lemma": "duży",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "big",
+                "large",
+                "(in physical size)"
+            ]
+        },
+        "temp_id": "1.47"
+    },
+    {
+        "lemma": "męczący",
+        "tags": "3ee,bb",
+        "translations": {
+            "ENG": [
+                "arduous",
+                "tiresome",
+                "tiring"
+            ]
+        },
+        "temp_id": "1.48"
+    },
+    {
+        "lemma": "znojny",
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "(dated)",
+                "arduous",
+                "tiresome",
+                "tiring",
+                "weary"
+            ]
+        },
+        "temp_id": "1.49"
+    },
+    {
+        "lemma": "ostateczny",
+        "tags": "4fq",
+        "translations": {
+            "ENG": [
+                "ultimate",
+                "final",
+                "(law)",
+                "final"
+            ]
+        },
+        "temp_id": "1.50"
+    },
+    {
+        "lemma": "gorzki",
+        "tags": "3đ",
+        "translations": {
+            "ENG": [
+                "bitter"
+            ]
+        },
+        "temp_id": "1.51"
+    },
+    {
+        "lemma": "słodki",
+        "tags": "3đ",
+        "translations": {
+            "ENG": [
+                "sweet",
+                "sweet",
+                "cute"
+            ]
+        },
+        "temp_id": "1.52"
+    },
+    {
+        "lemma": "ciasny",
+        "tags": "3z",
+        "translations": {
+            "ENG": [
+                "tight",
+                "(pushed or pulled together)",
+                "(of a room)",
+                "poky",
+                "cramped"
+            ]
+        },
+        "temp_id": "1.53"
+    },
+    {
+        "lemma": "zgniły",
+        "tags": "4ff,-",
+        "translations": {
+            "ENG": [
+                "rotten",
+                "decayed",
+                "putrid"
+            ]
+        },
+        "temp_id": "1.54"
+    },
+    {
+        "lemma": "czarujący",
+        "tags": "4kk,+,py",
+        "translations": {
+            "ENG": [
+                "charming",
+                "enchanting"
+            ]
+        },
+        "temp_id": "1.55"
+    },
+    {
+        "lemma": "potężny",
+        "tags": "4z,+",
+        "translations": {
+            "ENG": [
+                "powerful",
+                "huge",
+                "massive"
+            ]
+        },
+        "temp_id": "1.56"
+    },
+    {
+        "lemma": "głodny",
+        "tags": "2e,bb,ff",
+        "translations": {
+            "ENG": [
+                "hungry"
+            ]
+        },
+        "temp_id": "1.57"
+    },
+    {
+        "lemma": "prawdziwy",
+        "tags": "4aa,+",
+        "translations": {
+            "ENG": [
+                "true",
+                "authentic",
+                "real"
+            ]
+        },
+        "temp_id": "1.58"
+    },
+    {
+        "lemma": "ciepły",
+        "tags": "2łłł",
+        "translations": {
+            "ENG": [
+                "warm"
+            ]
+        },
+        "temp_id": "1.59"
+    },
+    {
+        "lemma": "niezwykły",
+        "tags": "4+",
+        "translations": {
+            "ENG": [
+                "extraordinary",
+                "phenomenal",
+                "remarkable"
+            ]
+        },
+        "temp_id": "1.60"
+    },
+    {
+        "lemma": "niebezpieczny",
+        "tags": "3-",
+        "translations": {
+            "ENG": [
+                "dangerous"
+            ]
+        },
+        "temp_id": "1.61"
+    },
+    {
+        "lemma": "tradycyjny",
+        "tags": "3pp,ee",
+        "translations": {
+            "ENG": [
+                "traditional",
+                "(of, relating to, or derived from tradition)",
+                "traditional",
+                "(observant of tradition; attached to old customs; old-fashioned)"
+            ]
+        },
+        "temp_id": "1.62"
+    },
+    {
+        "lemma": "kwadratowy",
+        "tags": "5kk,**geometry",
+        "translations": {
+            "ENG": [
+                "square"
+            ]
+        },
+        "temp_id": "1.63"
+    },
+    {
+        "lemma": "główny",
+        "tags": "3aa",
+        "translations": {
+            "ENG": [
+                "main"
+            ]
+        },
+        "temp_id": "1.64"
+    },
+    {
+        "lemma": "uważny",
+        "tags": "4py,+",
+        "translations": {
+            "ENG": [
+                "attentive",
+                "heedful",
+                "watchful",
+                "observant",
+                "careful"
+            ]
+        },
+        "temp_id": "1.65"
+    },
+    {
+        "lemma": "gotowy",
+        "tags": "3coo,aa,ee",
+        "translations": {
+            "ENG": [
+                "ready",
+                "prepared",
+                "finished",
+                "done",
+                "completed",
+                "willing",
+                "set",
+                "poised",
+                "ready-made"
+            ]
+        },
+        "temp_id": "1.66"
+    },
+    {
+        "lemma": "błędny",
+        "tags": "3s,-",
+        "translations": {
+            "ENG": [
+                "wrong",
+                "erroneous",
+                "incorrect"
+            ]
+        },
+        "temp_id": "1.67"
+    },
+    {
+        "lemma": "pewny",
+        "tags": "3+,pr",
+        "translations": {
+            "ENG": [
+                "sure",
+                "certain",
+                "reliable",
+                "trustworthy",
+                "assured",
+                "confident"
+            ]
+        },
+        "temp_id": "1.68"
+    },
+    {
+        "lemma": "odważny",
+        "tags": "3py,+",
+        "translations": {
+            "ENG": [
+                "brave",
+                "courageous"
+            ]
+        },
+        "temp_id": "1.69"
+    },
+    {
+        "lemma": "cały",
+        "tags": "2+,kk",
+        "translations": {
+            "ENG": [
+                "whole",
+                "complete",
+                "entire",
+                "intact"
+            ]
+        },
+        "temp_id": "1.70"
+    },
+    {
+        "lemma": "niski",
+        "tags": "2z",
+        "translations": {
+            "ENG": [
+                "low",
+                "short",
+                "(of height)"
+            ]
+        },
+        "temp_id": "1.71"
+    },
+    {
+        "lemma": "zmęczony",
+        "tags": "2e,bb",
+        "translations": {
+            "ENG": [
+                "tired",
+                "weary"
+            ]
+        },
+        "temp_id": "1.72"
+    },
+    {
+        "lemma": "powolny",
+        "tags": "2v",
+        "translations": {
+            "ENG": [
+                "slow",
+                "(not quick in motion)"
+            ]
+        },
+        "temp_id": "1.73"
+    },
+    {
+        "lemma": "ładny",
+        "tags": "2+,kk",
+        "translations": {
+            "ENG": [
+                "pretty",
+                "fine",
+                "nice"
+            ]
+        },
+        "temp_id": "1.74"
+    },
+    {
+        "lemma": "zwykły",
+        "tags": "3fq",
+        "translations": {
+            "ENG": [
+                "common",
+                "normal",
+                "ordinary"
+            ]
+        },
+        "temp_id": "1.75"
+    },
+    {
+        "lemma": "kruchy",
+        "tags": "4ð",
+        "translations": {
+            "ENG": [
+                "brittle",
+                "fragile",
+                "friable"
+            ]
+        },
+        "temp_id": "1.76"
+    }
+]

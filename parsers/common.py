@@ -91,15 +91,21 @@ def trigger_parser(head_words_raw, parser, use_sample, language, wordtype, resul
                     sleep(delay_seconds / 2)
 
     for lobj in result:
-        if "extra" in lobj and "otherShapes" in lobj["extra"]:
+        if "extra" in lobj:
             extra_lemmas_object = {"lemma": lobj["lemma"], "extra_lemmas": [], "lemma_objects": []}
-            for other_shapes_key, other_shapes_values in lobj["extra"]["otherShapes"].items():
-                for other_shapes_value in other_shapes_values:
 
-                    if "się" in other_shapes_value:
-                        other_shapes_value = " ".join([s for s in other_shapes_value.split(" ") if s != "się"])
+            if "otherShapes" in lobj["extra"]:
+                for other_shapes_key, other_shapes_values in lobj["extra"]["otherShapes"].items():
+                    for other_shapes_value in other_shapes_values:
+                        if "się" in other_shapes_value:
+                            other_shapes_value = " ".join([s for s in other_shapes_value.split(" ") if s != "się"])
+                        extra_lemmas_object["extra_lemmas"].append(other_shapes_value)
 
-                    extra_lemmas_object["extra_lemmas"].append(other_shapes_value)
+            if wordtype == "adjectives":
+                for nym in ["synonyms", "antonyms"]:
+                    if nym in lobj["extra"]:
+                        extra_lemmas_object["extra_lemmas"].extend(lobj["extra"][nym])
+
             extra_lemmas_to_parse.append(extra_lemmas_object)
 
 
