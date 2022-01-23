@@ -226,18 +226,29 @@ def check_rescraped_against_existing(folder_of_existing, folder_of_new):
     old = get_existing_lemma_objects(folder_of_existing)
     new = get_existing_lemma_objects(folder_of_new)
 
-    old_ids = [lobj["id"] for lobj in old]
-    new_ids = [lobj["id"] for lobj in new]
-
-    old_lemmas = [id.split("-")[-1] for id in old_ids]
-    new_lemmas = [id.split("-")[-1] for id in new_ids]
+    # old_ids = [lobj["id"] for lobj in old]
+    # new_ids = [lobj["id"] for lobj in new]
+    #
+    # old_lemmas = [id.split("-")[-1] for id in old_ids]
+    # new_lemmas = [id.split("-")[-1] for id in new_ids]
 
     # new_arr = []
     #
-    # for old_lemma in old_lemmas:
-    #     found = [new_lobj for new_lobj in new if new_lobj["id"].split("-")[-1] == old_lemma]
-    #     if found:
-    #         new_arr.extend(found)
+    # print(len(old), "len(old)")
+    # print(len(new), "len(new)")
+    #
+    # for new_lobj in new:
+    #     found = [old_lobj for old_lobj in old if old_lobj["lemma"] == new_lobj["lemma"]]
+    #     if len(found) == 1:
+    #         old_lobj = found[0]
+    #         new_lobj["translations"] = old_lobj["translations"]
+    #         new_lobj["tags"] = old_lobj["tags"]
+    #     else:
+    #         write_todo(f'Not matched {new_lobj["lemma"]}, {found}.')
+    #     new_arr.append(new_lobj)
+    #
+    # write_output(new_arr, "lemme")
+    # print("")
 
     # true_just_alphabetized = []
     # for lobj in new:
@@ -248,17 +259,17 @@ def check_rescraped_against_existing(folder_of_existing, folder_of_new):
     #         alphabetized_lobj[key] = lobj[key]
     #     true_just_alphabetized.append(alphabetized_lobj)
 
-    for old_lobj in old:
-        found = [new_lobj for new_lobj in new if new_lobj["id"].split("-")[-1] == old_lobj["id"].split("-")[-1]]
-        if len(found) != 1:
-            write_todo(f'"ERR 2133" {old_lobj["id"]}')
-        else:
-            new_lobj = found[0]
-            if "extra" in new_lobj:
-                old_lobj["extra"] = new_lobj["extra"]
-                for key in list(new_lobj["extra"].keys()):
-                    if key in old_lobj:
-                        old_lobj.pop(key)
+    # for old_lobj in old:
+    #     found = [new_lobj for new_lobj in new if new_lobj["id"].split("-")[-1] == old_lobj["id"].split("-")[-1]]
+    #     if len(found) != 1:
+    #         write_todo(f'"ERR 2133" {old_lobj["id"]}')
+    #     else:
+    #         new_lobj = found[0]
+    #         if "extra" in new_lobj:
+    #             old_lobj["extra"] = new_lobj["extra"]
+    #             for key in list(new_lobj["extra"].keys()):
+    #                 if key in old_lobj:
+    #                     old_lobj.pop(key)
             # extra = {}
             # for key in ["otherShapes", "synonyms", "antonyms", "derivedTerms", "usage"]:
             #     if key in lobj:
@@ -268,32 +279,32 @@ def check_rescraped_against_existing(folder_of_existing, folder_of_new):
             # if extra:
             #     lobj["extra"] = extra
 
-    write_output(old, "old_with_extra_object")
+    # write_output(old, "old_with_extra_object")
 
-    old_lemmas.sort()
-    new_lemmas.sort()
-
-    new_and_improved = []
-
-    for new_lobj in new:
-        corresponding_old_lobjs = [lobj for lobj in old if
-                                   lobj["id"].split("-")[-1] == new_lobj["id"].split("-")[-1]]
-        if len(corresponding_old_lobjs) != 1:
-
-            searchterm = new_lobj["id"].split("-")[-1]
-            if "(" in searchterm:
-                searchterm = searchterm[0: searchterm.index("(")]
-
-            possibly_matching = [lobj["id"] for lobj in old if searchterm in lobj["id"]]
-            write_todo(
-                f'{new_lobj["id"]} had {len(corresponding_old_lobjs)} corresponding old lobjs, so am skipping it.')
-            write_todo(" ".join(possibly_matching))
-        else:
-            pass
-            old_lobj = corresponding_old_lobjs[0]
-            new_lobj["tags"] = old_lobj["tags"]
-            new_lobj["topics"] = old_lobj["topics"]
-            new_lobj["translations"] = old_lobj["translations"]
-            new_and_improved.append(new_lobj)
-
-    write_output(dict=new_and_improved, output_file="lemme", folder="output_saved")
+    # old_lemmas.sort()
+    # new_lemmas.sort()
+    #
+    # new_and_improved = []
+    #
+    # for new_lobj in new:
+    #     corresponding_old_lobjs = [lobj for lobj in old if
+    #                                lobj["id"].split("-")[-1] == new_lobj["id"].split("-")[-1]]
+    #     if len(corresponding_old_lobjs) != 1:
+    #
+    #         searchterm = new_lobj["id"].split("-")[-1]
+    #         if "(" in searchterm:
+    #             searchterm = searchterm[0: searchterm.index("(")]
+    #
+    #         possibly_matching = [lobj["id"] for lobj in old if searchterm in lobj["id"]]
+    #         write_todo(
+    #             f'{new_lobj["id"]} had {len(corresponding_old_lobjs)} corresponding old lobjs, so am skipping it.')
+    #         write_todo(" ".join(possibly_matching))
+    #     else:
+    #         pass
+    #         old_lobj = corresponding_old_lobjs[0]
+    #         new_lobj["tags"] = old_lobj["tags"]
+    #         new_lobj["topics"] = old_lobj["topics"]
+    #         new_lobj["translations"] = old_lobj["translations"]
+    #         new_and_improved.append(new_lobj)
+    #
+    # write_output(dict=new_and_improved, output_file="OUTPUT_check_rescraped_against_existing", folder="output_saved")
