@@ -7,14 +7,14 @@ from utils.scraping.common import check_rescraped_against_existing
 
 if __name__ == '__main__':
 
-    # check_rescraped_against_existing("verbs_old", "verbs_new")
+    check_rescraped_against_existing("adjectives_old", "adjectives_new")
 
-    step = 2
+    step = 1
     group_number = 1
     input_indexes = [0, 50]
-    wordtype = "v"
+    wordtype = "a"
     these_headwords_only = []
-    # these_headwords_only = ['woleć']
+    # these_headwords_only = ['lekki']
     skip_make_ids = False  # only set True when manually testing.
     skip_scraping = False  # only set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
     langcode = "pol"
