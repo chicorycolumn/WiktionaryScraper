@@ -1,4 +1,3 @@
-import copy
 import urllib.request as urllib2
 import urllib as urllib
 from datetime import datetime
