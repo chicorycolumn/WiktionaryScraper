@@ -1,4 +1,4 @@
-from parsers.common import scrape_word_data, reorder_lemma_objects_in_result
+from parsers.common import reorder_lemma_objects_in_result
 from utils.scraping.Polish import minimise_inflections
 from utils.general.common import write_output
 from utils.postprocessing.Polish import generate_adjective
@@ -7,7 +7,6 @@ from testdata.test_helpers.Polish import test_helper_shorthand_tag_ref_noun
 
 import json
 import pytest
-import os
 
 
 @pytest.mark.parametrize("input,expected", [
