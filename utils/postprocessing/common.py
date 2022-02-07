@@ -135,7 +135,8 @@ def make_ids(langcode, wordtype, lemma_objects=None, existing_lobjs_path=None):
     return res_arr
 
 
-def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
+def recursively_combine_string_values_into_tobjs(dict1, dict2):
+    # Recursively combine dicts with values which are strings, into Terminus Objects.
     keypath = []
 
     for key, value in dict1.items():
@@ -179,7 +180,7 @@ def recursively_combine_string_values_into_terminus_objects(dict1, dict2):
             get_value_from_keypath(dict1, keypath[:-1])[key] = terminus_object
 
         elif type(value) == dict:
-            recursively_combine_string_values_into_terminus_objects(value, get_value_from_keypath(dict2, keypath))
+            recursively_combine_string_values_into_tobjs(value, get_value_from_keypath(dict2, keypath))
         else:
             raise Exception(f"ERR 619: Failure in recursively_com... Unexpected type {type(value)} of {value} at keypath {keypath}.")
 
