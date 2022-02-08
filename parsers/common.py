@@ -1,12 +1,11 @@
+from datetime import timedelta, datetime
+from time import sleep
+import json
 import re
 
 from parsers.Polish_adjective_parser import PolishAdjectiveParser
 from parsers.Polish_noun_parser import PolishNounParser
 from parsers.Polish_verb_parser import PolishVerbParser
-
-from datetime import timedelta, datetime
-from time import sleep
-import json
 
 from utils.general.common import write_output, write_todo, get_existing_lemma_objects
 from utils.postprocessing.Polish import generate_adjective
