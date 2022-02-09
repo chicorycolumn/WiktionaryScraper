@@ -1,8 +1,5 @@
 from copy import deepcopy
-
-from utils.general.common import write_todo
-from utils.postprocessing.common import recursively_prefix_string_values, \
-    recursively_combine_string_values_into_tobjs
+from utils.postprocessing.common import recursively_prefix_string_values, recursively_combine_string_values_into_tobjs
 
 
 def generate_adjective(lemma: str, translations_list: list, comparative_type: int, pluvirnom_lemma: list, adverb: list = [], comparative: str = None, lemma_object: dict = None):
