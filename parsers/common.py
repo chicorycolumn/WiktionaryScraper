@@ -7,7 +7,7 @@ from parsers.Polish_adjective_parser import PolishAdjectiveParser
 from parsers.Polish_noun_parser import PolishNounParser
 from parsers.Polish_verb_parser import PolishVerbParser
 
-from utils.general.common import write_output, write_todo, get_existing_lemma_objects
+from utils.general.common import write_output, write_todo, get_existing_lobjs
 from utils.postprocessing.Polish import generate_adjective
 from utils.scraping.Polish import minimise_inflections
 from utils.scraping.common import html_from_head_word
@@ -26,7 +26,7 @@ def add_output_arr_to_result(output_arr, head_word, result, rejected):
 
 def trigger_parser(head_words_raw, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_to_parse, test_only_boolean_override_check_existing=False):
     if not test_only_boolean_override_check_existing:
-        already_parsed_headwords = get_existing_lemma_objects(wordtype, lemmas_only=True)
+        already_parsed_headwords = get_existing_lobjs(wordtype, lemmas_only=True)
         head_words = []
         headwords_not_to_parse = []
 
@@ -181,7 +181,7 @@ def scrape_word_data(
 
         trigger_parser(head_words, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs, test_only_boolean_override_check_existing=test_only_boolean_override_check_existing)
 
-        existing_lemmas = get_existing_lemma_objects(wordtype, lemmas_only=True)
+        existing_lemmas = get_existing_lobjs(wordtype, lemmas_only=True)
 
         extra = []
         for extra_lemmas_obj in extra_lemmas_objs:

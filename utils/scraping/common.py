@@ -3,7 +3,7 @@ import urllib as urllib
 from datetime import datetime
 import re
 
-from utils.general.common import get_existing_lemma_objects, write_todo, write_output
+from utils.general.common import get_existing_lobjs, write_todo, write_output
 
 
 def format_usage_string_list(usage_string_list):
@@ -222,8 +222,8 @@ def double_decode(str):
 
 
 def check_rescraped_against_existing(folder_of_existing, folder_of_new):
-    old = get_existing_lemma_objects(folder_of_existing)
-    new = get_existing_lemma_objects(folder_of_new)
+    old = get_existing_lobjs(folder_of_existing)
+    new = get_existing_lobjs(folder_of_new)
 
     # old_ids = [lobj["id"] for lobj in old]
     # new_ids = [lobj["id"] for lobj in new]

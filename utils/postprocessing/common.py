@@ -1,4 +1,4 @@
-from utils.general.common import write_todo, write_output, get_value_from_keypath, get_base_temp_id, get_existing_lemma_objects
+from utils.general.common import write_todo, write_output, get_value_from_keypath, get_base_temp_id, get_existing_lobjs
 from input.Polish.nouns.head_words import person_nouns_without_m1_gender
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 import copy
@@ -24,7 +24,7 @@ def get_distinguisher_info_of_verb_allohom(lemma_object, wordtype):
 
 def make_ids(langcode, wordtype, lemma_objects=None, existing_lobjs_path=None):
 
-    existing_lemma_objects = get_existing_lemma_objects(wordtype, existing_lobjs_path=existing_lobjs_path)
+    existing_lemma_objects = get_existing_lobjs(wordtype, existing_lobjs_path=existing_lobjs_path)
 
     res_arr = []
 

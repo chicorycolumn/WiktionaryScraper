@@ -5,7 +5,7 @@ import re
 import os
 
 
-def get_existing_lemma_objects(wordtype: str, lemmas_only: bool = False, existing_lobjs_path: str = None):
+def get_existing_lobjs(wordtype: str, lemmas_only: bool = False, existing_lobjs_path: str = None):
     if not existing_lobjs_path:
         existing_lobjs_path = f'output_saved/{wordtype}'
 
