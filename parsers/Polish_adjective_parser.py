@@ -1,8 +1,7 @@
 from copy import deepcopy
 from html.parser import HTMLParser
 
-from utils.scraping.common import orth, add_string, brackets_to_end, trim_around_brackets, split_definition_to_list, \
-    process_extra, format_brackets_for_translation_strings
+from utils.scraping.common import orth, add_string, process_extra, format_brackets_for_translation_strings
 
 """
 Do the language heading detection as normal.
