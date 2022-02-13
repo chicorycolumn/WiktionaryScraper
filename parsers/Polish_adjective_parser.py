@@ -55,8 +55,6 @@ class PolishAdjectiveParser(HTMLParser):
 
         self.mode = None
         print('mode = None (1)')
-        # self.el_count = 0
-        # self.inflections = {}
         self.output_obj = {
             "lemma": [],
             "translations": {"ENG": []},
@@ -72,12 +70,8 @@ class PolishAdjectiveParser(HTMLParser):
                 "usage": [],
             },
         }
-        # self.keys = []
-        # self.subkey = None
         self.current_definition = []
         self.current_usage = None
-        # self.current_other_shape_key = None
-        # self.current_other_shape_value = []
         self.tr_count = 0
         self.td_count = 0
 
@@ -86,7 +80,6 @@ class PolishAdjectiveParser(HTMLParser):
 
         self.reset_for_new_table()
         self.output_arr = []
-        # self.keys = []
         self.location = None
         print('location = None')
 
