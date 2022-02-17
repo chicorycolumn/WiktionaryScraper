@@ -15,19 +15,36 @@
     },
     {
         "lemma": "zły",
-        "tags": "xxxxxxxxx",
+        "tags": "1-",
         "translations": {
             "ENG": [
                 "bad",
                 "(not good)",
-                "incorrect",
-                "evil",
-                "angry",
-                "mad",
-                "(displaying or feeling anger)"
+                "incorrect"
             ]
         },
         "temp_id": "1.2"
+    },
+    {
+        "lemma": "zły",
+        "tags": "1-,py",
+        "translations": {
+            "ENG": [
+                "evil"
+            ]
+        },
+        "temp_id": "1.2a"
+    },
+    {
+        "lemma": "zły",
+        "tags": "1-,e",
+        "translations": {
+            "ENG": [
+                "angry",
+                "mad"
+            ]
+        },
+        "temp_id": "1.2b"
     },
     {
         "lemma": "jasny",
