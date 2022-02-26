@@ -9,7 +9,7 @@ if __name__ == '__main__':
 
     check_rescraped_against_existing("adjectives_old", "adjectives_new")
 
-    step = 1
+    step = 2
     group_number = 1
     input_indexes = [0, 50]
     wordtype = "a"
