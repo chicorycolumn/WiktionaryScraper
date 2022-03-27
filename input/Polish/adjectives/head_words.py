@@ -50,6 +50,8 @@ input = ['młody', 'powolny', 'wspaniały', 'niezwykły', 'główny', 'ładny', 
          'zbędny',
          'gruby',
          'rzadki',
-         'powierzchowny'
+         'powierzchowny',
+
+'sztuczny', 'różnorodny', 'ścisły', 'niechlujny', 'durny', 'realny', 'tępy', 'mądry', 'niedbały'
 
          ]

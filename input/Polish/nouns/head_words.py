@@ -1472,6 +1472,8 @@ input = [
     "dyżur",
     "postawa",
     "utrzymanie",
+
+"skarpetka", "nóżka", "partnerka", "kulka"
 ]
 
 person_nouns_without_m1_gender = ["nauczycielka", "panna", "siostrzenica", "bratanica", "matka", "dziewczyna", "kobieta", "siostra", "aktorka",

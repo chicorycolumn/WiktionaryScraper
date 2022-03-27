@@ -7,12 +7,12 @@ from utils.scraping.common import check_rescraped_against_existing
 
 if __name__ == '__main__':
 
-    check_rescraped_against_existing("adjectives_old", "adjectives_new")
+    # check_rescraped_against_existing("adjectives_old", "adjectives_new")
 
-    step = 2
-    group_number = 1
-    input_indexes = [0, 50]
-    wordtype = "a"
+    step = 1
+    group_number = 2
+    input_indexes = [0, 200]
+    wordtype = "v"
     these_headwords_only = []
     # these_headwords_only = ['lekki']
     skip_make_ids = False  # only set True when manually testing.
@@ -34,14 +34,14 @@ if __name__ == '__main__':
 
     Step 1.5 Move all files to output_saved.
     
-               (i) Delete *_scraped then move all three files to output_saved.
+              (i) Delete *_scraped then move all three files to output_saved.
     
-              (ii)  Take truncated_words_99 and whittle translations
+              (ii) Take truncated_words_99 and whittle translations
     
 Don't worry about strings in the translations array that start and end with brackets, they will be removed automatically.
 Don't worry about duplicated translations eg ["wolf", "wolf"] as these will be removed automatically.
               
-             (iii) Manually add shorthand tags. 
+              (iii) Manually add shorthand tags. 
 
 Make sure include frequency tag, but no comma needed. eg "v1" or "!,g1" or "b,n,w,t1".
 Flag lobjs for deletion simply by adding '!' at start of lemma.
