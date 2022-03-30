@@ -552,4 +552,8 @@ shorthand_tag_refs = {
 
     # # # # # # # # # # #
 
+    "he": {
+        "tags": ["helper"],
+        "topics": [],
+    },
 }
