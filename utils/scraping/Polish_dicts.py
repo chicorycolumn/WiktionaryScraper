@@ -523,6 +523,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["geometry"],
     },
+    "med": {
+        "tags": [],
+        "topics": ["medicine"],
+    },
     "pl": {
         "tags": [],
         "topics": ["planning"],
