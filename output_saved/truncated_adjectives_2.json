@@ -946,7 +946,7 @@
     },
     {
         "lemma": "niedochodowy",
-        "tags": "5$",
+        "tags": "5$,-",
         "translations": {
             "ENG": [
                 "unprofitable"
@@ -989,7 +989,7 @@
     },
     {
         "lemma": "nieopłacalny",
-        "tags": "5$",
+        "tags": "5$,-",
         "translations": {
             "ENG": [
                 "unprofitable"
@@ -999,7 +999,7 @@
     },
     {
         "lemma": "niesmaczny",
-        "tags": "4ee",
+        "tags": "4ee,-",
         "translations": {
             "ENG": [
                 "unsavoury",
@@ -1012,7 +1012,7 @@
     },
     {
         "lemma": "rentowny",
-        "tags": "5$",
+        "tags": "5$,+",
         "translations": {
             "ENG": [
                 "(literary)",
@@ -1034,7 +1034,7 @@
     },
     {
         "lemma": "nierentowny",
-        "tags": "5$",
+        "tags": "5$,-",
         "translations": {
             "ENG": [
                 "unprofitable"
@@ -1063,32 +1063,9 @@
         },
         "temp_id": "2.90"
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
         "lemma": "staranny",
-        "tags": "xxxxxxxxx",
+        "tags": "5py",
         "translations": {
             "ENG": [
                 "careful",
@@ -1100,7 +1077,7 @@
     },
     {
         "lemma": "niemoralny",
-        "tags": "xxxxxxxxx",
+        "tags": "5phi",
         "translations": {
             "ENG": [
                 "immoral"
@@ -1110,7 +1087,7 @@
     },
     {
         "lemma": "moralny",
-        "tags": "xxxxxxxxx",
+        "tags": "5phi",
         "translations": {
             "ENG": [
                 "moral"
@@ -1120,7 +1097,7 @@
     },
     {
         "lemma": "smaczny",
-        "tags": "xxxxxxxxx",
+        "tags": "2ff,+",
         "translations": {
             "ENG": [
                 "tasty",
@@ -1130,7 +1107,7 @@
         "temp_id": "2.94"
     },
     {
-        "lemma": "niestaranny",
+        "lemma": "!niestaranny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1142,7 +1119,7 @@
     },
     {
         "lemma": "opłacalny",
-        "tags": "xxxxxxxxx",
+        "tags": "5$,+",
         "translations": {
             "ENG": [
                 "lucrative",
@@ -1153,7 +1130,7 @@
     },
     {
         "lemma": "dochodowy",
-        "tags": "xxxxxxxxx",
+        "tags": "5$,+",
         "translations": {
             "ENG": [
                 "lucrative",
@@ -1164,7 +1141,7 @@
     },
     {
         "lemma": "posłuszny",
-        "tags": "xxxxxxxxx",
+        "tags": "4py",
         "translations": {
             "ENG": [
                 "obedient",
@@ -1175,28 +1152,20 @@
     },
     {
         "lemma": "wściekły",
-        "tags": "xxxxxxxxx",
+        "tags": "4e",
         "translations": {
             "ENG": [
                 "furious",
                 "livid",
-                "(angry)",
-                "rabid",
-                "(affected with rabies)",
-                "(colloquial)",
-                "fierce",
-                "unrelenting",
-                "(color)",
-                "very",
-                "bright",
-                "garish"
+                "angry",
+                "rabid"
             ]
         },
         "temp_id": "2.99"
     },
     {
         "lemma": "solidny",
-        "tags": "xxxxxxxxx",
+        "tags": "5+,kk",
         "translations": {
             "ENG": [
                 "sturdy",
@@ -1212,7 +1181,7 @@
     },
     {
         "lemma": "szary",
-        "tags": "xxxxxxxxx",
+        "tags": "2k",
         "translations": {
             "ENG": [
                 "grey"
@@ -1222,25 +1191,19 @@
     },
     {
         "lemma": "towarzyski",
-        "tags": "xxxxxxxxx",
+        "tags": "5soc",
         "translations": {
             "ENG": [
                 "sociable",
                 "social",
-                "(relational)",
-                "related to",
-                "contacts",
-                "between",
-                "acquaintances",
-                "belonging to a",
-                "company"
+                "(relational)"
             ]
         },
         "temp_id": "2.102"
     },
     {
         "lemma": "nietowarzyski",
-        "tags": "xxxxxxxxx",
+        "tags": "5soc",
         "translations": {
             "ENG": [
                 "unsociable",
@@ -1251,12 +1214,9 @@
     },
     {
         "lemma": "malutki",
-        "tags": "xxxxxxxxx",
+        "tags": "3z",
         "translations": {
             "ENG": [
-                "Diminutive",
-                "of",
-                "mały",
                 "tiny",
                 "minute",
                 "(very small)"
@@ -1266,7 +1226,7 @@
     },
     {
         "lemma": "mały",
-        "tags": "xxxxxxxxx",
+        "tags": "1z",
         "translations": {
             "ENG": [
                 "small",
@@ -1277,7 +1237,7 @@
     },
     {
         "lemma": "suchy",
-        "tags": "xxxxxxxxx",
+        "tags": "2kk,ð",
         "translations": {
             "ENG": [
                 "dry",
@@ -1288,7 +1248,7 @@
     },
     {
         "lemma": "mokry",
-        "tags": "xxxxxxxxx",
+        "tags": "2kk,ð",
         "translations": {
             "ENG": [
                 "wet",
@@ -1299,7 +1259,7 @@
     },
     {
         "lemma": "śliczny",
-        "tags": "xxxxxxxxx",
+        "tags": "3kk,+",
         "translations": {
             "ENG": [
                 "beautiful",
@@ -1310,9 +1270,10 @@
     },
     {
         "lemma": "paskudny",
-        "tags": "xxxxxxxxx",
+        "tags": "4-,kk,py",
         "translations": {
             "ENG": [
+                "nasty",
                 "ugly",
                 "repulsive",
                 "unbearable",
@@ -1323,7 +1284,7 @@
         "temp_id": "2.109"
     },
     {
-        "lemma": "szpetny",
+        "lemma": "!szpetny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1334,7 +1295,7 @@
         "temp_id": "2.110"
     },
     {
-        "lemma": "szkaradny",
+        "lemma": "!szkaradny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1348,6 +1309,28 @@
         },
         "temp_id": "2.111"
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
         "lemma": "uroczy",
         "tags": "xxxxxxxxx",
