@@ -197,6 +197,14 @@ shorthand_tag_refs = {
         "tags": ["aa"],
         "topics": ["time"],
     },
+    "tt": {
+        "tags": [],
+        "topics": ["time"],
+    },
+    "ss": {
+        "tags": [],
+        "topics": ["spatial"],
+    },
     "as": {
         "tags": ["aa"],
         "topics": ["school"],
@@ -526,6 +534,10 @@ shorthand_tag_refs = {
     "med": {
         "tags": [],
         "topics": ["medicine"],
+    },
+    "wri": {
+        "tags": [],
+        "topics": ["writing"],
     },
     "pl": {
         "tags": [],
