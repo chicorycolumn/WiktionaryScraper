@@ -1514,32 +1514,8 @@
         },
         "temp_id": "2.128"
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
-        "lemma": "przymknięty",
+        "lemma": "!przymknięty",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1552,7 +1528,7 @@
     },
     {
         "lemma": "normalny",
-        "tags": "xxxxxxxxx",
+        "tags": "2he,fq",
         "translations": {
             "ENG": [
                 "normal"
@@ -1562,7 +1538,7 @@
     },
     {
         "lemma": "olbrzymi",
-        "tags": "xxxxxxxxx",
+        "tags": "4z",
         "translations": {
             "ENG": [
                 "huge",
@@ -1573,7 +1549,7 @@
     },
     {
         "lemma": "skąpy",
-        "tags": "xxxxxxxxx",
+        "tags": "4py,$,-",
         "translations": {
             "ENG": [
                 "stingy",
@@ -1590,7 +1566,7 @@
     },
     {
         "lemma": "hojny",
-        "tags": "xxxxxxxxx",
+        "tags": "4py,$,+",
         "translations": {
             "ENG": [
                 "generous",
@@ -1602,7 +1578,7 @@
     },
     {
         "lemma": "szczodry",
-        "tags": "xxxxxxxxx",
+        "tags": "4py,$,+",
         "translations": {
             "ENG": [
                 "generous",
@@ -1614,7 +1590,7 @@
     },
     {
         "lemma": "szeroki",
-        "tags": "xxxxxxxxx",
+        "tags": "2z",
         "translations": {
             "ENG": [
                 "wide",
@@ -1625,7 +1601,7 @@
     },
     {
         "lemma": "wąski",
-        "tags": "xxxxxxxxx",
+        "tags": "2z",
         "translations": {
             "ENG": [
                 "narrow",
@@ -1636,7 +1612,7 @@
     },
     {
         "lemma": "rozległy",
-        "tags": "xxxxxxxxx",
+        "tags": "4z",
         "translations": {
             "ENG": [
                 "vast",
@@ -1649,7 +1625,7 @@
     },
     {
         "lemma": "obszerny",
-        "tags": "xxxxxxxxx",
+        "tags": "4z",
         "translations": {
             "ENG": [
                 "vast",
@@ -1665,7 +1641,7 @@
     },
     {
         "lemma": "sprawiedliwy",
-        "tags": "xxxxxxxxx",
+        "tags": "4phi,l,+,py",
         "translations": {
             "ENG": [
                 "fair",
@@ -1676,7 +1652,7 @@
     },
     {
         "lemma": "niesprawiedliwy",
-        "tags": "xxxxxxxxx",
+        "tags": "4phi,l,i,py",
         "translations": {
             "ENG": [
                 "unfair",
@@ -1687,35 +1663,41 @@
     },
     {
         "lemma": "rzadki",
-        "tags": "xxxxxxxxx",
+        "tags": "2fq",
         "translations": {
             "ENG": [
                 "rare",
                 "uncommon",
-                "thin",
-                "runny",
-                "smooth",
-                "(of a liquid)",
-                "sparse",
-                "(mathematics)",
-                "sparse"
+                "scarce"
             ]
         },
         "temp_id": "2.141"
     },
     {
-        "lemma": "inteligentny",
-        "tags": "xxxxxxxxx",
+        "lemma": "rzadki",
+        "tags": "4ð",
         "translations": {
             "ENG": [
-                "intelligent"
+                "runny"
+            ]
+        },
+        "temp_id": "2.141a"
+    },
+    {
+        "lemma": "inteligentny",
+        "tags": "3py,+",
+        "translations": {
+            "ENG": [
+                "intelligent",
+                "smart",
+                "clever"
             ]
         },
         "temp_id": "2.142"
     },
     {
         "lemma": "głupi",
-        "tags": "xxxxxxxxx",
+        "tags": "3py,-",
         "translations": {
             "ENG": [
                 "stupid",
@@ -1727,7 +1709,7 @@
     },
     {
         "lemma": "możliwy",
-        "tags": "xxxxxxxxx",
+        "tags": "3he",
         "translations": {
             "ENG": [
                 "possible",
@@ -1740,7 +1722,7 @@
     },
     {
         "lemma": "niemożliwy",
-        "tags": "xxxxxxxxx",
+        "tags": "3he",
         "translations": {
             "ENG": [
                 "impracticable",
@@ -1751,7 +1733,7 @@
     },
     {
         "lemma": "nierealny",
-        "tags": "xxxxxxxxx",
+        "tags": "4phi,pr",
         "translations": {
             "ENG": [
                 "unreal",
@@ -1761,6 +1743,25 @@
         },
         "temp_id": "2.146"
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
         "lemma": "pełny",
         "tags": "xxxxxxxxx",
