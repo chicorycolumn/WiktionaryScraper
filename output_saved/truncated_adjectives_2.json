@@ -1743,28 +1743,9 @@
         },
         "temp_id": "2.146"
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
         "lemma": "pełny",
-        "tags": "xxxxxxxxx",
+        "tags": "2@@,z",
         "translations": {
             "ENG": [
                 "full",
@@ -1778,7 +1759,7 @@
     },
     {
         "lemma": "pusty",
-        "tags": "xxxxxxxxx",
+        "tags": "2@@,z",
         "translations": {
             "ENG": [
                 "empty",
@@ -1793,7 +1774,7 @@
     },
     {
         "lemma": "międzynarodowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4geo",
         "translations": {
             "ENG": [
                 "international"
@@ -1803,7 +1784,7 @@
     },
     {
         "lemma": "wygodny",
-        "tags": "xxxxxxxxx",
+        "tags": "2ee,kk,+",
         "translations": {
             "ENG": [
                 "comfortable"
@@ -1813,7 +1794,7 @@
     },
     {
         "lemma": "niewygodny",
-        "tags": "xxxxxxxxx",
+        "tags": "2ee,kk,-",
         "translations": {
             "ENG": [
                 "uncomfortable",
@@ -1824,7 +1805,7 @@
         "temp_id": "2.151"
     },
     {
-        "lemma": "luby",
+        "lemma": "!luby",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1837,7 +1818,7 @@
     },
     {
         "lemma": "sławny",
-        "tags": "xxxxxxxxx",
+        "tags": "3pp,soc",
         "translations": {
             "ENG": [
                 "famous",
@@ -1848,7 +1829,7 @@
     },
     {
         "lemma": "hałaśliwy",
-        "tags": "xxxxxxxxx",
+        "tags": "3!",
         "translations": {
             "ENG": [
                 "loud",
@@ -1860,7 +1841,7 @@
     },
     {
         "lemma": "znany",
-        "tags": "xxxxxxxxx",
+        "tags": "3pp,soc,he",
         "translations": {
             "ENG": [
                 "known",
@@ -1873,20 +1854,18 @@
     },
     {
         "lemma": "słynny",
-        "tags": "xxxxxxxxx",
+        "tags": "3pp,soc,he",
         "translations": {
             "ENG": [
                 "well-known",
                 "famous",
-                "z",
-                "(genitive)"
             ]
         },
         "temp_id": "2.156"
     },
     {
         "lemma": "zabawny",
-        "tags": "xxxxxxxxx",
+        "tags": "3kk,pp,ee",
         "translations": {
             "ENG": [
                 "amusing",
@@ -1897,7 +1876,7 @@
     },
     {
         "lemma": "śmieszny",
-        "tags": "xxxxxxxxx",
+        "tags": "3kk,pp,ee",
         "translations": {
             "ENG": [
                 "funny",
@@ -1908,7 +1887,7 @@
     },
     {
         "lemma": "żartobliwy",
-        "tags": "xxxxxxxxx",
+        "tags": "5py",
         "translations": {
             "ENG": [
                 "humorous",
@@ -1922,7 +1901,7 @@
     },
     {
         "lemma": "dowcipny",
-        "tags": "xxxxxxxxx",
+        "tags": "5py",
         "translations": {
             "ENG": [
                 "witty",
@@ -1935,7 +1914,7 @@
     },
     {
         "lemma": "komiczny",
-        "tags": "xxxxxxxxx",
+        "tags": "5py",
         "translations": {
             "ENG": [
                 "comical",
@@ -1945,6 +1924,29 @@
         },
         "temp_id": "2.161"
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
         "lemma": "pikantny",
         "tags": "xxxxxxxxx",
