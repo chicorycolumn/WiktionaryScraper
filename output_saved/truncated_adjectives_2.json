@@ -2356,22 +2356,9 @@
         },
         "temp_id": "2.197"
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
         "lemma": "niezdrowy",
-        "tags": "xxxxxxxxx",
+        "tags": "3med,-,bb",
         "translations": {
             "ENG": [
                 "unhealthy",
@@ -2382,7 +2369,7 @@
     },
     {
         "lemma": "przyjemny",
-        "tags": "xxxxxxxxx",
+        "tags": "3+,kk",
         "translations": {
             "ENG": [
                 "pleasant"
@@ -2392,21 +2379,17 @@
     },
     {
         "lemma": "gorący",
-        "tags": "xxxxxxxxx",
+        "tags": "2łłł",
         "translations": {
             "ENG": [
-                "hot",
-                "(having high temperature)",
-                "warm",
-                "cordial",
-                "(referring to, e.g., a welcome)"
+                "hot"
             ]
         },
         "temp_id": "2.200"
     },
     {
         "lemma": "czerwony",
-        "tags": "xxxxxxxxx",
+        "tags": "1k",
         "translations": {
             "ENG": [
                 "red"
@@ -2416,7 +2399,7 @@
     },
     {
         "lemma": "przeciętny",
-        "tags": "xxxxxxxxx",
+        "tags": "4he,fq,mat",
         "translations": {
             "ENG": [
                 "average",
@@ -2429,7 +2412,7 @@
     },
     {
         "lemma": "radosny",
-        "tags": "xxxxxxxxx",
+        "tags": "3e",
         "translations": {
             "ENG": [
                 "joyful",
@@ -2440,11 +2423,13 @@
     },
     {
         "lemma": "kolorowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4kk",
         "translations": {
             "ENG": [
                 "colorful",
+                "colourful",
                 "color",
+                "colour",
                 "(as opposed to grayscale or monochrome)"
             ]
         },
@@ -2452,7 +2437,7 @@
     },
     {
         "lemma": "brązowy",
-        "tags": "xxxxxxxxx",
+        "tags": "1k",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -2465,19 +2450,28 @@
     },
     {
         "lemma": "lepki",
-        "tags": "xxxxxxxxx",
+        "tags": "3ð",
         "translations": {
             "ENG": [
                 "sticky",
-                "tacky",
                 "viscous"
             ]
         },
         "temp_id": "2.206"
     },
     {
+        "lemma": "lepki",
+        "tags": "5kk,-",
+        "translations": {
+            "ENG": [
+                "tacky"
+            ]
+        },
+        "temp_id": "2.206a"
+    },
+    {
         "lemma": "niezawodny",
-        "tags": "xxxxxxxxx",
+        "tags": "4he,py",
         "translations": {
             "ENG": [
                 "dependable",
@@ -2489,7 +2483,7 @@
     },
     {
         "lemma": "zadowolony",
-        "tags": "xxxxxxxxx",
+        "tags": "4e",
         "translations": {
             "ENG": [
                 "content",
@@ -2500,7 +2494,7 @@
     },
     {
         "lemma": "trójkątny",
-        "tags": "xxxxxxxxx",
+        "tags": "4z,geo",
         "translations": {
             "ENG": [
                 "triangular"
@@ -2510,7 +2504,7 @@
     },
     {
         "lemma": "znakomity",
-        "tags": "xxxxxxxxx",
+        "tags": "3+",
         "translations": {
             "ENG": [
                 "great",
@@ -2557,7 +2551,7 @@
     },
     {
         "lemma": "zdrowy",
-        "tags": "xxxxxxxxx",
+        "tags": "3med,+,bb",
         "translations": {
             "ENG": [
                 "healthy",
