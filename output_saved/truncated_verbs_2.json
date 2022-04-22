@@ -1,64 +1,64 @@
 [
     {
         "lemma": "pomyśleć",
-        "tags": "xxxxxxxxx",
+        "tags": "1€",
         "translations": {
             "ENG": [
-                "= about/of something][i]  to think [+ o (locative)"
+                "to think[i]#o+locative"
             ]
         },
         "temp_id": "2.1"
     },
     {
         "lemma": "myśleć",
-        "tags": "xxxxxxxxx",
+        "tags": "1€",
         "translations": {
             "ENG": [
-                "= about/of something][i]  to think [+ o (locative)"
+                "to think[i]#o+locative"
             ]
         },
         "temp_id": "2.2"
     },
     {
         "lemma": "wyłączać",
-        "tags": "xxxxxxxxx",
+        "tags": "3ii,bb",
         "translations": {
             "ENG": [
-                "Synonym: dezaktywować Antonym: włączać  to switch off, to turn off, to disable (to put a mechanism, device or system out of operation; to deactivate)",
-                "Synonym: wykluczać Antonym: włączać  to exclude (to omit from consideration)"
+                "to turn off","to switch off","to disable"
             ]
         },
+        "extra": {"derivedTerms": [                "Synonym: dezaktywować Antonym: włączać  to switch off, to turn off, to disable (to put a mechanism, device or system out of operation; to deactivate)"
+        ,                "Synonym: wykluczać Antonym: włączać  to exclude (to omit from consideration)"
+ ]},
         "temp_id": "2.3"
     },
     {
         "lemma": "wyłączyć",
-        "tags": "xxxxxxxxx",
+        "tags": "3ii,bb",
         "translations": {
-            "ENG": [
-                "Synonym: zdezaktywować Antonym: włączyć  to switch off, to turn off, to disable (to put a mechanism, device or system out of operation; to deactivate)",
-                "Synonym: wykluczyć Antonym: włączyć  to exclude (to omit from consideration)"
+            "ENG": [           "to turn off","to switch off","to disable"
             ]
         },
+        "extra": {"derivedTerms": [
+                "Synonym: zdezaktywować Antonym: włączyć  to switch off, to turn off, to disable (to put a mechanism, device or system out of operation; to deactivate)",
+                "Synonym: wykluczyć Antonym: włączyć  to exclude (to omit from consideration)"]},
         "temp_id": "2.4"
     },
     {
         "lemma": "otwierać",
-        "tags": "xxxxxxxxx",
+        "tags": "2bb,hh",
         "translations": {
             "ENG": [
-                "to open (to make something accessible)",
-                "to be be easy to open[r]"
+                "to open"
             ]
         },
         "temp_id": "2.5"
     },
     {
         "lemma": "otworzyć",
-        "tags": "xxxxxxxxx",
+          "tags": "2bb,hh",
         "translations": {
-            "ENG": [
-                "to open (to make something accessible)",
-                "to be easy to open[r]"
+            "ENG": [        "to open"
             ]
         },
         "temp_id": "2.6"
