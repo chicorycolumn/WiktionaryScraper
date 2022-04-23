@@ -65,7 +65,7 @@
     },
     {
         "lemma": "powiedzieć",
-        "tags": "xxxxxxxxx",
+        "tags": "1bb,££",
         "translations": {
             "ENG": [
                 "to tell[t,i]",
@@ -76,10 +76,11 @@
     },
     {
         "lemma": "mówić",
-        "tags": "xxxxxxxxx",
+       "tags": "1bb,££",
         "translations": {
             "ENG": [
-                "to say tell Synonyms: powiadać prawić rzec",
+                "to say",
+                "to tell",
                 "to speak[i]",
                 "to talk[i]"
             ]
@@ -88,157 +89,145 @@
     },
     {
         "lemma": "porozmawiać",
-        "tags": "xxxxxxxxx",
+   "tags": "3bb,££",
         "translations": {
             "ENG": [
-                "to talk, to speak, to converse, to chat[i]"
+                "to talk[i]", "to speak[i]", "to converse[i]", "to chat[i]"
             ]
         },
         "temp_id": "2.9"
     },
     {
         "lemma": "rozmawiać",
-        "tags": "xxxxxxxxx",
+        "tags": "3bb,££",
         "translations": {
             "ENG": [
-                "to talk, to speak, to converse, to chat[i]"
+                "to talk[i]", "to speak[i]", "to converse[i]", "to chat[i]"
             ]
         },
         "temp_id": "2.10"
     },
     {
         "lemma": "kończyć",
-        "tags": "xxxxxxxxx",
+        "tags": "3tt",
         "translations": {
             "ENG": [
-                "to end, to finish",
-                "to stop, to quit",
-                "to turn, to reach a certain age",
-                "to end, to finish [+intrumental = in/as what][r]",
-                "to run out of[r]",
-                "to die Synonyms: see Thesaurus: umierać[r]"
+                "to end[i]", "to finish[i]",
+                "to stop[i]", "to quit[i]"
             ]
         },
         "temp_id": "2.11"
     },
     {
         "lemma": "skończyć",
-        "tags": "xxxxxxxxx",
+        "tags": "3tt",
         "translations": {
             "ENG": [
-                "to end, to finish",
-                "to stop, to quit",
-                "to come to an end, to finish [+intrumental = in/as what][r]",
-                "to turn, to reach a certain age",
-                "to result, to end up [+instrumental = in/with something][r]",
-                "to die Synonyms: see Thesaurus: umierać[r]"
+         "to end[i]", "to finish[i]",
+                "to stop[i]", "to quit[i]"
             ]
         },
         "temp_id": "2.12"
     },
     {
         "lemma": "spać",
-        "tags": "xxxxxxxxx",
+        "tags": "2bb",
         "translations": {
             "ENG": [
-                "to sleep ; to rest in state of reduced consciousness[i]",
-                "= with someone] Synonyms: see Thesaurus: uprawiać seks[euphemistic,i]  to sleep with, to have sex [+ z (instrumental)"
+                "to sleep[i]"
             ]
         },
         "temp_id": "2.13"
     },
     {
         "lemma": "tracić",
-        "tags": "xxxxxxxxx",
+        "tags": "3$,ŧŧ",
         "translations": {
             "ENG": [
+                "to lose","to waste","to squander"
+            ]
+        },
+        "extra": {
+            "derivedTerms": [
                 "Hypernym: gubić  to lose (to cause something to cease to be in one's possession or capability)",
                 "Synonyms: marnować trwonić  to waste, to squander (e.g. time)",
-                "Synonym: przepuszczać  to pass up, to miss (e.g. an opportunity)"
-            ]
+                "Synonym: przepuszczać  to pass up, to miss (e.g. an opportunity)"]
         },
         "temp_id": "2.14"
     },
     {
         "lemma": "stracić",
-        "tags": "xxxxxxxxx",
+        "tags": "3$,ŧŧ",
         "translations": {
             "ENG": [
-                "Synonym: utracić Hypernym: zgubić  to lose (to cause something to cease to be in one's possession or capability)",
-                "to lose out on, to waste, to squander Synonyms: zmarnować roztrwonić",
-                "Synonym: przepuścić  to pass up, to miss (e.g. an opportunity)",
-                "to execute, to put to death"
+                "to lose","to waste","to squander"
             ]
         },
+          "extra": {
+            "derivedTerms": [    "Synonym: utracić Hypernym: zgubić  to lose (to cause something to cease to be in one's possession or capability)",
+                "to lose out on, to waste, to squander Synonyms: zmarnować roztrwonić",
+                "Synonym: przepuścić  to pass up, to miss (e.g. an opportunity)",
+                "to execute, to put to death"]},
         "temp_id": "2.15"
     },
     {
         "lemma": "utracić",
-        "tags": "xxxxxxxxx",
+        "tags": "4$,ŧŧ",
         "translations": {
             "ENG": [
-                "to lose, to be deprived of Synonym: stracić"
+                "to lose"
             ]
         },
+         "extra": {
+            "derivedTerms": ["Synonym: stracić"]},
         "temp_id": "2.16"
     },
     {
         "lemma": "sprzedawać",
-        "tags": "xxxxxxxxx",
+        "tags": "2$",
         "translations": {
             "ENG": [
-                "to sell",
-                "to shift, to sell quickly[r]",
-                "to snitch on, to inform on grass on[t,colloquial]",
-                "to marry someone[t,humor]",
-                "to sell out[r,colloquial] (to abandon or betray one's supporters or principles to seek profit or other personal advantage)",
-                "to prostitute[r,colloquial]"
+                "to sell"
             ]
         },
         "temp_id": "2.17"
     },
     {
         "lemma": "sprzedać",
-        "tags": "xxxxxxxxx",
+        "tags": "2$",
         "translations": {
             "ENG": [
-                "to sell",
-                "to snitch on, to inform on grass on[t,colloquial]",
-                "to marry someone[t,humor]",
-                "to sell out[r,colloquial] (to abandon or betray one's supporters or principles to seek profit or other personal advantage)",
-                "to prostitute[r,colloquial]"
+                "to sell"
             ]
         },
         "temp_id": "2.18"
     },
     {
         "lemma": "zapłacić",
-        "tags": "xxxxxxxxx",
+        "tags": "2$",
         "translations": {
             "ENG": [
-                "to pay (to give money in exchange for goods or services)",
-                "to pay (suffer the consequences)"
+                "to pay"
             ]
         },
         "temp_id": "2.19"
     },
     {
         "lemma": "płacić",
-        "tags": "xxxxxxxxx",
+        "tags": "2$",
         "translations": {
             "ENG": [
-                "= for something]  to pay (to give money in exchange for goods or services) [+dative = whom] [+ za (accusative)",
-                "to pay (suffer the consequences)"
+                "to pay#[+dative = whom] [+ za accusative]"
             ]
         },
         "temp_id": "2.20"
     },
     {
         "lemma": "mawiać",
-        "tags": "xxxxxxxxx",
+        "tags": "3bb,££",
         "translations": {
             "ENG": [
-                "used to say[i]  to say habitually (in past tense)"
+                "used to say[i]",  "to say habitually[i]"
             ]
         },
         "temp_id": "2.21"
