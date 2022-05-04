@@ -234,77 +234,88 @@
     },
     {
         "lemma": "organizować",
-        "tags": "xxxxxxxxx",
+        "tags": "3fq,bus",
         "translations": {
             "ENG": [
-                "to organize (to arrange in working order)",
-                "to organize (to constitute in parts, each having a special function; to systematize)",
-                "to organize[r] (to band together into a group or union that can bargain and act collectively; to unionize)"
+                "to organize",
+                "to organise",
+                "to organize[r]",
+                "to organise[r]"
             ]
         },
         "temp_id": "2.22"
     },
     {
         "lemma": "zorganizować",
-        "tags": "xxxxxxxxx",
+        "tags": "3fq,bus",
         "translations": {
             "ENG": [
-                "to organize (to arrange in working order)",
-                "to organize (to constitute in parts, each having a special function; to systematize)",
-                "to organize[r] (to band together into a group or union that can bargain and act collectively; to unionize)"
-            ]
+                "to organize",
+                "to organise",
+                "to organize[r]",
+                "to organise[r]"]
         },
         "temp_id": "2.23"
     },
     {
         "lemma": "włączyć",
-        "tags": "xxxxxxxxx",
+        "tags": "3ii,hh",
         "translations": {
             "ENG": [
-                "Synonyms: aktywować uaktywnić Antonym: wyłączyć  to switch on, to power up, to enable (to put a mechanism, device or system into operation)",
-                "Antonym: wyłączyć  to include (to bring into as a part or member)"
+              "to switch on","to turn on"
             ]
         },
+      "extra": {
+        "derivedTerms": [
+                "Synonyms: aktywować uaktywnić Antonym: wyłączyć  to switch on, to power up, to enable (to put a mechanism, device or system into operation)",
+                "Antonym: wyłączyć  to include (to bring into as a part or member)"]
+      },
         "temp_id": "2.24"
     },
     {
         "lemma": "włączać",
-        "tags": "xxxxxxxxx",
+        "tags": "3ii,hh",
         "translations": {
             "ENG": [
-                "Synonyms: aktywować uaktywniać Antonym: wyłączyć  to switch on, to power up, to enable (to put a mechanism, device or system into operation)",
-                "Synonym: uwzględniać Antonym: wyłączyć  to include (to bring into as a part or member)"
+                   "to switch on","to turn on"
             ]
         },
+      "extra": {
+        "derivedTerms": [     "Synonyms: aktywować uaktywniać Antonym: wyłączyć  to switch on, to power up, to enable (to put a mechanism, device or system into operation)",
+                "Synonym: uwzględniać Antonym: wyłączyć  to include (to bring into as a part or member)"
+           ]
+      },
         "temp_id": "2.25"
     },
     {
         "lemma": "wejść",
-        "tags": "xxxxxxxxx",
+        "tags": "3v,bb,ŧŧ",
         "translations": {
             "ENG": [
-                "to enter, to go into[i]"
+                "to enter","to go into[i]"
             ]
         },
         "temp_id": "2.26"
     },
     {
         "lemma": "wchodzić",
-        "tags": "xxxxxxxxx",
+        "tags": "3v,bb,ŧŧ",
         "translations": {
             "ENG": [
-                "Antonym: wychodzić[i]  to enter (to go into (a room, etc. ) on foot)",
-                "to get involved, to get mixed up[i]"
+                "to enter"
             ]
         },
+      "extra": {
+        "derivedTerms": ["Antonym: wychodzić[i]"]
+      },
         "temp_id": "2.27"
     },
     {
         "lemma": "umyć",
-        "tags": "xxxxxxxxx",
+        "tags": "2bb",
         "translations": {
             "ENG": [
-                "to wash, to clean (with water, soap, etc. )",
+                "to wash","to clean",
                 "to wash oneself[r]"
             ]
         },
@@ -312,10 +323,10 @@
     },
     {
         "lemma": "myć",
-        "tags": "xxxxxxxxx",
+        "tags": "2bb",
         "translations": {
             "ENG": [
-                "to wash, to clean with water",
+                "to wash","to clean",
                 "to wash oneself[r]"
             ]
         },
@@ -323,10 +334,10 @@
     },
     {
         "lemma": "oglądać",
-        "tags": "xxxxxxxxx",
+        "tags": "2~",
         "translations": {
             "ENG": [
-                "to watch (to look at for a period of time)",
+                "to watch",
                 "to look back[r]"
             ]
         },
@@ -334,13 +345,13 @@
     },
     {
         "lemma": "obejrzeć",
-        "tags": "xxxxxxxxx",
+        "tags": "2~",
         "translations": {
             "ENG": [
-                "to look at, to view",
+                "to look at", "to view",
                 "to watch",
-                "to see, to visit",
-                "to examine, to inspect",
+                "to see","to visit",
+                "to examine","to inspect",
                 "to look back[r]"
             ]
         },
@@ -348,62 +359,68 @@
     },
     {
         "lemma": "używać",
-        "tags": "xxxxxxxxx",
+        "tags": "2v",
         "translations": {
             "ENG": [
-                "to use (employ, apply)"
+                "to use"
             ]
         },
         "temp_id": "2.32"
     },
     {
         "lemma": "użyć",
-        "tags": "xxxxxxxxx",
+        "tags": "2v",
         "translations": {
             "ENG": [
-                "to use (employ, apply)"
+                "to use"
             ]
         },
         "temp_id": "2.33"
     },
     {
         "lemma": "szukać",
-        "tags": "xxxxxxxxx",
+        "tags": "2v,~",
         "translations": {
             "ENG": [
-                "to look for, to seek, to search [+genitive]"
+                "to look for#[+genitive]", "to seek#[+genitive]", "to search for#[+genitive]"
             ]
         },
         "temp_id": "2.34"
     },
     {
         "lemma": "sprzątać",
-        "tags": "xxxxxxxxx",
+        "tags": "2bb,hh",
         "translations": {
             "ENG": [
-                "to clean up, to sweep, to tidy up Antonyms: bałaganić brudzić",
+                "to clean up", "to sweep", "to tidy up"
+            ]
+        },
+      "extra": {
+        "derivdTerms": ["Antonyms: bałaganić brudzić",
                 "to remove something from somewhere and put it somewhere else",
                 "to take away something from someone[t,colloquial]",
                 "Synonym: wtrząchać[t,colloquial]  to gobble up (to consume rapidly)",
                 "Synonym: zabijać[t,informal]  to kill (to put to death)",
-                "to harvest (to bring in a harvest; to reap)"
-            ]
-        },
+                "to harvest (to bring in a harvest; to reap)"]
+      },
         "temp_id": "2.35"
     },
     {
         "lemma": "sprzątnąć",
-        "tags": "xxxxxxxxx",
+        "tags": "2bb,hh",
         "translations": {
             "ENG": [
-                "to clean up, to sweep, to tidy up Antonyms: zabałaganić zabrudzić",
-                "to remove something from somewhere and put it somewhere else",
-                "to take away something from someone[t,colloquial]",
-                "Synonym: wtrząchnąć[t,colloquial]  to gobble up (to consume rapidly)",
-                "Synonym: zabić[t,informal]  to kill (to put to death)",
-                "to harvest (to bring in a harvest; to reap)"
+              "to clean up", "to sweep", "to tidy up"
             ]
         },
+            "extra": {
+        "derivdTerms": ["Antonyms: zabałaganić zabrudzić",
+              "to remove something from somewhere and put it somewhere else",
+              "to take away something from someone[t,colloquial]",
+              "Synonym: wtrząchnąć[t,colloquial]  to gobble up (to consume rapidly)",
+              "Synonym: zabić[t,informal]  to kill (to put to death)",
+                "to harvest (to bring in a harvest; to reap)"]
+      },
         "temp_id": "2.36"
     },
     {
