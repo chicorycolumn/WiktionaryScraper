@@ -396,7 +396,7 @@
             ]
         },
       "extra": {
-        "derivdTerms": ["Antonyms: bałaganić brudzić",
+        "derivedTerms": ["Antonyms: bałaganić brudzić",
                 "to remove something from somewhere and put it somewhere else",
                 "to take away something from someone[t,colloquial]",
                 "Synonym: wtrząchać[t,colloquial]  to gobble up (to consume rapidly)",
@@ -414,7 +414,7 @@
             ]
         },
             "extra": {
-        "derivdTerms": ["Antonyms: zabałaganić zabrudzić",
+        "derivedTerms": ["Antonyms: zabałaganić zabrudzić",
               "to remove something from somewhere and put it somewhere else",
               "to take away something from someone[t,colloquial]",
               "Synonym: wtrząchnąć[t,colloquial]  to gobble up (to consume rapidly)",
@@ -425,60 +425,60 @@
     },
     {
         "lemma": "żyć",
-        "tags": "xxxxxxxxx",
+        "tags": "3bio,bb",
         "translations": {
             "ENG": [
-                "to live[i] (be alive)"
+                "to live[i]"
             ]
         },
         "temp_id": "2.37"
     },
     {
         "lemma": "poprosić",
-        "tags": "xxxxxxxxx",
+        "tags": "2rp",
         "translations": {
             "ENG": [
-                "to ask somebody"
+                "to ask for"
             ]
         },
         "temp_id": "2.38"
     },
     {
         "lemma": "prosić",
-        "tags": "xxxxxxxxx",
+        "tags": "2rp",
         "translations": {
             "ENG": [
-                "to ask somebody"
+                "to ask for"
             ]
         },
         "temp_id": "2.39"
     },
     {
         "lemma": "dostawać",
-        "tags": "xxxxxxxxx",
+        "tags": "2ŧŧ,he",
         "translations": {
             "ENG": [
-                "to get (to receive)",
-                "to get in, to enter[r]"
+                "to get",
+                "to receive",
+                "to get in[r]","to enter[r]"
             ]
         },
         "temp_id": "2.40"
     },
     {
         "lemma": "dostać",
-        "tags": "xxxxxxxxx",
+        "tags": "2ŧŧ,he",
         "translations": {
             "ENG": [
-                "to get, to receive ( + accusative case)",
-                "to contract, to develop, to catch[i] ( + genitive case)",
-                "to get hit[i] ( + instrumental case) (colloquial)",
-                "to get in, to enter[r]"
+                       "to get",
+                "to receive",
+                "to get in[r]","to enter[r]"
             ]
         },
         "temp_id": "2.41"
     },
     {
-        "lemma": "dostać",
+        "lemma": "!dostać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -489,11 +489,10 @@
     },
     {
         "lemma": "urodzić",
-        "tags": "xxxxxxxxx",
+        "tags": "3bio,bb,tt",
         "translations": {
             "ENG": [
                 "to give birth",
-                "to yield, to give a crop",
                 "to be born[r]"
             ]
         },
@@ -501,11 +500,10 @@
     },
     {
         "lemma": "rodzić",
-        "tags": "xxxxxxxxx",
+        "tags": "3bio,bb,tt",
         "translations": {
             "ENG": [
                 "to give birth",
-                "to yield, to give a crop",
                 "to be born[r]"
             ]
         },
@@ -513,71 +511,67 @@
     },
     {
         "lemma": "wyjść",
-        "tags": "xxxxxxxxx",
+        "tags": "2v",
         "translations": {
             "ENG": [
-                "to exit, to go out, to leave[i] (on foot)"
+                "to exit", "to go out", "to leave[i]"
             ]
         },
         "temp_id": "2.45"
     },
     {
         "lemma": "wychodzić",
-        "tags": "xxxxxxxxx",
+        "tags": "2v",
         "translations": {
             "ENG": [
-                "to go out, to leave[i] (on foot)",
-                "to lead[i] (begin a game of cards or dominoes)",
-                "to look, to face[i] (of a window, to present with a view)",
-                "to work, to work out (succeed) (with dative)"
+               "to exit", "to go out", "to leave[i]"
             ]
         },
         "temp_id": "2.46"
     },
     {
         "lemma": "lubić",
-        "tags": "xxxxxxxxx",
+        "tags": "1ee,+",
         "translations": {
             "ENG": [
-                "to like (enjoy)",
-                "to like (auxiliary)"
+                "to like"
             ]
         },
         "temp_id": "2.47"
     },
     {
         "lemma": "polubić",
-        "tags": "xxxxxxxxx",
+             "tags": "1ee,+",
         "translations": {
             "ENG": [
-                "to take to, to take a liking to, to take a shine to, to come to like"
-            ]
+                    "to like" ]
         },
         "temp_id": "2.48"
     },
     {
         "lemma": "wysyłać",
-        "tags": "xxxxxxxxx",
+       "tags": "3ŧŧ",
         "translations": {
             "ENG": [
-                "to send"
+                "to send",
+                "to post", "to mail"
             ]
         },
         "temp_id": "2.49"
     },
     {
         "lemma": "wysłać",
-        "tags": "xxxxxxxxx",
+        "tags": "3ŧŧ",
         "translations": {
             "ENG": [
                 "to send",
-                "to post, to mail"
+                "to post", "to mail"
             ]
         },
         "temp_id": "2.50"
     },
     {
-        "lemma": "wysłać",
+        "lemma": "!wysłać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -588,58 +582,48 @@
     },
     {
         "lemma": "wygrywać",
-        "tags": "xxxxxxxxx",
+        "tags": "3yy",
         "translations": {
             "ENG": [
-                "to win (a prize)",
-                "Antonym: przegrywać[i]  to lead (in a competition)"
-            ]
+                "to win"]
         },
         "temp_id": "2.52"
     },
     {
         "lemma": "wygrać",
-        "tags": "xxxxxxxxx",
+        "tags": "3yy",
         "translations": {
             "ENG": [
-                "to win (a prize)",
-                "Antonym: przegrać[i]  to lead (in a competition)"
-            ]
+                "to win"]
         },
         "temp_id": "2.53"
     },
     {
         "lemma": "decydować",
-        "tags": "xxxxxxxxx",
+        "tags": "3€,pl",
         "translations": {
             "ENG": [
-                "Synonym: postanawiać[i]  to decide (to resolve or settle)",
-                "to have a major influence Synonyms: rządzić przesądzać rozstrzygać stanowić[i]",
-                "to make up one's mind Synonym: namyślać się[r]",
-                "Synonym: rozstrzygać się ważyć się[r]  to be decided (e.g. one's fate)"
+              "to decide"
             ]
         },
         "temp_id": "2.54"
     },
     {
         "lemma": "zdecydować",
-        "tags": "xxxxxxxxx",
+         "tags": "3€,pl",
         "translations": {
             "ENG": [
-                "Synonym: postanowić  to decide (to resolve or settle)",
-                "to have a major influence Synonyms: zarządzić postanowić przesądzić rozstrzygnąć",
-                "to make up one's mind Synonym: namyślić się[r]",
-                "Synonym: rozstrzygnąć się[r]  to be decided (e.g. one's fate)"
+              "to decide"
             ]
         },
         "temp_id": "2.55"
     },
     {
         "lemma": "uwierzyć",
-        "tags": "xxxxxxxxx",
+        "tags": "3€,¶¶",
         "translations": {
             "ENG": [
-                "to rely, to believe[i]",
+                "to rely", "to believe[i]",
                 "to trust[i]"
             ]
         },
@@ -647,24 +631,22 @@
     },
     {
         "lemma": "wierzyć",
-        "tags": "xxxxxxxxx",
+       "tags": "3€,¶¶",
         "translations": {
             "ENG": [
-                "rely believe[i]",
-                "trust[i]"
+                "to rely", "to believe[i]",
+                "to trust[i]"
             ]
         },
         "temp_id": "2.57"
     },
     {
         "lemma": "bawić",
-        "tags": "xxxxxxxxx",
+        "tags": "3q",
         "translations": {
             "ENG": [
-                ", to take care of, to look after  to entertain (guests, people)",
-                "to enjoy, to be amused by[pa]",
-                "to sojourn[i]",
                 "to have fun[r]",
+                "to play",
                 "to play with something[r]"
             ]
         },
@@ -672,7 +654,7 @@
     },
     {
         "lemma": "kupować",
-        "tags": "xxxxxxxxx",
+        "tags": "2$",
         "translations": {
             "ENG": [
                 "to buy"
@@ -682,7 +664,7 @@
     },
     {
         "lemma": "kupić",
-        "tags": "xxxxxxxxx",
+        "tags": "2$",
         "translations": {
             "ENG": [
                 "to buy"
@@ -1218,24 +1200,19 @@
     },
     {
         "lemma": "przegrać",
-        "tags": "xxxxxxxxx",
+        "tags": "3yy",
         "translations": {
             "ENG": [
-                "to fail, to lose Antonym: wygrać 2009 August 10,Mariusz Wiśniewski,“Śląsk dokonał wielkiej sztuki - przegrał wygrane spotkanie”, in NaszeMiasto.pl [1] : Śląsk prowadził 2:1 i wydawało się, że już nie może przegrać tego meczu.[t,i]",
-                "2009 August 17,Stanisław Mancewicz,“Krakowskie trwanie. Portrety polityczne miast polskich przed nowym sezonem”, in Wyborcza.pl [2] : Jest dziś europarlamentarzystą, ale w wyborach w Krakowie, powtarzam - w Krakowie samym, przegrał .",
-                "to copy data from one physical medium to another 2009 August 20,Tomasz Skalski,“iConvert -- zgrywanie VHS-ów do komputera nigdy nie było tak proste”, in Engadget Polska [3] : Jeśli wciąż jeszcze nie zmobilizowaliście się, żeby przegrać z VHS-ów swoją starą kolekcję rzadkich filmów kung-fu, to właśnie dostajecie do rąk urządzenie, które powinno was do tego zmobilizować."
-            ]
+                "to fail", "to lose"]
         },
         "temp_id": "2.106"
     },
     {
         "lemma": "przegrywać",
-        "tags": "xxxxxxxxx",
+        "tags": "3yy",
         "translations": {
-            "ENG": [
-                "to fail, to lose Antonym: wygrywać[t,i]",
-                "to copy data from one physical medium to another"
-            ]
+         "ENG": [
+                "to fail", "to lose"]
         },
         "temp_id": "2.107"
     },
