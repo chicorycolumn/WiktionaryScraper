@@ -674,80 +674,66 @@
     },
     {
         "lemma": "umrzeć",
-        "tags": "xxxxxxxxx",
+        "tags": "4bio,¶¶,phi",
         "translations": {
             "ENG": [
-                "to die[i] (to stop living)"
+                "to die[i]"
             ]
         },
         "temp_id": "2.61"
     },
     {
         "lemma": "umierać",
-        "tags": "xxxxxxxxx",
+        "tags": "4bio,¶¶,phi",
         "translations": {
             "ENG": [
-                "to die[i] (to stop living)"
+                "to die[i]"
             ]
         },
         "temp_id": "2.62"
     },
     {
         "lemma": "próbować",
-        "tags": "xxxxxxxxx",
+        "tags": "3he,q",
         "translations": {
             "ENG": [
-                "to try [+infinitive = to do what] or [+genitive = what] (attempt)",
-                "[+accusative = what]  to try (test if something works)",
-                "[+accusative = what]  to rehearse (practice by repetition or recitation)",
-                "[+genitive = what]  to taste (sample the flavor of something)",
-                "= with someone] Synonym: mierzyć się[r]  to compete, to contend [+ z (instrumental)"
-            ]
+                "to try","to taste"
+         ]
         },
         "temp_id": "2.63"
     },
     {
         "lemma": "spróbować",
-        "tags": "xxxxxxxxx",
+        "tags": "3he,q",
         "translations": {
             "ENG": [
-                "to try [+infinitive = to do what] or [+genitive = what] (attempt)",
-                "[+accusative = what]  to try (test if something works)",
-                "[+accusative = what]  to rehearse (practice by repetition or recitation)",
-                "[+genitive = what]  to taste (sample the flavor of something)",
-                "= with someone] Synonym: zmierzyć się[r]  to compete, to contend [+ z (instrumental)"
-            ]
+                "to try","to taste"
+         ]
         },
         "temp_id": "2.64"
     },
     {
         "lemma": "zostawiać",
-        "tags": "xxxxxxxxx",
+        "tags": "4he",
         "translations": {
             "ENG": [
-                "to leave (somebody), to desert",
-                ", to leave behind  to leave (something)",
-                "to leave, to bequeath (transfer possession of after death)",
-                "to leave, to deposit (deliver to a repository)"
-            ]
+                "to leave",
+                "to leave behind"]
         },
         "temp_id": "2.65"
     },
     {
         "lemma": "zostawić",
-        "tags": "xxxxxxxxx",
+        "tags": "4he",
         "translations": {
             "ENG": [
-                "to leave (somebody), to desert",
-                ", to leave behind  to leave (something)",
-                "to leave, to bequeath (transfer possession of after death)",
-                "to leave, to deposit (deliver to a repository)"
-            ]
+                "to leave",
+                "to leave behind"]
         },
         "temp_id": "2.66"
     },
     {
-        "lemma": "wyściełać",
+        "lemma": "!wyściełać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -774,50 +760,39 @@
     },
     {
         "lemma": "zamykać",
-        "tags": "xxxxxxxxx",
+           "tags": "2bb,hh",
         "translations": {
             "ENG": [
-                "to close, to shut, to lock Antonym: otwierać",
-                "to conclude, to bring an end to, to wrap up",
-                "to lock up, to put away",
-                "to close, to become shut[r]",
-                "to lock oneself away[r]"
+                "to close", "to shut", "to lock"
             ]
         },
         "temp_id": "2.69"
     },
     {
         "lemma": "nienawidzić",
-        "tags": "xxxxxxxxx",
+        "tags": "1ee,-",
         "translations": {
             "ENG": [
-                "to hate (a person or a thing)",
-                "to abominate, to detest, to loathe",
-                "to hate each other[r]",
-                "to hate oneself[r]"
+                "to hate","to detest","to despise"
             ]
         },
         "temp_id": "2.70"
     },
     {
         "lemma": "opowiedzieć",
-        "tags": "xxxxxxxxx",
+        "tags": "2sr",
         "translations": {
             "ENG": [
-                "to tell, to narrate",
-                "= someone/something][r]  to back, to side with [+ za (instrumental)"
-            ]
+                "to tell", "to narrate"]
         },
         "temp_id": "2.71"
     },
     {
         "lemma": "opowiadać",
-        "tags": "xxxxxxxxx",
+        "tags": "2sr",
         "translations": {
             "ENG": [
-                "to tell, to narrate",
-                "= someone/something][r]  to back, to side with [+ za (instrumental)"
-            ]
+                "to tell", "to narrate"]
         },
         "temp_id": "2.72"
     },
@@ -1079,22 +1054,22 @@
     },
     {
         "lemma": "uwielbiać",
-        "tags": "xxxxxxxxx",
+   "tags": "1ee,+",
         "translations": {
             "ENG": [
-                "to like very much",
-                "to adore, to love"
+                 "to like",
+                "to adore", "to love"
             ]
         },
         "temp_id": "2.95"
     },
     {
         "lemma": "uwielbić",
-        "tags": "xxxxxxxxx",
+      "tags": "1ee,+",
         "translations": {
             "ENG": [
-                "to like very much",
-                "to adore, to love"
+                "to like",
+                "to adore", "to love"
             ]
         },
         "temp_id": "2.96"

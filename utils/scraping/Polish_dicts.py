@@ -101,6 +101,10 @@ shorthand_tag_refs = {
         "tags": ["thought", "aa"],
         "topics": ["mental"],
     },
+    "sr": {  # idea realisation
+        "tags": ["speech", "aa"],
+        "topics": ["mental"],
+    },
     "ee": {
         "tags": ["aa"],
         "topics": ["mental"],
