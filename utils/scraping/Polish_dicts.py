@@ -121,6 +121,10 @@ shorthand_tag_refs = {
         "tags": ["bodypart"],
         "topics": ["medicine", "body"],
     },
+    "dr": {  # toothbrush, wake, wash
+        "tags": [],
+        "topics": ["daily routine"],
+    },
 
     ############### 3) Miscellaneous
     "kk": {  # tall short light dark

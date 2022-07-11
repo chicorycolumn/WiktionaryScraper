@@ -798,130 +798,131 @@
     },
     {
         "lemma": "nieść",
-        "tags": "xxxxxxxxx",
+        "tags": "3ŧŧ,bb,v",
         "translations": {
             "ENG": [
-                "to carry (to transport by lifting)",
-                "to carry away[t,of,a,river,or,wind,,etc]",
-                "to cause or contain",
-                "to bear (to feel in a strong way)",
-                "to compel[t,of,emotions]",
-                "to offer, to give away",
-                "to lay eggs",
-                "to shoot Synonym: strzelać Synonyms: see Thesaurus: bić",
-                "to spread, to cover more space[r]",
-                "to travel some distance[r]"
+                "to carry"
             ]
         },
         "temp_id": "2.73"
     },
     {
         "lemma": "nosić",
-        "tags": "xxxxxxxxx",
+          "tags": "3ŧŧ,bb,v",
+      "allohomInfo": {
+            "singleWordtype": true,
+            "text": "objects",
+            "emoji": "\uD83D\uDCD8"
+        },
         "translations": {
             "ENG": [
-                "to carry (e.g. a parcel)",
-                "to wear (e.g. a shirt)",
-                "to bear (e.g. a title)",
-                "to carry oneself[r] (behave in a certain way)"
+                "to carry"
             ]
         },
         "temp_id": "2.74"
+    },    {
+        "lemma": "nosić",
+        "tags": "3gg",
+  "allohomInfo": {
+            "singleWordtype": true,
+            "text": "clothes",
+            "emoji": "\uD83D\uDC5A"
+        },
+        "translations": {
+            "ENG": [
+                "to wear"
+            ]
+        },
+        "temp_id": "2.74a"
     },
     {
         "lemma": "znaleźć",
-        "tags": "xxxxxxxxx",
+        "tags": "1~,ee,ss",
         "translations": {
             "ENG": [
-                "to find Synonyms: odnaleźć odszukać Antonym: zgubić",
-                "to be found Synonym: odnaleźć się Antonym: zgubić się[r]"
-            ]
+                "to find"   ]
         },
         "temp_id": "2.75"
     },
     {
         "lemma": "znajdować",
-        "tags": "xxxxxxxxx",
+        "tags": "1~,ee,ss",
         "translations": {
             "ENG": [
-                "to find Synonyms: odnajdywać odszukiwać Antonym: gubić",
-                "to be found Synonym: odnajdywać się Antonym: gubić się[r]"
-            ]
+                "to find"   ]
         },
         "temp_id": "2.76"
     },
     {
         "lemma": "obudzić",
-        "tags": "xxxxxxxxx",
+        "tags": "2dr,bb",
         "translations": {
             "ENG": [
                 "to wake",
                 "to get someone up",
-                "to awake, to waken[r,autocausative] (stop sleeping)"
+                "to awake", "to waken[r]"
             ]
         },
         "temp_id": "2.77"
     },
     {
         "lemma": "budzić",
-        "tags": "xxxxxxxxx",
+          "tags": "2dr,bb",
         "translations": {
             "ENG": [
                 "to wake",
                 "to get someone up",
-                "to awake, to waken[r,autocausative] (stop sleeping)"
+                "to awake", "to waken[r]"
             ]
         },
         "temp_id": "2.78"
     },
     {
         "lemma": "podziękować",
-        "tags": "xxxxxxxxx",
+        "tags": "4sg,sr",
         "translations": {
             "ENG": [
-                "to thank[i]"
+                "to thank"
             ]
         },
         "temp_id": "2.79"
     },
     {
         "lemma": "dziękować",
-        "tags": "xxxxxxxxx",
+           "tags": "4sg,sr",
         "translations": {
             "ENG": [
-                "to thank[i]"
+                "to thank"
             ]
         },
         "temp_id": "2.80"
     },
     {
         "lemma": "gubić",
-        "tags": "xxxxxxxxx",
+        "tags": "4ss",
         "translations": {
             "ENG": [
-                "to lose, to mislay Synonyms: podziać zapodziać zawieruszyć",
-                "to ruin Synonyms: rujnować tracić",
-                "to shed Synonyms: ronić tracić"
+                "to lose", "to mislay","to misplace"
             ]
         },
         "temp_id": "2.81"
     },
     {
         "lemma": "zgubić",
-        "tags": "xxxxxxxxx",
+        "tags": "4ss",
         "translations": {
             "ENG": [
-                "to lose, to misplace",
+               "to lose", "to mislay","to misplace",
                 "to doom, to ruin",
-                "to lose one's way, to get lost[r]",
-                "to go walkabout, to go missing[r]"
+                "to lose one's way", "to get lost[r]",
+                "to go missing[r]"
             ]
         },
         "temp_id": "2.82"
     },
     {
         "lemma": "obiecywać",
-        "tags": "xxxxxxxxx",
+        "tags": "4sg,sr",
         "translations": {
             "ENG": [
                 "to promise"
@@ -931,10 +932,10 @@
     },
     {
         "lemma": "obiecać",
-        "tags": "xxxxxxxxx",
+             "tags": "4sg,sr",
         "translations": {
             "ENG": [
-                "to promise[t,i] (to commit to something or action)"
+                "to promise"
             ]
         },
         "temp_id": "2.84"
