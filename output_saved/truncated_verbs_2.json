@@ -744,16 +744,10 @@
     },
     {
         "lemma": "zamknąć",
-        "tags": "xxxxxxxxx",
+            "tags": "2bb,hh",
         "translations": {
             "ENG": [
-                "to close, to shut, to lock Antonym: otworzyć",
-                "to conclude, to bring an end to, to wrap up",
-                "to lock up, to put away",
-                "to close close out exit shut down[t,programming] (of a program)",
-                "to close, to become shut[r]",
-                "to lock oneself away[r]",
-                "to shut up[r] (stop talking)"
+                "to close", "to shut", "to lock"
             ]
         },
         "temp_id": "2.68"
@@ -1181,22 +1175,20 @@
     },
     {
         "lemma": "słuchać",
-        "tags": "xxxxxxxxx",
+       "tags": "1sr,sg,~",
         "translations": {
             "ENG": [
-                "to listen [+genitive = to something][t,or,i]",
-                "to obey [+genitive = something][i]"
+              "to listen","to listen to"
             ]
         },
         "temp_id": "2.108"
     },
     {
         "lemma": "posłuchać",
-        "tags": "xxxxxxxxx",
+    "tags": "1sr,sg,~",
         "translations": {
             "ENG": [
-                ", to listen up  to listen to ( + genitive)",
-                "to obey, to listen Synonym: usłuchać[i]"
+              "to listen","to listen to"
             ]
         },
         "temp_id": "2.109"
@@ -1269,6 +1261,14 @@
                 "to fall in love with","to fall for"  ]
         },
         "temp_id": "2.116"
+    },    {
+        "lemma": "zakochać",
+         "tags": "1ee,+,ø",
+        "translations": {
+            "ENG": [
+                "to fall in love with","to fall for"  ]
+        },
+        "temp_id": "2.116a"
     },
     {
         "lemma": "patrzeć",
@@ -1292,101 +1292,92 @@
     },
     {
         "lemma": "mieszkać",
-        "tags": "xxxxxxxxx",
+        "tags": "2ll",
         "translations": {
             "ENG": [
-                "to live (have permanent residence)"
+                "to live","to reside"
             ]
         },
         "temp_id": "2.119"
     },
     {
         "lemma": "zamieszkać",
-        "tags": "xxxxxxxxx",
+       "tags": "2ll",
         "translations": {
             "ENG": [
-                "to settle, to take up residence[i]",
-                "to appear, to manifest[i]"
+                "to live","to reside"
             ]
         },
         "temp_id": "2.120"
     },
     {
         "lemma": "odpowiedzieć",
-        "tags": "xxxxxxxxx",
+        "tags": "2sr,rp",
         "translations": {
             "ENG": [
-                "to suit [+dative = someone]; to be proper or suitable[i]",
-                "= for something]; to be responsible for something[i]  to answer [+ za (accusative)",
-                "= to someone]; to be accountable before someone[i]  to answer [+ przed (instrumental)",
-                "to answer ; to reply ; to respond [+dative = to someone][i]"
+
+              "to answer for" , "to be accountable for","to reply","to respond","to answer"
             ]
         },
         "temp_id": "2.121"
     },
     {
         "lemma": "odpowiadać",
-        "tags": "xxxxxxxxx",
+        "tags": "2sr,rp",
         "translations": {
             "ENG": [
-                "to suit [+dative = someone]; to be proper or suitable[i]",
-                "= for something]; to be responsible for something[i]  to answer [+ za (accusative)",
-                "= to someone]; to be accountable before someone[i]  to answer [+ przed (instrumental)",
-                "to answer ; to reply ; to respond [+dative = to someone][i]"
+
+              "to answer for" , "to be accountable for","to reply","to respond","to answer"
             ]
         },
         "temp_id": "2.122"
     },
     {
         "lemma": "poczekać",
-        "tags": "xxxxxxxxx",
+        "tags": "2tt,pl",
         "translations": {
             "ENG": [
-                "to wait"
+                "to wait","to await"
             ]
         },
         "temp_id": "2.123"
     },
     {
         "lemma": "czekać",
-        "tags": "xxxxxxxxx",
+      "tags": "2tt,pl",
         "translations": {
             "ENG": [
-                "to wait[i]",
-                "to await, wait for"
+                "to wait","to await"
             ]
         },
         "temp_id": "2.124"
     },
     {
         "lemma": "zaczekać",
-        "tags": "xxxxxxxxx",
+        "tags": "2tt,pl",
         "translations": {
             "ENG": [
-                "to wait[i]",
-                "to await, wait for[i]"
+                "to wait","to await"
             ]
         },
         "temp_id": "2.125"
     },
     {
         "lemma": "posprzątać",
-        "tags": "xxxxxxxxx",
+        "tags": "2hh,dr",
         "translations": {
             "ENG": [
-                "to clean up, to sweep, to tidy up Antonyms: zabałaganić zabrudzić",
-                "to remove something from somewhere and put it somewhere else",
-                "to harvest (to bring in a harvest; to reap)"
+                "to clean up","to clean"
             ]
         },
         "temp_id": "2.126"
     },
     {
         "lemma": "narzekać",
-        "tags": "xxxxxxxxx",
+        "tags": "4-,ee,sr",
         "translations": {
             "ENG": [
-                "to complain Synonyms: see Thesaurus: narzekać[i]"
+                "to complain"
             ]
         },
         "temp_id": "2.127"
