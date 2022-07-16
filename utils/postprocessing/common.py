@@ -227,6 +227,7 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object, wordty
             shorthand_tags.append(stag)
 
     tags = recursively_expand_tags(shorthand_tags, ref) if shorthand_tags else []
+    #swde Is this keeping tags or dropping them?
 
     topics = []
     for stag in shorthand_tags if shorthand_tags else []:
@@ -258,6 +259,38 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object, wordty
     lemma_object["topics"] = topics
 
 
+def check_manual_whittling_was_done(lobjs_truncated):
+    lobjs_with_placeholder_tags = []
+    lobjs_with_no_frequency_tag = []
+    lobjs_with_no_semantic_tags = []
+
+    for lemma_object in lobjs_truncated:
+        if not lemma_object["lemma"].startswith("!"):
+            if not lemma_object["tags"] or not len(lemma_object["tags"]) \
+                    or lemma_object["tags"] == "xxxxxxxxx":
+                lobjs_with_placeholder_tags.append(lemma_object)
+            elif lemma_object["tags"][0] not in ["1", "2", "3", "4", "5"]:
+                lobjs_with_no_frequency_tag.append(lemma_object)
+            elif lemma_object["tags"][-1] in [","]:
+                lemma_object["tags"] = lemma_object["tags"][0:-1]
+            elif len(lemma_object["tags"]) == 1:
+                lobjs_with_no_semantic_tags.append(lemma_object)
+
+    should_raise_exception = False
+
+    for lobj in lobjs_with_placeholder_tags:
+        print(f'Error 1907. Lemma object has placeholder tags: "{lobj["lemma"]}" {lobj["temp_id"]}.')
+        should_raise_exception = True
+    for lobj in lobjs_with_no_frequency_tag:
+        print(f'Error 1908. Lemma object has no frequency tag: "{lobj["lemma"]}" {lobj["temp_id"]}.')
+        should_raise_exception = True
+    for lobj in lobjs_with_no_semantic_tags:
+        print(f'Error 1909. Lemma object has no semantic tags: "{lobj["lemma"]}" {lobj["temp_id"]}.')
+        should_raise_exception = True
+    if should_raise_exception:
+        raise Exception("Errors 1907/1908/1909, see above.")
+
+
 def untruncate_lemma_objects(group_number, wordtype):
     res_arr = []
 
@@ -267,6 +300,8 @@ def untruncate_lemma_objects(group_number, wordtype):
     with open(f"output_saved/truncated_{wordtype}_{group_number}.json", "r") as f:
         lobjs_truncated = json.load(f)
         f.close()
+
+    check_manual_whittling_was_done(lobjs_truncated)
 
     for lobj_truncated in lobjs_truncated:
         lobj_long = [l for l in lobjs_long if l["temp_id"] == get_base_temp_id(lobj_truncated["temp_id"])][0]

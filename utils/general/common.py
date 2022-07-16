@@ -12,7 +12,6 @@ def get_existing_lobjs(wordtype: str, lemmas_only: bool = False, existing_lobjs_
     existing_lemma_objects = []
     for root, dirs, files in os.walk(existing_lobjs_path):
         for file in files:
-            print(file)
             with open(f'{existing_lobjs_path}/{file}', "r") as f:
                 loaded = json.load(f)
                 existing_lemma_objects.extend(loaded)

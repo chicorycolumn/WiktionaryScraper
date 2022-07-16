@@ -9,10 +9,10 @@ if __name__ == '__main__':
 
     # check_rescraped_against_existing("adjectives_old", "adjectives_new")
 
-    step = 1
+    step = 2
     group_number = 2
     input_indexes = [0, 200]
-    wordtype = "v"
+    wordtype = "a"
     these_headwords_only = []
     # these_headwords_only = ['lekki']
     skip_make_ids = False  # only set True when manually testing.
@@ -32,11 +32,11 @@ if __name__ == '__main__':
                         truncated_words_99 CREATED
                         
 
-    Step 1.5 Move all files to output_saved.
+    Step 1.5 Manual
     
               (i) Delete *_scraped then move all three files to output_saved.
     
-              (ii) Take truncated_words_99 and whittle translations
+              (ii) Take truncated_*s_99 and whittle translations
     
 Don't worry about strings in the translations array that start and end with brackets, they will be removed automatically.
 Don't worry about duplicated translations eg ["wolf", "wolf"] as these will be removed automatically.
