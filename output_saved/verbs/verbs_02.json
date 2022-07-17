@@ -1,7 +1,16 @@
 [
     {
-        "temp_id": "2.1",
         "lemma": "pomyśleć",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "thought"
+        ],
+        "translations": {
+            "ENG": [
+                "to think[i]#o+locative"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -12,12 +21,6 @@
             },
             "derivedTerms": [
                 "pomysł"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "= about/of something][i]  to think [+ o (locative)"
             ]
         },
         "inflections": {
@@ -107,11 +110,24 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "mental"
+        ],
+        "id": "pol-ver-037-pomyśleć"
     },
     {
-        "temp_id": "2.2",
         "lemma": "myśleć",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "thought"
+        ],
+        "translations": {
+            "ENG": [
+                "to think[i]#o+locative"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -132,12 +148,6 @@
                 "zmyślać impf zmyślić pf",
                 "zamyślać impf zamyślić pf",
                 "( adjective ) myśliwy"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "= about/of something][i]  to think [+ o (locative)"
             ]
         },
         "inflections": {
@@ -227,32 +237,33 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "mental"
+        ],
+        "id": "pol-ver-038-myśleć"
     },
     {
-        "temp_id": "2.3",
         "lemma": "wyłączać",
-        "aspect": "imperfective",
-        "secondaryAspects": [],
-        "extra": {
-            "otherShapes": {
-                "perfective": [
-                    "wyłączyć"
-                ]
-            },
-            "derivedTerms": [
-                "( nouns ) wyłączność wyłącznik",
-                "( adjective ) wyłączny",
-                "( adverb ) wyłącznie"
-            ]
-        },
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
         "translations": {
             "ENG": [
+                "to turn off",
+                "to switch off",
+                "to disable"
+            ]
+        },
+        "extra": {
+            "derivedTerms": [
                 "Synonym: dezaktywować Antonym: włączać  to switch off, to turn off, to disable (to put a mechanism, device or system out of operation; to deactivate)",
                 "Synonym: wykluczać Antonym: włączać  to exclude (to omit from consideration)"
             ]
         },
+        "aspect": "imperfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "wyłączać",
             "verbalNoun": "wyłączanie",
@@ -340,33 +351,35 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body",
+            "medicine",
+            "tech"
+        ],
+        "id": "pol-ver-039-wyłączać"
     },
     {
-        "temp_id": "2.4",
         "lemma": "wyłączyć",
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "extra": {
-            "otherShapes": {
-                "imperfective": [
-                    "wyłączać"
-                ]
-            },
-            "derivedTerms": [
-                "( noun ) wyłącznik",
-                "( adjective ) wyłączny",
-                "( noun ) wyłączność",
-                "( adverb ) wyłącznie"
-            ]
-        },
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
         "translations": {
             "ENG": [
+                "to turn off",
+                "to switch off",
+                "to disable"
+            ]
+        },
+        "extra": {
+            "derivedTerms": [
                 "Synonym: zdezaktywować Antonym: włączyć  to switch off, to turn off, to disable (to put a mechanism, device or system out of operation; to deactivate)",
                 "Synonym: wykluczyć Antonym: włączyć  to exclude (to omit from consideration)"
             ]
         },
+        "aspect": "perfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "wyłączyć",
             "verbalNoun": "wyłączenie",
@@ -454,11 +467,27 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "body",
+            "medicine",
+            "tech"
+        ],
+        "id": "pol-ver-040-wyłączyć"
     },
     {
-        "temp_id": "2.5",
         "lemma": "otwierać",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "holdable",
+            "household object"
+        ],
+        "translations": {
+            "ENG": [
+                "to open"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -469,13 +498,6 @@
             },
             "derivedTerms": [
                 "( verb ) nóż się w kieszeni otwiera \\"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to open (to make something accessible)",
-                "to be be easy to open[r]"
             ]
         },
         "inflections": {
@@ -565,11 +587,28 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body",
+            "home",
+            "inside",
+            "medicine"
+        ],
+        "id": "pol-ver-041-otwierać"
     },
     {
-        "temp_id": "2.6",
         "lemma": "otworzyć",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "holdable",
+            "household object"
+        ],
+        "translations": {
+            "ENG": [
+                "to open"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -578,13 +617,6 @@
                     "otwierać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to open (to make something accessible)",
-                "to be easy to open[r]"
-            ]
         },
         "inflections": {
             "infinitive": "otworzyć",
@@ -673,11 +705,27 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "body",
+            "home",
+            "inside",
+            "medicine"
+        ],
+        "id": "pol-ver-042-otworzyć"
     },
     {
-        "temp_id": "2.7",
         "lemma": "powiedzieć",
+        "tags": [
+            "FREQ1",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to tell[t,i]",
+                "to say[t,i]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -705,13 +753,6 @@
                 "( phrase ) co ty nie powiesz",
                 "derived terms ( particle ) dość powiedzieć",
                 "wiedzieć impf"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to tell[t,i]",
-                "to say[t,i]"
             ]
         },
         "inflections": {
@@ -801,11 +842,28 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "body",
+            "language",
+            "medicine"
+        ],
+        "id": "pol-ver-043-powiedzieć"
     },
     {
-        "temp_id": "2.8",
         "lemma": "mówić",
+        "tags": [
+            "FREQ1",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to say",
+                "to tell",
+                "to speak[i]",
+                "to talk[i]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -842,14 +900,6 @@
                 "( nouns ) mówca m mówczyni f mównica f przemówienie n",
                 "( adjective ) wymawialny",
                 "( noun ) mowa f ( “ speech ” )"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to say tell Synonyms: powiadać prawić rzec",
-                "to speak[i]",
-                "to talk[i]"
             ]
         },
         "inflections": {
@@ -939,11 +989,28 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body",
+            "language",
+            "medicine"
+        ],
+        "id": "pol-ver-044-mówić"
     },
     {
-        "temp_id": "2.9",
         "lemma": "porozmawiać",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to talk[i]",
+                "to speak[i]",
+                "to converse[i]",
+                "to chat[i]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -955,12 +1022,6 @@
                     "rozmawiać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to talk, to speak, to converse, to chat[i]"
-            ]
         },
         "inflections": {
             "infinitive": "porozmawiać",
@@ -1049,11 +1110,28 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "body",
+            "language",
+            "medicine"
+        ],
+        "id": "pol-ver-045-porozmawiać"
     },
     {
-        "temp_id": "2.10",
         "lemma": "rozmawiać",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to talk[i]",
+                "to speak[i]",
+                "to converse[i]",
+                "to chat[i]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -1062,12 +1140,6 @@
                     "porozmawiać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to talk, to speak, to converse, to chat[i]"
-            ]
         },
         "inflections": {
             "infinitive": "rozmawiać",
@@ -1156,11 +1228,28 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body",
+            "language",
+            "medicine"
+        ],
+        "id": "pol-ver-046-rozmawiać"
     },
     {
-        "temp_id": "2.11",
         "lemma": "kończyć",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to end[i]",
+                "to finish[i]",
+                "to stop[i]",
+                "to quit[i]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -1176,17 +1265,6 @@
                 "koniec w końcu",
                 "koniecznie",
                 "derived terms ( verb ) dokańczać dokończyć ukańczać ukończyć wykańczać wykończyć zakańczać zakończyć"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to end, to finish",
-                "to stop, to quit",
-                "to turn, to reach a certain age",
-                "to end, to finish [+intrumental = in/as what][r]",
-                "to run out of[r]",
-                "to die Synonyms: see Thesaurus: umierać[r]"
             ]
         },
         "inflections": {
@@ -1267,11 +1345,26 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "time"
+        ],
+        "id": "pol-ver-047-kończyć"
     },
     {
-        "temp_id": "2.12",
         "lemma": "skończyć",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to end[i]",
+                "to finish[i]",
+                "to stop[i]",
+                "to quit[i]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -1285,17 +1378,6 @@
             },
             "derivedTerms": [
                 "( phrase ) skończyło się babci sranie"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to end, to finish",
-                "to stop, to quit",
-                "to come to an end, to finish [+intrumental = in/as what][r]",
-                "to turn, to reach a certain age",
-                "to result, to end up [+instrumental = in/with something][r]",
-                "to die Synonyms: see Thesaurus: umierać[r]"
             ]
         },
         "inflections": {
@@ -1385,11 +1467,23 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "time"
+        ],
+        "id": "pol-ver-048-skończyć"
     },
     {
-        "temp_id": "2.13",
         "lemma": "spać",
+        "tags": [
+            "FREQ2",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to sleep[i]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -1409,13 +1503,6 @@
                 "( nouns ) śpioch m śpioszki pl",
                 "( adjectives ) ospały przespany wyspany zaspany",
                 "( verbs ) usypiać impf uśpić pf usnąć pf zasypiać impf zasnąć pf śnić impf"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to sleep ; to rest in state of reduced consciousness[i]",
-                "= with someone] Synonyms: see Thesaurus: uprawiać seks[euphemistic,i]  to sleep with, to have sex [+ z (instrumental)"
             ]
         },
         "inflections": {
@@ -1505,36 +1592,36 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body",
+            "medicine"
+        ],
+        "id": "pol-ver-049-spać"
     },
     {
-        "temp_id": "2.14",
         "lemma": "tracić",
-        "aspect": "imperfective",
-        "secondaryAspects": [],
-        "extra": {
-            "otherShapes": {
-                "perfective": [
-                    "utracić"
-                ],
-                "or": [
-                    "stracić"
-                ]
-            },
-            "derivedTerms": [
-                "( nouns ) strata utrata stracenie straceniec stratność",
-                "( adjectives ) stracony stratny",
-                "( adverb ) stratnie"
-            ]
-        },
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ3",
+            "money",
+            "concrete"
+        ],
         "translations": {
             "ENG": [
+                "to lose",
+                "to waste",
+                "to squander"
+            ]
+        },
+        "extra": {
+            "derivedTerms": [
                 "Hypernym: gubić  to lose (to cause something to cease to be in one's possession or capability)",
                 "Synonyms: marnować trwonić  to waste, to squander (e.g. time)",
                 "Synonym: przepuszczać  to pass up, to miss (e.g. an opportunity)"
             ]
         },
+        "aspect": "imperfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "tracić",
             "verbalNoun": "tracenie",
@@ -1622,36 +1709,38 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "business",
+            "shopping",
+            "travel"
+        ],
+        "id": "pol-ver-050-tracić"
     },
     {
-        "temp_id": "2.15",
         "lemma": "stracić",
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "extra": {
-            "otherShapes": {
-                "imperfective": [
-                    "tracić"
-                ]
-            },
-            "derivedTerms": [
-                "( nouns ) stracenie strata",
-                "( adjective ) stracony",
-                "( nouns ) straceniec stratność",
-                "( adjective ) stratny",
-                "( adverb ) stratnie"
-            ]
-        },
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ3",
+            "money",
+            "concrete"
+        ],
         "translations": {
             "ENG": [
+                "to lose",
+                "to waste",
+                "to squander"
+            ]
+        },
+        "extra": {
+            "derivedTerms": [
                 "Synonym: utracić Hypernym: zgubić  to lose (to cause something to cease to be in one's possession or capability)",
                 "to lose out on, to waste, to squander Synonyms: zmarnować roztrwonić",
                 "Synonym: przepuścić  to pass up, to miss (e.g. an opportunity)",
                 "to execute, to put to death"
             ]
         },
+        "aspect": "perfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "stracić",
             "verbalNoun": "stracenie",
@@ -1739,32 +1828,33 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "business",
+            "shopping",
+            "travel"
+        ],
+        "id": "pol-ver-051-stracić"
     },
     {
-        "temp_id": "2.16",
         "lemma": "utracić",
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "extra": {
-            "otherShapes": {
-                "imperfective": [
-                    "utracać"
-                ],
-                "or": [
-                    "tracić"
-                ]
-            },
-            "derivedTerms": [
-                "( noun ) utrata"
-            ]
-        },
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ4",
+            "money",
+            "concrete"
+        ],
         "translations": {
             "ENG": [
-                "to lose, to be deprived of Synonym: stracić"
+                "to lose"
             ]
         },
+        "extra": {
+            "derivedTerms": [
+                "Synonym: stracić"
+            ]
+        },
+        "aspect": "perfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "utracić",
             "verbalNoun": "utracenie",
@@ -1852,11 +1942,26 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "business",
+            "shopping",
+            "travel"
+        ],
+        "id": "pol-ver-052-utracić"
     },
     {
-        "temp_id": "2.17",
         "lemma": "sprzedawać",
+        "tags": [
+            "FREQ2",
+            "money",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to sell"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -1867,17 +1972,6 @@
             },
             "derivedTerms": [
                 "sprzedaż sprzedawca automat sprzedający"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to sell",
-                "to shift, to sell quickly[r]",
-                "to snitch on, to inform on grass on[t,colloquial]",
-                "to marry someone[t,humor]",
-                "to sell out[r,colloquial] (to abandon or betray one's supporters or principles to seek profit or other personal advantage)",
-                "to prostitute[r,colloquial]"
             ]
         },
         "inflections": {
@@ -1967,11 +2061,25 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "business",
+            "shopping"
+        ],
+        "id": "pol-ver-053-sprzedawać"
     },
     {
-        "temp_id": "2.18",
         "lemma": "sprzedać",
+        "tags": [
+            "FREQ2",
+            "money",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to sell"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -1982,16 +2090,6 @@
             },
             "derivedTerms": [
                 "sprzedaż sprzedawca automat sprzedający"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to sell",
-                "to snitch on, to inform on grass on[t,colloquial]",
-                "to marry someone[t,humor]",
-                "to sell out[r,colloquial] (to abandon or betray one's supporters or principles to seek profit or other personal advantage)",
-                "to prostitute[r,colloquial]"
             ]
         },
         "inflections": {
@@ -2081,11 +2179,25 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "business",
+            "shopping"
+        ],
+        "id": "pol-ver-054-sprzedać"
     },
     {
-        "temp_id": "2.19",
         "lemma": "zapłacić",
+        "tags": [
+            "FREQ2",
+            "money",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to pay"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -2097,13 +2209,6 @@
                     "płacić"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to pay (to give money in exchange for goods or services)",
-                "to pay (suffer the consequences)"
-            ]
         },
         "inflections": {
             "infinitive": "zapłacić",
@@ -2192,11 +2297,25 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "business",
+            "shopping"
+        ],
+        "id": "pol-ver-055-zapłacić"
     },
     {
-        "temp_id": "2.20",
         "lemma": "płacić",
+        "tags": [
+            "FREQ2",
+            "money",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to pay#[+dative = whom] [+ za accusative]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -2224,13 +2343,6 @@
                 "( adjectives ) bezpłatny",
                 "( nouns ) płótno wypłata zapłata",
                 "( verbs ) pleść"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "= for something]  to pay (to give money in exchange for goods or services) [+dative = whom] [+ za (accusative)",
-                "to pay (suffer the consequences)"
             ]
         },
         "inflections": {
@@ -2320,11 +2432,25 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "business",
+            "shopping"
+        ],
+        "id": "pol-ver-056-płacić"
     },
     {
-        "temp_id": "2.21",
         "lemma": "mawiać",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "used to say[i]",
+                "to say habitually[i]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [
             "indeterminate",
@@ -2352,12 +2478,6 @@
                 "wymawiać impf wymówić pf",
                 "zmawiać impf zmówić pf",
                 "zamawiać impf zamówić pf"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "used to say[i]  to say habitually (in past tense)"
             ]
         },
         "inflections": {
@@ -2447,11 +2567,29 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body",
+            "language",
+            "medicine"
+        ],
+        "id": "pol-ver-057-mawiać"
     },
     {
-        "temp_id": "2.22",
         "lemma": "organizować",
+        "tags": [
+            "FREQ3",
+            "abstract",
+            "frequency"
+        ],
+        "translations": {
+            "ENG": [
+                "to organize",
+                "to organise",
+                "to organize[r]",
+                "to organise[r]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -2460,14 +2598,6 @@
                     "zorganizować"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to organize (to arrange in working order)",
-                "to organize (to constitute in parts, each having a special function; to systematize)",
-                "to organize[r] (to band together into a group or union that can bargain and act collectively; to unionize)"
-            ]
         },
         "inflections": {
             "infinitive": "organizować",
@@ -2556,11 +2686,27 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "business"
+        ],
+        "id": "pol-ver-058-organizować"
     },
     {
-        "temp_id": "2.23",
         "lemma": "zorganizować",
+        "tags": [
+            "FREQ3",
+            "abstract",
+            "frequency"
+        ],
+        "translations": {
+            "ENG": [
+                "to organize",
+                "to organise",
+                "to organize[r]",
+                "to organise[r]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -2569,14 +2715,6 @@
                     "organizować"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to organize (to arrange in working order)",
-                "to organize (to constitute in parts, each having a special function; to systematize)",
-                "to organize[r] (to band together into a group or union that can bargain and act collectively; to unionize)"
-            ]
         },
         "inflections": {
             "infinitive": "zorganizować",
@@ -2665,27 +2803,34 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "business"
+        ],
+        "id": "pol-ver-059-zorganizować"
     },
     {
-        "temp_id": "2.24",
         "lemma": "włączyć",
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "extra": {
-            "otherShapes": {
-                "imperfective": [
-                    "włączać"
-                ]
-            }
-        },
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ3",
+            "concrete",
+            "holdable",
+            "household object"
+        ],
         "translations": {
             "ENG": [
+                "to switch on",
+                "to turn on"
+            ]
+        },
+        "extra": {
+            "derivedTerms": [
                 "Synonyms: aktywować uaktywnić Antonym: wyłączyć  to switch on, to power up, to enable (to put a mechanism, device or system into operation)",
                 "Antonym: wyłączyć  to include (to bring into as a part or member)"
             ]
         },
+        "aspect": "perfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "włączyć",
             "verbalNoun": "włączenie",
@@ -2773,30 +2918,36 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "home",
+            "inside",
+            "tech"
+        ],
+        "id": "pol-ver-060-włączyć"
     },
     {
-        "temp_id": "2.25",
         "lemma": "włączać",
-        "aspect": "imperfective",
-        "secondaryAspects": [],
-        "extra": {
-            "usage": [
-                "Czy możesz włączyć światło? ― Can you switch on the light?"
-            ],
-            "otherShapes": {
-                "perfective": [
-                    "włączyć"
-                ]
-            }
-        },
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ3",
+            "concrete",
+            "holdable",
+            "household object"
+        ],
         "translations": {
             "ENG": [
+                "to switch on",
+                "to turn on"
+            ]
+        },
+        "extra": {
+            "derivedTerms": [
                 "Synonyms: aktywować uaktywniać Antonym: wyłączyć  to switch on, to power up, to enable (to put a mechanism, device or system into operation)",
                 "Synonym: uwzględniać Antonym: wyłączyć  to include (to bring into as a part or member)"
             ]
         },
+        "aspect": "imperfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "włączać",
             "verbalNoun": "włączanie",
@@ -2884,11 +3035,27 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "home",
+            "inside",
+            "tech"
+        ],
+        "id": "pol-ver-061-włączać"
     },
     {
-        "temp_id": "2.26",
         "lemma": "wejść",
+        "tags": [
+            "FREQ3",
+            "movement",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to enter",
+                "to go into[i]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -2902,12 +3069,6 @@
             },
             "derivedTerms": [
                 "( verbs ) wchodzić na ambicję wejść na ambicję"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to enter, to go into[i]"
             ]
         },
         "inflections": {
@@ -2989,31 +3150,33 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "body",
+            "medicine",
+            "travel"
+        ],
+        "id": "pol-ver-062-wejść"
     },
     {
-        "temp_id": "2.27",
         "lemma": "wchodzić",
-        "aspect": "imperfective",
-        "secondaryAspects": [],
-        "extra": {
-            "otherShapes": {
-                "perfective": [
-                    "wejść"
-                ]
-            },
-            "derivedTerms": [
-                "( verbs ) wchodzić na ambicję wejść na ambicję",
-                "chodzić"
-            ]
-        },
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ3",
+            "movement",
+            "concrete"
+        ],
         "translations": {
             "ENG": [
-                "Antonym: wychodzić[i]  to enter (to go into (a room, etc. ) on foot)",
-                "to get involved, to get mixed up[i]"
+                "to enter"
             ]
         },
+        "extra": {
+            "derivedTerms": [
+                "Antonym: wychodzić[i]"
+            ]
+        },
+        "aspect": "imperfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "wchodzić",
             "verbalNoun": "wchodzenie",
@@ -3101,11 +3264,27 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body",
+            "medicine",
+            "travel"
+        ],
+        "id": "pol-ver-063-wchodzić"
     },
     {
-        "temp_id": "2.28",
         "lemma": "umyć",
+        "tags": [
+            "FREQ2",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to wash",
+                "to clean",
+                "to wash oneself[r]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -3117,13 +3296,6 @@
                     "myć"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to wash, to clean (with water, soap, etc. )",
-                "to wash oneself[r]"
-            ]
         },
         "inflections": {
             "infinitive": "umyć",
@@ -3212,11 +3384,26 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "body",
+            "medicine"
+        ],
+        "id": "pol-ver-064-umyć"
     },
     {
-        "temp_id": "2.29",
         "lemma": "myć",
+        "tags": [
+            "FREQ2",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to wash",
+                "to clean",
+                "to wash oneself[r]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -3240,13 +3427,6 @@
                 "( nouns ) mydło mydelniczka",
                 "( adjective ) mydlany",
                 "( verb ) mydlić"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to wash, to clean with water",
-                "to wash oneself[r]"
             ]
         },
         "inflections": {
@@ -3336,11 +3516,26 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body",
+            "medicine"
+        ],
+        "id": "pol-ver-065-myć"
     },
     {
-        "temp_id": "2.30",
         "lemma": "oglądać",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "perception"
+        ],
+        "translations": {
+            "ENG": [
+                "to watch",
+                "to look back[r]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -3360,13 +3555,6 @@
                 "wglądać impf wejrzeć pf wglądnąć pf",
                 "wyglądać impf wyjrzeć pf wyglądnąć pf",
                 "zaglądać impf zajrzeć pf zaglądnąć pf"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to watch (to look at for a period of time)",
-                "to look back[r]"
             ]
         },
         "inflections": {
@@ -3456,11 +3644,31 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "sense and perception"
+        ],
+        "id": "pol-ver-066-oglądać"
     },
     {
-        "temp_id": "2.31",
         "lemma": "obejrzeć",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "perception"
+        ],
+        "translations": {
+            "ENG": [
+                "to look at",
+                "to view",
+                "to watch",
+                "to see",
+                "to visit",
+                "to examine",
+                "to inspect",
+                "to look back[r]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -3480,16 +3688,6 @@
                 "wglądać impf wejrzeć pf wglądnąć pf",
                 "wyglądać impf wyjrzeć pf wyglądnąć pf",
                 "zaglądać impf zajrzeć pf zaglądnąć pf"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to look at, to view",
-                "to watch",
-                "to see, to visit",
-                "to examine, to inspect",
-                "to look back[r]"
             ]
         },
         "inflections": {
@@ -3579,11 +3777,24 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "sense and perception"
+        ],
+        "id": "pol-ver-067-obejrzeć"
     },
     {
-        "temp_id": "2.32",
         "lemma": "używać",
+        "tags": [
+            "FREQ2",
+            "movement",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to use"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [
             "genitive"
@@ -3600,12 +3811,6 @@
             },
             "derivedTerms": [
                 "( adjective ) używany"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to use (employ, apply)"
             ]
         },
         "inflections": {
@@ -3695,11 +3900,24 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body"
+        ],
+        "id": "pol-ver-068-używać"
     },
     {
-        "temp_id": "2.33",
         "lemma": "użyć",
+        "tags": [
+            "FREQ2",
+            "movement",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to use"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [
             "genitive"
@@ -3716,12 +3934,6 @@
             },
             "derivedTerms": [
                 "zużyć"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to use (employ, apply)"
             ]
         },
         "inflections": {
@@ -3811,11 +4023,27 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "body"
+        ],
+        "id": "pol-ver-069-użyć"
     },
     {
-        "temp_id": "2.34",
         "lemma": "szukać",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "movement",
+            "perception"
+        ],
+        "translations": {
+            "ENG": [
+                "to look for#[+genitive]",
+                "to seek#[+genitive]",
+                "to search for#[+genitive]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -3833,12 +4061,6 @@
                 "( adjective ) poszukiwawczy",
                 "descendants → belarusian: шука́ць ( šukácʹ ) .mw-parser-output .desc-arr[title]{cursor:help}.mw-parser-output .desc-arr[title=\"uncertain\"]{font-size:.7em;vertical-align:super}",
                 "→ Ukrainian: шука́ти ( šukáty )"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to look for, to seek, to search [+genitive]"
             ]
         },
         "inflections": {
@@ -3928,29 +4150,31 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body",
+            "sense and perception"
+        ],
+        "id": "pol-ver-070-szukać"
     },
     {
-        "temp_id": "2.35",
         "lemma": "sprzątać",
-        "aspect": "imperfective",
-        "secondaryAspects": [],
-        "extra": {
-            "otherShapes": {
-                "perfective": [
-                    "sprzątnąć"
-                ]
-            },
-            "derivedTerms": [
-                "( verbs ) posprzątać wysprzątać",
-                "( noun ) sprzęt",
-                "( verbs ) uprzątać uprzątnąć zaprzątać zaprzątywać zaprzątnąć"
-            ]
-        },
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "holdable",
+            "household object"
+        ],
         "translations": {
             "ENG": [
-                "to clean up, to sweep, to tidy up Antonyms: bałaganić brudzić",
+                "to clean up",
+                "to sweep",
+                "to tidy up"
+            ]
+        },
+        "extra": {
+            "derivedTerms": [
+                "Antonyms: bałaganić brudzić",
                 "to remove something from somewhere and put it somewhere else",
                 "to take away something from someone[t,colloquial]",
                 "Synonym: wtrząchać[t,colloquial]  to gobble up (to consume rapidly)",
@@ -3958,6 +4182,8 @@
                 "to harvest (to bring in a harvest; to reap)"
             ]
         },
+        "aspect": "imperfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "sprzątać",
             "verbalNoun": "sprzątanie",
@@ -4045,27 +4271,33 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body",
+            "home",
+            "inside",
+            "medicine"
+        ],
+        "id": "pol-ver-071-sprzątać"
     },
     {
-        "temp_id": "2.36",
         "lemma": "sprzątnąć",
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "extra": {
-            "otherShapes": {
-                "imperfective": [
-                    "sprzątać"
-                ]
-            },
-            "derivedTerms": [
-                "( verbs ) posprzątać uprzątać uprzątnąć wysprzątać zaprzątać zaprzątywać zaprzątnąć"
-            ]
-        },
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "holdable",
+            "household object"
+        ],
         "translations": {
             "ENG": [
-                "to clean up, to sweep, to tidy up Antonyms: zabałaganić zabrudzić",
+                "to clean up",
+                "to sweep",
+                "to tidy up"
+            ]
+        },
+        "extra": {
+            "derivedTerms": [
+                "Antonyms: zabałaganić zabrudzić",
                 "to remove something from somewhere and put it somewhere else",
                 "to take away something from someone[t,colloquial]",
                 "Synonym: wtrząchnąć[t,colloquial]  to gobble up (to consume rapidly)",
@@ -4073,6 +4305,8 @@
                 "to harvest (to bring in a harvest; to reap)"
             ]
         },
+        "aspect": "perfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "sprzątnąć",
             "verbalNoun": "sprzątnięcie",
@@ -4160,11 +4394,26 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "body",
+            "home",
+            "inside",
+            "medicine"
+        ],
+        "id": "pol-ver-072-sprzątnąć"
     },
     {
-        "temp_id": "2.37",
         "lemma": "żyć",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to live[i]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -4184,12 +4433,6 @@
                 "( nouns ) pożytek m pożywienie n przeżytek m użytek m życie n żywiciel m żywienie n żywność f żywot m żywotność f",
                 "( adjectives ) pożyteczny pożywny użyteczny życiowy żywotny żywy żyzny",
                 "noun żyć n genitive plural of życie"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to live[i] (be alive)"
             ]
         },
         "inflections": {
@@ -4279,11 +4522,25 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "biology",
+            "body",
+            "medicine"
+        ],
+        "id": "pol-ver-073-żyć"
     },
     {
-        "temp_id": "2.38",
         "lemma": "poprosić",
+        "tags": [
+            "FREQ2",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to ask for"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -4292,12 +4549,6 @@
                     "prosić"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to ask somebody"
-            ]
         },
         "inflections": {
             "infinitive": "poprosić",
@@ -4386,11 +4637,23 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "request and permission"
+        ],
+        "id": "pol-ver-074-poprosić"
     },
     {
-        "temp_id": "2.39",
         "lemma": "prosić",
+        "tags": [
+            "FREQ2",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to ask for"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -4407,12 +4670,6 @@
                 "zapraszać impf zaprosić pf",
                 "prośba",
                 "see also proszę"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to ask somebody"
             ]
         },
         "inflections": {
@@ -4502,11 +4759,27 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "request and permission"
+        ],
+        "id": "pol-ver-075-prosić"
     },
     {
-        "temp_id": "2.40",
         "lemma": "dostawać",
+        "tags": [
+            "FREQ2",
+            "helper",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to get",
+                "to receive",
+                "to get in[r]",
+                "to enter[r]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -4515,13 +4788,6 @@
                     "dostać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to get (to receive)",
-                "to get in, to enter[r]"
-            ]
         },
         "inflections": {
             "infinitive": "dostawać",
@@ -4610,11 +4876,27 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "travel"
+        ],
+        "id": "pol-ver-076-dostawać"
     },
     {
-        "temp_id": "2.41",
         "lemma": "dostać",
+        "tags": [
+            "FREQ2",
+            "helper",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to get",
+                "to receive",
+                "to get in[r]",
+                "to enter[r]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -4640,15 +4922,6 @@
                 "wydostać pf",
                 "podostawać pf",
                 "( noun ) dostawca"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to get, to receive ( + accusative case)",
-                "to contract, to develop, to catch[i] ( + genitive case)",
-                "to get hit[i] ( + instrumental case) (colloquial)",
-                "to get in, to enter[r]"
             ]
         },
         "inflections": {
@@ -4738,121 +5011,24 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "travel"
+        ],
+        "id": "pol-ver-077-dostać"
     },
     {
-        "temp_id": "2.42",
-        "lemma": "dostać",
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "extra": {
-            "usage": [
-                "Starsza pani nie dostała do końca mszy i zemdlała podczas modlitwy. ― The old lady didn't stand until the end of the mass and fainted while praying."
-            ],
-            "otherShapes": {
-                "imperfective": [
-                    "dostawać"
-                ]
-            }
-        },
-        "tags": "xxxxxxxxx",
+        "lemma": "urodzić",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
         "translations": {
             "ENG": [
-                "to last standing until a specific moment[i]"
+                "to give birth",
+                "to be born[r]"
             ]
         },
-        "inflections": {
-            "infinitive": "dostać",
-            "verbalNoun": "dostanie",
-            "activeAdjectival": false,
-            "passiveAdjectival": false,
-            "contemporaryAdverbial": false,
-            "anteriorAdverbial": "dostawszy",
-            "verbal": {
-                "conditional": true,
-                "future": {
-                    "impersonal": {
-                        "singular": {
-                            "allSingularGenders": "dostoi się"
-                        },
-                        "plural": {
-                            "allPluralGenders": "dostoi się"
-                        }
-                    },
-                    "1per": {
-                        "singular": {
-                            "allSingularGenders": "dostoję"
-                        },
-                        "plural": {
-                            "allPluralGenders": "dostoimy"
-                        }
-                    },
-                    "2per": {
-                        "singular": {
-                            "allSingularGenders": "dostoisz"
-                        },
-                        "plural": {
-                            "allPluralGenders": "dostoicie"
-                        }
-                    },
-                    "3per": {
-                        "singular": {
-                            "allSingularGenders": "dostoi"
-                        },
-                        "plural": {
-                            "allPluralGenders": "dostoją"
-                        }
-                    }
-                },
-                "imperative": "dostój",
-                "past": {
-                    "impersonal": {
-                        "singular": {
-                            "allSingularGenders": "dostano"
-                        },
-                        "plural": {
-                            "allPluralGenders": "dostano"
-                        }
-                    },
-                    "1per": {
-                        "singular": {
-                            "m": "dostałem",
-                            "f": "dostałam"
-                        },
-                        "plural": {
-                            "virile": "dostaliśmy",
-                            "nonvirile": "dostałyśmy"
-                        }
-                    },
-                    "2per": {
-                        "singular": {
-                            "m": "dostałeś",
-                            "f": "dostałaś"
-                        },
-                        "plural": {
-                            "virile": "dostaliście",
-                            "nonvirile": "dostałyście"
-                        }
-                    },
-                    "3per": {
-                        "singular": {
-                            "m": "dostał",
-                            "f": "dostała",
-                            "n": "dostało"
-                        },
-                        "plural": {
-                            "virile": "dostali",
-                            "nonvirile": "dostały"
-                        }
-                    }
-                },
-                "present": false
-            }
-        }
-    },
-    {
-        "temp_id": "2.43",
-        "lemma": "urodzić",
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -4861,14 +5037,6 @@
                     "rodzić"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to give birth",
-                "to yield, to give a crop",
-                "to be born[r]"
-            ]
         },
         "inflections": {
             "infinitive": "urodzić",
@@ -4957,11 +5125,27 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "biology",
+            "body",
+            "medicine",
+            "time"
+        ],
+        "id": "pol-ver-078-urodzić"
     },
     {
-        "temp_id": "2.44",
         "lemma": "rodzić",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to give birth",
+                "to be born[r]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -4973,14 +5157,6 @@
             "derivedTerms": [
                 "( verbs ) narodzić urodzić wrodzić wradzać zrodzić",
                 "( nouns ) poród rodzic rodziciel rodzicielka rodzina ród"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to give birth",
-                "to yield, to give a crop",
-                "to be born[r]"
             ]
         },
         "inflections": {
@@ -5070,11 +5246,29 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "biology",
+            "body",
+            "medicine",
+            "time"
+        ],
+        "id": "pol-ver-079-rodzić"
     },
     {
-        "temp_id": "2.45",
         "lemma": "wyjść",
+        "tags": [
+            "FREQ2",
+            "movement",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to exit",
+                "to go out",
+                "to leave[i]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -5086,12 +5280,6 @@
             "derivedTerms": [
                 "wyjść za mąż",
                 "noun wyjść n genitive plural of wyjście"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to exit, to go out, to leave[i] (on foot)"
             ]
         },
         "inflections": {
@@ -5173,11 +5361,26 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "body"
+        ],
+        "id": "pol-ver-080-wyjść"
     },
     {
-        "temp_id": "2.46",
         "lemma": "wychodzić",
+        "tags": [
+            "FREQ2",
+            "movement",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to exit",
+                "to go out",
+                "to leave[i]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -5188,15 +5391,6 @@
             },
             "derivedTerms": [
                 "wychodzić za mąż"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to go out, to leave[i] (on foot)",
-                "to lead[i] (begin a game of cards or dominoes)",
-                "to look, to face[i] (of a window, to present with a view)",
-                "to work, to work out (succeed) (with dative)"
             ]
         },
         "inflections": {
@@ -5286,11 +5480,24 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body"
+        ],
+        "id": "pol-ver-081-wychodzić"
     },
     {
-        "temp_id": "2.47",
         "lemma": "lubić",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "positive judgment"
+        ],
+        "translations": {
+            "ENG": [
+                "to like"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -5302,13 +5509,6 @@
                     "polubić"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to like (enjoy)",
-                "to like (auxiliary)"
-            ]
         },
         "inflections": {
             "infinitive": "lubić",
@@ -5397,19 +5597,27 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "judgment",
+            "mental"
+        ],
+        "id": "pol-ver-082-lubić"
     },
     {
-        "temp_id": "2.48",
         "lemma": "polubić",
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "positive judgment"
+        ],
         "translations": {
             "ENG": [
-                "to take to, to take a liking to, to take a shine to, to come to like"
+                "to like"
             ]
         },
+        "aspect": "perfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "polubić",
             "verbalNoun": "polubienie",
@@ -5497,11 +5705,26 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "judgment",
+            "mental"
+        ],
+        "id": "pol-ver-083-polubić"
     },
     {
-        "temp_id": "2.49",
         "lemma": "wysyłać",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to send",
+                "to post",
+                "to mail"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -5510,12 +5733,6 @@
                     "wysłać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to send"
-            ]
         },
         "inflections": {
             "infinitive": "wysyłać",
@@ -5604,11 +5821,25 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "travel"
+        ],
+        "id": "pol-ver-084-wysyłać"
     },
     {
-        "temp_id": "2.50",
         "lemma": "wysłać",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to send",
+                "to post",
+                "to mail"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -5617,13 +5848,6 @@
                     "wysyłać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to send",
-                "to post, to mail"
-            ]
         },
         "inflections": {
             "infinitive": "wysłać",
@@ -5712,121 +5936,23 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "travel"
+        ],
+        "id": "pol-ver-085-wysłać"
     },
     {
-        "temp_id": "2.51",
-        "lemma": "wysłać",
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "extra": {
-            "otherShapes": {
-                "imperfective": [
-                    "wyściełać"
-                ],
-                "or": [
-                    "wyścielać"
-                ]
-            }
-        },
-        "tags": "xxxxxxxxx",
+        "lemma": "wygrywać",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
         "translations": {
             "ENG": [
-                "to line (cover a surface, usually with some light material)"
+                "to win"
             ]
         },
-        "inflections": {
-            "infinitive": "wysłać",
-            "verbalNoun": "wysłanie",
-            "activeAdjectival": false,
-            "passiveAdjectival": "wysłany",
-            "contemporaryAdverbial": false,
-            "anteriorAdverbial": "wysławszy",
-            "verbal": {
-                "conditional": true,
-                "future": {
-                    "impersonal": {
-                        "singular": {
-                            "allSingularGenders": "wyściele się"
-                        },
-                        "plural": {
-                            "allPluralGenders": "wyściele się"
-                        }
-                    },
-                    "1per": {
-                        "singular": {
-                            "allSingularGenders": "wyścielę"
-                        },
-                        "plural": {
-                            "allPluralGenders": "wyścielemy"
-                        }
-                    },
-                    "2per": {
-                        "singular": {
-                            "allSingularGenders": "wyścielesz"
-                        },
-                        "plural": {
-                            "allPluralGenders": "wyścielecie"
-                        }
-                    },
-                    "3per": {
-                        "singular": {
-                            "allSingularGenders": "wyściele"
-                        },
-                        "plural": {
-                            "allPluralGenders": "wyścielą"
-                        }
-                    }
-                },
-                "imperative": "wyściel",
-                "past": {
-                    "impersonal": {
-                        "singular": {
-                            "allSingularGenders": "wysłano"
-                        },
-                        "plural": {
-                            "allPluralGenders": "wysłano"
-                        }
-                    },
-                    "1per": {
-                        "singular": {
-                            "m": "wysłałem",
-                            "f": "wysłałam"
-                        },
-                        "plural": {
-                            "virile": "wysłaliśmy",
-                            "nonvirile": "wysłałyśmy"
-                        }
-                    },
-                    "2per": {
-                        "singular": {
-                            "m": "wysłałeś",
-                            "f": "wysłałaś"
-                        },
-                        "plural": {
-                            "virile": "wysłaliście",
-                            "nonvirile": "wysłałyście"
-                        }
-                    },
-                    "3per": {
-                        "singular": {
-                            "m": "wysłał",
-                            "f": "wysłała",
-                            "n": "wysłało"
-                        },
-                        "plural": {
-                            "virile": "wysłali",
-                            "nonvirile": "wysłały"
-                        }
-                    }
-                },
-                "present": false
-            }
-        }
-    },
-    {
-        "temp_id": "2.52",
-        "lemma": "wygrywać",
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -5835,13 +5961,6 @@
                     "wygrać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to win (a prize)",
-                "Antonym: przegrywać[i]  to lead (in a competition)"
-            ]
         },
         "inflections": {
             "infinitive": "wygrywać",
@@ -5930,11 +6049,23 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "sport"
+        ],
+        "id": "pol-ver-086-wygrywać"
     },
     {
-        "temp_id": "2.53",
         "lemma": "wygrać",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to win"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -5943,13 +6074,6 @@
                     "wygrywać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to win (a prize)",
-                "Antonym: przegrać[i]  to lead (in a competition)"
-            ]
         },
         "inflections": {
             "infinitive": "wygrać",
@@ -6038,11 +6162,24 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "sport"
+        ],
+        "id": "pol-ver-087-wygrać"
     },
     {
-        "temp_id": "2.54",
         "lemma": "decydować",
+        "tags": [
+            "FREQ3",
+            "abstract",
+            "thought"
+        ],
+        "translations": {
+            "ENG": [
+                "to decide"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -6055,15 +6192,6 @@
                 "( nouns ) decyzja decydent decydentka decyzyjność",
                 "( adjectives ) decydujący decydencki decyzyjny zdecydowany",
                 "( adverbs ) decydująco zdecydowanie"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "Synonym: postanawiać[i]  to decide (to resolve or settle)",
-                "to have a major influence Synonyms: rządzić przesądzać rozstrzygać stanowić[i]",
-                "to make up one's mind Synonym: namyślać się[r]",
-                "Synonym: rozstrzygać się ważyć się[r]  to be decided (e.g. one's fate)"
             ]
         },
         "inflections": {
@@ -6153,11 +6281,25 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "planning"
+        ],
+        "id": "pol-ver-088-decydować"
     },
     {
-        "temp_id": "2.55",
         "lemma": "zdecydować",
+        "tags": [
+            "FREQ3",
+            "abstract",
+            "thought"
+        ],
+        "translations": {
+            "ENG": [
+                "to decide"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -6171,15 +6313,6 @@
                 "( nouns ) decyzja decydent decydentka decyzyjność",
                 "( adjectives ) decydujący decydencki decyzyjny",
                 "( adverbs ) decydująco zdecydowanie"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "Synonym: postanowić  to decide (to resolve or settle)",
-                "to have a major influence Synonyms: zarządzić postanowić przesądzić rozstrzygnąć",
-                "to make up one's mind Synonym: namyślić się[r]",
-                "Synonym: rozstrzygnąć się[r]  to be decided (e.g. one's fate)"
             ]
         },
         "inflections": {
@@ -6269,11 +6402,27 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "planning"
+        ],
+        "id": "pol-ver-089-zdecydować"
     },
     {
-        "temp_id": "2.56",
         "lemma": "uwierzyć",
+        "tags": [
+            "FREQ3",
+            "abstract",
+            "thought"
+        ],
+        "translations": {
+            "ENG": [
+                "to rely",
+                "to believe[i]",
+                "to trust[i]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -6282,13 +6431,6 @@
                     "wierzyć"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to rely, to believe[i]",
-                "to trust[i]"
-            ]
         },
         "inflections": {
             "infinitive": "uwierzyć",
@@ -6377,11 +6519,27 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "religion"
+        ],
+        "id": "pol-ver-090-uwierzyć"
     },
     {
-        "temp_id": "2.57",
         "lemma": "wierzyć",
+        "tags": [
+            "FREQ3",
+            "abstract",
+            "thought"
+        ],
+        "translations": {
+            "ENG": [
+                "to rely",
+                "to believe[i]",
+                "to trust[i]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -6395,13 +6553,6 @@
                 "( noun ) wierzący ( “ believer ” )",
                 "( nouns ) wiara ( “ faith ” ) wiarołomca ( “ traitor ” ) wierność ( “ faithfulness, fidelity ” ) wierny ( “ believer ” )",
                 "( adjective ) wiarołomny ( “ treacherous ” ) wierny ( “ faithful ” )"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "rely believe[i]",
-                "trust[i]"
             ]
         },
         "inflections": {
@@ -6491,11 +6642,27 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "religion"
+        ],
+        "id": "pol-ver-091-wierzyć"
     },
     {
-        "temp_id": "2.58",
         "lemma": "bawić",
+        "tags": [
+            "FREQ3",
+            "hobby",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to have fun[r]",
+                "to play",
+                "to play with something[r]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -6515,16 +6682,6 @@
                 "zbawiać impf zbawić pf pozbawiać impf pozbawić pf",
                 "( nouns ) bawialnia f bawidamek m ubaw m",
                 "( noun ) zabawa f"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                ", to take care of, to look after  to entertain (guests, people)",
-                "to enjoy, to be amused by[pa]",
-                "to sojourn[i]",
-                "to have fun[r]",
-                "to play with something[r]"
             ]
         },
         "inflections": {
@@ -6614,11 +6771,22 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [],
+        "id": "pol-ver-092-bawić"
     },
     {
-        "temp_id": "2.59",
         "lemma": "kupować",
+        "tags": [
+            "FREQ2",
+            "money",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to buy"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -6642,12 +6810,6 @@
                 "wkupywać impf wkupić pf",
                 "wykupywać impf wykupić pf",
                 "zakupywać impf zakupić pf"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to buy"
             ]
         },
         "inflections": {
@@ -6737,11 +6899,25 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "business",
+            "shopping"
+        ],
+        "id": "pol-ver-093-kupować"
     },
     {
-        "temp_id": "2.60",
         "lemma": "kupić",
+        "tags": [
+            "FREQ2",
+            "money",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to buy"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -6768,12 +6944,6 @@
                 "( nouns ) kupiec kupno zakup",
                 "( adjective ) kupny",
                 "( phrase ) nie miała baba kłopotu, kupiła sobie prosię"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to buy"
             ]
         },
         "inflections": {
@@ -6863,11 +7033,24 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "business",
+            "shopping"
+        ],
+        "id": "pol-ver-094-kupić"
     },
     {
-        "temp_id": "2.61",
         "lemma": "umrzeć",
+        "tags": [
+            "FREQ4",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to die[i]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -6876,12 +7059,6 @@
                     "umierać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to die[i] (to stop living)"
-            ]
         },
         "inflections": {
             "infinitive": "umrzeć",
@@ -6970,11 +7147,25 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "biology",
+            "philosophy and ethics",
+            "religion"
+        ],
+        "id": "pol-ver-095-umrzeć"
     },
     {
-        "temp_id": "2.62",
         "lemma": "umierać",
+        "tags": [
+            "FREQ4",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to die[i]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -6987,12 +7178,6 @@
                 "martwy",
                 "see also synonyms: see thesaurus: umierać",
                 "śmierć"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to die[i] (to stop living)"
             ]
         },
         "inflections": {
@@ -7082,11 +7267,28 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "biology",
+            "philosophy and ethics",
+            "religion"
+        ],
+        "id": "pol-ver-096-umierać"
     },
     {
-        "temp_id": "2.63",
         "lemma": "próbować",
+        "tags": [
+            "FREQ3",
+            "helper",
+            "hobby",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to try",
+                "to taste"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -7095,16 +7297,6 @@
                     "spróbować"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to try [+infinitive = to do what] or [+genitive = what] (attempt)",
-                "[+accusative = what]  to try (test if something works)",
-                "[+accusative = what]  to rehearse (practice by repetition or recitation)",
-                "[+genitive = what]  to taste (sample the flavor of something)",
-                "= with someone] Synonym: mierzyć się[r]  to compete, to contend [+ z (instrumental)"
-            ]
         },
         "inflections": {
             "infinitive": "próbować",
@@ -7193,11 +7385,24 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [],
+        "id": "pol-ver-097-próbować"
     },
     {
-        "temp_id": "2.64",
         "lemma": "spróbować",
+        "tags": [
+            "FREQ3",
+            "helper",
+            "hobby",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to try",
+                "to taste"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -7206,16 +7411,6 @@
                     "próbować"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to try [+infinitive = to do what] or [+genitive = what] (attempt)",
-                "[+accusative = what]  to try (test if something works)",
-                "[+accusative = what]  to rehearse (practice by repetition or recitation)",
-                "[+genitive = what]  to taste (sample the flavor of something)",
-                "= with someone] Synonym: zmierzyć się[r]  to compete, to contend [+ z (instrumental)"
-            ]
         },
         "inflections": {
             "infinitive": "spróbować",
@@ -7304,11 +7499,23 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [],
+        "id": "pol-ver-098-spróbować"
     },
     {
-        "temp_id": "2.65",
         "lemma": "zostawiać",
+        "tags": [
+            "FREQ4",
+            "helper",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to leave",
+                "to leave behind"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -7317,15 +7524,6 @@
                     "zostawić"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to leave (somebody), to desert",
-                ", to leave behind  to leave (something)",
-                "to leave, to bequeath (transfer possession of after death)",
-                "to leave, to deposit (deliver to a repository)"
-            ]
         },
         "inflections": {
             "infinitive": "zostawiać",
@@ -7414,11 +7612,23 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [],
+        "id": "pol-ver-099-zostawiać"
     },
     {
-        "temp_id": "2.66",
         "lemma": "zostawić",
+        "tags": [
+            "FREQ4",
+            "helper",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to leave",
+                "to leave behind"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -7431,15 +7641,6 @@
                     "zostawiać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to leave (somebody), to desert",
-                ", to leave behind  to leave (something)",
-                "to leave, to bequeath (transfer possession of after death)",
-                "to leave, to deposit (deliver to a repository)"
-            ]
         },
         "inflections": {
             "infinitive": "zostawić",
@@ -7528,121 +7729,25 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [],
+        "id": "pol-ver-100-zostawić"
     },
     {
-        "temp_id": "2.67",
-        "lemma": "wyściełać",
-        "aspect": "imperfective",
-        "secondaryAspects": [],
-        "extra": {
-            "otherShapes": {
-                "perfective": [
-                    "wysłać"
-                ],
-                "or": [
-                    "wyścielić"
-                ]
-            }
-        },
-        "tags": "xxxxxxxxx",
+        "lemma": "zamknąć",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "holdable",
+            "household object"
+        ],
         "translations": {
             "ENG": [
-                "to line (cover a surface, usually with some light material)"
+                "to close",
+                "to shut",
+                "to lock"
             ]
         },
-        "inflections": {
-            "infinitive": "wyściełać",
-            "verbalNoun": "wyściełanie",
-            "activeAdjectival": "wyściełający",
-            "passiveAdjectival": "wyściełany",
-            "contemporaryAdverbial": "wyściełając",
-            "anteriorAdverbial": false,
-            "verbal": {
-                "conditional": true,
-                "future": true,
-                "imperative": "wyściełaj",
-                "past": {
-                    "impersonal": {
-                        "singular": {
-                            "allSingularGenders": "wyściełano"
-                        },
-                        "plural": {
-                            "allPluralGenders": "wyściełano"
-                        }
-                    },
-                    "1per": {
-                        "singular": {
-                            "m": "wyściełałem",
-                            "f": "wyściełałam"
-                        },
-                        "plural": {
-                            "virile": "wyściełaliśmy",
-                            "nonvirile": "wyściełałyśmy"
-                        }
-                    },
-                    "2per": {
-                        "singular": {
-                            "m": "wyściełałeś",
-                            "f": "wyściełałaś"
-                        },
-                        "plural": {
-                            "virile": "wyściełaliście",
-                            "nonvirile": "wyściełałyście"
-                        }
-                    },
-                    "3per": {
-                        "singular": {
-                            "m": "wyściełał",
-                            "f": "wyściełała",
-                            "n": "wyściełało"
-                        },
-                        "plural": {
-                            "virile": "wyściełali",
-                            "nonvirile": "wyściełały"
-                        }
-                    }
-                },
-                "present": {
-                    "impersonal": {
-                        "singular": {
-                            "allSingularGenders": "wyścieła się"
-                        },
-                        "plural": {
-                            "allPluralGenders": "wyścieła się"
-                        }
-                    },
-                    "1per": {
-                        "singular": {
-                            "allSingularGenders": "wyściełam"
-                        },
-                        "plural": {
-                            "allPluralGenders": "wyściełamy"
-                        }
-                    },
-                    "2per": {
-                        "singular": {
-                            "allSingularGenders": "wyściełasz"
-                        },
-                        "plural": {
-                            "allPluralGenders": "wyściełacie"
-                        }
-                    },
-                    "3per": {
-                        "singular": {
-                            "allSingularGenders": "wyścieła"
-                        },
-                        "plural": {
-                            "allPluralGenders": "wyściełają"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    {
-        "temp_id": "2.68",
-        "lemma": "zamknąć",
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -7651,18 +7756,6 @@
                     "zamykać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to close, to shut, to lock Antonym: otworzyć",
-                "to conclude, to bring an end to, to wrap up",
-                "to lock up, to put away",
-                "to close close out exit shut down[t,programming] (of a program)",
-                "to close, to become shut[r]",
-                "to lock oneself away[r]",
-                "to shut up[r] (stop talking)"
-            ]
         },
         "inflections": {
             "infinitive": "zamknąć",
@@ -7751,11 +7844,30 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "body",
+            "home",
+            "inside",
+            "medicine"
+        ],
+        "id": "pol-ver-101-zamknąć"
     },
     {
-        "temp_id": "2.69",
         "lemma": "zamykać",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "holdable",
+            "household object"
+        ],
+        "translations": {
+            "ENG": [
+                "to close",
+                "to shut",
+                "to lock"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -7764,16 +7876,6 @@
                     "zamknąć"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to close, to shut, to lock Antonym: otwierać",
-                "to conclude, to bring an end to, to wrap up",
-                "to lock up, to put away",
-                "to close, to become shut[r]",
-                "to lock oneself away[r]"
-            ]
         },
         "inflections": {
             "infinitive": "zamykać",
@@ -7862,11 +7964,29 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body",
+            "home",
+            "inside",
+            "medicine"
+        ],
+        "id": "pol-ver-102-zamykać"
     },
     {
-        "temp_id": "2.70",
         "lemma": "nienawidzić",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "negative judgment"
+        ],
+        "translations": {
+            "ENG": [
+                "to hate",
+                "to detest",
+                "to despise"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -7879,15 +7999,6 @@
                 "( nouns ) nienawistnik m pers nienawiść f",
                 "( adjective ) nienawistny",
                 "( adverb ) nienawistnie"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to hate (a person or a thing)",
-                "to abominate, to detest, to loathe",
-                "to hate each other[r]",
-                "to hate oneself[r]"
             ]
         },
         "inflections": {
@@ -7977,11 +8088,26 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "judgment",
+            "mental"
+        ],
+        "id": "pol-ver-103-nienawidzić"
     },
     {
-        "temp_id": "2.71",
         "lemma": "opowiedzieć",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to tell",
+                "to narrate"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -7990,13 +8116,6 @@
                     "opowiadać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to tell, to narrate",
-                "= someone/something][r]  to back, to side with [+ za (instrumental)"
-            ]
         },
         "inflections": {
             "infinitive": "opowiedzieć",
@@ -8085,11 +8204,25 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "mental"
+        ],
+        "id": "pol-ver-104-opowiedzieć"
     },
     {
-        "temp_id": "2.72",
         "lemma": "opowiadać",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to tell",
+                "to narrate"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -8098,13 +8231,6 @@
                     "opowiedzieć"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to tell, to narrate",
-                "= someone/something][r]  to back, to side with [+ za (instrumental)"
-            ]
         },
         "inflections": {
             "infinitive": "opowiadać",
@@ -8193,11 +8319,24 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "mental"
+        ],
+        "id": "pol-ver-105-opowiadać"
     },
     {
-        "temp_id": "2.73",
         "lemma": "nieść",
+        "tags": [
+            "FREQ3",
+            "movement",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to carry"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [
             "determinate"
@@ -8224,21 +8363,6 @@
                 "wznosić impf wznieść pf",
                 "zanosić impf zanieść pf",
                 "znosić impf znieść pf"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to carry (to transport by lifting)",
-                "to carry away[t,of,a,river,or,wind,,etc]",
-                "to cause or contain",
-                "to bear (to feel in a strong way)",
-                "to compel[t,of,emotions]",
-                "to offer, to give away",
-                "to lay eggs",
-                "to shoot Synonym: strzelać Synonyms: see Thesaurus: bić",
-                "to spread, to cover more space[r]",
-                "to travel some distance[r]"
             ]
         },
         "inflections": {
@@ -8328,11 +8452,31 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body",
+            "medicine",
+            "travel"
+        ],
+        "id": "pol-ver-106-nieść"
     },
     {
-        "temp_id": "2.74",
         "lemma": "nosić",
+        "tags": [
+            "FREQ3",
+            "movement",
+            "concrete"
+        ],
+        "allohomInfo": {
+            "singleWordtype": true,
+            "text": "objects",
+            "emoji": "📘"
+        },
+        "translations": {
+            "ENG": [
+                "to carry"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [
             "indeterminate"
@@ -8361,15 +8505,6 @@
                 "znosić impf znieść pf",
                 "( nouns ) nosiciel nośnik",
                 "( suffix ) -nośny"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to carry (e.g. a parcel)",
-                "to wear (e.g. a shirt)",
-                "to bear (e.g. a title)",
-                "to carry oneself[r] (behave in a certain way)"
             ]
         },
         "inflections": {
@@ -8459,11 +8594,165 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body",
+            "medicine",
+            "travel"
+        ],
+        "id": "pol-ver-107-nosić(carry)"
     },
     {
-        "temp_id": "2.75",
+        "lemma": "nosić",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "allohomInfo": {
+            "singleWordtype": true,
+            "text": "clothes",
+            "emoji": "👚"
+        },
+        "translations": {
+            "ENG": [
+                "to wear"
+            ]
+        },
+        "aspect": "imperfective",
+        "secondaryAspects": [
+            "indeterminate"
+        ],
+        "extra": {
+            "otherShapes": {
+                "imperfective determinate": [
+                    "nieść"
+                ]
+            },
+            "derivedTerms": [
+                "donosić impf donieść pf",
+                "nanosić impf nanieść pf",
+                "obnosić impf obnieść pf",
+                "odnosić impf odnieść pf",
+                "podnosić impf podnieść pf",
+                "ponosić impf ponieść pf",
+                "przenosić impf przenieść pf",
+                "przynosić impf przynieść pf",
+                "roznosić impf roznieść pf",
+                "unosić impf unieść pf",
+                "wnosić impf wnieść pf",
+                "wynosić impf wynieść pf",
+                "wznosić impf wznieść pf",
+                "zanosić impf zanieść pf",
+                "znosić impf znieść pf",
+                "( nouns ) nosiciel nośnik",
+                "( suffix ) -nośny"
+            ]
+        },
+        "inflections": {
+            "infinitive": "nosić",
+            "verbalNoun": "noszenie",
+            "activeAdjectival": "noszący",
+            "passiveAdjectival": "noszony",
+            "contemporaryAdverbial": "nosząc",
+            "anteriorAdverbial": false,
+            "verbal": {
+                "conditional": true,
+                "future": true,
+                "imperative": "noś",
+                "past": {
+                    "impersonal": {
+                        "singular": {
+                            "allSingularGenders": "noszono"
+                        },
+                        "plural": {
+                            "allPluralGenders": "noszono"
+                        }
+                    },
+                    "1per": {
+                        "singular": {
+                            "m": "nosiłem",
+                            "f": "nosiłam"
+                        },
+                        "plural": {
+                            "virile": "nosiliśmy",
+                            "nonvirile": "nosiłyśmy"
+                        }
+                    },
+                    "2per": {
+                        "singular": {
+                            "m": "nosiłeś",
+                            "f": "nosiłaś"
+                        },
+                        "plural": {
+                            "virile": "nosiliście",
+                            "nonvirile": "nosiłyście"
+                        }
+                    },
+                    "3per": {
+                        "singular": {
+                            "m": "nosił",
+                            "f": "nosiła",
+                            "n": "nosiło"
+                        },
+                        "plural": {
+                            "virile": "nosili",
+                            "nonvirile": "nosiły"
+                        }
+                    }
+                },
+                "present": {
+                    "impersonal": {
+                        "singular": {
+                            "allSingularGenders": "nosi się"
+                        },
+                        "plural": {
+                            "allPluralGenders": "nosi się"
+                        }
+                    },
+                    "1per": {
+                        "singular": {
+                            "allSingularGenders": "noszę"
+                        },
+                        "plural": {
+                            "allPluralGenders": "nosimy"
+                        }
+                    },
+                    "2per": {
+                        "singular": {
+                            "allSingularGenders": "nosisz"
+                        },
+                        "plural": {
+                            "allPluralGenders": "nosicie"
+                        }
+                    },
+                    "3per": {
+                        "singular": {
+                            "allSingularGenders": "nosi"
+                        },
+                        "plural": {
+                            "allPluralGenders": "noszą"
+                        }
+                    }
+                }
+            }
+        },
+        "topics": [
+            "fashion"
+        ],
+        "id": "pol-ver-108-nosić(wear)"
+    },
+    {
         "lemma": "znaleźć",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "perception"
+        ],
+        "translations": {
+            "ENG": [
+                "to find"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -8474,13 +8763,6 @@
             },
             "derivedTerms": [
                 "( nouns ) znajda znajdźka znalazca znalezisko znaleźne"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to find Synonyms: odnaleźć odszukać Antonym: zgubić",
-                "to be found Synonym: odnaleźć się Antonym: zgubić się[r]"
             ]
         },
         "inflections": {
@@ -8570,11 +8852,26 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "sense and perception",
+            "spatial"
+        ],
+        "id": "pol-ver-109-znaleźć"
     },
     {
-        "temp_id": "2.76",
         "lemma": "znajdować",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "perception"
+        ],
+        "translations": {
+            "ENG": [
+                "to find"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -8583,13 +8880,6 @@
                     "znaleźć"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to find Synonyms: odnajdywać odszukiwać Antonym: gubić",
-                "to be found Synonym: odnajdywać się Antonym: gubić się[r]"
-            ]
         },
         "inflections": {
             "infinitive": "znajdować",
@@ -8678,11 +8968,28 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "sense and perception",
+            "spatial"
+        ],
+        "id": "pol-ver-110-znajdować"
     },
     {
-        "temp_id": "2.77",
         "lemma": "obudzić",
+        "tags": [
+            "FREQ2",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to wake",
+                "to get someone up",
+                "to awake",
+                "to waken[r]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -8697,14 +9004,6 @@
             },
             "derivedTerms": [
                 "obudzony"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to wake",
-                "to get someone up",
-                "to awake, to waken[r,autocausative] (stop sleeping)"
             ]
         },
         "inflections": {
@@ -8794,11 +9093,28 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "body",
+            "daily routine",
+            "medicine"
+        ],
+        "id": "pol-ver-111-obudzić"
     },
     {
-        "temp_id": "2.78",
         "lemma": "budzić",
+        "tags": [
+            "FREQ2",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to wake",
+                "to get someone up",
+                "to awake",
+                "to waken[r]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -8822,14 +9138,6 @@
                 "zbudzać impf zbudzić pf",
                 "( nouns ) budzik m pobudka f",
                 "( adjective ) pobudliwy"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to wake",
-                "to get someone up",
-                "to awake, to waken[r,autocausative] (stop sleeping)"
             ]
         },
         "inflections": {
@@ -8919,11 +9227,26 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "body",
+            "daily routine",
+            "medicine"
+        ],
+        "id": "pol-ver-112-budzić"
     },
     {
-        "temp_id": "2.79",
         "lemma": "podziękować",
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to thank"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -8937,12 +9260,6 @@
                 "( nouns ) dzięki dziękówa dziękówka",
                 "( interjections ) dzięki dziękówa dziękówka dziękować",
                 "( preposition ) dzięki"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to thank[i]"
             ]
         },
         "inflections": {
@@ -9032,11 +9349,25 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "social glue"
+        ],
+        "id": "pol-ver-113-podziękować"
     },
     {
-        "temp_id": "2.80",
         "lemma": "dziękować",
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to thank"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -9058,12 +9389,6 @@
                 "Rusyn: дя́ковати ( djákovaty )",
                 "Ukrainian: дя́кувати ( djákuvaty )",
                 "→ Russian: дя́кувать ( djákuvatʹ ) дя́кать ( djákatʹ ) ( dialectal )"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to thank[i]"
             ]
         },
         "inflections": {
@@ -9153,11 +9478,26 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "social glue"
+        ],
+        "id": "pol-ver-114-dziękować"
     },
     {
-        "temp_id": "2.81",
         "lemma": "gubić",
+        "tags": [
+            "FREQ4",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to lose",
+                "to mislay",
+                "to misplace"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -9175,14 +9515,6 @@
                 "wygubić pf",
                 "zagubić pf",
                 "( noun ) zguba"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to lose, to mislay Synonyms: podziać zapodziać zawieruszyć",
-                "to ruin Synonyms: rujnować tracić",
-                "to shed Synonyms: ronić tracić"
             ]
         },
         "inflections": {
@@ -9272,11 +9604,29 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "spatial"
+        ],
+        "id": "pol-ver-115-gubić"
     },
     {
-        "temp_id": "2.82",
         "lemma": "zgubić",
+        "tags": [
+            "FREQ4",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to lose",
+                "to mislay",
+                "to misplace",
+                "to doom, to ruin",
+                "to lose one's way",
+                "to get lost[r]",
+                "to go missing[r]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -9289,15 +9639,6 @@
                     "gubić"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to lose, to misplace",
-                "to doom, to ruin",
-                "to lose one's way, to get lost[r]",
-                "to go walkabout, to go missing[r]"
-            ]
         },
         "inflections": {
             "infinitive": "zgubić",
@@ -9386,11 +9727,24 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "spatial"
+        ],
+        "id": "pol-ver-116-zgubić"
     },
     {
-        "temp_id": "2.83",
         "lemma": "obiecywać",
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to promise"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -9399,12 +9753,6 @@
                     "obiecać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to promise"
-            ]
         },
         "inflections": {
             "infinitive": "obiecywać",
@@ -9493,11 +9841,25 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "social glue"
+        ],
+        "id": "pol-ver-117-obiecywać"
     },
     {
-        "temp_id": "2.84",
         "lemma": "obiecać",
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to promise"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -9514,12 +9876,6 @@
                 "obietnica",
                 "descendants → belarusian: абяца́ць ( abjacácʹ ) .mw-parser-output .desc-arr[title]{cursor:help}.mw-parser-output .desc-arr[title=\"uncertain\"]{font-size:.7em;vertical-align:super}",
                 "→ Ukrainian: обіця́ти ( obicjáty )"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to promise[t,i] (to commit to something or action)"
             ]
         },
         "inflections": {
@@ -9609,11 +9965,26 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "social glue"
+        ],
+        "id": "pol-ver-118-obiecać"
     },
     {
-        "temp_id": "2.85",
         "lemma": "wysłuchać",
+        "tags": [
+            "FREQ5",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to listen thoroughly",
+                "to hear out"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -9622,13 +9993,6 @@
                     "wysłuchiwać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to listen thoroughly, to listen to the entirety of",
-                "to hear out (allow somebody to finish talking)"
-            ]
         },
         "inflections": {
             "infinitive": "wysłuchać",
@@ -9717,11 +10081,26 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "social glue"
+        ],
+        "id": "pol-ver-119-wysłuchać"
     },
     {
-        "temp_id": "2.86",
         "lemma": "wysłuchiwać",
+        "tags": [
+            "FREQ5",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to listen thoroughly",
+                "to hear out"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -9730,13 +10109,6 @@
                     "wysłuchać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to listen thoroughly, to listen to the entirety of",
-                "to hear out (allow somebody to finish talking)"
-            ]
         },
         "inflections": {
             "infinitive": "wysłuchiwać",
@@ -9825,11 +10197,25 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "social glue"
+        ],
+        "id": "pol-ver-120-wysłuchiwać"
     },
     {
-        "temp_id": "2.87",
         "lemma": "powtórzyć",
+        "tags": [
+            "FREQ3",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to repeat"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -9841,15 +10227,6 @@
                     "powtarzać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to repeat (say again)",
-                "to go over, to revise, to rehearse",
-                "to repeat oneself[r]",
-                "to reoccur, to replay[r] (happen again)"
-            ]
         },
         "inflections": {
             "infinitive": "powtórzyć",
@@ -9938,11 +10315,25 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "language",
+            "mental"
+        ],
+        "id": "pol-ver-121-powtórzyć"
     },
     {
-        "temp_id": "2.88",
         "lemma": "powtarzać",
+        "tags": [
+            "FREQ3",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to repeat"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -9951,15 +10342,6 @@
                     "powtórzyć"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to repeat (say again)",
-                "to go over, to revise, to rehearse",
-                "to repeat oneself[r]",
-                "to reoccur, to replay[r] (happen again)"
-            ]
         },
         "inflections": {
             "infinitive": "powtarzać",
@@ -10048,11 +10430,27 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "language",
+            "mental"
+        ],
+        "id": "pol-ver-122-powtarzać"
     },
     {
-        "temp_id": "2.89",
         "lemma": "nauczyć",
+        "tags": [
+            "FREQ2",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to teach",
+                "to educate",
+                "to learn[r]",
+                "to study[r]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -10061,13 +10459,6 @@
                     "nauczać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to teach[t,i]",
-                "to learn, to study[r]"
-            ]
         },
         "inflections": {
             "infinitive": "nauczyć",
@@ -10156,11 +10547,26 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "school"
+        ],
+        "id": "pol-ver-123-nauczyć"
     },
     {
-        "temp_id": "2.90",
         "lemma": "nauczać",
+        "tags": [
+            "FREQ2",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to teach",
+                "to educate",
+                "to learn[r]",
+                "to study[r]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -10169,12 +10575,6 @@
                     "nauczyć"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to educate Synonym: kształcić[t,i]"
-            ]
         },
         "inflections": {
             "infinitive": "nauczać",
@@ -10263,11 +10663,24 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "school"
+        ],
+        "id": "pol-ver-124-nauczać"
     },
     {
-        "temp_id": "2.91",
         "lemma": "opisywać",
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to describe"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -10280,13 +10693,6 @@
                 "( nouns ) opis opisywacz opisowość",
                 "( adjectives ) opisowy opisywalny",
                 "( adverb ) opisowo"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to describe (represent in words)",
-                "to circumscribe[geometry,t]"
             ]
         },
         "inflections": {
@@ -10376,11 +10782,24 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "mental"
+        ],
+        "id": "pol-ver-125-opisywać"
     },
     {
-        "temp_id": "2.92",
         "lemma": "opisać",
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to describe"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -10393,13 +10812,6 @@
                 "( nouns ) opis opisywacz opisowość",
                 "( adjectives ) opisowy opisywalny",
                 "( adverb ) opisowo"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to describe (represent in words)",
-                "to circumscribe[geometry,t]"
             ]
         },
         "inflections": {
@@ -10489,11 +10901,25 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "mental"
+        ],
+        "id": "pol-ver-126-opisać"
     },
     {
-        "temp_id": "2.93",
         "lemma": "zaczynać",
+        "tags": [
+            "FREQ2",
+            "hobby",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to start",
+                "to begin"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -10508,13 +10934,6 @@
                 "Verbs related to zaczynać poczynać impf począć pf rozpoczynać impf rozpocząć pf",
                 "wyczynać impf wycząć pf",
                 "zaczynać impf zacząć pf"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to start, to begin Synonym: rozpoczynać",
-                "to start, to begin[r]"
             ]
         },
         "inflections": {
@@ -10604,11 +11023,25 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "time"
+        ],
+        "id": "pol-ver-127-zaczynać"
     },
     {
-        "temp_id": "2.94",
         "lemma": "zacząć",
+        "tags": [
+            "FREQ2",
+            "hobby",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to start",
+                "to begin"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -10621,13 +11054,6 @@
                 "verbs related to zacząć poczynać impf począć pf rozpoczynać impf rozpocząć pf",
                 "wyczynać impf wycząć pf",
                 "wszczynać impf wszcząć pf"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to start, to begin",
-                "to start, to begin[r]"
             ]
         },
         "inflections": {
@@ -10717,11 +11143,26 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "time"
+        ],
+        "id": "pol-ver-128-zacząć"
     },
     {
-        "temp_id": "2.95",
         "lemma": "uwielbiać",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "positive judgment"
+        ],
+        "translations": {
+            "ENG": [
+                "to like",
+                "to adore",
+                "to love"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -10730,13 +11171,6 @@
                     "uwielbić"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to like very much",
-                "to adore, to love"
-            ]
         },
         "inflections": {
             "infinitive": "uwielbiać",
@@ -10825,11 +11259,27 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "judgment",
+            "mental"
+        ],
+        "id": "pol-ver-129-uwielbiać"
     },
     {
-        "temp_id": "2.96",
         "lemma": "uwielbić",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "positive judgment"
+        ],
+        "translations": {
+            "ENG": [
+                "to like",
+                "to adore",
+                "to love"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -10841,13 +11291,6 @@
                     "wielbić"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to like very much",
-                "to adore, to love"
-            ]
         },
         "inflections": {
             "infinitive": "uwielbić",
@@ -10936,11 +11379,26 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "judgment",
+            "mental"
+        ],
+        "id": "pol-ver-130-uwielbić"
     },
     {
-        "temp_id": "2.97",
         "lemma": "pytać",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to ask",
+                "to question[r]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -10965,14 +11423,6 @@
                 "spytywać impf spytać pf",
                 "wypytywać impf wypytać pf",
                 "zapytywać impf zapytać pf"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to ask (to look for an answer to a question by speaking)",
-                "to examine",
-                "to question[r]"
             ]
         },
         "inflections": {
@@ -11062,11 +11512,26 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "social glue"
+        ],
+        "id": "pol-ver-131-pytać"
     },
     {
-        "temp_id": "2.98",
         "lemma": "zapytać",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to ask",
+                "to question[r]"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -11080,13 +11545,6 @@
             },
             "derivedTerms": [
                 "( nouns ) zapytanie znak zapytania"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to ask",
-                "to question[r]"
             ]
         },
         "inflections": {
@@ -11176,20 +11634,28 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "social glue"
+        ],
+        "id": "pol-ver-132-zapytać"
     },
     {
-        "temp_id": "2.99",
         "lemma": "spytać",
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "speech"
+        ],
         "translations": {
             "ENG": [
                 "to ask",
                 "to question[r]"
             ]
         },
+        "aspect": "perfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "spytać",
             "verbalNoun": "spytanie",
@@ -11277,11 +11743,27 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "social glue"
+        ],
+        "id": "pol-ver-133-spytać"
     },
     {
-        "temp_id": "2.100",
         "lemma": "korzystać",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to use",
+                "to benefit",
+                "to profit",
+                "to take advantage"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -11290,13 +11772,6 @@
                     "skorzystać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "= from something][i]  to benefit, to profit [+ na (locative)",
-                "= of][i]  to take advantage, to use [+ z (genitive)"
-            ]
         },
         "inflections": {
             "infinitive": "korzystać",
@@ -11385,11 +11860,26 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "daily routine"
+        ],
+        "id": "pol-ver-134-korzystać"
     },
     {
-        "temp_id": "2.101",
         "lemma": "skorzystać",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to use",
+                "to benefit",
+                "to profit",
+                "to take advantage"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -11398,13 +11888,6 @@
                     "korzystać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "= from something][i]  to benefit, to profit [+ na (locative)",
-                "= of][i]  to take advantage, to use [+ z (genitive)"
-            ]
         },
         "inflections": {
             "infinitive": "skorzystać",
@@ -11493,11 +11976,26 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "daily routine"
+        ],
+        "id": "pol-ver-135-skorzystać"
     },
     {
-        "temp_id": "2.102",
         "lemma": "uczyć",
+        "tags": [
+            "FREQ2",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to teach",
+                "to educate",
+                "to learn[r]",
+                "to study[r]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -11518,14 +12016,6 @@
                 "zuczyć pf",
                 "( nouns ) nauczyciel nauczycielka nauczycielstwo nauka nieuk samouk uczelnia uczeń uczennica uczony",
                 "( adjectives ) antynaukowy uczony naukowy wyuczalny"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to teach[t,i]",
-                "to learn, to study[r]",
-                "to revise[r] (to prepare for an examination)"
             ]
         },
         "inflections": {
@@ -11615,11 +12105,25 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "school"
+        ],
+        "id": "pol-ver-136-uczyć"
     },
     {
-        "temp_id": "2.103",
         "lemma": "zapytywać",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to ask",
+                "to question[r]"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -11628,13 +12132,6 @@
                     "zapytać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to ask",
-                "to question[r]"
-            ]
         },
         "inflections": {
             "infinitive": "zapytywać",
@@ -11723,11 +12220,25 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "social glue"
+        ],
+        "id": "pol-ver-137-zapytywać"
     },
     {
-        "temp_id": "2.104",
         "lemma": "podobać",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "positive judgment"
+        ],
+        "translations": {
+            "ENG": [
+                "to appeal to"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -11743,12 +12254,6 @@
             },
             "derivedTerms": [
                 "( adjective ) podobny"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "Don't my drawings appeal to you? ”)[r]  to appeal, to be likeable Your dress appeals to me. ”)"
             ]
         },
         "inflections": {
@@ -11838,11 +12343,25 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "judgment",
+            "mental"
+        ],
+        "id": "pol-ver-138-podobać"
     },
     {
-        "temp_id": "2.105",
         "lemma": "spodobać",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "positive judgment"
+        ],
+        "translations": {
+            "ENG": [
+                "to appeal to"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -11857,12 +12376,6 @@
             },
             "derivedTerms": [
                 "( verbs ) podobać się spodobać się"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to appeal, to be likeable The green shirt appealed to me the most. ”)[r]"
             ]
         },
         "inflections": {
@@ -11952,11 +12465,25 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "judgment",
+            "mental"
+        ],
+        "id": "pol-ver-139-spodobać"
     },
     {
-        "temp_id": "2.106",
         "lemma": "przegrać",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to fail",
+                "to lose"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -11970,14 +12497,6 @@
                     "przegrywać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to fail, to lose Antonym: wygrać 2009 August 10,Mariusz Wiśniewski,“Śląsk dokonał wielkiej sztuki - przegrał wygrane spotkanie”, in NaszeMiasto.pl [1] : Śląsk prowadził 2:1 i wydawało się, że już nie może przegrać tego meczu.[t,i]",
-                "2009 August 17,Stanisław Mancewicz,“Krakowskie trwanie. Portrety polityczne miast polskich przed nowym sezonem”, in Wyborcza.pl [2] : Jest dziś europarlamentarzystą, ale w wyborach w Krakowie, powtarzam - w Krakowie samym, przegrał .",
-                "to copy data from one physical medium to another 2009 August 20,Tomasz Skalski,“iConvert -- zgrywanie VHS-ów do komputera nigdy nie było tak proste”, in Engadget Polska [3] : Jeśli wciąż jeszcze nie zmobilizowaliście się, żeby przegrać z VHS-ów swoją starą kolekcję rzadkich filmów kung-fu, to właśnie dostajecie do rąk urządzenie, które powinno was do tego zmobilizować."
-            ]
         },
         "inflections": {
             "infinitive": "przegrać",
@@ -12066,11 +12585,24 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "sport"
+        ],
+        "id": "pol-ver-140-przegrać"
     },
     {
-        "temp_id": "2.107",
         "lemma": "przegrywać",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to fail",
+                "to lose"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -12079,13 +12611,6 @@
                     "przegrać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to fail, to lose Antonym: wygrywać[t,i]",
-                "to copy data from one physical medium to another"
-            ]
         },
         "inflections": {
             "infinitive": "przegrywać",
@@ -12174,11 +12699,26 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "sport"
+        ],
+        "id": "pol-ver-141-przegrywać"
     },
     {
-        "temp_id": "2.108",
         "lemma": "słuchać",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "perception",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to listen",
+                "to listen to"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -12206,13 +12746,6 @@
                 "wysłuchiwać impf wysłuchać pf",
                 "zasłuchiwać impf zasłuchać pf",
                 "( verb ) słyszeć"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to listen [+genitive = to something][t,or,i]",
-                "to obey [+genitive = something][i]"
             ]
         },
         "inflections": {
@@ -12302,11 +12835,28 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "sense and perception",
+            "social glue"
+        ],
+        "id": "pol-ver-142-słuchać"
     },
     {
-        "temp_id": "2.109",
         "lemma": "posłuchać",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "perception",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to listen",
+                "to listen to"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -12315,13 +12865,6 @@
                     "słuchać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                ", to listen up  to listen to ( + genitive)",
-                "to obey, to listen Synonym: usłuchać[i]"
-            ]
         },
         "inflections": {
             "infinitive": "posłuchać",
@@ -12410,11 +12953,27 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "sense and perception",
+            "social glue"
+        ],
+        "id": "pol-ver-143-posłuchać"
     },
     {
-        "temp_id": "2.110",
         "lemma": "grać",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to play (a role)",
+                "to play (an instrument)",
+                "to play (a game)"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -12446,14 +13005,6 @@
                 "gra",
                 "gracz",
                 "see also bawić się"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "= what][t,i]  to play (produce music using a musical instrument) [+ na (locative)",
-                "= what][i]  to play (participate in a certain game) [+ w (accusative)",
-                "to act[t,i] (perform a theatrical role)"
             ]
         },
         "inflections": {
@@ -12543,22 +13094,29 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "music",
+            "sport",
+            "theatre"
+        ],
+        "id": "pol-ver-144-grać"
     },
     {
-        "temp_id": "2.111",
         "lemma": "zagrać",
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ3",
+            "concrete"
+        ],
         "translations": {
             "ENG": [
-                "to play, to perform (produce [a certain piece of] music using a musical instrument)",
-                "to play (participate in a certain game)",
-                "to play, to make a move (perform an action related to a game)",
-                "to play, to portray (perform a theatrical role)"
+                "to play (a role)",
+                "to play (an instrument)",
+                "to play (a game)"
             ]
         },
+        "aspect": "perfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "zagrać",
             "verbalNoun": "zagranie",
@@ -12646,11 +13204,26 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "music",
+            "sport",
+            "theatre"
+        ],
+        "id": "pol-ver-145-zagrać"
     },
     {
-        "temp_id": "2.112",
         "lemma": "widzieć",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "perception"
+        ],
+        "translations": {
+            "ENG": [
+                "to see"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -12675,14 +13248,6 @@
                 "( nouns ) niedowidzenie n wid m widmo n widok m widownia f widz m widziadło n",
                 "( adjectives ) widoczny widomy widzialny",
                 "( adverb ) widocznie"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to see (to perceive with the eyes)",
-                "to see oneself[r]",
-                "= with someone][r]  to see one another, to meet [+ z (instrumental)"
             ]
         },
         "inflections": {
@@ -12772,11 +13337,24 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "sense and perception"
+        ],
+        "id": "pol-ver-146-widzieć"
     },
     {
-        "temp_id": "2.113",
         "lemma": "zobaczyć",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "perception"
+        ],
+        "translations": {
+            "ENG": [
+                "to see"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -12790,14 +13368,6 @@
             },
             "derivedTerms": [
                 "do zobaczenia"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to see (perceive with the eyes)",
-                "to see oneself[r]",
-                "to see one another, to meet[r]"
             ]
         },
         "inflections": {
@@ -12887,11 +13457,24 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "sense and perception"
+        ],
+        "id": "pol-ver-147-zobaczyć"
     },
     {
-        "temp_id": "2.114",
         "lemma": "widywać",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "perception"
+        ],
+        "translations": {
+            "ENG": [
+                "to see"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [
             "indeterminate",
@@ -12906,13 +13489,6 @@
                     "widzieć"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to see once in a while",
-                "to see one another, to meet[r]"
-            ]
         },
         "inflections": {
             "infinitive": "widywać",
@@ -12993,11 +13569,24 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "sense and perception"
+        ],
+        "id": "pol-ver-148-widywać"
     },
     {
-        "temp_id": "2.115",
         "lemma": "kochać",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "positive judgment"
+        ],
+        "translations": {
+            "ENG": [
+                "to love"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -13012,16 +13601,6 @@
             },
             "derivedTerms": [
                 "( verb ) podkochiwać"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to love (have a strong affection for)",
-                "to love[t,auxiliary] (an activity)",
-                "to love each other[r]",
-                "to make love Synonyms: see Thesaurus: uprawiać seks[r,euphemistic]",
-                "to love oneself[r,rare]"
             ]
         },
         "inflections": {
@@ -13111,21 +13690,30 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "judgment",
+            "love",
+            "mental",
+            "people"
+        ],
+        "id": "pol-ver-149-kochać"
     },
     {
-        "temp_id": "2.116",
         "lemma": "pokochać",
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "positive judgment"
+        ],
         "translations": {
             "ENG": [
-                "to fall in love with, to fall for",
-                "to fall in love with one another[r]",
-                "to make love, to have sex Synonyms: see Thesaurus: uprawiać seks[r,colloquial]"
+                "to fall in love with",
+                "to fall for"
             ]
         },
+        "aspect": "perfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "pokochać",
             "verbalNoun": "pokochanie",
@@ -13213,11 +13801,138 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "judgment",
+            "love",
+            "mental",
+            "people"
+        ],
+        "id": "pol-ver-150-pokochać"
     },
     {
-        "temp_id": "2.117",
+        "lemma": "zakochać",
+        "tags": [
+            "FREQ1",
+            "abstract",
+            "positive judgment"
+        ],
+        "translations": {
+            "ENG": [
+                "to fall in love with",
+                "to fall for"
+            ]
+        },
+        "aspect": "perfective",
+        "secondaryAspects": [],
+        "inflections": {
+            "infinitive": "pokochać",
+            "verbalNoun": "pokochanie",
+            "activeAdjectival": false,
+            "passiveAdjectival": "pokochany",
+            "contemporaryAdverbial": false,
+            "anteriorAdverbial": "pokochawszy",
+            "verbal": {
+                "conditional": true,
+                "future": {
+                    "impersonal": {
+                        "singular": {
+                            "allSingularGenders": "pokocha się"
+                        },
+                        "plural": {
+                            "allPluralGenders": "pokocha się"
+                        }
+                    },
+                    "1per": {
+                        "singular": {
+                            "allSingularGenders": "pokocham"
+                        },
+                        "plural": {
+                            "allPluralGenders": "pokochamy"
+                        }
+                    },
+                    "2per": {
+                        "singular": {
+                            "allSingularGenders": "pokochasz"
+                        },
+                        "plural": {
+                            "allPluralGenders": "pokochacie"
+                        }
+                    },
+                    "3per": {
+                        "singular": {
+                            "allSingularGenders": "pokocha"
+                        },
+                        "plural": {
+                            "allPluralGenders": "pokochają"
+                        }
+                    }
+                },
+                "imperative": "pokochaj",
+                "past": {
+                    "impersonal": {
+                        "singular": {
+                            "allSingularGenders": "pokochano"
+                        },
+                        "plural": {
+                            "allPluralGenders": "pokochano"
+                        }
+                    },
+                    "1per": {
+                        "singular": {
+                            "m": "pokochałem",
+                            "f": "pokochałam"
+                        },
+                        "plural": {
+                            "virile": "pokochaliśmy",
+                            "nonvirile": "pokochałyśmy"
+                        }
+                    },
+                    "2per": {
+                        "singular": {
+                            "m": "pokochałeś",
+                            "f": "pokochałaś"
+                        },
+                        "plural": {
+                            "virile": "pokochaliście",
+                            "nonvirile": "pokochałyście"
+                        }
+                    },
+                    "3per": {
+                        "singular": {
+                            "m": "pokochał",
+                            "f": "pokochała",
+                            "n": "pokochało"
+                        },
+                        "plural": {
+                            "virile": "pokochali",
+                            "nonvirile": "pokochały"
+                        }
+                    }
+                },
+                "present": false
+            }
+        },
+        "topics": [
+            "judgment",
+            "love",
+            "mental",
+            "people"
+        ],
+        "id": "pol-ver-151-zakochać"
+    },
+    {
         "lemma": "patrzeć",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "perception"
+        ],
+        "translations": {
+            "ENG": [
+                "to look at"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -13250,13 +13965,6 @@
                 "( nouns ) patrzałki patrzydła",
                 "( nouns ) opatrunek opatrzność",
                 "( adjective ) opatrzny"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to look at [+accusative = something/someone][i,r]",
-                "to view, to regard, to look upon[i]"
             ]
         },
         "inflections": {
@@ -13346,11 +14054,24 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "sense and perception"
+        ],
+        "id": "pol-ver-152-patrzeć"
     },
     {
-        "temp_id": "2.118",
         "lemma": "popatrzeć",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "perception"
+        ],
+        "translations": {
+            "ENG": [
+                "to look at"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -13359,12 +14080,6 @@
                     "patrzeć"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "= at something][i,r]  to take a look, to have a look [+ na (accusative)"
-            ]
         },
         "inflections": {
             "infinitive": "popatrzeć",
@@ -13453,11 +14168,25 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "sense and perception"
+        ],
+        "id": "pol-ver-153-popatrzeć"
     },
     {
-        "temp_id": "2.119",
         "lemma": "mieszkać",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "location"
+        ],
+        "translations": {
+            "ENG": [
+                "to live",
+                "to reside"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -13474,12 +14203,6 @@
                 "( nouns ) mieszkanie mieszkaniec mieszkanka",
                 "( adjectives ) mieszkaniowy mieszkalny zamieszkały",
                 "descendants → ukrainian: ме́шкати ( méškaty ) .mw-parser-output .desc-arr[title]{cursor:help}.mw-parser-output .desc-arr[title=\"uncertain\"]{font-size:.7em;vertical-align:super}"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to live (have permanent residence)"
             ]
         },
         "inflections": {
@@ -13569,11 +14292,23 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [],
+        "id": "pol-ver-154-mieszkać"
     },
     {
-        "temp_id": "2.120",
         "lemma": "zamieszkać",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "location"
+        ],
+        "translations": {
+            "ENG": [
+                "to live",
+                "to reside"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -13582,13 +14317,6 @@
                     "zamieszkiwać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to settle, to take up residence[i]",
-                "to appear, to manifest[i]"
-            ]
         },
         "inflections": {
             "infinitive": "zamieszkać",
@@ -13677,11 +14405,26 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [],
+        "id": "pol-ver-155-zamieszkać"
     },
     {
-        "temp_id": "2.121",
         "lemma": "odpowiedzieć",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to answer for",
+                "to be accountable for",
+                "to reply",
+                "to respond",
+                "to answer"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -13693,15 +14436,6 @@
                     "odpowiadać"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to suit [+dative = someone]; to be proper or suitable[i]",
-                "= for something]; to be responsible for something[i]  to answer [+ za (accusative)",
-                "= to someone]; to be accountable before someone[i]  to answer [+ przed (instrumental)",
-                "to answer ; to reply ; to respond [+dative = to someone][i]"
-            ]
         },
         "inflections": {
             "infinitive": "odpowiedzieć",
@@ -13790,11 +14524,29 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "request and permission"
+        ],
+        "id": "pol-ver-156-odpowiedzieć"
     },
     {
-        "temp_id": "2.122",
         "lemma": "odpowiadać",
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "speech"
+        ],
+        "translations": {
+            "ENG": [
+                "to answer for",
+                "to be accountable for",
+                "to reply",
+                "to respond",
+                "to answer"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -13806,15 +14558,6 @@
                     "odpowiedzieć"
                 ]
             }
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to suit [+dative = someone]; to be proper or suitable[i]",
-                "= for something]; to be responsible for something[i]  to answer [+ za (accusative)",
-                "= to someone]; to be accountable before someone[i]  to answer [+ przed (instrumental)",
-                "to answer ; to reply ; to respond [+dative = to someone][i]"
-            ]
         },
         "inflections": {
             "infinitive": "odpowiadać",
@@ -13903,11 +14646,25 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "mental",
+            "request and permission"
+        ],
+        "id": "pol-ver-157-odpowiadać"
     },
     {
-        "temp_id": "2.123",
         "lemma": "poczekać",
+        "tags": [
+            "FREQ2",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to wait",
+                "to await"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -13919,12 +14676,6 @@
             "derivedTerms": [
                 "( nouns ) czekanie poczekalnia niedoczekanie ( “ you'll never see the day!, you wish! ” ) oczekiwanie poczekalnia",
                 "( verb ) czekać zaczekać odczekiwać odczekać oczekiwać doczekiwać doczekać wyczekiwać wyczekać przeczekiwać przeczekać"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to wait"
             ]
         },
         "inflections": {
@@ -14014,11 +14765,25 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "planning",
+            "time"
+        ],
+        "id": "pol-ver-158-poczekać"
     },
     {
-        "temp_id": "2.124",
         "lemma": "czekać",
+        "tags": [
+            "FREQ2",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to wait",
+                "to await"
+            ]
+        },
         "aspect": "imperfective",
         "secondaryAspects": [],
         "extra": {
@@ -14041,13 +14806,6 @@
                 "odczekiwać impf odczekać pf",
                 "przeczekiwać impf przeczekać pf",
                 "wyczekiwać impf wyczekać pf"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to wait[i]",
-                "to await, wait for"
             ]
         },
         "inflections": {
@@ -14137,11 +14895,25 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "planning",
+            "time"
+        ],
+        "id": "pol-ver-159-czekać"
     },
     {
-        "temp_id": "2.125",
         "lemma": "zaczekać",
+        "tags": [
+            "FREQ2",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "to wait",
+                "to await"
+            ]
+        },
         "aspect": "perfective",
         "secondaryAspects": [],
         "extra": {
@@ -14153,13 +14925,6 @@
             "derivedTerms": [
                 "( nouns ) czekanie poczekalnia niedoczekanie ( “ you'll never see the day!, you wish! ” ) oczekiwanie poczekalnia",
                 "( verb ) czekać poczekać odczekiwać odczekać oczekiwać doczekiwać doczekać wyczekiwać wyczekać przeczekiwać przeczekać"
-            ]
-        },
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to wait[i]",
-                "to await, wait for[i]"
             ]
         },
         "inflections": {
@@ -14249,21 +15014,29 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "planning",
+            "time"
+        ],
+        "id": "pol-ver-160-zaczekać"
     },
     {
-        "temp_id": "2.126",
         "lemma": "posprzątać",
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "holdable",
+            "household object"
+        ],
         "translations": {
             "ENG": [
-                "to clean up, to sweep, to tidy up Antonyms: zabałaganić zabrudzić",
-                "to remove something from somewhere and put it somewhere else",
-                "to harvest (to bring in a harvest; to reap)"
+                "to clean up",
+                "to clean"
             ]
         },
+        "aspect": "perfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "posprzątać",
             "verbalNoun": "posprzątanie",
@@ -14351,19 +15124,29 @@
                 },
                 "present": false
             }
-        }
+        },
+        "topics": [
+            "daily routine",
+            "home",
+            "inside"
+        ],
+        "id": "pol-ver-161-posprzątać"
     },
     {
-        "temp_id": "2.127",
         "lemma": "narzekać",
-        "aspect": "imperfective",
-        "secondaryAspects": [],
-        "tags": "xxxxxxxxx",
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "negative judgment",
+            "speech"
+        ],
         "translations": {
             "ENG": [
-                "to complain Synonyms: see Thesaurus: narzekać[i]"
+                "to complain"
             ]
         },
+        "aspect": "imperfective",
+        "secondaryAspects": [],
         "inflections": {
             "infinitive": "narzekać",
             "verbalNoun": "narzekanie",
@@ -14451,6 +15234,11 @@
                     }
                 }
             }
-        }
+        },
+        "topics": [
+            "judgment",
+            "mental"
+        ],
+        "id": "pol-ver-162-narzekać"
     }
 ]

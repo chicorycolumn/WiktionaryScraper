@@ -467,6 +467,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["art"],
     },
+    "ast": {
+        "tags": [],
+        "topics": ["astronomy"],
+    },
     "bio": {
         "tags": [],
         "topics": ["biology"],

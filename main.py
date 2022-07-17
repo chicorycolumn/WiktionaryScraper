@@ -12,7 +12,7 @@ if __name__ == '__main__':
     step = 2
     group_number = 2
     input_indexes = [0, 200]
-    wordtype = "a"
+    wordtype = "v"
     these_headwords_only = []
     # these_headwords_only = ['lekki']
     skip_make_ids = False  # only set True when manually testing.

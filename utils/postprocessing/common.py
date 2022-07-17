@@ -227,7 +227,6 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object, wordty
             shorthand_tags.append(stag)
 
     tags = recursively_expand_tags(shorthand_tags, ref) if shorthand_tags else []
-    #swde Is this keeping tags or dropping them?
 
     topics = []
     for stag in shorthand_tags if shorthand_tags else []:
