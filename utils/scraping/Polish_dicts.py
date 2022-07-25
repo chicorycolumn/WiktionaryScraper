@@ -85,7 +85,7 @@ shorthand_tag_refs = {
         "tags": ["noise", "aa"],
         "topics": ["sense and perception"],
     },
-    "~": {  # sight sound smell
+    "Q": {  # sight sound smell
         "tags": ["perception", "aa"],
         "topics": ["sense and perception"],
     },
@@ -97,7 +97,7 @@ shorthand_tag_refs = {
         "tags": ["emotion", "aa"],
         "topics": ["mental"],
     },
-    "€": {  # idea realisation
+    "Y": {  # idea realisation
         "tags": ["thought", "aa"],
         "topics": ["mental"],
     },
@@ -135,11 +135,11 @@ shorthand_tag_refs = {
         "tags": ["colour"],
         "topics": ["sense and perception", "appearance"],
     },
-    "ð": {  # spiky smooth hot cold
+    "D": {  # spiky smooth hot cold
         "tags": ["texture"],
         "topics": ["sense and perception"],
     },
-    "đ": {  # sour sweet
+    "F": {  # sour sweet
         "tags": ["flavour"],
         "topics": ["sense and perception", "cooking"],
     },
@@ -171,23 +171,23 @@ shorthand_tag_refs = {
         "tags": ["material", "uncountable", "concrete"],
         "topics": ["engineering"],
     },
-    "¢": {  # hydrogen helium lithium
+    "C": {  # hydrogen helium lithium
         "tags": ["chemical", "c"],
         "topics": ["chemistry"],
     },
-    "ß": {  # biology chemistry physics
+    "S": {  # biology chemistry physics
         "tags": ["school subject", "aa"],
         "topics": ["school"],
     },
-    "ł": {  # rainy sunny windy
+    "L": {  # rainy sunny windy
         "tags": ["weather type"],
         "topics": ["outdoor", "geography"],
     },
-    "łł": {  # climate albedo humidity
+    "LL": {  # climate albedo humidity
         "tags": ["weather"],
         "topics": ["outdoor", "geography"],
     },
-    "łłł": {  # hot cold cool
+    "H": {  # hot cold cool
         "tags": ["temperature", "weather"],
         "topics": ["outdoor", "geography"],
     },
@@ -259,7 +259,7 @@ shorthand_tag_refs = {
         "tags": ["animal", "living", "concrete"],
         "topics": ["outside"],
     },
-    "æ": {
+    "A": {
         "tags": ["pet", "a"],
         "topics": ["home", "inside"],
     },
@@ -329,7 +329,7 @@ shorthand_tag_refs = {
     },
 
     ############### 8) House
-    "hhf": {
+    "HH": {
         "tags": ["furniture", "concrete"],
         "topics": ["home", "inside"],
     },
@@ -337,24 +337,24 @@ shorthand_tag_refs = {
         "tags": ["household object", "h"],
         "topics": ["home", "inside"],
     },
-    "hbf": {
-        "tags": ["hhf"],
+    "HB": {
+        "tags": ["HH"],
         "topics": ["home", "inside", "bedroom"],
     },
     "hb": {
         "tags": ["hh"],
         "topics": ["home", "inside", "bedroom"],
     },
-    "hkf": {
-        "tags": ["hhf"],
+    "HK": {
+        "tags": ["HH"],
         "topics": ["home", "inside", "kitchen"],
     },
     "hk": {
         "tags": ["hh"],
         "topics": ["home", "inside", "kitchen"],
     },
-    "hwf": {
-        "tags": ["hhf"],
+    "HW": {
+        "tags": ["HH"],
         "topics": ["home", "inside", "washroom"],
     },
     "hw": {
@@ -399,7 +399,7 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["law"],
     },
-    "µ": {
+    "M": {
         "tags": [],
         "topics": ["medicine"],
     },
@@ -411,27 +411,27 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["tech"],
     },
-    "¶": {
+    "R": {
         "tags": ["religion"],
         "topics": ["religion"],
     },
-    "¶¶": {
+    "RR": {
         "tags": [],
         "topics": ["religion"],
     },
-    "ĸ": {
+    "K": {
         "tags": ["curseword"],
         "topics": [],
     },
-    "ŧ": {
+    "T": {
         "tags": ["transport"],
         "topics": ["travel"],
     },
-    "ŧŧ": {
+    "TT": {
         "tags": [],
         "topics": ["travel"],
     },
-    "ø": {
+    "Z": {
         "tags": [],
         "topics": ["love", "people"],
     },
@@ -443,23 +443,23 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["language"],
     },
-    "|": {
+    "X": {
         "tags": [],
         "topics": ["violence"],
     },
-    "¬": {
+    "V": {
         "tags": [],
         "topics": ["entertainment"],
     },
-    "þ": {
+    "P": {
         "tags": ["holiday"],
         "topics": ["holiday"],
     },
-    "þþ": {
+    "PP": {
         "tags": [],
         "topics": ["holiday"],
     },
-    "ŋ": {
+    "G": {
         "tags": ["slang"],
         "topics": [],
     },

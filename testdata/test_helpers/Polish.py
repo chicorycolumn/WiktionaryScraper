@@ -23,6 +23,14 @@ test_helper_shorthand_tag_ref_noun = {
             "tags": ["work"],
             "topics": [],
         },
+        "q": {
+            "tags": ["foo"],
+            "topics": [],
+        },
+        "Q": {
+            "tags": ["bar"],
+            "topics": [],
+        },
 
         # # # # # # # # # # #
 
@@ -30,7 +38,7 @@ test_helper_shorthand_tag_ref_noun = {
             "tags": ["material", "uncountable", "concrete"],
             "topics": ["basic"],
         },
-        "¢": {
+        "C": {
             "tags": ["chemical", "c"],
             "topics": ["science"],
         },
@@ -38,13 +46,9 @@ test_helper_shorthand_tag_ref_noun = {
             "tags": ["bodypart", "concrete"],
             "topics": ["at the doctor", "basic", "body"],
         },
-        "ß": {
+        "S": {
             "tags": ["schoolsubject", "abstract"],
             "topics": ["school"],
-        },
-        "w": {
-            "tags": ["weather", "abstract", "uncountable"],
-            "topics": ["basic", "outdoor"],
         },
         "!": {
             "tags": ["noise", "abstract"],
@@ -94,7 +98,7 @@ test_helper_shorthand_tag_ref_noun = {
             "tags": ["animal", "living", "concrete"],
             "topics": ["outside"],
         },
-        "æ": {
+        "A": {
             "tags": ["pet", "animal", "living", "concrete"],
             "topics": ["home", "inside"],
         },

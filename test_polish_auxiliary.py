@@ -194,6 +194,15 @@ def test_generate_adjective(input_args_sets: list, expected_path: str):
                 "topics": ["outside"],
             }
     ),
+    (
+            {"lemma": "oogly", "tags": "S,A,C,Q"},
+            {
+                "lemma": "oogly",
+                "tags": ['abstract', 'animal', 'bar', 'chemical', 'concrete', 'living', 'material', 'pet',
+                         'schoolsubject', 'uncountable'],
+                "topics": ['home', 'inside', 'school', 'science'],
+            }
+    ),
 ])
 def test_add_tags_and_topics_from_shorthand(lemma_object: object, expected_lemma_object: object):
     add_tags_and_topics_from_shorthand(lemma_object, test_helper_shorthand_tag_ref_noun)
