@@ -648,14 +648,14 @@
     },
     {
         "lemma": "partner",
-        "tags": "xxxxxxxxx",
+        "tags": "2p,Z",
         "translations": {
             "ENG": [
                 "partner",
                 "(someone who is associated with another in a common activity or interest)",
                 "partner",
                 "(spouse, domestic, or romantic partner)",
-                "equal",
+
                 "(someone of equal status to others)"
             ]
         },
@@ -664,7 +664,7 @@
     },
     {
         "lemma": "noc",
-        "tags": "xxxxxxxxx",
+        "tags": "1tt,dr",
         "translations": {
             "ENG": [
                 "night"
@@ -675,7 +675,7 @@
     },
     {
         "lemma": "oko",
-        "tags": "xxxxxxxxx",
+        "tags": "2bp",
         "translations": {
             "ENG": [
                 "eye",
@@ -686,7 +686,7 @@
         "gender": "n"
     },
     {
-        "lemma": "oko",
+        "lemma": "!oko",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -700,7 +700,7 @@
     },
     {
         "lemma": "matka",
-        "tags": "xxxxxxxxx",
+        "tags": "1r",
         "translations": {
             "ENG": [
                 "mother"
@@ -711,7 +711,7 @@
     },
     {
         "lemma": "tlen",
-        "tags": "xxxxxxxxx",
+        "tags": "4C",
         "translations": {
             "ENG": [
                 "oxygen"
@@ -722,7 +722,7 @@
     },
     {
         "lemma": "seks",
-        "tags": "xxxxxxxxx",
+        "tags": "4Z",
         "translations": {
             "ENG": [
                 "sex",
@@ -734,7 +734,7 @@
     },
     {
         "lemma": "marihuana",
-        "tags": "xxxxxxxxx",
+        "tags": "4N",
         "translations": {
             "ENG": [
                 "marijuana",
@@ -746,7 +746,7 @@
     },
     {
         "lemma": "drzewo",
-        "tags": "xxxxxxxxx",
+        "tags": "1n",
         "translations": {
             "ENG": [
                 "tree"
@@ -757,7 +757,7 @@
     },
     {
         "lemma": "procent",
-        "tags": "xxxxxxxxx",
+        "tags": "3mat,$",
         "translations": {
             "ENG": [
                 "percent"
@@ -768,7 +768,7 @@
     },
     {
         "lemma": "wino",
-        "tags": "xxxxxxxxx",
+        "tags": "2da",
         "translations": {
             "ENG": [
                 "wine"
@@ -779,16 +779,25 @@
     },
     {
         "lemma": "kasa",
-        "tags": "xxxxxxxxx",
+        "tags": "3$",
         "translations": {
             "ENG": [
-                "cash desk checkout",
-                "cash register till",
-                "money",
-                "(colloquial)"
+                "cash desk","checkout",
+                "cash register","till"
             ]
         },
         "temp_id": "2.64",
+        "gender": "f"
+    },
+    {
+        "lemma": "kasa",
+        "tags": "4G,$",
+        "translations": {
+            "ENG": [
+                "money"
+            ]
+        },
+        "temp_id": "2.64a",
         "gender": "f"
     },
     {

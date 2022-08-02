@@ -38,7 +38,7 @@ case_ref = {
 }
 
 shorthand_tag_refs = {
-    ############### 1) Foundation
+    ############### 0) Foundation
     "u": {
         "tags": ["uncountable"],
         "topics": [],
@@ -80,7 +80,7 @@ shorthand_tag_refs = {
         "topics": [],
     },
 
-    ############### 2) Mind and Body
+    ############### 1) Mind and Body
     "!": {  # bang crash boom
         "tags": ["noise", "aa"],
         "topics": ["sense and perception"],
@@ -126,7 +126,7 @@ shorthand_tag_refs = {
         "topics": ["daily routine"],
     },
 
-    ############### 3) Miscellaneous
+    ############### 2) Miscellaneous
     "kk": {  # tall short light dark
         "tags": [],
         "topics": ["sense and perception", "appearance"],
@@ -196,7 +196,7 @@ shorthand_tag_refs = {
         "topics": [],
     },
 
-    ############### 4) Abstract
+    ############### 3) Abstract
     "aa": {
         "tags": ["abstract"],
         "topics": [],
@@ -234,7 +234,7 @@ shorthand_tag_refs = {
         "topics": ["probability"],
     },
 
-    ############### 5) People
+    ############### 4) People
     "py": {
         "tags": ["personality"],
         "topics": ["people"],
@@ -268,7 +268,7 @@ shorthand_tag_refs = {
         "topics": ["people"],
     },
 
-    ############### 6) Food
+    ############### 5) Food
     "f": {
         "tags": ["food", "h"],
         "topics": ["kitchen", "restaurant", "inside"],
@@ -302,7 +302,7 @@ shorthand_tag_refs = {
         "topics": ["kitchen", "restaurant", "nightclub", "inside"],
     },
 
-    ############### 7) Location
+    ############### 6) Location
     "ll": {
         "tags": ["location", "concrete"],
         "topics": [],
@@ -328,7 +328,7 @@ shorthand_tag_refs = {
         "topics": [],
     },
 
-    ############### 8) House
+    ############### 7) House
     "HH": {
         "tags": ["furniture", "concrete"],
         "topics": ["home", "inside"],
@@ -366,7 +366,7 @@ shorthand_tag_refs = {
         "topics": ["home", "inside"],
     },
 
-    ############### 9) Fields
+    ############### 8) Fields
     "q": {
         "tags": ["hobby"],
         "topics": [],
@@ -462,6 +462,18 @@ shorthand_tag_refs = {
     "G": {
         "tags": ["slang"],
         "topics": [],
+    },
+    "N": { # cocaine, weed, heroin
+        "tags": ["drugs"],
+        "topics": ["drugs"],
+    },
+    "NN": { # smoke, pipe, bong
+        "tags": [],
+        "topics": ["drugs"],
+    },
+    "B": { # robbery, robber, manslaughter
+        "tags": ["crime"],
+        "topics": ["crime", "law"],
     },
     "art": {
         "tags": [],
@@ -564,7 +576,7 @@ shorthand_tag_refs = {
         "topics": ["request and permission"],
     },
 
-    ############### 10) Appraisal
+    ############### 9) Appraisal
     "+": {
         "tags": ["positive judgment"],
         "topics": ["judgment"],
