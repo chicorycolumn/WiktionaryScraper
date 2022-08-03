@@ -475,6 +475,10 @@ shorthand_tag_refs = {
         "tags": ["crime"],
         "topics": ["crime", "law"],
     },
+    "agr": {
+        "tags": [],
+        "topics": ["agriculture"],
+    },
     "art": {
         "tags": [],
         "topics": ["art"],
