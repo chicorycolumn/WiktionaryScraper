@@ -1002,11 +1002,10 @@
     },
     {
         "lemma": "noga",
-        "tags": "xxxxxxxxx",
+        "tags": "1bp",
         "translations": {
             "ENG": [
-                "leg",
-                "A clumsy or inept person."
+                "leg"
             ]
         },
         "temp_id": "2.82",
@@ -1014,7 +1013,7 @@
     },
     {
         "lemma": "mikroskop",
-        "tags": "xxxxxxxxx",
+        "tags": "5bio,phy",
         "translations": {
             "ENG": [
                 "microscope"
@@ -1025,10 +1024,10 @@
     },
     {
         "lemma": "dochód",
-        "tags": "xxxxxxxxx",
+        "tags": "3$,jj",
         "translations": {
             "ENG": [
-                "net income"
+                "income"
             ]
         },
         "temp_id": "2.84",
@@ -1036,7 +1035,7 @@
     },
     {
         "lemma": "wysokość",
-        "tags": "xxxxxxxxx",
+        "tags": "4z",
         "translations": {
             "ENG": [
                 "height",
@@ -1051,10 +1050,10 @@
     },
     {
         "lemma": "siostrzenica",
-        "tags": "xxxxxxxxx",
+        "tags": "3r",
         "translations": {
             "ENG": [
-                "sororal niece"
+                "niece"
             ]
         },
         "temp_id": "2.86",
@@ -1062,10 +1061,10 @@
     },
     {
         "lemma": "oznaka",
-        "tags": "xxxxxxxxx",
+        "tags": "5kk",
         "translations": {
             "ENG": [
-                "sign indication symptom"
+                "sign","indication"
             ]
         },
         "temp_id": "2.87",
@@ -1073,7 +1072,7 @@
     },
     {
         "lemma": "minuta",
-        "tags": "xxxxxxxxx",
+        "tags": "1at",
         "translations": {
             "ENG": [
                 "minute",
@@ -1085,7 +1084,7 @@
     },
     {
         "lemma": "czwartek",
-        "tags": "xxxxxxxxx",
+        "tags": "1at",
         "translations": {
             "ENG": [
                 "Thursday"
@@ -1096,7 +1095,7 @@
     },
     {
         "lemma": "piątek",
-        "tags": "xxxxxxxxx",
+        "tags": "1at",
         "translations": {
             "ENG": [
                 "Friday"
@@ -1106,7 +1105,7 @@
         "gender": "m3"
     },
     {
-        "lemma": "Maj",
+        "lemma": "!Maj",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1118,7 +1117,7 @@
     },
     {
         "lemma": "miłość",
-        "tags": "xxxxxxxxx",
+        "tags": "2Z",
         "translations": {
             "ENG": [
                 "love"
@@ -1128,7 +1127,7 @@
         "gender": "f"
     },
     {
-        "lemma": "przychód",
+        "lemma": "!przychód",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1140,12 +1139,11 @@
     },
     {
         "lemma": "kultura",
-        "tags": "xxxxxxxxx",
+        "tags": "2soc",
         "translations": {
             "ENG": [
                 "culture",
-                "(arts, customs and habits)",
-                "manners"
+                "(arts, customs and habits)"
             ]
         },
         "temp_id": "2.94",
@@ -1153,7 +1151,7 @@
     },
     {
         "lemma": "wtorek",
-        "tags": "xxxxxxxxx",
+        "tags": "1at",
         "translations": {
             "ENG": [
                 "Tuesday"
@@ -1164,7 +1162,7 @@
     },
     {
         "lemma": "blat",
-        "tags": "xxxxxxxxx",
+        "tags": "3hk",
         "translations": {
             "ENG": [
                 "tabletop",
@@ -1176,7 +1174,7 @@
     },
     {
         "lemma": "cena",
-        "tags": "xxxxxxxxx",
+        "tags": "2$",
         "translations": {
             "ENG": [
                 "price"
@@ -1187,7 +1185,7 @@
     },
     {
         "lemma": "duma",
-        "tags": "xxxxxxxxx",
+        "tags": "3e",
         "translations": {
             "ENG": [
                 "pride",
@@ -1199,7 +1197,7 @@
     },
     {
         "lemma": "planeta",
-        "tags": "xxxxxxxxx",
+        "tags": "4ast",
         "translations": {
             "ENG": [
                 "planet"
@@ -1209,7 +1207,7 @@
         "gender": "f"
     },
     {
-        "lemma": "kilka",
+        "lemma": "!kilka",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1221,15 +1219,10 @@
     },
     {
         "lemma": "park",
-        "tags": "xxxxxxxxx",
+        "tags": "2ln",
         "translations": {
             "ENG": [
-                "park",
-                "(e.g., a ground for recreation in a city or town)",
-                "A scent released by goats deer, or hares during breeding periods .",
-                "(obsolete)",
-                "Breeding period of goats, deer, or hares.",
-                "(obsolete)"
+                "park"
             ]
         },
         "temp_id": "2.101",
@@ -1237,12 +1230,10 @@
     },
     {
         "lemma": "opis",
-        "tags": "xxxxxxxxx",
+        "tags": "3sr",
         "translations": {
             "ENG": [
-                "description",
-                "account",
-                "(of events)"
+                "description"
             ]
         },
         "temp_id": "2.102",
@@ -1250,10 +1241,10 @@
     },
     {
         "lemma": "bratanica",
-        "tags": "xxxxxxxxx",
+        "tags": "1r",
         "translations": {
             "ENG": [
-                "fraternal niece"
+                "niece"
             ]
         },
         "temp_id": "2.103",
@@ -1261,7 +1252,7 @@
     },
     {
         "lemma": "blender",
-        "tags": "xxxxxxxxx",
+        "tags": "3hk",
         "translations": {
             "ENG": [
                 "blender",
@@ -1273,7 +1264,7 @@
     },
     {
         "lemma": "uran",
-        "tags": "xxxxxxxxx",
+        "tags": "5C",
         "translations": {
             "ENG": [
                 "uranium"
@@ -1284,7 +1275,7 @@
     },
     {
         "lemma": "środa",
-        "tags": "xxxxxxxxx",
+        "tags": "1at",
         "translations": {
             "ENG": [
                 "Wednesday"
@@ -1295,7 +1286,7 @@
     },
     {
         "lemma": "kometa",
-        "tags": "xxxxxxxxx",
+        "tags": "4ast",
         "translations": {
             "ENG": [
                 "comet",

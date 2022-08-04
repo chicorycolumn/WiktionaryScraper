@@ -255,6 +255,10 @@ shorthand_tag_refs = {
         "tags": ["profession", "p"],
         "topics": ["work", "people"],
     },
+    "jj": {
+        "tags": [],
+        "topics": ["work"],
+    },
     "a": {
         "tags": ["animal", "living", "concrete"],
         "topics": ["outside"],
