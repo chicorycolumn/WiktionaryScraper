@@ -1,20 +1,16 @@
 [
     {
-        "temp_id": "2.1",
         "lemma": "lato",
-        "gender": "n",
         "tags": [
-            "inanimate"
+            "FREQ2"
         ],
         "translations": {
             "ENG": [
-                "summer",
-                "(hottest season of the year)",
-                "years, suppletive plural form for rok",
-                "(in the plural lata)"
+                "summer"
             ]
         },
-        "id": null,
+        "gender": "n",
+        "id": "pol-nco-091-lato(summer)",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -54,19 +50,79 @@
                 "loc": "latach",
                 "voc": "lata"
             }
-        }
+        },
+        "topics": [
+            "time"
+        ]
     },
     {
-        "temp_id": "2.2",
+        "lemma": "lato",
+        "tags": [
+            "FREQ1"
+        ],
+        "translations": {
+            "ENG": [
+                "year"
+            ]
+        },
+        "gender": "n",
+        "id": "pol-nco-092-lato(year)",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "latko"
+                ]
+            },
+            "derivedTerms": [
+                "latoś",
+                "letnio",
+                "letni",
+                "latosi",
+                "leciwy",
+                "letniskowy",
+                "babie lato",
+                "letnik",
+                "letnisko",
+                "letniość",
+                "śródlecie"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "lato",
+                "gen": "lata",
+                "dat": "latu",
+                "acc": "lato",
+                "ins": "latem",
+                "loc": "lecie",
+                "voc": "lato"
+            },
+            "plural": {
+                "nom": "lata",
+                "gen": "lat",
+                "dat": "latom",
+                "acc": "lata",
+                "ins": "latami",
+                "loc": "latach",
+                "voc": "lata"
+            }
+        },
+        "topics": [
+            "time"
+        ]
+    },
+    {
         "lemma": "iskra",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ5"
+        ],
         "translations": {
             "ENG": [
                 "spark"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-093-iskra",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -93,21 +149,26 @@
                 "loc": "iskrach",
                 "voc": "iskry"
             }
-        }
+        },
+        "topics": [
+            "engineering"
+        ]
     },
     {
-        "temp_id": "2.3",
         "lemma": "farba",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ4",
+            "concrete",
+            "holdable",
+            "household object"
+        ],
         "translations": {
             "ENG": [
-                "paint",
-                "blood of a game animal",
-                "(hunting)"
+                "paint"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-094-farba",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -143,21 +204,25 @@
                 "loc": "farbach",
                 "voc": "farby"
             }
-        }
+        },
+        "topics": [
+            "art",
+            "home",
+            "inside"
+        ]
     },
     {
-        "temp_id": "2.4",
         "lemma": "autostop",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ5"
         ],
         "translations": {
             "ENG": [
                 "hitchhiking"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-095-autostop",
         "extra": {
             "derivedTerms": [
                 "autostopowicz",
@@ -188,19 +253,26 @@
                 "loc": "autostopach",
                 "voc": "autostopy"
             }
-        }
+        },
+        "topics": [
+            "travel"
+        ]
     },
     {
-        "temp_id": "2.5",
         "lemma": "kobieta",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ1",
+            "concrete",
+            "living",
+            "person"
+        ],
         "translations": {
             "ENG": [
                 "woman"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-npe-014-kobieta",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -234,21 +306,26 @@
                 "loc": "kobietach",
                 "voc": "kobiety"
             }
-        }
+        },
+        "topics": [
+            "people"
+        ]
     },
     {
-        "temp_id": "2.6",
         "lemma": "srebro",
-        "gender": "n",
         "tags": [
-            "inanimate"
+            "FREQ3",
+            "concrete",
+            "material",
+            "uncountable"
         ],
         "translations": {
             "ENG": [
                 "silver"
             ]
         },
-        "id": null,
+        "gender": "n",
+        "id": "pol-nco-096-srebro",
         "extra": {
             "derivedTerms": [
                 "srebrny",
@@ -272,22 +349,23 @@
             }
         },
         "lacking": true,
-        "tantumSingulare": true
+        "tantumSingulare": true,
+        "topics": [
+            "engineering"
+        ]
     },
     {
-        "temp_id": "2.7",
         "lemma": "jutro",
-        "gender": "n",
         "tags": [
-            "inanimate"
+            "FREQ1"
         ],
         "translations": {
             "ENG": [
-                "tomorrow",
-                "(day after today)"
+                "tomorrow"
             ]
         },
-        "id": null,
+        "gender": "n",
+        "id": "pol-nco-097-jutro",
         "extra": {
             "derivedTerms": [
                 "jutrzejszy"
@@ -312,21 +390,24 @@
                 "loc": "jutrach",
                 "voc": "jutra"
             }
-        }
+        },
+        "topics": [
+            "time"
+        ]
     },
     {
-        "temp_id": "2.8",
         "lemma": "śnieg",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ2",
+            "weather"
         ],
         "translations": {
             "ENG": [
                 "snow"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-098-śnieg",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -362,23 +443,27 @@
                 "loc": "śniegach",
                 "voc": "śniegi"
             }
-        }
+        },
+        "topics": [
+            "geography",
+            "outdoor"
+        ]
     },
     {
-        "temp_id": "2.9",
         "lemma": "słoń",
-        "gender": "m2",
         "tags": [
-            "animal"
+            "FREQ2",
+            "animal",
+            "concrete",
+            "living"
         ],
         "translations": {
             "ENG": [
-                "elephant elephantid",
-                "(any member of the family Elephantidae)",
-                "A male elephant."
+                "elephant"
             ]
         },
-        "id": null,
+        "gender": "m2",
+        "id": "pol-nco-099-słoń",
         "extra": {
             "derivedTerms": [
                 "słoniak",
@@ -416,96 +501,24 @@
                 "loc": "słoniach",
                 "voc": "słonie"
             }
-        }
-    },
-    {
-        "temp_id": "2.10",
-        "lemma": "słoń",
-        "gender": "m1",
-        "tags": [
-            "person"
-        ],
-        "translations": {
-            "ENG": [
-                "landwhale",
-                "(obese person) (colloquial)",
-                "robber",
-                "(criminal slang)"
-            ]
         },
-        "id": null,
-        "inflections": {
-            "singular": {
-                "nom": "słoń",
-                "gen": "słonia",
-                "dat": "słoniowi",
-                "acc": "słonia",
-                "ins": "słoniem",
-                "loc": "słoniu",
-                "voc": "słoniu"
-            },
-            "plural": {
-                "nom": "słonie",
-                "gen": "słoni",
-                "dat": "słoniom",
-                "acc": "słoni",
-                "ins": "słoniami",
-                "loc": "słoniach",
-                "voc": "słonie"
-            }
-        }
+        "topics": [
+            "outside"
+        ]
     },
     {
-        "temp_id": "2.11",
-        "lemma": "słoń",
-        "gender": "m3",
-        "tags": [
-            "inanimate"
-        ],
-        "translations": {
-            "ENG": [
-                "A gas mask with a long hose .",
-                "(military slang)"
-            ]
-        },
-        "id": null,
-        "inflections": {
-            "singular": {
-                "nom": "słoń",
-                "gen": "słonia",
-                "dat": "słoniowi",
-                "acc": "słoń",
-                "ins": "słoniem",
-                "loc": "słoniu",
-                "voc": "słoniu"
-            },
-            "plural": {
-                "nom": "słonie",
-                "gen": "słoni",
-                "dat": "słoniom",
-                "acc": "słonie",
-                "ins": "słoniami",
-                "loc": "słoniach",
-                "voc": "słonie"
-            }
-        }
-    },
-    {
-        "temp_id": "2.12",
         "lemma": "energia",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ3",
+            "abstract"
+        ],
         "translations": {
             "ENG": [
-                "energy",
-                "(impetus behind activity)",
-                "energy",
-                "(capacity to do work)",
-                "energy",
-                "(quantity that denotes the ability to do work) (physics)"
+                "energy"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-100-energia",
         "extra": {
             "derivedTerms": [
                 "bioenergoterapeutyczny",
@@ -573,27 +586,25 @@
                 "loc": "energiach",
                 "voc": "energie"
             }
-        }
+        },
+        "topics": [
+            "energy and sustainability",
+            "mental"
+        ]
     },
     {
-        "temp_id": "2.13",
         "lemma": "słońce",
-        "gender": "n",
         "tags": [
-            "inanimate"
+            "FREQ1",
+            "weather"
         ],
         "translations": {
             "ENG": [
-                "sun",
-                "(any star orbited by planets)",
-                "the Sun",
-                "(the star at the center of the Solar System)",
-                "A term of endearment dear honey sweetheart",
-                "solar mass",
-                "(physics colloquial)"
+                "sun"
             ]
         },
-        "id": null,
+        "gender": "n",
+        "id": "pol-nco-101-słońce",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -626,21 +637,29 @@
                 "loc": "słońcach",
                 "voc": "słońca"
             }
-        }
+        },
+        "topics": [
+            "astronomy",
+            "geography",
+            "outdoor"
+        ]
     },
     {
-        "temp_id": "2.14",
         "lemma": "hel",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ5",
+            "chemical",
+            "concrete",
+            "material",
+            "uncountable"
         ],
         "translations": {
             "ENG": [
                 "helium"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-102-hel",
         "extra": {
             "derivedTerms": [
                 "helowiec",
@@ -659,27 +678,26 @@
             }
         },
         "lacking": true,
-        "tantumSingulare": true
+        "tantumSingulare": true,
+        "topics": [
+            "chemistry"
+        ]
     },
     {
-        "temp_id": "2.15",
         "lemma": "kaczka",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ2",
+            "animal",
+            "concrete",
+            "living"
+        ],
         "translations": {
             "ENG": [
-                "duck",
-                "(bird)",
-                "duck meat",
-                "urinal",
-                "(bottle)",
-                "canard",
-                "(aeronautics)",
-                "false information, canard",
-                "(colloquial)"
+                "duck"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-103-kaczka",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -709,28 +727,27 @@
                 "loc": "kaczkach",
                 "voc": "kaczki"
             }
-        }
+        },
+        "topics": [
+            "outside"
+        ]
     },
     {
-        "temp_id": "2.16",
         "lemma": "balsam",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ3",
+            "concrete",
+            "holdable",
+            "household object"
         ],
         "translations": {
             "ENG": [
                 "balsam",
-                "( “ a sweet-smelling oil or resin derived from various plants ” ) (technical)",
-                "lotion",
-                "( “ a low-viscosity topical preparation intended for application to skin ” ) (cosmetics medicine pharmacology)",
-                ", specifically any substance used for this practice in Ancient Egypt.",
-                "(historical) a substance used in thanatopraxy ( “ embalming of corpses ” )",
-                "balsam",
-                "( “ something soothing ” ) (figuratively)"
+                "lotion"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-104-balsam",
         "extra": {
             "synonyms": [
                 "żywica",
@@ -760,21 +777,28 @@
                 "loc": "balsamach",
                 "voc": "balsamy"
             }
-        }
+        },
+        "topics": [
+            "home",
+            "inside",
+            "washroom"
+        ]
     },
     {
-        "temp_id": "2.17",
         "lemma": "mężczyzna",
-        "gender": "m1",
         "tags": [
+            "FREQ1",
+            "concrete",
+            "living",
             "person"
         ],
         "translations": {
             "ENG": [
-                "man male"
+                "man"
             ]
         },
-        "id": null,
+        "gender": "m1",
+        "id": "pol-npe-015-mężczyzna",
         "extra": {
             "antonyms": [
                 "kobieta"
@@ -799,19 +823,23 @@
                 "loc": "mężczyznach",
                 "voc": "mężczyźni"
             }
-        }
+        },
+        "topics": [
+            "people"
+        ]
     },
     {
-        "temp_id": "2.18",
         "lemma": "gitara",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ4"
+        ],
         "translations": {
             "ENG": [
                 "guitar"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-105-gitara",
         "extra": {
             "derivedTerms": [
                 "gitarzysta",
@@ -844,22 +872,24 @@
                 "loc": "gitarach",
                 "voc": "gitary"
             }
-        }
+        },
+        "topics": [
+            "music"
+        ]
     },
     {
-        "temp_id": "2.19",
         "lemma": "fortuna",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ5",
+            "money"
+        ],
         "translations": {
             "ENG": [
-                "fortune",
-                "(favorable destiny)",
-                "fortune",
-                "(lots of riches)"
+                "fortune"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-106-fortuna",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -889,151 +919,27 @@
                 "loc": "fortunach",
                 "voc": "fortuny"
             }
-        }
+        },
+        "topics": [
+            "business",
+            "shopping"
+        ]
     },
     {
-        "temp_id": "2.20",
-        "lemma": "chuj",
-        "gender": "m2",
-        "tags": [
-            "animal"
-        ],
-        "translations": {
-            "ENG": [
-                "prick penis dick cock",
-                "(vulgar)",
-                "nothing zilch fuck all",
-                "(vulgar)",
-                "a stupid or evil person",
-                "(vulgar)",
-                "any person",
-                "(vulgar)"
-            ]
-        },
-        "id": null,
-        "extra": {
-            "otherShapes": {
-                "diminutive": [
-                    "chujek"
-                ]
-            },
-            "synonyms": [
-                "prącie"
-            ],
-            "derivedTerms": [
-                "Chuj ci w dupę",
-                "chuj ci do tego",
-                "chuj wie",
-                "chuj z kimś/czymś",
-                "chujnia",
-                "chujowy",
-                "chujowo",
-                "do chuja",
-                "i chuj",
-                "jak chuj",
-                "ki chuj",
-                "na chuj",
-                "na chuja",
-                "nie ma chuja",
-                "ni chuj",
-                "ni chuja",
-                "o chuj",
-                "ochujać",
-                "ochujały",
-                "ochujeć",
-                "od chuja",
-                "po chuj",
-                "po chuja",
-                "po chuju",
-                "po kiego chuja",
-                "przechuj",
-                "w chuj",
-                "wychujać",
-                "za chuj",
-                "za chuja"
-            ],
-            "usage": [
-                "Po co to robisz, skoro chuj będziesz z tego miał? ― Why are you doing this when you'll get fuck all out of it?",
-                "Chuj z ciebie, Jacek. ― You're a dick , Jack"
-            ]
-        },
-        "inflections": {
-            "singular": {
-                "nom": "chuj",
-                "gen": "chuja",
-                "dat": "chujowi",
-                "acc": "chuja",
-                "ins": "chujem",
-                "loc": "chuju",
-                "voc": "chuju"
-            },
-            "plural": {
-                "nom": "chuje",
-                "gen": "chujów",
-                "dat": "chujom",
-                "acc": "chuje",
-                "ins": "chujami",
-                "loc": "chujach",
-                "voc": "chuje"
-            }
-        }
-    },
-    {
-        "temp_id": "2.21",
-        "lemma": "chuj",
-        "gender": "m1",
-        "tags": [
-            "person"
-        ],
-        "translations": {
-            "ENG": [
-                "dick fucker bastard term of abuse for men",
-                "(vulgar offensive)"
-            ]
-        },
-        "id": null,
-        "extra": {
-            "otherShapes": {
-                "diminutive": [
-                    "chujek"
-                ]
-            }
-        },
-        "inflections": {
-            "singular": {
-                "nom": "chuj",
-                "gen": "chuja",
-                "dat": "chujowi",
-                "acc": "chuja",
-                "ins": "chujem",
-                "loc": "chuju",
-                "voc": "chuju"
-            },
-            "plural": {
-                "nom": "chuje",
-                "gen": "chujów",
-                "dat": "chujom",
-                "acc": "chujów",
-                "ins": "chujami",
-                "loc": "chujach",
-                "voc": "chuje"
-            }
-        }
-    },
-    {
-        "temp_id": "2.22",
         "lemma": "mrówka",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ2",
+            "animal",
+            "concrete",
+            "living"
+        ],
         "translations": {
             "ENG": [
-                "ant formicid",
-                "(insect belonging to the family Formicidae)",
-                "Someone who is hardworking and persistent ; a busy bee .",
-                "(by extension)"
+                "ant"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-107-mrówka",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -1063,21 +969,25 @@
                 "loc": "mrówkach",
                 "voc": "mrówki"
             }
-        }
+        },
+        "topics": [
+            "outside"
+        ]
     },
     {
-        "temp_id": "2.23",
         "lemma": "spacer",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ3",
+            "movement"
         ],
         "translations": {
             "ENG": [
-                "stroll walk"
+                "stroll",
+                "walk"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-108-spacer",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -1113,26 +1023,25 @@
                 "loc": "spacerach",
                 "voc": "spacery"
             }
-        }
+        },
+        "topics": [
+            "body"
+        ]
     },
     {
-        "temp_id": "2.24",
         "lemma": "kula",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ3",
+            "dimension"
+        ],
         "translations": {
             "ENG": [
                 "ball",
-                "(spherical object)",
-                "ball",
-                "(mathematics geometry topology)",
-                "bullet",
-                "crutch",
-                "shot",
-                "(the heavy iron ball) (sports)"
+                "sphere"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-109-kula(ball)",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -1167,20 +1076,78 @@
                 "loc": "kulach",
                 "voc": "kule"
             }
-        }
+        },
+        "topics": [
+            "appearance",
+            "sense and perception"
+        ]
     },
     {
-        "temp_id": "2.25",
-        "lemma": "kara",
+        "lemma": "kula",
+        "tags": [
+            "FREQ5"
+        ],
+        "translations": {
+            "ENG": [
+                "bullet"
+            ]
+        },
         "gender": "f",
-        "tags": [],
+        "id": "pol-nco-110-kula(bullet)",
+        "extra": {
+            "otherShapes": {
+                "diminutive": [
+                    "kulka"
+                ]
+            },
+            "usage": [
+                "kula śnieżna ― snow ball",
+                "chodzić o kulach ― to walk on crutches",
+                "pchnięcie kulą ― shot put"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "kula",
+                "gen": "kuli",
+                "dat": "kuli",
+                "acc": "kulę",
+                "ins": "kulą",
+                "loc": "kuli",
+                "voc": "kulo"
+            },
+            "plural": {
+                "nom": "kule",
+                "gen": [
+                    "kul",
+                    "kuli"
+                ],
+                "dat": "kulom",
+                "acc": "kule",
+                "ins": "kulami",
+                "loc": "kulach",
+                "voc": "kule"
+            }
+        },
+        "topics": [
+            "geometry",
+            "violence"
+        ]
+    },
+    {
+        "lemma": "kara",
+        "tags": [
+            "FREQ4"
+        ],
         "translations": {
             "ENG": [
                 "punishment",
-                "penalty fine"
+                "penalty",
+                "fine"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-111-kara",
         "extra": {
             "usage": [
                 "kara śmierci ― capital punishment, death penalty"
@@ -1205,93 +1172,27 @@
                 "loc": "karach",
                 "voc": "kary"
             }
-        }
+        },
+        "topics": [
+            "law",
+            "travel"
+        ]
     },
     {
-        "temp_id": "2.26",
-        "lemma": "kara",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "a cart with two wheels and a box on top for carrying things",
-                "(archaic)"
-            ]
-        },
-        "id": null,
-        "inflections": {
-            "singular": {
-                "nom": "kara",
-                "gen": "kary",
-                "dat": "karze",
-                "acc": "karę",
-                "ins": "karą",
-                "loc": "karze",
-                "voc": "karo"
-            },
-            "plural": {
-                "nom": "kary",
-                "gen": "kar",
-                "dat": "karom",
-                "acc": "kary",
-                "ins": "karami",
-                "loc": "karach",
-                "voc": "kary"
-            }
-        }
-    },
-    {
-        "temp_id": "2.27",
-        "lemma": "kara",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "quadrangle",
-                "(geometry rare)"
-            ]
-        },
-        "id": null,
-        "extra": {
-            "synonyms": [
-                "czworobok",
-                "czworokąt"
-            ]
-        },
-        "inflections": {
-            "singular": {
-                "nom": "kara",
-                "gen": "kary",
-                "dat": "karze",
-                "acc": "karę",
-                "ins": "karą",
-                "loc": "karze",
-                "voc": "karo"
-            },
-            "plural": {
-                "nom": "kary",
-                "gen": "kar",
-                "dat": "karom",
-                "acc": "kary",
-                "ins": "karami",
-                "loc": "karach",
-                "voc": "kary"
-            }
-        }
-    },
-    {
-        "temp_id": "2.28",
         "lemma": "kurz",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ4",
+            "concrete",
+            "holdable",
+            "household object"
         ],
         "translations": {
             "ENG": [
                 "dust"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-112-kurz",
         "extra": {
             "usage": [
                 "Usage notes [ edit ] There are two words that overlap semantically with English dust . The first one is kurz , which refers to airborne dust that settles on things as a form of pollution . The second is pył , which is neutral and refers to any very finely divided solid substance. For instance, the phrase I swiped the dust from the shelves would be equivalent to Starłem kurz z półek , but the compound coal dust would be translated as pył węglowy ."
@@ -1316,21 +1217,25 @@
                 "loc": "kurzach",
                 "voc": "kurze"
             }
-        }
+        },
+        "topics": [
+            "daily routine",
+            "home",
+            "inside"
+        ]
     },
     {
-        "temp_id": "2.29",
         "lemma": "lek",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ3"
         ],
         "translations": {
             "ENG": [
                 "medicine"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-113-lek",
         "extra": {
             "synonyms": [
                 "lekarstwo"
@@ -1355,57 +1260,27 @@
                 "loc": "lekach",
                 "voc": "leki"
             }
-        }
+        },
+        "topics": [
+            "medicine"
+        ]
     },
     {
-        "temp_id": "2.30",
-        "lemma": "lek",
-        "gender": "m2",
+        "lemma": "glista",
         "tags": [
-            "animal"
+            "FREQ3",
+            "animal",
+            "concrete",
+            "living"
         ],
         "translations": {
             "ENG": [
-                "lek",
-                "(currency)"
-            ]
-        },
-        "id": null,
-        "inflections": {
-            "singular": {
-                "nom": "lek",
-                "gen": "leku",
-                "dat": "lekowi",
-                "acc": "lek",
-                "ins": "lekiem",
-                "loc": "leku",
-                "voc": "leku"
-            },
-            "plural": {
-                "nom": "leki",
-                "gen": "leków",
-                "dat": "lekom",
-                "acc": "leki",
-                "ins": "lekami",
-                "loc": "lekach",
-                "voc": "leki"
-            }
-        }
-    },
-    {
-        "temp_id": "2.31",
-        "lemma": "glista",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
                 "roundworm",
-                "(animal of the phylum Nematoida)",
-                "earthworm",
-                "(colloquial)"
+                "earthworm"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-114-glista",
         "extra": {
             "synonyms": [
                 "askaryda"
@@ -1433,14 +1308,15 @@
                 "loc": "glistach",
                 "voc": "glisty"
             }
-        }
+        },
+        "topics": [
+            "outside"
+        ]
     },
     {
-        "temp_id": "2.32",
         "lemma": "sen",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ2"
         ],
         "translations": {
             "ENG": [
@@ -1448,7 +1324,8 @@
                 "sleep"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-115-sen",
         "extra": {
             "derivedTerms": [
                 "senny",
@@ -1479,20 +1356,29 @@
                 "loc": "snach",
                 "voc": "sny"
             }
-        }
+        },
+        "topics": [
+            "body",
+            "daily routine",
+            "medicine"
+        ]
     },
     {
-        "temp_id": "2.33",
         "lemma": "długość",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "abstract noun",
+            "measurement"
+        ],
         "translations": {
             "ENG": [
                 "length",
                 "duration"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-116-długość",
         "extra": {
             "usage": [
                 "Długość stołu wynosi 150 cm. ― The length of the table is 150 cm."
@@ -1517,22 +1403,23 @@
                 "loc": "długościach",
                 "voc": "długości"
             }
-        }
+        },
+        "topics": [
+            "math"
+        ]
     },
     {
-        "temp_id": "2.34",
         "lemma": "widelec",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ1"
         ],
         "translations": {
             "ENG": [
-                "fork",
-                "(utensil)"
+                "fork"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-117-widelec",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -1562,22 +1449,23 @@
                 "loc": "widelcach",
                 "voc": "widelce"
             }
-        }
+        },
+        "topics": [
+            "cooking"
+        ]
     },
     {
-        "temp_id": "2.35",
         "lemma": "list",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ2"
         ],
         "translations": {
             "ENG": [
-                "letter",
-                "(a written message)"
+                "letter"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-118-list",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -1607,21 +1495,27 @@
                 "loc": "listach",
                 "voc": "listy"
             }
-        }
+        },
+        "topics": [
+            "writing"
+        ]
     },
     {
-        "temp_id": "2.36",
         "lemma": "bank",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ2",
+            "building",
+            "concrete",
+            "location",
+            "money"
         ],
         "translations": {
             "ENG": [
                 "bank"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-119-bank",
         "extra": {
             "derivedTerms": [
                 "bankowy",
@@ -1648,23 +1542,31 @@
                 "loc": "bankach",
                 "voc": "banki"
             }
-        }
+        },
+        "topics": [
+            "business",
+            "inside",
+            "shopping"
+        ]
     },
     {
-        "temp_id": "2.37",
         "lemma": "płaszcz",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ2",
+            "clothes",
+            "concrete",
+            "holdable"
         ],
         "translations": {
             "ENG": [
-                "overcoat raincoat coat mackintosh",
-                "mantle pallium",
-                "(malacology)"
+                "overcoat",
+                "raincoat",
+                "coat",
+                "mackintosh"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-120-płaszcz",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -1694,19 +1596,25 @@
                 "loc": "płaszczach",
                 "voc": "płaszcze"
             }
-        }
+        },
+        "topics": [
+            "fashion"
+        ]
     },
     {
-        "temp_id": "2.38",
         "lemma": "prawda",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ2",
+            "abstract",
+            "helper"
+        ],
         "translations": {
             "ENG": [
                 "truth"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-121-prawda",
         "extra": {
             "derivedTerms": [
                 "mijać się z prawdą",
@@ -1757,21 +1665,26 @@
                 "loc": "prawdach",
                 "voc": "prawdy"
             }
-        }
+        },
+        "topics": [
+            "philosophy and ethics",
+            "probability"
+        ]
     },
     {
-        "temp_id": "2.39",
         "lemma": "gust",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ4",
+            "abstract"
         ],
         "translations": {
             "ENG": [
-                "taste, personal preference"
+                "taste",
+                "personal preference"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-122-gust",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -1802,24 +1715,27 @@
                 "loc": "gustach",
                 "voc": "gusty"
             }
-        }
+        },
+        "topics": [
+            "mental"
+        ]
     },
     {
-        "temp_id": "2.40",
         "lemma": "aktorka",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ2",
+            "concrete",
+            "living",
+            "person",
+            "profession"
+        ],
         "translations": {
             "ENG": [
-                "female actor",
-                "(person who performs in a theatrical play or film) (film television theater)",
-                "female actor",
-                "(one who takes part in a situation)",
-                "female actor",
-                "(one who pretends)"
+                "actress"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-npe-016-aktorka",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -1852,26 +1768,28 @@
                 "loc": "aktorkach",
                 "voc": "aktorki"
             }
-        }
+        },
+        "topics": [
+            "people",
+            "work"
+        ]
     },
     {
-        "temp_id": "2.41",
         "lemma": "aktor",
-        "gender": "m1",
         "tags": [
-            "person"
+            "FREQ2",
+            "concrete",
+            "living",
+            "person",
+            "profession"
         ],
         "translations": {
             "ENG": [
-                "male actor",
-                "(person who performs in a theatrical play or film) (film television theater)",
-                "male actor",
-                "(one who takes part in a situation)",
-                "male actor",
-                "(one who pretends)"
+                "actor"
             ]
         },
-        "id": null,
+        "gender": "m1",
+        "id": "pol-npe-017-aktor",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -1916,19 +1834,28 @@
                 "loc": "aktorach",
                 "voc": "aktorzy"
             }
-        }
+        },
+        "topics": [
+            "people",
+            "work"
+        ]
     },
     {
-        "temp_id": "2.42",
         "lemma": "siostra",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ1",
+            "concrete",
+            "living",
+            "person",
+            "relative"
+        ],
         "translations": {
             "ENG": [
                 "sister"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-npe-018-siostra",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -1961,21 +1888,23 @@
                 "loc": "siostrach",
                 "voc": "siostry"
             }
-        }
+        },
+        "topics": [
+            "people"
+        ]
     },
     {
-        "temp_id": "2.43",
         "lemma": "lot",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ3"
         ],
         "translations": {
             "ENG": [
                 "flight"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-123-lot",
         "extra": {
             "synonyms": [
                 "latanie",
@@ -2001,26 +1930,26 @@
                 "loc": "lotach",
                 "voc": "loty"
             }
-        }
+        },
+        "topics": [
+            "travel"
+        ]
     },
     {
-        "temp_id": "2.44",
         "lemma": "koń",
-        "gender": "m2",
         "tags": [
-            "animal"
+            "FREQ1",
+            "animal",
+            "concrete",
+            "living"
         ],
         "translations": {
             "ENG": [
-                "horse",
-                "(animal)",
-                "Ellipsis of koń gimnastyczny",
-                "( “ pommel horse ” ) (gymnastics)",
-                "knight",
-                "(colloquial chess)"
+                "horse"
             ]
         },
-        "id": null,
+        "gender": "m2",
+        "id": "pol-nco-124-koń",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -2053,22 +1982,23 @@
                 "loc": "koniach",
                 "voc": "konie"
             }
-        }
+        },
+        "topics": [
+            "outside"
+        ]
     },
     {
-        "temp_id": "2.45",
         "lemma": "sól",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ2"
+        ],
         "translations": {
             "ENG": [
-                "salt",
-                "(common substance, NaCl)",
-                "salt",
-                "(chemistry)"
+                "salt"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-125-sól",
         "extra": {
             "derivedTerms": [
                 "solny"
@@ -2093,19 +2023,27 @@
                 "loc": "solach",
                 "voc": "sole"
             }
-        }
+        },
+        "topics": [
+            "chemistry",
+            "cooking"
+        ]
     },
     {
-        "temp_id": "2.46",
         "lemma": "krowa",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ1",
+            "animal",
+            "concrete",
+            "living"
+        ],
         "translations": {
             "ENG": [
                 "cow"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-126-krowa",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -2136,21 +2074,26 @@
                 "loc": "krowach",
                 "voc": "krowy"
             }
-        }
+        },
+        "topics": [
+            "outside"
+        ]
     },
     {
-        "temp_id": "2.47",
         "lemma": "hotel",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ1",
+            "building",
+            "concrete",
+            "location"
         ],
         "translations": {
             "ENG": [
                 "hotel"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-127-hotel",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -2183,28 +2126,25 @@
                 "loc": "hotelach",
                 "voc": "hotele"
             }
-        }
+        },
+        "topics": [
+            "holiday",
+            "inside"
+        ]
     },
     {
-        "temp_id": "2.48",
         "lemma": "produkt",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ4",
+            "money"
         ],
         "translations": {
             "ENG": [
-                "product",
-                "(commodity for sale)",
-                "product",
-                "(outcome of an activity)",
-                "product",
-                "(chemistry)",
-                "product",
-                "(usually not arithmetical) (mathematics)"
+                "product"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-128-produkt",
         "extra": {
             "synonyms": [
                 "iloczyn",
@@ -2230,25 +2170,27 @@
                 "loc": "produktach",
                 "voc": "produkty"
             }
-        }
+        },
+        "topics": [
+            "business",
+            "shopping"
+        ]
     },
     {
-        "temp_id": "2.49",
         "lemma": "znak",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ3"
         ],
         "translations": {
             "ENG": [
                 "sign",
                 "mark",
                 "symbol",
-                "character",
-                "(written or printed symbol or letter)"
+                "character"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-129-znak",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -2278,14 +2220,21 @@
                 "loc": "znakach",
                 "voc": "znaki"
             }
-        }
+        },
+        "topics": [
+            "tech",
+            "writing"
+        ]
     },
     {
-        "temp_id": "2.50",
         "lemma": "sok",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ1",
+            "concrete",
+            "drink",
+            "food",
+            "holdable",
+            "sweet"
         ],
         "translations": {
             "ENG": [
@@ -2293,7 +2242,8 @@
                 "sap"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-130-sok",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -2330,21 +2280,29 @@
                 "loc": "sokach",
                 "voc": "soki"
             }
-        }
+        },
+        "topics": [
+            "inside",
+            "kitchen",
+            "restaurant"
+        ]
     },
     {
-        "temp_id": "2.51",
         "lemma": "masło",
-        "gender": "n",
         "tags": [
-            "inanimate"
+            "FREQ1",
+            "concrete",
+            "food",
+            "holdable",
+            "savoury"
         ],
         "translations": {
             "ENG": [
                 "butter"
             ]
         },
-        "id": null,
+        "gender": "n",
+        "id": "pol-nco-131-masło",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -2378,21 +2336,29 @@
                 "loc": "masłach",
                 "voc": "masła"
             }
-        }
+        },
+        "topics": [
+            "inside",
+            "kitchen",
+            "restaurant"
+        ]
     },
     {
-        "temp_id": "2.52",
         "lemma": "jogurt",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ3",
+            "concrete",
+            "food",
+            "holdable",
+            "sweet"
         ],
         "translations": {
             "ENG": [
                 "yogurt"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-132-jogurt",
         "extra": {
             "derivedTerms": [
                 "jogurtowy"
@@ -2417,26 +2383,28 @@
                 "loc": "jogurtach",
                 "voc": "jogurty"
             }
-        }
+        },
+        "topics": [
+            "inside",
+            "kitchen",
+            "restaurant"
+        ]
     },
     {
-        "temp_id": "2.53",
         "lemma": "partner",
-        "gender": "m1",
         "tags": [
+            "FREQ2",
+            "concrete",
+            "living",
             "person"
         ],
         "translations": {
             "ENG": [
-                "partner",
-                "(someone who is associated with another in a common activity or interest)",
-                "partner",
-                "(spouse, domestic, or romantic partner)",
-                "equal",
-                "(someone of equal status to others)"
+                "partner"
             ]
         },
-        "id": null,
+        "gender": "m1",
+        "id": "pol-npe-019-partner",
         "extra": {
             "otherShapes": {
                 "feminine": [
@@ -2468,19 +2436,24 @@
                 "loc": "partnerach",
                 "voc": "partnerzy"
             }
-        }
+        },
+        "topics": [
+            "love",
+            "people"
+        ]
     },
     {
-        "temp_id": "2.54",
         "lemma": "noc",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ1"
+        ],
         "translations": {
             "ENG": [
                 "night"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-133-noc",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -2514,22 +2487,25 @@
                 "loc": "nocach",
                 "voc": "noce"
             }
-        }
+        },
+        "topics": [
+            "daily routine",
+            "time"
+        ]
     },
     {
-        "temp_id": "2.55",
         "lemma": "oko",
-        "gender": "n",
         "tags": [
-            "inanimate"
+            "FREQ2",
+            "bodypart"
         ],
         "translations": {
             "ENG": [
-                "eye",
-                "(anatomy)"
+                "eye"
             ]
         },
-        "id": null,
+        "gender": "n",
+        "id": "pol-nco-134-oko",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -2599,55 +2575,28 @@
                 "loc": "oczach",
                 "voc": "oczy"
             }
-        }
-    },
-    {
-        "temp_id": "2.56",
-        "lemma": "oko",
-        "gender": "n",
-        "tags": [
-            "inanimate"
-        ],
-        "translations": {
-            "ENG": [
-                "A drop of fat or oil floating on the surface of a liquid.",
-                "The eye of a cyclone .",
-                "(meteorology)"
-            ]
         },
-        "id": null,
-        "inflections": {
-            "singular": {
-                "nom": "oko",
-                "gen": "oka",
-                "dat": "oku",
-                "acc": "oko",
-                "ins": "okiem",
-                "loc": "oku",
-                "voc": "oko"
-            },
-            "plural": {
-                "nom": "oka",
-                "gen": "ok",
-                "dat": "okom",
-                "acc": "oka",
-                "ins": "okami",
-                "loc": "okach",
-                "voc": "oka"
-            }
-        }
+        "topics": [
+            "body",
+            "medicine"
+        ]
     },
     {
-        "temp_id": "2.57",
         "lemma": "matka",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ1",
+            "concrete",
+            "living",
+            "person",
+            "relative"
+        ],
         "translations": {
             "ENG": [
                 "mother"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-npe-020-matka",
         "extra": {
             "derivedTerms": [
                 "awiomatka",
@@ -2678,21 +2627,27 @@
                 "loc": "matkach",
                 "voc": "matki"
             }
-        }
+        },
+        "topics": [
+            "people"
+        ]
     },
     {
-        "temp_id": "2.58",
         "lemma": "tlen",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ4",
+            "chemical",
+            "concrete",
+            "material",
+            "uncountable"
         ],
         "translations": {
             "ENG": [
                 "oxygen"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-135-tlen",
         "extra": {
             "derivedTerms": [
                 "antyutleniacz",
@@ -2715,22 +2670,23 @@
             }
         },
         "lacking": true,
-        "tantumSingulare": true
+        "tantumSingulare": true,
+        "topics": [
+            "chemistry"
+        ]
     },
     {
-        "temp_id": "2.59",
         "lemma": "seks",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ4"
         ],
         "translations": {
             "ENG": [
-                "sex",
-                "(sexual intercourse)"
+                "sex"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-136-seks",
         "extra": {
             "derivedTerms": [
                 "aseksualista",
@@ -2756,20 +2712,25 @@
             }
         },
         "lacking": true,
-        "tantumSingulare": true
+        "tantumSingulare": true,
+        "topics": [
+            "love",
+            "people"
+        ]
     },
     {
-        "temp_id": "2.60",
         "lemma": "marihuana",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ4",
+            "drugs"
+        ],
         "translations": {
             "ENG": [
-                "marijuana",
-                "(drug)"
+                "marijuana"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-137-marihuana",
         "extra": {
             "synonyms": [
                 "marihuana"
@@ -2792,21 +2753,25 @@
             }
         },
         "lacking": true,
-        "tantumSingulare": true
+        "tantumSingulare": true,
+        "topics": [
+            "drugs"
+        ]
     },
     {
-        "temp_id": "2.61",
         "lemma": "drzewo",
-        "gender": "n",
         "tags": [
-            "inanimate"
+            "FREQ1",
+            "concrete",
+            "natural"
         ],
         "translations": {
             "ENG": [
                 "tree"
             ]
         },
-        "id": null,
+        "gender": "n",
+        "id": "pol-nco-138-drzewo",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -2839,21 +2804,24 @@
                 "loc": "drzewach",
                 "voc": "drzewa"
             }
-        }
+        },
+        "topics": [
+            "outside"
+        ]
     },
     {
-        "temp_id": "2.62",
         "lemma": "procent",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ3",
+            "money"
         ],
         "translations": {
             "ENG": [
                 "percent"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-139-procent",
         "extra": {
             "otherShapes": {
                 "abbreviation": [
@@ -2887,21 +2855,29 @@
                 "loc": "procentach",
                 "voc": "procenty"
             }
-        }
+        },
+        "topics": [
+            "business",
+            "math",
+            "shopping"
+        ]
     },
     {
-        "temp_id": "2.63",
         "lemma": "wino",
-        "gender": "n",
         "tags": [
-            "inanimate"
+            "FREQ2",
+            "alcoholic",
+            "concrete",
+            "drink",
+            "holdable"
         ],
         "translations": {
             "ENG": [
                 "wine"
             ]
         },
-        "id": null,
+        "gender": "n",
+        "id": "pol-nco-140-wino",
         "extra": {
             "derivedTerms": [
                 "winko",
@@ -2937,22 +2913,30 @@
                 "loc": "winach",
                 "voc": "wina"
             }
-        }
+        },
+        "topics": [
+            "inside",
+            "kitchen",
+            "nightclub",
+            "restaurant"
+        ]
     },
     {
-        "temp_id": "2.64",
         "lemma": "kasa",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ3",
+            "money"
+        ],
         "translations": {
             "ENG": [
-                "cash desk checkout",
-                "cash register till",
-                "money",
-                "(colloquial)"
+                "cash desk",
+                "checkout",
+                "cash register",
+                "till"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-141-kasa(cash desk)",
         "extra": {
             "synonyms": [
                 "pieniądze"
@@ -2977,26 +2961,69 @@
                 "loc": "kasach",
                 "voc": "kasy"
             }
-        }
+        },
+        "topics": [
+            "business",
+            "shopping"
+        ]
     },
     {
-        "temp_id": "2.65",
-        "lemma": "aura",
-        "gender": "f",
-        "tags": [],
+        "lemma": "kasa",
+        "tags": [
+            "FREQ4",
+            "money",
+            "slang"
+        ],
         "translations": {
             "ENG": [
-                "aura",
-                "(distinctive atmosphere or quality associated with something)",
-                "weather",
-                "(distinctive atmosphere) (meteorology)",
-                "aura",
-                "(telltale sensation experienced by some people with epilepsy before a seizure) (medicine)",
-                "aura",
-                "(an invisible force surrounding a living creature) (parapsychology)"
+                "money"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-142-kasa(money)",
+        "extra": {
+            "synonyms": [
+                "pieniądze"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "kasa",
+                "gen": "kasy",
+                "dat": "kasie",
+                "acc": "kasę",
+                "ins": "kasą",
+                "loc": "kasie",
+                "voc": "kaso"
+            },
+            "plural": {
+                "nom": "kasy",
+                "gen": "kas",
+                "dat": "kasom",
+                "acc": "kasy",
+                "ins": "kasami",
+                "loc": "kasach",
+                "voc": "kasy"
+            }
+        },
+        "topics": [
+            "business",
+            "shopping"
+        ]
+    },
+    {
+        "lemma": "aura",
+        "tags": [
+            "FREQ3",
+            "weather"
+        ],
+        "translations": {
+            "ENG": [
+                "weather"
+            ]
+        },
+        "gender": "f",
+        "id": "pol-nco-143-aura",
         "extra": {
             "synonyms": [
                 "atmosfera",
@@ -3026,26 +3053,24 @@
                 "loc": "aurach",
                 "voc": "aury"
             }
-        }
+        },
+        "topics": [
+            "geography",
+            "outdoor"
+        ]
     },
     {
-        "temp_id": "2.66",
         "lemma": "pismo",
-        "gender": "n",
         "tags": [
-            "inanimate"
+            "FREQ5"
         ],
         "translations": {
             "ENG": [
-                "script handwriting",
-                "(characteristic style of writing)",
-                "script writing system",
-                "(linguistics)",
-                "script scripture",
-                "(written document)"
+                "handwriting"
             ]
         },
-        "id": null,
+        "gender": "n",
+        "id": "pol-nco-144-pismo",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -3077,24 +3102,29 @@
                 "loc": "pismach",
                 "voc": "pisma"
             }
-        }
+        },
+        "topics": [
+            "school",
+            "writing"
+        ]
     },
     {
-        "temp_id": "2.67",
         "lemma": "kurwa",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ3",
+            "curseword"
+        ],
         "translations": {
             "ENG": [
-                "prostitute whore",
-                "(vulgar)",
-                "bitch slut whore term of abuse for women 1883 Jan Kochanowski Na matematyka [1] :",
-                "(offensive vulgar)",
-                "a loathsome person, especially one who is unprincipled ; someone who lacks integrity applies to both genders",
-                "(offensive vulgar)"
+                "prostitute",
+                "whore",
+                "bitch",
+                "slut",
+                "fuck"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-145-kurwa",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -3204,20 +3234,26 @@
                 "loc": "kurwach",
                 "voc": "kurwy"
             }
-        }
+        },
+        "topics": []
     },
     {
-        "temp_id": "2.68",
         "lemma": "dziewczyna",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ1",
+            "concrete",
+            "living",
+            "person",
+            "relative"
+        ],
         "translations": {
             "ENG": [
-                "girl, young woman",
+                "girl",
                 "girlfriend"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-npe-021-dziewczyna",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -3251,21 +3287,24 @@
                 "loc": "dziewczynach",
                 "voc": "dziewczyny"
             }
-        }
+        },
+        "topics": [
+            "love",
+            "people"
+        ]
     },
     {
-        "temp_id": "2.69",
         "lemma": "cement",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ4"
         ],
         "translations": {
             "ENG": [
                 "cement"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-146-cement",
         "extra": {
             "derivedTerms": [
                 "azbestocement",
@@ -3286,19 +3325,26 @@
             }
         },
         "lacking": true,
-        "tantumSingulare": true
+        "tantumSingulare": true,
+        "topics": [
+            "engineering"
+        ]
     },
     {
-        "temp_id": "2.70",
         "lemma": "kawa",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ1",
+            "concrete",
+            "drink",
+            "holdable"
+        ],
         "translations": {
             "ENG": [
                 "coffee"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-147-kawa",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -3347,52 +3393,31 @@
                 "loc": "kawach",
                 "voc": "kawy"
             }
-        }
-    },
-    {
-        "temp_id": "2.71",
-        "lemma": "kawa",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "jackdaw",
-                "(corvid of the genus Coloeus) (obsolete or dialectal)"
-            ]
         },
-        "id": null,
-        "inflections": {
-            "singular": {
-                "nom": "kawa",
-                "gen": "kawy",
-                "dat": "kawie",
-                "acc": "kawę",
-                "ins": "kawą",
-                "loc": "kawie",
-                "voc": "kawo"
-            },
-            "plural": {
-                "nom": "kawy",
-                "gen": "kaw",
-                "dat": "kawom",
-                "acc": "kawy",
-                "ins": "kawami",
-                "loc": "kawach",
-                "voc": "kawy"
-            }
-        }
+        "topics": [
+            "inside",
+            "kitchen",
+            "restaurant"
+        ]
     },
     {
-        "temp_id": "2.72",
         "lemma": "pszczoła",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ2",
+            "animal",
+            "concrete",
+            "living"
+        ],
         "translations": {
             "ENG": [
-                "honey bee"
+                "honey bee",
+                "bee",
+                "honey-bee",
+                "honeybee"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-148-pszczoła",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -3425,23 +3450,25 @@
                 "loc": "pszczołach",
                 "voc": "pszczoły"
             }
-        }
+        },
+        "topics": [
+            "outside"
+        ]
     },
     {
-        "temp_id": "2.73",
         "lemma": "gleba",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ4",
+            "concrete",
+            "natural"
+        ],
         "translations": {
             "ENG": [
-                "soil",
-                "bail wipeout ; a fall, especially during a sports activity",
-                "(colloquial)",
-                "gleba",
-                "(mycology)"
+                "soil"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-149-gleba",
         "extra": {
             "derivedTerms": [
                 "glebnąć"
@@ -3466,23 +3493,25 @@
                 "loc": "glebach",
                 "voc": "gleby"
             }
-        }
+        },
+        "topics": [
+            "agriculture",
+            "outside"
+        ]
     },
     {
-        "temp_id": "2.74",
         "lemma": "tekst",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ4"
         ],
         "translations": {
             "ENG": [
                 "text",
-                "(a written passage)",
                 "lyrics"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-150-tekst",
         "extra": {
             "derivedTerms": [
                 "tekstowy"
@@ -3507,24 +3536,25 @@
                 "loc": "tekstach",
                 "voc": "teksty"
             }
-        }
+        },
+        "topics": [
+            "music",
+            "writing"
+        ]
     },
     {
-        "temp_id": "2.75",
         "lemma": "ucho",
-        "gender": "n",
         "tags": [
-            "inanimate"
+            "FREQ1",
+            "bodypart"
         ],
         "translations": {
             "ENG": [
-                "ear",
-                "(body part)",
-                "snitch informant",
-                "(colloquial)"
+                "ear"
             ]
         },
-        "id": null,
+        "gender": "n",
+        "id": "pol-nco-151-ucho",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -3560,70 +3590,25 @@
                 "loc": "uszach",
                 "voc": "uszy"
             }
-        }
+        },
+        "topics": [
+            "body",
+            "medicine"
+        ]
     },
     {
-        "temp_id": "2.76",
-        "lemma": "ucho",
-        "gender": "n",
-        "tags": [
-            "inanimate"
-        ],
-        "translations": {
-            "ENG": [
-                "handle",
-                "(of a basket, kettle etc. )",
-                "eye",
-                "(hole in needle)",
-                "earflap"
-            ]
-        },
-        "id": null,
-        "extra": {
-            "otherShapes": {
-                "diminutive": [
-                    "uszko"
-                ],
-                "augmentative": [
-                    "uszysko"
-                ]
-            }
-        },
-        "inflections": {
-            "singular": {
-                "nom": "ucho",
-                "gen": "ucha",
-                "dat": "uchu",
-                "acc": "ucho",
-                "ins": "uchem",
-                "loc": "uchu",
-                "voc": "ucho"
-            },
-            "plural": {
-                "nom": "ucha",
-                "gen": "uch",
-                "dat": "uchom",
-                "acc": "ucha",
-                "ins": "uchami",
-                "loc": "uchach",
-                "voc": "ucha"
-            }
-        }
-    },
-    {
-        "temp_id": "2.77",
         "lemma": "listopad",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ1",
+            "abstract"
         ],
         "translations": {
             "ENG": [
-                "November",
-                "(month)"
+                "November"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-152-listopad",
         "extra": {
             "derivedTerms": [
                 "listopadowy"
@@ -3648,22 +3633,23 @@
                 "loc": "listopadach",
                 "voc": "listopady"
             }
-        }
+        },
+        "topics": [
+            "time"
+        ]
     },
     {
-        "temp_id": "2.78",
         "lemma": "teleskop",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ5"
         ],
         "translations": {
             "ENG": [
-                "telescope",
-                "(optical instrument that magnifies) (astronomy) telescope (any instrument used to observe distant objects) (astronomy optics)"
+                "telescope"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-153-teleskop",
         "extra": {
             "synonyms": [
                 "luneta"
@@ -3696,60 +3682,26 @@
                 "loc": "teleskopach",
                 "voc": "teleskopy"
             }
-        }
+        },
+        "topics": [
+            "astronomy"
+        ]
     },
     {
-        "temp_id": "2.79",
-        "lemma": "teleskop",
-        "gender": "m2",
+        "lemma": "piramida",
         "tags": [
-            "animal"
+            "FREQ4",
+            "building",
+            "concrete",
+            "location"
         ],
         "translations": {
             "ENG": [
-                "telescope",
-                "(goldfish)"
+                "pyramid"
             ]
         },
-        "id": null,
-        "extra": {
-            "derivedTerms": [
-                "teleskopowy"
-            ]
-        },
-        "inflections": {
-            "singular": {
-                "nom": "teleskop",
-                "gen": "teleskopa",
-                "dat": "teleskopowi",
-                "acc": "teleskopa",
-                "ins": "teleskopem",
-                "loc": "teleskopie",
-                "voc": "teleskopie"
-            },
-            "plural": {
-                "nom": "teleskopy",
-                "gen": "teleskopów",
-                "dat": "teleskopom",
-                "acc": "teleskopy",
-                "ins": "teleskopami",
-                "loc": "teleskopach",
-                "voc": "teleskopy"
-            }
-        }
-    },
-    {
-        "temp_id": "2.80",
-        "lemma": "piramida",
         "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "pyramid",
-                "(ancient monument)"
-            ]
-        },
-        "id": null,
+        "id": "pol-nco-154-piramida",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -3776,22 +3728,27 @@
                 "loc": "piramidach",
                 "voc": "piramidy"
             }
-        }
+        },
+        "topics": [
+            "history",
+            "inside"
+        ]
     },
     {
-        "temp_id": "2.81",
         "lemma": "skarpeta",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ2",
+            "clothes",
+            "concrete",
+            "holdable"
+        ],
         "translations": {
             "ENG": [
-                "sock",
-                "(clothing)",
-                "windsock",
-                "(informal)"
+                "sock"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-155-skarpeta",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -3821,20 +3778,24 @@
                 "loc": "skarpetach",
                 "voc": "skarpety"
             }
-        }
+        },
+        "topics": [
+            "fashion"
+        ]
     },
     {
-        "temp_id": "2.82",
         "lemma": "noga",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ1",
+            "bodypart"
+        ],
         "translations": {
             "ENG": [
-                "leg",
-                "A clumsy or inept person."
+                "leg"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-156-noga",
         "extra": {
             "otherShapes": {
                 "diminutive": [
@@ -3891,21 +3852,24 @@
                 "loc": "nogach",
                 "voc": "nogi"
             }
-        }
+        },
+        "topics": [
+            "body",
+            "medicine"
+        ]
     },
     {
-        "temp_id": "2.83",
         "lemma": "mikroskop",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ5"
         ],
         "translations": {
             "ENG": [
                 "microscope"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-157-mikroskop",
         "inflections": {
             "singular": {
                 "nom": "mikroskop",
@@ -3925,21 +3889,25 @@
                 "loc": "mikroskopach",
                 "voc": "mikroskopy"
             }
-        }
+        },
+        "topics": [
+            "biology",
+            "physics"
+        ]
     },
     {
-        "temp_id": "2.84",
         "lemma": "dochód",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ3",
+            "money"
         ],
         "translations": {
             "ENG": [
-                "net income"
+                "income"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-158-dochód",
         "inflections": {
             "singular": {
                 "nom": "dochód",
@@ -3959,23 +3927,29 @@
                 "loc": "dochodach",
                 "voc": "dochody"
             }
-        }
+        },
+        "topics": [
+            "business",
+            "shopping",
+            "work"
+        ]
     },
     {
-        "temp_id": "2.85",
         "lemma": "wysokość",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ4",
+            "dimension"
+        ],
         "translations": {
             "ENG": [
                 "height",
                 "altitude",
                 "level",
-                "pitch",
-                "(perceived frequency of a sound) (acoustics)"
+                "pitch"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-159-wysokość",
         "inflections": {
             "singular": {
                 "nom": "wysokość",
@@ -3995,19 +3969,28 @@
                 "loc": "wysokościach",
                 "voc": "wysokości"
             }
-        }
+        },
+        "topics": [
+            "appearance",
+            "sense and perception"
+        ]
     },
     {
-        "temp_id": "2.86",
         "lemma": "siostrzenica",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ3",
+            "concrete",
+            "living",
+            "person",
+            "relative"
+        ],
         "translations": {
             "ENG": [
-                "sororal niece"
+                "niece"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-npe-022-siostrzenica",
         "inflections": {
             "singular": {
                 "nom": "siostrzenica",
@@ -4027,19 +4010,24 @@
                 "loc": "siostrzenicach",
                 "voc": "siostrzenice"
             }
-        }
+        },
+        "topics": [
+            "people"
+        ]
     },
     {
-        "temp_id": "2.87",
         "lemma": "oznaka",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ5"
+        ],
         "translations": {
             "ENG": [
-                "sign indication symptom"
+                "sign",
+                "indication"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-160-oznaka",
         "inflections": {
             "singular": {
                 "nom": "oznaka",
@@ -4059,20 +4047,25 @@
                 "loc": "oznakach",
                 "voc": "oznaki"
             }
-        }
+        },
+        "topics": [
+            "appearance",
+            "sense and perception"
+        ]
     },
     {
-        "temp_id": "2.88",
         "lemma": "minuta",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ1",
+            "abstract"
+        ],
         "translations": {
             "ENG": [
-                "minute",
-                "(unit of time)"
+                "minute"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-161-minuta",
         "inflections": {
             "singular": {
                 "nom": "minuta",
@@ -4092,21 +4085,24 @@
                 "loc": "minutach",
                 "voc": "minuty"
             }
-        }
+        },
+        "topics": [
+            "time"
+        ]
     },
     {
-        "temp_id": "2.89",
         "lemma": "czwartek",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ1",
+            "abstract"
         ],
         "translations": {
             "ENG": [
                 "Thursday"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-162-czwartek",
         "inflections": {
             "singular": {
                 "nom": "czwartek",
@@ -4126,21 +4122,24 @@
                 "loc": "czwartkach",
                 "voc": "czwartki"
             }
-        }
+        },
+        "topics": [
+            "time"
+        ]
     },
     {
-        "temp_id": "2.90",
         "lemma": "piątek",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ1",
+            "abstract"
         ],
         "translations": {
             "ENG": [
                 "Friday"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-163-piątek",
         "inflections": {
             "singular": {
                 "nom": "piątek",
@@ -4160,53 +4159,23 @@
                 "loc": "piątkach",
                 "voc": "piątki"
             }
-        }
-    },
-    {
-        "temp_id": "2.91",
-        "lemma": "Maj",
-        "gender": "m1",
-        "tags": [
-            "person"
-        ],
-        "translations": {
-            "ENG": [
-                "Mayan"
-            ]
         },
-        "id": null,
-        "inflections": {
-            "singular": {
-                "nom": "Maj",
-                "gen": "Maja",
-                "dat": "Majowi",
-                "acc": "Maja",
-                "ins": "Majem",
-                "loc": "Maju",
-                "voc": "Maju"
-            },
-            "plural": {
-                "nom": "Majówie",
-                "gen": "Majów",
-                "dat": "Majom",
-                "acc": "Majów",
-                "ins": "Majami",
-                "loc": "Majach",
-                "voc": "Majówie"
-            }
-        }
+        "topics": [
+            "time"
+        ]
     },
     {
-        "temp_id": "2.92",
         "lemma": "miłość",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ2"
+        ],
         "translations": {
             "ENG": [
                 "love"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-164-miłość",
         "inflections": {
             "singular": {
                 "nom": "miłość",
@@ -4226,55 +4195,24 @@
                 "loc": "miłościach",
                 "voc": "miłości"
             }
-        }
+        },
+        "topics": [
+            "love",
+            "people"
+        ]
     },
     {
-        "temp_id": "2.93",
-        "lemma": "przychód",
-        "gender": "m3",
+        "lemma": "kultura",
         "tags": [
-            "inanimate"
+            "FREQ2"
         ],
         "translations": {
             "ENG": [
-                "gross income"
+                "culture"
             ]
         },
-        "id": null,
-        "inflections": {
-            "singular": {
-                "nom": "przychód",
-                "gen": "przychodu",
-                "dat": "przychodowi",
-                "acc": "przychód",
-                "ins": "przychodem",
-                "loc": "przychodzie",
-                "voc": "przychodzie"
-            },
-            "plural": {
-                "nom": "przychody",
-                "gen": "przychodów",
-                "dat": "przychodom",
-                "acc": "przychody",
-                "ins": "przychodami",
-                "loc": "przychodach",
-                "voc": "przychody"
-            }
-        }
-    },
-    {
-        "temp_id": "2.94",
-        "lemma": "kultura",
         "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "culture",
-                "(arts, customs and habits)",
-                "manners"
-            ]
-        },
-        "id": null,
+        "id": "pol-nco-165-kultura",
         "inflections": {
             "singular": {
                 "nom": "kultura",
@@ -4294,21 +4232,24 @@
                 "loc": "kulturach",
                 "voc": "kultury"
             }
-        }
+        },
+        "topics": [
+            "sociology"
+        ]
     },
     {
-        "temp_id": "2.95",
         "lemma": "wtorek",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ1",
+            "abstract"
         ],
         "translations": {
             "ENG": [
                 "Tuesday"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-166-wtorek",
         "inflections": {
             "singular": {
                 "nom": "wtorek",
@@ -4328,22 +4269,26 @@
                 "loc": "wtorkach",
                 "voc": "wtorki"
             }
-        }
+        },
+        "topics": [
+            "time"
+        ]
     },
     {
-        "temp_id": "2.96",
         "lemma": "blat",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ3",
+            "concrete",
+            "holdable",
+            "household object"
         ],
         "translations": {
             "ENG": [
-                "tabletop",
-                "(the top surface area of a table)"
+                "tabletop"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-167-blat",
         "inflections": {
             "singular": {
                 "nom": "blat",
@@ -4363,19 +4308,26 @@
                 "loc": "blatach",
                 "voc": "blaty"
             }
-        }
+        },
+        "topics": [
+            "home",
+            "inside",
+            "kitchen"
+        ]
     },
     {
-        "temp_id": "2.97",
         "lemma": "cena",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ2",
+            "money"
+        ],
         "translations": {
             "ENG": [
                 "price"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-168-cena",
         "inflections": {
             "singular": {
                 "nom": "cena",
@@ -4395,20 +4347,26 @@
                 "loc": "cenach",
                 "voc": "ceny"
             }
-        }
+        },
+        "topics": [
+            "business",
+            "shopping"
+        ]
     },
     {
-        "temp_id": "2.98",
         "lemma": "duma",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ3",
+            "abstract",
+            "emotion"
+        ],
         "translations": {
             "ENG": [
-                "pride",
-                "(sense of one's own worth, and abhorrence of what is beneath or unworthy of one)"
+                "pride"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-169-duma",
         "inflections": {
             "singular": {
                 "nom": "duma",
@@ -4428,19 +4386,23 @@
                 "loc": "dumach",
                 "voc": "dumy"
             }
-        }
+        },
+        "topics": [
+            "mental"
+        ]
     },
     {
-        "temp_id": "2.99",
         "lemma": "planeta",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ4"
+        ],
         "translations": {
             "ENG": [
                 "planet"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-170-planeta",
         "inflections": {
             "singular": {
                 "nom": "planeta",
@@ -4460,58 +4422,26 @@
                 "loc": "planetach",
                 "voc": "planety"
             }
-        }
-    },
-    {
-        "temp_id": "2.100",
-        "lemma": "kilka",
-        "gender": "f",
-        "tags": [],
-        "translations": {
-            "ENG": [
-                "Any clupeid fish of the genus Clupeonella ."
-            ]
         },
-        "id": null,
-        "inflections": {
-            "singular": {
-                "nom": "kilka",
-                "gen": "kilki",
-                "dat": "kilce",
-                "acc": "kilkę",
-                "ins": "kilką",
-                "loc": "kilce",
-                "voc": "kilko"
-            },
-            "plural": {
-                "nom": "kilki",
-                "gen": "kilek",
-                "dat": "kilkom",
-                "acc": "kilki",
-                "ins": "kilkami",
-                "loc": "kilkach",
-                "voc": "kilki"
-            }
-        }
+        "topics": [
+            "astronomy"
+        ]
     },
     {
-        "temp_id": "2.101",
         "lemma": "park",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ2",
+            "concrete",
+            "location",
+            "natural"
         ],
         "translations": {
             "ENG": [
-                "park",
-                "(e.g., a ground for recreation in a city or town)",
-                "A scent released by goats deer, or hares during breeding periods .",
-                "(obsolete)",
-                "Breeding period of goats, deer, or hares.",
-                "(obsolete)"
+                "park"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-171-park",
         "inflections": {
             "singular": {
                 "nom": "park",
@@ -4531,23 +4461,26 @@
                 "loc": "parkach",
                 "voc": "parki"
             }
-        }
+        },
+        "topics": [
+            "geography",
+            "outside"
+        ]
     },
     {
-        "temp_id": "2.102",
         "lemma": "opis",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ3",
+            "abstract",
+            "speech"
         ],
         "translations": {
             "ENG": [
-                "description",
-                "account",
-                "(of events)"
+                "description"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-172-opis",
         "inflections": {
             "singular": {
                 "nom": "opis",
@@ -4567,19 +4500,27 @@
                 "loc": "opisach",
                 "voc": "opisy"
             }
-        }
+        },
+        "topics": [
+            "mental"
+        ]
     },
     {
-        "temp_id": "2.103",
         "lemma": "bratanica",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ1",
+            "concrete",
+            "living",
+            "person",
+            "relative"
+        ],
         "translations": {
             "ENG": [
-                "fraternal niece"
+                "niece"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-npe-023-bratanica",
         "inflections": {
             "singular": {
                 "nom": "bratanica",
@@ -4599,22 +4540,26 @@
                 "loc": "bratanicach",
                 "voc": "bratanice"
             }
-        }
+        },
+        "topics": [
+            "people"
+        ]
     },
     {
-        "temp_id": "2.104",
         "lemma": "blender",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ3",
+            "concrete",
+            "holdable",
+            "household object"
         ],
         "translations": {
             "ENG": [
-                "blender",
-                "(machine outfitted with sharp blades, for mashing, crushing or liquefying food ingredients)"
+                "blender"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-173-blender",
         "inflections": {
             "singular": {
                 "nom": "blender",
@@ -4634,21 +4579,29 @@
                 "loc": "blenderach",
                 "voc": "blendery"
             }
-        }
+        },
+        "topics": [
+            "home",
+            "inside",
+            "kitchen"
+        ]
     },
     {
-        "temp_id": "2.105",
         "lemma": "uran",
-        "gender": "m3",
         "tags": [
-            "inanimate"
+            "FREQ5",
+            "chemical",
+            "concrete",
+            "material",
+            "uncountable"
         ],
         "translations": {
             "ENG": [
                 "uranium"
             ]
         },
-        "id": null,
+        "gender": "m3",
+        "id": "pol-nco-174-uran",
         "inflections": {
             "singular": {
                 "nom": "uran",
@@ -4661,19 +4614,24 @@
             }
         },
         "lacking": true,
-        "tantumSingulare": true
+        "tantumSingulare": true,
+        "topics": [
+            "chemistry"
+        ]
     },
     {
-        "temp_id": "2.106",
         "lemma": "środa",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ1",
+            "abstract"
+        ],
         "translations": {
             "ENG": [
                 "Wednesday"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-175-środa",
         "inflections": {
             "singular": {
                 "nom": "środa",
@@ -4693,20 +4651,23 @@
                 "loc": "środach",
                 "voc": "środy"
             }
-        }
+        },
+        "topics": [
+            "time"
+        ]
     },
     {
-        "temp_id": "2.107",
         "lemma": "kometa",
-        "gender": "f",
-        "tags": [],
+        "tags": [
+            "FREQ4"
+        ],
         "translations": {
             "ENG": [
-                "comet",
-                "(astronomy)"
+                "comet"
             ]
         },
-        "id": null,
+        "gender": "f",
+        "id": "pol-nco-176-kometa",
         "inflections": {
             "singular": {
                 "nom": "kometa",
@@ -4726,6 +4687,9 @@
                 "loc": "kometach",
                 "voc": "komety"
             }
-        }
+        },
+        "topics": [
+            "astronomy"
+        ]
     }
 ]
