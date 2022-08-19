@@ -1,5 +1,4 @@
-input = ['młody',
-         'powolny',
+input = ['młody', 'powolny',
          'wspaniały',
          'niezwykły',
          'główny',
@@ -264,6 +263,5 @@ input = ['młody',
          'realny',
          'tępy',
          'mądry',
-         'niedbały'
-         # All the above were run in Groups 1,2,3, although there are some rejected ones.
+         'niedbały' # This and all above were run in Groups 1,2,3 (though some rejected).
          ]

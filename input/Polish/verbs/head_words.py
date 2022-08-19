@@ -1,5 +1,4 @@
-input = ['być',
-    'mieć',
+input = ['być', 'mieć',
     'móc',
     'umieć',
     'potrzebować',
@@ -158,6 +157,5 @@ input = ['być',
     'wygrywać',
     'wygrać',
     'przegrywać',
-    'przegrać'
-    # All the above were run in Groups 1,2, although there are some rejected ones.
+    'przegrać' # This and all above were run in Groups 1,2 (though some rejected).
 ]
