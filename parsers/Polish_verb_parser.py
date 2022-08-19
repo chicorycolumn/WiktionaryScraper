@@ -84,11 +84,13 @@ class PolishVerbParser(HTMLParser):
 
         override_aspect_length_check = False
         if override_aspect_length_check:
-            write_todo(f'Hey! Set override_aspect_length_check back to False when you are done overriding.')
+            write_todo(f'Verbs. Hey! Set override_aspect_length_check back to False when you are done overriding.')
             self.output_obj["aspect"] = [self.output_obj["aspect"][0]]
 
         if len(self.output_obj["aspect"]) != 1:
-            write_todo(f'#ERR "{self.output_obj["lemma"]}" output_obj["aspect"] is {self.output_obj["aspect"]} but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word and TEMPORARILY set override_aspect_length_check to True.')
+            write_todo(f'Verbs. #ERR "{self.output_obj["lemma"]}" output_obj["aspect"] is {self.output_obj["aspect"]} '
+                       f'but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". '
+                       f'If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.')
             return
         else:
             self.output_obj["aspect"] = aspect_ref[self.output_obj["aspect"][0]]
@@ -101,7 +103,7 @@ class PolishVerbParser(HTMLParser):
                     out_obj["extra"]["derivedTerms"] = copy.deepcopy(self.output_obj["extra"]["derivedTerms"])
                     out_obj["inflections"] = copy.deepcopy(self.output_obj["inflections"])
                     out_obj["allohomInfo"] = None
-                    write_todo(f'At least two lobjs of "{out_obj["lemma"]}" will need allohomInfo added.')
+                    write_todo(f'Verbs. At least two lobjs of "{out_obj["lemma"]}" will need allohomInfo added.')
                     self.output_obj["allohomInfo"] = None
                     out_obj.pop("diff_word_same_conj")
 

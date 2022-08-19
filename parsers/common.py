@@ -41,10 +41,10 @@ def trigger_parser(head_words_raw, parser, use_sample, language, wordtype, resul
                 rejected["already_existing"] = []
             rejected["already_existing"].extend(headwords_not_to_parse)
     else:
-        write_todo(f'Remember to set test_only_boolean_override_check_existing back to False.')
+        write_todo(f'Remember to set test_only_boolean_override_check_existing back to False. {wordtype}')
         head_words = head_words_raw
         if len(head_words) > 10:
-            write_todo(f'Actually, I refuse to override rejection of already existing headwords for more than ten.')
+            write_todo(f'Actually, I refuse to override rejection of already existing headwords for >10. {wordtype}')
             return
 
     for (head_word_index, head_word) in enumerate(head_words):
@@ -206,9 +206,9 @@ def scrape_word_data(
                 extra_2 = list(set(extra_2))
 
                 if extra_2:
-                    write_todo(f'There are {len(extra_2)} doubly extra headwords, they have not been parsed: {extra_2}')
+                    write_todo(f'There are {len(extra_2)} doubly extra {wordtype} headwords, they have not been parsed: {extra_2}')
             else:
-                write_todo(f'Want to parse any of {len(extra)} extra lemmas? (I did not because of wordtype) {extra}')
+                write_todo(f'Want to parse any of {len(extra)} extra {wordtype} lemmas? (I did not because of wordtype) {extra}')
 
         print(f'\n# Writing results".')
 
@@ -246,7 +246,7 @@ def scrape_word_data(
 
         for fullverb in result:
             if "infinitive" not in fullverb["inflections"]:
-                write_todo(f'"{fullverb["lemma"]}" has no infinitive. Kicking it out.')
+                write_todo(f'"{fullverb["lemma"]}" has no infinitive. Kicking it out of {wordtype}.')
             else:
                 result_filtered.append(fullverb)
 
@@ -254,18 +254,18 @@ def scrape_word_data(
 
     write_output(result, filepaths["output"])
 
-    another_round_of_potential_extra_lemmas_to_parse = []
+    more_potential_extra_lemmas_to_parse = []
     for lobj in result:
         if "translations_additional" in lobj:
             for ta in lobj["translations_additional"]:
                 if ta not in head_words + existing_lemmas and bool(re.search(r"^[a-zA-Z]+$", ta)):
-                    another_round_of_potential_extra_lemmas_to_parse.append(ta)
+                    more_potential_extra_lemmas_to_parse.append(ta)
 
-    another_round_of_potential_extra_lemmas_to_parse = list(set(another_round_of_potential_extra_lemmas_to_parse))
+    more_potential_extra_lemmas_to_parse = list(set(more_potential_extra_lemmas_to_parse))
 
-    if another_round_of_potential_extra_lemmas_to_parse:
-        write_todo(f'Want to parse any (if they are {language}) of {len(another_round_of_potential_extra_lemmas_to_parse)}'
-                   f' translations_additional lemmas? (I did not): {another_round_of_potential_extra_lemmas_to_parse}')
+    if more_potential_extra_lemmas_to_parse:
+        write_todo(f'Want to parse any (if are {language}) {wordtype} of {len(more_potential_extra_lemmas_to_parse)}'
+                   f' translations_additional lemmas? (I did not): {more_potential_extra_lemmas_to_parse}')
 
     if "truncated" in filepaths:
         def get_truncated(lemma_object):
