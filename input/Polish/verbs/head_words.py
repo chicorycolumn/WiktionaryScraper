@@ -33,7 +33,6 @@ input = ['być',
     'policzyć',
     'biegać',
     'biec',
-    'biegnąć',
     'przychodzić',
     'przyjść',
     'przyjeżdżać',
@@ -160,4 +159,5 @@ input = ['być',
     'wygrać',
     'przegrywać',
     'przegrać'
+    # All the above were run in Groups 1,2, although there are some rejected ones.
 ]
