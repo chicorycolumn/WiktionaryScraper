@@ -173,8 +173,8 @@ def trim_chaff_from_derived_terms(string, lemma):
     return string
 
 
-def html_from_head_word(head_word, head_word_index, len_head_words):
-    print(f'\n# Loading Wiktionary "{head_word_index + 1} of {len_head_words}" at <<{datetime.now().strftime("%H:%M:%S")}>> for "{head_word}".\n')
+def html_from_head_word(head_word, progress_str):
+    print(f'\n# Loading Wiktionary {progress_str} at <<{datetime.now().strftime("%H:%M:%S")}>> for "{head_word}".\n')
     html_page = urllib2.urlopen(f"https://en.wiktionary.org/wiki/{urllib.parse.quote(head_word)}")
     return str(html_page.read())
 

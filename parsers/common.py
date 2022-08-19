@@ -13,9 +13,9 @@ from utils.scraping.Polish import minimise_inflections
 from utils.scraping.common import html_from_head_word
 
 
-def add_output_arr_to_result(output_arr, head_word, result, rejected):
+def add_output_arr_to_result(output_arr, head_word, result, rejected, progress_str):
     if output_arr:
-        print(f'\n{" " * 15}# SUCCESS Adding "{head_word}" output_arr to result.' "\n")
+        print(f'\n{" " * 15}# {progress_str} SUCCESS Adding "{head_word}" output_arr to result.' "\n")
         for lemma_object in output_arr:
             lemma_object["lemma"] = head_word
         result.extend(output_arr)
@@ -48,7 +48,8 @@ def trigger_parser(head_words_raw, parser, use_sample, language, wordtype, resul
             return
 
     for (head_word_index, head_word) in enumerate(head_words):
-        print(f'\n # Beginning for loop with "{head_word}"\n')
+        progress_str = f'{head_word_index + 1}/{len(head_words)}'
+        print(f'\n # {progress_str} Beginning for loop with "{head_word}"\n')
 
         parser.reset()
 
@@ -57,13 +58,13 @@ def trigger_parser(head_words_raw, parser, use_sample, language, wordtype, resul
                 contents = f.read()
                 parser.feed(contents)
                 output_arr = parser.output_arr
-                add_output_arr_to_result(output_arr, head_word, result, rejected)
+                add_output_arr_to_result(output_arr, head_word, result, rejected, progress_str)
                 f.close()
         else:
             started_at = datetime.now()
 
             try:
-                html_string = html_from_head_word(head_word, head_word_index, len(head_words))
+                html_string = html_from_head_word(head_word, progress_str)
 
                 try:
                     started_at = datetime.now()
@@ -71,14 +72,14 @@ def trigger_parser(head_words_raw, parser, use_sample, language, wordtype, resul
                     parser.feed(html_string)
                     output_arr = parser.output_arr
                     parser.output_arr = []
-                    add_output_arr_to_result(output_arr, head_word, result, rejected)
+                    add_output_arr_to_result(output_arr, head_word, result, rejected, progress_str)
 
                 except:
-                    print(f'\n#{" " * 30}Loaded html for "{head_word}" but FAILED when reading it.\n')
+                    print(f'\n#{" " * 30}Loaded html for "{head_word}" {progress_str} but FAILED when reading it.\n')
                     rejected["loaded_html_but_failed_when_reading"].append(head_word)
 
             except:
-                print(f'\n#{" " * 30}FAILED to even load html for "{head_word}".\n')
+                print(f'\n#{" " * 30}FAILED to even load html for "{head_word}" {progress_str}.\n')
                 rejected["failed_to_load_html"].append(head_word)
 
             delay_seconds = 1
