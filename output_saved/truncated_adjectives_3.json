@@ -47,7 +47,7 @@
     },
     {
         "lemma": "szybki",
-        "tags": "xxxxxxxxx",
+        "tags": "2TT,z,v",
         "translations": {
             "ENG": [
                 "fast",
@@ -61,36 +61,37 @@
     },
     {
         "lemma": "wolny",
-        "tags": "xxxxxxxxx",
+        "tags": "2TT,z,v",
         "translations": {
             "ENG": [
-                "slow",
-                "free",
-                "free",
-                "(without)",
-                "od",
-                "(genitive)",
-                "free",
-                "vacant",
-                "single",
-                "unmarried"
+                "slow"
             ]
         },
         "temp_id": "3.5"
+    },    {
+        "lemma": "wolny",
+        "tags": "4he,l,pol",
+        "translations": {
+            "ENG": [
+                "free"
+            ]
+        },
+        "temp_id": "3.5a"
     },
     {
         "lemma": "różnorodny",
-        "tags": "xxxxxxxxx",
+        "tags": "4he",
         "translations": {
             "ENG": [
                 "diverse",
-                "(various)"
+                "varied",
+                "various"
             ]
         },
         "temp_id": "3.6"
     },
     {
-        "lemma": "różnoraki",
+        "lemma": "!różnoraki",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -102,20 +103,12 @@
     },
     {
         "lemma": "prosty",
-        "tags": "xxxxxxxxx",
+        "tags": "3gem,ss",
         "translations": {
             "ENG": [
                 "straight",
                 "simple",
                 "easy",
-                "unsophisticated",
-                "uneducated",
-                "common",
-                "(geometry)",
-                "right",
-                "(90°)",
-                "(of one's speech)",
-                "straight",
                 "direct"
             ]
         },
@@ -123,7 +116,7 @@
     },
     {
         "lemma": "łatwy",
-        "tags": "xxxxxxxxx",
+        "tags": "2s,q",
         "translations": {
             "ENG": [
                 "easy",
@@ -137,18 +130,17 @@
     },
     {
         "lemma": "krzywy",
-        "tags": "xxxxxxxxx",
+        "tags": "5kk,gem",
         "translations": {
             "ENG": [
-                "crooked",
-                "wry"
+                "crooked"
             ]
         },
         "temp_id": "3.10"
     },
     {
         "lemma": "naturalny",
-        "tags": "xxxxxxxxx",
+        "tags": "4bio,n",
         "translations": {
             "ENG": [
                 "natural",
@@ -162,7 +154,7 @@
     },
     {
         "lemma": "skomplikowany",
-        "tags": "xxxxxxxxx",
+        "tags": "3s",
         "translations": {
             "ENG": [
                 "complicated",
@@ -171,16 +163,15 @@
                 "complex",
                 "(not simple or straightforward)",
                 "(of someone's life)",
-                "busy",
                 "complex",
-                "(intricate)"
+                "intricate"
             ]
         },
         "temp_id": "3.12"
     },
     {
         "lemma": "bezpośredni",
-        "tags": "xxxxxxxxx",
+        "tags": "4sr,TT",
         "translations": {
             "ENG": [
                 "direct",
@@ -195,7 +186,7 @@
     },
     {
         "lemma": "pechowy",
-        "tags": "xxxxxxxxx",
+        "tags": "5RR",
         "translations": {
             "ENG": [
                 "unfortunate",
@@ -207,19 +198,29 @@
     },
     {
         "lemma": "szczęśliwy",
-        "tags": "xxxxxxxxx",
+        "tags": "2e",
+        "translations": {
+            "ENG": [
+
+                "happy"
+            ]
+        },
+        "temp_id": "3.15"
+    },    {
+        "lemma": "szczęśliwy",
+        "tags": "5RR",
         "translations": {
             "ENG": [
                 "lucky",
                 "fortunate",
-                "happy",
+
                 "(enjoying peace, comfort, etc; contented, joyous)"
             ]
         },
-        "temp_id": "3.15"
+        "temp_id": "3.15a"
     },
     {
-        "lemma": "niepomyślny",
+        "lemma": "!niepomyślny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -231,7 +232,7 @@
         "temp_id": "3.16"
     },
     {
-        "lemma": "feralny",
+        "lemma": "!feralny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -245,7 +246,7 @@
         "temp_id": "3.17"
     },
     {
-        "lemma": "fortunny",
+        "lemma": "!fortunny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -259,7 +260,7 @@
         "temp_id": "3.18"
     },
     {
-        "lemma": "niefortunny",
+        "lemma": "!niefortunny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -271,7 +272,7 @@
         "temp_id": "3.19"
     },
     {
-        "lemma": "pomyślny",
+        "lemma": "!pomyślny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -282,7 +283,7 @@
         "temp_id": "3.20"
     },
     {
-        "lemma": "nieszczęśliwy",
+        "lemma": "!nieszczęśliwy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -294,11 +295,11 @@
     },
     {
         "lemma": "powierzchowny",
-        "tags": "xxxxxxxxx",
+        "tags": "4kk,z,sr",
         "translations": {
             "ENG": [
                 "superficial",
-                "surficial",
+
                 "(occurring on or near the surface)",
                 "superficial",
                 "shallow",
@@ -307,15 +308,14 @@
                 "(lacking depth or thoroughness)",
                 "(dated)",
                 "superficial",
-                "external",
-                "outward",
+
                 "(appearing to be true until closer examination)"
             ]
         },
         "temp_id": "3.22"
     },
     {
-        "lemma": "pozorny",
+        "lemma": "!pozorny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -326,7 +326,7 @@
         "temp_id": "3.23"
     },
     {
-        "lemma": "pobieżny",
+        "lemma": "!pobieżny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -337,7 +337,7 @@
         "temp_id": "3.24"
     },
     {
-        "lemma": "wierzchni",
+        "lemma": "!wierzchni",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -347,7 +347,7 @@
         "temp_id": "3.25"
     },
     {
-        "lemma": "naskórkowy",
+        "lemma": "!naskórkowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -361,7 +361,7 @@
     },
     {
         "lemma": "prawidłowy",
-        "tags": "xxxxxxxxx",
+        "tags": "3he,+",
         "translations": {
             "ENG": [
                 "correct",
@@ -369,7 +369,7 @@
                 "correct",
                 "(conforming to an established set of rules)",
                 "(geometry)",
-                "regular",
+
                 "(sometimes proscribed)",
                 "correct",
                 "(in accordance with fact or truth)",
@@ -381,7 +381,7 @@
         "temp_id": "3.27"
     },
     {
-        "lemma": "foremny",
+        "lemma": "!foremny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -394,7 +394,7 @@
     },
     {
         "lemma": "biedny",
-        "tags": "xxxxxxxxx",
+        "tags": "2$,soc",
         "translations": {
             "ENG": [
                 "poor",
@@ -406,7 +406,7 @@
         "temp_id": "3.29"
     },
     {
-        "lemma": "as",
+        "lemma": "!as",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -417,20 +417,19 @@
     },
     {
         "lemma": "skromny",
-        "tags": "xxxxxxxxx",
+        "tags": "5@,py",
         "translations": {
             "ENG": [
                 "modest",
                 "(not bragging)",
                 "modest",
-                "(small)",
-                "minimal"
+                "(small)"
             ]
         },
         "temp_id": "3.31"
     },
     {
-        "lemma": "goły",
+        "lemma": "!goły",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -446,19 +445,17 @@
     },
     {
         "lemma": "zamożny",
-        "tags": "xxxxxxxxx",
+        "tags": "4$,soc",
         "translations": {
             "ENG": [
                 "wealthy",
-                "affluent",
-                "(archaic)",
-                "powerful"
+                "affluent"
             ]
         },
         "temp_id": "3.33"
     },
     {
-        "lemma": "country",
+        "lemma": "!country",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -470,7 +467,7 @@
     },
     {
         "lemma": "ubogi",
-        "tags": "xxxxxxxxx",
+        "tags": "4$,soc",
         "translations": {
             "ENG": [
                 "poor"
@@ -480,7 +477,7 @@
     },
     {
         "lemma": "daleki",
-        "tags": "xxxxxxxxx",
+        "tags": "1z,TT",
         "translations": {
             "ENG": [
                 "far",
@@ -491,7 +488,7 @@
     },
     {
         "lemma": "niedaleki",
-        "tags": "xxxxxxxxx",
+        "tags": "1z,TT",
         "translations": {
             "ENG": [
                 "nearby",
@@ -502,7 +499,7 @@
     },
     {
         "lemma": "odległy",
-        "tags": "xxxxxxxxx",
+        "tags": "3z,TT",
         "translations": {
             "ENG": [
                 "distant",
@@ -513,11 +510,12 @@
     },
     {
         "lemma": "sztuczny",
-        "tags": "xxxxxxxxx",
+        "tags": "3m,eng,c",
         "translations": {
             "ENG": [
                 "artificial",
                 "man-made",
+                "manmade",
                 "false",
                 "mock"
             ]
@@ -525,7 +523,7 @@
         "temp_id": "3.39"
     },
     {
-        "lemma": "artyficjalny",
+        "lemma": "!artyficjalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -537,7 +535,7 @@
     },
     {
         "lemma": "spokojny",
-        "tags": "xxxxxxxxx",
+        "tags": "3ee",
         "translations": {
             "ENG": [
                 "calm",
@@ -551,7 +549,7 @@
     },
     {
         "lemma": "niespokojny",
-        "tags": "xxxxxxxxx",
+        "tags": "3ee",
         "translations": {
             "ENG": [
                 "anxious",
@@ -565,7 +563,7 @@
         "temp_id": "3.42"
     },
     {
-        "lemma": "nieżonaty",
+        "lemma": "!nieżonaty",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -579,7 +577,7 @@
         "temp_id": "3.43"
     },
     {
-        "lemma": "nieskrępowany",
+        "lemma": "!nieskrępowany",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -592,7 +590,7 @@
     },
     {
         "lemma": "swobodny",
-        "tags": "xxxxxxxxx",
+        "tags": "3he,s",
         "translations": {
             "ENG": [
                 "free",
@@ -606,22 +604,19 @@
     },
     {
         "lemma": "realny",
-        "tags": "xxxxxxxxx",
+        "tags": "3phi,he,s",
         "translations": {
             "ENG": [
                 "real",
                 "(that has physical existence)",
-                "viable",
-                "(possible)",
-                "common-sense",
-                "commonsensical"
+                "viable"
             ]
         },
         "temp_id": "3.46"
     },
     {
         "lemma": "rzeczywisty",
-        "tags": "xxxxxxxxx",
+        "tags": "3phi,he",
         "translations": {
             "ENG": [
                 "real",
@@ -638,7 +633,7 @@
         "temp_id": "3.47"
     },
     {
-        "lemma": "zdroworozsądkowy",
+        "lemma": "!zdroworozsądkowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -649,7 +644,7 @@
     },
     {
         "lemma": "zbędny",
-        "tags": "xxxxxxxxx",
+        "tags": "4he,-",
         "translations": {
             "ENG": [
                 "unnecessary",
@@ -660,7 +655,7 @@
     },
     {
         "lemma": "niepotrzebny",
-        "tags": "xxxxxxxxx",
+          "tags": "4he,-",
         "translations": {
             "ENG": [
                 "unnecessary",
@@ -670,7 +665,7 @@
         "temp_id": "3.50"
     },
     {
-        "lemma": "zbyteczny",
+        "lemma": "!zbyteczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -686,7 +681,7 @@
     },
     {
         "lemma": "odpowiedzialny",
-        "tags": "xxxxxxxxx",
+        "tags": "3rp,pol,py",
         "translations": {
             "ENG": [
                 "responsible",
@@ -697,7 +692,7 @@
     },
     {
         "lemma": "nieodpowiedzialny",
-        "tags": "xxxxxxxxx",
+     "tags": "3rp,pol,py",
         "translations": {
             "ENG": [
                 "irresponsible"
@@ -706,7 +701,7 @@
         "temp_id": "3.53"
     },
     {
-        "lemma": "wrony",
+        "lemma": "!wrony",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -717,7 +712,7 @@
         "temp_id": "3.54"
     },
     {
-        "lemma": "kary",
+        "lemma": "!kary",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -729,29 +724,18 @@
     },
     {
         "lemma": "zamknięty",
-        "tags": "xxxxxxxxx",
+        "tags": "2kk,$,hh,gem",
         "translations": {
             "ENG": [
                 "closed",
-                "shut",
-                "(confined in space or sheltered on all sides)",
-                "(of a group of people)",
-                "hermetic",
-                "(isolated, away from outside influence)",
-                "introverted",
-                "private",
-                "fixed",
-                "in one's",
-                "views",
-                "invitational",
-                "(restricted to participants who have been invited)"
-            ]
+                "shut"
+         ]
         },
         "temp_id": "3.56"
     },
     {
         "lemma": "skryty",
-        "tags": "xxxxxxxxx",
+        "tags": "4sr,py",
         "translations": {
             "ENG": [
                 "secretive",
@@ -763,7 +747,7 @@
         "temp_id": "3.57"
     },
     {
-        "lemma": "hermetyczny",
+        "lemma": "!hermetyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -781,28 +765,19 @@
     },
     {
         "lemma": "ścisły",
-        "tags": "xxxxxxxxx",
+        "tags": "4z,he",
         "translations": {
             "ENG": [
                 "rigorous",
                 "strict",
-                "precise",
-                "logical",
-                "(relationships)",
-                "direct",
-                "(data)",
-                "precise",
-                "true",
-                "(sciences)",
-                "exact",
-                "restricted"
+                "tight"
             ]
         },
         "temp_id": "3.59"
     },
     {
         "lemma": "znudzony",
-        "tags": "xxxxxxxxx",
+        "tags": "2e",
         "translations": {
             "ENG": [
                 "bored"
@@ -812,7 +787,7 @@
     },
     {
         "lemma": "obecny",
-        "tags": "xxxxxxxxx",
+        "tags": "4ss",
         "translations": {
             "ENG": [
                 "present",
@@ -824,7 +799,7 @@
         "temp_id": "3.61"
     },
     {
-        "lemma": "bieżący",
+        "lemma": "!bieżący",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -840,7 +815,7 @@
     },
     {
         "lemma": "tępy",
-        "tags": "xxxxxxxxx",
+        "tags": "3kk,gem,py",
         "translations": {
             "ENG": [
                 "blunt",
@@ -849,20 +824,13 @@
                 "blunt",
                 "(without a pointy end)",
                 "dumb",
-                "dull-witted",
-                "apathetic",
-                "indifferent",
-                "(of a sensation)",
-                "indistinct",
-                "1986 (first published 1834)",
-                "Adam Mickiewicz",
-                "Pan Tadeusz"
+                "dull-witted"
             ]
         },
         "temp_id": "3.63"
     },
     {
-        "lemma": "głupawy",
+        "lemma": "!głupawy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -874,7 +842,7 @@
         "temp_id": "3.64"
     },
     {
-        "lemma": "nieostry",
+        "lemma": "!nieostry",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -895,29 +863,19 @@
     },
     {
         "lemma": "bystry",
-        "tags": "xxxxxxxxx",
+        "tags": "3py,ee,+",
         "translations": {
             "ENG": [
                 "smart",
                 "bright",
-                "shrewd",
-                "(of water)",
-                "fast",
-                "swift",
-                "rapid",
-                "(of animals)",
-                "fast",
-                "and",
-                "nimble",
-                "(of a color)",
-                "vivid"
+                "shrewd"
             ]
         },
         "temp_id": "3.66"
     },
     {
         "lemma": "mroczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4kk",
         "translations": {
             "ENG": [
                 "dark",
@@ -929,7 +887,7 @@
     },
     {
         "lemma": "popularny",
-        "tags": "xxxxxxxxx",
+        "tags": "3soc",
         "translations": {
             "ENG": [
                 "popular",
@@ -941,7 +899,7 @@
         "temp_id": "3.68"
     },
     {
-        "lemma": "końcowy",
+        "lemma": "!końcowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -954,7 +912,7 @@
     },
     {
         "lemma": "nerwowy",
-        "tags": "xxxxxxxxx",
+        "tags": "3py",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -968,7 +926,7 @@
     },
     {
         "lemma": "miły",
-        "tags": "xxxxxxxxx",
+        "tags": "1+,py,kk",
         "translations": {
             "ENG": [
                 "nice",
@@ -984,7 +942,7 @@
     },
     {
         "lemma": "niedbały",
-        "tags": "xxxxxxxxx",
+        "tags": "4py,-",
         "translations": {
             "ENG": [
                 "careless",
@@ -998,7 +956,7 @@
         "temp_id": "3.72"
     },
     {
-        "lemma": "skoczny",
+        "lemma": "!skoczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1010,7 +968,7 @@
     },
     {
         "lemma": "straszny",
-        "tags": "xxxxxxxxx",
+        "tags": "2-,he,ee",
         "translations": {
             "ENG": [
                 "scary",
@@ -1028,7 +986,7 @@
     },
     {
         "lemma": "niewinny",
-        "tags": "xxxxxxxxx",
+        "tags": "5l",
         "translations": {
             "ENG": [
                 "innocent",
@@ -1040,7 +998,7 @@
     },
     {
         "lemma": "obcy",
-        "tags": "xxxxxxxxx",
+        "tags": "4phi,ee",
         "translations": {
             "ENG": [
                 "unfamiliar",
@@ -1054,7 +1012,7 @@
     },
     {
         "lemma": "niechlujny",
-        "tags": "xxxxxxxxx",
+        "tags": "4py,-",
         "translations": {
             "ENG": [
                 "slovenly",
@@ -1062,33 +1020,26 @@
                 "squalid",
                 "untidy",
                 "messy",
-                "sloppy",
-                "slipshod"
+                "sloppy"
             ]
         },
         "temp_id": "3.77"
     },
     {
         "lemma": "durny",
-        "tags": "xxxxxxxxx",
+        "tags": "4-,py",
         "translations": {
             "ENG": [
                 "stupid",
                 "foolish",
-                "dumb",
-                "(obsolete)",
-                "arrogant",
-                "(obsolete)",
-                "armed",
-                "(Góral)",
-                "proud"
+                "dumb"
             ]
         },
         "temp_id": "3.78"
     },
     {
         "lemma": "odporny",
-        "tags": "xxxxxxxxx",
+        "tags": "3c,eng,bio",
         "translations": {
             "ENG": [
                 "resistant",
@@ -1099,13 +1050,11 @@
     },
     {
         "lemma": "sypki",
-        "tags": "xxxxxxxxx",
+        "tags": "4kk,z",
         "translations": {
             "ENG": [
                 "loose",
-                "powdery",
-                "crumbly",
-                "friable"
+                "powdery"
             ]
         },
         "temp_id": "3.80"
