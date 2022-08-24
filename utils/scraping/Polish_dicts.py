@@ -167,6 +167,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["fashion"],
     },
+    "ggg": {  #
+        "tags": ["h"],
+        "topics": ["cosmetics"],
+    },
     "c": {  # cotton steel cardboard
         "tags": ["material", "uncountable", "concrete"],
         "topics": ["engineering"],
@@ -266,6 +270,10 @@ shorthand_tag_refs = {
     "A": {
         "tags": ["pet", "a"],
         "topics": ["home", "inside"],
+    },
+    "ai": {
+        "tags": ["insect", "a"],
+        "topics": ["outside"],
     },
     "t": {
         "tags": ["title", "p"],
@@ -479,6 +487,14 @@ shorthand_tag_refs = {
         "tags": ["crime"],
         "topics": ["crime", "law"],
     },
+    "W": { # top bottom side centre
+        "tags": ["part"],
+        "topics": [],
+    },
+    "WW": { # cog board gear joint
+        "tags": ["component"],
+        "topics": [],
+    },
     "agr": {
         "tags": [],
         "topics": ["agriculture"],
@@ -566,6 +582,14 @@ shorthand_tag_refs = {
     "med": {
         "tags": [],
         "topics": ["medicine"],
+    },
+    "U": {
+        "tags": ["disease"],
+        "topics": ["disease", "medicine"],
+    },
+    "UU": {
+        "tags": [],
+        "topics": ["disease", "medicine"],
     },
     "wri": {
         "tags": [],
