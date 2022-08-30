@@ -373,7 +373,9 @@ class PolishVerbParser(HTMLParser):
 
         if self.mode == "gettingderivedterms" and endTag == "li":
             derived_term = trim_chaff_from_derived_terms(" ".join(self.current_derived_term), self.output_obj['lemma'])
-            if "further reading" not in derived_term.lower() and f"in {self.selected_lang} dictionaries" not in derived_term.lower():
+            if "further reading" not in derived_term.lower() \
+                    and f"in {self.selected_lang} dictionaries" not in derived_term.lower()\
+                    and not derived_term.lower().startswith("descendants"):
                 self.current_derived_term = []
                 if derived_term:
                     self.output_obj["extra"]["derivedTerms"].append(derived_term)
