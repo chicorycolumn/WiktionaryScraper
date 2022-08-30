@@ -1976,7 +1976,7 @@ input = ["brat", "fizyka",
          "Włochy", "Ziemia", "Berlin", "Amerykanka", "Niemka", "Polka", "Angielka", "Włoszka", "Rosjanka",
          ]
 
-person_nouns_without_m1_gender = [
+person_nouns_without_m1_gender = [  # So you will need to manually add "person" tag to these.
     "adwokatka", "aktorka", "akuszerka", "aptekarka", "artystka", "babcia", "blondynka", "bohaterka", "bratanica",
     "brunetka", "ciocia", "córka", "dentystka", "dziennikarka", "dziewczyna", "dziewczynka", "farmaceutka", "fryzjerka",
     "kelnerka", "kobieta", "kochanka", "koleżanka", "krewna", "kucharka", "lekarka", "mama", "matka", "modelka",

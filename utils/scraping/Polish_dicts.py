@@ -452,7 +452,7 @@ shorthand_tag_refs = {
         "topics": ["language"],
     },
     "££": {
-        "tags": [],
+        "tags": ["aa"],
         "topics": ["language"],
     },
     "X": {
