@@ -207,9 +207,9 @@ def scrape_word_data(
                 extra_2 = list(set(extra_2))
 
                 if extra_2:
-                    write_todo(f'There are {len(extra_2)} doubly extra {wordtype} headwords, they have not been parsed: {extra_2}')
+                    write_todo(f'There are {len(extra_2)} doubly extra {wordtype}-headwords, they have not been parsed: {extra_2}')
             else:
-                write_todo(f'Want to parse any of {len(extra)} extra {wordtype} lemmas? (I did not because of wordtype) {extra}')
+                write_todo(f'Want to parse any of {len(extra)} extra {wordtype}-lemmas? (I did not because of wordtype) {extra}')
 
         print(f'\n# Writing results".')
 
@@ -248,6 +248,8 @@ def scrape_word_data(
         for fullverb in result:
             if "infinitive" not in fullverb["inflections"]:
                 write_todo(f'"{fullverb["lemma"]}" has no infinitive. Kicking it out of {wordtype}.')
+            elif isinstance(fullverb["inflections"]["infinitive"], str) or "present indicative" in fullverb["inflections"]:
+                write_todo(f'"{fullverb["lemma"]}" defective or strange inflections table. Kicking it out of {wordtype}.')
             else:
                 result_filtered.append(fullverb)
 
