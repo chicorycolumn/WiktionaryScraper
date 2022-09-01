@@ -249,7 +249,7 @@ def scrape_word_data(
             if "infinitive" not in fullverb["inflections"]:
                 write_todo(f'"{fullverb["lemma"]}" has no infinitive. Kicking it out of {wordtype}.')
             elif isinstance(fullverb["inflections"]["infinitive"], str) or "present indicative" in fullverb["inflections"]:
-                write_todo(f'"{fullverb["lemma"]}" defective or strange inflections table. Kicking it out of {wordtype}.')
+                write_todo(f'"{fullverb["lemma"]}" has defective or strange inflections table. Kicking it out of {wordtype}.')
             else:
                 result_filtered.append(fullverb)
 

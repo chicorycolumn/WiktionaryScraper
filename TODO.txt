@@ -42,3 +42,17 @@ Set second "lato" to pluralOnly.
 2022-08-30 10:13 "brakować" defective or strange inflections table. Kicking it out of verbs.
 2022-08-30 10:13 "charakteryzować" has no infinitive. Kicking it out of verbs.
 2022-08-30 10:13 The "conditional" tense on perfective "dojść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
+
+2022-09-01 13:23 Verbs. At least two lobjs of "czaić" will need allohomInfo added.
+2022-09-01 13:23 Verbs. #ERR "defective verb" output_obj["aspect"] is [] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-09-01 13:23 Verbs. At least two lobjs of "dojrzeć" will need allohomInfo added.
+2022-09-01 13:23 Verbs. At least two lobjs of "badać" will need allohomInfo added.
+2022-09-01 13:23 Verbs. #ERR "awansować" output_obj["aspect"] is ['impf', 'or', 'pf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-09-01 13:24 Verbs. At least two lobjs of "dojeżdżać" will need allohomInfo added.
+2022-09-01 13:24 Verbs. #ERR "charakteryzować" output_obj["aspect"] is ['impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-09-01 13:24 Verbs. #ERR "None" output_obj["aspect"] is [] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-09-01 13:25 Verbs. #ERR "aresztować" output_obj["aspect"] is ['impf', 'or', 'pf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-09-01 13:27 There are 4 doubly extra verbs-headwords, they have not been parsed: ['obraniać', 'dognać', 'schraniać', 'zaczerpywać']
+2022-09-01 13:27 "brakować" defective or strange inflections table. Kicking it out of verbs.
+2022-09-01 13:27 "charakteryzować" has no infinitive. Kicking it out of verbs.
+2022-09-01 13:27 The "conditional" tense on perfective "dojść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
