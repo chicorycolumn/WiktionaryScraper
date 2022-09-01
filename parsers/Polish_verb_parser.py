@@ -382,8 +382,8 @@ class PolishVerbParser(HTMLParser):
 
         if self.mode == "gettingdefinition" and endTag == "li":
             definition = brackets_to_end(trim_around_brackets(self.current_definition))
-            definition = format_verb_translation_properties(definition)
-            self.output_obj["translations"]["ENG"].append(definition)
+            definitions = format_verb_translation_properties(definition)
+            self.output_obj["translations"]["ENG"] += definitions
 
             if self.current_usage:
                 formatted_current_usage = format_usage_string_list(self.current_usage)

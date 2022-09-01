@@ -58,7 +58,19 @@ def format_verb_translation_properties(s):
             properties_formatted_str = ""
         s = s.replace(properties_string, "").replace(infinitive, f'{infinitive}{properties_formatted_str}')
 
-    return s.strip()
+    trimmed_translations_list = []
+
+    if ", to" in s:
+        split_list = s.split(", to")
+        for el in split_list:
+            el = el.strip()
+            if not el.startswith("to "):
+                el = "to " + el
+            trimmed_translations_list.append(el)
+    else:
+        trimmed_translations_list.append(s.strip())
+
+    return trimmed_translations_list
 
 
 def format_brackets_for_translation_strings(input):
