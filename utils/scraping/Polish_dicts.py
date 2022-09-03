@@ -109,6 +109,10 @@ shorthand_tag_refs = {
         "tags": ["aa"],
         "topics": ["mental"],
     },
+    "eee": {
+        "tags": [],
+        "topics": ["knowledge and existence"],
+    },
     "v": {  # kick jump roll
         "tags": ["movement"],
         "topics": ["body"],
