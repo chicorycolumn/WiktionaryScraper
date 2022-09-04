@@ -295,14 +295,14 @@
         "tags": "3tt,bb",
         "translations": {
             "ENG": [
-                "to ripen",
+                "to ripen[i]",
                 "to mature[i]"
             ]
         },
         "temp_id": "3.27"
     },
     {
-        "lemma": "doglądać",
+        "lemma": "!doglądać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -316,72 +316,64 @@
     },
     {
         "lemma": "dojrzewać",
-        "tags": "xxxxxxxxx",
+        "tags": "3tt,bb",
         "translations": {
             "ENG": [
-                "to mature[i]",
-                "to ripen[i]"
+                "to ripen[i]",
+                "to mature[i]"
             ]
         },
         "temp_id": "3.29"
     },
     {
         "lemma": "dokonywać",
-        "tags": "xxxxxxxxx",
+        "tags": "4s,w",
         "translations": {
             "ENG": [
                 "to bring to an end",
                 "to accomplish",
-                "to pull off [+genitive] Synonyms: kończyć wykonywać",
+                "to pull off",
                 "to achieve",
-                "to accomplish [+genitive] Synonyms: osiągać spełniać",
-                "to ",
-                "to perpetrate [+genitive] Synonyms: popełniać dopuszczać się  to commit (e.g. a crime)"
-            ]
+                "to accomplish"  ]
         },
         "temp_id": "3.30"
     },
     {
         "lemma": "dokonać",
-        "tags": "xxxxxxxxx",
+        "tags": "4s,w",
         "translations": {
             "ENG": [
                 "to bring to an end",
                 "to accomplish",
-                "to pull off [+genitive] Synonyms: skończyć zrobić wykonać",
+                "to pull off",
                 "to achieve",
-                "to accomplish [+genitive] Synonyms: osiągnąć spełnić",
-                "to ",
-                "to perpetrate [+genitive] Synonyms: popełnić dopuścić się  to commit (e.g. a crime)"
-            ]
+                "to accomplish"  ]
         },
         "temp_id": "3.31"
     },
     {
         "lemma": "cisnąć",
-        "tags": "xxxxxxxxx",
+        "tags": "4v,yy",
         "translations": {
             "ENG": [
                 "to hurl",
-                "to fling",
-                "to sling Synonym: rzucić"
-            ]
+                "to fling"]
         },
         "temp_id": "3.32"
     },
     {
         "lemma": "ciskać",
-        "tags": "xxxxxxxxx",
+     "tags": "4v,yy",
         "translations": {
             "ENG": [
-                "to hurl Synonym: rzucać"
-            ]
+                "to hurl",
+                "to fling"]
         },
         "temp_id": "3.33"
     },
     {
         "lemma": "boleć",
-        "tags": "xxxxxxxxx",
+        "tags": "2UU",
         "translations": {
             "ENG": [
                 "to hurt[i]"
@@ -390,7 +382,7 @@
         "temp_id": "3.34"
     },
     {
-        "lemma": "boleć",
+        "lemma": "!boleć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -403,9 +395,10 @@
     },
     {
         "lemma": "dostrzec",
-        "tags": "xxxxxxxxx",
+        "tags": "4kk,Q",
         "translations": {
             "ENG": [
+                     "to perceive",
                 "to discern",
                 "to descry",
                 "to make out",
@@ -418,12 +411,13 @@
     },
     {
         "lemma": "dostrzegać",
-        "tags": "xxxxxxxxx",
+        "tags": "4kk,Q",
         "translations": {
             "ENG": [
-                "to perceive",
+                     "to perceive",
                 "to discern",
-                "to descry Synonym: zauważać",
+                "to descry",
+                "to make out",
                 "to spot",
                 "to spy",
                 "to sight"
@@ -433,76 +427,26 @@
     },
     {
         "lemma": "chwytać",
-        "tags": "xxxxxxxxx",
+        "tags": "4vv,ee,s",
         "translations": {
             "ENG": [
                 "to grab",
                 "to seize",
-                "to grasp (to take hold of quickly)",
-                "to catch",
-                "to trap (e.g. an animal)",
-                "to catch",
-                "to apprehend (a criminal)",
-                "to ]  to take up",
-                "to employ (to pick up with the intention of using) [+ za (accusative)",
-                "to take",
-                "to grab",
-                "to make the most of (e.g. a chance, an opportunity)",
-                "to sense",
-                "to notice",
-                "to perceive",
-                "to get",
                 "to grasp",
-                "to understand[t,colloquial]",
-                "to take",
-                "to catch on[i,colloquial] (to become accepted)",
-                "to grab oneself",
-                "to grasp oneself[r]",
-                "to catch oneself",
-                "to notice one's behaviour[r]",
-                "to hold on",
-                "to keep one's balance by holding [+genitive][r]",
-                "to get into",
-                "to throw oneself into",
-                "to become interested in [+genitive][r]"
+                "to catch"
             ]
         },
         "temp_id": "3.38"
     },
     {
         "lemma": "chwycić",
-        "tags": "xxxxxxxxx",
+        "tags": "4vv,ee,s",
         "translations": {
             "ENG": [
                 "to grab",
                 "to seize",
-                "to grasp (to take hold of quickly)",
-                "to catch",
-                "to trap (e.g. an animal)",
-                "to catch",
-                "to apprehend (a criminal)",
-                "to ]  to take up",
-                "to employ (to pick up with the intention of using) [+ za (accusative)",
-                "to take",
-                "to grab",
-                "to make the most of (e.g. a chance, an opportunity)",
-                "to sense",
-                "to notice",
-                "to perceive",
-                "to get",
                 "to grasp",
-                "to understand[t,colloquial]",
-                "to take",
-                "to catch on[i,colloquial] (to become accepted)",
-                "to grab oneself",
-                "to grasp oneself[r]",
-                "to catch oneself",
-                "to notice one's behaviour[r]",
-                "to hold on",
-                "to keep one's balance by holding [+genitive][r]",
-                "to get into",
-                "to throw oneself into",
-                "to become interested in [+genitive][r]"
+                "to catch"
             ]
         },
         "temp_id": "3.39"
