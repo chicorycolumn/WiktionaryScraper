@@ -513,7 +513,7 @@ shorthand_tag_refs = {
     },
     "bio": {
         "tags": [],
-        "topics": ["biology"],
+        "topics": ["biology", "science"],
     },
     "bus": {
         "tags": [],
@@ -521,7 +521,7 @@ shorthand_tag_refs = {
     },
     "che": {
         "tags": [],
-        "topics": ["chemistry"],
+        "topics": ["chemistry", "science"],
     },
     "dan": {
         "tags": [],
@@ -565,7 +565,7 @@ shorthand_tag_refs = {
     },
     "phy": {
         "tags": [],
-        "topics": ["physics"],
+        "topics": ["physics", "science"],
     },
     "phi": {
         "tags": [],
@@ -574,6 +574,10 @@ shorthand_tag_refs = {
     "soc": {
         "tags": [],
         "topics": ["sociology"],
+    },
+    "sci": {
+        "tags": [],
+        "topics": ["science", "biology", "chemistry", "physics"],
     },
     "pol": {
         "tags": [],

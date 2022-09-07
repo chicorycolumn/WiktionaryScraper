@@ -579,7 +579,7 @@
     },
     {
         "lemma": "badać",
-        "tags": "3bio,phy,che,s,eee",
+        "tags": "3sci,s,eee",
         "translations": {
             "ENG": [
                 "to test", "to explore",
@@ -602,7 +602,7 @@
     },
     {
         "lemma": "zbadać",
-        "tags": "3bio,phy,che,s,eee",
+        "tags": "3sci,s,eee",
         "translations": {
             "ENG": [
                 "to test", "to explore",
@@ -613,80 +613,68 @@
     },
     {
         "lemma": "dogadać",
-        "tags": "xxxxxxxxx",
+        "tags": "4pp",
         "translations": {
             "ENG": [
-                "Synonyms: see Thesaurus: obrażać[t,colloquial]  to jibe someone (say something unkind)",
-                "to agree on something[t,colloquial]",
-                "to find a common language[r,colloquial]",
-                "to get along with[r,colloquial] (to coexist peacefully with)"
+                "to get along with[r]"
             ]
         },
         "temp_id": "3.54"
     },
     {
         "lemma": "dogadywać",
-        "tags": "xxxxxxxxx",
+        "tags": "4pp",
         "translations": {
             "ENG": [
-                "Synonyms: see Thesaurus: obrażać[t,colloquial]  to jibe someone (say something unkind)",
-                "to agree on something[t,colloquial]",
-                "to find a common language[r,colloquial]",
-                "to get along with[r,colloquial] (to coexist peacefully with)"
+                "to get along with[r]"
             ]
         },
         "temp_id": "3.55"
     },
     {
         "lemma": "czuć",
-        "tags": "xxxxxxxxx",
+        "tags": "3Q,ee",
         "translations": {
             "ENG": [
-                "to feel (sense using touch or neurons)",
+                "to feel",
                 "to smell",
-                "to feel[r] (experience an emotion or other mental state)"
+                "to feel[r]"
             ]
         },
         "temp_id": "3.56"
     },
     {
         "lemma": "poczuć",
-        "tags": "xxxxxxxxx",
+        "tags": "3Q,ee",
         "translations": {
             "ENG": [
-                "to feel[t,r] (to experience an emotion or feeling)"
+                "to feel",
+                "to smell",
+                "to feel[r]"
             ]
         },
         "temp_id": "3.57"
     },
     {
         "lemma": "atakować",
-        "tags": "xxxxxxxxx",
+        "tags": "5v,X,B",
         "translations": {
             "ENG": [
-                "to attack (an enemy)",
-                "to attack (verbally)",
-                "to attack[t,sports]",
-                "to attack (to make an attempt to conquer a physical obstacle)"
-            ]
+                "to attack" ]
         },
         "temp_id": "3.58"
     },
     {
         "lemma": "zaatakować",
-        "tags": "xxxxxxxxx",
+        "tags": "5v,X,B",
         "translations": {
             "ENG": [
-                "to attack (an enemy)",
-                "to attack (verbally)",
-                "to attack[t,sports]",
-                "to attack (to make an attempt to conquer a physical obstacle)"
-            ]
+                "to attack" ]
         },
         "temp_id": "3.59"
     },
     {
-        "lemma": "analizować",
+        "lemma": "!analizować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -696,7 +684,7 @@
         "temp_id": "3.60"
     },
     {
-        "lemma": "zanalizować",
+        "lemma": "!zanalizować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -706,7 +694,7 @@
         "temp_id": "3.61"
     },
     {
-        "lemma": "przeanalizować",
+        "lemma": "!przeanalizować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -717,52 +705,48 @@
     },
     {
         "lemma": "budować",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng",
         "translations": {
             "ENG": [
                 "to build",
-                "to construct",
-                "to be built[r,impersonal]",
-                "to build one's own house[r,colloquial]",
-                "to edify oneself[r]"
+                "to construct"
             ]
         },
         "temp_id": "3.63"
     },
     {
         "lemma": "zbudować",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng",
         "translations": {
             "ENG": [
-                "to build"
+                "to build",
+                "to construct"
             ]
         },
         "temp_id": "3.64"
     },
     {
         "lemma": "dostarczać",
-        "tags": "xxxxxxxxx",
+        "tags": "3TT,$",
         "translations": {
             "ENG": [
-                "Synonyms: doręczać dowozić[t,automotive,transport]  to deliver (to bring or transport something to its destination)",
-                "to bring (to become the source of something)"
+               "to deliver"
             ]
         },
         "temp_id": "3.65"
     },
     {
         "lemma": "dostarczyć",
-        "tags": "xxxxxxxxx",
+        "tags": "3TT,$",
         "translations": {
             "ENG": [
-                "Synonyms: doręczyć dowieźć[t,automotive,transport]  to deliver (to bring or transport something to its destination)",
-                "to bring (to become the source of something)"
+               "to deliver"
             ]
         },
         "temp_id": "3.66"
     },
     {
-        "lemma": "deklarować",
+        "lemma": "!deklarować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -776,7 +760,7 @@
         "temp_id": "3.67"
     },
     {
-        "lemma": "zadeklarować",
+        "lemma": "!zadeklarować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -791,43 +775,34 @@
     },
     {
         "lemma": "dorastać",
-        "tags": "xxxxxxxxx",
+        "tags": "3bb,tt",
         "translations": {
             "ENG": [
-                "to grow to a certain height or size[i]",
+                "to grow",
                 "to grow up",
-                "to come of age[i] (to reach an age of legal independence)",
-                "to measure up[i] (e.g. to someone",
-                "to be equal to someone in a certain regard)"
+                "to come of age[i]"
             ]
         },
         "temp_id": "3.69"
     },
     {
         "lemma": "dorosnąć",
-        "tags": "xxxxxxxxx",
+        "tags": "3bb,tt",
         "translations": {
             "ENG": [
-                "to grow to a certain height or size[i]",
+                "to grow",
                 "to grow up",
-                "to come of age[i] (to reach an age of legal independence)",
-                "to measure up[i] (e.g. to someone",
-                "to be equal to someone in a certain regard)"
+                "to come of age[i]"
             ]
         },
         "temp_id": "3.70"
     },
     {
         "lemma": "ćwiczyć",
-        "tags": "xxxxxxxxx",
+        "tags": "3bb,yy",
         "translations": {
             "ENG": [
-                "to exercise[i] (perfective wyćwiczyć)",
-                "to train",
-                "to drill Synonyms: szkolić trenować[i]",
-                "to flog",
-                "to lash",
-                "to whip Synonyms: chłostać smagać[t,obsolete]"
+                "to exercise[i]"
             ]
         },
         "temp_id": "3.71"
