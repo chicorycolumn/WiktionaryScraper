@@ -9,10 +9,10 @@ if __name__ == '__main__':
 
     # check_rescraped_against_existing("adjectives_old", "adjectives_new")
 
-    step = 1
+    step = 2
     group_number = 3
-    input_indexes = [0, 300]
-    wordtype = "a"
+    input_indexes = [159, 259]
+    wordtype = "v"
     these_headwords_only = []
     # these_headwords_only = ['lekki']
     skip_make_ids = False  # only set True when manually testing.
