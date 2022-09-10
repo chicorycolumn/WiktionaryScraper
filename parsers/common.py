@@ -190,7 +190,23 @@ def scrape_word_data(
                 if el not in head_words + existing_lemmas:
                     extra.append(el.lower())
 
+        def trim_extra_headwords(extra_list, wordtype):
+            print(f"There were {len(extra_list)} extra.")
+
+            if wordtype == "adjectives":
+                res = [el for el in extra_list if el[-1] in ["y", "i"]]
+                print(f"There now {len(res)} extra.")
+                return res
+
+            if wordtype == "verbs":
+                res = [el for el in extra_list if el[-1] in ["ć"]]
+                print(f"There now {len(res)} extra.")
+                return res
+
+            return extra_list
+
         extra = list(set(extra))
+        extra = trim_extra_headwords(extra, wordtype)
 
         if extra and not skip_extras:
             if wordtype in ["verbs", "adjectives"]:
@@ -205,6 +221,7 @@ def scrape_word_data(
                             extra_2.append(el.lower())
 
                 extra_2 = list(set(extra_2))
+                extra_2 = trim_extra_headwords(extra_2, wordtype)
 
                 if extra_2:
                     write_todo(f'There are {len(extra_2)} doubly extra {wordtype}-headwords, they have not been parsed: {extra_2}')

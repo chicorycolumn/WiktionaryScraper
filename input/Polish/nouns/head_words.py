@@ -296,7 +296,7 @@ input = ["brat", "fizyka",
          "chleb",
          "pierś",
          "prawo",
-         "okazja",  # This and all above were run in Groups 1,2,3 (though some rejected).
+         "okazja",
          "pociąg",
          "zdjęcie",
          "słowo",

@@ -263,7 +263,7 @@ input = ['młody', 'powolny',
          'realny',
          'tępy',
          'mądry',
-         'niedbały'  # This and all above were run in Groups 1,2,3 (though some rejected).
+         'niedbały'
          "absolutny",
          "absurdalny",
          "administracyjny",

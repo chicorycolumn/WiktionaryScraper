@@ -157,7 +157,7 @@ input = ['być', 'mieć',
          'wygrywać',
          'wygrać',
          'przegrywać',
-         'przegrać'  # This and all above were run in Groups 1,2 (though some rejected).
+         'przegrać',
          "akceptować",
          "analizować",
          "angażować",
