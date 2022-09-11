@@ -1,7 +1,7 @@
 [
     {
         "lemma": "cyfrowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4xx",
         "translations": {
             "ENG": [
                 "digital"
@@ -11,7 +11,7 @@
     },
     {
         "lemma": "analogowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4xx",
         "translations": {
             "ENG": [
                 "(technology)",
@@ -26,20 +26,18 @@
     },
     {
         "lemma": "absurdalny",
-        "tags": "xxxxxxxxx",
+        "tags": "4-,he",
         "translations": {
             "ENG": [
                 "absurd",
-                "(contrary to reason or propriety; obviously and flatly opposed to manifest truth; inconsistent with the plain dictates of common sense; logically contradictory; nonsensical; ridiculous; silly)",
-                "absurd",
-                "(having no rational or orderly relationship to people's lives; meaningless; lacking order or value)"
-            ]
+                "nonsensical",
+                "preposterous" ]
         },
         "temp_id": "4.3"
     },
     {
         "lemma": "niedorzeczny",
-        "tags": "xxxxxxxxx",
+    "tags": "4-,he",
         "translations": {
             "ENG": [
                 "absurd",
@@ -51,7 +49,7 @@
     },
     {
         "lemma": "bezsensowny",
-        "tags": "xxxxxxxxx",
+      "tags": "4-,he",
         "translations": {
             "ENG": [
                 "nonsensical",
@@ -62,7 +60,7 @@
         "temp_id": "4.5"
     },
     {
-        "lemma": "nonsensowny",
+        "lemma": "!nonsensowny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -72,7 +70,7 @@
         "temp_id": "4.6"
     },
     {
-        "lemma": "sensowny",
+        "lemma": "!sensowny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -83,7 +81,7 @@
         "temp_id": "4.7"
     },
     {
-        "lemma": "absurd",
+        "lemma": "!absurd",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -93,7 +91,7 @@
         "temp_id": "4.8"
     },
     {
-        "lemma": "badawczy",
+        "lemma": "!badawczy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -111,7 +109,7 @@
     },
     {
         "lemma": "naukowy",
-        "tags": "xxxxxxxxx",
+        "tags": "3sci",
         "translations": {
             "ENG": [
                 "scientific"
@@ -121,19 +119,18 @@
     },
     {
         "lemma": "dawny",
-        "tags": "xxxxxxxxx",
+        "tags": "5tt",
         "translations": {
             "ENG": [
                 "past",
                 "former",
-                "distant",
-                "(in time)"
+                "distant"
             ]
         },
         "temp_id": "4.11"
     },
     {
-        "lemma": "niedawny",
+        "lemma": "!niedawny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -147,7 +144,7 @@
     },
     {
         "lemma": "bezradny",
-        "tags": "xxxxxxxxx",
+        "tags": "5pp",
         "translations": {
             "ENG": [
                 "helpless",
@@ -158,29 +155,20 @@
     },
     {
         "lemma": "bezbronny",
-        "tags": "xxxxxxxxx",
+        "tags": "5pp",
         "translations": {
             "ENG": [
-                "defenseless",
-                "helpless",
-                "vulnerable"
+                "helpless"
             ]
         },
         "temp_id": "4.14"
     },
     {
         "lemma": "bezsilny",
-        "tags": "xxxxxxxxx",
+        "tags": "5pp",
         "translations": {
             "ENG": [
-                "helpless",
-                "(unable to defend oneself)",
-                "powerless",
-                "(lacking sufficient power or strength)",
-                "(dated)",
-                "weak",
-                "(lacking in physical strength)"
-            ]
+                "helpless" ]
         },
         "temp_id": "4.15"
     },
