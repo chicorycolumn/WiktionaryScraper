@@ -145,7 +145,7 @@ shorthand_tag_refs = {
     },
     "F": {  # sour sweet
         "tags": ["flavour"],
-        "topics": ["sense and perception", "cooking"],
+        "topics": ["sense and perception", "kitchen", "restaurant", "inside"],
     },
     "z": {  # big small wide
         "tags": ["dimension"],
@@ -542,10 +542,6 @@ shorthand_tag_refs = {
     "geo": {
         "tags": [],
         "topics": ["geography"],
-    },
-    "coo": {
-        "tags": [],
-        "topics": ["cooking"],
     },
     "ene": {
         "tags": [],

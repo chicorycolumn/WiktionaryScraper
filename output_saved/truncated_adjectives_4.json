@@ -510,25 +510,19 @@
     },
     {
         "lemma": "czynny",
-        "tags": "xxxxxxxxx",
+        "tags": "4$",
         "translations": {
             "ENG": [
                 "active",
                 "open",
-                "(of shops, bars, etc.)",
                 "working",
-                "in order",
-                "functional",
-                "(chemistry)",
-                "active",
-                "(grammar)",
-                "active"
+                "in order"
             ]
         },
         "temp_id": "4.42"
     },
     {
-        "lemma": "formalny",
+        "lemma": "!formalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -539,7 +533,7 @@
     },
     {
         "lemma": "urzędowy",
-        "tags": "xxxxxxxxx",
+        "tags": "5he,bus",
         "translations": {
             "ENG": [
                 "official",
@@ -550,40 +544,28 @@
     },
     {
         "lemma": "bezwzględny",
-        "tags": "xxxxxxxxx",
+        "tags": "5py",
         "translations": {
             "ENG": [
                 "harsh",
                 "merciless",
-                "ruthless",
-                "absolute",
-                "total",
-                "unconditional",
-                "(mathematics)",
-                "absolute",
-                "(as measured using an absolute value)"
-            ]
+                "ruthless"    ]
         },
         "temp_id": "4.45"
     },
     {
         "lemma": "pobłażliwy",
-        "tags": "xxxxxxxxx",
+        "tags": "5py",
         "translations": {
             "ENG": [
-                "forbearing",
-                "forgiving",
-                "grandfatherly",
-                "indulgent",
-                "lax",
-                "lenient",
-                "permissive"
+
+                "indulgent"
             ]
         },
         "temp_id": "4.46"
     },
     {
-        "lemma": "kara",
+        "lemma": "!kara",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -610,27 +592,28 @@
     },
     {
         "lemma": "surowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4ff",
         "translations": {
             "ENG": [
-                "raw",
-                "crude",
-                "coarse",
-                "raw",
-                "uncooked",
-                "austere",
-                "severe",
-                "stark",
-                "rigorous",
-                "rigid",
-                "strict"
+                "raw"
             ]
         },
         "temp_id": "4.48"
     },
     {
+        "lemma": "surowy",
+        "tags": "4s,py",
+        "translations": {
+            "ENG": [
+
+                "strict"
+            ]
+        },
+        "temp_id": "4.48a"
+    },
+    {
         "lemma": "absolutny",
-        "tags": "xxxxxxxxx",
+        "tags": "3he",
         "translations": {
             "ENG": [
                 "absolute",
@@ -648,15 +631,10 @@
     },
     {
         "lemma": "srogi",
-        "tags": "xxxxxxxxx",
+        "tags": "4s,py",
         "translations": {
             "ENG": [
-                "severe",
-                "stern",
-                "austere",
-                "strict",
-                "dour",
-                "harsh"
+                "stern"
             ]
         },
         "temp_id": "4.50"
