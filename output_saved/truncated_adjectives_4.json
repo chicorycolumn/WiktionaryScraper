@@ -1591,43 +1591,31 @@
     },
     {
         "lemma": "dziecinny",
-        "tags": "xxxxxxxxx",
+        "tags": "5py",
         "translations": {
             "ENG": [
                 "childish",
                 "infantile",
                 "juvenile",
-                "childlike",
-                "(behaving immaturely)",
-                "(relational)",
-                "child",
-                "children",
-                "(characteristic of children)",
-                "(relational)",
-                "child",
-                "(intended for children)"
-            ]
+                "childlike"   ]
         },
         "temp_id": "4.125"
     },
     {
         "lemma": "dziecięcy",
-        "tags": "xxxxxxxxx",
+        "tags": "5py",
         "translations": {
             "ENG": [
-                "(relational)",
-                "child",
                 "childish",
-                "(of or suitable for a child)",
-                "childish",
-                "immature"
-            ]
+                "infantile",
+                "juvenile",
+                "childlike"   ]
         },
         "temp_id": "4.126"
     },
     {
         "lemma": "naiwny",
-        "tags": "xxxxxxxxx",
+        "tags": "5py",
         "translations": {
             "ENG": [
                 "naive"
@@ -1636,7 +1624,7 @@
         "temp_id": "4.127"
     },
     {
-        "lemma": "infantylny",
+        "lemma": "!infantylny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1650,31 +1638,26 @@
     },
     {
         "lemma": "błękitny",
-        "tags": "xxxxxxxxx",
+        "tags": "1k",
         "translations": {
             "ENG": [
-                "sky blue"
+                "sky blue","sky-blue"
             ]
         },
         "temp_id": "4.129"
     },
     {
         "lemma": "głuchy",
-        "tags": "xxxxxxxxx",
+        "tags": "4Q",
         "translations": {
             "ENG": [
-                "deaf",
-                "(of a sound)",
-                "muffled",
-                "(of a wall)",
-                "without",
-                "openings"
+                "deaf"
             ]
         },
         "temp_id": "4.130"
     },
     {
-        "lemma": "ogłuchły",
+        "lemma": "!ogłuchły",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1685,7 +1668,7 @@
     },
     {
         "lemma": "barwny",
-        "tags": "xxxxxxxxx",
+        "tags": "3kk",
         "translations": {
             "ENG": [
                 "colourful",
@@ -1699,7 +1682,7 @@
         "temp_id": "4.132"
     },
     {
-        "lemma": "barwisty",
+        "lemma": "!barwisty",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1714,21 +1697,15 @@
     },
     {
         "lemma": "bieżący",
-        "tags": "xxxxxxxxx",
+        "tags": "5$,tt",
         "translations": {
             "ENG": [
-                "current",
-                "(existing or occurring at the moment)",
-                "then",
-                "contemporary",
-                "contemporaneous",
-                "(at the same time as other events)"
-            ]
+                "current"]
         },
         "temp_id": "4.134"
     },
     {
-        "lemma": "aktorski",
+        "lemma": "!aktorski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1745,7 +1722,7 @@
         "temp_id": "4.135"
     },
     {
-        "lemma": "teatralny",
+        "lemma": "!teatralny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1759,7 +1736,7 @@
         "temp_id": "4.136"
     },
     {
-        "lemma": "błyskawiczny",
+        "lemma": "!błyskawiczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1771,7 +1748,7 @@
         "temp_id": "4.137"
     },
     {
-        "lemma": "błyskawicowy",
+        "lemma": "!błyskawicowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1783,7 +1760,7 @@
         "temp_id": "4.138"
     },
     {
-        "lemma": "elegancki",
+        "lemma": "!elegancki",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1793,7 +1770,7 @@
         "temp_id": "4.139"
     },
     {
-        "lemma": "wytworny",
+        "lemma": "!wytworny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1805,7 +1782,7 @@
     },
     {
         "lemma": "drobny",
-        "tags": "xxxxxxxxx",
+        "tags": "3z",
         "translations": {
             "ENG": [
                 "small",
@@ -1819,7 +1796,7 @@
     },
     {
         "lemma": "gładki",
-        "tags": "xxxxxxxxx",
+        "tags": "3D",
         "translations": {
             "ENG": [
                 "smooth",
@@ -1832,7 +1809,7 @@
     },
     {
         "lemma": "szorstki",
-        "tags": "xxxxxxxxx",
+        "tags": "3D,py",
         "translations": {
             "ENG": [
                 "rough",
@@ -1848,33 +1825,26 @@
     },
     {
         "lemma": "gorszy",
-        "tags": "xxxxxxxxx",
+        "tags": "2-",
         "translations": {
             "ENG": [
-                "comparative degree",
-                "of",
-                "zły",
-                "worse"
+             ">zły",    "worse"
             ]
         },
         "temp_id": "4.144"
     },
     {
         "lemma": "lepszy",
-        "tags": "xxxxxxxxx",
+        "tags": "2+",
         "translations": {
             "ENG": [
-                "comparative degree",
-                "of",
-                "dobry",
-                "better",
-                "preferable"
+                  ">dobry",  "better"
             ]
         },
         "temp_id": "4.145"
     },
     {
-        "lemma": "autorski",
+        "lemma": "!autorski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1887,7 +1857,7 @@
         "temp_id": "4.146"
     },
     {
-        "lemma": "autorczy",
+        "lemma": "!autorczy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1900,7 +1870,7 @@
         "temp_id": "4.147"
     },
     {
-        "lemma": "fascynujący",
+        "lemma": "!fascynujący",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1916,7 +1886,7 @@
     },
     {
         "lemma": "urzekający",
-        "tags": "xxxxxxxxx",
+        "tags": "5+",
         "translations": {
             "ENG": [
                 "captivating",
@@ -1928,7 +1898,7 @@
         "temp_id": "4.149"
     },
     {
-        "lemma": "porywający",
+        "lemma": "!porywający",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1944,21 +1914,16 @@
     },
     {
         "lemma": "ujmujący",
-        "tags": "xxxxxxxxx",
+        "tags": "5+",
         "translations": {
             "ENG": [
-                "charming",
-                "endearing",
-                "engaging",
-                "fascinating",
-                "fetching",
-                "winsome"
+                "endearing"
             ]
         },
         "temp_id": "4.151"
     },
     {
-        "lemma": "godny",
+        "lemma": "!godny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1969,7 +1934,7 @@
         "temp_id": "4.152"
     },
     {
-        "lemma": "godzien",
+        "lemma": "!godzien",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1980,7 +1945,7 @@
         "temp_id": "4.153"
     },
     {
-        "lemma": "niegodny",
+        "lemma": "!niegodny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1993,7 +1958,7 @@
     },
     {
         "lemma": "burzliwy",
-        "tags": "xxxxxxxxx",
+        "tags": "4LL,pp",
         "translations": {
             "ENG": [
                 "stormy",
@@ -2010,7 +1975,7 @@
         "temp_id": "4.155"
     },
     {
-        "lemma": "wzburzony",
+        "lemma": "!wzburzony",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2022,7 +1987,7 @@
     },
     {
         "lemma": "chemiczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4che",
         "translations": {
             "ENG": [
                 "chemical"
@@ -2032,7 +1997,7 @@
     },
     {
         "lemma": "efektowny",
-        "tags": "xxxxxxxxx",
+        "tags": "5+",
         "translations": {
             "ENG": [
                 "showy",
@@ -2044,18 +2009,17 @@
     },
     {
         "lemma": "dorosły",
-        "tags": "xxxxxxxxx",
+        "tags": "3tt,pp",
         "translations": {
             "ENG": [
-                "adult",
-                "of age"
+                "adult"
             ]
         },
         "temp_id": "4.159"
     },
     {
         "lemma": "europejski",
-        "tags": "xxxxxxxxx",
+        "tags": "4lc",
         "translations": {
             "ENG": [
                 "European"
@@ -2065,18 +2029,16 @@
     },
     {
         "lemma": "granatowy",
-        "tags": "xxxxxxxxx",
+        "tags": "1k",
         "translations": {
             "ENG": [
-                "navy blue",
-                "(relational)",
-                "pomegranate"
+                "navy blue"
             ]
         },
         "temp_id": "4.161"
     },
     {
-        "lemma": "drżący",
+        "lemma": "!drżący",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2087,7 +2049,7 @@
         "temp_id": "4.162"
     },
     {
-        "lemma": "erotyczny",
+        "lemma": "!erotyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2099,7 +2061,7 @@
     },
     {
         "lemma": "duński",
-        "tags": "xxxxxxxxx",
+        "tags": "4lc",
         "translations": {
             "ENG": [
                 "Danish"
@@ -2109,7 +2071,7 @@
     },
     {
         "lemma": "angielski",
-        "tags": "xxxxxxxxx",
+        "tags": "4lc",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -2119,7 +2081,7 @@
         "temp_id": "4.165"
     },
     {
-        "lemma": "geograficzny",
+        "lemma": "!geograficzny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2131,7 +2093,7 @@
     },
     {
         "lemma": "genetyczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4bio",
         "translations": {
             "ENG": [
                 "genetic"
@@ -2140,7 +2102,7 @@
         "temp_id": "4.167"
     },
     {
-        "lemma": "dramatyczny",
+        "lemma": "!dramatyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2154,7 +2116,7 @@
     },
     {
         "lemma": "finansowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4$",
         "translations": {
             "ENG": [
                 "financial"
@@ -2164,13 +2126,9 @@
     },
     {
         "lemma": "giełdowy",
-        "tags": "xxxxxxxxx",
+        "tags": "5$,jj",
         "translations": {
             "ENG": [
-                "(relational)",
-                "exchange",
-                "marketplace",
-                "(relational)",
                 "stock exchange"
             ]
         },
@@ -2178,30 +2136,27 @@
     },
     {
         "lemma": "głębszy",
-        "tags": "xxxxxxxxx",
+        "tags": "3z",
         "translations": {
             "ENG": [
-                "comparative degree",
-                "of",
-                "głęboki"
+              ">głęboki",     "deeper"
             ]
         },
         "temp_id": "4.171"
     },
     {
         "lemma": "cudzy",
-        "tags": "xxxxxxxxx",
+        "tags": "3he,££",
         "translations": {
             "ENG": [
-                "someone",
-                "else",
+                "someone else",
                 "another"
             ]
         },
         "temp_id": "4.172"
     },
     {
-        "lemma": "centralny",
+        "lemma": "!centralny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2213,7 +2168,7 @@
         "temp_id": "4.173"
     },
     {
-        "lemma": "filmowy",
+        "lemma": "!filmowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2226,10 +2181,10 @@
     },
     {
         "lemma": "były",
-        "tags": "xxxxxxxxx",
+        "tags": "4pp,tt",
         "translations": {
             "ENG": [
-                "former",
+                "former","then","ex",
                 "(previous)"
             ]
         },
@@ -2237,21 +2192,17 @@
     },
     {
         "lemma": "całkowity",
-        "tags": "xxxxxxxxx",
+        "tags": "4he,WW",
         "translations": {
             "ENG": [
                 "total",
                 "entire",
-                "complete",
-                "(mathematics relational)",
-                "integral",
-                "(pertaining to or being an integer)"
-            ]
+                "complete" ]
         },
         "temp_id": "4.176"
     },
     {
-        "lemma": "dotychczasowy",
+        "lemma": "!dotychczasowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2264,7 +2215,7 @@
     },
     {
         "lemma": "brytyjski",
-        "tags": "xxxxxxxxx",
+        "tags": "4lc",
         "translations": {
             "ENG": [
                 "British"
@@ -2274,19 +2225,17 @@
     },
     {
         "lemma": "dalszy",
-        "tags": "xxxxxxxxx",
+        "tags": "3ss",
         "translations": {
             "ENG": [
-                "comparative degree",
-                "of",
-                "daleki"
+       ">daleki",         "further","farther"
             ]
         },
         "temp_id": "4.179"
     },
     {
         "lemma": "dany",
-        "tags": "xxxxxxxxx",
+        "tags": "5he",
         "translations": {
             "ENG": [
                 "given",
@@ -2296,7 +2245,7 @@
         "temp_id": "4.180"
     },
     {
-        "lemma": "chłopski",
+        "lemma": "!chłopski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2308,22 +2257,16 @@
     },
     {
         "lemma": "dowolny",
-        "tags": "xxxxxxxxx",
+        "tags": "3he",
         "translations": {
             "ENG": [
-                "any",
-                "arbitrary",
-                "(mathematics)",
-                "arbitrary",
-                "(figure skating)",
-                "free"
-            ]
+                "any"  ]
         },
         "temp_id": "4.182"
     },
     {
         "lemma": "grecki",
-        "tags": "xxxxxxxxx",
+        "tags": "4lc",
         "translations": {
             "ENG": [
                 "Greek"
@@ -2332,7 +2275,7 @@
         "temp_id": "4.183"
     },
     {
-        "lemma": "dokonany",
+        "lemma": "!dokonany",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2351,7 +2294,7 @@
     },
     {
         "lemma": "fizyczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4phy",
         "translations": {
             "ENG": [
                 "physical",
@@ -2364,7 +2307,7 @@
     },
     {
         "lemma": "egipski",
-        "tags": "xxxxxxxxx",
+        "tags": "4lc",
         "translations": {
             "ENG": [
                 "Egyptian",
@@ -2374,7 +2317,7 @@
         "temp_id": "4.186"
     },
     {
-        "lemma": "elastyczny",
+        "lemma": "!elastyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2390,10 +2333,9 @@
     },
     {
         "lemma": "czujny",
-        "tags": "xxxxxxxxx",
+        "tags": "5ee,dr",
         "translations": {
             "ENG": [
-                "wary",
                 "vigilant",
                 "alert",
                 "(attentive)"
@@ -2402,7 +2344,7 @@
         "temp_id": "4.188"
     },
     {
-        "lemma": "graficzny",
+        "lemma": "!graficzny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2415,24 +2357,21 @@
     },
     {
         "lemma": "głośniejszy",
-        "tags": "xxxxxxxxx",
+        "tags": "3!",
         "translations": {
             "ENG": [
-                "comparative degree",
-                "of",
-                "głośny"
+                "louder",
+                ">głośny"
             ]
         },
         "temp_id": "4.190"
     },
     {
         "lemma": "bliższy",
-        "tags": "xxxxxxxxx",
+        "tags": "3ss",
         "translations": {
             "ENG": [
-                "comparative degree",
-                "of",
-                "bliski"
+               ">bliski",       "nearer"
             ]
         },
         "temp_id": "4.191"
@@ -2555,9 +2494,7 @@
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "comparative degree",
-                "of",
-                "drogi"
+       ">drogi",                "more expensive"
             ]
         },
         "temp_id": "4.201"
@@ -2667,9 +2604,7 @@
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "comparative degree",
-                "of",
-                "bogaty"
+                ">bogaty","richer"
             ]
         },
         "temp_id": "4.211"
@@ -2870,9 +2805,7 @@
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "comparative degree",
-                "of",
-                "ciekawy"
+                ">ciekawy","more interesting"
             ]
         },
         "temp_id": "4.227"
@@ -3076,9 +3009,7 @@
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "comparative degree",
-                "of",
-                "ciężki"
+                ">ciężki","heavier"
             ]
         },
         "temp_id": "4.245"
@@ -3327,9 +3258,7 @@
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "comparative degree",
-                "of",
-                "długi"
+                ">długi","longer"
             ]
         },
         "temp_id": "4.267"
