@@ -1577,7 +1577,7 @@
     },
     {
         "lemma": "biologiczny",
-        "tags": "4bio",
+        "tags": "4bio,S",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -1987,7 +1987,7 @@
     },
     {
         "lemma": "chemiczny",
-        "tags": "4che",
+        "tags": "4che,S",
         "translations": {
             "ENG": [
                 "chemical"
@@ -2294,7 +2294,7 @@
     },
     {
         "lemma": "fizyczny",
-        "tags": "4phy",
+        "tags": "4phy,S",
         "translations": {
             "ENG": [
                 "physical",
@@ -2377,7 +2377,7 @@
         "temp_id": "4.191"
     },
     {
-        "lemma": "bankowy",
+        "lemma": "!bankowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2388,7 +2388,7 @@
         "temp_id": "4.192"
     },
     {
-        "lemma": "bojowy",
+        "lemma": "!bojowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2404,7 +2404,7 @@
         "temp_id": "4.193"
     },
     {
-        "lemma": "estetyczny",
+        "lemma": "!estetyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2419,7 +2419,7 @@
         "temp_id": "4.194"
     },
     {
-        "lemma": "dotknięty",
+        "lemma": "!dotknięty",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2430,19 +2430,17 @@
     },
     {
         "lemma": "dodatkowy",
-        "tags": "xxxxxxxxx",
+        "tags": "5mat",
         "translations": {
             "ENG": [
                 "additional",
-                "supplementary",
-                "(law)",
-                "appendant"
+                "supplementary"
             ]
         },
         "temp_id": "4.196"
     },
     {
-        "lemma": "cywilny",
+        "lemma": "!cywilny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2453,7 +2451,7 @@
         "temp_id": "4.197"
     },
     {
-        "lemma": "gorzowski",
+        "lemma": "!gorzowski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2469,7 +2467,7 @@
     },
     {
         "lemma": "amerykański",
-        "tags": "xxxxxxxxx",
+        "tags": "4lc",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -2480,7 +2478,7 @@
     },
     {
         "lemma": "czeski",
-        "tags": "xxxxxxxxx",
+        "tags": "4lc",
         "translations": {
             "ENG": [
                 "Czech",
@@ -2491,7 +2489,7 @@
     },
     {
         "lemma": "droższy",
-        "tags": "xxxxxxxxx",
+        "tags": "2$",
         "translations": {
             "ENG": [
        ">drogi",                "more expensive"
@@ -2501,7 +2499,7 @@
     },
     {
         "lemma": "duchowy",
-        "tags": "xxxxxxxxx",
+        "tags": "5RR",
         "translations": {
             "ENG": [
                 "spiritual"
@@ -2510,7 +2508,7 @@
         "temp_id": "4.202"
     },
     {
-        "lemma": "autobusowy",
+        "lemma": "!autobusowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2521,7 +2519,7 @@
         "temp_id": "4.203"
     },
     {
-        "lemma": "edukacyjny",
+        "lemma": "!edukacyjny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2532,7 +2530,7 @@
         "temp_id": "4.204"
     },
     {
-        "lemma": "dzisiejszy",
+        "lemma": "!dzisiejszy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2544,7 +2542,7 @@
     },
     {
         "lemma": "filozoficzny",
-        "tags": "xxxxxxxxx",
+        "tags": "5phi,S",
         "translations": {
             "ENG": [
                 "philosophical"
@@ -2554,7 +2552,7 @@
     },
     {
         "lemma": "chwilowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4tt",
         "translations": {
             "ENG": [
                 "momentary",
@@ -2564,7 +2562,7 @@
         "temp_id": "4.207"
     },
     {
-        "lemma": "gościnny",
+        "lemma": "!gościnny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2579,7 +2577,7 @@
     },
     {
         "lemma": "dziwaczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4kk,fq",
         "translations": {
             "ENG": [
                 "weird",
@@ -2590,7 +2588,7 @@
     },
     {
         "lemma": "codzienny",
-        "tags": "xxxxxxxxx",
+        "tags": "4dr,tt",
         "translations": {
             "ENG": [
                 "daily",
@@ -2601,7 +2599,7 @@
     },
     {
         "lemma": "bogatszy",
-        "tags": "xxxxxxxxx",
+        "tags": "2$",
         "translations": {
             "ENG": [
                 ">bogaty","richer"
@@ -2611,18 +2609,16 @@
     },
     {
         "lemma": "drugi",
-        "tags": "xxxxxxxxx",
+        "tags": "3fq,mat",
         "translations": {
             "ENG": [
-                "the",
-                "other",
-                "(of two)"
+                "second"
             ]
         },
         "temp_id": "4.212"
     },
     {
-        "lemma": "dźwiękowy",
+        "lemma": "!dźwiękowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2634,7 +2630,7 @@
     },
     {
         "lemma": "demokratyczny",
-        "tags": "xxxxxxxxx",
+        "tags": "5pol",
         "translations": {
             "ENG": [
                 "democratic"
@@ -2644,12 +2640,9 @@
     },
     {
         "lemma": "deszczowy",
-        "tags": "xxxxxxxxx",
+        "tags": "3LL",
         "translations": {
             "ENG": [
-                "(relational)",
-                "rain",
-                "(pertaining to rain)",
                 "rainy",
                 "(abounding with rain)"
             ]
@@ -2657,37 +2650,30 @@
         "temp_id": "4.215"
     },
     {
-        "lemma": "graniczny",
+        "lemma": "!graniczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
                 "(relational)",
                 "border",
                 "frontiers",
-                "terminal",
-                "extreme",
-                "final",
-                "(denoting the end of something)",
-                "(mathematics)",
-                "limit"
+                "terminal"
             ]
         },
         "temp_id": "4.216"
     },
     {
         "lemma": "chętny",
-        "tags": "xxxxxxxxx",
+        "tags": "3pl,ee",
         "translations": {
             "ENG": [
-                "willing",
-                "(dated)",
-                "kind"
+                "willing"
             ]
         },
         "temp_id": "4.217"
     },
     {
-        "lemma": "etniczny",
+        "lemma": "!etniczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2699,7 +2685,7 @@
         "temp_id": "4.218"
     },
     {
-        "lemma": "bydgoski",
+        "lemma": "!bydgoski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2712,7 +2698,7 @@
         "temp_id": "4.219"
     },
     {
-        "lemma": "alarmowy",
+        "lemma": "!alarmowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2727,7 +2713,7 @@
         "temp_id": "4.220"
     },
     {
-        "lemma": "dziennikarski",
+        "lemma": "!dziennikarski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2738,7 +2724,7 @@
     },
     {
         "lemma": "cenny",
-        "tags": "xxxxxxxxx",
+        "tags": "4$,ee",
         "translations": {
             "ENG": [
                 "precious",
@@ -2749,10 +2735,10 @@
     },
     {
         "lemma": "brutalny",
-        "tags": "xxxxxxxxx",
+        "tags": "4X",
         "translations": {
             "ENG": [
-                "brutal",
+                "brutal","violent",
                 "(savagely violent)"
             ]
         },
@@ -2760,28 +2746,17 @@
     },
     {
         "lemma": "dziki",
-        "tags": "xxxxxxxxx",
+        "tags": "4a,bio",
         "translations": {
             "ENG": [
                 "wild",
-                "untamed",
-                "(colloquial)",
-                "wild",
-                "inhibition",
-                "or",
-                "moderation",
-                "(e.g. a party)",
-                "(colloquial)",
-                "asocial",
-                "shut-in",
-                "introverted"
-            ]
+                "untamed"  ]
         },
         "temp_id": "4.224"
     },
     {
         "lemma": "austriacki",
-        "tags": "xxxxxxxxx",
+        "tags": "4lc",
         "translations": {
             "ENG": [
                 "Austrian",
@@ -2792,7 +2767,7 @@
     },
     {
         "lemma": "białoruski",
-        "tags": "xxxxxxxxx",
+        "tags": "4lc",
         "translations": {
             "ENG": [
                 "Belarusian"
@@ -2802,7 +2777,7 @@
     },
     {
         "lemma": "ciekawszy",
-        "tags": "xxxxxxxxx",
+        "tags": "4ee,q,s",
         "translations": {
             "ENG": [
                 ">ciekawy","more interesting"
@@ -2812,7 +2787,7 @@
     },
     {
         "lemma": "emocjonalny",
-        "tags": "xxxxxxxxx",
+        "tags": "5ee",
         "translations": {
             "ENG": [
                 "emotional"
@@ -2822,21 +2797,18 @@
     },
     {
         "lemma": "gazowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4d,che",
         "translations": {
             "ENG": [
-                "(relational)",
                 "gas",
-                "gaseous",
-                "(relational)",
-                "gauze"
+                "gaseous"
             ]
         },
         "temp_id": "4.229"
     },
     {
         "lemma": "dojrzały",
-        "tags": "xxxxxxxxx",
+        "tags": "4ff,tt,py",
         "translations": {
             "ENG": [
                 "mature",
@@ -2846,7 +2818,7 @@
         "temp_id": "4.230"
     },
     {
-        "lemma": "górniczy",
+        "lemma": "!górniczy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2859,7 +2831,7 @@
         "temp_id": "4.231"
     },
     {
-        "lemma": "białostocki",
+        "lemma": "!białostocki",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2872,7 +2844,7 @@
         "temp_id": "4.232"
     },
     {
-        "lemma": "federalny",
+        "lemma": "!federalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2884,7 +2856,7 @@
         "temp_id": "4.233"
     },
     {
-        "lemma": "globalny",
+        "lemma": "!globalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2896,7 +2868,7 @@
     },
     {
         "lemma": "dumny",
-        "tags": "xxxxxxxxx",
+        "tags": "3e",
         "translations": {
             "ENG": [
                 "proud",
@@ -2908,7 +2880,7 @@
         "temp_id": "4.235"
     },
     {
-        "lemma": "gminny",
+        "lemma": "!gminny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2920,7 +2892,7 @@
     },
     {
         "lemma": "delikatny",
-        "tags": "xxxxxxxxx",
+        "tags": "4D,py",
         "translations": {
             "ENG": [
                 "gentle",
@@ -2931,7 +2903,7 @@
     },
     {
         "lemma": "chiński",
-        "tags": "xxxxxxxxx",
+        "tags": "4lc",
         "translations": {
             "ENG": [
                 "Chinese"
@@ -2940,7 +2912,7 @@
         "temp_id": "4.238"
     },
     {
-        "lemma": "egzotyczny",
+        "lemma": "!egzotyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2951,7 +2923,7 @@
     },
     {
         "lemma": "biblijny",
-        "tags": "xxxxxxxxx",
+        "tags": "5RR",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -2962,7 +2934,7 @@
     },
     {
         "lemma": "fioletowy",
-        "tags": "xxxxxxxxx",
+        "tags": "1k",
         "translations": {
             "ENG": [
                 "violet",
@@ -2972,7 +2944,7 @@
         "temp_id": "4.241"
     },
     {
-        "lemma": "budowlany",
+        "lemma": "!budowlany",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2985,7 +2957,7 @@
     },
     {
         "lemma": "charytatywny",
-        "tags": "xxxxxxxxx",
+        "tags": "4pol",
         "translations": {
             "ENG": [
                 "charitable"
@@ -2995,7 +2967,7 @@
     },
     {
         "lemma": "finałowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4fq",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -3006,7 +2978,7 @@
     },
     {
         "lemma": "cięższy",
-        "tags": "xxxxxxxxx",
+        "tags": "3z",
         "translations": {
             "ENG": [
                 ">ciężki","heavier"
@@ -3015,7 +2987,7 @@
         "temp_id": "4.245"
     },
     {
-        "lemma": "alternatywny",
+        "lemma": "!alternatywny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3027,7 +2999,7 @@
         "temp_id": "4.246"
     },
     {
-        "lemma": "ekologiczny",
+        "lemma": "!ekologiczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3037,7 +3009,7 @@
         "temp_id": "4.247"
     },
     {
-        "lemma": "fantastyczny",
+        "lemma": "!fantastyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3047,7 +3019,7 @@
         "temp_id": "4.248"
     },
     {
-        "lemma": "fotograficzny",
+        "lemma": "!fotograficzny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3058,7 +3030,7 @@
     },
     {
         "lemma": "afrykański",
-        "tags": "xxxxxxxxx",
+        "tags": "4lc",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -3069,7 +3041,7 @@
     },
     {
         "lemma": "częściowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4WW",
         "translations": {
             "ENG": [
                 "partial",
@@ -3081,7 +3053,7 @@
         "temp_id": "4.251"
     },
     {
-        "lemma": "artystyczny",
+        "lemma": "!artystyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3093,7 +3065,7 @@
         "temp_id": "4.252"
     },
     {
-        "lemma": "częstochowski",
+        "lemma": "!częstochowski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3105,7 +3077,7 @@
     },
     {
         "lemma": "generalny",
-        "tags": "xxxxxxxxx",
+        "tags": "3fq,he",
         "translations": {
             "ENG": [
                 "general",
@@ -3116,7 +3088,7 @@
         "temp_id": "4.254"
     },
     {
-        "lemma": "boży",
+        "lemma": "!boży",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3128,7 +3100,7 @@
         "temp_id": "4.255"
     },
     {
-        "lemma": "atomowy",
+        "lemma": "!atomowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3139,7 +3111,7 @@
         "temp_id": "4.256"
     },
     {
-        "lemma": "administracyjny",
+        "lemma": "!administracyjny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3150,7 +3122,7 @@
         "temp_id": "4.257"
     },
     {
-        "lemma": "duchowny",
+        "lemma": "!duchowny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3161,20 +3133,19 @@
         "temp_id": "4.258"
     },
     {
-        "lemma": "cesarski",
-        "tags": "xxxxxxxxx",
+        "lemma": "!cesarski",
+        "tags": "5pol",
         "translations": {
             "ENG": [
                 "(relational)",
                 "imperial",
-                "emperor",
                 "(pertaining to an emperor)"
             ]
         },
         "temp_id": "4.259"
     },
     {
-        "lemma": "gdański",
+        "lemma": "!gdański",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3188,7 +3159,7 @@
     },
     {
         "lemma": "arabski",
-        "tags": "xxxxxxxxx",
+        "tags": "4lc",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -3198,7 +3169,7 @@
         "temp_id": "4.261"
     },
     {
-        "lemma": "dyplomatyczny",
+        "lemma": "!dyplomatyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3208,7 +3179,7 @@
         "temp_id": "4.262"
     },
     {
-        "lemma": "budżetowy",
+        "lemma": "!budżetowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3221,7 +3192,7 @@
     },
     {
         "lemma": "fikcyjny",
-        "tags": "xxxxxxxxx",
+        "tags": "4s,wri",
         "translations": {
             "ENG": [
                 "fictional",
@@ -3232,7 +3203,7 @@
         "temp_id": "4.264"
     },
     {
-        "lemma": "drogowy",
+        "lemma": "!drogowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3244,7 +3215,7 @@
     },
     {
         "lemma": "elektroniczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng",
         "translations": {
             "ENG": [
                 "electronic",
@@ -3255,7 +3226,7 @@
     },
     {
         "lemma": "dłuższy",
-        "tags": "xxxxxxxxx",
+        "tags": "2z",
         "translations": {
             "ENG": [
                 ">długi","longer"
@@ -3264,7 +3235,7 @@
         "temp_id": "4.267"
     },
     {
-        "lemma": "dwuletni",
+        "lemma": "!dwuletni",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3280,7 +3251,7 @@
         "temp_id": "4.268"
     },
     {
-        "lemma": "górski",
+        "lemma": "!górski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3292,7 +3263,7 @@
         "temp_id": "4.269"
     },
     {
-        "lemma": "czołowy",
+        "lemma": "!czołowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -3305,13 +3276,13 @@
     },
     {
         "lemma": "domowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4hh",
         "translations": {
             "ENG": [
                 "domestic",
                 "home",
                 "(relational)",
-                "house"
+                "house","household"
             ]
         },
         "temp_id": "4.271"
