@@ -463,6 +463,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["violence"],
     },
+    "XX": {
+        "tags": ["weapon"],
+        "topics": ["violence"],
+    },
     "V": {
         "tags": [],
         "topics": ["entertainment"],
@@ -598,6 +602,10 @@ shorthand_tag_refs = {
     "wri": {
         "tags": [],
         "topics": ["writing"],
+    },
+    "cel": {
+        "tags": [],
+        "topics": ["celebration"],
     },
     "pl": {
         "tags": [],

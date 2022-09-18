@@ -1,7 +1,7 @@
 [
     {
         "lemma": "nazwa",
-        "tags": "xxxxxxxxx",
+        "tags": "2££",
         "translations": {
             "ENG": [
                 "name",
@@ -13,15 +13,12 @@
     },
     {
         "lemma": "gówno",
-        "tags": "xxxxxxxxx",
+        "tags": "4K,-",
         "translations": {
             "ENG": [
-                "shit excrement",
+                "shit","excrement",
                 "(vulgar)",
-                "piece of shit, something of low quality or frustratingly inadequate",
-                "(vulgar)",
-                "nothing fuck all",
-                "(vulgar)"
+                "piece of shit"
             ]
         },
         "temp_id": "4.2",
@@ -29,7 +26,7 @@
     },
     {
         "lemma": "seler",
-        "tags": "xxxxxxxxx",
+        "tags": "4vg",
         "translations": {
             "ENG": [
                 "celery",
@@ -41,7 +38,7 @@
     },
     {
         "lemma": "łóżko",
-        "tags": "xxxxxxxxx",
+        "tags": "2hb",
         "translations": {
             "ENG": [
                 "bed",
@@ -54,7 +51,7 @@
     },
     {
         "lemma": "dźwięk",
-        "tags": "xxxxxxxxx",
+        "tags": "3!",
         "translations": {
             "ENG": [
                 "sound",
@@ -66,7 +63,7 @@
     },
     {
         "lemma": "ręka",
-        "tags": "xxxxxxxxx",
+        "tags": "2b",
         "translations": {
             "ENG": [
                 "hand",
@@ -80,12 +77,10 @@
     },
     {
         "lemma": "wielbłąd",
-        "tags": "xxxxxxxxx",
+        "tags": "4a",
         "translations": {
             "ENG": [
-                "camel",
-                "mistake",
-                "(humorous) a (big)"
+                "camel"
             ]
         },
         "temp_id": "4.7",
@@ -93,7 +88,7 @@
     },
     {
         "lemma": "jabłko",
-        "tags": "xxxxxxxxx",
+        "tags": "2fr",
         "translations": {
             "ENG": [
                 "apple"
@@ -104,10 +99,10 @@
     },
     {
         "lemma": "koniec",
-        "tags": "xxxxxxxxx",
+        "tags": "3tt,fq,WW",
         "translations": {
             "ENG": [
-                "finish end"
+                "finish","end"
             ]
         },
         "temp_id": "4.9",
@@ -115,7 +110,7 @@
     },
     {
         "lemma": "pchła",
-        "tags": "xxxxxxxxx",
+        "tags": "4ai",
         "translations": {
             "ENG": [
                 "flea"
@@ -126,7 +121,7 @@
     },
     {
         "lemma": "grosz",
-        "tags": "xxxxxxxxx",
+        "tags": "3$",
         "translations": {
             "ENG": [
                 "grosz"
@@ -137,44 +132,49 @@
     },
     {
         "lemma": "niebo",
-        "tags": "xxxxxxxxx",
+        "tags": "3LL",
         "translations": {
             "ENG": [
-                "sky",
-                "(atmosphere above a point)",
-                "heaven"
+                "sky"
             ]
         },
         "temp_id": "4.12",
         "gender": "n"
     },
     {
-        "lemma": "pociąg",
-        "tags": "xxxxxxxxx",
+        "lemma": "niebo",
+        "tags": "3RR",
         "translations": {
             "ENG": [
-                "train",
-                "(vehicle)",
-                "inclination predilection penchant"
+               "heaven"
             ]
+        },
+        "temp_id": "4.12a",
+        "gender": "n"
+    },
+    {
+        "lemma": "pociąg",
+        "tags": "2T",
+        "translations": {
+            "ENG": [
+                "train"  ]
         },
         "temp_id": "4.13",
         "gender": "m3"
     },
     {
         "lemma": "obiad",
-        "tags": "xxxxxxxxx",
+        "tags": "3tt,ff,dr",
         "translations": {
             "ENG": [
-                "lunch, usually eaten around 1 or 2pm, and sometimes stretching as late as 4 or 5pm"
-            ]
+                "lunch"]
         },
         "temp_id": "4.14",
         "gender": "m3"
     },
     {
         "lemma": "śledź",
-        "tags": "xxxxxxxxx",
+        "tags": "4a,f",
         "translations": {
             "ENG": [
                 "herring",
@@ -185,7 +185,7 @@
         "gender": "m2"
     },
     {
-        "lemma": "śledź",
+        "lemma": "!śledź",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -197,12 +197,10 @@
     },
     {
         "lemma": "metr",
-        "tags": "xxxxxxxxx",
+        "tags": "3@",
         "translations": {
             "ENG": [
-                "metre meter",
-                "(100 cm)",
-                "measuring tape"
+                "metre","meter"
             ]
         },
         "temp_id": "4.17",
@@ -210,10 +208,10 @@
     },
     {
         "lemma": "kolega",
-        "tags": "xxxxxxxxx",
+        "tags": "3r",
         "translations": {
             "ENG": [
-                "friend buddy",
+                "friend","buddy",
                 "colleague"
             ]
         },
@@ -222,12 +220,10 @@
     },
     {
         "lemma": "sałata",
-        "tags": "xxxxxxxxx",
+        "tags": "3vg",
         "translations": {
             "ENG": [
-                "lettuce",
-                "money",
-                "(colloquial)"
+                "lettuce"
             ]
         },
         "temp_id": "4.19",
@@ -235,92 +231,57 @@
     },
     {
         "lemma": "dynia",
-        "tags": "xxxxxxxxx",
+        "tags": "4vg",
         "translations": {
             "ENG": [
-                "pumpkin",
-                "(plant of genus Cucurbita)",
-                "pumpkin",
-                "(fruit of that plant)",
-                "head noggin",
-                "(school slang prison slang)",
-                "fatso butterball",
-                "(overweight person) (school slang)",
-                "A bad grade F",
-                "(school slang)",
-                "fist",
-                "(clenched hand) (prison slang)"
-            ]
+                "pumpkin"]
         },
         "temp_id": "4.20",
         "gender": "f"
     },
     {
         "lemma": "babcia",
-        "tags": "xxxxxxxxx",
+        "tags": "2r",
         "translations": {
             "ENG": [
-                "grandmother",
-                "old dear",
-                "(an old woman) (colloquial)"
-            ]
+                "grandmother"]
         },
         "temp_id": "4.21",
         "gender": "f"
     },
     {
         "lemma": "balon",
-        "tags": "xxxxxxxxx",
+        "tags": "4q,cel",
         "translations": {
             "ENG": [
-                "balloon",
-                "(inflatable and buoyant object)",
-                "balloon",
-                "(child's toy)",
-                "hot-air balloon",
-                "(inflatable object to transport people through the air)",
-                "balloon",
-                "(a type of glass cup)",
-                "balloon",
-                "(breast) (usually in the plural humorous slang colloquial)"
-            ]
+                "balloon" ]
         },
         "temp_id": "4.22",
         "gender": "m3"
     },
     {
         "lemma": "słowo",
-        "tags": "xxxxxxxxx",
+        "tags": "2££",
         "translations": {
             "ENG": [
-                "word",
-                "verb",
-                "(grammar obsolete)"
-            ]
+                "word"  ]
         },
         "temp_id": "4.23",
         "gender": "n"
     },
     {
         "lemma": "ćma",
-        "tags": "xxxxxxxxx",
+        "tags": "3ai",
         "translations": {
             "ENG": [
-                "moth",
-                "darkness",
-                "(archaic or dialectal Cieszyn Silesia)",
-                "swarm crowd",
-                "(literary)",
-                "prostitute",
-                "(prison slang)"
-            ]
+                "moth" ]
         },
         "temp_id": "4.24",
         "gender": "f"
     },
     {
         "lemma": "powietrze",
-        "tags": "xxxxxxxxx",
+        "tags": "3che,n,LL",
         "translations": {
             "ENG": [
                 "air",
@@ -331,7 +292,7 @@
         "gender": "n"
     },
     {
-        "lemma": "przyjemność",
+        "lemma": "!przyjemność",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -342,7 +303,7 @@
         "gender": "f"
     },
     {
-        "lemma": "papryka",
+        "lemma": "!papryka",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -356,7 +317,7 @@
     },
     {
         "lemma": "król",
-        "tags": "xxxxxxxxx",
+        "tags": "3j",
         "translations": {
             "ENG": [
                 "king",
@@ -367,7 +328,7 @@
         "gender": "m1"
     },
     {
-        "lemma": "król",
+        "lemma": "!król",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -382,7 +343,7 @@
     },
     {
         "lemma": "królowa",
-        "tags": "xxxxxxxxx",
+        "tags": "3j",
         "translations": {
             "ENG": [
                 "queen",
@@ -396,13 +357,10 @@
     },
     {
         "lemma": "kurczak",
-        "tags": "xxxxxxxxx",
+        "tags": "3a,f",
         "translations": {
             "ENG": [
-                "juvenile chicken",
-                "(domestic fowl)",
-                "chicken",
-                "(meat)"
+                "chicken"
             ]
         },
         "temp_id": "4.31",
@@ -410,10 +368,10 @@
     },
     {
         "lemma": "topór",
-        "tags": "xxxxxxxxx",
+        "tags": "4XX",
         "translations": {
             "ENG": [
-                "axe",
+                "axe","ax",
                 "(weapon)"
             ]
         },
