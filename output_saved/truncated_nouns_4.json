@@ -143,7 +143,7 @@
     },
     {
         "lemma": "niebo",
-        "tags": "3RR",
+        "tags": "3RR,ls",
         "translations": {
             "ENG": [
                "heaven"
@@ -380,11 +380,10 @@
     },
     {
         "lemma": "samolot",
-        "tags": "xxxxxxxxx",
+        "tags": "2T",
         "translations": {
             "ENG": [
-                "aeroplane",
-                "(US: airplane plane)"
+                "aeroplane","airplane","plane"
             ]
         },
         "temp_id": "4.33",
@@ -392,7 +391,7 @@
     },
     {
         "lemma": "piwo",
-        "tags": "xxxxxxxxx",
+        "tags": "2da",
         "translations": {
             "ENG": [
                 "beer"
@@ -403,7 +402,7 @@
     },
     {
         "lemma": "głowa",
-        "tags": "xxxxxxxxx",
+        "tags": "2b",
         "translations": {
             "ENG": [
                 "head",
@@ -421,7 +420,7 @@
     },
     {
         "lemma": "cytryna",
-        "tags": "xxxxxxxxx",
+        "tags": "3fr",
         "translations": {
             "ENG": [
                 "lemon",
@@ -433,7 +432,7 @@
     },
     {
         "lemma": "rada",
-        "tags": "xxxxxxxxx",
+        "tags": "4w",
         "translations": {
             "ENG": [
                 "council",
@@ -444,12 +443,22 @@
         "gender": "f"
     },
     {
-        "lemma": "miska",
-        "tags": "xxxxxxxxx",
+        "lemma": "rada",
+        "tags": "4sr",
         "translations": {
             "ENG": [
-                "Diminutive of misa",
-                "basin bowl"
+                "advice"
+            ]
+        },
+        "temp_id": "4.37a",
+        "gender": "f"
+    },
+    {
+        "lemma": "miska",
+        "tags": "2ff",
+        "translations": {
+            "ENG": [
+                "bowl"
             ]
         },
         "temp_id": "4.38",
@@ -457,7 +466,7 @@
     },
     {
         "lemma": "ziemniak",
-        "tags": "xxxxxxxxx",
+        "tags": "2vg",
         "translations": {
             "ENG": [
                 "potato"
@@ -468,7 +477,7 @@
     },
     {
         "lemma": "motocykl",
-        "tags": "xxxxxxxxx",
+        "tags": "3T",
         "translations": {
             "ENG": [
                 "motorcycle"
@@ -479,7 +488,7 @@
     },
     {
         "lemma": "lider",
-        "tags": "xxxxxxxxx",
+        "tags": "3j,r",
         "translations": {
             "ENG": [
                 "leader",
@@ -491,21 +500,17 @@
     },
     {
         "lemma": "ołów",
-        "tags": "xxxxxxxxx",
+        "tags": "5C",
         "translations": {
             "ENG": [
-                "lead",
-                "(chemical element)",
-                "lead bullet",
-                "(metonymically)"
-            ]
+                "lead" ]
         },
         "temp_id": "4.42",
         "gender": "m3"
     },
     {
         "lemma": "roślina",
-        "tags": "xxxxxxxxx",
+        "tags": "3n",
         "translations": {
             "ENG": [
                 "plant",
@@ -517,11 +522,11 @@
     },
     {
         "lemma": "smycz",
-        "tags": "xxxxxxxxx",
+        "tags": "4hh",
         "translations": {
             "ENG": [
-                "lead leash",
-                "lanyard"
+                "lead","leash"
+
             ]
         },
         "temp_id": "4.44",
@@ -529,13 +534,10 @@
     },
     {
         "lemma": "miecz",
-        "tags": "xxxxxxxxx",
+        "tags": "4XX",
         "translations": {
             "ENG": [
-                "sword",
-                "(weapon)",
-                "centreboard",
-                "(nautical)"
+                "sword"
             ]
         },
         "temp_id": "4.45",
@@ -543,7 +545,7 @@
     },
     {
         "lemma": "krab",
-        "tags": "xxxxxxxxx",
+        "tags": "3a",
         "translations": {
             "ENG": [
                 "crab",
@@ -555,18 +557,18 @@
     },
     {
         "lemma": "człowiek",
-        "tags": "xxxxxxxxx",
+        "tags": "3p",
         "translations": {
             "ENG": [
-                "man",
-                "(human)"
+
+                "human","person"
             ]
         },
         "temp_id": "4.47",
         "gender": "m1"
     },
     {
-        "lemma": "obcy",
+        "lemma": "!obcy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -580,13 +582,10 @@
     },
     {
         "lemma": "udar",
-        "tags": "xxxxxxxxx",
+        "tags": "5UU",
         "translations": {
             "ENG": [
-                "stroke",
-                "(medicine)",
-                "hammering action, as in a hammer drill",
-                "(technical)"
+                "stroke"
             ]
         },
         "temp_id": "4.49",
@@ -594,10 +593,10 @@
     },
     {
         "lemma": "zimno",
-        "tags": "xxxxxxxxx",
+        "tags": "3H",
         "translations": {
             "ENG": [
-                "cold",
+                "cold","coldness",
                 "(low temperature)"
             ]
         },
@@ -606,66 +605,47 @@
     },
     {
         "lemma": "dym",
-        "tags": "xxxxxxxxx",
+        "tags": "3che",
         "translations": {
             "ENG": [
-                "smoke",
-                "stir commotion",
-                "(colloquial singular only)"
-            ]
+                "smoke"]
         },
         "temp_id": "4.51",
         "gender": "m3"
     },
     {
         "lemma": "drewno",
-        "tags": "xxxxxxxxx",
+        "tags": "3c",
         "translations": {
             "ENG": [
-                "wood",
-                "(substance, timber) (singular only)",
-                "xylem",
-                "(vascular tissue in land plants)",
-                "a piece of wood",
-                "someone very poor at dancing acting, etc.",
-                "(colloquial derogatory)"
-            ]
+                "wood"  ]
         },
         "temp_id": "4.52",
         "gender": "n"
     },
     {
         "lemma": "strach",
-        "tags": "xxxxxxxxx",
+        "tags": "3e",
         "translations": {
             "ENG": [
-                "fear",
-                "(emotion caused by actual or perceived danger or threat)",
-                "scarecrow"
-            ]
+                "fear" ]
         },
         "temp_id": "4.53",
         "gender": "m3"
     },
     {
         "lemma": "gorączka",
-        "tags": "xxxxxxxxx",
+        "tags": "3UU",
         "translations": {
             "ENG": [
-                "fever",
-                "(having a higher than normal or elevated body temperature)",
-                "fever",
-                "(state of excitement)",
-                "passion",
-                "(great emotion)"
-            ]
+                "fever" ]
         },
         "temp_id": "4.54",
         "gender": "f"
     },
     {
         "lemma": "turysta",
-        "tags": "xxxxxxxxx",
+        "tags": "4p",
         "translations": {
             "ENG": [
                 "tourist"
@@ -676,7 +656,7 @@
     },
     {
         "lemma": "wiatr",
-        "tags": "xxxxxxxxx",
+        "tags": "3LL",
         "translations": {
             "ENG": [
                 "wind"
@@ -687,7 +667,7 @@
     },
     {
         "lemma": "skutek",
-        "tags": "xxxxxxxxx",
+        "tags": "4tt,fq",
         "translations": {
             "ENG": [
                 "effect",
@@ -700,34 +680,27 @@
     },
     {
         "lemma": "sława",
-        "tags": "xxxxxxxxx",
+        "tags": "4soc",
         "translations": {
             "ENG": [
-                "fame glory name",
-                "a famous person; a big name ; a celebrity"
-            ]
+                "fame","glory" ]
         },
         "temp_id": "4.58",
         "gender": "f"
     },
     {
         "lemma": "ojciec",
-        "tags": "xxxxxxxxx",
+        "tags": "1r",
         "translations": {
             "ENG": [
-                "father, parent",
-                "father originator",
-                "(figuratively)",
-                "Father",
-                "(honorific used for Catholic priests)"
-            ]
+                "father" ]
         },
         "temp_id": "4.59",
         "gender": "m1"
     },
     {
         "lemma": "peron",
-        "tags": "xxxxxxxxx",
+        "tags": "4TT",
         "translations": {
             "ENG": [
                 "platform",
@@ -739,7 +712,7 @@
     },
     {
         "lemma": "pomarańcza",
-        "tags": "xxxxxxxxx",
+        "tags": "2fr",
         "translations": {
             "ENG": [
                 "orange",
@@ -753,13 +726,10 @@
     },
     {
         "lemma": "bohater",
-        "tags": "xxxxxxxxx",
+        "tags": "4wri,p",
         "translations": {
             "ENG": [
-                "hero",
-                "(person of great bravery)",
-                "hero protagonist",
-                "(main character)"
+                "hero","protagonist"
             ]
         },
         "temp_id": "4.62",
@@ -767,7 +737,7 @@
     },
     {
         "lemma": "scena",
-        "tags": "xxxxxxxxx",
+        "tags": "4the",
         "translations": {
             "ENG": [
                 "stage",
@@ -780,7 +750,7 @@
     },
     {
         "lemma": "plaża",
-        "tags": "xxxxxxxxx",
+        "tags": "2ln",
         "translations": {
             "ENG": [
                 "beach",
@@ -792,7 +762,7 @@
     },
     {
         "lemma": "koło",
-        "tags": "xxxxxxxxx",
+        "tags": "3gem,TT",
         "translations": {
             "ENG": [
                 "disk",
@@ -806,10 +776,10 @@
     },
     {
         "lemma": "ból",
-        "tags": "xxxxxxxxx",
+        "tags": "3UU",
         "translations": {
             "ENG": [
-                "pain aching"
+                "pain","ache"
             ]
         },
         "temp_id": "4.66",
@@ -817,7 +787,7 @@
     },
     {
         "lemma": "czosnek",
-        "tags": "xxxxxxxxx",
+        "tags": "4vg",
         "translations": {
             "ENG": [
                 "garlic"
@@ -828,7 +798,7 @@
     },
     {
         "lemma": "jajko",
-        "tags": "xxxxxxxxx",
+        "tags": "2f",
         "translations": {
             "ENG": [
                 "egg"
@@ -839,7 +809,7 @@
     },
     {
         "lemma": "wiadro",
-        "tags": "xxxxxxxxx",
+        "tags": "4agr",
         "translations": {
             "ENG": [
                 "bucket",
@@ -851,7 +821,7 @@
     },
     {
         "lemma": "polityk",
-        "tags": "xxxxxxxxx",
+        "tags": "3j",
         "translations": {
             "ENG": [
                 "politician"
@@ -862,7 +832,7 @@
     },
     {
         "lemma": "jesień",
-        "tags": "xxxxxxxxx",
+        "tags": "2at",
         "translations": {
             "ENG": [
                 "autumn"
@@ -873,37 +843,26 @@
     },
     {
         "lemma": "ogień",
-        "tags": "xxxxxxxxx",
+        "tags": "2che,XX",
         "translations": {
             "ENG": [
-                "fire",
-                "(chemical process)",
-                "fire",
-                "(bullets or other projectiles fired from a weapon)",
-                "fire passion",
-                "(figuratively)",
-                "light",
-                "(something used to create fire, especially matches or a lighter) (colloquial)"
-            ]
+                "fire" ]
         },
         "temp_id": "4.72",
         "gender": "m3"
     },
     {
         "lemma": "wuj",
-        "tags": "xxxxxxxxx",
+        "tags": "2r",
         "translations": {
-            "ENG": [
-                "maternal uncle vernacularly uncle",
-                "(brother of someone’s mother)"
-            ]
+            "ENG": ["uncle"     ]
         },
         "temp_id": "4.73",
         "gender": "m1"
     },
     {
         "lemma": "kalafior",
-        "tags": "xxxxxxxxx",
+        "tags": "3vg",
         "translations": {
             "ENG": [
                 "cauliflower"
@@ -914,12 +873,10 @@
     },
     {
         "lemma": "przeziębienie",
-        "tags": "xxxxxxxxx",
+        "tags": "3U",
         "translations": {
             "ENG": [
-                "verbal noun of przeziębić",
-                "cold",
-                "(illness)"
+                "cold"
             ]
         },
         "temp_id": "4.75",
@@ -927,24 +884,17 @@
     },
     {
         "lemma": "miód",
-        "tags": "xxxxxxxxx",
+        "tags": "3sw",
         "translations": {
             "ENG": [
-                "honey",
-                "(viscous substance produced by honeybees and some related insects)",
-                "Ellipsis of miód pitny .",
-                "( “ mead ” )",
-                "syrup",
-                "earwax",
-                "(colloquial)"
-            ]
+                "honey"  ]
         },
         "temp_id": "4.76",
         "gender": "m3"
     },
     {
         "lemma": "chirurg",
-        "tags": "xxxxxxxxx",
+        "tags": "3j,M",
         "translations": {
             "ENG": [
                 "surgeon",
@@ -956,11 +906,11 @@
     },
     {
         "lemma": "waliza",
-        "tags": "xxxxxxxxx",
+        "tags": "3PP",
         "translations": {
             "ENG": [
                 "trunk",
-                "(a large suitcase)"
+                "suitcase"
             ]
         },
         "temp_id": "4.78",
@@ -968,12 +918,10 @@
     },
     {
         "lemma": "źródło",
-        "tags": "xxxxxxxxx",
+        "tags": "4sci,fq",
         "translations": {
             "ENG": [
-                "source",
-                "spring",
-                "(water source)"
+                "source"
             ]
         },
         "temp_id": "4.79",
@@ -981,10 +929,10 @@
     },
     {
         "lemma": "żółw",
-        "tags": "xxxxxxxxx",
+        "tags": "3a",
         "translations": {
             "ENG": [
-                "tortoise turtle"
+                "tortoise","turtle"
             ]
         },
         "temp_id": "4.80",
@@ -992,26 +940,20 @@
     },
     {
         "lemma": "kwas",
-        "tags": "xxxxxxxxx",
+        "tags": "4che,XX",
         "translations": {
             "ENG": [
-                "acid",
-                "(a sour substance) (chemistry)",
-                "snag scene ; unpleasant social situation",
-                "(colloquial)",
-                "LSD",
-                "(slang)"
-            ]
+                "acid"  ]
         },
         "temp_id": "4.81",
         "gender": "m3"
     },
     {
         "lemma": "karaluch",
-        "tags": "xxxxxxxxx",
+        "tags": "4ai",
         "translations": {
             "ENG": [
-                "cockroach roach",
+                "cockroach",
                 "(insect)"
             ]
         },
@@ -1020,38 +962,30 @@
     },
     {
         "lemma": "klucz",
-        "tags": "xxxxxxxxx",
+        "tags": "3dr,hh",
         "translations": {
             "ENG": [
-                "key",
-                "(object designed to open and close a lock)",
-                "spanner wrench",
-                "key",
-                "(cryptography)",
-                "clef",
-                "(music)",
-                "keystone",
-                "(architecture)",
-                "flight",
-                "(unit) (military aviation)",
-                "V formation",
-                "(V-shaped flight formation) (ornithology)",
-                "radical",
-                "(element of a logogram) (linguistics)"
-            ]
+                "key" ]
         },
         "temp_id": "4.83",
         "gender": "m3"
     },
     {
-        "lemma": "jeż",
-        "tags": "xxxxxxxxx",
+        "lemma": "klucz",
+        "tags": "4eng",
         "translations": {
             "ENG": [
-                "hedgehog",
-                "(erinaceid)",
-                "Czech hedgehog",
-                "(military)"
+                "spanner","wrench" ]
+        },
+        "temp_id": "4.83a",
+        "gender": "m3"
+    },
+    {
+        "lemma": "jeż",
+        "tags": "4a",
+        "translations": {
+            "ENG": [
+                "hedgehog"
             ]
         },
         "temp_id": "4.84",
@@ -1059,7 +993,7 @@
     },
     {
         "lemma": "dłoń",
-        "tags": "xxxxxxxxx",
+        "tags": "4b",
         "translations": {
             "ENG": [
                 "palm",
@@ -1071,127 +1005,78 @@
     },
     {
         "lemma": "kurs",
-        "tags": "xxxxxxxxx",
+        "tags": "4s,tt",
         "translations": {
             "ENG": [
-                "course",
-                "(period of learning) (education)",
-                "course",
-                "(nautical)",
-                "exchange rate",
-                "(finance)"
-            ]
+                "course" ]
         },
         "temp_id": "4.86",
         "gender": "m3"
     },
     {
         "lemma": "kochanie",
-        "tags": "xxxxxxxxx",
+        "tags": "4G,pp",
         "translations": {
             "ENG": [
-                "love honey darling sweetheart 2003,Andrzej Żuławski, Pas śmiertelny [1] , page 121:",
-                "verbal noun of kochać loving"
+                "love", "honey", "darling", "sweetheart"
             ]
         },
         "temp_id": "4.87",
         "gender": "n"
     },
     {
-        "lemma": "baza",
+        "lemma": "!baza",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "base basis = for what]",
-                "(foundation or location) [+genitive = for] or, (proscribed) [+ dla (genitive)",
-                "basis",
-                "(linearly independent set of vectors spanning the whole vector space) (mathematics)",
-                "base",
-                "(set of sets from which a topology is derived) (topology)",
-                "base",
-                "(lowermost part of a column) (architecture)",
-                "base",
-                "(place where someone or something stays during periods of inactivity because of its convenient location)",
-                "base",
-                "(totality of buildings, facilities, and equipment necessary to carry out a particular activity)",
-                "base",
-                "(permanent structure for housing military) (military)",
-                "charging base",
-                "(the part of a device permanently connected to electricity in which its movable part is placed in order to charge it) (electronics)",
-                "base",
-                "(one of the four places that a runner can stand without being subject to being tagged out when the ball is in play) (baseball)",
-                "base",
-                "(forces and relations of production that produce the necessities and amenities of life) (Marxism)",
-                "that serves as a basic foundation on which affixes can be attached)",
-                "(linguistics) base (morpheme (or morphemes)"
-            ]
+                "base"]
         },
         "temp_id": "4.88",
         "gender": "f"
     },
     {
         "lemma": "bilet",
-        "tags": "xxxxxxxxx",
+        "tags": "3TT,PP",
         "translations": {
             "ENG": [
-                "ticket = for how much]",
-                "(pass entitling the holder to admission to a show, concert, etc) [+ do (genitive) ] or [+ na (accusitve) = to what], [+ za (accusitve) ] or [+ po (accusitve)",
-                "ticket note",
-                "(piece of paper with a short message)",
-                "ticket = to what]",
-                "(solution to a problem, a way to achieve something) [+ do (genitive) ] or [+ na (accusitve)",
-                "banknote"
-            ]
+                "ticket"]
         },
         "temp_id": "4.89",
         "gender": "m3"
     },
     {
         "lemma": "stolica",
-        "tags": "xxxxxxxxx",
+        "tags": "4ls,geo",
         "translations": {
             "ENG": [
-                "capital capital city",
-                "throne",
-                "(an ornate seat) (obsolete)"
-            ]
+                "capital","capital city" ]
         },
         "temp_id": "4.90",
         "gender": "f"
     },
     {
         "lemma": "ogon",
-        "tags": "xxxxxxxxx",
+        "tags": "4ba",
         "translations": {
             "ENG": [
-                "tail",
-                "(caudal appendage of an animal)",
-                "lineup",
-                "(Canada) (colloquial) queue line (US)"
-            ]
+                "tail" ]
         },
         "temp_id": "4.91",
         "gender": "m3"
     },
     {
         "lemma": "temperatura",
-        "tags": "xxxxxxxxx",
+        "tags": "3H",
         "translations": {
             "ENG": [
-                "temperature",
-                "(measure of cold or hot)",
-                "fever",
-                "(having a higher than normal or elevated body temperature)",
-                "atmosphere",
-                "(mood or feeling)"
-            ]
+                "temperature"  ]
         },
         "temp_id": "4.92",
         "gender": "f"
     },
     {
         "lemma": "alkohol",
-        "tags": "xxxxxxxxx",
+        "tags": "3che,da",
         "translations": {
             "ENG": [
                 "alcohol",
@@ -1205,26 +1090,33 @@
     },
     {
         "lemma": "pióro",
-        "tags": "xxxxxxxxx",
+        "tags": "3ba",
         "translations": {
             "ENG": [
-                "feather plume",
-                "quill",
-                "fountain pen",
-                "blade",
-                "(the flat part of an oar)"
+                "feather"
             ]
         },
         "temp_id": "4.94",
         "gender": "n"
     },
     {
-        "lemma": "ochota",
-        "tags": "xxxxxxxxx",
+        "lemma": "pióro",
+        "tags": "3s",
         "translations": {
             "ENG": [
-                "desire will willingness",
-                "alacrity"
+                "fountain pen",
+                "fountain-pen"
+            ]
+        },
+        "temp_id": "4.94a",
+        "gender": "n"
+    },
+    {
+        "lemma": "ochota",
+        "tags": "4pl,ee",
+        "translations": {
+            "ENG": [
+                "desire","will","willingness"
             ]
         },
         "temp_id": "4.95",
@@ -1232,10 +1124,11 @@
     },
     {
         "lemma": "sąsiad",
-        "tags": "xxxxxxxxx",
+        "tags": "3r",
         "translations": {
             "ENG": [
                 "neighbor",
+                "neighbour",
                 "(a person living on adjacent or nearby land)"
             ]
         },

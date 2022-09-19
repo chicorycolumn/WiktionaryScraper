@@ -125,6 +125,10 @@ shorthand_tag_refs = {
         "tags": ["bodypart"],
         "topics": ["medicine", "body"],
     },
+    "ba": {  # toe eye skin
+        "tags": ["bodypart animal"],
+        "topics": [],
+    },
     "dr": {  # toothbrush, wake, wash
         "tags": [],
         "topics": ["daily routine"],
