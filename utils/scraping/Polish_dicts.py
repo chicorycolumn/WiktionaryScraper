@@ -93,6 +93,10 @@ shorthand_tag_refs = {
         "tags": ["wordtype", "aa"],
         "topics": ["language"],
     },
+    "oo": {  # noun verb swear-word
+        "tags": ["punctuation", "aa"],
+        "topics": ["language", "writing"],
+    },
     "e": {  # anger happiness sadness
         "tags": ["emotion", "aa"],
         "topics": ["mental"],
@@ -293,6 +297,10 @@ shorthand_tag_refs = {
         "tags": ["food", "h"],
         "topics": ["kitchen", "restaurant", "inside"],
     },
+    "fc": {
+        "tags": ["condiment", "f"],
+        "topics": ["kitchen", "restaurant", "inside"],
+    },
     "ff": {
         "tags": [],
         "topics": ["kitchen", "restaurant", "inside"],
@@ -418,10 +426,6 @@ shorthand_tag_refs = {
     "l": {
         "tags": [],
         "topics": ["law"],
-    },
-    "M": {
-        "tags": [],
-        "topics": ["medicine"],
     },
     "i": {
         "tags": ["device"],
