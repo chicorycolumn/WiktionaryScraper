@@ -1561,13 +1561,10 @@
     },
     {
         "lemma": "porządek",
-        "tags": "xxxxxxxxx",
+        "tags": "4fq,+",
         "translations": {
             "ENG": [
-                "order orderliness",
-                "order sequence",
-                "the act of tidying",
-                "(in the plural)"
+                "order","sequence"
             ]
         },
         "temp_id": "4.132",
@@ -1575,24 +1572,17 @@
     },
     {
         "lemma": "rzecz",
-        "tags": "xxxxxxxxx",
+        "tags": "1eee",
         "translations": {
             "ENG": [
-                "thing",
-                "matter",
-                "(rare in set phrases)",
-                "speech conversation",
-                "(obsolete)",
-                "language speech",
-                "(Cieszyn Silesia)"
-            ]
+                "thing"    ]
         },
         "temp_id": "4.133",
         "gender": "f"
     },
     {
         "lemma": "tłumacz",
-        "tags": "xxxxxxxxx",
+        "tags": "4j",
         "translations": {
             "ENG": [
                 "translator",
@@ -1604,21 +1594,17 @@
     },
     {
         "lemma": "siekiera",
-        "tags": "xxxxxxxxx",
+        "tags": "4XX",
         "translations": {
             "ENG": [
-                "axe hatchet",
-                "(tool)",
-                "very strong coffee or tea",
-                "(colloquial humorous)"
-            ]
+                "axe","ax","hatchet"]
         },
         "temp_id": "4.135",
         "gender": "f"
     },
     {
         "lemma": "mózg",
-        "tags": "xxxxxxxxx",
+        "tags": "3b",
         "translations": {
             "ENG": [
                 "brain"
@@ -1629,10 +1615,10 @@
     },
     {
         "lemma": "gałąź",
-        "tags": "xxxxxxxxx",
+        "tags": "4ln",
         "translations": {
             "ENG": [
-                "branch limb",
+                "branch",
                 "(botany)"
             ]
         },
@@ -1641,20 +1627,29 @@
     },
     {
         "lemma": "zakład",
-        "tags": "xxxxxxxxx",
+        "tags": "4lb,eng",
         "translations": {
             "ENG": [
-                "plant factory",
-                "(a business or other organization producing goods or services)",
-                "bet wager"
+                "plant","factory"
             ]
         },
         "temp_id": "4.138",
         "gender": "m3"
     },
     {
+        "lemma": "zakład",
+        "tags": "4MM,",
+        "translations": {
+            "ENG": [
+                "bet","wager"
+            ]
+        },
+        "temp_id": "4.138a",
+        "gender": "m3"
+    },
+    {
         "lemma": "niedźwiedź",
-        "tags": "xxxxxxxxx",
+        "tags": "2a",
         "translations": {
             "ENG": [
                 "bear"
@@ -1664,7 +1659,7 @@
         "gender": "m2"
     },
     {
-        "lemma": "niedźwiedź",
+        "lemma": "!niedźwiedź",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1679,7 +1674,7 @@
     },
     {
         "lemma": "papuga",
-        "tags": "xxxxxxxxx",
+        "tags": "3a",
         "translations": {
             "ENG": [
                 "parrot",
@@ -1691,7 +1686,7 @@
     },
     {
         "lemma": "projekt",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng,w,s",
         "translations": {
             "ENG": [
                 "project",
@@ -1703,10 +1698,10 @@
     },
     {
         "lemma": "żar",
-        "tags": "xxxxxxxxx",
+        "tags": "5XX,H",
         "translations": {
             "ENG": [
-                "ember ; glowing coals or wood",
+                "ember",
                 "extreme heat"
             ]
         },
@@ -1715,12 +1710,10 @@
     },
     {
         "lemma": "zamek",
-        "tags": "xxxxxxxxx",
+        "tags": "3hh",
         "translations": {
             "ENG": [
-                "lock",
-                "(something used for fastening)",
-                "zip zip fastener zipper"
+                "lock"
             ]
         },
         "temp_id": "4.144",
@@ -1728,11 +1721,10 @@
     },
     {
         "lemma": "zamek",
-        "tags": "xxxxxxxxx",
+        "tags": "3lb,his",
         "translations": {
             "ENG": [
-                "castle",
-                "(fortified building)"
+                "castle"
             ]
         },
         "temp_id": "4.145",
@@ -1740,25 +1732,20 @@
     },
     {
         "lemma": "bóbr",
-        "tags": "xxxxxxxxx",
+        "tags": "4a",
         "translations": {
             "ENG": [
-                "beaver, mammal of the genus Castor",
-                "beaver fur",
-                "(colloquial in the plural)",
-                "beaver",
-                "(hairy vagina) (colloquial humorous)"
-            ]
+                "beaver"  ]
         },
         "temp_id": "4.146",
         "gender": "m2"
     },
     {
         "lemma": "wrona",
-        "tags": "xxxxxxxxx",
+        "tags": "4a",
         "translations": {
             "ENG": [
-                "hooded crow"
+                "crow"
             ]
         },
         "temp_id": "4.147",
@@ -1766,7 +1753,7 @@
     },
     {
         "lemma": "olej",
-        "tags": "xxxxxxxxx",
+        "tags": "3c,ff",
         "translations": {
             "ENG": [
                 "oil",
@@ -1778,7 +1765,7 @@
     },
     {
         "lemma": "zwierzę",
-        "tags": "xxxxxxxxx",
+        "tags": "1a",
         "translations": {
             "ENG": [
                 "animal",
@@ -1790,7 +1777,7 @@
     },
     {
         "lemma": "kierownik",
-        "tags": "xxxxxxxxx",
+        "tags": "4j",
         "translations": {
             "ENG": [
                 "manager",
@@ -1802,7 +1789,7 @@
         "gender": "m1"
     },
     {
-        "lemma": "kierownik",
+        "lemma": "!kierownik",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1815,25 +1802,17 @@
     },
     {
         "lemma": "sowa",
-        "tags": "xxxxxxxxx",
+        "tags": "3a",
         "translations": {
             "ENG": [
-                "owl",
-                "(strigiform bird of prey)",
-                "parasol mushroom",
-                "(Macrolepiota procera) (regional)",
-                "night owl",
-                "(one who stays up late at night or goes to bed late) (colloquial)",
-                "four-eyes",
-                "(one who wears eyeglasses) (colloquial)"
-            ]
+                "owl"  ]
         },
         "temp_id": "4.152",
         "gender": "f"
     },
     {
         "lemma": "medycyna",
-        "tags": "xxxxxxxxx",
+        "tags": "4S,med",
         "translations": {
             "ENG": [
                 "medicine",
@@ -1845,7 +1824,7 @@
     },
     {
         "lemma": "świat",
-        "tags": "xxxxxxxxx",
+        "tags": "3geo,ls",
         "translations": {
             "ENG": [
                 "world"
@@ -1856,18 +1835,17 @@
     },
     {
         "lemma": "zdjęcie",
-        "tags": "xxxxxxxxx",
+        "tags": "3art,PP",
         "translations": {
             "ENG": [
-                "verbal noun of zdjąć",
-                "photograph picture"
+                "photograph","photo"
             ]
         },
         "temp_id": "4.155",
         "gender": "n"
     },
     {
-        "lemma": "sokół",
+        "lemma": "!sokół",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1880,7 +1858,7 @@
     },
     {
         "lemma": "komar",
-        "tags": "xxxxxxxxx",
+        "tags": "3ai,PP",
         "translations": {
             "ENG": [
                 "mosquito"
@@ -1891,10 +1869,10 @@
     },
     {
         "lemma": "autostrada",
-        "tags": "xxxxxxxxx",
+        "tags": "3ls,TT",
         "translations": {
             "ENG": [
-                "motorway freeway"
+                "motorway","freeway","highway"
             ]
         },
         "temp_id": "4.158",
@@ -1902,7 +1880,7 @@
     },
     {
         "lemma": "brokuł",
-        "tags": "xxxxxxxxx",
+        "tags": "4vg",
         "translations": {
             "ENG": [
                 "broccoli"

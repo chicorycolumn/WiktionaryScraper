@@ -423,6 +423,14 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["sport"],
     },
+    "M": {
+        "tags": ["game"],
+        "topics": ["game"],
+    },
+    "MM": {
+        "tags": [],
+        "topics": ["game"],
+    },
     "l": {
         "tags": [],
         "topics": ["law"],
