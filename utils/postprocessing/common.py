@@ -4,6 +4,8 @@ from utils.scraping.Polish_dicts import shorthand_tag_refs
 import copy
 import json
 import re
+import string
+import random
 
 
 def get_distinguisher_info_of_verb_allohom(lemma_object, wordtype):
@@ -303,6 +305,16 @@ def untruncate_lemma_objects(group_number, wordtype):
     check_manual_whittling_was_done(lobjs_truncated)
 
     for lobj_truncated in lobjs_truncated:
+
+        if True in (res_lobj["temp_id"] == lobj_truncated["temp_id"] for res_lobj in res_arr):
+            lobj_truncated["temp_id"] = lobj_truncated["temp_id"] \
+                                        + random.choice(string.ascii_letters) \
+                                        + random.choice(string.ascii_letters) \
+                                        + random.choice(string.ascii_letters) \
+                                        + random.choice(string.ascii_letters) \
+                                        + random.choice(string.ascii_letters)
+            print(4890, lobj_truncated["temp_id"])
+
         lobj_long = [l for l in lobjs_long if l["temp_id"] == get_base_temp_id(lobj_truncated["temp_id"])][0]
 
         for key in lobj_long:
