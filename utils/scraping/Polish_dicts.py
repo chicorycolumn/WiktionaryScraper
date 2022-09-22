@@ -399,6 +399,10 @@ shorthand_tag_refs = {
         "tags": ["hobby"],
         "topics": [],
     },
+    "qq": {
+        "tags": ["tool"],
+        "topics": [],
+    },
     "w": {
         "tags": [],
         "topics": ["work"],

@@ -368,7 +368,7 @@
     },
     {
         "lemma": "topór",
-        "tags": "4XX",
+        "tags": "4XX,qq,agr",
         "translations": {
             "ENG": [
                 "axe","ax",
@@ -809,7 +809,7 @@
     },
     {
         "lemma": "wiadro",
-        "tags": "4agr",
+        "tags": "4agr,qq,@@",
         "translations": {
             "ENG": [
                 "bucket",
@@ -906,7 +906,7 @@
     },
     {
         "lemma": "waliza",
-        "tags": "3PP",
+        "tags": "3PP,@@",
         "translations": {
             "ENG": [
                 "trunk",
@@ -972,7 +972,7 @@
     },
     {
         "lemma": "klucz",
-        "tags": "4eng",
+        "tags": "4eng,qq,XX",
         "translations": {
             "ENG": [
                 "spanner","wrench" ]
@@ -1101,7 +1101,7 @@
     },
     {
         "lemma": "pióro",
-        "tags": "3s",
+        "tags": "3s,qq",
         "translations": {
             "ENG": [
                 "fountain pen",
@@ -1214,7 +1214,7 @@
     },
     {
         "lemma": "ołówek",
-        "tags": "2s",
+        "tags": "2s,qq",
         "translations": {
             "ENG": [
                 "pencil"
@@ -1283,7 +1283,7 @@
     },
     {
         "lemma": "wąż",
-        "tags": "3agr",
+        "tags": "3agr,qq",
         "translations": {
             "ENG": [
                 "hose"
@@ -1594,7 +1594,7 @@
     },
     {
         "lemma": "siekiera",
-        "tags": "4XX",
+        "tags": "4XX,qq,agr",
         "translations": {
             "ENG": [
                 "axe","ax","hatchet"]
@@ -1891,7 +1891,7 @@
     },
     {
         "lemma": "teren",
-        "tags": "xxxxxxxxx",
+        "tags": "5geo,ln",
         "translations": {
             "ENG": [
                 "terrain",
@@ -1903,15 +1903,10 @@
     },
     {
         "lemma": "wyjście",
-        "tags": "xxxxxxxxx",
+        "tags": "3TT,HH",
         "translations": {
             "ENG": [
-                "verbal noun of wyjść exiting",
-                "exit way out",
-                "lead",
-                "(card games dominoes)",
-                "output",
-                "(computing)"
+                "exit","way out"
             ]
         },
         "temp_id": "4.161",
@@ -1919,7 +1914,7 @@
     },
     {
         "lemma": "truskawka",
-        "tags": "xxxxxxxxx",
+        "tags": "3fr",
         "translations": {
             "ENG": [
                 "strawberry"
@@ -1930,42 +1925,29 @@
     },
     {
         "lemma": "dziadek",
-        "tags": "xxxxxxxxx",
+        "tags": "1r",
         "translations": {
             "ENG": [
-                "grandfather",
-                "old man",
-                "(colloquial)",
-                "grandparents",
-                "(colloquial in the plural)",
-                "a player whose hand is shown and is to be played from by another player, dummy",
-                "(card games chiefly bridge)"
-            ]
+                "grandfather"    ]
         },
         "temp_id": "4.163",
         "gender": "m1"
     },
     {
         "lemma": "gąbka",
-        "tags": "xxxxxxxxx",
+        "tags": "3hk,dr",
         "translations": {
             "ENG": [
-                "sponge",
-                "(invertebrate)",
-                "sponge",
-                "(material used for washing)",
-                "Diminutive of gęba"
-            ]
+                "sponge"  ]
         },
         "temp_id": "4.164",
         "gender": "f"
     },
     {
         "lemma": "młotek",
-        "tags": "xxxxxxxxx",
+        "tags": "3qq,XX,eng",
         "translations": {
             "ENG": [
-                "Diminutive of młot",
                 "hammer",
                 "(tool)"
             ]
@@ -1974,7 +1956,7 @@
         "gender": "m3"
     },
     {
-        "lemma": "młotek",
+        "lemma": "!młotek",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [

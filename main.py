@@ -38,13 +38,14 @@ if __name__ == '__main__':
     
               (ii) Take truncated_*s_99 and whittle translations
     
-Don't worry about strings in the translations array that start and end with brackets, they will be removed automatically.
-Don't worry about duplicated translations eg ["wolf", "wolf"] as these will be removed automatically.
+Strings in translations that "(start and end with brackets)" are removed automatically.
+Duplicated translations ["wolf", "wolf"] are removed automatically.
               
               (iii) Manually add shorthand tags. 
 
-Make sure include frequency tag, but no comma needed. eg "v1" or "!,g1" or "b,n,w,t1".
-Flag lobjs for deletion simply by adding '!' at start of lemma.
+Include frequency tag (no comma needed). eg "1v" or "1£,g" or "1b,n,w,t".
+Flag lobjs for deletion by adding '!' at start of lemma.
+You must duplicate lobjs which have double meaning, and whittle respective translation accordingly, temp_id is adjusted automatically.
               
                         truncated_words_99 MODIFIED
 
