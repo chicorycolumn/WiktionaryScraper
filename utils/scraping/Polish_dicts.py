@@ -467,6 +467,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["travel"],
     },
+    "TTT": {
+        "tags": [],
+        "topics": ["travel", "car"],
+    },
     "Z": {
         "tags": [],
         "topics": ["love", "people"],

@@ -1969,7 +1969,7 @@
     },
     {
         "lemma": "siła",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng,phy,pol",
         "translations": {
             "ENG": [
                 "strength",
@@ -1982,7 +1982,7 @@
     },
     {
         "lemma": "paszport",
-        "tags": "xxxxxxxxx",
+        "tags": "2PP",
         "translations": {
             "ENG": [
                 "passport"
@@ -1993,13 +1993,10 @@
     },
     {
         "lemma": "kabel",
-        "tags": "xxxxxxxxx",
+        "tags": "3x",
         "translations": {
             "ENG": [
-                "cable",
-                "(large wire or rope)",
-                "snitch informant",
-                "(colloquial derogatory)"
+                "cable"
             ]
         },
         "temp_id": "4.169",
@@ -2007,7 +2004,7 @@
     },
     {
         "lemma": "szpinak",
-        "tags": "xxxxxxxxx",
+        "tags": "4vg",
         "translations": {
             "ENG": [
                 "spinach"
@@ -2018,10 +2015,13 @@
     },
     {
         "lemma": "burza",
-        "tags": "xxxxxxxxx",
+        "tags": "3L",
         "translations": {
             "ENG": [
-                "storm, in particular thunderstorm",
+                "storm",
+
+
+            "thunderstorm",
                 "(meteorology)"
             ]
         },
@@ -2030,7 +2030,7 @@
     },
     {
         "lemma": "rycerz",
-        "tags": "xxxxxxxxx",
+        "tags": "4j,his",
         "translations": {
             "ENG": [
                 "knight",
@@ -2042,7 +2042,7 @@
     },
     {
         "lemma": "rzepa",
-        "tags": "xxxxxxxxx",
+        "tags": "4vg",
         "translations": {
             "ENG": [
                 "turnip"
@@ -2053,7 +2053,7 @@
     },
     {
         "lemma": "nietoperz",
-        "tags": "xxxxxxxxx",
+        "tags": "2a",
         "translations": {
             "ENG": [
                 "bat",
@@ -2065,12 +2065,11 @@
     },
     {
         "lemma": "etap",
-        "tags": "xxxxxxxxx",
+        "tags": "3WW,at",
         "translations": {
             "ENG": [
-                "age",
                 "(one of the stages of life)",
-                "phase",
+                "phase","stage",
                 "(like phase of production)"
             ]
         },
@@ -2079,7 +2078,7 @@
     },
     {
         "lemma": "społeczeństwo",
-        "tags": "xxxxxxxxx",
+        "tags": "3soc,pp",
         "translations": {
             "ENG": [
                 "society"
@@ -2090,7 +2089,7 @@
     },
     {
         "lemma": "osoba",
-        "tags": "xxxxxxxxx",
+        "tags": "2p",
         "translations": {
             "ENG": [
                 "person",
@@ -2102,7 +2101,7 @@
         "gender": "f"
     },
     {
-        "lemma": "klinika",
+        "lemma": "!klinika",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2114,7 +2113,7 @@
     },
     {
         "lemma": "makrela",
-        "tags": "xxxxxxxxx",
+        "tags": "4a",
         "translations": {
             "ENG": [
                 "mackerel"
@@ -2125,26 +2124,20 @@
     },
     {
         "lemma": "karta",
-        "tags": "xxxxxxxxx",
+        "tags": "3$,MM,wri,s",
         "translations": {
             "ENG": [
                 "card",
                 "playing card",
-                "debit card credit card",
-                "sheet",
-                "(of paper) (chiefly in compounds)",
-                "tab",
-                "(computing)",
-                "charter",
-                "(law)"
-            ]
+                "debit card","credit card",
+                "sheet" ]
         },
         "temp_id": "4.180",
         "gender": "f"
     },
     {
         "lemma": "struna",
-        "tags": "xxxxxxxxx",
+        "tags": "3eng",
         "translations": {
             "ENG": [
                 "string",
@@ -2156,7 +2149,7 @@
     },
     {
         "lemma": "litr",
-        "tags": "xxxxxxxxx",
+        "tags": "3@",
         "translations": {
             "ENG": [
                 "litre"
@@ -2167,7 +2160,7 @@
     },
     {
         "lemma": "nadzieja",
-        "tags": "xxxxxxxxx",
+        "tags": "3e",
         "translations": {
             "ENG": [
                 "hope"
@@ -2178,7 +2171,7 @@
     },
     {
         "lemma": "niespodzianka",
-        "tags": "xxxxxxxxx",
+        "tags": "3ee",
         "translations": {
             "ENG": [
                 "surprise"
@@ -2189,7 +2182,7 @@
     },
     {
         "lemma": "pokolenie",
-        "tags": "xxxxxxxxx",
+        "tags": "4soc,pp,at",
         "translations": {
             "ENG": [
                 "generation",
@@ -2201,11 +2194,11 @@
     },
     {
         "lemma": "skrzyżowanie",
-        "tags": "xxxxxxxxx",
+        "tags": "4ls,TTT",
         "translations": {
             "ENG": [
-                "verbal noun of skrzyżować",
-                "intersection crossroads"
+                "crossroads",
+                "crossroad"
             ]
         },
         "temp_id": "4.186",
@@ -2213,7 +2206,7 @@
     },
     {
         "lemma": "ryż",
-        "tags": "xxxxxxxxx",
+        "tags": "2f",
         "translations": {
             "ENG": [
                 "rice"
@@ -2224,7 +2217,7 @@
     },
     {
         "lemma": "kciuk",
-        "tags": "xxxxxxxxx",
+        "tags": "4b",
         "translations": {
             "ENG": [
                 "thumb",
@@ -2236,17 +2229,17 @@
     },
     {
         "lemma": "rower",
-        "tags": "xxxxxxxxx",
+        "tags": "2T",
         "translations": {
             "ENG": [
-                "bicycle bike"
+                "bicycle","bike"
             ]
         },
         "temp_id": "4.189",
         "gender": "m3"
     },
     {
-        "lemma": "widzenie",
+        "lemma": "!widzenie",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2261,7 +2254,7 @@
     },
     {
         "lemma": "dorsz",
-        "tags": "xxxxxxxxx",
+        "tags": "5a",
         "translations": {
             "ENG": [
                 "cod",
@@ -2273,10 +2266,10 @@
     },
     {
         "lemma": "fabryka",
-        "tags": "xxxxxxxxx",
+        "tags": "4lb,eng",
         "translations": {
             "ENG": [
-                "factory plant"
+                "factory","plant"
             ]
         },
         "temp_id": "4.192",
@@ -2284,12 +2277,10 @@
     },
     {
         "lemma": "pożar",
-        "tags": "xxxxxxxxx",
+        "tags": "4X",
         "translations": {
             "ENG": [
-                "fire",
-                "(occurrence of fire in a certain place)",
-                "conflagration"
+                "fire"
             ]
         },
         "temp_id": "4.193",
@@ -2297,19 +2288,16 @@
     },
     {
         "lemma": "wakacje",
-        "tags": "xxxxxxxxx",
+        "tags": "3at,P",
         "translations": {
-            "ENG": [
-                "summer school break in Poland, between late June and September 1",
-                "any similar long period of summer holiday, especially in an educational setting"
-            ]
+            "ENG": ["holiday","vacation"   ]
         },
         "temp_id": "4.194",
         "gender": "nonvirile"
     },
     {
         "lemma": "odpowiedź",
-        "tags": "xxxxxxxxx",
+        "tags": "3sr,s",
         "translations": {
             "ENG": [
                 "answer",
@@ -2321,7 +2309,7 @@
     },
     {
         "lemma": "ścieżka",
-        "tags": "xxxxxxxxx",
+        "tags": "3ls,TT",
         "translations": {
             "ENG": [
                 "trail",
@@ -2338,7 +2326,7 @@
     },
     {
         "lemma": "samobójstwo",
-        "tags": "xxxxxxxxx",
+        "tags": "4X,B",
         "translations": {
             "ENG": [
                 "suicide",
@@ -2352,17 +2340,17 @@
     },
     {
         "lemma": "cukinia",
-        "tags": "xxxxxxxxx",
+        "tags": "3vg",
         "translations": {
             "ENG": [
-                "courgette zucchini"
+                "courgette","zucchini"
             ]
         },
         "temp_id": "4.198",
         "gender": "f"
     },
     {
-        "lemma": "mobbing",
+        "lemma": "!mobbing",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2374,7 +2362,7 @@
         "gender": "m3"
     },
     {
-        "lemma": "zieleń",
+        "lemma": "!zieleń",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2388,20 +2376,17 @@
     },
     {
         "lemma": "czasownik",
-        "tags": "xxxxxxxxx",
+        "tags": "2o",
         "translations": {
             "ENG": [
-                "verb",
-                "(a grammatical category of words that indicate an action, event or a state) (grammar)",
-                "chronicle",
-                "(archaic rare)"
+                "verb"
             ]
         },
         "temp_id": "4.201",
         "gender": "m3"
     },
     {
-        "lemma": "czasownik",
+        "lemma": "!czasownik",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
