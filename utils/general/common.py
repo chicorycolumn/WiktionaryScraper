@@ -23,6 +23,24 @@ def get_existing_lobjs(wordtype: str, lemmas_only: bool = False, existing_lobjs_
     return existing_lemma_objects
 
 
+def get_rejected_lobjs(wordtype: str):
+    existing_lobjs_path = f'output_saved/rejected'
+
+    rejected_lemmas = []
+    for root, dirs, files in os.walk(existing_lobjs_path):
+        for file in files:
+            if wordtype in file.split("_"):
+                with open(f'{existing_lobjs_path}/{file}', "r") as f:
+                    loaded = json.load(f)
+                    for k in loaded:
+                        if k != "already_existing":
+                            print(4421, file, len(loaded[k]), k, loaded[k])
+                            rejected_lemmas.extend(loaded[k])
+                    f.close()
+
+    return rejected_lemmas
+
+
 def get_value_from_keypath(dict, keypath):
     for key in keypath:
         dict = dict[key]

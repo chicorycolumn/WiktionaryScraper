@@ -9,10 +9,10 @@ if __name__ == '__main__':
 
     # check_rescraped_against_existing("adjectives_old", "adjectives_new")
 
-    step = 2
-    group_number = 3
-    input_indexes = [159, 259]
-    wordtype = "v"
+    step = 0
+    group_number = 66
+    input_indexes = [0, 500]
+    wordtype = "a"
     these_headwords_only = []
     # these_headwords_only = ['lekki']
     skip_make_ids = False  # only set True when manually testing.
@@ -20,6 +20,12 @@ if __name__ == '__main__':
     langcode = "pol"
 
     """
+    
+    Step 0  Run this file with step = 0
+    
+            This is just to assess which lemmas have been scraped/rejected/yet to scrape.
+            No scraping or file writing is done, you just get a printout.
+    
     
     Step 1  Run this file with step = 1
             
@@ -78,13 +84,14 @@ You must duplicate lobjs which have double meaning, and whittle respective trans
 
     head_words = list({el for el in head_words})
 
-    if step == 1:
+    if step in [0, 1]:
         scrape_word_data(
             group_number=group_number,
             head_words=head_words,
             wordtype=wordtype,
             language=lang_ref[langcode],
-            skip_scraping=skip_scraping
+            skip_scraping=skip_scraping,
+            just_assess_scrape_status_of_lemmas=step==0
         )
     elif step == 2:
         finalise_lemma_objects(group_number, wordtype, langcode, skip_make_ids)

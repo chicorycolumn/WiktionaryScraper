@@ -7,7 +7,7 @@ from parsers.Polish_adjective_parser import PolishAdjectiveParser
 from parsers.Polish_noun_parser import PolishNounParser
 from parsers.Polish_verb_parser import PolishVerbParser
 
-from utils.general.common import write_output, write_todo, get_existing_lobjs
+from utils.general.common import write_output, write_todo, get_existing_lobjs, get_rejected_lobjs
 from utils.postprocessing.Polish import generate_adjective
 from utils.scraping.Polish import minimise_inflections
 from utils.scraping.common import html_from_head_word
@@ -24,17 +24,37 @@ def add_output_arr_to_result(output_arr, head_word, result, rejected, progress_s
         rejected["loaded_and_read_html_but_failed_to_create_output"].append(head_word)
 
 
-def trigger_parser(head_words_raw, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_to_parse, test_only_boolean_override_check_existing=False):
+def trigger_parser(
+        head_words_raw, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_to_parse,
+        test_only_boolean_override_check_existing:bool=False,
+        just_assess_scrape_status_of_lemmas:bool=False,
+):
     if not test_only_boolean_override_check_existing:
         already_parsed_headwords = get_existing_lobjs(wordtype, lemmas_only=True)
+        already_rejected_headwords = get_rejected_lobjs(wordtype)
+
         head_words = []
         headwords_not_to_parse = []
+        rejected_not_to_parse = []
+
+        print("")
+        print(f"MSG 1/4: {len(head_words_raw)} headwords I've been asked to scrape.")
 
         for headword in head_words_raw:
             if headword in already_parsed_headwords:
                 headwords_not_to_parse.append(headword)
+            elif headword in already_rejected_headwords:
+                rejected_not_to_parse.append(headword)
             else:
                 head_words.append(headword)
+
+        print(f"MSG 2/4: {len(headwords_not_to_parse)} discarded as previously parsed.", headwords_not_to_parse)
+        print(f"MSG 3/4: {len(rejected_not_to_parse)} discarded as previously rejected.", rejected_not_to_parse)
+        print(f"MSG 4/4: {len(head_words)} headwords I will attempt to scrape.", head_words)
+        print("")
+
+        if just_assess_scrape_status_of_lemmas:
+            return
 
         if headwords_not_to_parse:
             if "already_existing" not in rejected:
@@ -147,7 +167,8 @@ def scrape_word_data(
         no_temp_ids: bool = False,
         skip_scraping: bool = False,
         skip_extras: bool = False,
-        test_only_boolean_override_check_existing = False
+        test_only_boolean_override_check_existing: bool = False,
+        just_assess_scrape_status_of_lemmas: bool = False,
 ):
     if wordtype == "adjectives":
         parser = PolishAdjectiveParser(convert_charrefs=False)
@@ -180,7 +201,14 @@ def scrape_word_data(
 
         extra_lemmas_objs = []
 
-        trigger_parser(head_words, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs, test_only_boolean_override_check_existing=test_only_boolean_override_check_existing)
+        trigger_parser(
+            head_words, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs,
+            test_only_boolean_override_check_existing=test_only_boolean_override_check_existing,
+            just_assess_scrape_status_of_lemmas=just_assess_scrape_status_of_lemmas,
+        )
+
+        if just_assess_scrape_status_of_lemmas:
+            return
 
         existing_lemmas = get_existing_lobjs(wordtype, lemmas_only=True)
 
