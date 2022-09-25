@@ -4,15 +4,19 @@ from input.Polish.verbs.head_words import input as verbs
 from parsers.common import scrape_word_data
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
+from input.Polish.adjectives.head_words import input
 
 if __name__ == '__main__':
 
     # check_rescraped_against_existing("adjectives_old", "adjectives_new")
+    for el in input:
+        if el[-1] not in ["y", "i"]:
+            print(el)
 
-    step = 0
-    group_number = 66
-    input_indexes = [0, 500]
-    wordtype = "a"
+    step = 10
+    group_number = 4
+    input_indexes = [0, 300]
+    wordtype = "v"
     these_headwords_only = []
     # these_headwords_only = ['lekki']
     skip_make_ids = False  # only set True when manually testing.

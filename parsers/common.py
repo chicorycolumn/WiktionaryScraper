@@ -227,7 +227,7 @@ def scrape_word_data(
                 return res
 
             if wordtype == "verbs":
-                res = [el for el in extra_list if el[-1] in ["ć"]]
+                res = [el for el in extra_list if el[-1] in ["ć", "c"]]
                 print(f"There now {len(res)} extra.")
                 return res
 
