@@ -85,3 +85,5 @@ Set second "lato" to pluralOnly.
 2022-09-25 20:11 "brakować" has defective or strange inflections table. Kicking it out of verbs.
 2022-09-25 20:11 "charakteryzować" has no infinitive. Kicking it out of verbs.
 2022-09-25 20:11 The "conditional" tense on perfective "dojść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
+
+Most of the words with the "hobby" tag are not actually a hobby. Replace with "hobbies" TOPIC.

@@ -403,6 +403,10 @@ shorthand_tag_refs = {
         "tags": ["tool"],
         "topics": [],
     },
+    "qqq": {
+        "tags": [],
+        "topics": ["hobbies"],
+    },
     "w": {
         "tags": [],
         "topics": ["work"],
