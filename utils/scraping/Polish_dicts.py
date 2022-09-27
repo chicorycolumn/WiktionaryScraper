@@ -396,14 +396,14 @@ shorthand_tag_refs = {
 
     ############### 8) Fields
     "q": {
-        "tags": ["hobby"],
+        "tags": ["hobby"], #eg knit painting
         "topics": [],
     },
     "qq": {
         "tags": ["tool"],
         "topics": [],
     },
-    "qqq": {
+    "qqq": { # eg try skill
         "tags": [],
         "topics": ["hobbies"],
     },
