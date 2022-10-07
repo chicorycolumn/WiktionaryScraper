@@ -572,7 +572,7 @@
         "tags": "5pp,l,ee",
         "translations": {
             "ENG": [
-                "to keep a promise" ]
+                "*to keep a promise" ]
         },
         "temp_id": "4.51"
     },
@@ -581,7 +581,7 @@
         "tags": "5pp,l,ee",
         "translations": {
             "ENG": [
-                "to keep a promise" ]
+                "*to keep a promise" ]
         },
         "temp_id": "4.52"
     },
@@ -755,7 +755,7 @@
         "temp_id": "4.69"
     },
     {
-        "lemma": "dźwigać",
+        "lemma": "!dźwigać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -766,7 +766,7 @@
         "temp_id": "4.70"
     },
     {
-        "lemma": "dźwignąć",
+        "lemma": "!dźwignąć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -776,7 +776,7 @@
         "temp_id": "4.71"
     },
     {
-        "lemma": "gościć",
+        "lemma": "!gościć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -790,7 +790,7 @@
         "temp_id": "4.72"
     },
     {
-        "lemma": "godzić",
+        "lemma": "!godzić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -820,7 +820,7 @@
         "temp_id": "4.73"
     },
     {
-        "lemma": "pogodzić",
+        "lemma": "!pogodzić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -834,7 +834,7 @@
     },
     {
         "lemma": "dołożyć",
-        "tags": "xxxxxxxxx",
+        "tags": "4mat,ff",
         "translations": {
             "ENG": [
                 "to add",
@@ -845,7 +845,7 @@
     },
     {
         "lemma": "dokładać",
-        "tags": "xxxxxxxxx",
+         "tags": "4mat,ff",
         "translations": {
             "ENG": [
                 "to add",
@@ -1264,35 +1264,22 @@
         },
         "temp_id": "4.112"
     },
-        {
-        "lemma": "czynić",
-        "tags": "xxxxxxxxx",
-        "translations": {
-            "ENG": [
-                "to make do"
-            ]
-        },
-        "temp_id": "4.59"
-    },
     {
         "lemma": "uczynić",
-        "tags": "xxxxxxxxx",
+        "tags": "5ee,pp",
         "translations": {
             "ENG": [
-                "to make",
-                "to do 2022 April 4,Marcin Koziestański,“Swiatłana Cichanouska: Reżim Łukaszenki uczynił Białoruś wspólnikiem rosyjskich zbrodni”, in Kurier Poranny [1] , archived from the original on 2022-04-09 : - ... Reżim Łukaszenki uczynił Białoruś wspólnikiem tych zbrodni wojennych – oświadczyła.",
-                "2022 March 28,Mateusz Łysiak,“Czy to będzie nowa flaga Rosji? „Putin uczynił z trójkoloru faszystowski symbol””, in National Geographic [2] , archived from the original on 2022-04-10 : – Zdecydowaliśmy, że nie możemy już używać rosyjskiego trójkoloru, ponieważ Putin uczynił z niego faszystowski symbol – wyjaśnił w rozmowie z „The Guardian”. (Polish edition)",
-                "2022 April 7,Magdalena Gronek,“Kaczyński: Ludwik Dorn uczynił dużo dobrego dla naszego kraju; jestem pełen żalu”, in Radio Opole [3] , archived from the original on 2022-04-10 : Odszedł człowiek, który miał bardzo dobry życiorys i uczynił dużo dobrego dla naszego kraju - powiedział wicepremier, prezes Prawa i Sprawiedliwości Jarosław Kaczyński wspominając zmarłego w czwartek Ludwika Dorna."
+          "*to make someone feel something"
             ]
         },
         "temp_id": "4.60"
     },
         {
         "lemma": "gadać",
-        "tags": "xxxxxxxxx",
+        "tags": "3sr",
         "translations": {
             "ENG": [
-                "to talk[i]"
+                "to talk[i]","to chat[i]"
             ]
         },
         "temp_id": "4.66"

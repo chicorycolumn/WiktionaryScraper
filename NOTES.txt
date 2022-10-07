@@ -1,0 +1,10 @@
+For lemma objects:
+
+Asterisk before translations mean that these are specific collocations and should not be picked up by general matching
+of lemmas across languages by the Palette processor. eg "dotrzymać" means "to keep" but only in the sense of "to keep a
+promise", and so this translation is marked as "*to keep a promise". So Palette processor should ignore asterisked
+translations, unless specificLemmaIds is set.
+
+Square brackets after translation of verbs give info about transitive (default so no square brackets), intransitive [i]
+and reflexive [r]. These square brackets should be filtered out by Palette processor, so that matching across languages
+can take place.
