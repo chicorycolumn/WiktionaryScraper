@@ -856,32 +856,28 @@
     },
     {
         "lemma": "działać",
-        "tags": "xxxxxxxxx",
+        "tags": "4ii,eng,xx",
         "translations": {
             "ENG": [
-                "to act[i] (perform an action)",
-                "to work",
-                "to function correctly[i]"
+              "to work[i]",
+                "to function[i]"
             ]
         },
         "temp_id": "4.78"
     },
     {
         "lemma": "zadziałać",
-        "tags": "xxxxxxxxx",
+        "tags": "4ii,eng,xx",
         "translations": {
             "ENG": [
-                "to cause a specific reaction[i]",
-                "to start acting",
-                "to start doing[i] (to perform an action)",
-                "to start working",
-                "to start functioning correctly[i]"
+              "to work[i]",
+                "to function[i]"
             ]
         },
         "temp_id": "4.79"
     },
     {
-        "lemma": "burknąć",
+        "lemma": "!burknąć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -894,7 +890,7 @@
         "temp_id": "4.80"
     },
     {
-        "lemma": "burczeć",
+        "lemma": "!burczeć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -907,7 +903,7 @@
         "temp_id": "4.81"
     },
     {
-        "lemma": "doznać",
+        "lemma": "!doznać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -918,7 +914,7 @@
         "temp_id": "4.82"
     },
     {
-        "lemma": "doznawać",
+        "lemma": "!doznawać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -929,7 +925,7 @@
         "temp_id": "4.83"
     },
     {
-        "lemma": "gładzić",
+        "lemma": "!gładzić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -944,21 +940,15 @@
     },
     {
         "lemma": "wygładzić",
-        "tags": "xxxxxxxxx",
+        "tags": "5ggg,art,D",
         "translations": {
             "ENG": [
-                "to smooth",
-                "to smooth out",
-                "to even out the surface of something",
-                "to make stylistically better",
-                "to become smooth[r]",
-                "to become stylistically better[r]"
-            ]
+                "to smooth out" ]
         },
         "temp_id": "4.85"
     },
     {
-        "lemma": "pogładzić",
+        "lemma": "!pogładzić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -970,17 +960,16 @@
     },
     {
         "lemma": "doczekać",
-        "tags": "xxxxxxxxx",
+        "tags": "4tt,pl",
         "translations": {
             "ENG": [
-                "to wait until a specific, expected moment [+genitive]",
-                "to not be able to wait[r]  (stricly in the negative)"
+                "*to not be able to wait[r] (stricly in the negative)"
             ]
         },
         "temp_id": "4.87"
     },
     {
-        "lemma": "doczekiwać",
+        "lemma": "!doczekiwać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -992,19 +981,17 @@
     },
     {
         "lemma": "błyszczeć",
-        "tags": "xxxxxxxxx",
+        "tags": "4kk",
         "translations": {
             "ENG": [
                 "to shine",
                 "to glitter",
-                "to shimmer[i,or,r] (to reflect light)",
-                "Synonyms: błyskać brylować[i,or,r]  to shine (to be distinguished positively)"
-            ]
+                "to shimmer"   ]
         },
         "temp_id": "4.89"
     },
     {
-        "lemma": "dysponować",
+        "lemma": "!dysponować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1016,19 +1003,17 @@
     },
     {
         "lemma": "głaskać",
-        "tags": "xxxxxxxxx",
+        "tags": "4v,Z,A",
         "translations": {
             "ENG": [
-                "to Synonyms: gładzić muskać pieścić  to fondle",
                 "to caress",
-                "to stroke (move one's hand over a surface)",
-                "to stroke oneself[r]"
+                "to stroke"
             ]
         },
         "temp_id": "4.92"
     },
     {
-        "lemma": "głasnąć",
+        "lemma": "!głasnąć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1042,11 +1027,11 @@
     },
     {
         "lemma": "pogłaskać",
-        "tags": "xxxxxxxxx",
+        "tags": "4v,Z,A",
         "translations": {
             "ENG": [
-                "to stroke",
-                "to caress"
+                "to caress",
+                "to stroke"
             ]
         },
         "temp_id": "4.94"
