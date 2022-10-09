@@ -488,12 +488,16 @@ shorthand_tag_refs = {
         "topics": ["language"],
     },
     "X": {
-        "tags": [],
+        "tags": ["weapon"],
         "topics": ["violence"],
     },
     "XX": {
-        "tags": ["weapon"],
+        "tags": [],
         "topics": ["violence"],
+    },
+    "XXX": {
+        "tags": [],
+        "topics": ["war"],
     },
     "V": {
         "tags": [],
