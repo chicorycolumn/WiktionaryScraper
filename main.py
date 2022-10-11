@@ -9,11 +9,11 @@ from input.Polish.adjectives.head_words import input
 if __name__ == '__main__':
 
     # check_rescraped_against_existing("adjectives_old", "adjectives_new")
-    for el in input:
-        if el[-1] not in ["y", "i"]:
-            print(el)
+    # for el in input:
+    #     if el[-1] not in ["y", "i"]:
+    #         print(el)
 
-    step = 10
+    step = 2
     group_number = 4
     input_indexes = [0, 300]
     wordtype = "v"
