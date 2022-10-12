@@ -51,7 +51,7 @@
         "translations": {
             "ENG": [
                 "unworthy",
-                "undignified",
+                "undignified"
             ]
         },
         "temp_id": "5.5"
@@ -69,7 +69,7 @@
         "temp_id": "5.6"
     },
     {
-        "lemma": "obyty",
+        "lemma": "!obyty",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -82,7 +82,7 @@
         "temp_id": "5.7"
     },
     {
-        "lemma": "wytrawny",
+        "lemma": "!wytrawny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -93,7 +93,7 @@
         "temp_id": "5.8"
     },
     {
-        "lemma": "niedoświadczony",
+        "lemma": "!niedoświadczony",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -104,7 +104,7 @@
         "temp_id": "5.9"
     },
     {
-        "lemma": "obeznany",
+        "lemma": "!obeznany",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -114,7 +114,7 @@
         "temp_id": "5.10"
     },
     {
-        "lemma": "bywały",
+        "lemma": "!bywały",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -125,7 +125,7 @@
         "temp_id": "5.11"
     },
     {
-        "lemma": "benzynowy",
+        "lemma": "!benzynowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -138,7 +138,7 @@
         "temp_id": "5.12"
     },
     {
-        "lemma": "ekonomiczny",
+        "lemma": "!ekonomiczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -148,7 +148,7 @@
         "temp_id": "5.13"
     },
     {
-        "lemma": "autorski",
+        "lemma": "!autorski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -161,7 +161,7 @@
         "temp_id": "5.14"
     },
     {
-        "lemma": "autorczy",
+        "lemma": "!autorczy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -175,7 +175,7 @@
     },
     {
         "lemma": "celny",
-        "tags": "xxxxxxxxx",
+        "tags": "5he,s",
         "translations": {
             "ENG": [
                 "accurate"
@@ -184,7 +184,7 @@
         "temp_id": "5.16"
     },
     {
-        "lemma": "badawczy",
+        "lemma": "!badawczy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -202,7 +202,7 @@
     },
     {
         "lemma": "automatyczny",
-        "tags": "xxxxxxxxx",
+        "tags": "5eng,TTT",
         "translations": {
             "ENG": [
                 "automatic",
@@ -217,19 +217,19 @@
     },
     {
         "lemma": "ręczny",
-        "tags": "xxxxxxxxx",
+        "tags": "5eng,TTT",
         "translations": {
             "ENG": [
                 "(relational)",
                 "manual",
-                "hand"
+                "hand-"
             ]
         },
         "temp_id": "5.19"
     },
     {
         "lemma": "samoczynny",
-        "tags": "xxxxxxxxx",
+      "tags": "5eng,TTT",
         "translations": {
             "ENG": [
                 "automatic"
@@ -239,17 +239,17 @@
     },
     {
         "lemma": "gniewny",
-        "tags": "xxxxxxxxx",
+        "tags": "3e",
         "translations": {
             "ENG": [
                 "wrathful",
-                "wroth"
+                "angry"
             ]
         },
         "temp_id": "5.21"
     },
     {
-        "lemma": "dynamiczny",
+        "lemma": "!dynamiczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -263,7 +263,7 @@
         "temp_id": "5.22"
     },
     {
-        "lemma": "prężny",
+        "lemma": "!prężny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -277,7 +277,7 @@
         "temp_id": "5.23"
     },
     {
-        "lemma": "ruchliwy",
+        "lemma": "!ruchliwy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -291,11 +291,11 @@
     },
     {
         "lemma": "żywiołowy",
-        "tags": "xxxxxxxxx",
+        "tags": "5py",
         "translations": {
             "ENG": [
                 "spontaneous",
-                "elemental",
+                "exuberant","lively",
                 "impulsive",
                 "impetuous"
             ]
@@ -303,7 +303,7 @@
         "temp_id": "5.25"
     },
     {
-        "lemma": "biurowy",
+        "lemma": "!biurowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -316,7 +316,7 @@
     },
     {
         "lemma": "elegancki",
-        "tags": "xxxxxxxxx",
+        "tags": "5gg,+,$",
         "translations": {
             "ENG": [
                 "elegant"
@@ -326,7 +326,7 @@
     },
     {
         "lemma": "wytworny",
-        "tags": "xxxxxxxxx",
+        "tags": "5gg,+,$",
         "translations": {
             "ENG": [
                 "smart",
