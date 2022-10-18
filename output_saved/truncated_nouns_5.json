@@ -151,7 +151,7 @@
     },
     {
         "lemma": "kościół",
-        "tags": "xxxxxxxxx",
+        "tags": "2lb,RR",
         "translations": {
             "ENG": [
                 "church",
@@ -165,7 +165,7 @@
     },
     {
         "lemma": "korzeń",
-        "tags": "xxxxxxxxx",
+        "tags": "4W,agr",
         "translations": {
             "ENG": [
                 "root",
@@ -179,20 +179,10 @@
     },
     {
         "lemma": "rząd",
-        "tags": "xxxxxxxxx",
+        "tags": "3ss,WW",
         "translations": {
             "ENG": [
-                "row",
-                "tack",
-                "(equipment and accessories worn by horses)",
-                "order",
-                "(taxonomy)",
-                "order",
-                "(algebra logic)",
-                "rank",
-                "(linear algebra)",
-                "rank",
-                "(chess)"
+                "row"
             ]
         },
         "temp_id": "5.16",
@@ -200,16 +190,10 @@
     },
     {
         "lemma": "rząd",
-        "tags": "xxxxxxxxx",
+        "tags": "2pol,l",
         "translations": {
             "ENG": [
-                "government management economy",
-                "(chiefly archaic)",
-                "government as an organ",
-                "cabinet executive branch",
-                "(politics informal)",
-                "reign leadership",
-                "(in the plural)"
+                "government"
             ]
         },
         "temp_id": "5.17",
@@ -217,11 +201,11 @@
     },
     {
         "lemma": "otwór",
-        "tags": "xxxxxxxxx",
+        "tags": "3ss",
         "translations": {
             "ENG": [
-                "hole opening orifice vent gap",
-                "foramen",
+                "hole","opening","orifice",
+
                 "(anatomy)"
             ]
         },
@@ -230,19 +214,10 @@
     },
     {
         "lemma": "okres",
-        "tags": "xxxxxxxxx",
+        "tags": "2at",
         "translations": {
             "ENG": [
-                "period",
-                "(a length of time) (literary)",
-                "period",
-                "(a period of time in history seen as a single coherent entity) (literary)",
-                "period",
-                "(the length of time during which the same characteristics of a periodic phenomenon recur) (literary)",
-                "period",
-                "(female menstruation) (physiology)",
-                "period",
-                "(full sentence) (rhetoric)"
+                "period"
             ]
         },
         "temp_id": "5.19",
@@ -250,14 +225,10 @@
     },
     {
         "lemma": "piętro",
-        "tags": "xxxxxxxxx",
+        "tags": "4hp",
         "translations": {
             "ENG": [
-                "floor storey story",
-                "stage",
-                "(geology)",
-                "altitudinal zone",
-                "(ecology)"
+                "floor","storey","story"
             ]
         },
         "temp_id": "5.20",
@@ -265,39 +236,17 @@
     },
     {
         "lemma": "baza",
-        "tags": "xxxxxxxxx",
+        "tags": "5he,W",
         "translations": {
             "ENG": [
-                "base basis = for what]",
-                "(foundation or location) [+genitive = for] or, (proscribed) [+ dla (genitive)",
-                "basis",
-                "(linearly independent set of vectors spanning the whole vector space) (mathematics)",
-                "base",
-                "(set of sets from which a topology is derived) (topology)",
-                "base",
-                "(lowermost part of a column) (architecture)",
-                "base",
-                "(place where someone or something stays during periods of inactivity because of its convenient location)",
-                "base",
-                "(totality of buildings, facilities, and equipment necessary to carry out a particular activity)",
-                "base",
-                "(permanent structure for housing military) (military)",
-                "charging base",
-                "(the part of a device permanently connected to electricity in which its movable part is placed in order to charge it) (electronics)",
-                "base",
-                "(one of the four places that a runner can stand without being subject to being tagged out when the ball is in play) (baseball)",
-                "base",
-                "(forces and relations of production that produce the necessities and amenities of life) (Marxism)",
-                "that serves as a basic foundation on which affixes can be attached)",
-                "(linguistics) base (morpheme (or morphemes)"
-            ]
+                "base","basis"    ]
         },
         "temp_id": "5.21",
         "gender": "f"
     },
     {
         "lemma": "śmierć",
-        "tags": "xxxxxxxxx",
+        "tags": "2phi,RR,bio",
         "translations": {
             "ENG": [
                 "death",
@@ -309,12 +258,21 @@
     },
     {
         "lemma": "kolej",
-        "tags": "xxxxxxxxx",
+        "tags": "4TT,ls",
         "translations": {
             "ENG": [
-                "railway railroad",
-                "(transport system)",
-                "a turn",
+                "railway","railroad"
+            ]
+        },
+        "temp_id": "5.23",
+        "gender": "f"
+    },
+    {
+        "lemma": "kolej",
+        "tags": "4yy,MM",
+        "translations": {
+            "ENG": [
+                "turn",
                 "(a chance to make a move)"
             ]
         },
@@ -323,13 +281,10 @@
     },
     {
         "lemma": "pieprz",
-        "tags": "xxxxxxxxx",
+        "tags": "4sv",
         "translations": {
             "ENG": [
-                "black pepper pepper",
-                "(plant or shrub)",
-                "black pepper pepper",
-                "(spice made from said plant)"
+                "black pepper","pepper"
             ]
         },
         "temp_id": "5.24",
@@ -337,7 +292,7 @@
     },
     {
         "lemma": "rzeka",
-        "tags": "xxxxxxxxx",
+        "tags": "2ln",
         "translations": {
             "ENG": [
                 "river"
