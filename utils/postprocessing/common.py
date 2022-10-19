@@ -268,7 +268,7 @@ def check_manual_whittling_was_done(lobjs_truncated):
     for lemma_object in lobjs_truncated:
         if not lemma_object["lemma"].startswith("!"):
             if not lemma_object["tags"] or not len(lemma_object["tags"]) \
-                    or lemma_object["tags"] == "xxxxxxxxx":
+                    or lemma_object["tags"] == "xxx":
                 lobjs_with_placeholder_tags.append(lemma_object)
             elif lemma_object["tags"][0] not in ["1", "2", "3", "4", "5"]:
                 lobjs_with_no_frequency_tag.append(lemma_object)

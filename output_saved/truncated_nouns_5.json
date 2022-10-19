@@ -303,7 +303,7 @@
     },
     {
         "lemma": "złodziej",
-        "tags": "xxxxxxxxx",
+        "tags": "3B,p",
         "translations": {
             "ENG": [
                 "thief",
@@ -315,10 +315,10 @@
     },
     {
         "lemma": "wygląd",
-        "tags": "xxxxxxxxx",
+        "tags": "4kk,pp",
         "translations": {
             "ENG": [
-                "look appearance"
+                "look","appearance"
             ]
         },
         "temp_id": "5.27",
@@ -326,10 +326,10 @@
     },
     {
         "lemma": "walka",
-        "tags": "xxxxxxxxx",
+        "tags": "4XX,XXX",
         "translations": {
             "ENG": [
-                "combat fight struggle"
+                "combat","fight","struggle"
             ]
         },
         "temp_id": "5.28",
@@ -337,7 +337,7 @@
     },
     {
         "lemma": "apteka",
-        "tags": "xxxxxxxxx",
+        "tags": "2lb,med",
         "translations": {
             "ENG": [
                 "pharmacy",
@@ -349,7 +349,7 @@
     },
     {
         "lemma": "kelner",
-        "tags": "xxxxxxxxx",
+        "tags": "3j,coo,PP",
         "translations": {
             "ENG": [
                 "waiter",
@@ -361,7 +361,7 @@
     },
     {
         "lemma": "gęś",
-        "tags": "xxxxxxxxx",
+        "tags": "3a",
         "translations": {
             "ENG": [
                 "goose",
@@ -373,7 +373,7 @@
     },
     {
         "lemma": "skrzypce",
-        "tags": "xxxxxxxxx",
+        "tags": "4mu",
         "translations": {
             "ENG": [
                 "violin",
@@ -385,7 +385,7 @@
     },
     {
         "lemma": "krew",
-        "tags": "xxxxxxxxx",
+        "tags": "3bio,med,XX",
         "translations": {
             "ENG": [
                 "blood"
@@ -396,23 +396,27 @@
     },
     {
         "lemma": "błoto",
-        "tags": "xxxxxxxxx",
+        "tags": "3c,agr",
         "translations": {
             "ENG": [
-                "mud",
-                "(soil and water)",
-                "marsh swamp",
-                "(often in the plural)",
-                "bog quagmire",
-                "(difficult situation) (figuratively)"
-            ]
+                "mud"    ]
+        },
+        "temp_id": "5.34",
+        "gender": "n"
+    },
+    {
+        "lemma": "błoto",
+        "tags": "4ln",
+        "translations": {
+            "ENG": [
+                "marsh","swamp"  ]
         },
         "temp_id": "5.34",
         "gender": "n"
     },
     {
         "lemma": "soczewica",
-        "tags": "xxxxxxxxx",
+        "tags": "3sv",
         "translations": {
             "ENG": [
                 "lentil"
@@ -423,7 +427,7 @@
     },
     {
         "lemma": "księżyc",
-        "tags": "xxxxxxxxx",
+        "tags": "3ls,ast",
         "translations": {
             "ENG": [
                 "moon"
@@ -434,18 +438,11 @@
     },
     {
         "lemma": "dziura",
-        "tags": "xxxxxxxxx",
+        "tags": "3ss",
         "translations": {
             "ENG": [
                 "hole",
-                "cavity",
-                "(hole in a tooth) (colloquial)",
-                "backwater",
-                "(place that is impoverished and perceived as far from civilization) (colloquial derogatory)",
-                "vagina",
-                "(vulgar)",
-                "cave cavern",
-                "(informal)"
+                "cavity"
             ]
         },
         "temp_id": "5.37",
@@ -453,7 +450,7 @@
     },
     {
         "lemma": "inżynier",
-        "tags": "xxxxxxxxx",
+        "tags": "3j,eng",
         "translations": {
             "ENG": [
                 "engineer",
@@ -465,10 +462,10 @@
     },
     {
         "lemma": "papryka",
-        "tags": "xxxxxxxxx",
+        "tags": "4vg",
         "translations": {
             "ENG": [
-                "pepper bell pepper",
+                "pepper","bell pepper",
                 "paprika",
                 "(spice)"
             ]
@@ -478,10 +475,20 @@
     },
     {
         "lemma": "skóra",
-        "tags": "xxxxxxxxx",
+        "tags": "2b",
         "translations": {
             "ENG": [
-                "skin",
+                "skin"
+            ]
+        },
+        "temp_id": "5.40",
+        "gender": "f"
+    },
+    {
+        "lemma": "skóra",
+        "tags": "3c,gg",
+        "translations": {
+            "ENG": [
                 "leather"
             ]
         },
@@ -490,16 +497,10 @@
     },
     {
         "lemma": "godzina",
-        "tags": "xxxxxxxxx",
+        "tags": "1at",
         "translations": {
             "ENG": [
-                "hour",
-                "(time period of sixty minutes)",
-                "o'clock",
-                "hour",
-                "(season, moment, or time)",
-                "lesson of forty-five minutes",
-                "(education)"
+                "hour"
             ]
         },
         "temp_id": "5.41",
@@ -507,11 +508,11 @@
     },
     {
         "lemma": "ziemia",
-        "tags": "xxxxxxxxx",
+        "tags": "2agr,c",
         "translations": {
             "ENG": [
                 "earth",
-                "land ground soil"
+                "land","ground","soil"
             ]
         },
         "temp_id": "5.42",
@@ -519,7 +520,7 @@
     },
     {
         "lemma": "myśl",
-        "tags": "xxxxxxxxx",
+        "tags": "3Y",
         "translations": {
             "ENG": [
                 "thought"
@@ -530,7 +531,7 @@
     },
     {
         "lemma": "przyjemność",
-        "tags": "xxxxxxxxx",
+        "tags": "4e",
         "translations": {
             "ENG": [
                 "pleasure"
@@ -541,12 +542,10 @@
     },
     {
         "lemma": "pokój",
-        "tags": "xxxxxxxxx",
+        "tags": "2lr",
         "translations": {
             "ENG": [
-                "peace",
-                "(absence of conflict, violence, or war)",
-                "room",
+                 "room",
                 "(part of a building)"
             ]
         },
@@ -554,13 +553,23 @@
         "gender": "m3"
     },
     {
-        "lemma": "gąsienica",
-        "tags": "xxxxxxxxx",
+        "lemma": "pokój",
+        "tags": "4e,XXX",
         "translations": {
             "ENG": [
-                "caterpillar",
-                "(the larva of a butterfly)",
-                "caterpillar track"
+                "peace",
+                "(absence of conflict, violence, or war)"
+            ]
+        },
+        "temp_id": "5.45",
+        "gender": "m3"
+    },
+    {
+        "lemma": "gąsienica",
+        "tags": "3ai",
+        "translations": {
+            "ENG": [
+                "caterpillar"
             ]
         },
         "temp_id": "5.46",
@@ -568,28 +577,20 @@
     },
     {
         "lemma": "reszta",
-        "tags": "xxxxxxxxx",
+        "tags": "3mat,WW",
         "translations": {
             "ENG": [
-                "rest",
-                "(remainder)",
-                "change",
-                "(money given back when a customer hands over more than the exact price)",
-                "remainder",
-                "(amount left after repeatedly subtracting divisor) (arithmetic)"
-            ]
+                "rest","remainder" ]
         },
         "temp_id": "5.47",
         "gender": "f"
     },
     {
         "lemma": "pochwa",
-        "tags": "xxxxxxxxx",
+        "tags": "3b,Z",
         "translations": {
             "ENG": [
-                "vagina",
-                "(anatomy)",
-                "sheath holster scabbard"
+                "vagina"
             ]
         },
         "temp_id": "5.48",
@@ -597,16 +598,10 @@
     },
     {
         "lemma": "sklep",
-        "tags": "xxxxxxxxx",
+        "tags": "2lb,$",
         "translations": {
             "ENG": [
-                "shop store [from 17 th c.]",
-                "(establishment that sells goods)",
-                "cellar vault",
-                "(underground storage place) (obsolete)",
-                "vault",
-                "(masonry structure) (obsolete)"
-            ]
+                "shop","store"  ]
         },
         "temp_id": "5.49",
         "gender": "m3"

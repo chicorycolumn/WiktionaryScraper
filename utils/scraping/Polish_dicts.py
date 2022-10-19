@@ -407,6 +407,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["work"],
     },
+    "jj": {  # duplicate for mental ease
+        "tags": [],
+        "topics": ["work"],
+    },
     "s": {
         "tags": [],
         "topics": ["school"],
@@ -535,6 +539,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["agriculture"],
     },
+    "gar": {  # duplicate for mental ease
+        "tags": [],
+        "topics": ["agriculture"],
+    },
     "art": {
         "tags": [],
         "topics": ["art"],
@@ -586,6 +594,10 @@ shorthand_tag_refs = {
     "mat": {
         "tags": [],
         "topics": ["math"],
+    },
+    "mu": {
+        "tags": ["musical instrument"],
+        "topics": ["music"],
     },
     "mus": {
         "tags": [],

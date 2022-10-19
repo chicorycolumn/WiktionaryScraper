@@ -94,7 +94,7 @@ class PolishAdjectiveParser(HTMLParser):
         self.output_obj.pop("lemma")
         self.output_obj["lemma"] = lemma
 
-        self.output_obj["tags"] = "xxxxxxxxx"
+        self.output_obj["tags"] = "xxx"
 
         self.output_obj["translations"] = deepcopy(self.output_obj["translations"])
 
