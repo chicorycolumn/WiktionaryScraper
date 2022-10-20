@@ -608,11 +608,21 @@
     },
     {
         "lemma": "brąz",
-        "tags": "xxxxxxxxx",
+        "tags": "3k",
         "translations": {
             "ENG": [
                 "brown",
-                "(colour)",
+                "(colour)"
+            ]
+        },
+        "temp_id": "5.50",
+        "gender": "m3"
+    },
+    {
+        "lemma": "brąz",
+        "tags": "3c",
+        "translations": {
+            "ENG": [
                 "bronze",
                 "(metal alloy)"
             ]
@@ -622,10 +632,9 @@
     },
     {
         "lemma": "tłumaczenie",
-        "tags": "xxxxxxxxx",
+        "tags": "4an,££",
         "translations": {
             "ENG": [
-                "verbal noun of tłumaczyć",
                 "translation",
                 "(act of translating between languages)"
             ]
@@ -635,7 +644,7 @@
     },
     {
         "lemma": "tłuszcz",
-        "tags": "xxxxxxxxx",
+        "tags": "4bio,ff",
         "translations": {
             "ENG": [
                 "fat",
@@ -649,12 +658,12 @@
     },
     {
         "lemma": "przedmiot",
-        "tags": "xxxxxxxxx",
+        "tags": "4eee",
         "translations": {
             "ENG": [
                 "subject",
                 "(particular area of study)",
-                "thing object"
+                "thing","object"
             ]
         },
         "temp_id": "5.53",
@@ -662,10 +671,11 @@
     },
     {
         "lemma": "dzik",
-        "tags": "xxxxxxxxx",
+        "tags": "4a",
         "translations": {
             "ENG": [
                 "wild boar",
+                "boar",
                 "(Sus scrofa)"
             ]
         },
@@ -673,7 +683,7 @@
         "gender": "m2"
     },
     {
-        "lemma": "dzik",
+        "lemma": "!dzik",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -686,7 +696,7 @@
     },
     {
         "lemma": "przyszłość",
-        "tags": "xxxxxxxxx",
+        "tags": "3at",
         "translations": {
             "ENG": [
                 "future",
@@ -697,7 +707,7 @@
         "gender": "f"
     },
     {
-        "lemma": "wata",
+        "lemma": "!wata",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -710,7 +720,7 @@
     },
     {
         "lemma": "popiół",
-        "tags": "xxxxxxxxx",
+        "tags": "4c",
         "translations": {
             "ENG": [
                 "ash",
@@ -722,7 +732,7 @@
     },
     {
         "lemma": "mięso",
-        "tags": "xxxxxxxxx",
+        "tags": "2sv",
         "translations": {
             "ENG": [
                 "meat",
@@ -734,7 +744,7 @@
     },
     {
         "lemma": "włos",
-        "tags": "xxxxxxxxx",
+        "tags": "2b,ggg",
         "translations": {
             "ENG": [
                 "hair",
@@ -746,7 +756,7 @@
     },
     {
         "lemma": "papież",
-        "tags": "xxxxxxxxx",
+        "tags": "4t,RR",
         "translations": {
             "ENG": [
                 "pope",
@@ -757,7 +767,7 @@
         "gender": "m1"
     },
     {
-        "lemma": "benzen",
+        "lemma": "!benzen",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -770,7 +780,7 @@
     },
     {
         "lemma": "żołądek",
-        "tags": "xxxxxxxxx",
+        "tags": "3b",
         "translations": {
             "ENG": [
                 "stomach",
@@ -782,7 +792,7 @@
     },
     {
         "lemma": "policja",
-        "tags": "xxxxxxxxx",
+        "tags": "2t",
         "translations": {
             "ENG": [
                 "police",
@@ -794,20 +804,18 @@
     },
     {
         "lemma": "obcy",
-        "tags": "xxxxxxxxx",
+        "tags": "4ast",
         "translations": {
             "ENG": [
                 "stranger",
-                "extraterrestrial space alien",
-                "(science fiction ufology)"
-            ]
+                "alien" ]
         },
         "temp_id": "5.65",
         "gender": "m1"
     },
     {
         "lemma": "piasek",
-        "tags": "xxxxxxxxx",
+        "tags": "3PP,c,geo",
         "translations": {
             "ENG": [
                 "sand"
@@ -818,7 +826,7 @@
     },
     {
         "lemma": "kierowca",
-        "tags": "xxxxxxxxx",
+        "tags": "3j,TTT",
         "translations": {
             "ENG": [
                 "driver",
@@ -830,7 +838,7 @@
     },
     {
         "lemma": "wartość",
-        "tags": "xxxxxxxxx",
+        "tags": "4eee,$",
         "translations": {
             "ENG": [
                 "value",
@@ -842,22 +850,27 @@
     },
     {
         "lemma": "małpa",
-        "tags": "xxxxxxxxx",
+        "tags": "2a",
         "translations": {
             "ENG": [
-                "monkey ape",
-                "(primate)",
-                "at sign",
-                "a black person, a person of African ancestry",
-                "(derogatory ethnic slur)"
-            ]
+                "monkey","ape"  ]
+        },
+        "temp_id": "5.69",
+        "gender": "f"
+    },
+    {
+        "lemma": "małpa",
+        "tags": "3oo",
+        "translations": {
+            "ENG": [
+                "at sign","at-sign"  ]
         },
         "temp_id": "5.69",
         "gender": "f"
     },
     {
         "lemma": "żelazo",
-        "tags": "xxxxxxxxx",
+        "tags": "4c,C,eng",
         "translations": {
             "ENG": [
                 "iron",
@@ -868,7 +881,7 @@
         "gender": "n"
     },
     {
-        "lemma": "sokół",
+        "lemma": "!sokół",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -881,7 +894,7 @@
     },
     {
         "lemma": "miedź",
-        "tags": "xxxxxxxxx",
+        "tags": "4c,C,eng",
         "translations": {
             "ENG": [
                 "copper",
@@ -893,11 +906,10 @@
     },
     {
         "lemma": "więzienie",
-        "tags": "xxxxxxxxx",
+        "tags": "3lb,l,B",
         "translations": {
             "ENG": [
-                "verbal noun of więzić",
-                "prison jail"
+                "prison","jail"
             ]
         },
         "temp_id": "5.73",
