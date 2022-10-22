@@ -1151,10 +1151,20 @@
     },
     {
         "lemma": "róg",
-        "tags": "xxxxxxxxx",
+        "tags": "3ba",
         "translations": {
             "ENG": [
-                "horn",
+                "horn"
+            ]
+        },
+        "temp_id": "5.94",
+        "gender": "m3"
+    },
+    {
+        "lemma": "róg",
+        "tags": "4hp,W",
+        "translations": {
+            "ENG": [
                 "corner"
             ]
         },
@@ -1163,10 +1173,11 @@
     },
     {
         "lemma": "konewka",
-        "tags": "xxxxxxxxx",
+        "tags": "3gar,@@",
         "translations": {
             "ENG": [
-                "watering can"
+                "watering can",
+                "watering-can"
             ]
         },
         "temp_id": "5.95",
@@ -1174,7 +1185,7 @@
     },
     {
         "lemma": "liczba",
-        "tags": "xxxxxxxxx",
+        "tags": "2mat,s",
         "translations": {
             "ENG": [
                 "number",
@@ -1188,7 +1199,7 @@
     },
     {
         "lemma": "szyja",
-        "tags": "xxxxxxxxx",
+        "tags": "3b",
         "translations": {
             "ENG": [
                 "neck"
@@ -1198,7 +1209,7 @@
         "gender": "f"
     },
     {
-        "lemma": "zieleń",
+        "lemma": "!zieleń",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1211,7 +1222,7 @@
         "gender": "f"
     },
     {
-        "lemma": "kilka",
+        "lemma": "!kilka",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1223,19 +1234,16 @@
     },
     {
         "lemma": "podpis",
-        "tags": "xxxxxxxxx",
+        "tags": "3$,l,wri",
         "translations": {
             "ENG": [
-                "signature",
-                "caption",
-                "(text under illustrations)"
-            ]
+                "signature" ]
         },
         "temp_id": "5.100",
         "gender": "m3"
     },
     {
-        "lemma": "widzenie",
+        "lemma": "!widzenie",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1250,7 +1258,7 @@
     },
     {
         "lemma": "pułkownik",
-        "tags": "xxxxxxxxx",
+        "tags": "3t,XXX",
         "translations": {
             "ENG": [
                 "colonel"
@@ -1260,7 +1268,7 @@
         "gender": "m1"
     },
     {
-        "lemma": "Maj",
+        "lemma": "!Maj",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1272,11 +1280,10 @@
     },
     {
         "lemma": "mobbing",
-        "tags": "xxxxxxxxx",
+        "tags": "3s,XX",
         "translations": {
             "ENG": [
-                "mobbing",
-                "(group bullying)"
+                "bullying"
             ]
         },
         "temp_id": "5.104",
@@ -1284,21 +1291,20 @@
     },
     {
         "lemma": "węgorz",
-        "tags": "xxxxxxxxx",
+        "tags": "5a",
         "translations": {
             "ENG": [
-                "any eel belonging to the genus Anguilla"
-            ]
+"eel"            ]
         },
         "temp_id": "5.105",
         "gender": "m2"
     },
     {
         "lemma": "księgarnia",
-        "tags": "xxxxxxxxx",
+        "tags": "3lb,$,s",
         "translations": {
             "ENG": [
-                "bookshop bookstore",
+                "bookshop","bookstore",
                 "bookseller",
                 "(business)"
             ]
