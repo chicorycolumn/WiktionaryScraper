@@ -1314,7 +1314,7 @@
     },
     {
         "lemma": "tuńczyk",
-        "tags": "xxxxxxxxx",
+        "tags": "3sv",
         "translations": {
             "ENG": [
                 "tuna",
@@ -1325,7 +1325,7 @@
         "gender": "m2"
     },
     {
-        "lemma": "klinika",
+        "lemma": "!klinika",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1337,10 +1337,9 @@
     },
     {
         "lemma": "zegarek",
-        "tags": "xxxxxxxxx",
+        "tags": "4g,t",
         "translations": {
             "ENG": [
-                "Diminutive of zegar .",
                 "watch",
                 "(a portable or wearable timepiece)"
             ]
@@ -1349,7 +1348,7 @@
         "gender": "m3"
     },
     {
-        "lemma": "pstrąg",
+        "lemma": "!pstrąg",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1362,12 +1361,21 @@
     },
     {
         "lemma": "zawód",
-        "tags": "xxxxxxxxx",
+        "tags": "3w",
         "translations": {
             "ENG": [
-                "profession occupation",
-                "job",
-                "(economic role for which a person is paid)",
+                "profession","occupation",
+                "job"
+            ]
+        },
+        "temp_id": "5.111",
+        "gender": "m3"
+    },
+    {
+        "lemma": "zawód",
+        "tags": "4e,-",
+        "translations": {
+            "ENG": [
                 "disappointment"
             ]
         },
@@ -1376,7 +1384,7 @@
     },
     {
         "lemma": "winogrono",
-        "tags": "xxxxxxxxx",
+        "tags": "2fr",
         "translations": {
             "ENG": [
                 "grape",
@@ -1388,17 +1396,17 @@
     },
     {
         "lemma": "przychód",
-        "tags": "xxxxxxxxx",
+        "tags": "3w,$",
         "translations": {
             "ENG": [
-                "gross income"
+                "gross income","income"
             ]
         },
         "temp_id": "5.113",
         "gender": "m3"
     },
     {
-        "lemma": "rój",
+        "lemma": "!rój",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1410,10 +1418,10 @@
     },
     {
         "lemma": "ilość",
-        "tags": "xxxxxxxxx",
+        "tags": "3mat,$",
         "translations": {
             "ENG": [
-                "quantity",
+                "quantity","amount",
                 "(a fundamental, generic term used when referring to the measurement)"
             ]
         },
@@ -1422,13 +1430,23 @@
     },
     {
         "lemma": "obiekt",
-        "tags": "xxxxxxxxx",
+        "tags": "4eee",
         "translations": {
             "ENG": [
                 "object",
-                "(thing)",
+                "thing"
+            ]
+        },
+        "temp_id": "5.116",
+        "gender": "m3"
+    },
+    {
+        "lemma": "obiekt",
+        "tags": "4lb",
+        "translations": {
+            "ENG": [
                 "facility",
-                "(place)"
+                "property"
             ]
         },
         "temp_id": "5.116",
@@ -1436,7 +1454,7 @@
     },
     {
         "lemma": "trucizna",
-        "tags": "xxxxxxxxx",
+        "tags": "3ff,X",
         "translations": {
             "ENG": [
                 "poison",
@@ -1447,7 +1465,7 @@
         "gender": "f"
     },
     {
-        "lemma": "pluton",
+        "lemma": "!pluton",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1458,7 +1476,7 @@
         "gender": "m3"
     },
     {
-        "lemma": "pluton",
+        "lemma": "!pluton",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
