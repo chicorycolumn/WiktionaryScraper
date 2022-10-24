@@ -13,9 +13,9 @@ if __name__ == '__main__':
     #     if el[-1] not in ["y", "i"]:
     #         print(el)
 
-    step = 2
-    group_number = 4
-    input_indexes = [0, 300]
+    step = 1
+    group_number = 5
+    input_indexes = [0, 350]
     wordtype = "v"
     these_headwords_only = []
     # these_headwords_only = ['lekki']

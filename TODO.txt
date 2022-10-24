@@ -91,3 +91,40 @@ Set second "lato" to pluralOnly.
 
 skrzypce is tantum plurale
 hair can be singular but is normally plural
+
+2022-10-24 17:54 To "pol-nco-452-rząd(row)" ID appended "row"...
+2022-10-24 17:54                                ...I assume "pol-nco-453-rząd(government)" is not merely a duplicate.
+2022-10-24 17:54 To "pol-nco-459-kolej(railway)" ID appended "railway"...
+2022-10-24 17:54                                ...I assume "pol-nco-460-kolej(turn)" is not merely a duplicate.
+2022-10-24 17:54 To "pol-nco-469-błoto(mud)" ID appended "mud"...
+2022-10-24 17:54                                ...I assume "pol-nco-470-błoto(marsh)" is not merely a duplicate.
+2022-10-24 17:54 To "pol-nco-475-skóra(skin)" ID appended "skin"...
+2022-10-24 17:54                                ...I assume "pol-nco-476-skóra(leather)" is not merely a duplicate.
+2022-10-24 17:54 To "pol-nco-481-pokój(room)" ID appended "room"...
+2022-10-24 17:54                                ...I assume "pol-nco-482-pokój(peace)" is not merely a duplicate.
+2022-10-24 17:54 To "pol-nco-487-brąz(brown)" ID appended "brown"...
+2022-10-24 17:54                                ...I assume "pol-nco-488-brąz(bronze)" is not merely a duplicate.
+2022-10-24 17:54 To "pol-nco-500-małpa(monkey)" ID appended "monkey"...
+2022-10-24 17:54                                ...I assume "pol-nco-501-małpa(at sign)" is not merely a duplicate.
+2022-10-24 17:54 To "pol-nco-523-róg(horn)" ID appended "horn"...
+2022-10-24 17:54                                ...I assume "pol-nco-524-róg(corner)" is not merely a duplicate.
+2022-10-24 17:54 To "pol-nco-534-zawód(profession)" ID appended "profession"...
+2022-10-24 17:54                                ...I assume "pol-nco-535-zawód(disappointment)" is not merely a duplicate.
+2022-10-24 17:54 To "pol-nco-539-obiekt(object)" ID appended "object"...
+2022-10-24 17:54                                ...I assume "pol-nco-540-obiekt(facility)" is not merely a duplicate.
+
+2022-10-24 17:59 Want to parse any of 66 extra nouns-lemmas? (I did not because of wordtype) ['osiołek', 'majtasy', 'urzędzik', 'pingwinek', 'kombinatorka', 'aniołek', 'bogini', 'piłeczka', 'kamyk', 'bożek', 'kanapeczka', 'przestępczyni', 'strzałka', 'wróbelek', 'koszulka', 'kalendarzyk', 'buteleczka', 'biedroneczka', 'kamor', 'kartoflisko', 'zdanko', 'gołąbek', 'stateczek', 'rajstopki', 'cząstka', 'gołębica', 'papierosek', 'pytańko', 'teściowa', 'sznureczek', 'komóra', 'plecki', 'kijek', 'kapelusik', 'kartofelek', 'czółko', 'jajeczko', 'anielica', 'komóreczka', 'lodówa', 'walizeczka', 'strażaczek', 'wróblica', 'kwadracik', 'szufladka', 'adwokatka', 'adwokacik', 'kapeluszysko', 'butla', 'nożyce', 'spodenki', 'gruszeczka', 'dzwonek', 'owieczka', 'dzięciołek', 'wróblisko', 'motylek', 'zupka', 'pytanko', 'majteczki', 'lodóweczka', 'majciochy', 'grzybek', 'kapelusisko', 'krzesełko', 'jajco']
+
+2022-10-24 18:05 There are 30 doubly extra adjectives-headwords, they have not been parsed: ['zawadiacki', 'zuchwały', 'poufny', 'hitowy', 'unikalny', 'nieistotny', 'entirely', 'oględny', 'nieżywotny', 'dyskretny', 'sceniczny', 'rozdzielny', 'niewielki', 'zamaszysty', 'nierozpoznawalny', 'wymyślny', 'znaczny', 'sprężysty', 'bestsellerowy', 'filigranowy', 'życiodajny', 'gracki', 'szlagierowy', 'rzeźwy', 'completely', 'buńczuczny', 'hinduistyczny', 'niewidoczny', 'taktowny', 'zadzierzysty']
+
+2022-10-24 18:08 Verbs. #ERR "kazać" output_obj["aspect"] is ['impf', 'or', 'pf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-10-24 18:08 Verbs. #ERR "kazać" output_obj["aspect"] is ['impf', 'or', 'pf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-10-24 18:08 Verbs. At least two lobjs of "kopać" will need allohomInfo added.
+2022-10-24 18:09 Verbs. #ERR "defective verb" output_obj["aspect"] is [] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-10-24 18:10 Verbs. #ERR "charakteryzować" output_obj["aspect"] is ['impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-10-24 18:10 Verbs. At least two lobjs of "jęczeć" will need allohomInfo added.
+2022-10-24 18:11 Verbs. At least two lobjs of "zagrozić" will need allohomInfo added.
+2022-10-24 18:11 There are 7 doubly extra verbs-headwords, they have not been parsed: ['wykopywać', 'zagrażać', 'ukrywać', 'zaczerpywać', 'zgromadzać', 'skrywać', 'okrążać']
+2022-10-24 18:11 "brakować" has defective or strange inflections table. Kicking it out of verbs.
+2022-10-24 18:11 "godzić" has defective or strange inflections table. Kicking it out of verbs.
+2022-10-24 18:11 "charakteryzować" has no infinitive. Kicking it out of verbs.
