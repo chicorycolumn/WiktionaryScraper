@@ -8,3 +8,6 @@ translations, unless specificLemmaIds is set.
 Square brackets after translation of verbs give info about transitive (default so no square brackets), intransitive [i]
 and reflexive [r]. These square brackets should be filtered out by Palette processor, so that matching across languages
 can take place.
+
+Sometimes for adjectives a comparative is scraped as a whole lobj on its own - ie "starszy". But don't bother keeping
+these, they should be scraped and stored within the main lemma "stary".
