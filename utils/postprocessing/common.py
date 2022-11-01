@@ -303,25 +303,38 @@ def untruncate_lemma_objects(group_number, wordtype):
         f.close()
 
     check_manual_whittling_was_done(lobjs_truncated)
+    user_rejected_lemmas = []
 
     for lobj_truncated in lobjs_truncated:
 
-        if True in (res_lobj["temp_id"] == lobj_truncated["temp_id"] for res_lobj in res_arr):
-            lobj_truncated["temp_id"] = lobj_truncated["temp_id"] \
-                                        + random.choice(string.ascii_letters) \
-                                        + random.choice(string.ascii_letters) \
-                                        + random.choice(string.ascii_letters) \
-                                        + random.choice(string.ascii_letters) \
-                                        + random.choice(string.ascii_letters)
-            print(4890, lobj_truncated["temp_id"])
+        if lobj_truncated["lemma"].startswith("!"):
+            user_rejected_lemmas.append(lobj_truncated["lemma"])
+        else:
+            if True in (res_lobj["temp_id"] == lobj_truncated["temp_id"] for res_lobj in res_arr):
+                lobj_truncated["temp_id"] = lobj_truncated["temp_id"] \
+                                            + random.choice(string.ascii_letters) \
+                                            + random.choice(string.ascii_letters) \
+                                            + random.choice(string.ascii_letters) \
+                                            + random.choice(string.ascii_letters) \
+                                            + random.choice(string.ascii_letters)
+                print(4890, lobj_truncated["temp_id"])
 
-        lobj_long = [l for l in lobjs_long if l["temp_id"] == get_base_temp_id(lobj_truncated["temp_id"])][0]
+            lobj_long = [l for l in lobjs_long if l["temp_id"] == get_base_temp_id(lobj_truncated["temp_id"])][0]
 
-        for key in lobj_long:
-            if key not in lobj_truncated:
-                lobj_truncated[key] = lobj_long[key]
+            for key in lobj_long:
+                if key not in lobj_truncated:
+                    lobj_truncated[key] = lobj_long[key]
 
-        res_arr.append(lobj_truncated)
+            res_arr.append(lobj_truncated)
+
+    rejected_filepath = f"output_saved/rejected/rejected_{wordtype}_{group_number}.json"
+    with open(rejected_filepath, "r") as f:
+        rejected_json = json.load(f)
+        f.close()
+    rejected_json["user_rejected"] = user_rejected_lemmas
+    json_object = json.dumps(rejected_json, indent=4, ensure_ascii=False)
+    with open(rejected_filepath, "w") as outfile:
+        outfile.write(json_object)
 
     write_output(res_arr, f"untruncated_{wordtype}_{group_number}", f"output_saved")
 
@@ -370,10 +383,9 @@ def expand_tags_and_topics(group_number, wordtype):
         f.close()
 
     for lemma_object in untruncated_lobjs:
-        if not lemma_object["lemma"].startswith("!"):
-            lemma_object["translations"]["ENG"] = auto_whittle_translations_arr(lemma_object["translations"]["ENG"])
-            add_tags_and_topics_from_shorthand(lemma_object, shorthand_tag_refs, wordtype)
-            res_arr.append(lemma_object)
+        lemma_object["translations"]["ENG"] = auto_whittle_translations_arr(lemma_object["translations"]["ENG"])
+        add_tags_and_topics_from_shorthand(lemma_object, shorthand_tag_refs, wordtype)
+        res_arr.append(lemma_object)
 
     return res_arr
 
