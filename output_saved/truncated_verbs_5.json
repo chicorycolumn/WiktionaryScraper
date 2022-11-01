@@ -1,6 +1,6 @@
 [
     {
-        "lemma": "dysponować",
+        "lemma": "!dysponować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -11,19 +11,19 @@
         "temp_id": "5.1"
     },
     {
-        "lemma": "ciążyć",
+        "lemma": "!ciążyć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
                 "to be heavy[i]",
                 "to weigh on[i]",
-                "to gravitate[i] (to tend or drift towards someone or something)"
+                "to gravitate[i]"
             ]
         },
         "temp_id": "5.2"
     },
     {
-        "lemma": "zaciążyć",
+        "lemma": "!zaciążyć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -52,7 +52,7 @@
         "temp_id": "5.4"
     },
     {
-        "lemma": "argumentować",
+        "lemma": "!argumentować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -62,7 +62,7 @@
         "temp_id": "5.5"
     },
     {
-        "lemma": "gładzić",
+        "lemma": "!gładzić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -76,7 +76,7 @@
         "temp_id": "5.6"
     },
     {
-        "lemma": "pogładzić",
+        "lemma": "!pogładzić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -87,7 +87,7 @@
         "temp_id": "5.7"
     },
     {
-        "lemma": "lać",
+        "lemma": "!lać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -103,7 +103,7 @@
         "temp_id": "5.8"
     },
     {
-        "lemma": "krytykować",
+        "lemma": "!krytykować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -113,7 +113,7 @@
         "temp_id": "5.9"
     },
     {
-        "lemma": "skrytykować",
+        "lemma": "!skrytykować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -124,7 +124,7 @@
     },
     {
         "lemma": "istnieć",
-        "tags": "xxxxxxxxx",
+        "tags": "3eee,phi",
         "translations": {
             "ENG": [
                 "to exist[i]"
@@ -133,7 +133,7 @@
         "temp_id": "5.11"
     },
     {
-        "lemma": "dominować",
+        "lemma": "!dominować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -144,7 +144,7 @@
         "temp_id": "5.12"
     },
     {
-        "lemma": "zdominować",
+        "lemma": "!zdominować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -155,72 +155,60 @@
     },
     {
         "lemma": "kopać",
-        "tags": "xxxxxxxxx",
+        "tags": "3yy,v,XX",
         "translations": {
             "ENG": [
-                "to kick (strike with or raise the foot or leg)",
-                "to kick[t,of,a,gun] (to recoil)",
-                "to electrocute (to recoil)",
-                "to kick oneself[r]",
-                "to kick each other[r]"
+                "to kick"
             ]
         },
         "temp_id": "5.14"
     },
     {
         "lemma": "kopać",
-        "tags": "xxxxxxxxx",
+        "tags": "4gar",
         "translations": {
             "ENG": [
-                "to dig (make a hole)",
-                "to dig (to find the truth)"
+                "to dig"
             ]
         },
         "temp_id": "5.15"
     },
     {
         "lemma": "kopnąć",
-        "tags": "xxxxxxxxx",
+        "tags": "3yy,v,XX",
         "translations": {
             "ENG": [
-                "to kick (strike with or raise the foot or leg)",
-                "to kick[t,of,a,gun] (to recoil)",
-                "to electrocute (to recoil)",
-                "to kick oneself[r]",
-                "to kick each other[r]"
+                "to kick"
             ]
         },
         "temp_id": "5.16"
     },
     {
         "lemma": "wykopać",
-        "tags": "xxxxxxxxx",
+        "tags": "4gar",
         "translations": {
             "ENG": [
-                "to dig (e.g., a hole)",
-                "to dig out (e.g., a flower)",
-                "to dig oneself out of somewhere[r]"
+                "to dig"
             ]
         },
         "temp_id": "5.17"
     },
     {
         "lemma": "krzyczeć",
-        "tags": "xxxxxxxxx",
+        "tags": "3!,s",
         "translations": {
             "ENG": [
-                "to shout[t,i]"
+                "to shout"
             ]
         },
         "temp_id": "5.19"
     },
     {
         "lemma": "krzyknąć",
-        "tags": "xxxxxxxxx",
+   "tags": "3!,s",
         "translations": {
             "ENG": [
-                "to shout",
-                "to cry[t,i]"
+                "to shout"
             ]
         },
         "temp_id": "5.20"
