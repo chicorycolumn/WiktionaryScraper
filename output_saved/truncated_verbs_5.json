@@ -215,19 +215,19 @@
     },
     {
         "lemma": "drgnąć",
-        "tags": "xxxxxxxxx",
+        "tags": "5v",
         "translations": {
             "ENG": [
-                "to make small movements",
-                "to wince",
-                "to twitch[i]"
+                "to vibrate",
+                "to tremble",
+                "to quiver[i]"
             ]
         },
         "temp_id": "5.21"
     },
     {
         "lemma": "drgać",
-        "tags": "xxxxxxxxx",
+        "tags": "5v",
         "translations": {
             "ENG": [
                 "to vibrate",
@@ -238,7 +238,7 @@
         "temp_id": "5.22"
     },
     {
-        "lemma": "dopisać",
+        "lemma": "!dopisać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -249,7 +249,7 @@
         "temp_id": "5.23"
     },
     {
-        "lemma": "dopisywać",
+        "lemma": "!dopisywać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -260,7 +260,7 @@
         "temp_id": "5.24"
     },
     {
-        "lemma": "darować",
+        "lemma": "!darować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -274,7 +274,7 @@
         "temp_id": "5.25"
     },
     {
-        "lemma": "darowywać",
+        "lemma": "!darowywać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -289,32 +289,28 @@
     },
     {
         "lemma": "irytować",
-        "tags": "xxxxxxxxx",
+        "tags": "4e",
         "translations": {
             "ENG": [
                 "to irritate",
-                "to annoy",
-                "to be irritated",
-                "to be annoyed[r]"
+                "to annoy"
             ]
         },
         "temp_id": "5.27"
     },
     {
         "lemma": "zirytować",
-        "tags": "xxxxxxxxx",
+        "tags": "4e",
         "translations": {
             "ENG": [
                 "to irritate",
-                "to annoy",
-                "to become irritated",
-                "to become annoyed[r]"
+                "to annoy"
             ]
         },
         "temp_id": "5.28"
     },
     {
-        "lemma": "dźwigać",
+        "lemma": "!dźwigać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -325,7 +321,7 @@
         "temp_id": "5.29"
     },
     {
-        "lemma": "dźwignąć",
+        "lemma": "!dźwignąć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -336,102 +332,63 @@
     },
     {
         "lemma": "kojarzyć",
-        "tags": "xxxxxxxxx",
+        "tags": "4Y",
         "translations": {
             "ENG": [
-                "= with what] Synonym: asocjować  to associate [+ z (instrumental)",
-                "to mate a pair of animals[t,animal,husbandry]",
-                "to get",
-                "to understand",
-                "to = of something] Synonym: asocjować się[r]  to remind",
-                "to make one think",
-                "to put in mind [+dative = someone] [+ z (instrumental)"
-            ]
+                "to associate"     ]
         },
         "temp_id": "5.31"
     },
     {
         "lemma": "skojarzyć",
-        "tags": "xxxxxxxxx",
+    "tags": "4Y",
         "translations": {
             "ENG": [
-                "= with something]  to associate [+ z (instrumental)",
-                "to mate a pair of animals[t,animal,husbandry]",
-                "to get",
-                "to understand",
-                "to = with something][r]  to remind",
-                "to make one think",
-                "to put in mind [+dative = whom] [+ z (instrumental)"
-            ]
+                "to associate"     ]
         },
         "temp_id": "5.32"
     },
     {
         "lemma": "godzić",
-        "tags": "xxxxxxxxx",
+        "tags": "4Y,phi,law",
         "translations": {
             "ENG": [
-                "to Synonyms: jednać pojednywać  to reconcile",
-                "to bring together",
-                "to accommodate (to restore a friendly relationship; to bring back to harmony)",
-                "to reconcile (to make things compatible or consistent)",
-                "to = at what] Synonyms: celować mierzyć trafiać[i,literary]  to aim at",
-                "to hit [+ w (accusative)",
-                "to = at what] Synonym: dążyć[i,obsolete]  to aim at",
-                "to strive for [+ do (genitive)",
-                "to = what]  to endanger",
-                "to imperil",
-                "to jeopardize [+ w (accusative)",
-                "to Synonym: najmować[t,archaic]  to hire",
-                "to employ (to obtain the services of (a person) in exchange for remuneration)",
-                "= with whom] Synonym: pojednywać się[r]  to reconcile [+ z (instrumental)",
-                "= with what][r,archaic]  to be reconcilable [+ z (instrumental)",
-                "= to what][r] (to yield or give way to another)  to submit [+ na (accusative)",
-                "= on what] Synonym: zgadzać się[r]  to agree [+ na (accusative)",
-                "Synonym: najmować się[r,archaic]  to hire oneself out [+ do (genitive) = to what] (to arrange to do work for money)",
-                "to = for what] Synonym: nadawać się[r,archaic]  to be fit",
-                "to be suitable [+ na (accusative)",
-                "to be related [+dative = to whom][r,obsolete]"
+                "to agree","to accept"
             ]
         },
         "temp_id": "5.33"
     },
     {
         "lemma": "pogodzić",
-        "tags": "xxxxxxxxx",
+    "tags": "4Y,phi,law",
         "translations": {
             "ENG": [
                 "to reconcile",
-                "to bring to agreement",
-                "to = to something][r]  to accept",
-                "to resign oneself [+ z (instrumental)"
+                "to accept"
             ]
         },
         "temp_id": "5.35"
     },
     {
         "lemma": "kusić",
-        "tags": "xxxxxxxxx",
+        "tags": "4ee,RR,f",
         "translations": {
             "ENG": [
-                "to tempt (to provoke someone to do something, especially something wrong)"
-            ]
+                "to tempt"]
         },
         "temp_id": "5.36"
     },
     {
         "lemma": "skusić",
-        "tags": "xxxxxxxxx",
+        "tags": "4ee,RR,f",
         "translations": {
             "ENG": [
-                "to tempt",
-                "to lure"
-            ]
+                "to tempt"]
         },
         "temp_id": "5.37"
     },
     {
-        "lemma": "dobrać",
+        "lemma": "!dobrać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -448,7 +405,7 @@
         "temp_id": "5.38"
     },
     {
-        "lemma": "dobierać",
+        "lemma": "!dobierać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -465,7 +422,7 @@
         "temp_id": "5.39"
     },
     {
-        "lemma": "donosić",
+        "lemma": "!donosić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -481,7 +438,7 @@
         "temp_id": "5.40"
     },
     {
-        "lemma": "donosić",
+        "lemma": "!donosić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
