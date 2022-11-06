@@ -36,18 +36,12 @@
     },
     {
         "lemma": "kierować",
-        "tags": "xxxxxxxxx",
+        "tags": "4bus,TTT",
         "translations": {
             "ENG": [
                 "to direct",
-                "to head",
-                "to be in command [+instrumental = of something] Synonym: przewodniczyć",
-                "to drive a vehicle [+instrumental] Synonym: prowadzić",
-                "to follow",
-                "to obey advice, rules or principles [+instrumental] Synonyms: słuchać się trzymać się[t,r]",
-                "to head",
-                "to go towards Synonym: zmierzać[i,r]"
-            ]
+                "to head","to lead","to manage",
+                "to drive"  ]
         },
         "temp_id": "5.4"
     },
@@ -1083,75 +1077,66 @@
     },
     {
         "lemma": "hamować",
-        "tags": "xxxxxxxxx",
+        "tags": "4TTT,ee",
         "translations": {
             "ENG": [
                 "to inhibit",
                 "to restrain",
                 "to curb",
-                "to impede (an action or process)",
-                "to hide",
-                "to suppress (one's desires or emotions)",
-                "to brake[i] (to operate brakes)",
-                "to restrain oneself[r]"
+                "to impede",
+                "to suppress",
+                "to brake[i]"
             ]
         },
         "temp_id": "5.99"
     },
     {
         "lemma": "interesować",
-        "tags": "xxxxxxxxx",
+        "tags": "2Y",
         "translations": {
             "ENG": [
-                "to interest",
-                "= in something][r]  to be interested [+ (instrumental)"
-            ]
+                "to interest"   ]
         },
         "temp_id": "5.100"
     },
     {
         "lemma": "zainteresować",
-        "tags": "xxxxxxxxx",
+      "tags": "2Y",
         "translations": {
             "ENG": [
-                "to interest",
-                "= in something][r]  to become interested [+ (instrumental)"
-            ]
+                "to interest"   ]
         },
         "temp_id": "5.101"
     },
     {
         "lemma": "kraść",
-        "tags": "xxxxxxxxx",
+        "tags": "3B",
         "translations": {
             "ENG": [
-                "to steal [+accusative = something] [+dative = from someone] Synonyms: see Thesaurus: kraść"
-            ]
+                "to steal" ]
         },
         "temp_id": "5.102"
     },
     {
         "lemma": "ukraść",
-        "tags": "xxxxxxxxx",
+        "tags": "3B",
         "translations": {
             "ENG": [
-                "to steal [+accusative = something] [+dative = from someone] Synonyms: see Thesaurus: kraść"
-            ]
+                "to steal" ]
         },
         "temp_id": "5.103"
     },
     {
         "lemma": "kosztować",
-        "tags": "xxxxxxxxx",
+        "tags": "3$",
         "translations": {
             "ENG": [
-                "to cost[i] (to incur a charge, a price)"
-            ]
+                "to cost[i]" ]
         },
         "temp_id": "5.104"
     },
     {
-        "lemma": "kosztować",
+        "lemma": "!kosztować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1166,7 +1151,7 @@
         "temp_id": "5.105"
     },
     {
-        "lemma": "skosztować",
+        "lemma": "!skosztować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1181,7 +1166,7 @@
         "temp_id": "5.106"
     },
     {
-        "lemma": "kontaktować",
+        "lemma": "!kontaktować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1193,7 +1178,7 @@
         "temp_id": "5.107"
     },
     {
-        "lemma": "skontaktować",
+        "lemma": "!skontaktować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1205,29 +1190,29 @@
     },
     {
         "lemma": "grozić",
-        "tags": "xxxxxxxxx",
+        "tags": "4XX,pol,UU",
         "translations": {
             "ENG": [
                 "to threaten[t,i]",
-                "to menace Synonym: zagrażać[t,i]"
+                "to menace[t,i]"
             ]
         },
         "temp_id": "5.109"
     },
     {
         "lemma": "zagrozić",
-        "tags": "xxxxxxxxx",
+        "tags": "4XX,pol,UU",
         "translations": {
             "ENG": [
-                "to threaten",
-                "to menace[t,i] (make threats towards)"
+                "to threaten[t,i]",
+                "to menace[t,i]"
             ]
         },
         "temp_id": "5.110"
     },
     {
         "lemma": "zagrozić",
-        "tags": "xxxxxxxxx",
+       "tags": "4XX,pol,UU",
         "translations": {
             "ENG": [
                 "to endanger",
@@ -1239,26 +1224,18 @@
     },
     {
         "lemma": "kręcić",
-        "tags": "xxxxxxxxx",
+        "tags": "3V,eng,ii",
         "translations": {
             "ENG": [
-                "to twist (to turn the ends in opposite directions)",
-                "to twirl",
+                "to twist", "to twirl",
                 "to spin",
-                "to turn",
-                "Synonyms: see Thesaurus: oszukać[i,colloquial]  to prevaricate (speak in an evasive way)",
-                "to shoot",
-                "to film",
-                "to spin",
-                "to whirl[r]",
-                "to mill around",
-                "to hang about[r]"
+                "to turn"
             ]
         },
         "temp_id": "5.112"
     },
     {
-        "lemma": "cytować",
+        "lemma": "!cytować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1269,7 +1246,7 @@
         "temp_id": "5.113"
     },
     {
-        "lemma": "zacytować",
+        "lemma": "!zacytować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1280,7 +1257,7 @@
         "temp_id": "5.114"
     },
     {
-        "lemma": "dorzucić",
+        "lemma": "!dorzucić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1296,7 +1273,7 @@
         "temp_id": "5.115"
     },
     {
-        "lemma": "dorzucać",
+        "lemma": "!dorzucać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1312,7 +1289,7 @@
         "temp_id": "5.116"
     },
     {
-        "lemma": "deklarować",
+        "lemma": "!deklarować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1326,7 +1303,7 @@
         "temp_id": "5.117"
     },
     {
-        "lemma": "zadeklarować",
+        "lemma": "!zadeklarować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1341,73 +1318,57 @@
     },
     {
         "lemma": "gryźć",
-        "tags": "xxxxxxxxx",
+        "tags": "4ba,V,XX",
         "translations": {
             "ENG": [
-                "to bite Synonym: kąsać",
-                "to gnaw",
-                "to eat someone, nag at",
-                "to bother Synonyms: see Thesaurus: bać się",
-                "to bite oneself[r]",
-                "to bite one another[r]",
-                "to worry[r,colloquial] (to be troubled; to give way to mental anxiety or doubt)",
-                "to feud Synonyms: kłócić się wadzić się[r,colloquial]",
-                "to not match",
-                "to not fit together[r]"
-            ]
+                "to bite",
+                "to gnaw" ]
         },
         "temp_id": "5.119"
     },
     {
         "lemma": "ugryźć",
-        "tags": "xxxxxxxxx",
+        "tags": "4ba,V,XX",
         "translations": {
             "ENG": [
                 "to bite",
-                "to sting"
-            ]
+                "to gnaw" ]
         },
         "temp_id": "5.120"
     },
     {
         "lemma": "ignorować",
-        "tags": "xxxxxxxxx",
+        "tags": "3Y,s",
         "translations": {
             "ENG": [
-                "Synonyms: olewać traktować jak powietrze  to ignore (to pretend to not notice someone or something)",
-                "to ignore each other[r]"
-            ]
+                "to ignore" ]
         },
         "temp_id": "5.121"
     },
     {
         "lemma": "zignorować",
-        "tags": "xxxxxxxxx",
+            "tags": "3Y,s",
         "translations": {
             "ENG": [
-                "Synonyms: olać potraktować jak powietrze  to ignore (to pretend to not notice someone or something)",
-                "to ignore each other[r]"
-            ]
+                "to ignore" ]
         },
         "temp_id": "5.122"
     },
     {
         "lemma": "kłamać",
-        "tags": "xxxxxxxxx",
+        "tags": "3Y,sg,Z",
         "translations": {
             "ENG": [
-                "Hyponym: łgać[i]  to lie (to tell an untruth)"
-            ]
+                "to lie[i]" ]
         },
         "temp_id": "5.123"
     },
     {
         "lemma": "skłamać",
-        "tags": "xxxxxxxxx",
+       "tags": "3Y,sg,Z",
         "translations": {
             "ENG": [
-                "to lie[i] (to tell an untruth)"
-            ]
+                "to lie[i]"      ]
         },
         "temp_id": "5.124"
     }
