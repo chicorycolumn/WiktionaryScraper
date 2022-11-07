@@ -1,13 +1,22 @@
 [
     {
         "lemma": "związek",
-        "tags": "xxxxxxxxx",
+        "tags": "2Z,pp",
         "translations": {
             "ENG": [
-                "relation relationship",
-                "connection bond",
-                "union",
-                "compound substance",
+                "relation","relationship",
+                "connection","bond",
+                "union"
+            ]
+        },
+        "temp_id": "6.1",
+        "gender": "m3"
+    },    {
+        "lemma": "związek",
+        "tags": "5che,eng",
+        "translations": {
+            "ENG": [
+                "compound","substance",
                 "(chemistry)"
             ]
         },
@@ -16,7 +25,7 @@
     },
     {
         "lemma": "krzesło",
-        "tags": "xxxxxxxxx",
+        "tags": "1HH",
         "translations": {
             "ENG": [
                 "chair",
@@ -27,7 +36,7 @@
         "gender": "n"
     },
     {
-        "lemma": "grom",
+        "lemma": "!grom",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -39,7 +48,7 @@
         "gender": "m3"
     },
     {
-        "lemma": "struś",
+        "lemma": "!struś",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -51,34 +60,27 @@
     },
     {
         "lemma": "informacja",
-        "tags": "xxxxxxxxx",
+        "tags": "3eee,s,w",
         "translations": {
             "ENG": [
-                "information",
-                "(communicable knowledge)",
-                "information department of an office or institution",
-                "information",
-                "(any unambiguous abstract data, the smallest possible unit being the bit) (information theory)"
-            ]
+                "information"  ]
         },
         "temp_id": "6.5",
         "gender": "f"
     },
     {
         "lemma": "grzyb",
-        "tags": "xxxxxxxxx",
+        "tags": "3UU,sv",
         "translations": {
             "ENG": [
-                "fungus mushroom",
-                "(a category of eukaryotic organism, having cell walls but no chlorophyll)",
-                "mushroom cloud"
+                "fungus","mushroom"
             ]
         },
         "temp_id": "6.6",
         "gender": "m3"
     },
     {
-        "lemma": "grzyb",
+        "lemma": "!grzyb",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -91,7 +93,7 @@
     },
     {
         "lemma": "ruch",
-        "tags": "xxxxxxxxx",
+        "tags": "3TTT,v,bb",
         "translations": {
             "ENG": [
                 "movement",
@@ -105,10 +107,10 @@
     },
     {
         "lemma": "przestępca",
-        "tags": "xxxxxxxxx",
+        "tags": "3B,pp",
         "translations": {
             "ENG": [
-                "criminal lawbreaker"
+                "criminal"
             ]
         },
         "temp_id": "6.9",
@@ -116,10 +118,10 @@
     },
     {
         "lemma": "statek",
-        "tags": "xxxxxxxxx",
+        "tags": "2T",
         "translations": {
             "ENG": [
-                "ship craft vessel"
+                "ship","craft","vessel"
             ]
         },
         "temp_id": "6.10",
@@ -127,19 +129,26 @@
     },
     {
         "lemma": "środek",
-        "tags": "xxxxxxxxx",
+        "tags": "3W",
         "translations": {
             "ENG": [
-                "middle centre heart",
-                "agent drug",
-                "(chemistry medicine)"
+                "middle","centre","center"
+            ]
+        },
+        "temp_id": "6.11",
+        "gender": "m3"
+    },    {
+        "lemma": "środek",
+        "tags": "4tt,eee,che,l",
+        "translations": {
+            "ENG": [ "*agent","*means"
             ]
         },
         "temp_id": "6.11",
         "gender": "m3"
     },
     {
-        "lemma": "siemię",
+        "lemma": "!siemię",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -151,10 +160,10 @@
     },
     {
         "lemma": "osioł",
-        "tags": "xxxxxxxxx",
+        "tags": "3a",
         "translations": {
             "ENG": [
-                "male donkey",
+                "donkey",
                 "(Equus asinus)"
             ]
         },
@@ -162,7 +171,7 @@
         "gender": "m2"
     },
     {
-        "lemma": "osioł",
+        "lemma": "!osioł",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -175,7 +184,7 @@
     },
     {
         "lemma": "większość",
-        "tags": "xxxxxxxxx",
+        "tags": "3mat,WW",
         "translations": {
             "ENG": [
                 "majority"
@@ -186,13 +195,20 @@
     },
     {
         "lemma": "poczta",
-        "tags": "xxxxxxxxx",
+        "tags": "3HH,wri",
         "translations": {
             "ENG": [
                 "mail",
-                "(material conveyed by postal services)",
-                "post",
-                "(organization that delivers mail)",
+                "post"
+            ]
+        },
+        "temp_id": "6.16",
+        "gender": "f"
+    },    {
+        "lemma": "poczta",
+        "tags": "3lb",
+        "translations": {
+            "ENG": [
                 "post office"
             ]
         },
@@ -201,7 +217,7 @@
     },
     {
         "lemma": "teść",
-        "tags": "xxxxxxxxx",
+        "tags": "3r",
         "translations": {
             "ENG": [
                 "father-in-law"
@@ -212,12 +228,12 @@
     },
     {
         "lemma": "badanie",
-        "tags": "xxxxxxxxx",
+        "tags": "3s,w,ee",
         "translations": {
             "ENG": [
-                "verbal noun of badać",
+                "*research",
                 "(uncountable)",
-                "exploration examination",
+                "exploration","examination",
                 "(countable)",
                 "examination",
                 "(inspection by a doctor)",
