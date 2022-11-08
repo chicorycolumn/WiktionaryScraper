@@ -245,7 +245,7 @@
         "gender": "n"
     },
     {
-        "lemma": "szpak",
+        "lemma": "!szpak",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -257,12 +257,10 @@
     },
     {
         "lemma": "reklama",
-        "tags": "xxxxxxxxx",
+        "tags": "4$,V",
         "translations": {
             "ENG": [
-                "commercial",
-                "(advertisement in a common media format) (advertising)",
-                "advertising publicity"
+                "commercial","advert","ad","advertisement"
             ]
         },
         "temp_id": "6.20",
@@ -270,24 +268,19 @@
     },
     {
         "lemma": "kapelusz",
-        "tags": "xxxxxxxxx",
+        "tags": "2g",
         "translations": {
             "ENG": [
-                "hat",
-                "(head covering)",
-                "pileus",
-                "(cap of a mushroom) (mycology)"
-            ]
+                "hat"    ]
         },
         "temp_id": "6.21",
         "gender": "m3"
     },
     {
         "lemma": "pytanie",
-        "tags": "xxxxxxxxx",
+        "tags": "2sr,ee",
         "translations": {
             "ENG": [
-                "verbal noun of pytać",
                 "question",
                 "(a sentence which asks for information)"
             ]
@@ -297,7 +290,7 @@
     },
     {
         "lemma": "piwnica",
-        "tags": "xxxxxxxxx",
+        "tags": "3lr",
         "translations": {
             "ENG": [
                 "cellar",
@@ -309,26 +302,20 @@
     },
     {
         "lemma": "pingwin",
-        "tags": "xxxxxxxxx",
+        "tags": "3a",
         "translations": {
             "ENG": [
-                "penguin",
-                "(flightless sea bird)",
-                "nun penguin",
-                "(humorous derogatory)"
-            ]
+                "penguin" ]
         },
         "temp_id": "6.24",
         "gender": "m2"
     },
     {
         "lemma": "kuchnia",
-        "tags": "xxxxxxxxx",
+        "tags": "2coo,lr",
         "translations": {
             "ENG": [
-                "kitchen",
-                "cuisine",
-                "stove hob"
+                "kitchen"
             ]
         },
         "temp_id": "6.25",
@@ -336,21 +323,16 @@
     },
     {
         "lemma": "życie",
-        "tags": "xxxxxxxxx",
+        "tags": "2bio,phi,RR",
         "translations": {
             "ENG": [
-                "life, the state of being alive",
-                "lifetime",
-                "life, chance to play that is lost when a mistake is made",
-                "(video games)",
-                "verbal noun of żyć"
-            ]
+                "life"   ]
         },
         "temp_id": "6.26",
         "gender": "n"
     },
     {
-        "lemma": "benzen",
+        "lemma": "!benzen",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -363,7 +345,7 @@
     },
     {
         "lemma": "gołąb",
-        "tags": "xxxxxxxxx",
+        "tags": "3a",
         "translations": {
             "ENG": [
                 "pigeon",
@@ -375,7 +357,7 @@
     },
     {
         "lemma": "mniejszość",
-        "tags": "xxxxxxxxx",
+        "tags": "3mat,W",
         "translations": {
             "ENG": [
                 "minority"
@@ -386,22 +368,18 @@
     },
     {
         "lemma": "miejsce",
-        "tags": "xxxxxxxxx",
+        "tags": "2ll,geo,gem",
         "translations": {
             "ENG": [
                 "place",
-                "(generic location)",
-                "place",
-                "(in a competition)",
-                "seat",
-                "room space"
+                "room","space"
             ]
         },
         "temp_id": "6.30",
         "gender": "n"
     },
     {
-        "lemma": "sokół",
+        "lemma": "!sokół",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -414,24 +392,20 @@
     },
     {
         "lemma": "kwadrat",
-        "tags": "xxxxxxxxx",
+        "tags": "2gem",
         "translations": {
             "ENG": [
-                "square",
-                "(geometry)",
-                "crib place",
-                "(home, especially a flat) (slang)"
-            ]
+                "square" ]
         },
         "temp_id": "6.32",
         "gender": "m3"
     },
     {
         "lemma": "ciocia",
-        "tags": "xxxxxxxxx",
+        "tags": "2r",
         "translations": {
             "ENG": [
-                "aunt auntie"
+                "aunt","auntie"
             ]
         },
         "temp_id": "6.33",
@@ -439,11 +413,10 @@
     },
     {
         "lemma": "walizka",
-        "tags": "xxxxxxxxx",
+        "tags": "3hh,PP",
         "translations": {
             "ENG": [
-                "Diminutive of waliza",
-                "suitcase valise"
+                "suitcase"
             ]
         },
         "temp_id": "6.34",
@@ -451,7 +424,7 @@
     },
     {
         "lemma": "klej",
-        "tags": "xxxxxxxxx",
+        "tags": "3c,s,eng,qqq",
         "translations": {
             "ENG": [
                 "glue",
@@ -463,7 +436,7 @@
     },
     {
         "lemma": "gazeta",
-        "tags": "xxxxxxxxx",
+        "tags": "3$,V,wri,hh",
         "translations": {
             "ENG": [
                 "newspaper",
@@ -489,10 +462,10 @@
     },
     {
         "lemma": "rajstopy",
-        "tags": "xxxxxxxxx",
+        "tags": "3g",
         "translations": {
             "ENG": [
-                "tights pantyhose"
+                "tights","pantyhose"
             ]
         },
         "temp_id": "6.38",
