@@ -297,6 +297,10 @@ shorthand_tag_refs = {
         "tags": ["condiment", "f"],
         "topics": ["kitchen", "restaurant", "inside"],
     },
+    "fi": {
+        "tags": ["ingredient", "f"],
+        "topics": ["kitchen", "restaurant", "inside"],
+    },
     "ff": {
         "tags": [],
         "topics": ["kitchen", "restaurant", "inside"],
