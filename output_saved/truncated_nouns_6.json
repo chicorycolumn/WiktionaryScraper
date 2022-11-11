@@ -881,7 +881,7 @@
     },
     {
         "lemma": "strzała",
-        "tags": "xxxxxxxxx",
+        "tags": "4X,his,yy",
         "translations": {
             "ENG": [
                 "arrow",
@@ -893,30 +893,16 @@
     },
     {
         "lemma": "stopień",
-        "tags": "xxxxxxxxx",
+        "tags": "3LL,mat,@",
         "translations": {
-            "ENG": [
-                "step, a piece of stairs",
-                "step, raised piece of floor",
-                "degree, unit of angle",
-                "degree Celsius",
-                "(informal)",
-                "mark grade note ; measure of educational attainment",
-                "extent degree level",
-                "rank",
-                "(military)",
-                "title degree",
-                "(education formal)",
-                "and superlative",
-                "(biggest) (grammar) degree of comparison ; the \"strength\" of adjectives: positive (e.g. big) comparative (bigger)"
-            ]
+            "ENG": [      "degree"  ]
         },
         "temp_id": "6.76",
         "gender": "m3"
     },
     {
         "lemma": "szuflada",
-        "tags": "xxxxxxxxx",
+        "tags": "3hb,@@",
         "translations": {
             "ENG": [
                 "drawer",
@@ -928,11 +914,9 @@
     },
     {
         "lemma": "jedzenie",
-        "tags": "xxxxxxxxx",
+        "tags": "1ff",
         "translations": {
             "ENG": [
-                "verbal noun of jeść",
-                "eating",
                 "(the act of consuming food)",
                 "food",
                 "(any substance that can be consumed by living organisms to sustain life)"
@@ -943,7 +927,7 @@
     },
     {
         "lemma": "motyl",
-        "tags": "xxxxxxxxx",
+        "tags": "2ai",
         "translations": {
             "ENG": [
                 "butterfly"
@@ -954,39 +938,40 @@
     },
     {
         "lemma": "strona",
-        "tags": "xxxxxxxxx",
+        "tags": "3pol,phi",
         "translations": {
             "ENG": [
-                "side",
-                "page",
-                "voice",
-                "(grammar)",
-                "party",
-                "(law)"
-            ]
+                "side" ]
+        },
+        "temp_id": "6.80",
+        "gender": "f"
+    },
+    {
+        "lemma": "strona",
+        "tags": "3wri",
+        "translations": {
+            "ENG": [
+                "page"  ]
         },
         "temp_id": "6.80",
         "gender": "f"
     },
     {
         "lemma": "toaleta",
-        "tags": "xxxxxxxxx",
+        "tags": "2dr,HW",
         "translations": {
             "ENG": [
-                "toilet lavatory loo",
-                "toilette",
-                "(personal grooming)"
-            ]
+                "toilet" ]
         },
         "temp_id": "6.81",
         "gender": "f"
     },
     {
         "lemma": "warunek",
-        "tags": "xxxxxxxxx",
+        "tags": "3phi,rp,eee",
         "translations": {
             "ENG": [
-                "condition term"
+                "condition","term"
             ]
         },
         "temp_id": "6.82",
@@ -994,20 +979,16 @@
     },
     {
         "lemma": "adwokat",
-        "tags": "xxxxxxxxx",
+        "tags": "2j,l",
         "translations": {
             "ENG": [
-                "advocate attorney barrister solicitor lawyer counsel",
-                "(law)",
-                "advocate",
-                "(person who speaks in support of something) (figuratively)"
-            ]
+                "lawyer","attorney"  ]
         },
         "temp_id": "6.83",
         "gender": "m1"
     },
     {
-        "lemma": "adwokat",
+        "lemma": "!adwokat",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1019,56 +1000,57 @@
     },
     {
         "lemma": "kij",
-        "tags": "xxxxxxxxx",
+        "tags": "3yy,X",
         "translations": {
             "ENG": [
                 "stick",
                 "cue",
-                "baseball bat",
-                "club",
-                "beating",
-                "(mostly in plural colloquial)"
-            ]
+                "bat",
+                "club"   ]
         },
         "temp_id": "6.85",
         "gender": "m3"
     },
     {
         "lemma": "zmiana",
-        "tags": "xxxxxxxxx",
+        "tags": "2eee",
         "translations": {
             "ENG": [
-                "change shift",
-                "(the quality of not being the same as before)",
-                "shift",
-                "(a scheduled period of time for a group of workers)",
-                "shift",
-                "(a group of workers working at that defined period)"
-            ]
+                "change" ]
+        },
+        "temp_id": "6.86",
+        "gender": "f"
+    },
+    {
+        "lemma": "zmiana",
+        "tags": "3w,tt",
+        "translations": {
+            "ENG": [ "shift"   ]
         },
         "temp_id": "6.86",
         "gender": "f"
     },
     {
         "lemma": "zdanie",
-        "tags": "xxxxxxxxx",
+        "tags": "2££",
         "translations": {
-            "ENG": [
-                "verbal noun of zdać",
-                "sentence",
-                "(grammatically complete series of words consisting of a subject and predicate) (linguistics)",
-                "opinion",
-                "(thought a person has formed about a topic)",
-                "proposition",
-                "(assertion which may be considered true or false) (logic)"
-            ]
+            "ENG": ["sentence" ]
+        },
+        "temp_id": "6.87",
+        "gender": "n"
+    },
+    {
+        "lemma": "zdanie",
+        "tags": "2Y",
+        "translations": {
+            "ENG": ["opinion" ]
         },
         "temp_id": "6.87",
         "gender": "n"
     },
     {
         "lemma": "czoło",
-        "tags": "xxxxxxxxx",
+        "tags": "3b",
         "translations": {
             "ENG": [
                 "forehead"
@@ -1079,10 +1061,10 @@
     },
     {
         "lemma": "czoło",
-        "tags": "xxxxxxxxx",
+        "tags": "4W",
         "translations": {
             "ENG": [
-                "front forefront"
+                "forefront"
             ]
         },
         "temp_id": "6.89",
@@ -1090,13 +1072,10 @@
     },
     {
         "lemma": "urodziny",
-        "tags": "xxxxxxxxx",
+        "tags": "1tt,cel",
         "translations": {
             "ENG": [
-                "birthday",
-                "(anniversary of one's birth)",
-                "birthday party"
-            ]
+                "birthday" ]
         },
         "temp_id": "6.90",
         "gender": "nonvirile"
