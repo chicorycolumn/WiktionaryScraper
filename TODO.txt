@@ -128,3 +128,41 @@ Set second "lato" to pluralOnly.
 2022-10-24 18:11 "brakować" has defective or strange inflections table. Kicking it out of verbs.
 2022-10-24 18:11 "godzić" has defective or strange inflections table. Kicking it out of verbs.
 2022-10-24 18:11 "charakteryzować" has no infinitive. Kicking it out of verbs.
+                  ...I assume "pol-ver-355-zagrozić(endanger)" is not merely a duplicate.
+
+2022-11-13 09:15 To "pol-ver-304-kopać(kick)" ID appended "kick"...
+2022-11-13 09:15                                ...I assume "pol-ver-305-kopać(dig)" is not merely a duplicate.
+2022-11-13 09:15 To "pol-ver-354-zagrozić(threaten[t,i])" ID appended "threaten[t,i]"...
+2022-11-13 09:15                                ...I assume "pol-ver-355-zagrozić(endanger)" is not merely a duplicate.
+
+2022-11-13 09:17 To "pol-nco-542-związek(relation)" ID appended "relation"...
+2022-11-13 09:17                                ...I assume "pol-nco-543-związek(compound)" is not merely a duplicate.
+2022-11-13 09:17 To "pol-nco-549-środek(middle)" ID appended "middle"...
+2022-11-13 09:17                                ...I assume "pol-nco-550-środek(*agent)" is not merely a duplicate.
+2022-11-13 09:17 To "pol-nco-553-poczta(mail)" ID appended "mail"...
+2022-11-13 09:17                                ...I assume "pol-nco-554-poczta(post office)" is not merely a duplicate.
+2022-11-13 09:17 To "pol-nco-585-komórka(cell)" ID appended "cell"...
+2022-11-13 09:17                                ...I assume "pol-nco-586-komórka(cell phone)" is not merely a duplicate.
+2022-11-13 09:17 To "pol-nco-607-strona(side)" ID appended "side"...
+2022-11-13 09:17                                ...I assume "pol-nco-608-strona(page)" is not merely a duplicate.
+2022-11-13 09:17 To "pol-nco-612-zmiana(change)" ID appended "change"...
+2022-11-13 09:17                                ...I assume "pol-nco-613-zmiana(shift)" is not merely a duplicate.
+2022-11-13 09:17 To "pol-nco-614-zdanie(sentence)" ID appended "sentence"...
+2022-11-13 09:17                                ...I assume "pol-nco-615-zdanie(opinion)" is not merely a duplicate.
+2022-11-13 09:17 To "pol-nco-616-czoło(forehead)" ID appended "forehead"...
+2022-11-13 09:17                                ...I assume "pol-nco-617-czoło(forefront)" is not merely a duplicate.
+
+                "gen": [
+                    "informacji",
+                    "informacyj",
+                    "(archaic)"
+                ],
+You need to search all lemma objects to see if any have more than one value in any inflection key, and convert that to terminus object.
+
+            "synonyms": [
+                "poruszenie",
+                "n",
+                "bieg",
+                "m"
+            ]
+Also sort this in all lobjs.
