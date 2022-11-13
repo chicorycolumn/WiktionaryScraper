@@ -451,6 +451,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["law"],
     },
+    "law": { # Duplicate for mental ease.
+        "tags": [],
+        "topics": ["law"],
+    },
     "i": {
         "tags": ["device"],
         "topics": ["tech"],

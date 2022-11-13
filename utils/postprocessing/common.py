@@ -90,7 +90,7 @@ def make_ids(langcode, wordtype, lemma_objects=None, existing_lobjs_path=None):
                                 write_todo(f'To "{elobj["id"]}" ID must append "{parent_info_datum}"...')
                             else:
                                 elobj["id"] += f'({parent_info_datum})'
-                                write_todo(f'To "{elobj["id"]}" ID appended "{parent_info_datum}"...')
+                                write_todo(f'Appended "{parent_info_datum}" to ID "{elobj["id"]}" ...')
 
             if not sibling_info:
                 for elobj in existing_or_result_lemma_objects:
@@ -132,7 +132,7 @@ def make_ids(langcode, wordtype, lemma_objects=None, existing_lobjs_path=None):
         res_arr.append(lemma_object)
 
         if print_todo:
-            write_todo(f'                               ...I assume "{id}" is not merely a duplicate.')
+            write_todo(f'                     ...I assume "{id}" is not merely a duplicate.')
 
     return res_arr
 
@@ -254,7 +254,7 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object, wordty
             if "concrete" not in tags:
                 tags.append("concrete")
         elif "concrete" in tags:
-            write_todo(f'{lemma_object["id"]} has both "abstract" and "concrete" in tags. Please remove one.')
+            write_todo(f'{lemma_object["temp_id"]} has both "abstract" and "concrete" in tags. Please remove one.')
 
     lemma_object["tags"] = tags
     lemma_object["topics"] = topics
@@ -308,7 +308,7 @@ def untruncate_lemma_objects(group_number, wordtype):
     for lobj_truncated in lobjs_truncated:
 
         if lobj_truncated["lemma"].startswith("!"):
-            user_rejected_lemmas.append(lobj_truncated["lemma"])
+            user_rejected_lemmas.append(lobj_truncated["lemma"][1:])
         else:
             if True in (res_lobj["temp_id"] == lobj_truncated["temp_id"] for res_lobj in res_arr):
                 lobj_truncated["temp_id"] = lobj_truncated["temp_id"] \
