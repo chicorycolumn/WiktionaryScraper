@@ -34,7 +34,7 @@ def get_rejected_lobjs(wordtype: str):
                     loaded = json.load(f)
                     for k in loaded:
                         if k != "already_existing":
-                            print(4421, file, len(loaded[k]), k, loaded[k])
+                            print("wnlw", file, "has", len(loaded[k]), k, loaded[k])
                             rejected_lemmas.extend(loaded[k])
                     f.close()
 

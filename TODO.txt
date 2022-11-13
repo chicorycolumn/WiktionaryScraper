@@ -166,3 +166,13 @@ You need to search all lemma objects to see if any have more than one value in a
                 "m"
             ]
 Also sort this in all lobjs.
+
+2022-11-13 09:31 Verbs. At least two lobjs of "mylić" will need allohomInfo added.
+2022-11-13 09:32 Verbs. At least two lobjs of "nakręcić" will need allohomInfo added.
+2022-11-13 09:32 Verbs. At least two lobjs of "obchodzić" will need allohomInfo added.
+2022-11-13 09:32 Verbs. At least two lobjs of "mruczeć" will need allohomInfo added.
+2022-11-13 09:34 There are 1 doubly extra verbs-headwords, they have not been parsed: ['pisywać']
+2022-11-13 09:34 "mieszać" has no infinitive. Kicking it out of verbs.
+2022-11-13 09:34 "brakować" has defective or strange inflections table. Kicking it out of verbs.
+2022-11-13 09:34 "charakteryzować" has no infinitive. Kicking it out of verbs.
+2022-11-13 09:34 The "conditional" tense on perfective "obejść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.

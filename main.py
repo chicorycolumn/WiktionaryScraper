@@ -14,8 +14,8 @@ if __name__ == '__main__':
     #         print(el)
 
     step = 1
-    group_number = 5
-    input_indexes = [0, 350]
+    group_number = 6
+    input_indexes = [0, 450]
     wordtype = "v"
     these_headwords_only = []
     # these_headwords_only = ['lekki']
