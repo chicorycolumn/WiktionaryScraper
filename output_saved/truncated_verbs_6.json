@@ -1,13 +1,14 @@
 [
     {
         "lemma": "obracać",
-        "tags": "xxxxxxxxx",
+        "tags": "4v,gem",
         "translations": {
             "ENG": [
                 "to rotate",
                 "to turn",
                 "to rotate",
                 "to turn",
+                "to spin[r]",
                 "to swivel[r]"
             ]
         },
@@ -15,45 +16,42 @@
     },
     {
         "lemma": "obrócić",
-        "tags": "xxxxxxxxx",
+          "tags": "4v,gem",
         "translations": {
             "ENG": [
                 "to turn",
                 "to rotate",
                 "to rotate",
-                "to spin[r]"
+                "to spin[r]",
+                "to swivel[r]"
             ]
         },
         "temp_id": "6.2"
     },
     {
         "lemma": "obrazić",
-        "tags": "xxxxxxxxx",
+        "tags": "3e,-",
         "translations": {
             "ENG": [
                 "to offend",
-                "to upset Synonyms: see Thesaurus: obrażać",
-                "to huff",
-                "to take offense[r]"
+                "to upset"
             ]
         },
         "temp_id": "6.3"
     },
     {
         "lemma": "obrażać",
-        "tags": "xxxxxxxxx",
+        "tags": "3e,-",
         "translations": {
             "ENG": [
                 "to offend",
-                "to upset Synonyms: see Thesaurus: obrażać",
-                "to huff",
-                "to take offense[r]"
+                "to upset"
             ]
         },
         "temp_id": "6.4"
     },
     {
-        "lemma": "maszerować",
+        "lemma": "!maszerować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -64,47 +62,26 @@
     },
     {
         "lemma": "mierzyć",
-        "tags": "xxxxxxxxx",
+        "tags": "4z",
         "translations": {
             "ENG": [
-                "to measure (to ascertain the quantity of a unit of material via calculated comparison with respect to a standard)",
-                "to )[i]  to measure (to be of (a certain size)[i]",
-                "to have (a certain measurement)[i]",
-                "Synonyms: celować godzić[i]  to aim [+ do (genitive) = at whom or what] (to point or direct at)",
-                "Synonyms: kierować się zdążać[i,archaic]  to head [+ ku (dative) = to where] (to move in a specified direction)",
-                "to try on clothes",
-                "to measure oneself[r]",
-                "to measure one another[r]",
-                "to be measured[r,archaic]",
-                "Synonym: kierować się[r,archaic]  to follow [+instrumental = what] (to act according to)",
-                "to = with someone] Synonym: próbować się[r]  to compete",
-                "to contend [+ z (instrumental)",
-                "to face[r] (to deal with",
-                "to confront)",
-                "Synonym: zamierzać się[r,obsolete]  to get one's claws out [+ na (accusative) = for whom] (to prepare to attack)"
-            ]
+                "to measure"  ]
         },
         "temp_id": "6.6"
     },
     {
         "lemma": "zmierzyć",
-        "tags": "xxxxxxxxx",
+        "tags": "4z",
         "translations": {
             "ENG": [
-                "to measure",
-                "to try on clothes",
-                "to measure oneself[r]",
-                "to = with someone] Synonym: popróbować się[r]  to compete",
-                "to contend [+ z (instrumental)",
-                "to face[r] (to deal with",
-                "to confront)"
+                "to measure"
             ]
         },
         "temp_id": "6.7"
     },
     {
         "lemma": "napaść",
-        "tags": "xxxxxxxxx",
+        "tags": "4XX,B",
         "translations": {
             "ENG": [
                 "to assault",
@@ -116,7 +93,7 @@
         "temp_id": "6.8"
     },
     {
-        "lemma": "napaść",
+        "lemma": "!napaść",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -128,20 +105,19 @@
     },
     {
         "lemma": "napadać",
-        "tags": "xxxxxxxxx",
+        "tags": "4XX,B",
         "translations": {
             "ENG": [
                 "to assault",
                 "to attack",
                 "to mug",
-                "to rob",
-                "to hold up"
+                "to rob"
             ]
         },
         "temp_id": "6.10"
     },
     {
-        "lemma": "napasać",
+        "lemma": "!napasać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -152,7 +128,7 @@
         "temp_id": "6.11"
     },
     {
-        "lemma": "maleć",
+        "lemma": "!maleć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -165,7 +141,7 @@
         "temp_id": "6.12"
     },
     {
-        "lemma": "zmaleć",
+        "lemma": "!zmaleć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -178,7 +154,7 @@
         "temp_id": "6.13"
     },
     {
-        "lemma": "nabierać",
+        "lemma": "!nabierać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -195,7 +171,7 @@
         "temp_id": "6.14"
     },
     {
-        "lemma": "nabrać",
+        "lemma": "!nabrać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -212,7 +188,7 @@
         "temp_id": "6.15"
     },
     {
-        "lemma": "negocjować",
+        "lemma": "!negocjować",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -223,18 +199,16 @@
     },
     {
         "lemma": "mamrotać",
-        "tags": "xxxxxxxxx",
+        "tags": "4sr",
         "translations": {
-            "ENG": [
-                "to Synonym: bąkać[t,colloquial]  to mumble",
-                "to mutter",
-                "to murmur (speak softly and indistinctly)"
+            "ENG": [  "to mutter",
+                "to murmur"
             ]
         },
         "temp_id": "6.17"
     },
     {
-        "lemma": "zamamrotać",
+        "lemma": "!zamamrotać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -247,75 +221,72 @@
     },
     {
         "lemma": "wymamrotać",
-        "tags": "xxxxxxxxx",
+        "tags": "4sr",
         "translations": {
-            "ENG": [
-                "to Synonyms: see Thesaurus: bredzić[t,colloquial]  to mumble",
-                "to mutter",
-                "to murmur (speak softly and indistinctly)"
+            "ENG": [  "to mutter",
+                "to murmur"
             ]
         },
         "temp_id": "6.19"
     },
     {
         "lemma": "lśnić",
-        "tags": "xxxxxxxxx",
+        "tags": "4kk",
         "translations": {
             "ENG": [
-                "to shine glitter shimmer glisten[i,r]"
+                "to shine[i]",
+                "to glitter[i]","to shimmer[i]",
+                "to glisten[i,r]"
             ]
         },
         "temp_id": "6.20"
     },
     {
         "lemma": "mrugać",
-        "tags": "xxxxxxxxx",
+        "tags": "5bb",
         "translations": {
             "ENG": [
-                "to blink[i]",
-                "Wincenty Pol,“Mohort: rapsod rycerski”, in Józef Sroczyński, editor, Dzieła Poetyckie Wincentego Pola [1] , volume 2, Stanisławów E. Weidenfeld i Brat, page 326: Lampa mrugała przed świętym obrazem[i,of,light]  to twinkle 1904 (first published 1855)"
-            ]
+                "to blink[i]" ]
         },
         "temp_id": "6.21"
     },
     {
-        "lemma": "mrugnąć",
-        "tags": "xxxxxxxxx",
+        "lemma": "!mrugnąć",
+        "tags": "5bb",
         "translations": {
             "ENG": [
-                "to blink[i]",
-                "to twinkle[i,of,light]"
-            ]
+                "to blink[i]" ]
         },
         "temp_id": "6.22"
     },
     {
         "lemma": "nabyć",
-        "tags": "xxxxxxxxx",
+        "tags": "4$",
         "translations": {
             "ENG": [
                 "to obtain",
-                "to acquire Synonym: zdobyć",
+                "to acquire",
                 "to buy",
-                "to purchase Synonyms: kupić zakupić"
+                "to purchase"
             ]
         },
         "temp_id": "6.23"
     },
     {
         "lemma": "nabywać",
-        "tags": "xxxxxxxxx",
+        "tags": "4$",
         "translations": {
             "ENG": [
-                "to akwirować  to acquire",
-                "to obtain Synonym: (archaic)",
-                "akwirować  to purchase Synonym: (archaic)"
+                "to obtain",
+                "to acquire",
+                "to buy",
+                "to purchase"
             ]
         },
         "temp_id": "6.24"
     },
     {
-        "lemma": "nastać",
+        "lemma": "!nastać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -327,7 +298,7 @@
         "temp_id": "6.25"
     },
     {
-        "lemma": "nastać",
+        "lemma": "!nastać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -337,7 +308,7 @@
         "temp_id": "6.26"
     },
     {
-        "lemma": "nastawać",
+        "lemma": "!nastawać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -352,7 +323,7 @@
         "temp_id": "6.27"
     },
     {
-        "lemma": "nadejść",
+        "lemma": "!nadejść",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -364,7 +335,7 @@
         "temp_id": "6.28"
     },
     {
-        "lemma": "nadchodzić",
+        "lemma": "!nadchodzić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
