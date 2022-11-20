@@ -304,10 +304,11 @@ def scrape_word_data(
 
     more_potential_extra_lemmas_to_parse = []
     for lobj in result:
-        if "translations_additional" in lobj:
-            for ta in lobj["translations_additional"]:
-                if ta not in head_words + existing_lemmas and bool(re.search(r"^[a-zA-Z]+$", ta)):
-                    more_potential_extra_lemmas_to_parse.append(ta)
+        if lobj:
+            if "translations_additional" in lobj:
+                for ta in lobj["translations_additional"]:
+                    if ta not in head_words + existing_lemmas and bool(re.search(r"^[a-zA-Z]+$", ta)):
+                        more_potential_extra_lemmas_to_parse.append(ta)
 
     more_potential_extra_lemmas_to_parse = list(set(more_potential_extra_lemmas_to_parse))
 

@@ -181,3 +181,29 @@ Also sort this in all lobjs.
 2022-11-20 09:34                      ...I assume "pol-ver-431-nakręcić(turn)" is not merely a duplicate.
 2022-11-20 09:34 Appended "shoot" to ID "pol-ver-432-nakręcać(shoot)" ...
 2022-11-20 09:34                      ...I assume "pol-ver-433-nakręcać(turn)" is not merely a duplicate.
+
+2022-11-20 09:40 Want to parse any of 74 extra nouns-lemmas? (I did not because of wordtype) ['ogrodniczka', 'łezka', 'deserek', 'model', 'łopatka', 'łódeczka', 'hasełko', 'wnuczek', 'gardełko', 'nastolatka', 'świneczka', 'dowodzik', 'wisienka', 'żołnierzyk', 'łańcuszek', 'bilansik', 'pracowniczka', 'ciężaróweczka', 'ławeczka', 'guziczek', 'tygrysek', 'żyrafiątko', 'wnusia', 'fotelik', 'nitka', 'akuszer', 'jaszczur', 'choróbsko', 'światełko', 'stacyjka', 'pracownica', 'pajęczyca', 'gardziołko', 'krokodylek', 'szczurek', 'ślimaczek', 'świnka', 'bagażyk', 'żarcik', 'lawinka', 'kapłanka', 'choineczka', 'pioseneczka', 'przewodniczka', 'szlafroczek', 'trójkącik', 'brzeżek', 'lwisko', 'królica', 'nr', 'wiewióreczka', 'kucharka', 'maszynka', 'bioderko', 'szczurzyca', 'wiewióra', 'księżna', 'ciężarówa', 'żołnierka', 'pajączek', 'choina', 'tygrysica', 'ks.', 'lewek', 'żeberko', 'jaszczureczka', 'pasażerka', 'króliczek', 'wnuś', 'węgielek', 'kłamstewko', 'lwica', 'łódka', 'portfelik']
+2022-11-20 09:45 There are 26 doubly extra adjectives-headwords, they have not been parsed: ['amaterialny', 'odświeżony', 'przyjęty', 'dźwięczny', 'błahy', 'zniewieściały', 'nieistotny', 'nieważny', 'rzeźwy', 'beznamiętny', 'apatyczny', 'organiczny', 'krępy', 'wyspany', 'tchórzliwy', 'kolokwialny', 'namiętny', 'rześki', 'nadludzki', 'ożywczy', 'okrutny', 'nieświeży', 'bezlitosny', 'wypoczęty', 'bojaźliwy', 'anorganiczny']
+
+2022-11-20 09:47 Verbs. #ERR "charakteryzować" output_obj["aspect"] is ['impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-11-20 09:48 Verbs. #ERR "mieszać" output_obj["aspect"] is ['impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-11-20 09:48 Verbs. #ERR "mieszać" output_obj["aspect"] is ['impf', 'impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-11-20 09:48 Verbs. #ERR "mieszać" output_obj["aspect"] is ['impf', 'impf', 'impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+
+2022-11-20 09:48 Verbs. At least two lobjs of "obserwować" will need allohomInfo added.
+
+2022-11-20 09:48 Verbs. #ERR "ofiarować" output_obj["aspect"] is ['impf', 'or', 'pf', 'or', 'pf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+
+2022-11-20 09:49 There are 3 doubly extra verbs-headwords, they have not been parsed: ['opasać', 'odpasywać', 'odeprać']
+2022-11-20 09:49 "brakować" has defective or strange inflections table. Kicking it out of verbs.
+2022-11-20 09:49 "mieszać" has no infinitive. Kicking it out of verbs.
+2022-11-20 09:49 "charakteryzować" has no infinitive. Kicking it out of verbs.
+2022-11-20 09:49 The "conditional" tense on perfective "odejść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
+
+2022-11-20 09:49 SKIPPED this entire lobj in minimise_inflections. "future" tense on imperfective "odrzucać" should have 31 strings but has 20.
+2022-11-20 09:51 "brakować" has defective or strange inflections table. Kicking it out of verbs.
+2022-11-20 09:51 "mieszać" has no infinitive. Kicking it out of verbs.
+2022-11-20 09:51 "charakteryzować" has no infinitive. Kicking it out of verbs.
+2022-11-20 09:51 The "conditional" tense on perfective "odejść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
+
+2022-11-20 09:51 SKIPPED this entire lobj in minimise_inflections. "future" tense on imperfective "odrzucać" should have 31 strings but has 20.
