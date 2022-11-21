@@ -1,6 +1,6 @@
 [
     {
-        "lemma": "nieduży",
+        "lemma": "!nieduży",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -12,7 +12,7 @@
     },
     {
         "lemma": "logiczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4phi,Y",
         "translations": {
             "ENG": [
                 "logical"
@@ -21,7 +21,7 @@
         "temp_id": "7.2"
     },
     {
-        "lemma": "nielogiczny",
+        "lemma": "!nielogiczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -32,20 +32,19 @@
     },
     {
         "lemma": "metalowy",
-        "tags": "xxxxxxxxx",
+        "tags": "2c",
         "translations": {
             "ENG": [
                 "metallic",
                 "(relational)",
-                "metal",
-                "music"
+                "metal"
             ]
         },
         "temp_id": "7.4"
     },
     {
         "lemma": "kryminalny",
-        "tags": "xxxxxxxxx",
+        "tags": "4l",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -57,7 +56,7 @@
     },
     {
         "lemma": "przestępczy",
-        "tags": "xxxxxxxxx",
+        "tags": "4l",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -68,23 +67,16 @@
     },
     {
         "lemma": "miesięczny",
-        "tags": "xxxxxxxxx",
+        "tags": "3tt",
         "translations": {
             "ENG": [
-                "monthly",
-                "(occurring every month)",
-                "monthlong",
-                "month",
-                "old",
-                "(archaic poetic relational)",
-                "moon",
-                "lunar"
+                "monthly"
             ]
         },
         "temp_id": "7.7"
     },
     {
-        "lemma": "księżycowy",
+        "lemma": "!księżycowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -97,17 +89,15 @@
     },
     {
         "lemma": "niejaki",
-        "tags": "xxxxxxxxx",
+        "tags": "5he",
         "translations": {
             "ENG": [
-                "one",
-                "(used when introducing the name of an otherwise unknown person)"
-            ]
+                "*one (introducing a person)"   ]
         },
         "temp_id": "7.9"
     },
     {
-        "lemma": "krytyczny",
+        "lemma": "!krytyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -129,7 +119,7 @@
         "temp_id": "7.10"
     },
     {
-        "lemma": "bezkrytyczny",
+        "lemma": "!bezkrytyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -142,7 +132,7 @@
         "temp_id": "7.11"
     },
     {
-        "lemma": "pochwalny",
+        "lemma": "!pochwalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -155,7 +145,7 @@
         "temp_id": "7.12"
     },
     {
-        "lemma": "przełomowy",
+        "lemma": "!przełomowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -167,21 +157,17 @@
     },
     {
         "lemma": "lojalny",
-        "tags": "xxxxxxxxx",
+        "tags": "3py,Z",
         "translations": {
             "ENG": [
-                "loyal",
-                "(firm in allegiance to a person or institution)",
-                "bien pensant",
-                "on-message",
-                "right-minded"
+                "loyal"
             ]
         },
         "temp_id": "7.14"
     },
     {
         "lemma": "wierny",
-        "tags": "xxxxxxxxx",
+         "tags": "3py,Z",
         "translations": {
             "ENG": [
                 "faithful"
@@ -190,7 +176,7 @@
         "temp_id": "7.15"
     },
     {
-        "lemma": "prawomyślny",
+        "lemma": "!prawomyślny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -202,7 +188,7 @@
         "temp_id": "7.16"
     },
     {
-        "lemma": "praworządny",
+        "lemma": "!praworządny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -216,18 +202,17 @@
     },
     {
         "lemma": "ludzki",
-        "tags": "xxxxxxxxx",
+        "tags": "4pp",
         "translations": {
             "ENG": [
                 "(relational)",
-                "human",
-                "humane"
+                "human"
             ]
         },
         "temp_id": "7.18"
     },
     {
-        "lemma": "nieludzki",
+        "lemma": "!nieludzki",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -239,7 +224,7 @@
         "temp_id": "7.19"
     },
     {
-        "lemma": "człowieczy",
+        "lemma": "!człowieczy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -250,7 +235,7 @@
         "temp_id": "7.20"
     },
     {
-        "lemma": "maksymalny",
+        "lemma": "!maksymalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -260,7 +245,7 @@
         "temp_id": "7.21"
     },
     {
-        "lemma": "minimalny",
+        "lemma": "!minimalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -271,7 +256,7 @@
     },
     {
         "lemma": "miejski",
-        "tags": "xxxxxxxxx",
+        "tags": "4geo,ll",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -282,7 +267,7 @@
         "temp_id": "7.23"
     },
     {
-        "lemma": "literacki",
+        "lemma": "!literacki",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -292,7 +277,7 @@
         "temp_id": "7.24"
     },
     {
-        "lemma": "aliteracki",
+        "lemma": "!aliteracki",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
