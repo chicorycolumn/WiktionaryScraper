@@ -290,23 +290,20 @@
     },
     {
         "lemma": "nieczynny",
-        "tags": "xxxxxxxxx",
+        "tags": "3tt,PP,ii",
         "translations": {
             "ENG": [
-                "closed",
+                "*closed",
                 "(e.g. a shop)",
                 "out of order",
                 "(not functioning properly)",
-                "inactive",
-                "dormant",
-                "(chemistry)",
                 "inactive"
             ]
         },
         "temp_id": "7.26"
     },
     {
-        "lemma": "niesprawny",
+        "lemma": "!niesprawny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -319,7 +316,7 @@
         "temp_id": "7.27"
     },
     {
-        "lemma": "mineralny",
+        "lemma": "!mineralny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -330,7 +327,7 @@
         "temp_id": "7.28"
     },
     {
-        "lemma": "nieorganiczny",
+        "lemma": "!nieorganiczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -341,18 +338,16 @@
     },
     {
         "lemma": "masywny",
-        "tags": "xxxxxxxxx",
+        "tags": "4z,kk",
         "translations": {
             "ENG": [
-                "hefty",
-                "massive",
-                "filled in"
+                "massive"
             ]
         },
         "temp_id": "7.30"
     },
     {
-        "lemma": "zwalisty",
+        "lemma": "!zwalisty",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -366,7 +361,7 @@
         "temp_id": "7.31"
     },
     {
-        "lemma": "lotniczy",
+        "lemma": "!lotniczy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -379,7 +374,7 @@
         "temp_id": "7.32"
     },
     {
-        "lemma": "awiacyjny",
+        "lemma": "!awiacyjny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -390,7 +385,7 @@
         "temp_id": "7.33"
     },
     {
-        "lemma": "awiatyczny",
+        "lemma": "!awiatyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -402,20 +397,20 @@
     },
     {
         "lemma": "niemy",
-        "tags": "xxxxxxxxx",
+        "tags": "5!",
         "translations": {
             "ENG": [
-                "mute",
-                "dumb",
+                "*mute",
+                "*dumb",
                 "(unable to speak)",
-                "silent",
-                "soundless"
+                "*silent",
+                "*soundless"
             ]
         },
         "temp_id": "7.35"
     },
     {
-        "lemma": "bezdźwięczny",
+        "lemma": "!bezdźwięczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -430,7 +425,7 @@
         "temp_id": "7.36"
     },
     {
-        "lemma": "atoniczny",
+        "lemma": "!atoniczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -444,7 +439,7 @@
         "temp_id": "7.37"
     },
     {
-        "lemma": "bezgłośny",
+        "lemma": "!bezgłośny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -457,7 +452,7 @@
     },
     {
         "lemma": "nieoczekiwany",
-        "tags": "xxxxxxxxx",
+        "tags": "4Y",
         "translations": {
             "ENG": [
                 "unexpected"
@@ -466,8 +461,8 @@
         "temp_id": "7.39"
     },
     {
-        "lemma": "niespodziany",
-        "tags": "xxxxxxxxx",
+        "lemma": "!niespodziany",
+        "tags": "4Y",
         "translations": {
             "ENG": [
                 "unexpected"
@@ -486,7 +481,7 @@
         "temp_id": "7.41"
     },
     {
-        "lemma": "materialny",
+        "lemma": "!materialny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -502,7 +497,7 @@
         "temp_id": "7.42"
     },
     {
-        "lemma": "niematerialny",
+        "lemma": "!niematerialny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -516,7 +511,7 @@
     },
     {
         "lemma": "negatywny",
-        "tags": "xxxxxxxxx",
+        "tags": "4sci,ee,-",
         "translations": {
             "ENG": [
                 "negative",
@@ -531,7 +526,7 @@
     },
     {
         "lemma": "pozytywny",
-        "tags": "xxxxxxxxx",
+  "tags": "4sci,ee,+",
         "translations": {
             "ENG": [
                 "positive",
@@ -546,10 +541,10 @@
     },
     {
         "lemma": "następujący",
-        "tags": "xxxxxxxxx",
+        "tags": "3fq",
         "translations": {
             "ENG": [
-                "as follows",
+                "following",
                 "(used to begin a list)"
             ]
         },
@@ -557,26 +552,15 @@
     },
     {
         "lemma": "nierówny",
-        "tags": "xxxxxxxxx",
+        "tags": "4mat,z",
         "translations": {
             "ENG": [
-                "uneven",
-                "lopsided",
-                "ragged",
-                "patchy",
-                "erose",
-                "(geometry)",
-                "irregular",
-                "unequal",
-                "one-sided",
-                "rolling",
-                "undulating"
-            ]
+                "uneven","unequal" ]
         },
         "temp_id": "7.47"
     },
     {
-        "lemma": "nieregularny",
+        "lemma": "!nieregularny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -593,16 +577,16 @@
     },
     {
         "lemma": "niecały",
-        "tags": "xxxxxxxxx",
+        "tags": "4mat",
         "translations": {
             "ENG": [
-                "incomplete"
+                "*less than"
             ]
         },
         "temp_id": "7.49"
     },
     {
-        "lemma": "niezupełny",
+        "lemma": "!niezupełny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -612,7 +596,7 @@
         "temp_id": "7.50"
     },
     {
-        "lemma": "niepełny",
+        "lemma": "!niepełny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -622,7 +606,7 @@
         "temp_id": "7.51"
     },
     {
-        "lemma": "niekompletny",
+        "lemma": "!niekompletny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -633,7 +617,7 @@
     },
     {
         "lemma": "nieobecny",
-        "tags": "xxxxxxxxx",
+        "tags": "4w,s,eee",
         "translations": {
             "ENG": [
                 "absent"
