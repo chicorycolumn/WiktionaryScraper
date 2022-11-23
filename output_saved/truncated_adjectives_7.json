@@ -627,54 +627,37 @@
     },
     {
         "lemma": "letni",
-        "tags": "xxxxxxxxx",
+        "tags": "4tt,LL",
         "translations": {
             "ENG": [
                 "(relational)",
                 "summer",
-                "summery",
-                "estival",
-                "(of temperature)",
-                "lukewarm",
-                "(between warm and cool)",
-                "(of people)",
-                "lukewarm",
-                "(not very enthusiastic)"
+                "summery"
+            ]
+        },
+        "temp_id": "7.54"
+    },
+    {
+        "lemma": "letni",
+        "tags": "3H",
+        "translations": {
+            "ENG": [
+                "lukewarm"
             ]
         },
         "temp_id": "7.54"
     },
     {
         "lemma": "obojętny",
-        "tags": "xxxxxxxxx",
+        "tags": "4e,py",
         "translations": {
             "ENG": [
-                "indifferent",
-                "apathetic",
-                "unimportant",
-                "insignificant",
-                "arousing",
-                "no",
-                "significant",
-                "feelings",
-                "(chemistry)",
-                "inert",
-                "(physics)",
-                "neutral",
-                "(possessing no charge)",
-                "(archaic)",
-                "understandable",
-                "in",
-                "two",
-                "ways",
-                "two",
-                "meanings"
-            ]
+                "indifferent" ]
         },
         "temp_id": "7.55"
     },
     {
-        "lemma": "ciepławy",
+        "lemma": "!ciepławy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -685,7 +668,7 @@
     },
     {
         "lemma": "męski",
-        "tags": "xxxxxxxxx",
+        "tags": "4££,pp,soc,gg",
         "translations": {
             "ENG": [
                 "manly",
@@ -697,7 +680,7 @@
         "temp_id": "7.57"
     },
     {
-        "lemma": "niemęski",
+        "lemma": "!niemęski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -711,7 +694,7 @@
         "temp_id": "7.58"
     },
     {
-        "lemma": "małopolski",
+        "lemma": "!małopolski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -724,7 +707,7 @@
         "temp_id": "7.59"
     },
     {
-        "lemma": "galicyjski",
+        "lemma": "!galicyjski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -738,7 +721,7 @@
     },
     {
         "lemma": "magnetyczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4phy",
         "translations": {
             "ENG": [
                 "magnetic"
@@ -747,7 +730,7 @@
         "temp_id": "7.61"
     },
     {
-        "lemma": "amagnetyczny",
+        "lemma": "!amagnetyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -760,17 +743,17 @@
     },
     {
         "lemma": "merytoryczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4he",
         "translations": {
             "ENG": [
                 "substantive",
-                "essential"
+                "substantial"
             ]
         },
         "temp_id": "7.63"
     },
     {
-        "lemma": "rzeczowy",
+        "lemma": "!rzeczowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -790,7 +773,7 @@
     },
     {
         "lemma": "małżeński",
-        "tags": "xxxxxxxxx",
+        "tags": "4Z,l,r",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -802,7 +785,7 @@
         "temp_id": "7.65"
     },
     {
-        "lemma": "matrymonialny",
+        "lemma": "!matrymonialny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -815,47 +798,24 @@
     },
     {
         "lemma": "ludowy",
-        "tags": "xxxxxxxxx",
+        "tags": "5soc",
         "translations": {
             "ENG": [
                 "(relational)",
-                "folk",
-                "(of or pertaining to common people as opposed to ruling classes or elites)",
-                "folk",
-                "(believed or transmitted by the common people; not academically correct or rigorous)",
-                "vernacular",
-                "(of or pertaining to everyday language, as opposed to standard, literary, liturgical, or scientific idiom)",
-                "people's",
-                "(considered to be of, from, or in tune with the common people, rather than from a ruling elite)",
-                "(architecture)",
-                "folk",
-                "vernacular",
-                "(of or related to local building materials and styles)"
-            ]
+                "folk","people's" ]
         },
         "temp_id": "7.67"
     },
     {
         "lemma": "potoczny",
-        "tags": "xxxxxxxxx",
+        "tags": "5££",
         "translations": {
-            "ENG": [
-                "common",
-                "ordinary",
-                "quotidian",
-                "(linguistics)",
-                "colloquial",
-                "(informal but within standard language norms)",
-                "(linguistics)",
-                "vernacular",
-                "non-standard",
-                "(belonging to non-standard usage)"
-            ]
+            "ENG": ["colloquial"  ]
         },
         "temp_id": "7.68"
     },
     {
-        "lemma": "obiegowy",
+        "lemma": "!obiegowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -872,7 +832,7 @@
         "temp_id": "7.69"
     },
     {
-        "lemma": "wernakularny",
+        "lemma": "!wernakularny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -895,18 +855,17 @@
     },
     {
         "lemma": "zwyczajowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4soc,dr",
         "translations": {
             "ENG": [
                 "customary",
-                "habitual",
-                "traditional"
+                "habitual"
             ]
         },
         "temp_id": "7.71"
     },
     {
-        "lemma": "niemały",
+        "lemma": "!niemały",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -917,7 +876,7 @@
         "temp_id": "7.72"
     },
     {
-        "lemma": "nadzwyczajny",
+        "lemma": "!nadzwyczajny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -927,7 +886,7 @@
         "temp_id": "7.73"
     },
     {
-        "lemma": "niepowtarzalny",
+        "lemma": "!niepowtarzalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -938,7 +897,7 @@
         "temp_id": "7.74"
     },
     {
-        "lemma": "nieruchomy",
+        "lemma": "!nieruchomy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -948,7 +907,7 @@
         "temp_id": "7.75"
     },
     {
-        "lemma": "ruchomy",
+        "lemma": "!ruchomy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -959,33 +918,19 @@
     },
     {
         "lemma": "niedawny",
-        "tags": "xxxxxxxxx",
+        "tags": "2tt",
         "translations": {
             "ENG": [
-                "recent",
-                "(having happened a short while ago)",
-                "fresh",
-                "(new or clean)"
-            ]
+                "recent" ]
         },
         "temp_id": "7.77"
     },
     {
         "lemma": "świeży",
-        "tags": "xxxxxxxxx",
+        "tags": "2ff",
         "translations": {
             "ENG": [
-                "fresh",
-                "crisp",
-                "brisk",
-                "fresh",
-                "recent",
-                "new",
-                "fresh",
-                "well-rested",
-                "bright",
-                "intense"
-            ]
+                "fresh" ]
         },
         "temp_id": "7.78"
     },
