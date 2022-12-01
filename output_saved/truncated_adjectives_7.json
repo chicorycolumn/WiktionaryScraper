@@ -936,18 +936,17 @@
     },
     {
         "lemma": "lodowaty",
-        "tags": "xxxxxxxxx",
+        "tags": "3LL,H",
         "translations": {
             "ENG": [
                 "icy",
-                "ice-cold",
-                "gelid"
+                "ice cold"
             ]
         },
         "temp_id": "7.79"
     },
     {
-        "lemma": "lodowy",
+        "lemma": "!lodowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -960,7 +959,7 @@
         "temp_id": "7.80"
     },
     {
-        "lemma": "nieoficjalny",
+        "lemma": "!nieoficjalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -971,7 +970,7 @@
     },
     {
         "lemma": "oficjalny",
-        "tags": "xxxxxxxxx",
+        "tags": "4w,l",
         "translations": {
             "ENG": [
                 "official"
@@ -981,7 +980,7 @@
     },
     {
         "lemma": "niemiecki",
-        "tags": "xxxxxxxxx",
+        "tags": "2£",
         "translations": {
             "ENG": [
                 "German"
@@ -990,7 +989,7 @@
         "temp_id": "7.83"
     },
     {
-        "lemma": "kulturalny",
+        "lemma": "!kulturalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1002,7 +1001,7 @@
         "temp_id": "7.84"
     },
     {
-        "lemma": "niekulturalny",
+        "lemma": "!niekulturalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1013,7 +1012,7 @@
         "temp_id": "7.85"
     },
     {
-        "lemma": "mistrzowski",
+        "lemma": "!mistrzowski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1027,7 +1026,7 @@
     },
     {
         "lemma": "krwawy",
-        "tags": "xxxxxxxxx",
+        "tags": "4XX,bb,med",
         "translations": {
             "ENG": [
                 "bloody",
@@ -1040,7 +1039,7 @@
         "temp_id": "7.87"
     },
     {
-        "lemma": "mocniejszy",
+        "lemma": "!mocniejszy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1053,7 +1052,7 @@
     },
     {
         "lemma": "niekorzystny",
-        "tags": "xxxxxxxxx",
+        "tags": "4-,LL",
         "translations": {
             "ENG": [
                 "unfavorable",
@@ -1063,7 +1062,7 @@
         "temp_id": "7.89"
     },
     {
-        "lemma": "myśliwski",
+        "lemma": "!myśliwski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1075,21 +1074,17 @@
     },
     {
         "lemma": "lewy",
-        "tags": "xxxxxxxxx",
+        "tags": "1ss",
         "translations": {
             "ENG": [
-                "left",
-                "(direction)",
-                "(colloquial)",
-                "illegal",
-                "counterfeit"
+                "left"
             ]
         },
         "temp_id": "7.91"
     },
     {
         "lemma": "magiczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4RRR",
         "translations": {
             "ENG": [
                 "magical"
@@ -1099,7 +1094,7 @@
     },
     {
         "lemma": "luksusowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4+,$",
         "translations": {
             "ENG": [
                 "luxurious",
@@ -1111,7 +1106,7 @@
     },
     {
         "lemma": "liczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4mat",
         "translations": {
             "ENG": [
                 "numerous"
@@ -1120,7 +1115,7 @@
         "temp_id": "7.94"
     },
     {
-        "lemma": "należny",
+        "lemma": "!należny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1131,7 +1126,7 @@
         "temp_id": "7.95"
     },
     {
-        "lemma": "naftowy",
+        "lemma": "!naftowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1144,7 +1139,7 @@
     },
     {
         "lemma": "miniony",
-        "tags": "xxxxxxxxx",
+        "tags": "3fq",
         "translations": {
             "ENG": [
                 "past",
@@ -1156,7 +1151,7 @@
         "temp_id": "7.97"
     },
     {
-        "lemma": "kulturowy",
+        "lemma": "!kulturowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1168,7 +1163,7 @@
         "temp_id": "7.98"
     },
     {
-        "lemma": "naczelny",
+        "lemma": "!naczelny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1179,7 +1174,7 @@
         "temp_id": "7.99"
     },
     {
-        "lemma": "muzyczny",
+        "lemma": "!muzyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1189,7 +1184,7 @@
         "temp_id": "7.100"
     },
     {
-        "lemma": "londyński",
+        "lemma": "!londyński",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1202,7 +1197,7 @@
         "temp_id": "7.101"
     },
     {
-        "lemma": "mazowiecki",
+        "lemma": "!mazowiecki",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1216,14 +1211,21 @@
     },
     {
         "lemma": "morski",
-        "tags": "xxxxxxxxx",
+        "tags": "4TT",
         "translations": {
             "ENG": [
                 "(relational)",
                 "sea",
                 "marine",
-                "nautical",
-                "(color)",
+                "nautical"
+            ]
+        },
+        "temp_id": "7.103"
+    },    {
+        "lemma": "morski",
+        "tags": "4k",
+        "translations": {
+            "ENG": [
                 "teal"
             ]
         },

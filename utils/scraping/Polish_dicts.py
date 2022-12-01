@@ -471,6 +471,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["religion"],
     },
+    "RRR": {
+        "tags": [],
+        "topics": ["fantasy"],
+    },
     "K": {
         "tags": ["curseword"],
         "topics": [],
