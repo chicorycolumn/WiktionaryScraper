@@ -623,6 +623,14 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["physics", "science"],
     },
+    "nut": {
+        "tags": [],
+        "topics": ["nutrition"],
+    },
+    "nau": {
+        "tags": [],
+        "topics": ["nautical"],
+    },
     "phi": {
         "tags": [],
         "topics": ["philosophy and ethics"],

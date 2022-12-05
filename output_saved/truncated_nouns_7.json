@@ -24,26 +24,22 @@
     },
     {
         "lemma": "bilans",
-        "tags": "xxxxxxxxx",
+        "tags": "4$,w",
         "translations": {
             "ENG": [
-                "balance sheet balance",
-                "(accounting)",
-                "balance",
-                "(the relationship between gains and losses in general)",
-                "assessment balance toll count tally summary"
-            ]
+                "balance"  ]
         },
         "temp_id": "7.3",
         "gender": "m3"
     },
     {
         "lemma": "zapach",
-        "tags": "xxxxxxxxx",
+        "tags": "2Q",
         "translations": {
             "ENG": [
-                "aroma smell fragrance perfume",
-                "odour stink stench"
+                "smell",
+
+                "odour"
             ]
         },
         "temp_id": "7.4",
@@ -51,7 +47,7 @@
     },
     {
         "lemma": "narzeczony",
-        "tags": "xxxxxxxxx",
+        "tags": "3Z,r",
         "translations": {
             "ENG": [
                 "fiancé"
@@ -62,7 +58,7 @@
     },
     {
         "lemma": "narzeczona",
-        "tags": "xxxxxxxxx",
+           "tags": "3Z,r",
         "translations": {
             "ENG": [
                 "fiancée"
@@ -73,7 +69,7 @@
     },
     {
         "lemma": "ogrodnik",
-        "tags": "xxxxxxxxx",
+        "tags": "3j,agr",
         "translations": {
             "ENG": [
                 "gardener"
@@ -84,19 +80,17 @@
     },
     {
         "lemma": "ślimak",
-        "tags": "xxxxxxxxx",
+        "tags": "3ai",
         "translations": {
             "ENG": [
-                "snail slug",
-                "(gastropod)",
-                "escargot"
+                "snail"
             ]
         },
         "temp_id": "7.8",
         "gender": "m2"
     },
     {
-        "lemma": "ślimak",
+        "lemma": "!ślimak",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -108,7 +102,7 @@
         "gender": "m1"
     },
     {
-        "lemma": "ślimak",
+        "lemma": "!ślimak",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -131,7 +125,7 @@
     },
     {
         "lemma": "łódź",
-        "tags": "xxxxxxxxx",
+        "tags": "2T,nau",
         "translations": {
             "ENG": [
                 "boat"
@@ -142,7 +136,7 @@
     },
     {
         "lemma": "lew",
-        "tags": "xxxxxxxxx",
+        "tags": "1a",
         "translations": {
             "ENG": [
                 "lion",
@@ -154,7 +148,7 @@
         "gender": "m2"
     },
     {
-        "lemma": "lew",
+        "lemma": "!lew",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -167,7 +161,7 @@
     },
     {
         "lemma": "nastolatek",
-        "tags": "xxxxxxxxx",
+        "tags": "2p,tt",
         "translations": {
             "ENG": [
                 "teenager"
@@ -178,7 +172,7 @@
     },
     {
         "lemma": "wapń",
-        "tags": "xxxxxxxxx",
+        "tags": "4C,nut",
         "translations": {
             "ENG": [
                 "calcium"
@@ -189,11 +183,10 @@
     },
     {
         "lemma": "tygrys",
-        "tags": "xxxxxxxxx",
+        "tags": "1a",
         "translations": {
             "ENG": [
-                "tiger Panthera tigris",
-                "(mammal)"
+                "tiger"
             ]
         },
         "temp_id": "7.16",
@@ -201,11 +194,9 @@
     },
     {
         "lemma": "postać",
-        "tags": "xxxxxxxxx",
+        "tags": "3wri",
         "translations": {
             "ENG": [
-                "form",
-                "figure being",
                 "character"
             ]
         },
@@ -214,7 +205,7 @@
     },
     {
         "lemma": "jaszczurka",
-        "tags": "xxxxxxxxx",
+        "tags": "3a",
         "translations": {
             "ENG": [
                 "lizard"
@@ -225,38 +216,30 @@
     },
     {
         "lemma": "błąd",
-        "tags": "xxxxxxxxx",
+        "tags": "3s,qqq",
         "translations": {
             "ENG": [
-                "error mistake",
-                "(state, quality, or condition of being wrong)",
-                "error mistake",
-                "(something that brings undesired effects)"
-            ]
+                "error","mistake"   ]
         },
         "temp_id": "7.19",
         "gender": "m3"
     },
     {
         "lemma": "guzik",
-        "tags": "xxxxxxxxx",
+        "tags": "3ii",
         "translations": {
             "ENG": [
-                "Diminutive of guz",
-                "button",
-                "(knob or small disc serving as a fastener)"
-            ]
+                "button"  ]
         },
         "temp_id": "7.20",
         "gender": "m3"
     },
     {
         "lemma": "studentka",
-        "tags": "xxxxxxxxx",
+        "tags": "2s,p",
         "translations": {
             "ENG": [
-                "female equivalent of student",
-                "( “ student ” )"
+                "student"
             ]
         },
         "temp_id": "7.21",
@@ -264,28 +247,31 @@
     },
     {
         "lemma": "katedra",
-        "tags": "xxxxxxxxx",
+        "tags": "3lb,RR",
         "translations": {
             "ENG": [
-                "cathedral",
-                "(architecture Roman Catholicism)",
-                "chair",
-                "(professorial position at a university) (education)",
-                "department laboratory",
-                "(organizational unit at a university dealing with a specific research subject) (education)"
-            ]
+                "cathedral" ]
         },
         "temp_id": "7.22",
         "gender": "f"
     },
     {
         "lemma": "hasło",
-        "tags": "xxxxxxxxx",
+        "tags": "2xx",
         "translations": {
             "ENG": [
-                "password",
-                "slogan",
-                "entry headword"
+                "password"
+            ]
+        },
+        "temp_id": "7.23",
+        "gender": "n"
+    },
+    {
+        "lemma": "hasło",
+        "tags": "4bus",
+        "translations": {
+            "ENG": [
+                "slogan"
             ]
         },
         "temp_id": "7.23",
@@ -293,7 +279,7 @@
     },
     {
         "lemma": "przygoda",
-        "tags": "xxxxxxxxx",
+        "tags": "3wri,PP",
         "translations": {
             "ENG": [
                 "adventure",
