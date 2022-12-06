@@ -295,7 +295,7 @@
     },
     {
         "lemma": "deser",
-        "tags": "xxxxxxxxx",
+        "tags": "2ff",
         "translations": {
             "ENG": [
                 "dessert"
@@ -306,10 +306,10 @@
     },
     {
         "lemma": "sposób",
-        "tags": "xxxxxxxxx",
+        "tags": "2he,eee,qqq",
         "translations": {
             "ENG": [
-                "way method"
+                "way","method"
             ]
         },
         "temp_id": "7.26",
@@ -317,10 +317,10 @@
     },
     {
         "lemma": "rtęć",
-        "tags": "xxxxxxxxx",
+        "tags": "3C",
         "translations": {
             "ENG": [
-                "mercury quicksilver"
+                "mercury"
             ]
         },
         "temp_id": "7.27",
@@ -328,12 +328,21 @@
     },
     {
         "lemma": "południe",
-        "tags": "xxxxxxxxx",
+        "tags": "2tt",
         "translations": {
             "ENG": [
-                "noon midday",
-                "(time of day when the sun is in its zenith)",
-                "south"
+                "noon","midday"
+            ]
+        },
+        "temp_id": "7.28",
+        "gender": "n"
+    },
+    {
+        "lemma": "południe",
+        "tags": "2ss,geo",
+        "translations": {
+            "ENG": [
+                 "south"
             ]
         },
         "temp_id": "7.28",
@@ -341,7 +350,7 @@
     },
     {
         "lemma": "optyk",
-        "tags": "xxxxxxxxx",
+        "tags": "3j",
         "translations": {
             "ENG": [
                 "optician"
@@ -352,37 +361,37 @@
     },
     {
         "lemma": "układ",
-        "tags": "xxxxxxxxx",
+        "tags": "3eee,fq",
         "translations": {
             "ENG": [
-                "system",
-                "arrangement layout",
-                "(a manner of being arranged)",
-                "pact agreement",
-                "(often derogatory)",
-                "a supposed conspiracy of criminals, politicians, businessmen and the secret service",
-                "(politics derogatory)"
-            ]
+                "system" ]
         },
         "temp_id": "7.30",
         "gender": "m3"
     },
     {
         "lemma": "promień",
-        "tags": "xxxxxxxxx",
+        "tags": "5mat",
         "translations": {
             "ENG": [
-                "ray beam",
-                "radius",
-                "(line segment between any point on the circumference of a circle and its centre) (geometry)"
-            ]
+                "radius" ]
+        },
+        "temp_id": "7.31",
+        "gender": "m3"
+    },
+    {
+        "lemma": "promień",
+        "tags": "3eng,phy",
+        "translations": {
+            "ENG": [
+                "ray","beam" ]
         },
         "temp_id": "7.31",
         "gender": "m3"
     },
     {
         "lemma": "żyrafa",
-        "tags": "xxxxxxxxx",
+        "tags": "2a",
         "translations": {
             "ENG": [
                 "giraffe"
@@ -393,25 +402,22 @@
     },
     {
         "lemma": "dowód",
-        "tags": "xxxxxxxxx",
+        "tags": "3eee,l",
         "translations": {
             "ENG": [
                 "evidence",
                 "(anything admitted by a court as proof)",
-                "proof",
-                "identity card",
-                "(informal)"
-            ]
+                "proof" ]
         },
         "temp_id": "7.33",
         "gender": "m3"
     },
     {
         "lemma": "siarka",
-        "tags": "xxxxxxxxx",
+        "tags": "4C",
         "translations": {
             "ENG": [
-                "sulfur",
+                "sulfur","sulphur",
                 "(element)"
             ]
         },
@@ -420,21 +426,17 @@
     },
     {
         "lemma": "modelka",
-        "tags": "xxxxxxxxx",
+        "tags": "3j",
         "translations": {
             "ENG": [
-                "female equivalent of model",
-                "(female person who serves as a subject for artwork) ( “ model ” )",
-                "female equivalent of model",
-                "(female person who serves as a subject for fashion) ( “ model ” )"
-            ]
+                "model"   ]
         },
         "temp_id": "7.35",
         "gender": "f"
     },
     {
         "lemma": "śmiech",
-        "tags": "xxxxxxxxx",
+        "tags": "3pp,!",
         "translations": {
             "ENG": [
                 "laughter",
@@ -446,24 +448,20 @@
     },
     {
         "lemma": "szacunek",
-        "tags": "xxxxxxxxx",
+        "tags": "3ee,sg",
         "translations": {
             "ENG": [
-                "respect",
-                "(admiration for a person or entity because of perceived merit)",
-                "estimate estimation"
-            ]
+                "respect" ]
         },
         "temp_id": "7.37",
         "gender": "m3"
     },
     {
         "lemma": "książę",
-        "tags": "xxxxxxxxx",
+        "tags": "2j,t",
         "translations": {
             "ENG": [
-                "prince",
-                "duke"
+                "prince"
             ]
         },
         "temp_id": "7.38",
@@ -471,15 +469,10 @@
     },
     {
         "lemma": "trójkąt",
-        "tags": "xxxxxxxxx",
+        "tags": "2gem",
         "translations": {
             "ENG": [
-                "triangle",
-                "(all senses)",
-                "rack",
-                "(a hollow triangle used for aligning the balls at the start of a pool game) (billiards snooker pool)",
-                "a threeway, a threesome, a ménage à trois",
-                "(slang)"
+                "triangle"
             ]
         },
         "temp_id": "7.39",
@@ -487,13 +480,20 @@
     },
     {
         "lemma": "gość",
-        "tags": "xxxxxxxxx",
+        "tags": "2r,PP",
         "translations": {
             "ENG": [
-                "guest",
-                "(recipient of hospitality)",
-                "guy fellow",
-                "(colloquial)"
+                "guest"  ]
+        },
+        "temp_id": "7.40",
+        "gender": "m1"
+    },
+    {
+        "lemma": "gość",
+        "tags": "2G,p",
+        "translations": {
+            "ENG": [
+                "guy"
             ]
         },
         "temp_id": "7.40",
