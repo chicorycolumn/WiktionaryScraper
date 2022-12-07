@@ -501,7 +501,7 @@
     },
     {
         "lemma": "piekarnia",
-        "tags": "xxxxxxxxx",
+        "tags": "3lb,ff",
         "translations": {
             "ENG": [
                 "bakery"
@@ -512,16 +512,10 @@
     },
     {
         "lemma": "łopata",
-        "tags": "xxxxxxxxx",
+        "tags": "4agr,X",
         "translations": {
             "ENG": [
-                "shovel spade",
-                "antler of an elk or fallow deer",
-                "(hunting)",
-                "blade",
-                "(flat outer part of a propeller)",
-                "blade",
-                "(part of a wind turbine)"
+                "shovel","spade"
             ]
         },
         "temp_id": "7.42",
@@ -529,12 +523,10 @@
     },
     {
         "lemma": "wiewiórka",
-        "tags": "xxxxxxxxx",
+        "tags": "2a",
         "translations": {
             "ENG": [
-                "squirrel",
-                "redhead",
-                "(colloquial)"
+                "squirrel"
             ]
         },
         "temp_id": "7.43",
@@ -542,10 +534,10 @@
     },
     {
         "lemma": "ksiądz",
-        "tags": "xxxxxxxxx",
+        "tags": "3j,RR",
         "translations": {
             "ENG": [
-                "Christian priest"
+                "priest"
             ]
         },
         "temp_id": "7.44",
@@ -553,29 +545,32 @@
     },
     {
         "lemma": "bagaż",
-        "tags": "xxxxxxxxx",
+        "tags": "3PP,TT",
         "translations": {
             "ENG": [
-                "luggage baggage",
-                "(traveller's containers)",
-                "mass stock",
-                "(a large collection of things, physical or otherwise, that might come in handy later)"
-            ]
+                "luggage","baggage"    ]
         },
         "temp_id": "7.45",
         "gender": "m3"
     },
     {
         "lemma": "dodatek",
-        "tags": "xxxxxxxxx",
+        "tags": "4eee,$",
         "translations": {
             "ENG": [
-                "addition supplement",
-                "additive",
-                "appendix",
-                "(of a book)",
-                "add-on",
-                "(computing)"
+                "addition",
+                "add-on"
+            ]
+        },
+        "temp_id": "7.46",
+        "gender": "m3"
+    },
+    {
+        "lemma": "dodatek",
+        "tags": "4ff",
+        "translations": {
+            "ENG": [
+                "additive"
             ]
         },
         "temp_id": "7.46",
@@ -583,10 +578,21 @@
     },
     {
         "lemma": "wina",
-        "tags": "xxxxxxxxx",
+        "tags": "3e",
         "translations": {
             "ENG": [
-                "guilt fault"
+                "guilt"
+            ]
+        },
+        "temp_id": "7.47",
+        "gender": "f"
+    },
+    {
+        "lemma": "wina",
+        "tags": "3sg",
+        "translations": {
+            "ENG": [
+                "fault"
             ]
         },
         "temp_id": "7.47",
@@ -594,7 +600,7 @@
     },
     {
         "lemma": "obowiązek",
-        "tags": "xxxxxxxxx",
+        "tags": "3sg,l",
         "translations": {
             "ENG": [
                 "duty",
@@ -606,7 +612,7 @@
     },
     {
         "lemma": "zegar",
-        "tags": "xxxxxxxxx",
+        "tags": "2hh",
         "translations": {
             "ENG": [
                 "clock",
@@ -618,20 +624,16 @@
     },
     {
         "lemma": "trawnik",
-        "tags": "xxxxxxxxx",
+        "tags": "3hp,agr",
         "translations": {
             "ENG": [
-                "lawn",
-                "(ground covered with grass)",
-                "mower",
-                "(machine) (Warmia Masuria)"
-            ]
+                "lawn"  ]
         },
         "temp_id": "7.50",
         "gender": "m3"
     },
     {
-        "lemma": "trawnik",
+        "lemma": "!trawnik",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -644,12 +646,10 @@
     },
     {
         "lemma": "stacja",
-        "tags": "xxxxxxxxx",
+        "tags": "1TT,PP,lb",
         "translations": {
             "ENG": [
-                "station",
-                "disk drive drive",
-                "(computing)"
+                "station"
             ]
         },
         "temp_id": "7.52",
@@ -657,35 +657,20 @@
     },
     {
         "lemma": "łańcuch",
-        "tags": "xxxxxxxxx",
+        "tags": "3gem,eng",
         "translations": {
             "ENG": [
-                "chain",
-                "(series of interconnected rings or links)",
-                "tinsel",
-                "(very thin decorative strips of a glittering, metallic material, often strung on to thread and used as a decoration on Christmas trees)",
-                "chain",
-                "(series of interconnected things)",
-                "chain of events",
-                "chain of atoms",
-                "(chemistry)",
-                "chain",
-                "(totally ordered subset) (order theory set theory)",
-                "string",
-                "(sequence of consecutive text characters) (computing)"
-            ]
+                "chain"     ]
         },
         "temp_id": "7.53",
         "gender": "m3"
     },
     {
         "lemma": "krokodyl",
-        "tags": "xxxxxxxxx",
+        "tags": "2a",
         "translations": {
             "ENG": [
-                "crocodile",
-                "crocodile leather",
-                "(colloquial)"
+                "crocodile"
             ]
         },
         "temp_id": "7.54",
@@ -693,7 +678,7 @@
     },
     {
         "lemma": "maszyna",
-        "tags": "xxxxxxxxx",
+        "tags": "2i",
         "translations": {
             "ENG": [
                 "machine"
@@ -704,22 +689,37 @@
     },
     {
         "lemma": "nauka",
-        "tags": "xxxxxxxxx",
+        "tags": "2S",
         "translations": {
             "ENG": [
-                "science field of study",
-                "(e.g., physics, mathematics, history)",
-                "the process of learning or teaching",
-                "lesson moral",
-                "(ethical significance or practical lesson)"
-            ]
+                "science"]
+        },
+        "temp_id": "7.56",
+        "gender": "f"
+    },
+    {
+        "lemma": "nauka",
+        "tags": "2s,ee",
+        "translations": {
+            "ENG": [
+                "learning"]
+        },
+        "temp_id": "7.56",
+        "gender": "f"
+    },
+    {
+        "lemma": "nauka",
+        "tags": "2w,ee",
+        "translations": {
+            "ENG": [
+                "study"]
         },
         "temp_id": "7.56",
         "gender": "f"
     },
     {
         "lemma": "pająk",
-        "tags": "xxxxxxxxx",
+        "tags": "1ai",
         "translations": {
             "ENG": [
                 "spider"
@@ -730,15 +730,10 @@
     },
     {
         "lemma": "żart",
-        "tags": "xxxxxxxxx",
+        "tags": "3sg",
         "translations": {
             "ENG": [
-                "joke",
-                "(amusing story)",
-                "joke",
-                "(something said or done for amusement)",
-                "joke",
-                "(worthless thing)"
+                "joke"
             ]
         },
         "temp_id": "7.58",
