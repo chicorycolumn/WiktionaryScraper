@@ -741,26 +741,31 @@
     },
     {
         "lemma": "rdza",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng",
         "translations": {
             "ENG": [
-                "rust",
-                "(result of oxidation of steel or iron)",
-                "rust",
-                "(fungal plant disease)"
-            ]
+                "rust"  ]
         },
         "temp_id": "7.59",
         "gender": "f"
     },
     {
         "lemma": "rodzaj",
-        "tags": "xxxxxxxxx",
+        "tags": "2he,eee",
         "translations": {
             "ENG": [
-                "kind type",
-                "genus",
-                "(taxonomy)",
+                "kind",
+                "type"
+            ]
+        },
+        "temp_id": "7.60",
+        "gender": "m3"
+    },
+    {
+        "lemma": "rodzaj",
+        "tags": "4££",
+        "translations": {
+            "ENG": [
                 "gender",
                 "(grammar)"
             ]
@@ -770,7 +775,7 @@
     },
     {
         "lemma": "prysznic",
-        "tags": "xxxxxxxxx",
+        "tags": "1dr,HW",
         "translations": {
             "ENG": [
                 "shower",
@@ -784,7 +789,7 @@
     },
     {
         "lemma": "soczewka",
-        "tags": "xxxxxxxxx",
+        "tags": "3med,ast",
         "translations": {
             "ENG": [
                 "lens",
@@ -798,10 +803,10 @@
     },
     {
         "lemma": "choroba",
-        "tags": "xxxxxxxxx",
+        "tags": "2med,UU",
         "translations": {
             "ENG": [
-                "illness sickness disease"
+                "illness","sickness","disease"
             ]
         },
         "temp_id": "7.63",
@@ -809,10 +814,10 @@
     },
     {
         "lemma": "potwór",
-        "tags": "xxxxxxxxx",
+        "tags": "3RRR",
         "translations": {
             "ENG": [
-                "monster fiend"
+                "monster"
             ]
         },
         "temp_id": "7.64",
@@ -820,7 +825,7 @@
     },
     {
         "lemma": "zakupy",
-        "tags": "xxxxxxxxx",
+        "tags": "1$",
         "translations": {
             "ENG": [
                 "shopping",
@@ -834,7 +839,7 @@
     },
     {
         "lemma": "biodro",
-        "tags": "xxxxxxxxx",
+        "tags": "3b",
         "translations": {
             "ENG": [
                 "hip",
@@ -846,13 +851,10 @@
     },
     {
         "lemma": "zabawa",
-        "tags": "xxxxxxxxx",
+        "tags": "2ee,+",
         "translations": {
             "ENG": [
-                "fun amusement",
-                "(uncountable)",
-                "game",
-                "(countable)"
+                "fun"
             ]
         },
         "temp_id": "7.67",
@@ -860,7 +862,7 @@
     },
     {
         "lemma": "wnuk",
-        "tags": "xxxxxxxxx",
+        "tags": "1r",
         "translations": {
             "ENG": [
                 "grandson"
@@ -871,22 +873,17 @@
     },
     {
         "lemma": "królik",
-        "tags": "xxxxxxxxx",
+        "tags": "2a,ff",
         "translations": {
             "ENG": [
-                "rabbit",
-                "(mammal)",
-                "Diminutive of król . 1832 Adam Mickiewicz,“ Objaśnienia poety Author's notes ”, in Dziady część III Forefathers' Eve Part III, published 1920, page 269 :",
-                "(derogatory rare)",
-                "1923 Janusz Korczak,chapter 51, in Król Maciuś Pierwszy King Matt the First page 360 :"
-            ]
+                "rabbit"]
         },
         "temp_id": "7.69",
         "gender": "m2"
     },
     {
         "lemma": "wojna",
-        "tags": "xxxxxxxxx",
+        "tags": "2his,XXX",
         "translations": {
             "ENG": [
                 "war"
@@ -897,24 +894,18 @@
     },
     {
         "lemma": "ciężarówka",
-        "tags": "xxxxxxxxx",
+        "tags": "2T",
         "translations": {
             "ENG": [
                 "truck",
-                "(UK) lorry (North America)",
-                "pregnant woman, preggie 2000,marzka, pl.soc.dzieci, Usenet [ ciężarówka \"z grupy podwyższonego ryzyka\" ] :",
-                "(humorous)",
-                "2003,pola, pl.soc.dzieci, Usenet [ ciężarówka chora - ktoś zapłaci za pierwszy dzień zwolnienia? ] :",
-                "2003,Marchewka, pl.soc.dzieci, Usenet [ ciężarówka i ZUS ] :",
-                "(było:Zatrudnienie kobiety w ciąży)"
-            ]
+                "lorry"  ]
         },
         "temp_id": "7.71",
         "gender": "f"
     },
     {
         "lemma": "narodowość",
-        "tags": "xxxxxxxxx",
+        "tags": "2geo,soc",
         "translations": {
             "ENG": [
                 "nationality",
@@ -926,14 +917,10 @@
     },
     {
         "lemma": "brzeg",
-        "tags": "xxxxxxxxx",
+        "tags": "3geo,ln",
         "translations": {
             "ENG": [
-                "coast shoreline bank ; the area along the edge of a body of water",
-                "(ocean, lake, river)",
-                "edge rim",
-                "boundary",
-                "(topology)"
+                "coast","shoreline","*bank"
             ]
         },
         "temp_id": "7.73",
@@ -941,13 +928,10 @@
     },
     {
         "lemma": "portfel",
-        "tags": "xxxxxxxxx",
+        "tags": "1$,PP,dr",
         "translations": {
             "ENG": [
-                "wallet",
-                "(case for keeping money)",
-                "portfolio group of investments",
-                "(economics)"
+                "wallet"
             ]
         },
         "temp_id": "7.74",
@@ -955,7 +939,7 @@
     },
     {
         "lemma": "klawisz",
-        "tags": "xxxxxxxxx",
+        "tags": "3xx,ii",
         "translations": {
             "ENG": [
                 "key",
@@ -966,7 +950,7 @@
         "gender": "m3"
     },
     {
-        "lemma": "klawisz",
+        "lemma": "!klawisz",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -979,15 +963,21 @@
     },
     {
         "lemma": "łuk",
-        "tags": "xxxxxxxxx",
+        "tags": "4X",
         "translations": {
             "ENG": [
-                "bow",
-                "(weapon used for shooting arrows)",
-                "arc",
-                "(geometry)",
-                "arch",
-                "(architecture)"
+                "*bow"
+            ]
+        },
+        "temp_id": "7.77",
+        "gender": "m3"
+    },
+    {
+        "lemma": "łuk",
+        "tags": "4eng",
+        "translations": {
+            "ENG": [
+                "arch"
             ]
         },
         "temp_id": "7.77",
@@ -995,7 +985,7 @@
     },
     {
         "lemma": "łza",
-        "tags": "xxxxxxxxx",
+        "tags": "3bb",
         "translations": {
             "ENG": [
                 "tear",
@@ -1007,12 +997,10 @@
     },
     {
         "lemma": "choinka",
-        "tags": "xxxxxxxxx",
+        "tags": "3PP,hh",
         "translations": {
             "ENG": [
-                "Christmas tree",
-                "conifer",
-                "(colloquial)"
+                "Christmas tree"
             ]
         },
         "temp_id": "7.79",
