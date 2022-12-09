@@ -1008,7 +1008,7 @@
     },
     {
         "lemma": "nić",
-        "tags": "xxxxxxxxx",
+        "tags": "3qqq,c",
         "translations": {
             "ENG": [
                 "thread",
@@ -1020,10 +1020,10 @@
     },
     {
         "lemma": "kucharz",
-        "tags": "xxxxxxxxx",
+        "tags": "2j,ff",
         "translations": {
             "ENG": [
-                "cook chef",
+                "cook","chef",
                 "(cooking)"
             ]
         },
@@ -1032,12 +1032,10 @@
     },
     {
         "lemma": "sąd",
-        "tags": "xxxxxxxxx",
+        "tags": "3l",
         "translations": {
             "ENG": [
-                "court of law",
-                "judgment opinion",
-                "(dated)"
+                "court"
             ]
         },
         "temp_id": "7.82",
@@ -1045,10 +1043,9 @@
     },
     {
         "lemma": "ławka",
-        "tags": "xxxxxxxxx",
+        "tags": "2HH,gar",
         "translations": {
             "ENG": [
-                "Diminutive of ława",
                 "bench",
                 "(a long seat)"
             ]
@@ -1058,12 +1055,20 @@
     },
     {
         "lemma": "zachód",
-        "tags": "xxxxxxxxx",
+        "tags": "4ast",
         "translations": {
             "ENG": [
-                "set",
-                "(referring to a celestial body, such as in sunset)",
-                "west"
+                "*sunset"
+            ]
+        },
+        "temp_id": "7.84",
+        "gender": "m3"
+    },
+    {
+        "lemma": "zachód",
+        "tags": "2ss,geo",
+        "translations": {
+            "ENG": ["west"
             ]
         },
         "temp_id": "7.84",
@@ -1071,10 +1076,9 @@
     },
     {
         "lemma": "zapalenie",
-        "tags": "xxxxxxxxx",
+        "tags": "3med,UU",
         "translations": {
             "ENG": [
-                "verbal noun of zapalić",
                 "inflammation",
                 "(medicine)"
             ]
@@ -1084,24 +1088,20 @@
     },
     {
         "lemma": "wiara",
-        "tags": "xxxxxxxxx",
+        "tags": "2RR",
         "translations": {
             "ENG": [
-                "belief faith credence creed",
-                "fidelity trust confidence",
-                "a group of trusted people",
-                "(colloquial)"
-            ]
+                "belief","faith"  ]
         },
         "temp_id": "7.86",
         "gender": "f"
     },
     {
         "lemma": "gniew",
-        "tags": "xxxxxxxxx",
+        "tags": "2e",
         "translations": {
             "ENG": [
-                "anger wrath ire"
+                "anger"
             ]
         },
         "temp_id": "7.87",
@@ -1109,7 +1109,7 @@
     },
     {
         "lemma": "trzmiel",
-        "tags": "xxxxxxxxx",
+        "tags": "3ai",
         "translations": {
             "ENG": [
                 "bumblebee"
@@ -1119,7 +1119,7 @@
         "gender": "m2"
     },
     {
-        "lemma": "trzmiel",
+        "lemma": "!trzmiel",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1131,7 +1131,7 @@
     },
     {
         "lemma": "wymiana",
-        "tags": "xxxxxxxxx",
+        "tags": "4$",
         "translations": {
             "ENG": [
                 "exchange"
@@ -1142,7 +1142,7 @@
     },
     {
         "lemma": "kłamstwo",
-        "tags": "xxxxxxxxx",
+        "tags": "2sg,eee",
         "translations": {
             "ENG": [
                 "lie",
@@ -1154,7 +1154,7 @@
     },
     {
         "lemma": "różnica",
-        "tags": "xxxxxxxxx",
+        "tags": "2eee,he",
         "translations": {
             "ENG": [
                 "difference",
@@ -1168,10 +1168,20 @@
     },
     {
         "lemma": "węgiel",
-        "tags": "xxxxxxxxx",
+        "tags": "3C",
         "translations": {
             "ENG": [
-                "carbon",
+                "carbon"
+            ]
+        },
+        "temp_id": "7.93",
+        "gender": "m3"
+    },
+    {
+        "lemma": "węgiel",
+        "tags": "3ene,c",
+        "translations": {
+            "ENG": [
                 "coal"
             ]
         },
@@ -1180,7 +1190,7 @@
     },
     {
         "lemma": "gardło",
-        "tags": "xxxxxxxxx",
+        "tags": "3b",
         "translations": {
             "ENG": [
                 "throat"
@@ -1191,15 +1201,10 @@
     },
     {
         "lemma": "numer",
-        "tags": "xxxxxxxxx",
+        "tags": "3mat",
         "translations": {
             "ENG": [
-                "number",
-                "(used to show the rank of something in a list or sequence)",
-                "phone number",
-                "(colloquial)",
-                "prank joke",
-                "(colloquial)"
+                "number"
             ]
         },
         "temp_id": "7.95",
@@ -1207,7 +1212,7 @@
     },
     {
         "lemma": "śrubokręt",
-        "tags": "xxxxxxxxx",
+        "tags": "3eng,qq",
         "translations": {
             "ENG": [
                 "screwdriver"
@@ -1218,14 +1223,9 @@
     },
     {
         "lemma": "przewodnik",
-        "tags": "xxxxxxxxx",
+        "tags": "3wri,PP",
         "translations": {
-            "ENG": [
-                "conductor",
-                "(something which can transmit electricity, heat, light or sound)",
-                "guide guide book",
-                "leader",
-                "(botany)"
+            "ENG": [ "guide"
             ]
         },
         "temp_id": "7.97",
@@ -1233,7 +1233,7 @@
     },
     {
         "lemma": "przewodnik",
-        "tags": "xxxxxxxxx",
+        "tags": "3PP,j",
         "translations": {
             "ENG": [
                 "guide",
