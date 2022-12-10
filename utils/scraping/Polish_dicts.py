@@ -515,6 +515,14 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["war"],
     },
+    "J": {
+        "tags": ["natural", "natural disaster"],
+        "topics": ["danger"],
+    },
+    "JJ": {
+        "tags": [],
+        "topics": ["danger"],
+    },
     "V": {
         "tags": [],
         "topics": ["entertainment"],
