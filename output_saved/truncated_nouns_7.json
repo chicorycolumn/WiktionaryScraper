@@ -1449,7 +1449,7 @@
     },
     {
         "lemma": "piosenka",
-        "tags": "xxxxxxxxx",
+        "tags": "3mus",
         "translations": {
             "ENG": [
                 "song",
@@ -1461,11 +1461,10 @@
     },
     {
         "lemma": "wróg",
-        "tags": "xxxxxxxxx",
+        "tags": "3p,XXX",
         "translations": {
             "ENG": [
-                "enemy",
-                "foe"
+                "enemy"
             ]
         },
         "temp_id": "7.117",
@@ -1473,10 +1472,10 @@
     },
     {
         "lemma": "wiśnia",
-        "tags": "xxxxxxxxx",
+        "tags": "3fr",
         "translations": {
             "ENG": [
-                "sour cherry cherry"
+                "cherry"
             ]
         },
         "temp_id": "7.118",
@@ -1484,7 +1483,7 @@
     },
     {
         "lemma": "wodór",
-        "tags": "xxxxxxxxx",
+        "tags": "4C",
         "translations": {
             "ENG": [
                 "hydrogen"
@@ -1495,11 +1494,20 @@
     },
     {
         "lemma": "wschód",
-        "tags": "xxxxxxxxx",
+        "tags": "4ast",
         "translations": {
             "ENG": [
-                "rise",
-                "(referring to a celestial body, such as sunrise)",
+                "*sunrise"
+            ]
+        },
+        "temp_id": "7.120",
+        "gender": "m3"
+    },
+    {
+        "lemma": "wschód",
+        "tags": "2ss,geo",
+        "translations": {
+            "ENG": [
                 "east"
             ]
         },
@@ -1508,7 +1516,7 @@
     },
     {
         "lemma": "pasażer",
-        "tags": "xxxxxxxxx",
+        "tags": "3p,TT",
         "translations": {
             "ENG": [
                 "passenger"
@@ -1519,10 +1527,20 @@
     },
     {
         "lemma": "północ",
-        "tags": "xxxxxxxxx",
+        "tags": "3at",
         "translations": {
             "ENG": [
-                "midnight",
+                "midnight"
+            ]
+        },
+        "temp_id": "7.122",
+        "gender": "f"
+    },
+    {
+        "lemma": "północ",
+      "tags": "2ss,geo",
+        "translations": {
+            "ENG": [
                 "north"
             ]
         },
@@ -1531,10 +1549,12 @@
     },
     {
         "lemma": "szlafrok",
-        "tags": "xxxxxxxxx",
+        "tags": "4g,dr",
         "translations": {
             "ENG": [
-                "bathrobe"
+                "bathrobe",
+                "bath robe",
+                "dressing gown"
             ]
         },
         "temp_id": "7.123",
@@ -1542,7 +1562,7 @@
     },
     {
         "lemma": "żołnierz",
-        "tags": "xxxxxxxxx",
+        "tags": "2j,XXX",
         "translations": {
             "ENG": [
                 "soldier"
@@ -1553,7 +1573,7 @@
     },
     {
         "lemma": "dentysta",
-        "tags": "xxxxxxxxx",
+        "tags": "2j,med",
         "translations": {
             "ENG": [
                 "dentist"
