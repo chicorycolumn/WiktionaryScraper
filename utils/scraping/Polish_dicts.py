@@ -305,6 +305,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["kitchen", "restaurant", "inside"],
     },
+    "fff": {
+        "tags": ["eating utensil"],
+        "topics": ["kitchen", "restaurant", "inside"],
+    },
     "coo": {  # duplicate for mental ease
         "tags": [],
         "topics": ["kitchen", "restaurant", "inside"],

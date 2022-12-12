@@ -1584,18 +1584,17 @@
     },
     {
         "lemma": "województwo",
-        "tags": "xxxxxxxxx",
+        "tags": "4geo,ls",
         "translations": {
             "ENG": [
-                "province voivodeship ; the third-level unit of local government in Poland"
-            ]
+                "*province"  ]
         },
         "temp_id": "7.126",
         "gender": "n"
     },
     {
         "lemma": "dekada",
-        "tags": "xxxxxxxxx",
+        "tags": "2at",
         "translations": {
             "ENG": [
                 "decade"
@@ -1606,11 +1605,9 @@
     },
     {
         "lemma": "położenie",
-        "tags": "xxxxxxxxx",
+        "tags": "3geo,gem,ss",
         "translations": {
-            "ENG": [
-                "verbal noun of położyć",
-                "position location"
+            "ENG": [ "position","location"
             ]
         },
         "temp_id": "7.128",
@@ -1618,10 +1615,10 @@
     },
     {
         "lemma": "czasopismo",
-        "tags": "xxxxxxxxx",
+        "tags": "3wri",
         "translations": {
             "ENG": [
-                "periodical magazine"
+                "magazine"
             ]
         },
         "temp_id": "7.129",
@@ -1629,10 +1626,10 @@
     },
     {
         "lemma": "slipy",
-        "tags": "xxxxxxxxx",
+        "tags": "2g",
         "translations": {
             "ENG": [
-                "briefs"
+                "briefs","underpants"
             ]
         },
         "temp_id": "7.130",
@@ -1640,7 +1637,7 @@
     },
     {
         "lemma": "nosorożec",
-        "tags": "xxxxxxxxx",
+        "tags": "3a",
         "translations": {
             "ENG": [
                 "rhinoceros"
@@ -1651,23 +1648,17 @@
     },
     {
         "lemma": "talerz",
-        "tags": "xxxxxxxxx",
+        "tags": "2hk,ff",
         "translations": {
             "ENG": [
-                "plate",
-                "(type of dishware)",
-                "cymbal",
-                "(a percussion instrument)",
-                "platter",
-                "(disc part of a hard drive) (computing)"
-            ]
+                "plate"   ]
         },
         "temp_id": "7.132",
         "gender": "m3"
     },
     {
         "lemma": "taksówka",
-        "tags": "xxxxxxxxx",
+        "tags": "2T,$",
         "translations": {
             "ENG": [
                 "taxi"
