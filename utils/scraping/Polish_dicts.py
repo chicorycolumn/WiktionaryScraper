@@ -225,6 +225,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["time"],
     },
+    "ttt": {
+        "tags": ["event"],
+        "topics": ["time"],
+    },
     "ss": {
         "tags": [],
         "topics": ["spatial"],
@@ -481,6 +485,10 @@ shorthand_tag_refs = {
     },
     "K": {
         "tags": ["curseword"],
+        "topics": [],
+    },
+    "KK": {
+        "tags": ["insult"],
         "topics": [],
     },
     "T": {
