@@ -121,6 +121,10 @@ shorthand_tag_refs = {
         "tags": ["movement"],
         "topics": ["body"],
     },
+    "vv": {  # walk run sail swim
+        "tags": ["locomotion"],
+        "topics": [],
+    },
     "bb": {  # sneeze snot ache
         "tags": [],
         "topics": ["medicine", "body"],
