@@ -191,130 +191,88 @@
     },
     {
         "lemma": "oczyścić",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng",
         "translations": {
             "ENG": [
                 "to cleanse",
                 "to purify",
-                "to clean",
-                "to ",
-                "to exonerate  to clear (remove from suspicion)"
-            ]
+                "to clean up"    ]
         },
         "temp_id": "7.15"
     },
     {
         "lemma": "oczyszczać",
-        "tags": "xxxxxxxxx",
+      "tags": "4eng",
         "translations": {
             "ENG": [
                 "to cleanse",
                 "to purify",
-                "to clean",
-                "to ",
-                "to exonerate  to clear (remove from suspicion)"
-            ]
+                "to clean up"    ]
         },
         "temp_id": "7.16"
     },
     {
         "lemma": "ominąć",
-        "tags": "xxxxxxxxx",
+        "tags": "4pl,at",
         "translations": {
             "ENG": [
-                "to miss Did something pass me by ? ”)  to bypass",
-                "to avoid",
-                "to skirt (roughly)"
+                "to miss", "to avoid","to bypass"
             ]
         },
         "temp_id": "7.17"
     },
     {
         "lemma": "omijać",
-        "tags": "xxxxxxxxx",
+        "tags": "4pl,at,ttt",
         "translations": {
             "ENG": [
-                "to miss  to bypass",
-                "to avoid",
-                "to skirt (roughly)"
+                "to miss", "to avoid","to bypass"
             ]
         },
         "temp_id": "7.18"
     },
     {
         "lemma": "odwołać",
-        "tags": "xxxxxxxxx",
+        "tags": "4he,pl,l",
         "translations": {
             "ENG": [
                 "to cancel",
-                "to call off",
-                "to dismiss",
-                "to recall",
-                "to remove",
-                "to retract",
-                "to withdraw",
-                "to take back",
-                "to appeal[r]",
-                "to = to something][r]  to refer",
-                "to make reference [+ do (genitive)"
-            ]
+                "to revoke"   ]
         },
         "temp_id": "7.19"
     },
     {
         "lemma": "odwoływać",
-        "tags": "xxxxxxxxx",
+        "tags": "4he,pl,l",
         "translations": {
             "ENG": [
                 "to cancel",
-                "to call off",
-                "to dismiss",
-                "to recall",
-                "to remove",
-                "to retract",
-                "to withdraw",
-                "to take back",
-                "to appeal[r]",
-                "to = to something][r]  to refer",
-                "to make reference [+ do (genitive)"
-            ]
+                "to revoke"   ]
         },
         "temp_id": "7.20"
     },
     {
         "lemma": "odmawiać",
-        "tags": "xxxxxxxxx",
+        "tags": "3sr,sg",
         "translations": {
             "ENG": [
-                "[+genitive]  to say no (to reject something)",
-                "to [+genitive]  to deny",
-                "to refuse (to refuse to give or grant something to someone)",
-                "to say a prayer",
-                "to say grace",
-                "to cancel",
-                "to negative[colloquial,t] (to invalidate, annul)"
-            ]
+
+                "to say no","to deny","to refuse" ]
         },
         "temp_id": "7.21"
     },
     {
         "lemma": "odmówić",
-        "tags": "xxxxxxxxx",
+        "tags": "3sr,sg",
         "translations": {
             "ENG": [
-                "[+genitive] 1871,Bronisław Wołowski, Polacy w rewolucyi paryzkiéj [1] , Drukarnia narodowa W. Manickiego, archived from the original on 2022-08-07, page 12: P[an] Juliusz Favre odmówił traktowania z buntownikami, choć buntownikiem było dwu-milionowe miasto, zupełnie tak samo jak car Mikołaj odmówił traktowania z Polakami.  to say no (to reject something)",
-                "to [+genitive]  to deny",
-                "to refuse (to refuse to give or grant something to someone)",
-                "to say a prayer",
-                "to say grace",
-                "to cancel",
-                "to negative[colloquial,t] (to invalidate, annul)"
-            ]
+
+                "to say no","to deny","to refuse" ]
         },
         "temp_id": "7.22"
     },
     {
-        "lemma": "odszukać",
+        "lemma": "!odszukać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -326,7 +284,7 @@
         "temp_id": "7.23"
     },
     {
-        "lemma": "odszukiwać",
+        "lemma": "!odszukiwać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -338,7 +296,7 @@
         "temp_id": "7.24"
     },
     {
-        "lemma": "odzywać",
+        "lemma": "!odzywać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -353,7 +311,7 @@
         "temp_id": "7.25"
     },
     {
-        "lemma": "odezwać",
+        "lemma": "!odezwać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -369,48 +327,64 @@
     },
     {
         "lemma": "odbyć",
-        "tags": "xxxxxxxxx",
+        "tags": "3eee,at",
         "translations": {
             "ENG": [
-                "to hold",
-                "to put on",
-                "to organise",
-                "to take place[r]"
+                "to take place[r]","to occur[i]"
+            ]
+        },
+        "temp_id": "7.27"
+    },
+    {
+        "lemma": "odbyć",
+        "tags": "4pl,ttt",
+        "translations": {
+            "ENG": [
+                "*to hold",
+                "*to put on",
+                "*to organise"
             ]
         },
         "temp_id": "7.27"
     },
     {
         "lemma": "odbywać",
-        "tags": "xxxxxxxxx",
+        "tags": "3eee,at",
         "translations": {
             "ENG": [
-                "to hold",
-                "to put on",
-                "to organise",
-                "to take place[r]"
+                "to take place[r]","to occur[i]"
+            ]
+        },
+        "temp_id": "7.28"
+    },
+    {
+        "lemma": "odbywać",
+        "tags": "4pl,ttt",
+        "translations": {
+            "ENG": [
+                "*to hold",
+                "*to put on",
+                "*to organise"
             ]
         },
         "temp_id": "7.28"
     },
     {
         "lemma": "odziedziczyć",
-        "tags": "xxxxxxxxx",
+        "tags": "4$,l",
         "translations": {
             "ENG": [
-                "to inherit[t,law] (e.g. property)",
-                "to inherit (e.g. a trait from a parent)"
+                "to inherit"
             ]
         },
         "temp_id": "7.29"
     },
     {
         "lemma": "dziedziczyć",
-        "tags": "xxxxxxxxx",
+         "tags": "4$,l",
         "translations": {
             "ENG": [
-                "to inherit[t,law] (e.g. property)",
-                "to inherit (e.g. a trait from a parent)"
+                "to inherit"
             ]
         },
         "temp_id": "7.30"
