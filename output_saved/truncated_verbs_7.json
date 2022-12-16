@@ -390,7 +390,7 @@
         "temp_id": "7.30"
     },
     {
-        "lemma": "odchylić",
+        "lemma": "!odchylić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -401,7 +401,7 @@
         "temp_id": "7.31"
     },
     {
-        "lemma": "odchylać",
+        "lemma": "!odchylać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -413,7 +413,7 @@
     },
     {
         "lemma": "oferować",
-        "tags": "xxxxxxxxx",
+        "tags": "4bus,$",
         "translations": {
             "ENG": [
                 "to offer",
@@ -424,7 +424,7 @@
     },
     {
         "lemma": "zaoferować",
-        "tags": "xxxxxxxxx",
+           "tags": "4bus,$",
         "translations": {
             "ENG": [
                 "to offer",
@@ -435,134 +435,110 @@
     },
     {
         "lemma": "odlecieć",
-        "tags": "xxxxxxxxx",
+        "tags": "4vv",
         "translations": {
             "ENG": [
                 "to fly away[i]",
-                "to take off",
-                "to depart by flying Synonyms: wylecieć wystartować[i]"
+                "to fly off[i]"
             ]
         },
         "temp_id": "7.35"
     },
     {
         "lemma": "odlatywać",
-        "tags": "xxxxxxxxx",
+       "tags": "4vv",
         "translations": {
             "ENG": [
                 "to fly away[i]",
-                "to take off",
-                "to depart by flying Synonyms: wylatywać startować[i]"
+                "to fly off[i]"
             ]
         },
         "temp_id": "7.36"
     },
     {
         "lemma": "odłożyć",
-        "tags": "xxxxxxxxx",
+        "tags": "3pl,at",
         "translations": {
             "ENG": [
-                "to put back",
-                "to replace",
-                "to put away",
-                "to set aside",
-                "to store",
                 "to postpone",
                 "to put off",
-                "to defer Synonym: przełożyć",
-                "to hang up",
-                "to replace",
-                "to accumulate",
-                "to build up Synonym: zgromadzić się[r]"
-            ]
+                "to defer"     ]
         },
         "temp_id": "7.37"
     },
     {
         "lemma": "odkładać",
-        "tags": "xxxxxxxxx",
+       "tags": "3pl,at",
         "translations": {
             "ENG": [
-                "to put back",
-                "to replace",
-                "to put away",
-                "to set aside",
-                "to store",
-                "to put off",
                 "to postpone",
-                "to defer Synonym: przekładać",
-                "to hang up",
-                "to replace (e.g. a telephone receiver)",
-                "to accumulate",
-                "to build up Synonym: gromadzić się[r]"
-            ]
+                "to put off",
+                "to defer"     ]
         },
         "temp_id": "7.38"
     },
     {
         "lemma": "oddać",
-        "tags": "xxxxxxxxx",
+        "tags": "3sg,cel",
         "translations": {
             "ENG": [
-                "to give back",
-                "to return",
-                "to hand in",
-                "to turn in",
-                "to convey",
-                "to portray",
-                "to capture",
-                "to donate",
-                "to indulge in",
-                "to devote oneself to[r]"
+                "to give back"
+            ]
+        },
+        "temp_id": "7.39"
+    },
+    {
+        "lemma": "oddać",
+        "tags": "4$,med",
+        "translations": {
+            "ENG": [
+                "to donate"
             ]
         },
         "temp_id": "7.39"
     },
     {
         "lemma": "oddawać",
-        "tags": "xxxxxxxxx",
+        "tags": "3sg,cel",
         "translations": {
             "ENG": [
-                "to give back",
-                "to return",
-                "to hand in",
-                "to turn in",
-                "to convey",
-                "to portray",
-                "to capture",
-                "to donate",
-                "to indulge in",
-                "to devote oneself to[r]"
+                "to give back"
+            ]
+        },
+        "temp_id": "7.40"
+    },
+    {
+        "lemma": "oddawać",
+        "tags": "4$,med",
+        "translations": {
+            "ENG": [
+                "to donate"
             ]
         },
         "temp_id": "7.40"
     },
     {
         "lemma": "odchodzić",
-        "tags": "xxxxxxxxx",
+        "tags": "3vv",
         "translations": {
             "ENG": [
-                "to leave ; to walk away ; to go away[i]",
-                "to pass away ; to die Synonyms: see Thesaurus: umierać[i,euphemistic]",
-                "to happen[i,colloquial]"
+                "to leave","to walk away","to walk off"
             ]
         },
         "temp_id": "7.41"
     },
     {
         "lemma": "odejść",
-        "tags": "xxxxxxxxx",
+        "tags": "3vv",
         "translations": {
             "ENG": [
-                "to leave ; to go away ; to walk away[i]",
-                "to pass away ; to die Synonyms: see Thesaurus: umierać[i,euphemistic]",
-                "to abandon ; to leave 1597 Piotr Skarga Kazania sejmowe : Páwłá ś. poſpolſtwo w Lyſtrze zá Bogá przyiąć y ofiáry mu czynić chćiáło: á ćiż záraz od Zydow námowieni Páwłá ś. vkámionowáli y iáko vmárłego odeſzli .[t,obsolete]"
+                "to leave","to walk away","to walk off"
             ]
         },
         "temp_id": "7.42"
     },
     {
-        "lemma": "odczytać",
+        "lemma": "!odczytać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -577,7 +553,7 @@
         "temp_id": "7.43"
     },
     {
-        "lemma": "odczytywać",
+        "lemma": "!odczytywać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -593,48 +569,44 @@
     },
     {
         "lemma": "odkrywać",
-        "tags": "xxxxxxxxx",
+        "tags": "3sci,ii",
         "translations": {
             "ENG": [
-                "to discover",
-                "to find",
-                "to uncover Antonym: zakrywać",
-                "to become visible[r]"
+                "to discover"
             ]
         },
         "temp_id": "7.45"
     },
     {
         "lemma": "odkryć",
-        "tags": "xxxxxxxxx",
+        "tags": "3sci,ii",
         "translations": {
             "ENG": [
-                "to discover",
-                "to find",
-                "to uncover Antonym: zakryć",
-                "to become visible[r]"
+                "to discover"
             ]
         },
         "temp_id": "7.46"
     },
     {
         "lemma": "odczuć",
-        "tags": "xxxxxxxxx",
+        "tags": "4Q",
         "translations": {
             "ENG": [
                 "to feel",
-                "to sense"
+                "to sense",
+                "to experience"
             ]
         },
         "temp_id": "7.47"
     },
     {
         "lemma": "odczuwać",
-        "tags": "xxxxxxxxx",
+       "tags": "4Q",
         "translations": {
             "ENG": [
                 "to feel",
-                "to sense"
+                "to sense",
+                "to experience"
             ]
         },
         "temp_id": "7.48"
