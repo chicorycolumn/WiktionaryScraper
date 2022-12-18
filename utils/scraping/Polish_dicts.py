@@ -543,6 +543,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["entertainment"],
     },
+    "VV": {
+        "tags": [],
+        "topics": ["possession"],
+    },
     "P": {
         "tags": ["holiday"],
         "topics": ["holiday"],
