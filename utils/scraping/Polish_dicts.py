@@ -109,6 +109,10 @@ shorthand_tag_refs = {
         "tags": ["speech", "aa"],
         "topics": ["mental"],
     },
+    "QQ": {  # phone, post, signal
+        "tags": [],
+        "topics": ["communications"],
+    },
     "ee": {
         "tags": ["aa"],
         "topics": ["mental"],
@@ -125,9 +129,9 @@ shorthand_tag_refs = {
         "tags": ["locomotion"],
         "topics": [],
     },
-    "bb": {  # sneeze snot ache
+    "bb": {
         "tags": [],
-        "topics": ["medicine", "body"],
+        "topics": ["body"],
     },
     "b": {  # toe eye skin
         "tags": ["bodypart"],

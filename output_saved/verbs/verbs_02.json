@@ -354,7 +354,6 @@
         },
         "topics": [
             "body",
-            "medicine",
             "tech"
         ],
         "id": "pol-ver-039-wyłączać"
@@ -470,7 +469,6 @@
         },
         "topics": [
             "body",
-            "medicine",
             "tech"
         ],
         "id": "pol-ver-040-wyłączyć"
@@ -591,8 +589,7 @@
         "topics": [
             "body",
             "home",
-            "inside",
-            "medicine"
+            "inside"
         ],
         "id": "pol-ver-041-otwierać"
     },
@@ -709,8 +706,7 @@
         "topics": [
             "body",
             "home",
-            "inside",
-            "medicine"
+            "inside"
         ],
         "id": "pol-ver-042-otworzyć"
     },
@@ -718,7 +714,7 @@
         "lemma": "powiedzieć",
         "tags": [
             "FREQ1",
-            "concrete"
+            "concrete","speech"
         ],
         "translations": {
             "ENG": [
@@ -845,8 +841,7 @@
         },
         "topics": [
             "body",
-            "language",
-            "medicine"
+            "language"
         ],
         "id": "pol-ver-043-powiedzieć"
     },
@@ -854,7 +849,7 @@
         "lemma": "mówić",
         "tags": [
             "FREQ1",
-            "concrete"
+            "concrete","speech"
         ],
         "translations": {
             "ENG": [
@@ -992,8 +987,7 @@
         },
         "topics": [
             "body",
-            "language",
-            "medicine"
+            "language"
         ],
         "id": "pol-ver-044-mówić"
     },
@@ -1001,7 +995,7 @@
         "lemma": "porozmawiać",
         "tags": [
             "FREQ3",
-            "concrete"
+            "concrete","speech"
         ],
         "translations": {
             "ENG": [
@@ -1113,8 +1107,7 @@
         },
         "topics": [
             "body",
-            "language",
-            "medicine"
+            "language"
         ],
         "id": "pol-ver-045-porozmawiać"
     },
@@ -1122,7 +1115,7 @@
         "lemma": "rozmawiać",
         "tags": [
             "FREQ3",
-            "concrete"
+            "concrete","speech"
         ],
         "translations": {
             "ENG": [
@@ -1231,8 +1224,7 @@
         },
         "topics": [
             "body",
-            "language",
-            "medicine"
+            "language"
         ],
         "id": "pol-ver-046-rozmawiać"
     },
@@ -1594,8 +1586,7 @@
             }
         },
         "topics": [
-            "body",
-            "medicine"
+            "body"
         ],
         "id": "pol-ver-049-spać"
     },
@@ -2443,7 +2434,7 @@
         "lemma": "mawiać",
         "tags": [
             "FREQ3",
-            "concrete"
+            "concrete","speech"
         ],
         "translations": {
             "ENG": [
@@ -2570,8 +2561,7 @@
         },
         "topics": [
             "body",
-            "language",
-            "medicine"
+            "language"
         ],
         "id": "pol-ver-057-mawiać"
     },
@@ -3153,8 +3143,7 @@
         },
         "topics": [
             "body",
-            "medicine",
-            "travel"
+            "locomotion"
         ],
         "id": "pol-ver-062-wejść"
     },
@@ -3267,7 +3256,7 @@
         },
         "topics": [
             "body",
-            "medicine",
+            "locomotion",
             "travel"
         ],
         "id": "pol-ver-063-wchodzić"
@@ -3386,8 +3375,7 @@
             }
         },
         "topics": [
-            "body",
-            "medicine"
+            "body", "daily routine"
         ],
         "id": "pol-ver-064-umyć"
     },
@@ -3519,7 +3507,7 @@
         },
         "topics": [
             "body",
-            "medicine"
+            "daily routine"
         ],
         "id": "pol-ver-065-myć"
     },
@@ -4274,7 +4262,7 @@
             "body",
             "home",
             "inside",
-            "medicine"
+            "daily routine"
         ],
         "id": "pol-ver-071-sprzątać"
     },
@@ -4397,7 +4385,7 @@
             "body",
             "home",
             "inside",
-            "medicine"
+            "daily routine"
         ],
         "id": "pol-ver-072-sprzątnąć"
     },
@@ -4876,7 +4864,7 @@
             }
         },
         "topics": [
-            "travel"
+            "travel","possession"
         ],
         "id": "pol-ver-076-dostawać"
     },
@@ -5011,7 +4999,7 @@
             }
         },
         "topics": [
-            "travel"
+            "travel","possession"
         ],
         "id": "pol-ver-077-dostać"
     },
@@ -5361,7 +5349,7 @@
             }
         },
         "topics": [
-            "body"
+            "body","locomotion"
         ],
         "id": "pol-ver-080-wyjść"
     },
@@ -5480,7 +5468,7 @@
             }
         },
         "topics": [
-            "body"
+            "body","locomotion"
         ],
         "id": "pol-ver-081-wychodzić"
     },
@@ -5821,7 +5809,8 @@
             }
         },
         "topics": [
-            "travel"
+            "travel",
+            "communications"
         ],
         "id": "pol-ver-084-wysyłać"
     },
@@ -5936,7 +5925,8 @@
             }
         },
         "topics": [
-            "travel"
+            "travel",
+            "communications"
         ],
         "id": "pol-ver-085-wysłać"
     },
@@ -7846,8 +7836,7 @@
         "topics": [
             "body",
             "home",
-            "inside",
-            "medicine"
+            "inside"
         ],
         "id": "pol-ver-101-zamknąć"
     },
@@ -7966,8 +7955,7 @@
         "topics": [
             "body",
             "home",
-            "inside",
-            "medicine"
+            "inside"
         ],
         "id": "pol-ver-102-zamykać"
     },
@@ -8453,7 +8441,6 @@
         },
         "topics": [
             "body",
-            "medicine",
             "travel"
         ],
         "id": "pol-ver-106-nieść"
@@ -8595,7 +8582,6 @@
         },
         "topics": [
             "body",
-            "medicine",
             "travel"
         ],
         "id": "pol-ver-107-nosić(carry)"
@@ -9094,8 +9080,7 @@
         },
         "topics": [
             "body",
-            "daily routine",
-            "medicine"
+            "daily routine"
         ],
         "id": "pol-ver-111-obudzić"
     },
@@ -9228,8 +9213,7 @@
         },
         "topics": [
             "body",
-            "daily routine",
-            "medicine"
+            "daily routine"
         ],
         "id": "pol-ver-112-budzić"
     },
