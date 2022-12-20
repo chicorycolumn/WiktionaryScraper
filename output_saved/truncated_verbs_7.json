@@ -371,7 +371,7 @@
     },
     {
         "lemma": "odziedziczyć",
-        "tags": "4$,l",
+        "tags": "4$,l,VV",
         "translations": {
             "ENG": [
                 "to inherit"
@@ -381,7 +381,7 @@
     },
     {
         "lemma": "dziedziczyć",
-         "tags": "4$,l",
+         "tags": "4$,l,VV",
         "translations": {
             "ENG": [
                 "to inherit"
@@ -479,7 +479,7 @@
     },
     {
         "lemma": "oddać",
-        "tags": "3sg,cel",
+        "tags": "3sg,cel,VV",
         "translations": {
             "ENG": [
                 "to give back"
@@ -499,7 +499,7 @@
     },
     {
         "lemma": "oddawać",
-        "tags": "3sg,cel",
+        "tags": "3sg,cel,VV",
         "translations": {
             "ENG": [
                 "to give back"
@@ -698,7 +698,7 @@
     },
     {
         "lemma": "odbierać",
-        "tags": "4pp",
+        "tags": "4pp,VV",
         "translations": {
             "ENG": [
                 "to take back","to take away"
@@ -708,7 +708,7 @@
     },
     {
         "lemma": "odebrać",
-        "tags": "4pp",
+        "tags": "4pp,VV",
         "translations": {
             "ENG": [
                 "to take back","to take away"
@@ -1228,34 +1228,28 @@
     },
     {
         "lemma": "odwracać",
-        "tags": "xxxxxxxxx",
+        "tags": "4v",
         "translations": {
             "ENG": [
                 "to turn aside",
-                "to avert",
-                "to divert",
-                "to turn around",
-                "to rotate[r]"
+                "to reverse"
             ]
         },
         "temp_id": "7.98"
     },
     {
         "lemma": "odwrócić",
-        "tags": "xxxxxxxxx",
+        "tags": "4v",
         "translations": {
             "ENG": [
                 "to turn aside",
-                "to avert",
-                "to divert",
-                "to turn around",
-                "to rotate[r]"
+                "to reverse"
             ]
         },
         "temp_id": "7.99"
     },
     {
-        "lemma": "obrzucić",
+        "lemma": "!obrzucić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1266,7 +1260,7 @@
         "temp_id": "7.100"
     },
     {
-        "lemma": "obrzucać",
+        "lemma": "!obrzucać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1277,7 +1271,7 @@
         "temp_id": "7.101"
     },
     {
-        "lemma": "oderwać",
+        "lemma": "!oderwać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1294,7 +1288,7 @@
         "temp_id": "7.102"
     },
     {
-        "lemma": "odrywać",
+        "lemma": "!odrywać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1312,34 +1306,26 @@
     },
     {
         "lemma": "odciąć",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng,qqq",
         "translations": {
             "ENG": [
-                "to cut off",
-                "to sever",
-                "to detach",
-                "to cut off",
-                "to isolate"
+                "to cut off"
             ]
         },
         "temp_id": "7.104"
     },
     {
         "lemma": "odcinać",
-        "tags": "xxxxxxxxx",
+      "tags": "4eng,qqq",
         "translations": {
             "ENG": [
-                "to cut off",
-                "to sever",
-                "to detach",
-                "to cut off",
-                "to isolate"
+                "to cut off"
             ]
         },
         "temp_id": "7.105"
     },
     {
-        "lemma": "odeprzeć",
+        "lemma": "!odeprzeć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1352,7 +1338,7 @@
         "temp_id": "7.106"
     },
     {
-        "lemma": "odpierać",
+        "lemma": "!odpierać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1363,7 +1349,7 @@
         "temp_id": "7.107"
     },
     {
-        "lemma": "odpierać",
+        "lemma": "!odpierać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1376,7 +1362,7 @@
         "temp_id": "7.108"
     },
     {
-        "lemma": "odprowadzić",
+        "lemma": "!odprowadzić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1391,7 +1377,7 @@
         "temp_id": "7.109"
     },
     {
-        "lemma": "odprowadzać",
+        "lemma": "!odprowadzać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1406,7 +1392,7 @@
         "temp_id": "7.110"
     },
     {
-        "lemma": "odgadnąć",
+        "lemma": "!odgadnąć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1417,7 +1403,7 @@
         "temp_id": "7.111"
     },
     {
-        "lemma": "odgadywać",
+        "lemma": "!odgadywać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1429,22 +1415,20 @@
     },
     {
         "lemma": "odwiedzać",
-        "tags": "xxxxxxxxx",
+        "tags": "3TT",
         "translations": {
             "ENG": [
-                "to visit",
-                "to visit one another[r]"
+                "to visit"
             ]
         },
         "temp_id": "7.113"
     },
     {
         "lemma": "odwiedzić",
-        "tags": "xxxxxxxxx",
+         "tags": "3TT",
         "translations": {
             "ENG": [
-                "to visit",
-                "to visit one another[r]"
+                "to visit"
             ]
         },
         "temp_id": "7.114"
