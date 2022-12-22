@@ -6,12 +6,6 @@ from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
 from input.Polish.adjectives.head_words import input
 
-#
-#
-# This main.py is just for checking lemma objects.
-#
-#
-
 if __name__ == '__main__':
 
     # check_rescraped_against_existing("adjectives_old", "adjectives_new")
