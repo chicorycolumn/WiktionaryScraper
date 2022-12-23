@@ -256,3 +256,19 @@ Also sort this in all lobjs.
 2022-12-22 15:52                      ...I assume "pol-ver-508-odbić(bounce)" is not merely a duplicate.
 2022-12-22 15:52 Appended "reflect" to ID "pol-ver-507-odbijać(reflect)" ...
 2022-12-22 15:52                      ...I assume "pol-ver-509-odbijać(bounce)" is not merely a duplicate.
+
+2022-12-23 17:54 There are 24 doubly extra adjectives-headwords, they have not been parsed: ['płochy', 'antyczny', 'epizodyczny', 'podniosły', 'przedpotopowy', 'holistyczny', 'skwarny', 'dobrowolny', 'staromodny', 'swarliwy', 'udawany', 'powinny', 'rozżarzony', 'szkicowy', 'nadobowiązkowy', 'staroświecki', 'fakultatywny', 'wzniosły', 'błahy', 'bagatelny', 'nienowoczesny', 'ponadobowiązkowy', 'nieobowiązkowy', 'niebagatelny']
+2022-12-23 17:55 Verbs. At least two lobjs of "pakować" will need allohomInfo added.
+2022-12-23 17:57 Verbs. At least two lobjs of "oznaczać" will need allohomInfo added.
+2022-12-23 17:57 Verbs. At least two lobjs of "pokręcić" will need allohomInfo added.
+2022-12-23 17:58 Verbs. #ERR "mieszać" output_obj["aspect"] is ['impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-12-23 17:58 Verbs. #ERR "mieszać" output_obj["aspect"] is ['impf', 'impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-12-23 17:58 Verbs. #ERR "mieszać" output_obj["aspect"] is ['impf', 'impf', 'impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-12-23 17:58 Verbs. #ERR "charakteryzować" output_obj["aspect"] is ['impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2022-12-23 18:00 There are 1 doubly extra verbs-headwords, they have not been parsed: ['wyszacować']
+2022-12-23 18:00 "pasować" has no infinitive. Kicking it out of verbs.
+2022-12-23 18:00 "mieszać" has no infinitive. Kicking it out of verbs.
+2022-12-23 18:00 "brakować" has defective or strange inflections table. Kicking it out of verbs.
+2022-12-23 18:00 "charakteryzować" has no infinitive. Kicking it out of verbs.
+2022-12-23 18:00 SKIPPED this entire lobj in minimise_inflections. "future" tense on imperfective "odrzucać" should have 31 strings but has 20.
+2022-12-23 18:04 Want to parse any of 58 extra nouns-lemmas? (I did not because of wordtype) ['zdrówko', 'żaróweczka', 'stawik', 'laseczka', 'cząsteczka', 'obywatelka', 'miotełka', 'daszek', 'banknocik', 'garniturek', 'strażniczka', 'chomiczek', 'szaliczek', 'pisarka', 'lacha', 'pudło', 'dziennikarzyna', 'morderczyni', 'muzyczka', 'płotek', 'celniczka', 'bluzina', 'spódniczka', 'dziennikarka', 'chodniczek', 'ciepełko', 'sukieneczka', 'śrubka', 'śpiewaczka', 'powódka', 'zajączek', 'pałacyk', 'fryzjerka', 'zajęczyca', 'koszmarek', 'właścicielka', 'gwoździk', 'chomiczka', 'uczennica', 'tatuażyk', 'kurteczka', 'klientka', 'pudełeczko', 'szczególik', 'zabaweczka', 'bandażyk', 'silniczek', 'nereczka', 'czacha', 'szczegółek', 'stawek', 'nera', 'policjantka', 'sędzina', 'biureczko', 'miotlisko', 'torebka', 'krzyżyk']
