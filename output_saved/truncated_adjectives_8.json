@@ -1,6 +1,6 @@
 [
     {
-        "lemma": "palący",
+        "lemma": "!palący",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -29,7 +29,7 @@
         "temp_id": "8.2"
     },
     {
-        "lemma": "dojmujący",
+        "lemma": "!dojmujący",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -43,7 +43,7 @@
         "temp_id": "8.3"
     },
     {
-        "lemma": "naglący",
+        "lemma": "!naglący",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -54,7 +54,7 @@
         "temp_id": "8.4"
     },
     {
-        "lemma": "przeszywający",
+        "lemma": "!przeszywający",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -68,7 +68,7 @@
         "temp_id": "8.5"
     },
     {
-        "lemma": "przejmujący",
+        "lemma": "!przejmujący",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -84,7 +84,7 @@
         "temp_id": "8.6"
     },
     {
-        "lemma": "dotkliwy",
+        "lemma": "!dotkliwy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -97,7 +97,7 @@
         "temp_id": "8.7"
     },
     {
-        "lemma": "rozpalony",
+        "lemma": "!rozpalony",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -110,7 +110,7 @@
         "temp_id": "8.8"
     },
     {
-        "lemma": "gryzący",
+        "lemma": "!gryzący",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -127,10 +127,9 @@
     },
     {
         "lemma": "ówczesny",
-        "tags": "xxxxxxxxx",
+        "tags": "5his,tt",
         "translations": {
             "ENG": [
-                "contemporaneous",
                 "then"
             ]
         },
@@ -138,84 +137,60 @@
     },
     {
         "lemma": "obowiązkowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4pl,l,phi",
         "translations": {
             "ENG": [
-                "(not comparable)",
                 "mandatory",
                 "obligatory",
-                "dutiful",
-                "conscientious"
+                "compulsory"
             ]
         },
         "temp_id": "8.11"
     },
     {
         "lemma": "przymusowy",
-        "tags": "xxxxxxxxx",
+       "tags": "4pl,l,phi",
         "translations": {
-            "ENG": [
-                "coactive",
-                "coercive",
+            "ENG": [    "mandatory",
                 "compulsory",
-                "enforced",
-                "forced",
-                "nonelective",
-                "obligatory",
-                "(resulting from necessity or imposed by circumstances)"
-            ]
+                "forced"    ]
         },
         "temp_id": "8.12"
     },
     {
         "lemma": "obligatoryjny",
-        "tags": "xxxxxxxxx",
+        "tags": "4pl,l,phi",
         "translations": {
             "ENG": [
                 "obligatory",
                 "mandatory",
-                "compulsory",
-                "(biology)",
-                "obligate",
-                "(biologically required to behave in some way)",
-                "2013",
-                "Kosmos: Problemy nauk biologicznych",
-                "the original",
-                "on",
-                "2022-10-31"
+                "compulsory"
             ]
         },
         "temp_id": "8.13"
     },
     {
         "lemma": "rzetelny",
-        "tags": "xxxxxxxxx",
+        "tags": "2+,py",
         "translations": {
             "ENG": [
-                "reliable",
-                "honest",
-                "fair",
-                "solid",
-                "(lacking errors or inconsistencies)"
-            ]
+                "reliable"     ]
         },
         "temp_id": "8.14"
     },
     {
         "lemma": "sumienny",
-        "tags": "xxxxxxxxx",
+        "tags": "4py",
         "translations": {
             "ENG": [
-                "conscientious",
-                "dutiful",
-                "scrupulous"
+                "conscientious"
             ]
         },
         "temp_id": "8.15"
     },
     {
         "lemma": "nieznany",
-        "tags": "xxxxxxxxx",
+        "tags": "3eee",
         "translations": {
             "ENG": [
                 "unknown"
@@ -225,7 +200,7 @@
     },
     {
         "lemma": "niewidoczny",
-        "tags": "xxxxxxxxx",
+        "tags": "3kk",
         "translations": {
             "ENG": [
                 "invisible"
@@ -235,7 +210,7 @@
     },
     {
         "lemma": "niewidzialny",
-        "tags": "xxxxxxxxx",
+      "tags": "3kk",
         "translations": {
             "ENG": [
                 "invisible",
@@ -245,7 +220,7 @@
         "temp_id": "8.18"
     },
     {
-        "lemma": "widzialny",
+        "lemma": "!widzialny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -257,7 +232,7 @@
     },
     {
         "lemma": "oburzony",
-        "tags": "xxxxxxxxx",
+        "tags": "4e",
         "translations": {
             "ENG": [
                 "indignant",
@@ -267,7 +242,7 @@
         "temp_id": "8.20"
     },
     {
-        "lemma": "pieniężny",
+        "lemma": "!pieniężny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -283,14 +258,11 @@
     },
     {
         "lemma": "ogólny",
-        "tags": "xxxxxxxxx",
+        "tags": "4he",
         "translations": {
             "ENG": [
                 "general",
-                "broad",
-                "overall",
-                "common",
-                "widespread"
+                "overall"
             ]
         },
         "temp_id": "8.22"
