@@ -268,7 +268,7 @@
         "temp_id": "8.22"
     },
     {
-        "lemma": "uniwersalny",
+        "lemma": "!uniwersalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -281,7 +281,7 @@
         "temp_id": "8.23"
     },
     {
-        "lemma": "sporadyczny",
+        "lemma": "!sporadyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -293,7 +293,7 @@
         "temp_id": "8.24"
     },
     {
-        "lemma": "całościowy",
+        "lemma": "!całościowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -306,7 +306,7 @@
         "temp_id": "8.25"
     },
     {
-        "lemma": "szczegółowy",
+        "lemma": "!szczegółowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -317,7 +317,7 @@
         "temp_id": "8.26"
     },
     {
-        "lemma": "ramowy",
+        "lemma": "!ramowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -332,7 +332,7 @@
     },
     {
         "lemma": "nietypowy",
-        "tags": "xxxxxxxxx",
+        "tags": "3fq",
         "translations": {
             "ENG": [
                 "atypical",
@@ -343,7 +343,7 @@
     },
     {
         "lemma": "typowy",
-        "tags": "xxxxxxxxx",
+        "tags": "3fq",
         "translations": {
             "ENG": [
                 "typical",
@@ -353,7 +353,7 @@
         "temp_id": "8.29"
     },
     {
-        "lemma": "organiczny",
+        "lemma": "!organiczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -364,7 +364,7 @@
         "temp_id": "8.30"
     },
     {
-        "lemma": "anorganiczny",
+        "lemma": "!anorganiczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -376,14 +376,9 @@
     },
     {
         "lemma": "odwrotny",
-        "tags": "xxxxxxxxx",
+        "tags": "3ss,eee,he",
         "translations": {
             "ENG": [
-                "opposite",
-                "(of either of two complementary or mutually exclusive things)",
-                "opposite",
-                "other",
-                "(opposed)",
                 "opposite",
                 "reverse",
                 "(facing the other way)"
@@ -392,7 +387,7 @@
         "temp_id": "8.32"
     },
     {
-        "lemma": "przeciwstawny",
+        "lemma": "!przeciwstawny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -407,10 +402,9 @@
     },
     {
         "lemma": "sprzeczny",
-        "tags": "xxxxxxxxx",
+        "tags": "5phi,Y",
         "translations": {
             "ENG": [
-                "inconsistent",
                 "contradictory"
             ]
         },
@@ -418,25 +412,22 @@
     },
     {
         "lemma": "przeciwny",
-        "tags": "xxxxxxxxx",
+        "tags": "3ss,eee,he",
         "translations": {
             "ENG": [
                 "opposite",
                 "reverse",
-                "contrary",
-                "opposed",
-                "against"
+                "contrary"
             ]
         },
         "temp_id": "8.35"
     },
     {
         "lemma": "pierwotny",
-        "tags": "xxxxxxxxx",
+        "tags": "3fq",
         "translations": {
             "ENG": [
-                "primeval",
-                "primordial",
+                "original",
                 "primary"
             ]
         },
@@ -444,7 +435,7 @@
     },
     {
         "lemma": "nowoczesny",
-        "tags": "xxxxxxxxx",
+        "tags": "2tt,his",
         "translations": {
             "ENG": [
                 "modern"
@@ -453,7 +444,7 @@
         "temp_id": "8.37"
     },
     {
-        "lemma": "anachroniczny",
+        "lemma": "!anachroniczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -468,7 +459,7 @@
         "temp_id": "8.38"
     },
     {
-        "lemma": "archaistyczny",
+        "lemma": "!archaistyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -481,7 +472,7 @@
         "temp_id": "8.39"
     },
     {
-        "lemma": "archaiczny",
+        "lemma": "!archaiczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -492,7 +483,7 @@
     },
     {
         "lemma": "przestarzały",
-        "tags": "xxxxxxxxx",
+        "tags": "5tt,ii",
         "translations": {
             "ENG": [
                 "obsolete",
