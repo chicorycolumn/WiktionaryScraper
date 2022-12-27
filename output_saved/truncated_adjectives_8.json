@@ -494,7 +494,7 @@
         "temp_id": "8.41"
     },
     {
-        "lemma": "niezgodny",
+        "lemma": "!niezgodny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -511,34 +511,28 @@
     },
     {
         "lemma": "kłótliwy",
-        "tags": "xxxxxxxxx",
+        "tags": "4py",
         "translations": {
             "ENG": [
-                "quarrelsome",
-                "argumentative",
-                "cantankerous"
+                "argumentative"
             ]
         },
         "temp_id": "8.43"
     },
     {
         "lemma": "zgodny",
-        "tags": "xxxxxxxxx",
+        "tags": "5l,ii",
         "translations": {
             "ENG": [
-                "in",
-                "agreement",
-                "harmonious",
-                "consistent",
-                "concordant",
-                "compatible",
-                "peaceable"
+                "*consistent",
+                "*compatible",
+                "*compliant"
             ]
         },
         "temp_id": "8.44"
     },
     {
-        "lemma": "bezkonfliktowy",
+        "lemma": "!bezkonfliktowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -553,7 +547,7 @@
         "temp_id": "8.45"
     },
     {
-        "lemma": "niezliczony",
+        "lemma": "!niezliczony",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -565,7 +559,7 @@
         "temp_id": "8.46"
     },
     {
-        "lemma": "nieprzebrany",
+        "lemma": "!nieprzebrany",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -577,7 +571,7 @@
         "temp_id": "8.47"
     },
     {
-        "lemma": "nieprzeliczony",
+        "lemma": "!nieprzeliczony",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -589,7 +583,7 @@
         "temp_id": "8.48"
     },
     {
-        "lemma": "piersiowy",
+        "lemma": "!piersiowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -604,20 +598,17 @@
     },
     {
         "lemma": "niewielki",
-        "tags": "xxxxxxxxx",
+        "tags": "3z",
         "translations": {
             "ENG": [
                 "small",
-                "little",
-                "unimportant",
-                "nonsignificant",
-                "insubstantial"
+                "little"
             ]
         },
         "temp_id": "8.50"
     },
     {
-        "lemma": "nieistotny",
+        "lemma": "!nieistotny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -629,7 +620,7 @@
         "temp_id": "8.51"
     },
     {
-        "lemma": "niezdolny",
+        "lemma": "!niezdolny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -641,7 +632,7 @@
         "temp_id": "8.52"
     },
     {
-        "lemma": "niniejszy",
+        "lemma": "!niniejszy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -682,7 +673,7 @@
         "temp_id": "8.53"
     },
     {
-        "lemma": "teraźniejszy",
+        "lemma": "!teraźniejszy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -692,7 +683,7 @@
         "temp_id": "8.54"
     },
     {
-        "lemma": "pachnący",
+        "lemma": "!pachnący",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -704,7 +695,7 @@
         "temp_id": "8.55"
     },
     {
-        "lemma": "śmierdzący",
+        "lemma": "!śmierdzący",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -716,7 +707,7 @@
         "temp_id": "8.56"
     },
     {
-        "lemma": "operacyjny",
+        "lemma": "!operacyjny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -728,7 +719,7 @@
         "temp_id": "8.57"
     },
     {
-        "lemma": "nieszczęśliwy",
+        "lemma": "!nieszczęśliwy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -739,7 +730,7 @@
         "temp_id": "8.58"
     },
     {
-        "lemma": "nieszczęsny",
+        "lemma": "!nieszczęsny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -756,24 +747,16 @@
     },
     {
         "lemma": "odmienny",
-        "tags": "xxxxxxxxx",
+        "tags": "3eee",
         "translations": {
             "ENG": [
-                "different",
-                "unlike",
-                "variant",
-                "distinct",
-                "other",
-                "separate",
-                "alien",
-                "(grammar)",
-                "inflected"
+                "different"
             ]
         },
         "temp_id": "8.60"
     },
     {
-        "lemma": "nieodmienny",
+        "lemma": "!nieodmienny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -786,7 +769,7 @@
         "temp_id": "8.61"
     },
     {
-        "lemma": "papieski",
+        "lemma": "!papieski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -799,7 +782,7 @@
         "temp_id": "8.62"
     },
     {
-        "lemma": "apostolski",
+        "lemma": "!apostolski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -821,27 +804,20 @@
     },
     {
         "lemma": "nuklearny",
-        "tags": "xxxxxxxxx",
+        "tags": "4phy",
         "translations": {
             "ENG": [
-                "nuclear",
-                "(of a weapon: deriving its force from nuclear energy)",
-                "(relational)",
-                "nuclear",
-                "(pertaining to the atomic nucleus)"
+                "nuclear"
             ]
         },
         "temp_id": "8.64"
     },
     {
         "lemma": "pewien",
-        "tags": "xxxxxxxxx",
+        "tags": "4Y,pr",
         "translations": {
             "ENG": [
                 "sure",
-                "(physically secure and certain, reliable)",
-                "(not comparable)",
-                "particular",
                 "certain"
             ]
         },
@@ -849,7 +825,7 @@
     },
     {
         "lemma": "pijany",
-        "tags": "xxxxxxxxx",
+        "tags": "4med,l",
         "translations": {
             "ENG": [
                 "drunk",
