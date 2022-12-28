@@ -272,3 +272,5 @@ Also sort this in all lobjs.
 2022-12-23 18:00 "charakteryzować" has no infinitive. Kicking it out of verbs.
 2022-12-23 18:00 SKIPPED this entire lobj in minimise_inflections. "future" tense on imperfective "odrzucać" should have 31 strings but has 20.
 2022-12-23 18:04 Want to parse any of 58 extra nouns-lemmas? (I did not because of wordtype) ['zdrówko', 'żaróweczka', 'stawik', 'laseczka', 'cząsteczka', 'obywatelka', 'miotełka', 'daszek', 'banknocik', 'garniturek', 'strażniczka', 'chomiczek', 'szaliczek', 'pisarka', 'lacha', 'pudło', 'dziennikarzyna', 'morderczyni', 'muzyczka', 'płotek', 'celniczka', 'bluzina', 'spódniczka', 'dziennikarka', 'chodniczek', 'ciepełko', 'sukieneczka', 'śrubka', 'śpiewaczka', 'powódka', 'zajączek', 'pałacyk', 'fryzjerka', 'zajęczyca', 'koszmarek', 'właścicielka', 'gwoździk', 'chomiczka', 'uczennica', 'tatuażyk', 'kurteczka', 'klientka', 'pudełeczko', 'szczególik', 'zabaweczka', 'bandażyk', 'silniczek', 'nereczka', 'czacha', 'szczegółek', 'stawek', 'nera', 'policjantka', 'sędzina', 'biureczko', 'miotlisko', 'torebka', 'krzyżyk']
+
+"pieszy" is adj but we should manually make it noun.
