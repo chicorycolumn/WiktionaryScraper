@@ -1192,19 +1192,19 @@
     },
     {
         "lemma": "oddany",
-        "tags": "xxxxxxxxx",
+        "tags": "5py",
         "translations": {
             "ENG": [
-                "devoted",
-                "dedicated",
-                "committed"
+                "*devoted",
+                "*dedicated",
+                "*committed"
             ]
         },
         "temp_id": "8.97"
     },
     {
         "lemma": "nieznośny",
-        "tags": "xxxxxxxxx",
+        "tags": "4-",
         "translations": {
             "ENG": [
                 "unbearable",
@@ -1214,7 +1214,7 @@
         "temp_id": "8.98"
     },
     {
-        "lemma": "parlamentarny",
+        "lemma": "!parlamentarny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1227,7 +1227,7 @@
     },
     {
         "lemma": "państwowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4geo,pol",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -1238,7 +1238,7 @@
         "temp_id": "8.100"
     },
     {
-        "lemma": "nowojorski",
+        "lemma": "!nowojorski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1254,7 +1254,7 @@
     },
     {
         "lemma": "ochronny",
-        "tags": "xxxxxxxxx",
+        "tags": "3eng",
         "translations": {
             "ENG": [
                 "protective"
@@ -1264,7 +1264,7 @@
     },
     {
         "lemma": "obronny",
-        "tags": "xxxxxxxxx",
+        "tags": "4XXX",
         "translations": {
             "ENG": [
                 "defensive"
@@ -1273,7 +1273,7 @@
         "temp_id": "8.103"
     },
     {
-        "lemma": "niezadowolony",
+        "lemma": "!niezadowolony",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1284,7 +1284,7 @@
         "temp_id": "8.104"
     },
     {
-        "lemma": "parafialny",
+        "lemma": "!parafialny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1296,7 +1296,7 @@
         "temp_id": "8.105"
     },
     {
-        "lemma": "opolski",
+        "lemma": "!opolski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1309,7 +1309,7 @@
         "temp_id": "8.106"
     },
     {
-        "lemma": "płocki",
+        "lemma": "!płocki",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1323,7 +1323,7 @@
     },
     {
         "lemma": "ostrożny",
-        "tags": "xxxxxxxxx",
+        "tags": "3py,qqq",
         "translations": {
             "ENG": [
                 "careful",
@@ -1333,7 +1333,7 @@
         "temp_id": "8.108"
     },
     {
-        "lemma": "pisemny",
+        "lemma": "!pisemny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1343,7 +1343,7 @@
         "temp_id": "8.109"
     },
     {
-        "lemma": "opiekuńczy",
+        "lemma": "!opiekuńczy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1355,7 +1355,7 @@
         "temp_id": "8.110"
     },
     {
-        "lemma": "ognisty",
+        "lemma": "!ognisty",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1365,7 +1365,7 @@
         "temp_id": "8.111"
     },
     {
-        "lemma": "odkryty",
+        "lemma": "!odkryty",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1377,7 +1377,7 @@
         "temp_id": "8.112"
     },
     {
-        "lemma": "obiektywny",
+        "lemma": "!obiektywny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1387,7 +1387,7 @@
         "temp_id": "8.113"
     },
     {
-        "lemma": "niewiarygodny",
+        "lemma": "!niewiarygodny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1399,7 +1399,7 @@
     },
     {
         "lemma": "osobowy",
-        "tags": "xxxxxxxxx",
+        "tags": "3he,pp",
         "translations": {
             "ENG": [
                 "personal",
@@ -1410,24 +1410,16 @@
     },
     {
         "lemma": "nikły",
-        "tags": "xxxxxxxxx",
+        "tags": "4kk",
         "translations": {
             "ENG": [
-                "faint",
-                "dim",
-                "wan",
-                "(barely perceptible)",
-                "faint",
-                "minute",
-                "fleeting",
-                "(passing quickly; of short duration)",
-                "slender"
+                "faint"
             ]
         },
         "temp_id": "8.116"
     },
     {
-        "lemma": "nieważny",
+        "lemma": "!nieważny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1439,32 +1431,32 @@
     },
     {
         "lemma": "niewyraźny",
-        "tags": "xxxxxxxxx",
+       "tags": "4kk",
         "translations": {
             "ENG": [
                 "indistinct",
                 "vague",
-                "hazy"
+                "hazy",
+                "faint"
             ]
         },
         "temp_id": "8.118"
     },
     {
         "lemma": "ohydny",
-        "tags": "xxxxxxxxx",
+        "tags": "3kk,-",
         "translations": {
             "ENG": [
                 "disgusting",
                 "repulsive",
-                "odious",
                 "hideous",
-                "abominable"
+                "gross"
             ]
         },
         "temp_id": "8.119"
     },
     {
-        "lemma": "obrotowy",
+        "lemma": "!obrotowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1476,7 +1468,7 @@
     },
     {
         "lemma": "płaski",
-        "tags": "xxxxxxxxx",
+        "tags": "3ss",
         "translations": {
             "ENG": [
                 "flat",
@@ -1486,7 +1478,7 @@
         "temp_id": "8.121"
     },
     {
-        "lemma": "ogólnopolski",
+        "lemma": "!ogólnopolski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1498,19 +1490,18 @@
     },
     {
         "lemma": "niezły",
-        "tags": "xxxxxxxxx",
+        "tags": "3+",
         "translations": {
             "ENG": [
                 "not bad",
-                "pretty",
-                "good",
+                "pretty good",
                 "decent"
             ]
         },
         "temp_id": "8.123"
     },
     {
-        "lemma": "piłkarski",
+        "lemma": "!piłkarski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1527,7 +1518,7 @@
         "temp_id": "8.124"
     },
     {
-        "lemma": "partyjny",
+        "lemma": "!partyjny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
