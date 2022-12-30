@@ -1,11 +1,10 @@
 [
     {
         "lemma": "uczeń",
-        "tags": "xxxxxxxxx",
+        "tags": "3s,r",
         "translations": {
             "ENG": [
-                "student schoolboy pupil apprentice",
-                "(someone who learns)"
+                "student","pupil"
             ]
         },
         "temp_id": "8.1",
@@ -13,36 +12,37 @@
     },
     {
         "lemma": "bandaż",
-        "tags": "xxxxxxxxx",
+        "tags": "4med,qq",
         "translations": {
             "ENG": [
-                "bandage",
-                "(a strip of gauze or similar material used to protect or support a wound or injury)",
-                "gauze",
-                "(soething wrapped around something else to protect it) (construction)"
-            ]
+                "bandage"  ]
         },
         "temp_id": "8.2",
         "gender": "m3"
     },
     {
         "lemma": "rachunek",
-        "tags": "xxxxxxxxx",
+        "tags": "2$",
         "translations": {
             "ENG": [
-                "bill check",
-                "calculation reckoning",
-                "(dated)",
-                "calculus",
-                "(formal mathematical theory) (mathematics chiefly in compounds)"
-            ]
+                "bill","check"       ]
+        },
+        "temp_id": "8.3",
+        "gender": "m3"
+    },
+    {
+        "lemma": "rachunek",
+        "tags": "3$",
+        "translations": {
+            "ENG": [
+                "account"       ]
         },
         "temp_id": "8.3",
         "gender": "m3"
     },
     {
         "lemma": "tatuaż",
-        "tags": "xxxxxxxxx",
+        "tags": "4pp,art",
         "translations": {
             "ENG": [
                 "tattoo",
@@ -54,24 +54,33 @@
     },
     {
         "lemma": "zabójstwo",
-        "tags": "xxxxxxxxx",
+        "tags": "4B,XX",
         "translations": {
             "ENG": [
                 "homicide",
-                "(the killing of one person by another)"
-            ]
+                "murder",
+                "killing"   ]
         },
         "temp_id": "8.5",
         "gender": "n"
     },
     {
         "lemma": "staw",
-        "tags": "xxxxxxxxx",
+        "tags": "3ln",
         "translations": {
             "ENG": [
-                "pond",
-                "joint",
-                "(anatomy)"
+                "pond"
+            ]
+        },
+        "temp_id": "8.6",
+        "gender": "m3"
+    },
+    {
+        "lemma": "staw",
+        "tags": "4med,b",
+        "translations": {
+            "ENG": [
+                "joint"
             ]
         },
         "temp_id": "8.6",
@@ -79,12 +88,10 @@
     },
     {
         "lemma": "zasada",
-        "tags": "xxxxxxxxx",
+        "tags": "4l,phi",
         "translations": {
             "ENG": [
-                "principle rule",
-                "base",
-                "(chemistry)"
+                "principle","rule"
             ]
         },
         "temp_id": "8.7",
@@ -92,13 +99,10 @@
     },
     {
         "lemma": "rękawica",
-        "tags": "xxxxxxxxx",
+        "tags": "2g",
         "translations": {
             "ENG": [
-                "glove",
-                "mitten",
-                "gauntlet",
-                "(armor)"
+                "glove"
             ]
         },
         "temp_id": "8.8",
@@ -106,7 +110,7 @@
     },
     {
         "lemma": "kurtka",
-        "tags": "xxxxxxxxx",
+        "tags": "2g",
         "translations": {
             "ENG": [
                 "jacket",
@@ -118,7 +122,7 @@
     },
     {
         "lemma": "poziom",
-        "tags": "xxxxxxxxx",
+        "tags": "3ss,eee",
         "translations": {
             "ENG": [
                 "level",
@@ -132,26 +136,31 @@
     },
     {
         "lemma": "wpływ",
-        "tags": "xxxxxxxxx",
+        "tags": "2eee",
         "translations": {
             "ENG": [
-                "influence effect 1819,Jan Tarnowski, Badania historyczne jaki wpływ mieć mogły mniemania i literatura ludów wschodnich, page 51:",
-                "(ability to affect, control or manipulate)",
-                "1870,Ludwik Kubala, Stanislaw Orzechowski i wpływ jego na Rzeczpospolitę wobec reformacji XVI wieku: rzecz historyczna, page 2:",
-                "1905 Pamiętnik literacki, volume 4, page 558:",
-                "1916 Pamiętnik fizyjograficzny, page 74:",
-                "1986,Wojciech Żabicki, Higiena zawodowa dla szkół gastronomicznych →ISBN, page 61:"
-            ]
+                "influence","effect" ]
         },
         "temp_id": "8.11",
         "gender": "m3"
     },
     {
         "lemma": "właściciel",
-        "tags": "xxxxxxxxx",
+        "tags": "3p,VV",
         "translations": {
             "ENG": [
-                "owner proprietor"
+                "owner","proprietor"
+            ]
+        },
+        "temp_id": "8.12",
+        "gender": "m1"
+    },
+    {
+        "lemma": "właściciel",
+        "tags": "3p,VV",
+        "translations": {
+            "ENG": [
+                "landlord"
             ]
         },
         "temp_id": "8.12",
@@ -159,7 +168,7 @@
     },
     {
         "lemma": "asteroida",
-        "tags": "xxxxxxxxx",
+        "tags": "4ast",
         "translations": {
             "ENG": [
                 "asteroid",
@@ -171,7 +180,7 @@
     },
     {
         "lemma": "silnik",
-        "tags": "xxxxxxxxx",
+        "tags": "3eng,TTT",
         "translations": {
             "ENG": [
                 "engine",
@@ -183,7 +192,7 @@
     },
     {
         "lemma": "pisarz",
-        "tags": "xxxxxxxxx",
+        "tags": "2j,wri",
         "translations": {
             "ENG": [
                 "writer",
@@ -195,19 +204,17 @@
     },
     {
         "lemma": "dworzec",
-        "tags": "xxxxxxxxx",
+        "tags": "2TT,lb",
         "translations": {
             "ENG": [
-                "station , in particular a station containing a station building with passenger facilities, such as ticket sales, waiting rooms, food outlets, etc.",
-                "(central place in public transport, such as for trains or buses)"
-            ]
+                "station"   ]
         },
         "temp_id": "8.16",
         "gender": "m3"
     },
     {
         "lemma": "przemysł",
-        "tags": "xxxxxxxxx",
+        "tags": "3eng",
         "translations": {
             "ENG": [
                 "industry"
@@ -218,10 +225,10 @@
     },
     {
         "lemma": "lekarz",
-        "tags": "xxxxxxxxx",
+        "tags": "2j,med",
         "translations": {
             "ENG": [
-                "physician medical doctor"
+                "physician","doctor"
             ]
         },
         "temp_id": "8.18",
@@ -229,11 +236,10 @@
     },
     {
         "lemma": "lekarka",
-        "tags": "xxxxxxxxx",
+       "tags": "2j,med",
         "translations": {
             "ENG": [
-                "female equivalent of lekarz",
-                "( “ physician medical doctor ” )"
+                "physician","doctor"
             ]
         },
         "temp_id": "8.19",
@@ -241,7 +247,7 @@
     },
     {
         "lemma": "sprzedaż",
-        "tags": "xxxxxxxxx",
+        "tags": "3$",
         "translations": {
             "ENG": [
                 "sale",
