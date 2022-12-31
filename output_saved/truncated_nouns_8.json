@@ -259,12 +259,10 @@
     },
     {
         "lemma": "rzeźba",
-        "tags": "xxxxxxxxx",
+        "tags": "4art,h",
         "translations": {
             "ENG": [
-                "sculpture",
-                "(a work of art created by sculpting)",
-                "shape outline"
+                "sculpture"
             ]
         },
         "temp_id": "8.21",
@@ -272,34 +270,27 @@
     },
     {
         "lemma": "sędzia",
-        "tags": "xxxxxxxxx",
+        "tags": "3j,l",
         "translations": {
             "ENG": [
-                "judge justice",
-                "(law)",
-                "referee",
-                "(umpire or judge) (sports)"
-            ]
+                "judge"    ]
         },
         "temp_id": "8.22",
         "gender": "m1"
     },
     {
         "lemma": "sędzia",
-        "tags": "xxxxxxxxx",
+      "tags": "4j,yy",
         "translations": {
             "ENG": [
-                "judge justice",
-                "referee",
-                "(umpire or judge)"
-            ]
+                "referee"    ]
         },
         "temp_id": "8.23",
         "gender": "f"
     },
     {
         "lemma": "płot",
-        "tags": "xxxxxxxxx",
+        "tags": "3gar",
         "translations": {
             "ENG": [
                 "fence",
@@ -311,7 +302,7 @@
     },
     {
         "lemma": "zając",
-        "tags": "xxxxxxxxx",
+        "tags": "3a",
         "translations": {
             "ENG": [
                 "hare",
@@ -323,13 +314,13 @@
     },
     {
         "lemma": "porażka",
-        "tags": "xxxxxxxxx",
+        "tags": "4yy,MM",
         "translations": {
             "ENG": [
                 "failure",
-                "defeat beating",
+                "defeat",
                 "(sports)",
-                "serious mistake disaster fuckup",
+                "disaster",
                 "(colloquial)"
             ]
         },
@@ -338,11 +329,10 @@
     },
     {
         "lemma": "turystka",
-        "tags": "xxxxxxxxx",
+        "tags": "3p,PP",
         "translations": {
             "ENG": [
-                "female equivalent of turysta",
-                "( “ tourist ” )"
+                "tourist"
             ]
         },
         "temp_id": "8.27",
@@ -350,21 +340,17 @@
     },
     {
         "lemma": "zbiór",
-        "tags": "xxxxxxxxx",
+        "tags": "3mat",
         "translations": {
             "ENG": [
-                "set collection",
-                "crop",
-                "(the natural production for a specific year, particularly of plants) (agriculture)",
-                "set",
-                "(mathematics)"
+                "set","collection"
             ]
         },
         "temp_id": "8.28",
         "gender": "m3"
     },
     {
-        "lemma": "powód",
+        "lemma": "!powód",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -376,10 +362,10 @@
     },
     {
         "lemma": "powód",
-        "tags": "xxxxxxxxx",
+        "tags": "2eee,at",
         "translations": {
             "ENG": [
-                "cause reason"
+                "cause","reason"
             ]
         },
         "temp_id": "8.30",
@@ -387,7 +373,7 @@
     },
     {
         "lemma": "karetka",
-        "tags": "xxxxxxxxx",
+        "tags": "2T,med",
         "translations": {
             "ENG": [
                 "ambulance"
@@ -398,12 +384,10 @@
     },
     {
         "lemma": "ochrona",
-        "tags": "xxxxxxxxx",
+        "tags": "3XX,sci",
         "translations": {
             "ENG": [
-                "protection",
-                "bodyguard",
-                "(group of persons)"
+                "protection"
             ]
         },
         "temp_id": "8.32",
@@ -411,10 +395,10 @@
     },
     {
         "lemma": "spokój",
-        "tags": "xxxxxxxxx",
+        "tags": "4e",
         "translations": {
             "ENG": [
-                "calm calmness peace tranquility quiet composure"
+                "calm","calmness","peace","tranquility","quiet"
             ]
         },
         "temp_id": "8.33",
@@ -422,7 +406,7 @@
     },
     {
         "lemma": "pudełko",
-        "tags": "xxxxxxxxx",
+        "tags": "1@@",
         "translations": {
             "ENG": [
                 "box",
@@ -434,65 +418,40 @@
     },
     {
         "lemma": "wrak",
-        "tags": "xxxxxxxxx",
+        "tags": "5his",
         "translations": {
             "ENG": [
-                "shipwreck wreck wreckage",
-                "clunker junker beater rustbucket decrepit car",
-                "broken man mess train wreck",
-                "(someone who is unbalanced and considered a mess; a disaster; one who is suffering personal ruin) (colloquial)"
-            ]
+                "shipwreck","wreck","wreckage"  ]
         },
         "temp_id": "8.35",
         "gender": "m3"
     },
     {
         "lemma": "muzyka",
-        "tags": "xxxxxxxxx",
+        "tags": "2mus",
         "translations": {
             "ENG": [
-                "music",
-                "(sound, organized in time in a melodious way)",
-                "music",
-                "(any pleasing or interesting sounds) (literary)",
-                "orchestra band",
-                "(group of musicians) (colloquial)",
-                "music lessons, music class",
-                "(place where music is taught) (colloquial)",
-                "dance party",
-                "(Cieszyn Silesia)",
-                "fun amusement",
-                "(Bukovina)"
-            ]
+                "music" ]
         },
         "temp_id": "8.36",
         "gender": "f"
     },
     {
         "lemma": "laska",
-        "tags": "xxxxxxxxx",
+        "tags": "4med,h",
         "translations": {
             "ENG": [
-                "cane stick walking stick",
-                "rod stick",
-                "(of cinnamon, vanilla, dynamite etc. )",
-                "attractive woman babe",
-                "(colloquial)",
-                "blowjob",
-                "(colloquial)",
-                "failing grade F",
-                "(colloquial)"
-            ]
+                "cane","stick","walking stick" ]
         },
         "temp_id": "8.37",
         "gender": "f"
     },
     {
         "lemma": "banknot",
-        "tags": "xxxxxxxxx",
+        "tags": "2$,h",
         "translations": {
             "ENG": [
-                "banknote bill",
+                "banknote",
                 "(paper money)"
             ]
         },
@@ -501,7 +460,7 @@
     },
     {
         "lemma": "koszmar",
-        "tags": "xxxxxxxxx",
+        "tags": "3ee,-",
         "translations": {
             "ENG": [
                 "nightmare",
@@ -515,23 +474,20 @@
     },
     {
         "lemma": "pustynia",
-        "tags": "xxxxxxxxx",
+        "tags": "3ls,geo",
         "translations": {
             "ENG": [
-                "desert 2009,“Lucifer”, performed by Behemoth:",
-                "(barren area)",
-                "uninhabited undeveloped land"
-            ]
+                "desert"   ]
         },
         "temp_id": "8.40",
         "gender": "f"
     },
     {
         "lemma": "ciepło",
-        "tags": "xxxxxxxxx",
+        "tags": "3H",
         "translations": {
             "ENG": [
-                "heat warmth"
+                "heat","warmth"
             ]
         },
         "temp_id": "8.41",
