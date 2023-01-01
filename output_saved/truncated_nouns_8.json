@@ -495,13 +495,21 @@
     },
     {
         "lemma": "gatunek",
-        "tags": "xxxxxxxxx",
+        "tags": "4bio",
         "translations": {
             "ENG": [
-                "species",
-                "genre sort",
-                "breed",
-                "quality brand"
+                "species"
+            ]
+        },
+        "temp_id": "8.42",
+        "gender": "m3"
+    },
+    {
+        "lemma": "gatunek",
+        "tags": "4V",
+        "translations": {
+            "ENG": [
+                "genre"
             ]
         },
         "temp_id": "8.42",
@@ -509,39 +517,30 @@
     },
     {
         "lemma": "szkielet",
-        "tags": "xxxxxxxxx",
+        "tags": "3b,med",
         "translations": {
             "ENG": [
-                "skeleton",
-                "(anatomy)",
-                "framework skeleton",
-                "(a frame that provides support to a building or other construction)"
-            ]
+                "skeleton"  ]
         },
         "temp_id": "8.43",
         "gender": "m3"
     },
     {
         "lemma": "kierunek",
-        "tags": "xxxxxxxxx",
+        "tags": "3geo,TT",
         "translations": {
             "ENG": [
-                "direction",
-                "(indication of the point toward which an object is moving)",
-                "major field, discipline of study",
-                "blinker turn signal",
-                "(colloquial)"
-            ]
+                "direction"  ]
         },
         "temp_id": "8.44",
         "gender": "m3"
     },
     {
         "lemma": "sukienka",
-        "tags": "xxxxxxxxx",
+        "tags": "2g",
         "translations": {
             "ENG": [
-                "dress frock"
+                "dress"
             ]
         },
         "temp_id": "8.45",
@@ -549,13 +548,10 @@
     },
     {
         "lemma": "tkanka",
-        "tags": "xxxxxxxxx",
+        "tags": "4bio",
         "translations": {
             "ENG": [
-                "tissue",
-                "(biology)",
-                "web, thin delicate cloth 1829,Jean-Antoine Letronne, Wykład elementarny starożytnéj i nowożytnéj jeografji [ sic ] pana Letronne, inspektora generalnego szkoł we Francji; na język Polski przełożony, i niektóremi dodatkami pomnożony [1] , Zawadzki i Węcki, archived from the original on 2022-06-22, page 183:",
-                "(archaic)"
+                "tissue"
             ]
         },
         "temp_id": "8.46",
@@ -563,57 +559,36 @@
     },
     {
         "lemma": "cień",
-        "tags": "xxxxxxxxx",
+        "tags": "3phy",
         "translations": {
-            "ENG": [
-                "shade",
-                "(darkness where light, particularly sunlight, is blocked)",
-                "shadow",
-                "(dark image projected onto a surface where light is blocked by an object)",
-                "shadow outline",
-                "(faintly visible object)",
-                "shadow husk",
-                "(inferior or faint representation) (figuratively)",
-                "shadow shade ghost",
-                "(literary)",
-                "eyeshadow"
-            ]
+            "ENG": [ "shadow"  ]
         },
         "temp_id": "8.47",
         "gender": "m3"
     },
     {
         "lemma": "działo",
-        "tags": "xxxxxxxxx",
+        "tags": "4his,X",
         "translations": {
             "ENG": [
-                "gun",
-                "(a cannon with relatively long barrel, operating with relatively low angle of fire, and having a high muzzle velocity)"
-            ]
+                "gun","cannon"  ]
         },
         "temp_id": "8.48",
         "gender": "n"
     },
     {
         "lemma": "zmysł",
-        "tags": "xxxxxxxxx",
+        "tags": "3Q",
         "translations": {
             "ENG": [
-                "sense",
-                "(method of perception)",
-                "sense knack ; natural ability or talent",
-                "lust libido",
-                "(in the plural)",
-                "consciousness",
-                "(the state of being conscious) (in the plural)"
-            ]
+                "sense"        ]
         },
         "temp_id": "8.49",
         "gender": "m3"
     },
     {
         "lemma": "dziennikarz",
-        "tags": "xxxxxxxxx",
+        "tags": "2j,wri,QQ",
         "translations": {
             "ENG": [
                 "journalist",
@@ -625,11 +600,10 @@
     },
     {
         "lemma": "chodnik",
-        "tags": "xxxxxxxxx",
+        "tags": "3ls,TT",
         "translations": {
             "ENG": [
-                "pavement sidewalk",
-                "floormat"
+                "pavement","sidewalk"
             ]
         },
         "temp_id": "8.51",
@@ -637,10 +611,10 @@
     },
     {
         "lemma": "zbrodnia",
-        "tags": "xxxxxxxxx",
+        "tags": "3l",
         "translations": {
             "ENG": [
-                "crime felony"
+                "crime"
             ]
         },
         "temp_id": "8.52",
@@ -648,11 +622,9 @@
     },
     {
         "lemma": "żarówka",
-        "tags": "xxxxxxxxx",
+        "tags": "3hh,eng",
         "translations": {
             "ENG": [
-                "incandescent light bulb",
-                "(prescriptive)",
                 "light bulb"
             ]
         },
@@ -661,7 +633,7 @@
     },
     {
         "lemma": "zabawka",
-        "tags": "xxxxxxxxx",
+        "tags": "2hb",
         "translations": {
             "ENG": [
                 "toy",
@@ -673,26 +645,22 @@
     },
     {
         "lemma": "przedsiębiorstwo",
-        "tags": "xxxxxxxxx",
+        "tags": "3bus",
         "translations": {
             "ENG": [
-                "company enterprise corporation",
-                "(in legal context, corporation)"
-            ]
+                "company",
+                "enterprise",
+                "corporation"  ]
         },
         "temp_id": "8.55",
         "gender": "n"
     },
     {
         "lemma": "krzyż",
-        "tags": "xxxxxxxxx",
+        "tags": "4gem,RR",
         "translations": {
             "ENG": [
-                "cross",
-                "sacrum",
-                "(anatomy)",
-                "cross",
-                "(heraldry)"
+                "cross"
             ]
         },
         "temp_id": "8.56",
@@ -700,15 +668,10 @@
     },
     {
         "lemma": "wejście",
-        "tags": "xxxxxxxxx",
+        "tags": "4hp",
         "translations": {
-            "ENG": [
-                "verbal noun of wejść entering",
-                "entrance entry way in",
-                "entrance",
-                "(act of entering)",
-                "input",
-                "(computing)"
+            "ENG": [ "entrance","entry","way in"
+
             ]
         },
         "temp_id": "8.57",
@@ -716,7 +679,7 @@
     },
     {
         "lemma": "gwóźdź",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng,qq",
         "translations": {
             "ENG": [
                 "nail",
@@ -728,7 +691,7 @@
     },
     {
         "lemma": "spódnica",
-        "tags": "xxxxxxxxx",
+        "tags": "2g",
         "translations": {
             "ENG": [
                 "skirt"
