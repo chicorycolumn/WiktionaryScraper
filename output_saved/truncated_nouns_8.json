@@ -1183,7 +1183,7 @@
     },
     {
         "lemma": "torba",
-        "tags": "xxxxxxxxx",
+        "tags": "2@@",
         "translations": {
             "ENG": [
                 "bag",
@@ -1195,7 +1195,7 @@
     },
     {
         "lemma": "pałac",
-        "tags": "xxxxxxxxx",
+        "tags": "4lb,his",
         "translations": {
             "ENG": [
                 "palace"
@@ -1206,7 +1206,7 @@
     },
     {
         "lemma": "zdrowie",
-        "tags": "xxxxxxxxx",
+        "tags": "3med",
         "translations": {
             "ENG": [
                 "health"
@@ -1217,7 +1217,7 @@
     },
     {
         "lemma": "pielęgniarka",
-        "tags": "xxxxxxxxx",
+        "tags": "2j,med",
         "translations": {
             "ENG": [
                 "nurse"
@@ -1228,7 +1228,7 @@
     },
     {
         "lemma": "pielęgniarz",
-        "tags": "xxxxxxxxx",
+           "tags": "2j,med",
         "translations": {
             "ENG": [
                 "nurse",
@@ -1240,10 +1240,10 @@
     },
     {
         "lemma": "bluza",
-        "tags": "xxxxxxxxx",
+        "tags": "2g",
         "translations": {
             "ENG": [
-                "jacket hoodie sweatshirt"
+                "hoodie","sweatshirt"
             ]
         },
         "temp_id": "8.107",
@@ -1251,10 +1251,10 @@
     },
     {
         "lemma": "benzyna",
-        "tags": "xxxxxxxxx",
+        "tags": "3ene,TTT",
         "translations": {
             "ENG": [
-                "petrol gasoline"
+                "petrol","gasoline"
             ]
         },
         "temp_id": "8.108",
@@ -1262,10 +1262,9 @@
     },
     {
         "lemma": "cząstka",
-        "tags": "xxxxxxxxx",
+        "tags": "5phy",
         "translations": {
             "ENG": [
-                "Diminutive of część",
                 "particle",
                 "(elementary particle or subatomic particle) (physics)"
             ]
@@ -1275,7 +1274,7 @@
     },
     {
         "lemma": "grób",
-        "tags": "xxxxxxxxx",
+        "tags": "3XXX",
         "translations": {
             "ENG": [
                 "grave",
@@ -1288,7 +1287,7 @@
     },
     {
         "lemma": "szczegół",
-        "tags": "xxxxxxxxx",
+        "tags": "3eee",
         "translations": {
             "ENG": [
                 "detail"
@@ -1299,7 +1298,7 @@
     },
     {
         "lemma": "garaż",
-        "tags": "xxxxxxxxx",
+        "tags": "3lr,TTT",
         "translations": {
             "ENG": [
                 "garage",
@@ -1311,7 +1310,7 @@
     },
     {
         "lemma": "obywatel",
-        "tags": "xxxxxxxxx",
+        "tags": "3geo,p",
         "translations": {
             "ENG": [
                 "citizen",
@@ -1323,15 +1322,21 @@
     },
     {
         "lemma": "tarcza",
-        "tags": "xxxxxxxxx",
+        "tags": "4XXX,his",
         "translations": {
             "ENG": [
-                "shield",
-                "target",
-                "(butt or mark to shoot at)",
-                "shield",
-                "(heraldry)",
-                "clock face"
+                "shield"
+            ]
+        },
+        "temp_id": "8.114",
+        "gender": "f"
+    },
+    {
+        "lemma": "tarcza",
+        "tags": "3yy",
+        "translations": {
+            "ENG": [
+                "target"
             ]
         },
         "temp_id": "8.114",
@@ -1339,7 +1344,7 @@
     },
     {
         "lemma": "strażnik",
-        "tags": "xxxxxxxxx",
+        "tags": "3j",
         "translations": {
             "ENG": [
                 "guard",
@@ -1351,10 +1356,10 @@
     },
     {
         "lemma": "naukowiec",
-        "tags": "xxxxxxxxx",
+        "tags": "3sci,j",
         "translations": {
             "ENG": [
-                "scientist scholar"
+                "scientist"
             ]
         },
         "temp_id": "8.116",
@@ -1362,7 +1367,7 @@
     },
     {
         "lemma": "fakt",
-        "tags": "xxxxxxxxx",
+        "tags": "4eee",
         "translations": {
             "ENG": [
                 "fact"
@@ -1373,7 +1378,7 @@
     },
     {
         "lemma": "wyłącznik",
-        "tags": "xxxxxxxxx",
+        "tags": "2ii",
         "translations": {
             "ENG": [
                 "switch",
@@ -1385,7 +1390,7 @@
     },
     {
         "lemma": "telewizor",
-        "tags": "xxxxxxxxx",
+        "tags": "2i,V",
         "translations": {
             "ENG": [
                 "television",
@@ -1397,7 +1402,7 @@
     },
     {
         "lemma": "pacjent",
-        "tags": "xxxxxxxxx",
+        "tags": "3p,med",
         "translations": {
             "ENG": [
                 "patient"
@@ -1408,23 +1413,17 @@
     },
     {
         "lemma": "podniebienie",
-        "tags": "xxxxxxxxx",
+        "tags": "4b",
         "translations": {
             "ENG": [
-                "palate",
-                "(roof of the mouth) (anatomy)",
-                "palate",
-                "(taste or preference)",
-                "intrados",
-                "(architecture)"
-            ]
+                "palate" ]
         },
         "temp_id": "8.121",
         "gender": "n"
     },
     {
         "lemma": "osada",
-        "tags": "xxxxxxxxx",
+        "tags": "4his,ls,geo",
         "translations": {
             "ENG": [
                 "settlement"
@@ -1435,13 +1434,10 @@
     },
     {
         "lemma": "ładowarka",
-        "tags": "xxxxxxxxx",
+        "tags": "2i",
         "translations": {
             "ENG": [
-                "charger",
-                "(device)",
-                "loader",
-                "(tractor)"
+                "charger"
             ]
         },
         "temp_id": "8.123",
@@ -1449,7 +1445,7 @@
     },
     {
         "lemma": "połowa",
-        "tags": "xxxxxxxxx",
+        "tags": "3mat,WW",
         "translations": {
             "ENG": [
                 "half",
@@ -1460,7 +1456,7 @@
         "gender": "f"
     },
     {
-        "lemma": "obywatelstwo",
+        "lemma": "!obywatelstwo",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1472,10 +1468,10 @@
     },
     {
         "lemma": "pleśń",
-        "tags": "xxxxxxxxx",
+        "tags": "3ff,UU",
         "translations": {
             "ENG": [
-                "mould",
+                "mould","mold",
                 "(natural substance on organic material in the form of a furry growth of tiny fungi)"
             ]
         },
@@ -1484,7 +1480,7 @@
     },
     {
         "lemma": "dostęp",
-        "tags": "xxxxxxxxx",
+        "tags": "3rp,TT",
         "translations": {
             "ENG": [
                 "access",
@@ -1496,7 +1492,7 @@
     },
     {
         "lemma": "wrota",
-        "tags": "xxxxxxxxx",
+        "tags": "2gar",
         "translations": {
             "ENG": [
                 "gate"
@@ -1507,7 +1503,7 @@
     },
     {
         "lemma": "homar",
-        "tags": "xxxxxxxxx",
+        "tags": "3a,ff",
         "translations": {
             "ENG": [
                 "lobster",
