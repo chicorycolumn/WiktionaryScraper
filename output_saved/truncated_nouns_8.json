@@ -474,7 +474,7 @@
     },
     {
         "lemma": "pustynia",
-        "tags": "3ls,geo",
+        "tags": "3ll,geo",
         "translations": {
             "ENG": [
                 "desert"   ]
@@ -600,7 +600,7 @@
     },
     {
         "lemma": "chodnik",
-        "tags": "3ls,TT",
+        "tags": "3ll,TT",
         "translations": {
             "ENG": [
                 "pavement","sidewalk"
@@ -1423,7 +1423,7 @@
     },
     {
         "lemma": "osada",
-        "tags": "4his,ls,geo",
+        "tags": "4his,ll,geo",
         "translations": {
             "ENG": [
                 "settlement"
@@ -1515,13 +1515,9 @@
     },
     {
         "lemma": "odcinek",
-        "tags": "xxxxxxxxx",
+        "tags": "3V,WW",
         "translations": {
             "ENG": [
-                "stretch section",
-                "(segment of a road, a river, etc. )",
-                "line segment",
-                "(geometry)",
                 "episode",
                 "(program in a television series)"
             ]
@@ -1531,7 +1527,7 @@
     },
     {
         "lemma": "jezdnia",
-        "tags": "xxxxxxxxx",
+        "tags": "4TTT,ll",
         "translations": {
             "ENG": [
                 "roadway"
@@ -1542,10 +1538,10 @@
     },
     {
         "lemma": "zgoda",
-        "tags": "xxxxxxxxx",
+        "tags": "4pl,l",
         "translations": {
             "ENG": [
-                "consent agreement",
+                "consent","agreement",
                 "(state of understanding)"
             ]
         },
@@ -1554,10 +1550,10 @@
     },
     {
         "lemma": "plecak",
-        "tags": "xxxxxxxxx",
+        "tags": "2s,@@",
         "translations": {
             "ENG": [
-                "backpack rucksack"
+                "backpack","rucksack"
             ]
         },
         "temp_id": "8.133",
@@ -1565,10 +1561,10 @@
     },
     {
         "lemma": "efekt",
-        "tags": "xxxxxxxxx",
+        "tags": "3eee",
         "translations": {
             "ENG": [
-                "effect result"
+                "effect","result"
             ]
         },
         "temp_id": "8.134",
@@ -1576,10 +1572,10 @@
     },
     {
         "lemma": "przestępstwo",
-        "tags": "xxxxxxxxx",
+    "tags": "3l",
         "translations": {
             "ENG": [
-                "crime felony"
+                "crime"
             ]
         },
         "temp_id": "8.135",
@@ -1587,7 +1583,7 @@
     },
     {
         "lemma": "złość",
-        "tags": "xxxxxxxxx",
+        "tags": "3e",
         "translations": {
             "ENG": [
                 "anger",
@@ -1599,7 +1595,7 @@
     },
     {
         "lemma": "mosiądz",
-        "tags": "xxxxxxxxx",
+        "tags": "3c,eng",
         "translations": {
             "ENG": [
                 "brass",
@@ -1611,23 +1607,17 @@
     },
     {
         "lemma": "koszulka",
-        "tags": "xxxxxxxxx",
+        "tags": "2g",
         "translations": {
             "ENG": [
-                "Diminutive of koszula",
-                "T-shirt",
-                "jacket wrapper",
-                "(a removable or replaceable protective or insulating cover for an object)",
-                "sheet protector",
-                "(a clear plastic sleeve for documents)"
-            ]
+                "T-shirt"  ]
         },
         "temp_id": "8.138",
         "gender": "f"
     },
     {
         "lemma": "taras",
-        "tags": "xxxxxxxxx",
+        "tags": "3lr",
         "translations": {
             "ENG": [
                 "terrace"
@@ -1638,7 +1628,7 @@
     },
     {
         "lemma": "wołowina",
-        "tags": "xxxxxxxxx",
+        "tags": "2sv",
         "translations": {
             "ENG": [
                 "beef"
@@ -1649,7 +1639,7 @@
     },
     {
         "lemma": "ryzyko",
-        "tags": "xxxxxxxxx",
+        "tags": "3JJ",
         "translations": {
             "ENG": [
                 "risk"
@@ -1660,10 +1650,9 @@
     },
     {
         "lemma": "ćwiczenie",
-        "tags": "xxxxxxxxx",
+        "tags": "2yy,dr",
         "translations": {
             "ENG": [
-                "verbal noun of ćwiczyć",
                 "exercise",
                 "(any activity designed to develop or hone a skill or ability)"
             ]
@@ -1673,17 +1662,17 @@
     },
     {
         "lemma": "danie",
-        "tags": "xxxxxxxxx",
+        "tags": "2ff",
         "translations": {
             "ENG": [
-                "course dish"
+                "course","dish"
             ]
         },
         "temp_id": "8.143",
         "gender": "n"
     },
     {
-        "lemma": "danie",
+        "lemma": "!danie",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1695,11 +1684,11 @@
     },
     {
         "lemma": "zmrok",
-        "tags": "xxxxxxxxx",
+        "tags": "3phy,at",
         "translations": {
             "ENG": [
                 "darkness",
-                "dusk nightfall"
+                "dusk","nightfall"
             ]
         },
         "temp_id": "8.145",
@@ -1707,11 +1696,10 @@
     },
     {
         "lemma": "niebezpieczeństwo",
-        "tags": "xxxxxxxxx",
+        "tags": "2JJ",
         "translations": {
             "ENG": [
                 "danger",
-                "peril",
                 "(a situation of serious danger)"
             ]
         },
@@ -1720,7 +1708,7 @@
     },
     {
         "lemma": "wieprzowina",
-        "tags": "xxxxxxxxx",
+        "tags": "2sv",
         "translations": {
             "ENG": [
                 "pork"
@@ -1731,7 +1719,7 @@
     },
     {
         "lemma": "krewetka",
-        "tags": "xxxxxxxxx",
+        "tags": "3a",
         "translations": {
             "ENG": [
                 "shrimp",
@@ -1743,7 +1731,7 @@
     },
     {
         "lemma": "pancernik",
-        "tags": "xxxxxxxxx",
+        "tags": "4a",
         "translations": {
             "ENG": [
                 "armadillo",
@@ -1755,7 +1743,7 @@
     },
     {
         "lemma": "pancernik",
-        "tags": "xxxxxxxxx",
+        "tags": "5XXX,T",
         "translations": {
             "ENG": [
                 "battleship"
@@ -1766,12 +1754,11 @@
     },
     {
         "lemma": "przyjaźń",
-        "tags": "xxxxxxxxx",
+        "tags": "3an,pp",
         "translations": {
             "ENG": [
                 "friendship",
-                "(condition of being friends)",
-                "amity"
+                "(condition of being friends)"
             ]
         },
         "temp_id": "8.151",
@@ -1779,11 +1766,10 @@
     },
     {
         "lemma": "parter",
-        "tags": "xxxxxxxxx",
+        "tags": "2hp",
         "translations": {
             "ENG": [
-                "ground floor",
-                "bed of arranged flowers"
+                "ground floor"
             ]
         },
         "temp_id": "8.152",
@@ -1791,7 +1777,7 @@
     },
     {
         "lemma": "korytarz",
-        "tags": "xxxxxxxxx",
+        "tags": "3lr",
         "translations": {
             "ENG": [
                 "corridor",
