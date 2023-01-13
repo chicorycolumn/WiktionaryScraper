@@ -297,6 +297,7 @@ def untruncate_lemma_objects(group_number, wordtype):
 
     with open(f"output_saved/output_{wordtype}_{group_number}.json", "r") as f:
         lobjs_long = json.load(f)
+        lobjs_long = [el for el in lobjs_long if el]
         f.close()
     with open(f"output_saved/truncated_{wordtype}_{group_number}.json", "r") as f:
         lobjs_truncated = json.load(f)

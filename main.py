@@ -14,9 +14,9 @@ if __name__ == '__main__':
     #         print(el)
 
     step = 2
-    group_number = 7
+    group_number = 8
     input_indexes = [0, 450]
-    wordtype = "a"
+    wordtype = "v"
     these_headwords_only = []
     # these_headwords_only = ['lekki']
     skip_make_ids = False  # only set True when manually testing.
