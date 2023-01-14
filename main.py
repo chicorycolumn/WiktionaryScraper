@@ -13,9 +13,9 @@ if __name__ == '__main__':
     #     if el[-1] not in ["y", "i"]:
     #         print(el)
 
-    step = 2
-    group_number = 8
-    input_indexes = [0, 450]
+    step = 1
+    group_number = 9
+    input_indexes = [0, 870]
     wordtype = "v"
     these_headwords_only = []
     # these_headwords_only = ['lekki']
@@ -44,20 +44,21 @@ if __name__ == '__main__':
 
     Step 1.5 Manual
     
-              (i) Delete *_scraped then move all three files to output_saved.
+              (i) *_scraped    Delete it.
+                  rejected_*   Move to output_saved/rejected.
+                  truncated_*  Move to output_saved.
+                  output_*     Move to output_saved.
     
-              (ii) Take truncated_*s_99 and whittle translations
+              (ii) Open truncated_* and whittle translations.
     
 Strings in translations that "(start and end with brackets)" are removed automatically.
 Duplicated translations ["wolf", "wolf"] are removed automatically.
               
-              (iii) Manually add shorthand tags. 
+              (iii) Manually add shorthand tags (in truncated_*).
 
 Include frequency tag (no comma needed). eg "1v" or "1£,g" or "1b,n,w,t".
 Flag lobjs for deletion by adding '!' at start of lemma.
 You must duplicate lobjs which have double meaning, and whittle respective translation accordingly, temp_id is adjusted automatically.
-              
-                        truncated_words_99 MODIFIED
 
 
     Step 2  Run this file with step = 2 
@@ -67,6 +68,10 @@ You must duplicate lobjs which have double meaning, and whittle respective trans
                         untruncated_words_99 CREATED (This won't have the tags expanded. Look to the other file.)
                 expand_tags_and_topics()
                         wordtype_folder/finished_words_99 CREATED
+                        
+            The finished file is now present in its wordtype folder ie outputsaved/nouns,
+            so you can go ahead and delete
+             remaining files in output_saved top level.
                         
     """
     wordtypes = ["nouns", "verbs", "adjectives"]
