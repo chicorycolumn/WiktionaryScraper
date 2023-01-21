@@ -260,15 +260,12 @@
     },
     {
         "lemma": "prześladować",
-        "tags": "xxxxxxxxx",
+        "tags": "4B,XX",
         "translations": {
             "ENG": [
-                "to harass",
-                "to oppress Synonym: gnębić",
-                "to beseech",
-                "to pursue",
-                "to solicit Synonym: nagabywać",
-                "to obsess (to dominate the thoughts of someone)"
+                "to stalk",
+                "to persecute",
+                "to haunt"
             ]
         },
         "temp_id": "9.17"
@@ -286,28 +283,24 @@
     },
     {
         "lemma": "powiększyć",
-        "tags": "xxxxxxxxx",
+        "tags": "4z",
         "translations": {
             "ENG": [
                 "to enlarge",
-                "to augment",
-                "to expand[t,or,i]",
-                "to magnify (make something appear larger through use of a lens)",
-                "to grow larger[r]"
+                "to increase",
+                "to expand"
             ]
         },
         "temp_id": "9.19"
     },
     {
         "lemma": "powiększać",
-        "tags": "xxxxxxxxx",
+       "tags": "4z",
         "translations": {
             "ENG": [
                 "to enlarge",
-                "to augment",
-                "to expand[t,or,i]",
-                "to magnify (make something appear larger through use of a lens)",
-                "to grow larger[r]"
+                "to increase",
+                "to expand"
             ]
         },
         "temp_id": "9.20"
@@ -449,48 +442,63 @@
     },
     {
         "lemma": "poznawać",
-        "tags": "xxxxxxxxx",
+        "tags": "3pp,ee",
         "translations": {
             "ENG": [
                 "to meet",
-                "to get to know",
-                "to recognize",
-                "to know"
+                "to get to know"
             ]
         },
         "temp_id": "9.33"
     },
     {
         "lemma": "poznać",
-        "tags": "xxxxxxxxx",
+       "tags": "3pp,ee",
         "translations": {
             "ENG": [
                 "to meet",
-                "to get to know",
-                "to recognize",
-                "to know"
+                "to get to know"
+            ]
+        },
+        "temp_id": "9.34"
+    },
+
+    {
+        "lemma": "poznawać",
+        "tags": "3ee,kk",
+        "translations": {
+            "ENG": [
+                "to recognise","to recognize"
+            ]
+        },
+        "temp_id": "9.33"
+    },
+    {
+        "lemma": "poznać",
+     "tags": "3ee,kk",
+        "translations": {
+            "ENG": [
+                "to recognise","to recognize"
             ]
         },
         "temp_id": "9.34"
     },
     {
         "lemma": "potrząsać",
-        "tags": "xxxxxxxxx",
+        "tags": "4v",
         "translations": {
             "ENG": [
-                "to shake Synonyms: telepać trząść"
+                "to shake"
             ]
         },
         "temp_id": "9.35"
     },
     {
         "lemma": "potrząsnąć",
-        "tags": "xxxxxxxxx",
+       "tags": "4v",
         "translations": {
             "ENG": [
-                "to rattle",
-                "to shake",
-                "to throw back"
+                "to shake"
             ]
         },
         "temp_id": "9.36"
