@@ -629,7 +629,7 @@
         "temp_id": "9.54"
     },
     {
-        "lemma": "przekraczać",
+        "lemma": "!przekraczać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -642,7 +642,7 @@
         "temp_id": "9.55"
     },
     {
-        "lemma": "przekroczyć",
+        "lemma": "!przekroczyć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -657,82 +657,59 @@
     },
     {
         "lemma": "przechodzić",
-        "tags": "xxxxxxxxx",
+        "tags": "4vv",
         "translations": {
             "ENG": [
-                "to go through",
-                "to pass through[i]",
-                "to cross[i]",
-                "to pass",
-                "to pass by",
-                "to go past[i]",
-                "to ",
-                "to be transferred[i]  to pass (from one person to another)",
-                "to pass",
-                "to wear off[i]",
-                "to undergo",
-                "to experience[i]",
-                "to switch",
-                "to convert[i]"
+                "to go through"
             ]
         },
         "temp_id": "9.57"
     },
     {
         "lemma": "przejść",
-        "tags": "xxxxxxxxx",
+      "tags": "4vv",
         "translations": {
             "ENG": [
-                "to go through",
-                "to pass through[i]",
-                "to cross[i]",
-                "to pass",
-                "to pass by",
-                "to go past[i]",
-                "to ",
-                "to be transferred[i]  to pass (from one person to another)",
-                "to pass",
-                "to wear off[i]",
-                "to undergo",
-                "to experience[i]",
-                "to switch",
-                "to convert[i]"
+                "to go through"
             ]
         },
         "temp_id": "9.58"
     },
     {
         "lemma": "przejeżdżać",
-        "tags": "xxxxxxxxx",
+        "tags": "4TT",
         "translations": {
             "ENG": [
-                "to travel",
-                "to cover (in a vehicle)",
-                "to run down",
-                "to run over",
-                "to overrun",
-                "to overshoot",
-                "to drive around",
-                "to go for a spin[r]"
+                "to ride",
+                "to drive"
             ]
         },
         "temp_id": "9.59"
     },
     {
         "lemma": "przejechać",
-        "tags": "xxxxxxxxx",
+     "tags": "4TT",
         "translations": {
             "ENG": [
-                "to cover some distance by driving",
-                "Synonym: rozjechać  to run over (drive over, causing injury or death)",
-                "to overshoot drive too far (e.g. miss a bus or train stop)"
+                "to ride",
+                "to drive"
+            ]
+        },
+        "temp_id": "9.60"
+    },
+    {
+        "lemma": "przejechać",
+     "tags": "4JJ,TTT",
+        "translations": {
+            "ENG": [
+                "to run over"
             ]
         },
         "temp_id": "9.60"
     },
     {
         "lemma": "pozostawać",
-        "tags": "xxxxxxxxx",
+        "tags": "4ss",
         "translations": {
             "ENG": [
                 "to remain",
@@ -743,10 +720,11 @@
     },
     {
         "lemma": "pozostać",
-        "tags": "xxxxxxxxx",
+      "tags": "4ss",
         "translations": {
             "ENG": [
-                "remain stay[i]"
+                "to remain",
+                "to stay[i]"
             ]
         },
         "temp_id": "9.62"
