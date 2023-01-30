@@ -1133,7 +1133,7 @@
         "temp_id": "9.91"
     },
     {
-        "lemma": "ponosić",
+        "lemma": "!ponosić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1147,7 +1147,7 @@
         "temp_id": "9.92"
     },
     {
-        "lemma": "ponieść",
+        "lemma": "!ponieść",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1162,7 +1162,7 @@
     },
     {
         "lemma": "powiadomić",
-        "tags": "xxxxxxxxx",
+        "tags": "5sr,bus",
         "translations": {
             "ENG": [
                 "to notify",
@@ -1173,7 +1173,7 @@
     },
     {
         "lemma": "powiadamiać",
-        "tags": "xxxxxxxxx",
+      "tags": "5sr,bus",
         "translations": {
             "ENG": [
                 "to notify",
@@ -1184,39 +1184,47 @@
     },
     {
         "lemma": "potraktować",
-        "tags": "xxxxxxxxx",
+        "tags": "4pp,Y",
         "translations": {
             "ENG": [
-                "to treat (to subject to a specific action)",
-                "to treat[t,colloquial] (to handle, deal with or behave towards in a specific way)",
-                "Synonyms: poczęstować uraczyć[t,archaic]  to treat (to entertain with food or drink)"
-            ]
+                "to treat","*to consider [X as X]"  ]
         },
         "temp_id": "9.96"
     },
     {
         "lemma": "traktować",
-        "tags": "xxxxxxxxx",
+          "tags": "4pp,Y",
         "translations": {
             "ENG": [
-                "to treat (to subject to a specific action)",
-                "to treat[t,colloquial] (to handle, deal with or behave towards in a specific way)",
-                "Synonyms: częstować raczyć[t,archaic]  to treat (to entertain with food or drink)",
-                "to behave towards each other in a certain way[r]"
-            ]
+                "to treat","*to consider [X as X]"  ]
         },
         "temp_id": "9.97"
     },
     {
         "lemma": "przeprowadzić",
-        "tags": "xxxxxxxxx",
+        "tags": "4qq,med",
         "translations": {
             "ENG": [
-                "to lead (to guide or conduct with the hand, or by means of some physical contact connection)",
-                "to implement (to carry out",
-                "to proceed with)",
-                "to build (to construct",
-                "to put together)",
+                "to carry out"
+            ]
+        },
+        "temp_id": "9.98"
+    },
+    {
+        "lemma": "przeprowadzać",
+         "tags": "4qq,med",
+        "translations": {
+            "ENG": [
+                 "to carry out"
+            ]
+        },
+    "temp_id": "9.99"
+    },
+    {
+        "lemma": "przeprowadzić",
+        "tags": "3TT,ttt",
+        "translations": {
+            "ENG": [
                 "to move[i,r] (to change residence)"
             ]
         },
@@ -1224,18 +1232,13 @@
     },
     {
         "lemma": "przeprowadzać",
-        "tags": "xxxxxxxxx",
+       "tags": "3TT,ttt",
         "translations": {
             "ENG": [
-                "to lead (to guide or conduct with the hand, or by means of some physical contact connection)",
-                "to implement (to carry out",
-                "to proceed with)",
-                "to build (to construct",
-                "to put together)",
                 "to move[i,r] (to change residence)"
             ]
         },
-        "temp_id": "9.99"
+    "temp_id": "9.99"
     },
     {
         "lemma": "przekręcić",
