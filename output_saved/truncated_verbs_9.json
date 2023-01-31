@@ -1241,7 +1241,7 @@
     "temp_id": "9.99"
     },
     {
-        "lemma": "przekręcić",
+        "lemma": "!przekręcić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1256,7 +1256,7 @@
         "temp_id": "9.100"
     },
     {
-        "lemma": "przekręcać",
+        "lemma": "!przekręcać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1271,7 +1271,7 @@
         "temp_id": "9.101"
     },
     {
-        "lemma": "powołać",
+        "lemma": "!powołać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1287,7 +1287,7 @@
         "temp_id": "9.102"
     },
     {
-        "lemma": "powoływać",
+        "lemma": "!powoływać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1311,65 +1311,59 @@
     },
     {
         "lemma": "pracować",
-        "tags": "xxxxxxxxx",
+        "tags": "1w",
         "translations": {
             "ENG": [
-                "Synonym: robić[i]  to work (to do a specific task)"
+                "to work"
             ]
         },
         "temp_id": "9.104"
     },
     {
         "lemma": "przenosić",
-        "tags": "xxxxxxxxx",
+        "tags": "2TT,QQ",
         "translations": {
             "ENG": [
                 "to move",
-                "to carry",
-                "to transport",
-                "to transfer",
-                "to postpone",
-                "to rearrange",
-                "to transmit",
-                "to pass on",
-                "to transfer",
-                "to copy[t,computing]",
-                "to convey[t,law]",
-                "to carry[t,arithmetic]",
-                "to ",
-                "to remove[r]  to move (go to a new location)",
-                "to transfer[r] (be or become transferred)"
+                "to transfer"
             ]
         },
         "temp_id": "9.105"
     },
     {
         "lemma": "przenieść",
-        "tags": "xxxxxxxxx",
+        "tags": "2TT,QQ",
         "translations": {
             "ENG": [
                 "to move",
-                "to carry",
-                "to transport",
-                "to transfer",
-                "to postpone",
-                "to rearrange",
-                "to transmit",
-                "to pass on",
-                "to transfer",
-                "to copy[t,computing]",
-                "to convey[t,law]",
-                "to carry[t,arithmetic]",
-                "to ",
-                "to remove[r]  to move (go to a new location)",
-                "to transfer[r] (be or become transferred)"
+                "to transfer"
+            ]
+        },
+        "temp_id": "9.106"
+    },
+    {
+        "lemma": "przenosić",
+        "tags": "2v",
+        "translations": {
+            "ENG": [
+                "to carry"
+            ]
+        },
+        "temp_id": "9.105"
+    },
+    {
+        "lemma": "przenieść",
+       "tags": "2v",
+        "translations": {
+            "ENG": [
+                "to carry"
             ]
         },
         "temp_id": "9.106"
     },
     {
         "lemma": "przekonywać",
-        "tags": "xxxxxxxxx",
+        "tags": "3e,sr",
         "translations": {
             "ENG": [
                 "to convince",
@@ -1380,7 +1374,7 @@
     },
     {
         "lemma": "przekonać",
-        "tags": "xxxxxxxxx",
+          "tags": "3e,sr",
         "translations": {
             "ENG": [
                 "to convince",
@@ -1391,40 +1385,29 @@
     },
     {
         "lemma": "potknąć",
-        "tags": "xxxxxxxxx",
+        "tags": "3v,JJ",
         "translations": {
             "ENG": [
-                "to = over something][r]  to trip",
-                "to stumble",
-                "to fall [+ na (locative) ] or [+ o (accusative)",
-                "to err",
-                "to fail",
-                "to make a mistake[r,figuratively]",
-                "= with an enemy][r,literary]  to skirmish [+ z (instrumental)"
-            ]
+                "to trip[i]",
+                "to trip over",
+                "to stumble[i]"    ]
         },
         "temp_id": "9.109"
     },
     {
         "lemma": "potykać",
-        "tags": "xxxxxxxxx",
+        "tags": "3v,JJ",
         "translations": {
             "ENG": [
-                "to = over something][r]  to trip",
-                "to stumble",
-                "to falter [+ na (locative) ] or [+ o (accusative)",
-                "to err",
-                "to fail",
-                "to make a mistake[r,figuratively]",
-                "= with an enemy][r,literary]  to skirmish [+ z (instrumental)",
-                "to duel Synonyms: pojedynkować walczyć[archaic,r]"
-            ]
+                "to trip[i]",
+                "to trip over",
+                "to stumble[i]"    ]
         },
         "temp_id": "9.110"
     },
     {
         "lemma": "posadzić",
-        "tags": "xxxxxxxxx",
+        "tags": "4gar",
         "translations": {
             "ENG": [
                 "to plant"
@@ -1433,7 +1416,7 @@
         "temp_id": "9.111"
     },
     {
-        "lemma": "posadzić",
+        "lemma": "!posadzić",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1445,17 +1428,16 @@
     },
     {
         "lemma": "sadzić",
-        "tags": "xxxxxxxxx",
+        "tags": "4gar",
         "translations": {
             "ENG": [
-                "to plant",
-                "to try to impress someone[r]"
+                "to plant"
             ]
         },
         "temp_id": "9.113"
     },
     {
-        "lemma": "sadzać",
+        "lemma": "!sadzać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1467,66 +1449,46 @@
     },
     {
         "lemma": "popchnąć",
-        "tags": "xxxxxxxxx",
+        "tags": "3v,pp,JJ",
         "translations": {
             "ENG": [
                 "to push",
-                "to shove",
-                "to hustle",
-                "to jostle",
-                "to barge",
-                "to push",
-                "to prod",
-                "to persuade"
+                "to shove"
             ]
         },
         "temp_id": "9.115"
     },
     {
         "lemma": "popychać",
-        "tags": "xxxxxxxxx",
+          "tags": "3v,pp,JJ",
         "translations": {
             "ENG": [
                 "to push",
-                "to wheel",
-                "to hustle",
-                "to jostle",
-                "to barge",
-                "to push",
-                "to prod",
-                "to persuade"
+                "to shove"
             ]
         },
         "temp_id": "9.116"
     },
     {
         "lemma": "pozwalać",
-        "tags": "xxxxxxxxx",
+        "tags": "2rp",
         "translations": {
             "ENG": [
                 "to allow",
                 "to permit",
-                "to consent to",
-                "to not bar",
-                "to not obstruct",
-                "to indulge oneself [+sobie] Synonym: folgować sobie[i]",
-                "= with whom][i]  to come with someone (used to asked a person to follow someone) [+ z (instrumental)"
+                "to let"
             ]
         },
         "temp_id": "9.117"
     },
     {
         "lemma": "pozwolić",
-        "tags": "xxxxxxxxx",
+        "tags": "2rp",
         "translations": {
             "ENG": [
                 "to allow",
                 "to permit",
-                "to consent to",
-                "to not bar",
-                "to not obstruct",
-                "to indulge oneself [+sobie] Synonym: pofolgować sobie[i]",
-                "= with whom][i]  to come with someone (used to asked a person to follow someone) [+ z (instrumental)"
+                "to let"
             ]
         },
         "temp_id": "9.118"
