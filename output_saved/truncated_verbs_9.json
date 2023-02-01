@@ -1494,7 +1494,7 @@
         "temp_id": "9.118"
     },
     {
-        "lemma": "przełamać",
+        "lemma": "!przełamać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1511,7 +1511,7 @@
         "temp_id": "9.119"
     },
     {
-        "lemma": "przełamywać",
+        "lemma": "!przełamywać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1528,7 +1528,7 @@
         "temp_id": "9.120"
     },
     {
-        "lemma": "przebywać",
+        "lemma": "!przebywać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1544,7 +1544,7 @@
         "temp_id": "9.121"
     },
     {
-        "lemma": "przebyć",
+        "lemma": "!przebyć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1561,56 +1561,67 @@
     },
     {
         "lemma": "popełnić",
-        "tags": "xxxxxxxxx",
+        "tags": "3qq,-",
         "translations": {
             "ENG": [
-                "to commit",
-                "to perpetrate Synonym: dopuścić się",
-                "to make",
-                "to create[t,humorous,of,an,artistic,work]"
-            ]
+                "*to commit (an error)",
+                "*to make (a mistake)"   ]
         },
         "temp_id": "9.123"
     },
     {
         "lemma": "popełniać",
-        "tags": "xxxxxxxxx",
+         "tags": "3qq,-",
         "translations": {
             "ENG": [
-                "to commit",
-                "to perpetrate Synonym: dopuszczać się",
-                "to make",
-                "to create[t,humorous,of,an,artistic,work]"
-            ]
+                "*to commit (an error)",
+                "*to make (a mistake)"   ]
         },
         "temp_id": "9.124"
     },
-    {
+
+   {
         "lemma": "prowadzić",
-        "tags": "xxxxxxxxx",
+        "tags": "4bus,pp",
         "translations": {
             "ENG": [
-                "to lead (to guide or conduct with the hand, or by means of some physical contact connection)",
-                "to drive (e.g. a car)",
-                "= to somewhere][i,of,a,trail,or,path]  to go [+ do (genitive)",
-                "to lead[r] (to guide or conduct oneself)"
+                "to lead"
             ]
         },
         "temp_id": "9.125"
-    },
-    {
+    },  {
         "lemma": "prowadzać",
-        "tags": "xxxxxxxxx",
+         "tags": "4bus,pp",
         "translations": {
             "ENG": [
-                "to walk (to take for a walk or accompany on a walk)",
-                "to walk holding each other 's hands[r]",
-                "to = with someone][r] (to socialize with)  to hang around with",
-                "to hang with [+ z (instrumental)"
+                "to lead"
             ]
         },
         "temp_id": "9.126"
     },
+
+
+       {
+        "lemma": "prowadzić",
+        "tags": "4TT,TTT",
+        "translations": {
+            "ENG": [
+               "to drive"
+            ]
+        },
+        "temp_id": "9.125"
+    }, {
+        "lemma": "prowadzać",
+         "tags": "4TT,TTT",
+        "translations": {
+            "ENG": [
+                 "to drive"
+            ]
+        },
+        "temp_id": "9.126"
+    },
+
+
     {
         "lemma": "posługiwać",
         "tags": "xxxxxxxxx",
