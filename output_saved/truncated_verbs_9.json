@@ -2425,102 +2425,88 @@
     },
     {
         "lemma": "przedstawić",
-        "tags": "xxxxxxxxx",
+        "tags": "2pp,ttt",
         "translations": {
             "ENG": [
                 "to introduce",
-                "to present",
-                "to put forward",
-                "to set out",
-                "to feature",
-                "to show",
-                "to picture"
+                "to present"
             ]
         },
         "temp_id": "9.195"
     },
     {
         "lemma": "przedstawiać",
-        "tags": "xxxxxxxxx",
+        "tags": "2pp,ttt",
         "translations": {
             "ENG": [
                 "to introduce",
-                "to present",
-                "to put forward",
-                "to set out",
-                "to feature",
-                "to show"
+                "to present"
             ]
         },
         "temp_id": "9.196"
     },
     {
         "lemma": "pożegnać",
-        "tags": "xxxxxxxxx",
+      "tags": "2pp,ttt",
         "translations": {
             "ENG": [
                 "to bid farewell",
-                "to bid goodbye",
-                "to take one's leave[r]",
-                "to = something][r]  to kiss goodbye to",
-                "to forfeit [+ z (instrumental)",
-                "to = someone][r]  to let go",
-                "to dismiss",
-                "to fire [+ z (instrumental)"
+                "to bid goodbye"
             ]
         },
         "temp_id": "9.197"
     },
     {
         "lemma": "żegnać",
-        "tags": "xxxxxxxxx",
+          "tags": "2pp,ttt",
         "translations": {
             "ENG": [
                 "to bid farewell",
-                "to bid goodbye Coordinate term: witać",
-                "to take one's leave[r]"
+                "to bid goodbye"
             ]
         },
         "temp_id": "9.198"
     },
     {
         "lemma": "przełożyć",
-        "tags": "xxxxxxxxx",
+        "tags": "4ss",
         "translations": {
             "ENG": [
                 "to move around",
-                "to put elsewhere",
-                "to reschedule",
-                "to rearrange",
-                "to postpone Synonyms: odkładać przesuwać",
-                "to interleave",
-                "to interlay",
-                "Synonym: przetłumaczyć[t,translation,studies]  to translate (into another language)",
-                "to cut a deck of cards[t,card,games]",
-                "to ",
-                "to transfer[r]  to translate (change into another form or medium)"
-            ]
+                "to rearrange"  ]
+        },
+        "temp_id": "9.199"
+    },    {
+        "lemma": "przełożyć",
+        "tags": "4tt,ttt",
+        "translations": {
+            "ENG": [
+                "to postpone"
+                  ]
         },
         "temp_id": "9.199"
     },
     {
         "lemma": "przekładać",
-        "tags": "xxxxxxxxx",
+        "tags": "4ss",
         "translations": {
             "ENG": [
-                "to move around; to put elsewhere (applies to things that lie flat on a surface)",
-                "Synonym: tłumaczyć[t,translation,studies]  to translate (into another language)",
-                "to interlay ; to insert as an intervening layer",
-                "to reschedule ; to put off ; to postpone Synonym: odkładać",
-                "to cut a deck of cards[t,card,games]",
-                "to ",
-                "to transfer[r]  to translate (change into another form or medium)"
-            ]
+                "to move around",
+                "to rearrange"  ]
+        },
+        "temp_id": "9.200"
+    },    {
+        "lemma": "przekładać",
+         "tags": "4tt,ttt",
+        "translations": {
+            "ENG": [
+                "to postpone"
+                  ]
         },
         "temp_id": "9.200"
     },
     {
-        "lemma": "powierzyć",
+        "lemma": "!powierzyć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2530,7 +2516,7 @@
         "temp_id": "9.201"
     },
     {
-        "lemma": "powierzać",
+        "lemma": "!powierzać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2540,7 +2526,7 @@
         "temp_id": "9.202"
     },
     {
-        "lemma": "przedostać",
+        "lemma": "!przedostać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2552,7 +2538,7 @@
         "temp_id": "9.203"
     },
     {
-        "lemma": "przedostawać",
+        "lemma": "!przedostawać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2565,20 +2551,18 @@
     },
     {
         "lemma": "poprzeć",
-        "tags": "xxxxxxxxx",
+        "tags": "4pol,+,ee",
         "translations": {
             "ENG": [
                 "to support",
-                "to back",
-                "to favour",
-                "to advocate"
+                "to back"
             ]
         },
         "temp_id": "9.205"
     },
     {
         "lemma": "popierać",
-        "tags": "xxxxxxxxx",
+        "tags": "4pol,+,ee",
         "translations": {
             "ENG": [
                 "to support",
