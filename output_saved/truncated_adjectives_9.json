@@ -1,11 +1,9 @@
 [
     {
         "lemma": "przemysłowy",
-        "tags": "xxxxxxxxx",
+        "tags": "3w,eng",
         "translations": {
             "ENG": [
-                "(relational)",
-                "industry",
                 "industrial",
                 "(of or relating to industry)"
             ]
@@ -13,7 +11,7 @@
         "temp_id": "9.1"
     },
     {
-        "lemma": "industrialny",
+        "lemma": "!industrialny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -26,10 +24,9 @@
     },
     {
         "lemma": "psi",
-        "tags": "xxxxxxxxx",
+        "tags": "4A,bio",
         "translations": {
             "ENG": [
-                "(relational)",
                 "canine",
                 "dog"
             ]
@@ -37,7 +34,7 @@
         "temp_id": "9.3"
     },
     {
-        "lemma": "pieski",
+        "lemma": "!pieski",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -50,7 +47,7 @@
         "temp_id": "9.4"
     },
     {
-        "lemma": "sobaczy",
+        "lemma": "!sobaczy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -62,7 +59,7 @@
         "temp_id": "9.5"
     },
     {
-        "lemma": "polowy",
+        "lemma": "!polowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -76,7 +73,7 @@
     },
     {
         "lemma": "rolniczy",
-        "tags": "xxxxxxxxx",
+        "tags": "3agr,bio",
         "translations": {
             "ENG": [
                 "agricultural"
@@ -86,29 +83,25 @@
     },
     {
         "lemma": "wojenny",
-        "tags": "xxxxxxxxx",
+        "tags": "4XXX,geo",
         "translations": {
             "ENG": [
-                "(relational)",
-                "martial",
-                "war",
-                "(of, relating to, or suggestive of war)"
-            ]
+                "war"   ]
         },
         "temp_id": "9.8"
     },
     {
         "lemma": "prawny",
-        "tags": "xxxxxxxxx",
+        "tags": "4w,l",
         "translations": {
             "ENG": [
-                "legal"
+                "*legal (as in related to field of law)"
             ]
         },
         "temp_id": "9.9"
     },
     {
-        "lemma": "bezprawny",
+        "lemma": "!bezprawny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -119,7 +112,7 @@
         "temp_id": "9.10"
     },
     {
-        "lemma": "nieprawny",
+        "lemma": "!nieprawny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -131,11 +124,10 @@
     },
     {
         "lemma": "przebiegły",
-        "tags": "xxxxxxxxx",
+        "tags": "4py",
         "translations": {
             "ENG": [
                 "crafty",
-                "artful",
                 "cunning",
                 "wily"
             ]
@@ -143,7 +135,7 @@
         "temp_id": "9.12"
     },
     {
-        "lemma": "cwany",
+        "lemma": "!cwany",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -157,7 +149,7 @@
         "temp_id": "9.13"
     },
     {
-        "lemma": "przemyślny",
+        "lemma": "!przemyślny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -174,15 +166,12 @@
     },
     {
         "lemma": "sprytny",
-        "tags": "xxxxxxxxx",
+        "tags": "3py",
         "translations": {
             "ENG": [
                 "clever",
-                "canny",
-                "shrewd",
-                "crafty",
-                "cunning",
-                "wily"
+                "smart",
+                "cunning"
             ]
         },
         "temp_id": "9.15"
