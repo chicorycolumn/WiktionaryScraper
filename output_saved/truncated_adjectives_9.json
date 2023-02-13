@@ -178,22 +178,16 @@
     },
     {
         "lemma": "podstępny",
-        "tags": "xxxxxxxxx",
+              "tags": "4py",
         "translations": {
             "ENG": [
-                "sly",
-                "artful",
-                "wily",
-                "deceptive",
-                "trick",
-                "or",
-                "deceive"
+                "sneaky"
             ]
         },
         "temp_id": "9.16"
     },
     {
-        "lemma": "chytry",
+        "lemma": "!chytry",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -212,17 +206,18 @@
     },
     {
         "lemma": "przerażający",
-        "tags": "xxxxxxxxx",
+        "tags": "4-",
         "translations": {
             "ENG": [
-                "appalling",
-                "(horrifying and astonishing)"
+
+                "scary","terrifying","frightening",
+                "appalling"
             ]
         },
         "temp_id": "9.18"
     },
     {
-        "lemma": "zatrważający",
+        "lemma": "!zatrważający",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -234,7 +229,7 @@
         "temp_id": "9.19"
     },
     {
-        "lemma": "ponowny",
+        "lemma": "!ponowny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -245,7 +240,7 @@
         "temp_id": "9.20"
     },
     {
-        "lemma": "powtórny",
+        "lemma": "!powtórny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -256,17 +251,17 @@
     },
     {
         "lemma": "pożyteczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4+,qq",
         "translations": {
             "ENG": [
-                "useful"
+                "useful","beneficial"
             ]
         },
         "temp_id": "9.22"
     },
     {
         "lemma": "przydatny",
-        "tags": "xxxxxxxxx",
+    "tags": "4+,qq",
         "translations": {
             "ENG": [
                 "useful"
@@ -276,7 +271,7 @@
     },
     {
         "lemma": "użyteczny",
-        "tags": "xxxxxxxxx",
+          "tags": "4+,qq",
         "translations": {
             "ENG": [
                 "useful"
@@ -285,7 +280,7 @@
         "temp_id": "9.24"
     },
     {
-        "lemma": "romantyczny",
+        "lemma": "!romantyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -303,7 +298,7 @@
         "temp_id": "9.25"
     },
     {
-        "lemma": "sentymentalny",
+        "lemma": "!sentymentalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -317,7 +312,7 @@
         "temp_id": "9.26"
     },
     {
-        "lemma": "idealistyczny",
+        "lemma": "!idealistyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -332,7 +327,7 @@
         "temp_id": "9.27"
     },
     {
-        "lemma": "nieromantyczny",
+        "lemma": "!nieromantyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -342,7 +337,7 @@
         "temp_id": "9.28"
     },
     {
-        "lemma": "przejściowy",
+        "lemma": "!przejściowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -356,12 +351,10 @@
     },
     {
         "lemma": "pośredni",
-        "tags": "xxxxxxxxx",
+        "tags": "4eee",
         "translations": {
             "ENG": [
-                "indirect",
-                "interim",
-                "transitional"
+                "indirect"
             ]
         },
         "temp_id": "9.30"
