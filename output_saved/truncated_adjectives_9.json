@@ -361,18 +361,17 @@
     },
     {
         "lemma": "tymczasowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4tt",
         "translations": {
             "ENG": [
-                "temporary",
-                "interim"
+                "temporary"
             ]
         },
         "temp_id": "9.31"
     },
     {
         "lemma": "religijny",
-        "tags": "xxxxxxxxx",
+        "tags": "4RR",
         "translations": {
             "ENG": [
                 "religious"
@@ -381,7 +380,7 @@
         "temp_id": "9.32"
     },
     {
-        "lemma": "areligijny",
+        "lemma": "!areligijny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -394,7 +393,7 @@
     },
     {
         "lemma": "polski",
-        "tags": "xxxxxxxxx",
+        "tags": "2geo,lc,£",
         "translations": {
             "ENG": [
                 "Polish",
@@ -404,7 +403,7 @@
         "temp_id": "9.34"
     },
     {
-        "lemma": "radykalny",
+        "lemma": "!radykalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -417,7 +416,7 @@
         "temp_id": "9.35"
     },
     {
-        "lemma": "bezkompromisowy",
+        "lemma": "!bezkompromisowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -429,19 +428,26 @@
     },
     {
         "lemma": "północny",
-        "tags": "xxxxxxxxx",
+        "tags": "2ss,geo",
         "translations": {
             "ENG": [
-                "northern",
-                "(of or relating to the north)",
-                "(relational)",
+                "northern"
+            ]
+        },
+        "temp_id": "9.37"
+    },
+    {
+        "lemma": "północny",
+        "tags": "3dr,tt",
+        "translations": {
+            "ENG": [
                 "midnight"
             ]
         },
         "temp_id": "9.37"
     },
     {
-        "lemma": "przystosowany",
+        "lemma": "!przystosowany",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -451,7 +457,7 @@
         "temp_id": "9.38"
     },
     {
-        "lemma": "nieprzystosowany",
+        "lemma": "!nieprzystosowany",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -461,7 +467,7 @@
         "temp_id": "9.39"
     },
     {
-        "lemma": "dostosowany",
+        "lemma": "!dostosowany",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -472,7 +478,7 @@
     },
     {
         "lemma": "przygotowany",
-        "tags": "xxxxxxxxx",
+        "tags": "3pp,qq,MM",
         "translations": {
             "ENG": [
                 "prepared",
@@ -482,7 +488,7 @@
         "temp_id": "9.41"
     },
     {
-        "lemma": "nieprzygotowany",
+        "lemma": "!nieprzygotowany",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -494,7 +500,7 @@
     },
     {
         "lemma": "pobliski",
-        "tags": "xxxxxxxxx",
+        "tags": "2ss",
         "translations": {
             "ENG": [
                 "nearby"
