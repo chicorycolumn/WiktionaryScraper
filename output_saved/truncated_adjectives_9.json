@@ -510,19 +510,16 @@
     },
     {
         "lemma": "początkowy",
-        "tags": "xxxxxxxxx",
+        "tags": "5tt",
         "translations": {
             "ENG": [
-                "initial",
-                "starting",
-                "essential",
-                "elementary"
+                "initial"
             ]
         },
         "temp_id": "9.44"
     },
     {
-        "lemma": "wyjściowy",
+        "lemma": "!wyjściowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -543,7 +540,7 @@
         "temp_id": "9.45"
     },
     {
-        "lemma": "elementarny",
+        "lemma": "!elementarny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -557,17 +554,16 @@
     },
     {
         "lemma": "rolny",
-        "tags": "xxxxxxxxx",
+                "tags": "3agr,bio",
         "translations": {
             "ENG": [
-                "agricultural",
-                "agrarian"
+                "agricultural"
             ]
         },
         "temp_id": "9.47"
     },
     {
-        "lemma": "agrarny",
+        "lemma": "!agrarny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -583,7 +579,7 @@
         "temp_id": "9.48"
     },
     {
-        "lemma": "przyzwyczajony",
+        "lemma": "!przyzwyczajony",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -594,7 +590,7 @@
         "temp_id": "9.49"
     },
     {
-        "lemma": "nieprzyzwyczajony",
+        "lemma": "!nieprzyzwyczajony",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -605,7 +601,7 @@
         "temp_id": "9.50"
     },
     {
-        "lemma": "przywykły",
+        "lemma": "!przywykły",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -616,7 +612,7 @@
         "temp_id": "9.51"
     },
     {
-        "lemma": "nawykły",
+        "lemma": "!nawykły",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -628,7 +624,7 @@
     },
     {
         "lemma": "powietrzny",
-        "tags": "xxxxxxxxx",
+        "tags": "5TT",
         "translations": {
             "ENG": [
                 "aerial",
@@ -640,7 +636,7 @@
     },
     {
         "lemma": "regularny",
-        "tags": "xxxxxxxxx",
+        "tags": "4fq",
         "translations": {
             "ENG": [
                 "regular"
@@ -650,7 +646,7 @@
     },
     {
         "lemma": "radziecki",
-        "tags": "xxxxxxxxx",
+        "tags": "4his,geo,lc",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -661,7 +657,7 @@
         "temp_id": "9.55"
     },
     {
-        "lemma": "sowiecki",
+        "lemma": "!sowiecki",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -678,7 +674,7 @@
     },
     {
         "lemma": "profesjonalny",
-        "tags": "xxxxxxxxx",
+        "tags": "4w",
         "translations": {
             "ENG": [
                 "professional"
@@ -688,17 +684,10 @@
     },
     {
         "lemma": "zawodowy",
-        "tags": "xxxxxxxxx",
+        "tags": "4w",
         "translations": {
             "ENG": [
-                "(relational)",
-                "profession",
-                "occupation",
-                "professional",
-                "occupational",
-                "(pertaining to a certain occupation or to a job)",
-                "professional",
-                "(not amateur)"
+                "professional"
             ]
         },
         "temp_id": "9.58"
