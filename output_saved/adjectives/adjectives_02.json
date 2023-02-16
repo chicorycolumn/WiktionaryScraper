@@ -2913,7 +2913,8 @@
         "lemma": "gruby",
         "tags": [
             "FREQ3",
-            "concrete"
+            "concrete",
+            "physical personal description"
         ],
         "translations": {
             "ENG": [
@@ -11147,7 +11148,8 @@
         "tags": [
             "FREQ2",
             "negative judgment",
-            "concrete"
+            "concrete",
+            "physical personal description"
         ],
         "translations": {
             "ENG": [
@@ -25036,7 +25038,8 @@
         "tags": [
             "FREQ2",
             "positive judgment",
-            "concrete"
+            "concrete",
+            "physical personal description"
         ],
         "translations": {
             "ENG": [
@@ -27516,12 +27519,204 @@
         "lemma": "wysoki",
         "tags": [
             "FREQ1",
-            "concrete"
+            "dimension",
+            "abstract"
         ],
         "translations": {
             "ENG": [
-                "tall",
                 "high"
+            ]
+        },
+        "adverb": [
+            "wysoko"
+        ],
+        "extra": {
+            "synonyms": [
+                "przymknięty"
+            ]
+        },
+        "inflections": {
+            "simple": {
+                "singular": {
+                    "m1": {
+                        "nom": "wysoki",
+                        "gen": "wysokiego",
+                        "dat": "wysokiemu",
+                        "acc": "wysokiego",
+                        "ins": "wysokim",
+                        "loc": "wysokim"
+                    },
+                    "m3": {
+                        "nom": "wysoki",
+                        "gen": "wysokiego",
+                        "dat": "wysokiemu",
+                        "acc": "wysoki",
+                        "ins": "wysokim",
+                        "loc": "wysokim"
+                    },
+                    "f": {
+                        "nom": "wysoka",
+                        "gen": "wysokiej",
+                        "dat": "wysokiej",
+                        "acc": "wysoką",
+                        "ins": "wysoką",
+                        "loc": "wysokiej"
+                    },
+                    "n": {
+                        "nom": "wysokie",
+                        "gen": "wysokiego",
+                        "dat": "wysokiemu",
+                        "acc": "wysokie",
+                        "ins": "wysokim",
+                        "loc": "wysokim"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "wysocy",
+                        "gen": "wysokich",
+                        "dat": "wysokim",
+                        "acc": "wysokich",
+                        "ins": "wysokimi",
+                        "loc": "wysokich"
+                    },
+                    "nonvirile": {
+                        "nom": "wysokie",
+                        "gen": "wysokich",
+                        "dat": "wysokim",
+                        "acc": "wysokie",
+                        "ins": "wysokimi",
+                        "loc": "wysokich"
+                    }
+                }
+            },
+            "adverb": "wysoko",
+            "comparative": {
+                "singular": {
+                    "m1": {
+                        "nom": "wyższy",
+                        "gen": "wyższego",
+                        "dat": "wyższemu",
+                        "acc": "wyższego",
+                        "ins": "wyższym",
+                        "loc": "wyższym"
+                    },
+                    "m3": {
+                        "nom": "wyższy",
+                        "gen": "wyższego",
+                        "dat": "wyższemu",
+                        "acc": "wyższy",
+                        "ins": "wyższym",
+                        "loc": "wyższym"
+                    },
+                    "f": {
+                        "nom": "wyższa",
+                        "gen": "wyższej",
+                        "dat": "wyższej",
+                        "acc": "wyższą",
+                        "ins": "wyższą",
+                        "loc": "wyższej"
+                    },
+                    "n": {
+                        "nom": "wyższe",
+                        "gen": "wyższego",
+                        "dat": "wyższemu",
+                        "acc": "wyższe",
+                        "ins": "wyższym",
+                        "loc": "wyższym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "wyżsi",
+                        "gen": "wyższych",
+                        "dat": "wyższym",
+                        "acc": "wyższych",
+                        "ins": "wyższymi",
+                        "loc": "wyższych"
+                    },
+                    "nonvirile": {
+                        "nom": "wyższe",
+                        "gen": "wyższych",
+                        "dat": "wyższym",
+                        "acc": "wyższe",
+                        "ins": "wyższymi",
+                        "loc": "wyższych"
+                    }
+                }
+            },
+            "superlative": {
+                "singular": {
+                    "m1": {
+                        "nom": "najwyższy",
+                        "gen": "najwyższego",
+                        "dat": "najwyższemu",
+                        "acc": "najwyższego",
+                        "ins": "najwyższym",
+                        "loc": "najwyższym"
+                    },
+                    "m3": {
+                        "nom": "najwyższy",
+                        "gen": "najwyższego",
+                        "dat": "najwyższemu",
+                        "acc": "najwyższy",
+                        "ins": "najwyższym",
+                        "loc": "najwyższym"
+                    },
+                    "f": {
+                        "nom": "najwyższa",
+                        "gen": "najwyższej",
+                        "dat": "najwyższej",
+                        "acc": "najwyższą",
+                        "ins": "najwyższą",
+                        "loc": "najwyższej"
+                    },
+                    "n": {
+                        "nom": "najwyższe",
+                        "gen": "najwyższego",
+                        "dat": "najwyższemu",
+                        "acc": "najwyższe",
+                        "ins": "najwyższym",
+                        "loc": "najwyższym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "najwyżsi",
+                        "gen": "najwyższych",
+                        "dat": "najwyższym",
+                        "acc": "najwyższych",
+                        "ins": "najwyższymi",
+                        "loc": "najwyższych"
+                    },
+                    "nonvirile": {
+                        "nom": "najwyższe",
+                        "gen": "najwyższych",
+                        "dat": "najwyższym",
+                        "acc": "najwyższe",
+                        "ins": "najwyższymi",
+                        "loc": "najwyższych"
+                    }
+                }
+            }
+        },
+        "topics": [
+            "appearance",
+            "sense and perception"
+        ],
+        "id": "pol-adj-194-wysoki(abstract)"
+    },
+  {
+        "lemma": "wysoki",
+        "tags": [
+            "FREQ1",
+            "concrete",
+            "dimension",
+            "physical personal description"
+        ],
+        "translations": {
+            "ENG": [
+                "tall"
             ]
         },
         "adverb": [
@@ -27703,7 +27898,7 @@
             "medicine",
             "sense and perception"
         ],
-        "id": "pol-adj-194-wysoki"
+        "id": "pol-adj-697-wysoki(physical)"
     },
     {
         "lemma": "normalny",
@@ -38126,9 +38321,7 @@
         ],
         "translations": {
             "ENG": [
-                "short",
-                "brief",
-                "concise"
+                "short"
             ]
         },
         "adverb": [

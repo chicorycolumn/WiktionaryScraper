@@ -1421,7 +1421,8 @@
         "lemma": "szczupły",
         "tags": [
             "FREQ3",
-            "concrete"
+            "concrete",
+            "physical personal description"
         ],
         "translations": {
             "ENG": [
@@ -1613,7 +1614,8 @@
         "lemma": "smukły",
         "tags": [
             "FREQ3",
-            "concrete"
+            "concrete",
+            "physical personal description"
         ],
         "translations": {
             "ENG": [
@@ -12782,11 +12784,11 @@
         "tags": [
             "FREQ2",
             "dimension",
-            "concrete"
+            "concrete",
+            "physical personal description"
         ],
         "translations": {
             "ENG": [
-                "low",
                 "short"
             ]
         },
@@ -12960,9 +12962,198 @@
         },
         "topics": [
             "appearance",
+            "body",
+            "medicine",
             "sense and perception"
         ],
-        "id": "pol-adj-066-niski"
+        "id": "pol-adj-696-niski(physical)"
+    },
+    {
+        "lemma": "niski",
+        "tags": [
+            "FREQ2",
+            "dimension",
+            "abstract"
+        ],
+        "translations": {
+            "ENG": [
+                "low"
+            ]
+        },
+        "adverb": [
+            "nisko"
+        ],
+        "inflections": {
+            "simple": {
+                "singular": {
+                    "m1": {
+                        "nom": "niski",
+                        "gen": "niskiego",
+                        "dat": "niskiemu",
+                        "acc": "niskiego",
+                        "ins": "niskim",
+                        "loc": "niskim"
+                    },
+                    "m3": {
+                        "nom": "niski",
+                        "gen": "niskiego",
+                        "dat": "niskiemu",
+                        "acc": "niski",
+                        "ins": "niskim",
+                        "loc": "niskim"
+                    },
+                    "f": {
+                        "nom": "niska",
+                        "gen": "niskiej",
+                        "dat": "niskiej",
+                        "acc": "niską",
+                        "ins": "niską",
+                        "loc": "niskiej"
+                    },
+                    "n": {
+                        "nom": "niskie",
+                        "gen": "niskiego",
+                        "dat": "niskiemu",
+                        "acc": "niskie",
+                        "ins": "niskim",
+                        "loc": "niskim"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "niscy",
+                        "gen": "niskich",
+                        "dat": "niskim",
+                        "acc": "niskich",
+                        "ins": "niskimi",
+                        "loc": "niskich"
+                    },
+                    "nonvirile": {
+                        "nom": "niskie",
+                        "gen": "niskich",
+                        "dat": "niskim",
+                        "acc": "niskie",
+                        "ins": "niskimi",
+                        "loc": "niskich"
+                    }
+                }
+            },
+            "adverb": "nisko",
+            "comparative": {
+                "singular": {
+                    "m1": {
+                        "nom": "niższy",
+                        "gen": "niższego",
+                        "dat": "niższemu",
+                        "acc": "niższego",
+                        "ins": "niższym",
+                        "loc": "niższym"
+                    },
+                    "m3": {
+                        "nom": "niższy",
+                        "gen": "niższego",
+                        "dat": "niższemu",
+                        "acc": "niższy",
+                        "ins": "niższym",
+                        "loc": "niższym"
+                    },
+                    "f": {
+                        "nom": "niższa",
+                        "gen": "niższej",
+                        "dat": "niższej",
+                        "acc": "niższą",
+                        "ins": "niższą",
+                        "loc": "niższej"
+                    },
+                    "n": {
+                        "nom": "niższe",
+                        "gen": "niższego",
+                        "dat": "niższemu",
+                        "acc": "niższe",
+                        "ins": "niższym",
+                        "loc": "niższym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "niżsi",
+                        "gen": "niższych",
+                        "dat": "niższym",
+                        "acc": "niższych",
+                        "ins": "niższymi",
+                        "loc": "niższych"
+                    },
+                    "nonvirile": {
+                        "nom": "niższe",
+                        "gen": "niższych",
+                        "dat": "niższym",
+                        "acc": "niższe",
+                        "ins": "niższymi",
+                        "loc": "niższych"
+                    }
+                }
+            },
+            "superlative": {
+                "singular": {
+                    "m1": {
+                        "nom": "najniższy",
+                        "gen": "najniższego",
+                        "dat": "najniższemu",
+                        "acc": "najniższego",
+                        "ins": "najniższym",
+                        "loc": "najniższym"
+                    },
+                    "m3": {
+                        "nom": "najniższy",
+                        "gen": "najniższego",
+                        "dat": "najniższemu",
+                        "acc": "najniższy",
+                        "ins": "najniższym",
+                        "loc": "najniższym"
+                    },
+                    "f": {
+                        "nom": "najniższa",
+                        "gen": "najniższej",
+                        "dat": "najniższej",
+                        "acc": "najniższą",
+                        "ins": "najniższą",
+                        "loc": "najniższej"
+                    },
+                    "n": {
+                        "nom": "najniższe",
+                        "gen": "najniższego",
+                        "dat": "najniższemu",
+                        "acc": "najniższe",
+                        "ins": "najniższym",
+                        "loc": "najniższym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "najniżsi",
+                        "gen": "najniższych",
+                        "dat": "najniższym",
+                        "acc": "najniższych",
+                        "ins": "najniższymi",
+                        "loc": "najniższych"
+                    },
+                    "nonvirile": {
+                        "nom": "najniższe",
+                        "gen": "najniższych",
+                        "dat": "najniższym",
+                        "acc": "najniższe",
+                        "ins": "najniższymi",
+                        "loc": "najniższych"
+                    }
+                }
+            }
+        },
+        "topics": [
+            "appearance",
+            "sense and perception",
+            "math"
+        ],
+        "id": "pol-adj-066-niski(abstract)"
     },
     {
         "lemma": "zmęczony",
@@ -13338,7 +13529,8 @@
         "tags": [
             "FREQ2",
             "positive judgment",
-            "concrete"
+            "concrete",
+            "physical personal description"
         ],
         "translations": {
             "ENG": [
