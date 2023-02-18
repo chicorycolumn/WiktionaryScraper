@@ -847,7 +847,7 @@
         "temp_id": "9.71"
     },
     {
-        "lemma": "nieprzyzwoity",
+        "lemma": "!nieprzyzwoity",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -859,7 +859,7 @@
     },
     {
         "lemma": "ranny",
-        "tags": "xxxxxxxxx",
+        "tags": "4med,XX,bb",
         "translations": {
             "ENG": [
                 "wounded",
@@ -870,27 +870,16 @@
     },
     {
         "lemma": "przedni",
-        "tags": "xxxxxxxxx",
+        "tags": "4ss,W",
         "translations": {
             "ENG": [
-                "front",
-                "fore",
-                "(situated towards the front)",
-                "(anatomy)",
-                "anterior",
-                "(archaic)",
-                "premier",
-                "leading",
-                "first-rate",
-                "(obsolete)",
-                "previous",
-                "former"
+                "front"
             ]
         },
         "temp_id": "9.74"
     },
     {
-        "lemma": "zadni",
+        "lemma": "!zadni",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -904,26 +893,20 @@
     },
     {
         "lemma": "tylny",
-        "tags": "xxxxxxxxx",
+  "tags": "4ss,W",
         "translations": {
             "ENG": [
                 "rear",
-                "back",
-                "hind",
-                "(anatomy)",
-                "posterior"
+                "back"
             ]
         },
         "temp_id": "9.76"
     },
     {
         "lemma": "południowy",
-        "tags": "xxxxxxxxx",
+      "tags": "2ss,geo",
         "translations": {
             "ENG": [
-                "(relational)",
-                "noon",
-                "midday",
                 "southern",
                 "(of or relating to the south)"
             ]
@@ -931,7 +914,19 @@
         "temp_id": "9.77"
     },
     {
-        "lemma": "przykry",
+        "lemma": "południowy",
+         "tags": "3dr,tt",
+        "translations": {
+            "ENG": [
+                "(relational)",
+                "noon",
+                "midday"
+            ]
+        },
+        "temp_id": "9.77"
+    },
+    {
+        "lemma": "!przykry",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -948,7 +943,7 @@
     },
     {
         "lemma": "stromy",
-        "tags": "xxxxxxxxx",
+        "tags": "3gem,geo",
         "translations": {
             "ENG": [
                 "steep"
@@ -957,7 +952,7 @@
         "temp_id": "9.79"
     },
     {
-        "lemma": "racjonalny",
+        "lemma": "!racjonalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -970,7 +965,7 @@
         "temp_id": "9.80"
     },
     {
-        "lemma": "irracjonalny",
+        "lemma": "!irracjonalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -980,7 +975,7 @@
         "temp_id": "9.81"
     },
     {
-        "lemma": "nieracjonalny",
+        "lemma": "!nieracjonalny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [

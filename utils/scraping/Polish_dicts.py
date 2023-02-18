@@ -273,7 +273,7 @@ shorthand_tag_refs = {
     },
     "r": {
         "tags": ["relative", "p"],
-        "topics": ["people"],  # ie relationships / friendships / people descriptions
+        "topics": ["people"],  # ie relationships / friendships
     },
     "pp": {
         "tags": [],
