@@ -1129,7 +1129,7 @@
     },
     {
         "lemma": "posępny",
-        "tags": "4e,py",
+        "tags": "4e,py,kk",
         "translations": {
             "ENG": [
                 "glum",
@@ -1516,7 +1516,7 @@
         "temp_id": "9.127"
     },
     {
-        "lemma": "rewolucyjny",
+        "lemma": "!rewolucyjny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1530,7 +1530,7 @@
         "temp_id": "9.128"
     },
     {
-        "lemma": "reklamowy",
+        "lemma": "!reklamowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1543,7 +1543,7 @@
     },
     {
         "lemma": "polityczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4pol,soc",
         "translations": {
             "ENG": [
                 "political"
@@ -1552,7 +1552,7 @@
         "temp_id": "9.130"
     },
     {
-        "lemma": "pocztowy",
+        "lemma": "!pocztowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1566,21 +1566,19 @@
     },
     {
         "lemma": "podejrzany",
-        "tags": "xxxxxxxxx",
+        "tags": "4kk,ee",
         "translations": {
             "ENG": [
                 "suspect",
                 "fishy",
-                "suspicious",
-                "shady",
-                "doubt"
+                "*suspicious"
             ]
         },
         "temp_id": "9.132"
     },
     {
         "lemma": "popołudniowy",
-        "tags": "xxxxxxxxx",
+        "tags": "3tt",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -1591,7 +1589,7 @@
     },
     {
         "lemma": "pomocny",
-        "tags": "xxxxxxxxx",
+        "tags": "4py",
         "translations": {
             "ENG": [
                 "helpful"
@@ -1601,7 +1599,7 @@
     },
     {
         "lemma": "policyjny",
-        "tags": "xxxxxxxxx",
+        "tags": "5soc,pol",
         "translations": {
             "ENG": [
                 "(relational)",
@@ -1611,7 +1609,7 @@
         "temp_id": "9.135"
     },
     {
-        "lemma": "przenikliwy",
+        "lemma": "!przenikliwy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1628,19 +1626,17 @@
     },
     {
         "lemma": "rodzinny",
-        "tags": "xxxxxxxxx",
+        "tags": "4soc",
         "translations": {
             "ENG": [
                 "(relational)",
-                "family",
-                "family",
-                "oriented"
+                "family"
             ]
         },
         "temp_id": "9.137"
     },
     {
-        "lemma": "produkcyjny",
+        "lemma": "!produkcyjny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1651,7 +1647,7 @@
         "temp_id": "9.138"
     },
     {
-        "lemma": "podniecony",
+        "lemma": "!podniecony",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1668,11 +1664,17 @@
     },
     {
         "lemma": "ponury",
-        "tags": "xxxxxxxxx",
+         "tags": "4e,py,kk",
         "translations": {
             "ENG": [
-                "grim",
-                "gloomy"
+                "glum",
+                "somber",
+                "sombre",
+                "gloomy",
+                "dreary",
+                "bleak",
+                "sullen",
+                "morose"
             ]
         },
         "temp_id": "9.140"
