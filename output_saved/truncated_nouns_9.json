@@ -1,7 +1,7 @@
 [
     {
         "lemma": "koszt",
-        "tags": "xxxxxxxxx",
+        "tags": "3$",
         "translations": {
             "ENG": [
                 "cost",
@@ -13,11 +13,10 @@
     },
     {
         "lemma": "krewna",
-        "tags": "xxxxxxxxx",
+        "tags": "3r",
         "translations": {
             "ENG": [
-                "female equivalent of krewny",
-                "(someone in the same family) ( “ relative ” )"
+             "relative"
             ]
         },
         "temp_id": "9.2",
@@ -25,11 +24,10 @@
     },
     {
         "lemma": "krewny",
-        "tags": "xxxxxxxxx",
+    "tags": "3r",
         "translations": {
             "ENG": [
-                "relative",
-                "(someone in the same family)"
+             "relative"
             ]
         },
         "temp_id": "9.3",
@@ -37,7 +35,7 @@
     },
     {
         "lemma": "ręcznik",
-        "tags": "xxxxxxxxx",
+        "tags": "2hw,dr",
         "translations": {
             "ENG": [
                 "towel"
@@ -48,7 +46,7 @@
     },
     {
         "lemma": "szczotka",
-        "tags": "xxxxxxxxx",
+       "tags": "2hw,dr",
         "translations": {
             "ENG": [
                 "brush",
@@ -60,13 +58,21 @@
     },
     {
         "lemma": "polityka",
-        "tags": "xxxxxxxxx",
+        "tags": "3pol",
         "translations": {
             "ENG": [
-                "politics",
-                "(methodology and activities associated with running a government) (politics)",
-                "policy",
-                "(plan or course of action)"
+                "politics"
+            ]
+        },
+        "temp_id": "9.6",
+        "gender": "f"
+    },
+    {
+        "lemma": "polityka",
+        "tags": "4l,w",
+        "translations": {
+            "ENG": [
+                "policy"
             ]
         },
         "temp_id": "9.6",
@@ -74,27 +80,21 @@
     },
     {
         "lemma": "partnerka",
-        "tags": "xxxxxxxxx",
+        "tags": "2p,Z",
         "translations": {
             "ENG": [
-                "female equivalent of partner female equivalent of partner",
-                "(someone who is associated with another in a common activity or interest) ( “ partner ” )",
-                "female equivalent of partner",
-                "(spouse, domestic, or romantic partner) ( “ partner ” )",
-                "female equivalent of partner",
-                "(someone of equal status to others) ( “ equal ” )"
-            ]
+            "partner"   ]
         },
         "temp_id": "9.7",
         "gender": "f"
     },
     {
         "lemma": "szafa",
-        "tags": "xxxxxxxxx",
+        "tags": "2hb,@@",
         "translations": {
             "ENG": [
                 "cupboard",
-                "wardrobe closet"
+                "wardrobe","closet"
             ]
         },
         "temp_id": "9.8",
@@ -102,11 +102,10 @@
     },
     {
         "lemma": "szafka",
-        "tags": "xxxxxxxxx",
+            "tags": "2hb,@@",
         "translations": {
             "ENG": [
-                "Diminutive of szafa",
-                "cabinet locker"
+                "cabinet","locker"
             ]
         },
         "temp_id": "9.9",
@@ -114,13 +113,10 @@
     },
     {
         "lemma": "kark",
-        "tags": "xxxxxxxxx",
+        "tags": "3b",
         "translations": {
             "ENG": [
-                "nape",
-                "(back part of the neck)",
-                "a strong, muscular person",
-                "(slang)"
+                "neck"
             ]
         },
         "temp_id": "9.10",
@@ -128,7 +124,7 @@
     },
     {
         "lemma": "kaszel",
-        "tags": "xxxxxxxxx",
+        "tags": "3UU",
         "translations": {
             "ENG": [
                 "cough",
@@ -140,18 +136,10 @@
     },
     {
         "lemma": "dzwonek",
-        "tags": "xxxxxxxxx",
+        "tags": "4mus",
         "translations": {
             "ENG": [
-                "Diminutive of dzwon",
-                "bell",
-                "ringtone",
-                "bellflower",
-                "(any plant of the genus Campanula)",
-                "St John's wort",
-                "(rare)",
-                "diamond",
-                "(card games)"
+                "bell"
             ]
         },
         "temp_id": "9.12",
