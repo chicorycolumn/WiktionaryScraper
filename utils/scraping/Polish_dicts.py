@@ -167,6 +167,10 @@ shorthand_tag_refs = {
         "tags": ["dimension"],
         "topics": ["sense and perception", "appearance"],
     },
+    "zz": {  # circle triangle ring
+        "tags": ["shape"],
+        "topics": ["geometry"],
+    },
     "$": {  # cheap expensive buy sell cost
         "tags": ["money"],
         "topics": ["shopping", "business"],
@@ -518,6 +522,10 @@ shorthand_tag_refs = {
     "Z": {
         "tags": [],
         "topics": ["love", "people"],
+    },
+    "ZZ": {
+        "tags": [],
+        "topics": ["social life", "people"],
     },
     "£": {
         "tags": ["language"],
