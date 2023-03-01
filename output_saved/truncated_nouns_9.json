@@ -158,7 +158,7 @@
     },
     {
         "lemma": "rolnik",
-        "tags": "xxxxxxxxx",
+        "tags": "2agr,j",
         "translations": {
             "ENG": [
                 "farmer",
@@ -170,10 +170,11 @@
     },
     {
         "lemma": "dyplom",
-        "tags": "xxxxxxxxx",
+        "tags": "4s,w",
         "translations": {
             "ENG": [
                 "diploma",
+                "*degree",
                 "certificate",
                 "(document containing a certified statement)"
             ]
@@ -183,10 +184,12 @@
     },
     {
         "lemma": "kawiarnia",
-        "tags": "xxxxxxxxx",
+        "tags": "2lb,ff,ZZ",
         "translations": {
             "ENG": [
-                "café coffee shop"
+                "café",
+                "café"
+            ,"coffee shop"
             ]
         },
         "temp_id": "9.16",
@@ -194,7 +197,7 @@
     },
     {
         "lemma": "pogoda",
-        "tags": "xxxxxxxxx",
+        "tags": "2L,phy",
         "translations": {
             "ENG": [
                 "weather"
@@ -205,17 +208,10 @@
     },
     {
         "lemma": "podbródek",
-        "tags": "xxxxxxxxx",
+        "tags": "2b",
         "translations": {
             "ENG": [
-                "chin",
-                "(bottom of a face)",
-                "kerchief tied under the chin",
-                "(dialectal)",
-                "bib",
-                "(item of clothing for babies tied around their neck to protect their clothes from getting dirty when eating) (dialectal)",
-                "neckbeard",
-                "(style of facial hair wherein the beard is allowed to grow down the chin) (obsolete)"
+                "chin"
             ]
         },
         "temp_id": "9.18",
@@ -223,7 +219,7 @@
     },
     {
         "lemma": "kłopot",
-        "tags": "xxxxxxxxx",
+        "tags": "2ee,-,sg",
         "translations": {
             "ENG": [
                 "trouble"
@@ -234,13 +230,11 @@
     },
     {
         "lemma": "pączek",
-        "tags": "xxxxxxxxx",
+        "tags": "3sw",
         "translations": {
             "ENG": [
-                "Diminutive of pąk",
                 "doughnut",
-                "bud",
-                "(botany)"
+                "donut"
             ]
         },
         "temp_id": "9.20",
@@ -248,18 +242,10 @@
     },
     {
         "lemma": "pierścień",
-        "tags": "xxxxxxxxx",
+        "tags": "3g,zz",
         "translations": {
             "ENG": [
-                "ring",
-                "(a round piece of metal worn around the finger)",
-                "ring",
-                "(algebra)",
-                "ring annulus",
-                "(a planar geometrical figure included between two concentric circles) (geometry)",
-                "planetary ring",
-                "(astronomy)",
-                "annual ring"
+                "ring"
             ]
         },
         "temp_id": "9.21",
@@ -267,7 +253,7 @@
     },
     {
         "lemma": "pierścionek",
-        "tags": "xxxxxxxxx",
+        "tags": "3g",
         "translations": {
             "ENG": [
                 "ring",
