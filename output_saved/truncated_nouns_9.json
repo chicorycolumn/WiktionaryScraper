@@ -146,7 +146,7 @@
         "gender": "m3"
     },
     {
-        "lemma": "ugoda",
+        "lemma": "!ugoda",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -265,14 +265,21 @@
     },
     {
         "lemma": "ofiara",
-        "tags": "xxxxxxxxx",
+        "tags": "4p,l",
         "translations": {
             "ENG": [
-                "victim",
-                "sacrifice",
-                "(offering of material possessions or the lives of animals or humans to a deity as an act of propitiation or worship) (religion)",
-                "blundered oaf",
-                "(clumsy or inept person) (colloquial derogatory)"
+                "victim"
+            ]
+        },
+        "temp_id": "9.23",
+        "gender": "f"
+    },
+    {
+        "lemma": "ofiara",
+        "tags": "4ee",
+        "translations": {
+            "ENG": [
+                "sacrifice"
             ]
         },
         "temp_id": "9.23",
@@ -280,7 +287,7 @@
     },
     {
         "lemma": "detektyw",
-        "tags": "xxxxxxxxx",
+        "tags": "3j,l",
         "translations": {
             "ENG": [
                 "detective",
@@ -292,10 +299,10 @@
     },
     {
         "lemma": "kumpel",
-        "tags": "xxxxxxxxx",
+        "tags": "3r,G",
         "translations": {
             "ENG": [
-                "mate pal buddy",
+                "mate","pal","buddy",
                 "(colloquial)"
             ]
         },
@@ -304,19 +311,17 @@
     },
     {
         "lemma": "smród",
-        "tags": "xxxxxxxxx",
+        "tags": "3Q,-",
         "translations": {
             "ENG": [
-                "stink stench",
-                "bad atmosphere",
-                "(colloquial)"
+                "stink","stench"
             ]
         },
         "temp_id": "9.26",
         "gender": "m3"
     },
     {
-        "lemma": "smród",
+        "lemma": "!smród",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -329,7 +334,7 @@
     },
     {
         "lemma": "mistrz",
-        "tags": "xxxxxxxxx",
+        "tags": "5p,MM",
         "translations": {
             "ENG": [
                 "master",
@@ -343,10 +348,10 @@
     },
     {
         "lemma": "grypa",
-        "tags": "xxxxxxxxx",
+        "tags": "3U",
         "translations": {
             "ENG": [
-                "influenza ; the flu"
+                "influenza","the flu"
             ]
         },
         "temp_id": "9.29",
@@ -354,7 +359,7 @@
     },
     {
         "lemma": "masaż",
-        "tags": "xxxxxxxxx",
+        "tags": "5PP,yy",
         "translations": {
             "ENG": [
                 "massage"
@@ -380,7 +385,7 @@
     },
     {
         "lemma": "mąka",
-        "tags": "xxxxxxxxx",
+        "tags": "3fi",
         "translations": {
             "ENG": [
                 "flour"
