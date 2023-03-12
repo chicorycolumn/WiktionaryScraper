@@ -522,7 +522,7 @@
     },
     {
         "lemma": "sekretarz",
-        "tags": "xxxxxxxxx",
+        "tags": "3j,w",
         "translations": {
             "ENG": [
                 "secretary",
@@ -533,7 +533,7 @@
         "gender": "m1"
     },
     {
-        "lemma": "sekretarz",
+        "lemma": "!sekretarz",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -546,10 +546,11 @@
     },
     {
         "lemma": "nastrój",
-        "tags": "xxxxxxxxx",
+        "tags": "4ee",
         "translations": {
             "ENG": [
                 "atmosphere",
+                "mood",
                 "(mood or feeling)"
             ]
         },
@@ -558,7 +559,7 @@
     },
     {
         "lemma": "zlew",
-        "tags": "xxxxxxxxx",
+        "tags": "2HW,dr",
         "translations": {
             "ENG": [
                 "sink",
@@ -570,14 +571,10 @@
     },
     {
         "lemma": "tablica",
-        "tags": "xxxxxxxxx",
+        "tags": "3s",
         "translations": {
             "ENG": [
-                "blackboard chalkboard whiteboard writing board",
-                "(surface that can be written upon) (education)",
-                "grid table",
-                "array",
-                "(programming)"
+                "blackboard","chalkboard","whiteboard"
             ]
         },
         "temp_id": "9.47",
@@ -585,11 +582,9 @@
     },
     {
         "lemma": "grzmot",
-        "tags": "xxxxxxxxx",
+        "tags": "4L",
         "translations": {
             "ENG": [
-                "rumble",
-                "(low pitched noise)",
                 "thunder"
             ]
         },
@@ -598,11 +593,10 @@
     },
     {
         "lemma": "znajoma",
-        "tags": "xxxxxxxxx",
+        "tags": "3r,pp",
         "translations": {
             "ENG": [
-                "female equivalent of znajomy",
-                "( “ acquaintance ” )"
+                "acquaintance"
             ]
         },
         "temp_id": "9.49",
@@ -610,44 +604,31 @@
     },
     {
         "lemma": "taśma",
-        "tags": "xxxxxxxxx",
+        "tags": "4qqq",
         "translations": {
-            "ENG": [
-                "band",
-                "(strip of material wrapped around things to hold them together)",
-                "tape",
-                "(sticky substance for connecting objects)",
-                "tape",
-                "(unauthorized voice recording, especially one obtained through a concealed recorder, wiretapping or bugging)"
-            ]
+            "ENG": [ "tape"  ]
         },
         "temp_id": "9.50",
         "gender": "f"
     },
     {
         "lemma": "wstęp",
-        "tags": "xxxxxxxxx",
+        "tags": "3rp",
         "translations": {
             "ENG": [
-                "entry admission admittance",
-                "(permission to enter)",
-                "introduction prelude",
-                "(literature music)",
-                "preface",
-                "onglide",
-                "(phase while the articulators are moving into position to produce a new speech sound) (phonetics)"
-            ]
+                "entry","admission"  ]
         },
         "temp_id": "9.51",
         "gender": "m3"
     },
     {
         "lemma": "błyskawica",
-        "tags": "xxxxxxxxx",
+        "tags": "4L",
         "translations": {
             "ENG": [
-                "lightning bolt lightning",
-                "(weather phenomenon)"
+                "lightning bolt",
+                "bolt of lightning",
+                "lightning"
             ]
         },
         "temp_id": "9.52",
@@ -655,29 +636,20 @@
     },
     {
         "lemma": "węzeł",
-        "tags": "xxxxxxxxx",
+        "tags": "3qq",
         "translations": {
             "ENG": [
-                "knot",
-                "(looping)",
-                "bond between people 1913 Józef Milewski Elita społeczna [1] , Kraków Biblioteka Kornicka",
-                "(distribution), W. L. Anczyc i Spółka (printing), archived from the original on 2022-12-03 :",
-                "substation or intersection, a connection point of infrastructure such as roads, electrical networks, etc.",
-                "vertex node",
-                "(graph theory)",
-                "node",
-                "(point on a stem from which a leaf or another stem grows) (botany)"
-            ]
+                "knot"   ]
         },
         "temp_id": "9.53",
         "gender": "m3"
     },
     {
         "lemma": "bułka",
-        "tags": "xxxxxxxxx",
+        "tags": "2sv",
         "translations": {
             "ENG": [
-                "bread roll roll"
+                "bread roll","roll"
             ]
         },
         "temp_id": "9.54",
@@ -685,13 +657,12 @@
     },
     {
         "lemma": "koleżanka",
-        "tags": "xxxxxxxxx",
+        "tags": "3r,pp",
         "translations": {
             "ENG": [
-                "female equivalent of kolega",
-                "( “ friend buddy ” )",
-                "female equivalent of kolega",
-                "( “ colleague ” )"
+              "friend",
+                "buddy",
+                "colleague"
             ]
         },
         "temp_id": "9.55",
