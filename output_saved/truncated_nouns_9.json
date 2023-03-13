@@ -462,7 +462,7 @@
     },
     {
         "lemma": "krzak",
-        "tags": "4gar,c,n",
+        "tags": "4gar,n",
         "translations": {
             "ENG": [
                 "bush","shrub"
@@ -562,7 +562,7 @@
         "tags": "2HW,dr",
         "translations": {
             "ENG": [
-                "sink",
+                "sink",  "wash basin",
                 "(a basin used for holding water for washing)"
             ]
         },
@@ -670,10 +670,10 @@
     },
     {
         "lemma": "umywalka",
-        "tags": "xxxxxxxxx",
+      "tags": "2HW,dr",
         "translations": {
             "ENG": [
-                "basin",
+                "wash basin","sink",
                 "(bowl for washing, often affixed to a wall)"
             ]
         },
@@ -682,7 +682,7 @@
     },
     {
         "lemma": "piórnik",
-        "tags": "xxxxxxxxx",
+        "tags": "4s,h",
         "translations": {
             "ENG": [
                 "pencil case"
@@ -693,20 +693,17 @@
     },
     {
         "lemma": "chrzan",
-        "tags": "xxxxxxxxx",
+        "tags": "4fc",
         "translations": {
             "ENG": [
-                "horseradish 1912 Maryla Wolska,“Konkurent”, in Michał Pawlikowski, editor, Lamus [1] , number 4, Księgarnia H. Altenberga, archived from the original on 2022-07-09, page 110:",
-                "(the root and the sauce)",
-                "1975 Remigiusz Napiórkowski Ostatnia wieczerza [2] , Ludowa Spółdzielnia Wydawnicza, archived from the original on 2022-07-09, page 91:"
-            ]
+                "horseradish"   ]
         },
         "temp_id": "9.58",
         "gender": "m3"
     },
     {
         "lemma": "leniwiec",
-        "tags": "xxxxxxxxx",
+        "tags": "4a",
         "translations": {
             "ENG": [
                 "sloth",
@@ -717,7 +714,7 @@
         "gender": "m2"
     },
     {
-        "lemma": "leniwiec",
+        "lemma": "!leniwiec",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -729,7 +726,7 @@
         "gender": "m1"
     },
     {
-        "lemma": "leniwiec",
+        "lemma": "!leniwiec",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -741,39 +738,27 @@
     },
     {
         "lemma": "artysta",
-        "tags": "xxxxxxxxx",
+        "tags": "2j,art",
         "translations": {
             "ENG": [
-                "artist",
-                "(someone who creates art) (art)",
-                "artist",
-                "(a person who is skilled at some activity) (by extension)",
-                "ruffian",
-                "(a person who acts in a difficult way) (colloquial)"
-            ]
+                "artist" ]
         },
         "temp_id": "9.62",
         "gender": "m1"
     },
     {
         "lemma": "artystka",
-        "tags": "xxxxxxxxx",
+          "tags": "2j,art",
         "translations": {
             "ENG": [
-                "(someone who creates art)",
-                "(art) female equivalent of artysta ( “ artist ” )",
-                "(a person who is skilled at some activity)",
-                "(by extension) female equivalent of artysta ( “ artist ” )",
-                "(a person who acts in a difficult way)",
-                "(colloquial) female equivalent of artysta ( “ ruffian ” )"
-            ]
+                "artist" ]
         },
         "temp_id": "9.63",
         "gender": "f"
     },
     {
         "lemma": "sałatka",
-        "tags": "xxxxxxxxx",
+        "tags": "3sv",
         "translations": {
             "ENG": [
                 "salad"
@@ -784,11 +769,10 @@
     },
     {
         "lemma": "fasola",
-        "tags": "xxxxxxxxx",
+        "tags": "3sv",
         "translations": {
             "ENG": [
-                "bean",
-                "(seed)"
+                "*bean"
             ]
         },
         "temp_id": "9.65",
@@ -796,11 +780,10 @@
     },
     {
         "lemma": "przyjaciółka",
-        "tags": "xxxxxxxxx",
+        "tags": "1r,pp",
         "translations": {
             "ENG": [
-                "female equivalent of przyjaciel",
-                "( “ friend ” )"
+                "friend"
             ]
         },
         "temp_id": "9.66",
@@ -808,7 +791,7 @@
     },
     {
         "lemma": "linia",
-        "tags": "xxxxxxxxx",
+        "tags": "2gem,zz",
         "translations": {
             "ENG": [
                 "line",
@@ -822,36 +805,27 @@
     },
     {
         "lemma": "linijka",
-        "tags": "xxxxxxxxx",
+        "tags": "3s,qqq",
         "translations": {
             "ENG": [
-                "Diminutive of linia .",
-                "(geometry)",
-                "ruler",
-                "(measuring or drawing device)"
-            ]
+                "ruler"  ]
         },
         "temp_id": "9.68",
         "gender": "f"
     },
     {
         "lemma": "poduszka",
-        "tags": "xxxxxxxxx",
+        "tags": "3hb",
         "translations": {
             "ENG": [
-                "pillow cushion",
-                "stamp pad",
-                "the soft part of the fingertip",
-                "diamond",
-                "(card games)"
-            ]
+                "pillow","cushion"   ]
         },
         "temp_id": "9.69",
         "gender": "f"
     },
     {
         "lemma": "tęcza",
-        "tags": "xxxxxxxxx",
+        "tags": "4LL",
         "translations": {
             "ENG": [
                 "rainbow"

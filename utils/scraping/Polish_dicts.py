@@ -55,10 +55,6 @@ shorthand_tag_refs = {
         "tags": ["natural", "concrete"],
         "topics": ["outside"],
     },
-    "0": {
-        "tags": ["FREQ0"],
-        "topics": [],
-    },
     "1": {
         "tags": ["FREQ1"],
         "topics": [],
