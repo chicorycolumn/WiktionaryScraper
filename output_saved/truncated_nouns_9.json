@@ -836,13 +836,10 @@
     },
     {
         "lemma": "tożsamość",
-        "tags": "xxxxxxxxx",
+        "tags": "4eee,l",
         "translations": {
             "ENG": [
-                "identity",
-                "(the sameness some individuals share to make up the same kind or universal)",
-                "equality identity",
-                "(mathematics)"
+                "identity"
             ]
         },
         "temp_id": "9.71",
@@ -850,11 +847,9 @@
     },
     {
         "lemma": "impreza",
-        "tags": "xxxxxxxxx",
+        "tags": "2ttt,cel",
         "translations": {
             "ENG": [
-                "undertaking venture",
-                "(obsolete)",
                 "party",
                 "(a social gathering for entertainment and fun)"
             ]
@@ -864,10 +859,10 @@
     },
     {
         "lemma": "poród",
-        "tags": "xxxxxxxxx",
+        "tags": "4med",
         "translations": {
             "ENG": [
-                "birth delivery",
+                "birth","*delivery",
                 "(process of childbearing)"
             ]
         },
@@ -876,17 +871,10 @@
     },
     {
         "lemma": "kawałek",
-        "tags": "xxxxxxxxx",
+        "tags": "2@",
         "translations": {
             "ENG": [
-                "Diminutive of kawał bit",
-                "(small piece)",
-                "slice",
-                "(of pizza, cake, etc. )",
-                "track song",
-                "(colloquial)",
-                "grand ; one thousand, especially of U.S. dollars",
-                "(slang)"
+                "piece","bit"
             ]
         },
         "temp_id": "9.74",
@@ -894,14 +882,21 @@
     },
     {
         "lemma": "gumka",
-        "tags": "xxxxxxxxx",
+        "tags": "2s,qqq",
         "translations": {
             "ENG": [
-                "eraser rubber",
-                "elastic elastic band rubber band",
-                "hair tie scrunchie",
-                "condom",
-                "(colloquial)"
+                "eraser","rubber"
+            ]
+        },
+        "temp_id": "9.75",
+        "gender": "f"
+    },
+    {
+        "lemma": "gumka",
+        "tags": "3qqq",
+        "translations": {
+            "ENG": [
+                "elastic band","rubber band"
             ]
         },
         "temp_id": "9.75",
@@ -909,15 +904,10 @@
     },
     {
         "lemma": "boisko",
-        "tags": "xxxxxxxxx",
+        "tags": "3ll,yy",
         "translations": {
             "ENG": [
-                "pitch field",
-                "(field on which a sport is played) (sports)",
-                "battlefield battleground",
-                "(obsolete)",
-                "threshing floor",
-                "(Lesser Poland)"
+                "pitch","field"
             ]
         },
         "temp_id": "9.76",
@@ -925,7 +915,7 @@
     },
     {
         "lemma": "drapieżnik",
-        "tags": "xxxxxxxxx",
+        "tags": "4bio",
         "translations": {
             "ENG": [
                 "predator"
@@ -936,7 +926,7 @@
     },
     {
         "lemma": "ludność",
-        "tags": "xxxxxxxxx",
+        "tags": "4soc,pp",
         "translations": {
             "ENG": [
                 "population",
