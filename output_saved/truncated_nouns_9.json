@@ -938,12 +938,10 @@
     },
     {
         "lemma": "łeb",
-        "tags": "xxxxxxxxx",
+        "tags": "4G,b",
         "translations": {
             "ENG": [
-                "animal head",
-                "nut head",
-                "(colloquial)"
+                "head"
             ]
         },
         "temp_id": "9.79",
@@ -951,7 +949,7 @@
     },
     {
         "lemma": "drób",
-        "tags": "xxxxxxxxx",
+        "tags": "4ff,agr",
         "translations": {
             "ENG": [
                 "poultry"
@@ -962,7 +960,7 @@
     },
     {
         "lemma": "półka",
-        "tags": "xxxxxxxxx",
+        "tags": "3hp,HB",
         "translations": {
             "ENG": [
                 "shelf"
@@ -973,7 +971,7 @@
     },
     {
         "lemma": "wizyta",
-        "tags": "xxxxxxxxx",
+        "tags": "4ttt,med",
         "translations": {
             "ENG": [
                 "visit",
@@ -985,11 +983,11 @@
     },
     {
         "lemma": "materiał",
-        "tags": "xxxxxxxxx",
+        "tags": "4gg,art",
         "translations": {
             "ENG": [
                 "material",
-                "cloth fabric"
+                "cloth","fabric"
             ]
         },
         "temp_id": "9.83",
@@ -997,15 +995,33 @@
     },
     {
         "lemma": "przejście",
-        "tags": "xxxxxxxxx",
+        "tags": "5eee",
         "translations": {
             "ENG": [
-                "verbal noun of przejść",
-                "crossing",
-                "passage alley",
-                "aisle",
-                "interlude",
-                "ordeal"
+                "transition"
+            ]
+        },
+        "temp_id": "9.84",
+        "gender": "n"
+    },
+    {
+        "lemma": "przejście",
+        "tags": "4hp",
+        "translations": {
+            "ENG": [
+                "passage",
+                "passageway"
+            ]
+        },
+        "temp_id": "9.84",
+        "gender": "n"
+    },
+    {
+        "lemma": "przejście",
+        "tags": "3TTT,ls",
+        "translations": {
+            "ENG": [
+                "crossing"
             ]
         },
         "temp_id": "9.84",
@@ -1013,12 +1029,11 @@
     },
     {
         "lemma": "mrok",
-        "tags": "xxxxxxxxx",
+        "tags": "4phy",
         "translations": {
             "ENG": [
                 "darkness",
-                "gloom",
-                "murk murkiness"
+                "gloom"
             ]
         },
         "temp_id": "9.85",
@@ -1026,10 +1041,12 @@
     },
     {
         "lemma": "dzielnica",
-        "tags": "xxxxxxxxx",
+        "tags": "3ll,geo",
         "translations": {
             "ENG": [
-                "borough district quarter"
+                "borough","district","quarter",
+                "neighbourhood",
+                "neighborhood"
             ]
         },
         "temp_id": "9.86",
@@ -1073,7 +1090,7 @@
         "gender": "m3"
     },
     {
-        "lemma": "główka",
+        "lemma": "!główka",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1089,10 +1106,10 @@
     },
     {
         "lemma": "podróż",
-        "tags": "xxxxxxxxx",
+        "tags": "3PP,TT",
         "translations": {
             "ENG": [
-                "journey travel trip"
+                "journey","travel","trip"
             ]
         },
         "temp_id": "9.90",
