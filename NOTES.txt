@@ -15,3 +15,9 @@ these, they should be scraped and stored within the main lemma "stary".
 I put some translations with ">..." for superlatives/comparatives, but I think get rid of these.
 
 We haven't been using the "an" abstract noun tag - go through done nouns and see where add it.
+
+Go through all noun lobjs, and have question - are they holdable or not - if unset. Set that for all.
+Also set size:
+S1: pocketsize - pin to booklet
+S2: largerbutstillpickupable - book to chair (ie holdable)
+S3: cannotpickup - armchair to ship

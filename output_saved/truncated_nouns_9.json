@@ -960,7 +960,7 @@
     },
     {
         "lemma": "półka",
-        "tags": "3hp,HB",
+        "tags": "3hp,HB,@@",
         "translations": {
             "ENG": [
                 "shelf"
@@ -1054,19 +1054,22 @@
     },
     {
         "lemma": "fajka",
-        "tags": "xxxxxxxxx",
+        "tags": "4NN",
         "translations": {
             "ENG": [
-                "pipe",
-                "(smoking tool)",
-                "cigarette fag",
-                "(colloquial)",
-                "checkmark tick",
-                "(mark with a ✓ sign made to indicate agreement, correctness, or acknowledgement) (colloquial)",
-                "snorkel",
-                "(hollow tube used for breathing underwater) (colloquial)",
-                "upper fang of a boar bent upwards",
-                "(hunting)"
+                "*pipe",
+                "tobacco pipe"
+            ]
+        },
+        "temp_id": "9.87",
+        "gender": "f"
+    },
+    {
+        "lemma": "fajka",
+        "tags": "4nau,PP",
+        "translations": {
+            "ENG": [
+                "snorkel"
             ]
         },
         "temp_id": "9.87",
@@ -1074,16 +1077,19 @@
     },
     {
         "lemma": "termin",
-        "tags": "xxxxxxxxx",
+        "tags": "3pl,at,w,s",
         "translations": {
-            "ENG": [
-                "deadline due date",
-                "time frame",
-                "due date",
-                "(pregnancy)",
-                "term ; a word or phrase, especially one from a specialised area of knowledge",
-                "apprenticeship",
-                "(dated)"
+            "ENG": ["deadline"
+            ]
+        },
+        "temp_id": "9.88",
+        "gender": "m3"
+    },
+    {
+        "lemma": "termin",
+        "tags": "4££",
+        "translations": {
+            "ENG": ["term"
             ]
         },
         "temp_id": "9.88",
@@ -1117,10 +1123,10 @@
     },
     {
         "lemma": "rura",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng",
         "translations": {
             "ENG": [
-                "pipe tube"
+                "pipe","tube"
             ]
         },
         "temp_id": "9.91",
@@ -1128,7 +1134,7 @@
     },
     {
         "lemma": "wiedza",
-        "tags": "xxxxxxxxx",
+        "tags": "3ee,eee,s",
         "translations": {
             "ENG": [
                 "knowledge",
@@ -1140,12 +1146,21 @@
     },
     {
         "lemma": "zioło",
-        "tags": "xxxxxxxxx",
+        "tags": "3fi,agr",
         "translations": {
             "ENG": [
-                "herb",
-                "herb cannabis",
-                "(slang)"
+                "herb"
+            ]
+        },
+        "temp_id": "9.93",
+        "gender": "n"
+    },
+    {
+        "lemma": "zioło",
+        "tags": "3G,N",
+        "translations": {
+            "ENG": [
+                "cannabis"
             ]
         },
         "temp_id": "9.93",
@@ -1153,21 +1168,17 @@
     },
     {
         "lemma": "klatka",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng",
         "translations": {
             "ENG": [
-                "cage",
-                "(enclosure)",
-                "frame",
-                "(a piece of photographic film containing an image)"
-            ]
+                "cage" ]
         },
         "temp_id": "9.94",
         "gender": "f"
     },
     {
         "lemma": "morderstwo",
-        "tags": "xxxxxxxxx",
+        "tags": "3B,XX",
         "translations": {
             "ENG": [
                 "murder",
@@ -1179,15 +1190,11 @@
     },
     {
         "lemma": "zadanie",
-        "tags": "xxxxxxxxx",
+        "tags": "3pl,dr,s",
         "translations": {
             "ENG": [
-                "verbal noun of zadać",
-                "task job",
-                "exercise assignment",
-                "(e.g. at school)",
-                "quest",
-                "(video games)"
+                "task","job",
+                "assignment","errand"
             ]
         },
         "temp_id": "9.96",
@@ -1195,10 +1202,10 @@
     },
     {
         "lemma": "decyzja",
-        "tags": "xxxxxxxxx",
+        "tags": "2Y,pl",
         "translations": {
             "ENG": [
-                "decision",
+                "decision","choice",
                 "(choice or judgement)"
             ]
         },
@@ -1206,7 +1213,7 @@
         "gender": "f"
     },
     {
-        "lemma": "węgieł",
+        "lemma": "!węgieł",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1218,10 +1225,10 @@
     },
     {
         "lemma": "kołdra",
-        "tags": "xxxxxxxxx",
+        "tags": "3hb",
         "translations": {
             "ENG": [
-                "comforter quilt duvet"
+                "comforter","quilt","duvet"
             ]
         },
         "temp_id": "9.99",
@@ -1229,12 +1236,10 @@
     },
     {
         "lemma": "drut",
-        "tags": "xxxxxxxxx",
+        "tags": "3eng,c",
         "translations": {
             "ENG": [
-                "wire",
-                "(thin thread of metal)",
-                "knitting needle"
+                "wire"
             ]
         },
         "temp_id": "9.100",
@@ -1242,6 +1247,17 @@
     },
     {
         "lemma": "drut",
+        "tags": "5X,qq,qqq",
+        "translations": {
+            "ENG": [
+                "knitting needle"
+            ]
+        },
+        "temp_id": "9.100",
+        "gender": "m3"
+    },
+    {
+        "lemma": "!drut",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1651,10 +1667,10 @@
     },
     {
         "lemma": "regał",
-        "tags": "xxxxxxxxx",
+     "tags": "3hp,HB,@@",
         "translations": {
             "ENG": [
-                "shelf rack bookcase"
+                "shelf","rack","bookcase"
             ]
         },
         "temp_id": "9.133",
