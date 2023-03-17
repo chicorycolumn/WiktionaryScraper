@@ -219,6 +219,8 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object, wordty
     literal_topics = []
     shorthand_tags = []
 
+    hypernym_tags = []
+
     for stag in stags:
         if stag[0] == "*":
             if stag[1] == "*":
@@ -226,9 +228,17 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object, wordty
             else:
                 literal_tags.append(stag[1:])
         else:
-            shorthand_tags.append(stag)
+            if stag[-1] == "%":
+                hypernym_tags.append(stag[:-1])
+                shorthand_tags.append(stag[:-1])
+            else:
+                shorthand_tags.append(stag)
 
     tags = recursively_expand_tags(shorthand_tags, ref) if shorthand_tags else []
+
+    for hypernym_tag in hypernym_tags:
+        for translated_tag in ref[hypernym_tag]["tags"]:
+            tags.extend(f"{translated_tag} hypernym")
 
     topics = []
     for stag in shorthand_tags if shorthand_tags else []:

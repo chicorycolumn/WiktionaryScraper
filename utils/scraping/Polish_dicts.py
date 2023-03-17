@@ -77,7 +77,7 @@ shorthand_tag_refs = {
     },
 
     ############### 1) Mind and Body
-    "!": {  # bang crash boom
+    "nn": {  # bang crash boom
         "tags": ["noise", "aa"],
         "topics": ["sense and perception"],
     },
