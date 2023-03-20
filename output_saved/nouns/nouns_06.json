@@ -1242,7 +1242,8 @@
         "tags": [
             "FREQ2",
             "concrete",
-            "location"
+            "location",
+            "location hypernym"
         ],
         "translations": {
             "ENG": [
@@ -3568,7 +3569,7 @@
     {
         "lemma": "jedzenie",
         "tags": [
-            "FREQ1"
+            "FREQ1", "food hypernym"
         ],
         "translations": {
             "ENG": [

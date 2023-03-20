@@ -468,7 +468,8 @@
             "FREQ2",
             "building",
             "concrete",
-            "location"
+            "location",
+            "school hypernym"
         ],
         "translations": {
             "ENG": [
@@ -2618,7 +2619,7 @@
     {
         "lemma": "język",
         "tags": [
-            "FREQ3","abstract"
+            "FREQ3","abstract","language hypernym"
         ],
         "translations": {
             "ENG": [
@@ -3378,7 +3379,8 @@
         "tags": [
             "FREQ2",
             "abstract",
-            "school subject"
+            "school subject",
+            "physics hypernym"
         ],
         "translations": {
             "ENG": [
@@ -3424,7 +3426,7 @@
         "tags": [
             "FREQ2",
             "abstract",
-            "school subject"
+            "school subject","math hypernym"
         ],
         "translations": {
             "ENG": [
@@ -3643,6 +3645,7 @@
         "tags": [
             "FREQ2",
             "building",
+            "building hypernym",
             "concrete",
             "location"
         ],

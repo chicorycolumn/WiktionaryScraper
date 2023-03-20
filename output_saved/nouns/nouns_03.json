@@ -122,7 +122,7 @@
         "tags": [
             "FREQ3",
             "abstract",
-            "school subject"
+            "school subject","biology hypernym"
         ],
         "translations": {
             "ENG": [
@@ -786,7 +786,7 @@
     {
         "lemma": "prawo",
         "tags": [
-            "FREQ4"
+            "FREQ4","law hypernym"
         ],
         "translations": {
             "ENG": [
@@ -1015,7 +1015,7 @@
     {
         "lemma": "kolor",
         "tags": [
-            "FREQ2"
+            "FREQ2", "colour hypernym"
         ],
         "translations": {
             "ENG": [
@@ -1726,7 +1726,7 @@
     {
         "lemma": "kraj",
         "tags": [
-            "FREQ3"
+            "FREQ3","nation hypernym"
         ],
         "translations": {
             "ENG": [
@@ -2897,7 +2897,7 @@
         "lemma": "obszar",
         "tags": [
             "FREQ4",
-            "part"
+            "part","location hypernym"
         ],
         "translations": {
             "ENG": [
@@ -3436,6 +3436,7 @@
             "FREQ3",
             "abstract",
             "flavour",
+            "flavour hypernym",
             "perception"
         ],
         "translations": {

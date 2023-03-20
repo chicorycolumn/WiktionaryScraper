@@ -360,19 +360,19 @@ shorthand_tag_refs = {
         "topics": [],
     },
     "lb": {
-        "tags": ["ll", "building"],
+        "tags": ["building","ll"],
         "topics": ["inside"],
     },
     "lr": {
-        "tags": ["ll", "room"],
+        "tags": ["room","ll"],
         "topics": ["inside"],
     },
     "ln": {
-        "tags": ["ll", "natural"],
+        "tags": ["natural","ll"],
         "topics": ["outside", "geography"],
     },
     "lc": {
-        "tags": ["ll", "nation"],
+        "tags": ["nation","ll"],
         "topics": ["outside", "geography"],
     },
     "ls": {

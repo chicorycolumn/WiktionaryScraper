@@ -1360,7 +1360,7 @@
     {
         "lemma": "wygląd",
         "tags": [
-            "FREQ4"
+            "FREQ4", "appearance hypernym"
         ],
         "translations": {
             "ENG": [
@@ -2423,7 +2423,8 @@
         "tags": [
             "FREQ3",
             "abstract",
-            "thought"
+            "thought",
+            "thought hypernym"
         ],
         "translations": {
             "ENG": [
@@ -2511,7 +2512,8 @@
             "FREQ2",
             "concrete",
             "location",
-            "room"
+            "room",
+            "room hypernym"
         ],
         "translations": {
             "ENG": [
@@ -4072,7 +4074,7 @@
     {
         "lemma": "kształt",
         "tags": [
-            "FREQ3"
+            "FREQ3", "geometry hypernym"
         ],
         "translations": {
             "ENG": [
@@ -4169,7 +4171,7 @@
     {
         "lemma": "praca",
         "tags": [
-            "FREQ2"
+            "FREQ2", "work hypernym"
         ],
         "translations": {
             "ENG": [
@@ -4211,7 +4213,7 @@
     {
         "lemma": "sztuka",
         "tags": [
-            "FREQ4"
+            "FREQ4", "art hypernym"
         ],
         "translations": {
             "ENG": [
@@ -4311,6 +4313,7 @@
             "concrete",
             "food",
             "fruit",
+            "fruit hypernym",
             "holdable"
         ],
         "translations": {
@@ -4636,6 +4639,7 @@
             "animal",
             "concrete",
             "insect",
+            "insect hypernym",
             "living"
         ],
         "translations": {
@@ -4799,7 +4803,8 @@
             "FREQ2",
             "concrete",
             "location",
-            "nation"
+            "nation",
+            "nation hypernym"
         ],
         "translations": {
             "ENG": [
@@ -5514,7 +5519,7 @@
     {
         "lemma": "zawód",
         "tags": [
-            "FREQ3"
+            "FREQ3","profession hypernym"
         ],
         "translations": {
             "ENG": [

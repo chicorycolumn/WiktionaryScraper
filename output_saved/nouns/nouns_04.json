@@ -4907,6 +4907,7 @@
         "tags": [
             "FREQ3",
             "temperature",
+            "temperature hypernym",
             "weather"
         ],
         "translations": {
@@ -4960,6 +4961,7 @@
         "tags": [
             "FREQ3",
             "alcoholic",
+            "alcoholic hypernym",
             "concrete",
             "drink",
             "holdable"
@@ -5235,7 +5237,8 @@
         "lemma": "pieniądz",
         "tags": [
             "FREQ2",
-            "money"
+            "money",
+            "money hypernym"
         ],
         "translations": {
             "ENG": [
@@ -6063,7 +6066,7 @@
         "lemma": "samochód",
         "tags": [
             "FREQ1",
-            "transport"
+            "transport","car hypernym"
         ],
         "translations": {
             "ENG": [
@@ -6495,7 +6498,8 @@
         "lemma": "broń",
         "tags": [
             "FREQ3",
-            "weapon"
+            "weapon",
+            "weapon hypernym"
         ],
         "translations": {
             "ENG": [
@@ -7746,6 +7750,7 @@
         "tags": [
             "FREQ1",
             "animal",
+            "animal hypernym",
             "concrete",
             "living"
         ],
@@ -7896,7 +7901,7 @@
         "tags": [
             "FREQ4",
             "abstract",
-            "school subject"
+            "school subject","medicine hypernym"
         ],
         "translations": {
             "ENG": [
@@ -8982,7 +8987,8 @@
             "FREQ2",
             "concrete",
             "living",
-            "person"
+            "person",
+            "person hypernym"
         ],
         "translations": {
             "ENG": [
@@ -9560,7 +9566,8 @@
         "tags": [
             "FREQ3",
             "abstract",
-            "holiday"
+            "holiday",
+            "holiday hypernym"
         ],
         "translations": {
             "ENG": [
