@@ -369,7 +369,7 @@
         "gender": "m3"
     },
     {
-        "lemma": "napis",
+        "lemma": "!napis",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1947,10 +1947,9 @@
     },
     {
         "lemma": "wystawa",
-        "tags": "xxxxxxxxx",
+        "tags": "4art,ttt",
         "translations": {
             "ENG": [
-                "shop window",
                 "exhibition"
             ]
         },
@@ -1958,12 +1957,12 @@
         "gender": "f"
     },
     {
-        "lemma": "wycieraczka",
+        "lemma": "!wycieraczka",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
                 "windscreen wiper windshield wiper",
-                "doormat mat"
+                "doormat"
             ]
         },
         "temp_id": "9.159",
@@ -1971,13 +1970,10 @@
     },
     {
         "lemma": "czkawka",
-        "tags": "xxxxxxxxx",
+        "tags": "4bb,UU",
         "translations": {
             "ENG": [
-                "hiccup",
-                "(a spasm of the diaphragm or the resulting sound)",
-                "hiccup",
-                "(a small error)"
+                "hiccup"
             ]
         },
         "temp_id": "9.160",
@@ -1985,13 +1981,10 @@
     },
     {
         "lemma": "pierdolec",
-        "tags": "xxxxxxxxx",
+        "tags": "3KK,p",
         "translations": {
             "ENG": [
-                "rage irritation ire anger",
-                "(vulgar slang)",
-                "frenzy",
-                "(vulgar slang)"
+                "fucker"
             ]
         },
         "temp_id": "9.161",
@@ -1999,10 +1992,10 @@
     },
     {
         "lemma": "spiżarnia",
-        "tags": "xxxxxxxxx",
+        "tags": "4lr,ff",
         "translations": {
             "ENG": [
-                "pantry larder",
+                "pantry","larder",
                 "(a place for storing uncooled food)"
             ]
         },
@@ -2011,7 +2004,7 @@
     },
     {
         "lemma": "wątpliwość",
-        "tags": "xxxxxxxxx",
+        "tags": "3Y,eee,phi",
         "translations": {
             "ENG": [
                 "doubt"
@@ -2022,12 +2015,10 @@
     },
     {
         "lemma": "szampon",
-        "tags": "xxxxxxxxx",
+        "tags": "2dr,hw",
         "translations": {
             "ENG": [
-                "shampoo",
-                "sparkling wine champagne",
-                "(slang)"
+                "shampoo"
             ]
         },
         "temp_id": "9.164",
@@ -2035,7 +2026,7 @@
     },
     {
         "lemma": "cukrzyca",
-        "tags": "xxxxxxxxx",
+        "tags": "3U",
         "translations": {
             "ENG": [
                 "diabetes"
@@ -2046,41 +2037,33 @@
     },
     {
         "lemma": "zawartość",
-        "tags": "xxxxxxxxx",
+        "tags": "4eee,WW",
         "translations": {
             "ENG": [
-                "contents",
-                "content",
-                "(that which is contained)",
-                "content",
-                "(the amount or proportion of something in something)"
+                "contents"
             ]
         },
         "temp_id": "9.166",
         "gender": "f"
     },
     {
-        "lemma": "żniwa",
+        "lemma": "!żniwa",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "harvest",
-                "(of crops)",
-                "harvest",
-                "(benefit or gain of other work)"
-            ]
+                "harvest"   ]
         },
         "temp_id": "9.167",
         "gender": "nonvirile"
     },
     {
         "lemma": "marzenie",
-        "tags": "xxxxxxxxx",
+        "tags": "4ee,pl",
         "translations": {
             "ENG": [
-                "verbal noun of marzyć",
-                "dream",
-                "(hope or wish)"
+
+                "dream"
+
             ]
         },
         "temp_id": "9.168",
