@@ -237,8 +237,8 @@ def add_tags_and_topics_from_shorthand(lemma_object: object, ref: object, wordty
     tags = recursively_expand_tags(shorthand_tags, ref) if shorthand_tags else []
 
     for hypernym_tag in hypernym_tags:
-        potential_hypernym_tag = ref[hypernym_tag]["tags"][0]
-        potential_hypernym_topic = ref[hypernym_tag]["topics"][0]
+        potential_hypernym_tag = ref[hypernym_tag]["tags"][0] if ref[hypernym_tag]["tags"] else None
+        potential_hypernym_topic = ref[hypernym_tag]["topics"][0] if ref[hypernym_tag]["topics"] else None
 
         if potential_hypernym_tag and potential_hypernym_tag not in ref:
             tags.extend(f"{potential_hypernym_tag} hypernym")
