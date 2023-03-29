@@ -1270,7 +1270,7 @@
     },
     {
         "lemma": "kryminalista",
-        "tags": "xxxxxxxxx",
+        "tags": "3p,l",
         "translations": {
             "ENG": [
                 "criminal"
@@ -1281,7 +1281,7 @@
     },
     {
         "lemma": "pomnik",
-        "tags": "xxxxxxxxx",
+        "tags": "4his,PP",
         "translations": {
             "ENG": [
                 "monument",
@@ -1293,7 +1293,7 @@
     },
     {
         "lemma": "turystyka",
-        "tags": "xxxxxxxxx",
+        "tags": "4soc",
         "translations": {
             "ENG": [
                 "tourism"
@@ -1304,7 +1304,7 @@
     },
     {
         "lemma": "futro",
-        "tags": "xxxxxxxxx",
+        "tags": "4ba,gg",
         "translations": {
             "ENG": [
                 "fur",
@@ -1318,10 +1318,9 @@
     },
     {
         "lemma": "zakażenie",
-        "tags": "xxxxxxxxx",
+        "tags": "3med,U%",
         "translations": {
             "ENG": [
-                "verbal noun of zakazić",
                 "infection",
                 "(pathology)"
             ]
@@ -1331,11 +1330,10 @@
     },
     {
         "lemma": "nastolatka",
-        "tags": "xxxxxxxxx",
+        "tags": "2p,tt",
         "translations": {
             "ENG": [
-                "female equivalent of nastolatek",
-                "( “ teenager ” )"
+               "teenager"
             ]
         },
         "temp_id": "9.107",
@@ -1343,11 +1341,20 @@
     },
     {
         "lemma": "gniazdo",
-        "tags": "xxxxxxxxx",
+        "tags": "5bio",
         "translations": {
             "ENG": [
-                "nest",
-                "(bird-built structure)",
+                "nest"
+            ]
+        },
+        "temp_id": "9.108",
+        "gender": "n"
+    },
+    {
+        "lemma": "gniazdo",
+        "tags": "2ii",
+        "translations": {
+            "ENG": [
                 "socket",
                 "(mechanical opening)",
                 "socket",
