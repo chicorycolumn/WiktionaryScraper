@@ -1425,7 +1425,7 @@
     },
     {
         "lemma": "więzień",
-        "tags": "xxxxxxxxx",
+        "tags": "4p,l",
         "translations": {
             "ENG": [
                 "prisoner"
@@ -1436,7 +1436,7 @@
     },
     {
         "lemma": "pancerz",
-        "tags": "xxxxxxxxx",
+        "tags": "4XXX,ba",
         "translations": {
             "ENG": [
                 "armour",
@@ -1450,10 +1450,11 @@
     },
     {
         "lemma": "zeszyt",
-        "tags": "xxxxxxxxx",
+        "tags": "3s,h",
         "translations": {
             "ENG": [
-                "notebook"
+                "notebook",
+                "exercise book"
             ]
         },
         "temp_id": "9.116",
@@ -1472,7 +1473,7 @@
     },
     {
         "lemma": "dystans",
-        "tags": "xxxxxxxxx",
+        "tags": "4phy,TT,z",
         "translations": {
             "ENG": [
                 "distance",
@@ -1484,27 +1485,20 @@
     },
     {
         "lemma": "krajobraz",
-        "tags": "xxxxxxxxx",
+        "tags": "4ls,n,geo",
         "translations": {
             "ENG": [
-                "landscape",
-                "(portion of territory which the eye can comprehend in a single view)",
-                "landscape",
-                "(picture representing a territory and its features)"
-            ]
+                "landscape"  ]
         },
         "temp_id": "9.119",
         "gender": "m3"
     },
     {
         "lemma": "belka",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng",
         "translations": {
             "ENG": [
-                "beam",
-                "(large piece of timber or iron)",
-                "stripe",
-                "(the badge worn by certain officers in the military or other forces)"
+                "beam"
             ]
         },
         "temp_id": "9.120",
@@ -1512,24 +1506,19 @@
     },
     {
         "lemma": "tytuł",
-        "tags": "xxxxxxxxx",
+        "tags": "3wri",
         "translations": {
             "ENG": [
-                "title",
-                "(the name of a book, film or other work of art)",
-                "title",
-                "(prefix or suffix added to a name)"
-            ]
+                "title"  ]
         },
         "temp_id": "9.121",
         "gender": "m3"
     },
     {
         "lemma": "leczenie",
-        "tags": "xxxxxxxxx",
+        "tags": "3med",
         "translations": {
             "ENG": [
-                "verbal noun of leczyć",
                 "treatment",
                 "(medical care for an illness or injury)"
             ]
