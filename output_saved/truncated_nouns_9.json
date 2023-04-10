@@ -1527,7 +1527,7 @@
         "gender": "n"
     },
     {
-        "lemma": "głosowanie",
+        "lemma": "!głosowanie",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1541,7 +1541,7 @@
     },
     {
         "lemma": "kelnerka",
-        "tags": "xxxxxxxxx",
+        "tags": "2j,ff,PP",
         "translations": {
             "ENG": [
                 "waitress"
@@ -1565,7 +1565,7 @@
     },
     {
         "lemma": "ośmiornica",
-        "tags": "xxxxxxxxx",
+        "tags": "3a,f",
         "translations": {
             "ENG": [
                 "octopus",
@@ -1577,7 +1577,7 @@
     },
     {
         "lemma": "właściwość",
-        "tags": "xxxxxxxxx",
+        "tags": "5eee,phi",
         "translations": {
             "ENG": [
                 "property",
@@ -1589,12 +1589,20 @@
     },
     {
         "lemma": "doświadczenie",
-        "tags": "xxxxxxxxx",
+        "tags": "3w,ee",
         "translations": {
             "ENG": [
-                "verbal noun of doświadczyć",
-                "experience of which one is cognizant)",
-                "(event (s)",
+                "experience"
+            ]
+        },
+        "temp_id": "9.128",
+        "gender": "n"
+    },
+    {
+        "lemma": "doświadczenie",
+        "tags": "5sci",
+        "translations": {
+            "ENG": [
                 "experiment"
             ]
         },
