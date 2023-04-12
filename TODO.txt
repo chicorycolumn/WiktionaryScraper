@@ -383,3 +383,41 @@ Also sort this in all lobjs.
 2023-04-12 11:06                      ...I assume "pol-nco-993-gniazdo(socket)" is not merely a duplicate.
 2023-04-12 11:06 Appended "experience" to ID "pol-nco-1007-doświadczenie(experience)" ...
 2023-04-12 11:06                      ...I assume "pol-nco-1008-doświadczenie(experiment)" is not merely a duplicate.
+
+2023-04-12 11:17 Verbs. At least two lobjs of "ubiegać" will need allohomInfo added.
+2023-04-12 11:18 Verbs. #ERR "ranić" output_obj["aspect"] is ['impf', 'or', 'pf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2023-04-12 11:19 Verbs. At least two lobjs of "rozlegać" will need allohomInfo added.
+2023-04-12 11:21 Verbs. At least two lobjs of "tłumaczyć" will need allohomInfo added.
+2023-04-12 11:22 Verbs. #ERR "śmieć" output_obj["aspect"] is [] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2023-04-12 11:23 Verbs. At least two lobjs of "tkwić" will need allohomInfo added.
+2023-04-12 11:23 Verbs. #ERR "mieszać" output_obj["aspect"] is ['impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2023-04-12 11:23 Verbs. #ERR "mieszać" output_obj["aspect"] is ['impf', 'impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2023-04-12 11:23 Verbs. #ERR "mieszać" output_obj["aspect"] is ['impf', 'impf', 'impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2023-04-12 11:23 Verbs. At least two lobjs of "przestrzegać" will need allohomInfo added.
+2023-04-12 11:23 Verbs. At least two lobjs of "szarpać" will need allohomInfo added.
+2023-04-12 11:23 Verbs. #ERR "defective verb" output_obj["aspect"] is [] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2023-04-12 11:24 Verbs. #ERR "defective verb" output_obj["aspect"] is [] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2023-04-12 11:24 Verbs. #ERR "defective verb" output_obj["aspect"] is [] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2023-04-12 11:25 Verbs. #ERR "charakteryzować" output_obj["aspect"] is ['impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2023-04-12 11:25 Verbs. #ERR "roić" output_obj["aspect"] is ['impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
+2023-04-12 11:25 Verbs. At least two lobjs of "rysować" will need allohomInfo added.
+2023-04-12 11:26 Verbs. At least two lobjs of "przystawać" will need allohomInfo added.
+2023-04-12 11:28 There are 6 doubly extra verbs-headwords, they have not been parsed: ['zaryczeć', 'zastosowywać', 'pośpieszać', 'rosnać', 'urastać', 'osądzać']
+2023-04-12 11:28 "brakować" has defective or strange inflections table. Kicking it out of verbs.
+2023-04-12 11:28 "przystać" has defective or strange inflections table. Kicking it out of verbs.
+2023-04-12 11:28 "mieszać" has no infinitive. Kicking it out of verbs.
+2023-04-12 11:28 "roić" has no infinitive. Kicking it out of verbs.
+2023-04-12 11:28 "charakteryzować" has no infinitive. Kicking it out of verbs.
+2023-04-12 11:37 "brakować" has defective or strange inflections table. Kicking it out of verbs.
+2023-04-12 11:37 "przystać" has defective or strange inflections table. Kicking it out of verbs.
+2023-04-12 11:37 "mieszać" has no infinitive. Kicking it out of verbs.
+2023-04-12 11:37 "roić" has no infinitive. Kicking it out of verbs.
+2023-04-12 11:37 "charakteryzować" has no infinitive. Kicking it out of verbs.
+2023-04-12 11:39 "brakować" has defective or strange inflections table. Kicking it out of verbs.
+2023-04-12 11:39 "przystać" has defective or strange inflections table. Kicking it out of verbs.
+2023-04-12 11:39 "mieszać" has no infinitive. Kicking it out of verbs.
+2023-04-12 11:39 "roić" has no infinitive. Kicking it out of verbs.
+2023-04-12 11:39 "charakteryzować" has no infinitive. Kicking it out of verbs.
+2023-04-12 11:39 The "conditional" tense on perfective "rozejść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
+2023-04-12 11:39 SKIPPED this entire lobj in minimise_inflections. "future" tense on imperfective "odrzucać" should have 31 strings but has 20.
+2023-04-12 12:32 There are 19 doubly extra adjectives-headwords, they have not been parsed: ['nieliteracki', 'postawy', 'zmienny', 'polarny', 'nienormatywny', 'i', 'niezdecydowany', 'wyniki', 'nierozumny', 'bezrozumny', 'chyży', 'ochoczy', 'substandardowy', 'typy', 'owocodajny', 'obszary', 'rączy', 'skwapliwy', 'prędki']

@@ -5,6 +5,8 @@ import copy
 
 
 def minimise_inflections(lemma_object):
+    print("START minimise_inflections", lemma_object["lemma"])
+
     full_inflections = copy.deepcopy(lemma_object["inflections"])
 
     # STEP ZERO
@@ -17,6 +19,9 @@ def minimise_inflections(lemma_object):
         "1st": "1per",
         "2nd": "2per",
         "3rd": "3per",
+        "1 st": "1per",
+        "2 nd": "2per",
+        "3 rd": "3per",
         "future tense": "future",
     })
 
