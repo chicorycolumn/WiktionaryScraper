@@ -264,7 +264,8 @@ class PolishNounParser(HTMLParser):
 
             elif startTag == "table":
                 for attr in attrs:
-                    if attr[0] == "class" and attr[1] == "wikitable inflection-table":
+                    if attr[0] == "class" and attr[1] in \
+                            ["wikitable inflection-table", "inflection-table"]:
                         self.location = "insidetable"
                         print('location = "insidetable"')
 

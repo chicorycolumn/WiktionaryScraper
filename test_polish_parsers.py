@@ -132,23 +132,25 @@ def test_PolishAdjectiveParser(index, input_words: list, expected_path: str, use
     assert actual_rejected == expected_rejected
 
 
-@pytest.mark.parametrize("n,input_words,expected_path,use_sample", [
+@pytest.mark.parametrize("n,input_words,expected_path,use_sample,sample_version", [
     ('N1', ["baba", "bałagan", "cel", "drzwi", "dzień", "małpa", "miesiąc", "rok", "ser"],
-     "polish_nouns_1", True),  # Normal words
+     "polish_nouns_1", True, None),  # Normal words
     ('N2', ["nadzieja", "słońce", "wieczór", "sierpień", "ból", "złodziej", "wartość", "owca", "suszarka", "schody"],
-     "polish_nouns_2", True),  # Normal words
+     "polish_nouns_2", True, None),  # Normal words
+    ('N2a', ["nadzieja"],
+     "polish_nouns_2a", True, 2023),  # Normal words
     ('N3', ["gleba", "łeb", "BADWORD", "palec", "noga", "piła", "piłka"],
-     "polish_nouns_3", False),  # Some failing words
+     "polish_nouns_3", False, None),  # Some failing words
     ('N4', ["prysznic", "BADWORD", "ANOTHERBADWORD", "glista"],
-     "polish_nouns_4", False),  # Some failing words
+     "polish_nouns_4", False, None),  # Some failing words
     ('N5', ["prysznic", "polski", "glista"],
-     "polish_nouns_5", True),  # Some failing words
+     "polish_nouns_5", True, None),  # Some failing words
     ('N6', ["kapusta"],
-     "polish_nouns_6", True),  # Word with two meanings and two conjugation tables.
+     "polish_nouns_6", True, None),  # Word with two meanings and two conjugation tables.
     ('N7', ["brać"],
-     "polish_nouns_7", True),  # Page has 1 verb 1 noun, homonyms (not nec list as allohoms as diff wordtypes).
+     "polish_nouns_7", True, None),  # Page has 1 verb 1 noun, homonyms (not nec list as allohoms as diff wordtypes).
 ])
-def test_PolishNounParser(n: int, input_words: list, expected_path: str, use_sample: bool, wordtype: str = "nouns"):
+def test_PolishNounParser(n: int, input_words: list, expected_path: str, use_sample: bool, sample_version: str, wordtype: str = "nouns"):
     print(f'# Starting, given {len(input_words)} words.')
     output_path = f"output_test{expected_path[-2:]}"
     rejected_path = f"rejected_test{expected_path[-2:]}"
@@ -169,7 +171,8 @@ def test_PolishNounParser(n: int, input_words: list, expected_path: str, use_sam
         },
         group_number=0,
         no_temp_ids=True,
-        test_only_boolean_override_check_existing=True
+        test_only_boolean_override_check_existing=True,
+        sample_version=sample_version
     )
 
     with open(f'output/{output_path}.json', 'r') as f:

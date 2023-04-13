@@ -28,6 +28,7 @@ def trigger_parser(
         head_words_raw, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_to_parse,
         test_only_boolean_override_check_existing:bool=False,
         just_assess_scrape_status_of_lemmas:bool=False,
+        sample_version:str=None,
 ):
     if not test_only_boolean_override_check_existing:
         already_parsed_headwords = get_existing_lobjs(wordtype, lemmas_only=True)
@@ -74,7 +75,8 @@ def trigger_parser(
         parser.reset()
 
         if use_sample:
-            with open(f'input/{language}/{wordtype}/sample_{head_word}.html', 'r') as f:
+            sample_version = f"_{sample_version}" if sample_version else ""
+            with open(f'input/{language}/{wordtype}/sample_{head_word}{sample_version}.html', 'r') as f:
                 contents = f.read()
                 parser.feed(contents)
                 output_arr = parser.output_arr
@@ -169,6 +171,7 @@ def scrape_word_data(
         skip_extras: bool = False,
         test_only_boolean_override_check_existing: bool = False,
         just_assess_scrape_status_of_lemmas: bool = False,
+        sample_version: str = None
 ):
     if wordtype == "adjectives":
         parser = PolishAdjectiveParser(convert_charrefs=False)
@@ -205,6 +208,7 @@ def scrape_word_data(
             head_words, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs,
             test_only_boolean_override_check_existing=test_only_boolean_override_check_existing,
             just_assess_scrape_status_of_lemmas=just_assess_scrape_status_of_lemmas,
+            sample_version=sample_version
         )
 
         if just_assess_scrape_status_of_lemmas:
@@ -240,7 +244,7 @@ def scrape_word_data(
             if wordtype in ["verbs", "adjectives"]:
                 print(f"# There are {len(extra)} extra headwords now after parsing the original headwords:", extra)
                 extra_lemmas_objs_2 = []
-                trigger_parser(extra, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs_2, test_only_boolean_override_check_existing=test_only_boolean_override_check_existing)
+                trigger_parser(extra, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs_2, test_only_boolean_override_check_existing=test_only_boolean_override_check_existing, sample_version=sample_version)
 
                 extra_2 = []
                 for extra_lemmas_obj in extra_lemmas_objs_2:
