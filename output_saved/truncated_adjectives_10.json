@@ -275,7 +275,7 @@
         "temp_id": "10.22"
     },
     {
-        "lemma": "śnieżny",
+        "lemma": "!śnieżny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -289,7 +289,7 @@
         "temp_id": "10.23"
     },
     {
-        "lemma": "snowy",
+        "lemma": "!snowy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -302,7 +302,7 @@
         "temp_id": "10.24"
     },
     {
-        "lemma": "śnieżnobiały",
+        "lemma": "!śnieżnobiały",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -313,7 +313,7 @@
         "temp_id": "10.25"
     },
     {
-        "lemma": "bezśnieżny",
+        "lemma": "!bezśnieżny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -323,7 +323,7 @@
         "temp_id": "10.26"
     },
     {
-        "lemma": "śnieżysty",
+        "lemma": "!śnieżysty",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -338,20 +338,19 @@
     },
     {
         "lemma": "szkodliwy",
-        "tags": "xxxxxxxxx",
+        "tags": "4JJ",
         "translations": {
             "ENG": [
                 "harmful",
                 "damaging",
-                "deleterious",
-                "noxious"
+                "detrimental"
             ]
         },
         "temp_id": "10.28"
     },
     {
         "lemma": "nieszkodliwy",
-        "tags": "xxxxxxxxx",
+        "tags": "4JJ",
         "translations": {
             "ENG": [
                 "harmless"
@@ -361,7 +360,7 @@
     },
     {
         "lemma": "rosyjski",
-        "tags": "xxxxxxxxx",
+        "tags": "2lc,£",
         "translations": {
             "ENG": [
                 "Russian"
@@ -371,12 +370,19 @@
     },
     {
         "lemma": "trwały",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng",
         "translations": {
             "ENG": [
-                "solid",
-                "strong",
-                "lasting",
+                "durable"
+            ]
+        },
+        "temp_id": "10.31"
+    },
+    {
+        "lemma": "trwały",
+        "tags": "3at",
+        "translations": {
+            "ENG": [
                 "permanent"
             ]
         },
