@@ -1240,9 +1240,7 @@
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "comparative degree",
-                "of",
-                "szeroki"
+                ">szeroki"
             ]
         },
         "temp_id": "10.96"
@@ -1259,7 +1257,7 @@
         "temp_id": "10.97"
     },
     {
-        "lemma": "terrorystyczny",
+        "lemma": "!terrorystyczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1269,7 +1267,7 @@
         "temp_id": "10.98"
     },
     {
-        "lemma": "szczeciński",
+        "lemma": "!szczeciński",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1281,7 +1279,7 @@
         "temp_id": "10.99"
     },
     {
-        "lemma": "techniczny",
+        "lemma": "!techniczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1302,7 +1300,7 @@
         "temp_id": "10.101"
     },
     {
-        "lemma": "spektakularny",
+        "lemma": "!spektakularny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1359,17 +1357,18 @@
     },
     {
         "lemma": "turystyczny",
-        "tags": "xxxxxxxxx",
+        "tags": "3PP",
         "translations": {
             "ENG": [
-                "touristic"
+                "touristic",
+                "tourist"
             ]
         },
         "temp_id": "10.106"
     },
     {
         "lemma": "szkocki",
-        "tags": "xxxxxxxxx",
+        "tags": "3lc",
         "translations": {
             "ENG": [
                 "Scottish"
