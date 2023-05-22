@@ -39,6 +39,10 @@ case_ref = {
 
 shorthand_tag_refs = {
     ############### 0) Foundation
+    "aaa": {
+        "tags": ["PLACEHOLDER"], #eg for >comparative which will have its data manually transferred into the main lobj.
+        "topics": [],
+    },
     "u": {
         "tags": ["uncountable"],
         "topics": [],
