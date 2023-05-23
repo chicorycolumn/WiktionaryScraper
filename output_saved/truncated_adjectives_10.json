@@ -48,15 +48,13 @@
     },
     {
         "lemma": "średni",
-        "tags": "xxxxxxxxx",
+        "tags": "3mat,z",
         "translations": {
             "ENG": [
-                "medium",
-                "(of intermediate size)",
-                "intermediate",
-                "middle",
-                "mid",
-                "average"
+                "*medium",
+                "*middle",
+                "*mid",
+                "*average"
             ]
         },
         "temp_id": "10.5"
@@ -205,7 +203,7 @@
         "temp_id": "10.17"
     },
     {
-        "lemma": "pozorny",
+        "lemma": "!pozorny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -217,12 +215,13 @@
     },
     {
         "lemma": "domniemany",
-        "tags": "xxxxxxxxx",
+        "tags": "5l,B,eee",
         "translations": {
             "ENG": [
                 "implied",
                 "presumed",
-                "supposed"
+                "supposed",
+                "alleged"
             ]
         },
         "temp_id": "10.19"
@@ -241,27 +240,25 @@
     },
     {
         "lemma": "równy",
-        "tags": "xxxxxxxxx",
+        "tags": "3mat",
         "translations": {
-            "ENG": [
-                "(comparable)",
-                "even",
-                "level",
-                "flat",
-                "(not comparable)",
-                "even",
-                "(in proportion, quantity, size etc.)",
-                "(not comparable except ironically)",
-                "equal",
-                "(grammar not comparable)",
-                "positive",
-                "(not inflected for degree of comparison)"
-            ]
+            "ENG": [    "equal" ]
         },
         "temp_id": "10.21"
     },
     {
-        "lemma": "taneczny",
+        "lemma": "równy",
+        "tags": "4geo",
+        "translations": {
+            "ENG": [
+                "even",
+                "level",
+                "flat"  ]
+        },
+        "temp_id": "10.21"
+    },
+    {
+        "lemma": "!taneczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -473,20 +470,11 @@
     },
     {
         "lemma": "skończony",
-        "tags": "xxxxxxxxx",
+        "tags": "3qqq,at",
         "translations": {
             "ENG": [
-                "passive",
-                "adjectival",
-                "participle",
-                "of",
-                "skończyć",
                 "done",
-                "finished",
-                "finite",
-                "(colloquial)",
-                "done",
-                "(without hope or prospect of success)"
+                "finished"
             ]
         },
         "temp_id": "10.39"
