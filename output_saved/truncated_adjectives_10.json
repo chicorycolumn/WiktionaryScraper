@@ -481,24 +481,33 @@
     },
     {
         "lemma": "nieskończony",
-        "tags": "xxxxxxxxx",
+        "tags": "4mat",
         "translations": {
             "ENG": [
                 "infinite",
                 "everlasting",
-                "unfinished"
+                "endless"
             ]
         },
         "temp_id": "10.40"
     },
     {
         "lemma": "śmiertelny",
-        "tags": "xxxxxxxxx",
+        "tags": "4XX,JJ,UU",
         "translations": {
             "ENG": [
                 "lethal",
                 "deadly",
-                "(causing death)",
+                "(causing death)"
+            ]
+        },
+        "temp_id": "10.41"
+    },
+    {
+        "lemma": "śmiertelny",
+        "tags": "5RRR",
+        "translations": {
+            "ENG": [
                 "mortal",
                 "(susceptible to death)"
             ]
@@ -507,7 +516,7 @@
     },
     {
         "lemma": "śmiercionośny",
-        "tags": "xxxxxxxxx",
+   "tags": "4XX,JJ,UU",
         "translations": {
             "ENG": [
                 "deadly",
@@ -518,21 +527,27 @@
     },
     {
         "lemma": "stały",
-        "tags": "xxxxxxxxx",
+        "tags": "3at,eee",
         "translations": {
             "ENG": [
                 "constant",
-                "permanent",
-                "fixed",
-                "ongoing",
-                "solid",
-                "(in the solid state)"
+                "permanent"
             ]
         },
         "temp_id": "10.43"
     },
     {
-        "lemma": "niezmienny",
+        "lemma": "stały",
+        "tags": "4phy,che",
+        "translations": {
+            "ENG": [
+                "solid"
+            ]
+        },
+        "temp_id": "10.43"
+    },
+    {
+        "lemma": "!niezmienny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -547,7 +562,7 @@
         "temp_id": "10.44"
     },
     {
-        "lemma": "niestały",
+        "lemma": "!niestały",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
