@@ -126,7 +126,6 @@ class PolishAdjectiveParser(HTMLParser):
         else:
             self.output_obj["comparative_type"] = 1
             write_todo(f'Adjectives: Looks like this potential lobj has more than one type 1 comparative. Please check that {self.output_obj["comparative"]} are all valid type 1 comparatives.')
-            return
 
         if "adverb" in self.output_obj and not self.output_obj["adverb"]:
             self.output_obj.pop("adverb")

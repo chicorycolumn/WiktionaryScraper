@@ -13,25 +13,20 @@ if __name__ == '__main__':
     #     if el[-1] not in ["y", "i"]:
     #         print(el)
 
-    step = 1
-    group_number = 890
+    step = 2
+    group_number = 888
     input_indexes = [0, 870]
     wordtype = "a"
     these_headwords_only = [
-        # "zielony",
-        # "zakazany",
-        # "czysty",
-        "mądry",
-        # "frontowy",
-        # "czasowy",
-        # "gospodarczy",
-        # "gęsty",
-        # "blady",
-        # "każdy",
-        # "owinięty",
-        # "otoczony",
-        # "połączony",
-        # "podzielony"
+        "zakazany",
+        "frontowy",
+        "czasowy",
+        "gospodarczy",
+        "każdy",
+        "owinięty",
+        "otoczony",
+        "połączony",
+        "podzielony"
     ]
     # these_headwords_only = ['lekki']
     skip_make_ids = False  # only set True when manually testing.
