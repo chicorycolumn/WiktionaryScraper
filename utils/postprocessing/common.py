@@ -160,10 +160,8 @@ def recursively_combine_string_values_into_tobjs(dict1, dict2):
 
             if type(dict2_value) == str:
                 normal.append(dict2_value)
-                normal.reverse()
             elif type(dict2_value) == list:
                 normal.extend(dict2_value)
-                normal.reverse()
             elif type(dict2_value) == dict and "isTerminus" in dict2_value and dict2_value["isTerminus"]:
                 normal.extend(dict2_value["normal"] if "normal" in dict2_value else [])
                 additionalInfrequent.extend(

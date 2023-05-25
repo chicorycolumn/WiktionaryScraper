@@ -423,3 +423,37 @@ Also sort this in all lobjs.
 2023-04-12 12:32 There are 19 doubly extra adjectives-headwords, they have not been parsed: ['nieliteracki', 'postawy', 'zmienny', 'polarny', 'nienormatywny', 'i', 'niezdecydowany', 'wyniki', 'nierozumny', 'bezrozumny', 'chyży', 'ochoczy', 'substandardowy', 'typy', 'owocodajny', 'obszary', 'rączy', 'skwapliwy', 'prędki']
 
 2023-04-13 19:38 Want to parse any of 83 extra nouns-lemmas? (I did not because of wordtype) ['tapczanik', 'grzejniczek', 'rzeczniczka', 'sionka', 'gospodyni', 'sadełko', 'fryzurka', 'migdałek', 'kuchareczka', 'grubasek', 'pyszczek', 'kolekcyjka', 'gwiazdeczka', 'mrozik', 'sanitariuszka', 'blondynek', 'urlopik', 'zespolik', 'pyłek', 'raneczek', 'pyszczydło', 'karteczka', 'wazonik', 'filiżaneczka', 'włamywaczka', 'wtyka', 'rakietka', 'por.', 'wojowniczka', 'płytka', 'radocha', 'brunet', 'zleconko', 'profesor', 'okręcik', 'wieszaczek', 'serweta', 'pęcherzyk', 'pojemniczek', 'tapczanisko', 'strzelczyni', 'prawniczka', 'żakiecik', 'bruneta', 'czarownica', 'kubełek', 'bałaganik', 'ruda', 'sekrecik', 'bruneteczka', 'weselisko', 'badaczka', 'zwierciadełko', 'pędzelek', 'absolwentka', 'blondyneczka', 'spółeczka', 'spóła', 'serweteczka', 'tableta', 'ratowniczka', 'zabójczyni', 'kundelek', 'patelenka', 'łomik', 'knajpka', 'kundelka', 'warsztacik', 'grzbiecik', 'pajacyk', 'blondyna', 'kieliszeczek', 'notariuszka', 'supełek', 'mieszkanka', 'szczypczyki', 'wkręcik', 'superbohaterka', 'grubaska', 'szlaczek', 'fabułka', 'koszyczek', 'świneczka']
+
+2023-05-25 15:29 There are 1 doubly extra adjectives-headwords, they have not been parsed: ['niezdecydowany']
+2023-05-25 16:15 Adjectives: Looks like this potential lobj has more than one type 1 comparative. gęstszy
+I have run with the first comparative, but you need to manually add the other(s).
+2023-05-25 16:15 Adjectives: Looks like this potential lobj has more than one type 1 comparative. g
+I have run with the first comparative, but you need to manually add the other(s).
+2023-05-25 16:16 Adjectives: Looks like this potential lobj has more than one type 1 comparative. bladszy
+I have run with the first comparative, but you need to manually add the other(s).
+2023-05-25 16:16 Adjectives: Looks like this potential lobj has more than one type 1 comparative. b
+I have run with the first comparative, but you need to manually add the other(s).
+2023-05-25 16:16 Adjectives: Looks like this potential lobj has more than one type 1 comparative. czystszy
+I have run with the first comparative, but you need to manually add the other(s).
+2023-05-25 16:16 Adjectives: Looks like this potential lobj has more than one type 1 comparative. c
+I have run with the first comparative, but you need to manually add the other(s).
+2023-05-25 16:16 Adjectives: Looks like this potential lobj has more than one type 1 comparative. mądrzejszy
+I have run with the first comparative, but you need to manually add the other(s).
+2023-05-25 16:16 Adjectives: Looks like this potential lobj has more than one type 1 comparative. m
+I have run with the first comparative, but you need to manually add the other(s).
+2023-05-25 16:16 There are 14 doubly extra adjectives-headwords, they have not been parsed: ['zamglony', 'niewyrazisty', 'ckliwy', 'schludny', 'nieporządny', 'omdlały', 'rozmyty', 'zamazany', 'mdlący', 'nieostry', 'wyraźny', 'wyrazisty', 'nieuczciwy', 'mglisty']
+2023-05-25 16:48 Appended "bland" to ID "pol-adj-777-mdły(bland)" ...
+2023-05-25 16:48                      ...I assume "pol-adj-778-mdły(nauseating)" is not merely a duplicate.
+2023-05-25 16:55 Adjectives: Looks like this potential lobj has more than one type 1 comparative. mądrzejszy
+I have run with the first comparative, but you need to manually add the other(s).
+2023-05-25 16:55 Adjectives: Looks like this potential lobj has more than one type 1 comparative. m
+I have run with the first comparative, but you need to manually add the other(s).
+2023-05-25 21:31 Appended "lock" to ID "pol-nco-003-zamek(lock)" ...
+2023-05-25 21:31                      ...I assume "pol-nco-004-zamek(castle)" is not merely a duplicate.
+2023-05-25 21:31 Appended "become" to ID "pol-ver-007-stać(become)" ...
+2023-05-25 21:31                      ...I assume "pol-ver-008-stać(stand)" is not merely a duplicate.
+2023-05-25 21:31 The "conditional" tense on imperfective "widywać" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
+2023-05-25 21:31 Please assign a frequency category to "chair".
+2023-05-25 21:31 Please assign a frequency category to "vodka".
+2023-05-25 21:31 Please assign a frequency category to "sand".
+2023-05-25 21:31 Please assign a frequency category to "oogly".

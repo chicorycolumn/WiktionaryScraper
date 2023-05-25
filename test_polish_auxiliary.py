@@ -104,7 +104,7 @@ def test_polish_verb_minimiser(input_path: str, expected_path: str, wordtype: st
     ),
     (
             [
-                ("stary", ["old"], 1, ["starzy"], ["staro"], "starszy")
+                ("stary", ["old"], 1, ["starzy"], ["staro"], ["starszy"])
             ],
             "expected/adjectives/polish_adjectives_1"
     ),
@@ -116,16 +116,16 @@ def test_polish_verb_minimiser(input_path: str, expected_path: str, wordtype: st
     ),
     (
             [
-                ("czerwony", ["red"], 3, ["czerwoni"], ["czerwono"], "czerwieńszy")
+                ("czerwony", ["red"], 3, ["czerwoni"], ["czerwono"], ["czerwieńszy"])
             ],
             "expected/adjectives/polish_adjectives_3"
     ),
     (
             [
                 ("narodowy", ["national"], 0, ["narodowi"]),
-                ("stary", ["old"], 1, ["starzy"], ["staro"], "starszy"),
+                ("stary", ["old"], 1, ["starzy"], ["staro"], ["starszy"]),
                 ("niebieski", ["blue"], 2, ["niebiescy"], ["niebiesko"]),
-                ("czerwony", ["red"], 3, ["czerwoni"], ["czerwono"], "czerwieńszy")
+                ("czerwony", ["red"], 3, ["czerwoni"], ["czerwono"], ["czerwieńszy"])
             ],
             "expected/adjectives/polish_adjectives_4"
     ),
@@ -137,7 +137,7 @@ def test_polish_verb_minimiser(input_path: str, expected_path: str, wordtype: st
     ),
     (
             [
-                ("oogly", ["almost boogly", "a little woogly"], 1, ["oogli", "ooglji"], ["ooglo", "ooglie"], "ooglszy")
+                ("oogly", ["almost boogly", "a little woogly"], 1, ["oogli", "ooglji"], ["ooglo", "ooglie"], ["ooglszy"])
                 # Two pluvirnoms and two adverbs
             ],
             "expected/adjectives/polish_adjectives_5b"
@@ -151,7 +151,7 @@ def test_polish_verb_minimiser(input_path: str, expected_path: str, wordtype: st
     ),
     (
             [
-                ("oogly", ["almost boogly", "a little woogly"], 3, ["oogli", "ooglji"], ["ooglo", "ooglie"], "ooglszy")
+                ("oogly", ["almost boogly", "a little woogly"], 3, ["oogli", "ooglji"], ["ooglo", "ooglie"], ["ooglszy", "booglszy"])
                 # Two pluvirnoms and two adverbs
             ],
             "expected/adjectives/polish_adjectives_5d"

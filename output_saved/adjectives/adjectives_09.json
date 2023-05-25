@@ -9803,5 +9803,916 @@
             "geography"
         ],
         "id": "pol-adj-769-rodzimy"
+    },
+        {
+        "lemma": "inny",
+        "tags": [
+            "FREQ2",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "different",
+                "another",
+                "other"
+            ]
+        },
+        "extra": {
+            "synonyms": [
+                "różny"
+            ],
+            "antonyms": [
+                "ten",
+                "sam",
+                "identyczny",
+                "taki",
+                "sam",
+                "ten",
+                "sam",
+                "taki",
+                "sam",
+                "ten",
+                "sam"
+            ]
+        },
+        "inflections": {
+            "simple": {
+                "singular": {
+                    "m1": {
+                        "nom": "inny",
+                        "gen": "innego",
+                        "dat": "innemu",
+                        "acc": "innego",
+                        "ins": "innym",
+                        "loc": "innym"
+                    },
+                    "m3": {
+                        "nom": "inny",
+                        "gen": "innego",
+                        "dat": "innemu",
+                        "acc": "inny",
+                        "ins": "innym",
+                        "loc": "innym"
+                    },
+                    "f": {
+                        "nom": "inna",
+                        "gen": "innej",
+                        "dat": "innej",
+                        "acc": "inną",
+                        "ins": "inną",
+                        "loc": "innej"
+                    },
+                    "n": {
+                        "nom": "inne",
+                        "gen": "innego",
+                        "dat": "innemu",
+                        "acc": "inne",
+                        "ins": "innym",
+                        "loc": "innym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "inni",
+                        "gen": "innych",
+                        "dat": "innym",
+                        "acc": "innych",
+                        "ins": "innymi",
+                        "loc": "innych"
+                    },
+                    "nonvirile": {
+                        "nom": "inne",
+                        "gen": "innych",
+                        "dat": "innym",
+                        "acc": "inne",
+                        "ins": "innymi",
+                        "loc": "innych"
+                    }
+                }
+            },
+            "comparative": {
+                "singular": {
+                    "m1": {
+                        "nom": "bardziej inny",
+                        "gen": "bardziej innego",
+                        "dat": "bardziej innemu",
+                        "acc": "bardziej innego",
+                        "ins": "bardziej innym",
+                        "loc": "bardziej innym"
+                    },
+                    "m3": {
+                        "nom": "bardziej inny",
+                        "gen": "bardziej innego",
+                        "dat": "bardziej innemu",
+                        "acc": "bardziej inny",
+                        "ins": "bardziej innym",
+                        "loc": "bardziej innym"
+                    },
+                    "f": {
+                        "nom": "bardziej inna",
+                        "gen": "bardziej innej",
+                        "dat": "bardziej innej",
+                        "acc": "bardziej inną",
+                        "ins": "bardziej inną",
+                        "loc": "bardziej innej"
+                    },
+                    "n": {
+                        "nom": "bardziej inne",
+                        "gen": "bardziej innego",
+                        "dat": "bardziej innemu",
+                        "acc": "bardziej inne",
+                        "ins": "bardziej innym",
+                        "loc": "bardziej innym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "bardziej inni",
+                        "gen": "bardziej innych",
+                        "dat": "bardziej innym",
+                        "acc": "bardziej innych",
+                        "ins": "bardziej innymi",
+                        "loc": "bardziej innych"
+                    },
+                    "nonvirile": {
+                        "nom": "bardziej inne",
+                        "gen": "bardziej innych",
+                        "dat": "bardziej innym",
+                        "acc": "bardziej inne",
+                        "ins": "bardziej innymi",
+                        "loc": "bardziej innych"
+                    }
+                }
+            },
+            "superlative": {
+                "singular": {
+                    "m1": {
+                        "nom": "najbardziej inny",
+                        "gen": "najbardziej innego",
+                        "dat": "najbardziej innemu",
+                        "acc": "najbardziej innego",
+                        "ins": "najbardziej innym",
+                        "loc": "najbardziej innym"
+                    },
+                    "m3": {
+                        "nom": "najbardziej inny",
+                        "gen": "najbardziej innego",
+                        "dat": "najbardziej innemu",
+                        "acc": "najbardziej inny",
+                        "ins": "najbardziej innym",
+                        "loc": "najbardziej innym"
+                    },
+                    "f": {
+                        "nom": "najbardziej inna",
+                        "gen": "najbardziej innej",
+                        "dat": "najbardziej innej",
+                        "acc": "najbardziej inną",
+                        "ins": "najbardziej inną",
+                        "loc": "najbardziej innej"
+                    },
+                    "n": {
+                        "nom": "najbardziej inne",
+                        "gen": "najbardziej innego",
+                        "dat": "najbardziej innemu",
+                        "acc": "najbardziej inne",
+                        "ins": "najbardziej innym",
+                        "loc": "najbardziej innym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "najbardziej inni",
+                        "gen": "najbardziej innych",
+                        "dat": "najbardziej innym",
+                        "acc": "najbardziej innych",
+                        "ins": "najbardziej innymi",
+                        "loc": "najbardziej innych"
+                    },
+                    "nonvirile": {
+                        "nom": "najbardziej inne",
+                        "gen": "najbardziej innych",
+                        "dat": "najbardziej innym",
+                        "acc": "najbardziej inne",
+                        "ins": "najbardziej innymi",
+                        "loc": "najbardziej innych"
+                    }
+                }
+            }
+        },
+        "topics": [
+            "knowledge and existence",
+            "math"
+        ],
+        "id": "pol-adj-770-inny"
+    },
+    {
+        "lemma": "zdeterminowany",
+        "tags": [
+            "FREQ4",
+            "abstract",
+            "emotion"
+        ],
+        "translations": {
+            "ENG": [
+                "determined"
+            ]
+        },
+        "extra": {
+            "synonyms": [
+                "zdecydowany"
+            ]
+        },
+        "inflections": {
+            "simple": {
+                "singular": {
+                    "m1": {
+                        "nom": "zdeterminowany",
+                        "gen": "zdeterminowanego",
+                        "dat": "zdeterminowanemu",
+                        "acc": "zdeterminowanego",
+                        "ins": "zdeterminowanym",
+                        "loc": "zdeterminowanym"
+                    },
+                    "m3": {
+                        "nom": "zdeterminowany",
+                        "gen": "zdeterminowanego",
+                        "dat": "zdeterminowanemu",
+                        "acc": "zdeterminowany",
+                        "ins": "zdeterminowanym",
+                        "loc": "zdeterminowanym"
+                    },
+                    "f": {
+                        "nom": "zdeterminowana",
+                        "gen": "zdeterminowanej",
+                        "dat": "zdeterminowanej",
+                        "acc": "zdeterminowaną",
+                        "ins": "zdeterminowaną",
+                        "loc": "zdeterminowanej"
+                    },
+                    "n": {
+                        "nom": "zdeterminowane",
+                        "gen": "zdeterminowanego",
+                        "dat": "zdeterminowanemu",
+                        "acc": "zdeterminowane",
+                        "ins": "zdeterminowanym",
+                        "loc": "zdeterminowanym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "zdeterminowani",
+                        "gen": "zdeterminowanych",
+                        "dat": "zdeterminowanym",
+                        "acc": "zdeterminowanych",
+                        "ins": "zdeterminowanymi",
+                        "loc": "zdeterminowanych"
+                    },
+                    "nonvirile": {
+                        "nom": "zdeterminowane",
+                        "gen": "zdeterminowanych",
+                        "dat": "zdeterminowanym",
+                        "acc": "zdeterminowane",
+                        "ins": "zdeterminowanymi",
+                        "loc": "zdeterminowanych"
+                    }
+                }
+            },
+            "comparative": {
+                "singular": {
+                    "m1": {
+                        "nom": "bardziej zdeterminowany",
+                        "gen": "bardziej zdeterminowanego",
+                        "dat": "bardziej zdeterminowanemu",
+                        "acc": "bardziej zdeterminowanego",
+                        "ins": "bardziej zdeterminowanym",
+                        "loc": "bardziej zdeterminowanym"
+                    },
+                    "m3": {
+                        "nom": "bardziej zdeterminowany",
+                        "gen": "bardziej zdeterminowanego",
+                        "dat": "bardziej zdeterminowanemu",
+                        "acc": "bardziej zdeterminowany",
+                        "ins": "bardziej zdeterminowanym",
+                        "loc": "bardziej zdeterminowanym"
+                    },
+                    "f": {
+                        "nom": "bardziej zdeterminowana",
+                        "gen": "bardziej zdeterminowanej",
+                        "dat": "bardziej zdeterminowanej",
+                        "acc": "bardziej zdeterminowaną",
+                        "ins": "bardziej zdeterminowaną",
+                        "loc": "bardziej zdeterminowanej"
+                    },
+                    "n": {
+                        "nom": "bardziej zdeterminowane",
+                        "gen": "bardziej zdeterminowanego",
+                        "dat": "bardziej zdeterminowanemu",
+                        "acc": "bardziej zdeterminowane",
+                        "ins": "bardziej zdeterminowanym",
+                        "loc": "bardziej zdeterminowanym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "bardziej zdeterminowani",
+                        "gen": "bardziej zdeterminowanych",
+                        "dat": "bardziej zdeterminowanym",
+                        "acc": "bardziej zdeterminowanych",
+                        "ins": "bardziej zdeterminowanymi",
+                        "loc": "bardziej zdeterminowanych"
+                    },
+                    "nonvirile": {
+                        "nom": "bardziej zdeterminowane",
+                        "gen": "bardziej zdeterminowanych",
+                        "dat": "bardziej zdeterminowanym",
+                        "acc": "bardziej zdeterminowane",
+                        "ins": "bardziej zdeterminowanymi",
+                        "loc": "bardziej zdeterminowanych"
+                    }
+                }
+            },
+            "superlative": {
+                "singular": {
+                    "m1": {
+                        "nom": "najbardziej zdeterminowany",
+                        "gen": "najbardziej zdeterminowanego",
+                        "dat": "najbardziej zdeterminowanemu",
+                        "acc": "najbardziej zdeterminowanego",
+                        "ins": "najbardziej zdeterminowanym",
+                        "loc": "najbardziej zdeterminowanym"
+                    },
+                    "m3": {
+                        "nom": "najbardziej zdeterminowany",
+                        "gen": "najbardziej zdeterminowanego",
+                        "dat": "najbardziej zdeterminowanemu",
+                        "acc": "najbardziej zdeterminowany",
+                        "ins": "najbardziej zdeterminowanym",
+                        "loc": "najbardziej zdeterminowanym"
+                    },
+                    "f": {
+                        "nom": "najbardziej zdeterminowana",
+                        "gen": "najbardziej zdeterminowanej",
+                        "dat": "najbardziej zdeterminowanej",
+                        "acc": "najbardziej zdeterminowaną",
+                        "ins": "najbardziej zdeterminowaną",
+                        "loc": "najbardziej zdeterminowanej"
+                    },
+                    "n": {
+                        "nom": "najbardziej zdeterminowane",
+                        "gen": "najbardziej zdeterminowanego",
+                        "dat": "najbardziej zdeterminowanemu",
+                        "acc": "najbardziej zdeterminowane",
+                        "ins": "najbardziej zdeterminowanym",
+                        "loc": "najbardziej zdeterminowanym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "najbardziej zdeterminowani",
+                        "gen": "najbardziej zdeterminowanych",
+                        "dat": "najbardziej zdeterminowanym",
+                        "acc": "najbardziej zdeterminowanych",
+                        "ins": "najbardziej zdeterminowanymi",
+                        "loc": "najbardziej zdeterminowanych"
+                    },
+                    "nonvirile": {
+                        "nom": "najbardziej zdeterminowane",
+                        "gen": "najbardziej zdeterminowanych",
+                        "dat": "najbardziej zdeterminowanym",
+                        "acc": "najbardziej zdeterminowane",
+                        "ins": "najbardziej zdeterminowanymi",
+                        "loc": "najbardziej zdeterminowanych"
+                    }
+                }
+            }
+        },
+        "topics": [
+            "hobbies",
+            "mental"
+        ],
+        "id": "pol-adj-771-zdeterminowany"
+    },
+    {
+        "lemma": "gigantyczny",
+        "tags": [
+            "FREQ4",
+            "dimension",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "gigantic",
+                "giant"
+            ]
+        },
+        "adverb": [
+            "gigantycznie"
+        ],
+        "extra": {
+            "synonyms": [
+                "duży"
+            ]
+        },
+        "inflections": {
+            "simple": {
+                "singular": {
+                    "m1": {
+                        "nom": "gigantyczny",
+                        "gen": "gigantycznego",
+                        "dat": "gigantycznemu",
+                        "acc": "gigantycznego",
+                        "ins": "gigantycznym",
+                        "loc": "gigantycznym"
+                    },
+                    "m3": {
+                        "nom": "gigantyczny",
+                        "gen": "gigantycznego",
+                        "dat": "gigantycznemu",
+                        "acc": "gigantyczny",
+                        "ins": "gigantycznym",
+                        "loc": "gigantycznym"
+                    },
+                    "f": {
+                        "nom": "gigantyczna",
+                        "gen": "gigantycznej",
+                        "dat": "gigantycznej",
+                        "acc": "gigantyczną",
+                        "ins": "gigantyczną",
+                        "loc": "gigantycznej"
+                    },
+                    "n": {
+                        "nom": "gigantyczne",
+                        "gen": "gigantycznego",
+                        "dat": "gigantycznemu",
+                        "acc": "gigantyczne",
+                        "ins": "gigantycznym",
+                        "loc": "gigantycznym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "gigantyczni",
+                        "gen": "gigantycznych",
+                        "dat": "gigantycznym",
+                        "acc": "gigantycznych",
+                        "ins": "gigantycznymi",
+                        "loc": "gigantycznych"
+                    },
+                    "nonvirile": {
+                        "nom": "gigantyczne",
+                        "gen": "gigantycznych",
+                        "dat": "gigantycznym",
+                        "acc": "gigantyczne",
+                        "ins": "gigantycznymi",
+                        "loc": "gigantycznych"
+                    }
+                }
+            },
+            "adverb": "gigantycznie",
+            "comparative": {
+                "singular": {
+                    "m1": {
+                        "nom": "bardziej gigantyczny",
+                        "gen": "bardziej gigantycznego",
+                        "dat": "bardziej gigantycznemu",
+                        "acc": "bardziej gigantycznego",
+                        "ins": "bardziej gigantycznym",
+                        "loc": "bardziej gigantycznym"
+                    },
+                    "m3": {
+                        "nom": "bardziej gigantyczny",
+                        "gen": "bardziej gigantycznego",
+                        "dat": "bardziej gigantycznemu",
+                        "acc": "bardziej gigantyczny",
+                        "ins": "bardziej gigantycznym",
+                        "loc": "bardziej gigantycznym"
+                    },
+                    "f": {
+                        "nom": "bardziej gigantyczna",
+                        "gen": "bardziej gigantycznej",
+                        "dat": "bardziej gigantycznej",
+                        "acc": "bardziej gigantyczną",
+                        "ins": "bardziej gigantyczną",
+                        "loc": "bardziej gigantycznej"
+                    },
+                    "n": {
+                        "nom": "bardziej gigantyczne",
+                        "gen": "bardziej gigantycznego",
+                        "dat": "bardziej gigantycznemu",
+                        "acc": "bardziej gigantyczne",
+                        "ins": "bardziej gigantycznym",
+                        "loc": "bardziej gigantycznym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "bardziej gigantyczni",
+                        "gen": "bardziej gigantycznych",
+                        "dat": "bardziej gigantycznym",
+                        "acc": "bardziej gigantycznych",
+                        "ins": "bardziej gigantycznymi",
+                        "loc": "bardziej gigantycznych"
+                    },
+                    "nonvirile": {
+                        "nom": "bardziej gigantyczne",
+                        "gen": "bardziej gigantycznych",
+                        "dat": "bardziej gigantycznym",
+                        "acc": "bardziej gigantyczne",
+                        "ins": "bardziej gigantycznymi",
+                        "loc": "bardziej gigantycznych"
+                    }
+                }
+            },
+            "superlative": {
+                "singular": {
+                    "m1": {
+                        "nom": "najbardziej gigantyczny",
+                        "gen": "najbardziej gigantycznego",
+                        "dat": "najbardziej gigantycznemu",
+                        "acc": "najbardziej gigantycznego",
+                        "ins": "najbardziej gigantycznym",
+                        "loc": "najbardziej gigantycznym"
+                    },
+                    "m3": {
+                        "nom": "najbardziej gigantyczny",
+                        "gen": "najbardziej gigantycznego",
+                        "dat": "najbardziej gigantycznemu",
+                        "acc": "najbardziej gigantyczny",
+                        "ins": "najbardziej gigantycznym",
+                        "loc": "najbardziej gigantycznym"
+                    },
+                    "f": {
+                        "nom": "najbardziej gigantyczna",
+                        "gen": "najbardziej gigantycznej",
+                        "dat": "najbardziej gigantycznej",
+                        "acc": "najbardziej gigantyczną",
+                        "ins": "najbardziej gigantyczną",
+                        "loc": "najbardziej gigantycznej"
+                    },
+                    "n": {
+                        "nom": "najbardziej gigantyczne",
+                        "gen": "najbardziej gigantycznego",
+                        "dat": "najbardziej gigantycznemu",
+                        "acc": "najbardziej gigantyczne",
+                        "ins": "najbardziej gigantycznym",
+                        "loc": "najbardziej gigantycznym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "najbardziej gigantyczni",
+                        "gen": "najbardziej gigantycznych",
+                        "dat": "najbardziej gigantycznym",
+                        "acc": "najbardziej gigantycznych",
+                        "ins": "najbardziej gigantycznymi",
+                        "loc": "najbardziej gigantycznych"
+                    },
+                    "nonvirile": {
+                        "nom": "najbardziej gigantyczne",
+                        "gen": "najbardziej gigantycznych",
+                        "dat": "najbardziej gigantycznym",
+                        "acc": "najbardziej gigantyczne",
+                        "ins": "najbardziej gigantycznymi",
+                        "loc": "najbardziej gigantycznych"
+                    }
+                }
+            }
+        },
+        "topics": [
+            "appearance",
+            "sense and perception"
+        ],
+        "id": "pol-adj-772-gigantyczny"
+    },
+    {
+        "lemma": "kanadyjski",
+        "tags": [
+            "FREQ3",
+            "concrete",
+            "location",
+            "nation"
+        ],
+        "translations": {
+            "ENG": [
+                "Canadian"
+            ]
+        },
+        "inflections": {
+            "simple": {
+                "singular": {
+                    "m1": {
+                        "nom": "kanadyjski",
+                        "gen": "kanadyjskiego",
+                        "dat": "kanadyjskiemu",
+                        "acc": "kanadyjskiego",
+                        "ins": "kanadyjskim",
+                        "loc": "kanadyjskim"
+                    },
+                    "m3": {
+                        "nom": "kanadyjski",
+                        "gen": "kanadyjskiego",
+                        "dat": "kanadyjskiemu",
+                        "acc": "kanadyjski",
+                        "ins": "kanadyjskim",
+                        "loc": "kanadyjskim"
+                    },
+                    "f": {
+                        "nom": "kanadyjska",
+                        "gen": "kanadyjskiej",
+                        "dat": "kanadyjskiej",
+                        "acc": "kanadyjską",
+                        "ins": "kanadyjską",
+                        "loc": "kanadyjskiej"
+                    },
+                    "n": {
+                        "nom": "kanadyjskie",
+                        "gen": "kanadyjskiego",
+                        "dat": "kanadyjskiemu",
+                        "acc": "kanadyjskie",
+                        "ins": "kanadyjskim",
+                        "loc": "kanadyjskim"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "kanadyjscy",
+                        "gen": "kanadyjskich",
+                        "dat": "kanadyjskim",
+                        "acc": "kanadyjskich",
+                        "ins": "kanadyjskimi",
+                        "loc": "kanadyjskich"
+                    },
+                    "nonvirile": {
+                        "nom": "kanadyjskie",
+                        "gen": "kanadyjskich",
+                        "dat": "kanadyjskim",
+                        "acc": "kanadyjskie",
+                        "ins": "kanadyjskimi",
+                        "loc": "kanadyjskich"
+                    }
+                }
+            }
+        },
+        "topics": [
+            "geography",
+            "outside"
+        ],
+        "id": "pol-adj-773-kanadyjski"
+    },
+    {
+        "lemma": "ratunkowy",
+        "tags": [
+            "FREQ5",
+            "concrete"
+        ],
+        "translations": {
+            "ENG": [
+                "*lifesaving",
+                "*rescue",
+                "*life"
+            ]
+        },
+        "inflections": {
+            "simple": {
+                "singular": {
+                    "m1": {
+                        "nom": "ratunkowy",
+                        "gen": "ratunkowego",
+                        "dat": "ratunkowemu",
+                        "acc": "ratunkowego",
+                        "ins": "ratunkowym",
+                        "loc": "ratunkowym"
+                    },
+                    "m3": {
+                        "nom": "ratunkowy",
+                        "gen": "ratunkowego",
+                        "dat": "ratunkowemu",
+                        "acc": "ratunkowy",
+                        "ins": "ratunkowym",
+                        "loc": "ratunkowym"
+                    },
+                    "f": {
+                        "nom": "ratunkowa",
+                        "gen": "ratunkowej",
+                        "dat": "ratunkowej",
+                        "acc": "ratunkową",
+                        "ins": "ratunkową",
+                        "loc": "ratunkowej"
+                    },
+                    "n": {
+                        "nom": "ratunkowe",
+                        "gen": "ratunkowego",
+                        "dat": "ratunkowemu",
+                        "acc": "ratunkowe",
+                        "ins": "ratunkowym",
+                        "loc": "ratunkowym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "ratunkowi",
+                        "gen": "ratunkowych",
+                        "dat": "ratunkowym",
+                        "acc": "ratunkowych",
+                        "ins": "ratunkowymi",
+                        "loc": "ratunkowych"
+                    },
+                    "nonvirile": {
+                        "nom": "ratunkowe",
+                        "gen": "ratunkowych",
+                        "dat": "ratunkowym",
+                        "acc": "ratunkowe",
+                        "ins": "ratunkowymi",
+                        "loc": "ratunkowych"
+                    }
+                }
+            }
+        },
+        "topics": [
+            "danger"
+        ],
+        "id": "pol-adj-774-ratunkowy"
+    },
+      {
+        "lemma": "złamany",
+        "tags": ["FREQ3"
+        ],
+        "translations": {
+            "ENG": [
+                "broken"
+            ]
+        },
+        "extra": {
+            "synonyms": [
+                "zepsuty"
+            ]
+        },
+        "inflections": {
+            "simple": {
+                "singular": {
+                    "m1": {
+                        "nom": "złamany",
+                        "gen": "złamanego",
+                        "dat": "złamanemu",
+                        "acc": "złamanego",
+                        "ins": "złamanym",
+                        "loc": "złamanym"
+                    },
+                    "m3": {
+                        "nom": "złamany",
+                        "gen": "złamanego",
+                        "dat": "złamanemu",
+                        "acc": "złamany",
+                        "ins": "złamanym",
+                        "loc": "złamanym"
+                    },
+                    "f": {
+                        "nom": "złamana",
+                        "gen": "złamanej",
+                        "dat": "złamanej",
+                        "acc": "złamaną",
+                        "ins": "złamaną",
+                        "loc": "złamanej"
+                    },
+                    "n": {
+                        "nom": "złamane",
+                        "gen": "złamanego",
+                        "dat": "złamanemu",
+                        "acc": "złamane",
+                        "ins": "złamanym",
+                        "loc": "złamanym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "złamani",
+                        "gen": "złamanych",
+                        "dat": "złamanym",
+                        "acc": "złamanych",
+                        "ins": "złamanymi",
+                        "loc": "złamanych"
+                    },
+                    "nonvirile": {
+                        "nom": "złamane",
+                        "gen": "złamanych",
+                        "dat": "złamanym",
+                        "acc": "złamane",
+                        "ins": "złamanymi",
+                        "loc": "złamanych"
+                    }
+                }
+            },
+            "comparative": {
+                "singular": {
+                    "m1": {
+                        "nom": "bardziej złamany",
+                        "gen": "bardziej złamanego",
+                        "dat": "bardziej złamanemu",
+                        "acc": "bardziej złamanego",
+                        "ins": "bardziej złamanym",
+                        "loc": "bardziej złamanym"
+                    },
+                    "m3": {
+                        "nom": "bardziej złamany",
+                        "gen": "bardziej złamanego",
+                        "dat": "bardziej złamanemu",
+                        "acc": "bardziej złamany",
+                        "ins": "bardziej złamanym",
+                        "loc": "bardziej złamanym"
+                    },
+                    "f": {
+                        "nom": "bardziej złamana",
+                        "gen": "bardziej złamanej",
+                        "dat": "bardziej złamanej",
+                        "acc": "bardziej złamaną",
+                        "ins": "bardziej złamaną",
+                        "loc": "bardziej złamanej"
+                    },
+                    "n": {
+                        "nom": "bardziej złamane",
+                        "gen": "bardziej złamanego",
+                        "dat": "bardziej złamanemu",
+                        "acc": "bardziej złamane",
+                        "ins": "bardziej złamanym",
+                        "loc": "bardziej złamanym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "bardziej złamani",
+                        "gen": "bardziej złamanych",
+                        "dat": "bardziej złamanym",
+                        "acc": "bardziej złamanych",
+                        "ins": "bardziej złamanymi",
+                        "loc": "bardziej złamanych"
+                    },
+                    "nonvirile": {
+                        "nom": "bardziej złamane",
+                        "gen": "bardziej złamanych",
+                        "dat": "bardziej złamanym",
+                        "acc": "bardziej złamane",
+                        "ins": "bardziej złamanymi",
+                        "loc": "bardziej złamanych"
+                    }
+                }
+            },
+            "superlative": {
+                "singular": {
+                    "m1": {
+                        "nom": "najbardziej złamany",
+                        "gen": "najbardziej złamanego",
+                        "dat": "najbardziej złamanemu",
+                        "acc": "najbardziej złamanego",
+                        "ins": "najbardziej złamanym",
+                        "loc": "najbardziej złamanym"
+                    },
+                    "m3": {
+                        "nom": "najbardziej złamany",
+                        "gen": "najbardziej złamanego",
+                        "dat": "najbardziej złamanemu",
+                        "acc": "najbardziej złamany",
+                        "ins": "najbardziej złamanym",
+                        "loc": "najbardziej złamanym"
+                    },
+                    "f": {
+                        "nom": "najbardziej złamana",
+                        "gen": "najbardziej złamanej",
+                        "dat": "najbardziej złamanej",
+                        "acc": "najbardziej złamaną",
+                        "ins": "najbardziej złamaną",
+                        "loc": "najbardziej złamanej"
+                    },
+                    "n": {
+                        "nom": "najbardziej złamane",
+                        "gen": "najbardziej złamanego",
+                        "dat": "najbardziej złamanemu",
+                        "acc": "najbardziej złamane",
+                        "ins": "najbardziej złamanym",
+                        "loc": "najbardziej złamanym"
+                    }
+                },
+                "plural": {
+                    "virile": {
+                        "nom": "najbardziej złamani",
+                        "gen": "najbardziej złamanych",
+                        "dat": "najbardziej złamanym",
+                        "acc": "najbardziej złamanych",
+                        "ins": "najbardziej złamanymi",
+                        "loc": "najbardziej złamanych"
+                    },
+                    "nonvirile": {
+                        "nom": "najbardziej złamane",
+                        "gen": "najbardziej złamanych",
+                        "dat": "najbardziej złamanym",
+                        "acc": "najbardziej złamane",
+                        "ins": "najbardziej złamanymi",
+                        "loc": "najbardziej złamanych"
+                    }
+                }
+            }
+        },
+        "topics": ["medicine", "body", "engineering", "hobbies"
+        ],
+        "id": "pol-adj-775-złamany"
     }
 ]

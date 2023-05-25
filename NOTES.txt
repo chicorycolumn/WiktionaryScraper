@@ -9,17 +9,18 @@ Square brackets after translation of verbs give info about transitive (default s
 and reflexive [r]. These square brackets should be filtered out by Palette processor, so that matching across languages
 can take place.
 
-Sometimes for adjectives a comparative is scraped as a whole lobj on its own - ie "starszy". But don't bother keeping
-these, they should be scraped and stored within the main lemma "stary".
-
-I put some translations with ">..." for superlatives/comparatives, but I think get rid of these.
+Sometimes the comparative like "lepszy" appears as a separate lobj, but normally the "dobry" lobj already has all that conjugation data, so unnec.
 
 We haven't been using the "an" abstract noun tag - go through done nouns and see where add it.
 
 Go through all noun lobjs, and have question - are they holdable or not - if unset. Set that for all.
 Also set size:
-S1: pocketsize - pin to booklet
-S2: largerbutstillpickupable - book to chair (ie holdable)
-S3: cannotpickup - armchair to ship
+"size1": pocketsize - pin to booklet
+"size2": largerbutstillpickupable - book to chair (ie holdable)
+"size3": cannotpickup - armchair to ship
 
 Separate two meanings in pol-nco-510-sztuka
+
+Forms wszyscy and wszystkie are most commonly used with plural nouns. Plural forms of każdy are used only with plurale tantum nouns, nouns denoting a collection or type of objects and groups made out of a noun and a numeral.[1]
+Chłopcy mogli wejść na plac zabaw tylko w trzyosobowych grupach. Każdzi trzej chłopcy, którzy tam weszli, mieli dobrą zabawę. ― The boys could only enter the playground in groups of three. Every three boys who went in there had a good time.
+Każde drzwi w tym pokoju są drewniane. ― Every door in this room is wooden.

@@ -1,6 +1,7 @@
 from copy import deepcopy
 from html.parser import HTMLParser
 
+from utils.general.common import write_todo
 from utils.scraping.common import orth, add_string, process_extra, format_brackets_for_translation_strings
 
 """
@@ -109,22 +110,22 @@ class PolishAdjectiveParser(HTMLParser):
 
         elif len(self.output_obj["comparative"]) == 1:
             self.output_obj["comparative_type"] = 1
-            self.output_obj["comparative"] = self.output_obj["comparative"][0]
         elif len(self.output_obj["comparative"]) == 2 and self.output_obj["comparative"][0] == "bardziej":
             self.output_obj["comparative_type"] = 2
             self.output_obj.pop("comparative")
         elif len(self.output_obj["comparative"]) == 3:
             if self.output_obj["comparative"][0] == "bardziej":
                 self.output_obj["comparative_type"] = 3
-                self.output_obj["comparative"] = self.output_obj["comparative"][2]
+                self.output_obj["comparative"] = [self.output_obj["comparative"][2]]
             elif self.output_obj["comparative"][1] == "bardziej":
                 self.output_obj["comparative_type"] = 3
-                self.output_obj["comparative"] = self.output_obj["comparative"][0]
+                self.output_obj["comparative"] = [self.output_obj["comparative"][0]]
             else:
                 print(f'#ERR Wrong order of comparatives {self.output_obj["comparative"]}')
                 return
         else:
-            print(f'#ERR Wrong quantity of comparatives {self.output_obj["comparative"]}')
+            self.output_obj["comparative_type"] = 1
+            write_todo(f'Adjectives: Looks like this potential lobj has more than one type 1 comparative. Please check that {self.output_obj["comparative"]} are all valid type 1 comparatives.')
             return
 
         if "adverb" in self.output_obj and not self.output_obj["adverb"]:

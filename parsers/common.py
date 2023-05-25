@@ -29,6 +29,7 @@ def trigger_parser(
         test_only_boolean_override_check_existing:bool=False,
         just_assess_scrape_status_of_lemmas:bool=False,
         sample_version:str=None,
+        reparse_previously_rejected:bool=False
 ):
     if not test_only_boolean_override_check_existing:
         already_parsed_headwords = get_existing_lobjs(wordtype, lemmas_only=True)
@@ -44,7 +45,7 @@ def trigger_parser(
         for headword in head_words_raw:
             if headword in already_parsed_headwords:
                 headwords_not_to_parse.append(headword)
-            elif headword in already_rejected_headwords:
+            elif not reparse_previously_rejected and headword in already_rejected_headwords:
                 rejected_not_to_parse.append(headword)
             else:
                 head_words.append(headword)
@@ -171,7 +172,8 @@ def scrape_word_data(
         skip_extras: bool = False,
         test_only_boolean_override_check_existing: bool = False,
         just_assess_scrape_status_of_lemmas: bool = False,
-        sample_version: str = None
+        sample_version: str = None,
+        reparse_previously_rejected: bool = False
 ):
     if wordtype == "adjectives":
         parser = PolishAdjectiveParser(convert_charrefs=False)
@@ -208,7 +210,7 @@ def scrape_word_data(
             head_words, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs,
             test_only_boolean_override_check_existing=test_only_boolean_override_check_existing,
             just_assess_scrape_status_of_lemmas=just_assess_scrape_status_of_lemmas,
-            sample_version=sample_version
+            sample_version=sample_version, reparse_previously_rejected=reparse_previously_rejected
         )
 
         if just_assess_scrape_status_of_lemmas:
