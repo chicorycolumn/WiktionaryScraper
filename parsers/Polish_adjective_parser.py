@@ -216,7 +216,7 @@ class PolishAdjectiveParser(HTMLParser):
 
         if self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
             if self.location == "insideselectedlang":
-                if self.lasttag == "span" and data.lower() == "adjective":
+                if self.lasttag == "span" and data.lower() in ["adjective", "participle"]:
                     self.location = "insideword"
                     print('location = "insideword"')
                     self.mode = "getcomparativeinfo"

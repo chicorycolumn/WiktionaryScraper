@@ -14,19 +14,18 @@ if __name__ == '__main__':
     #         print(el)
 
     step = 2
-    group_number = 888
+    group_number = 882
     input_indexes = [0, 870]
     wordtype = "a"
     these_headwords_only = [
-        "zakazany",
-        "frontowy",
-        "czasowy",
-        "gospodarczy",
-        "każdy",
-        "owinięty",
-        "otoczony",
-        "połączony",
-        "podzielony"
+        # "frontowy",
+        # "czasowy",
+        # "gospodarczy",
+        # "każdy",
+        # "owinięty",
+        # "otoczony",
+        # "połączony",
+        # "podzielony"
     ]
     # these_headwords_only = ['lekki']
     skip_make_ids = False  # only set True when manually testing.
