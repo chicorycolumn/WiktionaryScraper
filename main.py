@@ -13,24 +13,16 @@ if __name__ == '__main__':
     #     if el[-1] not in ["y", "i"]:
     #         print(el)
 
-    step = 2
+    step = 1
     group_number = 882
     input_indexes = [0, 870]
     wordtype = "a"
     these_headwords_only = [
-        # "frontowy",
-        # "czasowy",
-        # "gospodarczy",
-        # "każdy",
-        # "owinięty",
-        # "otoczony",
-        # "połączony",
-        # "podzielony"
     ]
     # these_headwords_only = ['lekki']
     skip_make_ids = False  # only set True when manually testing.
     skip_scraping = False  # only set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
-    reparse_previously_rejected = True  # If you're manually rerunning rejected ones when collecting batch together.
+    reparse_previously_rejected = False  # If you're manually rerunning rejected ones when collecting batch together.
     skip_extras = False  # You know, the extra lemmas to parse gathered from synonyms of lemmas you asked to parse.
     langcode = "pol"
 
