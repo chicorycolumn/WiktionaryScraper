@@ -7992,5 +7992,85 @@
       "mental",
       "planning"
     ]
+  },
+  {
+    "lemma": "pieszy",
+    "tags": [
+      "person",
+      "living",
+      "concrete",
+      "transport"
+    ],
+    "translations": {
+      "ENG": [
+        "pedestrian"
+      ]
+    },
+    "gender": "m1",
+    "id": "pol-npe-129-pieszy",
+    "inflections": {
+      "singular": {
+        "nom": "pieszy",
+        "gen": "pieszego",
+        "dat": "pieszemu",
+        "acc": "pieszego",
+        "ins": "pieszym",
+        "loc": "pieszym",
+        "voc": "pieszy"
+      },
+      "plural": {
+        "nom": "piesi",
+        "gen": "pieszych",
+        "dat": "pieszym",
+        "acc": "pieszych",
+        "ins": "pieszymi",
+        "loc": "pieszych",
+        "voc": "piesi"
+      }
+    },
+    "topics": [
+      "travel",
+      "people"
+    ]
+  },
+  {
+    "lemma": "piesza",
+    "tags": [
+      "person",
+      "living",
+      "concrete",
+      "transport"
+    ],
+    "translations": {
+      "ENG": [
+        "pedestrian"
+      ]
+    },
+    "gender": "f",
+    "id": "pol-npe-130-piesza",
+    "inflections": {
+      "singular": {
+        "nom": "piesza",
+        "gen": "pieszej",
+        "dat": "pieszej",
+        "acc": "pieszą",
+        "ins": "pieszą",
+        "loc": "pieszej",
+        "voc": "piesza"
+      },
+      "plural": {
+        "nom": "piesze",
+        "gen": "pieszych",
+        "dat": "pieszym",
+        "acc": "piesze",
+        "ins": "pieszymi",
+        "loc": "pieszych",
+        "voc": "piesze"
+      }
+    },
+    "topics": [
+      "travel",
+      "people"
+    ]
   }
 ]
