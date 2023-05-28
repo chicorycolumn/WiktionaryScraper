@@ -19,7 +19,6 @@ if __name__ == '__main__':
     wordtype = "a"
     these_headwords_only = [
     ]
-    # these_headwords_only = ['lekki']
     skip_make_ids = False  # only set True when manually testing.
     skip_scraping = False  # only set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
     reparse_previously_rejected = False  # If you're manually rerunning rejected ones when collecting batch together.
