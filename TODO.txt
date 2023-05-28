@@ -10,14 +10,8 @@ Set second "lato" to pluralOnly.
 2022-03-27 19:17 The "conditional" tense on perfective "wyjść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
 2022-03-27 19:17 The "conditional" tense on imperfective "widywać" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
 
-2022-07-16 23:31 To "pol-adj-186-wyczerpujący(exhausting)" ID appended "exhausting"...
-2022-07-16 23:31                                ...I assume "pol-adj-187-wyczerpujący(exhaustive)" is not merely a duplicate.
-2022-07-16 23:31 To "pol-adj-206-rzadki(rare)" ID appended "rare"...
-2022-07-16 23:31                                ...I assume "pol-adj-207-rzadki(runny)" is not merely a duplicate.
-2022-07-16 23:31 To "pol-adj-228-ostry(sharp)" ID appended "sharp"...
-2022-07-16 23:31                                ...I assume "pol-adj-229-ostry(hot)" is not merely a duplicate.
-2022-07-16 23:31 To "pol-adj-273-lepki(sticky)" ID appended "sticky"...
-2022-07-16 23:31                                ...I assume "pol-adj-274-lepki(tacky)" is not merely a duplicate.
+
+
 2022-07-16 23:39 To "pol-ver-107-nosić(carry)" ID appended "carry"...
 2022-07-16 23:39                                ...I assume "pol-ver-108-nosić(wear)" is not merely a duplicate.
 
@@ -31,13 +25,6 @@ Set second "lato" to pluralOnly.
 2022-08-05 22:37 There are 196 doubly extra headwords, they have not been parsed: ['bieżąca', 'wydatki', 'majętny', 'relation(ship)', 'dostatni', 'remonty', 'zwierzchnik', 'niebezpieczeństwo', 'podatek', 'routine', 'access', 'affairs', 'running', 'current/ongoing', 'durnowaty', 'road', 'obserwacja', 'barwisty', 'rozmazany', 'transmisja', 'związek', 'proximity', 'mdły', 'zobowiązania', 'activities', 'kontakt', 'wpływ', 'bezpośrednia', 'ingerencja', 'impact', 'rok', 'sight', 'surroundings', 'repairs', 'bieżące', 'złowrogi', 'interference', 'przyczyna', 'promieniowanie', 'ongoing', 'relation', 'działalność', 'something)', 'problemy', 'starcie', 'łagodny', 'sale', 'informacje', 'droga', 'danger', 'pokrętny', 'meandryczny', 'radiation', 'play', 'metoda', 'registration', 'bus', 'effect/result/consequence', 'miesiąc', 'supervisor', 'transakcja', 'przełożony', 'rozkaz', 'remodeling', 'supervision', 'podgląd', 'dojazd', 'observation', 'order', 'communication', 'sequel/a', 'information', 'transmission', 'zawikłany', 'złożony', 'nagi', 'finansowanie', 'zasobny', 'neighbor', '(by', 'niecelowy', 'poplątany', 'superior', '(an)', 'sprzedaż', 'atak', 'an', 'connectivity', 'reakcja', 'close', 'lazarus', 'przeklęty', 'operation', 'expenditure', 'wgląd', 'action', 'confrontation', 'pobliski', 'komunikacja', 'skutek', 'otoczenie', 'działanie', 'continuation', 'method', 'zgubny', 'struggle', 'funding', 'pogmatwany', 'response', 'week', 'bezżenny', 'direct/immediate', 'lip-gloss', 'next-door', 'dopłaty', 'payments', 'pośredni', 'year', 'koszty', 'tydzień', 'przygłupi', 'utrzymanie', 'sytuacja', 'rozmyty', 'vehicle)', 'naprawy', 'nadziany', 'głupkowaty', 'month', 'numer', 'nadzór', 'powikłany', 'funkcjonowanie', 'niekorzystny', 'transaction', 'wydarzenia', 'zawiły', 'direct/eyeball-to-eyeball/face-to-face/head-on', 'threat', 'sprawy', 'bliskość', 'sąsiad', 'clear', 'transfer', 'przezroczysty', 'liabilities', 'przyległy', 'niewyraźny', 'relacja', 'elections', 'przekaz', 'fatalny', 'dziany', '(czegoś)', '(phone)line', 'problems', 'wybory', 'maintenance', 'direct', 'response/answer', 'state', 'costs', 'zagmatwany', 'contact', 'autobus', '(of', 'zagrożenie', 'konfrontacja', 'błyszczyk', 'połączenie', 'coercion', 'immediate', 'viewing', 'barwny', 'przymus', 'łączność', 'zamazany', 'support', 'assault', 'line', 'cause', 'bezpośrednie', 'przyrodzony', 'tax', 'situation/', 'przeniesienie', 'sensowny', 'wrodzony', 'obsługa', 'kontynuacja', 'current', '(to', 'current/up-to-date', 'rejestracja', 'odpowiedź', 'connection']
 
 2022-08-19 07:36 Want to parse any of 58 extra nouns lemmas? (I did not because of wordtype) ['koszyk', 'cielsko', 'plural only', 'serducho', 'obrusik', 'listek', 'ogór', 'obrusek', 'okazyjka', 'smoczek', 'ząbek', 'rybsko', 'decha', 'jelonek', 'chlebek', 'kosteczka', 'serduszko', 'chmurzysko', 'śniadanko', 'raczek', 'smaczek', 'byczek', 'czapa', 'deseczka', 'lodzik', 'drzwiczki', 'baja', 'chmurka', 'mulica', 'deszczyk', 'dzionek', 'przyjaciółka', 'zębisko', 'smoczyca', 'rybka', 'jagódka', 'ogóreczek', 'kocyk', 'złotko', 'usteczka', 'chlebuś', 'wieczorek', 'mgiełka', 'mleczko', 'córeczka', 'bródka', 'wysepka', 'czapeczka', 'miasteczko', 'córa', 'ciałko', 'kolorek', 'mulisko', 'sekundka', 'mulątko', 'bajeczka', 'kremik', 'smoczysko']
-
-2022-08-30 09:31 To "pol-adj-287-nijaki(neuter)" ID appended "neuter"...
-2022-08-30 09:31                                ...I assume "pol-adj-288-nijaki(bland)" is not merely a duplicate.
-2022-08-30 09:31 To "pol-adj-291-wolny(slow)" ID appended "slow"...
-2022-08-30 09:31                                ...I assume "pol-adj-292-wolny(free)" is not merely a duplicate.
-2022-08-30 09:31 To "pol-adj-301-szczęśliwy(happy)" ID appended "happy"...
-2022-08-30 09:31                                ...I assume "pol-adj-302-szczęśliwy(lucky)" is not merely a duplicate.
 
 2022-08-30 10:13 "brakować" defective or strange inflections table. Kicking it out of verbs.
 2022-08-30 10:13 "charakteryzować" has no infinitive. Kicking it out of verbs.
@@ -58,7 +45,6 @@ Set second "lato" to pluralOnly.
 2022-09-01 13:27 The "conditional" tense on perfective "dojść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
 
 2022-09-10 22:42 Want to parse any of 120 extra nouns-lemmas? (I did not because of wordtype) ['słówko', 'jajo', 'jabłuszko', 'dziad', 'koleżanka', 'niedźwiedzica', 'kierowniczka', 'olejek', 'temperaturka', 'borsuczyca', 'kwasek', 'niedźwiadek', 'smyczka', 'młot', 'łoże', 'wietrzysko', 'kurczaczek', 'zwierzątko', 'chwilka', 'jeżyk', 'turystka', 'o.', 'żółwica', 'jajeczko', 'młoteczek', 'dziadziuś', 'człowieczysko', 'polityczka', 'obiadek', 'myszka', 'wujaszek', 'zameczek', 'toporek', 'sóweczka', 'gówienko', 'walizka', 'roślinka', 'piórko', 'śledzik', 'bilecik', 'miodek', 'ramionko', 'cytrynka', 'piwko', 'kursik', 'piwsko', 'grosik', 'lusterko', 'literka', 'siekierka', 'koleżka', 'jeziorzysko', 'liderka', 'krabik', 'wiaderko', 'mieczyk', 'światek', 'duszek', 'pomyłeczka', 'kombinatorka', 'prezencik', 'wiaterek', 'jeziorko', 'łosica', 'piekiełko', 'babusia', 'tłumaczka', 'gąbeczka', 'główka', 'truskaweczka', 'źródełko', 'dymek', 'papużka', 'samolocik', 'balonek', 'balonik', 'królewiątko', 'pomidorek', 'm', 'kluczyk', 'kółko', 'łóżeczko', 'samochodzik', 'porządeczek', 'paszporcik', 'pieniąch', 'micha', 'wujcio', 'ogienek', 'wronka', 'samochodzisko', 'wężyk', 'karaluszek', 'ołóweczek', 'pieniążek', 'żółwik', 'gałązka', 'przecineczek', 'rączka', 'ciasteczko', 'ciacho', 'ziemniaczek', 'sówka', 'ogieniek', 'miseczka', 'km', 'człowieczek', 'rycerzyk', 'babunia', 'kalafiorek', 'papryczka', 'pomarańczka', 'zamczysko', 'łosiek', 'bohaterka', 'pchełka', 'wietrzyk', 'ogonek', 'móżdżek', 'gr']
-2022-09-10 22:59 There are 147 doubly extra adjectives-headwords, they have not been parsed: ['obserwator', 'zachowanie', 'beyaz', 'świeży', 'term:', 'consumption', 'attitude', 'passive', 'rozrośnięty', 'mass', 'musimy', 'chropawy', 'bestsellerowy', 'coordinate', 'podły', 'kumaty', 'politics', 'zachrypły', 'widz', 'observer', 'performer', 'recipient', 'wykonawca', 'na', 'consumer', 'zawodowo', 'buńczuczny', 'recurrent', 'hitowy', 'role', 'wypoczynek', 'observation', 'kontemplacja', 'przedziwny', 'członek', 'acceptance', 'wyborcze', 'opór', 'toporny', 'obojętny', 'ordynarny', 'subtelny', 'odbiorca', 'professionally', 'involvement', 'rzeźwy', 'uzdolniony', 'konstrukcja', 'nieumyślny', 'rola', 'niewyrobiony', 'behavior', 'ak', 'nieobyty', 'investor', 'zawadiacki', 'politycznie', 'bribery', 'wyrośnięty', 'się', 'świadomy', 'uczestnictwo', 'depression', 'listener', 'polityka', 'wyrozumiały', 'viewer', 'bezpieczeństwo', 'electoral', 'funkcjonujący', 'świadek', 'sceniczny', 'życiodajny', 'brief', 'technologically', 'zuchwały', 'language', 'nieznaczny', 'stonowany', 'rosły', 'konsument', 'bierni', 'niedojrzały', 'czekanie/oczekiwanie/wyczekiwanie', 'nawracające', 'czemuś', 'szlagierowy', 'zaburzenia', 'bierne', 'security', 'zadzierzysty', 'sprawny', 'nieczynny', 'akceptacja', 'career-wise', 'udział', 'poddanie', 'sprężysty', 'smoking', 'przedmiot', 'ludzie', 'object', 'łapownictwo', 'przyglądanie', 'obcesowy', 'inwestor', 'chropowaty', 'witness', 'resistance', 'gracki', 'technologicznie', 'construction', 'politically', 'depresyjne', 'niesprawny', 'bierna', 'member', 'masa', 'osoby', 'knowledge', 'rights', 'chrapliwy', 'znajomość', 'contemplation', 'participant', 'nieopisany', 'konsumpcja', 'participation', 'people', 'zamaszysty', 'waiting', 'mięsisty', 'we', 'postawny', 'rest', 'form', 'uczestnik', 'słuchacz', 'obserwacja', 'forma', 'zgrubny', 'łagodny', 'postawa', 'krótkotrwałe', 'niegodzien', 'ochrypły', 'języka']
 
 2022-09-24 20:30 To "pol-nco-280-niebo(sky)" ID appended "sky"...
 2022-09-24 20:30                                ...I assume "pol-nco-281-niebo(heaven)" is not merely a duplicate.
@@ -74,8 +60,7 @@ Set second "lato" to pluralOnly.
 2022-09-24 20:30                                ...I assume "pol-nco-387-zakład(bet)" is not merely a duplicate.
 2022-09-24 20:30 To "pol-nco-392-zamek(lock)" ID appended "lock"...
 2022-09-24 20:30                                ...I assume "pol-nco-393-zamek(castle)" is not merely a duplicate.
-2022-09-24 20:30 To "pol-adj-363-surowy(raw)" ID appended "raw"...
-2022-09-24 20:30                                ...I assume "pol-adj-364-surowy(strict)" is not merely a duplicate.
+
 
 2022-09-25 20:07 Verbs. #ERR "eksplodować" output_obj["aspect"] is ['impf', 'or', 'pf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
 2022-09-25 20:09 Verbs. At least two lobjs of "dowodzić" will need allohomInfo added.
@@ -87,7 +72,6 @@ Set second "lato" to pluralOnly.
 2022-09-25 20:11 The "conditional" tense on perfective "dojść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
 
 2022-10-03 21:45 Want to parse any of 60 extra nouns-lemmas? (I did not because of wordtype) ['resztka', 'dziczek', 'koneweczka', 'robal', 'błocisko', 'papryczka', 'kuzynka', 'orzełek', 'piach', 'złodziejaszek', 'mięcho', 'mięsko', 'korzonek', 'kościółek', 'inż.', 'owocek', 'ogródek', 'skrzypeczki', 'sklepik', 'sztuczka', 'brzuszysko', 'pochewka', 'skrzydełko', 'tłuszczyk', 'skórka', 'skrzypki', 'grzebyk', 'dziczka', 'wiocha', 'mydełko', 'śliweczka', 'dziurka', 'błocko', 'robaczek', 'gąska', 'złodziejka', 'skoczek', 'włosek', 'pięterko', 'pieprzyk', 'gwiazdka', 'otworek', 'gąsieniczka', 'błotko', 'orzeszek', 'wioska', 'błotnisko', 'małpka', 'brzuszek', 'rożek', 'papieżyca', 'piaseczek', 'kelnerka', 'pokoik', 'godzinka', 'kombinatorka', 'twarzyczka', 'żabka', 'stryszek', 'rzeczka']
-2022-10-03 21:49 There are 28 doubly extra adjectives-headwords, they have not been parsed: ['professionally', 'zawadiacki', 'obojętny', 'gracki', 'politically', 'uzdolniony', 'sprężysty', 'bribery', 'świadomy', 'rzeźwy', 'sceniczny', 'kumaty', 'hitowy', 'szlagierowy', 'niewyrobiony', 'zuchwały', 'zadzierzysty', 'technologically', 'buńczuczny', 'bierni', 'zamaszysty', 'podły', 'nieobyty', 'bestsellerowy', 'security', 'życiodajny', 'nietutejszy', 'osoby']
 
 "skrzypce" is tantum plurale
 "hair" can be singular but is normally plural, and same goes for "włos".
@@ -115,7 +99,6 @@ Set second "lato" to pluralOnly.
 
 2022-10-24 17:59 Want to parse any of 66 extra nouns-lemmas? (I did not because of wordtype) ['osiołek', 'majtasy', 'urzędzik', 'pingwinek', 'kombinatorka', 'aniołek', 'bogini', 'piłeczka', 'kamyk', 'bożek', 'kanapeczka', 'przestępczyni', 'strzałka', 'wróbelek', 'koszulka', 'kalendarzyk', 'buteleczka', 'biedroneczka', 'kamor', 'kartoflisko', 'zdanko', 'gołąbek', 'stateczek', 'rajstopki', 'cząstka', 'gołębica', 'papierosek', 'pytańko', 'teściowa', 'sznureczek', 'komóra', 'plecki', 'kijek', 'kapelusik', 'kartofelek', 'czółko', 'jajeczko', 'anielica', 'komóreczka', 'lodówa', 'walizeczka', 'strażaczek', 'wróblica', 'kwadracik', 'szufladka', 'adwokatka', 'adwokacik', 'kapeluszysko', 'butla', 'nożyce', 'spodenki', 'gruszeczka', 'dzwonek', 'owieczka', 'dzięciołek', 'wróblisko', 'motylek', 'zupka', 'pytanko', 'majteczki', 'lodóweczka', 'majciochy', 'grzybek', 'kapelusisko', 'krzesełko', 'jajco']
 
-2022-10-24 18:05 There are 30 doubly extra adjectives-headwords, they have not been parsed: ['zawadiacki', 'zuchwały', 'poufny', 'hitowy', 'unikalny', 'nieistotny', 'entirely', 'oględny', 'nieżywotny', 'dyskretny', 'sceniczny', 'rozdzielny', 'niewielki', 'zamaszysty', 'nierozpoznawalny', 'wymyślny', 'znaczny', 'sprężysty', 'bestsellerowy', 'filigranowy', 'życiodajny', 'gracki', 'szlagierowy', 'rzeźwy', 'completely', 'buńczuczny', 'hinduistyczny', 'niewidoczny', 'taktowny', 'zadzierzysty']
 
 2022-10-24 18:08 Verbs. #ERR "kazać" output_obj["aspect"] is ['impf', 'or', 'pf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
 2022-10-24 18:08 Verbs. #ERR "kazać" output_obj["aspect"] is ['impf', 'or', 'pf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
@@ -183,7 +166,6 @@ Also sort this in all lobjs.
 2022-11-20 09:34                      ...I assume "pol-ver-433-nakręcać(turn)" is not merely a duplicate.
 
 2022-11-20 09:40 Want to parse any of 74 extra nouns-lemmas? (I did not because of wordtype) ['ogrodniczka', 'łezka', 'deserek', 'model', 'łopatka', 'łódeczka', 'hasełko', 'wnuczek', 'gardełko', 'nastolatka', 'świneczka', 'dowodzik', 'wisienka', 'żołnierzyk', 'łańcuszek', 'bilansik', 'pracowniczka', 'ciężaróweczka', 'ławeczka', 'guziczek', 'tygrysek', 'żyrafiątko', 'wnusia', 'fotelik', 'nitka', 'akuszer', 'jaszczur', 'choróbsko', 'światełko', 'stacyjka', 'pracownica', 'pajęczyca', 'gardziołko', 'krokodylek', 'szczurek', 'ślimaczek', 'świnka', 'bagażyk', 'żarcik', 'lawinka', 'kapłanka', 'choineczka', 'pioseneczka', 'przewodniczka', 'szlafroczek', 'trójkącik', 'brzeżek', 'lwisko', 'królica', 'nr', 'wiewióreczka', 'kucharka', 'maszynka', 'bioderko', 'szczurzyca', 'wiewióra', 'księżna', 'ciężarówa', 'żołnierka', 'pajączek', 'choina', 'tygrysica', 'ks.', 'lewek', 'żeberko', 'jaszczureczka', 'pasażerka', 'króliczek', 'wnuś', 'węgielek', 'kłamstewko', 'lwica', 'łódka', 'portfelik']
-2022-11-20 09:45 There are 26 doubly extra adjectives-headwords, they have not been parsed: ['amaterialny', 'odświeżony', 'przyjęty', 'dźwięczny', 'błahy', 'zniewieściały', 'nieistotny', 'nieważny', 'rzeźwy', 'beznamiętny', 'apatyczny', 'organiczny', 'krępy', 'wyspany', 'tchórzliwy', 'kolokwialny', 'namiętny', 'rześki', 'nadludzki', 'ożywczy', 'okrutny', 'nieświeży', 'bezlitosny', 'wypoczęty', 'bojaźliwy', 'anorganiczny']
 
 2022-11-20 09:47 Verbs. #ERR "charakteryzować" output_obj["aspect"] is ['impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
 2022-11-20 09:48 Verbs. #ERR "mieszać" output_obj["aspect"] is ['impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
@@ -207,11 +189,6 @@ Also sort this in all lobjs.
 2022-11-20 09:51 The "conditional" tense on perfective "odejść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
 
 2022-11-20 09:51 SKIPPED this entire lobj in minimise_inflections. "future" tense on imperfective "odrzucać" should have 31 strings but has 20.
-
-2022-12-22 15:48 Appended "summer" to ID "pol-adj-601-letni(summer)" ...
-2022-12-22 15:48                      ...I assume "pol-adj-602-letni(lukewarm)" is not merely a duplicate.
-2022-12-22 15:48 Appended "sea" to ID "pol-adj-623-morski(sea)" ...
-2022-12-22 15:48                      ...I assume "pol-adj-624-morski(teal)" is not merely a duplicate.
 
 2022-12-22 15:48 Appended "password" to ID "pol-nco-648-hasło(password)" ...
 2022-12-22 15:48                      ...I assume "pol-nco-649-hasło(slogan)" is not merely a duplicate.
@@ -257,7 +234,6 @@ Also sort this in all lobjs.
 2022-12-22 15:52 Appended "reflect" to ID "pol-ver-507-odbijać(reflect)" ...
 2022-12-22 15:52                      ...I assume "pol-ver-509-odbijać(bounce)" is not merely a duplicate.
 
-2022-12-23 17:54 There are 24 doubly extra adjectives-headwords, they have not been parsed: ['płochy', 'antyczny', 'epizodyczny', 'podniosły', 'przedpotopowy', 'holistyczny', 'skwarny', 'dobrowolny', 'staromodny', 'swarliwy', 'udawany', 'powinny', 'rozżarzony', 'szkicowy', 'nadobowiązkowy', 'staroświecki', 'fakultatywny', 'wzniosły', 'błahy', 'bagatelny', 'nienowoczesny', 'ponadobowiązkowy', 'nieobowiązkowy', 'niebagatelny']
 2022-12-23 17:55 Verbs. At least two lobjs of "pakować" will need allohomInfo added.
 2022-12-23 17:57 Verbs. At least two lobjs of "oznaczać" will need allohomInfo added.
 2022-12-23 17:57 Verbs. At least two lobjs of "pokręcić" will need allohomInfo added.
@@ -272,8 +248,6 @@ Also sort this in all lobjs.
 2022-12-23 18:00 "charakteryzować" has no infinitive. Kicking it out of verbs.
 2022-12-23 18:00 SKIPPED this entire lobj in minimise_inflections. "future" tense on imperfective "odrzucać" should have 31 strings but has 20.
 2022-12-23 18:04 Want to parse any of 58 extra nouns-lemmas? (I did not because of wordtype) ['zdrówko', 'żaróweczka', 'stawik', 'laseczka', 'cząsteczka', 'obywatelka', 'miotełka', 'daszek', 'banknocik', 'garniturek', 'strażniczka', 'chomiczek', 'szaliczek', 'pisarka', 'lacha', 'pudło', 'dziennikarzyna', 'morderczyni', 'muzyczka', 'płotek', 'celniczka', 'bluzina', 'spódniczka', 'dziennikarka', 'chodniczek', 'ciepełko', 'sukieneczka', 'śrubka', 'śpiewaczka', 'powódka', 'zajączek', 'pałacyk', 'fryzjerka', 'zajęczyca', 'koszmarek', 'właścicielka', 'gwoździk', 'chomiczka', 'uczennica', 'tatuażyk', 'kurteczka', 'klientka', 'pudełeczko', 'szczególik', 'zabaweczka', 'bandażyk', 'silniczek', 'nereczka', 'czacha', 'szczegółek', 'stawek', 'nera', 'policjantka', 'sędzina', 'biureczko', 'miotlisko', 'torebka', 'krzyżyk']
-
-"pieszy" is adj but we should manually make it noun.
 
 2023-01-13 19:38 Appended "bill" to ID "pol-nco-773-rachunek(bill)" ...
 2023-01-13 19:38                      ...I assume "pol-nco-774-rachunek(account)" is not merely a duplicate.
@@ -301,7 +275,6 @@ Also sort this in all lobjs.
 2023-01-13 19:40                      ...I assume "pol-ver-603-pieprzyć(fuck)" is not merely a duplicate.
 
 
-2023-01-13 19:49 There are 22 doubly extra adjectives-headwords, they have not been parsed: ['pożądliwy', 'sknerowaty', 'wejściowy', 'marzycielski', 'bezużyteczny', 'materialistyczny', 'nieudolny', 'uroczysty', 'krętacki', 'niefachowy', 'dyletancki', 'nieobyty', 'niedostosowany', 'odświętny', 'pomysłowy', 'galowy', 'cwaniacki', 'szczwany', 'fundamentalny', 'obsceniczny', 'nieustępliwy', 'chciwy']
 
 2023-01-13 19:54 Want to parse any of 64 extra nouns-lemmas? (I did not because of wordtype) ['szafeczka', 'zeszycik', 'kawiarenka', 'pancerzyk', 'art.', 'fasolka', 'tasiemka', 'drapieżnica', 'tabliczka', 'dzielniczka', 'sekretarka', 'prezydentka', 'imprezka', 'łyżewka', 'szczota', 'krzaczek', 'mistrzyni', 'futerko', 'nastroik', 'łebek', 'kawałeczek', 'umywaleczka', 'główeczka', 'bela', 'klata', 'ziółko', 'szczoteczka', 'poduszeczka', 'łepek', 'faja', 'piórniczek', 'buła', 'dzwoneczek', 'kaszelek', 'rurka', 'fajczysko', 'pączuszek', 'drucik', 'kołderka', 'karczek', 'węzełek', 'rysuneczek', 'tytulik', 'klateczka', 'karczycho, karczysko', 'bułeczka', 'smrodek', 'półeczka', 'wegetarianka', 'więźniarka', 'fasolisko', 'zadanko', 'fajeczka', 'grzmocik', 'póła', 'ręczniczek', 'beleczka', 'rolniczka', 'mączka', 'kłopocik', 'poducha', 'prześcieradełko', 'pączuś', 'koleżaneczka']
 
@@ -357,10 +330,6 @@ Also sort this in all lobjs.
 2023-03-28 14:15                      ...I assume "pol-ver-800-przełożyć(postpone)" is not merely a duplicate.
 2023-03-28 14:15 Appended "move" to ID "pol-ver-801-przekładać(move)" ...
 2023-03-28 14:15                      ...I assume "pol-ver-802-przekładać(postpone)" is not merely a duplicate.
-2023-03-28 14:20 Appended "northern" to ID "pol-adj-714-północny(northern)" ...
-2023-03-28 14:20                      ...I assume "pol-adj-715-północny(midnight)" is not merely a duplicate.
-2023-03-28 14:20 Appended "southern" to ID "pol-adj-737-południowy(southern)" ...
-2023-03-28 14:20                      ...I assume "pol-adj-738-południowy(noon)" is not merely a duplicate.
 
 2023-04-12 11:06 Appended "politics" to ID "pol-nco-907-polityka(politics)" ...
 2023-04-12 11:06                      ...I assume "pol-nco-908-polityka(policy)" is not merely a duplicate.
@@ -420,4 +389,9 @@ Also sort this in all lobjs.
 2023-04-12 11:39 The "conditional" tense on perfective "rozejść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
 2023-04-12 11:39 SKIPPED this entire lobj in minimise_inflections. "future" tense on imperfective "odrzucać" should have 31 strings but has 20.
 
-2023-05-25 22:12 Hiya, some potential adjectives we might want to add (that would need to be manually created) ["frontowy","czasowy","gospodarczy","każdy","owinięty","otoczony","połączony","podzielony"].
+2023-05-25 22:12 Hiya, some potential adjectives we might want to add (that would need to be manually created)
+["frontowy","czasowy","gospodarczy","każdy","owinięty","otoczony","połączony","podzielony",].
+And some to scrape:
+['obojętny','sprężysty','świadomy','kumaty','zuchwały','poufny','podły','niewidzialny','niewidoczny','namiętny','okrutny',
+'bojaźliwy','staromodny','staroświecki','fakultatywny','pożądliwy','chciwy','pomysłowy',]
+
