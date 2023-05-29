@@ -790,20 +790,17 @@
     },
     {
         "lemma": "słoneczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4UU,ene",
         "translations": {
             "ENG": [
-                "solar",
-                "(relational)",
-                "sun",
-                "sunny",
-                "(featuring a lot of sunshine)"
-            ]
+                "*solar",
+                "*sun",
+                "*sunny"   ]
         },
         "temp_id": "10.64"
     },
     {
-        "lemma": "stanowczy",
+        "lemma": "!stanowczy",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -818,7 +815,7 @@
     },
     {
         "lemma": "zdecydowany",
-        "tags": "xxxxxxxxx",
+        "tags": "4e,pl",
         "translations": {
             "ENG": [
                 "certain",
@@ -826,14 +823,13 @@
                 "certain",
                 "firm",
                 "determined",
-                "in certain collocations",
-                "vast"
+                "resolute"
             ]
         },
         "temp_id": "10.66"
     },
     {
-        "lemma": "stołeczny",
+        "lemma": "!stołeczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -845,18 +841,17 @@
     },
     {
         "lemma": "skuteczny",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng",
         "translations": {
             "ENG": [
                 "effective",
-                "efficacious",
-                "effectual"
+                "efficient"
             ]
         },
         "temp_id": "10.68"
     },
     {
-        "lemma": "bezskuteczny",
+        "lemma": "!bezskuteczny",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -868,29 +863,21 @@
     },
     {
         "lemma": "próżny",
-        "tags": "xxxxxxxxx",
+        "tags": "4py",
         "translations": {
             "ENG": [
-                "vain",
-                "vainglorious",
-                "empty",
-                "void",
-                "fruitless",
-                "futile",
-                "unavailing"
+                "vain"
             ]
         },
         "temp_id": "10.70"
     },
     {
         "lemma": "bezcelowy",
-        "tags": "xxxxxxxxx",
+        "tags": "5pl",
         "translations": {
             "ENG": [
                 "aimless",
-                "purposeless",
-                "pointless",
-                "futile"
+                "pointless"
             ]
         },
         "temp_id": "10.71"
