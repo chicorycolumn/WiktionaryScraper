@@ -380,10 +380,10 @@
     },
     {
         "lemma": "kąpiel",
-        "tags": "xxxxxxxxx",
+        "tags": "2dr",
         "translations": {
             "ENG": [
-                "bath bathing"
+                "*bath"
             ]
         },
         "temp_id": "10.34",
@@ -391,10 +391,14 @@
     },
     {
         "lemma": "balanga",
-        "tags": "xxxxxxxxx",
+        "tags": "4ttt,G",
         "translations": {
             "ENG": [
-                "booze-up brannigan",
+                "booze up",
+                "shindig",
+                "rave",
+                "bash",
+                "party",
                 "(a party with a lot of alcohol) (colloquial)"
             ]
         },
@@ -402,7 +406,7 @@
         "gender": "f"
     },
     {
-        "lemma": "strzelec",
+        "lemma": "!strzelec",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -414,11 +418,10 @@
     },
     {
         "lemma": "fryzjerka",
-        "tags": "xxxxxxxxx",
+        "tags": "3j,gg",
         "translations": {
             "ENG": [
-                "female equivalent of fryzjer",
-                "( “ hairdresser barber ” )"
+                "hairdresser"
             ]
         },
         "temp_id": "10.37",
@@ -426,12 +429,11 @@
     },
     {
         "lemma": "wsparcie",
-        "tags": "xxxxxxxxx",
+        "tags": "4w,pol",
         "translations": {
             "ENG": [
-                "verbal noun of wesprzeć",
                 "support",
-                "assistance aid"
+                "assistance"
             ]
         },
         "temp_id": "10.38",
@@ -439,7 +441,7 @@
     },
     {
         "lemma": "gratulacje",
-        "tags": "xxxxxxxxx",
+        "tags": "4sr,sg",
         "translations": {
             "ENG": [
                 "congratulations"
@@ -453,9 +455,7 @@
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
-                "workbench",
-                "workshop",
-                "craft, the methods or style of artistic creation specific to an individual"
+                "workshop"
             ]
         },
         "temp_id": "10.40",
