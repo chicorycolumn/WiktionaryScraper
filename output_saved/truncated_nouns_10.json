@@ -452,7 +452,7 @@
     },
     {
         "lemma": "warsztat",
-        "tags": "xxxxxxxxx",
+        "tags": "4ttt,w",
         "translations": {
             "ENG": [
                 "workshop"
@@ -463,17 +463,17 @@
     },
     {
         "lemma": "czarownik",
-        "tags": "xxxxxxxxx",
+        "tags": "4p,RRR",
         "translations": {
             "ENG": [
-                "sorcerer warlock wizard"
+                "sorcerer","warlock","wizard"
             ]
         },
         "temp_id": "10.41",
         "gender": "m1"
     },
     {
-        "lemma": "czarownik",
+        "lemma": "!czarownik",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -486,11 +486,10 @@
     },
     {
         "lemma": "brunetka",
-        "tags": "xxxxxxxxx",
+        "tags": "3ppp",
         "translations": {
             "ENG": [
-                "female equivalent of brunet",
-                "(dark-haired woman) ( “ brunette ” )"
+                "brunette"
             ]
         },
         "temp_id": "10.43",
@@ -498,7 +497,7 @@
     },
     {
         "lemma": "rowerzysta",
-        "tags": "xxxxxxxxx",
+        "tags": "3p,TT,yy",
         "translations": {
             "ENG": [
                 "cyclist"
@@ -509,11 +508,10 @@
     },
     {
         "lemma": "rowerzystka",
-        "tags": "xxxxxxxxx",
+    "tags": "3p,TT,yy",
         "translations": {
             "ENG": [
-                "female equivalent of rowerzysta",
-                "( “ cyclist ” )"
+                "cyclist"
             ]
         },
         "temp_id": "10.45",
@@ -521,13 +519,10 @@
     },
     {
         "lemma": "mróz",
-        "tags": "xxxxxxxxx",
+        "tags": "3L",
         "translations": {
             "ENG": [
-                "freeze frost",
-                "(cold weather)",
-                "dusty miller, a small plant with decorative silver leaves, especially silver ragwort",
-                "(Jacobaea maritima, formerly Senecio cineraria)"
+                "frost"
             ]
         },
         "temp_id": "10.46",
@@ -535,12 +530,10 @@
     },
     {
         "lemma": "galeria",
-        "tags": "xxxxxxxxx",
+        "tags": "3art,lb",
         "translations": {
             "ENG": [
-                "gallery",
-                "(institution, building, or room for the exhibition and conservation of works of art) (architecture)",
-                "shopping centre"
+                "gallery"
             ]
         },
         "temp_id": "10.47",
@@ -548,11 +541,10 @@
     },
     {
         "lemma": "aptekarka",
-        "tags": "xxxxxxxxx",
+              "tags": "3j,med",
         "translations": {
             "ENG": [
-                "female equivalent of aptekarz",
-                "( “ apothecary chemist druggist pharmacist ” )"
+                "chemist","pharmacist"
             ]
         },
         "temp_id": "10.48",
@@ -560,10 +552,10 @@
     },
     {
         "lemma": "aptekarz",
-        "tags": "xxxxxxxxx",
+         "tags": "3j,med",
         "translations": {
             "ENG": [
-                "apothecary chemist druggist pharmacist"
+                "chemist","pharmacist"
             ]
         },
         "temp_id": "10.49",
