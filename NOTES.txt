@@ -1,26 +1,42 @@
-For lemma objects:
+Notes on scraping finalising (NSFs) for lemma objects:
+Tasks of scraping finalising (TSFs) for lemma objects:
 
+NSF-001
 Asterisk before translations mean that these are specific collocations and should not be picked up by general matching
 of lemmas across languages by the Palette processor. eg "dotrzymać" means "to keep" but only in the sense of "to keep a
 promise", and so this translation is marked as "*to keep a promise". So Palette processor should ignore asterisked
-translations, unless specificLemmaIds is set.
+translations, unless specificLemmaIds is set. Will implement this on BE/FE.
 
+NSF-002
 Square brackets after translation of verbs give info about transitive (default so no square brackets), intransitive [i]
 and reflexive [r]. These square brackets should be filtered out by Palette processor, so that matching across languages
 can take place.
 
-Sometimes the comparative like "lepszy" appears as a separate lobj, but normally the "dobry" lobj already has all that conjugation data, so unnec.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+TSF-001 (adj)
+Sometimes the comparative like "lepszy" appears as a separate lobj, but normally the "dobry" lobj already has all that conjugation data, so unnec.
+[✔] Batch 1 adj.
+
+TSF-002 (nou)
 We haven't been using the "an" abstract noun tag - go through done nouns and see where add it.
 
+TSF-003 (nou)
 Go through all noun lobjs, and have question - are they holdable or not - if unset. Set that for all.
 Also set size:
 "size1": pocketsize - pin to booklet
 "size2": largerbutstillpickupable - book to chair (ie holdable)
 "size3": cannotpickup - armchair to ship
 
-Separate two meanings in pol-nco-510-sztuka
+TSF-004 (adj,nou,ver)
+Search in finalised batch of lobjs file for all "", because these can come from incorrectly process % tag ie tag hypernym.
+[✔] Batch 1 adj.
 
-Forms wszyscy and wszystkie are most commonly used with plural nouns. Plural forms of każdy are used only with plurale tantum nouns, nouns denoting a collection or type of objects and groups made out of a noun and a numeral.[1]
-Chłopcy mogli wejść na plac zabaw tylko w trzyosobowych grupach. Każdzi trzej chłopcy, którzy tam weszli, mieli dobrą zabawę. ― The boys could only enter the playground in groups of three. Every three boys who went in there had a good time.
-Każde drzwi w tym pokoju są drewniane. ― Every door in this room is wooden.
+TSF-005 (special)
+Add "każdy" and "wszystki" manually as special lobjs. I guess they're adj lobjs, but they're specially handled ones.
+    Forms wszyscy and wszystkie are most commonly used with plural nouns. Plural forms of każdy are used only with plurale tantum nouns, nouns denoting a collection or type of objects and groups made out of a noun and a numeral.[1]
+    Chłopcy mogli wejść na plac zabaw tylko w trzyosobowych grupach. Każdzi trzej chłopcy, którzy tam weszli, mieli dobrą zabawę. ― The boys could only enter the playground in groups of three. Every three boys who went in there had a good time.
+    Każde drzwi w tym pokoju są drewniane. ― Every door in this room is wooden.
+
+TSF-006 (adj)
+Check "adverb" is present inside inflections then delete the top level "adverb" key.
