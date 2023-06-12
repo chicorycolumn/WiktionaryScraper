@@ -563,13 +563,24 @@
     },
     {
         "lemma": "płyta",
-        "tags": "xxxxxxxxx",
+        "tags": "5eng",
         "translations": {
             "ENG": [
-                "plate tile",
-                "(sheet of ceramic or fired clay to cover surfaces)",
-                "disk CD CD-ROM DVD, etc.",
-                "(technology)"
+                "plate","tile"
+            ]
+        },
+        "temp_id": "10.50",
+        "gender": "f"
+    },
+    {
+        "lemma": "płyta",
+        "tags": "3ii,mus",
+        "translations": {
+            "ENG": [
+                 "disk",
+                 "disc",
+                "CD","CD-ROM","DVD"
+
             ]
         },
         "temp_id": "10.50",
@@ -577,7 +588,7 @@
     },
     {
         "lemma": "szpieg",
-        "tags": "xxxxxxxxx",
+        "tags": "4j,pol",
         "translations": {
             "ENG": [
                 "spy"
@@ -588,14 +599,20 @@
     },
     {
         "lemma": "biblioteczka",
-        "tags": "xxxxxxxxx",
+        "tags": "3HB,@@",
         "translations": {
             "ENG": [
-                "Diminutive of biblioteka",
-                "bookcase bookshelf",
-                "(furniture displaying books)",
-                "bookery library",
-                "(collection of books or manuscripts)"
+                "bookcase","bookshelf"    ]
+        },
+        "temp_id": "10.52",
+        "gender": "f"
+    },
+    {
+        "lemma": "biblioteczka",
+         "tags": "2lb,s",
+        "translations": {
+            "ENG": [
+                "library"
             ]
         },
         "temp_id": "10.52",
@@ -603,10 +620,10 @@
     },
     {
         "lemma": "sanitariusz",
-        "tags": "xxxxxxxxx",
+        "tags": "3j,med",
         "translations": {
             "ENG": [
-                "EMT",
+"paramedic","medic",                "EMT",
                 "(emergency medical technician)"
             ]
         },
