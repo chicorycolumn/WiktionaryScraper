@@ -647,10 +647,10 @@
     },
     {
         "lemma": "okręt",
-        "tags": "xxxxxxxxx",
+        "tags": "4T,nau",
         "translations": {
             "ENG": [
-                "ship",
+                "ship","vessel",
                 "(seafaring vessel)"
             ]
         },
@@ -659,10 +659,10 @@
     },
     {
         "lemma": "tabletka",
-        "tags": "xxxxxxxxx",
+        "tags": "3med,h",
         "translations": {
             "ENG": [
-                "tablet",
+                "tablet","pill",
                 "(small, easily swallowed portion of a substance)"
             ]
         },
@@ -671,14 +671,11 @@
     },
     {
         "lemma": "wynik",
-        "tags": "xxxxxxxxx",
+        "tags": "4s,yy",
         "translations": {
             "ENG": [
                 "result",
-                "( (that which results)",
-                "score",
-                "(of a test or game)",
-                "effect"
+                "score"
             ]
         },
         "temp_id": "10.57",
@@ -686,10 +683,10 @@
     },
     {
         "lemma": "sień",
-        "tags": "xxxxxxxxx",
+        "tags": "5lr",
         "translations": {
             "ENG": [
-                "vestibule hallway"
+                "hall","hallway"
             ]
         },
         "temp_id": "10.58",
@@ -697,11 +694,10 @@
     },
     {
         "lemma": "rozbój",
-        "tags": "xxxxxxxxx",
+        "tags": "4B",
         "translations": {
             "ENG": [
-                "armed robbery robbery mugging",
-                "brigandage"
+                "robbery"
             ]
         },
         "temp_id": "10.59",
@@ -709,7 +705,7 @@
     },
     {
         "lemma": "poranek",
-        "tags": "xxxxxxxxx",
+        "tags": "3tt,dr",
         "translations": {
             "ENG": [
                 "early morning"
@@ -720,7 +716,7 @@
     },
     {
         "lemma": "operacja",
-        "tags": "xxxxxxxxx",
+        "tags": "4ttt,med",
         "translations": {
             "ENG": [
                 "operation",
@@ -733,13 +729,10 @@
     },
     {
         "lemma": "sekretarka",
-        "tags": "xxxxxxxxx",
+        "tags": "3j,w",
         "translations": {
             "ENG": [
-                "secretary",
-                "(a woman keeping records and handling clerical work)",
-                "answering machine",
-                "(technology)"
+                "secretary"
             ]
         },
         "temp_id": "10.62",
@@ -747,7 +740,7 @@
     },
     {
         "lemma": "ranek",
-        "tags": "xxxxxxxxx",
+          "tags": "3tt,dr",
         "translations": {
             "ENG": [
                 "morning",
@@ -759,13 +752,10 @@
     },
     {
         "lemma": "żarcie",
-        "tags": "xxxxxxxxx",
+        "tags": "4f%,G",
         "translations": {
             "ENG": [
-                "verbal noun of żreć",
-                "food",
-                "(of animals)",
-                "grub chow food",
+                "grub","chow","food",
                 "(colloquial)"
             ]
         },
@@ -774,10 +764,10 @@
     },
     {
         "lemma": "palenisko",
-        "tags": "xxxxxxxxx",
+        "tags": "4hp",
         "translations": {
             "ENG": [
-                "hearth fireplace"
+                "hearth","fireplace"
             ]
         },
         "temp_id": "10.65",
@@ -785,13 +775,12 @@
     },
     {
         "lemma": "kieliszek",
-        "tags": "xxxxxxxxx",
+        "tags": "4@@,NN",
         "translations": {
             "ENG": [
                 "wine glass",
                 "shot glass",
-                "(small drinking vessel for alcoholic drinks)",
-                "amount of vodka in a shot glass"
+                "*shot"
             ]
         },
         "temp_id": "10.66",
