@@ -981,7 +981,7 @@
     },
     {
         "lemma": "pył",
-        "tags": "xxxxxxxxx",
+        "tags": "4eng",
         "translations": {
             "ENG": [
                 "dust"
@@ -991,7 +991,7 @@
         "gender": "m3"
     },
     {
-        "lemma": "notariusz",
+        "lemma": "!notariusz",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1007,12 +1007,10 @@
     },
     {
         "lemma": "sadło",
-        "tags": "xxxxxxxxx",
+        "tags": "4bio",
         "translations": {
             "ENG": [
-                "animal fat tissue",
-                "salo",
-                "(dated)"
+                "fat"
             ]
         },
         "temp_id": "10.85",
@@ -1020,11 +1018,10 @@
     },
     {
         "lemma": "księga",
-        "tags": "xxxxxxxxx",
+        "tags": "4hb,s",
         "translations": {
             "ENG": [
-                "tome book",
-                "chapter"
+                "book"
             ]
         },
         "temp_id": "10.86",
@@ -1032,12 +1029,10 @@
     },
     {
         "lemma": "wyraz",
-        "tags": "xxxxxxxxx",
+        "tags": "4wri,££",
         "translations": {
             "ENG": [
-                "expression term word",
-                "expression",
-                "(way of expressing)"
+                "expression","word"
             ]
         },
         "temp_id": "10.87",
@@ -1045,12 +1040,21 @@
     },
     {
         "lemma": "ratownik",
-        "tags": "xxxxxxxxx",
+        "tags": "3j,yy",
         "translations": {
             "ENG": [
-                "lifeguard",
-                "rescuer, life saver",
-                "paramedic"
+                "lifeguard"
+            ]
+        },
+        "temp_id": "10.88",
+        "gender": "m1"
+    },
+    {
+        "lemma": "ratownik",
+        "tags": "4JJ,p",
+        "translations": {
+            "ENG": [
+                "rescuer"
             ]
         },
         "temp_id": "10.88",
