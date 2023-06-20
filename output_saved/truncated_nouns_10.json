@@ -1141,10 +1141,9 @@
     },
     {
         "lemma": "włamanie",
-        "tags": "xxxxxxxxx",
+        "tags": "4B",
         "translations": {
             "ENG": [
-                "verbal noun of włamać",
                 "burglary"
             ]
         },
@@ -1153,10 +1152,10 @@
     },
     {
         "lemma": "sardela",
-        "tags": "xxxxxxxxx",
+        "tags": "4sv",
         "translations": {
             "ENG": [
-                "anchovy European anchovy"
+                "anchovy"
             ]
         },
         "temp_id": "10.97",
@@ -1164,13 +1163,31 @@
     },
     {
         "lemma": "zespół",
-        "tags": "xxxxxxxxx",
+        "tags": "3pp,w",
         "translations": {
             "ENG": [
-                "band crew team",
-                "band",
-                "(group of musicians) (music)",
-                "syndrome",
+                "team"
+            ]
+        },
+        "temp_id": "10.98",
+        "gender": "m3"
+    },
+    {
+        "lemma": "zespół",
+        "tags": "4mus",
+        "translations": {
+            "ENG": [
+                "band"
+            ]
+        },
+        "temp_id": "10.98",
+        "gender": "m3"
+    },
+    {
+        "lemma": "zespół",
+        "tags": "5med,U%",
+        "translations": {
+            "ENG": [  "syndrome",
                 "(pathology)"
             ]
         },
