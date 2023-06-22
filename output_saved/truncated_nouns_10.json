@@ -1243,10 +1243,10 @@
     },
     {
         "lemma": "knajpa",
-        "tags": "xxxxxxxxx",
+        "tags": "4G,lb,ff",
         "translations": {
             "ENG": [
-                "mediocre pub",
+                "restaurant","pub","dive-bar","joint",
                 "(colloquial derogatory)"
             ]
         },
@@ -1255,10 +1255,10 @@
     },
     {
         "lemma": "mieszaniec",
-        "tags": "xxxxxxxxx",
+        "tags": "5a,bio",
         "translations": {
             "ENG": [
-                "crossbreed hybrid mongrel"
+                "hybrid","mongrel"
             ]
         },
         "temp_id": "10.104",
@@ -1266,7 +1266,7 @@
     },
     {
         "lemma": "psychoterapeuta",
-        "tags": "xxxxxxxxx",
+        "tags": "4j,med",
         "translations": {
             "ENG": [
                 "psychotherapist",
@@ -1278,34 +1278,28 @@
     },
     {
         "lemma": "psychoterapeutka",
-        "tags": "xxxxxxxxx",
+         "tags": "4j,med",
         "translations": {
             "ENG": [
-                "female equivalent of psychoterapeuta",
-                "( “ psychotherapist ” ) (psychotherapy)"
-            ]
+              "psychotherapist",
+                "(psychotherapy)"]
         },
         "temp_id": "10.106",
         "gender": "f"
     },
     {
         "lemma": "kundel",
-        "tags": "xxxxxxxxx",
+          "tags": "5a,bio",
         "translations": {
             "ENG": [
-                "mongrel mutt, mixed-breed dog",
-                "cur",
-                "(aggressive or inferior dog) (derogatory)",
-                "mongrel",
-                "(thuggish, obnoxious, or contemptible person) (derogatory)"
-            ]
+                "mongrel","mutt"  ]
         },
         "temp_id": "10.107",
         "gender": "m2"
     },
     {
         "lemma": "cokół",
-        "tags": "xxxxxxxxx",
+        "tags": "5HB",
         "translations": {
             "ENG": [
                 "pedestal"
