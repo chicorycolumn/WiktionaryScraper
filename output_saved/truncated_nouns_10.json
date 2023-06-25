@@ -1416,7 +1416,7 @@
         "gender": "m3"
     },
     {
-        "lemma": "poza",
+        "lemma": "!poza",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -1428,10 +1428,32 @@
     },
     {
         "lemma": "dziedzictwo",
-        "tags": "xxxxxxxxx",
+        "tags": "5pp,his,aa",
         "translations": {
             "ENG": [
-                "heritage legacy"
+                "heritage"
+            ]
+        },
+        "temp_id": "10.119",
+        "gender": "n"
+    },
+    {
+        "lemma": "dziedzictwo",
+        "tags": "5$",
+        "translations": {
+            "ENG": [
+                "inheritance"
+            ]
+        },
+        "temp_id": "10.119",
+        "gender": "n"
+    },
+    {
+        "lemma": "dziedzictwo",
+        "tags": "5his,pp",
+        "translations": {
+            "ENG": [
+                "legacy"
             ]
         },
         "temp_id": "10.119",
@@ -1439,24 +1461,31 @@
     },
     {
         "lemma": "dawka",
-        "tags": "xxxxxxxxx",
+        "tags": "3med",
         "translations": {
             "ENG": [
-                "dose dosage",
-                "(measured portion of medicine) (pharmacology)"
-            ]
+                "dose","dosage"  ]
         },
         "temp_id": "10.120",
         "gender": "f"
     },
     {
         "lemma": "gwiazdka",
-        "tags": "xxxxxxxxx",
+        "tags": "2cel,RR,G",
         "translations": {
             "ENG": [
-                "Diminutive of gwiazda",
-                "Christmas Eve",
-                "(colloquial)",
+                "Christmas",
+                "(colloquial)"
+            ]
+        },
+        "temp_id": "10.121",
+        "gender": "f"
+    },
+    {
+        "lemma": "gwiazdka",
+        "tags": "5oo",
+        "translations": {
+            "ENG": [
                 "asterisk",
                 "(the character)"
             ]
