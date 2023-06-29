@@ -1749,15 +1749,10 @@
     },
     {
         "lemma": "gospodarz",
-        "tags": "xxxxxxxxx",
+        "tags": "4p,PP,VV",
         "translations": {
             "ENG": [
-                "host",
-                "(person who allows a guest)",
-                "host",
-                "(ecology)",
-                "farmer",
-                "(agriculture)"
+                "host"
             ]
         },
         "temp_id": "10.144",
@@ -1765,10 +1760,9 @@
     },
     {
         "lemma": "pęcherz",
-        "tags": "xxxxxxxxx",
+        "tags": "4b",
         "translations": {
             "ENG": [
-                "blister",
                 "bladder",
                 "(anatomy)"
             ]
@@ -1777,14 +1771,22 @@
         "gender": "m3"
     },
     {
-        "lemma": "możliwość",
-        "tags": "xxxxxxxxx",
+        "lemma": "pęcherz",
+        "tags": "4UU",
         "translations": {
             "ENG": [
-                "chance occasion opportunity",
-                "(chance for advancement, progress or profit)",
-                "capability",
-                "(power or ability to generate an outcome)"
+                "blister"
+            ]
+        },
+        "temp_id": "10.145",
+        "gender": "m3"
+    },
+    {
+        "lemma": "możliwość",
+        "tags": "3pr",
+        "translations": {
+            "ENG": [
+                "possibility","chance","opportunity"
             ]
         },
         "temp_id": "10.146",
@@ -1792,15 +1794,10 @@
     },
     {
         "lemma": "wtyczka",
-        "tags": "xxxxxxxxx",
+        "tags": "2x,ii",
         "translations": {
             "ENG": [
-                "plug",
-                "(connecting device which fits into a socket) (electricity)",
-                "plug-in",
-                "(software component that adds a feature to an existing computer program) (computing)",
-                "mole informant double agent",
-                "(informal)"
+                "plug"
             ]
         },
         "temp_id": "10.147",
