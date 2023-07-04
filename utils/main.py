@@ -16,33 +16,42 @@ from input.Polish.adjectives.head_words import input
 #
 
 if __name__ == '__main__':
-    wordtype = "n"
+    path = "./../output_saved/batches/adjectives_batch_1_is_groups_01_to_09.json"
 
-    for long_wordtype in ["nouns", "verbs", "adjectives"]:
-        if wordtype[0] == long_wordtype[0]:
-            wordtype = long_wordtype
-    path = f"./../output_saved/{wordtype}"
-
-    npe_lobjs = []
-    m1_lobjs = []
-
-    for root, dirs, files in os.walk(path):
-        print(files)
-        for file in files:
-            # print("--")
-            # print("----")
-            # print("------")
-            # print(file)
-            # print("------")
-            # print("----")
-            # print("--")
-            with open(f'{path}/{file}', "r") as f:
-                loaded = json.load(f)
-                for lobj in loaded:
-                    # if lobj["gender"] == "m1":
-                    #     m1_lobjs.append(lobj["id"])
-                    if lobj["id"].split("-")[1] == "nco":
-                        print(lobj["id"].split("-")[3])
-                f.close()
-
+    with open(f'{path}', "r") as f:
+        loaded = json.load(f)
+        print(len(loaded))
+        for lobj in loaded:
+            if "adverb" in lobj:
+                lobj.pop("adverb", None)
+        f.close()
     print("swde")
+
+    json_object = json.dumps(loaded, indent=2, ensure_ascii=False)
+
+    with open(path, "w") as outfile:
+        outfile.write(json_object)
+
+
+    # wordtype = "n"
+    #
+    # for long_wordtype in ["nouns", "verbs", "adjectives"]:
+    #     if wordtype[0] == long_wordtype[0]:
+    #         wordtype = long_wordtype
+    # path = f"./../output_saved/{wordtype}"
+    #
+    # npe_lobjs = []
+    # m1_lobjs = []
+    #
+    # for root, dirs, files in os.walk(path):
+    #     print(files)
+    #     for file in files:
+    #         with open(f'{path}/{file}', "r") as f:
+    #             loaded = json.load(f)
+    #             for lobj in loaded:
+    #                 # if lobj["gender"] == "m1":
+    #                 #     m1_lobjs.append(lobj["id"])
+    #                 if lobj["id"].split("-")[1] == "nco":
+    #                     print(lobj["id"].split("-")[3])
+    #             f.close()
+    # print("swde")
