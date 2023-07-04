@@ -21,17 +21,74 @@ if __name__ == '__main__':
     with open(f'{path}', "r") as f:
         loaded = json.load(f)
         print(len(loaded))
-        for lobj in loaded:
-            if "adverb" in lobj:
-                lobj.pop("adverb", None)
+
+        all_new_eng_lobjs = []
+        new_nexus_objs = []
+        num = 1
+        other_num = 1
+
+        for pol_lobj in loaded:
+
+            new_eng_lobjs = []
+
+            for t in pol_lobj["translations"]["ENG"]:
+                print(t)
+
+                new_t = t
+
+                for l in all_new_eng_lobjs:
+                    if l["id"].split("-")[-1] == t:
+                        new_t += "(þ)"
+
+                new_id = f"eng-adj-{str(num).zfill(4)}-{new_t}"
+
+                new_eng_lobj = {
+                    "lemma": t,
+                    "id": new_id,
+                    "inflections": {
+                        "simple": t,
+                        "comparative": None,
+                        "superlative": None,
+                        "adverb": None
+                    }
+                }
+
+                new_eng_lobjs.append(new_eng_lobj)
+
+                num = num + 1
+
+            new_nexus_obj = {
+                "key": f"adj-{str(other_num).zfill(4)}-{new_eng_lobjs[0]['id'].split('-')[-1]}",
+                "traductions": {
+                  "SPA": [],
+                  "ENG": [limmy["id"] for limmy in new_eng_lobjs],
+                  "POL": [pol_lobj["id"]]
+                },
+                "papers": pol_lobj["tags"],
+                "topics": pol_lobj["topics"]
+            }
+
+            new_nexus_objs.append(new_nexus_obj)
+            all_new_eng_lobjs.extend(new_eng_lobjs)
+
+            other_num = other_num + 1
+
         f.close()
+
+    all_new_eng_lobjs_json = json.dumps(all_new_eng_lobjs, indent=2, ensure_ascii=False)
+    with open("./../output_saved/batches/adjectives_batch_1_is_groups_01_to_09_ENG.json", "w") as outfile:
+        outfile.write(all_new_eng_lobjs_json)
+
+    new_nexus_objs_json = json.dumps(new_nexus_objs, indent=2, ensure_ascii=False)
+    with open("./../output_saved/batches/adjectives_batch_1_is_groups_01_to_09_NEXUS.json", "w") as outfile:
+        outfile.write(new_nexus_objs_json)
+
     print("swde")
 
-    json_object = json.dumps(loaded, indent=2, ensure_ascii=False)
-
-    with open(path, "w") as outfile:
-        outfile.write(json_object)
-
+    # json_object = json.dumps(loaded, indent=2, ensure_ascii=False)
+    #
+    # with open(path, "w") as outfile:
+    #     outfile.write(json_object)
 
     # wordtype = "n"
     #
