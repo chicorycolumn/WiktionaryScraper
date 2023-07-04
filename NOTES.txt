@@ -24,9 +24,10 @@ We haven't been using the "an" abstract noun tag - go through done nouns and see
 TSF-003 (nou)
 Go through all noun lobjs, and have question - are they holdable or not - if unset. Set that for all.
 Also set size:
-"size1": pocketsize - pin to booklet
-"size2": largerbutstillpickupable - book to chair (ie holdable)
-"size3": cannotpickup - armchair to ship
+"s1": pocket size :                      needle - booklet
+"s2": still pickupable :                 book - chair
+"s3": can only move with many people :   armchair - car
+"s4": immovable by human strength :      lorry - ship
 
 TSF-004 (adj,nou,ver)
 Search in finalised batch of lobjs file for all "", because these can come from incorrectly process % tag ie tag hypernym.
@@ -40,6 +41,7 @@ Add "każdy" and "wszystki" manually as special lobjs. I guess they're adj lobjs
 
 TSF-006 (adj)
 Check "adverb" is present inside inflections then delete the top level "adverb" key.
+[✔] Batch 1 adj.
 
 TSF-007 (nou)
 Sort bodypart nouns into internal and external.
