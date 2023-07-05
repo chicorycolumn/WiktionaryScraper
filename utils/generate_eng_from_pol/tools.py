@@ -7,7 +7,8 @@ from utils.general.common import write_todo
 
 
 def show1(lobj):
-    print(" ", lobj["id"], f'({len(lobj["translations"]["ENG"])} trans)')
+    print("")
+    print(lobj["id"], f'({len(lobj["translations"]["ENG"])} trans)')
     for tindex, tran in enumerate(lobj["translations"]["ENG"]):
         print("     ", tindex + 1, tran)
     print("")
@@ -150,6 +151,19 @@ def user_validate_translations(lobj, res):
         print("💚")
         res.append(dupe)
 
+    def tempsave_res():
+        print("")
+        print(f"Saving current res ({len(res)} items).")
+        print("")
+        stem = "./../../output_saved/batches/"
+        output_path = f"{stem}tempsave_doublecheck_trans_of_pol_lobjs.json"
+        res_json = json.dumps(res, indent=2, ensure_ascii=False)
+        with open(output_path, "w") as outfile:
+            outfile.write(res_json)
+
+    if not int(lobj["id"].split("-")[2]) % 10:
+        tempsave_res()
+
     show1(lobj)
     input_num = input("OK? (hit Enter)")
 
@@ -157,9 +171,13 @@ def user_validate_translations(lobj, res):
         add_to_res(lobj)
         return
 
+    elif input_num[0] == "D":
+        print("🔥 DELETED LOBJ")
+        return
+
     elif input_num[0] == "d":
         print("DELETING SOME TRANS...")
-        indexes_trans_to_delete = [int(n) - 1 for n in input_num[1:].split("")]
+        indexes_trans_to_delete = [int(n) - 1 for n in input_num[1:]]
         trans_to_keep = []
         for tindex, tran in enumerate(lobj["translations"]["ENG"]):
             if tindex not in indexes_trans_to_delete:
@@ -197,6 +215,7 @@ def user_validate_translations(lobj, res):
             else:
                 trans_for_original_lobj.append(tran)
 
+        print("")
         print("For lobj", q(lobj["id"]))
         print("")
         print("ORIGINAL lobj will have")
@@ -213,7 +232,15 @@ def user_validate_translations(lobj, res):
 
             if len(trans_for_new_lobj):
                 duplicated_lobj = deepcopy(lobj)
-                duplicated_lobj["id"] += f"({trans_for_new_lobj[0]})"
+
+                signal_word = None
+                for w in trans_for_new_lobj:
+                    if not signal_word and w not in lobj["translations"]["ENG"]:
+                        signal_word = w
+                if not signal_word:
+                    signal_word = "🚩ß"
+
+                duplicated_lobj["id"] += f"({signal_word})"
                 duplicated_lobj["tags"] = []
                 duplicated_lobj["topics"] = []
                 duplicated_lobj["id"] += "🚩Ŧ"  # Need to add tags and topics
@@ -227,12 +254,8 @@ def user_validate_translations(lobj, res):
             return
 
     elif input_num == "w":
-        print("WRITE current res which has length", len(res))
-        stem = "./../../output_saved/batches/"
-        output_path = f"{stem}tempsave_from_dct.json"
-        res_json = json.dumps(res, indent=2, ensure_ascii=False)
-        with open(output_path, "w") as outfile:
-            outfile.write(res_json)
+        tempsave_res()
+        user_validate_translations(lobj, res)
 
     elif input_num == "f":
         print("ADDED FLAG FOR ATTENTION")
@@ -249,6 +272,7 @@ def user_validate_translations(lobj, res):
     else:
         print("     Did not recognise user input. Options are:")
         print("     Enter: This lobj is OK.")
+        print("     D    : DELETE lobj.")
         print("     f    : Okay this lobj but FLAG for later attention.")
         print("     F    : FLAG the lobj just gone.")
         print("     w    : WRITE current res array to temporary file.")

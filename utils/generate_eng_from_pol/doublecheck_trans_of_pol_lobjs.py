@@ -19,8 +19,13 @@ if __name__ == '__main__':
 
     stem = "./../../output_saved/batches/"
     input_path = f"{stem}{input_filename}.json"
+    tempsave_path = f"{stem}tempsave_doublecheck_trans_of_pol_lobjs.json"
     output_path = f"{stem}{input_filename}_doublechecked.json"
-    doublechecked_pol_lobjs = []
+
+    with open(tempsave_path, "r") as f:
+        doublechecked_pol_lobjs = json.load(f)
+        ids_of_done_so_far_pol_lobjs = [l["id"] for l in doublechecked_pol_lobjs]
+        f.close()
 
     with open(input_path, "r") as f:
         pol_lobjs = json.load(f)
@@ -32,7 +37,10 @@ if __name__ == '__main__':
             print("")
             print(f"{pol_lobj_index + 1}/{len(pol_lobjs)}")
 
-            user_validate_translations(pol_lobj, doublechecked_pol_lobjs)
+            if pol_lobj["id"] not in ids_of_done_so_far_pol_lobjs:
+                user_validate_translations(pol_lobj, doublechecked_pol_lobjs)
+            else:
+                print("already done")
 
         f.close()
 
