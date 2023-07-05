@@ -7,11 +7,11 @@ from utils.general.common import write_todo
 
 
 def show1(lobj):
-    print("")
-    print(lobj["id"])
+    print(" ", lobj["id"], f'({len(lobj["translations"]["ENG"])} trans)')
     for tindex, tran in enumerate(lobj["translations"]["ENG"]):
-        print("")
-        print(tindex, tran)
+        print("     ", tindex + 1, tran)
+    print("")
+
 
 def q(s):
     return f'"{s}"'
@@ -137,56 +137,123 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
 
 
 def user_validate_translations(lobj, res):
+
+    def add_to_res(l):
+        dupe = {}
+        dupe["lemma"] = l["lemma"]
+        dupe["id"] = l["id"]
+        dupe["tags"] = l["tags"]
+        dupe["topics"] = l["topics"]
+        for k in l:
+            if k not in ["lemma", "tags", "topics"]:
+                dupe[k] = l[k]
+        print("💚")
+        res.append(dupe)
+
     show1(lobj)
-    input_num = input("OK?")
+    input_num = input("OK? (hit Enter)")
 
     if not input_num:
-        print("💚")
-        res.append(lobj)
+        add_to_res(lobj)
+        return
 
     elif input_num[0] == "d":
         print("DELETING SOME TRANS...")
-        indexes_trans_to_delete = [int(n) for n in input_num[1:].split("")]
+        indexes_trans_to_delete = [int(n) - 1 for n in input_num[1:].split("")]
         trans_to_keep = []
         for tindex, tran in enumerate(lobj["translations"]["ENG"]):
             if tindex not in indexes_trans_to_delete:
                 trans_to_keep.append(tran)
         lobj["translations"]["ENG"] = trans_to_keep
         user_validate_translations(lobj, res)
+        return
 
-    elif input_num[0] in ["s","S"]:
+    elif input_num[0] in ["s", "S"]:
         print("SWITCHING SOME TRANS TO NEW LOBJ...")
-        indexes_trans_to_move = [int(n) for n in input_num[1:]]
-        trans_to_keep = []
-        trans_to_move = []
-        for tindex, tran in enumerate(lobj["translations"]["ENG"]):
-            if tindex not in indexes_trans_to_move:
-                trans_to_keep.append(tran)
-            else:
-                trans_to_move.append(tran)
-        lobj["translations"]["ENG"] = trans_to_keep
-        print("")
-        print("ORIGINAL:")
-        user_validate_translations(lobj, res)
+        if input_num == "s":
+            input_num = "s2"
+        if input_num == "S":
+            input_num = "S2"
 
-        if len(trans_to_move):
-            duplicated_lobj = deepcopy(lobj)
-            duplicated_lobj["id"] += f"({trans_to_move[0]})"
-            duplicated_lobj["translations"]["ENG"] = trans_to_move
-            print("")
-            print("NEW:")
-            user_validate_translations(duplicated_lobj, res)
+        move_these = input_num[input_num.index("s"): input_num.index("S") if (
+                "S" in input_num and input_num.index("S") > input_num.index("s")) else len(input_num)][
+                     1:] if "s" in input_num else ""
+        copy_these = input_num[input_num.index("S"): input_num.index("s") if (
+                "s" in input_num and input_num.index("s") > input_num.index("S")) else len(input_num)][
+                     1:] if "S" in input_num else ""
+
+        indexes_trans_to_move = [int(n) - 1 for n in move_these]
+        indexes_trans_to_copy = [int(n) - 1 for n in copy_these]
+
+        trans_for_original_lobj = []
+        trans_for_new_lobj = []
+
+        for tindex, tran in enumerate(lobj["translations"]["ENG"]):
+            if tindex in indexes_trans_to_move:
+                trans_for_new_lobj.append(tran)
+            elif tindex in indexes_trans_to_copy:
+                trans_for_new_lobj.append(tran)
+                trans_for_original_lobj.append(tran)
+            else:
+                trans_for_original_lobj.append(tran)
+
+        print("For lobj", q(lobj["id"]))
+        print("")
+        print("ORIGINAL lobj will have")
+        print(trans_for_original_lobj)
+        print("")
+        print("NEW lobj will have")
+        print(trans_for_new_lobj)
+        print("")
+        confirm = input("OK? (hit Enter)")
+
+        if not confirm:
+            lobj["translations"]["ENG"] = trans_for_original_lobj
+            add_to_res(lobj)
+
+            if len(trans_for_new_lobj):
+                duplicated_lobj = deepcopy(lobj)
+                duplicated_lobj["id"] += f"({trans_for_new_lobj[0]})"
+                duplicated_lobj["tags"] = []
+                duplicated_lobj["topics"] = []
+                duplicated_lobj["id"] += "🚩Ŧ"  # Need to add tags and topics
+                duplicated_lobj["translations"]["ENG"] = trans_for_new_lobj
+                add_to_res(duplicated_lobj)
+            return
+
+        else:
+            print("Restarting...")
+            user_validate_translations(lobj, res)
+            return
+
+    elif input_num == "w":
+        print("WRITE current res which has length", len(res))
+        stem = "./../../output_saved/batches/"
+        output_path = f"{stem}tempsave_from_dct.json"
+        res_json = json.dumps(res, indent=2, ensure_ascii=False)
+        with open(output_path, "w") as outfile:
+            outfile.write(res_json)
 
     elif input_num == "f":
         print("ADDED FLAG FOR ATTENTION")
         print("🚩")
-        lobj["flag"] = "đ"
-        res.append(lobj)
+        lobj["id"] += "🚩"
+        add_to_res(lobj)
+
+    elif input_num == "F":
+        print("ADDED FLAG TO", res[-1]["id"])
+        print("⬅️🚩")
+        res[-1]["id"] += "🚩"
+        user_validate_translations(lobj, res)
 
     else:
-        print("Did not recognise user input. Options are:")
-        print("Enter: This lobj is OK.")
-        print("d245 : DELETE translations at indexes 2, 4, and 5.")
-        print("s245 : SWITCH translations at indexes 2, 4, and 5 to a new lobj for this lemma.")
-        print("f    : Let this lobj through, but FLAG for later attention.")
+        print("     Did not recognise user input. Options are:")
+        print("     Enter: This lobj is OK.")
+        print("     f    : Okay this lobj but FLAG for later attention.")
+        print("     F    : FLAG the lobj just gone.")
+        print("     w    : WRITE current res array to temporary file.")
+        print("     d24  : DELETE translations at indexes 2 and 4.")
+        print("     s24  : SWITCH translations at indexes 2 and 4 to a new lobj for this lemma.")
+        print(
+            "     s24S3: Translations at indexes 2 and 4 are for new lobj, at index 3 is for both original and new lobjs.")
         user_validate_translations(lobj, res)
