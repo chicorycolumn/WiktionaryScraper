@@ -1,9 +1,17 @@
 import json
 import os
 import time
+from copy import deepcopy
 
 from utils.general.common import write_todo
 
+
+def show1(lobj):
+    print("")
+    print(lobj["id"])
+    for tindex, tran in enumerate(lobj["translations"]["ENG"]):
+        print("")
+        print(tindex, tran)
 
 def q(s):
     return f'"{s}"'
@@ -127,3 +135,58 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
 
     record_it(False)
 
+
+def user_validate_translations(lobj, res):
+    show1(lobj)
+    input_num = input("OK?")
+
+    if not input_num:
+        print("💚")
+        res.append(lobj)
+
+    elif input_num[0] == "d":
+        print("DELETING SOME TRANS...")
+        indexes_trans_to_delete = [int(n) for n in input_num[1:].split("")]
+        trans_to_keep = []
+        for tindex, tran in enumerate(lobj["translations"]["ENG"]):
+            if tindex not in indexes_trans_to_delete:
+                trans_to_keep.append(tran)
+        lobj["translations"]["ENG"] = trans_to_keep
+        user_validate_translations(lobj, res)
+
+    elif input_num[0] in ["s","S"]:
+        print("SWITCHING SOME TRANS TO NEW LOBJ...")
+        indexes_trans_to_move = [int(n) for n in input_num[1:]]
+        trans_to_keep = []
+        trans_to_move = []
+        for tindex, tran in enumerate(lobj["translations"]["ENG"]):
+            if tindex not in indexes_trans_to_move:
+                trans_to_keep.append(tran)
+            else:
+                trans_to_move.append(tran)
+        lobj["translations"]["ENG"] = trans_to_keep
+        print("")
+        print("ORIGINAL:")
+        user_validate_translations(lobj, res)
+
+        if len(trans_to_move):
+            duplicated_lobj = deepcopy(lobj)
+            duplicated_lobj["id"] += f"({trans_to_move[0]})"
+            duplicated_lobj["translations"]["ENG"] = trans_to_move
+            print("")
+            print("NEW:")
+            user_validate_translations(duplicated_lobj, res)
+
+    elif input_num == "f":
+        print("ADDED FLAG FOR ATTENTION")
+        print("🚩")
+        lobj["flag"] = "đ"
+        res.append(lobj)
+
+    else:
+        print("Did not recognise user input. Options are:")
+        print("Enter: This lobj is OK.")
+        print("d245 : DELETE translations at indexes 2, 4, and 5.")
+        print("s245 : SWITCH translations at indexes 2, 4, and 5 to a new lobj for this lemma.")
+        print("f    : Let this lobj through, but FLAG for later attention.")
+        user_validate_translations(lobj, res)
