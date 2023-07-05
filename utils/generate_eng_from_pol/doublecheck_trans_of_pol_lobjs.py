@@ -24,8 +24,12 @@ if __name__ == '__main__':
 
     with open(tempsave_path, "r") as f:
         doublechecked_pol_lobjs = json.load(f)
-        ids_of_done_so_far_pol_lobjs = [l["id"] for l in doublechecked_pol_lobjs]
         f.close()
+
+    ready = True
+    if len(doublechecked_pol_lobjs):
+        id_of_last_done_pol_lobj = doublechecked_pol_lobjs[-1]["id"]
+        ready = False
 
     with open(input_path, "r") as f:
         pol_lobjs = json.load(f)
@@ -37,10 +41,13 @@ if __name__ == '__main__':
             print("")
             print(f"{pol_lobj_index + 1}/{len(pol_lobjs)}")
 
-            if pol_lobj["id"] not in ids_of_done_so_far_pol_lobjs:
+            if pol_lobj["id"] == id_of_last_done_pol_lobj:
+                ready = True
+
+            if ready:
                 user_validate_translations(pol_lobj, doublechecked_pol_lobjs)
             else:
-                print("already done")
+                print("skip")
 
         f.close()
 

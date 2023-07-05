@@ -139,6 +139,23 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
 
 def user_validate_translations(lobj, res):
 
+    def show_helptext():
+        print("")
+        print("--------------------------------------------------------------------")
+        print("            Did not recognise user input. Options are:")
+        print("     Enter: This lobj is OK.")
+        print("     D    : DELETE lobj.")
+        print("     f    : Okay this lobj but FLAG for later attention.")
+        print("     F    : FLAG the lobj just gone.")
+        print("     w    : WRITE current res array to temporary file.")
+        print("     d24  : DELETE translations at indexes 2 and 4.")
+        print("     s24  : SWITCH translations at indexes 2 and 4 to a new lobj for this lemma.")
+        print(
+            "     s24S3: Translations at indexes 2 and 4 are for new lobj, at index 3 is for both original and new lobjs.")
+        print("--------------------------------------------------------------------")
+        print("")
+        user_validate_translations(lobj, res)
+
     def add_to_res(l):
         dupe = {}
         dupe["lemma"] = l["lemma"]
@@ -153,7 +170,7 @@ def user_validate_translations(lobj, res):
 
     def tempsave_res():
         print("")
-        print(f"Saving current res ({len(res)} items).")
+        print(f"📀 SAVING current res ({len(res)} items).")
         print("")
         stem = "./../../output_saved/batches/"
         output_path = f"{stem}tempsave_doublecheck_trans_of_pol_lobjs.json"
@@ -171,7 +188,12 @@ def user_validate_translations(lobj, res):
         add_to_res(lobj)
         return
 
-    elif input_num[0] == "D":
+    for char in input_num:
+        if char not in "123456789dDfFwSs":
+            show_helptext()
+            return
+
+    if input_num[0] == "D":
         print("🔥 DELETED LOBJ")
         return
 
@@ -270,14 +292,4 @@ def user_validate_translations(lobj, res):
         user_validate_translations(lobj, res)
 
     else:
-        print("     Did not recognise user input. Options are:")
-        print("     Enter: This lobj is OK.")
-        print("     D    : DELETE lobj.")
-        print("     f    : Okay this lobj but FLAG for later attention.")
-        print("     F    : FLAG the lobj just gone.")
-        print("     w    : WRITE current res array to temporary file.")
-        print("     d24  : DELETE translations at indexes 2 and 4.")
-        print("     s24  : SWITCH translations at indexes 2 and 4 to a new lobj for this lemma.")
-        print(
-            "     s24S3: Translations at indexes 2 and 4 are for new lobj, at index 3 is for both original and new lobjs.")
-        user_validate_translations(lobj, res)
+        show_helptext()
