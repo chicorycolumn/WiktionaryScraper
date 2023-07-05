@@ -1,14 +1,12 @@
 import json
 import os
+import time
 
-from input.Polish.nouns.head_words import input as nouns
-from input.Polish.adjectives.head_words import input as adjectives
-from input.Polish.verbs.head_words import input as verbs
 from parsers.common import scrape_word_data
 from utils.general.common import write_todo
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
-from input.Polish.adjectives.head_words import input
+
 
 #
 #
@@ -16,8 +14,23 @@ from input.Polish.adjectives.head_words import input
 #
 #
 
+def q(s):
+    return f'"{s}"'
 
-def is_it_the_same_meaning(lobj_1, lobj_2):
+
+def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_anticipated):
+    input_override = 0  # Should be 0, set as True only for testing purposes.
+
+    for match_record in matches_record["YES"]:
+        if len(match_record) == 2 and lobj_1["id"] in match_record and lobj_2["id"] in match_record:
+            return "ALREADY CONFIRMED"
+    for match_record in matches_record["NO"]:
+        if len(match_record) == 2 and lobj_1["id"] in match_record and lobj_2["id"] in match_record:
+            return False
+
+    def record_it(bool):
+        matches_record["YES" if bool else "NO"].append([lobj_1["id"], lobj_2["id"]])
+
     a_topics = lobj_1["topics"]
     b_topics = lobj_2["topics"]
     a_tags = [y for y in lobj_1["tags"] if y[:4] != "FREQ"]
@@ -26,12 +39,14 @@ def is_it_the_same_meaning(lobj_1, lobj_2):
     if "extra" in lobj_2:
         if "synonyms" in lobj_2["extra"]:
             if lobj_1["lemma"] in lobj_2["extra"]["synonyms"]:
-                return True
+                record_it(True)
+                return "LISTED SYNONYM"
 
     if "extra" in lobj_1:
         if "synonyms" in lobj_1["extra"]:
             if lobj_2["lemma"] in lobj_1["extra"]["synonyms"]:
-                return True
+                record_it(True)
+                return "LISTED SYNONYM"
 
     topics_match = False
     tags_match = False
@@ -45,41 +60,88 @@ def is_it_the_same_meaning(lobj_1, lobj_2):
     if topics_match and tags_match:
         write_todo(
             f"I made a nexus where I think {lobj_1['id']} and {lobj_2['id']} have same meaning, but only because both have no tags and topics. Can you check that please?")
-        return True
+        record_it(True)
+        return "NO TAGS OR TOPICS"
 
     if not topics_match:
-        if len(list(set(a_topics)&set(b_topics))):
+        if len(list(set(a_topics) & set(b_topics))):
             topics_match = True
 
     if not tags_match:
-        if len(list(set(a_tags)&set(b_tags))):
+        if len(list(set(a_tags) & set(b_tags))):
             tags_match = True
 
-    return topics_match and tags_match
+    if topics_match and tags_match:
+        print("")
+        print("**********************************")
+        print("")
+        print(lobj_1["id"], "", lobj_1["translations"]["ENG"])
+        print(a_tags)
+        print(a_topics)
+        print("")
+        print(lobj_2["id"], "", lobj_2["translations"]["ENG"])
+        print(b_tags)
+        print(b_topics)
+        print("")
+        print("**********************************")
+        print("")
+
+        input_counter["num"] += 1
+
+        confirmation = True
+        interval = 0
+
+        if not input_override:
+            confirmation = input(f"{input_counter['num']}/{total_anticipated} same?\n")
+            interval = 0.33
+
+        if confirmation:
+            print("")
+            print("💚💚")
+            print("💚💚")
+            record_it(True)
+            time.sleep(interval)
+            return "TAGS AND TOPICS MATCH"
+        else:
+            print("")
+            print(" 🟥")
+            print("")
+            time.sleep(interval)
+
+    record_it(False)
 
 
 if __name__ == '__main__':
     path = "./../output_saved/batches/adjectives_batch_1_is_groups_01_to_09.json"
 
     with open(f'{path}', "r") as f:
-        loaded = json.load(f)
-        print("Start with polish lobjs:", len(loaded))
+        pol_lobjs = json.load(f)
+        print("Loaded", len(pol_lobjs), "polish lobjs.")
 
         all_new_eng_lobjs = []
         done_pol_lobjs = []
         new_nexus_objs = []
+
+        how_many_inputs_needed = {"num": 0}
+        hardcoded_number_of_inputs_needed_gauged_by_dryruns = 162
+        matches_record = {"YES": [], "NO": []}
         num = 1
         other_num = 1
 
-        for pol_lobj in loaded:
+        for pol_lobj_index, pol_lobj in enumerate(pol_lobjs):
 
             print("")
-            print("Start", pol_lobj["id"])
+            print("")
+            print("")
+            print("     Starting pol_lobj", q(pol_lobj["id"]), f"{pol_lobj_index + 1}/{len(pol_lobjs)}")
 
             new_eng_lobjs = []
 
-            for t in pol_lobj["translations"]["ENG"]:
-                print("t = ", t)
+            for tindex, t in enumerate(pol_lobj["translations"]["ENG"]):
+                print("")
+                print("")
+                print("          Part 1: Check trans", q(t), f'{tindex + 1}/{len(pol_lobj["translations"]["ENG"])}',
+                      "     for", q(pol_lobj["id"]))
 
                 this_t_now_done = False
 
@@ -88,19 +150,30 @@ if __name__ == '__main__':
                 for pell in done_pol_lobjs:
                     if t in pell["translations"]["ENG"]:
 
-                        if is_it_the_same_meaning(pol_lobj, pell):
+                        is_same = is_it_the_same_meaning(pol_lobj, pell, how_many_inputs_needed, matches_record, hardcoded_number_of_inputs_needed_gauged_by_dryruns)
+                        if is_same:
+                            print("")
+                            print("{", q(pol_lobj["id"]), "same as", q(pell["id"]), "due to", is_same)
+
                             englishes = [
                                 e for e in all_new_eng_lobjs
-                                if e["lemma"] == t_without_star and (pol_lobj["id"] in e["»trans"] or pell["id"] in e["»trans"])
+                                if e["lemma"] == t_without_star and (
+                                        pol_lobj["id"] in e["»trans"] or pell["id"] in e["»trans"])
                             ]
 
                             for english in englishes:
                                 if pol_lobj["id"] not in english["»trans"]:
+                                    # print("$1", f'["{pol_lobj["id"]}","{pell["id"]}"]')  # Same meaning - check this.
+                                    print("")
+                                    print("               Added1", q(pol_lobj["id"]), "to trans of", q(english["id"]))
                                     english["»trans"].append(pol_lobj["id"])
                                 if pell["id"] not in english["»trans"]:
+                                    # print("$1", f'["{pol_lobj["id"]}","{pell["id"]}"]')  # Same meaning - check this.
+                                    print("")
+                                    print("               Added1", q(pell["id"]), "to trans of", q(english["id"]))
                                     english["»trans"].append(pell["id"])
 
-                print("part 2")
+                print("          Part 2: Create/Merge ENG lobj for this trans")
 
                 new_t = t
 
@@ -116,22 +189,39 @@ if __name__ == '__main__':
                         for englem in matching_lemma_lobjs:
                             trans = [xx for xx in englem["»trans"]]
                             for tran in trans:
-                                plob = [el for el in loaded if el["id"] == tran][0]
-                                if is_it_the_same_meaning(pol_lobj, plob):
-                                    have_found_one_with_same_meaning = True
-                                    this_t_now_done = True
-                                    englem["»trans"].append(pol_lobj["id"])
+                                plob = [el for el in pol_lobjs if el["id"] == tran][0]
+
+                                if pol_lobj["id"] != plob["id"]:
+                                    is_the_same = is_it_the_same_meaning(pol_lobj, plob, how_many_inputs_needed, matches_record, hardcoded_number_of_inputs_needed_gauged_by_dryruns)
+
+                                    if is_the_same:
+                                        print("")
+                                        print("}", q(pol_lobj["id"]), "same as", q(plob["id"]), "due to", is_the_same)
+                                        print("")
+                                        print("STOP with t", q(t), "because already exist ENG lobj", q(englem["id"]),
+                                              englem["»trans"])
+
+                                        have_found_one_with_same_meaning = True
+                                        this_t_now_done = True
+
+                                        if pol_lobj["id"] not in englem["»trans"]:
+                                            # print("$2",f'["{pol_lobj["id"]}","{plob["id"]}"]')  # Same meaning - check this.
+                                            print("")
+                                            print("               Added2", q(pol_lobj["id"]), "to trans of",
+                                                  q(englem["id"]))
+                                            englem["»trans"].append(pol_lobj["id"])
 
                         if not have_found_one_with_same_meaning:
                             new_t = new_t + "(þ)"
 
-                print("part 3")
-
                 if this_t_now_done:
-                    print("cccontinue")
+                    print("stop")
                     continue
 
                 new_id = f"eng-adj-{str(num).zfill(4)}-{new_t}"
+
+                print("")
+                print("          Part 3: Create NEW eng lobj", q(new_id))
 
                 new_eng_lobj = {
                     "lemma": t_without_star,
@@ -139,8 +229,6 @@ if __name__ == '__main__':
                     "»trans": [pol_lobj["id"]],
                     # "»synonyms": [x for x in pol_lobj["translations"]["ENG"] if x != t]
                 }
-
-                print("part 4")
 
                 new_eng_lobjs.append(new_eng_lobj)
 
@@ -162,11 +250,14 @@ if __name__ == '__main__':
             all_new_eng_lobjs.extend(new_eng_lobjs)
             done_pol_lobjs.append(pol_lobj)
 
-            print("Done this one.")
+            print("")
+            print("     Done this one.")
 
         f.close()
 
+    print("")
     print("Done all lobjs, so now all_new_eng_lobjs has length", len(all_new_eng_lobjs))
+    print("how_many_inputs_needed", how_many_inputs_needed)
 
     all_new_eng_lobjs_json = json.dumps(all_new_eng_lobjs, indent=2, ensure_ascii=False)
 
