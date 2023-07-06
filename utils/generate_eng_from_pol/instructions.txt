@@ -3,11 +3,13 @@ Now that you have collected several Polish lobjs files into one batch.
 1) Put batch file in "output_saved/batches/"
    with a name like "adjectives_batch_1_is_groups_01_to_09.json".
 
-2) Run file "utils/generate_eng_from_pol/doublecheck_trans_of_pol_lobjs.py"
+2) Run "utils/generate_eng_from_pol/doublecheck_trans_of_pol_lobjs.py"
    to finalise translations of Polish lobjs.
    It creates the new file "adjectives_batch_1_is_groups_01_to_09_doublechecked.json".
 
-3) Run file "xxx" to expand any shorthand tags you have added to the new file
+3) Run "utils/generate_eng_from_pol/expand_tags.py" to expand any shorthand tags you have added to the new file
    "adjectives_batch_1_is_groups_01_to_09_doublechecked.json" while resolving flags you added.
 
-4) Run file "utils/generate_eng_from_pol/create_eng_lobjs.py" to create English lobjs from the Polish ones.
+4) Run "utils/generate_eng_from_pol/renumber_pol_lobjs.py" to standardise numbering after lobj duplication in step 2.
+
+5) Run "utils/generate_eng_from_pol/create_eng_lobjs.py" to create English lobjs from the Polish ones.
