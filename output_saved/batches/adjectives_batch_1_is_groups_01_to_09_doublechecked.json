@@ -9070,7 +9070,7 @@
   },
   {
     "lemma": "bezwarunkowy",
-    "id": "pol-adj-0035-bezwarunkowy🚩",
+    "id": "pol-adj-0035-bezwarunkowy",
     "tags": [
       "FREQ5",
       "abstract"
@@ -9081,7 +9081,6 @@
     ],
     "translations": {
       "ENG": [
-        "implicit",
         "unconditional"
       ]
     },
@@ -20319,7 +20318,7 @@
   },
   {
     "lemma": "bezpieczny",
-    "id": "pol-adj-0094-bezpieczny🚩",
+    "id": "pol-adj-0094-bezpieczny",
     "tags": [
       "FREQ2",
       "positive judgment",
@@ -20331,8 +20330,7 @@
     ],
     "translations": {
       "ENG": [
-        "safe",
-        "secure"
+        "safe"
       ]
     },
     "extra": {
@@ -21161,7 +21159,7 @@
   },
   {
     "lemma": "ciekawy",
-    "id": "pol-adj-0099-ciekawy🚩",
+    "id": "pol-adj-0099-ciekawy(interesting)",
     "tags": [
       "FREQ3",
       "abstract",
@@ -21174,7 +21172,198 @@
     ],
     "translations": {
       "ENG": [
-        "interesting",
+        "interesting"
+      ]
+    },
+    "extra": {
+      "synonyms": [
+        "interesujący"
+      ],
+      "antonyms": [
+        "nieciekawy",
+        "nudny"
+      ]
+    },
+    "inflections": {
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "ciekawy",
+            "gen": "ciekawego",
+            "dat": "ciekawemu",
+            "acc": "ciekawego",
+            "ins": "ciekawym",
+            "loc": "ciekawym"
+          },
+          "m3": {
+            "nom": "ciekawy",
+            "gen": "ciekawego",
+            "dat": "ciekawemu",
+            "acc": "ciekawy",
+            "ins": "ciekawym",
+            "loc": "ciekawym"
+          },
+          "f": {
+            "nom": "ciekawa",
+            "gen": "ciekawej",
+            "dat": "ciekawej",
+            "acc": "ciekawą",
+            "ins": "ciekawą",
+            "loc": "ciekawej"
+          },
+          "n": {
+            "nom": "ciekawe",
+            "gen": "ciekawego",
+            "dat": "ciekawemu",
+            "acc": "ciekawe",
+            "ins": "ciekawym",
+            "loc": "ciekawym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "ciekawi",
+            "gen": "ciekawych",
+            "dat": "ciekawym",
+            "acc": "ciekawych",
+            "ins": "ciekawymi",
+            "loc": "ciekawych"
+          },
+          "nonvirile": {
+            "nom": "ciekawe",
+            "gen": "ciekawych",
+            "dat": "ciekawym",
+            "acc": "ciekawe",
+            "ins": "ciekawymi",
+            "loc": "ciekawych"
+          }
+        }
+      },
+      "adverb": "ciekawie",
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "ciekawszy",
+            "gen": "ciekawszego",
+            "dat": "ciekawszemu",
+            "acc": "ciekawszego",
+            "ins": "ciekawszym",
+            "loc": "ciekawszym"
+          },
+          "m3": {
+            "nom": "ciekawszy",
+            "gen": "ciekawszego",
+            "dat": "ciekawszemu",
+            "acc": "ciekawszy",
+            "ins": "ciekawszym",
+            "loc": "ciekawszym"
+          },
+          "f": {
+            "nom": "ciekawsza",
+            "gen": "ciekawszej",
+            "dat": "ciekawszej",
+            "acc": "ciekawszą",
+            "ins": "ciekawszą",
+            "loc": "ciekawszej"
+          },
+          "n": {
+            "nom": "ciekawsze",
+            "gen": "ciekawszego",
+            "dat": "ciekawszemu",
+            "acc": "ciekawsze",
+            "ins": "ciekawszym",
+            "loc": "ciekawszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "ciekawsi",
+            "gen": "ciekawszych",
+            "dat": "ciekawszym",
+            "acc": "ciekawszych",
+            "ins": "ciekawszymi",
+            "loc": "ciekawszych"
+          },
+          "nonvirile": {
+            "nom": "ciekawsze",
+            "gen": "ciekawszych",
+            "dat": "ciekawszym",
+            "acc": "ciekawsze",
+            "ins": "ciekawszymi",
+            "loc": "ciekawszych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najciekawszy",
+            "gen": "najciekawszego",
+            "dat": "najciekawszemu",
+            "acc": "najciekawszego",
+            "ins": "najciekawszym",
+            "loc": "najciekawszym"
+          },
+          "m3": {
+            "nom": "najciekawszy",
+            "gen": "najciekawszego",
+            "dat": "najciekawszemu",
+            "acc": "najciekawszy",
+            "ins": "najciekawszym",
+            "loc": "najciekawszym"
+          },
+          "f": {
+            "nom": "najciekawsza",
+            "gen": "najciekawszej",
+            "dat": "najciekawszej",
+            "acc": "najciekawszą",
+            "ins": "najciekawszą",
+            "loc": "najciekawszej"
+          },
+          "n": {
+            "nom": "najciekawsze",
+            "gen": "najciekawszego",
+            "dat": "najciekawszemu",
+            "acc": "najciekawsze",
+            "ins": "najciekawszym",
+            "loc": "najciekawszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najciekawsi",
+            "gen": "najciekawszych",
+            "dat": "najciekawszym",
+            "acc": "najciekawszych",
+            "ins": "najciekawszymi",
+            "loc": "najciekawszych"
+          },
+          "nonvirile": {
+            "nom": "najciekawsze",
+            "gen": "najciekawszych",
+            "dat": "najciekawszym",
+            "acc": "najciekawsze",
+            "ins": "najciekawszymi",
+            "loc": "najciekawszych"
+          }
+        }
+      }
+    }
+  }, {
+    "lemma": "ciekawy",
+    "id": "pol-adj-0099-ciekawy(curious)",
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "positive judgment",
+      "thought"
+    ],
+    "topics": [
+      "judgment",
+      "mental"
+    ],
+    "translations": {
+      "ENG": [
         "curious"
       ]
     },
@@ -22164,7 +22353,7 @@
   },
   {
     "lemma": "różny",
-    "id": "pol-adj-0103-różny🚩",
+    "id": "pol-adj-0103-różny",
     "tags": [
       "FREQ3",
       "helper",
@@ -22172,12 +22361,13 @@
     ],
     "topics": [
       "appearance",
-      "sense and perception"
+      "sense and perception",
+      "math"
     ],
     "translations": {
       "ENG": [
         "various",
-        "different"
+        "*different"
       ]
     },
     "extra": {
@@ -27979,7 +28169,7 @@
   },
   {
     "lemma": "marny",
-    "id": "pol-adj-0126-marny🚩",
+    "id": "pol-adj-0126-marny",
     "tags": [
       "FREQ4",
       "negative judgment",
@@ -27990,7 +28180,8 @@
     ],
     "translations": {
       "ENG": [
-        "miserable"
+        "miserable",
+        "lousy"
       ]
     },
     "inflections": {
@@ -41202,7 +41393,183 @@
   },
   {
     "lemma": "wszechstronny",
-    "id": "pol-adj-0188-wszechstronny🚩",
+    "id": "pol-adj-0188-wszechstronny(versatile)",
+    "tags": "5eng,he",
+    "topics": [
+    ],
+    "translations": {
+      "ENG": [
+        "versatile"
+      ]
+    },
+    "inflections": {
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "wszechstronny",
+            "gen": "wszechstronnego",
+            "dat": "wszechstronnemu",
+            "acc": "wszechstronnego",
+            "ins": "wszechstronnym",
+            "loc": "wszechstronnym"
+          },
+          "m3": {
+            "nom": "wszechstronny",
+            "gen": "wszechstronnego",
+            "dat": "wszechstronnemu",
+            "acc": "wszechstronny",
+            "ins": "wszechstronnym",
+            "loc": "wszechstronnym"
+          },
+          "f": {
+            "nom": "wszechstronna",
+            "gen": "wszechstronnej",
+            "dat": "wszechstronnej",
+            "acc": "wszechstronną",
+            "ins": "wszechstronną",
+            "loc": "wszechstronnej"
+          },
+          "n": {
+            "nom": "wszechstronne",
+            "gen": "wszechstronnego",
+            "dat": "wszechstronnemu",
+            "acc": "wszechstronne",
+            "ins": "wszechstronnym",
+            "loc": "wszechstronnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "wszechstronni",
+            "gen": "wszechstronnych",
+            "dat": "wszechstronnym",
+            "acc": "wszechstronnych",
+            "ins": "wszechstronnymi",
+            "loc": "wszechstronnych"
+          },
+          "nonvirile": {
+            "nom": "wszechstronne",
+            "gen": "wszechstronnych",
+            "dat": "wszechstronnym",
+            "acc": "wszechstronne",
+            "ins": "wszechstronnymi",
+            "loc": "wszechstronnych"
+          }
+        }
+      },
+      "adverb": "wszechstronnie",
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "bardziej wszechstronny",
+            "gen": "bardziej wszechstronnego",
+            "dat": "bardziej wszechstronnemu",
+            "acc": "bardziej wszechstronnego",
+            "ins": "bardziej wszechstronnym",
+            "loc": "bardziej wszechstronnym"
+          },
+          "m3": {
+            "nom": "bardziej wszechstronny",
+            "gen": "bardziej wszechstronnego",
+            "dat": "bardziej wszechstronnemu",
+            "acc": "bardziej wszechstronny",
+            "ins": "bardziej wszechstronnym",
+            "loc": "bardziej wszechstronnym"
+          },
+          "f": {
+            "nom": "bardziej wszechstronna",
+            "gen": "bardziej wszechstronnej",
+            "dat": "bardziej wszechstronnej",
+            "acc": "bardziej wszechstronną",
+            "ins": "bardziej wszechstronną",
+            "loc": "bardziej wszechstronnej"
+          },
+          "n": {
+            "nom": "bardziej wszechstronne",
+            "gen": "bardziej wszechstronnego",
+            "dat": "bardziej wszechstronnemu",
+            "acc": "bardziej wszechstronne",
+            "ins": "bardziej wszechstronnym",
+            "loc": "bardziej wszechstronnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "bardziej wszechstronni",
+            "gen": "bardziej wszechstronnych",
+            "dat": "bardziej wszechstronnym",
+            "acc": "bardziej wszechstronnych",
+            "ins": "bardziej wszechstronnymi",
+            "loc": "bardziej wszechstronnych"
+          },
+          "nonvirile": {
+            "nom": "bardziej wszechstronne",
+            "gen": "bardziej wszechstronnych",
+            "dat": "bardziej wszechstronnym",
+            "acc": "bardziej wszechstronne",
+            "ins": "bardziej wszechstronnymi",
+            "loc": "bardziej wszechstronnych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najbardziej wszechstronny",
+            "gen": "najbardziej wszechstronnego",
+            "dat": "najbardziej wszechstronnemu",
+            "acc": "najbardziej wszechstronnego",
+            "ins": "najbardziej wszechstronnym",
+            "loc": "najbardziej wszechstronnym"
+          },
+          "m3": {
+            "nom": "najbardziej wszechstronny",
+            "gen": "najbardziej wszechstronnego",
+            "dat": "najbardziej wszechstronnemu",
+            "acc": "najbardziej wszechstronny",
+            "ins": "najbardziej wszechstronnym",
+            "loc": "najbardziej wszechstronnym"
+          },
+          "f": {
+            "nom": "najbardziej wszechstronna",
+            "gen": "najbardziej wszechstronnej",
+            "dat": "najbardziej wszechstronnej",
+            "acc": "najbardziej wszechstronną",
+            "ins": "najbardziej wszechstronną",
+            "loc": "najbardziej wszechstronnej"
+          },
+          "n": {
+            "nom": "najbardziej wszechstronne",
+            "gen": "najbardziej wszechstronnego",
+            "dat": "najbardziej wszechstronnemu",
+            "acc": "najbardziej wszechstronne",
+            "ins": "najbardziej wszechstronnym",
+            "loc": "najbardziej wszechstronnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najbardziej wszechstronni",
+            "gen": "najbardziej wszechstronnych",
+            "dat": "najbardziej wszechstronnym",
+            "acc": "najbardziej wszechstronnych",
+            "ins": "najbardziej wszechstronnymi",
+            "loc": "najbardziej wszechstronnych"
+          },
+          "nonvirile": {
+            "nom": "najbardziej wszechstronne",
+            "gen": "najbardziej wszechstronnych",
+            "dat": "najbardziej wszechstronnym",
+            "acc": "najbardziej wszechstronne",
+            "ins": "najbardziej wszechstronnymi",
+            "loc": "najbardziej wszechstronnych"
+          }
+        }
+      }
+    }
+  },{
+    "lemma": "wszechstronny",
+    "id": "pol-adj-0188-wszechstronny(comprehensive)",
     "tags": [
       "FREQ5",
       "concrete"
@@ -41212,8 +41579,6 @@
     ],
     "translations": {
       "ENG": [
-        "versatile",
-        "all-encompassing",
         "comprehensive"
       ]
     },
@@ -47833,7 +48198,7 @@
   },
   {
     "lemma": "pikantny",
-    "id": "pol-adj-0227-pikantny🚩",
+    "id": "pol-adj-0227-pikantny",
     "tags": [
       "FREQ2",
       "flavour",
@@ -47847,7 +48212,7 @@
     ],
     "translations": {
       "ENG": [
-        "hot",
+        "*hot",
         "spicy"
       ]
     },
@@ -53594,7 +53959,7 @@
   },
   {
     "lemma": "kwaśny",
-    "id": "pol-adj-0257-kwaśny🚩",
+    "id": "pol-adj-0257-kwaśny",
     "tags": [
       "FREQ2",
       "flavour",
@@ -53608,7 +53973,6 @@
     ],
     "translations": {
       "ENG": [
-        "acid",
         "sour"
       ]
     },
@@ -56012,7 +56376,7 @@
   },
   {
     "lemma": "przeciętny",
-    "id": "pol-adj-0269-przeciętny🚩",
+    "id": "pol-adj-0269-przeciętny(average)",
     "tags": [
       "FREQ4",
       "abstract",
@@ -56021,6 +56385,614 @@
     ],
     "topics": [
       "math"
+    ],
+    "translations": {
+      "ENG": [
+        "average"
+      ]
+    },
+    "inflections": {
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "przeciętny",
+            "gen": "przeciętnego",
+            "dat": "przeciętnemu",
+            "acc": "przeciętnego",
+            "ins": "przeciętnym",
+            "loc": "przeciętnym"
+          },
+          "m3": {
+            "nom": "przeciętny",
+            "gen": "przeciętnego",
+            "dat": "przeciętnemu",
+            "acc": "przeciętny",
+            "ins": "przeciętnym",
+            "loc": "przeciętnym"
+          },
+          "f": {
+            "nom": "przeciętna",
+            "gen": "przeciętnej",
+            "dat": "przeciętnej",
+            "acc": "przeciętną",
+            "ins": "przeciętną",
+            "loc": "przeciętnej"
+          },
+          "n": {
+            "nom": "przeciętne",
+            "gen": "przeciętnego",
+            "dat": "przeciętnemu",
+            "acc": "przeciętne",
+            "ins": "przeciętnym",
+            "loc": "przeciętnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "przeciętni",
+            "gen": "przeciętnych",
+            "dat": "przeciętnym",
+            "acc": "przeciętnych",
+            "ins": "przeciętnymi",
+            "loc": "przeciętnych"
+          },
+          "nonvirile": {
+            "nom": "przeciętne",
+            "gen": "przeciętnych",
+            "dat": "przeciętnym",
+            "acc": "przeciętne",
+            "ins": "przeciętnymi",
+            "loc": "przeciętnych"
+          }
+        }
+      },
+      "adverb": "przeciętnie",
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszy",
+                "bardziej przeciętny"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszego",
+                "bardziej przeciętnego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszemu",
+                "bardziej przeciętnemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszego",
+                "bardziej przeciętnego"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszym",
+                "bardziej przeciętnym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszym",
+                "bardziej przeciętnym"
+              ]
+            }
+          },
+          "m3": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszy",
+                "bardziej przeciętny"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszego",
+                "bardziej przeciętnego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszemu",
+                "bardziej przeciętnemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszy",
+                "bardziej przeciętny"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszym",
+                "bardziej przeciętnym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszym",
+                "bardziej przeciętnym"
+              ]
+            }
+          },
+          "f": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejsza",
+                "bardziej przeciętna"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszej",
+                "bardziej przeciętnej"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszej",
+                "bardziej przeciętnej"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszą",
+                "bardziej przeciętną"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszą",
+                "bardziej przeciętną"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszej",
+                "bardziej przeciętnej"
+              ]
+            }
+          },
+          "n": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejsze",
+                "bardziej przeciętne"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszego",
+                "bardziej przeciętnego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszemu",
+                "bardziej przeciętnemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejsze",
+                "bardziej przeciętne"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszym",
+                "bardziej przeciętnym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszym",
+                "bardziej przeciętnym"
+              ]
+            }
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejsi",
+                "bardziej przeciętni"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszych",
+                "bardziej przeciętnych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszym",
+                "bardziej przeciętnym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszych",
+                "bardziej przeciętnych"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszymi",
+                "bardziej przeciętnymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszych",
+                "bardziej przeciętnych"
+              ]
+            }
+          },
+          "nonvirile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejsze",
+                "bardziej przeciętne"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszych",
+                "bardziej przeciętnych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszym",
+                "bardziej przeciętnym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejsze",
+                "bardziej przeciętne"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszymi",
+                "bardziej przeciętnymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "przeciętniejszych",
+                "bardziej przeciętnych"
+              ]
+            }
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszy",
+                "najbardziej przeciętny"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszego",
+                "najbardziej przeciętnego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszemu",
+                "najbardziej przeciętnemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszego",
+                "najbardziej przeciętnego"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszym",
+                "najbardziej przeciętnym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszym",
+                "najbardziej przeciętnym"
+              ]
+            }
+          },
+          "m3": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszy",
+                "najbardziej przeciętny"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszego",
+                "najbardziej przeciętnego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszemu",
+                "najbardziej przeciętnemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszy",
+                "najbardziej przeciętny"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszym",
+                "najbardziej przeciętnym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszym",
+                "najbardziej przeciętnym"
+              ]
+            }
+          },
+          "f": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejsza",
+                "najbardziej przeciętna"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszej",
+                "najbardziej przeciętnej"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszej",
+                "najbardziej przeciętnej"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszą",
+                "najbardziej przeciętną"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszą",
+                "najbardziej przeciętną"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszej",
+                "najbardziej przeciętnej"
+              ]
+            }
+          },
+          "n": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejsze",
+                "najbardziej przeciętne"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszego",
+                "najbardziej przeciętnego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszemu",
+                "najbardziej przeciętnemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejsze",
+                "najbardziej przeciętne"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszym",
+                "najbardziej przeciętnym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszym",
+                "najbardziej przeciętnym"
+              ]
+            }
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejsi",
+                "najbardziej przeciętni"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszych",
+                "najbardziej przeciętnych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszym",
+                "najbardziej przeciętnym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszych",
+                "najbardziej przeciętnych"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszymi",
+                "najbardziej przeciętnymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszych",
+                "najbardziej przeciętnych"
+              ]
+            }
+          },
+          "nonvirile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejsze",
+                "najbardziej przeciętne"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszych",
+                "najbardziej przeciętnych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszym",
+                "najbardziej przeciętnym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejsze",
+                "najbardziej przeciętne"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszymi",
+                "najbardziej przeciętnymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najprzeciętniejszych",
+                "najbardziej przeciętnych"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },{
+    "lemma": "przeciętny",
+    "id": "pol-adj-0269-przeciętny(mediocre)",
+    "tags": "5-",
+    "topics": [
     ],
     "translations": {
       "ENG": [
@@ -58063,7 +59035,7 @@
   },
   {
     "lemma": "obcisły",
-    "id": "pol-adj-0279-obcisły🚩",
+    "id": "pol-adj-0279-obcisły",
     "tags": [
       "FREQ4",
       "dimension",
@@ -58076,7 +59048,8 @@
     ],
     "translations": {
       "ENG": [
-        "tight-fitting"
+        "tight-fitting",
+        "tight"
       ]
     },
     "inflections": {
@@ -64437,7 +65410,7 @@
   },
   {
     "lemma": "zamożny",
-    "id": "pol-adj-0307-zamożny🚩",
+    "id": "pol-adj-0307-zamożny",
     "tags": [
       "FREQ4",
       "money",
@@ -64451,7 +65424,8 @@
     "translations": {
       "ENG": [
         "wealthy",
-        "affluent"
+        "affluent",
+        "rich"
       ]
     },
     "extra": {
@@ -83957,7 +84931,7 @@
   },
   {
     "lemma": "dziecięcy",
-    "id": "pol-adj-0400-dziecięcy🚩",
+    "id": "pol-adj-0400-dziecięcy",
     "tags": [
       "FREQ5",
       "personality",
@@ -83968,10 +84942,8 @@
     ],
     "translations": {
       "ENG": [
-        "childish",
-        "infantile",
-        "juvenile",
-        "childlike"
+        "children's",
+        "child"
       ]
     },
     "extra": {
@@ -88682,7 +89654,7 @@
   },
   {
     "lemma": "cudzy",
-    "id": "pol-adj-0425-cudzy🚩",
+    "id": "pol-adj-0425-cudzy",
     "tags": [
       "FREQ3",
       "abstract",
@@ -88694,8 +89666,8 @@
     ],
     "translations": {
       "ENG": [
-        "someone else",
-        "another"
+        "someone else's",
+        "other people's"
       ]
     },
     "inflections": {
@@ -108186,7 +109158,7 @@
   },
   {
     "lemma": "dwuletni",
-    "id": "pol-adj-0553-dwuletni🚩",
+    "id": "pol-adj-0553-dwuletni",
     "tags": [
       "FREQ4",
       "concrete",
@@ -108199,8 +109171,7 @@
     ],
     "translations": {
       "ENG": [
-        "two year old",
-        "two-year-old"
+        "two year old"
       ]
     },
     "extra": {
@@ -114090,7 +115061,7 @@
   },
   {
     "lemma": "niemy",
-    "id": "pol-adj-0592-niemy🚩",
+    "id": "pol-adj-0592-niemy",
     "tags": [
       "FREQ5",
       "abstract",
@@ -114101,7 +115072,7 @@
     ],
     "translations": {
       "ENG": [
-        "*silent"
+        "silent"
       ]
     },
     "extra": {
@@ -124098,201 +125069,6 @@
             "acc": "najkłótliwsze",
             "ins": "najkłótliwszymi",
             "loc": "najkłótliwszych"
-          }
-        }
-      }
-    }
-  },
-  {
-    "lemma": "zgodny",
-    "id": "pol-adj-0664-zgodny🚩",
-    "tags": [
-      "FREQ5",
-      "concrete"
-    ],
-    "topics": [
-      "law",
-      "tech"
-    ],
-    "translations": {
-      "ENG": [
-        "*consistent",
-        "*compatible",
-        "*compliant"
-      ]
-    },
-    "extra": {
-      "synonyms": [
-        "bezkonfliktowy",
-        "niekonfliktowy"
-      ],
-      "antonyms": [
-        "konfliktowy",
-        "niezgodny",
-        "sprzeczny"
-      ]
-    },
-    "inflections": {
-      "simple": {
-        "singular": {
-          "m1": {
-            "nom": "zgodny",
-            "gen": "zgodnego",
-            "dat": "zgodnemu",
-            "acc": "zgodnego",
-            "ins": "zgodnym",
-            "loc": "zgodnym"
-          },
-          "m3": {
-            "nom": "zgodny",
-            "gen": "zgodnego",
-            "dat": "zgodnemu",
-            "acc": "zgodny",
-            "ins": "zgodnym",
-            "loc": "zgodnym"
-          },
-          "f": {
-            "nom": "zgodna",
-            "gen": "zgodnej",
-            "dat": "zgodnej",
-            "acc": "zgodną",
-            "ins": "zgodną",
-            "loc": "zgodnej"
-          },
-          "n": {
-            "nom": "zgodne",
-            "gen": "zgodnego",
-            "dat": "zgodnemu",
-            "acc": "zgodne",
-            "ins": "zgodnym",
-            "loc": "zgodnym"
-          }
-        },
-        "plural": {
-          "virile": {
-            "nom": "zgodni",
-            "gen": "zgodnych",
-            "dat": "zgodnym",
-            "acc": "zgodnych",
-            "ins": "zgodnymi",
-            "loc": "zgodnych"
-          },
-          "nonvirile": {
-            "nom": "zgodne",
-            "gen": "zgodnych",
-            "dat": "zgodnym",
-            "acc": "zgodne",
-            "ins": "zgodnymi",
-            "loc": "zgodnych"
-          }
-        }
-      },
-      "adverb": "zgodnie",
-      "comparative": {
-        "singular": {
-          "m1": {
-            "nom": "zgodniejszy",
-            "gen": "zgodniejszego",
-            "dat": "zgodniejszemu",
-            "acc": "zgodniejszego",
-            "ins": "zgodniejszym",
-            "loc": "zgodniejszym"
-          },
-          "m3": {
-            "nom": "zgodniejszy",
-            "gen": "zgodniejszego",
-            "dat": "zgodniejszemu",
-            "acc": "zgodniejszy",
-            "ins": "zgodniejszym",
-            "loc": "zgodniejszym"
-          },
-          "f": {
-            "nom": "zgodniejsza",
-            "gen": "zgodniejszej",
-            "dat": "zgodniejszej",
-            "acc": "zgodniejszą",
-            "ins": "zgodniejszą",
-            "loc": "zgodniejszej"
-          },
-          "n": {
-            "nom": "zgodniejsze",
-            "gen": "zgodniejszego",
-            "dat": "zgodniejszemu",
-            "acc": "zgodniejsze",
-            "ins": "zgodniejszym",
-            "loc": "zgodniejszym"
-          }
-        },
-        "plural": {
-          "virile": {
-            "nom": "zgodniejsi",
-            "gen": "zgodniejszych",
-            "dat": "zgodniejszym",
-            "acc": "zgodniejszych",
-            "ins": "zgodniejszymi",
-            "loc": "zgodniejszych"
-          },
-          "nonvirile": {
-            "nom": "zgodniejsze",
-            "gen": "zgodniejszych",
-            "dat": "zgodniejszym",
-            "acc": "zgodniejsze",
-            "ins": "zgodniejszymi",
-            "loc": "zgodniejszych"
-          }
-        }
-      },
-      "superlative": {
-        "singular": {
-          "m1": {
-            "nom": "najzgodniejszy",
-            "gen": "najzgodniejszego",
-            "dat": "najzgodniejszemu",
-            "acc": "najzgodniejszego",
-            "ins": "najzgodniejszym",
-            "loc": "najzgodniejszym"
-          },
-          "m3": {
-            "nom": "najzgodniejszy",
-            "gen": "najzgodniejszego",
-            "dat": "najzgodniejszemu",
-            "acc": "najzgodniejszy",
-            "ins": "najzgodniejszym",
-            "loc": "najzgodniejszym"
-          },
-          "f": {
-            "nom": "najzgodniejsza",
-            "gen": "najzgodniejszej",
-            "dat": "najzgodniejszej",
-            "acc": "najzgodniejszą",
-            "ins": "najzgodniejszą",
-            "loc": "najzgodniejszej"
-          },
-          "n": {
-            "nom": "najzgodniejsze",
-            "gen": "najzgodniejszego",
-            "dat": "najzgodniejszemu",
-            "acc": "najzgodniejsze",
-            "ins": "najzgodniejszym",
-            "loc": "najzgodniejszym"
-          }
-        },
-        "plural": {
-          "virile": {
-            "nom": "najzgodniejsi",
-            "gen": "najzgodniejszych",
-            "dat": "najzgodniejszym",
-            "acc": "najzgodniejszych",
-            "ins": "najzgodniejszymi",
-            "loc": "najzgodniejszych"
-          },
-          "nonvirile": {
-            "nom": "najzgodniejsze",
-            "gen": "najzgodniejszych",
-            "dat": "najzgodniejszym",
-            "acc": "najzgodniejsze",
-            "ins": "najzgodniejszymi",
-            "loc": "najzgodniejszych"
           }
         }
       }
