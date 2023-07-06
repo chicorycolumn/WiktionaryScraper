@@ -268,6 +268,8 @@ def user_validate_translations(lobj, res):
                 duplicated_lobj["id"] += "🚩Ŧ"  # Need to add tags and topics
                 duplicated_lobj["translations"]["ENG"] = trans_for_new_lobj
                 add_to_res(duplicated_lobj)
+
+                lobj += f'({lobj["translations"]["ENG"][0]})'
             return
 
         else:

@@ -825,7 +825,7 @@
   },
   {
     "lemma": "jasny",
-    "id": "pol-adj-0006-jasny",
+    "id": "pol-adj-0006-jasny(bright)",
     "tags": [
       "FREQ3",
       "positive judgment",
@@ -1021,8 +1021,8 @@
   },
   {
     "lemma": "jasny",
-    "id": "pol-adj-0006-jasny(evident)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0006-jasny(evident)",
+    "tags": "4eee,kk",
     "topics": [],
     "translations": {
       "ENG": [
@@ -1405,192 +1405,6 @@
     "translations": {
       "ENG": [
         "dark"
-      ]
-    },
-    "extra": {
-      "synonyms": [
-        "mroczny",
-        "czarny"
-      ],
-      "antonyms": [
-        "jasny"
-      ]
-    },
-    "inflections": {
-      "simple": {
-        "singular": {
-          "m1": {
-            "nom": "ciemny",
-            "gen": "ciemnego",
-            "dat": "ciemnemu",
-            "acc": "ciemnego",
-            "ins": "ciemnym",
-            "loc": "ciemnym"
-          },
-          "m3": {
-            "nom": "ciemny",
-            "gen": "ciemnego",
-            "dat": "ciemnemu",
-            "acc": "ciemny",
-            "ins": "ciemnym",
-            "loc": "ciemnym"
-          },
-          "f": {
-            "nom": "ciemna",
-            "gen": "ciemnej",
-            "dat": "ciemnej",
-            "acc": "ciemną",
-            "ins": "ciemną",
-            "loc": "ciemnej"
-          },
-          "n": {
-            "nom": "ciemne",
-            "gen": "ciemnego",
-            "dat": "ciemnemu",
-            "acc": "ciemne",
-            "ins": "ciemnym",
-            "loc": "ciemnym"
-          }
-        },
-        "plural": {
-          "virile": {
-            "nom": "ciemni",
-            "gen": "ciemnych",
-            "dat": "ciemnym",
-            "acc": "ciemnych",
-            "ins": "ciemnymi",
-            "loc": "ciemnych"
-          },
-          "nonvirile": {
-            "nom": "ciemne",
-            "gen": "ciemnych",
-            "dat": "ciemnym",
-            "acc": "ciemne",
-            "ins": "ciemnymi",
-            "loc": "ciemnych"
-          }
-        }
-      },
-      "adverb": "ciemno",
-      "comparative": {
-        "singular": {
-          "m1": {
-            "nom": "ciemniejszy",
-            "gen": "ciemniejszego",
-            "dat": "ciemniejszemu",
-            "acc": "ciemniejszego",
-            "ins": "ciemniejszym",
-            "loc": "ciemniejszym"
-          },
-          "m3": {
-            "nom": "ciemniejszy",
-            "gen": "ciemniejszego",
-            "dat": "ciemniejszemu",
-            "acc": "ciemniejszy",
-            "ins": "ciemniejszym",
-            "loc": "ciemniejszym"
-          },
-          "f": {
-            "nom": "ciemniejsza",
-            "gen": "ciemniejszej",
-            "dat": "ciemniejszej",
-            "acc": "ciemniejszą",
-            "ins": "ciemniejszą",
-            "loc": "ciemniejszej"
-          },
-          "n": {
-            "nom": "ciemniejsze",
-            "gen": "ciemniejszego",
-            "dat": "ciemniejszemu",
-            "acc": "ciemniejsze",
-            "ins": "ciemniejszym",
-            "loc": "ciemniejszym"
-          }
-        },
-        "plural": {
-          "virile": {
-            "nom": "ciemniejsi",
-            "gen": "ciemniejszych",
-            "dat": "ciemniejszym",
-            "acc": "ciemniejszych",
-            "ins": "ciemniejszymi",
-            "loc": "ciemniejszych"
-          },
-          "nonvirile": {
-            "nom": "ciemniejsze",
-            "gen": "ciemniejszych",
-            "dat": "ciemniejszym",
-            "acc": "ciemniejsze",
-            "ins": "ciemniejszymi",
-            "loc": "ciemniejszych"
-          }
-        }
-      },
-      "superlative": {
-        "singular": {
-          "m1": {
-            "nom": "najciemniejszy",
-            "gen": "najciemniejszego",
-            "dat": "najciemniejszemu",
-            "acc": "najciemniejszego",
-            "ins": "najciemniejszym",
-            "loc": "najciemniejszym"
-          },
-          "m3": {
-            "nom": "najciemniejszy",
-            "gen": "najciemniejszego",
-            "dat": "najciemniejszemu",
-            "acc": "najciemniejszy",
-            "ins": "najciemniejszym",
-            "loc": "najciemniejszym"
-          },
-          "f": {
-            "nom": "najciemniejsza",
-            "gen": "najciemniejszej",
-            "dat": "najciemniejszej",
-            "acc": "najciemniejszą",
-            "ins": "najciemniejszą",
-            "loc": "najciemniejszej"
-          },
-          "n": {
-            "nom": "najciemniejsze",
-            "gen": "najciemniejszego",
-            "dat": "najciemniejszemu",
-            "acc": "najciemniejsze",
-            "ins": "najciemniejszym",
-            "loc": "najciemniejszym"
-          }
-        },
-        "plural": {
-          "virile": {
-            "nom": "najciemniejsi",
-            "gen": "najciemniejszych",
-            "dat": "najciemniejszym",
-            "acc": "najciemniejszych",
-            "ins": "najciemniejszymi",
-            "loc": "najciemniejszych"
-          },
-          "nonvirile": {
-            "nom": "najciemniejsze",
-            "gen": "najciemniejszych",
-            "dat": "najciemniejszym",
-            "acc": "najciemniejsze",
-            "ins": "najciemniejszymi",
-            "loc": "najciemniejszych"
-          }
-        }
-      }
-    }
-  },
-  {
-    "lemma": "ciemny",
-    "id": "pol-adj-0008-ciemny(shady)🚩Ŧ",
-    "tags": [],
-    "topics": [],
-    "translations": {
-      "ENG": [
-        "shady",
-        "mysterious"
       ]
     },
     "extra": {
@@ -3706,7 +3520,7 @@
   },
   {
     "lemma": "ciężki",
-    "id": "pol-adj-0017-ciężki",
+    "id": "pol-adj-0017-ciężki(heavy)",
     "tags": [
       "FREQ3",
       "dimension",
@@ -3897,8 +3711,8 @@
   },
   {
     "lemma": "ciężki",
-    "id": "pol-adj-0017-ciężki(difficult)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0017-ciężki(difficult)",
+    "tags": "3ee",
     "topics": [],
     "translations": {
       "ENG": [
@@ -4452,7 +4266,7 @@
   },
   {
     "lemma": "wrażliwy",
-    "id": "pol-adj-0020-wrażliwy",
+    "id": "pol-adj-0020-wrażliwy(impressionable)",
     "tags": [
       "FREQ4",
       "personality",
@@ -5072,8 +4886,8 @@
   },
   {
     "lemma": "wrażliwy",
-    "id": "pol-adj-0020-wrażliwy(susceptible)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0020-wrażliwy(susceptible)",
+    "tags": "4med",
     "topics": [],
     "translations": {
       "ENG": [
@@ -6057,7 +5871,7 @@
   },
   {
     "lemma": "martwy",
-    "id": "pol-adj-0024-martwy",
+    "id": "pol-adj-0024-martwy(dead)",
     "tags": [
       "FREQ3",
       "concrete"
@@ -6132,8 +5946,8 @@
   },
   {
     "lemma": "martwy",
-    "id": "pol-adj-0024-martwy(inanimate)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0024-martwy(inanimate)",
+    "tags": "5eee",
     "topics": [],
     "translations": {
       "ENG": [
@@ -6198,9 +6012,76 @@
       "adverb": "martwo"
     }
   },
+    {
+    "lemma": "nieożywiony",
+    "id": "pol-adj-0024-nieożywiony",
+    "tags": "5eee",
+    "topics": [],
+    "translations": {
+      "ENG": [
+        "inanimate"
+      ]
+    },
+    "inflections": {
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "nieożywiony",
+            "gen": "nieożywionego",
+            "dat": "nieożywionemu",
+            "acc": "nieożywionego",
+            "ins": "nieożywionym",
+            "loc": "nieożywionym"
+          },
+          "m3": {
+            "nom": "nieożywiony",
+            "gen": "nieożywionego",
+            "dat": "nieożywionemu",
+            "acc": "nieożywiony",
+            "ins": "nieożywionym",
+            "loc": "nieożywionym"
+          },
+          "f": {
+            "nom": "nieożywiona",
+            "gen": "nieożywionej",
+            "dat": "nieożywionej",
+            "acc": "nieożywioną",
+            "ins": "nieożywioną",
+            "loc": "nieożywionej"
+          },
+          "n": {
+            "nom": "nieożywione",
+            "gen": "nieożywionego",
+            "dat": "nieożywionemu",
+            "acc": "nieożywione",
+            "ins": "nieożywionym",
+            "loc": "nieożywionym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "nieożywioni",
+            "gen": "nieożywionych",
+            "dat": "nieożywionym",
+            "acc": "nieożywionych",
+            "ins": "nieożywionymi",
+            "loc": "nieożywionych"
+          },
+          "nonvirile": {
+            "nom": "nieożywione",
+            "gen": "nieożywionych",
+            "dat": "nieożywionym",
+            "acc": "nieożywione",
+            "ins": "nieożywionymi",
+            "loc": "nieożywionych"
+          }
+        }
+      }
+    }
+  },
   {
     "lemma": "żywy",
-    "id": "pol-adj-0025-żywy",
+    "id": "pol-adj-0025-żywy(live)",
     "tags": [
       "FREQ4",
       "personality",
@@ -6830,8 +6711,8 @@
   },
   {
     "lemma": "żywy",
-    "id": "pol-adj-0025-żywy(lively)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0025-żywy(lively)",
+    "tags": "4kk",
     "topics": [],
     "translations": {
       "ENG": [
@@ -9420,7 +9301,7 @@
   },
   {
     "lemma": "głęboki",
-    "id": "pol-adj-0038-głęboki",
+    "id": "pol-adj-0038-głęboki(concrete)",
     "tags": [
       "FREQ2",
       "dimension",
@@ -9432,8 +9313,7 @@
     ],
     "translations": {
       "ENG": [
-        "deep",
-        "profound"
+        "deep"
       ]
     },
     "extra": {
@@ -9611,12 +9491,13 @@
   },
   {
     "lemma": "głęboki",
-    "id": "pol-adj-0038-głęboki(🚩ß)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0038-głęboki(abstract)",
+    "tags": "5Y",
     "topics": [],
     "translations": {
       "ENG": [
-        "deep"
+        "deep",
+        "profound"
       ]
     },
     "extra": {
@@ -13668,7 +13549,7 @@
   },
   {
     "lemma": "gotowy",
-    "id": "pol-adj-0061-gotowy",
+    "id": "pol-adj-0061-gotowy(person)",
     "tags": [
       "FREQ3",
       "abstract"
@@ -13681,7 +13562,8 @@
     ],
     "translations": {
       "ENG": [
-        "ready"
+        "ready",
+        "prepared"
       ]
     },
     "inflections": {
@@ -13851,8 +13733,8 @@
   },
   {
     "lemma": "gotowy",
-    "id": "pol-adj-0061-gotowy(prepared)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0061-gotowy(readymade)",
+    "tags": "5ff,qq",
     "topics": [],
     "translations": {
       "ENG": [
@@ -14213,7 +14095,7 @@
   },
   {
     "lemma": "pewny",
-    "id": "pol-adj-0063-pewny",
+    "id": "pol-adj-0063-pewny(certain)",
     "tags": [
       "FREQ3",
       "abstract",
@@ -14397,8 +14279,8 @@
   },
   {
     "lemma": "pewny",
-    "id": "pol-adj-0063-pewny(confident)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0063-pewny(confident)",
+    "tags": "3e,pr",
     "topics": [],
     "translations": {
       "ENG": [
@@ -18772,7 +18654,7 @@
   },
   {
     "lemma": "gruby",
-    "id": "pol-adj-0088-gruby",
+    "id": "pol-adj-0088-gruby(fat)",
     "tags": [
       "FREQ3",
       "concrete",
@@ -18973,8 +18855,8 @@
   },
   {
     "lemma": "gruby",
-    "id": "pol-adj-0088-gruby(thick)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0088-gruby(thick)",
+    "tags": "2z",
     "topics": [],
     "translations": {
       "ENG": [
@@ -24039,7 +23921,7 @@
   },
   {
     "lemma": "odpowiedni",
-    "id": "pol-adj-0112-odpowiedni",
+    "id": "pol-adj-0112-odpowiedni(appropriate)",
     "tags": [
       "FREQ2",
       "helper",
@@ -24662,9 +24544,10 @@
   },
   {
     "lemma": "odpowiedni",
-    "id": "pol-adj-0112-odpowiedni(relevant)🚩Ŧ",
-    "tags": [],
-    "topics": [],
+    "id": "pol-adj-0112-odpowiedni(relevant)",
+    "tags": "5he,wri",
+    "topics": [
+    ],
     "translations": {
       "ENG": [
         "relevant",
@@ -30159,7 +30042,7 @@
   },
   {
     "lemma": "niewłaściwy",
-    "id": "pol-adj-0135-niewłaściwy",
+    "id": "pol-adj-0135-niewłaściwy(inappropriate)",
     "tags": [
       "FREQ3",
       "helper",
@@ -30346,8 +30229,8 @@
   },
   {
     "lemma": "niewłaściwy",
-    "id": "pol-adj-0135-niewłaściwy(wrong)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0135-niewłaściwy(wrong)",
+    "tags": "3eee,-",
     "topics": [],
     "translations": {
       "ENG": [
@@ -31094,7 +30977,7 @@
   },
   {
     "lemma": "nieprawidłowy",
-    "id": "pol-adj-0139-nieprawidłowy",
+    "id": "pol-adj-0139-nieprawidłowy(irregular)",
     "tags": [
       "FREQ4",
       "helper",
@@ -31275,8 +31158,8 @@
   },
   {
     "lemma": "nieprawidłowy",
-    "id": "pol-adj-0139-nieprawidłowy(incorrect)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0139-nieprawidłowy(incorrect)",
+    "tags": "3eee,-",
     "topics": [],
     "translations": {
       "ENG": [
@@ -32968,7 +32851,7 @@
   },
   {
     "lemma": "niedobry",
-    "id": "pol-adj-0147-niedobry",
+    "id": "pol-adj-0147-niedobry(bad)",
     "tags": [
       "FREQ2",
       "positive judgment",
@@ -33183,8 +33066,8 @@
   },
   {
     "lemma": "niedobry",
-    "id": "pol-adj-0147-niedobry(unkind)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0147-niedobry(unkind)",
+    "tags": "3py",
     "topics": [],
     "translations": {
       "ENG": [
@@ -42744,7 +42627,7 @@
   },
   {
     "lemma": "skąpy",
-    "id": "pol-adj-0197-skąpy",
+    "id": "pol-adj-0197-skąpy(miserly)",
     "tags": [
       "FREQ4",
       "money",
@@ -42932,8 +42815,8 @@
   },
   {
     "lemma": "skąpy",
-    "id": "pol-adj-0197-skąpy(scant)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0197-skąpy(scant)",
+    "tags": "4mat",
     "topics": [],
     "translations": {
       "ENG": [
@@ -61116,7 +60999,7 @@
   },
   {
     "lemma": "prosty",
-    "id": "pol-adj-0294-prosty",
+    "id": "pol-adj-0294-prosty(straight)",
     "tags": [
       "FREQ3",
       "concrete"
@@ -61313,8 +61196,8 @@
   },
   {
     "lemma": "prosty",
-    "id": "pol-adj-0294-prosty(simple)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0294-prosty(simple)",
+    "tags": "4eee,he",
     "topics": [],
     "translations": {
       "ENG": [
@@ -69329,7 +69212,7 @@
   },
   {
     "lemma": "tępy",
-    "id": "pol-adj-0327-tępy",
+    "id": "pol-adj-0327-tępy(blunt)",
     "tags": [
       "FREQ3",
       "personality",
@@ -69964,8 +69847,8 @@
   },
   {
     "lemma": "tępy",
-    "id": "pol-adj-0327-tępy(dumb)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0327-tępy(dumb)",
+    "tags": "3py",
     "topics": [],
     "translations": {
       "ENG": [
@@ -71324,7 +71207,7 @@
   },
   {
     "lemma": "miły",
-    "id": "pol-adj-0332-miły",
+    "id": "pol-adj-0332-miły(thing)",
     "tags": [
       "FREQ1",
       "personality",
@@ -71511,8 +71394,8 @@
   },
   {
     "lemma": "miły",
-    "id": "pol-adj-0332-miły(polite)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0332-miły(polite)",
+    "tags": "3py",
     "topics": [],
     "translations": {
       "ENG": [
@@ -76576,7 +76459,7 @@
   },
   {
     "lemma": "czynny",
-    "id": "pol-adj-0359-czynny",
+    "id": "pol-adj-0359-czynny(active)",
     "tags": [
       "FREQ4",
       "money",
@@ -76778,8 +76661,8 @@
   },
   {
     "lemma": "czynny",
-    "id": "pol-adj-0359-czynny(open)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0359-czynny(open)",
+    "tags": "3$,PP",
     "topics": [],
     "translations": {
       "ENG": [
@@ -80019,7 +79902,7 @@
   },
   {
     "lemma": "zdenerwowany",
-    "id": "pol-adj-0374-zdenerwowany",
+    "id": "pol-adj-0374-zdenerwowany(annoyed)",
     "tags": [
       "FREQ3",
       "abstract",
@@ -80202,9 +80085,15 @@
   },
   {
     "lemma": "zdenerwowany",
-    "id": "pol-adj-0374-zdenerwowany(nervous)🚩Ŧ",
-    "tags": [],
-    "topics": [],
+    "id": "pol-adj-0374-zdenerwowany(nervous)",
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "emotion"
+    ],
+    "topics": [
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "nervous",
@@ -80378,15 +80267,9 @@
   },
   {
     "lemma": "gwałtowny",
-    "id": "pol-adj-0375-gwałtowny",
-    "tags": [
-      "FREQ4",
-      "helper",
-      "concrete"
-    ],
-    "topics": [
-      "math"
-    ],
+    "id": "pol-adj-0375-gwałtowny(person)",
+    "tags": "4py,XX",
+    "topics": [],
     "translations": {
       "ENG": [
         "violent"
@@ -80560,9 +80443,15 @@
   },
   {
     "lemma": "gwałtowny",
-    "id": "pol-adj-0375-gwałtowny(abrupt)🚩Ŧ",
-    "tags": [],
-    "topics": [],
+    "id": "pol-adj-0375-gwałtowny(trendline)",
+    "tags": [
+      "FREQ4",
+      "helper",
+      "concrete"
+    ],
+    "topics": [
+      "math"
+    ],
     "translations": {
       "ENG": [
         "abrupt",
@@ -85524,15 +85413,9 @@
   },
   {
     "lemma": "drobny",
-    "id": "pol-adj-0406-drobny",
-    "tags": [
-      "FREQ3",
-      "dimension",
-      "concrete"
-    ],
+    "id": "pol-adj-0406-drobny(fine)",
+    "tags": "3z",
     "topics": [
-      "appearance",
-      "sense and perception"
     ],
     "translations": {
       "ENG": [
@@ -85604,108 +85487,108 @@
       "comparative": {
         "singular": {
           "m1": {
-            "nom": "drobniej",
-            "gen": "drobnieego",
-            "dat": "drobnieemu",
-            "acc": "drobnieego",
-            "ins": "drobniejm",
-            "loc": "drobniejm"
+            "nom": "drobniejszy",
+            "gen": "drobniejszego",
+            "dat": "drobniejszemu",
+            "acc": "drobniejszego",
+            "ins": "drobniejszym",
+            "loc": "drobniejszym"
           },
           "m3": {
-            "nom": "drobniej",
-            "gen": "drobnieego",
-            "dat": "drobnieemu",
-            "acc": "drobniej",
-            "ins": "drobniejm",
-            "loc": "drobniejm"
+            "nom": "drobniejszy",
+            "gen": "drobniejszego",
+            "dat": "drobniejszemu",
+            "acc": "drobniejszy",
+            "ins": "drobniejszym",
+            "loc": "drobniejszym"
           },
           "f": {
-            "nom": "drobniea",
-            "gen": "drobnieej",
-            "dat": "drobnieej",
-            "acc": "drobnieą",
-            "ins": "drobnieą",
-            "loc": "drobnieej"
+            "nom": "drobniejsza",
+            "gen": "drobniejszej",
+            "dat": "drobniejszej",
+            "acc": "drobniejszą",
+            "ins": "drobniejszą",
+            "loc": "drobniejszej"
           },
           "n": {
-            "nom": "drobniee",
-            "gen": "drobnieego",
-            "dat": "drobnieemu",
-            "acc": "drobniee",
-            "ins": "drobniejm",
-            "loc": "drobniejm"
+            "nom": "drobniejsze",
+            "gen": "drobniejszego",
+            "dat": "drobniejszemu",
+            "acc": "drobniejsze",
+            "ins": "drobniejszym",
+            "loc": "drobniejszym"
           }
         },
         "plural": {
           "virile": {
-            "nom": "drobnii",
-            "gen": "drobniejch",
-            "dat": "drobniejm",
-            "acc": "drobniejch",
-            "ins": "drobniejmi",
-            "loc": "drobniejch"
+            "nom": "drobniejsi",
+            "gen": "drobniejszych",
+            "dat": "drobniejszym",
+            "acc": "drobniejszych",
+            "ins": "drobniejszymi",
+            "loc": "drobniejszych"
           },
           "nonvirile": {
-            "nom": "drobniee",
-            "gen": "drobniejch",
-            "dat": "drobniejm",
-            "acc": "drobniee",
-            "ins": "drobniejmi",
-            "loc": "drobniejch"
+            "nom": "drobniejsze",
+            "gen": "drobniejszych",
+            "dat": "drobniejszym",
+            "acc": "drobniejsze",
+            "ins": "drobniejszymi",
+            "loc": "drobniejszych"
           }
         }
       },
       "superlative": {
         "singular": {
           "m1": {
-            "nom": "najdrobniej",
-            "gen": "najdrobnieego",
-            "dat": "najdrobnieemu",
-            "acc": "najdrobnieego",
-            "ins": "najdrobniejm",
-            "loc": "najdrobniejm"
+            "nom": "najdrobniejszy",
+            "gen": "najdrobniejszego",
+            "dat": "najdrobniejszemu",
+            "acc": "najdrobniejszego",
+            "ins": "najdrobniejszym",
+            "loc": "najdrobniejszym"
           },
           "m3": {
-            "nom": "najdrobniej",
-            "gen": "najdrobnieego",
-            "dat": "najdrobnieemu",
-            "acc": "najdrobniej",
-            "ins": "najdrobniejm",
-            "loc": "najdrobniejm"
+            "nom": "najdrobniejszy",
+            "gen": "najdrobniejszego",
+            "dat": "najdrobniejszemu",
+            "acc": "najdrobniejszy",
+            "ins": "najdrobniejszym",
+            "loc": "najdrobniejszym"
           },
           "f": {
-            "nom": "najdrobniea",
-            "gen": "najdrobnieej",
-            "dat": "najdrobnieej",
-            "acc": "najdrobnieą",
-            "ins": "najdrobnieą",
-            "loc": "najdrobnieej"
+            "nom": "najdrobniejsza",
+            "gen": "najdrobniejszej",
+            "dat": "najdrobniejszej",
+            "acc": "najdrobniejszą",
+            "ins": "najdrobniejszą",
+            "loc": "najdrobniejszej"
           },
           "n": {
-            "nom": "najdrobniee",
-            "gen": "najdrobnieego",
-            "dat": "najdrobnieemu",
-            "acc": "najdrobniee",
-            "ins": "najdrobniejm",
-            "loc": "najdrobniejm"
+            "nom": "najdrobniejsze",
+            "gen": "najdrobniejszego",
+            "dat": "najdrobniejszemu",
+            "acc": "najdrobniejsze",
+            "ins": "najdrobniejszym",
+            "loc": "najdrobniejszym"
           }
         },
         "plural": {
           "virile": {
-            "nom": "najdrobnii",
-            "gen": "najdrobniejch",
-            "dat": "najdrobniejm",
-            "acc": "najdrobniejch",
-            "ins": "najdrobniejmi",
-            "loc": "najdrobniejch"
+            "nom": "najdrobniejsi",
+            "gen": "najdrobniejszych",
+            "dat": "najdrobniejszym",
+            "acc": "najdrobniejszych",
+            "ins": "najdrobniejszymi",
+            "loc": "najdrobniejszych"
           },
           "nonvirile": {
-            "nom": "najdrobniee",
-            "gen": "najdrobniejch",
-            "dat": "najdrobniejm",
-            "acc": "najdrobniee",
-            "ins": "najdrobniejmi",
-            "loc": "najdrobniejch"
+            "nom": "najdrobniejsze",
+            "gen": "najdrobniejszych",
+            "dat": "najdrobniejszym",
+            "acc": "najdrobniejsze",
+            "ins": "najdrobniejszymi",
+            "loc": "najdrobniejszych"
           }
         }
       }
@@ -85713,8 +85596,8 @@
   },
   {
     "lemma": "drobny",
-    "id": "pol-adj-0406-drobny(petty)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0406-drobny(petty)",
+    "tags": "4ee,-",
     "topics": [],
     "translations": {
       "ENG": [
@@ -85788,108 +85671,108 @@
       "comparative": {
         "singular": {
           "m1": {
-            "nom": "drobniej",
-            "gen": "drobnieego",
-            "dat": "drobnieemu",
-            "acc": "drobnieego",
-            "ins": "drobniejm",
-            "loc": "drobniejm"
+            "nom": "drobniejszy",
+            "gen": "drobniejszego",
+            "dat": "drobniejszemu",
+            "acc": "drobniejszego",
+            "ins": "drobniejszym",
+            "loc": "drobniejszym"
           },
           "m3": {
-            "nom": "drobniej",
-            "gen": "drobnieego",
-            "dat": "drobnieemu",
-            "acc": "drobniej",
-            "ins": "drobniejm",
-            "loc": "drobniejm"
+            "nom": "drobniejszy",
+            "gen": "drobniejszego",
+            "dat": "drobniejszemu",
+            "acc": "drobniejszy",
+            "ins": "drobniejszym",
+            "loc": "drobniejszym"
           },
           "f": {
-            "nom": "drobniea",
-            "gen": "drobnieej",
-            "dat": "drobnieej",
-            "acc": "drobnieą",
-            "ins": "drobnieą",
-            "loc": "drobnieej"
+            "nom": "drobniejsza",
+            "gen": "drobniejszej",
+            "dat": "drobniejszej",
+            "acc": "drobniejszą",
+            "ins": "drobniejszą",
+            "loc": "drobniejszej"
           },
           "n": {
-            "nom": "drobniee",
-            "gen": "drobnieego",
-            "dat": "drobnieemu",
-            "acc": "drobniee",
-            "ins": "drobniejm",
-            "loc": "drobniejm"
+            "nom": "drobniejsze",
+            "gen": "drobniejszego",
+            "dat": "drobniejszemu",
+            "acc": "drobniejsze",
+            "ins": "drobniejszym",
+            "loc": "drobniejszym"
           }
         },
         "plural": {
           "virile": {
-            "nom": "drobnii",
-            "gen": "drobniejch",
-            "dat": "drobniejm",
-            "acc": "drobniejch",
-            "ins": "drobniejmi",
-            "loc": "drobniejch"
+            "nom": "drobniejsi",
+            "gen": "drobniejszych",
+            "dat": "drobniejszym",
+            "acc": "drobniejszych",
+            "ins": "drobniejszymi",
+            "loc": "drobniejszych"
           },
           "nonvirile": {
-            "nom": "drobniee",
-            "gen": "drobniejch",
-            "dat": "drobniejm",
-            "acc": "drobniee",
-            "ins": "drobniejmi",
-            "loc": "drobniejch"
+            "nom": "drobniejsze",
+            "gen": "drobniejszych",
+            "dat": "drobniejszym",
+            "acc": "drobniejsze",
+            "ins": "drobniejszymi",
+            "loc": "drobniejszych"
           }
         }
       },
       "superlative": {
         "singular": {
           "m1": {
-            "nom": "najdrobniej",
-            "gen": "najdrobnieego",
-            "dat": "najdrobnieemu",
-            "acc": "najdrobnieego",
-            "ins": "najdrobniejm",
-            "loc": "najdrobniejm"
+            "nom": "najdrobniejszy",
+            "gen": "najdrobniejszego",
+            "dat": "najdrobniejszemu",
+            "acc": "najdrobniejszego",
+            "ins": "najdrobniejszym",
+            "loc": "najdrobniejszym"
           },
           "m3": {
-            "nom": "najdrobniej",
-            "gen": "najdrobnieego",
-            "dat": "najdrobnieemu",
-            "acc": "najdrobniej",
-            "ins": "najdrobniejm",
-            "loc": "najdrobniejm"
+            "nom": "najdrobniejszy",
+            "gen": "najdrobniejszego",
+            "dat": "najdrobniejszemu",
+            "acc": "najdrobniejszy",
+            "ins": "najdrobniejszym",
+            "loc": "najdrobniejszym"
           },
           "f": {
-            "nom": "najdrobniea",
-            "gen": "najdrobnieej",
-            "dat": "najdrobnieej",
-            "acc": "najdrobnieą",
-            "ins": "najdrobnieą",
-            "loc": "najdrobnieej"
+            "nom": "najdrobniejsza",
+            "gen": "najdrobniejszej",
+            "dat": "najdrobniejszej",
+            "acc": "najdrobniejszą",
+            "ins": "najdrobniejszą",
+            "loc": "najdrobniejszej"
           },
           "n": {
-            "nom": "najdrobniee",
-            "gen": "najdrobnieego",
-            "dat": "najdrobnieemu",
-            "acc": "najdrobniee",
-            "ins": "najdrobniejm",
-            "loc": "najdrobniejm"
+            "nom": "najdrobniejsze",
+            "gen": "najdrobniejszego",
+            "dat": "najdrobniejszemu",
+            "acc": "najdrobniejsze",
+            "ins": "najdrobniejszym",
+            "loc": "najdrobniejszym"
           }
         },
         "plural": {
           "virile": {
-            "nom": "najdrobnii",
-            "gen": "najdrobniejch",
-            "dat": "najdrobniejm",
-            "acc": "najdrobniejch",
-            "ins": "najdrobniejmi",
-            "loc": "najdrobniejch"
+            "nom": "najdrobniejsi",
+            "gen": "najdrobniejszych",
+            "dat": "najdrobniejszym",
+            "acc": "najdrobniejszych",
+            "ins": "najdrobniejszymi",
+            "loc": "najdrobniejszych"
           },
           "nonvirile": {
-            "nom": "najdrobniee",
-            "gen": "najdrobniejch",
-            "dat": "najdrobniejm",
-            "acc": "najdrobniee",
-            "ins": "najdrobniejmi",
-            "loc": "najdrobniejch"
+            "nom": "najdrobniejsze",
+            "gen": "najdrobniejszych",
+            "dat": "najdrobniejszym",
+            "acc": "najdrobniejsze",
+            "ins": "najdrobniejszymi",
+            "loc": "najdrobniejszych"
           }
         }
       }
@@ -93118,7 +93001,7 @@
   },
   {
     "lemma": "dojrzały",
-    "id": "pol-adj-0460-dojrzały",
+    "id": "pol-adj-0460-dojrzały(person)",
     "tags": [
       "FREQ4",
       "personality",
@@ -93736,8 +93619,8 @@
   },
   {
     "lemma": "dojrzały",
-    "id": "pol-adj-0460-dojrzały(ripe)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0460-dojrzały(ripe)",
+    "tags": "3ff",
     "topics": [],
     "translations": {
       "ENG": [
@@ -94526,15 +94409,13 @@
   },
   {
     "lemma": "delikatny",
-    "id": "pol-adj-0462-delikatny",
+    "id": "pol-adj-0462-delikatny(delicate)",
     "tags": [
       "FREQ4",
-      "personality",
       "texture",
       "concrete"
     ],
     "topics": [
-      "people",
       "sense and perception"
     ],
     "translations": {
@@ -94710,8 +94591,8 @@
   },
   {
     "lemma": "delikatny",
-    "id": "pol-adj-0462-delikatny(gentle)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0462-delikatny(gentle)",
+    "tags": "4py,vv",
     "topics": [],
     "translations": {
       "ENG": [
@@ -96059,7 +95940,7 @@
   },
   {
     "lemma": "domowy",
-    "id": "pol-adj-0476-domowy",
+    "id": "pol-adj-0476-domowy(politics)",
     "tags": [
       "FREQ4",
       "concrete",
@@ -96135,8 +96016,8 @@
   },
   {
     "lemma": "domowy",
-    "id": "pol-adj-0476-domowy(house)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0476-domowy(house)",
+    "tags": "4dr",
     "topics": [],
     "translations": {
       "ENG": [
@@ -105832,7 +105713,7 @@
   },
   {
     "lemma": "widoczny",
-    "id": "pol-adj-0536-widoczny",
+    "id": "pol-adj-0536-widoczny(visible)",
     "tags": [
       "FREQ4",
       "abstract",
@@ -105912,8 +105793,8 @@
   },
   {
     "lemma": "widoczny",
-    "id": "pol-adj-0536-widoczny(apparent)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0536-widoczny(apparent)",
+    "tags": "4eee",
     "topics": [],
     "translations": {
       "ENG": [
@@ -107664,7 +107545,7 @@
   },
   {
     "lemma": "łagodny",
-    "id": "pol-adj-0550-łagodny",
+    "id": "pol-adj-0550-łagodny(mild)",
     "tags": [
       "FREQ4",
       "flavour",
@@ -107673,11 +107554,9 @@
       "concrete"
     ],
     "topics": [
-      "disease",
       "geography",
       "inside",
       "kitchen",
-      "medicine",
       "outdoor",
       "restaurant",
       "sense and perception"
@@ -107857,8 +107736,8 @@
   },
   {
     "lemma": "łagodny",
-    "id": "pol-adj-0550-łagodny(benign)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0550-łagodny(benign)",
+    "tags": "5med",
     "topics": [],
     "translations": {
       "ENG": [
@@ -115627,16 +115506,13 @@
   },
   {
     "lemma": "męski",
-    "id": "pol-adj-0604-męski",
+    "id": "pol-adj-0604-męski(linguistic)",
     "tags": [
       "FREQ4",
       "abstract"
     ],
     "topics": [
-      "fashion",
-      "language",
-      "people",
-      "sociology"
+      "language"
     ],
     "translations": {
       "ENG": [
@@ -116254,8 +116130,8 @@
   },
   {
     "lemma": "męski",
-    "id": "pol-adj-0604-męski(manly)🚩Ŧ",
-    "tags": [],
+    "id": "pol-adj-0604-męski(manly)",
+    "tags": "4py",
     "topics": [],
     "translations": {
       "ENG": [
@@ -131378,7 +131254,7 @@
   },
   {
     "lemma": "przerażający",
-    "id": "pol-adj-0706-przerażający",
+    "id": "pol-adj-0706-przerażający(scary)",
     "tags": [
       "FREQ4",
       "negative judgment",
@@ -131568,9 +131444,15 @@
   },
   {
     "lemma": "przerażający",
-    "id": "pol-adj-0706-przerażający(appalling)🚩Ŧ",
-    "tags": [],
-    "topics": [],
+    "id": "pol-adj-0706-przerażający(appalling)",
+    "tags": [
+      "FREQ4",
+      "negative judgment",
+      "concrete"
+    ],
+    "topics": [
+      "judgment"
+    ],
     "translations": {
       "ENG": [
         "appalling"
@@ -137955,7 +137837,7 @@
   },
   {
     "lemma": "potworny",
-    "id": "pol-adj-0752-potworny",
+    "id": "pol-adj-0752-potworny(monstrous)",
     "tags": [
       "FREQ4",
       "negative judgment",
@@ -138138,9 +138020,15 @@
   },
   {
     "lemma": "potworny",
-    "id": "pol-adj-0752-potworny(appalling)🚩Ŧ",
-    "tags": [],
-    "topics": [],
+    "id": "pol-adj-0752-potworny(appalling)",
+    "tags": [
+      "FREQ4",
+      "negative judgment",
+      "concrete"
+    ],
+    "topics": [
+      "judgment"
+    ],
     "translations": {
       "ENG": [
         "appalling"
