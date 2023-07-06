@@ -1571,6 +1571,6 @@ input = ['młody', 'powolny',
          "życzliwy",
          "żydowski",
          "żyjący",
-        'sprężysty','kumaty','zuchwały','poufny','namiętny','bojaźliwy','staromodny','staroświecki','fakultatywny','pożądliwy','chciwy','pomysłowy',
+        'sprężysty','kumaty','zuchwały','poufny','namiętny','bojaźliwy','staromodny','staroświecki','fakultatywny','pożądliwy','chciwy','pomysłowy','grubiański'
 
 ]
