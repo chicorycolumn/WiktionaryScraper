@@ -13,7 +13,7 @@ if __name__ == '__main__':
     
     # # # # # #
     wordtype = "adj"
-    input_filename = "adjectives_batch_1_is_groups_01_to_09_doublechecked'"
+    input_filename = "adjectives_batch_1_is_groups_01_to_09_doublechecked"
     input_override = 0  # Only set True for dryruns
     # # # # # #
 
@@ -165,10 +165,10 @@ if __name__ == '__main__':
     print("Done all lobjs, so now all_new_eng_lobjs has length", len(all_new_eng_lobjs))
     print("how_many_inputs_needed", how_many_inputs_needed)
 
-    all_new_eng_lobjs_json = json.dumps(all_new_eng_lobjs, indent=2, ensure_ascii=False)
-
     with open(output_path_eng, "w") as outfile:
+        all_new_eng_lobjs_json = json.dumps(all_new_eng_lobjs, indent=2, ensure_ascii=False)
         outfile.write(all_new_eng_lobjs_json)
+        outfile.close()
 
     print("Completely done.")
 

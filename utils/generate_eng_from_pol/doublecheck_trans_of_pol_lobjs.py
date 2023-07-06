@@ -55,9 +55,9 @@ if __name__ == '__main__':
             print("")
             print("Done all lobjs, so now doublechecked_pol_lobjs has length", len(doublechecked_pol_lobjs))
 
-            doublechecked_pol_lobjs_json = json.dumps(doublechecked_pol_lobjs, indent=2, ensure_ascii=False)
-
             with open(output_path, "w") as outfile:
+                doublechecked_pol_lobjs_json = json.dumps(doublechecked_pol_lobjs, indent=2, ensure_ascii=False)
                 outfile.write(doublechecked_pol_lobjs_json)
+                outfile.close()
 
             print("Completely done.")

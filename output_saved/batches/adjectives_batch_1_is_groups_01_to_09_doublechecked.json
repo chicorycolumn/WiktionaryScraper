@@ -1022,8 +1022,14 @@
   {
     "lemma": "jasny",
     "id": "pol-adj-0006-jasny(evident)",
-    "tags": "4eee,kk",
-    "topics": [],
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "appearance",
+      "knowledge and existence",
+      "sense and perception"
+    ],
     "translations": {
       "ENG": [
         "evident",
@@ -3712,8 +3718,13 @@
   {
     "lemma": "ciężki",
     "id": "pol-adj-0017-ciężki(difficult)",
-    "tags": "3ee",
-    "topics": [],
+    "tags": [
+      "FREQ3",
+      "abstract"
+    ],
+    "topics": [
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "difficult"
@@ -4887,8 +4898,12 @@
   {
     "lemma": "wrażliwy",
     "id": "pol-adj-0020-wrażliwy(susceptible)",
-    "tags": "4med",
-    "topics": [],
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "medicine"
+    ],
     "translations": {
       "ENG": [
         "sensitive",
@@ -5947,8 +5962,12 @@
   {
     "lemma": "martwy",
     "id": "pol-adj-0024-martwy(inanimate)",
-    "tags": "5eee",
-    "topics": [],
+    "tags": [
+      "FREQ5"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
     "translations": {
       "ENG": [
         "inanimate"
@@ -6012,11 +6031,15 @@
       "adverb": "martwo"
     }
   },
-    {
+  {
     "lemma": "nieożywiony",
     "id": "pol-adj-0024-nieożywiony",
-    "tags": "5eee",
-    "topics": [],
+    "tags": [
+      "FREQ5"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
     "translations": {
       "ENG": [
         "inanimate"
@@ -6712,8 +6735,13 @@
   {
     "lemma": "żywy",
     "id": "pol-adj-0025-żywy(lively)",
-    "tags": "4kk",
-    "topics": [],
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "appearance",
+      "sense and perception"
+    ],
     "translations": {
       "ENG": [
         "lively",
@@ -9491,8 +9519,14 @@
   {
     "lemma": "głęboki",
     "id": "pol-adj-0038-głęboki(abstract)",
-    "tags": "5Y",
-    "topics": [],
+    "tags": [
+      "FREQ5",
+      "abstract",
+      "thought"
+    ],
+    "topics": [
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "deep",
@@ -13733,8 +13767,15 @@
   {
     "lemma": "gotowy",
     "id": "pol-adj-0061-gotowy(readymade)",
-    "tags": "5ff,qq",
-    "topics": [],
+    "tags": [
+      "FREQ5"
+    ],
+    "topics": [
+      "hobbies",
+      "inside",
+      "kitchen",
+      "restaurant"
+    ],
     "translations": {
       "ENG": [
         "prepared",
@@ -14279,8 +14320,15 @@
   {
     "lemma": "pewny",
     "id": "pol-adj-0063-pewny(confident)",
-    "tags": "3e,pr",
-    "topics": [],
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "emotion"
+    ],
+    "topics": [
+      "mental",
+      "probability"
+    ],
     "translations": {
       "ENG": [
         "sure",
@@ -18855,8 +18903,14 @@
   {
     "lemma": "gruby",
     "id": "pol-adj-0088-gruby(thick)",
-    "tags": "2z",
-    "topics": [],
+    "tags": [
+      "FREQ2",
+      "dimension"
+    ],
+    "topics": [
+      "appearance",
+      "sense and perception"
+    ],
     "translations": {
       "ENG": [
         "thick"
@@ -21349,7 +21403,8 @@
         }
       }
     }
-  }, {
+  },
+  {
     "lemma": "ciekawy",
     "id": "pol-adj-0099-ciekawy(curious)",
     "tags": [
@@ -24735,8 +24790,12 @@
   {
     "lemma": "odpowiedni",
     "id": "pol-adj-0112-odpowiedni(relevant)",
-    "tags": "5he,wri",
+    "tags": [
+      "FREQ5",
+      "helper"
+    ],
     "topics": [
+      "writing"
     ],
     "translations": {
       "ENG": [
@@ -30421,8 +30480,14 @@
   {
     "lemma": "niewłaściwy",
     "id": "pol-adj-0135-niewłaściwy(wrong)",
-    "tags": "3eee,-",
-    "topics": [],
+    "tags": [
+      "FREQ3",
+      "negative judgment"
+    ],
+    "topics": [
+      "judgment",
+      "knowledge and existence"
+    ],
     "translations": {
       "ENG": [
         "wrong"
@@ -31350,8 +31415,14 @@
   {
     "lemma": "nieprawidłowy",
     "id": "pol-adj-0139-nieprawidłowy(incorrect)",
-    "tags": "3eee,-",
-    "topics": [],
+    "tags": [
+      "FREQ3",
+      "negative judgment"
+    ],
+    "topics": [
+      "judgment",
+      "knowledge and existence"
+    ],
     "translations": {
       "ENG": [
         "incorrect",
@@ -33258,8 +33329,13 @@
   {
     "lemma": "niedobry",
     "id": "pol-adj-0147-niedobry(unkind)",
-    "tags": "3py",
-    "topics": [],
+    "tags": [
+      "FREQ3",
+      "personality"
+    ],
+    "topics": [
+      "people"
+    ],
     "translations": {
       "ENG": [
         "bad",
@@ -41394,8 +41470,12 @@
   {
     "lemma": "wszechstronny",
     "id": "pol-adj-0188-wszechstronny(versatile)",
-    "tags": "5eng,he",
+    "tags": [
+      "FREQ5",
+      "helper"
+    ],
     "topics": [
+      "engineering"
     ],
     "translations": {
       "ENG": [
@@ -41567,7 +41647,8 @@
         }
       }
     }
-  },{
+  },
+  {
     "lemma": "wszechstronny",
     "id": "pol-adj-0188-wszechstronny(comprehensive)",
     "tags": [
@@ -43181,8 +43262,12 @@
   {
     "lemma": "skąpy",
     "id": "pol-adj-0197-skąpy(scant)",
-    "tags": "4mat",
-    "topics": [],
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "math"
+    ],
     "translations": {
       "ENG": [
         "scant",
@@ -56988,11 +57073,16 @@
         }
       }
     }
-  },{
+  },
+  {
     "lemma": "przeciętny",
     "id": "pol-adj-0269-przeciętny(mediocre)",
-    "tags": "5-",
+    "tags": [
+      "FREQ5",
+      "negative judgment"
+    ],
     "topics": [
+      "judgment"
     ],
     "translations": {
       "ENG": [
@@ -62170,8 +62260,13 @@
   {
     "lemma": "prosty",
     "id": "pol-adj-0294-prosty(simple)",
-    "tags": "4eee,he",
-    "topics": [],
+    "tags": [
+      "FREQ4",
+      "helper"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
     "translations": {
       "ENG": [
         "simple",
@@ -70822,8 +70917,13 @@
   {
     "lemma": "tępy",
     "id": "pol-adj-0327-tępy(dumb)",
-    "tags": "3py",
-    "topics": [],
+    "tags": [
+      "FREQ3",
+      "personality"
+    ],
+    "topics": [
+      "people"
+    ],
     "translations": {
       "ENG": [
         "dumb",
@@ -72369,8 +72469,13 @@
   {
     "lemma": "miły",
     "id": "pol-adj-0332-miły(polite)",
-    "tags": "3py",
-    "topics": [],
+    "tags": [
+      "FREQ3",
+      "personality"
+    ],
+    "topics": [
+      "people"
+    ],
     "translations": {
       "ENG": [
         "nice",
@@ -77636,8 +77741,15 @@
   {
     "lemma": "czynny",
     "id": "pol-adj-0359-czynny(open)",
-    "tags": "3$,PP",
-    "topics": [],
+    "tags": [
+      "FREQ3",
+      "money"
+    ],
+    "topics": [
+      "business",
+      "holiday",
+      "shopping"
+    ],
     "translations": {
       "ENG": [
         "open"
@@ -81242,8 +81354,14 @@
   {
     "lemma": "gwałtowny",
     "id": "pol-adj-0375-gwałtowny(person)",
-    "tags": "4py,XX",
-    "topics": [],
+    "tags": [
+      "FREQ4",
+      "personality"
+    ],
+    "topics": [
+      "people",
+      "violence"
+    ],
     "translations": {
       "ENG": [
         "violent"
@@ -86386,8 +86504,13 @@
   {
     "lemma": "drobny",
     "id": "pol-adj-0406-drobny(fine)",
-    "tags": "3z",
+    "tags": [
+      "FREQ3",
+      "dimension"
+    ],
     "topics": [
+      "appearance",
+      "sense and perception"
     ],
     "translations": {
       "ENG": [
@@ -86569,8 +86692,15 @@
   {
     "lemma": "drobny",
     "id": "pol-adj-0406-drobny(petty)",
-    "tags": "4ee,-",
-    "topics": [],
+    "tags": [
+      "FREQ4",
+      "abstract",
+      "negative judgment"
+    ],
+    "topics": [
+      "judgment",
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "small",
@@ -94592,8 +94722,14 @@
   {
     "lemma": "dojrzały",
     "id": "pol-adj-0460-dojrzały(ripe)",
-    "tags": "3ff",
-    "topics": [],
+    "tags": [
+      "FREQ3"
+    ],
+    "topics": [
+      "inside",
+      "kitchen",
+      "restaurant"
+    ],
     "translations": {
       "ENG": [
         "ripe"
@@ -95564,8 +95700,14 @@
   {
     "lemma": "delikatny",
     "id": "pol-adj-0462-delikatny(gentle)",
-    "tags": "4py,vv",
-    "topics": [],
+    "tags": [
+      "FREQ4",
+      "locomotion",
+      "personality"
+    ],
+    "topics": [
+      "people"
+    ],
     "translations": {
       "ENG": [
         "gentle"
@@ -96989,8 +97131,12 @@
   {
     "lemma": "domowy",
     "id": "pol-adj-0476-domowy(house)",
-    "tags": "4dr",
-    "topics": [],
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "daily routine"
+    ],
     "translations": {
       "ENG": [
         "domestic",
@@ -106766,8 +106912,12 @@
   {
     "lemma": "widoczny",
     "id": "pol-adj-0536-widoczny(apparent)",
-    "tags": "4eee",
-    "topics": [],
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
     "translations": {
       "ENG": [
         "apparent"
@@ -108709,8 +108859,12 @@
   {
     "lemma": "łagodny",
     "id": "pol-adj-0550-łagodny(benign)",
-    "tags": "5med",
-    "topics": [],
+    "tags": [
+      "FREQ5"
+    ],
+    "topics": [
+      "medicine"
+    ],
     "translations": {
       "ENG": [
         "benign"
@@ -117102,8 +117256,13 @@
   {
     "lemma": "męski",
     "id": "pol-adj-0604-męski(manly)",
-    "tags": "4py",
-    "topics": [],
+    "tags": [
+      "FREQ4",
+      "personality"
+    ],
+    "topics": [
+      "people"
+    ],
     "translations": {
       "ENG": [
         "manly",
