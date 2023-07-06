@@ -13,7 +13,7 @@ if __name__ == '__main__':
     
     # # # # # #
     wordtype = "adj"
-    input_filename = "adjectives_batch_1_is_groups_01_to_09"
+    input_filename = "adjectives_batch_1_is_groups_01_to_09_doublechecked'"
     input_override = 0  # Only set True for dryruns
     # # # # # #
 
@@ -72,12 +72,10 @@ if __name__ == '__main__':
 
                             for english in englishes:
                                 if pol_lobj["id"] not in english["»trans"]:
-                                    # print("$1", f'["{pol_lobj["id"]}","{pell["id"]}"]')  # Same meaning - check this.
                                     print("")
                                     print("               Added1", q(pol_lobj["id"]), "to trans of", q(english["id"]))
                                     english["»trans"].append(pol_lobj["id"])
                                 if pell["id"] not in english["»trans"]:
-                                    # print("$1", f'["{pol_lobj["id"]}","{pell["id"]}"]')  # Same meaning - check this.
                                     print("")
                                     print("               Added1", q(pell["id"]), "to trans of", q(english["id"]))
                                     english["»trans"].append(pell["id"])
@@ -114,7 +112,6 @@ if __name__ == '__main__':
                                         this_t_now_done = True
 
                                         if pol_lobj["id"] not in englem["»trans"]:
-                                            # print("$2",f'["{pol_lobj["id"]}","{plob["id"]}"]')  # Same meaning - check this.
                                             print("")
                                             print("               Added2", q(pol_lobj["id"]), "to trans of",
                                                   q(englem["id"]))

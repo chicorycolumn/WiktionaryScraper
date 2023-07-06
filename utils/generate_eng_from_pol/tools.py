@@ -122,7 +122,7 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
         interval = 0
 
         if not input_override:
-            confirmation = input(f"{input_counter['num']}/{total_anticipated} same?\n")
+            confirmation = input(f"{input_counter['num']}/{total_anticipated} same meaning?\n")
             interval = 0.1
 
         if confirmation:
