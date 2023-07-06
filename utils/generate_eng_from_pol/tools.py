@@ -50,7 +50,7 @@ def print_conf_no():
     print("")
 
 
-def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_anticipated, input_override):
+def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_anticipated, input_override, save_fxn):
     for match_record in matches_record["YES"]:
         if len(match_record) == 2 and lobj_1["id"] in match_record and lobj_2["id"] in match_record:
             return "ALREADY CONFIRMED"
@@ -116,15 +116,25 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
         print("**********************************")
         print("")
 
-        input_counter["num"] += 1
-
         confirmation = True
         interval = 0
 
         if not input_override:
-            confirmation = not input(f"{input_counter['num']}/{total_anticipated} same meaning? "
-                                     f"ENTER for yes, ANY KEY for no.\n")
+            user_input = input(f"{input_counter['num']+1}/{total_anticipated} same meaning?\n"
+                                     f"ENTER for yes     ANY KEY for no     w for tempsave.\n")
+
+            if not user_input:
+                confirmation = True
+            elif user_input == "w":
+                save_fxn(True)
+                is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_anticipated, input_override, save_fxn)
+                return
+            else:
+                confirmation = False
+
             interval = 0.2
+
+        input_counter["num"] += 1
 
         if confirmation:
             print_conf_yes()

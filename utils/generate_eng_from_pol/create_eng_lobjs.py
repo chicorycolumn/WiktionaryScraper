@@ -19,17 +19,40 @@ if __name__ == '__main__':
 
     stem = "./../output_saved/batches/"
     input_path = f"{stem}{input_filename}.json"
-    output_path_eng = f"{stem}{input_filename}_ENG.json"
-    output_path_pol = f"{stem}{input_filename}_POL.json"
-    output_path_nex = f"{stem}{input_filename}_NEX.json"
+
+    output_path_eng = f"{stem}{input_filename}_ENG"
+    output_path_pol = f"{stem}{input_filename}_POL"
+    output_path_nex = f"{stem}{input_filename}_NEX"
+
+    all_new_eng_lobjs = []
+    done_pol_lobjs = []
+    new_nexus_objs = []
+
+    def save(temp: bool = False):
+        print("📀 "+ "SAVING PROGRESS" if temp else "SAVING FINAL")
+
+        _output_path_eng = output_path_eng + "_tempsave" if temp else output_path_eng
+        _output_path_pol = output_path_pol + "_tempsave" if temp else output_path_pol
+        _output_path_nex = output_path_nex + "_tempsave" if temp else output_path_nex
+
+        with open(_output_path_eng + ".json", "w") as outfile:
+            all_new_eng_lobjs_json = json.dumps(all_new_eng_lobjs, indent=2, ensure_ascii=False)
+            outfile.write(all_new_eng_lobjs_json)
+            outfile.close()
+
+        with open(_output_path_pol + ".json", "w") as outfile:
+            done_pol_lobjs_json = json.dumps(done_pol_lobjs, indent=2, ensure_ascii=False)
+            outfile.write(done_pol_lobjs_json)
+            outfile.close()
+
+        with open(_output_path_nex + ".json", "w") as outfile:
+            new_nexus_objs_json = json.dumps(new_nexus_objs, indent=2, ensure_ascii=False)
+            outfile.write(new_nexus_objs_json)
+            outfile.close()
 
     with open(input_path, "r") as f:
         pol_lobjs = json.load(f)
         print("Loaded", len(pol_lobjs), "polish lobjs.")
-
-        all_new_eng_lobjs = []
-        done_pol_lobjs = []
-        new_nexus_objs = []
 
         how_many_inputs_needed = {"num": 0}
         hardcoded_number_of_inputs_needed_gauged_by_dryruns = 162
@@ -38,6 +61,13 @@ if __name__ == '__main__':
         nexus_id_incrementer = 1
 
         for pol_lobj_index, pol_lobj in enumerate(pol_lobjs):
+
+            if pol_lobj["id"] in done_pol_lobjs:
+                print("skip", q(pol_lobj["id"]))
+                continue
+
+            if pol_lobj_index % 10 == 1:
+                save(True)
 
             print("")
             print("")
@@ -59,7 +89,7 @@ if __name__ == '__main__':
                 for pell in done_pol_lobjs:
                     if t in pell["translations"]["ENG"]:
 
-                        is_same = is_it_the_same_meaning(pol_lobj, pell, how_many_inputs_needed, matches_record, hardcoded_number_of_inputs_needed_gauged_by_dryruns, input_override)
+                        is_same = is_it_the_same_meaning(pol_lobj, pell, how_many_inputs_needed, matches_record, hardcoded_number_of_inputs_needed_gauged_by_dryruns, input_override, save)
                         if is_same:
                             print("")
                             print("{", q(pol_lobj["id"]), "same as", q(pell["id"]), "due to", is_same)
@@ -99,7 +129,7 @@ if __name__ == '__main__':
                                 plob = [el for el in pol_lobjs if el["id"] == tran][0]
 
                                 if pol_lobj["id"] != plob["id"]:
-                                    is_the_same = is_it_the_same_meaning(pol_lobj, plob, how_many_inputs_needed, matches_record, hardcoded_number_of_inputs_needed_gauged_by_dryruns, input_override)
+                                    is_the_same = is_it_the_same_meaning(pol_lobj, plob, how_many_inputs_needed, matches_record, hardcoded_number_of_inputs_needed_gauged_by_dryruns, input_override, save)
 
                                     if is_the_same:
                                         print("")
@@ -165,12 +195,9 @@ if __name__ == '__main__':
     print("Done all lobjs, so now all_new_eng_lobjs has length", len(all_new_eng_lobjs))
     print("how_many_inputs_needed", how_many_inputs_needed)
 
-    with open(output_path_eng, "w") as outfile:
-        all_new_eng_lobjs_json = json.dumps(all_new_eng_lobjs, indent=2, ensure_ascii=False)
-        outfile.write(all_new_eng_lobjs_json)
-        outfile.close()
-
     print("Completely done.")
+
+    save()
 
     # for root, dirs, files in os.walk(path):
     #     print(files)
