@@ -178,28 +178,28 @@ def user_validate_translations(lobj, res):
         with open(output_path, "w") as outfile:
             outfile.write(res_json)
 
-    if not int(lobj["id"].split("-")[2]) % 10:
+    if int(lobj["id"].split("-")[2]) % 10 == 1:
         tempsave_res()
 
     show1(lobj)
-    input_num = input("OK? (hit Enter)")
+    user_input = input("OK? (hit Enter)")
 
-    if not input_num:
+    if not user_input:
         add_to_res(lobj)
         return
 
-    for char in input_num:
+    for char in user_input:
         if char not in "123456789dDfFwSs":
             show_helptext()
             return
 
-    if input_num[0] == "D":
+    if user_input[0] == "D":
         print("🔥 DELETED LOBJ")
         return
 
-    elif input_num[0] == "d":
+    elif user_input[0] == "d":
         print("DELETING SOME TRANS...")
-        indexes_trans_to_delete = [int(n) - 1 for n in input_num[1:]]
+        indexes_trans_to_delete = [int(n) - 1 for n in user_input[1:]]
         trans_to_keep = []
         for tindex, tran in enumerate(lobj["translations"]["ENG"]):
             if tindex not in indexes_trans_to_delete:
@@ -208,19 +208,19 @@ def user_validate_translations(lobj, res):
         user_validate_translations(lobj, res)
         return
 
-    elif input_num[0] in ["s", "S"]:
+    elif user_input[0] in ["s", "S"]:
         print("SWITCHING SOME TRANS TO NEW LOBJ...")
-        if input_num == "s":
-            input_num = "s2"
-        if input_num == "S":
-            input_num = "S2"
+        if user_input == "s":
+            user_input = "s2"
+        if user_input == "S":
+            user_input = "S2"
 
-        move_these = input_num[input_num.index("s"): input_num.index("S") if (
-                "S" in input_num and input_num.index("S") > input_num.index("s")) else len(input_num)][
-                     1:] if "s" in input_num else ""
-        copy_these = input_num[input_num.index("S"): input_num.index("s") if (
-                "s" in input_num and input_num.index("s") > input_num.index("S")) else len(input_num)][
-                     1:] if "S" in input_num else ""
+        move_these = user_input[user_input.index("s"): user_input.index("S") if (
+                "S" in user_input and user_input.index("S") > user_input.index("s")) else len(user_input)][
+                     1:] if "s" in user_input else ""
+        copy_these = user_input[user_input.index("S"): user_input.index("s") if (
+                "s" in user_input and user_input.index("s") > user_input.index("S")) else len(user_input)][
+                     1:] if "S" in user_input else ""
 
         indexes_trans_to_move = [int(n) - 1 for n in move_these]
         indexes_trans_to_copy = [int(n) - 1 for n in copy_these]
@@ -275,17 +275,17 @@ def user_validate_translations(lobj, res):
             user_validate_translations(lobj, res)
             return
 
-    elif input_num == "w":
+    elif user_input == "w":
         tempsave_res()
         user_validate_translations(lobj, res)
 
-    elif input_num == "f":
+    elif user_input == "f":
         print("ADDED FLAG FOR ATTENTION")
         print("🚩")
         lobj["id"] += "🚩"
         add_to_res(lobj)
 
-    elif input_num == "F":
+    elif user_input == "F":
         print("ADDED FLAG TO", res[-1]["id"])
         print("⬅️🚩")
         res[-1]["id"] += "🚩"
