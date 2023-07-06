@@ -142,16 +142,20 @@ def user_validate_translations(lobj, res):
     def show_helptext():
         print("")
         print("--------------------------------------------------------------------")
-        print("            Did not recognise user input. Options are:")
-        print("     Enter: This lobj is OK.")
-        print("     D    : DELETE lobj.")
-        print("     f    : Okay this lobj but FLAG for later attention.")
-        print("     F    : FLAG the lobj just gone.")
-        print("     w    : WRITE current res array to temporary file.")
-        print("     d24  : DELETE translations at indexes 2 and 4.")
-        print("     s24  : SWITCH translations at indexes 2 and 4 to a new lobj for this lemma.")
-        print(
-            "     s24S3: Translations at indexes 2 and 4 are for new lobj, at index 3 is for both original and new lobjs.")
+        print("         Did not recognise user input. Options are:")
+        print("")
+        print("Enter  : This lobj is OK.")
+        print("")
+        print("D      : DELETE lobj.")
+        print("w      : WRITE current res array to temporary file.")
+        print("")
+        print("fHello : FLAG lobj for later attention with any string eg 'Hello'.")
+        print("FHello : FLAG the previous lobj.")
+        print("xf     : REMOVE FLAGS from lobj.")
+        print("")
+        print("d24    : DELETE translations at eg indexes 2 and 4.")
+        print("s24    : SWITCH translations at eg indexes 2 and 4 to a new lobj for this lemma.")
+        print("s24S3  : Translations at eg indexes 2 and 4 are for new lobj, at index 3 is for both original and new lobjs.")
         print("--------------------------------------------------------------------")
         print("")
         user_validate_translations(lobj, res)
@@ -188,10 +192,11 @@ def user_validate_translations(lobj, res):
         add_to_res(lobj)
         return
 
-    for char in user_input:
-        if char not in "123456789dDfFwSs":
-            show_helptext()
-            return
+    if user_input[0] not in ["f", "F"]:
+        for char in user_input:
+            if char not in "123456789dDfFwSsx":
+                show_helptext()
+                return
 
     if user_input[0] == "D":
         print("🔥 DELETED LOBJ")
@@ -273,7 +278,7 @@ def user_validate_translations(lobj, res):
             return
 
         else:
-            print("Restarting...")
+            print("🔄 RESTARTING...")
             user_validate_translations(lobj, res)
             return
 
@@ -281,16 +286,24 @@ def user_validate_translations(lobj, res):
         tempsave_res()
         user_validate_translations(lobj, res)
 
-    elif user_input == "f":
-        print("ADDED FLAG FOR ATTENTION")
-        print("🚩")
-        lobj["id"] += "🚩"
+    elif user_input[0] == "f":
+        flag = "🚩" + user_input[1:]
+        print(flag, "FLAGGED", lobj["id"])
+        lobj["id"] += flag
         add_to_res(lobj)
 
-    elif user_input == "F":
-        print("ADDED FLAG TO", res[-1]["id"])
-        print("⬅️🚩")
-        res[-1]["id"] += "🚩"
+    elif user_input[0] == "F":
+        flag = "🚩" + user_input[1:]
+        print("⬆️", flag, "FLAGGED", res[-1]["id"])
+        res[-1]["id"] += flag
+        user_validate_translations(lobj, res)
+
+    elif user_input == "xf":
+        if "🚩" in res[-1]["id"]:
+            print("❌ 🚩 REMOVED ALL FLAGS FROM", res[-1]["id"])
+            res[-1]["id"] = res[-1]["id"][:res[-1]["id"].index("🚩")]
+        else:
+            print("NO FLAGS FOUND ON", res[-1]["id"])
         user_validate_translations(lobj, res)
 
     else:

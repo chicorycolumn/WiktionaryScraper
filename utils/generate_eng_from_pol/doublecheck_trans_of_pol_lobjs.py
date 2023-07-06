@@ -47,16 +47,17 @@ if __name__ == '__main__':
             if ready:
                 user_validate_translations(pol_lobj, doublechecked_pol_lobjs)
             else:
-                print("skip")
+                print("already done")
 
         f.close()
 
-        print("")
-        print("Done all lobjs, so now doublechecked_pol_lobjs has length", len(doublechecked_pol_lobjs))
+        if ready:
+            print("")
+            print("Done all lobjs, so now doublechecked_pol_lobjs has length", len(doublechecked_pol_lobjs))
 
-        doublechecked_pol_lobjs_json = json.dumps(doublechecked_pol_lobjs, indent=2, ensure_ascii=False)
+            doublechecked_pol_lobjs_json = json.dumps(doublechecked_pol_lobjs, indent=2, ensure_ascii=False)
 
-        with open(output_path, "w") as outfile:
-            outfile.write(doublechecked_pol_lobjs_json)
+            with open(output_path, "w") as outfile:
+                outfile.write(doublechecked_pol_lobjs_json)
 
-        print("Completely done.")
+            print("Completely done.")
