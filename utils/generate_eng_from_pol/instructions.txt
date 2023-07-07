@@ -7,10 +7,10 @@ After collecting several Polish lobjs files into one batch, we now process them 
    - to finalise translations of Polish lobjs
    Creates "nou_batch_01_SAN.json"
 
-3) Now you manually go through the generated file and search for the flags "🚩" "Ŧ" ß". Resolve them.
-   - 🚩 is a flag you added in step 2 with your own notes.
-   - Ŧ  Please add shorthand tags and topics to the duplicated lobj.
-   - ß  Please add signal word, eg "pol-nco-005-nail(bodypart)" vs "pol-nco-006-nail(metal)".
+3) Now you manually go through the generated file and search for flags. Resolve them.
+   - 🚩  A flag you added in step 2 with your own notes.
+   - 🏁  Add shorthand tags and topics to this duplicated lobj.
+   - ⛳  Add signal word eg "pol-nco-005-nail(bodypart)" vs "pol-nco-006-nail(metal)".
    You are modifying "nou_batch_01_SAN.json"
 
 4) Run "S2_expand_tags_and_renumber.py"

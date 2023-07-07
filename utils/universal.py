@@ -90,3 +90,6 @@ class color:
 
     def print_underline(s):
         print(color.underline(s))
+
+    def print_bold(s):
+        print(color.bold(s))
