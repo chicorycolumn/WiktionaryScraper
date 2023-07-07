@@ -25,11 +25,25 @@ if __name__ == '__main__':
     c.print_teal("Output path will be the same as input.")
     c.print_teal("No tempsave files are used for this stage.")
 
+    failed_flags = False
     with open(input_path + ".json", "r") as f:
         pol_lobjs = json.load(f)
         print("Loaded", len(pol_lobjs), "polish lobjs.")
 
-        res = []
+        for pol_lobj in pol_lobjs:
+            for flag_char in "🚩🏁⛳":
+                if not failed_flags and flag_char in pol_lobj["id"] or flag_char in pol_lobj["tags"]:
+                    failed_flags = True
+
+        f.close()
+
+    if failed_flags:
+        c.print_red("Unresolved flags 🚩🏁⛳ from " + input_path)
+        c.print_red("See instructions.txt step 3.")
+    else:
+        with open(input_path + ".json", "r") as f:
+            pol_lobjs = json.load(f)
+            print("Loaded", len(pol_lobjs), "polish lobjs.")
 
         for pol_lobj in pol_lobjs:
             if type(pol_lobj["tags"]) == str:

@@ -128,7 +128,9 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
                 confirmation = True
             elif user_input == "w":
                 save_fxn(True)
-                return is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_anticipated, input_override, save_fxn)
+                time.sleep(0.2)
+                return is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_anticipated,
+                                              input_override, save_fxn)
             else:
                 confirmation = False
 
@@ -266,16 +268,17 @@ def user_validate_translations(lobj, res, save_fxn):
                     if not signal_word and w not in lobj["translations"]["ENG"]:
                         signal_word = w
                 if not signal_word:
-                    signal_word = "🚩ß"
+                    signal_word = "⛳"
 
                 duplicated_lobj["id"] += f"({signal_word})"
-                duplicated_lobj["tags"] = "xxxxxxxx"
+                duplicated_lobj["tags"] = "🏁"  # Add tags and topics manully before next stage.
                 duplicated_lobj["topics"] = None
-                duplicated_lobj["id"] += "🚩Ŧ"  # Need to add tags and topics
                 duplicated_lobj["translations"]["ENG"] = trans_for_new_lobj
                 add_to_res(duplicated_lobj)
 
-                lobj += f'({lobj["translations"]["ENG"][0]})'
+                if "(" not in lobj["id"]:
+                    lobj["id"] += f'({lobj["translations"]["ENG"][0]})'
+
             return
 
         else:
@@ -286,32 +289,38 @@ def user_validate_translations(lobj, res, save_fxn):
     elif user_input == "w":
         save_fxn(res, True)
         user_validate_translations(lobj, res, save_fxn)
+        return
 
     elif user_input[0] == "f":
         flag = "🚩" + user_input[1:]
-        print(flag, "FLAGGED", lobj["id"])
+        print(q(lobj["id"]), "will be FLAGGED")
         lobj["id"] += flag
+        print(q(lobj["id"]))
         add_to_res(lobj)
+        return
 
     elif user_input[0] == "F":
         flag = "🚩" + user_input[1:]
-        print("⬆️", flag, "FLAGGED", res[-1]["id"])
+        print("⬆️", q(res[-1]["id"]), "will be FLAGGED")
         res[-1]["id"] += flag
+        print("⬆️", q(res[-1]["id"]))
         user_validate_translations(lobj, res, save_fxn)
+        return
 
     elif user_input == "xf":
         if "🚩" in res[-1]["id"]:
-            print("❌ 🚩 REMOVED ALL FLAGS FROM", res[-1]["id"])
+            print("❌", q(res[-1]["id"]), "will be UNFLAGGED")
             res[-1]["id"] = res[-1]["id"][:res[-1]["id"].index("🚩")]
+            print("❌", q(res[-1]["id"]))
         else:
-            print("NO FLAGS FOUND ON", res[-1]["id"])
+            print(q(res[-1]["id"]), "DOESN'T HAVE ANY FLAGS")
         user_validate_translations(lobj, res, save_fxn)
+        return
 
     show_helptext()
 
 
 def add_hints(sibling_set):
-
     hints = get_hints(sibling_set)
 
     lobjs_with_hints = []
@@ -375,3 +384,27 @@ def get_hints(lobjs):
             return get_hints(lobjs)
 
         return hints
+
+
+def get_signalword(id):
+    if "(" in id:
+        ending = id[id.index("(")+1:]
+        return ending[:ending.index(")")]
+
+
+def test_signalword(s):
+    if not s:
+        return False
+
+    if not len(s):
+        return False
+
+    for flag_char in "🚩🏁⛳":
+        if flag_char in s:
+            return False
+
+    for char in s:
+        if char not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ,./-_":
+            return False
+
+    return True

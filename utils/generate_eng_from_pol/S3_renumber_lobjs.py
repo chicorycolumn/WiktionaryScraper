@@ -25,7 +25,7 @@ if __name__ == '__main__':
     c.print_teal("input_path =     " + c.teal(input_path))
     c.print_teal("Output path will be the same as input.")
     c.print_teal("No tempsave files are used for this stage.")
-    c.print_teal("ID numbers for lobjs will start from " + start_id_number)
+    c.print_teal("ID numbers for lobjs will start from " + str(start_id_number))
 
     with open(input_path + ".json", "r") as f:
         pol_lobjs = json.load(f)

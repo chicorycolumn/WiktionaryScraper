@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     bare_input_filename = f"{wordtype}_batch_{batch}"
     input_filename = f"{bare_input_filename}_SAN"
-    stem = "./../../output_saved/batches/"
+    stem = "./../output_saved/batches/"
     input_path = f"{stem}{input_filename}"
 
     output_path_eng = f"{stem}{bare_input_filename}_ENG"
@@ -40,7 +40,7 @@ if __name__ == '__main__':
     if os.path.isfile(tempsave_path_eng + ".json"):
         with open(tempsave_path_eng + ".json", "r") as f:
             all_new_eng_lobjs = json.load(f)
-            c.print_teal("Found tempsave file " + tempsave_path_eng + " loaded " + len(all_new_eng_lobjs) + " items.")
+            c.print_teal("Loaded " + str(len(all_new_eng_lobjs)) + " items from tempsave.")
             f.close()
     else:
         c.print_teal("No tempsave_path_eng file found, I assume you're at the start of this batch?")
@@ -48,13 +48,13 @@ if __name__ == '__main__':
     if os.path.isfile(tempsave_path_pol + ".json"):
         with open(tempsave_path_pol + ".json", "r") as f:
             done_pol_lobjs = json.load(f)
-            c.print_teal("Found tempsave file " + tempsave_path_pol + " loaded " + len(done_pol_lobjs) + " items.")
+            c.print_teal("Found tempsave file " + tempsave_path_pol + " loaded " + str(len(done_pol_lobjs)) + " items.")
             f.close()
     else:
         c.print_teal("No tempsave_path_pol file found, I assume you're at the start of this batch?")
 
     def save(temp: bool = False):
-        print("📀 "+ "SAVING PROGRESS" if temp else "SAVING FINAL")
+        print(f"📀 {'SAVING PROGRESS' if temp else 'SAVING FINAL'}")
 
         _output_path_eng = tempsave_path_eng if temp else output_path_eng
         _output_path_pol = tempsave_path_pol
@@ -75,7 +75,7 @@ if __name__ == '__main__':
             outfile.write(done_pol_lobjs_json)
             outfile.close()
 
-    with open(input_path, "r") as f:
+    with open(input_path + ".json", "r") as f:
         pol_lobjs = json.load(f)
         print("Loaded", len(pol_lobjs), "polish lobjs.")
 
@@ -85,7 +85,7 @@ if __name__ == '__main__':
         nexus_id_incrementer = 1
 
         for pol_lobj_index, pol_lobj in enumerate(pol_lobjs):
-            if pol_lobj["id"] in done_pol_lobjs:
+            if pol_lobj["id"] in [pl["id"] for pl in done_pol_lobjs]:
                 print("skip", q(pol_lobj["id"]))
                 continue
 
