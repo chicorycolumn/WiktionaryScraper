@@ -9,9 +9,8 @@ from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
 from utils.universal import color as c
 
-
 if __name__ == '__main__':
-    
+
     # # # # # #
     wordtype = "adj"
     batch = "01"
@@ -53,6 +52,7 @@ if __name__ == '__main__':
     else:
         c.print_teal("No tempsave_path_pol file found, I assume you're at the start of this batch?")
 
+
     def save(temp: bool = False):
         print(f"📀 {'SAVING PROGRESS' if temp else 'SAVING FINAL'}")
 
@@ -74,6 +74,7 @@ if __name__ == '__main__':
             done_pol_lobjs_json = json.dumps(done_pol_lobjs, indent=2, ensure_ascii=False)
             outfile.write(done_pol_lobjs_json)
             outfile.close()
+
 
     with open(input_path + ".json", "r") as f:
         pol_lobjs = json.load(f)
@@ -112,7 +113,9 @@ if __name__ == '__main__':
                 for pell in done_pol_lobjs:
                     if t in pell["translations"]["ENG"]:
 
-                        is_same = is_it_the_same_meaning(pol_lobj, pell, how_many_inputs_needed, matches_record, hardcoded_number_of_inputs_needed_gauged_by_dryruns, input_override, save)
+                        is_same = is_it_the_same_meaning(pol_lobj, pell, how_many_inputs_needed, matches_record,
+                                                         hardcoded_number_of_inputs_needed_gauged_by_dryruns,
+                                                         input_override, save)
                         if is_same:
                             print("")
                             print("{", q(pol_lobj["id"]), "same as", q(pell["id"]), "due to", is_same)
@@ -152,7 +155,10 @@ if __name__ == '__main__':
                                 plob = [el for el in pol_lobjs if el["id"] == tran][0]
 
                                 if pol_lobj["id"] != plob["id"]:
-                                    is_the_same = is_it_the_same_meaning(pol_lobj, plob, how_many_inputs_needed, matches_record, hardcoded_number_of_inputs_needed_gauged_by_dryruns, input_override, save)
+                                    is_the_same = is_it_the_same_meaning(pol_lobj, plob, how_many_inputs_needed,
+                                                                         matches_record,
+                                                                         hardcoded_number_of_inputs_needed_gauged_by_dryruns,
+                                                                         input_override, save)
 
                                     if is_the_same:
                                         print("")

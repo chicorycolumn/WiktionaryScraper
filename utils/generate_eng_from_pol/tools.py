@@ -351,44 +351,44 @@ def add_hints(sibling_set):
 
 
 def get_hints(lobjs):
-        print("")
-        print("* * * * * * * * * * * * * * *")
-        for lobj in lobjs:
-            print(c.purple(lobj["id"]), lobj["»trans"])
-        print("* * * * * * * * * * * * * * *")
-        print("")
+    print("")
+    print("* * * * * * * * * * * * * * *")
+    for lobj in lobjs:
+        print(c.purple(lobj["id"]), lobj["»trans"])
+    print("* * * * * * * * * * * * * * *")
+    print("")
 
-        user_input = input("Please add hints:")
-        if not user_input:
-            return get_hints(lobjs)
+    user_input = input("Please add hints:")
+    if not user_input:
+        return get_hints(lobjs)
 
-        failed_character_check = False
-        for char in user_input:
-            if char not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ":
-                failed_character_check = True
-        if failed_character_check:
-            print("Invalid input")
-            return get_hints(lobjs)
+    failed_character_check = False
+    for char in user_input:
+        if char not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ":
+            failed_character_check = True
+    if failed_character_check:
+        print("Invalid input")
+        return get_hints(lobjs)
 
-        hints = user_input.split(" ")
-        if len(hints) != len(lobjs):
-            print(f"Expected {len(lobjs)} hints but got {len(hints)}.")
-            return get_hints(lobjs)
+    hints = user_input.split(" ")
+    if len(hints) != len(lobjs):
+        print(f"Expected {len(lobjs)} hints but got {len(hints)}.")
+        return get_hints(lobjs)
 
-        failed_hint_check = False
-        for hint in hints:
-            if not len(hint):
-                failed_hint_check = True
-        if failed_hint_check:
-            print("Invalid hints")
-            return get_hints(lobjs)
+    failed_hint_check = False
+    for hint in hints:
+        if not len(hint):
+            failed_hint_check = True
+    if failed_hint_check:
+        print("Invalid hints")
+        return get_hints(lobjs)
 
-        return hints
+    return hints
 
 
 def get_signalword(id):
     if "(" in id:
-        ending = id[id.index("(")+1:]
+        ending = id[id.index("(") + 1:]
         return ending[:ending.index(")")]
 
 
