@@ -4,6 +4,7 @@ import time
 from copy import deepcopy
 
 from utils.general.common import write_todo
+from utils.universal import color as c
 
 
 def show1(lobj):
@@ -105,11 +106,11 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
         print("")
         print("**********************************")
         print("")
-        print(lobj_1["id"], "", lobj_1["translations"]["ENG"])
+        print(c.purple(lobj_1["id"]), "", lobj_1["translations"]["ENG"])
         print(a_tags)
         print(a_topics)
         print("")
-        print(lobj_2["id"], "", lobj_2["translations"]["ENG"])
+        print(c.purple(lobj_2["id"]), "", lobj_2["translations"]["ENG"])
         print(b_tags)
         print(b_topics)
         print("")
