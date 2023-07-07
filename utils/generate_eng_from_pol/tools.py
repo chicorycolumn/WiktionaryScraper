@@ -121,15 +121,14 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
         interval = 0
 
         if not input_override:
-            user_input = input(f"{input_counter['num']+1}/{total_anticipated} same meaning?\n"
-                                     f"ENTER for yes     ANY KEY for no     w for tempsave.\n")
+            user_input = input(f"{input_counter['num'] + 1}/{total_anticipated} same meaning?\n"
+                               f"ENTER for yes     ANY KEY for no     w for tempsave.\n")
 
             if not user_input:
                 confirmation = True
             elif user_input == "w":
                 save_fxn(True)
-                is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_anticipated, input_override, save_fxn)
-                return
+                return is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_anticipated, input_override, save_fxn)
             else:
                 confirmation = False
 
@@ -149,8 +148,7 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
     record_it(False)
 
 
-def user_validate_translations(lobj, res):
-
+def user_validate_translations(lobj, res, save_fxn):
     def show_helptext():
         print("")
         print("--------------------------------------------------------------------")
@@ -167,10 +165,11 @@ def user_validate_translations(lobj, res):
         print("")
         print("d24    : DELETE translations at eg indexes 2 and 4.")
         print("s24    : SWITCH translations at eg indexes 2 and 4 to a new lobj for this lemma.")
-        print("s24S3  : Translations at eg indexes 2 and 4 are for new lobj, at index 3 is for both original and new lobjs.")
+        print(
+            "s24S3  : Translations at eg indexes 2 and 4 are for new lobj, at index 3 is for both original and new lobjs.")
         print("--------------------------------------------------------------------")
         print("")
-        user_validate_translations(lobj, res)
+        user_validate_translations(lobj, res, save_fxn)
 
     def add_to_res(l):
         dupe = {}
@@ -184,18 +183,8 @@ def user_validate_translations(lobj, res):
         print("💚")
         res.append(dupe)
 
-    def tempsave_res():
-        print("")
-        print(f"📀 SAVING current res ({len(res)} items).")
-        print("")
-        stem = "./../../output_saved/batches/"
-        output_path = f"{stem}tempsave_doublecheck_trans_of_pol_lobjs.json"
-        res_json = json.dumps(res, indent=2, ensure_ascii=False)
-        with open(output_path, "w") as outfile:
-            outfile.write(res_json)
-
     if int(lobj["id"].split("-")[2]) % 10 == 1:
-        tempsave_res()
+        save_fxn(res, True)
 
     show1(lobj)
     user_input = input("OK? (hit Enter)")
@@ -222,7 +211,7 @@ def user_validate_translations(lobj, res):
             if tindex not in indexes_trans_to_delete:
                 trans_to_keep.append(tran)
         lobj["translations"]["ENG"] = trans_to_keep
-        user_validate_translations(lobj, res)
+        user_validate_translations(lobj, res, save_fxn)
         return
 
     elif user_input[0] in ["s", "S"]:
@@ -280,8 +269,8 @@ def user_validate_translations(lobj, res):
                     signal_word = "🚩ß"
 
                 duplicated_lobj["id"] += f"({signal_word})"
-                duplicated_lobj["tags"] = []
-                duplicated_lobj["topics"] = []
+                duplicated_lobj["tags"] = "xxxxxxxx"
+                duplicated_lobj["topics"] = None
                 duplicated_lobj["id"] += "🚩Ŧ"  # Need to add tags and topics
                 duplicated_lobj["translations"]["ENG"] = trans_for_new_lobj
                 add_to_res(duplicated_lobj)
@@ -291,12 +280,12 @@ def user_validate_translations(lobj, res):
 
         else:
             print("🔄 RESTARTING...")
-            user_validate_translations(lobj, res)
+            user_validate_translations(lobj, res, save_fxn)
             return
 
     elif user_input == "w":
-        tempsave_res()
-        user_validate_translations(lobj, res)
+        save_fxn(res, True)
+        user_validate_translations(lobj, res, save_fxn)
 
     elif user_input[0] == "f":
         flag = "🚩" + user_input[1:]
@@ -308,7 +297,7 @@ def user_validate_translations(lobj, res):
         flag = "🚩" + user_input[1:]
         print("⬆️", flag, "FLAGGED", res[-1]["id"])
         res[-1]["id"] += flag
-        user_validate_translations(lobj, res)
+        user_validate_translations(lobj, res, save_fxn)
 
     elif user_input == "xf":
         if "🚩" in res[-1]["id"]:
@@ -316,7 +305,73 @@ def user_validate_translations(lobj, res):
             res[-1]["id"] = res[-1]["id"][:res[-1]["id"].index("🚩")]
         else:
             print("NO FLAGS FOUND ON", res[-1]["id"])
-        user_validate_translations(lobj, res)
+        user_validate_translations(lobj, res, save_fxn)
 
-    else:
-        show_helptext()
+    show_helptext()
+
+
+def add_hints(sibling_set):
+
+    hints = get_hints(sibling_set)
+
+    lobjs_with_hints = []
+
+    for hint_index, hint in enumerate(hints):
+        sib_lobj = sibling_set[hint_index]
+
+        new_id = sib_lobj["id"]
+        if "(" in new_id:
+            new_id = new_id[:new_id.index("(")]
+        new_id += f"({hint})"
+
+        lobjs_with_hints.append([sib_lobj, new_id])
+
+    for lobj_with_hint in lobjs_with_hints:
+        print(">>", lobj_with_hint[1], lobj_with_hint[0]["»trans"])
+    print("")
+
+    user_input = input("Okay?     Enter for yes     Any key for no")
+    confirmation = not user_input
+
+    if confirmation:
+        for lobj_with_hint in lobjs_with_hints:
+            lobj_with_hint[0]["id"] = lobj_with_hint[1]
+        return
+
+    add_hints(sibling_set)
+
+
+def get_hints(lobjs):
+        print("")
+        print("* * * * * * * * * * * * * * *")
+        for lobj in lobjs:
+            print(c.purple(lobj["id"]), lobj["»trans"])
+        print("* * * * * * * * * * * * * * *")
+        print("")
+
+        user_input = input("Please add hints:")
+        if not user_input:
+            return get_hints(lobjs)
+
+        failed_character_check = False
+        for char in user_input:
+            if char not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ":
+                failed_character_check = True
+        if failed_character_check:
+            print("Invalid input")
+            return get_hints(lobjs)
+
+        hints = user_input.split(" ")
+        if len(hints) != len(lobjs):
+            print(f"Expected {len(lobjs)} hints but got {len(hints)}.")
+            return get_hints(lobjs)
+
+        failed_hint_check = False
+        for hint in hints:
+            if not len(hint):
+                failed_hint_check = True
+        if failed_hint_check:
+            print("Invalid hints")
+            return get_hints(lobjs)
+
+        return hints

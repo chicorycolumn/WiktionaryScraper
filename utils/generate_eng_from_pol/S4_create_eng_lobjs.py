@@ -7,33 +7,63 @@ from utils.general.common import write_todo
 from utils.generate_eng_from_pol.tools import is_it_the_same_meaning, q
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
+from utils.universal import color as c
 
 
 if __name__ == '__main__':
     
     # # # # # #
     wordtype = "adj"
-    input_filename = "adjectives_batch_1_is_groups_01_to_09_doublechecked"
+    batch = "01"
     input_override = 0  # Only set True for dryruns
+    hardcoded_number_of_inputs_needed_gauged_by_dryruns = 162
     # # # # # #
 
-    stem = "./../output_saved/batches/"
-    input_path = f"{stem}{input_filename}.json"
+    bare_input_filename = f"{wordtype}_batch_{batch}"
+    input_filename = f"{bare_input_filename}_SAN"
+    stem = "./../../output_saved/batches/"
+    input_path = f"{stem}{input_filename}"
 
-    output_path_eng = f"{stem}{input_filename}_ENG"
-    output_path_pol = f"{stem}{input_filename}_POL"
-    output_path_nex = f"{stem}{input_filename}_NEX"
+    output_path_eng = f"{stem}{bare_input_filename}_ENG"
+    tempsave_path_eng = output_path_eng + "_S4_tempsave"
+    # output_path_nex = f"{stem}{bare_input_filename}_NEX"
+    tempsave_path_pol = f"{stem}{bare_input_filename}_POL_S4_tempsave"
+
+    c.print_teal("input_path        =     " + c.teal(input_path))
+    c.print_teal("output_path_eng   =     " + c.teal(output_path_eng))
+    c.print_teal("tempsave_path_pol =     " + c.teal(tempsave_path_pol))
 
     all_new_eng_lobjs = []
     done_pol_lobjs = []
-    new_nexus_objs = []
+    # new_nexus_objs = []
+
+    if os.path.isfile(tempsave_path_eng + ".json"):
+        with open(tempsave_path_eng + ".json", "r") as f:
+            all_new_eng_lobjs = json.load(f)
+            c.print_teal("Found tempsave file " + tempsave_path_eng + " loaded " + len(all_new_eng_lobjs) + " items.")
+            f.close()
+    else:
+        c.print_teal("No tempsave_path_eng file found, I assume you're at the start of this batch?")
+
+    if os.path.isfile(tempsave_path_pol + ".json"):
+        with open(tempsave_path_pol + ".json", "r") as f:
+            done_pol_lobjs = json.load(f)
+            c.print_teal("Found tempsave file " + tempsave_path_pol + " loaded " + len(done_pol_lobjs) + " items.")
+            f.close()
+    else:
+        c.print_teal("No tempsave_path_pol file found, I assume you're at the start of this batch?")
 
     def save(temp: bool = False):
         print("📀 "+ "SAVING PROGRESS" if temp else "SAVING FINAL")
 
-        _output_path_eng = output_path_eng + "_tempsave" if temp else output_path_eng
-        _output_path_pol = output_path_pol + "_tempsave" if temp else output_path_pol
-        _output_path_nex = output_path_nex + "_tempsave" if temp else output_path_nex
+        _output_path_eng = tempsave_path_eng if temp else output_path_eng
+        _output_path_pol = tempsave_path_pol
+        # _output_path_nex = output_path_nex + "_tempsave" if temp else output_path_nex
+
+        # with open(_output_path_nex + ".json", "w") as outfile:
+        #     new_nexus_objs_json = json.dumps(new_nexus_objs, indent=2, ensure_ascii=False)
+        #     outfile.write(new_nexus_objs_json)
+        #     outfile.close()
 
         with open(_output_path_eng + ".json", "w") as outfile:
             all_new_eng_lobjs_json = json.dumps(all_new_eng_lobjs, indent=2, ensure_ascii=False)
@@ -45,23 +75,16 @@ if __name__ == '__main__':
             outfile.write(done_pol_lobjs_json)
             outfile.close()
 
-        with open(_output_path_nex + ".json", "w") as outfile:
-            new_nexus_objs_json = json.dumps(new_nexus_objs, indent=2, ensure_ascii=False)
-            outfile.write(new_nexus_objs_json)
-            outfile.close()
-
     with open(input_path, "r") as f:
         pol_lobjs = json.load(f)
         print("Loaded", len(pol_lobjs), "polish lobjs.")
 
         how_many_inputs_needed = {"num": 0}
-        hardcoded_number_of_inputs_needed_gauged_by_dryruns = 162
         matches_record = {"YES": [], "NO": []}
         eng_lobj_id_incrementer = 1
         nexus_id_incrementer = 1
 
         for pol_lobj_index, pol_lobj in enumerate(pol_lobjs):
-
             if pol_lobj["id"] in done_pol_lobjs:
                 print("skip", q(pol_lobj["id"]))
                 continue
@@ -197,16 +220,8 @@ if __name__ == '__main__':
 
     print("Completely done.")
 
-    save()
+    for l in all_new_eng_lobjs:
+        if l["lemma"][0] == "*":
+            l["lemma"] = l["lemma"][1:]
 
-    # for root, dirs, files in os.walk(path):
-    #     print(files)
-    #     for file in files:
-    #         with open(f'{path}/{file}', "r") as f:
-    #             loaded = json.load(f)
-    #             for lobj in loaded:
-    #                 # if lobj["gender"] == "m1":
-    #                 #     m1_lobjs.append(lobj["id"])
-    #                 if lobj["id"].split("-")[1] == "nco":
-    #                     print(lobj["id"].split("-")[3])
-    #             f.close()
+    save()
