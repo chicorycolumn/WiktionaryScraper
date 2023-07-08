@@ -4,7 +4,7 @@ import time
 
 from parsers.common import scrape_word_data
 from utils.general.common import write_todo
-from utils.generate_eng_from_pol.tools import is_it_the_same_meaning, q, add_hints, get_signalword, test_signalword
+from utils.generate_eng_from_pol.tools import is_it_the_same_meaning, q, add_signalwords, get_signalword, test_signalword
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
 from utils.universal import color as c
@@ -115,7 +115,7 @@ if __name__ == '__main__':
         if sib_set_index % 5 == 0:
             save(eng_lobjs, True)
 
-        add_hints(sib_set)
+        add_signalwords(sib_set)
 
     print("")
     print("Completely done.")

@@ -320,41 +320,41 @@ def user_validate_translations(lobj, res, save_fxn):
     show_helptext()
 
 
-def add_hints(sibling_set):
-    hints = get_hints(sibling_set)
+def add_signalwords(sibling_set):
+    signalwords = get_signalwords(sibling_set)
 
-    if not hints:
-        print("NO HINTS")
+    if not signalwords:
+        print("NO SIGNALWORDS")
         return
 
-    lobjs_with_hints = []
+    lobjs_with_signalwords = []
     lobjs_to_delete = []
 
-    for hint_index, hint in enumerate(hints):
+    for signalword_index, signalword in enumerate(signalwords):
 
-        sib_lobj = sibling_set[hint_index]
+        sib_lobj = sibling_set[signalword_index]
 
-        if hint == "x":
+        if signalword == "x":
             lobjs_to_delete.append(sib_lobj)
             print("DELETING", sib_lobj["id"])
         else:
             new_id = sib_lobj["id"]
             if "(" in new_id:
                 new_id = new_id[:new_id.index("(")]
-            new_id += f"({hint})"
+            new_id += f"({signalword})"
 
-            lobjs_with_hints.append([sib_lobj, new_id])
+            lobjs_with_signalwords.append([sib_lobj, new_id])
 
-    for lobj_with_hint in lobjs_with_hints:
-        print(">>", c.bold(lobj_with_hint[1]), lobj_with_hint[0]["»trans"])
+    for lobj_with_signalword in lobjs_with_signalwords:
+        print(">>", c.bold(lobj_with_signalword[1]), lobj_with_signalword[0]["»trans"])
     print("")
 
     user_input = input("Okay?     Enter for yes     Any key for no")
     confirmation = not user_input
 
     if confirmation:
-        for lobj_with_hint in lobjs_with_hints:
-            lobj_with_hint[0]["id"] = lobj_with_hint[1]
+        for lobj_with_signalword in lobjs_with_signalwords:
+            lobj_with_signalword[0]["id"] = lobj_with_signalword[1]
 
         for lobj_to_delete in lobjs_to_delete:
             sibling_set.remove(lobj_to_delete)
@@ -367,10 +367,10 @@ def add_hints(sibling_set):
 
         return
 
-    add_hints(sibling_set)
+    add_signalwords(sibling_set)
 
 
-def get_hints(lobjs):
+def get_signalwords(lobjs):
     print("")
     print("* * * * * * * * * * * * * * *")
     for lobj in lobjs:
@@ -382,10 +382,10 @@ def get_hints(lobjs):
         print("NO LONGER SIBLINGS")
         return
 
-    user_input = input('Please add hints separate by a space.\nYou can merge lobjs by specifying indexes eg "merge 0 1".\nYou can delete lobjs by giving "x" as the hint.\n')
+    user_input = input('Please add signalwords separate by a space.\nYou can merge lobjs by specifying indexes eg "merge 0 1".\nYou can delete lobjs by giving "x" as the signalword.\n')
     if not user_input:
-        c.print_red("Did not recognise input. Please type hints separated by a space.")
-        return get_hints(lobjs)
+        c.print_red("Did not recognise input. Please type signalwords separated by a space.")
+        return get_signalwords(lobjs)
 
     failed_character_check = False
     indexes_of_lobjs_to_merge = []
@@ -403,6 +403,7 @@ def get_hints(lobjs):
                     failed_index_validation = True
             if failed_index_validation:
                 c.print_red("Invalid indexes")
+                return get_signalwords(lobjs)
     else:
         for char in user_input:
             if char not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ":
@@ -410,7 +411,7 @@ def get_hints(lobjs):
 
     if failed_character_check:
         c.print_red("Invalid input")
-        return get_hints(lobjs)
+        return get_signalwords(lobjs)
 
     if len(indexes_of_lobjs_to_merge):
         lobjs_to_merge = [lobjs[index_m] for index_m in indexes_of_lobjs_to_merge]
@@ -426,31 +427,28 @@ def get_hints(lobjs):
                         base_lobj["»trans"].append(tran)
                 lobjs.remove(additive_lobj)
 
-        return get_hints(lobjs)
+        return get_signalwords(lobjs)
 
+    signalwords = user_input.strip().split(" ")
 
-    hints = user_input.strip().split(" ")
+    for signalword in signalwords:
+        if len(signalword) < 2 and signalword != "x":
+            c.print_red("Signalwords must be more than one character each, separated by a space.")
+            return get_signalwords(lobjs)
 
-    for hint in hints:
-        if len(hint) < 2 and hint != "x":
-            c.print_red("Hints must be more than one character each, separated by a space.")
-            return get_hints(lobjs)
+    if len(signalwords) != len(lobjs):
+        c.print_red(f"Expected {len(lobjs)} signalwords but got {len(signalwords)}.")
+        return get_signalwords(lobjs)
 
+    failed_signalword_check = False
+    for signalword in signalwords:
+        if not len(signalword):
+            failed_signalword_check = True
+    if failed_signalword_check:
+        c.print_red("Invalid signalwords")
+        return get_signalwords(lobjs)
 
-
-    if len(hints) != len(lobjs):
-        c.print_red(f"Expected {len(lobjs)} hints but got {len(hints)}.")
-        return get_hints(lobjs)
-
-    failed_hint_check = False
-    for hint in hints:
-        if not len(hint):
-            failed_hint_check = True
-    if failed_hint_check:
-        c.print_red("Invalid hints")
-        return get_hints(lobjs)
-
-    return hints
+    return signalwords
 
 
 def get_signalword(id):
