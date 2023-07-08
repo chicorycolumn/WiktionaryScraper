@@ -14,9 +14,10 @@ if __name__ == '__main__':
     # # # # # #
     wordtype = "adj"
     batch = "01"
+    suffix = "ENG"
     # # # # # #
 
-    input_filename = f"{wordtype}_batch_{batch}_ENG"
+    input_filename = f"{wordtype}_batch_{batch}_{suffix}"
     stem = "./../../output_saved/batches/"
     input_path = f"{stem}{input_filename}"
     tempsave_path = input_path + "_S5_tempsave"
