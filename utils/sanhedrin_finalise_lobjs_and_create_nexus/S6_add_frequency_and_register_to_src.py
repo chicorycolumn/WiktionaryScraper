@@ -17,8 +17,7 @@ if __name__ == '__main__':
     batch = "01"
     # # # # # #
 
-    suffix = "SRC"
-    input_filename = f"{wordtype}_batch_{batch}_{suffix}"
+    input_filename = f"{wordtype}_batch_{batch}_SRC"
     stem = "./../../output_saved/batches/"
     input_path = f"{stem}{input_filename}"
 

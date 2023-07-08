@@ -518,6 +518,13 @@ def test_signalword(s):
     return True
 
 
+def get_freq(lobj):
+    user_input = input(f'Enter frequency 1-5 for {c.blue(lobj["id"])} ')
+    if user_input not in "12345":
+        return get_freq(lobj)
+    return int(user_input)
+
+
 reg_refs = [
     {"tag": "fancy", "num": 1},
     {"tag": "slang", "num": 6},
