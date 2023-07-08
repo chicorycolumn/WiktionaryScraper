@@ -75,7 +75,7 @@ if __name__ == '__main__':
                 if not ready and pol_lobj["id"] == id_of_last_done_pol_lobj:
                     ready = True
                 else:
-                    print("already done")
+                    print("Already done")
 
         f.close()
 

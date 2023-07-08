@@ -108,8 +108,7 @@ if __name__ == '__main__':
         if not failed:
             c.print_green("ALREADY LOOKS DONE")
             for sibl in sib_set:
-                c.print_green(get_signalword(sibl["id"]))
-                print(sibl)
+                print(c.green(get_signalword(sibl["id"])), sibl)
             continue
 
         if sib_set_index % 5 == 0:

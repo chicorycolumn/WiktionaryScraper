@@ -87,7 +87,7 @@ if __name__ == '__main__':
 
         for pol_lobj_index, pol_lobj in enumerate(pol_lobjs):
             if pol_lobj["id"] in [pl["id"] for pl in done_pol_lobjs]:
-                print("skip", q(pol_lobj["id"]))
+                print("Skip", q(pol_lobj["id"]))
                 continue
 
             if pol_lobj_index % 10 == 1:
@@ -103,8 +103,8 @@ if __name__ == '__main__':
             for tindex, t in enumerate(pol_lobj["translations"]["ENG"]):
                 print("")
                 print("")
-                print("          Part 1: Check trans", q(t), f'{tindex + 1}/{len(pol_lobj["translations"]["ENG"])}',
-                      "     for", q(pol_lobj["id"]))
+                print("          Part 1: Check trans", c.blue(t), f'{tindex + 1}/{len(pol_lobj["translations"]["ENG"])}',
+                      "     for", c.blue(pol_lobj["id"]))
 
                 this_t_now_done = False
 
@@ -118,7 +118,7 @@ if __name__ == '__main__':
                                                          input_override, save)
                         if is_same:
                             print("")
-                            print("{", q(pol_lobj["id"]), "same as", q(pell["id"]), "due to", is_same)
+                            print("{", c.blue(pol_lobj["id"]), "same as", c.blue(pell["id"]), "due to", is_same)
 
                             englishes = [
                                 e for e in all_new_eng_lobjs
@@ -129,11 +129,11 @@ if __name__ == '__main__':
                             for english in englishes:
                                 if pol_lobj["id"] not in english["»trans"]:
                                     print("")
-                                    print("               Added1", q(pol_lobj["id"]), "to trans of", q(english["id"]))
+                                    print("               Added1", c.blue(pol_lobj["id"]), "to trans of", c.blue(english["id"]))
                                     english["»trans"].append(pol_lobj["id"])
                                 if pell["id"] not in english["»trans"]:
                                     print("")
-                                    print("               Added1", q(pell["id"]), "to trans of", q(english["id"]))
+                                    print("               Added1", c.blue(pell["id"]), "to trans of", c.blue(english["id"]))
                                     english["»trans"].append(pell["id"])
 
                 print("          Part 2: Create/Merge ENG lobj for this trans")
@@ -162,9 +162,9 @@ if __name__ == '__main__':
 
                                     if is_the_same:
                                         print("")
-                                        print("}", q(pol_lobj["id"]), "same as", q(plob["id"]), "due to", is_the_same)
+                                        print("}", c.blue(pol_lobj["id"]), "same as", c.blue(plob["id"]), "due to", is_the_same)
                                         print("")
-                                        print("STOP with t", q(t), "because already exist ENG lobj", q(englem["id"]),
+                                        print("STOP with t", c.blue(t), "because already exist ENG lobj", c.blue(englem["id"]),
                                               englem["»trans"])
 
                                         have_found_one_with_same_meaning = True
@@ -172,15 +172,15 @@ if __name__ == '__main__':
 
                                         if pol_lobj["id"] not in englem["»trans"]:
                                             print("")
-                                            print("               Added2", q(pol_lobj["id"]), "to trans of",
-                                                  q(englem["id"]))
+                                            print("               Added2", c.blue(pol_lobj["id"]), "to trans of",
+                                                  c.blue(englem["id"]))
                                             englem["»trans"].append(pol_lobj["id"])
 
                         if not have_found_one_with_same_meaning:
                             new_t = new_t + "(þ)"
 
                 if this_t_now_done:
-                    print("stop")
+                    print("Stop")
                     continue
 
                 new_id = f"eng-{wordtype}-{str(eng_lobj_id_incrementer).zfill(4)}-{new_t}"

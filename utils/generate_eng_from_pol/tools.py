@@ -9,9 +9,9 @@ from utils.universal import color as c
 
 def show1(lobj):
     print("")
-    print(lobj["id"], f'({len(lobj["translations"]["ENG"])} trans)')
+    print(c.blue(lobj["id"]), f'({len(lobj["translations"]["ENG"])} trans)')
     for tindex, tran in enumerate(lobj["translations"]["ENG"]):
-        print("     ", tindex + 1, tran)
+        print("     ", tindex + 1, c.blue(tran))
     print("")
 
 
@@ -22,13 +22,13 @@ def q(s):
 def print_conf_yes():
     print("**********************************")
     print("")
-    print("  💚  💚  💚  💚  💚  💚  💚  💚")
-    print("    💚  💚  💚  💚  💚  💚  💚")
-    print("  💚  💚  💚  💚  💚  💚  💚  💚")
-    print("    💚  💚  💚  💚  💚  💚  💚")
-    print("  💚  💚  💚  💚  💚  💚  💚  💚")
-    print("    💚  💚  💚  💚  💚  💚  💚")
-    print("  💚  💚  💚  💚  💚  💚  💚  💚")
+    print("")
+    print("")
+    print("")
+    print("             💚  💚  💚")
+    print("")
+    print("")
+    print("")
     print("")
     print("**********************************")
     print("")
@@ -38,13 +38,13 @@ def print_conf_yes():
 def print_conf_no():
     print("**********************************")
     print("")
-    print("  🟥  🟥  🟥  🟥  🟥  🟥  🟥  🟥")
-    print("    🟥  🟥  🟥  🟥  🟥  🟥  🟥")
-    print("  🟥  🟥  🟥  🟥  🟥  🟥  🟥  🟥")
-    print("    🟥  🟥  🟥  🟥  🟥  🟥  🟥")
-    print("  🟥  🟥  🟥  🟥  🟥  🟥  🟥  🟥")
-    print("    🟥  🟥  🟥  🟥  🟥  🟥  🟥")
-    print("  🟥  🟥  🟥  🟥  🟥  🟥  🟥  🟥")
+    print("")
+    print("")
+    print("")
+    print("             🟥  🟥  🟥")
+    print("")
+    print("")
+    print("")
     print("")
     print("**********************************")
     print("")
@@ -183,6 +183,7 @@ def user_validate_translations(lobj, res, save_fxn):
             if k not in ["lemma", "tags", "topics"]:
                 dupe[k] = l[k]
         print("💚")
+        time.sleep(0.25)
         res.append(dupe)
 
     if int(lobj["id"].split("-")[2]) % 10 == 1:
@@ -203,6 +204,7 @@ def user_validate_translations(lobj, res, save_fxn):
 
     if user_input[0] == "D":
         print("🔥 DELETED LOBJ")
+        time.sleep(0.25)
         return
 
     elif user_input[0] == "d":
@@ -246,7 +248,7 @@ def user_validate_translations(lobj, res, save_fxn):
                 trans_for_original_lobj.append(tran)
 
         print("")
-        print("For lobj", q(lobj["id"]))
+        print("For lobj", c.blue(lobj["id"]))
         print("")
         print("ORIGINAL lobj will have")
         print(trans_for_original_lobj)
@@ -293,27 +295,27 @@ def user_validate_translations(lobj, res, save_fxn):
 
     elif user_input[0] == "f":
         flag = "🚩" + user_input[1:]
-        print(q(lobj["id"]), "will be FLAGGED")
+        print(c.blue(lobj["id"]), "will be FLAGGED")
         lobj["id"] += flag
-        print(q(lobj["id"]))
+        print(c.green(lobj["id"]))
         add_to_res(lobj)
         return
 
     elif user_input[0] == "F":
         flag = "🚩" + user_input[1:]
-        print("⬆️", q(res[-1]["id"]), "will be FLAGGED")
+        print("⬆️", c.blue(res[-1]["id"]), "will be FLAGGED")
         res[-1]["id"] += flag
-        print("⬆️", q(res[-1]["id"]))
+        print("⬆️", c.green(res[-1]["id"]))
         user_validate_translations(lobj, res, save_fxn)
         return
 
     elif user_input == "xf":
         if "🚩" in res[-1]["id"]:
-            print("❌", q(res[-1]["id"]), "will be UNFLAGGED")
+            print("❌", c.blue(res[-1]["id"]), "will be UNFLAGGED")
             res[-1]["id"] = res[-1]["id"][:res[-1]["id"].index("🚩")]
-            print("❌", q(res[-1]["id"]))
+            print("❌", c.green(res[-1]["id"]))
         else:
-            print(q(res[-1]["id"]), "DOESN'T HAVE ANY FLAGS")
+            print(c.green(res[-1]["id"]), "DOESN'T HAVE ANY FLAGS")
         user_validate_translations(lobj, res, save_fxn)
         return
 
@@ -336,7 +338,6 @@ def add_signalwords(sibling_set):
 
         if signalword == "x":
             lobjs_to_delete.append(sib_lobj)
-            print("DELETING", sib_lobj["id"])
         else:
             new_id = sib_lobj["id"]
             if "(" in new_id:
@@ -346,10 +347,10 @@ def add_signalwords(sibling_set):
             lobjs_with_signalwords.append([sib_lobj, new_id])
 
     for lobj_with_signalword in lobjs_with_signalwords:
-        print(">>", c.bold(lobj_with_signalword[1]), lobj_with_signalword[0]["»trans"])
+        print(">>", c.green(lobj_with_signalword[1]), lobj_with_signalword[0]["»trans"])
     print("")
 
-    user_input = input("Okay?     Enter for yes     Any key for no")
+    user_input = input("OK?     Enter for yes     Any key for no")
     confirmation = not user_input
 
     if confirmation:
@@ -357,13 +358,17 @@ def add_signalwords(sibling_set):
             lobj_with_signalword[0]["id"] = lobj_with_signalword[1]
 
         for lobj_to_delete in lobjs_to_delete:
+            c.print_yellow("DELETING", lobj_to_delete["id"])
+            print("")
+            time.sleep(0.5)
             sibling_set.remove(lobj_to_delete)
 
         if len(sibling_set) == 1:
             only_sibling = sibling_set[0]
             only_sibling["id"] = only_sibling["id"][:only_sibling["id"].index("(")]
             print("Is only sibling so have removed signalword.")
-            print(only_sibling["id"])
+            print(c.green(only_sibling["id"]))
+            time.sleep(0.5)
 
         return
 
@@ -371,16 +376,18 @@ def add_signalwords(sibling_set):
 
 
 def get_signalwords(lobjs):
+    if len(lobjs) < 2:
+        print("NO LONGER SIBLINGS")
+        for lobj in lobjs:
+            print(lobj["id"], lobj["»trans"])
+        return
+
     print("")
     print("* * * * * * * * * * * * * * *")
     for lobj in lobjs:
         print(c.purple(lobj["id"]), lobj["»trans"])
     print("* * * * * * * * * * * * * * *")
     print("")
-
-    if len(lobjs) < 2:
-        print("NO LONGER SIBLINGS")
-        return
 
     user_input = input('Please add signalwords separate by a space.\nYou can merge lobjs by specifying indexes eg "merge 0 1".\nYou can delete lobjs by giving "x" as the signalword.\n')
     if not user_input:
@@ -415,17 +422,27 @@ def get_signalwords(lobjs):
 
     if len(indexes_of_lobjs_to_merge):
         lobjs_to_merge = [lobjs[index_m] for index_m in indexes_of_lobjs_to_merge]
+        print("")
         print("WILL MERGE")
         for lo in lobjs_to_merge:
-            print(lo["id"])
+            c.print_green(lo["id"])
+        print("")
         conf = not input("OK?     Enter for yes     Any key for no")
         if conf:
             base_lobj = lobjs_to_merge[0]
+
             for additive_lobj in lobjs_to_merge[1:]:
                 for tran in additive_lobj["»trans"]:
                     if tran not in base_lobj["»trans"]:
                         base_lobj["»trans"].append(tran)
                 lobjs.remove(additive_lobj)
+
+            print("")
+            print("MERGED")
+            for lobje in lobjs:
+                c.print_green(lobje["id"])
+            print("")
+            time.sleep(0.5)
 
         return get_signalwords(lobjs)
 

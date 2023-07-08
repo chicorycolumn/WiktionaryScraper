@@ -17,7 +17,7 @@ After collecting several Polish lobjs files into one batch, we now process them 
    - to expand any shorthand tags you have added to "nou_batch_01_SAN.json" in step 3
    Modifies "nou_batch_01_SAN.json"
 
-5) Run "S3_renumber_lobjs.py"
+5) Run "S3_renumber_lobjs.py" with "SAN" argument.
    - to standardise numbering after lobj duplication in step 2
    Modifies "nou_batch_01_SAN.json"
 
@@ -28,4 +28,8 @@ After collecting several Polish lobjs files into one batch, we now process them 
 7) Run "S5_distinguish_sibling_eng_lobjs.py"
    - to delete any unnecessary siblings in the newly created English lobjs
    - to add signal words to the newly created English lobjs
+   Modifies "nou_batch_01_ENG.json"
+
+8) Run "S3_renumber_lobjs.py" with "ENG" argument.
+   - to standardise numbering after merging and deleting in step 7
    Modifies "nou_batch_01_ENG.json"
