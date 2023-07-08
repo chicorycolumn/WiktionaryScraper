@@ -29,28 +29,36 @@ if __name__ == '__main__':
     c.print_teal("ID numbers for lobjs will start from " + str(start_id_number))
 
     with open(input_path + ".json", "r") as f:
-        src_lobjs = json.load(f)
-        print("Loaded", len(src_lobjs), "source lobjs.")
 
-        res = []
+        def check():
+            if suffix == "SRC":
+                user_input = input("If you've already created target lobjs with stage S4\ndon't run this for SRC because it will break the connections to these IDs in the »trans key of TGT lobjs.\nIf you want to proceed, type 'yes'.")
+                return user_input == "yes"
+            return True
 
-        for src_lobj in src_lobjs:
-            new_id_number = "0000" + str(start_id_number)
-            new_id_number = new_id_number[-4:]
+        if check():
+            src_lobjs = json.load(f)
+            print("Loaded", len(src_lobjs), "source lobjs.")
 
-            id_split = src_lobj["id"].split("-")
-            id_split[2] = str(new_id_number)
-            new_id = "-".join(id_split)
+            res = []
 
-            src_lobj["id"] = new_id
-            start_id_number += 1
+            for src_lobj in src_lobjs:
+                new_id_number = "0000" + str(start_id_number)
+                new_id_number = new_id_number[-4:]
 
-        f.close()
+                id_split = src_lobj["id"].split("-")
+                id_split[2] = str(new_id_number)
+                new_id = "-".join(id_split)
 
-    with open(input_path + ".json", "w") as outfile:
-        print(f'Writing {len(src_lobjs)} results.')
-        data_json = json.dumps(src_lobjs, indent=2, ensure_ascii=False)
-        outfile.write(data_json)
-        outfile.close()
+                src_lobj["id"] = new_id
+                start_id_number += 1
 
-    print("Completely done.")
+            f.close()
+
+        with open(input_path + ".json", "w") as outfile:
+            print(f'Writing {len(src_lobjs)} results.')
+            data_json = json.dumps(src_lobjs, indent=2, ensure_ascii=False)
+            outfile.write(data_json)
+            outfile.close()
+
+        print("Completely done.")
