@@ -518,10 +518,18 @@ def test_signalword(s):
     return True
 
 
-def get_freq(lobj):
-    user_input = input(f'Enter frequency 1-5 for {c.purple(lobj["lemma"])} {c.blue(lobj["id"])}\n')
-    if not user_input or user_input not in "12345":
+def get_freq(lobj, prompt, allow_null: bool = False):
+    if not prompt:
+        prompt = f'Enter frequency 1-5 for {c.purple(lobj["lemma"])} {c.blue(lobj["id"])}\n'
+
+    user_input = input(prompt)
+    if not user_input:
+        if allow_null:
+            return
         return get_freq(lobj)
+    if user_input not in "12345":
+        return get_freq(lobj)
+
     return int(user_input)
 
 
