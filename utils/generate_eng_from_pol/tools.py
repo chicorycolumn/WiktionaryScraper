@@ -153,21 +153,20 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
 def user_validate_translations(lobj, res, save_fxn):
     def show_helptext():
         print("")
-        print("--------------------------------------------------------------------")
-        c.print_red("         Did not recognise user input. Options are:")
+        c.print_teal("--------------------------------------------------------------------")
         print("")
-        print("Enter  : This lobj is OK.")
+        c.print_teal("Enter  : This lobj is OK.")
         print("")
-        print("D      : DELETE lobj.")
-        print("w      : WRITE current res array to temporary file.")
+        c.print_teal("D      : DELETE lobj.")
+        c.print_teal("w      : WRITE current res array to temporary file.")
         print("")
-        print("fHello : FLAG lobj for later attention with any string eg 'Hello'.")
-        print("FHello : FLAG the previous lobj.")
-        print("xf     : REMOVE FLAGS from lobj.")
+        c.print_teal("fHello : FLAG lobj for later attention with any string eg 'Hello'.")
+        c.print_teal("FHello : FLAG the previous lobj.")
+        c.print_teal("xf     : REMOVE FLAGS from lobj.")
         print("")
-        print("d24    : DELETE translations at eg indexes 2 and 4.")
-        print("s24    : SWITCH translations at eg indexes 2 and 4 to a new lobj for this lemma.")
-        print(
+        c.print_teal("d24    : DELETE translations at eg indexes 2 and 4.")
+        c.print_teal("s24    : SWITCH translations at eg indexes 2 and 4 to a new lobj for this lemma.")
+        c.print_teal(
             "s24S3  : Translations at eg indexes 2 and 4 are for new lobj, at index 3 is for both original and new lobjs.")
         print("--------------------------------------------------------------------")
         print("")
@@ -190,7 +189,7 @@ def user_validate_translations(lobj, res, save_fxn):
         save_fxn(res, True)
 
     show1(lobj)
-    user_input = input("OK?     Enter for yes     Any key for no     h for help")
+    user_input = input("OK?     Enter for yes     Any key for no     h for help\n")
 
     if not user_input:
         add_to_res(lobj)
@@ -203,6 +202,7 @@ def user_validate_translations(lobj, res, save_fxn):
     if user_input[0] not in ["f", "F"]:
         for char in user_input:
             if char not in "123456789dDfFwSsx":
+                c.print_red("         Did not recognise user input. Options are:")
                 show_helptext()
                 return
 
@@ -260,7 +260,7 @@ def user_validate_translations(lobj, res, save_fxn):
         print("NEW lobj will have")
         print(trans_for_new_lobj)
         print("")
-        confirm = not input("OK?     Enter for yes     Any key for no")
+        confirm = not input("OK?     Enter for yes     Any key for no\n")
 
         if confirm:
             lobj["translations"]["ENG"] = trans_for_original_lobj
@@ -354,7 +354,7 @@ def add_signalwords(sibling_set):
         print(">>", c.green(lobj_with_signalword[1]), lobj_with_signalword[0]["»trans"])
     print("")
 
-    user_input = input("OK?     Enter for yes     Any key for no")
+    user_input = input("OK?     Enter for yes     Any key for no\n")
     confirmation = not user_input
 
     if confirmation:
@@ -362,7 +362,7 @@ def add_signalwords(sibling_set):
             lobj_with_signalword[0]["id"] = lobj_with_signalword[1]
 
         for lobj_to_delete in lobjs_to_delete:
-            c.print_yellow("DELETING", lobj_to_delete["id"])
+            c.print_red("DELETING", lobj_to_delete["id"])
             print("")
             time.sleep(0.5)
             sibling_set.remove(lobj_to_delete)
@@ -393,14 +393,14 @@ def get_signalwords(lobjs):
     print("* * * * * * * * * * * * * * *")
     print("")
 
-    user_input = input('Enter signalwords     h for help')
+    user_input = input('Enter signalwords     h for help\n')
 
     if user_input == "h":
-        print("*  -  *  -  *  -  *  -  *  -  *  -  *  -  *")
-        print("Please enter signalwords separated by a space.")
-        print('You can merge lobjs by specifying indexes eg "merge 0 1".')
-        print('You can delete lobjs by giving "x" as the signalword.')
-        print("*  -  *  -  *  -  *  -  *  -  *  -  *  -  *")
+        c.print_teal("*  -  *  -  *  -  *  -  *  -  *  -  *  -  *")
+        c.print_teal("Please enter signalwords separated by a space.")
+        c.print_teal('You can merge lobjs by specifying indexes eg "merge 0 1".')
+        c.print_teal('You can delete lobjs by giving "x" as the signalword.')
+        c.print_teal("*  -  *  -  *  -  *  -  *  -  *  -  *  -  *")
         return get_signalwords(lobjs)
 
     if not user_input:
@@ -440,7 +440,7 @@ def get_signalwords(lobjs):
         for lo in lobjs_to_merge:
             c.print_green(lo["id"])
         print("")
-        conf = not input("OK?     Enter for yes     Any key for no")
+        conf = not input("OK?     Enter for yes     Any key for no\n")
         if conf:
             base_lobj = lobjs_to_merge[0]
 
