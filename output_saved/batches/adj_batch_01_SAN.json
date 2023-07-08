@@ -10892,7 +10892,7 @@
   },
   {
     "lemma": "słodki",
-    "id": "pol-adj-0052-słodki",
+    "id": "pol-adj-0052-słodki(food)",
     "tags": [
       "FREQ3",
       "flavour",
@@ -10902,6 +10902,191 @@
       "kitchen",
       "restaurant",
       "inside",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "sweet",
+        "cute"
+      ]
+    },
+    "inflections": {
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "słodki",
+            "gen": "słodkiego",
+            "dat": "słodkiemu",
+            "acc": "słodkiego",
+            "ins": "słodkim",
+            "loc": "słodkim"
+          },
+          "m3": {
+            "nom": "słodki",
+            "gen": "słodkiego",
+            "dat": "słodkiemu",
+            "acc": "słodki",
+            "ins": "słodkim",
+            "loc": "słodkim"
+          },
+          "f": {
+            "nom": "słodka",
+            "gen": "słodkiej",
+            "dat": "słodkiej",
+            "acc": "słodką",
+            "ins": "słodką",
+            "loc": "słodkiej"
+          },
+          "n": {
+            "nom": "słodkie",
+            "gen": "słodkiego",
+            "dat": "słodkiemu",
+            "acc": "słodkie",
+            "ins": "słodkim",
+            "loc": "słodkim"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "słodcy",
+            "gen": "słodkich",
+            "dat": "słodkim",
+            "acc": "słodkich",
+            "ins": "słodkimi",
+            "loc": "słodkich"
+          },
+          "nonvirile": {
+            "nom": "słodkie",
+            "gen": "słodkich",
+            "dat": "słodkim",
+            "acc": "słodkie",
+            "ins": "słodkimi",
+            "loc": "słodkich"
+          }
+        }
+      },
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "słodszy",
+            "gen": "słodszego",
+            "dat": "słodszemu",
+            "acc": "słodszego",
+            "ins": "słodszym",
+            "loc": "słodszym"
+          },
+          "m3": {
+            "nom": "słodszy",
+            "gen": "słodszego",
+            "dat": "słodszemu",
+            "acc": "słodszy",
+            "ins": "słodszym",
+            "loc": "słodszym"
+          },
+          "f": {
+            "nom": "słodsza",
+            "gen": "słodszej",
+            "dat": "słodszej",
+            "acc": "słodszą",
+            "ins": "słodszą",
+            "loc": "słodszej"
+          },
+          "n": {
+            "nom": "słodsze",
+            "gen": "słodszego",
+            "dat": "słodszemu",
+            "acc": "słodsze",
+            "ins": "słodszym",
+            "loc": "słodszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "słodsi",
+            "gen": "słodszych",
+            "dat": "słodszym",
+            "acc": "słodszych",
+            "ins": "słodszymi",
+            "loc": "słodszych"
+          },
+          "nonvirile": {
+            "nom": "słodsze",
+            "gen": "słodszych",
+            "dat": "słodszym",
+            "acc": "słodsze",
+            "ins": "słodszymi",
+            "loc": "słodszych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najsłodszy",
+            "gen": "najsłodszego",
+            "dat": "najsłodszemu",
+            "acc": "najsłodszego",
+            "ins": "najsłodszym",
+            "loc": "najsłodszym"
+          },
+          "m3": {
+            "nom": "najsłodszy",
+            "gen": "najsłodszego",
+            "dat": "najsłodszemu",
+            "acc": "najsłodszy",
+            "ins": "najsłodszym",
+            "loc": "najsłodszym"
+          },
+          "f": {
+            "nom": "najsłodsza",
+            "gen": "najsłodszej",
+            "dat": "najsłodszej",
+            "acc": "najsłodszą",
+            "ins": "najsłodszą",
+            "loc": "najsłodszej"
+          },
+          "n": {
+            "nom": "najsłodsze",
+            "gen": "najsłodszego",
+            "dat": "najsłodszemu",
+            "acc": "najsłodsze",
+            "ins": "najsłodszym",
+            "loc": "najsłodszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najsłodsi",
+            "gen": "najsłodszych",
+            "dat": "najsłodszym",
+            "acc": "najsłodszych",
+            "ins": "najsłodszymi",
+            "loc": "najsłodszych"
+          },
+          "nonvirile": {
+            "nom": "najsłodsze",
+            "gen": "najsłodszych",
+            "dat": "najsłodszym",
+            "acc": "najsłodsze",
+            "ins": "najsłodszymi",
+            "loc": "najsłodszych"
+          }
+        }
+      }
+    }
+  },  {
+    "lemma": "słodki",
+    "id": "pol-adj-0052-słodki(cute)",
+    "tags": [
+      "FREQ4",
+      "personality",
+      "positive judgment",
+      "concrete"
+    ],
+    "topics": [
+      "appearance",
+      "judgment",
+      "people",
       "sense and perception"
     ],
     "translations": {
@@ -94023,85 +94208,6 @@
     }
   },
   {
-    "lemma": "gazowy",
-    "id": "pol-adj-0472-gazowy",
-    "tags": [
-      "FREQ4",
-      "concrete",
-      "drink",
-      "holdable"
-    ],
-    "topics": [
-      "chemistry",
-      "inside",
-      "kitchen",
-      "restaurant",
-      "science"
-    ],
-    "translations": {
-      "ENG": [
-        "gas",
-        "gaseous"
-      ]
-    },
-    "inflections": {
-      "simple": {
-        "singular": {
-          "m1": {
-            "nom": "gazowy",
-            "gen": "gazowego",
-            "dat": "gazowemu",
-            "acc": "gazowego",
-            "ins": "gazowym",
-            "loc": "gazowym"
-          },
-          "m3": {
-            "nom": "gazowy",
-            "gen": "gazowego",
-            "dat": "gazowemu",
-            "acc": "gazowy",
-            "ins": "gazowym",
-            "loc": "gazowym"
-          },
-          "f": {
-            "nom": "gazowa",
-            "gen": "gazowej",
-            "dat": "gazowej",
-            "acc": "gazową",
-            "ins": "gazową",
-            "loc": "gazowej"
-          },
-          "n": {
-            "nom": "gazowe",
-            "gen": "gazowego",
-            "dat": "gazowemu",
-            "acc": "gazowe",
-            "ins": "gazowym",
-            "loc": "gazowym"
-          }
-        },
-        "plural": {
-          "virile": {
-            "nom": "gazowi",
-            "gen": "gazowych",
-            "dat": "gazowym",
-            "acc": "gazowych",
-            "ins": "gazowymi",
-            "loc": "gazowych"
-          },
-          "nonvirile": {
-            "nom": "gazowe",
-            "gen": "gazowych",
-            "dat": "gazowym",
-            "acc": "gazowe",
-            "ins": "gazowymi",
-            "loc": "gazowych"
-          }
-        }
-      }
-    }
-  },
-  {
     "lemma": "dojrzały",
     "id": "pol-adj-0473-dojrzały(person)",
     "tags": [
@@ -138367,81 +138473,6 @@
   {
     "lemma": "podziemny",
     "id": "pol-adj-0760-podziemny",
-    "tags": [
-      "FREQ4",
-      "abstract",
-      "special location"
-    ],
-    "topics": [
-      "geography"
-    ],
-    "translations": {
-      "ENG": [
-        "subterranean",
-        "underground"
-      ]
-    },
-    "inflections": {
-      "simple": {
-        "singular": {
-          "m1": {
-            "nom": "podziemny",
-            "gen": "podziemnego",
-            "dat": "podziemnemu",
-            "acc": "podziemnego",
-            "ins": "podziemnym",
-            "loc": "podziemnym"
-          },
-          "m3": {
-            "nom": "podziemny",
-            "gen": "podziemnego",
-            "dat": "podziemnemu",
-            "acc": "podziemny",
-            "ins": "podziemnym",
-            "loc": "podziemnym"
-          },
-          "f": {
-            "nom": "podziemna",
-            "gen": "podziemnej",
-            "dat": "podziemnej",
-            "acc": "podziemną",
-            "ins": "podziemną",
-            "loc": "podziemnej"
-          },
-          "n": {
-            "nom": "podziemne",
-            "gen": "podziemnego",
-            "dat": "podziemnemu",
-            "acc": "podziemne",
-            "ins": "podziemnym",
-            "loc": "podziemnym"
-          }
-        },
-        "plural": {
-          "virile": {
-            "nom": "podziemni",
-            "gen": "podziemnych",
-            "dat": "podziemnym",
-            "acc": "podziemnych",
-            "ins": "podziemnymi",
-            "loc": "podziemnych"
-          },
-          "nonvirile": {
-            "nom": "podziemne",
-            "gen": "podziemnych",
-            "dat": "podziemnym",
-            "acc": "podziemne",
-            "ins": "podziemnymi",
-            "loc": "podziemnych"
-          }
-        }
-      },
-      "adverb": "podziemnie"
-    }
-  },
-  {
-    "lemma": "podziemny",
-    "id": "pol-adj-0761-podziemny",
     "tags": [
       "FREQ4",
       "abstract",

@@ -636,7 +636,7 @@
     "lemma": "sweet",
     "id": "eng-adj-0085-sweet",
     "»trans": [
-      "pol-adj-0052-słodki"
+      "pol-adj-0052-słodki(food)"
     ]
   },
   {
@@ -2149,6 +2149,13 @@
   },
   {
     "lemma": "ugly",
+    "id": "eng-adj-0289-ugly(þ)",
+    "»trans": [
+      "pol-adj-0181-paskudny"
+    ]
+  },
+  {
+    "lemma": "ugly",
     "id": "eng-adj-0290-ugly(þ)",
     "»trans": [
       "pol-adj-0181-paskudny"
@@ -2158,7 +2165,8 @@
     "lemma": "sweet",
     "id": "eng-adj-0291-sweet(þ)",
     "»trans": [
-      "pol-adj-0182-uroczy"
+      "pol-adj-0182-uroczy",
+      "pol-adj-0052-słodki(cute)"
     ]
   },
   {
@@ -5169,16 +5177,14 @@
     "lemma": "gas",
     "id": "eng-adj-0708-gas",
     "»trans": [
-      "pol-adj-0471-gazowy",
-      "pol-adj-0472-gazowy"
+      "pol-adj-0471-gazowy"
     ]
   },
   {
     "lemma": "gaseous",
     "id": "eng-adj-0709-gaseous",
     "»trans": [
-      "pol-adj-0471-gazowy",
-      "pol-adj-0472-gazowy"
+      "pol-adj-0471-gazowy"
     ]
   },
   {
@@ -7718,16 +7724,14 @@
     "lemma": "subterranean",
     "id": "eng-adj-1067-subterranean",
     "»trans": [
-      "pol-adj-0760-podziemny",
-      "pol-adj-0761-podziemny"
+      "pol-adj-0760-podziemny"
     ]
   },
   {
     "lemma": "underground",
     "id": "eng-adj-1068-underground",
     "»trans": [
-      "pol-adj-0760-podziemny",
-      "pol-adj-0761-podziemny"
+      "pol-adj-0760-podziemny"
     ]
   },
   {
