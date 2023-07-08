@@ -36,6 +36,7 @@ if __name__ == '__main__':
         _output_path = tempsave_path if temp else output_path
 
         with open(_output_path + ".json", "w") as outfile:
+            print(f'Writing {len(data)} results.')
             data_json = json.dumps(data, indent=2, ensure_ascii=False)
             outfile.write(data_json)
             outfile.close()

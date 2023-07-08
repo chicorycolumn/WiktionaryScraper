@@ -516,3 +516,11 @@ def test_signalword(s):
             return False
 
     return True
+
+
+reg_refs = [
+    {"tag": "fancy", "num": 1},
+    {"tag": "slang", "num": 6},
+    {"tag": "insult", "num": 7},
+    {"tag": "curseword", "num": 8},
+]

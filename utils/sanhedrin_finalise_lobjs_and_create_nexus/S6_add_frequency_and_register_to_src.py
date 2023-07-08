@@ -4,7 +4,7 @@ import time
 
 from parsers.common import scrape_word_data
 from utils.general.common import write_todo
-from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q
+from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, reg_refs
 from utils.postprocessing.common import finalise_lemma_objects, add_tags_and_topics_from_shorthand
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 from utils.scraping.common import check_rescraped_against_existing
@@ -15,10 +15,9 @@ if __name__ == '__main__':
     # # # # # #
     wordtype = "adj"
     batch = "01"
-    start_id_number = 1
-    suffix = "SRC"
     # # # # # #
 
+    suffix = "SRC"
     input_filename = f"{wordtype}_batch_{batch}_{suffix}"
     stem = "./../../output_saved/batches/"
     input_path = f"{stem}{input_filename}"
@@ -50,13 +49,6 @@ if __name__ == '__main__':
 
             register = 0
 
-            reg_refs = [
-                {"tag": "fancy", "num": 1},
-                {"tag": "slang", "num": 6},
-                {"tag": "insult", "num": 7},
-                {"tag": "curseword", "num": 8},
-            ]
-
             for reg_ref in reg_refs:
                 if reg_ref["tag"] in src_lobj["tags"]:
                     src_lobj["tags"].remove(reg_ref["tag"])
@@ -68,6 +60,7 @@ if __name__ == '__main__':
         f.close()
 
     with open(input_path + ".json", "w") as outfile:
+        print(f'Writing {len(src_lobjs)} results.')
         data_json = json.dumps(src_lobjs, indent=2, ensure_ascii=False)
         outfile.write(data_json)
         outfile.close()

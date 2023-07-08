@@ -57,6 +57,7 @@ if __name__ == '__main__':
         f.close()
 
     with open(input_path + ".json", "w") as outfile:
+        print(f'Writing {len(src_lobjs)} results.')
         data_json = json.dumps(src_lobjs, indent=2, ensure_ascii=False)
         outfile.write(data_json)
         outfile.close()
