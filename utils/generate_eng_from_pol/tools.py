@@ -323,6 +323,10 @@ def user_validate_translations(lobj, res, save_fxn):
 def add_hints(sibling_set):
     hints = get_hints(sibling_set)
 
+    if not hints:
+        print("NO HINTS")
+        return
+
     lobjs_with_hints = []
     lobjs_to_delete = []
 
@@ -374,24 +378,66 @@ def get_hints(lobjs):
     print("* * * * * * * * * * * * * * *")
     print("")
 
-    user_input = input("Please add hints:")
+    if len(lobjs) < 2:
+        print("NO LONGER SIBLINGS")
+        return
+
+    user_input = input('Please add hints separate by a space.\nYou can merge lobjs by specifying indexes eg "merge 0 1".\nYou can delete lobjs by giving "x" as the hint.\n')
     if not user_input:
         c.print_red("Did not recognise input. Please type hints separated by a space.")
         return get_hints(lobjs)
 
     failed_character_check = False
+    indexes_of_lobjs_to_merge = []
 
-    if len(user_input) < 2 and user_input != "x":
-        failed_character_check = True
+    if user_input[0:5] == "merge":
+        if len(lobjs) == 2:
+            indexes_of_lobjs_to_merge = [0, 1]
+        else:
+            indexes_of_lobjs_to_merge = [int(char) for char in user_input.split(" ")[1:]]
+            failed_index_validation = False
+            if len(indexes_of_lobjs_to_merge) < 2:
+                failed_index_validation = True
+            for index_of_lobj in indexes_of_lobjs_to_merge:
+                if index_of_lobj > (len(lobjs) - 1):
+                    failed_index_validation = True
+            if failed_index_validation:
+                c.print_red("Invalid indexes")
     else:
         for char in user_input:
             if char not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ":
                 failed_character_check = True
+
     if failed_character_check:
         c.print_red("Invalid input")
         return get_hints(lobjs)
 
-    hints = user_input.split(" ")
+    if len(indexes_of_lobjs_to_merge):
+        lobjs_to_merge = [lobjs[index_m] for index_m in indexes_of_lobjs_to_merge]
+        print("WILL MERGE")
+        for lo in lobjs_to_merge:
+            print(lo["id"])
+        conf = not input("OK?     Enter for yes     Any key for no")
+        if conf:
+            base_lobj = lobjs_to_merge[0]
+            for additive_lobj in lobjs_to_merge[1:]:
+                for tran in additive_lobj["»trans"]:
+                    if tran not in base_lobj["»trans"]:
+                        base_lobj["»trans"].append(tran)
+                lobjs.remove(additive_lobj)
+
+        return get_hints(lobjs)
+
+
+    hints = user_input.strip().split(" ")
+
+    for hint in hints:
+        if len(hint) < 2 and hint != "x":
+            c.print_red("Hints must be more than one character each, separated by a space.")
+            return get_hints(lobjs)
+
+
+
     if len(hints) != len(lobjs):
         c.print_red(f"Expected {len(lobjs)} hints but got {len(hints)}.")
         return get_hints(lobjs)

@@ -28,7 +28,6 @@ if __name__ == '__main__':
 
     def save(eng_lobjs, temp: bool = False):
         print(f"📀 {'SAVING PROGRESS' if temp else 'SAVING FINAL'}")
-        print("all_sibling_ids", all_sibling_ids)
 
         _input_path = tempsave_path if temp else input_path
 
