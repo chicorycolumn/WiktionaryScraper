@@ -36,3 +36,11 @@ And then creating the Nexus objects that connect them.
 8) Run "S3_renumber_lobjs.py" with "TGT" argument.
    - to standardise numbering after merging and deleting in step 7
    Modifies "nou_batch_01_TGT.json"
+
+9) Run "S6_add_frequency_and_register_to_src.py" with "SRC" argument.
+   - to move "FREQn", ""slang", "insult", "curseword" out of tags and into own key
+   Modifies "nou_batch_01_SRC.json"
+
+10) Run "S7_create_nexus.py".
+   - to connect Source and Target lobjs using the translations data from steps 2-8.
+   Creates "nou_batch_01_NEX.json"

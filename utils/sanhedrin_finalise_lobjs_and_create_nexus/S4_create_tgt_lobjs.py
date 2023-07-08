@@ -59,12 +59,6 @@ if __name__ == '__main__':
 
         _output_path_tgt = tempsave_path_tgt if temp else output_path_tgt
         _output_path_src = tempsave_path_src
-        # _output_path_nex = output_path_nex + "_tempsave" if temp else output_path_nex
-
-        # with open(_output_path_nex + ".json", "w") as outfile:
-        #     new_nexus_objs_json = json.dumps(new_nexus_objs, indent=2, ensure_ascii=False)
-        #     outfile.write(new_nexus_objs_json)
-        #     outfile.close()
 
         with open(_output_path_tgt + ".json", "w") as outfile:
             all_new_tgt_lobjs_json = json.dumps(all_new_tgt_lobjs, indent=2, ensure_ascii=False)
@@ -199,19 +193,6 @@ if __name__ == '__main__':
                 new_tgt_lobjs.append(new_tgt_lobj)
 
                 tgt_lobj_id_incrementer = tgt_lobj_id_incrementer + 1
-
-            # new_nexus_obj = {
-            #     "key": f"{wordtype}-{str(nexus_id_incrementer).zfill(4)}-{new_tgt_lobjs[0]['id'].split('-')[-1]}",
-            #     "traductions": {
-            #       "SPA": [],
-            #       target_lang: [limmy["id"] for limmy in new_tgt_lobjs],
-            #       "POL": [src_lobj["id"]]
-            #     },
-            #     "papers": src_lobj["tags"],
-            #     "topics": src_lobj["topics"]
-            # }
-            # new_nexus_objs.append(new_nexus_obj)
-            # nexus_id_incrementer = nexus_id_incrementer + 1
 
             all_new_tgt_lobjs.extend(new_tgt_lobjs)
             done_src_lobjs.append(src_lobj)

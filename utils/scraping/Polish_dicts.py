@@ -571,6 +571,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["holiday"],
     },
+    "ww": {
+        "tags": ["fancy"],
+        "topics": [],
+    },
     "G": {
         "tags": ["slang"],
         "topics": [],
