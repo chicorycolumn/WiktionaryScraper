@@ -26,17 +26,40 @@ if __name__ == '__main__':
     c.print_teal("tempsave_path =     " + c.teal(tempsave_path))
     c.print_teal("Output path will be the same as input.")
 
-
     def save(eng_lobjs, temp: bool = False):
         print(f"📀 {'SAVING PROGRESS' if temp else 'SAVING FINAL'}")
+        print("all_sibling_ids", all_sibling_ids)
 
         _input_path = tempsave_path if temp else input_path
 
+        print(f"Got {len(eng_lobjs)} members.")
+        print("Reordering so siblings are next to each other...")
+        res = []
+        done_ids = []
+        for l in eng_lobjs:
+            if l["id"] not in done_ids:
+                is_sibling = False
+                for sib_set in siblings:
+                    if sib_set[0]["id"] == l["id"]:
+                        if is_sibling:
+                            raise Exception(f'Why is there more than one sibling set for "{l["id"]}"?')
+                        is_sibling = True
+                        res.extend(sib_set)
+                        done_ids.extend([lo["id"] for lo in sib_set])
+
+                if l["id"] in all_sibling_ids:  # Catching the ones that got deleted, don't add to res.
+                    is_sibling = True
+                    done_ids.append(l["id"])
+
+                if not is_sibling:
+                    res.append(l)
+                    done_ids.append(l["id"])
+        print(f"Got {len(res)} members.")
+
         with open(_input_path + ".json", "w") as outfile:
-            res_json = json.dumps(eng_lobjs, indent=2, ensure_ascii=False)
+            res_json = json.dumps(res, indent=2, ensure_ascii=False)
             outfile.write(res_json)
             outfile.close()
-
 
     eng_lobjs = []
     siblings = []
@@ -65,9 +88,12 @@ if __name__ == '__main__':
                 siblings.append(sibling_set)
                 sibling_headers.append(eng_lobj_1["lemma"])
 
+    all_sibling_ids = []  # Some may get deleted but their IDs  kept here so don't put them back into res when saving.
     print(f"There are {len(siblings)} sibling sets.")
     for sib_set in siblings:
         print(sib_set)
+        for sibli in sib_set:
+            all_sibling_ids.append(sibli["id"])
 
     print(f"There are {len(siblings)} sibling sets.")
     for sib_set_index, sib_set in enumerate(siblings):
@@ -87,7 +113,7 @@ if __name__ == '__main__':
                 print(sibl)
             continue
 
-        if sib_set_index % 10 == 1:
+        if sib_set_index % 5 == 0:
             save(eng_lobjs, True)
 
         add_hints(sib_set)

@@ -154,7 +154,7 @@ def user_validate_translations(lobj, res, save_fxn):
     def show_helptext():
         print("")
         print("--------------------------------------------------------------------")
-        print("         Did not recognise user input. Options are:")
+        c.print_red("         Did not recognise user input. Options are:")
         print("")
         print("Enter  : This lobj is OK.")
         print("")
@@ -324,19 +324,25 @@ def add_hints(sibling_set):
     hints = get_hints(sibling_set)
 
     lobjs_with_hints = []
+    lobjs_to_delete = []
 
     for hint_index, hint in enumerate(hints):
+
         sib_lobj = sibling_set[hint_index]
 
-        new_id = sib_lobj["id"]
-        if "(" in new_id:
-            new_id = new_id[:new_id.index("(")]
-        new_id += f"({hint})"
+        if hint == "x":
+            lobjs_to_delete.append(sib_lobj)
+            print("DELETING", sib_lobj["id"])
+        else:
+            new_id = sib_lobj["id"]
+            if "(" in new_id:
+                new_id = new_id[:new_id.index("(")]
+            new_id += f"({hint})"
 
-        lobjs_with_hints.append([sib_lobj, new_id])
+            lobjs_with_hints.append([sib_lobj, new_id])
 
     for lobj_with_hint in lobjs_with_hints:
-        print(">>", lobj_with_hint[1], lobj_with_hint[0]["»trans"])
+        print(">>", c.bold(lobj_with_hint[1]), lobj_with_hint[0]["»trans"])
     print("")
 
     user_input = input("Okay?     Enter for yes     Any key for no")
@@ -345,6 +351,16 @@ def add_hints(sibling_set):
     if confirmation:
         for lobj_with_hint in lobjs_with_hints:
             lobj_with_hint[0]["id"] = lobj_with_hint[1]
+
+        for lobj_to_delete in lobjs_to_delete:
+            sibling_set.remove(lobj_to_delete)
+
+        if len(sibling_set) == 1:
+            only_sibling = sibling_set[0]
+            only_sibling["id"] = only_sibling["id"][:only_sibling["id"].index("(")]
+            print("Is only sibling so have removed signalword.")
+            print(only_sibling["id"])
+
         return
 
     add_hints(sibling_set)
@@ -360,19 +376,24 @@ def get_hints(lobjs):
 
     user_input = input("Please add hints:")
     if not user_input:
+        c.print_red("Did not recognise input. Please type hints separated by a space.")
         return get_hints(lobjs)
 
     failed_character_check = False
-    for char in user_input:
-        if char not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ":
-            failed_character_check = True
+
+    if len(user_input) < 2 and user_input != "x":
+        failed_character_check = True
+    else:
+        for char in user_input:
+            if char not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ":
+                failed_character_check = True
     if failed_character_check:
-        print("Invalid input")
+        c.print_red("Invalid input")
         return get_hints(lobjs)
 
     hints = user_input.split(" ")
     if len(hints) != len(lobjs):
-        print(f"Expected {len(lobjs)} hints but got {len(hints)}.")
+        c.print_red(f"Expected {len(lobjs)} hints but got {len(hints)}.")
         return get_hints(lobjs)
 
     failed_hint_check = False
@@ -380,7 +401,7 @@ def get_hints(lobjs):
         if not len(hint):
             failed_hint_check = True
     if failed_hint_check:
-        print("Invalid hints")
+        c.print_red("Invalid hints")
         return get_hints(lobjs)
 
     return hints
