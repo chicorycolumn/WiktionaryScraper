@@ -4,43 +4,51 @@ After collecting several Source (probably Polish) lobjs files into one batch, we
 This means creating the corresponding Target (probably English) lobjs.
 And then creating the Nexus objects that connect them.
 
-1) Put batch file in "output_saved/batches/" with name in format "nou_batch_01.json".
+ 1) Put batch file in "output_saved/batches/" with name in format "nou_batch_01.json".
 
-2) Run "S1_doublecheck_trans_of_src_lobjs.py"
-   - to finalise translations of Source lobjs
-   Creates "nou_batch_01_SRC.json"
+2)  Run "S1_doublecheck_trans_of_src_lobjs.py"
+    - to finalise translations of Source lobjs
+    Creates "nou_batch_01_SRC.json"
 
-3) Now you manually go through the generated file and search for flags. Resolve them.
-   - 🚩  A flag you added in step 2 with your own notes.
-   - 🏁  Add shorthand tags and topics to this duplicated lobj.
-   - ⛳  Add signal word eg "pol-nco-005-nail(bodypart)" vs "pol-nco-006-nail(metal)".
-   You are modifying "nou_batch_01_SRC.json"
+3)  Now you manually go through the generated file and search for flags. Resolve them.
+    - 🚩  A flag you added in step 2 with your own notes.
+    - 🏁  Add shorthand tags and topics to this duplicated lobj.
+    - ⛳  Add signal word eg "pol-nco-005-nail(bodypart)" vs "pol-nco-006-nail(metal)".
+    You are modifying "nou_batch_01_SRC.json"
 
-4) Run "S2_expand_tags_and_renumber.py"
-   - to expand any shorthand tags you have added to "nou_batch_01_SRC.json" in step 3
-   Modifies "nou_batch_01_SRC.json"
+4)  Run "S2_expand_tags_and_renumber.py"
+    - to expand any shorthand tags you have added to "nou_batch_01_SRC.json" in step 3
+    Modifies "nou_batch_01_SRC.json"
 
-5) Run "S3_renumber_lobjs.py" with "SRC" argument.
-   - to standardise numbering after lobj duplication in step 2
-   Modifies "nou_batch_01_SRC.json"
+5)  Run "S3_renumber_lobjs.py" with "SRC" argument.
+    - to standardise numbering after lobj duplication in step 2
+    Modifies "nou_batch_01_SRC.json"
 
-6) Run "S4_create_tgt_lobjs.py"
-   - to create Target lobjs from the Source ones
-   Creates "nou_batch_01_TGT.json"
+6)  Run "S4_create_tgt_lobjs.py"
+    - to create Target lobjs from the Source ones
+    Creates "nou_batch_01_TGT.json"
 
-7) Run "S5_distinguish_sibling_tgt_lobjs.py"
-   - to delete any unnecessary siblings in the newly created Target lobjs
-   - to add signal words to the newly created Target lobjs
-   Modifies "nou_batch_01_TGT.json"
+7)  Run "S5_distinguish_sibling_tgt_lobjs.py"
+    - to delete any unnecessary siblings in the newly created Target lobjs
+    - to add signal words to the newly created Target lobjs
+    Modifies "nou_batch_01_TGT.json"
 
-8) Run "S3_renumber_lobjs.py" with "TGT" argument.
-   - to standardise numbering after merging and deleting in step 7
-   Modifies "nou_batch_01_TGT.json"
+8)  Run "S3_renumber_lobjs.py" with "TGT" argument
+    - to standardise numbering after merging and deleting in step 7
+    Modifies "nou_batch_01_TGT.json"
 
-9) Run "S6_add_frequency_and_register_to_src.py" with "SRC" argument.
-   - to move "FREQn", ""slang", "insult", "curseword" out of tags and into own key
-   Modifies "nou_batch_01_SRC.json"
+9)  Run "S6_add_frequency_and_register_to_src.py"
+    - to move "FREQn", ""slang", "insult", "curseword" out of tags and into own key
+    Modifies "nou_batch_01_SRC.json"
 
-10) Run "S7_create_nexus.py".
-   - to connect Source and Target lobjs using the translations data from steps 2-8.
-   Creates "nou_batch_01_NEX.json"
+10) Run "S7_add_frequency_and_register_to_tgt.py"
+    - automatically populate frequency and register from SRC onto TGT
+    Modifies "nou_batch_01_TGT.json"
+
+11) Run "S8_doublecheck_frequency_on_tgt.py"
+    - doublecheck the automatically populated frequency on TGT
+    Modifies "nou_batch_01_TGT.json"
+
+12) Run "S9_create_nexus.py".
+    - to connect Source and Target lobjs using the translations data from steps 2-8.
+    Creates "nou_batch_01_NEX.json"
