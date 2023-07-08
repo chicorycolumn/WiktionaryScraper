@@ -4,7 +4,9 @@
     "id": "eng-adj-0001-orange",
     "»trans": [
       "pol-adj-0000-pomarańczowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "bad",
@@ -13,21 +15,27 @@
       "pol-adj-0000-kiepski",
       "pol-adj-0000-zły(bad)",
       "pol-adj-0000-niedobry(bad)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "bad",
     "id": "eng-adj-0003-bad(unkind)",
     "»trans": [
       "pol-adj-0000-niedobry(unkind)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "lame",
     "id": "eng-adj-0004-lame",
     "»trans": [
       "pol-adj-0000-kiepski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "incorrect",
@@ -37,7 +45,9 @@
       "pol-adj-0000-błędny",
       "pol-adj-0000-niepoprawny",
       "pol-adj-0000-nieprawidłowy(incorrect)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "evil",
@@ -45,7 +55,9 @@
     "»trans": [
       "pol-adj-0000-zły(evil)",
       "pol-adj-0000-niedobry(unkind)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "angry",
@@ -54,21 +66,27 @@
       "pol-adj-0000-zły(angry)",
       "pol-adj-0000-wściekły",
       "pol-adj-0000-gniewny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "mad",
     "id": "eng-adj-0008-mad(angry)",
     "»trans": [
       "pol-adj-0000-zły(angry)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "mad",
     "id": "eng-adj-0009-mad(crazy)",
     "»trans": [
       "pol-adj-0000-zwariowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "bright",
@@ -76,49 +94,63 @@
     "»trans": [
       "pol-adj-0000-jasny(bright)",
       "pol-adj-0000-jaskrawy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "bright",
     "id": "eng-adj-0011-bright(clever)",
     "»trans": [
       "pol-adj-0000-bystry"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "light",
     "id": "eng-adj-0012-light(!dark)",
     "»trans": [
       "pol-adj-0000-jasny(bright)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "light",
     "id": "eng-adj-0013-light(!heavy)",
     "»trans": [
       "pol-adj-0000-lekki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "clear",
     "id": "eng-adj-0014-clear(bright)",
     "»trans": [
       "pol-adj-0000-jasny(bright)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "clear",
     "id": "eng-adj-0015-clear(evident)",
     "»trans": [
       "pol-adj-0000-jasny(evident)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "evident",
     "id": "eng-adj-0016-evident",
     "»trans": [
       "pol-adj-0000-jasny(evident)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "obvious",
@@ -126,14 +158,18 @@
     "»trans": [
       "pol-adj-0000-jasny(evident)",
       "pol-adj-0000-oczywisty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "unclear",
     "id": "eng-adj-0018-unclear",
     "»trans": [
       "pol-adj-0000-niejasny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "vague",
@@ -141,14 +177,18 @@
     "»trans": [
       "pol-adj-0000-niejasny",
       "pol-adj-0000-niewyraźny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "cryptic",
     "id": "eng-adj-0020-cryptic",
     "»trans": [
       "pol-adj-0000-niejasny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "dark",
@@ -156,7 +196,9 @@
     "»trans": [
       "pol-adj-0000-ciemny",
       "pol-adj-0000-mroczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "slim",
@@ -164,7 +206,9 @@
     "»trans": [
       "pol-adj-0000-szczupły",
       "pol-adj-0000-smukły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "slender",
@@ -172,28 +216,36 @@
     "»trans": [
       "pol-adj-0000-szczupły",
       "pol-adj-0000-smukły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "svelte",
     "id": "eng-adj-0024-svelte",
     "»trans": [
       "pol-adj-0000-smukły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "weak",
     "id": "eng-adj-0025-weak",
     "»trans": [
       "pol-adj-0000-słaby"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "poor",
     "id": "eng-adj-0026-poor(rubbish)",
     "»trans": [
       "pol-adj-0000-słaby"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "poor",
@@ -201,14 +253,18 @@
     "»trans": [
       "pol-adj-0000-biedny",
       "pol-adj-0000-ubogi"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "good",
     "id": "eng-adj-0028-good",
     "»trans": [
       "pol-adj-0000-dobry"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "correct",
@@ -217,7 +273,9 @@
       "pol-adj-0000-dobry",
       "pol-adj-0000-poprawny",
       "pol-adj-0000-prawidłowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "strong",
@@ -225,14 +283,18 @@
     "»trans": [
       "pol-adj-0000-silny",
       "pol-adj-0000-mocny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "strong",
     "id": "eng-adj-0031-strong(sturdy)",
     "»trans": [
       "pol-adj-0000-solidny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "mediocre",
@@ -240,7 +302,9 @@
     "»trans": [
       "pol-adj-0000-mierny",
       "pol-adj-0000-przeciętny(mediocre)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "sturdy",
@@ -248,7 +312,9 @@
     "»trans": [
       "pol-adj-0000-mocny",
       "pol-adj-0000-solidny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "powerful",
@@ -256,14 +322,18 @@
     "»trans": [
       "pol-adj-0000-mocny",
       "pol-adj-0000-potężny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "magnificent",
     "id": "eng-adj-0035-magnificent",
     "»trans": [
       "pol-adj-0000-wspaniały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "excellent",
@@ -273,14 +343,18 @@
       "pol-adj-0000-świetny",
       "pol-adj-0000-doskonały",
       "pol-adj-0000-cudowny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "heavy",
     "id": "eng-adj-0037-heavy",
     "»trans": [
       "pol-adj-0000-ciężki(heavy)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "difficult",
@@ -288,42 +362,54 @@
     "»trans": [
       "pol-adj-0000-ciężki(difficult)",
       "pol-adj-0000-trudny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "sensitive",
     "id": "eng-adj-0039-sensitive(impressionable)",
     "»trans": [
       "pol-adj-0000-wrażliwy(impressionable)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "sensitive",
     "id": "eng-adj-0040-sensitive(susceptible)",
     "»trans": [
       "pol-adj-0000-wrażliwy(susceptible)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "tender",
     "id": "eng-adj-0041-tender",
     "»trans": [
       "pol-adj-0000-wrażliwy(impressionable)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "impressionable",
     "id": "eng-adj-0042-impressionable",
     "»trans": [
       "pol-adj-0000-wrażliwy(impressionable)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "susceptible",
     "id": "eng-adj-0043-susceptible",
     "»trans": [
       "pol-adj-0000-wrażliwy(susceptible)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "common",
@@ -332,14 +418,18 @@
       "pol-adj-0000-powszechny",
       "pol-adj-0000-zwykły",
       "pol-adj-0000-pospolity"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "common",
     "id": "eng-adj-0045-common(shared)",
     "»trans": [
       "pol-adj-0000-wspólny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "frequent",
@@ -347,14 +437,18 @@
     "»trans": [
       "pol-adj-0000-powszechny",
       "pol-adj-0000-częsty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "dead",
     "id": "eng-adj-0047-dead",
     "»trans": [
       "pol-adj-0000-martwy(dead)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "inanimate",
@@ -362,28 +456,36 @@
     "»trans": [
       "pol-adj-0000-martwy(inanimate)",
       "pol-adj-0000-nieożywiony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "live",
     "id": "eng-adj-0049-live",
     "»trans": [
       "pol-adj-0000-żywy(live)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "alive",
     "id": "eng-adj-0050-alive",
     "»trans": [
       "pol-adj-0000-żywy(live)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "living",
     "id": "eng-adj-0051-living",
     "»trans": [
       "pol-adj-0000-żywy(live)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "lively",
@@ -391,14 +493,18 @@
     "»trans": [
       "pol-adj-0000-żywy(lively)",
       "pol-adj-0000-żywiołowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "vivacious",
     "id": "eng-adj-0053-vivacious",
     "»trans": [
       "pol-adj-0000-żywy(lively)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "vivid",
@@ -407,14 +513,18 @@
       "pol-adj-0000-żywy(lively)",
       "pol-adj-0000-wybujały",
       "pol-adj-0000-jaskrawy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "vibrant",
     "id": "eng-adj-0055-vibrant",
     "»trans": [
       "pol-adj-0000-żywy(lively)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "free of charge",
@@ -422,14 +532,18 @@
     "»trans": [
       "pol-adj-0000-bezpłatny",
       "pol-adj-0000-darmowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "free",
     "id": "eng-adj-0057-free(money)",
     "»trans": [
       "pol-adj-0000-bezpłatny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "free",
@@ -437,35 +551,45 @@
     "»trans": [
       "pol-adj-0000-wolny(free)",
       "pol-adj-0000-swobodny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "young",
     "id": "eng-adj-0059-young",
     "»trans": [
       "pol-adj-0000-młody"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "old",
     "id": "eng-adj-0060-old",
     "»trans": [
       "pol-adj-0000-stary"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "black",
     "id": "eng-adj-0061-black",
     "»trans": [
       "pol-adj-0000-czarny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "white",
     "id": "eng-adj-0062-white",
     "»trans": [
       "pol-adj-0000-biały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "necessary",
@@ -474,7 +598,9 @@
       "pol-adj-0000-konieczny",
       "pol-adj-0000-potrzebny",
       "pol-adj-0000-niezbędny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "elementary",
@@ -482,7 +608,9 @@
     "»trans": [
       "pol-adj-0000-zasadniczy",
       "pol-adj-0000-podstawowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "basic",
@@ -490,7 +618,9 @@
     "»trans": [
       "pol-adj-0000-zasadniczy",
       "pol-adj-0000-podstawowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "fundamental",
@@ -498,7 +628,9 @@
     "»trans": [
       "pol-adj-0000-zasadniczy",
       "pol-adj-0000-kluczowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "essential",
@@ -506,7 +638,9 @@
     "»trans": [
       "pol-adj-0000-zasadniczy",
       "pol-adj-0000-niezbędny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "principal",
@@ -514,21 +648,27 @@
     "»trans": [
       "pol-adj-0000-zasadniczy",
       "pol-adj-0000-podstawowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "principal",
     "id": "eng-adj-0069-principal(general)",
     "»trans": [
       "pol-adj-0000-generalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "chief",
     "id": "eng-adj-0070-chief",
     "»trans": [
       "pol-adj-0000-zasadniczy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "main",
@@ -537,63 +677,81 @@
       "pol-adj-0000-zasadniczy",
       "pol-adj-0000-główny",
       "pol-adj-0000-centralny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "prime",
     "id": "eng-adj-0072-prime",
     "»trans": [
       "pol-adj-0000-zasadniczy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unconditional",
     "id": "eng-adj-0073-unconditional",
     "»trans": [
       "pol-adj-0000-bezwarunkowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "indispensable",
     "id": "eng-adj-0074-indispensable",
     "»trans": [
       "pol-adj-0000-niezbędny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "primary",
     "id": "eng-adj-0075-primary(important)",
     "»trans": [
       "pol-adj-0000-podstawowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "primary",
     "id": "eng-adj-0076-primary(first)",
     "»trans": [
       "pol-adj-0000-pierwotny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "deep",
     "id": "eng-adj-0077-deep(concrete)",
     "»trans": [
       "pol-adj-0000-głęboki(concrete)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "deep",
     "id": "eng-adj-0078-deep(abstract)",
     "»trans": [
       "pol-adj-0000-głęboki(abstract)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "profound",
     "id": "eng-adj-0079-profound",
     "»trans": [
       "pol-adj-0000-głęboki(abstract)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "shallow",
@@ -601,7 +759,9 @@
     "»trans": [
       "pol-adj-0000-płytki",
       "pol-adj-0000-powierzchowny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "next",
@@ -610,21 +770,27 @@
       "pol-adj-0000-następny",
       "pol-adj-0000-kolejny",
       "pol-adj-0000-przyszły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "previous",
     "id": "eng-adj-0082-previous",
     "»trans": [
       "pol-adj-0000-poprzedni"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "prior",
     "id": "eng-adj-0083-prior",
     "»trans": [
       "pol-adj-0000-poprzedni"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "big",
@@ -632,7 +798,9 @@
     "»trans": [
       "pol-adj-0000-wielki",
       "pol-adj-0000-duży"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "large",
@@ -640,7 +808,9 @@
     "»trans": [
       "pol-adj-0000-wielki",
       "pol-adj-0000-duży"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "great",
@@ -648,7 +818,9 @@
     "»trans": [
       "pol-adj-0000-wielki",
       "pol-adj-0000-duży"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "great",
@@ -659,28 +831,36 @@
       "pol-adj-0000-znakomity",
       "pol-adj-0000-cudowny",
       "pol-adj-0000-niesamowity"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "grand",
     "id": "eng-adj-0088-grand",
     "»trans": [
       "pol-adj-0000-wielki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "arduous",
     "id": "eng-adj-0089-arduous",
     "»trans": [
       "pol-adj-0000-męczący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "tiresome",
     "id": "eng-adj-0090-tiresome",
     "»trans": [
       "pol-adj-0000-męczący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "tiring",
@@ -688,7 +868,9 @@
     "»trans": [
       "pol-adj-0000-męczący",
       "pol-adj-0000-wyczerpujący(exhausting)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "ultimate",
@@ -696,7 +878,9 @@
     "»trans": [
       "pol-adj-0000-ostateczny",
       "pol-adj-0000-końcowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "final",
@@ -706,21 +890,27 @@
       "pol-adj-0000-ostatni",
       "pol-adj-0000-finałowy",
       "pol-adj-0000-końcowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "bitter",
     "id": "eng-adj-0094-bitter",
     "»trans": [
       "pol-adj-0000-gorzki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "sweet",
     "id": "eng-adj-0095-sweet(food)",
     "»trans": [
       "pol-adj-0000-słodki(food)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "sweet",
@@ -728,14 +918,18 @@
     "»trans": [
       "pol-adj-0000-uroczy",
       "pol-adj-0000-słodki(cute)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "cute",
     "id": "eng-adj-0097-cute",
     "»trans": [
       "pol-adj-0000-słodki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "tight",
@@ -744,42 +938,54 @@
       "pol-adj-0000-ciasny",
       "pol-adj-0000-wąski",
       "pol-adj-0000-obcisły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "tight",
     "id": "eng-adj-0099-tight(abstract)",
     "»trans": [
       "pol-adj-0000-ścisły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "cramped",
     "id": "eng-adj-0100-cramped",
     "»trans": [
       "pol-adj-0000-ciasny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "rotten",
     "id": "eng-adj-0101-rotten",
     "»trans": [
       "pol-adj-0000-zgniły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "decayed",
     "id": "eng-adj-0102-decayed",
     "»trans": [
       "pol-adj-0000-zgniły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "putrid",
     "id": "eng-adj-0103-putrid",
     "»trans": [
       "pol-adj-0000-zgniły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "charming",
@@ -789,7 +995,9 @@
       "pol-adj-0000-uroczy",
       "pol-adj-0000-urzekający",
       "pol-adj-0000-fascynujący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "enchanting",
@@ -797,7 +1005,9 @@
     "»trans": [
       "pol-adj-0000-czarujący",
       "pol-adj-0000-urzekający"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "huge",
@@ -806,7 +1016,9 @@
       "pol-adj-0000-potężny",
       "pol-adj-0000-ogromny",
       "pol-adj-0000-olbrzymi"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "massive",
@@ -814,28 +1026,36 @@
     "»trans": [
       "pol-adj-0000-potężny",
       "pol-adj-0000-masywny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "hungry",
     "id": "eng-adj-0108-hungry",
     "»trans": [
       "pol-adj-0000-głodny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "true",
     "id": "eng-adj-0109-true(truthful)",
     "»trans": [
       "pol-adj-0000-prawdziwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "true",
     "id": "eng-adj-0110-true(real)",
     "»trans": [
       "pol-adj-0000-istny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "authentic",
@@ -843,7 +1063,9 @@
     "»trans": [
       "pol-adj-0000-prawdziwy",
       "pol-adj-0000-autentyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "real",
@@ -854,14 +1076,18 @@
       "pol-adj-0000-realny",
       "pol-adj-0000-rzeczywisty",
       "pol-adj-0000-istny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "warm",
     "id": "eng-adj-0113-warm",
     "»trans": [
       "pol-adj-0000-ciepły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "extraordinary",
@@ -872,21 +1098,27 @@
       "pol-adj-0000-niesamowity",
       "pol-adj-0000-nienormalny",
       "pol-adj-0000-niespotykany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "phenomenal",
     "id": "eng-adj-0115-phenomenal",
     "»trans": [
       "pol-adj-0000-niezwykły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "remarkable",
     "id": "eng-adj-0116-remarkable",
     "»trans": [
       "pol-adj-0000-niezwykły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "dangerous",
@@ -894,42 +1126,54 @@
     "»trans": [
       "pol-adj-0000-niebezpieczny",
       "pol-adj-0000-groźny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "traditional",
     "id": "eng-adj-0118-traditional",
     "»trans": [
       "pol-adj-0000-tradycyjny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "square",
     "id": "eng-adj-0119-square",
     "»trans": [
       "pol-adj-0000-kwadratowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "attentive",
     "id": "eng-adj-0120-attentive",
     "»trans": [
       "pol-adj-0000-uważny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "watchful",
     "id": "eng-adj-0121-watchful",
     "»trans": [
       "pol-adj-0000-uważny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "observant",
     "id": "eng-adj-0122-observant",
     "»trans": [
       "pol-adj-0000-uważny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "ready",
@@ -937,7 +1181,9 @@
     "»trans": [
       "pol-adj-0000-gotowy(person)",
       "pol-adj-0000-przygotowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "ready",
@@ -945,7 +1191,9 @@
     "»trans": [
       "pol-adj-0000-gotowy(readymade)",
       "pol-adj-0000-przygotowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "prepared",
@@ -953,7 +1201,9 @@
     "»trans": [
       "pol-adj-0000-gotowy(person)",
       "pol-adj-0000-przygotowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "prepared",
@@ -961,28 +1211,36 @@
     "»trans": [
       "pol-adj-0000-gotowy(readymade)",
       "pol-adj-0000-przygotowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "finished",
     "id": "eng-adj-0127-finished",
     "»trans": [
       "pol-adj-0000-gotowy(readymade)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "done",
     "id": "eng-adj-0128-done",
     "»trans": [
       "pol-adj-0000-gotowy(readymade)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "readymade",
     "id": "eng-adj-0129-readymade",
     "»trans": [
       "pol-adj-0000-gotowy(readymade)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "wrong",
@@ -993,14 +1251,18 @@
       "pol-adj-0000-niewłaściwy(wrong)",
       "pol-adj-0000-nieprawidłowy(incorrect)",
       "pol-adj-0000-niedobry(bad)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "sure",
     "id": "eng-adj-0131-sure(thing)",
     "»trans": [
       "pol-adj-0000-pewny(certain)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "sure",
@@ -1008,14 +1270,18 @@
     "»trans": [
       "pol-adj-0000-pewien",
       "pol-adj-0000-pewny(confident)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "certain",
     "id": "eng-adj-0133-certain(thing)",
     "»trans": [
       "pol-adj-0000-pewny(certain)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "certain",
@@ -1023,7 +1289,9 @@
     "»trans": [
       "pol-adj-0000-pewien",
       "pol-adj-0000-pewny(confident)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "confident",
@@ -1031,7 +1299,9 @@
     "»trans": [
       "pol-adj-0000-pewien",
       "pol-adj-0000-pewny(confident)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "brave",
@@ -1039,21 +1309,27 @@
     "»trans": [
       "pol-adj-0000-odważny",
       "pol-adj-0000-dzielny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "courageous",
     "id": "eng-adj-0137-courageous",
     "»trans": [
       "pol-adj-0000-odważny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "whole",
     "id": "eng-adj-0138-whole",
     "»trans": [
       "pol-adj-0000-cały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "complete",
@@ -1062,7 +1338,9 @@
       "pol-adj-0000-cały",
       "pol-adj-0000-kompletny",
       "pol-adj-0000-całkowity"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "entire",
@@ -1070,42 +1348,54 @@
     "»trans": [
       "pol-adj-0000-cały",
       "pol-adj-0000-całkowity"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "short",
     "id": "eng-adj-0141-short(!tall)",
     "»trans": [
       "pol-adj-0000-niski(physical)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "short",
     "id": "eng-adj-0142-short(!long)",
     "»trans": [
       "pol-adj-0000-krótki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "low",
     "id": "eng-adj-0143-low",
     "»trans": [
       "pol-adj-0000-niski(abstract)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "tired",
     "id": "eng-adj-0144-tired",
     "»trans": [
       "pol-adj-0000-zmęczony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "weary",
     "id": "eng-adj-0145-weary",
     "»trans": [
       "pol-adj-0000-zmęczony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "slow",
@@ -1113,21 +1403,27 @@
     "»trans": [
       "pol-adj-0000-powolny",
       "pol-adj-0000-wolny(slow)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "pretty",
     "id": "eng-adj-0147-pretty",
     "»trans": [
       "pol-adj-0000-ładny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "fine",
     "id": "eng-adj-0148-fine",
     "»trans": [
       "pol-adj-0000-drobny(fine)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "nice",
@@ -1136,14 +1432,18 @@
       "pol-adj-0000-ładny",
       "pol-adj-0000-miły(thing)",
       "pol-adj-0000-fajny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "nice",
     "id": "eng-adj-0150-nice(polite)",
     "»trans": [
       "pol-adj-0000-miły(polite)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "normal",
@@ -1151,7 +1451,9 @@
     "»trans": [
       "pol-adj-0000-zwykły",
       "pol-adj-0000-normalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "ordinary",
@@ -1159,49 +1461,63 @@
     "»trans": [
       "pol-adj-0000-zwykły",
       "pol-adj-0000-pospolity"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "brittle",
     "id": "eng-adj-0153-brittle",
     "»trans": [
       "pol-adj-0000-kruchy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "fragile",
     "id": "eng-adj-0154-fragile",
     "»trans": [
       "pol-adj-0000-kruchy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "fake",
     "id": "eng-adj-0155-fake",
     "»trans": [
       "pol-adj-0000-fałszywy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "false",
     "id": "eng-adj-0156-false(!true)",
     "»trans": [
       "pol-adj-0000-fałszywy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "false",
     "id": "eng-adj-0157-false(artificial)",
     "»trans": [
       "pol-adj-0000-sztuczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "genuine",
     "id": "eng-adj-0158-genuine",
     "»trans": [
       "pol-adj-0000-autentyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "original",
@@ -1209,42 +1525,54 @@
     "»trans": [
       "pol-adj-0000-oryginalny",
       "pol-adj-0000-pierwotny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "hard",
     "id": "eng-adj-0160-hard",
     "»trans": [
       "pol-adj-0000-twardy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "tough",
     "id": "eng-adj-0161-tough",
     "»trans": [
       "pol-adj-0000-twardy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "firm",
     "id": "eng-adj-0162-firm",
     "»trans": [
       "pol-adj-0000-twardy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "soft",
     "id": "eng-adj-0163-soft(!rigid)",
     "»trans": [
       "pol-adj-0000-miękki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "soft",
     "id": "eng-adj-0164-soft(mild)",
     "»trans": [
       "pol-adj-0000-łagodny(mild)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "disappointed",
@@ -1252,7 +1580,9 @@
     "»trans": [
       "pol-adj-0000-rozczarowany",
       "pol-adj-0000-zawiedziony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "rich",
@@ -1260,7 +1590,9 @@
     "»trans": [
       "pol-adj-0000-bogaty",
       "pol-adj-0000-zamożny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "wealthy",
@@ -1268,49 +1600,63 @@
     "»trans": [
       "pol-adj-0000-bogaty",
       "pol-adj-0000-zamożny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "abundant",
     "id": "eng-adj-0168-abundant",
     "»trans": [
       "pol-adj-0000-obfity"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "plentiful",
     "id": "eng-adj-0169-plentiful",
     "»trans": [
       "pol-adj-0000-obfity"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "ample",
     "id": "eng-adj-0170-ample",
     "»trans": [
       "pol-adj-0000-obfity"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "copious",
     "id": "eng-adj-0171-copious",
     "»trans": [
       "pol-adj-0000-obfity"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "painful",
     "id": "eng-adj-0172-painful",
     "»trans": [
       "pol-adj-0000-bolesny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "painless",
     "id": "eng-adj-0173-painless",
     "»trans": [
       "pol-adj-0000-bezbolesny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "fantastic",
@@ -1319,42 +1665,54 @@
       "pol-adj-0000-świetny",
       "pol-adj-0000-cudowny",
       "pol-adj-0000-fantastyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "splendid",
     "id": "eng-adj-0175-splendid",
     "»trans": [
       "pol-adj-0000-świetny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "shy",
     "id": "eng-adj-0176-shy",
     "»trans": [
       "pol-adj-0000-nieśmiały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "timid",
     "id": "eng-adj-0177-timid",
     "»trans": [
       "pol-adj-0000-nieśmiały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "daring",
     "id": "eng-adj-0178-daring",
     "»trans": [
       "pol-adj-0000-śmiały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "bold",
     "id": "eng-adj-0179-bold",
     "»trans": [
       "pol-adj-0000-śmiały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "thin",
@@ -1362,35 +1720,45 @@
     "»trans": [
       "pol-adj-0000-chudy",
       "pol-adj-0000-cienki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "lean",
     "id": "eng-adj-0181-lean",
     "»trans": [
       "pol-adj-0000-chudy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "fat",
     "id": "eng-adj-0182-fat",
     "»trans": [
       "pol-adj-0000-gruby(fat)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "thick",
     "id": "eng-adj-0183-thick(wide)",
     "»trans": [
       "pol-adj-0000-gruby(thick)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "thick",
     "id": "eng-adj-0184-thick(viscous)",
     "»trans": [
       "pol-adj-0000-gęsty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "quiet",
@@ -1398,7 +1766,9 @@
     "»trans": [
       "pol-adj-0000-cichy",
       "pol-adj-0000-spokojny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "silent",
@@ -1406,7 +1776,9 @@
     "»trans": [
       "pol-adj-0000-cichy",
       "pol-adj-0000-niemy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "loud",
@@ -1414,7 +1786,9 @@
     "»trans": [
       "pol-adj-0000-głośny",
       "pol-adj-0000-hałaśliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "noisy",
@@ -1422,77 +1796,99 @@
     "»trans": [
       "pol-adj-0000-głośny",
       "pol-adj-0000-hałaśliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "accessible",
     "id": "eng-adj-0189-accessible",
     "»trans": [
       "pol-adj-0000-dostępny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "available",
     "id": "eng-adj-0190-available",
     "»trans": [
       "pol-adj-0000-dostępny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unavailable",
     "id": "eng-adj-0191-unavailable",
     "»trans": [
       "pol-adj-0000-niedostępny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "inaccessible",
     "id": "eng-adj-0192-inaccessible",
     "»trans": [
       "pol-adj-0000-niedostępny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "ideal",
     "id": "eng-adj-0193-ideal",
     "»trans": [
       "pol-adj-0000-idealny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "safe",
     "id": "eng-adj-0194-safe",
     "»trans": [
       "pol-adj-0000-bezpieczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "immense",
     "id": "eng-adj-0195-immense",
     "»trans": [
       "pol-adj-0000-ogromny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "cheap",
     "id": "eng-adj-0196-cheap(money)",
     "»trans": [
       "pol-adj-0000-tani"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "cheap",
     "id": "eng-adj-0197-cheap(quality)",
     "»trans": [
       "pol-adj-0000-tandetny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "expensive",
     "id": "eng-adj-0198-expensive",
     "»trans": [
       "pol-adj-0000-drogi"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "interesting",
@@ -1500,49 +1896,63 @@
     "»trans": [
       "pol-adj-0000-interesujący",
       "pol-adj-0000-ciekawy(interesting)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "curious",
     "id": "eng-adj-0200-curious",
     "»trans": [
       "pol-adj-0000-ciekawy(curious)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "boring",
     "id": "eng-adj-0201-boring",
     "»trans": [
       "pol-adj-0000-nudny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "dull",
     "id": "eng-adj-0202-dull(boring)",
     "»trans": [
       "pol-adj-0000-nudny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "dull",
     "id": "eng-adj-0203-dull(blunt)",
     "»trans": [
       "pol-adj-0000-tępy(blunt)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "perfect",
     "id": "eng-adj-0204-perfect",
     "»trans": [
       "pol-adj-0000-doskonały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "flawless",
     "id": "eng-adj-0205-flawless",
     "»trans": [
       "pol-adj-0000-doskonały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "various",
@@ -1551,7 +1961,9 @@
       "pol-adj-0000-różny",
       "pol-adj-0000-rozmaity",
       "pol-adj-0000-różnorodny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "different",
@@ -1561,14 +1973,18 @@
       "pol-adj-0000-rozmaity",
       "pol-adj-0000-inny",
       "pol-adj-0000-odmienny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "similar",
     "id": "eng-adj-0208-similar",
     "»trans": [
       "pol-adj-0000-podobny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "diverse",
@@ -1576,7 +1992,9 @@
     "»trans": [
       "pol-adj-0000-rozmaity",
       "pol-adj-0000-różnorodny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "loose",
@@ -1584,49 +2002,63 @@
     "»trans": [
       "pol-adj-0000-luźny",
       "pol-adj-0000-sypki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "serious",
     "id": "eng-adj-0211-serious",
     "»trans": [
       "pol-adj-0000-poważny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "grave",
     "id": "eng-adj-0212-grave",
     "»trans": [
       "pol-adj-0000-poważny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "exact",
     "id": "eng-adj-0213-exact",
     "»trans": [
       "pol-adj-0000-dokładny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "accurate",
     "id": "eng-adj-0214-accurate",
     "»trans": [
       "pol-adj-0000-dokładny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "salty",
     "id": "eng-adj-0215-salty",
     "»trans": [
       "pol-adj-0000-słony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "suitable",
     "id": "eng-adj-0216-suitable",
     "»trans": [
       "pol-adj-0000-odpowiedni(appropriate)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "appropriate",
@@ -1634,7 +2066,9 @@
     "»trans": [
       "pol-adj-0000-odpowiedni(appropriate)",
       "pol-adj-0000-właściwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "proper",
@@ -1644,14 +2078,18 @@
       "pol-adj-0000-właściwy",
       "pol-adj-0000-prawidłowy",
       "pol-adj-0000-porządny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "adequate",
     "id": "eng-adj-0219-adequate",
     "»trans": [
       "pol-adj-0000-odpowiedni(appropriate)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "relevant",
@@ -1659,70 +2097,90 @@
     "»trans": [
       "pol-adj-0000-odpowiedni(relevant)",
       "pol-adj-0000-istotny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "respective",
     "id": "eng-adj-0221-respective",
     "»trans": [
       "pol-adj-0000-odpowiedni(relevant)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "attractive",
     "id": "eng-adj-0222-attractive",
     "»trans": [
       "pol-adj-0000-atrakcyjny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "unattractive",
     "id": "eng-adj-0223-unattractive",
     "»trans": [
       "pol-adj-0000-nieatrakcyjny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "right",
     "id": "eng-adj-0224-right(correct)",
     "»trans": [
       "pol-adj-0000-poprawny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "right",
     "id": "eng-adj-0225-right(hand)",
     "»trans": [
       "pol-adj-0000-prawy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "ugly",
     "id": "eng-adj-0226-ugly(appearance)",
     "»trans": [
       "pol-adj-0000-brzydki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "ugly",
     "id": "eng-adj-0227-ugly(nasty)",
     "»trans": [
       "pol-adj-0000-paskudny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "excited",
     "id": "eng-adj-0228-excited",
     "»trans": [
       "pol-adj-0000-podekscytowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "thrilled",
     "id": "eng-adj-0229-thrilled",
     "»trans": [
       "pol-adj-0000-podekscytowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "superstitious",
@@ -1730,49 +2188,63 @@
     "»trans": [
       "pol-adj-0000-przesądny",
       "pol-adj-0000-zabobonny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "obese",
     "id": "eng-adj-0231-obese",
     "»trans": [
       "pol-adj-0000-otyły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "fluffy",
     "id": "eng-adj-0232-fluffy",
     "»trans": [
       "pol-adj-0000-puszysty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "miserable",
     "id": "eng-adj-0233-miserable",
     "»trans": [
       "pol-adj-0000-marny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "lousy",
     "id": "eng-adj-0234-lousy",
     "»trans": [
       "pol-adj-0000-marny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "kick-ass",
     "id": "eng-adj-0235-kick-ass",
     "»trans": [
       "pol-adj-0000-zajebisty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "shit-hot",
     "id": "eng-adj-0236-shit-hot",
     "»trans": [
       "pol-adj-0000-zajebisty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "awesome",
@@ -1780,49 +2252,63 @@
     "»trans": [
       "pol-adj-0000-zajebisty",
       "pol-adj-0000-znakomity"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "amazing",
     "id": "eng-adj-0238-amazing",
     "»trans": [
       "pol-adj-0000-zajebisty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "cool",
     "id": "eng-adj-0239-cool(nice)",
     "»trans": [
       "pol-adj-0000-fajny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "cool",
     "id": "eng-adj-0240-cool(temperature)",
     "»trans": [
       "pol-adj-0000-chłodny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "sincere",
     "id": "eng-adj-0241-sincere",
     "»trans": [
       "pol-adj-0000-szczery"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "earnest",
     "id": "eng-adj-0242-earnest",
     "»trans": [
       "pol-adj-0000-szczery"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "heartfelt",
     "id": "eng-adj-0243-heartfelt",
     "»trans": [
       "pol-adj-0000-szczery"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "special",
@@ -1832,7 +2318,9 @@
       "pol-adj-0000-specjalny",
       "pol-adj-0000-wyjątkowy",
       "pol-adj-0000-specyficzny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "particular",
@@ -1840,7 +2328,9 @@
     "»trans": [
       "pol-adj-0000-szczególny",
       "pol-adj-0000-swoisty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "peculiar",
@@ -1848,28 +2338,36 @@
     "»trans": [
       "pol-adj-0000-osobliwy",
       "pol-adj-0000-swoisty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "quaint",
     "id": "eng-adj-0247-quaint",
     "»trans": [
       "pol-adj-0000-osobliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "improper",
     "id": "eng-adj-0248-improper",
     "»trans": [
       "pol-adj-0000-niewłaściwy(inappropriate)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "unsuitable",
     "id": "eng-adj-0249-unsuitable",
     "»trans": [
       "pol-adj-0000-niewłaściwy(inappropriate)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "inappropriate",
@@ -1877,14 +2375,18 @@
     "»trans": [
       "pol-adj-0000-niewłaściwy(inappropriate)",
       "pol-adj-0000-nieodpowiedni"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "new",
     "id": "eng-adj-0251-new",
     "»trans": [
       "pol-adj-0000-nowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "abnormal",
@@ -1892,7 +2394,9 @@
     "»trans": [
       "pol-adj-0000-nienormalny",
       "pol-adj-0000-nieprawidłowy(irregular)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "irregular",
@@ -1900,7 +2404,9 @@
     "»trans": [
       "pol-adj-0000-nienormalny",
       "pol-adj-0000-nieprawidłowy(irregular)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "uncommon",
@@ -1909,7 +2415,9 @@
       "pol-adj-0000-nienormalny",
       "pol-adj-0000-niespotykany",
       "pol-adj-0000-rzadki(rare)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unusual",
@@ -1918,21 +2426,27 @@
       "pol-adj-0000-nienormalny",
       "pol-adj-0000-niespotykany",
       "pol-adj-0000-nietypowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "ill",
     "id": "eng-adj-0256-ill",
     "»trans": [
       "pol-adj-0000-chory"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "sick",
     "id": "eng-adj-0257-sick",
     "»trans": [
       "pol-adj-0000-chory"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "cold",
@@ -1940,28 +2454,36 @@
     "»trans": [
       "pol-adj-0000-zimny",
       "pol-adj-0000-chłodny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "blue",
     "id": "eng-adj-0259-blue",
     "»trans": [
       "pol-adj-0000-niebieski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "heavenly",
     "id": "eng-adj-0260-heavenly",
     "»trans": [
       "pol-adj-0000-niebiański"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "celestial",
     "id": "eng-adj-0261-celestial",
     "»trans": [
       "pol-adj-0000-niebiański"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "national",
@@ -1970,7 +2492,9 @@
       "pol-adj-0000-narodowy",
       "pol-adj-0000-krajowy",
       "pol-adj-0000-państwowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "unkind",
@@ -1978,7 +2502,9 @@
     "»trans": [
       "pol-adj-0000-niedobry(unkind)",
       "pol-adj-0000-niemiły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "wicked",
@@ -1986,7 +2512,9 @@
     "»trans": [
       "pol-adj-0000-niedobry(unkind)",
       "pol-adj-0000-niegodziwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "unprofitable",
@@ -1995,56 +2523,72 @@
       "pol-adj-0000-niedochodowy",
       "pol-adj-0000-nieopłacalny",
       "pol-adj-0000-nierentowny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "naughty",
     "id": "eng-adj-0266-naughty",
     "»trans": [
       "pol-adj-0000-nieposłuszny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "disobedient",
     "id": "eng-adj-0267-disobedient",
     "»trans": [
       "pol-adj-0000-nieposłuszny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "defiant",
     "id": "eng-adj-0268-defiant",
     "»trans": [
       "pol-adj-0000-nieposłuszny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "optimistic",
     "id": "eng-adj-0269-optimistic",
     "»trans": [
       "pol-adj-0000-optymistyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unsavoury",
     "id": "eng-adj-0270-unsavoury",
     "»trans": [
       "pol-adj-0000-niesmaczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "distasteful",
     "id": "eng-adj-0271-distasteful",
     "»trans": [
       "pol-adj-0000-niesmaczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "tasteless",
     "id": "eng-adj-0272-tasteless",
     "»trans": [
       "pol-adj-0000-niesmaczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "profitable",
@@ -2053,14 +2597,18 @@
       "pol-adj-0000-rentowny",
       "pol-adj-0000-opłacalny",
       "pol-adj-0000-dochodowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "kind",
     "id": "eng-adj-0274-kind",
     "»trans": [
       "pol-adj-0000-życzliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "friendly",
@@ -2068,21 +2616,27 @@
     "»trans": [
       "pol-adj-0000-życzliwy",
       "pol-adj-0000-przyjazny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "unfriendly",
     "id": "eng-adj-0276-unfriendly",
     "»trans": [
       "pol-adj-0000-nieżyczliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "pessimistic",
     "id": "eng-adj-0277-pessimistic",
     "»trans": [
       "pol-adj-0000-pesymistyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "careful",
@@ -2090,35 +2644,45 @@
     "»trans": [
       "pol-adj-0000-staranny",
       "pol-adj-0000-ostrożny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "neat",
     "id": "eng-adj-0279-neat",
     "»trans": [
       "pol-adj-0000-staranny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "meticulous",
     "id": "eng-adj-0280-meticulous",
     "»trans": [
       "pol-adj-0000-staranny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "immoral",
     "id": "eng-adj-0281-immoral",
     "»trans": [
       "pol-adj-0000-niemoralny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "moral",
     "id": "eng-adj-0282-moral",
     "»trans": [
       "pol-adj-0000-moralny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "tasty",
@@ -2126,7 +2690,9 @@
     "»trans": [
       "pol-adj-0000-smaczny",
       "pol-adj-0000-pyszny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "delicious",
@@ -2134,7 +2700,9 @@
     "»trans": [
       "pol-adj-0000-smaczny",
       "pol-adj-0000-pyszny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "lucrative",
@@ -2142,49 +2710,63 @@
     "»trans": [
       "pol-adj-0000-opłacalny",
       "pol-adj-0000-dochodowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "obedient",
     "id": "eng-adj-0286-obedient",
     "»trans": [
       "pol-adj-0000-posłuszny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "dutiful",
     "id": "eng-adj-0287-dutiful",
     "»trans": [
       "pol-adj-0000-posłuszny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "furious",
     "id": "eng-adj-0288-furious",
     "»trans": [
       "pol-adj-0000-wściekły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "livid",
     "id": "eng-adj-0289-livid",
     "»trans": [
       "pol-adj-0000-wściekły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "rabid",
     "id": "eng-adj-0290-rabid",
     "»trans": [
       "pol-adj-0000-wściekły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "rugged",
     "id": "eng-adj-0291-rugged",
     "»trans": [
       "pol-adj-0000-solidny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "trustworthy",
@@ -2192,7 +2774,9 @@
     "»trans": [
       "pol-adj-0000-solidny",
       "pol-adj-0000-wiarygodny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "dependable",
@@ -2200,42 +2784,54 @@
     "»trans": [
       "pol-adj-0000-solidny",
       "pol-adj-0000-niezawodny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "grey",
     "id": "eng-adj-0294-grey",
     "»trans": [
       "pol-adj-0000-szary"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "sociable",
     "id": "eng-adj-0295-sociable",
     "»trans": [
       "pol-adj-0000-towarzyski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "social",
     "id": "eng-adj-0296-social",
     "»trans": [
       "pol-adj-0000-towarzyski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "tiny",
     "id": "eng-adj-0297-tiny",
     "»trans": [
       "pol-adj-0000-malutki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "minute",
     "id": "eng-adj-0298-minute",
     "»trans": [
       "pol-adj-0000-malutki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "small",
@@ -2245,21 +2841,27 @@
       "pol-adj-0000-drobny(fine)",
       "pol-adj-0000-drobny(petty)",
       "pol-adj-0000-niewielki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "dry",
     "id": "eng-adj-0300-dry",
     "»trans": [
       "pol-adj-0000-suchy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "wet",
     "id": "eng-adj-0301-wet",
     "»trans": [
       "pol-adj-0000-mokry"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "beautiful",
@@ -2267,56 +2869,72 @@
     "»trans": [
       "pol-adj-0000-śliczny",
       "pol-adj-0000-piękny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "gorgeous",
     "id": "eng-adj-0303-gorgeous",
     "»trans": [
       "pol-adj-0000-śliczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "nasty",
     "id": "eng-adj-0304-nasty",
     "»trans": [
       "pol-adj-0000-paskudny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "adorable",
     "id": "eng-adj-0305-adorable",
     "»trans": [
       "pol-adj-0000-uroczy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "complimentary",
     "id": "eng-adj-0306-complimentary",
     "»trans": [
       "pol-adj-0000-darmowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "illegal",
     "id": "eng-adj-0307-illegal",
     "»trans": [
       "pol-adj-0000-nielegalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "legal",
     "id": "eng-adj-0308-legal(!illegal)",
     "»trans": [
       "pol-adj-0000-legalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "legal",
     "id": "eng-adj-0309-legal(legislative)",
     "»trans": [
       "pol-adj-0000-prawny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "identical",
@@ -2325,21 +2943,27 @@
       "pol-adj-0000-identyczny",
       "pol-adj-0000-tożsamy",
       "pol-adj-0000-jednakowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "exhausting",
     "id": "eng-adj-0311-exhausting",
     "»trans": [
       "pol-adj-0000-wyczerpujący(exhausting)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "exhaustive",
     "id": "eng-adj-0312-exhaustive",
     "»trans": [
       "pol-adj-0000-wyczerpujący(exhaustive)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "comprehensive",
@@ -2347,14 +2971,18 @@
     "»trans": [
       "pol-adj-0000-wyczerpujący(exhaustive)",
       "pol-adj-0000-wszechstronny(comprehensive)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "versatile",
     "id": "eng-adj-0314-versatile",
     "»trans": [
       "pol-adj-0000-wszechstronny(versatile)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "late",
@@ -2362,21 +2990,27 @@
     "»trans": [
       "pol-adj-0000-późny",
       "pol-adj-0000-spóźniony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "early",
     "id": "eng-adj-0316-early",
     "»trans": [
       "pol-adj-0000-wczesny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "first",
     "id": "eng-adj-0317-first",
     "»trans": [
       "pol-adj-0000-pierwszy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "last",
@@ -2384,21 +3018,27 @@
     "»trans": [
       "pol-adj-0000-ostatni",
       "pol-adj-0000-miniony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "high",
     "id": "eng-adj-0319-high",
     "»trans": [
       "pol-adj-0000-wysoki(abstract)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "tall",
     "id": "eng-adj-0320-tall",
     "»trans": [
       "pol-adj-0000-wysoki(physical)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "gigantic",
@@ -2406,35 +3046,45 @@
     "»trans": [
       "pol-adj-0000-olbrzymi",
       "pol-adj-0000-gigantyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "stingy",
     "id": "eng-adj-0322-stingy",
     "»trans": [
       "pol-adj-0000-skąpy(miserly)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "miserly",
     "id": "eng-adj-0323-miserly",
     "»trans": [
       "pol-adj-0000-skąpy(miserly)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "scant",
     "id": "eng-adj-0324-scant",
     "»trans": [
       "pol-adj-0000-skąpy(scant)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "insufficient",
     "id": "eng-adj-0325-insufficient",
     "»trans": [
       "pol-adj-0000-skąpy(scant)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "generous",
@@ -2442,28 +3092,36 @@
     "»trans": [
       "pol-adj-0000-hojny",
       "pol-adj-0000-szczodry"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "wide",
     "id": "eng-adj-0327-wide",
     "»trans": [
       "pol-adj-0000-szeroki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "broad",
     "id": "eng-adj-0328-broad",
     "»trans": [
       "pol-adj-0000-szeroki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "narrow",
     "id": "eng-adj-0329-narrow",
     "»trans": [
       "pol-adj-0000-wąski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "vast",
@@ -2471,7 +3129,9 @@
     "»trans": [
       "pol-adj-0000-rozległy",
       "pol-adj-0000-obszerny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "extensive",
@@ -2479,63 +3139,81 @@
     "»trans": [
       "pol-adj-0000-rozległy",
       "pol-adj-0000-obszerny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "fair",
     "id": "eng-adj-0332-fair",
     "»trans": [
       "pol-adj-0000-sprawiedliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "just",
     "id": "eng-adj-0333-just",
     "»trans": [
       "pol-adj-0000-sprawiedliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unfair",
     "id": "eng-adj-0334-unfair",
     "»trans": [
       "pol-adj-0000-niesprawiedliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unjust",
     "id": "eng-adj-0335-unjust",
     "»trans": [
       "pol-adj-0000-niesprawiedliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "rare",
     "id": "eng-adj-0336-rare",
     "»trans": [
       "pol-adj-0000-rzadki(rare)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "scarce",
     "id": "eng-adj-0337-scarce",
     "»trans": [
       "pol-adj-0000-rzadki(rare)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "runny",
     "id": "eng-adj-0338-runny",
     "»trans": [
       "pol-adj-0000-rzadki(runny)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "intelligent",
     "id": "eng-adj-0339-intelligent",
     "»trans": [
       "pol-adj-0000-inteligentny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "smart",
@@ -2545,7 +3223,9 @@
       "pol-adj-0000-bystry",
       "pol-adj-0000-sprytny",
       "pol-adj-0000-wytworny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "clever",
@@ -2553,7 +3233,9 @@
     "»trans": [
       "pol-adj-0000-inteligentny",
       "pol-adj-0000-sprytny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "stupid",
@@ -2561,14 +3243,18 @@
     "»trans": [
       "pol-adj-0000-głupi",
       "pol-adj-0000-durny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "silly",
     "id": "eng-adj-0343-silly",
     "»trans": [
       "pol-adj-0000-głupi"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "dumb",
@@ -2577,42 +3263,54 @@
       "pol-adj-0000-głupi",
       "pol-adj-0000-tępy(dumb)",
       "pol-adj-0000-durny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "possible",
     "id": "eng-adj-0345-possible",
     "»trans": [
       "pol-adj-0000-możliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "full",
     "id": "eng-adj-0346-full",
     "»trans": [
       "pol-adj-0000-pełny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "empty",
     "id": "eng-adj-0347-empty",
     "»trans": [
       "pol-adj-0000-pusty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "international",
     "id": "eng-adj-0348-international",
     "»trans": [
       "pol-adj-0000-międzynarodowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "comfortable",
     "id": "eng-adj-0349-comfortable",
     "»trans": [
       "pol-adj-0000-wygodny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "famous",
@@ -2621,21 +3319,27 @@
       "pol-adj-0000-sławny",
       "pol-adj-0000-znany",
       "pol-adj-0000-słynny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "raucous",
     "id": "eng-adj-0351-raucous",
     "»trans": [
       "pol-adj-0000-hałaśliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "known",
     "id": "eng-adj-0352-known",
     "»trans": [
       "pol-adj-0000-znany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "well-known",
@@ -2643,7 +3347,9 @@
     "»trans": [
       "pol-adj-0000-znany",
       "pol-adj-0000-słynny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "amusing",
@@ -2651,7 +3357,9 @@
     "»trans": [
       "pol-adj-0000-zabawny",
       "pol-adj-0000-dowcipny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "funny",
@@ -2660,14 +3368,18 @@
       "pol-adj-0000-zabawny",
       "pol-adj-0000-śmieszny",
       "pol-adj-0000-dowcipny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "ridiculous",
     "id": "eng-adj-0356-ridiculous",
     "»trans": [
       "pol-adj-0000-śmieszny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "humorous",
@@ -2675,35 +3387,45 @@
     "»trans": [
       "pol-adj-0000-żartobliwy",
       "pol-adj-0000-dowcipny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "tongue-in-cheek",
     "id": "eng-adj-0358-tongue-in-cheek",
     "»trans": [
       "pol-adj-0000-żartobliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "playful",
     "id": "eng-adj-0359-playful",
     "»trans": [
       "pol-adj-0000-żartobliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "lighthearted",
     "id": "eng-adj-0360-lighthearted",
     "»trans": [
       "pol-adj-0000-żartobliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "witty",
     "id": "eng-adj-0361-witty",
     "»trans": [
       "pol-adj-0000-dowcipny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "hot",
@@ -2711,14 +3433,18 @@
     "»trans": [
       "pol-adj-0000-pikantny",
       "pol-adj-0000-ostry(hot)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "hot",
     "id": "eng-adj-0363-hot(temperature)",
     "»trans": [
       "pol-adj-0000-gorący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "spicy",
@@ -2726,42 +3452,54 @@
     "»trans": [
       "pol-adj-0000-pikantny",
       "pol-adj-0000-ostry(hot)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "sharp",
     "id": "eng-adj-0365-sharp(concrete)",
     "»trans": [
       "pol-adj-0000-ostry(sharp)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "sharp",
     "id": "eng-adj-0366-sharp(abstract)",
     "»trans": [
       "pol-adj-0000-gwałtowny(trendline)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "acute",
     "id": "eng-adj-0367-acute",
     "»trans": [
       "pol-adj-0000-ostry(acute)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "uninteresting",
     "id": "eng-adj-0368-uninteresting",
     "»trans": [
       "pol-adj-0000-nieciekawy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "dirty",
     "id": "eng-adj-0369-dirty",
     "»trans": [
       "pol-adj-0000-brudny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "local",
@@ -2770,7 +3508,9 @@
       "pol-adj-0000-lokalny",
       "pol-adj-0000-miejscowy",
       "pol-adj-0000-tutejszy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "purple",
@@ -2778,7 +3518,9 @@
     "»trans": [
       "pol-adj-0000-purpurowy",
       "pol-adj-0000-fioletowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "open",
@@ -2786,14 +3528,18 @@
     "»trans": [
       "pol-adj-0000-otwarty",
       "pol-adj-0000-czynny(open)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "credible",
     "id": "eng-adj-0373-credible",
     "»trans": [
       "pol-adj-0000-wiarygodny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "reliable",
@@ -2802,7 +3548,9 @@
       "pol-adj-0000-wiarygodny",
       "pol-adj-0000-niezawodny",
       "pol-adj-0000-rzetelny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "significant",
@@ -2810,7 +3558,9 @@
     "»trans": [
       "pol-adj-0000-istotny",
       "pol-adj-0000-ważny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "important",
@@ -2819,56 +3569,72 @@
       "pol-adj-0000-istotny",
       "pol-adj-0000-ważny",
       "pol-adj-0000-kluczowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "immediate",
     "id": "eng-adj-0377-immediate",
     "»trans": [
       "pol-adj-0000-natychmiastowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "instantaneous",
     "id": "eng-adj-0378-instantaneous",
     "»trans": [
       "pol-adj-0000-natychmiastowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "jealous",
     "id": "eng-adj-0379-jealous",
     "»trans": [
       "pol-adj-0000-zazdrosny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "envious",
     "id": "eng-adj-0380-envious",
     "»trans": [
       "pol-adj-0000-zazdrosny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "electric",
     "id": "eng-adj-0381-electric",
     "»trans": [
       "pol-adj-0000-elektryczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "electrical",
     "id": "eng-adj-0382-electrical",
     "»trans": [
       "pol-adj-0000-elektryczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "near",
     "id": "eng-adj-0383-near",
     "»trans": [
       "pol-adj-0000-bliski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "close",
@@ -2876,63 +3642,81 @@
     "»trans": [
       "pol-adj-0000-bliski",
       "pol-adj-0000-niedaleki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "surprised",
     "id": "eng-adj-0385-surprised",
     "»trans": [
       "pol-adj-0000-zaskoczony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "startled",
     "id": "eng-adj-0386-startled",
     "»trans": [
       "pol-adj-0000-zaskoczony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "taken aback",
     "id": "eng-adj-0387-taken aback",
     "»trans": [
       "pol-adj-0000-zaskoczony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "probable",
     "id": "eng-adj-0388-probable",
     "»trans": [
       "pol-adj-0000-prawdopodobny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "sad",
     "id": "eng-adj-0389-sad",
     "»trans": [
       "pol-adj-0000-smutny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "mysterious",
     "id": "eng-adj-0390-mysterious",
     "»trans": [
       "pol-adj-0000-tajemniczy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "secretive",
     "id": "eng-adj-0391-secretive",
     "»trans": [
       "pol-adj-0000-tajemniczy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "stubborn",
     "id": "eng-adj-0392-stubborn",
     "»trans": [
       "pol-adj-0000-uparty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "talented",
@@ -2940,7 +3724,9 @@
     "»trans": [
       "pol-adj-0000-zdolny",
       "pol-adj-0000-utalentowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "gifted",
@@ -2948,77 +3734,99 @@
     "»trans": [
       "pol-adj-0000-zdolny",
       "pol-adj-0000-utalentowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "capable",
     "id": "eng-adj-0395-capable",
     "»trans": [
       "pol-adj-0000-zdolny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "round",
     "id": "eng-adj-0396-round",
     "»trans": [
       "pol-adj-0000-okrągły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "circular",
     "id": "eng-adj-0397-circular",
     "»trans": [
       "pol-adj-0000-okrągły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "long",
     "id": "eng-adj-0398-long",
     "»trans": [
       "pol-adj-0000-długi"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "exceptional",
     "id": "eng-adj-0399-exceptional",
     "»trans": [
       "pol-adj-0000-wyjątkowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unique",
     "id": "eng-adj-0400-unique",
     "»trans": [
       "pol-adj-0000-wyjątkowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "medieval",
     "id": "eng-adj-0401-medieval",
     "»trans": [
       "pol-adj-0000-średniowieczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "yellow",
     "id": "eng-adj-0402-yellow",
     "»trans": [
       "pol-adj-0000-żółty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "sour",
     "id": "eng-adj-0403-sour",
     "»trans": [
       "pol-adj-0000-kwaśny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "Mediterranean",
     "id": "eng-adj-0404-Mediterranean",
     "»trans": [
       "pol-adj-0000-śródziemnomorski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "foreign",
@@ -3026,7 +3834,9 @@
     "»trans": [
       "pol-adj-0000-zagraniczny",
       "pol-adj-0000-obcy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "terrible",
@@ -3034,35 +3844,45 @@
     "»trans": [
       "pol-adj-0000-okropny",
       "pol-adj-0000-straszny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "nutty",
     "id": "eng-adj-0407-nutty",
     "»trans": [
       "pol-adj-0000-zwariowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "barmy",
     "id": "eng-adj-0408-barmy",
     "»trans": [
       "pol-adj-0000-zwariowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "crazy",
     "id": "eng-adj-0409-crazy",
     "»trans": [
       "pol-adj-0000-zwariowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "daft",
     "id": "eng-adj-0410-daft",
     "»trans": [
       "pol-adj-0000-zwariowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unpleasant",
@@ -3070,21 +3890,27 @@
     "»trans": [
       "pol-adj-0000-niemiły",
       "pol-adj-0000-nieprzyjemny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "exhausted",
     "id": "eng-adj-0412-exhausted",
     "»trans": [
       "pol-adj-0000-wyczerpany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "unhealthy",
     "id": "eng-adj-0413-unhealthy",
     "»trans": [
       "pol-adj-0000-niezdrowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "pleasant",
@@ -3092,49 +3918,63 @@
     "»trans": [
       "pol-adj-0000-przyjemny",
       "pol-adj-0000-miły(thing)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "pleasant",
     "id": "eng-adj-0415-pleasant(polite)",
     "»trans": [
       "pol-adj-0000-miły(polite)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "red",
     "id": "eng-adj-0416-red",
     "»trans": [
       "pol-adj-0000-czerwony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "average",
     "id": "eng-adj-0417-average(statistics)",
     "»trans": [
       "pol-adj-0000-przeciętny(average)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "average",
     "id": "eng-adj-0418-average(mediocre)",
     "»trans": [
       "pol-adj-0000-przeciętny(mediocre)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "joyful",
     "id": "eng-adj-0419-joyful",
     "»trans": [
       "pol-adj-0000-radosny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "cheerful",
     "id": "eng-adj-0420-cheerful",
     "»trans": [
       "pol-adj-0000-radosny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "colorful",
@@ -3142,7 +3982,9 @@
     "»trans": [
       "pol-adj-0000-kolorowy",
       "pol-adj-0000-barwny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "colourful",
@@ -3150,126 +3992,162 @@
     "»trans": [
       "pol-adj-0000-kolorowy",
       "pol-adj-0000-barwny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "brown",
     "id": "eng-adj-0423-brown",
     "»trans": [
       "pol-adj-0000-brązowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "sticky",
     "id": "eng-adj-0424-sticky",
     "»trans": [
       "pol-adj-0000-lepki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "forbidden",
     "id": "eng-adj-0425-forbidden",
     "»trans": [
       "pol-adj-0000-zakazany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "prohibited",
     "id": "eng-adj-0426-prohibited",
     "»trans": [
       "pol-adj-0000-zakazany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "banned",
     "id": "eng-adj-0427-banned",
     "»trans": [
       "pol-adj-0000-zakazany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "outlawed",
     "id": "eng-adj-0428-outlawed",
     "»trans": [
       "pol-adj-0000-zakazany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unfailing",
     "id": "eng-adj-0429-unfailing",
     "»trans": [
       "pol-adj-0000-niezawodny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "content",
     "id": "eng-adj-0430-content",
     "»trans": [
       "pol-adj-0000-zadowolony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "satisfied",
     "id": "eng-adj-0431-satisfied",
     "»trans": [
       "pol-adj-0000-zadowolony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "triangular",
     "id": "eng-adj-0432-triangular",
     "»trans": [
       "pol-adj-0000-trójkątny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "superb",
     "id": "eng-adj-0433-superb",
     "»trans": [
       "pol-adj-0000-znakomity"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "tight-fitting",
     "id": "eng-adj-0434-tight-fitting",
     "»trans": [
       "pol-adj-0000-obcisły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "lazy",
     "id": "eng-adj-0435-lazy",
     "»trans": [
       "pol-adj-0000-leniwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "strange",
     "id": "eng-adj-0436-strange",
     "»trans": [
       "pol-adj-0000-dziwny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "odd",
     "id": "eng-adj-0437-odd",
     "»trans": [
       "pol-adj-0000-dziwny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "healthy",
     "id": "eng-adj-0438-healthy",
     "»trans": [
       "pol-adj-0000-zdrowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "independent",
     "id": "eng-adj-0439-independent",
     "»trans": [
       "pol-adj-0000-niezależny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "disgusting",
@@ -3277,7 +4155,9 @@
     "»trans": [
       "pol-adj-0000-obrzydliwy",
       "pol-adj-0000-ohydny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "repulsive",
@@ -3285,98 +4165,126 @@
     "»trans": [
       "pol-adj-0000-obrzydliwy",
       "pol-adj-0000-ohydny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "communal",
     "id": "eng-adj-0442-communal",
     "»trans": [
       "pol-adj-0000-wspólny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "shared",
     "id": "eng-adj-0443-shared",
     "»trans": [
       "pol-adj-0000-wspólny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "mutual",
     "id": "eng-adj-0444-mutual",
     "»trans": [
       "pol-adj-0000-wspólny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "joint",
     "id": "eng-adj-0445-joint",
     "»trans": [
       "pol-adj-0000-wspólny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "fashionable",
     "id": "eng-adj-0446-fashionable",
     "»trans": [
       "pol-adj-0000-modny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "neuter",
     "id": "eng-adj-0447-neuter",
     "»trans": [
       "pol-adj-0000-nijaki(neuter)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "bland",
     "id": "eng-adj-0448-bland",
     "»trans": [
       "pol-adj-0000-nijaki(bland)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "colourless",
     "id": "eng-adj-0449-colourless",
     "»trans": [
       "pol-adj-0000-bezbarwny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "colorless",
     "id": "eng-adj-0450-colorless",
     "»trans": [
       "pol-adj-0000-bezbarwny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "fast",
     "id": "eng-adj-0451-fast",
     "»trans": [
       "pol-adj-0000-szybki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "quick",
     "id": "eng-adj-0452-quick",
     "»trans": [
       "pol-adj-0000-szybki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "varied",
     "id": "eng-adj-0453-varied",
     "»trans": [
       "pol-adj-0000-różnorodny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "straight",
     "id": "eng-adj-0454-straight",
     "»trans": [
       "pol-adj-0000-prosty(straight)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "simple",
@@ -3384,7 +4292,9 @@
     "»trans": [
       "pol-adj-0000-prosty(simple)",
       "pol-adj-0000-łatwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "easy",
@@ -3392,14 +4302,18 @@
     "»trans": [
       "pol-adj-0000-prosty(simple)",
       "pol-adj-0000-łatwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "crooked",
     "id": "eng-adj-0457-crooked",
     "»trans": [
       "pol-adj-0000-krzywy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "natural",
@@ -3407,98 +4321,126 @@
     "»trans": [
       "pol-adj-0000-naturalny",
       "pol-adj-0000-przyrodniczy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "complicated",
     "id": "eng-adj-0459-complicated",
     "»trans": [
       "pol-adj-0000-skomplikowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "complex",
     "id": "eng-adj-0460-complex",
     "»trans": [
       "pol-adj-0000-skomplikowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "intricate",
     "id": "eng-adj-0461-intricate",
     "»trans": [
       "pol-adj-0000-skomplikowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "direct",
     "id": "eng-adj-0462-direct",
     "»trans": [
       "pol-adj-0000-bezpośredni"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unfortunate",
     "id": "eng-adj-0463-unfortunate",
     "»trans": [
       "pol-adj-0000-pechowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "unlucky",
     "id": "eng-adj-0464-unlucky",
     "»trans": [
       "pol-adj-0000-pechowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "happy",
     "id": "eng-adj-0465-happy",
     "»trans": [
       "pol-adj-0000-szczęśliwy(happy)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "lucky",
     "id": "eng-adj-0466-lucky",
     "»trans": [
       "pol-adj-0000-szczęśliwy(lucky)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "fortunate",
     "id": "eng-adj-0467-fortunate",
     "»trans": [
       "pol-adj-0000-szczęśliwy(lucky)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "superficial",
     "id": "eng-adj-0468-superficial",
     "»trans": [
       "pol-adj-0000-powierzchowny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "modest",
     "id": "eng-adj-0469-modest",
     "»trans": [
       "pol-adj-0000-skromny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "affluent",
     "id": "eng-adj-0470-affluent",
     "»trans": [
       "pol-adj-0000-zamożny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "far",
     "id": "eng-adj-0471-far",
     "»trans": [
       "pol-adj-0000-daleki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "distant",
@@ -3506,7 +4448,9 @@
     "»trans": [
       "pol-adj-0000-daleki",
       "pol-adj-0000-odległy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "nearby",
@@ -3514,63 +4458,81 @@
     "»trans": [
       "pol-adj-0000-niedaleki",
       "pol-adj-0000-pobliski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "faraway",
     "id": "eng-adj-0474-faraway",
     "»trans": [
       "pol-adj-0000-odległy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "artificial",
     "id": "eng-adj-0475-artificial",
     "»trans": [
       "pol-adj-0000-sztuczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "man-made",
     "id": "eng-adj-0476-man-made",
     "»trans": [
       "pol-adj-0000-sztuczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "manmade",
     "id": "eng-adj-0477-manmade",
     "»trans": [
       "pol-adj-0000-sztuczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "calm",
     "id": "eng-adj-0478-calm",
     "»trans": [
       "pol-adj-0000-spokojny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "peaceful",
     "id": "eng-adj-0479-peaceful",
     "»trans": [
       "pol-adj-0000-spokojny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "tranquil",
     "id": "eng-adj-0480-tranquil",
     "»trans": [
       "pol-adj-0000-spokojny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "placid",
     "id": "eng-adj-0481-placid",
     "»trans": [
       "pol-adj-0000-spokojny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "anxious",
@@ -3578,35 +4540,45 @@
     "»trans": [
       "pol-adj-0000-niespokojny",
       "pol-adj-0000-zdenerwowany(nervous)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "uneasy",
     "id": "eng-adj-0483-uneasy",
     "»trans": [
       "pol-adj-0000-niespokojny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "troubled",
     "id": "eng-adj-0484-troubled",
     "»trans": [
       "pol-adj-0000-niespokojny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "restless",
     "id": "eng-adj-0485-restless",
     "»trans": [
       "pol-adj-0000-niespokojny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "actual",
     "id": "eng-adj-0486-actual",
     "»trans": [
       "pol-adj-0000-rzeczywisty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "unnecessary",
@@ -3614,7 +4586,9 @@
     "»trans": [
       "pol-adj-0000-zbędny",
       "pol-adj-0000-niepotrzebny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "superfluous",
@@ -3622,21 +4596,27 @@
     "»trans": [
       "pol-adj-0000-zbędny",
       "pol-adj-0000-niepotrzebny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "responsible",
     "id": "eng-adj-0489-responsible",
     "»trans": [
       "pol-adj-0000-odpowiedzialny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "irresponsible",
     "id": "eng-adj-0490-irresponsible",
     "»trans": [
       "pol-adj-0000-nieodpowiedzialny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "closed",
@@ -3644,14 +4624,18 @@
     "»trans": [
       "pol-adj-0000-zamknięty",
       "pol-adj-0000-zamknięty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "closed",
     "id": "eng-adj-0492-closed(shop)",
     "»trans": [
       "pol-adj-0000-nieczynny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "shut",
@@ -3659,35 +4643,45 @@
     "»trans": [
       "pol-adj-0000-zamknięty",
       "pol-adj-0000-zamknięty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "rigorous",
     "id": "eng-adj-0494-rigorous",
     "»trans": [
       "pol-adj-0000-ścisły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "strict",
     "id": "eng-adj-0495-strict(regulated)",
     "»trans": [
       "pol-adj-0000-ścisły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "strict",
     "id": "eng-adj-0496-strict(teacher)",
     "»trans": [
       "pol-adj-0000-surowy(strict)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "bored",
     "id": "eng-adj-0497-bored",
     "»trans": [
       "pol-adj-0000-znudzony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "present",
@@ -3695,35 +4689,45 @@
     "»trans": [
       "pol-adj-0000-obecny",
       "pol-adj-0000-dzisiejszy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "present",
     "id": "eng-adj-0499-present(location)",
     "»trans": [
       "pol-adj-0000-obecny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "blunt",
     "id": "eng-adj-0500-blunt",
     "»trans": [
       "pol-adj-0000-tępy(blunt)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "dull-witted",
     "id": "eng-adj-0501-dull-witted",
     "»trans": [
       "pol-adj-0000-tępy(dumb)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "shrewd",
     "id": "eng-adj-0502-shrewd",
     "»trans": [
       "pol-adj-0000-bystry"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "gloomy",
@@ -3732,21 +4736,27 @@
       "pol-adj-0000-mroczny",
       "pol-adj-0000-ponury",
       "pol-adj-0000-posępny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "murky",
     "id": "eng-adj-0504-murky",
     "»trans": [
       "pol-adj-0000-mroczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "popular",
     "id": "eng-adj-0505-popular",
     "»trans": [
       "pol-adj-0000-popularny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "nervous",
@@ -3754,35 +4764,45 @@
     "»trans": [
       "pol-adj-0000-nerwowy",
       "pol-adj-0000-zdenerwowany(nervous)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "polite",
     "id": "eng-adj-0507-polite",
     "»trans": [
       "pol-adj-0000-miły(polite)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "careless",
     "id": "eng-adj-0508-careless",
     "»trans": [
       "pol-adj-0000-niedbały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "negligent",
     "id": "eng-adj-0509-negligent",
     "»trans": [
       "pol-adj-0000-niedbały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "sloppy",
     "id": "eng-adj-0510-sloppy",
     "»trans": [
       "pol-adj-0000-niedbały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "scary",
@@ -3790,7 +4810,9 @@
     "»trans": [
       "pol-adj-0000-straszny",
       "pol-adj-0000-przerażający(scary)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "frightening",
@@ -3799,98 +4821,126 @@
       "pol-adj-0000-straszny",
       "pol-adj-0000-przerażający(scary)",
       "pol-adj-0000-potworny(monstrous)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "horrid",
     "id": "eng-adj-0513-horrid",
     "»trans": [
       "pol-adj-0000-straszny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "horrible",
     "id": "eng-adj-0514-horrible",
     "»trans": [
       "pol-adj-0000-straszny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "awful",
     "id": "eng-adj-0515-awful",
     "»trans": [
       "pol-adj-0000-straszny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "innocent",
     "id": "eng-adj-0516-innocent",
     "»trans": [
       "pol-adj-0000-niewinny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "unfamiliar",
     "id": "eng-adj-0517-unfamiliar",
     "»trans": [
       "pol-adj-0000-obcy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "scruffy",
     "id": "eng-adj-0518-scruffy",
     "»trans": [
       "pol-adj-0000-niechlujny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "untidy",
     "id": "eng-adj-0519-untidy",
     "»trans": [
       "pol-adj-0000-niechlujny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "messy",
     "id": "eng-adj-0520-messy",
     "»trans": [
       "pol-adj-0000-niechlujny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "foolish",
     "id": "eng-adj-0521-foolish",
     "»trans": [
       "pol-adj-0000-durny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "resistant",
     "id": "eng-adj-0522-resistant",
     "»trans": [
       "pol-adj-0000-odporny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "immune",
     "id": "eng-adj-0523-immune",
     "»trans": [
       "pol-adj-0000-odporny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "digital",
     "id": "eng-adj-0524-digital",
     "»trans": [
       "pol-adj-0000-cyfrowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "analog",
     "id": "eng-adj-0525-analog",
     "»trans": [
       "pol-adj-0000-analogowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "absurd",
@@ -3899,7 +4949,9 @@
       "pol-adj-0000-absurdalny",
       "pol-adj-0000-niedorzeczny",
       "pol-adj-0000-bezsensowny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "nonsensical",
@@ -3908,7 +4960,9 @@
       "pol-adj-0000-absurdalny",
       "pol-adj-0000-niedorzeczny",
       "pol-adj-0000-bezsensowny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "preposterous",
@@ -3916,21 +4970,27 @@
     "»trans": [
       "pol-adj-0000-absurdalny",
       "pol-adj-0000-niedorzeczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "ludicrous",
     "id": "eng-adj-0529-ludicrous",
     "»trans": [
       "pol-adj-0000-bezsensowny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "scientific",
     "id": "eng-adj-0530-scientific",
     "»trans": [
       "pol-adj-0000-naukowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "past",
@@ -3938,7 +4998,9 @@
     "»trans": [
       "pol-adj-0000-dawny",
       "pol-adj-0000-miniony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "former",
@@ -3946,7 +5008,9 @@
     "»trans": [
       "pol-adj-0000-dawny",
       "pol-adj-0000-były"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "helpless",
@@ -3955,56 +5019,72 @@
       "pol-adj-0000-bezradny",
       "pol-adj-0000-bezbronny",
       "pol-adj-0000-bezsilny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "divine",
     "id": "eng-adj-0534-divine",
     "»trans": [
       "pol-adj-0000-boski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "godlike",
     "id": "eng-adj-0535-godlike",
     "»trans": [
       "pol-adj-0000-boski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "wonderful",
     "id": "eng-adj-0536-wonderful",
     "»trans": [
       "pol-adj-0000-cudowny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "marvellous",
     "id": "eng-adj-0537-marvellous",
     "»trans": [
       "pol-adj-0000-cudowny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "marvelous",
     "id": "eng-adj-0538-marvelous",
     "»trans": [
       "pol-adj-0000-cudowny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "persistent",
     "id": "eng-adj-0539-persistent",
     "»trans": [
       "pol-adj-0000-ciągły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "repeated",
     "id": "eng-adj-0540-repeated",
     "»trans": [
       "pol-adj-0000-ciągły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "continuous",
@@ -4012,56 +5092,72 @@
     "»trans": [
       "pol-adj-0000-ciągły",
       "pol-adj-0000-nieustanny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "hopeless",
     "id": "eng-adj-0542-hopeless",
     "»trans": [
       "pol-adj-0000-beznadziejny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "side",
     "id": "eng-adj-0543-side",
     "»trans": [
       "pol-adj-0000-boczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "concrete",
     "id": "eng-adj-0544-concrete",
     "»trans": [
       "pol-adj-0000-betonowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "long-lasting",
     "id": "eng-adj-0545-long-lasting",
     "»trans": [
       "pol-adj-0000-długotrwały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "short-lived",
     "id": "eng-adj-0546-short-lived",
     "»trans": [
       "pol-adj-0000-krótkotrwały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "brief",
     "id": "eng-adj-0547-brief",
     "»trans": [
       "pol-adj-0000-krótkotrwały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "fleeting",
     "id": "eng-adj-0548-fleeting",
     "»trans": [
       "pol-adj-0000-krótkotrwały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "active",
@@ -4069,21 +5165,27 @@
     "»trans": [
       "pol-adj-0000-czynny(active)",
       "pol-adj-0000-aktywny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "working",
     "id": "eng-adj-0550-working(active)",
     "»trans": [
       "pol-adj-0000-czynny(active)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "working",
     "id": "eng-adj-0551-working(field)",
     "»trans": [
       "pol-adj-0000-roboczy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "official",
@@ -4091,7 +5193,9 @@
     "»trans": [
       "pol-adj-0000-urzędowy",
       "pol-adj-0000-oficjalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "formal",
@@ -4099,63 +5203,81 @@
     "»trans": [
       "pol-adj-0000-urzędowy",
       "pol-adj-0000-formalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "harsh",
     "id": "eng-adj-0554-harsh",
     "»trans": [
       "pol-adj-0000-bezwzględny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "merciless",
     "id": "eng-adj-0555-merciless",
     "»trans": [
       "pol-adj-0000-bezwzględny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "ruthless",
     "id": "eng-adj-0556-ruthless",
     "»trans": [
       "pol-adj-0000-bezwzględny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "indulgent",
     "id": "eng-adj-0557-indulgent",
     "»trans": [
       "pol-adj-0000-pobłażliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "raw",
     "id": "eng-adj-0558-raw",
     "»trans": [
       "pol-adj-0000-surowy(raw)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "absolute",
     "id": "eng-adj-0559-absolute",
     "»trans": [
       "pol-adj-0000-absolutny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "stern",
     "id": "eng-adj-0560-stern",
     "»trans": [
       "pol-adj-0000-srogi"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "wooden",
     "id": "eng-adj-0561-wooden",
     "»trans": [
       "pol-adj-0000-drewniany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "bloody",
@@ -4163,14 +5285,18 @@
     "»trans": [
       "pol-adj-0000-cholerny",
       "pol-adj-0000-pieprzony"
-    ]
+    ],
+    "register": 8,
+    "frequency": 4
   },
   {
     "lemma": "bloody",
     "id": "eng-adj-0563-bloody(blood)",
     "»trans": [
       "pol-adj-0000-krwawy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "damn",
@@ -4179,56 +5305,72 @@
       "pol-adj-0000-cholerny",
       "pol-adj-0000-pieprzony",
       "pol-adj-0000-przeklęty"
-    ]
+    ],
+    "register": 8,
+    "frequency": 4
   },
   {
     "lemma": "aggressive",
     "id": "eng-adj-0565-aggressive",
     "»trans": [
       "pol-adj-0000-agresywny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "spiteful",
     "id": "eng-adj-0566-spiteful",
     "»trans": [
       "pol-adj-0000-zjadliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "juicy",
     "id": "eng-adj-0567-juicy",
     "»trans": [
       "pol-adj-0000-soczysty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "hostile",
     "id": "eng-adj-0568-hostile",
     "»trans": [
       "pol-adj-0000-wrogi"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "irritated",
     "id": "eng-adj-0569-irritated",
     "»trans": [
       "pol-adj-0000-zdenerwowany(annoyed)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "annoyed",
     "id": "eng-adj-0570-annoyed",
     "»trans": [
       "pol-adj-0000-zdenerwowany(annoyed)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "upset",
     "id": "eng-adj-0571-upset",
     "»trans": [
       "pol-adj-0000-zdenerwowany(annoyed)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "violent",
@@ -4236,70 +5378,90 @@
     "»trans": [
       "pol-adj-0000-gwałtowny(person)",
       "pol-adj-0000-brutalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "violent",
     "id": "eng-adj-0573-violent(abstract)",
     "»trans": [
       "pol-adj-0000-gwałtowny(trendline)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "abrupt",
     "id": "eng-adj-0574-abrupt",
     "»trans": [
       "pol-adj-0000-gwałtowny(trendline)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "steep",
     "id": "eng-adj-0575-steep(abstract)",
     "»trans": [
       "pol-adj-0000-gwałtowny(trendline)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "steep",
     "id": "eng-adj-0576-steep(concrete)",
     "»trans": [
       "pol-adj-0000-stromy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "sudden",
     "id": "eng-adj-0577-sudden(abstract)",
     "»trans": [
       "pol-adj-0000-gwałtowny(trendline)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "sudden",
     "id": "eng-adj-0578-sudden(time)",
     "»trans": [
       "pol-adj-0000-nagły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "brilliant",
     "id": "eng-adj-0579-brilliant",
     "»trans": [
       "pol-adj-0000-błyszczący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "resplendent",
     "id": "eng-adj-0580-resplendent",
     "»trans": [
       "pol-adj-0000-błyszczący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "sparkly",
     "id": "eng-adj-0581-sparkly",
     "»trans": [
       "pol-adj-0000-błyszczący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "shiny",
@@ -4307,42 +5469,54 @@
     "»trans": [
       "pol-adj-0000-błyszczący",
       "pol-adj-0000-lśniący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "glittering",
     "id": "eng-adj-0583-glittering",
     "»trans": [
       "pol-adj-0000-lśniący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "sparkling",
     "id": "eng-adj-0584-sparkling",
     "»trans": [
       "pol-adj-0000-lśniący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "glistening",
     "id": "eng-adj-0585-glistening",
     "»trans": [
       "pol-adj-0000-lśniący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unbelievable",
     "id": "eng-adj-0586-unbelievable",
     "»trans": [
       "pol-adj-0000-niesamowity"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "nameless",
     "id": "eng-adj-0587-nameless",
     "»trans": [
       "pol-adj-0000-bezimienny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "anonymous",
@@ -4350,35 +5524,45 @@
     "»trans": [
       "pol-adj-0000-bezimienny",
       "pol-adj-0000-anonimowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "crappy",
     "id": "eng-adj-0589-crappy",
     "»trans": [
       "pol-adj-0000-tandetny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "tacky",
     "id": "eng-adj-0590-tacky",
     "»trans": [
       "pol-adj-0000-tandetny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "ethical",
     "id": "eng-adj-0591-ethical",
     "»trans": [
       "pol-adj-0000-etyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "business",
     "id": "eng-adj-0592-business",
     "»trans": [
       "pol-adj-0000-biznesowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "lush",
@@ -4386,14 +5570,18 @@
     "»trans": [
       "pol-adj-0000-bujny",
       "pol-adj-0000-wybujały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "luxuriant",
     "id": "eng-adj-0594-luxuriant",
     "»trans": [
       "pol-adj-0000-bujny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "exuberant",
@@ -4401,21 +5589,27 @@
     "»trans": [
       "pol-adj-0000-wybujały",
       "pol-adj-0000-żywiołowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "Christian",
     "id": "eng-adj-0596-Christian",
     "»trans": [
       "pol-adj-0000-chrześcijański"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "French",
     "id": "eng-adj-0597-French",
     "»trans": [
       "pol-adj-0000-francuski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "intentional",
@@ -4423,7 +5617,9 @@
     "»trans": [
       "pol-adj-0000-celowy",
       "pol-adj-0000-zamierzony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "deliberate",
@@ -4431,14 +5627,18 @@
     "»trans": [
       "pol-adj-0000-celowy",
       "pol-adj-0000-zamierzony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "intended",
     "id": "eng-adj-0600-intended",
     "»trans": [
       "pol-adj-0000-zamierzony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "naked",
@@ -4446,14 +5646,18 @@
     "»trans": [
       "pol-adj-0000-goły",
       "pol-adj-0000-nagi"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "bare",
     "id": "eng-adj-0602-bare",
     "»trans": [
       "pol-adj-0000-goły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "daily",
@@ -4461,28 +5665,36 @@
     "»trans": [
       "pol-adj-0000-dzienny",
       "pol-adj-0000-codzienny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "nocturnal",
     "id": "eng-adj-0604-nocturnal",
     "»trans": [
       "pol-adj-0000-nocny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "nightly",
     "id": "eng-adj-0605-nightly",
     "»trans": [
       "pol-adj-0000-nocny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "dexterous",
     "id": "eng-adj-0606-dexterous",
     "»trans": [
       "pol-adj-0000-zręczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "feminine",
@@ -4490,252 +5702,324 @@
     "»trans": [
       "pol-adj-0000-żeński",
       "pol-adj-0000-kobiecy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "upper",
     "id": "eng-adj-0608-upper",
     "»trans": [
       "pol-adj-0000-górny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "lower",
     "id": "eng-adj-0609-lower",
     "»trans": [
       "pol-adj-0000-dolny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "biological",
     "id": "eng-adj-0610-biological",
     "»trans": [
       "pol-adj-0000-biologiczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "childish",
     "id": "eng-adj-0611-childish",
     "»trans": [
       "pol-adj-0000-dziecinny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "infantile",
     "id": "eng-adj-0612-infantile",
     "»trans": [
       "pol-adj-0000-dziecinny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "juvenile",
     "id": "eng-adj-0613-juvenile",
     "»trans": [
       "pol-adj-0000-dziecinny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "childlike",
     "id": "eng-adj-0614-childlike",
     "»trans": [
       "pol-adj-0000-dziecinny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "children's",
     "id": "eng-adj-0615-children's",
     "»trans": [
       "pol-adj-0000-dziecięcy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "child",
     "id": "eng-adj-0616-child",
     "»trans": [
       "pol-adj-0000-dziecięcy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "naive",
     "id": "eng-adj-0617-naive",
     "»trans": [
       "pol-adj-0000-naiwny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "sky blue",
     "id": "eng-adj-0618-sky blue",
     "»trans": [
       "pol-adj-0000-błękitny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "sky-blue",
     "id": "eng-adj-0619-sky-blue",
     "»trans": [
       "pol-adj-0000-błękitny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "deaf",
     "id": "eng-adj-0620-deaf",
     "»trans": [
       "pol-adj-0000-głuchy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "current",
     "id": "eng-adj-0621-current",
     "»trans": [
       "pol-adj-0000-bieżący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "petty",
     "id": "eng-adj-0622-petty",
     "»trans": [
       "pol-adj-0000-drobny(petty)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "trivial",
     "id": "eng-adj-0623-trivial",
     "»trans": [
       "pol-adj-0000-drobny(petty)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "trifling",
     "id": "eng-adj-0624-trifling",
     "»trans": [
       "pol-adj-0000-drobny(petty)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "smooth",
     "id": "eng-adj-0625-smooth",
     "»trans": [
       "pol-adj-0000-gładki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "rough",
     "id": "eng-adj-0626-rough(texture)",
     "»trans": [
       "pol-adj-0000-szorstki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "rough",
     "id": "eng-adj-0627-rough(difficult)",
     "»trans": [
       "pol-adj-0000-burzliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "coarse",
     "id": "eng-adj-0628-coarse",
     "»trans": [
       "pol-adj-0000-szorstki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "political",
     "id": "eng-adj-0629-political",
     "»trans": [
       "pol-adj-0000-polityczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "suspect",
     "id": "eng-adj-0630-suspect",
     "»trans": [
       "pol-adj-0000-podejrzany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "fishy",
     "id": "eng-adj-0631-fishy",
     "»trans": [
       "pol-adj-0000-podejrzany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "suspicious",
     "id": "eng-adj-0632-suspicious(þ)",
     "»trans": [
       "pol-adj-0000-podejrzany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "captivating",
     "id": "eng-adj-0633-captivating",
     "»trans": [
       "pol-adj-0000-urzekający"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "bewitching",
     "id": "eng-adj-0634-bewitching",
     "»trans": [
       "pol-adj-0000-urzekający"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "endearing",
     "id": "eng-adj-0635-endearing",
     "»trans": [
       "pol-adj-0000-ujmujący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "stormy",
     "id": "eng-adj-0636-stormy",
     "»trans": [
       "pol-adj-0000-burzliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "tumultuous",
     "id": "eng-adj-0637-tumultuous",
     "»trans": [
       "pol-adj-0000-burzliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "rocky",
     "id": "eng-adj-0638-rocky",
     "»trans": [
       "pol-adj-0000-burzliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "turbulent",
     "id": "eng-adj-0639-turbulent",
     "»trans": [
       "pol-adj-0000-burzliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "chemical",
     "id": "eng-adj-0640-chemical",
     "»trans": [
       "pol-adj-0000-chemiczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "showy",
     "id": "eng-adj-0641-showy",
     "»trans": [
       "pol-adj-0000-efektowny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "striking",
     "id": "eng-adj-0642-striking",
     "»trans": [
       "pol-adj-0000-efektowny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "impressive",
@@ -4743,84 +6027,108 @@
     "»trans": [
       "pol-adj-0000-efektowny",
       "pol-adj-0000-imponujący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "adult",
     "id": "eng-adj-0644-adult",
     "»trans": [
       "pol-adj-0000-dorosły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "European",
     "id": "eng-adj-0645-European",
     "»trans": [
       "pol-adj-0000-europejski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "navy blue",
     "id": "eng-adj-0646-navy blue",
     "»trans": [
       "pol-adj-0000-granatowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "Danish",
     "id": "eng-adj-0647-Danish",
     "»trans": [
       "pol-adj-0000-duński"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "English",
     "id": "eng-adj-0648-English",
     "»trans": [
       "pol-adj-0000-angielski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "genetic",
     "id": "eng-adj-0649-genetic",
     "»trans": [
       "pol-adj-0000-genetyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "financial",
     "id": "eng-adj-0650-financial",
     "»trans": [
       "pol-adj-0000-finansowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "stock exchange",
     "id": "eng-adj-0651-stock exchange",
     "»trans": [
       "pol-adj-0000-giełdowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "afternoon",
     "id": "eng-adj-0652-afternoon",
     "»trans": [
       "pol-adj-0000-popołudniowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "someone else's",
     "id": "eng-adj-0653-someone else's",
     "»trans": [
       "pol-adj-0000-cudzy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "other people's",
     "id": "eng-adj-0654-other people's",
     "»trans": [
       "pol-adj-0000-cudzy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "then",
@@ -4828,126 +6136,162 @@
     "»trans": [
       "pol-adj-0000-były",
       "pol-adj-0000-ówczesny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "ex",
     "id": "eng-adj-0656-ex",
     "»trans": [
       "pol-adj-0000-były"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "total",
     "id": "eng-adj-0657-total",
     "»trans": [
       "pol-adj-0000-całkowity"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "British",
     "id": "eng-adj-0658-British",
     "»trans": [
       "pol-adj-0000-brytyjski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "helpful",
     "id": "eng-adj-0659-helpful",
     "»trans": [
       "pol-adj-0000-pomocny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "given",
     "id": "eng-adj-0660-given",
     "»trans": [
       "pol-adj-0000-dany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "any",
     "id": "eng-adj-0661-any",
     "»trans": [
       "pol-adj-0000-dowolny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "Greek",
     "id": "eng-adj-0662-Greek",
     "»trans": [
       "pol-adj-0000-grecki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "physical",
     "id": "eng-adj-0663-physical",
     "»trans": [
       "pol-adj-0000-fizyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "Egyptian",
     "id": "eng-adj-0664-Egyptian",
     "»trans": [
       "pol-adj-0000-egipski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "vigilant",
     "id": "eng-adj-0665-vigilant",
     "»trans": [
       "pol-adj-0000-czujny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "alert",
     "id": "eng-adj-0666-alert",
     "»trans": [
       "pol-adj-0000-czujny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "police",
     "id": "eng-adj-0667-police",
     "»trans": [
       "pol-adj-0000-policyjny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "family",
     "id": "eng-adj-0668-family",
     "»trans": [
       "pol-adj-0000-rodzinny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "additional",
     "id": "eng-adj-0669-additional",
     "»trans": [
       "pol-adj-0000-dodatkowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "supplementary",
     "id": "eng-adj-0670-supplementary",
     "»trans": [
       "pol-adj-0000-dodatkowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "American",
     "id": "eng-adj-0671-American",
     "»trans": [
       "pol-adj-0000-amerykański"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "Czech",
     "id": "eng-adj-0672-Czech",
     "»trans": [
       "pol-adj-0000-czeski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "glum",
@@ -4955,7 +6299,9 @@
     "»trans": [
       "pol-adj-0000-ponury",
       "pol-adj-0000-posępny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "somber",
@@ -4963,7 +6309,9 @@
     "»trans": [
       "pol-adj-0000-ponury",
       "pol-adj-0000-posępny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "sombre",
@@ -4971,7 +6319,9 @@
     "»trans": [
       "pol-adj-0000-ponury",
       "pol-adj-0000-posępny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "dreary",
@@ -4979,7 +6329,9 @@
     "»trans": [
       "pol-adj-0000-ponury",
       "pol-adj-0000-posępny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "bleak",
@@ -4987,7 +6339,9 @@
     "»trans": [
       "pol-adj-0000-ponury",
       "pol-adj-0000-posępny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "sullen",
@@ -4995,7 +6349,9 @@
     "»trans": [
       "pol-adj-0000-ponury",
       "pol-adj-0000-posępny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "morose",
@@ -5003,28 +6359,36 @@
     "»trans": [
       "pol-adj-0000-ponury",
       "pol-adj-0000-posępny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "spiritual",
     "id": "eng-adj-0680-spiritual",
     "»trans": [
       "pol-adj-0000-duchowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "philosophical",
     "id": "eng-adj-0681-philosophical",
     "»trans": [
       "pol-adj-0000-filozoficzny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "momentary",
     "id": "eng-adj-0682-momentary",
     "»trans": [
       "pol-adj-0000-chwilowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "temporary",
@@ -5032,238 +6396,306 @@
     "»trans": [
       "pol-adj-0000-chwilowy",
       "pol-adj-0000-tymczasowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "weird",
     "id": "eng-adj-0684-weird",
     "»trans": [
       "pol-adj-0000-dziwaczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "bizarre",
     "id": "eng-adj-0685-bizarre",
     "»trans": [
       "pol-adj-0000-dziwaczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "everyday",
     "id": "eng-adj-0686-everyday",
     "»trans": [
       "pol-adj-0000-codzienny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "underwater",
     "id": "eng-adj-0687-underwater",
     "»trans": [
       "pol-adj-0000-podwodny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "second",
     "id": "eng-adj-0688-second",
     "»trans": [
       "pol-adj-0000-drugi"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "democratic",
     "id": "eng-adj-0689-democratic",
     "»trans": [
       "pol-adj-0000-demokratyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "rainy",
     "id": "eng-adj-0690-rainy",
     "»trans": [
       "pol-adj-0000-deszczowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "willing",
     "id": "eng-adj-0691-willing",
     "»trans": [
       "pol-adj-0000-chętny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "precious",
     "id": "eng-adj-0692-precious",
     "»trans": [
       "pol-adj-0000-cenny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "valuable",
     "id": "eng-adj-0693-valuable",
     "»trans": [
       "pol-adj-0000-cenny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "brutal",
     "id": "eng-adj-0694-brutal",
     "»trans": [
       "pol-adj-0000-brutalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "wild",
     "id": "eng-adj-0695-wild",
     "»trans": [
       "pol-adj-0000-dziki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "untamed",
     "id": "eng-adj-0696-untamed",
     "»trans": [
       "pol-adj-0000-dziki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "Austrian",
     "id": "eng-adj-0697-Austrian",
     "»trans": [
       "pol-adj-0000-austriacki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "Belarusian",
     "id": "eng-adj-0698-Belarusian",
     "»trans": [
       "pol-adj-0000-białoruski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "work",
     "id": "eng-adj-0699-work",
     "»trans": [
       "pol-adj-0000-roboczy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "emotional",
     "id": "eng-adj-0700-emotional",
     "»trans": [
       "pol-adj-0000-emocjonalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "gas",
     "id": "eng-adj-0701-gas",
     "»trans": [
       "pol-adj-0000-gazowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "gaseous",
     "id": "eng-adj-0702-gaseous",
     "»trans": [
       "pol-adj-0000-gazowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "mature",
     "id": "eng-adj-0703-mature",
     "»trans": [
       "pol-adj-0000-dojrzały(person)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "ripe",
     "id": "eng-adj-0704-ripe",
     "»trans": [
       "pol-adj-0000-dojrzały(ripe)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "proud",
     "id": "eng-adj-0705-proud",
     "»trans": [
       "pol-adj-0000-dumny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "delicate",
     "id": "eng-adj-0706-delicate",
     "»trans": [
       "pol-adj-0000-delikatny(delicate)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "gentle",
     "id": "eng-adj-0707-gentle(person)",
     "»trans": [
       "pol-adj-0000-delikatny(gentle)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "gentle",
     "id": "eng-adj-0708-gentle(mild)",
     "»trans": [
       "pol-adj-0000-łagodny(mild)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "Chinese",
     "id": "eng-adj-0709-Chinese",
     "»trans": [
       "pol-adj-0000-chiński"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "biblical",
     "id": "eng-adj-0710-biblical",
     "»trans": [
       "pol-adj-0000-biblijny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "violet",
     "id": "eng-adj-0711-violet",
     "»trans": [
       "pol-adj-0000-fioletowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "charitable",
     "id": "eng-adj-0712-charitable",
     "»trans": [
       "pol-adj-0000-charytatywny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "random",
     "id": "eng-adj-0713-random",
     "»trans": [
       "pol-adj-0000-przypadkowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "accidental",
     "id": "eng-adj-0714-accidental",
     "»trans": [
       "pol-adj-0000-przypadkowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "African",
     "id": "eng-adj-0715-African",
     "»trans": [
       "pol-adj-0000-afrykański"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "partial",
     "id": "eng-adj-0716-partial",
     "»trans": [
       "pol-adj-0000-częściowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "general",
@@ -5271,42 +6703,54 @@
     "»trans": [
       "pol-adj-0000-generalny",
       "pol-adj-0000-ogólny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "Arab",
     "id": "eng-adj-0718-Arab",
     "»trans": [
       "pol-adj-0000-arabski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "fictional",
     "id": "eng-adj-0719-fictional",
     "»trans": [
       "pol-adj-0000-fikcyjny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "fictitious",
     "id": "eng-adj-0720-fictitious",
     "»trans": [
       "pol-adj-0000-fikcyjny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "electronic",
     "id": "eng-adj-0721-electronic",
     "»trans": [
       "pol-adj-0000-elektroniczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "native",
     "id": "eng-adj-0722-native",
     "»trans": [
       "pol-adj-0000-rodzimy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "domestic",
@@ -5314,35 +6758,45 @@
     "»trans": [
       "pol-adj-0000-domowy(politics)",
       "pol-adj-0000-krajowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "domestic",
     "id": "eng-adj-0724-domestic(house)",
     "»trans": [
       "pol-adj-0000-domowy(house)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "home",
     "id": "eng-adj-0725-home",
     "»trans": [
       "pol-adj-0000-domowy(politics)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "house",
     "id": "eng-adj-0726-house",
     "»trans": [
       "pol-adj-0000-domowy(house)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "household",
     "id": "eng-adj-0727-household",
     "»trans": [
       "pol-adj-0000-domowy(house)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "specific",
@@ -5350,14 +6804,18 @@
     "»trans": [
       "pol-adj-0000-specyficzny",
       "pol-adj-0000-swoisty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "distinctive",
     "id": "eng-adj-0729-distinctive",
     "»trans": [
       "pol-adj-0000-specyficzny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "individual",
@@ -5365,35 +6823,45 @@
     "»trans": [
       "pol-adj-0000-swoisty",
       "pol-adj-0000-indywidualny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "worthy",
     "id": "eng-adj-0731-worthy",
     "»trans": [
       "pol-adj-0000-godny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "experienced",
     "id": "eng-adj-0732-experienced",
     "»trans": [
       "pol-adj-0000-doświadczony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "practised",
     "id": "eng-adj-0733-practised",
     "»trans": [
       "pol-adj-0000-doświadczony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "seasoned",
     "id": "eng-adj-0734-seasoned",
     "»trans": [
       "pol-adj-0000-doświadczony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "automatic",
@@ -5401,35 +6869,45 @@
     "»trans": [
       "pol-adj-0000-automatyczny",
       "pol-adj-0000-samoczynny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "manual",
     "id": "eng-adj-0736-manual",
     "»trans": [
       "pol-adj-0000-ręczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "hand-",
     "id": "eng-adj-0737-hand-",
     "»trans": [
       "pol-adj-0000-ręczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "wrathful",
     "id": "eng-adj-0738-wrathful",
     "»trans": [
       "pol-adj-0000-gniewny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "spontaneous",
     "id": "eng-adj-0739-spontaneous",
     "»trans": [
       "pol-adj-0000-żywiołowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "elegant",
@@ -5437,84 +6915,108 @@
     "»trans": [
       "pol-adj-0000-elegancki",
       "pol-adj-0000-wytworny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "female",
     "id": "eng-adj-0741-female",
     "»trans": [
       "pol-adj-0000-damski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "women's",
     "id": "eng-adj-0742-women's",
     "»trans": [
       "pol-adj-0000-damski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "ladies'",
     "id": "eng-adj-0743-ladies'",
     "»trans": [
       "pol-adj-0000-damski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "woman",
     "id": "eng-adj-0744-woman",
     "»trans": [
       "pol-adj-0000-kobiecy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "womanly",
     "id": "eng-adj-0745-womanly",
     "»trans": [
       "pol-adj-0000-kobiecy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "girly",
     "id": "eng-adj-0746-girly",
     "»trans": [
       "pol-adj-0000-babski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "effeminate",
     "id": "eng-adj-0747-effeminate",
     "»trans": [
       "pol-adj-0000-babski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "academic",
     "id": "eng-adj-0748-academic",
     "»trans": [
       "pol-adj-0000-akademicki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "fatal",
     "id": "eng-adj-0749-fatal",
     "»trans": [
       "pol-adj-0000-fatalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "unavoidable",
     "id": "eng-adj-0750-unavoidable",
     "»trans": [
       "pol-adj-0000-nieunikniony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "ambitious",
     "id": "eng-adj-0751-ambitious",
     "»trans": [
       "pol-adj-0000-ambitny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "passive",
@@ -5522,203 +7024,261 @@
     "»trans": [
       "pol-adj-0000-pasywny",
       "pol-adj-0000-bierny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "inactive",
     "id": "eng-adj-0753-inactive(idle)",
     "»trans": [
       "pol-adj-0000-bezczynny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "inactive",
     "id": "eng-adj-0754-inactive(shop)",
     "»trans": [
       "pol-adj-0000-nieczynny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "idle",
     "id": "eng-adj-0755-idle",
     "»trans": [
       "pol-adj-0000-bezczynny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "instant",
     "id": "eng-adj-0756-instant",
     "»trans": [
       "pol-adj-0000-błyskawiczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "engaging",
     "id": "eng-adj-0757-engaging",
     "»trans": [
       "pol-adj-0000-fascynujący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "fascinating",
     "id": "eng-adj-0758-fascinating",
     "»trans": [
       "pol-adj-0000-fascynujący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "bank",
     "id": "eng-adj-0759-bank",
     "»trans": [
       "pol-adj-0000-bankowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "alternative",
     "id": "eng-adj-0760-alternative",
     "»trans": [
       "pol-adj-0000-alternatywny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "bus",
     "id": "eng-adj-0761-bus",
     "»trans": [
       "pol-adj-0000-autobusowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "global",
     "id": "eng-adj-0762-global",
     "»trans": [
       "pol-adj-0000-globalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "highland",
     "id": "eng-adj-0763-highland",
     "»trans": [
       "pol-adj-0000-górski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "mountainous",
     "id": "eng-adj-0764-mountainous",
     "»trans": [
       "pol-adj-0000-górski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "mountain",
     "id": "eng-adj-0765-mountain",
     "»trans": [
       "pol-adj-0000-górski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "central",
     "id": "eng-adj-0766-central",
     "»trans": [
       "pol-adj-0000-centralny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "educational",
     "id": "eng-adj-0767-educational",
     "»trans": [
       "pol-adj-0000-edukacyjny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "road",
     "id": "eng-adj-0768-road",
     "»trans": [
       "pol-adj-0000-drogowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "border",
     "id": "eng-adj-0769-border",
     "»trans": [
       "pol-adj-0000-graniczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "leading",
     "id": "eng-adj-0770-leading",
     "»trans": [
       "pol-adj-0000-czołowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "foremost",
     "id": "eng-adj-0771-foremost",
     "»trans": [
       "pol-adj-0000-czołowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "today's",
     "id": "eng-adj-0772-today's",
     "»trans": [
       "pol-adj-0000-dzisiejszy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "hospitable",
     "id": "eng-adj-0773-hospitable",
     "»trans": [
       "pol-adj-0000-gościnny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "ethnic",
     "id": "eng-adj-0774-ethnic",
     "»trans": [
       "pol-adj-0000-etniczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "dramatic",
     "id": "eng-adj-0775-dramatic",
     "»trans": [
       "pol-adj-0000-dramatyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "elastic",
     "id": "eng-adj-0776-elastic",
     "»trans": [
       "pol-adj-0000-elastyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "ecological",
     "id": "eng-adj-0777-ecological",
     "»trans": [
       "pol-adj-0000-ekologiczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "aesthetic",
     "id": "eng-adj-0778-aesthetic",
     "»trans": [
       "pol-adj-0000-estetyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "film",
     "id": "eng-adj-0779-film",
     "»trans": [
       "pol-adj-0000-filmowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "movie",
     "id": "eng-adj-0780-movie",
     "»trans": [
       "pol-adj-0000-filmowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "separate",
@@ -5727,21 +7287,27 @@
       "pol-adj-0000-odrębny",
       "pol-adj-0000-osobny",
       "pol-adj-0000-oddzielny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "recognisable",
     "id": "eng-adj-0782-recognisable",
     "»trans": [
       "pol-adj-0000-rozpoznawalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "recognizable",
     "id": "eng-adj-0783-recognizable",
     "»trans": [
       "pol-adj-0000-rozpoznawalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "personal",
@@ -5749,168 +7315,216 @@
     "»trans": [
       "pol-adj-0000-osobisty",
       "pol-adj-0000-osobowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "overt",
     "id": "eng-adj-0785-overt",
     "»trans": [
       "pol-adj-0000-jawny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "visible",
     "id": "eng-adj-0786-visible",
     "»trans": [
       "pol-adj-0000-widoczny(visible)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "apparent",
     "id": "eng-adj-0787-apparent",
     "»trans": [
       "pol-adj-0000-widoczny(apparent)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "secret",
     "id": "eng-adj-0788-secret",
     "»trans": [
       "pol-adj-0000-tajny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "restricted",
     "id": "eng-adj-0789-restricted",
     "»trans": [
       "pol-adj-0000-zastrzeżony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "cosy",
     "id": "eng-adj-0790-cosy",
     "»trans": [
       "pol-adj-0000-kameralny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "intimate",
     "id": "eng-adj-0791-intimate",
     "»trans": [
       "pol-adj-0000-kameralny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "unambiguous",
     "id": "eng-adj-0792-unambiguous",
     "»trans": [
       "pol-adj-0000-jednoznaczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "internet",
     "id": "eng-adj-0793-internet",
     "»trans": [
       "pol-adj-0000-internetowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "edible",
     "id": "eng-adj-0794-edible",
     "»trans": [
       "pol-adj-0000-jadalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "Indian",
     "id": "eng-adj-0795-Indian",
     "»trans": [
       "pol-adj-0000-indyjski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "Hindu",
     "id": "eng-adj-0796-Hindu",
     "»trans": [
       "pol-adj-0000-hinduski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "key",
     "id": "eng-adj-0797-key",
     "»trans": [
       "pol-adj-0000-kluczowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "Catholic",
     "id": "eng-adj-0798-Catholic",
     "»trans": [
       "pol-adj-0000-katolicki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "Dutch",
     "id": "eng-adj-0799-Dutch",
     "»trans": [
       "pol-adj-0000-holenderski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "historic",
     "id": "eng-adj-0800-historic",
     "»trans": [
       "pol-adj-0000-historyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "historical",
     "id": "eng-adj-0801-historical",
     "»trans": [
       "pol-adj-0000-historyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "intensive",
     "id": "eng-adj-0802-intensive",
     "»trans": [
       "pol-adj-0000-intensywny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "mild",
     "id": "eng-adj-0803-mild",
     "»trans": [
       "pol-adj-0000-łagodny(mild)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "benign",
     "id": "eng-adj-0804-benign",
     "»trans": [
       "pol-adj-0000-łagodny(benign)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "subtle",
     "id": "eng-adj-0805-subtle",
     "»trans": [
       "pol-adj-0000-subtelny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "veritable",
     "id": "eng-adj-0806-veritable",
     "»trans": [
       "pol-adj-0000-istny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "two year old",
     "id": "eng-adj-0807-two year old",
     "»trans": [
       "pol-adj-0000-dwuletni"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "mental",
@@ -5918,21 +7532,27 @@
     "»trans": [
       "pol-adj-0000-umysłowy",
       "pol-adj-0000-psychiczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "intellectual",
     "id": "eng-adj-0809-intellectual",
     "»trans": [
       "pol-adj-0000-umysłowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "advantageous",
     "id": "eng-adj-0810-advantageous",
     "»trans": [
       "pol-adj-0000-korzystny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "beneficial",
@@ -5940,98 +7560,126 @@
     "»trans": [
       "pol-adj-0000-korzystny",
       "pol-adj-0000-pożyteczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "formidable",
     "id": "eng-adj-0812-formidable",
     "»trans": [
       "pol-adj-0000-groźny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "classic",
     "id": "eng-adj-0813-classic",
     "»trans": [
       "pol-adj-0000-klasyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "classical",
     "id": "eng-adj-0814-classical",
     "»trans": [
       "pol-adj-0000-klasyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "competitive",
     "id": "eng-adj-0815-competitive",
     "»trans": [
       "pol-adj-0000-konkurencyjny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "cosmic",
     "id": "eng-adj-0816-cosmic",
     "»trans": [
       "pol-adj-0000-kosmiczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "building",
     "id": "eng-adj-0817-building",
     "»trans": [
       "pol-adj-0000-budowlany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "construction",
     "id": "eng-adj-0818-construction",
     "»trans": [
       "pol-adj-0000-budowlany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "combat",
     "id": "eng-adj-0819-combat",
     "»trans": [
       "pol-adj-0000-bojowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "battle",
     "id": "eng-adj-0820-battle",
     "»trans": [
       "pol-adj-0000-bojowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "erotic",
     "id": "eng-adj-0821-erotic",
     "»trans": [
       "pol-adj-0000-erotyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "trade",
     "id": "eng-adj-0822-trade",
     "»trans": [
       "pol-adj-0000-handlowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "royal",
     "id": "eng-adj-0823-royal",
     "»trans": [
       "pol-adj-0000-królewski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "stone",
     "id": "eng-adj-0824-stone",
     "»trans": [
       "pol-adj-0000-kamienny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "nuclear",
@@ -6039,119 +7687,153 @@
     "»trans": [
       "pol-adj-0000-jądrowy",
       "pol-adj-0000-nuklearny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "atomic",
     "id": "eng-adj-0826-atomic",
     "»trans": [
       "pol-adj-0000-atomowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "Japanese",
     "id": "eng-adj-0827-Japanese",
     "»trans": [
       "pol-adj-0000-japoński"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "silk",
     "id": "eng-adj-0828-silk",
     "»trans": [
       "pol-adj-0000-jedwabny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "silken",
     "id": "eng-adj-0829-silken",
     "»trans": [
       "pol-adj-0000-jedwabny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "Spanish",
     "id": "eng-adj-0830-Spanish",
     "»trans": [
       "pol-adj-0000-hiszpański"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "conservative",
     "id": "eng-adj-0831-conservative",
     "»trans": [
       "pol-adj-0000-konserwatywny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "autumn",
     "id": "eng-adj-0832-autumn",
     "»trans": [
       "pol-adj-0000-jesienny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "autumnal",
     "id": "eng-adj-0833-autumnal",
     "»trans": [
       "pol-adj-0000-jesienny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "garish",
     "id": "eng-adj-0834-garish",
     "»trans": [
       "pol-adj-0000-jaskrawy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "rubber",
     "id": "eng-adj-0835-rubber",
     "»trans": [
       "pol-adj-0000-gumowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "rubbery",
     "id": "eng-adj-0836-rubbery",
     "»trans": [
       "pol-adj-0000-gumowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "gum",
     "id": "eng-adj-0837-gum",
     "»trans": [
       "pol-adj-0000-gumowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "Irish",
     "id": "eng-adj-0838-Irish",
     "»trans": [
       "pol-adj-0000-irlandzki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "Israeli",
     "id": "eng-adj-0839-Israeli",
     "»trans": [
       "pol-adj-0000-izraelski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "logical",
     "id": "eng-adj-0840-logical",
     "»trans": [
       "pol-adj-0000-logiczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "metal",
     "id": "eng-adj-0841-metal",
     "»trans": [
       "pol-adj-0000-metalowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "criminal",
@@ -6159,63 +7841,81 @@
     "»trans": [
       "pol-adj-0000-kryminalny",
       "pol-adj-0000-przestępczy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "monthly",
     "id": "eng-adj-0843-monthly",
     "»trans": [
       "pol-adj-0000-miesięczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "one",
     "id": "eng-adj-0844-one(þ)",
     "»trans": [
       "pol-adj-0000-niejaki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "loyal",
     "id": "eng-adj-0845-loyal",
     "»trans": [
       "pol-adj-0000-lojalny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "faithful",
     "id": "eng-adj-0846-faithful",
     "»trans": [
       "pol-adj-0000-wierny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "human",
     "id": "eng-adj-0847-human",
     "»trans": [
       "pol-adj-0000-ludzki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "city",
     "id": "eng-adj-0848-city",
     "»trans": [
       "pol-adj-0000-miejski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "urban",
     "id": "eng-adj-0849-urban",
     "»trans": [
       "pol-adj-0000-miejski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "out of order",
     "id": "eng-adj-0850-out of order",
     "»trans": [
       "pol-adj-0000-nieczynny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "unexpected",
@@ -6223,315 +7923,405 @@
     "»trans": [
       "pol-adj-0000-nieoczekiwany",
       "pol-adj-0000-niespodziewany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "negative",
     "id": "eng-adj-0852-negative",
     "»trans": [
       "pol-adj-0000-negatywny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "positive",
     "id": "eng-adj-0853-positive",
     "»trans": [
       "pol-adj-0000-pozytywny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "following",
     "id": "eng-adj-0854-following",
     "»trans": [
       "pol-adj-0000-następujący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "uneven",
     "id": "eng-adj-0855-uneven",
     "»trans": [
       "pol-adj-0000-nierówny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unequal",
     "id": "eng-adj-0856-unequal",
     "»trans": [
       "pol-adj-0000-nierówny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "less than",
     "id": "eng-adj-0857-less than(þ)",
     "»trans": [
       "pol-adj-0000-niecały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "absent",
     "id": "eng-adj-0858-absent",
     "»trans": [
       "pol-adj-0000-nieobecny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "summer",
     "id": "eng-adj-0859-summer",
     "»trans": [
       "pol-adj-0000-letni(summer)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "summery",
     "id": "eng-adj-0860-summery",
     "»trans": [
       "pol-adj-0000-letni(summer)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "lukewarm",
     "id": "eng-adj-0861-lukewarm",
     "»trans": [
       "pol-adj-0000-letni(lukewarm)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "indifferent",
     "id": "eng-adj-0862-indifferent",
     "»trans": [
       "pol-adj-0000-obojętny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "male",
     "id": "eng-adj-0863-male(linguistics)",
     "»trans": [
       "pol-adj-0000-męski(linguistic)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "male",
     "id": "eng-adj-0864-male(manly)",
     "»trans": [
       "pol-adj-0000-męski(manly)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "masculine",
     "id": "eng-adj-0865-masculine(linguistics)",
     "»trans": [
       "pol-adj-0000-męski(linguistic)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "masculine",
     "id": "eng-adj-0866-masculine(manly)",
     "»trans": [
       "pol-adj-0000-męski(manly)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "manly",
     "id": "eng-adj-0867-manly",
     "»trans": [
       "pol-adj-0000-męski(manly)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "magnetic",
     "id": "eng-adj-0868-magnetic",
     "»trans": [
       "pol-adj-0000-magnetyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "marriage",
     "id": "eng-adj-0869-marriage",
     "»trans": [
       "pol-adj-0000-małżeński"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "marital",
     "id": "eng-adj-0870-marital",
     "»trans": [
       "pol-adj-0000-małżeński"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "matrimonial",
     "id": "eng-adj-0871-matrimonial",
     "»trans": [
       "pol-adj-0000-małżeński"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "folk",
     "id": "eng-adj-0872-folk",
     "»trans": [
       "pol-adj-0000-ludowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "people's",
     "id": "eng-adj-0873-people's",
     "»trans": [
       "pol-adj-0000-ludowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "colloquial",
     "id": "eng-adj-0874-colloquial",
     "»trans": [
       "pol-adj-0000-potoczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "customary",
     "id": "eng-adj-0875-customary",
     "»trans": [
       "pol-adj-0000-zwyczajowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "habitual",
     "id": "eng-adj-0876-habitual",
     "»trans": [
       "pol-adj-0000-zwyczajowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "recent",
     "id": "eng-adj-0877-recent",
     "»trans": [
       "pol-adj-0000-niedawny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "fresh",
     "id": "eng-adj-0878-fresh",
     "»trans": [
       "pol-adj-0000-świeży"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "icy",
     "id": "eng-adj-0879-icy",
     "»trans": [
       "pol-adj-0000-lodowaty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "ice cold",
     "id": "eng-adj-0880-ice cold",
     "»trans": [
       "pol-adj-0000-lodowaty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "German",
     "id": "eng-adj-0881-German",
     "»trans": [
       "pol-adj-0000-niemiecki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "gory",
     "id": "eng-adj-0882-gory",
     "»trans": [
       "pol-adj-0000-krwawy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unfavorable",
     "id": "eng-adj-0883-unfavorable",
     "»trans": [
       "pol-adj-0000-niekorzystny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "adverse",
     "id": "eng-adj-0884-adverse",
     "»trans": [
       "pol-adj-0000-niekorzystny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "left",
     "id": "eng-adj-0885-left",
     "»trans": [
       "pol-adj-0000-lewy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "left hand",
     "id": "eng-adj-0886-left hand",
     "»trans": [
       "pol-adj-0000-lewy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "magical",
     "id": "eng-adj-0887-magical",
     "»trans": [
       "pol-adj-0000-magiczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "luxurious",
     "id": "eng-adj-0888-luxurious",
     "»trans": [
       "pol-adj-0000-luksusowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "luxury",
     "id": "eng-adj-0889-luxury",
     "»trans": [
       "pol-adj-0000-luksusowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "deluxe",
     "id": "eng-adj-0890-deluxe",
     "»trans": [
       "pol-adj-0000-luksusowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "numerous",
     "id": "eng-adj-0891-numerous",
     "»trans": [
       "pol-adj-0000-liczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "sea",
     "id": "eng-adj-0892-sea",
     "»trans": [
       "pol-adj-0000-morski(sea)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "marine",
     "id": "eng-adj-0893-marine",
     "»trans": [
       "pol-adj-0000-morski(sea)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "nautical",
     "id": "eng-adj-0894-nautical",
     "»trans": [
       "pol-adj-0000-morski(sea)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "teal",
     "id": "eng-adj-0895-teal",
     "»trans": [
       "pol-adj-0000-morski(teal)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "medical",
@@ -6539,140 +8329,180 @@
     "»trans": [
       "pol-adj-0000-lekarski",
       "pol-adj-0000-medyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "disabled",
     "id": "eng-adj-0897-disabled",
     "»trans": [
       "pol-adj-0000-niepełnosprawny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "handicapped",
     "id": "eng-adj-0898-handicapped",
     "»trans": [
       "pol-adj-0000-niepełnosprawny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "Lithuanian",
     "id": "eng-adj-0899-Lithuanian",
     "»trans": [
       "pol-adj-0000-litewski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "excessive",
     "id": "eng-adj-0900-excessive",
     "»trans": [
       "pol-adj-0000-nadmierny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "Muslim",
     "id": "eng-adj-0901-Muslim",
     "»trans": [
       "pol-adj-0000-muzułmański"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "some",
     "id": "eng-adj-0902-some",
     "»trans": [
       "pol-adj-0000-niektóry"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "worrying",
     "id": "eng-adj-0903-worrying",
     "»trans": [
       "pol-adj-0000-niepokojący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "alarming",
     "id": "eng-adj-0904-alarming",
     "»trans": [
       "pol-adj-0000-niepokojący"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "forest",
     "id": "eng-adj-0905-forest",
     "»trans": [
       "pol-adj-0000-leśny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "uncertain",
     "id": "eng-adj-0906-uncertain",
     "»trans": [
       "pol-adj-0000-niepewny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "left-wing",
     "id": "eng-adj-0907-left-wing",
     "»trans": [
       "pol-adj-0000-lewicowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "terrestrial",
     "id": "eng-adj-0908-terrestrial",
     "»trans": [
       "pol-adj-0000-lądowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "ground",
     "id": "eng-adj-0909-ground",
     "»trans": [
       "pol-adj-0000-lądowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "ski",
     "id": "eng-adj-0910-ski",
     "»trans": [
       "pol-adj-0000-narciarski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "skiing",
     "id": "eng-adj-0911-skiing",
     "»trans": [
       "pol-adj-0000-narciarski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "kitchen",
     "id": "eng-adj-0912-kitchen",
     "»trans": [
       "pol-adj-0000-kuchenny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "tense",
     "id": "eng-adj-0913-tense",
     "»trans": [
       "pol-adj-0000-napięty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "taut",
     "id": "eng-adj-0914-taut",
     "»trans": [
       "pol-adj-0000-napięty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "urgent",
     "id": "eng-adj-0915-urgent",
     "»trans": [
       "pol-adj-0000-pilny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "mandatory",
@@ -6681,7 +8511,9 @@
       "pol-adj-0000-obowiązkowy",
       "pol-adj-0000-przymusowy",
       "pol-adj-0000-obligatoryjny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "obligatory",
@@ -6689,7 +8521,9 @@
     "»trans": [
       "pol-adj-0000-obowiązkowy",
       "pol-adj-0000-obligatoryjny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "compulsory",
@@ -6698,28 +8532,36 @@
       "pol-adj-0000-obowiązkowy",
       "pol-adj-0000-przymusowy",
       "pol-adj-0000-obligatoryjny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "forced",
     "id": "eng-adj-0919-forced",
     "»trans": [
       "pol-adj-0000-przymusowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "conscientious",
     "id": "eng-adj-0920-conscientious",
     "»trans": [
       "pol-adj-0000-sumienny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unknown",
     "id": "eng-adj-0921-unknown",
     "»trans": [
       "pol-adj-0000-nieznany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "invisible",
@@ -6727,49 +8569,63 @@
     "»trans": [
       "pol-adj-0000-niewidoczny",
       "pol-adj-0000-niewidzialny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "indignant",
     "id": "eng-adj-0923-indignant",
     "»trans": [
       "pol-adj-0000-oburzony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "outraged",
     "id": "eng-adj-0924-outraged",
     "»trans": [
       "pol-adj-0000-oburzony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "overall",
     "id": "eng-adj-0925-overall",
     "»trans": [
       "pol-adj-0000-ogólny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "atypical",
     "id": "eng-adj-0926-atypical",
     "»trans": [
       "pol-adj-0000-nietypowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "typical",
     "id": "eng-adj-0927-typical",
     "»trans": [
       "pol-adj-0000-typowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "usual",
     "id": "eng-adj-0928-usual",
     "»trans": [
       "pol-adj-0000-typowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "opposite",
@@ -6777,7 +8633,9 @@
     "»trans": [
       "pol-adj-0000-odwrotny",
       "pol-adj-0000-przeciwny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "reverse",
@@ -6785,259 +8643,333 @@
     "»trans": [
       "pol-adj-0000-odwrotny",
       "pol-adj-0000-przeciwny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "contradictory",
     "id": "eng-adj-0931-contradictory",
     "»trans": [
       "pol-adj-0000-sprzeczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "contrary",
     "id": "eng-adj-0932-contrary",
     "»trans": [
       "pol-adj-0000-przeciwny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "modern",
     "id": "eng-adj-0933-modern",
     "»trans": [
       "pol-adj-0000-nowoczesny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "obsolete",
     "id": "eng-adj-0934-obsolete",
     "»trans": [
       "pol-adj-0000-przestarzały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "outdated",
     "id": "eng-adj-0935-outdated",
     "»trans": [
       "pol-adj-0000-przestarzały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "argumentative",
     "id": "eng-adj-0936-argumentative",
     "»trans": [
       "pol-adj-0000-kłótliwy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "little",
     "id": "eng-adj-0937-little",
     "»trans": [
       "pol-adj-0000-niewielki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "drunk",
     "id": "eng-adj-0938-drunk",
     "»trans": [
       "pol-adj-0000-pijany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "vertical",
     "id": "eng-adj-0939-vertical",
     "»trans": [
       "pol-adj-0000-pionowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "horizontal",
     "id": "eng-adj-0940-horizontal",
     "»trans": [
       "pol-adj-0000-poziomy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "paper",
     "id": "eng-adj-0941-paper",
     "»trans": [
       "pol-adj-0000-papierowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "cruel",
     "id": "eng-adj-0942-cruel",
     "»trans": [
       "pol-adj-0000-okrutny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "incomprehensible",
     "id": "eng-adj-0943-incomprehensible",
     "»trans": [
       "pol-adj-0000-niezrozumiały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "unintelligible",
     "id": "eng-adj-0944-unintelligible",
     "»trans": [
       "pol-adj-0000-niezrozumiały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "comprehensible",
     "id": "eng-adj-0945-comprehensible",
     "»trans": [
       "pol-adj-0000-zrozumiały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "intelligible",
     "id": "eng-adj-0946-intelligible",
     "»trans": [
       "pol-adj-0000-zrozumiały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "understandable",
     "id": "eng-adj-0947-understandable",
     "»trans": [
       "pol-adj-0000-zrozumiały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "limited",
     "id": "eng-adj-0948-limited",
     "»trans": [
       "pol-adj-0000-ograniczony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "finite",
     "id": "eng-adj-0949-finite",
     "»trans": [
       "pol-adj-0000-ograniczony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "constant",
     "id": "eng-adj-0950-constant",
     "»trans": [
       "pol-adj-0000-nieustanny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "continual",
     "id": "eng-adj-0951-continual",
     "»trans": [
       "pol-adj-0000-nieustanny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "perpetual",
     "id": "eng-adj-0952-perpetual",
     "»trans": [
       "pol-adj-0000-nieustanny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "plastic",
     "id": "eng-adj-0953-plastic",
     "»trans": [
       "pol-adj-0000-plastikowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "Olympic",
     "id": "eng-adj-0954-Olympic",
     "»trans": [
       "pol-adj-0000-olimpijski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "pale",
     "id": "eng-adj-0955-pale",
     "»trans": [
       "pol-adj-0000-blady"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "decorative",
     "id": "eng-adj-0956-decorative",
     "»trans": [
       "pol-adj-0000-ozdobny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "Norwegian",
     "id": "eng-adj-0957-Norwegian",
     "»trans": [
       "pol-adj-0000-norweski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "devoted",
     "id": "eng-adj-0958-devoted(þ)",
     "»trans": [
       "pol-adj-0000-oddany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "dedicated",
     "id": "eng-adj-0959-dedicated(þ)",
     "»trans": [
       "pol-adj-0000-oddany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "committed",
     "id": "eng-adj-0960-committed(þ)",
     "»trans": [
       "pol-adj-0000-oddany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "unbearable",
     "id": "eng-adj-0961-unbearable",
     "»trans": [
       "pol-adj-0000-nieznośny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "insufferable",
     "id": "eng-adj-0962-insufferable",
     "»trans": [
       "pol-adj-0000-nieznośny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "state",
     "id": "eng-adj-0963-state",
     "»trans": [
       "pol-adj-0000-państwowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "protective",
     "id": "eng-adj-0964-protective",
     "»trans": [
       "pol-adj-0000-ochronny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "defensive",
     "id": "eng-adj-0965-defensive",
     "»trans": [
       "pol-adj-0000-obronny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "cautious",
     "id": "eng-adj-0966-cautious",
     "»trans": [
       "pol-adj-0000-ostrożny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "faint",
@@ -7045,56 +8977,72 @@
     "»trans": [
       "pol-adj-0000-nikły",
       "pol-adj-0000-niewyraźny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "indistinct",
     "id": "eng-adj-0968-indistinct",
     "»trans": [
       "pol-adj-0000-niewyraźny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "hazy",
     "id": "eng-adj-0969-hazy",
     "»trans": [
       "pol-adj-0000-niewyraźny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "hideous",
     "id": "eng-adj-0970-hideous",
     "»trans": [
       "pol-adj-0000-ohydny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "gross",
     "id": "eng-adj-0971-gross",
     "»trans": [
       "pol-adj-0000-ohydny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "flat",
     "id": "eng-adj-0972-flat",
     "»trans": [
       "pol-adj-0000-płaski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "not bad",
     "id": "eng-adj-0973-not bad",
     "»trans": [
       "pol-adj-0000-niezły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "pretty good",
     "id": "eng-adj-0974-pretty good",
     "»trans": [
       "pol-adj-0000-niezły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "decent",
@@ -7103,28 +9051,36 @@
       "pol-adj-0000-niezły",
       "pol-adj-0000-przyzwoity",
       "pol-adj-0000-porządny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "industrial",
     "id": "eng-adj-0976-industrial",
     "»trans": [
       "pol-adj-0000-przemysłowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "canine",
     "id": "eng-adj-0977-canine",
     "»trans": [
       "pol-adj-0000-psi"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "dog",
     "id": "eng-adj-0978-dog",
     "»trans": [
       "pol-adj-0000-psi"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "agricultural",
@@ -7132,21 +9088,27 @@
     "»trans": [
       "pol-adj-0000-rolniczy",
       "pol-adj-0000-rolny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "war",
     "id": "eng-adj-0980-war",
     "»trans": [
       "pol-adj-0000-wojenny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "crafty",
     "id": "eng-adj-0981-crafty",
     "»trans": [
       "pol-adj-0000-przebiegły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "cunning",
@@ -7154,28 +9116,36 @@
     "»trans": [
       "pol-adj-0000-przebiegły",
       "pol-adj-0000-sprytny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "wily",
     "id": "eng-adj-0983-wily",
     "»trans": [
       "pol-adj-0000-przebiegły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "sneaky",
     "id": "eng-adj-0984-sneaky",
     "»trans": [
       "pol-adj-0000-podstępny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "terrifying",
     "id": "eng-adj-0985-terrifying",
     "»trans": [
       "pol-adj-0000-przerażający(scary)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "appalling",
@@ -7183,7 +9153,9 @@
     "»trans": [
       "pol-adj-0000-przerażający(appalling)",
       "pol-adj-0000-potworny(appalling)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "useful",
@@ -7192,84 +9164,108 @@
       "pol-adj-0000-pożyteczny",
       "pol-adj-0000-przydatny",
       "pol-adj-0000-użyteczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "indirect",
     "id": "eng-adj-0988-indirect",
     "»trans": [
       "pol-adj-0000-pośredni"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "religious",
     "id": "eng-adj-0989-religious",
     "»trans": [
       "pol-adj-0000-religijny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "Polish",
     "id": "eng-adj-0990-Polish",
     "»trans": [
       "pol-adj-0000-polski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "northern",
     "id": "eng-adj-0991-northern",
     "»trans": [
       "pol-adj-0000-północny(northern)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "midnight",
     "id": "eng-adj-0992-midnight",
     "»trans": [
       "pol-adj-0000-północny(midnight)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "initial",
     "id": "eng-adj-0993-initial",
     "»trans": [
       "pol-adj-0000-początkowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "aerial",
     "id": "eng-adj-0994-aerial",
     "»trans": [
       "pol-adj-0000-powietrzny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "air",
     "id": "eng-adj-0995-air",
     "»trans": [
       "pol-adj-0000-powietrzny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "airborne",
     "id": "eng-adj-0996-airborne",
     "»trans": [
       "pol-adj-0000-powietrzny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "regular",
     "id": "eng-adj-0997-regular",
     "»trans": [
       "pol-adj-0000-regularny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "Soviet",
     "id": "eng-adj-0998-Soviet",
     "»trans": [
       "pol-adj-0000-radziecki"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "professional",
@@ -7277,28 +9273,36 @@
     "»trans": [
       "pol-adj-0000-profesjonalny",
       "pol-adj-0000-zawodowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "amateur",
     "id": "eng-adj-1000-amateur",
     "»trans": [
       "pol-adj-0000-amatorski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "amateurish",
     "id": "eng-adj-1001-amateurish",
     "»trans": [
       "pol-adj-0000-amatorski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "see-through",
     "id": "eng-adj-1002-see-through",
     "»trans": [
       "pol-adj-0000-przezroczysty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "transparent",
@@ -7306,210 +9310,270 @@
     "»trans": [
       "pol-adj-0000-przezroczysty",
       "pol-adj-0000-przejrzysty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "handsome",
     "id": "eng-adj-1004-handsome",
     "»trans": [
       "pol-adj-0000-przystojny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "cursed",
     "id": "eng-adj-1005-cursed",
     "»trans": [
       "pol-adj-0000-przeklęty"
-    ]
+    ],
+    "register": 8,
+    "frequency": 4
   },
   {
     "lemma": "damned",
     "id": "eng-adj-1006-damned",
     "»trans": [
       "pol-adj-0000-przeklęty"
-    ]
+    ],
+    "register": 8,
+    "frequency": 4
   },
   {
     "lemma": "right hand",
     "id": "eng-adj-1007-right hand",
     "»trans": [
       "pol-adj-0000-prawy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "despicable",
     "id": "eng-adj-1008-despicable",
     "»trans": [
       "pol-adj-0000-podły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "mean",
     "id": "eng-adj-1009-mean",
     "»trans": [
       "pol-adj-0000-podły"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "wounded",
     "id": "eng-adj-1010-wounded",
     "»trans": [
       "pol-adj-0000-ranny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "injured",
     "id": "eng-adj-1011-injured",
     "»trans": [
       "pol-adj-0000-ranny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "front",
     "id": "eng-adj-1012-front",
     "»trans": [
       "pol-adj-0000-przedni"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "rear",
     "id": "eng-adj-1013-rear",
     "»trans": [
       "pol-adj-0000-tylny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "back",
     "id": "eng-adj-1014-back",
     "»trans": [
       "pol-adj-0000-tylny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "southern",
     "id": "eng-adj-1015-southern",
     "»trans": [
       "pol-adj-0000-południowy(southern)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "noon",
     "id": "eng-adj-1016-noon",
     "»trans": [
       "pol-adj-0000-południowy(noon)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "midday",
     "id": "eng-adj-1017-midday",
     "»trans": [
       "pol-adj-0000-południowy(noon)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "liquid",
     "id": "eng-adj-1018-liquid",
     "»trans": [
       "pol-adj-0000-płynny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "fluid",
     "id": "eng-adj-1019-fluid",
     "»trans": [
       "pol-adj-0000-płynny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "right wing",
     "id": "eng-adj-1020-right wing",
     "»trans": [
       "pol-adj-0000-prawicowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "remaining",
     "id": "eng-adj-1021-remaining",
     "»trans": [
       "pol-adj-0000-pozostały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "leftover",
     "id": "eng-adj-1022-leftover",
     "»trans": [
       "pol-adj-0000-pozostały"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "morning",
     "id": "eng-adj-1023-morning",
     "»trans": [
       "pol-adj-0000-poranny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "double",
     "id": "eng-adj-1024-double",
     "»trans": [
       "pol-adj-0000-podwójny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "precise",
     "id": "eng-adj-1025-precise",
     "»trans": [
       "pol-adj-0000-precyzyjny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "annual",
     "id": "eng-adj-1026-annual",
     "»trans": [
       "pol-adj-0000-roczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "private",
     "id": "eng-adj-1027-private",
     "»trans": [
       "pol-adj-0000-prywatny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "subterranean",
     "id": "eng-adj-1028-subterranean",
     "»trans": [
       "pol-adj-0000-podziemny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "underground",
     "id": "eng-adj-1029-underground",
     "»trans": [
       "pol-adj-0000-podziemny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "nature",
     "id": "eng-adj-1030-nature",
     "»trans": [
       "pol-adj-0000-przyrodniczy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "monstrous",
     "id": "eng-adj-1031-monstrous",
     "»trans": [
       "pol-adj-0000-potworny(monstrous)"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "spatial",
     "id": "eng-adj-1032-spatial",
     "»trans": [
       "pol-adj-0000-przestrzenny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "psychological",
@@ -7517,111 +9581,143 @@
     "»trans": [
       "pol-adj-0000-psychologiczny",
       "pol-adj-0000-psychiczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "public",
     "id": "eng-adj-1034-public",
     "»trans": [
       "pol-adj-0000-publiczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "another",
     "id": "eng-adj-1035-another",
     "»trans": [
       "pol-adj-0000-inny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "other",
     "id": "eng-adj-1036-other",
     "»trans": [
       "pol-adj-0000-inny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "determined",
     "id": "eng-adj-1037-determined",
     "»trans": [
       "pol-adj-0000-zdeterminowany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "giant",
     "id": "eng-adj-1038-giant",
     "»trans": [
       "pol-adj-0000-gigantyczny"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "Canadian",
     "id": "eng-adj-1039-Canadian",
     "»trans": [
       "pol-adj-0000-kanadyjski"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "lifesaving",
     "id": "eng-adj-1040-lifesaving",
     "»trans": [
       "pol-adj-0000-ratunkowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "rescue",
     "id": "eng-adj-1041-rescue",
     "»trans": [
       "pol-adj-0000-ratunkowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "life",
     "id": "eng-adj-1042-life",
     "»trans": [
       "pol-adj-0000-ratunkowy"
-    ]
+    ],
+    "register": 0,
+    "frequency": 5
   },
   {
     "lemma": "broken",
     "id": "eng-adj-1043-broken",
     "»trans": [
       "pol-adj-0000-złamany"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "dense",
     "id": "eng-adj-1044-dense",
     "»trans": [
       "pol-adj-0000-gęsty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 4
   },
   {
     "lemma": "green",
     "id": "eng-adj-1045-green",
     "»trans": [
       "pol-adj-0000-zielony"
-    ]
+    ],
+    "register": 0,
+    "frequency": 1
   },
   {
     "lemma": "clean",
     "id": "eng-adj-1046-clean",
     "»trans": [
       "pol-adj-0000-czysty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "tidy",
     "id": "eng-adj-1047-tidy",
     "»trans": [
       "pol-adj-0000-czysty"
-    ]
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "wise",
     "id": "eng-adj-1048-wise",
     "»trans": [
       "pol-adj-0000-mądry"
-    ]
+    ],
+    "register": 0,
+    "frequency": 3
   }
 ]

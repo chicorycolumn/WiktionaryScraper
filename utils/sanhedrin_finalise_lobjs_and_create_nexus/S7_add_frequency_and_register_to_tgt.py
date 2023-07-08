@@ -21,7 +21,7 @@ if __name__ == '__main__':
     src_input_filename = f"{wordtype}_batch_{batch}_SRC"
     stem = "./../../output_saved/batches/"
     input_path = f"{stem}{input_filename}"
-    tempsave_path = f"{stem}{input_filename}_tempsave"
+    tempsave_path = f"{stem}{input_filename}_S7_tempsave"
     src_input_path = f"{stem}{src_input_filename}"
 
     c.print_teal("input_path =     " + c.teal(input_path))
@@ -48,6 +48,7 @@ if __name__ == '__main__':
         with open(tempsave_path + ".json", "r") as f:
             done_lobjs = json.load(f)
             c.print_teal("Loaded " + str(len(done_lobjs)) + " items from tempsave.")
+            c.print_teal("It's the full number because tempsave records all lobjs, and then we go through the ones which still lack freq and register.")
             f.close()
     else:
         with open(input_path + ".json", "r") as f:
