@@ -647,11 +647,7 @@
     "id": "eng-adj-0077-great(big)",
     "»trans": [
       "pol-adj-0047-wielki",
-      "pol-adj-0389-niesamowity",
-      "pol-adj-0091-świetny",
-      "pol-adj-0133-fajny",
-      "pol-adj-0283-znakomity",
-      "pol-adj-0360-cudowny"
+      "pol-adj-0048-duży"
     ]
   },
   {
@@ -937,9 +933,17 @@
   },
   {
     "lemma": "ready",
-    "id": "eng-adj-0111-ready",
+    "id": "eng-adj-0111-ready(person)",
     "»trans": [
       "pol-adj-0066-gotowy(person)",
+      "pol-adj-0727-przygotowany"
+    ]
+  },
+  {
+    "lemma": "ready",
+    "id": "eng-adj-0111-ready(thing)",
+    "»trans": [
+      "pol-adj-0067-gotowy(readymade)",
       "pol-adj-0727-przygotowany"
     ]
   },
@@ -955,7 +959,8 @@
     "lemma": "prepared",
     "id": "eng-adj-0113-prepared(thing)",
     "»trans": [
-      "pol-adj-0067-gotowy(readymade)"
+      "pol-adj-0067-gotowy(readymade)",
+      "pol-adj-0727-przygotowany"
     ]
   },
   {
@@ -994,40 +999,37 @@
     "lemma": "sure",
     "id": "eng-adj-0118-sure(thing)",
     "»trans": [
-      "pol-adj-0069-pewny(certain)",
-      "pol-adj-0681-pewien",
-      "pol-adj-0070-pewny(confident)"
+      "pol-adj-0069-pewny(certain)"
     ]
   },
   {
     "lemma": "sure",
     "id": "eng-adj-0120-sure(person)",
     "»trans": [
-      "pol-adj-0070-pewny(confident)",
-      "pol-adj-0681-pewien"
-    ]
-  },
-  {
-    "lemma": "certain",
-    "id": "eng-adj-0119-certain(thing)",
-    "»trans": [
-      "pol-adj-0069-pewny(certain)",
       "pol-adj-0681-pewien",
       "pol-adj-0070-pewny(confident)"
     ]
   },
   {
     "lemma": "certain",
+    "id": "eng-adj-0119-certain(thing)",
+    "»trans": [
+      "pol-adj-0069-pewny(certain)"
+    ]
+  },
+  {
+    "lemma": "certain",
     "id": "eng-adj-0121-certain(person)",
     "»trans": [
-      "pol-adj-0070-pewny(confident)",
-      "pol-adj-0681-pewien"
+      "pol-adj-0681-pewien",
+      "pol-adj-0070-pewny(confident)"
     ]
   },
   {
     "lemma": "confident",
     "id": "eng-adj-0122-confident",
     "»trans": [
+      "pol-adj-0681-pewien",
       "pol-adj-0070-pewny(confident)"
     ]
   },
@@ -1124,7 +1126,6 @@
     "lemma": "fine",
     "id": "eng-adj-0134-fine",
     "»trans": [
-      "pol-adj-0077-ładny",
       "pol-adj-0417-drobny(fine)"
     ]
   },
@@ -3690,10 +3691,17 @@
   },
   {
     "lemma": "present",
-    "id": "eng-adj-0497-present",
+    "id": "eng-adj-0497-present(time)",
     "»trans": [
       "pol-adj-0332-obecny",
       "pol-adj-0534-dzisiejszy"
+    ]
+  },
+  {
+    "lemma": "present",
+    "id": "eng-adj-0497-present(location)",
+    "»trans": [
+      "pol-adj-0332-obecny"
     ]
   },
   {
@@ -4226,14 +4234,15 @@
     "lemma": "violent",
     "id": "eng-adj-0575-violent(person)",
     "»trans": [
-      "pol-adj-0385-gwałtowny(person)"
+      "pol-adj-0385-gwałtowny(person)",
+            "pol-adj-0465-brutalny"
     ]
   },
   {
     "lemma": "violent",
     "id": "eng-adj-0701-violent(abstract)",
     "»trans": [
-      "pol-adj-0465-brutalny"
+      "pol-adj-0386-gwałtowny(trendline)"
     ]
   },
   {
@@ -5517,9 +5526,15 @@
   },
   {
     "lemma": "inactive",
-    "id": "eng-adj-0766-inactive",
+    "id": "eng-adj-0766-inactive(idle)",
     "»trans": [
-      "pol-adj-0517-bezczynny",
+      "pol-adj-0517-bezczynny"
+    ]
+  },
+  {
+    "lemma": "inactive",
+    "id": "eng-adj-0766-inactive(shop)",
+    "»trans": [
       "pol-adj-0605-nieczynny"
     ]
   },
