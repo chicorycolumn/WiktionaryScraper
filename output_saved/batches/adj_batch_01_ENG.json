@@ -8,11 +8,18 @@
   },
   {
     "lemma": "bad",
-    "id": "eng-adj-0002-bad",
+    "id": "eng-adj-0002-bad(rubbish)",
     "»trans": [
       "pol-adj-0002-kiepski",
       "pol-adj-0003-zły(bad)",
       "pol-adj-0152-niedobry(bad)"
+    ]
+  },
+  {
+    "lemma": "bad",
+    "id": "eng-adj-0245-bad(unkind)",
+    "»trans": [
+      "pol-adj-0153-niedobry(unkind)"
     ]
   },
   {
@@ -51,30 +58,59 @@
   },
   {
     "lemma": "mad",
-    "id": "eng-adj-0007-mad",
+    "id": "eng-adj-0007-mad(angry)",
     "»trans": [
       "pol-adj-0005-zły(angry)"
     ]
   },
   {
+    "lemma": "mad",
+    "id": "eng-adj-0403-mad(crazy)",
+    "»trans": [
+      "pol-adj-0266-zwariowany"
+    ]
+  },
+  {
     "lemma": "bright",
-    "id": "eng-adj-0008-bright",
+    "id": "eng-adj-0008-bright(light)",
+    "»trans": [
+      "pol-adj-0006-jasny(bright)",
+      "pol-adj-0591-jaskrawy"
+    ]
+  },
+  {
+    "lemma": "bright",
+    "id": "eng-adj-0501-bright(clever)",
+    "»trans": [
+      "pol-adj-0335-bystry"
+    ]
+  },
+  {
+    "lemma": "light",
+    "id": "eng-adj-0009-light(!dark)",
     "»trans": [
       "pol-adj-0006-jasny(bright)"
     ]
   },
   {
     "lemma": "light",
-    "id": "eng-adj-0009-light",
+    "id": "eng-adj-0033-light(!heavy)",
+    "»trans": [
+      "pol-adj-0020-lekki"
+    ]
+  },
+  {
+    "lemma": "clear",
+    "id": "eng-adj-0010-clear(bright)",
     "»trans": [
       "pol-adj-0006-jasny(bright)"
     ]
   },
   {
     "lemma": "clear",
-    "id": "eng-adj-0010-clear",
+    "id": "eng-adj-0013-clear(evident)",
     "»trans": [
-      "pol-adj-0006-jasny(bright)"
+      "pol-adj-0007-jasny(evident)"
     ]
   },
   {
@@ -88,14 +124,8 @@
     "lemma": "obvious",
     "id": "eng-adj-0012-obvious",
     "»trans": [
-      "pol-adj-0007-jasny(evident)"
-    ]
-  },
-  {
-    "lemma": "clear",
-    "id": "eng-adj-0013-clear(þ)",
-    "»trans": [
-      "pol-adj-0007-jasny(evident)"
+      "pol-adj-0007-jasny(evident)",
+      "pol-adj-0150-oczywisty"
     ]
   },
   {
@@ -109,7 +139,8 @@
     "lemma": "vague",
     "id": "eng-adj-0015-vague",
     "»trans": [
-      "pol-adj-0008-niejasny"
+      "pol-adj-0008-niejasny",
+      "pol-adj-0704-niewyraźny"
     ]
   },
   {
@@ -159,9 +190,17 @@
   },
   {
     "lemma": "poor",
-    "id": "eng-adj-0022-poor",
+    "id": "eng-adj-0022-poor(rubbish)",
     "»trans": [
       "pol-adj-0012-słaby"
+    ]
+  },
+  {
+    "lemma": "poor",
+    "id": "eng-adj-0465-poor(money)",
+    "»trans": [
+      "pol-adj-0311-biedny",
+      "pol-adj-0314-ubogi"
     ]
   },
   {
@@ -182,10 +221,17 @@
   },
   {
     "lemma": "strong",
-    "id": "eng-adj-0025-strong",
+    "id": "eng-adj-0025-strong(strength)",
     "»trans": [
       "pol-adj-0014-silny",
       "pol-adj-0016-mocny"
+    ]
+  },
+  {
+    "lemma": "strong",
+    "id": "eng-adj-0276-strong(sturdy)",
+    "»trans": [
+      "pol-adj-0173-solidny"
     ]
   },
   {
@@ -200,7 +246,8 @@
     "lemma": "sturdy",
     "id": "eng-adj-0027-sturdy",
     "»trans": [
-      "pol-adj-0016-mocny"
+      "pol-adj-0016-mocny",
+      "pol-adj-0173-solidny"
     ]
   },
   {
@@ -244,17 +291,17 @@
     ]
   },
   {
-    "lemma": "light",
-    "id": "eng-adj-0033-light(þ)",
+    "lemma": "sensitive",
+    "id": "eng-adj-0034-sensitive(impressionable)",
     "»trans": [
-      "pol-adj-0020-lekki"
+      "pol-adj-0022-wrażliwy(impressionable)"
     ]
   },
   {
     "lemma": "sensitive",
-    "id": "eng-adj-0034-sensitive",
+    "id": "eng-adj-0037-sensitive(susceptible)",
     "»trans": [
-      "pol-adj-0022-wrażliwy(impressionable)"
+      "pol-adj-0023-wrażliwy(susceptible)"
     ]
   },
   {
@@ -272,13 +319,6 @@
     ]
   },
   {
-    "lemma": "sensitive",
-    "id": "eng-adj-0037-sensitive(þ)",
-    "»trans": [
-      "pol-adj-0023-wrażliwy(susceptible)"
-    ]
-  },
-  {
     "lemma": "susceptible",
     "id": "eng-adj-0038-susceptible",
     "»trans": [
@@ -287,11 +327,18 @@
   },
   {
     "lemma": "common",
-    "id": "eng-adj-0039-common",
+    "id": "eng-adj-0039-common(typical)",
     "»trans": [
       "pol-adj-0024-powszechny",
       "pol-adj-0078-zwykły",
       "pol-adj-0741-pospolity"
+    ]
+  },
+  {
+    "lemma": "common",
+    "id": "eng-adj-0436-common(shared)",
+    "»trans": [
+      "pol-adj-0290-wspólny"
     ]
   },
   {
@@ -342,7 +389,8 @@
     "lemma": "lively",
     "id": "eng-adj-0046-lively",
     "»trans": [
-      "pol-adj-0030-żywy(lively)"
+      "pol-adj-0030-żywy(lively)",
+      "pol-adj-0501-żywiołowy"
     ]
   },
   {
@@ -356,7 +404,9 @@
     "lemma": "vivid",
     "id": "eng-adj-0048-vivid",
     "»trans": [
-      "pol-adj-0030-żywy(lively)"
+      "pol-adj-0030-żywy(lively)",
+      "pol-adj-0395-wybujały",
+      "pol-adj-0591-jaskrawy"
     ]
   },
   {
@@ -376,9 +426,17 @@
   },
   {
     "lemma": "free",
-    "id": "eng-adj-0051-free",
+    "id": "eng-adj-0051-free(money)",
     "»trans": [
       "pol-adj-0031-bezpłatny"
+    ]
+  },
+  {
+    "lemma": "free",
+    "id": "eng-adj-0448-free(liberty)",
+    "»trans": [
+      "pol-adj-0297-wolny(free)",
+      "pol-adj-0321-swobodny"
     ]
   },
   {
@@ -438,7 +496,8 @@
     "lemma": "fundamental",
     "id": "eng-adj-0059-fundamental",
     "»trans": [
-      "pol-adj-0037-zasadniczy"
+      "pol-adj-0037-zasadniczy",
+      "pol-adj-0559-kluczowy"
     ]
   },
   {
@@ -451,10 +510,17 @@
   },
   {
     "lemma": "principal",
-    "id": "eng-adj-0061-principal",
+    "id": "eng-adj-0061-principal(important)",
     "»trans": [
       "pol-adj-0037-zasadniczy",
       "pol-adj-0041-podstawowy"
+    ]
+  },
+  {
+    "lemma": "principal",
+    "id": "eng-adj-0725-principal(general)",
+    "»trans": [
+      "pol-adj-0486-generalny"
     ]
   },
   {
@@ -468,7 +534,9 @@
     "lemma": "main",
     "id": "eng-adj-0063-main",
     "»trans": [
-      "pol-adj-0037-zasadniczy"
+      "pol-adj-0037-zasadniczy",
+      "pol-adj-0064-główny",
+      "pol-adj-0528-centralny"
     ]
   },
   {
@@ -494,21 +562,28 @@
   },
   {
     "lemma": "primary",
-    "id": "eng-adj-0067-primary",
+    "id": "eng-adj-0067-primary(important)",
     "»trans": [
       "pol-adj-0041-podstawowy"
     ]
   },
   {
+    "lemma": "primary",
+    "id": "eng-adj-0964-primary(first)",
+    "»trans": [
+      "pol-adj-0674-pierwotny"
+    ]
+  },
+  {
     "lemma": "deep",
-    "id": "eng-adj-0068-deep",
+    "id": "eng-adj-0068-deep(concrete)",
     "»trans": [
       "pol-adj-0042-głęboki(concrete)"
     ]
   },
   {
     "lemma": "deep",
-    "id": "eng-adj-0069-deep(þ)",
+    "id": "eng-adj-0069-deep(abstract)",
     "»trans": [
       "pol-adj-0043-głęboki(abstract)"
     ]
@@ -533,7 +608,8 @@
     "id": "eng-adj-0072-next",
     "»trans": [
       "pol-adj-0045-następny",
-      "pol-adj-0587-kolejny"
+      "pol-adj-0587-kolejny",
+      "pol-adj-0762-przyszły"
     ]
   },
   {
@@ -568,7 +644,7 @@
   },
   {
     "lemma": "great",
-    "id": "eng-adj-0077-great",
+    "id": "eng-adj-0077-great(big)",
     "»trans": [
       "pol-adj-0047-wielki",
       "pol-adj-0389-niesamowity",
@@ -576,6 +652,17 @@
       "pol-adj-0133-fajny",
       "pol-adj-0283-znakomity",
       "pol-adj-0360-cudowny"
+    ]
+  },
+  {
+    "lemma": "great",
+    "id": "eng-adj-0157-great(awesome)",
+    "»trans": [
+      "pol-adj-0091-świetny",
+      "pol-adj-0133-fajny",
+      "pol-adj-0283-znakomity",
+      "pol-adj-0360-cudowny",
+      "pol-adj-0389-niesamowity"
     ]
   },
   {
@@ -634,9 +721,17 @@
   },
   {
     "lemma": "sweet",
-    "id": "eng-adj-0085-sweet",
+    "id": "eng-adj-0085-sweet(food)",
     "»trans": [
       "pol-adj-0052-słodki(food)"
+    ]
+  },
+  {
+    "lemma": "sweet",
+    "id": "eng-adj-0292-sweet(cute)",
+    "»trans": [
+      "pol-adj-0182-uroczy",
+      "pol-adj-0052-słodki(cute)"
     ]
   },
   {
@@ -648,11 +743,18 @@
   },
   {
     "lemma": "tight",
-    "id": "eng-adj-0087-tight",
+    "id": "eng-adj-0087-tight(concrete)",
     "»trans": [
       "pol-adj-0053-ciasny",
       "pol-adj-0209-wąski",
       "pol-adj-0284-obcisły"
+    ]
+  },
+  {
+    "lemma": "tight",
+    "id": "eng-adj-0495-tight(abstract)",
+    "»trans": [
+      "pol-adj-0330-ścisły"
     ]
   },
   {
@@ -727,9 +829,16 @@
   },
   {
     "lemma": "true",
-    "id": "eng-adj-0097-true",
+    "id": "eng-adj-0097-true(truthful)",
     "»trans": [
       "pol-adj-0058-prawdziwy"
+    ]
+  },
+  {
+    "lemma": "true",
+    "id": "eng-adj-0823-true(real)",
+    "»trans": [
+      "pol-adj-0567-istny"
     ]
   },
   {
@@ -747,7 +856,8 @@
       "pol-adj-0058-prawdziwy",
       "pol-adj-0081-autentyczny",
       "pol-adj-0322-realny",
-      "pol-adj-0323-rzeczywisty"
+      "pol-adj-0323-rzeczywisty",
+      "pol-adj-0567-istny"
     ]
   },
   {
@@ -763,7 +873,9 @@
     "»trans": [
       "pol-adj-0060-niezwykły",
       "pol-adj-0258-wyjątkowy",
-      "pol-adj-0389-niesamowity"
+      "pol-adj-0389-niesamowity",
+      "pol-adj-0141-nienormalny",
+      "pol-adj-0145-niespotykany"
     ]
   },
   {
@@ -784,7 +896,8 @@
     "lemma": "dangerous",
     "id": "eng-adj-0104-dangerous",
     "»trans": [
-      "pol-adj-0061-niebezpieczny"
+      "pol-adj-0061-niebezpieczny",
+      "pol-adj-0571-groźny"
     ]
   },
   {
@@ -799,13 +912,6 @@
     "id": "eng-adj-0106-square",
     "»trans": [
       "pol-adj-0063-kwadratowy"
-    ]
-  },
-  {
-    "lemma": "main",
-    "id": "eng-adj-0107-main(þ)",
-    "»trans": [
-      "pol-adj-0064-główny"
     ]
   },
   {
@@ -833,19 +939,21 @@
     "lemma": "ready",
     "id": "eng-adj-0111-ready",
     "»trans": [
-      "pol-adj-0066-gotowy(person)"
+      "pol-adj-0066-gotowy(person)",
+      "pol-adj-0727-przygotowany"
     ]
   },
   {
     "lemma": "prepared",
-    "id": "eng-adj-0112-prepared",
+    "id": "eng-adj-0112-prepared(person)",
     "»trans": [
-      "pol-adj-0066-gotowy(person)"
+      "pol-adj-0066-gotowy(person)",
+      "pol-adj-0727-przygotowany"
     ]
   },
   {
     "lemma": "prepared",
-    "id": "eng-adj-0113-prepared(þ)",
+    "id": "eng-adj-0113-prepared(thing)",
     "»trans": [
       "pol-adj-0067-gotowy(readymade)"
     ]
@@ -884,16 +992,7 @@
   },
   {
     "lemma": "sure",
-    "id": "eng-adj-0118-sure",
-    "»trans": [
-      "pol-adj-0069-pewny(certain)",
-      "pol-adj-0681-pewien",
-      "pol-adj-0070-pewny(confident)"
-    ]
-  },
-  {
-    "lemma": "certain",
-    "id": "eng-adj-0119-certain",
+    "id": "eng-adj-0118-sure(thing)",
     "»trans": [
       "pol-adj-0069-pewny(certain)",
       "pol-adj-0681-pewien",
@@ -902,7 +1001,7 @@
   },
   {
     "lemma": "sure",
-    "id": "eng-adj-0120-sure(þ)",
+    "id": "eng-adj-0120-sure(person)",
     "»trans": [
       "pol-adj-0070-pewny(confident)",
       "pol-adj-0681-pewien"
@@ -910,7 +1009,16 @@
   },
   {
     "lemma": "certain",
-    "id": "eng-adj-0121-certain(þ)",
+    "id": "eng-adj-0119-certain(thing)",
+    "»trans": [
+      "pol-adj-0069-pewny(certain)",
+      "pol-adj-0681-pewien",
+      "pol-adj-0070-pewny(confident)"
+    ]
+  },
+  {
+    "lemma": "certain",
+    "id": "eng-adj-0121-certain(person)",
     "»trans": [
       "pol-adj-0070-pewny(confident)",
       "pol-adj-0681-pewien"
@@ -949,21 +1057,31 @@
     "lemma": "complete",
     "id": "eng-adj-0126-complete",
     "»trans": [
-      "pol-adj-0072-cały"
+      "pol-adj-0072-cały",
+      "pol-adj-0195-kompletny",
+      "pol-adj-0439-całkowity"
     ]
   },
   {
     "lemma": "entire",
     "id": "eng-adj-0127-entire",
     "»trans": [
-      "pol-adj-0072-cały"
+      "pol-adj-0072-cały",
+      "pol-adj-0439-całkowity"
     ]
   },
   {
     "lemma": "short",
-    "id": "eng-adj-0128-short",
+    "id": "eng-adj-0128-short(!tall)",
     "»trans": [
       "pol-adj-0073-niski(physical)"
+    ]
+  },
+  {
+    "lemma": "short",
+    "id": "eng-adj-0383-short(!long)",
+    "»trans": [
+      "pol-adj-0253-krótki"
     ]
   },
   {
@@ -1006,15 +1124,24 @@
     "lemma": "fine",
     "id": "eng-adj-0134-fine",
     "»trans": [
-      "pol-adj-0077-ładny"
+      "pol-adj-0077-ładny",
+      "pol-adj-0417-drobny(fine)"
     ]
   },
   {
     "lemma": "nice",
-    "id": "eng-adj-0135-nice",
+    "id": "eng-adj-0135-nice(cool)",
     "»trans": [
       "pol-adj-0077-ładny",
-      "pol-adj-0339-miły(thing)"
+      "pol-adj-0339-miły(thing)",
+      "pol-adj-0133-fajny"
+    ]
+  },
+  {
+    "lemma": "nice",
+    "id": "eng-adj-0507-nice(polite)",
+    "»trans": [
+      "pol-adj-0340-miły(polite)"
     ]
   },
   {
@@ -1056,9 +1183,16 @@
   },
   {
     "lemma": "false",
-    "id": "eng-adj-0141-false",
+    "id": "eng-adj-0141-false(!true)",
     "»trans": [
       "pol-adj-0080-fałszywy"
+    ]
+  },
+  {
+    "lemma": "false",
+    "id": "eng-adj-0476-false(artificial)",
+    "»trans": [
+      "pol-adj-0318-sztuczny"
     ]
   },
   {
@@ -1072,7 +1206,8 @@
     "lemma": "original",
     "id": "eng-adj-0143-original",
     "»trans": [
-      "pol-adj-0082-oryginalny"
+      "pol-adj-0082-oryginalny",
+      "pol-adj-0674-pierwotny"
     ]
   },
   {
@@ -1098,9 +1233,16 @@
   },
   {
     "lemma": "soft",
-    "id": "eng-adj-0147-soft",
+    "id": "eng-adj-0147-soft(!rigid)",
     "»trans": [
       "pol-adj-0084-miękki"
+    ]
+  },
+  {
+    "lemma": "soft",
+    "id": "eng-adj-0820-soft(mild)",
+    "»trans": [
+      "pol-adj-0564-łagodny(mild)"
     ]
   },
   {
@@ -1167,17 +1309,6 @@
     "id": "eng-adj-0156-painless",
     "»trans": [
       "pol-adj-0090-bezbolesny"
-    ]
-  },
-  {
-    "lemma": "great",
-    "id": "eng-adj-0157-great(þ)",
-    "»trans": [
-      "pol-adj-0091-świetny",
-      "pol-adj-0133-fajny",
-      "pol-adj-0283-znakomity",
-      "pol-adj-0360-cudowny",
-      "pol-adj-0389-niesamowity"
     ]
   },
   {
@@ -1248,16 +1379,24 @@
   },
   {
     "lemma": "thick",
-    "id": "eng-adj-0167-thick",
+    "id": "eng-adj-0167-thick(wide)",
     "»trans": [
       "pol-adj-0096-gruby(thick)"
+    ]
+  },
+  {
+    "lemma": "thick",
+    "id": "eng-adj-1085-thick(viscous)",
+    "»trans": [
+      "pol-adj-0778-gęsty"
     ]
   },
   {
     "lemma": "quiet",
     "id": "eng-adj-0168-quiet",
     "»trans": [
-      "pol-adj-0097-cichy"
+      "pol-adj-0097-cichy",
+      "pol-adj-0319-spokojny"
     ]
   },
   {
@@ -1335,9 +1474,16 @@
   },
   {
     "lemma": "cheap",
-    "id": "eng-adj-0179-cheap",
+    "id": "eng-adj-0179-cheap(money)",
     "»trans": [
       "pol-adj-0104-tani"
+    ]
+  },
+  {
+    "lemma": "cheap",
+    "id": "eng-adj-0591-cheap(quality)",
+    "»trans": [
+      "pol-adj-0391-tandetny"
     ]
   },
   {
@@ -1371,9 +1517,16 @@
   },
   {
     "lemma": "dull",
-    "id": "eng-adj-0184-dull",
+    "id": "eng-adj-0184-dull(boring)",
     "»trans": [
       "pol-adj-0109-nudny"
+    ]
+  },
+  {
+    "lemma": "dull",
+    "id": "eng-adj-0499-dull(blunt)",
+    "»trans": [
+      "pol-adj-0333-tępy(blunt)"
     ]
   },
   {
@@ -1405,7 +1558,8 @@
     "»trans": [
       "pol-adj-0111-różny",
       "pol-adj-0113-rozmaity",
-      "pol-adj-0772-inny"
+      "pol-adj-0772-inny",
+      "pol-adj-0679-odmienny"
     ]
   },
   {
@@ -1477,14 +1631,18 @@
     "lemma": "appropriate",
     "id": "eng-adj-0198-appropriate",
     "»trans": [
-      "pol-adj-0118-odpowiedni(appropriate)"
+      "pol-adj-0118-odpowiedni(appropriate)",
+      "pol-adj-0187-właściwy"
     ]
   },
   {
     "lemma": "proper",
     "id": "eng-adj-0199-proper",
     "»trans": [
-      "pol-adj-0118-odpowiedni(appropriate)"
+      "pol-adj-0118-odpowiedni(appropriate)",
+      "pol-adj-0187-właściwy",
+      "pol-adj-0310-prawidłowy",
+      "pol-adj-0771-porządny"
     ]
   },
   {
@@ -1498,7 +1656,8 @@
     "lemma": "relevant",
     "id": "eng-adj-0201-relevant",
     "»trans": [
-      "pol-adj-0119-odpowiedni(relevant)"
+      "pol-adj-0119-odpowiedni(relevant)",
+      "pol-adj-0242-istotny"
     ]
   },
   {
@@ -1524,16 +1683,30 @@
   },
   {
     "lemma": "right",
-    "id": "eng-adj-0205-right",
+    "id": "eng-adj-0205-right(correct)",
     "»trans": [
       "pol-adj-0122-poprawny"
     ]
   },
   {
+    "lemma": "right",
+    "id": "eng-adj-1044-right(hand)",
+    "»trans": [
+      "pol-adj-0742-prawy"
+    ]
+  },
+  {
     "lemma": "ugly",
-    "id": "eng-adj-0206-ugly",
+    "id": "eng-adj-0206-ugly(appearance)",
     "»trans": [
       "pol-adj-0124-brzydki"
+    ]
+  },
+  {
+    "lemma": "ugly",
+    "id": "eng-adj-0290-ugly(nasty)",
+    "»trans": [
+      "pol-adj-0181-paskudny"
     ]
   },
   {
@@ -1617,16 +1790,16 @@
   },
   {
     "lemma": "cool",
-    "id": "eng-adj-0218-cool",
+    "id": "eng-adj-0218-cool(nice)",
     "»trans": [
       "pol-adj-0133-fajny"
     ]
   },
   {
-    "lemma": "nice",
-    "id": "eng-adj-0219-nice(þ)",
+    "lemma": "cool",
+    "id": "eng-adj-0239-cool(temperature)",
     "»trans": [
-      "pol-adj-0133-fajny"
+      "pol-adj-0147-chłodny"
     ]
   },
   {
@@ -1664,14 +1837,16 @@
     "lemma": "particular",
     "id": "eng-adj-0224-particular",
     "»trans": [
-      "pol-adj-0135-szczególny"
+      "pol-adj-0135-szczególny",
+      "pol-adj-0494-swoisty"
     ]
   },
   {
     "lemma": "peculiar",
     "id": "eng-adj-0225-peculiar",
     "»trans": [
-      "pol-adj-0137-osobliwy"
+      "pol-adj-0137-osobliwy",
+      "pol-adj-0494-swoisty"
     ]
   },
   {
@@ -1727,14 +1902,6 @@
     ]
   },
   {
-    "lemma": "extraordinary",
-    "id": "eng-adj-0233-extraordinary(þ)",
-    "»trans": [
-      "pol-adj-0141-nienormalny",
-      "pol-adj-0145-niespotykany"
-    ]
-  },
-  {
     "lemma": "uncommon",
     "id": "eng-adj-0234-uncommon",
     "»trans": [
@@ -1775,13 +1942,6 @@
     ]
   },
   {
-    "lemma": "cool",
-    "id": "eng-adj-0239-cool(þ)",
-    "»trans": [
-      "pol-adj-0147-chłodny"
-    ]
-  },
-  {
     "lemma": "blue",
     "id": "eng-adj-0240-blue",
     "»trans": [
@@ -1803,26 +1963,12 @@
     ]
   },
   {
-    "lemma": "obvious",
-    "id": "eng-adj-0243-obvious(þ)",
-    "»trans": [
-      "pol-adj-0150-oczywisty"
-    ]
-  },
-  {
     "lemma": "national",
     "id": "eng-adj-0244-national",
     "»trans": [
       "pol-adj-0151-narodowy",
       "pol-adj-0589-krajowy",
       "pol-adj-0698-państwowy"
-    ]
-  },
-  {
-    "lemma": "bad",
-    "id": "eng-adj-0245-bad(þ)",
-    "»trans": [
-      "pol-adj-0153-niedobry(unkind)"
     ]
   },
   {
@@ -1837,7 +1983,8 @@
     "lemma": "wicked",
     "id": "eng-adj-0247-wicked",
     "»trans": [
-      "pol-adj-0153-niedobry(unkind)"
+      "pol-adj-0153-niedobry(unkind)",
+      "pol-adj-0743-niegodziwy"
     ]
   },
   {
@@ -2032,22 +2179,8 @@
     ]
   },
   {
-    "lemma": "sturdy",
-    "id": "eng-adj-0274-sturdy(þ)",
-    "»trans": [
-      "pol-adj-0173-solidny"
-    ]
-  },
-  {
     "lemma": "rugged",
     "id": "eng-adj-0275-rugged",
-    "»trans": [
-      "pol-adj-0173-solidny"
-    ]
-  },
-  {
-    "lemma": "strong",
-    "id": "eng-adj-0276-strong(þ)",
     "»trans": [
       "pol-adj-0173-solidny"
     ]
@@ -2056,14 +2189,16 @@
     "lemma": "trustworthy",
     "id": "eng-adj-0277-trustworthy",
     "»trans": [
-      "pol-adj-0173-solidny"
+      "pol-adj-0173-solidny",
+      "pol-adj-0241-wiarygodny"
     ]
   },
   {
     "lemma": "dependable",
     "id": "eng-adj-0278-dependable",
     "»trans": [
-      "pol-adj-0173-solidny"
+      "pol-adj-0173-solidny",
+      "pol-adj-0280-niezawodny"
     ]
   },
   {
@@ -2148,28 +2283,6 @@
     ]
   },
   {
-    "lemma": "ugly",
-    "id": "eng-adj-0290-ugly(þ)",
-    "»trans": [
-      "pol-adj-0181-paskudny"
-    ]
-  },
-  {
-    "lemma": "ugly",
-    "id": "eng-adj-0291-ugly(þ)",
-    "»trans": [
-      "pol-adj-0181-paskudny"
-    ]
-  },
-  {
-    "lemma": "sweet",
-    "id": "eng-adj-0292-sweet(þ)",
-    "»trans": [
-      "pol-adj-0182-uroczy",
-      "pol-adj-0052-słodki(cute)"
-    ]
-  },
-  {
     "lemma": "adorable",
     "id": "eng-adj-0293-adorable",
     "»trans": [
@@ -2192,25 +2305,16 @@
   },
   {
     "lemma": "legal",
-    "id": "eng-adj-0296-legal",
+    "id": "eng-adj-0296-legal(!illegal)",
     "»trans": [
       "pol-adj-0186-legalny"
     ]
   },
   {
-    "lemma": "proper",
-    "id": "eng-adj-0297-proper(þ)",
+    "lemma": "legal",
+    "id": "eng-adj-1015-legal(legislative)",
     "»trans": [
-      "pol-adj-0187-właściwy",
-      "pol-adj-0310-prawidłowy",
-      "pol-adj-0771-porządny"
-    ]
-  },
-  {
-    "lemma": "appropriate",
-    "id": "eng-adj-0298-appropriate(þ)",
-    "»trans": [
-      "pol-adj-0187-właściwy"
+      "pol-adj-0712-prawny"
     ]
   },
   {
@@ -2249,14 +2353,6 @@
     "id": "eng-adj-0303-versatile",
     "»trans": [
       "pol-adj-0193-wszechstronny(versatile)"
-    ]
-  },
-  {
-    "lemma": "complete",
-    "id": "eng-adj-0304-complete(þ)",
-    "»trans": [
-      "pol-adj-0195-kompletny",
-      "pol-adj-0439-całkowity"
     ]
   },
   {
@@ -2446,7 +2542,8 @@
     "»trans": [
       "pol-adj-0216-inteligentny",
       "pol-adj-0335-bystry",
-      "pol-adj-0714-sprytny"
+      "pol-adj-0714-sprytny",
+      "pol-adj-0503-wytworny"
     ]
   },
   {
@@ -2609,10 +2706,17 @@
   },
   {
     "lemma": "hot",
-    "id": "eng-adj-0352-hot(þ)",
+    "id": "eng-adj-0352-hot(spicy)",
     "»trans": [
       "pol-adj-0231-pikantny",
       "pol-adj-0233-ostry(hot)"
+    ]
+  },
+  {
+    "lemma": "hot",
+    "id": "eng-adj-0408-hot(temperature)",
+    "»trans": [
+      "pol-adj-0271-gorący"
     ]
   },
   {
@@ -2625,16 +2729,16 @@
   },
   {
     "lemma": "sharp",
-    "id": "eng-adj-0354-sharp",
+    "id": "eng-adj-0354-sharp(concrete)",
     "»trans": [
       "pol-adj-0232-ostry(sharp)"
     ]
   },
   {
-    "lemma": "hot",
-    "id": "eng-adj-0355-hot(þ)",
+    "lemma": "sharp",
+    "id": "eng-adj-0577-sharp(abstract)",
     "»trans": [
-      "pol-adj-0233-ostry(hot)"
+      "pol-adj-0386-gwałtowny(trendline)"
     ]
   },
   {
@@ -2700,25 +2804,11 @@
     ]
   },
   {
-    "lemma": "trustworthy",
-    "id": "eng-adj-0364-trustworthy(þ)",
-    "»trans": [
-      "pol-adj-0241-wiarygodny"
-    ]
-  },
-  {
     "lemma": "significant",
     "id": "eng-adj-0365-significant",
     "»trans": [
       "pol-adj-0242-istotny",
       "pol-adj-0247-ważny"
-    ]
-  },
-  {
-    "lemma": "relevant",
-    "id": "eng-adj-0366-relevant(þ)",
-    "»trans": [
-      "pol-adj-0242-istotny"
     ]
   },
   {
@@ -2783,7 +2873,8 @@
     "lemma": "close",
     "id": "eng-adj-0375-close",
     "»trans": [
-      "pol-adj-0248-bliski"
+      "pol-adj-0248-bliski",
+      "pol-adj-0316-niedaleki"
     ]
   },
   {
@@ -2833,13 +2924,6 @@
     "id": "eng-adj-0382-secretive",
     "»trans": [
       "pol-adj-0252-tajemniczy"
-    ]
-  },
-  {
-    "lemma": "short",
-    "id": "eng-adj-0383-short(þ)",
-    "»trans": [
-      "pol-adj-0253-krótki"
     ]
   },
   {
@@ -2939,7 +3023,8 @@
     "lemma": "foreign",
     "id": "eng-adj-0397-foreign",
     "»trans": [
-      "pol-adj-0264-zagraniczny"
+      "pol-adj-0264-zagraniczny",
+      "pol-adj-0344-obcy"
     ]
   },
   {
@@ -2979,13 +3064,6 @@
     ]
   },
   {
-    "lemma": "mad",
-    "id": "eng-adj-0403-mad(þ)",
-    "»trans": [
-      "pol-adj-0266-zwariowany"
-    ]
-  },
-  {
     "lemma": "unpleasant",
     "id": "eng-adj-0404-unpleasant",
     "»trans": [
@@ -3009,17 +3087,17 @@
   },
   {
     "lemma": "pleasant",
-    "id": "eng-adj-0407-pleasant",
+    "id": "eng-adj-0407-pleasant(nice)",
     "»trans": [
       "pol-adj-0270-przyjemny",
       "pol-adj-0339-miły(thing)"
     ]
   },
   {
-    "lemma": "hot",
-    "id": "eng-adj-0408-hot(þ)",
+    "lemma": "pleasant",
+    "id": "eng-adj-0508-pleasant(polite)",
     "»trans": [
-      "pol-adj-0271-gorący"
+      "pol-adj-0340-miły(polite)"
     ]
   },
   {
@@ -3031,14 +3109,14 @@
   },
   {
     "lemma": "average",
-    "id": "eng-adj-0410-average",
+    "id": "eng-adj-0410-average(statistics)",
     "»trans": [
       "pol-adj-0273-przeciętny(average)"
     ]
   },
   {
     "lemma": "average",
-    "id": "eng-adj-0411-average(þ)",
+    "id": "eng-adj-0411-average(mediocre)",
     "»trans": [
       "pol-adj-0274-przeciętny(mediocre)"
     ]
@@ -3113,13 +3191,6 @@
     "id": "eng-adj-0421-outlawed",
     "»trans": [
       "pol-adj-0279-zakazany"
-    ]
-  },
-  {
-    "lemma": "dependable",
-    "id": "eng-adj-0422-dependable(þ)",
-    "»trans": [
-      "pol-adj-0280-niezawodny"
     ]
   },
   {
@@ -3216,13 +3287,6 @@
     ]
   },
   {
-    "lemma": "common",
-    "id": "eng-adj-0436-common(þ)",
-    "»trans": [
-      "pol-adj-0290-wspólny"
-    ]
-  },
-  {
     "lemma": "communal",
     "id": "eng-adj-0437-communal",
     "»trans": [
@@ -3297,14 +3361,6 @@
     "id": "eng-adj-0447-quick",
     "»trans": [
       "pol-adj-0295-szybki"
-    ]
-  },
-  {
-    "lemma": "free",
-    "id": "eng-adj-0448-free(þ)",
-    "»trans": [
-      "pol-adj-0297-wolny(free)",
-      "pol-adj-0321-swobodny"
     ]
   },
   {
@@ -3423,14 +3479,6 @@
     ]
   },
   {
-    "lemma": "poor",
-    "id": "eng-adj-0465-poor(þ)",
-    "»trans": [
-      "pol-adj-0311-biedny",
-      "pol-adj-0314-ubogi"
-    ]
-  },
-  {
     "lemma": "modest",
     "id": "eng-adj-0466-modest",
     "»trans": [
@@ -3468,13 +3516,6 @@
     ]
   },
   {
-    "lemma": "close",
-    "id": "eng-adj-0471-close(þ)",
-    "»trans": [
-      "pol-adj-0316-niedaleki"
-    ]
-  },
-  {
     "lemma": "faraway",
     "id": "eng-adj-0472-faraway",
     "»trans": [
@@ -3503,13 +3544,6 @@
     ]
   },
   {
-    "lemma": "false",
-    "id": "eng-adj-0476-false(þ)",
-    "»trans": [
-      "pol-adj-0318-sztuczny"
-    ]
-  },
-  {
     "lemma": "calm",
     "id": "eng-adj-0477-calm",
     "»trans": [
@@ -3526,13 +3560,6 @@
   {
     "lemma": "tranquil",
     "id": "eng-adj-0479-tranquil",
-    "»trans": [
-      "pol-adj-0319-spokojny"
-    ]
-  },
-  {
-    "lemma": "quiet",
-    "id": "eng-adj-0480-quiet(þ)",
     "»trans": [
       "pol-adj-0319-spokojny"
     ]
@@ -3612,10 +3639,17 @@
   },
   {
     "lemma": "closed",
-    "id": "eng-adj-0491-closed",
+    "id": "eng-adj-0491-closed(object)",
     "»trans": [
       "pol-adj-0328-zamknięty",
       "pol-adj-0329-zamknięty"
+    ]
+  },
+  {
+    "lemma": "closed",
+    "id": "eng-adj-0874-closed(shop)",
+    "»trans": [
+      "pol-adj-0605-nieczynny"
     ]
   },
   {
@@ -3635,16 +3669,16 @@
   },
   {
     "lemma": "strict",
-    "id": "eng-adj-0494-strict",
+    "id": "eng-adj-0494-strict(regulated)",
     "»trans": [
       "pol-adj-0330-ścisły"
     ]
   },
   {
-    "lemma": "tight",
-    "id": "eng-adj-0495-tight(þ)",
+    "lemma": "strict",
+    "id": "eng-adj-0561-strict(teacher)",
     "»trans": [
-      "pol-adj-0330-ścisły"
+      "pol-adj-0373-surowy(strict)"
     ]
   },
   {
@@ -3658,7 +3692,8 @@
     "lemma": "present",
     "id": "eng-adj-0497-present",
     "»trans": [
-      "pol-adj-0332-obecny"
+      "pol-adj-0332-obecny",
+      "pol-adj-0534-dzisiejszy"
     ]
   },
   {
@@ -3669,24 +3704,10 @@
     ]
   },
   {
-    "lemma": "dull",
-    "id": "eng-adj-0499-dull(þ)",
-    "»trans": [
-      "pol-adj-0333-tępy(blunt)"
-    ]
-  },
-  {
     "lemma": "dull-witted",
     "id": "eng-adj-0500-dull-witted",
     "»trans": [
       "pol-adj-0334-tępy(dumb)"
-    ]
-  },
-  {
-    "lemma": "bright",
-    "id": "eng-adj-0501-bright(þ)",
-    "»trans": [
-      "pol-adj-0335-bystry"
     ]
   },
   {
@@ -3700,7 +3721,9 @@
     "lemma": "gloomy",
     "id": "eng-adj-0503-gloomy",
     "»trans": [
-      "pol-adj-0336-mroczny"
+      "pol-adj-0336-mroczny",
+      "pol-adj-0453-ponury",
+      "pol-adj-0755-posępny"
     ]
   },
   {
@@ -3721,21 +3744,8 @@
     "lemma": "nervous",
     "id": "eng-adj-0506-nervous",
     "»trans": [
-      "pol-adj-0338-nerwowy"
-    ]
-  },
-  {
-    "lemma": "nice",
-    "id": "eng-adj-0507-nice(þ)",
-    "»trans": [
-      "pol-adj-0340-miły(polite)"
-    ]
-  },
-  {
-    "lemma": "pleasant",
-    "id": "eng-adj-0508-pleasant(þ)",
-    "»trans": [
-      "pol-adj-0340-miły(polite)"
+      "pol-adj-0338-nerwowy",
+      "pol-adj-0384-zdenerwowany(nervous)"
     ]
   },
   {
@@ -3814,13 +3824,6 @@
   {
     "lemma": "unfamiliar",
     "id": "eng-adj-0519-unfamiliar",
-    "»trans": [
-      "pol-adj-0344-obcy"
-    ]
-  },
-  {
-    "lemma": "foreign",
-    "id": "eng-adj-0520-foreign(þ)",
     "»trans": [
       "pol-adj-0344-obcy"
     ]
@@ -3925,7 +3928,8 @@
     "lemma": "past",
     "id": "eng-adj-0534-past",
     "»trans": [
-      "pol-adj-0355-dawny"
+      "pol-adj-0355-dawny",
+      "pol-adj-0637-miniony"
     ]
   },
   {
@@ -4061,16 +4065,24 @@
   },
   {
     "lemma": "working",
-    "id": "eng-adj-0553-working",
+    "id": "eng-adj-0553-working(active)",
     "»trans": [
       "pol-adj-0367-czynny(active)"
+    ]
+  },
+  {
+    "lemma": "working",
+    "id": "eng-adj-0707-working(field)",
+    "»trans": [
+      "pol-adj-0469-roboczy"
     ]
   },
   {
     "lemma": "official",
     "id": "eng-adj-0554-official",
     "»trans": [
-      "pol-adj-0369-urzędowy"
+      "pol-adj-0369-urzędowy",
+      "pol-adj-0629-oficjalny"
     ]
   },
   {
@@ -4117,13 +4129,6 @@
     ]
   },
   {
-    "lemma": "strict",
-    "id": "eng-adj-0561-strict(þ)",
-    "»trans": [
-      "pol-adj-0373-surowy(strict)"
-    ]
-  },
-  {
     "lemma": "absolute",
     "id": "eng-adj-0562-absolute",
     "»trans": [
@@ -4146,10 +4151,17 @@
   },
   {
     "lemma": "bloody",
-    "id": "eng-adj-0565-bloody",
+    "id": "eng-adj-0565-bloody(damn)",
     "»trans": [
       "pol-adj-0377-cholerny",
       "pol-adj-0378-pieprzony"
+    ]
+  },
+  {
+    "lemma": "bloody",
+    "id": "eng-adj-0909-bloody(blood)",
+    "»trans": [
+      "pol-adj-0631-krwawy"
     ]
   },
   {
@@ -4211,17 +4223,17 @@
     ]
   },
   {
-    "lemma": "nervous",
-    "id": "eng-adj-0574-nervous(þ)",
+    "lemma": "violent",
+    "id": "eng-adj-0575-violent(person)",
     "»trans": [
-      "pol-adj-0384-zdenerwowany(nervous)"
+      "pol-adj-0385-gwałtowny(person)"
     ]
   },
   {
     "lemma": "violent",
-    "id": "eng-adj-0575-violent",
+    "id": "eng-adj-0701-violent(abstract)",
     "»trans": [
-      "pol-adj-0385-gwałtowny(person)"
+      "pol-adj-0465-brutalny"
     ]
   },
   {
@@ -4232,24 +4244,31 @@
     ]
   },
   {
-    "lemma": "sharp",
-    "id": "eng-adj-0577-sharp(þ)",
+    "lemma": "steep",
+    "id": "eng-adj-0578-steep(abstract)",
     "»trans": [
       "pol-adj-0386-gwałtowny(trendline)"
     ]
   },
   {
     "lemma": "steep",
-    "id": "eng-adj-0578-steep",
+    "id": "eng-adj-1057-steep(concrete)",
+    "»trans": [
+      "pol-adj-0750-stromy"
+    ]
+  },
+  {
+    "lemma": "sudden",
+    "id": "eng-adj-0579-sudden(abstract)",
     "»trans": [
       "pol-adj-0386-gwałtowny(trendline)"
     ]
   },
   {
     "lemma": "sudden",
-    "id": "eng-adj-0579-sudden",
+    "id": "eng-adj-0936-sudden(time)",
     "»trans": [
-      "pol-adj-0386-gwałtowny(trendline)"
+      "pol-adj-0651-nagły"
     ]
   },
   {
@@ -4332,13 +4351,6 @@
     ]
   },
   {
-    "lemma": "cheap",
-    "id": "eng-adj-0591-cheap(þ)",
-    "»trans": [
-      "pol-adj-0391-tandetny"
-    ]
-  },
-  {
     "lemma": "tacky",
     "id": "eng-adj-0592-tacky",
     "»trans": [
@@ -4378,14 +4390,8 @@
     "lemma": "exuberant",
     "id": "eng-adj-0597-exuberant",
     "»trans": [
-      "pol-adj-0395-wybujały"
-    ]
-  },
-  {
-    "lemma": "vivid",
-    "id": "eng-adj-0598-vivid(þ)",
-    "»trans": [
-      "pol-adj-0395-wybujały"
+      "pol-adj-0395-wybujały",
+      "pol-adj-0501-żywiołowy"
     ]
   },
   {
@@ -4576,13 +4582,6 @@
     ]
   },
   {
-    "lemma": "fine",
-    "id": "eng-adj-0625-fine(þ)",
-    "»trans": [
-      "pol-adj-0417-drobny(fine)"
-    ]
-  },
-  {
     "lemma": "petty",
     "id": "eng-adj-0626-petty",
     "»trans": [
@@ -4612,9 +4611,16 @@
   },
   {
     "lemma": "rough",
-    "id": "eng-adj-0630-rough",
+    "id": "eng-adj-0630-rough(texture)",
     "»trans": [
       "pol-adj-0420-szorstki"
+    ]
+  },
+  {
+    "lemma": "rough",
+    "id": "eng-adj-0642-rough(difficult)",
+    "»trans": [
+      "pol-adj-0425-burzliwy"
     ]
   },
   {
@@ -4695,13 +4701,6 @@
     ]
   },
   {
-    "lemma": "rough",
-    "id": "eng-adj-0642-rough(þ)",
-    "»trans": [
-      "pol-adj-0425-burzliwy"
-    ]
-  },
-  {
     "lemma": "turbulent",
     "id": "eng-adj-0643-turbulent",
     "»trans": [
@@ -4733,7 +4732,8 @@
     "lemma": "impressive",
     "id": "eng-adj-0647-impressive",
     "»trans": [
-      "pol-adj-0427-efektowny"
+      "pol-adj-0427-efektowny",
+      "pol-adj-0585-imponujący"
     ]
   },
   {
@@ -4831,13 +4831,6 @@
   {
     "lemma": "total",
     "id": "eng-adj-0661-total",
-    "»trans": [
-      "pol-adj-0439-całkowity"
-    ]
-  },
-  {
-    "lemma": "entire",
-    "id": "eng-adj-0662-entire(þ)",
     "»trans": [
       "pol-adj-0439-całkowity"
     ]
@@ -4966,14 +4959,6 @@
   {
     "lemma": "sombre",
     "id": "eng-adj-0680-sombre",
-    "»trans": [
-      "pol-adj-0453-ponury",
-      "pol-adj-0755-posępny"
-    ]
-  },
-  {
-    "lemma": "gloomy",
-    "id": "eng-adj-0681-gloomy(þ)",
     "»trans": [
       "pol-adj-0453-ponury",
       "pol-adj-0755-posępny"
@@ -5118,13 +5103,6 @@
     ]
   },
   {
-    "lemma": "violent",
-    "id": "eng-adj-0701-violent(þ)",
-    "»trans": [
-      "pol-adj-0465-brutalny"
-    ]
-  },
-  {
     "lemma": "wild",
     "id": "eng-adj-0702-wild",
     "»trans": [
@@ -5155,13 +5133,6 @@
   {
     "lemma": "work",
     "id": "eng-adj-0706-work",
-    "»trans": [
-      "pol-adj-0469-roboczy"
-    ]
-  },
-  {
-    "lemma": "working",
-    "id": "eng-adj-0707-working(þ)",
     "»trans": [
       "pol-adj-0469-roboczy"
     ]
@@ -5217,9 +5188,16 @@
   },
   {
     "lemma": "gentle",
-    "id": "eng-adj-0715-gentle",
+    "id": "eng-adj-0715-gentle(person)",
     "»trans": [
       "pol-adj-0477-delikatny(gentle)"
+    ]
+  },
+  {
+    "lemma": "gentle",
+    "id": "eng-adj-0819-gentle(mild)",
+    "»trans": [
+      "pol-adj-0564-łagodny(mild)"
     ]
   },
   {
@@ -5287,13 +5265,6 @@
     ]
   },
   {
-    "lemma": "principal",
-    "id": "eng-adj-0725-principal(þ)",
-    "»trans": [
-      "pol-adj-0486-generalny"
-    ]
-  },
-  {
     "lemma": "Arab",
     "id": "eng-adj-0726-Arab",
     "»trans": [
@@ -5330,9 +5301,17 @@
   },
   {
     "lemma": "domestic",
-    "id": "eng-adj-0731-domestic",
+    "id": "eng-adj-0731-domestic(politics)",
     "»trans": [
-      "pol-adj-0491-domowy(politics)"
+      "pol-adj-0491-domowy(politics)",
+      "pol-adj-0589-krajowy"
+    ]
+  },
+  {
+    "lemma": "domestic",
+    "id": "eng-adj-0733-domestic(house)",
+    "»trans": [
+      "pol-adj-0492-domowy(house)"
     ]
   },
   {
@@ -5340,13 +5319,6 @@
     "id": "eng-adj-0732-home",
     "»trans": [
       "pol-adj-0491-domowy(politics)"
-    ]
-  },
-  {
-    "lemma": "domestic",
-    "id": "eng-adj-0733-domestic(þ)",
-    "»trans": [
-      "pol-adj-0492-domowy(house)"
     ]
   },
   {
@@ -5384,20 +5356,6 @@
     "»trans": [
       "pol-adj-0494-swoisty",
       "pol-adj-0542-indywidualny"
-    ]
-  },
-  {
-    "lemma": "particular",
-    "id": "eng-adj-0739-particular(þ)",
-    "»trans": [
-      "pol-adj-0494-swoisty"
-    ]
-  },
-  {
-    "lemma": "peculiar",
-    "id": "eng-adj-0740-peculiar(þ)",
-    "»trans": [
-      "pol-adj-0494-swoisty"
     ]
   },
   {
@@ -5465,31 +5423,10 @@
     ]
   },
   {
-    "lemma": "exuberant",
-    "id": "eng-adj-0750-exuberant(þ)",
-    "»trans": [
-      "pol-adj-0501-żywiołowy"
-    ]
-  },
-  {
-    "lemma": "lively",
-    "id": "eng-adj-0751-lively(þ)",
-    "»trans": [
-      "pol-adj-0501-żywiołowy"
-    ]
-  },
-  {
     "lemma": "elegant",
     "id": "eng-adj-0752-elegant",
     "»trans": [
       "pol-adj-0502-elegancki",
-      "pol-adj-0503-wytworny"
-    ]
-  },
-  {
-    "lemma": "smart",
-    "id": "eng-adj-0753-smart(þ)",
-    "»trans": [
       "pol-adj-0503-wytworny"
     ]
   },
@@ -5582,7 +5519,8 @@
     "lemma": "inactive",
     "id": "eng-adj-0766-inactive",
     "»trans": [
-      "pol-adj-0517-bezczynny"
+      "pol-adj-0517-bezczynny",
+      "pol-adj-0605-nieczynny"
     ]
   },
   {
@@ -5670,13 +5608,6 @@
     ]
   },
   {
-    "lemma": "main",
-    "id": "eng-adj-0779-main(þ)",
-    "»trans": [
-      "pol-adj-0528-centralny"
-    ]
-  },
-  {
     "lemma": "educational",
     "id": "eng-adj-0780-educational",
     "»trans": [
@@ -5714,13 +5645,6 @@
   {
     "lemma": "today's",
     "id": "eng-adj-0785-today's",
-    "»trans": [
-      "pol-adj-0534-dzisiejszy"
-    ]
-  },
-  {
-    "lemma": "present",
-    "id": "eng-adj-0786-present(þ)",
     "»trans": [
       "pol-adj-0534-dzisiejszy"
     ]
@@ -5904,13 +5828,6 @@
     ]
   },
   {
-    "lemma": "fundamental",
-    "id": "eng-adj-0812-fundamental(þ)",
-    "»trans": [
-      "pol-adj-0559-kluczowy"
-    ]
-  },
-  {
     "lemma": "Catholic",
     "id": "eng-adj-0813-Catholic",
     "»trans": [
@@ -5953,20 +5870,6 @@
     ]
   },
   {
-    "lemma": "gentle",
-    "id": "eng-adj-0819-gentle(þ)",
-    "»trans": [
-      "pol-adj-0564-łagodny(mild)"
-    ]
-  },
-  {
-    "lemma": "soft",
-    "id": "eng-adj-0820-soft(þ)",
-    "»trans": [
-      "pol-adj-0564-łagodny(mild)"
-    ]
-  },
-  {
     "lemma": "benign",
     "id": "eng-adj-0821-benign",
     "»trans": [
@@ -5978,20 +5881,6 @@
     "id": "eng-adj-0822-subtle",
     "»trans": [
       "pol-adj-0566-subtelny"
-    ]
-  },
-  {
-    "lemma": "true",
-    "id": "eng-adj-0823-true(þ)",
-    "»trans": [
-      "pol-adj-0567-istny"
-    ]
-  },
-  {
-    "lemma": "real",
-    "id": "eng-adj-0824-real(þ)",
-    "»trans": [
-      "pol-adj-0567-istny"
     ]
   },
   {
@@ -6036,13 +5925,6 @@
     "»trans": [
       "pol-adj-0570-korzystny",
       "pol-adj-0718-pożyteczny"
-    ]
-  },
-  {
-    "lemma": "dangerous",
-    "id": "eng-adj-0831-dangerous(þ)",
-    "»trans": [
-      "pol-adj-0571-groźny"
     ]
   },
   {
@@ -6173,13 +6055,6 @@
     ]
   },
   {
-    "lemma": "impressive",
-    "id": "eng-adj-0850-impressive(þ)",
-    "»trans": [
-      "pol-adj-0585-imponujący"
-    ]
-  },
-  {
     "lemma": "Spanish",
     "id": "eng-adj-0851-Spanish",
     "»trans": [
@@ -6194,13 +6069,6 @@
     ]
   },
   {
-    "lemma": "domestic",
-    "id": "eng-adj-0853-domestic(þ)",
-    "»trans": [
-      "pol-adj-0589-krajowy"
-    ]
-  },
-  {
     "lemma": "autumn",
     "id": "eng-adj-0854-autumn",
     "»trans": [
@@ -6212,20 +6080,6 @@
     "id": "eng-adj-0855-autumnal",
     "»trans": [
       "pol-adj-0590-jesienny"
-    ]
-  },
-  {
-    "lemma": "bright",
-    "id": "eng-adj-0856-bright(þ)",
-    "»trans": [
-      "pol-adj-0591-jaskrawy"
-    ]
-  },
-  {
-    "lemma": "vivid",
-    "id": "eng-adj-0857-vivid(þ)",
-    "»trans": [
-      "pol-adj-0591-jaskrawy"
     ]
   },
   {
@@ -6342,22 +6196,8 @@
     ]
   },
   {
-    "lemma": "closed",
-    "id": "eng-adj-0874-closed(þ)",
-    "»trans": [
-      "pol-adj-0605-nieczynny"
-    ]
-  },
-  {
     "lemma": "out of order",
     "id": "eng-adj-0875-out of order",
-    "»trans": [
-      "pol-adj-0605-nieczynny"
-    ]
-  },
-  {
-    "lemma": "inactive",
-    "id": "eng-adj-0876-inactive(þ)",
     "»trans": [
       "pol-adj-0605-nieczynny"
     ]
@@ -6449,35 +6289,35 @@
   },
   {
     "lemma": "male",
-    "id": "eng-adj-0889-male",
+    "id": "eng-adj-0889-male(linguistics)",
+    "»trans": [
+      "pol-adj-0619-męski(linguistic)"
+    ]
+  },
+  {
+    "lemma": "male",
+    "id": "eng-adj-0892-male(manly)",
+    "»trans": [
+      "pol-adj-0620-męski(manly)"
+    ]
+  },
+  {
+    "lemma": "masculine",
+    "id": "eng-adj-0890-masculine(linguistics)",
     "»trans": [
       "pol-adj-0619-męski(linguistic)"
     ]
   },
   {
     "lemma": "masculine",
-    "id": "eng-adj-0890-masculine",
+    "id": "eng-adj-0893-masculine(manly)",
     "»trans": [
-      "pol-adj-0619-męski(linguistic)"
+      "pol-adj-0620-męski(manly)"
     ]
   },
   {
     "lemma": "manly",
     "id": "eng-adj-0891-manly",
-    "»trans": [
-      "pol-adj-0620-męski(manly)"
-    ]
-  },
-  {
-    "lemma": "male",
-    "id": "eng-adj-0892-male(þ)",
-    "»trans": [
-      "pol-adj-0620-męski(manly)"
-    ]
-  },
-  {
-    "lemma": "masculine",
-    "id": "eng-adj-0893-masculine(þ)",
     "»trans": [
       "pol-adj-0620-męski(manly)"
     ]
@@ -6574,24 +6414,10 @@
     ]
   },
   {
-    "lemma": "official",
-    "id": "eng-adj-0907-official(þ)",
-    "»trans": [
-      "pol-adj-0629-oficjalny"
-    ]
-  },
-  {
     "lemma": "German",
     "id": "eng-adj-0908-German",
     "»trans": [
       "pol-adj-0630-niemiecki"
-    ]
-  },
-  {
-    "lemma": "bloody",
-    "id": "eng-adj-0909-bloody(þ)",
-    "»trans": [
-      "pol-adj-0631-krwawy"
     ]
   },
   {
@@ -6662,13 +6488,6 @@
     "id": "eng-adj-0919-numerous",
     "»trans": [
       "pol-adj-0636-liczny"
-    ]
-  },
-  {
-    "lemma": "past",
-    "id": "eng-adj-0920-past(þ)",
-    "»trans": [
-      "pol-adj-0637-miniony"
     ]
   },
   {
@@ -6775,13 +6594,6 @@
     "id": "eng-adj-0935-uncertain",
     "»trans": [
       "pol-adj-0650-niepewny"
-    ]
-  },
-  {
-    "lemma": "sudden",
-    "id": "eng-adj-0936-sudden(þ)",
-    "»trans": [
-      "pol-adj-0651-nagły"
     ]
   },
   {
@@ -6975,20 +6787,6 @@
     ]
   },
   {
-    "lemma": "original",
-    "id": "eng-adj-0963-original(þ)",
-    "»trans": [
-      "pol-adj-0674-pierwotny"
-    ]
-  },
-  {
-    "lemma": "primary",
-    "id": "eng-adj-0964-primary(þ)",
-    "»trans": [
-      "pol-adj-0674-pierwotny"
-    ]
-  },
-  {
     "lemma": "modern",
     "id": "eng-adj-0965-modern",
     "»trans": [
@@ -7021,14 +6819,6 @@
     "id": "eng-adj-0969-little",
     "»trans": [
       "pol-adj-0678-niewielki"
-    ]
-  },
-  {
-    "lemma": "different",
-    "id": "eng-adj-0970-different(þ)",
-    "»trans": [
-      "pol-adj-0679-odmienny",
-      "pol-adj-0772-inny"
     ]
   },
   {
@@ -7250,13 +7040,6 @@
     ]
   },
   {
-    "lemma": "vague",
-    "id": "eng-adj-1002-vague(þ)",
-    "»trans": [
-      "pol-adj-0704-niewyraźny"
-    ]
-  },
-  {
     "lemma": "hazy",
     "id": "eng-adj-1003-hazy",
     "»trans": [
@@ -7341,13 +7124,6 @@
     "id": "eng-adj-1014-war",
     "»trans": [
       "pol-adj-0711-wojenny"
-    ]
-  },
-  {
-    "lemma": "legal",
-    "id": "eng-adj-1015-legal(þ)",
-    "»trans": [
-      "pol-adj-0712-prawny"
     ]
   },
   {
@@ -7436,20 +7212,6 @@
     "id": "eng-adj-1027-midnight",
     "»trans": [
       "pol-adj-0726-północny(midnight)"
-    ]
-  },
-  {
-    "lemma": "prepared",
-    "id": "eng-adj-1028-prepared(þ)",
-    "»trans": [
-      "pol-adj-0727-przygotowany"
-    ]
-  },
-  {
-    "lemma": "ready",
-    "id": "eng-adj-1029-ready(þ)",
-    "»trans": [
-      "pol-adj-0727-przygotowany"
     ]
   },
   {
@@ -7553,24 +7315,10 @@
     ]
   },
   {
-    "lemma": "right",
-    "id": "eng-adj-1044-right(þ)",
-    "»trans": [
-      "pol-adj-0742-prawy"
-    ]
-  },
-  {
     "lemma": "right hand",
     "id": "eng-adj-1045-right hand",
     "»trans": [
       "pol-adj-0742-prawy"
-    ]
-  },
-  {
-    "lemma": "wicked",
-    "id": "eng-adj-1046-wicked(þ)",
-    "»trans": [
-      "pol-adj-0743-niegodziwy"
     ]
   },
   {
@@ -7641,13 +7389,6 @@
     "id": "eng-adj-1056-midday",
     "»trans": [
       "pol-adj-0749-południowy(noon)"
-    ]
-  },
-  {
-    "lemma": "steep",
-    "id": "eng-adj-1057-steep(þ)",
-    "»trans": [
-      "pol-adj-0750-stromy"
     ]
   },
   {
@@ -7732,13 +7473,6 @@
     "id": "eng-adj-1069-underground",
     "»trans": [
       "pol-adj-0760-podziemny"
-    ]
-  },
-  {
-    "lemma": "next",
-    "id": "eng-adj-1070-next(þ)",
-    "»trans": [
-      "pol-adj-0762-przyszły"
     ]
   },
   {
@@ -7838,13 +7572,6 @@
     "id": "eng-adj-1084-broken",
     "»trans": [
       "pol-adj-0777-złamany"
-    ]
-  },
-  {
-    "lemma": "thick",
-    "id": "eng-adj-1085-thick(þ)",
-    "»trans": [
-      "pol-adj-0778-gęsty"
     ]
   },
   {

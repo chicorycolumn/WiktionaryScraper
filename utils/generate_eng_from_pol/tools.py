@@ -122,7 +122,7 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
 
         if not input_override:
             user_input = input(f"{input_counter['num'] + 1}/{total_anticipated} same meaning?\n"
-                               f"ENTER for yes     ANY KEY for no     w for tempsave\n")
+                               f"ENTER for yes   ANY KEY for no   w for tempsave ")
 
             if not user_input:
                 confirmation = True
@@ -189,7 +189,7 @@ def user_validate_translations(lobj, res, save_fxn):
         save_fxn(res, True)
 
     show1(lobj)
-    user_input = input("OK?     Enter for yes     Any key for no     h for help\n")
+    user_input = input("OK?   Enter for yes   Any key for no   h for help ")
 
     if not user_input:
         add_to_res(lobj)
@@ -203,6 +203,7 @@ def user_validate_translations(lobj, res, save_fxn):
         for char in user_input:
             if char not in "123456789dDfFwSsx":
                 c.print_red("         Did not recognise user input. Options are:")
+                time.sleep(0.5)
                 show_helptext()
                 return
 
@@ -260,7 +261,7 @@ def user_validate_translations(lobj, res, save_fxn):
         print("NEW lobj will have")
         print(trans_for_new_lobj)
         print("")
-        confirm = not input("OK?     Enter for yes     Any key for no\n")
+        confirm = not input("OK?   Enter for yes   Any key for no ")
 
         if confirm:
             lobj["translations"]["ENG"] = trans_for_original_lobj
@@ -354,7 +355,7 @@ def add_signalwords(sibling_set):
         print(">>", c.green(lobj_with_signalword[1]), lobj_with_signalword[0]["»trans"])
     print("")
 
-    user_input = input("OK?     Enter for yes     Any key for no\n")
+    user_input = input("OK?   Enter for yes   Any key for no ")
     confirmation = not user_input
 
     if confirmation:
@@ -362,7 +363,7 @@ def add_signalwords(sibling_set):
             lobj_with_signalword[0]["id"] = lobj_with_signalword[1]
 
         for lobj_to_delete in lobjs_to_delete:
-            c.print_red("DELETING", lobj_to_delete["id"])
+            c.print_bold("DELETING", lobj_to_delete["id"])
             print("")
             time.sleep(0.5)
             sibling_set.remove(lobj_to_delete)
@@ -393,26 +394,32 @@ def get_signalwords(lobjs):
     print("* * * * * * * * * * * * * * *")
     print("")
 
-    user_input = input('Enter signalwords     h for help\n')
+    user_input = input('Enter signalwords   h for help   ')
 
     if user_input == "h":
         c.print_teal("*  -  *  -  *  -  *  -  *  -  *  -  *  -  *")
         c.print_teal("Please enter signalwords separated by a space.")
         c.print_teal('You can merge lobjs by specifying indexes eg "merge 0 1".')
+        c.print_teal('Or merge all given lobjs by giving no indexes "m".')
         c.print_teal('You can delete lobjs by giving "x" as the signalword.')
         c.print_teal("*  -  *  -  *  -  *  -  *  -  *  -  *  -  *")
         return get_signalwords(lobjs)
 
     if not user_input:
         c.print_red("Did not recognise input. Please type signalwords separated by a space.")
+        time.sleep(0.5)
         return get_signalwords(lobjs)
 
     failed_character_check = False
     indexes_of_lobjs_to_merge = []
 
-    if user_input[0:5] == "merge":
-        if len(lobjs) == 2:
-            indexes_of_lobjs_to_merge = [0, 1]
+    if user_input[0:5] == "merge" or user_input in ["m", "merge"]:
+        if user_input == "m":
+            if len(lobjs):
+                num = 0
+                while num < len(lobjs):
+                    indexes_of_lobjs_to_merge.append(num)
+                    num += 1
         else:
             indexes_of_lobjs_to_merge = [int(char) for char in user_input.split(" ")[1:]]
             failed_index_validation = False
@@ -423,14 +430,16 @@ def get_signalwords(lobjs):
                     failed_index_validation = True
             if failed_index_validation:
                 c.print_red("Invalid indexes")
+                time.sleep(0.5)
                 return get_signalwords(lobjs)
     else:
         for char in user_input:
-            if char not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ":
+            if char not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 !":
                 failed_character_check = True
 
     if failed_character_check:
         c.print_red("Invalid input")
+        time.sleep(0.5)
         return get_signalwords(lobjs)
 
     if len(indexes_of_lobjs_to_merge):
@@ -438,9 +447,9 @@ def get_signalwords(lobjs):
         print("")
         print("WILL MERGE")
         for lo in lobjs_to_merge:
-            c.print_green(lo["id"])
+            print(c.blue(lo["id"]), lo["»trans"])
         print("")
-        conf = not input("OK?     Enter for yes     Any key for no\n")
+        conf = not input("OK?   Enter for yes   Any key for no ")
         if conf:
             base_lobj = lobjs_to_merge[0]
 
@@ -451,11 +460,7 @@ def get_signalwords(lobjs):
                 lobjs.remove(additive_lobj)
 
             print("")
-            print("MERGED")
-            for lobje in lobjs:
-                c.print_green(lobje["id"])
-            print("")
-            time.sleep(0.5)
+            print("MERGED into", c.green(base_lobj["id"]), base_lobj["»trans"])
 
         return get_signalwords(lobjs)
 
@@ -464,10 +469,17 @@ def get_signalwords(lobjs):
     for signalword in signalwords:
         if len(signalword) < 2 and signalword != "x":
             c.print_red("Signalwords must be more than one character each, separated by a space.")
+            time.sleep(0.5)
             return get_signalwords(lobjs)
 
     if len(signalwords) != len(lobjs):
         c.print_red(f"Expected {len(lobjs)} signalwords but got {len(signalwords)}.")
+        time.sleep(0.5)
+        return get_signalwords(lobjs)
+
+    if len(list(set(signalwords))) != len(signalwords) or lobjs[0]["lemma"] in signalwords:
+        c.print_red(f"Signalwords must be unique.")
+        time.sleep(0.5)
         return get_signalwords(lobjs)
 
     failed_signalword_check = False
@@ -476,6 +488,7 @@ def get_signalwords(lobjs):
             failed_signalword_check = True
     if failed_signalword_check:
         c.print_red("Invalid signalwords")
+        time.sleep(0.5)
         return get_signalwords(lobjs)
 
     return signalwords
@@ -499,7 +512,7 @@ def test_signalword(s):
             return False
 
     for char in s:
-        if char not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ,./-_":
+        if char not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 !,./-_":
             return False
 
     return True
