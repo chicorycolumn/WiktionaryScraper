@@ -7,10 +7,10 @@ from utils.general.common import write_todo
 from utils.universal import color as c
 
 
-def show1(lobj):
+def show1(lobj, target_lang):
     print("")
-    print(c.blue(lobj["id"]), f'({len(lobj["translations"]["ENG"])} trans)')
-    for tindex, tran in enumerate(lobj["translations"]["ENG"]):
+    print(c.blue(lobj["id"]), f'({len(lobj["translations"][target_lang])} trans)')
+    for tindex, tran in enumerate(lobj["translations"][target_lang]):
         print("     ", tindex + 1, c.blue(tran))
     print("")
 
@@ -51,7 +51,7 @@ def print_conf_no():
     print("")
 
 
-def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_anticipated, input_override, save_fxn):
+def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_anticipated, input_override, save_fxn, target_lang):
     for match_record in matches_record["YES"]:
         if len(match_record) == 2 and lobj_1["id"] in match_record and lobj_2["id"] in match_record:
             return "ALREADY CONFIRMED"
@@ -106,11 +106,11 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
         print("")
         print("**********************************")
         print("")
-        print(c.purple(lobj_1["id"]), "", lobj_1["translations"]["ENG"])
+        print(c.purple(lobj_1["id"]), "", lobj_1["translations"][target_lang])
         print(a_tags)
         print(a_topics)
         print("")
-        print(c.purple(lobj_2["id"]), "", lobj_2["translations"]["ENG"])
+        print(c.purple(lobj_2["id"]), "", lobj_2["translations"][target_lang])
         print(b_tags)
         print(b_topics)
         print("")
@@ -130,7 +130,7 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
                 save_fxn(True)
                 time.sleep(0.2)
                 return is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_anticipated,
-                                              input_override, save_fxn)
+                                              input_override, save_fxn, target_lang)
             else:
                 confirmation = False
 
@@ -150,7 +150,7 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
     record_it(False)
 
 
-def user_validate_translations(lobj, res, save_fxn):
+def user_validate_translations(lobj, res, save_fxn, target_lang):
     def show_helptext():
         print("")
         c.print_teal("--------------------------------------------------------------------")
@@ -170,7 +170,7 @@ def user_validate_translations(lobj, res, save_fxn):
             "s24S3  : Translations at eg indexes 2 and 4 are for new lobj, at index 3 is for both original and new lobjs.")
         print("--------------------------------------------------------------------")
         print("")
-        user_validate_translations(lobj, res, save_fxn)
+        user_validate_translations(lobj, res, save_fxn, target_lang)
 
     def add_to_res(l):
         dupe = {}
@@ -188,7 +188,7 @@ def user_validate_translations(lobj, res, save_fxn):
     if int(lobj["id"].split("-")[2]) % 10 == 1:
         save_fxn(res, True)
 
-    show1(lobj)
+    show1(lobj, target_lang)
     user_input = input("OK?   Enter for yes   Any key for no   h for help ")
 
     if not user_input:
@@ -216,11 +216,11 @@ def user_validate_translations(lobj, res, save_fxn):
         print("DELETING SOME TRANS...")
         indexes_trans_to_delete = [int(n) - 1 for n in user_input[1:]]
         trans_to_keep = []
-        for tindex, tran in enumerate(lobj["translations"]["ENG"]):
+        for tindex, tran in enumerate(lobj["translations"][target_lang]):
             if tindex not in indexes_trans_to_delete:
                 trans_to_keep.append(tran)
-        lobj["translations"]["ENG"] = trans_to_keep
-        user_validate_translations(lobj, res, save_fxn)
+        lobj["translations"][target_lang] = trans_to_keep
+        user_validate_translations(lobj, res, save_fxn, target_lang)
         return
 
     elif user_input[0] in ["s", "S"]:
@@ -243,7 +243,7 @@ def user_validate_translations(lobj, res, save_fxn):
         trans_for_original_lobj = []
         trans_for_new_lobj = []
 
-        for tindex, tran in enumerate(lobj["translations"]["ENG"]):
+        for tindex, tran in enumerate(lobj["translations"][target_lang]):
             if tindex in indexes_trans_to_move:
                 trans_for_new_lobj.append(tran)
             elif tindex in indexes_trans_to_copy:
@@ -264,7 +264,7 @@ def user_validate_translations(lobj, res, save_fxn):
         confirm = not input("OK?   Enter for yes   Any key for no ")
 
         if confirm:
-            lobj["translations"]["ENG"] = trans_for_original_lobj
+            lobj["translations"][target_lang] = trans_for_original_lobj
             add_to_res(lobj)
 
             if len(trans_for_new_lobj):
@@ -272,7 +272,7 @@ def user_validate_translations(lobj, res, save_fxn):
 
                 signal_word = None
                 for w in trans_for_new_lobj:
-                    if not signal_word and w not in lobj["translations"]["ENG"]:
+                    if not signal_word and w not in lobj["translations"][target_lang]:
                         signal_word = w
                 if not signal_word:
                     signal_word = "⛳"
@@ -280,22 +280,22 @@ def user_validate_translations(lobj, res, save_fxn):
                 duplicated_lobj["id"] += f"({signal_word})"
                 duplicated_lobj["tags"] = "🏁"  # Add tags and topics manully before next stage.
                 duplicated_lobj["topics"] = None
-                duplicated_lobj["translations"]["ENG"] = trans_for_new_lobj
+                duplicated_lobj["translations"][target_lang] = trans_for_new_lobj
                 add_to_res(duplicated_lobj)
 
                 if "(" not in lobj["id"]:
-                    lobj["id"] += f'({lobj["translations"]["ENG"][0]})'
+                    lobj["id"] += f'({lobj["translations"][target_lang][0]})'
 
             return
 
         else:
             print("🔄 RESTARTING...")
-            user_validate_translations(lobj, res, save_fxn)
+            user_validate_translations(lobj, res, save_fxn, target_lang)
             return
 
     elif user_input == "w":
         save_fxn(res, True)
-        user_validate_translations(lobj, res, save_fxn)
+        user_validate_translations(lobj, res, save_fxn, target_lang)
         return
 
     elif user_input[0] == "f":
@@ -311,7 +311,7 @@ def user_validate_translations(lobj, res, save_fxn):
         print("⬆️", c.blue(res[-1]["id"]), "will be FLAGGED")
         res[-1]["id"] += flag
         print("⬆️", c.green(res[-1]["id"]))
-        user_validate_translations(lobj, res, save_fxn)
+        user_validate_translations(lobj, res, save_fxn, target_lang)
         return
 
     elif user_input == "xf":
@@ -321,7 +321,7 @@ def user_validate_translations(lobj, res, save_fxn):
             print("❌", c.green(res[-1]["id"]))
         else:
             print(c.green(res[-1]["id"]), "DOESN'T HAVE ANY FLAGS")
-        user_validate_translations(lobj, res, save_fxn)
+        user_validate_translations(lobj, res, save_fxn, target_lang)
         return
 
     show_helptext()
