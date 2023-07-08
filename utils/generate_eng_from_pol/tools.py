@@ -122,7 +122,7 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
 
         if not input_override:
             user_input = input(f"{input_counter['num'] + 1}/{total_anticipated} same meaning?\n"
-                               f"ENTER for yes     ANY KEY for no     w for tempsave.\n")
+                               f"ENTER for yes     ANY KEY for no     w for tempsave\n")
 
             if not user_input:
                 confirmation = True
@@ -190,10 +190,14 @@ def user_validate_translations(lobj, res, save_fxn):
         save_fxn(res, True)
 
     show1(lobj)
-    user_input = input("OK? (hit Enter)")
+    user_input = input("OK?     Enter for yes     Any key for no     h for help")
 
     if not user_input:
         add_to_res(lobj)
+        return
+
+    if user_input == "h":
+        show_helptext()
         return
 
     if user_input[0] not in ["f", "F"]:
@@ -256,9 +260,9 @@ def user_validate_translations(lobj, res, save_fxn):
         print("NEW lobj will have")
         print(trans_for_new_lobj)
         print("")
-        confirm = input("OK? (hit Enter)")
+        confirm = not input("OK?     Enter for yes     Any key for no")
 
-        if not confirm:
+        if confirm:
             lobj["translations"]["ENG"] = trans_for_original_lobj
             add_to_res(lobj)
 
@@ -389,7 +393,16 @@ def get_signalwords(lobjs):
     print("* * * * * * * * * * * * * * *")
     print("")
 
-    user_input = input('Please add signalwords separate by a space.\nYou can merge lobjs by specifying indexes eg "merge 0 1".\nYou can delete lobjs by giving "x" as the signalword.\n')
+    user_input = input('Enter signalwords     h for help')
+
+    if user_input == "h":
+        print("*  -  *  -  *  -  *  -  *  -  *  -  *  -  *")
+        print("Please enter signalwords separated by a space.")
+        print('You can merge lobjs by specifying indexes eg "merge 0 1".')
+        print('You can delete lobjs by giving "x" as the signalword.')
+        print("*  -  *  -  *  -  *  -  *  -  *  -  *  -  *")
+        return get_signalwords(lobjs)
+
     if not user_input:
         c.print_red("Did not recognise input. Please type signalwords separated by a space.")
         return get_signalwords(lobjs)
