@@ -45,9 +45,14 @@ And then creating the Nexus objects that connect them.
     - automatically populate frequency and register from SRC onto TGT
     Modifies "nou_batch_01_TGT.json"
 
-11) Run "S8_doublecheck_frequency_on_tgt.py"
+11) Run "S8_doublecheck_frequency_on_tgt.py" with step=1 arg then step=2.
     - doublecheck the automatically populated frequency on TGT
     Modifies "nou_batch_01_TGT.json"
+
+11.5)  If you have renumbered the src lobjs at any point since creating the tgt lobjs in step 6)
+       run the supplemental stage "X1_renumber_src_lobjs_in_src_and_tgt.py"
+       Modifies "nou_batch_01_SRC.json"
+       Modifies "nou_batch_01_TGT.json"
 
 12) Run "S9_create_nexus.py".
     - to connect Source and Target lobjs using the translations data from steps 2-8.
