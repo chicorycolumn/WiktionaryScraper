@@ -550,13 +550,28 @@ def get_new_freqs(holder):
         c.print_teal("You are shown 20 lobjs for the given frequency category.")
         c.print_teal("If you want to change any, type their index and new frequency category.")
         c.print_teal('eg "13-1 14-5 20-1"')
+        c.print_teal('Or write as arrays with "a" arg:')
+        c.print_teal('eg "a 3=[13,14,20] 4=[1,2,4,9]"')
         c.print_teal(
             "will set lobj at index 13 to be freq 1, lobj at index 14 to be freq 5, and lobj at index 20 to be freq 1.")
         c.print_teal("-  *  -  *  -  *  -  *  -  *  -  *  -")
         print("")
         return get_new_freqs(holder)
 
-    user_input_split = user_input.split(" ")
+    user_input_split = user_input.strip().split(" ")
+
+    if user_input[0] == "a":
+        array_instructions = user_input[2:].split(" ")
+        for array_instruction in array_instructions:
+            new_freq_requested = int(array_instruction[0])
+            indexes_requested = array_instruction[3:-1].split(",")
+            print("")
+            print("new_freq_requested", int(new_freq_requested))
+            print("indexes_requested", [int(inde) for inde in indexes_requested])
+            for index_requested in indexes_requested:
+                for item in holder:
+                    if item[0] == index_requested:
+                        changes.append([new_freq_requested, item[1]["id"]])
 
     if not len(user_input_split):
         c.print_red("Invalid input A")

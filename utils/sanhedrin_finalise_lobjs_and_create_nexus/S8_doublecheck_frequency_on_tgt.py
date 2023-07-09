@@ -83,16 +83,19 @@ if __name__ == '__main__':
         temp_arr = []
 
         for lebindex, leb in enumerate(sorted_lobjs["F" + str(num)]):
-            if lebindex != 0 and lebindex <= to_change_lobjs[f"F{str(num)} done up to"]:
+            if to_change_lobjs[f"F{str(num)} done up to"] > 0 and lebindex <= to_change_lobjs[f"F{str(num)} done up to"]:
                 print("Already done", lebindex)
                 continue
 
             if lebindex != 0 and ((lebindex + 1 == len(sorted_lobjs["F" + str(num)])) or (lebindex % 20 == 0)):
                 temp_arr.append([lebindex, leb])
 
+                c.print_purple(f'Are these frequency category {str(num)}?')
                 for ho in temp_arr:
                     printable_lebindex = f"{' ' if ho[0] < 10 else ''}{ho[0]}"
                     print(c.bold(printable_lebindex), c.blue(ho[1]["id"]), ho[1]["»trans"])
+                c.print_purple(f'Are these frequency category {str(num)}?')
+                print("")
 
                 requested_changes = get_new_freqs(temp_arr)
 
@@ -101,8 +104,8 @@ if __name__ == '__main__':
                     id_of_lobj_to_change = requested_change[1]
                     to_change_lobjs[f"F{str(new_freq)}"].append(id_of_lobj_to_change)
 
-                save(to_change_lobjs, True)
                 to_change_lobjs[f"F{str(num)} done up to"] = lebindex
+                save(to_change_lobjs, True)
                 temp_arr = []
             else:
                 temp_arr.append([lebindex, leb])
