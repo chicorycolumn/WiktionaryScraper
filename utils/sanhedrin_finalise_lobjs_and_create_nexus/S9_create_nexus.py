@@ -71,7 +71,13 @@ if __name__ == '__main__':
         if already_done:
             continue
 
+        accumulated_topics = []
+        accumulated_tags = []
         tgt_connections = []
+
+        accumulated_topics.extend(src_lobj["topics"])
+        accumulated_tags.extend(src_lobj["tags"])
+
         for tgt_lobj in tgt:
             print(tgt_lobj)
             if src_lobj["id"] in tgt_lobj["»trans"]:
@@ -82,6 +88,8 @@ if __name__ == '__main__':
         for tgt_connection in tgt_connections:
             src_connections.extend(tgt_connection["»trans"])
 
+        accumulated_tags = list(set(accumulated_tags))
+        accumulated_topics = list(set(accumulated_topics))
         src_list = list(set(src_connections))
         tgt_list = list(set([tarl["id"] for tarl in tgt_connections]))
 
@@ -94,7 +102,9 @@ if __name__ == '__main__':
 
         records.append({
             "src": src_list,
-            "tgt": tgt_list
+            "tgt": tgt_list,
+            "tags": accumulated_tags,
+            "topics": accumulated_topics,
         })
 
     nexus_objects = []
@@ -114,18 +124,21 @@ if __name__ == '__main__':
         new_id_number = new_id_number[-4:]
         nexus_id_start_number += 1
 
-        print(11, record['tgt'])
-        new_nexus_id = f"{wordtype}-{new_id_number}-{record['tgt'][0].split('-')[-1]}"
+        sorted_list = sorted(record['tgt'])
+        first_id = sorted_list[0]
+        id_word = first_id.split('-')[-1]
+
+        new_nexus_id = f"{wordtype}-{new_id_number}-{id_word}"
 
         new_nexus_obj = {
             "key": new_nexus_id,
             "traductions": {
               "SPA": [],
-              "ENG": record["tgt"],
-              "POL": record["src"]
+              "ENG": sorted(record["tgt"]),
+              "POL": sorted(record["src"])
             },
-            "papers": src_lobj["tags"],
-            "topics": src_lobj["topics"]
+            "papers": record["tags"],
+            "topics": record["topics"]
         }
         nex.append(new_nexus_obj)
 
