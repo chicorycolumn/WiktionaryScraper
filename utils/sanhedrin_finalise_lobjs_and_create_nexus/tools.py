@@ -561,7 +561,7 @@ def get_new_freqs(holder):
     user_input_split = user_input.strip().split(" ")
 
     if "[" in user_input:
-        array_instructions = user_input[2:].split(" ")
+        array_instructions = user_input.split(" ")
         for array_instruction in array_instructions:
             new_freq_requested = int(array_instruction[0])
             indexes_requested = array_instruction[3:-1].split(",")
