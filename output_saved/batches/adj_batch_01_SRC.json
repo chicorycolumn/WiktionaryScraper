@@ -69805,99 +69805,627 @@
     "register": 0
   },
   {
-    "lemma": "zamknięty",
-    "id": "pol-adj-0330-zamknięty",
+    "lemma": "mądry",
+    "id": "pol-adj-0330-mądry",
     "tags": [
-      "concrete",
-      "holdable",
-      "household object",
-      "money"
+      "abstract",
+      "personality"
     ],
     "topics": [
       "appearance",
-      "business",
-      "geometry",
-      "home",
-      "inside",
-      "sense and perception",
-      "shopping"
+      "body",
+      "mental",
+      "sense and perception"
     ],
     "translations": {
       "ENG": [
-        "closed",
-        "shut"
+        "wise"
       ]
     },
     "extra": {
-      "synonyms": [
-        "hermetyczny",
-        "skryty",
-        "zamknięty",
-        "w",
-        "sobie",
-        "zeskorupiały"
-      ],
       "antonyms": [
-        "otwarty"
+        "głupi",
+        "niemądry"
       ]
     },
     "inflections": {
       "simple": {
         "singular": {
           "m1": {
-            "nom": "zamknięty",
-            "gen": "zamkniętego",
-            "dat": "zamkniętemu",
-            "acc": "zamkniętego",
-            "ins": "zamkniętym",
-            "loc": "zamkniętym"
+            "nom": "mądry",
+            "gen": "mądrego",
+            "dat": "mądremu",
+            "acc": "mądrego",
+            "ins": "mądrym",
+            "loc": "mądrym"
           },
           "m3": {
-            "nom": "zamknięty",
-            "gen": "zamkniętego",
-            "dat": "zamkniętemu",
-            "acc": "zamknięty",
-            "ins": "zamkniętym",
-            "loc": "zamkniętym"
+            "nom": "mądry",
+            "gen": "mądrego",
+            "dat": "mądremu",
+            "acc": "mądry",
+            "ins": "mądrym",
+            "loc": "mądrym"
           },
           "f": {
-            "nom": "zamknięta",
-            "gen": "zamkniętej",
-            "dat": "zamkniętej",
-            "acc": "zamkniętą",
-            "ins": "zamkniętą",
-            "loc": "zamkniętej"
+            "nom": "mądra",
+            "gen": "mądrej",
+            "dat": "mądrej",
+            "acc": "mądrą",
+            "ins": "mądrą",
+            "loc": "mądrej"
           },
           "n": {
-            "nom": "zamknięte",
-            "gen": "zamkniętego",
-            "dat": "zamkniętemu",
-            "acc": "zamknięte",
-            "ins": "zamkniętym",
-            "loc": "zamkniętym"
+            "nom": "mądre",
+            "gen": "mądrego",
+            "dat": "mądremu",
+            "acc": "mądre",
+            "ins": "mądrym",
+            "loc": "mądrym"
           }
         },
         "plural": {
           "virile": {
-            "nom": "zamknięci",
-            "gen": "zamkniętych",
-            "dat": "zamkniętym",
-            "acc": "zamkniętych",
-            "ins": "zamkniętymi",
-            "loc": "zamkniętych"
+            "nom": "mądrzy",
+            "gen": "mądrych",
+            "dat": "mądrym",
+            "acc": "mądrych",
+            "ins": "mądrymi",
+            "loc": "mądrych"
           },
           "nonvirile": {
-            "nom": "zamknięte",
-            "gen": "zamkniętych",
-            "dat": "zamkniętym",
-            "acc": "zamknięte",
-            "ins": "zamkniętymi",
-            "loc": "zamkniętych"
+            "nom": "mądre",
+            "gen": "mądrych",
+            "dat": "mądrym",
+            "acc": "mądre",
+            "ins": "mądrymi",
+            "loc": "mądrych"
+          }
+        }
+      },
+      "adverb": "mądrze",
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszy",
+                "mędrszy"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszego",
+                "mędrszego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszemu",
+                "mędrszemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszego",
+                "mędrszego"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszym",
+                "mędrszym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszym",
+                "mędrszym"
+              ]
+            }
+          },
+          "m3": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszy",
+                "mędrszy"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszego",
+                "mędrszego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszemu",
+                "mędrszemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszy",
+                "mędrszy"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszym",
+                "mędrszym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszym",
+                "mędrszym"
+              ]
+            }
+          },
+          "f": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejsza",
+                "mędrsza"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszej",
+                "mędrszej"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszej",
+                "mędrszej"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszą",
+                "mędrszą"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszą",
+                "mędrszą"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszej",
+                "mędrszej"
+              ]
+            }
+          },
+          "n": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejsze",
+                "mędrsze"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszego",
+                "mędrszego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszemu",
+                "mędrszemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejsze",
+                "mędrsze"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszym",
+                "mędrszym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszym",
+                "mędrszym"
+              ]
+            }
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejsi",
+                "mędrsi"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszych",
+                "mędrszych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszym",
+                "mędrszym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszych",
+                "mędrszych"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszymi",
+                "mędrszymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszych",
+                "mędrszych"
+              ]
+            }
+          },
+          "nonvirile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejsze",
+                "mędrsze"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszych",
+                "mędrszych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszym",
+                "mędrszym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejsze",
+                "mędrsze"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszymi",
+                "mędrszymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "mądrzejszych",
+                "mędrszych"
+              ]
+            }
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszy",
+                "najmędrszy"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszego",
+                "najmędrszego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszemu",
+                "najmędrszemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszego",
+                "najmędrszego"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszym",
+                "najmędrszym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszym",
+                "najmędrszym"
+              ]
+            }
+          },
+          "m3": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszy",
+                "najmędrszy"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszego",
+                "najmędrszego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszemu",
+                "najmędrszemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszy",
+                "najmędrszy"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszym",
+                "najmędrszym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszym",
+                "najmędrszym"
+              ]
+            }
+          },
+          "f": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejsza",
+                "najmędrsza"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszej",
+                "najmędrszej"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszej",
+                "najmędrszej"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszą",
+                "najmędrszą"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszą",
+                "najmędrszą"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszej",
+                "najmędrszej"
+              ]
+            }
+          },
+          "n": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejsze",
+                "najmędrsze"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszego",
+                "najmędrszego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszemu",
+                "najmędrszemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejsze",
+                "najmędrsze"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszym",
+                "najmędrszym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszym",
+                "najmędrszym"
+              ]
+            }
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejsi",
+                "najmędrsi"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszych",
+                "najmędrszych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszym",
+                "najmędrszym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszych",
+                "najmędrszych"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszymi",
+                "najmędrszymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszych",
+                "najmędrszych"
+              ]
+            }
+          },
+          "nonvirile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejsze",
+                "najmędrsze"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszych",
+                "najmędrszych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszym",
+                "najmędrszym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejsze",
+                "najmędrsze"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszymi",
+                "najmędrszymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najmądrzejszych",
+                "najmędrszych"
+              ]
+            }
           }
         }
       }
     },
-    "frequency": 2,
+    "frequency": 3,
     "register": 0
   },
   {
@@ -143470,630 +143998,6 @@
       }
     },
     "frequency": 2,
-    "register": 0
-  },
-  {
-    "lemma": "mądry",
-    "id": "pol-adj-0780-mądry",
-    "tags": [
-      "abstract",
-      "personality"
-    ],
-    "topics": [
-      "appearance",
-      "body",
-      "mental",
-      "sense and perception"
-    ],
-    "translations": {
-      "ENG": [
-        "wise"
-      ]
-    },
-    "extra": {
-      "antonyms": [
-        "głupi",
-        "niemądry"
-      ]
-    },
-    "inflections": {
-      "simple": {
-        "singular": {
-          "m1": {
-            "nom": "mądry",
-            "gen": "mądrego",
-            "dat": "mądremu",
-            "acc": "mądrego",
-            "ins": "mądrym",
-            "loc": "mądrym"
-          },
-          "m3": {
-            "nom": "mądry",
-            "gen": "mądrego",
-            "dat": "mądremu",
-            "acc": "mądry",
-            "ins": "mądrym",
-            "loc": "mądrym"
-          },
-          "f": {
-            "nom": "mądra",
-            "gen": "mądrej",
-            "dat": "mądrej",
-            "acc": "mądrą",
-            "ins": "mądrą",
-            "loc": "mądrej"
-          },
-          "n": {
-            "nom": "mądre",
-            "gen": "mądrego",
-            "dat": "mądremu",
-            "acc": "mądre",
-            "ins": "mądrym",
-            "loc": "mądrym"
-          }
-        },
-        "plural": {
-          "virile": {
-            "nom": "mądrzy",
-            "gen": "mądrych",
-            "dat": "mądrym",
-            "acc": "mądrych",
-            "ins": "mądrymi",
-            "loc": "mądrych"
-          },
-          "nonvirile": {
-            "nom": "mądre",
-            "gen": "mądrych",
-            "dat": "mądrym",
-            "acc": "mądre",
-            "ins": "mądrymi",
-            "loc": "mądrych"
-          }
-        }
-      },
-      "adverb": "mądrze",
-      "comparative": {
-        "singular": {
-          "m1": {
-            "nom": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszy",
-                "mędrszy"
-              ]
-            },
-            "gen": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszego",
-                "mędrszego"
-              ]
-            },
-            "dat": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszemu",
-                "mędrszemu"
-              ]
-            },
-            "acc": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszego",
-                "mędrszego"
-              ]
-            },
-            "ins": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszym",
-                "mędrszym"
-              ]
-            },
-            "loc": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszym",
-                "mędrszym"
-              ]
-            }
-          },
-          "m3": {
-            "nom": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszy",
-                "mędrszy"
-              ]
-            },
-            "gen": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszego",
-                "mędrszego"
-              ]
-            },
-            "dat": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszemu",
-                "mędrszemu"
-              ]
-            },
-            "acc": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszy",
-                "mędrszy"
-              ]
-            },
-            "ins": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszym",
-                "mędrszym"
-              ]
-            },
-            "loc": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszym",
-                "mędrszym"
-              ]
-            }
-          },
-          "f": {
-            "nom": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejsza",
-                "mędrsza"
-              ]
-            },
-            "gen": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszej",
-                "mędrszej"
-              ]
-            },
-            "dat": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszej",
-                "mędrszej"
-              ]
-            },
-            "acc": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszą",
-                "mędrszą"
-              ]
-            },
-            "ins": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszą",
-                "mędrszą"
-              ]
-            },
-            "loc": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszej",
-                "mędrszej"
-              ]
-            }
-          },
-          "n": {
-            "nom": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejsze",
-                "mędrsze"
-              ]
-            },
-            "gen": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszego",
-                "mędrszego"
-              ]
-            },
-            "dat": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszemu",
-                "mędrszemu"
-              ]
-            },
-            "acc": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejsze",
-                "mędrsze"
-              ]
-            },
-            "ins": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszym",
-                "mędrszym"
-              ]
-            },
-            "loc": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszym",
-                "mędrszym"
-              ]
-            }
-          }
-        },
-        "plural": {
-          "virile": {
-            "nom": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejsi",
-                "mędrsi"
-              ]
-            },
-            "gen": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszych",
-                "mędrszych"
-              ]
-            },
-            "dat": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszym",
-                "mędrszym"
-              ]
-            },
-            "acc": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszych",
-                "mędrszych"
-              ]
-            },
-            "ins": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszymi",
-                "mędrszymi"
-              ]
-            },
-            "loc": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszych",
-                "mędrszych"
-              ]
-            }
-          },
-          "nonvirile": {
-            "nom": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejsze",
-                "mędrsze"
-              ]
-            },
-            "gen": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszych",
-                "mędrszych"
-              ]
-            },
-            "dat": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszym",
-                "mędrszym"
-              ]
-            },
-            "acc": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejsze",
-                "mędrsze"
-              ]
-            },
-            "ins": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszymi",
-                "mędrszymi"
-              ]
-            },
-            "loc": {
-              "isTerminus": true,
-              "normal": [
-                "mądrzejszych",
-                "mędrszych"
-              ]
-            }
-          }
-        }
-      },
-      "superlative": {
-        "singular": {
-          "m1": {
-            "nom": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszy",
-                "najmędrszy"
-              ]
-            },
-            "gen": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszego",
-                "najmędrszego"
-              ]
-            },
-            "dat": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszemu",
-                "najmędrszemu"
-              ]
-            },
-            "acc": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszego",
-                "najmędrszego"
-              ]
-            },
-            "ins": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszym",
-                "najmędrszym"
-              ]
-            },
-            "loc": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszym",
-                "najmędrszym"
-              ]
-            }
-          },
-          "m3": {
-            "nom": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszy",
-                "najmędrszy"
-              ]
-            },
-            "gen": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszego",
-                "najmędrszego"
-              ]
-            },
-            "dat": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszemu",
-                "najmędrszemu"
-              ]
-            },
-            "acc": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszy",
-                "najmędrszy"
-              ]
-            },
-            "ins": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszym",
-                "najmędrszym"
-              ]
-            },
-            "loc": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszym",
-                "najmędrszym"
-              ]
-            }
-          },
-          "f": {
-            "nom": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejsza",
-                "najmędrsza"
-              ]
-            },
-            "gen": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszej",
-                "najmędrszej"
-              ]
-            },
-            "dat": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszej",
-                "najmędrszej"
-              ]
-            },
-            "acc": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszą",
-                "najmędrszą"
-              ]
-            },
-            "ins": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszą",
-                "najmędrszą"
-              ]
-            },
-            "loc": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszej",
-                "najmędrszej"
-              ]
-            }
-          },
-          "n": {
-            "nom": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejsze",
-                "najmędrsze"
-              ]
-            },
-            "gen": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszego",
-                "najmędrszego"
-              ]
-            },
-            "dat": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszemu",
-                "najmędrszemu"
-              ]
-            },
-            "acc": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejsze",
-                "najmędrsze"
-              ]
-            },
-            "ins": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszym",
-                "najmędrszym"
-              ]
-            },
-            "loc": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszym",
-                "najmędrszym"
-              ]
-            }
-          }
-        },
-        "plural": {
-          "virile": {
-            "nom": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejsi",
-                "najmędrsi"
-              ]
-            },
-            "gen": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszych",
-                "najmędrszych"
-              ]
-            },
-            "dat": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszym",
-                "najmędrszym"
-              ]
-            },
-            "acc": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszych",
-                "najmędrszych"
-              ]
-            },
-            "ins": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszymi",
-                "najmędrszymi"
-              ]
-            },
-            "loc": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszych",
-                "najmędrszych"
-              ]
-            }
-          },
-          "nonvirile": {
-            "nom": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejsze",
-                "najmędrsze"
-              ]
-            },
-            "gen": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszych",
-                "najmędrszych"
-              ]
-            },
-            "dat": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszym",
-                "najmędrszym"
-              ]
-            },
-            "acc": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejsze",
-                "najmędrsze"
-              ]
-            },
-            "ins": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszymi",
-                "najmędrszymi"
-              ]
-            },
-            "loc": {
-              "isTerminus": true,
-              "normal": [
-                "najmądrzejszych",
-                "najmędrszych"
-              ]
-            }
-          }
-        }
-      }
-    },
-    "frequency": 3,
     "register": 0
   }
 ]
