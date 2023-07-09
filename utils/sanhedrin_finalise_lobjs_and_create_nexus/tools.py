@@ -533,6 +533,60 @@ def get_freq(lobj, prompt, allow_null: bool = False):
     return int(user_input)
 
 
+def get_new_freqs(holder):
+
+    changes = []
+
+    indexes = [item[0] for item in holder]
+
+    user_input = input("OK?   Enter for yes   Or type indexes and new frequencies   h for help\n\n")
+
+    if not user_input:
+        return []
+
+    if user_input == "h":
+        print("")
+        c.print_teal("-  *  -  *  -  *  -  *  -  *  -  *  -")
+        c.print_teal("You are shown 20 lobjs for the given frequency category.")
+        c.print_teal("If you want to change any, type their index and new frequency category.")
+        c.print_teal('eg "13-1 14-5 20-1"')
+        c.print_teal(
+            "will set lobj at index 13 to be freq 1, lobj at index 14 to be freq 5, and lobj at index 20 to be freq 1.")
+        c.print_teal("-  *  -  *  -  *  -  *  -  *  -  *  -")
+        print("")
+        return get_new_freqs(holder)
+
+    user_input_split = user_input.split(" ")
+
+    if not len(user_input_split):
+        c.print_red("Invalid input A")
+        return get_new_freqs(holder)
+    for new_freq_instructions in user_input_split:
+        new_freq_instructions_split = new_freq_instructions.split("-")
+        if len(new_freq_instructions_split) != 2:
+            print(c.red("Invalid input B"), new_freq_instructions)
+            return get_new_freqs(holder)
+        else:
+            for char in new_freq_instructions_split[0]:
+                if char not in "1234567890":
+                    print(c.red("Invalid input C"), new_freq_instructions)
+                    return get_new_freqs(holder)
+            if int(new_freq_instructions_split[0]) not in indexes:
+                print(c.red("Invalid input D"), new_freq_instructions)
+                return get_new_freqs(holder)
+            for char in new_freq_instructions_split[1]:
+                if char not in "12345":
+                    print(c.red("Invalid input E"), new_freq_instructions)
+                    return get_new_freqs(holder)
+    for new_freq_instructions in user_input_split:
+        new_freq_instructions_split = new_freq_instructions.split("-")
+        index_to_modify = int(new_freq_instructions_split[0])
+        new_freq = int(new_freq_instructions_split[1])
+        for item in holder:
+            if item[0] == index_to_modify:
+                changes.append([new_freq, item[1]["id"]])
+    return changes
+
 reg_refs = [
     {"tag": "fancy", "num": 1},
     {"tag": "slang", "num": 6},
