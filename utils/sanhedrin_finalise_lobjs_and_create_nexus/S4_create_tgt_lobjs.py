@@ -133,7 +133,8 @@ if __name__ == '__main__':
 
                 print("          Part 2: Create/Merge TARGET lobj for this trans")
 
-                new_t = t
+                new_t_split = [char for char in t if char not in [" ", "-"]]
+                new_t = "".join(new_t_split)
 
                 if t[0] == "*":
                     new_t = t_without_star

@@ -390,5 +390,3 @@ Also sort this in all lobjs.
 2023-04-12 11:39 "charakteryzować" has no infinitive. Kicking it out of verbs.
 2023-04-12 11:39 The "conditional" tense on perfective "rozejść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
 2023-04-12 11:39 SKIPPED this entire lobj in minimise_inflections. "future" tense on imperfective "odrzucać" should have 31 strings but has 20.
-
-Check in nex src tgt for IDs which have "kick-ass" as word. Change those. Change all lemmas which include a dash to not have a dash.

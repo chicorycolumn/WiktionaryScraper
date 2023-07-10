@@ -57,3 +57,9 @@ And then creating the Nexus objects that connect them.
 12) Run "S9_create_nexus.py".
     - to connect Source and Target lobjs using the translations data from steps 2-8.
     Creates "nou_batch_01_NEX.json"
+
+12.5)  If you have added or removed lobjs since step 12), run the supplemental stages
+       "X2_renumber_src_lobjs_in_src_and_nex.py" and "X3_renumber_tgt_lobjs_in_tgt_and_nex.py"
+       Modifies "nou_batch_01_NEX.json"
+       Modifies "nou_batch_01_SRC.json"
+       Modifies "nou_batch_01_TGT.json"
