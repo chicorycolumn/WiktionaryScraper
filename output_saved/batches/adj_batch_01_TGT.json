@@ -2230,7 +2230,7 @@
   },
   {
     "lemma": "kick-ass",
-    "id": "eng-adj-0235-kick-ass",
+    "id": "eng-adj-0235-kickass",
     "»trans": [
       "pol-adj-0133-zajebisty"
     ],
@@ -2239,7 +2239,7 @@
   },
   {
     "lemma": "shit-hot",
-    "id": "eng-adj-0236-shit-hot",
+    "id": "eng-adj-0236-shithot",
     "»trans": [
       "pol-adj-0133-zajebisty"
     ],
@@ -3393,7 +3393,7 @@
   },
   {
     "lemma": "tongue-in-cheek",
-    "id": "eng-adj-0358-tongue-in-cheek",
+    "id": "eng-adj-0358-tongueincheek",
     "»trans": [
       "pol-adj-0230-żartobliwy"
     ],
@@ -4482,7 +4482,7 @@
   },
   {
     "lemma": "man-made",
-    "id": "eng-adj-0476-man-made",
+    "id": "eng-adj-0476-manmade",
     "»trans": [
       "pol-adj-0319-sztuczny"
     ],
@@ -4490,13 +4490,13 @@
     "frequency": 3
   },
   {
-    "lemma": "manmade",
-    "id": "eng-adj-0477-manmade",
+    "lemma": "green",
+    "id": "eng-adj-0477-green",
     "»trans": [
-      "pol-adj-0319-sztuczny"
+      "pol-adj-0778-zielony"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 1
   },
   {
     "lemma": "calm",
@@ -5123,7 +5123,7 @@
   },
   {
     "lemma": "long-lasting",
-    "id": "eng-adj-0545-long-lasting",
+    "id": "eng-adj-0545-longlasting",
     "»trans": [
       "pol-adj-0366-długotrwały"
     ],
@@ -5132,7 +5132,7 @@
   },
   {
     "lemma": "short-lived",
-    "id": "eng-adj-0546-short-lived",
+    "id": "eng-adj-0546-shortlived",
     "»trans": [
       "pol-adj-0367-krótkotrwały"
     ],
@@ -5795,17 +5795,17 @@
     "frequency": 5
   },
   {
-    "lemma": "sky blue",
-    "id": "eng-adj-0618-sky blue",
+    "lemma": "wise",
+    "id": "eng-adj-0618-wise",
     "»trans": [
-      "pol-adj-0414-błękitny"
+      "pol-adj-0330-mądry"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 3
   },
   {
     "lemma": "sky-blue",
-    "id": "eng-adj-0619-sky-blue",
+    "id": "eng-adj-0619-skyblue",
     "»trans": [
       "pol-adj-0414-błękitny"
     ],
@@ -6882,7 +6882,7 @@
   },
   {
     "lemma": "hand-",
-    "id": "eng-adj-0737-hand-",
+    "id": "eng-adj-0737-hand",
     "»trans": [
       "pol-adj-0498-ręczny"
     ],
@@ -8423,7 +8423,7 @@
   },
   {
     "lemma": "left-wing",
-    "id": "eng-adj-0907-left-wing",
+    "id": "eng-adj-0907-leftwing",
     "»trans": [
       "pol-adj-0652-lewicowy"
     ],
@@ -9295,7 +9295,7 @@
   },
   {
     "lemma": "see-through",
-    "id": "eng-adj-1002-see-through",
+    "id": "eng-adj-1002-seethrough",
     "»trans": [
       "pol-adj-0737-przezroczysty"
     ],
@@ -9683,15 +9683,6 @@
     "frequency": 4
   },
   {
-    "lemma": "green",
-    "id": "eng-adj-1045-green",
-    "»trans": [
-      "pol-adj-0778-zielony"
-    ],
-    "register": 0,
-    "frequency": 1
-  },
-  {
     "lemma": "clean",
     "id": "eng-adj-1046-clean",
     "»trans": [
@@ -9708,14 +9699,5 @@
     ],
     "register": 0,
     "frequency": 2
-  },
-  {
-    "lemma": "wise",
-    "id": "eng-adj-1048-wise",
-    "»trans": [
-      "pol-adj-0330-mądry"
-    ],
-    "register": 0,
-    "frequency": 3
   }
 ]
