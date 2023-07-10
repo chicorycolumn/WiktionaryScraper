@@ -143999,5 +143999,191 @@
     },
     "frequency": 2,
     "register": 0
+  },
+    {
+    "lemma": "schludny",
+    "id": "pol-adj-9999-schludny",
+    "tags": [
+      "personality",
+      "positive judgment",
+      "concrete"
+    ],
+    "topics": [
+      "people",
+      "daily routine"
+    ],
+    "translations": {
+      "ENG": [
+        "tidy",
+        "clean"
+      ]
+    },
+    "inflections": {
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "schludny",
+            "gen": "schludnego",
+            "dat": "schludnemu",
+            "acc": "schludnego",
+            "ins": "schludnym",
+            "loc": "schludnym"
+          },
+          "m3": {
+            "nom": "schludny",
+            "gen": "schludnego",
+            "dat": "schludnemu",
+            "acc": "schludny",
+            "ins": "schludnym",
+            "loc": "schludnym"
+          },
+          "f": {
+            "nom": "schludna",
+            "gen": "schludnej",
+            "dat": "schludnej",
+            "acc": "schludną",
+            "ins": "schludną",
+            "loc": "schludnej"
+          },
+          "n": {
+            "nom": "schludne",
+            "gen": "schludnego",
+            "dat": "schludnemu",
+            "acc": "schludne",
+            "ins": "schludnym",
+            "loc": "schludnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "schludni",
+            "gen": "schludnych",
+            "dat": "schludnym",
+            "acc": "schludnych",
+            "ins": "schludnymi",
+            "loc": "schludnych"
+          },
+          "nonvirile": {
+            "nom": "schludne",
+            "gen": "schludnych",
+            "dat": "schludnym",
+            "acc": "schludne",
+            "ins": "schludnymi",
+            "loc": "schludnych"
+          }
+        }
+      },
+      "adverb": "schludnie",
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "schludniejszy",
+            "gen": "schludniejszego",
+            "dat": "schludniejszemu",
+            "acc": "schludniejszego",
+            "ins": "schludniejszym",
+            "loc": "schludniejszym"
+          },
+          "m3": {
+            "nom": "schludniejszy",
+            "gen": "schludniejszego",
+            "dat": "schludniejszemu",
+            "acc": "schludniejszy",
+            "ins": "schludniejszym",
+            "loc": "schludniejszym"
+          },
+          "f": {
+            "nom": "schludniejsza",
+            "gen": "schludniejszej",
+            "dat": "schludniejszej",
+            "acc": "schludniejszą",
+            "ins": "schludniejszą",
+            "loc": "schludniejszej"
+          },
+          "n": {
+            "nom": "schludniejsze",
+            "gen": "schludniejszego",
+            "dat": "schludniejszemu",
+            "acc": "schludniejsze",
+            "ins": "schludniejszym",
+            "loc": "schludniejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "schludniejsi",
+            "gen": "schludniejszych",
+            "dat": "schludniejszym",
+            "acc": "schludniejszych",
+            "ins": "schludniejszymi",
+            "loc": "schludniejszych"
+          },
+          "nonvirile": {
+            "nom": "schludniejsze",
+            "gen": "schludniejszych",
+            "dat": "schludniejszym",
+            "acc": "schludniejsze",
+            "ins": "schludniejszymi",
+            "loc": "schludniejszych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najschludniejszy",
+            "gen": "najschludniejszego",
+            "dat": "najschludniejszemu",
+            "acc": "najschludniejszego",
+            "ins": "najschludniejszym",
+            "loc": "najschludniejszym"
+          },
+          "m3": {
+            "nom": "najschludniejszy",
+            "gen": "najschludniejszego",
+            "dat": "najschludniejszemu",
+            "acc": "najschludniejszy",
+            "ins": "najschludniejszym",
+            "loc": "najschludniejszym"
+          },
+          "f": {
+            "nom": "najschludniejsza",
+            "gen": "najschludniejszej",
+            "dat": "najschludniejszej",
+            "acc": "najschludniejszą",
+            "ins": "najschludniejszą",
+            "loc": "najschludniejszej"
+          },
+          "n": {
+            "nom": "najschludniejsze",
+            "gen": "najschludniejszego",
+            "dat": "najschludniejszemu",
+            "acc": "najschludniejsze",
+            "ins": "najschludniejszym",
+            "loc": "najschludniejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najschludniejsi",
+            "gen": "najschludniejszych",
+            "dat": "najschludniejszym",
+            "acc": "najschludniejszych",
+            "ins": "najschludniejszymi",
+            "loc": "najschludniejszych"
+          },
+          "nonvirile": {
+            "nom": "najschludniejsze",
+            "gen": "najschludniejszych",
+            "dat": "najschludniejszym",
+            "acc": "najschludniejsze",
+            "ins": "najschludniejszymi",
+            "loc": "najschludniejszych"
+          }
+        }
+      }
+    },
+    "frequency": 4,
+    "register": 0
   }
 ]
