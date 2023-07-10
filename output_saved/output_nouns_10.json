@@ -7338,61 +7338,45 @@
             }
         }
     },
-    {
+     {
         "temp_id": "10.164",
-        "lemma": "pajac",
-        "gender": "m2",
-        "tags": [
-            "animal"
-        ],
+        "lemma": "niewidomy",
+        "gender": "m1",
+        "tags": [],
         "translations": {
             "ENG": [
-                "doll puppet",
-                "(dated)",
-                "clown",
-                "(person that cannot be taken seriously) (colloquial derogatory)"
+                "a blind man or boy"
             ]
         },
         "id": null,
         "extra": {
             "otherShapes": {
-                "diminutive": [
-                    "pajacyk"
+                "feminine": [
+                    "niewidoma"
                 ]
-            },
-            "synonyms": [
-                "pajacyk",
-                "głupiec"
-            ],
-            "derivedTerms": [
-                "pajacowaty",
-                "pajacowski",
-                "pajacować"
-            ],
-            "usage": [
-                "Hypernym: lalka"
-            ]
-        },
-        "inflections": {
-            "singular": {
-                "nom": "pajac",
-                "gen": "pajaca",
-                "dat": "pajacowi",
-                "acc": "pajaca",
-                "ins": "pajacem",
-                "loc": "pajacu",
-                "voc": "pajacu"
-            },
-            "plural": {
-                "nom": "pajace",
-                "gen": "pajaców",
-                "dat": "pajacom",
-                "acc": "pajace",
-                "ins": "pajacami",
-                "loc": "pajacach",
-                "voc": "pajace"
             }
-        }
+        },
+"inflections": {
+    "singular": {
+        "nom": "niewidomy",
+        "gen": "niewidomego",
+        "dat": "niewidomemu",
+        "acc": "niewidomego",
+        "ins": "niewidomym",
+        "loc": "niewidomym",
+        "voc": "niewidomy"
+    },
+    "plural": {
+        "nom": "niewidomi",
+        "gen": "niewidomych",
+        "dat": "niewidomym",
+        "acc": "niewidomych",
+        "ins": "niewidomymi",
+        "loc": "niewidomych",
+        "voc": "niewidomi"
+    }
+}
+
     },
     {
         "temp_id": "10.165",

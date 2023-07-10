@@ -2014,18 +2014,15 @@
         "gender": "m1"
     },
     {
-        "lemma": "!pajac",
-        "tags": "xxxxxxxxx",
+        "lemma": "niewidomy",
+        "tags": "5med",
         "translations": {
             "ENG": [
-                "doll puppet",
-                "(dated)",
-                "clown",
-                "(person that cannot be taken seriously) (colloquial derogatory)"
+                "blind"
             ]
         },
         "temp_id": "10.164",
-        "gender": "m2"
+        "gender": "m1"
     },
     {
         "lemma": "wzrok",
@@ -2041,10 +2038,9 @@
     },
     {
         "lemma": "pojemnik",
-        "tags": "xxxxxxxxx",
+        "tags": "2@@%",
         "translations": {
             "ENG": [
-                "garbage can",
                 "container"
             ]
         },
@@ -2053,10 +2049,10 @@
     },
     {
         "lemma": "poddasze",
-        "tags": "xxxxxxxxx",
+        "tags": "3lr",
         "translations": {
             "ENG": [
-                "garret attic"
+                "attic","loft"
             ]
         },
         "temp_id": "10.167",
@@ -2064,10 +2060,21 @@
     },
     {
         "lemma": "podręcznik",
-        "tags": "xxxxxxxxx",
+        "tags": "2s,h",
         "translations": {
             "ENG": [
-                "textbook manual"
+                "textbook"
+            ]
+        },
+        "temp_id": "10.168",
+        "gender": "m3"
+    },
+    {
+        "lemma": "podręcznik",
+        "tags": "4h,w",
+        "translations": {
+            "ENG": [
+                "manual","guide","handbook"
             ]
         },
         "temp_id": "10.168",
@@ -2075,26 +2082,30 @@
     },
     {
         "lemma": "wywiad",
-        "tags": "xxxxxxxxx",
+        "tags": "4w,ttt",
         "translations": {
             "ENG": [
-                "interview",
-                "(a conversation in which facts or opinions are sought)",
-                "intelligence",
-                "(information, usually secret, about the enemy or about hostile activities)",
-                "intelligence",
-                "(a department, agency or unit designed to gather such information)"
-            ]
+                "interview"   ]
+        },
+        "temp_id": "10.169",
+        "gender": "m3"
+    },
+    {
+        "lemma": "wywiad",
+        "tags": "5pol,aa",
+        "translations": {
+            "ENG": [
+                "intelligence"   ]
         },
         "temp_id": "10.169",
         "gender": "m3"
     },
     {
         "lemma": "niewidoma",
-        "tags": "xxxxxxxxx",
+        "tags": "5med",
         "translations": {
             "ENG": [
-                "a blind woman or girl"
+                "blind"
             ]
         },
         "temp_id": "10.170",
