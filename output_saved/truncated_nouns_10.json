@@ -2113,20 +2113,16 @@
     },
     {
         "lemma": "wiązka",
-        "tags": "xxxxxxxxx",
+        "tags": "4phy",
         "translations": {
-            "ENG": [
-                "bundle bunch cluster faggot sheaf",
-                "(a group of objects gathered together into one group, held together usually by string)",
-                "beam",
-                "(a shot of light from one source)"
+            "ENG": [ "beam"
             ]
         },
         "temp_id": "10.171",
         "gender": "f"
     },
     {
-        "lemma": "przymiot",
+        "lemma": "!przymiot",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2141,15 +2137,10 @@
     },
     {
         "lemma": "władza",
-        "tags": "xxxxxxxxx",
+        "tags": "4pol,aa",
         "translations": {
             "ENG": [
-                "power",
-                "(control, particularly legal or political)",
-                "power",
-                "(influence)",
-                "government authority",
-                "(often in the plural)"
+                "power"
             ]
         },
         "temp_id": "10.173",
@@ -2157,10 +2148,22 @@
     },
     {
         "lemma": "wada",
-        "tags": "xxxxxxxxx",
+        "tags": "4-,eng",
         "translations": {
             "ENG": [
-                "defect flaw fault",
+                "defect","flaw","fault",
+
+            ]
+        },
+        "temp_id": "10.174",
+        "gender": "f"
+    },
+    {
+        "lemma": "wada",
+        "tags": "3-",
+        "translations": {
+            "ENG": [
+
                 "disadvantage"
             ]
         },
@@ -2168,7 +2171,7 @@
         "gender": "f"
     },
     {
-        "lemma": "miano",
+        "lemma": "!miano",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2182,10 +2185,10 @@
     },
     {
         "lemma": "durszlak",
-        "tags": "xxxxxxxxx",
+        "tags": "4hk",
         "translations": {
             "ENG": [
-                "colander strainer"
+                "colander","strainer"
             ]
         },
         "temp_id": "10.176",
