@@ -7,7 +7,7 @@ from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, add_signalwords, get_signalword, test_signalword
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c, get_curried_save
+from utils.universal import color as c, get_curried_save, load_tempsave_if_exists
 
 if __name__ == '__main__':
 
@@ -54,20 +54,9 @@ if __name__ == '__main__':
 
         _save(res, temp)
 
-    tgt_lobjs = []
+    tgt_lobjs = load_tempsave_if_exists(tempsave_path, input_path)
     siblings = []
     sibling_headers = []
-
-    if os.path.isfile(tempsave_path + ".json"):
-        with open(tempsave_path + ".json", "r") as f:
-            tgt_lobjs = json.load(f)
-            c.print_teal("Loaded " + str(len(tgt_lobjs)) + " items from tempsave.")
-            f.close()
-    else:
-        c.print_teal("No tempsave_path file found, I assume you're at the start of this batch?")
-        with open(input_path + ".json", "r") as f:
-            tgt_lobjs = json.load(f)
-            f.close()
 
     print("Loaded", len(tgt_lobjs), "target lobjs.")
 
@@ -110,7 +99,7 @@ if __name__ == '__main__':
 
         add_signalwords(sib_set)
 
+    save(tgt_lobjs)
+
     print("")
     print("Completely done.")
-
-    save(tgt_lobjs)

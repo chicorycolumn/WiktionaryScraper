@@ -8,7 +8,7 @@ from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same
 from utils.postprocessing.common import finalise_lemma_objects, add_tags_and_topics_from_shorthand
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c, get_curried_save
+from utils.universal import color as c, get_curried_save, load_data
 
 if __name__ == '__main__':
 
@@ -31,26 +31,20 @@ if __name__ == '__main__':
     c.print_teal("tempsave_path = " + c.teal(tempsave_path))
     c.print_teal("Output path will be the same as input.")
 
-    lobjs = []
+    lobjs = load_data(input_path)
     sorted_lobjs = {}
-    to_change_lobjs = {}
-
-    to_change_lobjs["F1"] = []
-    to_change_lobjs["F2"] = []
-    to_change_lobjs["F3"] = []
-    to_change_lobjs["F4"] = []
-    to_change_lobjs["F5"] = []
-
-    to_change_lobjs["F1 done up to"] = 0
-    to_change_lobjs["F2 done up to"] = 0
-    to_change_lobjs["F3 done up to"] = 0
-    to_change_lobjs["F4 done up to"] = 0
-    to_change_lobjs["F5 done up to"] = 0
-
-    with open(input_path + ".json", "r") as f:
-        lobjs = json.load(f)
-        print("Loaded", len(lobjs), "lobjs.")
-        f.close()
+    to_change_lobjs = {
+        "F1": [],
+        "F2": [],
+        "F3": [],
+        "F4": [],
+        "F5": [],
+        "F1 done up to": 0,
+        "F2 done up to": 0,
+        "F3 done up to": 0,
+        "F4 done up to": 0,
+        "F5 done up to": 0,
+    }
 
     if os.path.isfile(tempsave_path + ".json"):
         with open(tempsave_path + ".json", "r") as f:

@@ -7,7 +7,7 @@ from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, add_signalwords, get_signalword, test_signalword
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c, get_curried_save
+from utils.universal import color as c, get_curried_save, load_data
 
 if __name__ == '__main__':
 
@@ -28,23 +28,14 @@ if __name__ == '__main__':
     output_path = f"{stem}{output_filename}"
     save = get_curried_save(output_path, None)
 
-    # tempsave_path = input_path + "_S5_tempsave"
-
     c.print_teal("src_input_path    =     " + c.teal(src_input_path))
     c.print_teal("tgt_input_path    =     " + c.teal(tgt_input_path))
     c.print_teal("output_path    =     " + c.teal(output_path))
     c.print_teal("No tempsave file is used in this stage..")
 
-    src = []
-    tgt = []
+    src = load_data(src_input_path)
+    tgt = load_data(tgt_input_path)
     nex = []
-
-    with open(src_input_path + ".json", "r") as f:
-        src = json.load(f)
-        f.close()
-    with open(tgt_input_path + ".json", "r") as f:
-        tgt = json.load(f)
-        f.close()
 
     print("Loaded", len(src), "source lobjs.")
     print("Loaded", len(tgt), "target lobjs.")

@@ -127,7 +127,15 @@ def save(output_path: str, tempsave_path: str, data: any, temp: bool = False):
         outfile.close()
 
 
-def load_tempsave_if_exists(tempsave_path):
+def load_data(input_path):
+    with open(input_path + ".json", "r") as f:
+        loaded = json.load(f)
+        print("Loaded", len(loaded), "items from input.")
+        f.close()
+    return loaded if loaded else []
+
+
+def load_tempsave_if_exists(tempsave_path, input_path: str = None):
     if os.path.isfile(tempsave_path + ".json"):
         with open(tempsave_path + ".json", "r") as f:
             loaded = json.load(f)
@@ -135,5 +143,13 @@ def load_tempsave_if_exists(tempsave_path):
             f.close()
         return loaded
     else:
-        color.print_teal("No tempsave_path file found, I assume you're at the start of this batch?")
-        return []
+        if not input_path:
+            color.print_teal("No tempsave_path file found, I assume you're at the start of this batch?")
+            return []
+        else:
+            color.print_teal(f'No tempsave_path file found, loading input "{input_path}".')
+            with open(input_path + ".json", "r") as f:
+                loaded = json.load(f)
+                color.print_teal("Loaded " + str(len(loaded)) + " items from input.")
+                f.close()
+            return loaded

@@ -26,7 +26,6 @@ if __name__ == '__main__':
 
     input_folder = folder_ref[wordtype]
     input_filenames = [f"{input_folder}_{input_filename}" for input_filename in input_filenames]
-
     input_stem = f"./../../output_saved/{input_folder}/"
 
     output_stem = f"./../../output_saved/batches/"

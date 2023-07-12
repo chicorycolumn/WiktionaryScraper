@@ -8,7 +8,7 @@ from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same
 from utils.postprocessing.common import finalise_lemma_objects, add_tags_and_topics_from_shorthand
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c, get_curried_save
+from utils.universal import color as c, get_curried_save, load_data
 
 if __name__ == '__main__':
 
@@ -35,21 +35,14 @@ if __name__ == '__main__':
     done_lobjs = []
 
     if os.path.isfile(tempsave_path + ".json"):
-        with open(tempsave_path + ".json", "r") as f:
-            done_lobjs = json.load(f)
-            c.print_teal("Loaded " + str(len(done_lobjs)) + " items from tempsave.")
-            c.print_teal("It's the full number because tempsave records all lobjs, and then we go through the ones which still lack freq and register.")
-            f.close()
-    else:
-        with open(input_path + ".json", "r") as f:
-            lobjs = json.load(f)
-            print("Loaded", len(lobjs), "lobjs.")
-            f.close()
+        done_lobjs = load_data(tempsave_path)
+        c.print_teal("Loaded " + str(len(done_lobjs)) + " items from tempsave.")
+        c.print_teal(
+            "It's the full number because tempsave records all lobjs, and then we go through the ones which still lack freq and register.")
 
-        with open(src_input_path + ".json", "r") as f:
-            src_lobjs = json.load(f)
-            print("Loaded", len(lobjs), "src_lobjs.")
-            f.close()
+    else:
+        lobjs = load_data(input_path)
+        src_lobjs = load_data(src_input_path)
 
         for lobj in lobjs:
             lobj["register"] = 0

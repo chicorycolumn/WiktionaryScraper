@@ -177,10 +177,10 @@ if __name__ == '__main__':
     print("Done all lobjs, so now all_new_tgt_lobjs has length", len(all_new_tgt_lobjs))
     print("how_many_inputs_needed", how_many_inputs_needed)
 
-    print("Completely done.")
-
     for l in all_new_tgt_lobjs:
         if l["lemma"][0] == "*":
             l["lemma"] = l["lemma"][1:]
 
     save()
+
+    print("Completely done.")
