@@ -8,7 +8,7 @@ from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, show1, user_validate_translations
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c, get_curried_save
+from utils.universal import color as c, get_curried_save, load_tempsave_if_exists
 
 if __name__ == '__main__':
 
@@ -30,15 +30,7 @@ if __name__ == '__main__':
     c.print_teal("output_path   =     " + c.teal(output_path))
     c.print_teal("tempsave_path =     " + c.teal(tempsave_path))
 
-    doublechecked_src_lobjs = []
-
-    if os.path.isfile(tempsave_path + ".json"):
-        with open(tempsave_path + ".json", "r") as f:
-            doublechecked_src_lobjs = json.load(f)
-            c.print_teal("Loaded " + str(len(doublechecked_src_lobjs)) + " items from tempsave.")
-            f.close()
-    else:
-        c.print_teal("No tempsave_path file found, I assume you're at the start of this batch?")
+    doublechecked_src_lobjs = load_tempsave_if_exists(tempsave_path)
 
     ready = True
     if len(doublechecked_src_lobjs):

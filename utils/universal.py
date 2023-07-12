@@ -1,4 +1,5 @@
 import json
+import os
 
 
 class colors:
@@ -124,3 +125,15 @@ def save(output_path: str, tempsave_path: str, data: any, temp: bool = False):
         data_json = json.dumps(data, indent=2, ensure_ascii=False)
         outfile.write(data_json)
         outfile.close()
+
+
+def load_tempsave_if_exists(tempsave_path):
+    if os.path.isfile(tempsave_path + ".json"):
+        with open(tempsave_path + ".json", "r") as f:
+            loaded = json.load(f)
+            color.print_teal("Loaded " + str(len(loaded)) + " items from tempsave.")
+            f.close()
+        return loaded
+    else:
+        color.print_teal("No tempsave_path file found, I assume you're at the start of this batch?")
+        return []

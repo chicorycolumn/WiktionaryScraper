@@ -7,7 +7,7 @@ from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c, get_curried_save
+from utils.universal import color as c, get_curried_save, load_tempsave_if_exists
 
 if __name__ == '__main__':
 
@@ -26,32 +26,14 @@ if __name__ == '__main__':
 
     output_path_tgt = f"{stem}{bare_input_filename}_TGT"
     tempsave_path_tgt = output_path_tgt + "_S4_tempsave"
-    # output_path_nex = f"{stem}{bare_input_filename}_NEX"
     tempsave_path_src = f"{stem}{bare_input_filename}_SRC_S4_tempsave"
 
     c.print_teal("input_path        =     " + c.teal(input_path))
     c.print_teal("output_path_tgt   =     " + c.teal(output_path_tgt))
     c.print_teal("tempsave_path_src =     " + c.teal(tempsave_path_src))
 
-    all_new_tgt_lobjs = []
-    done_src_lobjs = []
-    # new_nexus_objs = []
-
-    if os.path.isfile(tempsave_path_tgt + ".json"):
-        with open(tempsave_path_tgt + ".json", "r") as f:
-            all_new_tgt_lobjs = json.load(f)
-            c.print_teal("Loaded " + str(len(all_new_tgt_lobjs)) + " items from tempsave.")
-            f.close()
-    else:
-        c.print_teal("No tempsave_path_tgt file found, I assume you're at the start of this batch?")
-
-    if os.path.isfile(tempsave_path_src + ".json"):
-        with open(tempsave_path_src + ".json", "r") as f:
-            done_src_lobjs = json.load(f)
-            c.print_teal("Found tempsave file " + tempsave_path_src + " loaded " + str(len(done_src_lobjs)) + " items.")
-            f.close()
-    else:
-        c.print_teal("No tempsave_path_src file found, I assume you're at the start of this batch?")
+    all_new_tgt_lobjs = load_tempsave_if_exists(tempsave_path_tgt)
+    done_src_lobjs = load_tempsave_if_exists(tempsave_path_src)
 
     tgt_save = get_curried_save(output_path_tgt, tempsave_path_tgt)
     src_save = get_curried_save(None, tempsave_path_src)
@@ -177,7 +159,6 @@ if __name__ == '__main__':
                     "lemma": t_without_star,
                     "id": new_id,
                     "»trans": [src_lobj["id"]],
-                    # "»synonyms": [x for x in src_lobj["translations"][target_lang] if x != t]
                 }
 
                 new_tgt_lobjs.append(new_tgt_lobj)
