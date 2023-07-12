@@ -13,22 +13,21 @@ from utils.universal import color as c
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "adj"
+    wordtype = "nco"
     batch = "01"
     target_lang = "ENG"
-    override_slice = 0  # Only set to integer if you want to test with that many lobjs
+    only_run_for_this_many_lobjs = 0  # Only set to integer for testing purposes.
     # # # # # #
 
-    input_filename = f"{wordtype}_batch_{batch}"
+    filename = f"{wordtype}_batch_{batch}_SRC"
     stem = "./../../output_saved/batches/"
-    input_path = f"{stem}{input_filename}"
-    output_path = input_path + "_SRC"
+    input_path = f"{stem}{filename}_original"
+    output_path = f"{stem}{filename}"
     tempsave_path = output_path + "_S1_tempsave"
 
     c.print_teal("input_path    =     " + c.teal(input_path))
     c.print_teal("output_path   =     " + c.teal(output_path))
     c.print_teal("tempsave_path =     " + c.teal(tempsave_path))
-
 
     def save(data, temp: bool = False):
         print(f"📀 {'SAVING PROGRESS' if temp else 'SAVING FINAL'}")
@@ -61,8 +60,8 @@ if __name__ == '__main__':
         src_lobjs = json.load(f)
         print("Loaded", len(src_lobjs), "source lobjs.")
 
-        if override_slice:
-            src_lobjs = src_lobjs[:override_slice]
+        if only_run_for_this_many_lobjs:
+            src_lobjs = src_lobjs[:only_run_for_this_many_lobjs]
             c.print_bold("BUT FOR TESTING LET'S JUST SAY " + str(len(src_lobjs)))
 
         for src_lobj_index, src_lobj in enumerate(src_lobjs):

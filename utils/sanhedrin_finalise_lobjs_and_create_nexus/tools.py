@@ -150,6 +150,17 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
     record_it(False)
 
 
+def add_signalword_automatically(lobj_A, trans_for_lobj_A, trans_of_lobj_B):
+    def _get_signalword_automatically():
+        for w in trans_for_lobj_A:
+            if w not in trans_of_lobj_B:
+                return w
+        return "⛳"
+
+    signal_word = _get_signalword_automatically()
+    lobj_A["id"] += f"({signal_word})"
+
+
 def user_validate_translations(lobj, res, save_fxn, target_lang):
     def show_helptext():
         print("")
@@ -164,10 +175,12 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
         c.print_teal("FHello : FLAG the previous lobj.")
         c.print_teal("xf     : REMOVE FLAGS from lobj.")
         print("")
+        c.print_teal('a tin  : ADD translations eg "tin".')
         c.print_teal("d24    : DELETE translations at eg indexes 2 and 4.")
-        c.print_teal("s24    : SWITCH translations at eg indexes 2 and 4 to a new lobj for this lemma.")
+        c.print_teal("s24    : SPLIT translations at eg indexes 2 and 4 to a new lobj for this lemma.")
         c.print_teal(
             "s24S3  : Translations at eg indexes 2 and 4 are for new lobj, at index 3 is for both original and new lobjs.")
+        c.print_teal("s      : SPLIT translations at indexes 0 and 1 to a new lobj for this lemma.")
         print("--------------------------------------------------------------------")
         print("")
         user_validate_translations(lobj, res, save_fxn, target_lang)
@@ -182,14 +195,14 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
             if k not in ["lemma", "tags", "topics"]:
                 dupe[k] = l[k]
         print("💚")
-        time.sleep(0.25)
+        time.sleep(0.2)
         res.append(dupe)
 
     if int(lobj["id"].split("-")[2]) % 10 == 1:
         save_fxn(res, True)
 
     show1(lobj, target_lang)
-    user_input = input("OK?   Enter for yes   Any key for no   h for help ")
+    user_input = input("OK?   Enter for yes   Any key for no   h for help\n")
 
     if not user_input:
         add_to_res(lobj)
@@ -199,17 +212,17 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
         show_helptext()
         return
 
-    if user_input[0] not in ["f", "F"]:
+    if user_input[0] not in ["f", "F", "a"]:
         for char in user_input:
             if char not in "123456789dDfFwSsx":
                 c.print_red("         Did not recognise user input. Options are:")
-                time.sleep(0.5)
+                time.sleep(0.4)
                 show_helptext()
                 return
 
     if user_input[0] == "D":
-        print("🔥 DELETED LOBJ")
-        time.sleep(0.25)
+        print("🔥🔥 DELETED LOBJ")
+        time.sleep(0.2)
         return
 
     elif user_input[0] == "d":
@@ -220,6 +233,13 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
             if tindex not in indexes_trans_to_delete:
                 trans_to_keep.append(tran)
         lobj["translations"][target_lang] = trans_to_keep
+        user_validate_translations(lobj, res, save_fxn, target_lang)
+        return
+
+    elif user_input[0] == "a" and " " in user_input:
+        print("ADDING TRANS...")
+        new_trans = user_input.split(" ")[1:]
+        lobj["translations"][target_lang].extend(new_trans)
         user_validate_translations(lobj, res, save_fxn, target_lang)
         return
 
@@ -263,28 +283,20 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
         print("")
         confirm = not input("OK?   Enter for yes   Any key for no ")
 
-        if confirm:
+        if len(trans_for_new_lobj) and confirm:
+            duplicated_lobj = deepcopy(lobj)
+
+            duplicated_lobj["translations"][target_lang] = trans_for_new_lobj
+            add_signalword_automatically(duplicated_lobj, trans_for_new_lobj, trans_for_original_lobj)
+
+            duplicated_lobj["tags"] = "🏁"  # Add tags and topics manully before next stage.
+            duplicated_lobj["topics"] = None
+
             lobj["translations"][target_lang] = trans_for_original_lobj
+            add_signalword_automatically(lobj, trans_for_original_lobj, trans_for_new_lobj)
+
             add_to_res(lobj)
-
-            if len(trans_for_new_lobj):
-                duplicated_lobj = deepcopy(lobj)
-
-                signal_word = None
-                for w in trans_for_new_lobj:
-                    if not signal_word and w not in lobj["translations"][target_lang]:
-                        signal_word = w
-                if not signal_word:
-                    signal_word = "⛳"
-
-                duplicated_lobj["id"] += f"({signal_word})"
-                duplicated_lobj["tags"] = "🏁"  # Add tags and topics manully before next stage.
-                duplicated_lobj["topics"] = None
-                duplicated_lobj["translations"][target_lang] = trans_for_new_lobj
-                add_to_res(duplicated_lobj)
-
-                if "(" not in lobj["id"]:
-                    lobj["id"] += f'({lobj["translations"][target_lang][0]})'
+            add_to_res(duplicated_lobj)
 
             return
 
@@ -365,7 +377,7 @@ def add_signalwords(sibling_set):
         for lobj_to_delete in lobjs_to_delete:
             c.print_bold("DELETING", lobj_to_delete["id"])
             print("")
-            time.sleep(0.5)
+            time.sleep(0.4)
             sibling_set.remove(lobj_to_delete)
 
         if len(sibling_set) == 1:
@@ -373,7 +385,7 @@ def add_signalwords(sibling_set):
             only_sibling["id"] = only_sibling["id"][:only_sibling["id"].index("(")]
             print("Is only sibling so have removed signalword.")
             print(c.green(only_sibling["id"]))
-            time.sleep(0.5)
+            time.sleep(0.4)
 
         return
 
@@ -407,7 +419,7 @@ def get_signalwords(lobjs):
 
     if not user_input:
         c.print_red("Did not recognise input. Please type signalwords separated by a space.")
-        time.sleep(0.5)
+        time.sleep(0.4)
         return get_signalwords(lobjs)
 
     failed_character_check = False
@@ -430,7 +442,7 @@ def get_signalwords(lobjs):
                     failed_index_validation = True
             if failed_index_validation:
                 c.print_red("Invalid indexes")
-                time.sleep(0.5)
+                time.sleep(0.4)
                 return get_signalwords(lobjs)
     else:
         for char in user_input:
@@ -439,7 +451,7 @@ def get_signalwords(lobjs):
 
     if failed_character_check:
         c.print_red("Invalid input")
-        time.sleep(0.5)
+        time.sleep(0.4)
         return get_signalwords(lobjs)
 
     if len(indexes_of_lobjs_to_merge):
@@ -469,17 +481,17 @@ def get_signalwords(lobjs):
     for signalword in signalwords:
         if len(signalword) < 2 and signalword != "x":
             c.print_red("Signalwords must be more than one character each, separated by a space.")
-            time.sleep(0.5)
+            time.sleep(0.4)
             return get_signalwords(lobjs)
 
     if len(signalwords) != len(lobjs):
         c.print_red(f"Expected {len(lobjs)} signalwords but got {len(signalwords)}.")
-        time.sleep(0.5)
+        time.sleep(0.4)
         return get_signalwords(lobjs)
 
     if len(list(set(signalwords))) != len(signalwords) or lobjs[0]["lemma"] in signalwords:
         c.print_red(f"Signalwords must be unique.")
-        time.sleep(0.5)
+        time.sleep(0.4)
         return get_signalwords(lobjs)
 
     failed_signalword_check = False
@@ -488,7 +500,7 @@ def get_signalwords(lobjs):
             failed_signalword_check = True
     if failed_signalword_check:
         c.print_red("Invalid signalwords")
-        time.sleep(0.5)
+        time.sleep(0.4)
         return get_signalwords(lobjs)
 
     return signalwords
