@@ -1,3 +1,6 @@
+import json
+
+
 class colors:
     PURPLE = '\033[95m'
     CYAN = '\033[96m'
@@ -93,3 +96,31 @@ class color:
 
     def print_bold(s):
         print(color.bold(s))
+
+
+def get_curried_save(output_path: str, tempsave_path: str):
+    def curried_save(data: any, temp: bool = False):
+        print(f"📀 {'SAVING PROGRESS' if temp else 'SAVING FINAL'}")
+
+        _output_path = tempsave_path if temp else output_path
+
+        with open(_output_path + ".json", "w") as outfile:
+            print(f'Writing {len(data)} results.')
+            data_json = json.dumps(data, indent=2, ensure_ascii=False)
+            outfile.write(data_json)
+            outfile.close()
+        print("Done")
+
+    return curried_save
+
+
+def save(output_path: str, tempsave_path: str, data: any, temp: bool = False):
+    print(f"📀 {'SAVING PROGRESS' if temp else 'SAVING FINAL'}")
+
+    _output_path = tempsave_path if temp else output_path
+
+    with open(_output_path + ".json", "w") as outfile:
+        print(f'Writing {len(data)} results.')
+        data_json = json.dumps(data, indent=2, ensure_ascii=False)
+        outfile.write(data_json)
+        outfile.close()

@@ -7,7 +7,7 @@ from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, add_signalwords, get_signalword, test_signalword
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c
+from utils.universal import color as c, get_curried_save
 
 if __name__ == '__main__':
 
@@ -21,16 +21,13 @@ if __name__ == '__main__':
     stem = "./../../output_saved/batches/"
     input_path = f"{stem}{input_filename}"
     tempsave_path = input_path + "_S5_tempsave"
+    _save = get_curried_save(input_path, tempsave_path)
 
     c.print_teal("input_path    =     " + c.teal(input_path))
     c.print_teal("tempsave_path =     " + c.teal(tempsave_path))
     c.print_teal("Output path will be the same as input.")
 
     def save(tgt_lobjs, temp: bool = False):
-        print(f"📀 {'SAVING PROGRESS' if temp else 'SAVING FINAL'}")
-
-        _input_path = tempsave_path if temp else input_path
-
         print(f"Got {len(tgt_lobjs)} members.")
         print("Reordering so siblings are next to each other...")
         res = []
@@ -55,10 +52,7 @@ if __name__ == '__main__':
                     done_ids.append(l["id"])
         print(f"Got {len(res)} members.")
 
-        with open(_input_path + ".json", "w") as outfile:
-            res_json = json.dumps(res, indent=2, ensure_ascii=False)
-            outfile.write(res_json)
-            outfile.close()
+        _save(res, temp)
 
     tgt_lobjs = []
     siblings = []

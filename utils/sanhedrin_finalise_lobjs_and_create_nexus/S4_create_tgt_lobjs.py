@@ -7,7 +7,7 @@ from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c
+from utils.universal import color as c, get_curried_save
 
 if __name__ == '__main__':
 
@@ -53,23 +53,12 @@ if __name__ == '__main__':
     else:
         c.print_teal("No tempsave_path_src file found, I assume you're at the start of this batch?")
 
+    tgt_save = get_curried_save(output_path_tgt, tempsave_path_tgt)
+    src_save = get_curried_save(None, tempsave_path_src)
 
     def save(temp: bool = False):
-        print(f"📀 {'SAVING PROGRESS' if temp else 'SAVING FINAL'}")
-
-        _output_path_tgt = tempsave_path_tgt if temp else output_path_tgt
-        _output_path_src = tempsave_path_src
-
-        with open(_output_path_tgt + ".json", "w") as outfile:
-            all_new_tgt_lobjs_json = json.dumps(all_new_tgt_lobjs, indent=2, ensure_ascii=False)
-            outfile.write(all_new_tgt_lobjs_json)
-            outfile.close()
-
-        with open(_output_path_src + ".json", "w") as outfile:
-            done_src_lobjs_json = json.dumps(done_src_lobjs, indent=2, ensure_ascii=False)
-            outfile.write(done_src_lobjs_json)
-            outfile.close()
-
+        tgt_save(all_new_tgt_lobjs, temp)
+        src_save(done_src_lobjs, True)
 
     with open(input_path + ".json", "r") as f:
         src_lobjs = json.load(f)

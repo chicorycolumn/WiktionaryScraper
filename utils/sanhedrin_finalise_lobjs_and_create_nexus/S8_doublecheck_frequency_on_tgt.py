@@ -8,7 +8,7 @@ from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same
 from utils.postprocessing.common import finalise_lemma_objects, add_tags_and_topics_from_shorthand
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c
+from utils.universal import color as c, get_curried_save
 
 if __name__ == '__main__':
 
@@ -24,22 +24,12 @@ if __name__ == '__main__':
     input_path = f"{stem}{input_filename}"
     tempsave_path = f"{stem}{input_filename}_S8_tempsave"
     src_input_path = f"{stem}{src_input_filename}"
+    save = get_curried_save(input_path, tempsave_path)
 
     c.print_teal("input_path =     " + c.teal(input_path))
     c.print_teal("src_input_path = " + c.teal(src_input_path))
     c.print_teal("tempsave_path = " + c.teal(tempsave_path))
     c.print_teal("Output path will be the same as input.")
-
-    def save(data, temp: bool = False):
-        print(f"📀 {'SAVING FINAL'}")
-
-        _output_path = tempsave_path if temp else input_path
-
-        with open(_output_path + ".json", "w") as outfile:
-            print(f'Writing {len(data)} results.')
-            data_json = json.dumps(data, indent=2, ensure_ascii=False)
-            outfile.write(data_json)
-            outfile.close()
 
     lobjs = []
     sorted_lobjs = {}

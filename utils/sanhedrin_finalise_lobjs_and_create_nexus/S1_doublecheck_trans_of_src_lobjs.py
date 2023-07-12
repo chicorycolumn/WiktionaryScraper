@@ -8,7 +8,7 @@ from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, show1, user_validate_translations
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c
+from utils.universal import color as c, get_curried_save
 
 if __name__ == '__main__':
 
@@ -24,22 +24,11 @@ if __name__ == '__main__':
     input_path = f"{stem}{filename}_original"
     output_path = f"{stem}{filename}"
     tempsave_path = output_path + "_S1_tempsave"
+    save = get_curried_save(output_path, tempsave_path)
 
     c.print_teal("input_path    =     " + c.teal(input_path))
     c.print_teal("output_path   =     " + c.teal(output_path))
     c.print_teal("tempsave_path =     " + c.teal(tempsave_path))
-
-    def save(data, temp: bool = False):
-        print(f"📀 {'SAVING PROGRESS' if temp else 'SAVING FINAL'}")
-
-        _output_path = tempsave_path if temp else output_path
-
-        with open(_output_path + ".json", "w") as outfile:
-            print(f'Writing {len(data)} results.')
-            data_json = json.dumps(data, indent=2, ensure_ascii=False)
-            outfile.write(data_json)
-            outfile.close()
-
 
     doublechecked_src_lobjs = []
 

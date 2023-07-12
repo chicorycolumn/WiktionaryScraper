@@ -7,7 +7,7 @@ from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, add_signalwords, get_signalword, test_signalword
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c
+from utils.universal import color as c, get_curried_save
 
 if __name__ == '__main__':
 
@@ -26,6 +26,7 @@ if __name__ == '__main__':
     src_input_path = f"{stem}{src_input_filename}"
     tgt_input_path = f"{stem}{tgt_input_filename}"
     output_path = f"{stem}{output_filename}"
+    save = get_curried_save(output_path, None)
 
     # tempsave_path = input_path + "_S5_tempsave"
 
@@ -33,17 +34,6 @@ if __name__ == '__main__':
     c.print_teal("tgt_input_path    =     " + c.teal(tgt_input_path))
     c.print_teal("output_path    =     " + c.teal(output_path))
     c.print_teal("No tempsave file is used in this stage..")
-
-    def save(data):
-        print(f"📀 {'SAVING FINAL'}")
-
-        _output_path = output_path
-
-        with open(_output_path + ".json", "w") as outfile:
-            print(f'Writing {len(data)} results.')
-            data_json = json.dumps(data, indent=2, ensure_ascii=False)
-            outfile.write(data_json)
-            outfile.close()
 
     src = []
     tgt = []

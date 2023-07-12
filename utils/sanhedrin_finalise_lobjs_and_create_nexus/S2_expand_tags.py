@@ -8,7 +8,7 @@ from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same
 from utils.postprocessing.common import finalise_lemma_objects, add_tags_and_topics_from_shorthand
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c
+from utils.universal import color as c, get_curried_save
 
 if __name__ == '__main__':
 
@@ -20,6 +20,7 @@ if __name__ == '__main__':
     input_filename = f"{wordtype}_batch_{batch}_SRC"
     stem = "./../../output_saved/batches/"
     input_path = f"{stem}{input_filename}"
+    save = get_curried_save(input_path, None)
 
     c.print_teal("input_path =     " + c.teal(input_path))
     c.print_teal("Output path will be the same as input.")
@@ -56,10 +57,6 @@ if __name__ == '__main__':
 
         f.close()
 
-    with open(input_path + ".json", "w") as outfile:
-        print(f'Writing {len(src_lobjs)} results.')
-        data_json = json.dumps(src_lobjs, indent=2, ensure_ascii=False)
-        outfile.write(data_json)
-        outfile.close()
+    save(src_lobjs)
 
     print("Completely done.")

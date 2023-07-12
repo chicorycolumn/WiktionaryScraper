@@ -8,7 +8,7 @@ from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same
 from utils.postprocessing.common import finalise_lemma_objects, add_tags_and_topics_from_shorthand
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c
+from utils.universal import color as c, save
 
 if __name__ == '__main__':
 
@@ -26,15 +26,6 @@ if __name__ == '__main__':
 
     input_folder = folder_ref[wordtype]
     input_filenames = [f"{input_folder}_{input_filename}" for input_filename in input_filenames]
-
-    def save(data, _output_path):
-        print(f"📀 {'SAVING FINAL'}")
-
-        with open(_output_path + ".json", "w") as outfile:
-            print(f'Writing {len(data)} results.')
-            data_json = json.dumps(data, indent=2, ensure_ascii=False)
-            outfile.write(data_json)
-            outfile.close()
 
     input_stem = f"./../../output_saved/{input_folder}/"
 
@@ -75,9 +66,9 @@ if __name__ == '__main__':
         nco_output_filename = f"nco_batch_{batch}_SRC_original"
         nco_output_path = f"{output_stem}{nco_output_filename}"
 
-        save(npe, npe_output_path)
-        save(nco, nco_output_path)
+        save(npe_output_path, None, npe)
+        save(nco_output_path, None, nco)
     else:
-        save(all_src_lobjs, output_path)
+        save(output_path, None, all_src_lobjs)
 
     print("Completely done.")
