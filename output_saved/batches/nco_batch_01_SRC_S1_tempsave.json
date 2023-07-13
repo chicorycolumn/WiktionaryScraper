@@ -8035,5 +8035,475 @@
         "voc": "gleby"
       }
     }
+  },
+  {
+    "lemma": "ucho",
+    "id": "pol-nco-0151-ucho",
+    "tags": [
+      "FREQ1",
+      "bodypart"
+    ],
+    "topics": [
+      "body",
+      "medicine"
+    ],
+    "translations": {
+      "ENG": [
+        "ear"
+      ]
+    },
+    "gender": "n",
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "uszko"
+        ],
+        "augmentative": [
+          "uszysko"
+        ]
+      }
+    },
+    "inflections": {
+      "singular": {
+        "nom": "ucho",
+        "gen": "ucha",
+        "dat": "uchu",
+        "acc": "ucho",
+        "ins": "uchem",
+        "loc": "uchu",
+        "voc": "ucho"
+      },
+      "plural": {
+        "nom": "uszy",
+        "gen": [
+          "uszu",
+          "uszów"
+        ],
+        "dat": "uszom",
+        "acc": "uszy",
+        "ins": [
+          "uszami",
+          "uszyma"
+        ],
+        "loc": "uszach",
+        "voc": "uszy"
+      }
+    }
+  },
+  {
+    "lemma": "listopad",
+    "id": "pol-nco-0152-listopad",
+    "tags": [
+      "FREQ1",
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ],
+    "translations": {
+      "ENG": [
+        "November"
+      ]
+    },
+    "gender": "m3",
+    "extra": {
+      "derivedTerms": [
+        "listopadowy"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "listopad",
+        "gen": "listopada",
+        "dat": "listopadowi",
+        "acc": "listopad",
+        "ins": "listopadem",
+        "loc": "listopadzie",
+        "voc": "listopadzie"
+      },
+      "plural": {
+        "nom": "listopady",
+        "gen": "listopadów",
+        "dat": "listopadom",
+        "acc": "listopady",
+        "ins": "listopadami",
+        "loc": "listopadach",
+        "voc": "listopady"
+      }
+    }
+  },
+  {
+    "lemma": "teleskop",
+    "id": "pol-nco-0153-teleskop",
+    "tags": [
+      "FREQ5"
+    ],
+    "topics": [
+      "astronomy"
+    ],
+    "translations": {
+      "ENG": [
+        "telescope"
+      ]
+    },
+    "gender": "m3",
+    "extra": {
+      "synonyms": [
+        "luneta"
+      ],
+      "derivedTerms": [
+        "radioteleskopowy",
+        "teleskopowy",
+        "teleskopowo",
+        "radioteleskop",
+        "teleskopia",
+        "teleskopowość"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "teleskop",
+        "gen": "teleskopu",
+        "dat": "teleskopowi",
+        "acc": "teleskop",
+        "ins": "teleskopem",
+        "loc": "teleskopie",
+        "voc": "teleskopie"
+      },
+      "plural": {
+        "nom": "teleskopy",
+        "gen": "teleskopów",
+        "dat": "teleskopom",
+        "acc": "teleskopy",
+        "ins": "teleskopami",
+        "loc": "teleskopach",
+        "voc": "teleskopy"
+      }
+    }
+  },
+  {
+    "lemma": "piramida",
+    "id": "pol-nco-0154-piramida",
+    "tags": [
+      "FREQ4",
+      "building",
+      "concrete",
+      "location"
+    ],
+    "topics": [
+      "history",
+      "inside"
+    ],
+    "translations": {
+      "ENG": [
+        "pyramid"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "piramidka"
+        ]
+      }
+    },
+    "inflections": {
+      "singular": {
+        "nom": "piramida",
+        "gen": "piramidy",
+        "dat": "piramidzie",
+        "acc": "piramidę",
+        "ins": "piramidą",
+        "loc": "piramidzie",
+        "voc": "piramido"
+      },
+      "plural": {
+        "nom": "piramidy",
+        "gen": "piramid",
+        "dat": "piramidom",
+        "acc": "piramidy",
+        "ins": "piramidami",
+        "loc": "piramidach",
+        "voc": "piramidy"
+      }
+    }
+  },
+  {
+    "lemma": "skarpeta",
+    "id": "pol-nco-0155-skarpeta",
+    "tags": [
+      "FREQ2",
+      "clothes",
+      "concrete",
+      "holdable"
+    ],
+    "topics": [
+      "fashion"
+    ],
+    "translations": {
+      "ENG": [
+        "sock"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "skarpetka"
+        ]
+      },
+      "synonyms": [
+        "rękaw"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "skarpeta",
+        "gen": "skarpety",
+        "dat": "skarpecie",
+        "acc": "skarpetę",
+        "ins": "skarpetą",
+        "loc": "skarpecie",
+        "voc": "skarpeto"
+      },
+      "plural": {
+        "nom": "skarpety",
+        "gen": "skarpet",
+        "dat": "skarpetom",
+        "acc": "skarpety",
+        "ins": "skarpetami",
+        "loc": "skarpetach",
+        "voc": "skarpety"
+      }
+    }
+  },
+  {
+    "lemma": "noga",
+    "id": "pol-nco-0156-noga",
+    "tags": [
+      "FREQ1",
+      "bodypart"
+    ],
+    "topics": [
+      "body",
+      "medicine"
+    ],
+    "translations": {
+      "ENG": [
+        "leg"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "nóżka"
+        ],
+        "augmentative": [
+          "nożysko"
+        ]
+      },
+      "synonyms": [
+        "niezdara"
+      ],
+      "derivedTerms": [
+        "nożny",
+        "beznogi",
+        "beznożny",
+        "czarnonogi",
+        "czteronogi",
+        "czteronożny",
+        "czworonogi",
+        "czworonożny",
+        "dwunogi",
+        "dwunożny",
+        "jednonogi",
+        "jednonożny",
+        "lewonożny",
+        "obunożny",
+        "prawonożny",
+        "dać nogę",
+        "nogogłaszczka",
+        "odnóże",
+        "pranóże",
+        "stonoga",
+        "szczękonóże",
+        "-nóg"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "noga",
+        "gen": "nogi",
+        "dat": "nodze",
+        "acc": "nogę",
+        "ins": "nogą",
+        "loc": "nodze",
+        "voc": "nogo"
+      },
+      "plural": {
+        "nom": "nogi",
+        "gen": "nóg",
+        "dat": "nogom",
+        "acc": "nogi",
+        "ins": "nogami",
+        "loc": "nogach",
+        "voc": "nogi"
+      }
+    }
+  },
+  {
+    "lemma": "mikroskop",
+    "id": "pol-nco-0157-mikroskop",
+    "tags": [
+      "FREQ5"
+    ],
+    "topics": [
+      "biology",
+      "physics",
+      "chemistry",
+      "science"
+    ],
+    "translations": {
+      "ENG": [
+        "microscope"
+      ]
+    },
+    "gender": "m3",
+    "inflections": {
+      "singular": {
+        "nom": "mikroskop",
+        "gen": "mikroskopu",
+        "dat": "mikroskopowi",
+        "acc": "mikroskop",
+        "ins": "mikroskopem",
+        "loc": "mikroskopie",
+        "voc": "mikroskopie"
+      },
+      "plural": {
+        "nom": "mikroskopy",
+        "gen": "mikroskopów",
+        "dat": "mikroskopom",
+        "acc": "mikroskopy",
+        "ins": "mikroskopami",
+        "loc": "mikroskopach",
+        "voc": "mikroskopy"
+      }
+    }
+  },
+  {
+    "lemma": "dochód",
+    "id": "pol-nco-0158-dochód",
+    "tags": [
+      "FREQ3",
+      "money"
+    ],
+    "topics": [
+      "business",
+      "shopping",
+      "work"
+    ],
+    "translations": {
+      "ENG": [
+        "income"
+      ]
+    },
+    "gender": "m3",
+    "inflections": {
+      "singular": {
+        "nom": "dochód",
+        "gen": "dochodu",
+        "dat": "dochodowi",
+        "acc": "dochód",
+        "ins": "dochodem",
+        "loc": "dochodzie",
+        "voc": "dochodzie"
+      },
+      "plural": {
+        "nom": "dochody",
+        "gen": "dochodów",
+        "dat": "dochodom",
+        "acc": "dochody",
+        "ins": "dochodami",
+        "loc": "dochodach",
+        "voc": "dochody"
+      }
+    }
+  },
+  {
+    "lemma": "wysokość",
+    "id": "pol-nco-0159-wysokość",
+    "tags": [
+      "FREQ4",
+      "dimension"
+    ],
+    "topics": [
+      "appearance",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "height",
+        "altitude"
+      ]
+    },
+    "gender": "f",
+    "inflections": {
+      "singular": {
+        "nom": "wysokość",
+        "gen": "wysokości",
+        "dat": "wysokości",
+        "acc": "wysokość",
+        "ins": "wysokością",
+        "loc": "wysokości",
+        "voc": "wysokości"
+      },
+      "plural": {
+        "nom": "wysokości",
+        "gen": "wysokości",
+        "dat": "wysokościom",
+        "acc": "wysokości",
+        "ins": "wysokościami",
+        "loc": "wysokościach",
+        "voc": "wysokości"
+      }
+    }
+  },
+  {
+    "lemma": "oznaka",
+    "id": "pol-nco-0160-oznaka",
+    "tags": [
+      "FREQ5"
+    ],
+    "topics": [
+      "appearance",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "sign"
+      ]
+    },
+    "gender": "f",
+    "inflections": {
+      "singular": {
+        "nom": "oznaka",
+        "gen": "oznaki",
+        "dat": "oznace",
+        "acc": "oznakę",
+        "ins": "oznaką",
+        "loc": "oznace",
+        "voc": "oznako"
+      },
+      "plural": {
+        "nom": "oznaki",
+        "gen": "oznak",
+        "dat": "oznakom",
+        "acc": "oznaki",
+        "ins": "oznakami",
+        "loc": "oznakach",
+        "voc": "oznaki"
+      }
+    }
   }
 ]
