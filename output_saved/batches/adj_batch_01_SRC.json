@@ -144186,613 +144186,612 @@
     "frequency": 4,
     "register": 0
   },
-
-    {
+  {
     "lemma": "różowy",
     "id": "pol-adj-0781-różowy",
-        "translations": {
-            "ENG": [
-                "pink"
-            ]
+    "translations": {
+      "ENG": [
+        "pink"
+      ]
+    },
+    "frequency": 1,
+    "register": 0,
+    "inflections": {
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "różowy",
+            "gen": "różowego",
+            "dat": "różowemu",
+            "acc": "różowego",
+            "ins": "różowym",
+            "loc": "różowym"
+          },
+          "m3": {
+            "nom": "różowy",
+            "gen": "różowego",
+            "dat": "różowemu",
+            "acc": "różowy",
+            "ins": "różowym",
+            "loc": "różowym"
+          },
+          "f": {
+            "nom": "różowa",
+            "gen": "różowej",
+            "dat": "różowej",
+            "acc": "różową",
+            "ins": "różową",
+            "loc": "różowej"
+          },
+          "n": {
+            "nom": "różowe",
+            "gen": "różowego",
+            "dat": "różowemu",
+            "acc": "różowe",
+            "ins": "różowym",
+            "loc": "różowym"
+          }
         },
-        "frequency": 1,
-        "register": 0
-        "inflections": {
-            "simple": {
-                "singular": {
-                    "m1": {
-                        "nom": "różowy",
-                        "gen": "różowego",
-                        "dat": "różowemu",
-                        "acc": "różowego",
-                        "ins": "różowym",
-                        "loc": "różowym"
-                    },
-                    "m3": {
-                        "nom": "różowy",
-                        "gen": "różowego",
-                        "dat": "różowemu",
-                        "acc": "różowy",
-                        "ins": "różowym",
-                        "loc": "różowym"
-                    },
-                    "f": {
-                        "nom": "różowa",
-                        "gen": "różowej",
-                        "dat": "różowej",
-                        "acc": "różową",
-                        "ins": "różową",
-                        "loc": "różowej"
-                    },
-                    "n": {
-                        "nom": "różowe",
-                        "gen": "różowego",
-                        "dat": "różowemu",
-                        "acc": "różowe",
-                        "ins": "różowym",
-                        "loc": "różowym"
-                    }
-                },
-                "plural": {
-                    "virile": {
-                        "nom": "różowi",
-                        "gen": "różowych",
-                        "dat": "różowym",
-                        "acc": "różowych",
-                        "ins": "różowymi",
-                        "loc": "różowych"
-                    },
-                    "nonvirile": {
-                        "nom": "różowe",
-                        "gen": "różowych",
-                        "dat": "różowym",
-                        "acc": "różowe",
-                        "ins": "różowymi",
-                        "loc": "różowych"
-                    }
-                }
-            },
-            "adverb": "różowo",
-            "comparative": {
-                "singular": {
-                    "m1": {
-                        "nom": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszy",
-                                "bardziej różowy"
-                            ]
-                        },
-                        "gen": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszego",
-                                "bardziej różowego"
-                            ]
-                        },
-                        "dat": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszemu",
-                                "bardziej różowemu"
-                            ]
-                        },
-                        "acc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszego",
-                                "bardziej różowego"
-                            ]
-                        },
-                        "ins": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszym",
-                                "bardziej różowym"
-                            ]
-                        },
-                        "loc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszym",
-                                "bardziej różowym"
-                            ]
-                        }
-                    },
-                    "m3": {
-                        "nom": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszy",
-                                "bardziej różowy"
-                            ]
-                        },
-                        "gen": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszego",
-                                "bardziej różowego"
-                            ]
-                        },
-                        "dat": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszemu",
-                                "bardziej różowemu"
-                            ]
-                        },
-                        "acc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszy",
-                                "bardziej różowy"
-                            ]
-                        },
-                        "ins": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszym",
-                                "bardziej różowym"
-                            ]
-                        },
-                        "loc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszym",
-                                "bardziej różowym"
-                            ]
-                        }
-                    },
-                    "f": {
-                        "nom": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowsza",
-                                "bardziej różowa"
-                            ]
-                        },
-                        "gen": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszej",
-                                "bardziej różowej"
-                            ]
-                        },
-                        "dat": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszej",
-                                "bardziej różowej"
-                            ]
-                        },
-                        "acc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszą",
-                                "bardziej różową"
-                            ]
-                        },
-                        "ins": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszą",
-                                "bardziej różową"
-                            ]
-                        },
-                        "loc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszej",
-                                "bardziej różowej"
-                            ]
-                        }
-                    },
-                    "n": {
-                        "nom": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowsze",
-                                "bardziej różowe"
-                            ]
-                        },
-                        "gen": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszego",
-                                "bardziej różowego"
-                            ]
-                        },
-                        "dat": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszemu",
-                                "bardziej różowemu"
-                            ]
-                        },
-                        "acc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowsze",
-                                "bardziej różowe"
-                            ]
-                        },
-                        "ins": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszym",
-                                "bardziej różowym"
-                            ]
-                        },
-                        "loc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszym",
-                                "bardziej różowym"
-                            ]
-                        }
-                    }
-                },
-                "plural": {
-                    "virile": {
-                        "nom": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowsi",
-                                "bardziej różowi"
-                            ]
-                        },
-                        "gen": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszych",
-                                "bardziej różowych"
-                            ]
-                        },
-                        "dat": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszym",
-                                "bardziej różowym"
-                            ]
-                        },
-                        "acc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszych",
-                                "bardziej różowych"
-                            ]
-                        },
-                        "ins": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszymi",
-                                "bardziej różowymi"
-                            ]
-                        },
-                        "loc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszych",
-                                "bardziej różowych"
-                            ]
-                        }
-                    },
-                    "nonvirile": {
-                        "nom": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowsze",
-                                "bardziej różowe"
-                            ]
-                        },
-                        "gen": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszych",
-                                "bardziej różowych"
-                            ]
-                        },
-                        "dat": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszym",
-                                "bardziej różowym"
-                            ]
-                        },
-                        "acc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowsze",
-                                "bardziej różowe"
-                            ]
-                        },
-                        "ins": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszymi",
-                                "bardziej różowymi"
-                            ]
-                        },
-                        "loc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "różowszych",
-                                "bardziej różowych"
-                            ]
-                        }
-                    }
-                }
-            },
-            "superlative": {
-                "singular": {
-                    "m1": {
-                        "nom": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszy",
-                                "najbardziej różowy"
-                            ]
-                        },
-                        "gen": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszego",
-                                "najbardziej różowego"
-                            ]
-                        },
-                        "dat": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszemu",
-                                "najbardziej różowemu"
-                            ]
-                        },
-                        "acc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszego",
-                                "najbardziej różowego"
-                            ]
-                        },
-                        "ins": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszym",
-                                "najbardziej różowym"
-                            ]
-                        },
-                        "loc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszym",
-                                "najbardziej różowym"
-                            ]
-                        }
-                    },
-                    "m3": {
-                        "nom": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszy",
-                                "najbardziej różowy"
-                            ]
-                        },
-                        "gen": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszego",
-                                "najbardziej różowego"
-                            ]
-                        },
-                        "dat": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszemu",
-                                "najbardziej różowemu"
-                            ]
-                        },
-                        "acc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszy",
-                                "najbardziej różowy"
-                            ]
-                        },
-                        "ins": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszym",
-                                "najbardziej różowym"
-                            ]
-                        },
-                        "loc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszym",
-                                "najbardziej różowym"
-                            ]
-                        }
-                    },
-                    "f": {
-                        "nom": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowsza",
-                                "najbardziej różowa"
-                            ]
-                        },
-                        "gen": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszej",
-                                "najbardziej różowej"
-                            ]
-                        },
-                        "dat": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszej",
-                                "najbardziej różowej"
-                            ]
-                        },
-                        "acc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszą",
-                                "najbardziej różową"
-                            ]
-                        },
-                        "ins": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszą",
-                                "najbardziej różową"
-                            ]
-                        },
-                        "loc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszej",
-                                "najbardziej różowej"
-                            ]
-                        }
-                    },
-                    "n": {
-                        "nom": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowsze",
-                                "najbardziej różowe"
-                            ]
-                        },
-                        "gen": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszego",
-                                "najbardziej różowego"
-                            ]
-                        },
-                        "dat": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszemu",
-                                "najbardziej różowemu"
-                            ]
-                        },
-                        "acc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowsze",
-                                "najbardziej różowe"
-                            ]
-                        },
-                        "ins": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszym",
-                                "najbardziej różowym"
-                            ]
-                        },
-                        "loc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszym",
-                                "najbardziej różowym"
-                            ]
-                        }
-                    }
-                },
-                "plural": {
-                    "virile": {
-                        "nom": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowsi",
-                                "najbardziej różowi"
-                            ]
-                        },
-                        "gen": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszych",
-                                "najbardziej różowych"
-                            ]
-                        },
-                        "dat": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszym",
-                                "najbardziej różowym"
-                            ]
-                        },
-                        "acc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszych",
-                                "najbardziej różowych"
-                            ]
-                        },
-                        "ins": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszymi",
-                                "najbardziej różowymi"
-                            ]
-                        },
-                        "loc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszych",
-                                "najbardziej różowych"
-                            ]
-                        }
-                    },
-                    "nonvirile": {
-                        "nom": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowsze",
-                                "najbardziej różowe"
-                            ]
-                        },
-                        "gen": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszych",
-                                "najbardziej różowych"
-                            ]
-                        },
-                        "dat": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszym",
-                                "najbardziej różowym"
-                            ]
-                        },
-                        "acc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowsze",
-                                "najbardziej różowe"
-                            ]
-                        },
-                        "ins": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszymi",
-                                "najbardziej różowymi"
-                            ]
-                        },
-                        "loc": {
-                            "isTerminus": true,
-                            "normal": [
-                                "najróżowszych",
-                                "najbardziej różowych"
-                            ]
-                        }
-                    }
-                }
-            }
+        "plural": {
+          "virile": {
+            "nom": "różowi",
+            "gen": "różowych",
+            "dat": "różowym",
+            "acc": "różowych",
+            "ins": "różowymi",
+            "loc": "różowych"
+          },
+          "nonvirile": {
+            "nom": "różowe",
+            "gen": "różowych",
+            "dat": "różowym",
+            "acc": "różowe",
+            "ins": "różowymi",
+            "loc": "różowych"
+          }
         }
+      },
+      "adverb": "różowo",
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "różowszy",
+                "bardziej różowy"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "różowszego",
+                "bardziej różowego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "różowszemu",
+                "bardziej różowemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "różowszego",
+                "bardziej różowego"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "różowszym",
+                "bardziej różowym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "różowszym",
+                "bardziej różowym"
+              ]
+            }
+          },
+          "m3": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "różowszy",
+                "bardziej różowy"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "różowszego",
+                "bardziej różowego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "różowszemu",
+                "bardziej różowemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "różowszy",
+                "bardziej różowy"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "różowszym",
+                "bardziej różowym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "różowszym",
+                "bardziej różowym"
+              ]
+            }
+          },
+          "f": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "różowsza",
+                "bardziej różowa"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "różowszej",
+                "bardziej różowej"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "różowszej",
+                "bardziej różowej"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "różowszą",
+                "bardziej różową"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "różowszą",
+                "bardziej różową"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "różowszej",
+                "bardziej różowej"
+              ]
+            }
+          },
+          "n": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "różowsze",
+                "bardziej różowe"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "różowszego",
+                "bardziej różowego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "różowszemu",
+                "bardziej różowemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "różowsze",
+                "bardziej różowe"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "różowszym",
+                "bardziej różowym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "różowszym",
+                "bardziej różowym"
+              ]
+            }
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "różowsi",
+                "bardziej różowi"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "różowszych",
+                "bardziej różowych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "różowszym",
+                "bardziej różowym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "różowszych",
+                "bardziej różowych"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "różowszymi",
+                "bardziej różowymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "różowszych",
+                "bardziej różowych"
+              ]
+            }
+          },
+          "nonvirile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "różowsze",
+                "bardziej różowe"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "różowszych",
+                "bardziej różowych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "różowszym",
+                "bardziej różowym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "różowsze",
+                "bardziej różowe"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "różowszymi",
+                "bardziej różowymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "różowszych",
+                "bardziej różowych"
+              ]
+            }
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszy",
+                "najbardziej różowy"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszego",
+                "najbardziej różowego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszemu",
+                "najbardziej różowemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszego",
+                "najbardziej różowego"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszym",
+                "najbardziej różowym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszym",
+                "najbardziej różowym"
+              ]
+            }
+          },
+          "m3": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszy",
+                "najbardziej różowy"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszego",
+                "najbardziej różowego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszemu",
+                "najbardziej różowemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszy",
+                "najbardziej różowy"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszym",
+                "najbardziej różowym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszym",
+                "najbardziej różowym"
+              ]
+            }
+          },
+          "f": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowsza",
+                "najbardziej różowa"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszej",
+                "najbardziej różowej"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszej",
+                "najbardziej różowej"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszą",
+                "najbardziej różową"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszą",
+                "najbardziej różową"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszej",
+                "najbardziej różowej"
+              ]
+            }
+          },
+          "n": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowsze",
+                "najbardziej różowe"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszego",
+                "najbardziej różowego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszemu",
+                "najbardziej różowemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowsze",
+                "najbardziej różowe"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszym",
+                "najbardziej różowym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszym",
+                "najbardziej różowym"
+              ]
+            }
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowsi",
+                "najbardziej różowi"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszych",
+                "najbardziej różowych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszym",
+                "najbardziej różowym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszych",
+                "najbardziej różowych"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszymi",
+                "najbardziej różowymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszych",
+                "najbardziej różowych"
+              ]
+            }
+          },
+          "nonvirile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowsze",
+                "najbardziej różowe"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszych",
+                "najbardziej różowych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszym",
+                "najbardziej różowym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowsze",
+                "najbardziej różowe"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszymi",
+                "najbardziej różowymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najróżowszych",
+                "najbardziej różowych"
+              ]
+            }
+          }
+        }
+      }
     }
+  }
 ]
