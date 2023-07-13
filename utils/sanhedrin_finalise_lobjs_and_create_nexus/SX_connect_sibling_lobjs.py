@@ -67,7 +67,7 @@ if __name__ == '__main__':
                 sibling_b["inflectionsRoot"] = root_id_for_inflections
 
         for sindex, sibling_b in enumerate(sib_set):
-            if sibling_b["inflectionsRoot"]:
+            if "inflectionsRoot" in sibling_b:
                 if sindex == 0:
                     c.print_red("Didn't expect first sibling to have inflectionsRoot key: " + sibling_b["id"])
                     raise Exception("Stop")
