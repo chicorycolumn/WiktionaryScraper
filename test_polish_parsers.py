@@ -121,9 +121,17 @@ def test_PolishAdjectiveParser(index, input_words: list, expected_path: str, use
     expected.sort(key=lambda lobj: lobj["lemma"])
     assert actual == expected
 
-    with open(f'expected/{wordtype}/{expected_rejected_path}.json', 'r') as f:
-        expected_rejected = json.load(f)
-        f.close()
+    expected_rejected_path_full = f'expected/{wordtype}/{expected_rejected_path}.json'
+    if os.path.isfile(expected_rejected_path_full):
+        with open(expected_rejected_path_full, 'r') as f:
+            expected_rejected = json.load(f)
+            f.close()
+    else:
+        expected_rejected = {
+          "failed_to_load_html": [],
+          "loaded_and_read_html_but_failed_to_create_output": [],
+          "loaded_html_but_failed_when_reading": []
+        }
 
     with open(f'output/{rejected_path}.json', 'r') as f:
         actual_rejected = json.load(f)
