@@ -95,7 +95,7 @@ class PolishAdjectiveParser(HTMLParser):
         self.output_obj.pop("lemma")
         self.output_obj["lemma"] = lemma
 
-        self.output_obj["tags"] = "xxx"
+        self.output_obj["tags"] = "xxxxxxxxx"
 
         self.output_obj["translations"] = deepcopy(self.output_obj["translations"])
 
@@ -168,11 +168,12 @@ class PolishAdjectiveParser(HTMLParser):
                 self.output_obj["lemma"].append(data)
 
             if self.mode == "gettingadverb":
-                if self.lasttag == "i" and data.lower() != "adverb":
-                    self.mode = "gotadverb"
-                    print('mode = "gotadverb"')
-                else:
-                    self.output_obj["adverb"].append(data)
+                if data.lower() not in ["adverb", "or"]:
+                    if self.lasttag == "i":
+                        self.mode = "gotadverb"
+                        print('mode = "gotadverb"')
+                    else:
+                        self.output_obj["adverb"].append(data)
 
             if self.lasttag == "i" and data.lower() == "adverb":
                 self.mode = "gettingadverb"
