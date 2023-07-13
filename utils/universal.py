@@ -153,3 +153,36 @@ def load_tempsave_if_exists(tempsave_path, input_path: str = None):
                 color.print_teal("Loaded " + str(len(loaded)) + " items from input.")
                 f.close()
             return loaded
+
+
+def deepequals(obj1, obj2):
+    def _deepequals(item1, item2):
+        if type(item1) != type(item2):
+            return False
+
+        if type(item1) in [str, int, float, complex, bool]:
+            return item1 == item2
+
+        if item1 is None:
+            return item1 == item2
+
+        if type(item1) in [list, tuple, set, frozenset]:
+
+            if len(item1) != len(item2):
+                return False
+
+            for index, item_from_1 in enumerate(item1):
+                item_from_2 = item2[index]
+                return _deepequals(item_from_1, item_from_2)
+
+        if type(item1) is dict:
+            keys_from_1 = [k for k in item1]
+            keys_from_2 = [k for k in item2]
+            if not _deepequals(keys_from_1, keys_from_2):
+                return False
+            for key in item1:
+                return _deepequals(item1[key], item2[key])
+
+        return True
+
+    return _deepequals(obj1, obj2)
