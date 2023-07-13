@@ -1,14 +1,10 @@
-import json
-import os
-import time
-
 from parsers.common import scrape_word_data
 from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q
 from utils.postprocessing.common import finalise_lemma_objects, add_tags_and_topics_from_shorthand
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c, save
+from utils.universal import color as c, save, load_data
 
 if __name__ == '__main__':
 
@@ -40,11 +36,8 @@ if __name__ == '__main__':
     for input_filename in input_filenames:
         input_path = f"{input_stem}{input_filename}"
         c.print_teal("input_path =      " + c.teal(input_path))
-        with open(input_path + ".json", "r") as f:
-            src_lobjs = json.load(f)
-            print("Loaded", len(src_lobjs), "source lobjs.")
-            all_src_lobjs.extend(src_lobjs)
-            f.close()
+        src_lobjs = load_data(input_path)
+        all_src_lobjs.extend(src_lobjs)
 
     print("Total all_src_lobjs", len(all_src_lobjs))
 

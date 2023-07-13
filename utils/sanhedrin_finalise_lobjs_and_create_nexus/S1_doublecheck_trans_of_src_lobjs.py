@@ -1,14 +1,9 @@
-import json
-import os
-import time
-from copy import deepcopy
-
 from parsers.common import scrape_word_data
 from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, show1, user_validate_translations
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c, get_curried_save, load_tempsave_if_exists
+from utils.universal import color as c, get_curried_save, load_tempsave_if_exists, load_data
 
 if __name__ == '__main__':
 
@@ -37,29 +32,24 @@ if __name__ == '__main__':
         id_of_last_done_src_lobj = doublechecked_src_lobjs[-1]["id"]
         ready = False
 
-    with open(input_path + ".json", "r") as f:
-        src_lobjs = json.load(f)
-        print("Loaded", len(src_lobjs), "source lobjs.")
+    src_lobjs = load_data(input_path)
 
-        if only_run_for_this_many_lobjs:
-            src_lobjs = src_lobjs[:only_run_for_this_many_lobjs]
-            c.print_bold("BUT FOR TESTING LET'S JUST SAY " + str(len(src_lobjs)))
+    if only_run_for_this_many_lobjs:
+        src_lobjs = src_lobjs[:only_run_for_this_many_lobjs]
+        c.print_bold("BUT FOR TESTING LET'S JUST SAY " + str(len(src_lobjs)))
 
-        for src_lobj_index, src_lobj in enumerate(src_lobjs):
+    for src_lobj_index, src_lobj in enumerate(src_lobjs):
+        print("")
+        print("")
+        print(f"{src_lobj_index + 1}/{len(src_lobjs)}")
 
-            print("")
-            print("")
-            print(f"{src_lobj_index + 1}/{len(src_lobjs)}")
-
-            if ready:
-                user_validate_translations(src_lobj, doublechecked_src_lobjs, save, target_lang)
+        if ready:
+            user_validate_translations(src_lobj, doublechecked_src_lobjs, save, target_lang)
+        else:
+            if not ready and src_lobj["id"] == id_of_last_done_src_lobj:
+                ready = True
             else:
-                if not ready and src_lobj["id"] == id_of_last_done_src_lobj:
-                    ready = True
-                else:
-                    print("Already done")
-
-        f.close()
+                print("Already done")
 
     if ready:
         print("")

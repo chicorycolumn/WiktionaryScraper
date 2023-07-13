@@ -1,6 +1,4 @@
-import json
 import os
-import time
 
 from parsers.common import scrape_word_data
 from utils.general.common import write_todo

@@ -1,6 +1,4 @@
-import json
 import os
-import time
 
 from parsers.common import scrape_word_data
 from utils.general.common import write_todo
@@ -47,10 +45,8 @@ if __name__ == '__main__':
     }
 
     if os.path.isfile(tempsave_path + ".json"):
-        with open(tempsave_path + ".json", "r") as f:
-            to_change_lobjs = json.load(f)
-            c.print_teal("Loaded " + str(len(to_change_lobjs)) + " items from tempsave.")
-            f.close()
+        to_change_lobjs = load_data(tempsave_path)
+        c.print_teal("Loaded " + str(len(to_change_lobjs)) + " items from tempsave.")
 
     if step == 1:
         sorted_lobjs["F1"] = [l for l in lobjs if int(l["frequency"]) == 1]

@@ -1,13 +1,9 @@
-import json
-import os
-import time
-
 from parsers.common import scrape_word_data
 from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, add_signalwords, get_signalword, test_signalword
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c
+from utils.universal import color as c, load_data, save
 
 if __name__ == '__main__':
 
@@ -31,15 +27,8 @@ if __name__ == '__main__':
     c.print_teal("tgt_input_path    =     " + c.teal(tgt_input_path))
     c.print_teal("No tempsave file is used in this stage..")
 
-    src = []
-    tgt = []
-
-    with open(src_input_path + ".json", "r") as f:
-        src = json.load(f)
-        f.close()
-    with open(tgt_input_path + ".json", "r") as f:
-        tgt = json.load(f)
-        f.close()
+    src = load_data(src_input_path)
+    tgt = load_data(tgt_input_path)
 
     print("Loaded", len(src), "source lobjs.")
     print("Loaded", len(tgt), "target lobjs.")
@@ -66,14 +55,7 @@ if __name__ == '__main__':
                         new_trans.append(tran)
                 tlob["»trans"] = new_trans
 
-    with open(src_input_path + ".json", "w") as outfile:
-        print(f'Writing {len(src)} src results.')
-        data_json = json.dumps(src, indent=2, ensure_ascii=False)
-        outfile.write(data_json)
-        outfile.close()
-        
-    with open(tgt_input_path + ".json", "w") as outfile:
-        print(f'Writing {len(tgt)} tgt results.')
-        data_json = json.dumps(tgt, indent=2, ensure_ascii=False)
-        outfile.write(data_json)
-        outfile.close()
+    save(src_input_path, None, src)
+    save(tgt_input_path, None, tgt)
+
+    print("Completely done.")
