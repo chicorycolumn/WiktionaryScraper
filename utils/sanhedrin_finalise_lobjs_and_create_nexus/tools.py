@@ -239,6 +239,7 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
     elif user_input[0] == "a" and " " in user_input:
         print("ADDING TRANS...")
         new_trans = user_input.split(" ")[1:]
+        new_trans = [tr.replace("SPACE", " ") for tr in new_trans]
         lobj["translations"][target_lang].extend(new_trans)
         user_validate_translations(lobj, res, save_fxn, target_lang)
         return
@@ -612,6 +613,17 @@ def get_new_freqs(holder):
                 if item[0] == index_to_modify:
                     changes.append([new_freq, item[1]["id"]])
     return changes
+
+
+def compare_lobj_id_root(id1, id2):
+    if "(" in id1:
+        id1 = "".join(id1[:id1.index("(")])
+
+    if "(" in id2:
+        id2 = "".join(id2[:id2.index("(")])
+
+    return id1 == id2
+
 
 reg_refs = [
     {"tag": "fancy", "num": 1},
