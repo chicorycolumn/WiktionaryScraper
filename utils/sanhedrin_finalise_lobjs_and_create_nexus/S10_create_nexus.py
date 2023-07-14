@@ -43,6 +43,7 @@ if __name__ == '__main__':
 
         for r in records:
             if not already_done and src_lobj["id"] in r["src"]:
+                print(c.green(src_lobj["id"]), "is last item from tempsave.")
                 already_done = True
 
         if already_done:

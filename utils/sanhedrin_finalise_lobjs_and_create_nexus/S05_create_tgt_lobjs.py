@@ -21,8 +21,8 @@ if __name__ == '__main__':
     input_path = f"{stem}{input_filename}"
 
     output_path_tgt = f"{stem}{bare_input_filename}_TGT"
-    tempsave_path_tgt = output_path_tgt + "_S4_tempsave"
-    tempsave_path_src = f"{stem}{bare_input_filename}_SRC_S4_tempsave"
+    tempsave_path_tgt = output_path_tgt + "_S05_tempsave"
+    tempsave_path_src = f"{stem}{bare_input_filename}_SRC_S05_tempsave"
 
     c.print_teal("input_path        =     " + c.teal(input_path))
     c.print_teal("output_path_tgt   =     " + c.teal(output_path_tgt))

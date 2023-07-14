@@ -35,6 +35,7 @@ if __name__ == '__main__':
         already_done = False
         for done_lobj in done_lobjs:
             if not already_done and done_lobj["id"] == lobj["id"]:
+                print(c.green(done_lobj["id"]), "is last item from tempsave.")
                 already_done = True
         if already_done:
             continue

@@ -20,6 +20,7 @@ if __name__ == '__main__':
 
     c.print_teal("input_path    =     " + c.teal(input_path))
     c.print_teal("Output path will be the same as input.")
+    c.print_teal("No tempsave file is used for this stage.")
 
     lobjs = load_data(input_path)
     siblings = []

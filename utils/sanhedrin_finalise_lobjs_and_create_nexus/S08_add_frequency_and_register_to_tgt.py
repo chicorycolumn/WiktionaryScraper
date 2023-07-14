@@ -19,7 +19,7 @@ if __name__ == '__main__':
     src_input_filename = f"{wordtype}_batch_{batch}_SRC"
     stem = "./../../output_saved/batches/"
     input_path = f"{stem}{input_filename}"
-    tempsave_path = f"{stem}{input_filename}_S7_tempsave"
+    tempsave_path = f"{stem}{input_filename}_S08_tempsave"
     src_input_path = f"{stem}{src_input_filename}"
     save = get_curried_save(input_path, tempsave_path)
 

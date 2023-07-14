@@ -16,7 +16,7 @@ if __name__ == '__main__':
     input_filename = f"{wordtype}_batch_{batch}_{target_lang}"
     stem = "./../../output_saved/batches/"
     input_path = f"{stem}{input_filename}"
-    tempsave_path = input_path + "_S5_tempsave"
+    tempsave_path = input_path + "_S06_tempsave"
     _save = get_curried_save(input_path, tempsave_path)
 
     c.print_teal("input_path    =     " + c.teal(input_path))
