@@ -134,8 +134,17 @@
   {
     "lemma": "chłopak",
     "id": "pol-npe-0002-chłopak(boyfriend)",
-    "tags": "1Z,r",
-    "topics": null,
+    "tags": [
+      "FREQ1",
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "love",
+      "people"
+    ],
     "translations": {
       "ENG": [
         "boyfriend"
@@ -1182,8 +1191,17 @@
   {
     "lemma": "dziewczyna",
     "id": "pol-npe-0021-dziewczyna(girlfriend)",
-    "tags": "1Z,r",
-    "topics": null,
+    "tags": [
+      "FREQ1",
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "love",
+      "people"
+    ],
     "translations": {
       "ENG": [
         "girlfriend"
@@ -2018,8 +2036,17 @@
   {
     "lemma": "bohater",
     "id": "pol-npe-0035-bohater(protagonist)",
-    "tags": "4wri,p,RRR",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete",
+      "living",
+      "person"
+    ],
+    "topics": [
+      "fantasy",
+      "people",
+      "writing"
+    ],
     "translations": {
       "ENG": [
         "protagonist"
@@ -3014,8 +3041,15 @@
   {
     "lemma": "obcy",
     "id": "pol-npe-0052-obcy(stranger)",
-    "tags": "4p",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete",
+      "living",
+      "person"
+    ],
+    "topics": [
+      "people"
+    ],
     "translations": {
       "ENG": [
         "stranger"
@@ -5834,7 +5868,6 @@
       }
     }
   },
-
   {
     "lemma": "krewny",
     "id": "pol-npe-0106-krewny",
@@ -5882,7 +5915,6 @@
       }
     }
   },
-
   {
     "lemma": "partnerka",
     "id": "pol-npe-0107-partnerka",

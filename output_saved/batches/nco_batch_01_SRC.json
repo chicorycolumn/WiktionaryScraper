@@ -904,8 +904,14 @@
   {
     "lemma": "słownik",
     "id": "pol-nco-0017-słownik(lexicon)",
-    "tags": "4eee,££",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract"
+    ],
+    "topics": [
+      "knowledge and existence",
+      "language"
+    ],
     "translations": {
       "ENG": [
         "vocabulary"
@@ -1685,8 +1691,13 @@
   {
     "lemma": "droga",
     "id": "pol-nco-0031-droga(way)",
-    "tags": "3he,eee",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "helper"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
     "translations": {
       "ENG": [
         "way"
@@ -5982,8 +5993,13 @@
   {
     "lemma": "sen",
     "id": "pol-nco-0115-sen(dream)",
-    "tags": "2aa,ee",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "abstract"
+    ],
+    "topics": [
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "dream"
@@ -9824,8 +9840,14 @@
   {
     "lemma": "prawo",
     "id": "pol-nco-0191-prawo(right)",
-    "tags": "4aa,pol,phi",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract"
+    ],
+    "topics": [
+      "philosophy and ethics",
+      "politics"
+    ],
     "translations": {
       "ENG": [
         "right"
@@ -10592,8 +10614,13 @@
   {
     "lemma": "waga",
     "id": "pol-nco-0201-waga(importance)",
-    "tags": "4eee,he",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "helper"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
     "translations": {
       "ENG": [
         "weight",
@@ -10697,8 +10724,14 @@
   {
     "lemma": "wypadek",
     "id": "pol-nco-0203-wypadek(accident)",
-    "tags": "4TTT,JJ",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "car",
+      "danger",
+      "travel"
+    ],
     "translations": {
       "ENG": [
         "accident"
@@ -10828,8 +10861,18 @@
   {
     "lemma": "ciasto",
     "id": "pol-nco-0204-ciasto(dough)",
-    "tags": "4fi",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete",
+      "food",
+      "holdable",
+      "ingredient"
+    ],
+    "topics": [
+      "inside",
+      "kitchen",
+      "restaurant"
+    ],
     "translations": {
       "ENG": [
         "dough",
@@ -11724,8 +11767,16 @@
   {
     "lemma": "granica",
     "id": "pol-nco-0221-granica(border)",
-    "tags": "3ls,TT,PP,geo",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "special location"
+    ],
+    "topics": [
+      "geography",
+      "holiday",
+      "travel"
+    ],
     "translations": {
       "ENG": [
         "border"
@@ -13077,8 +13128,15 @@
   {
     "lemma": "cel",
     "id": "pol-nco-0244-cel(destination)",
-    "tags": "4PP,TT,ls",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract",
+      "special location"
+    ],
+    "topics": [
+      "holiday",
+      "travel"
+    ],
     "translations": {
       "ENG": [
         "destination"
@@ -17027,8 +17085,14 @@
   {
     "lemma": "scena",
     "id": "pol-nco-0320-scena(stage)",
-    "tags": "4ls,the",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract",
+      "special location"
+    ],
+    "topics": [
+      "theatre"
+    ],
     "translations": {
       "ENG": [
         "stage"
@@ -17219,8 +17283,13 @@
   {
     "lemma": "koło",
     "id": "pol-nco-0322-koło(wheel)",
-    "tags": "4TTT",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "car",
+      "travel"
+    ],
     "translations": {
       "ENG": [
         "wheel"
@@ -24238,8 +24307,16 @@
   {
     "lemma": "baza",
     "id": "pol-nco-0457-baza(army base)",
-    "tags": "4lb,XXX",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "building",
+      "concrete",
+      "location"
+    ],
+    "topics": [
+      "inside",
+      "war"
+    ],
     "translations": {
       "ENG": [
         "base"
@@ -25246,8 +25323,18 @@
   {
     "lemma": "papryka",
     "id": "pol-nco-0474-papryka(paprika)",
-    "tags": "4fi",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete",
+      "food",
+      "holdable",
+      "ingredient"
+    ],
+    "topics": [
+      "inside",
+      "kitchen",
+      "restaurant"
+    ],
     "translations": {
       "ENG": [
         "paprika"
@@ -28738,8 +28825,13 @@
   {
     "lemma": "związek",
     "id": "pol-nco-0542-związek(connection)",
-    "tags": "3aa,eee",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "abstract"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
     "translations": {
       "ENG": [
         "relation",
@@ -28779,8 +28871,14 @@
   {
     "lemma": "związek",
     "id": "pol-nco-0542-związek(romantic relationship)",
-    "tags": "3Z,ZZ,pp",
-    "topics": null,
+    "tags": [
+      "FREQ3"
+    ],
+    "topics": [
+      "love",
+      "people",
+      "social life"
+    ],
     "translations": {
       "ENG": [
         "relationship"
@@ -29060,8 +29158,13 @@
   {
     "lemma": "ruch",
     "id": "pol-nco-0547-ruch(move)",
-    "tags": "4aa,MM",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract"
+    ],
+    "topics": [
+      "game"
+    ],
     "translations": {
       "ENG": [
         "move"
@@ -29100,8 +29203,13 @@
   {
     "lemma": "ruch",
     "id": "pol-nco-0547-ruch(traffic)",
-    "tags": "3TTT,TT",
-    "topics": null,
+    "tags": [
+      "FREQ3"
+    ],
+    "topics": [
+      "car",
+      "travel"
+    ],
     "translations": {
       "ENG": [
         "traffic"
@@ -29526,8 +29634,12 @@
   {
     "lemma": "badanie",
     "id": "pol-nco-0555-badanie(test)",
-    "tags": "4med",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "medicine"
+    ],
     "translations": {
       "ENG": [
         "examination",
@@ -40439,8 +40551,16 @@
   {
     "lemma": "rachunek",
     "id": "pol-nco-0774-rachunek(receipt)",
-    "tags": "3h,$",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "concrete",
+      "holdable",
+      "money"
+    ],
+    "topics": [
+      "business",
+      "shopping"
+    ],
     "translations": {
       "ENG": [
         "receipt"
@@ -43819,8 +43939,14 @@
   {
     "lemma": "klasa",
     "id": "pol-nco-0840-klasa(class)",
-    "tags": "3s,ttt",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "event"
+    ],
+    "topics": [
+      "school",
+      "time"
+    ],
     "translations": {
       "ENG": [
         "class"
@@ -43860,8 +43986,16 @@
   {
     "lemma": "klasa",
     "id": "pol-nco-0840-klasa(classroom)",
-    "tags": "3s,lr",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "concrete",
+      "location",
+      "room"
+    ],
+    "topics": [
+      "inside",
+      "school"
+    ],
     "translations": {
       "ENG": [
         "class"
@@ -45916,8 +46050,16 @@
   {
     "lemma": "zgoda",
     "id": "pol-nco-0882-zgoda(consent)",
-    "tags": "4Z,Y",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract",
+      "thought"
+    ],
+    "topics": [
+      "love",
+      "mental",
+      "people"
+    ],
     "translations": {
       "ENG": [
         "consent"
@@ -46313,8 +46455,14 @@
   {
     "lemma": "ćwiczenie",
     "id": "pol-nco-0892-ćwiczenie(drill)",
-    "tags": "5ttt,JJ",
-    "topics": null,
+    "tags": [
+      "FREQ5",
+      "event"
+    ],
+    "topics": [
+      "danger",
+      "time"
+    ],
     "translations": {
       "ENG": [
         "exercise",
@@ -52492,8 +52640,12 @@
   {
     "lemma": "kierownica",
     "id": "pol-nco-1017-kierownica(handlebar)",
-    "tags": "4TT",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "travel"
+    ],
     "translations": {
       "ENG": [
         "handlebar"

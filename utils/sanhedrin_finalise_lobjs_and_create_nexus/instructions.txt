@@ -18,7 +18,7 @@ And then creating the Nexus objects that connect them.
     - ⛳  Add signal word eg "pol-nco-005-nail(bodypart)" vs "pol-nco-006-nail(metal)".
     You are modifying "nou_batch_01_SRC.json"
 
-4)  Run "S03_expand_tags_and_renumber.py"
+4)  Run "S03_expand_tags.py"
     - to expand any shorthand tags you have added to "nou_batch_01_SRC.json" in step 3
     Modifies "nou_batch_01_SRC.json"
 
