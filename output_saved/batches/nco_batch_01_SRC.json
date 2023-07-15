@@ -903,12 +903,12 @@
   },
   {
     "lemma": "słownik",
-    "id": "pol-nco-0017-słownik(dictionary)(vocabulary (personal lexicon))",
+    "id": "pol-nco-0017-słownik(lexicon)",
     "tags": "🏁",
     "topics": null,
     "translations": {
       "ENG": [
-        "vocabulary (personal lexicon)"
+        "vocabulary"
       ]
     },
     "gender": "m3",
@@ -6313,10 +6313,7 @@
     ],
     "translations": {
       "ENG": [
-        "overcoat",
-        "raincoat",
-        "coat",
-        "mackintosh"
+        "coat"
       ]
     },
     "gender": "m3",
@@ -10585,6 +10582,47 @@
         "ins": "czapkami",
         "loc": "czapkach",
         "voc": "czapki"
+      }
+    }
+  },
+  {
+    "lemma": "wzrost",
+    "id": "pol-nco-0201-wzrost",
+    "tags": [
+      "FREQ4",
+      "dimension",
+      "helper"
+    ],
+    "topics": [
+      "appearance",
+      "body",
+      "medicine",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "*height"
+      ]
+    },
+    "gender": "m3",
+    "inflections": {
+      "singular": {
+        "nom": "wzrost",
+        "gen": "wzrostu",
+        "dat": "wzrostowi",
+        "acc": "wzrost",
+        "ins": "wzrostem",
+        "loc": "wzroście",
+        "voc": "wzroście"
+      },
+      "plural": {
+        "nom": "wzrosty",
+        "gen": "wzrostów",
+        "dat": "wzrostom",
+        "acc": "wzrosty",
+        "ins": "wzrostami",
+        "loc": "wzrostach",
+        "voc": "wzrosty"
       }
     }
   },
@@ -29081,7 +29119,46 @@
     "topics": null,
     "translations": {
       "ENG": [
-        "move",
+        "move"
+      ]
+    },
+    "gender": "m3",
+    "extra": {
+      "synonyms": [
+        "poruszenie",
+        "bieg",
+        "krok",
+        "posunięcie"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "ruch",
+        "gen": "ruchu",
+        "dat": "ruchowi",
+        "acc": "ruch",
+        "ins": "ruchem",
+        "loc": "ruchu",
+        "voc": "ruchu"
+      },
+      "plural": {
+        "nom": "ruchy",
+        "gen": "ruchów",
+        "dat": "ruchom",
+        "acc": "ruchy",
+        "ins": "ruchami",
+        "loc": "ruchach",
+        "voc": "ruchy"
+      }
+    }
+  },
+  {
+    "lemma": "ruch",
+    "id": "pol-nco-0547-ruch(traffic)",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
         "traffic"
       ]
     },
@@ -41206,21 +41283,70 @@
     "inflections": {
       "singular": {
         "nom": "sędzia",
-        "gen": "sędzi",
-        "dat": "sędzi",
-        "acc": "sędzię",
+        "gen": "sędziego",
+        "dat": "sędziemu",
+        "acc": "sędziego",
         "ins": "sędzią",
         "loc": "sędzi",
         "voc": "sędzio"
       },
       "plural": {
-        "nom": "sędzie",
-        "gen": "sędzi",
+        "nom": "sędziowie",
+        "gen": "sędziów",
         "dat": "sędziom",
-        "acc": "sędzie",
+        "acc": "sędziów",
         "ins": "sędziami",
         "loc": "sędziach",
-        "voc": "sędzie"
+        "voc": "sędziowie"
+      }
+    }
+  },
+  {
+    "lemma": "sędzia",
+    "id": "pol-nco-0790-sędzia(judge)",
+    "tags": [
+      "FREQ4",
+      "concrete",
+      "living",
+      "person",
+      "profession"
+    ],
+    "topics": [
+      "people",
+      "law",
+      "work"
+    ],
+    "translations": {
+      "ENG": [
+        "judge"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "otherShapes": {
+        "masculine": [
+          "sędzia"
+        ]
+      }
+    },
+    "inflections": {
+      "singular": {
+        "nom": "sędzia",
+        "gen": "sędziego",
+        "dat": "sędziemu",
+        "acc": "sędziego",
+        "ins": "sędzią",
+        "loc": "sędzi",
+        "voc": "sędzio"
+      },
+      "plural": {
+        "nom": "sędziowie",
+        "gen": "sędziów",
+        "dat": "sędziom",
+        "acc": "sędziów",
+        "ins": "sędziami",
+        "loc": "sędziach",
+        "voc": "sędziowie"
       }
     }
   },
