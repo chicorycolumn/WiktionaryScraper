@@ -904,7 +904,7 @@
   {
     "lemma": "słownik",
     "id": "pol-nco-0017-słownik(lexicon)",
-    "tags": "🏁",
+    "tags": "4eee,££",
     "topics": null,
     "translations": {
       "ENG": [
@@ -1685,15 +1685,8 @@
   {
     "lemma": "droga",
     "id": "pol-nco-0031-droga(way)",
-    "tags": [
-      "FREQ3",
-      "abstract",
-      "concrete",
-      "location"
-    ],
-    "topics": [
-      "travel"
-    ],
+    "tags": "3he,eee",
+    "topics": null,
     "translations": {
       "ENG": [
         "way"
@@ -1743,8 +1736,15 @@
   {
     "lemma": "droga",
     "id": "pol-nco-0031-droga(road)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "concrete",
+      "location"
+    ],
+    "topics": [
+      "travel"
+    ],
     "translations": {
       "ENG": [
         "road"
@@ -5982,13 +5982,8 @@
   {
     "lemma": "sen",
     "id": "pol-nco-0115-sen(dream)",
-    "tags": [
-      "FREQ2"
-    ],
-    "topics": [
-      "body",
-      "daily routine"
-    ],
+    "tags": "2aa,ee",
+    "topics": null,
     "translations": {
       "ENG": [
         "dream"
@@ -6030,8 +6025,13 @@
   {
     "lemma": "sen",
     "id": "pol-nco-0115-sen(sleep)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2"
+    ],
+    "topics": [
+      "body",
+      "daily routine"
+    ],
     "translations": {
       "ENG": [
         "sleep"
@@ -6117,8 +6117,16 @@
   {
     "lemma": "długość",
     "id": "pol-nco-0116-długość(duration)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract",
+      "abstract noun",
+      "measurement"
+    ],
+    "topics": [
+      "math",
+      "time"
+    ],
     "translations": {
       "ENG": [
         "duration"
@@ -7581,7 +7589,7 @@
   },
   {
     "lemma": "kurwa",
-    "id": "pol-nco-0145-kurwa(fuck)",
+    "id": "pol-nco-0145-kurwa(curseword)",
     "tags": [
       "FREQ3",
       "curseword"
@@ -7590,131 +7598,6 @@
     "translations": {
       "ENG": [
         "fuck"
-      ]
-    },
-    "gender": "f",
-    "extra": {
-      "otherShapes": {
-        "diminutive": [
-          "kurewka"
-        ],
-        "augmentative": [
-          "kurwisko"
-        ]
-      },
-      "synonyms": [
-        "dziwka",
-        "kurtyzana",
-        "nierządnica",
-        "prostytutka",
-        "tirówka",
-        "cichodajka",
-        "dupodajka",
-        "jawnogrzesznica",
-        "ladacznica",
-        "lafirynda",
-        "latawica",
-        "suka",
-        "szmata",
-        "wszetecznica",
-        "wywłoka",
-        "zdzira",
-        "łajdak",
-        "sprzedawczyk",
-        "nikczemnik",
-        "palant",
-        "dupek",
-        "chuj"
-      ],
-      "derivedTerms": [
-        "kurwić",
-        "kurwować",
-        "kurwieć",
-        "kurewstwo",
-        "kurwisko",
-        "kurwiarz",
-        "kurwiarzstwo",
-        "kurwię",
-        "kurwiątko",
-        "kurwica",
-        "kurwidołek",
-        "kurwie macierze syn",
-        "kurwik",
-        "kurwiszcze",
-        "kurwiszon",
-        "skurwiel",
-        "skurwysyn",
-        "podkurw",
-        "pokurw",
-        "rozkurw",
-        "wkurw",
-        "zakurw",
-        "kurewski",
-        "kurwi",
-        "kurwowaty",
-        "kurwujący",
-        "podkurwiony",
-        "przekurwiony",
-        "przykurwiony",
-        "rozkurwiony",
-        "skurwiały",
-        "wkurwiający",
-        "wkurwiony",
-        "zakurwiony",
-        "kurewsko",
-        "wykurwiście",
-        "na pełnej kurwie",
-        "od kurwy",
-        "w kurwę",
-        "kurde",
-        "kurna",
-        "kuźwa",
-        "kurna chata",
-        "kurna Olek",
-        "kurwa mać",
-        "kurwa twoja mać była",
-        "do kurwy nędzy",
-        "o kurwa"
-      ],
-      "usage": [
-        "Ziemię pomierzył i głębokie morze, / Wie, jako wstają i zachodzą zorze, / Wiatrom rozumie, praktykuje komu — / A sam nie widzi, że ma kurwę w domu. He measured Earth and deep seas, / He knows how dawns rise and go down, / He understand winds, he gives practics, / But he do not sees he has whore in home."
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "kurwa",
-        "gen": "kurwy",
-        "dat": "kurwie",
-        "acc": "kurwę",
-        "ins": "kurwą",
-        "loc": "kurwie",
-        "voc": "kurwo"
-      },
-      "plural": {
-        "nom": "kurwy",
-        "gen": [
-          "kurew",
-          "kurw"
-        ],
-        "dat": "kurwom",
-        "acc": "kurwy",
-        "ins": "kurwami",
-        "loc": "kurwach",
-        "voc": "kurwy"
-      }
-    }
-  },
-  {
-    "lemma": "kurwa",
-    "id": "pol-nco-0145-kurwa(prostitute)",
-    "tags": "🏁",
-    "topics": null,
-    "translations": {
-      "ENG": [
-        "prostitute",
-        "whore",
-        "bitch",
-        "slut"
       ]
     },
     "gender": "f",
@@ -9353,7 +9236,16 @@
   {
     "lemma": "obraz",
     "id": "pol-nco-0180-obraz(painting)",
-    "tags": "🏁",
+    "tags": [
+      "FREQ3",
+      "concrete",
+      "holdable"
+    ],
+    "topics": [
+      "appearance",
+      "art",
+      "sense and perception"
+    ],
     "topics": null,
     "translations": {
       "ENG": [
@@ -9932,7 +9824,7 @@
   {
     "lemma": "prawo",
     "id": "pol-nco-0191-prawo(right)",
-    "tags": "🏁",
+    "tags": "4aa,pol,phi",
     "topics": null,
     "translations": {
       "ENG": [
@@ -10354,8 +10246,13 @@
   {
     "lemma": "dzień",
     "id": "pol-nco-0197-dzień(daytime)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ1",
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ],
     "translations": {
       "ENG": [
         "daytime",
@@ -10628,7 +10525,7 @@
   },
   {
     "lemma": "waga",
-    "id": "pol-nco-0201-waga(⛳)",
+    "id": "pol-nco-0201-waga(physical)",
     "tags": [
       "FREQ4",
       "dimension",
@@ -10695,7 +10592,7 @@
   {
     "lemma": "waga",
     "id": "pol-nco-0201-waga(importance)",
-    "tags": "🏁",
+    "tags": "4eee,he",
     "topics": null,
     "translations": {
       "ENG": [
@@ -10800,13 +10697,8 @@
   {
     "lemma": "wypadek",
     "id": "pol-nco-0203-wypadek(accident)",
-    "tags": [
-      "FREQ3",
-      "abstract"
-    ],
-    "topics": [
-      "time"
-    ],
+    "tags": "4TTT,JJ",
+    "topics": null,
     "translations": {
       "ENG": [
         "accident"
@@ -10844,8 +10736,13 @@
   {
     "lemma": "wypadek",
     "id": "pol-nco-0203-wypadek(event)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ],
     "translations": {
       "ENG": [
         "event"
@@ -10931,7 +10828,7 @@
   {
     "lemma": "ciasto",
     "id": "pol-nco-0204-ciasto(dough)",
-    "tags": "🏁",
+    "tags": "4fi",
     "topics": null,
     "translations": {
       "ENG": [
@@ -11140,8 +11037,14 @@
   {
     "lemma": "pierś",
     "id": "pol-nco-0208-pierś(chest)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "bodypart"
+    ],
+    "topics": [
+      "body",
+      "medicine"
+    ],
     "translations": {
       "ENG": [
         "chest"
@@ -11820,15 +11723,9 @@
   },
   {
     "lemma": "granica",
-    "id": "pol-nco-0221-granica(⛳)",
-    "tags": [
-      "FREQ3",
-      "part"
-    ],
-    "topics": [
-      "geography",
-      "geometry"
-    ],
+    "id": "pol-nco-0221-granica(border)",
+    "tags": "3ls,TT,PP,geo",
+    "topics": null,
     "translations": {
       "ENG": [
         "border"
@@ -11866,8 +11763,14 @@
   {
     "lemma": "granica",
     "id": "pol-nco-0221-granica(frontier)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "part"
+    ],
+    "topics": [
+      "geography",
+      "geometry"
+    ],
     "translations": {
       "ENG": [
         "border",
@@ -13123,11 +13026,11 @@
     "id": "pol-nco-0244-cel(goal)",
     "tags": [
       "FREQ3",
-      "abstract",
-      "part"
+      "abstract"
     ],
     "topics": [
-      "mental"
+      "mental",
+      "planning"
     ],
     "translations": {
       "ENG": [
@@ -13174,7 +13077,7 @@
   {
     "lemma": "cel",
     "id": "pol-nco-0244-cel(destination)",
-    "tags": "🏁",
+    "tags": "4PP,TT,ls",
     "topics": null,
     "translations": {
       "ENG": [
@@ -13260,8 +13163,13 @@
   {
     "lemma": "wiek",
     "id": "pol-nco-0245-wiek(century)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ],
     "translations": {
       "ENG": [
         "century"
@@ -13793,8 +13701,16 @@
   {
     "lemma": "kosz",
     "id": "pol-nco-0254-kosz(bin)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "concrete",
+      "holdable",
+      "household object"
+    ],
+    "topics": [
+      "home",
+      "inside"
+    ],
     "translations": {
       "ENG": [
         "bin",
@@ -13929,8 +13845,7 @@
       "FREQ1",
       "concrete",
       "living",
-      "person",
-      "title"
+      "person"
     ],
     "topics": [
       "people"
@@ -13966,8 +13881,16 @@
   {
     "lemma": "pani",
     "id": "pol-nco-0257-pani(Mrs)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ1",
+      "concrete",
+      "living",
+      "person",
+      "title"
+    ],
+    "topics": [
+      "people"
+    ],
     "translations": {
       "ENG": [
         "Mrs"
@@ -14641,8 +14564,14 @@
   {
     "lemma": "ręka",
     "id": "pol-nco-0274-ręka(arm)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "bodypart"
+    ],
+    "topics": [
+      "body",
+      "medicine"
+    ],
     "translations": {
       "ENG": [
         "arm"
@@ -17098,12 +17027,8 @@
   {
     "lemma": "scena",
     "id": "pol-nco-0320-scena(stage)",
-    "tags": [
-      "FREQ4"
-    ],
-    "topics": [
-      "theatre"
-    ],
+    "tags": "4ls,the",
+    "topics": null,
     "translations": {
       "ENG": [
         "stage"
@@ -17145,8 +17070,13 @@
   {
     "lemma": "scena",
     "id": "pol-nco-0320-scena(scene)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "theatre",
+      "writing"
+    ],
     "translations": {
       "ENG": [
         "scene"
@@ -17289,7 +17219,7 @@
   {
     "lemma": "koło",
     "id": "pol-nco-0322-koło(wheel)",
-    "tags": "🏁",
+    "tags": "4TTT",
     "topics": null,
     "translations": {
       "ENG": [
@@ -19064,8 +18994,18 @@
   {
     "lemma": "sos",
     "id": "pol-nco-0352-sos(gravy)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete",
+      "condiment",
+      "food",
+      "holdable"
+    ],
+    "topics": [
+      "inside",
+      "kitchen",
+      "restaurant"
+    ],
     "translations": {
       "ENG": [
         "gravy"
@@ -20249,8 +20189,13 @@
   {
     "lemma": "broń",
     "id": "pol-nco-0374-broń(gun)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "weapon"
+    ],
+    "topics": [
+      "violence"
+    ],
     "translations": {
       "ENG": [
         "gun"
@@ -21089,8 +21034,14 @@
   {
     "lemma": "projekt",
     "id": "pol-nco-0390-projekt(design)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "engineering",
+      "school",
+      "work"
+    ],
     "translations": {
       "ENG": [
         "design"
@@ -24253,7 +24204,6 @@
     "topics": [],
     "translations": {
       "ENG": [
-        "base",
         "basis"
       ]
     },
@@ -24287,8 +24237,8 @@
   },
   {
     "lemma": "baza",
-    "id": "pol-nco-0457-baza(⛳)",
-    "tags": "🏁",
+    "id": "pol-nco-0457-baza(army base)",
+    "tags": "4lb,XXX",
     "topics": null,
     "translations": {
       "ENG": [
@@ -24296,12 +24246,6 @@
       ]
     },
     "gender": "f",
-    "extra": {
-      "synonyms": [
-        "fundament",
-        "podstawa"
-      ]
-    },
     "inflections": {
       "singular": {
         "nom": "baza",
@@ -25302,7 +25246,7 @@
   {
     "lemma": "papryka",
     "id": "pol-nco-0474-papryka(paprika)",
-    "tags": "🏁",
+    "tags": "4fi",
     "topics": null,
     "translations": {
       "ENG": [
@@ -27472,7 +27416,9 @@
       "concrete",
       "location"
     ],
-    "topics": [],
+    "topics": [
+      "geography"
+    ],
     "translations": {
       "ENG": [
         "country"
@@ -27551,8 +27497,12 @@
   {
     "lemma": "wieś",
     "id": "pol-nco-0516-wieś(village)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "concrete",
+      "location"
+    ],
+    "topics": [],
     "translations": {
       "ENG": [
         "village"
@@ -28787,14 +28737,9 @@
   },
   {
     "lemma": "związek",
-    "id": "pol-nco-0542-związek(relation)(relation)",
-    "tags": [
-      "FREQ2"
-    ],
-    "topics": [
-      "love",
-      "people"
-    ],
+    "id": "pol-nco-0542-związek(connection)",
+    "tags": "3aa,eee",
+    "topics": null,
     "translations": {
       "ENG": [
         "relation",
@@ -28833,8 +28778,8 @@
   },
   {
     "lemma": "związek",
-    "id": "pol-nco-0542-związek(relation)(⛳)",
-    "tags": "🏁",
+    "id": "pol-nco-0542-związek(romantic relationship)",
+    "tags": "3Z,ZZ,pp",
     "topics": null,
     "translations": {
       "ENG": [
@@ -29115,7 +29060,7 @@
   {
     "lemma": "ruch",
     "id": "pol-nco-0547-ruch(move)",
-    "tags": "🏁",
+    "tags": "4aa,MM",
     "topics": null,
     "translations": {
       "ENG": [
@@ -29155,7 +29100,7 @@
   {
     "lemma": "ruch",
     "id": "pol-nco-0547-ruch(traffic)",
-    "tags": "🏁",
+    "tags": "3TTT,TT",
     "topics": null,
     "translations": {
       "ENG": [
@@ -29534,7 +29479,7 @@
   },
   {
     "lemma": "badanie",
-    "id": "pol-nco-0555-badanie(*research)",
+    "id": "pol-nco-0555-badanie(research)",
     "tags": [
       "FREQ3",
       "abstract"
@@ -29580,8 +29525,8 @@
   },
   {
     "lemma": "badanie",
-    "id": "pol-nco-0555-badanie(examination)",
-    "tags": "🏁",
+    "id": "pol-nco-0555-badanie(test)",
+    "tags": "4med",
     "topics": null,
     "translations": {
       "ENG": [
@@ -30129,8 +30074,13 @@
   {
     "lemma": "miejsce",
     "id": "pol-nco-0565-miejsce(room)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "concrete"
+    ],
+    "topics": [
+      "geometry"
+    ],
     "translations": {
       "ENG": [
         "room",
@@ -40444,7 +40394,7 @@
   },
   {
     "lemma": "rachunek",
-    "id": "pol-nco-0774-rachunek(account)(account)",
+    "id": "pol-nco-0774-rachunek(account)",
     "tags": [
       "FREQ3",
       "money"
@@ -40488,8 +40438,8 @@
   },
   {
     "lemma": "rachunek",
-    "id": "pol-nco-0774-rachunek(account)(receipt)",
-    "tags": "🏁",
+    "id": "pol-nco-0774-rachunek(receipt)",
+    "tags": "3h,$",
     "topics": null,
     "translations": {
       "ENG": [
@@ -41597,8 +41547,14 @@
   {
     "lemma": "powód",
     "id": "pol-nco-0795-powód(cause)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "abstract"
+    ],
+    "topics": [
+      "knowledge and existence",
+      "time"
+    ],
     "translations": {
       "ENG": [
         "cause"
@@ -43863,12 +43819,8 @@
   {
     "lemma": "klasa",
     "id": "pol-nco-0840-klasa(class)",
-    "tags": [
-      "FREQ3"
-    ],
-    "topics": [
-      "school"
-    ],
+    "tags": "3s,ttt",
+    "topics": null,
     "translations": {
       "ENG": [
         "class"
@@ -43908,7 +43860,7 @@
   {
     "lemma": "klasa",
     "id": "pol-nco-0840-klasa(classroom)",
-    "tags": "🏁",
+    "tags": "3s,lr",
     "topics": null,
     "translations": {
       "ENG": [
@@ -45964,7 +45916,7 @@
   {
     "lemma": "zgoda",
     "id": "pol-nco-0882-zgoda(consent)",
-    "tags": "🏁",
+    "tags": "4Z,Y",
     "topics": null,
     "translations": {
       "ENG": [
@@ -46323,7 +46275,7 @@
   },
   {
     "lemma": "ćwiczenie",
-    "id": "pol-nco-0892-ćwiczenie(⛳)",
+    "id": "pol-nco-0892-ćwiczenie(physical exercise)",
     "tags": [
       "FREQ2"
     ],
@@ -46360,12 +46312,13 @@
   },
   {
     "lemma": "ćwiczenie",
-    "id": "pol-nco-0892-ćwiczenie(⛳)",
-    "tags": "🏁",
+    "id": "pol-nco-0892-ćwiczenie(drill)",
+    "tags": "5ttt,JJ",
     "topics": null,
     "translations": {
       "ENG": [
-        "exercise"
+        "exercise",
+        "drill"
       ]
     },
     "gender": "n",
@@ -46431,8 +46384,14 @@
   {
     "lemma": "danie",
     "id": "pol-nco-0893-danie(course)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2"
+    ],
+    "topics": [
+      "inside",
+      "kitchen",
+      "restaurant"
+    ],
     "translations": {
       "ENG": [
         "course"
@@ -48444,8 +48403,13 @@
   {
     "lemma": "nastrój",
     "id": "pol-nco-0934-nastrój(atmosphere)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract"
+    ],
+    "topics": [
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "atmosphere"
@@ -52292,8 +52256,19 @@
   {
     "lemma": "regał",
     "id": "pol-nco-1012-regał(bookcase)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "concrete",
+      "container",
+      "furniture",
+      "holdable",
+      "part of house"
+    ],
+    "topics": [
+      "bedroom",
+      "home",
+      "inside"
+    ],
     "translations": {
       "ENG": [
         "bookcase"
@@ -52517,7 +52492,7 @@
   {
     "lemma": "kierownica",
     "id": "pol-nco-1017-kierownica(handlebar)",
-    "tags": "🏁",
+    "tags": "4TT",
     "topics": null,
     "translations": {
       "ENG": [
