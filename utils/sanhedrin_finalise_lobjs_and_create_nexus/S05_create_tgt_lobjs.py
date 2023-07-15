@@ -8,16 +8,17 @@ from utils.universal import color as c, get_curried_save, load_tempsave_if_exist
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "adj"
+    wordtype = "npe"
     batch = "01"
     target_lang = "ENG"
     input_override = 0  # Only set True for dryruns
-    hardcoded_number_of_inputs_needed_gauged_by_dryruns = 162
+    hardcoded_number_of_inputs_needed_gauged_by_dryruns = 26
+    # adj = 162, npe = 26, nco = 38
     # # # # # #
 
     bare_input_filename = f"{wordtype}_batch_{batch}"
     input_filename = f"{bare_input_filename}_SRC"
-    stem = "./../output_saved/batches/"
+    stem = "./../../output_saved/batches/"
     input_path = f"{stem}{input_filename}"
 
     output_path_tgt = f"{stem}{bare_input_filename}_TGT"
@@ -35,8 +36,9 @@ if __name__ == '__main__':
     src_save = get_curried_save(None, tempsave_path_src)
 
     def save(temp: bool = False):
-        tgt_save(all_new_tgt_lobjs, temp)
-        src_save(done_src_lobjs, True)
+        if not input_override:
+            tgt_save(all_new_tgt_lobjs, temp)
+            src_save(done_src_lobjs, True)
 
     src_lobjs = load_data(input_path)
 

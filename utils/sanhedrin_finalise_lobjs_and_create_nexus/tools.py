@@ -67,6 +67,18 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
     a_tags = [y for y in lobj_1["tags"] if y[:4] != "FREQ"]
     b_tags = [y for y in lobj_2["tags"] if y[:4] != "FREQ"]
 
+    for x in [a_tags, a_topics]:
+        if x is None:
+            c.print_red("Doesn't have both tags and topics?")
+            print(a_topics, a_tags, lobj_1)
+            raise Exception("Stop")
+
+    for x in [b_tags, b_topics]:
+        if x is None:
+            c.print_red("Doesn't have both tags and topics?")
+            print(b_topics, b_tags, lobj_2)
+            raise Exception("Stop")
+
     if "extra" in lobj_2:
         if "synonyms" in lobj_2["extra"]:
             if lobj_1["lemma"] in lobj_2["extra"]["synonyms"]:
