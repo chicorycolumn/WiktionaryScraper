@@ -140,13 +140,13 @@ def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_
                 confirmation = True
             elif user_input == "w":
                 save_fxn(True)
-                time.sleep(0.2)
+                time.sleep(0.8)
                 return is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_anticipated,
                                               input_override, save_fxn, target_lang)
             else:
                 confirmation = False
 
-            interval = 0.2
+            interval = 0.4
 
         input_counter["num"] += 1
 
@@ -207,7 +207,7 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
             if k not in ["lemma", "tags", "topics"]:
                 dupe[k] = l[k]
         print("💚")
-        time.sleep(0.2)
+        time.sleep(0.8)
         res.append(dupe)
 
     if int(lobj["id"].split("-")[2]) % 10 == 1:
@@ -228,13 +228,13 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
         for char in user_input:
             if char not in "123456789dDfFwSsx":
                 c.print_red("         Did not recognise user input. Options are:")
-                time.sleep(0.4)
+                time.sleep(0.8)
                 show_helptext()
                 return
 
     if user_input[0] == "D":
         print("🔥🔥 DELETED LOBJ")
-        time.sleep(0.2)
+        time.sleep(0.8)
         return
 
     elif user_input[0] == "d":
@@ -390,7 +390,7 @@ def add_signalwords(sibling_set):
         for lobj_to_delete in lobjs_to_delete:
             c.print_bold("DELETING", lobj_to_delete["id"])
             print("")
-            time.sleep(0.4)
+            time.sleep(0.8)
             sibling_set.remove(lobj_to_delete)
 
         if len(sibling_set) == 1:
@@ -398,7 +398,7 @@ def add_signalwords(sibling_set):
             only_sibling["id"] = only_sibling["id"][:only_sibling["id"].index("(")]
             print("Is only sibling so have removed signalword.")
             print(c.green(only_sibling["id"]))
-            time.sleep(0.4)
+            time.sleep(0.8)
 
         return
 
@@ -432,7 +432,7 @@ def get_signalwords(lobjs):
 
     if not user_input:
         c.print_red("Did not recognise input. Please type signalwords separated by a space.")
-        time.sleep(0.4)
+        time.sleep(0.8)
         return get_signalwords(lobjs)
 
     failed_character_check = False
@@ -455,7 +455,7 @@ def get_signalwords(lobjs):
                     failed_index_validation = True
             if failed_index_validation:
                 c.print_red("Invalid indexes")
-                time.sleep(0.4)
+                time.sleep(0.8)
                 return get_signalwords(lobjs)
     else:
         for char in user_input:
@@ -464,7 +464,7 @@ def get_signalwords(lobjs):
 
     if failed_character_check:
         c.print_red("Invalid input")
-        time.sleep(0.4)
+        time.sleep(0.8)
         return get_signalwords(lobjs)
 
     if len(indexes_of_lobjs_to_merge):
@@ -494,17 +494,17 @@ def get_signalwords(lobjs):
     for signalword in signalwords:
         if len(signalword) < 2 and signalword != "x":
             c.print_red("Signalwords must be more than one character each, separated by a space.")
-            time.sleep(0.4)
+            time.sleep(0.8)
             return get_signalwords(lobjs)
 
     if len(signalwords) != len(lobjs):
         c.print_red(f"Expected {len(lobjs)} signalwords but got {len(signalwords)}.")
-        time.sleep(0.4)
+        time.sleep(0.8)
         return get_signalwords(lobjs)
 
     if len(list(set(signalwords))) != len(signalwords) or lobjs[0]["lemma"] in signalwords:
         c.print_red(f"Signalwords must be unique.")
-        time.sleep(0.4)
+        time.sleep(0.8)
         return get_signalwords(lobjs)
 
     failed_signalword_check = False
@@ -513,7 +513,7 @@ def get_signalwords(lobjs):
             failed_signalword_check = True
     if failed_signalword_check:
         c.print_red("Invalid signalwords")
-        time.sleep(0.4)
+        time.sleep(0.8)
         return get_signalwords(lobjs)
 
     return signalwords

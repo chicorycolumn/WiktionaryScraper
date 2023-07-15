@@ -8,11 +8,11 @@ from utils.universal import color as c, get_curried_save, load_tempsave_if_exist
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "npe"
+    wordtype = "nco"
     batch = "01"
     target_lang = "ENG"
     input_override = 0  # Only set True for dryruns
-    hardcoded_number_of_inputs_needed_gauged_by_dryruns = 26
+    hardcoded_number_of_inputs_needed_gauged_by_dryruns = 999
     # adj = 162, npe = 26, nco = 38
     # # # # # #
 
