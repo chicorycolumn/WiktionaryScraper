@@ -53490,5 +53490,211 @@
         "voc": "szampony"
       }
     }
+  },
+  {
+    "lemma": "cukrzyca",
+    "id": "pol-nco-1041-cukrzyca",
+    "tags": [
+      "FREQ3",
+      "disease"
+    ],
+    "topics": [
+      "disease",
+      "medicine"
+    ],
+    "translations": {
+      "ENG": [
+        "diabetes"
+      ]
+    },
+    "gender": "f",
+    "inflections": {
+      "singular": {
+        "nom": "cukrzyca",
+        "gen": "cukrzycy",
+        "dat": "cukrzycy",
+        "acc": "cukrzycę",
+        "ins": "cukrzycą",
+        "loc": "cukrzycy",
+        "voc": "cukrzyco"
+      },
+      "plural": {
+        "nom": "cukrzyce",
+        "gen": "cukrzyc",
+        "dat": "cukrzycom",
+        "acc": "cukrzyce",
+        "ins": "cukrzycami",
+        "loc": "cukrzycach",
+        "voc": "cukrzyce"
+      }
+    }
+  },
+  {
+    "lemma": "zawartość",
+    "id": "pol-nco-1042-zawartość",
+    "tags": [
+      "FREQ4",
+      "component"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
+    "translations": {
+      "ENG": [
+        "contents"
+      ]
+    },
+    "gender": "f",
+    "inflections": {
+      "singular": {
+        "nom": "zawartość",
+        "gen": "zawartości",
+        "dat": "zawartości",
+        "acc": "zawartość",
+        "ins": "zawartością",
+        "loc": "zawartości",
+        "voc": "zawartości"
+      },
+      "plural": {
+        "nom": "zawartości",
+        "gen": "zawartości",
+        "dat": "zawartościom",
+        "acc": "zawartości",
+        "ins": "zawartościami",
+        "loc": "zawartościach",
+        "voc": "zawartości"
+      }
+    }
+  },
+  {
+    "lemma": "marzenie",
+    "id": "pol-nco-1043-marzenie",
+    "tags": [
+      "FREQ4",
+      "abstract"
+    ],
+    "topics": [
+      "mental",
+      "planning"
+    ],
+    "translations": {
+      "ENG": [
+        "dream"
+      ]
+    },
+    "gender": "n",
+    "inflections": {
+      "singular": {
+        "nom": "marzenie",
+        "gen": "marzenia",
+        "dat": "marzeniu",
+        "acc": "marzenie",
+        "ins": "marzeniem",
+        "loc": "marzeniu",
+        "voc": "marzenie"
+      },
+      "plural": {
+        "nom": "marzenia",
+        "gen": "marzeń",
+        "dat": "marzeniom",
+        "acc": "marzenia",
+        "ins": "marzeniami",
+        "loc": "marzeniach",
+        "voc": "marzenia"
+      }
+    }
+  },
+  {
+    "lemma": "sztuka",
+    "id": "pol-nco-1043-sztuka",
+    "tags": [
+      "FREQ3",
+      "event"
+    ],
+    "topics": [
+      "time",
+      "theatre"
+    ],
+    "translations": {
+      "ENG": [
+        "play"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "derivedTerms": [
+        "sztuczny",
+        "sztukmistrz",
+        "sztukować",
+        "błąd w sztuce",
+        "do trzech razy sztuka"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "sztuka",
+        "gen": "sztuki",
+        "dat": "sztuce",
+        "acc": "sztukę",
+        "ins": "sztuką",
+        "loc": "sztuce",
+        "voc": "sztuko"
+      },
+      "plural": {
+        "nom": "sztuki",
+        "gen": "sztuk",
+        "dat": "sztukom",
+        "acc": "sztuki",
+        "ins": "sztukami",
+        "loc": "sztukach",
+        "voc": "sztuki"
+      }
+    }
+  },
+  {
+    "lemma": "ofiara",
+    "id": "pol-npe-1044-ofiara(sacrifice)",
+    "tags": [
+      "FREQ4",
+      "abstract"
+    ],
+    "topics": [
+      "mental"
+    ],
+    "translations": {
+      "ENG": [
+        "sacrifice"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "synonyms": [
+        "niezdara"
+      ],
+      "derivedTerms": [
+        "ofiarny",
+        "ofiarować"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "ofiara",
+        "gen": "ofiary",
+        "dat": "ofierze",
+        "acc": "ofiarę",
+        "ins": "ofiarą",
+        "loc": "ofierze",
+        "voc": "ofiaro"
+      },
+      "plural": {
+        "nom": "ofiary",
+        "gen": "ofiar",
+        "dat": "ofiarom",
+        "acc": "ofiary",
+        "ins": "ofiarami",
+        "loc": "ofiarach",
+        "voc": "ofiary"
+      }
+    }
   }
 ]
