@@ -28,9 +28,12 @@ C)  Now you manually go through the generated file and search for flags. Resolve
 
 
 
-D)  Run "S03_expand_tags.py"
+D1) Run "S03_expand_tags.py"
     - to expand any shorthand tags you have added to "nou_batch_01_SRC.json" in step 3
     Modifies "nou_batch_01_SRC.json"
+
+D2) Regex search for "" and "[qwertyuiopasdghjklzxcvb ]" in newly created SRC file.
+    - to catch badly generated tags.
 
 
 
