@@ -76,7 +76,7 @@
   },
   {
     "lemma": "Miss",
-    "id": "eng-npe-0009-Miss",
+    "id": "eng-npe-0009-Miss(title)",
     "»trans": [
       "pol-npe-0009-panna"
     ],
@@ -1239,7 +1239,7 @@
     "lemma": "Mr",
     "id": "eng-npe-0135-Mr",
     "»trans": [
-      "pol-npe-0135-pan"
+      "pol-npe-0135-pan(title)"
     ],
     "register": 0,
     "frequency": 2
@@ -1248,27 +1248,43 @@
     "lemma": "Sir",
     "id": "eng-npe-0136-Sir",
     "»trans": [
-      "pol-npe-0135-pan"
+      "pol-npe-0137-pan(address)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "Madam",
+    "id": "eng-npe-0137-Madam",
+    "»trans": [
+      "pol-npe-0138-pani(address)"
     ],
     "register": 0,
     "frequency": 2
   },
   {
     "lemma": "Mrs",
-    "id": "eng-npe-0137-Mrs",
+    "id": "eng-npe-0138-Mrs",
     "»trans": [
-      "pol-npe-0136-pani"
+      "pol-npe-0136-pani(title)"
     ],
     "register": 0,
     "frequency": 2
   },
   {
     "lemma": "lady",
-    "id": "eng-npe-0138-lady",
+    "id": "eng-npe-0139-lady",
     "»trans": [
-      "pol-npe-0136-pani",
-      "pol-npe-0015-kobieta",
-      "pol-npe-0009-panna"
+      "pol-npe-0015-kobieta"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "Miss",
+    "id": "eng-npe-0140-Miss(address)",
+    "»trans": [
+      "pol-npe-0138-pani(address)"
     ],
     "register": 0,
     "frequency": 2
