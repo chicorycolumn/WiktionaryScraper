@@ -78,11 +78,14 @@ J1) Run "S09_doublecheck_frequency_on_tgt.py" with step=1 arg then step=2.
 
 
 
-K1) Run "S10_create_nexus.py".
+K)  Run "S10_create_nexus.py".
     - to connect Source and Target lobjs using the translations data from previous steps.
     Creates "nou_batch_01_NEX.json"
 
-K2) If you have added or removed lobjs since step K1), run the supplemental stages
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+From now on, if you add or remove lobjs from TGT or SRC files, you must then run the following
+supplemental stages otherwise the ID links between NEX and TGT/SRC will be broken.
     "X2_renumber_src_lobjs_in_src_and_nex.py" and "X3_renumber_tgt_lobjs_in_tgt_and_nex.py"
     Modifies "nou_batch_01_NEX.json"
     Modifies "nou_batch_01_SRC.json"
