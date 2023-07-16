@@ -550,7 +550,7 @@ def test_signalword(s):
     return True
 
 
-def get_freq(lobj, prompt, allow_null: bool = False):
+def get_freq(lobj, prompt = None, allow_null: bool = False):
     if not prompt:
         prompt = f'Enter frequency 1-5 for {c.purple(lobj["lemma"])} {c.blue(lobj["id"])}\n'
 
