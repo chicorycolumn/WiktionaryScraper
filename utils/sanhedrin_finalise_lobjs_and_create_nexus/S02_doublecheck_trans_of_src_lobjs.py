@@ -53,6 +53,21 @@ if __name__ == '__main__':
             else:
                 print("Already done")
 
+    for lob in doublechecked_src_lobjs:
+        if "additionalSpellings" in lob:
+            additional_spellings = lob["additionalSpellings"]
+        else:
+            additional_spellings = []
+
+        for tra in lob["translations"][target_lang]:
+            if tra[0] == "+":
+                additional_spellings.append(tra[1:])
+
+        if len(additional_spellings):
+            print(c.green("Added additionalSpellings"), additional_spellings)
+            lob["additionalSpellings"] = additional_spellings
+            lob["translations"][target_lang] = [t for t in lob["translations"][target_lang] if t[0] != "+"]
+
     if ready:
         print("")
         print("Done all lobjs, so now doublechecked_src_lobjs has length", len(doublechecked_src_lobjs))

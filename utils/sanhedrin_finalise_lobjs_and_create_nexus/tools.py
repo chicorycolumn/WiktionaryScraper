@@ -188,6 +188,7 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
         c.print_teal("xf     : REMOVE FLAGS from lobj.")
         print("")
         c.print_teal('a tin  : ADD translations eg "tin".')
+        c.print_teal('a hue +color  : ADD translations eg "hue" and add additionalSpelling eg "color".')
         c.print_teal('a tableSPACEtennis  : ADD translations eg "table tennis".')
         c.print_teal("d24    : DELETE translations at eg indexes 2 and 4.")
         c.print_teal("s24    : SPLIT translations at eg indexes 2 and 4 to a new lobj for this lemma.")
@@ -216,7 +217,7 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
         save_fxn(res, True)
 
     show1(lobj, target_lang)
-    user_input = input("OK?   Enter for yes   Any key for no   h for help\n")
+    user_input = input("OK?   Enter for yes   Any key for no   a for Add   a then + for additional spellings   h for help\n")
 
     if not user_input:
         add_to_res(lobj)

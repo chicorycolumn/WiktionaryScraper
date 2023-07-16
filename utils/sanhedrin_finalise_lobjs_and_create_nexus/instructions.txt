@@ -104,3 +104,9 @@ M1) Run "S11_reorder_keys_of_lobjs.py" for the set of lobjs you will run "S12_co
 M2) Run "S12_connect_sibling_lobjs.py" for a set of lobjs.
     - to compact data by removing duplicated inflection data, replacing with reference to the one sibling which holds it
     Modifies "nou_batch_01_{tgt or src}.json"
+
+
+
+N)  Run "S13_add_additional_spellings.py".
+    - to add American spellings to eng lobjs if you did not add them during step B)
+    Modifies "nou_batch_01_{tgt or src}.json"
