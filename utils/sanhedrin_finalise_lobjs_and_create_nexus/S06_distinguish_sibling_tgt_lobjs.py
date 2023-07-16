@@ -8,12 +8,12 @@ from utils.universal import color as c, get_curried_save, load_tempsave_if_exist
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "adj"
+    wordtype = "nco"
     batch = "01"
     target_lang = "ENG"
     # # # # # #
 
-    input_filename = f"{wordtype}_batch_{batch}_{target_lang}"
+    input_filename = f"{wordtype}_batch_{batch}_SRC"
     stem = "./../../output_saved/batches/"
     input_path = f"{stem}{input_filename}"
     tempsave_path = input_path + "_S06_tempsave"

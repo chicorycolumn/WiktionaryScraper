@@ -417,6 +417,9 @@ def get_signalwords(lobjs):
     print("")
     print("* * * * * * * * * * * * * * *")
     for lobj in lobjs:
+        if "»trans" not in lobj:
+            print(c.red('No "»trans" key found on lobj'), lobj)
+            raise Exception("Stop")
         print(c.purple(lobj["id"]), lobj["»trans"])
     print("* * * * * * * * * * * * * * *")
     print("")
