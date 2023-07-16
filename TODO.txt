@@ -2,7 +2,6 @@
 
 Here are the verbs with no conditional impersonal but the superboolean for "conditional" has been set to True by the minimiser. But we will never use this to create sentences so is okay for now: [brać,biec,usiąść,móc,stać,schodzić,musieć,wkładać,siąść,stanąć,zejść,iść,pójść]
 .
-Set second "lato" to pluralOnly.
 
 
 2022-03-27 19:14 #ERR "defective verb" output_obj["aspect"] is [] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word and TEMPORARILY set override_aspect_length_check to True.
