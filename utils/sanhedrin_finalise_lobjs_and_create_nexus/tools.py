@@ -390,7 +390,7 @@ def add_signalwords(sibling_set):
             lobj_with_signalword[0]["id"] = lobj_with_signalword[1]
 
         for lobj_to_delete in lobjs_to_delete:
-            c.print_bold("DELETING", lobj_to_delete["id"])
+            c.print_bold("DELETING " + lobj_to_delete["id"])
             print("")
             time.sleep(0.8)
             sibling_set.remove(lobj_to_delete)
@@ -429,7 +429,7 @@ def get_signalwords(lobjs):
     if user_input == "h":
         c.print_teal("*  -  *  -  *  -  *  -  *  -  *  -  *  -  *")
         c.print_teal("Please enter signalwords separated by a space.")
-        c.print_teal('You can merge lobjs by specifying indexes eg "merge 0 1".')
+        c.print_teal('You can merge lobjs by specifying indexes eg "m01" will merge lobj 0 and lobj 1.')
         c.print_teal('Or merge all given lobjs by giving no indexes "m".')
         c.print_teal('You can delete lobjs by giving "x" as the signalword.')
         c.print_teal("*  -  *  -  *  -  *  -  *  -  *  -  *  -  *")
@@ -443,7 +443,7 @@ def get_signalwords(lobjs):
     failed_character_check = False
     indexes_of_lobjs_to_merge = []
 
-    if user_input[0:5] == "merge" or user_input in ["m", "merge"]:
+    if user_input[0:5] == "merge" or user_input in ["m", "merge"] or (user_input[0] == "m" and user_input[1] in "1234567890"):
         if user_input == "m":
             if len(lobjs):
                 num = 0
@@ -451,7 +451,7 @@ def get_signalwords(lobjs):
                     indexes_of_lobjs_to_merge.append(num)
                     num += 1
         else:
-            indexes_of_lobjs_to_merge = [int(char) for char in user_input[1:].split("")]
+            indexes_of_lobjs_to_merge = [int(char) for char in user_input[1:]]
             failed_index_validation = False
             if len(indexes_of_lobjs_to_merge) < 2:
                 failed_index_validation = True
@@ -459,7 +459,7 @@ def get_signalwords(lobjs):
                 if index_of_lobj > (len(lobjs) - 1):
                     failed_index_validation = True
             if failed_index_validation:
-                c.print_red("Invalid indexes")
+                print(c.red("Invalid indexes"), user_input, indexes_of_lobjs_to_merge)
                 time.sleep(0.8)
                 return get_signalwords(lobjs)
     else:

@@ -4677,21 +4677,15 @@
   },
   {
     "lemma": "job",
-    "id": "eng-nco-0650-job",
+    "id": "eng-nco-0650-job(profession)",
     "»trans": [
-      "pol-nco-0528-praca"
-    ]
-  },
-  {
-    "lemma": "job",
-    "id": "eng-nco-0680-job(þ)",
-    "»trans": [
+      "pol-nco-0528-praca",
       "pol-nco-0554-zawód(profession)"
     ]
   },
   {
     "lemma": "job",
-    "id": "eng-nco-1262-job(þ)",
+    "id": "eng-nco-1262-job(task)",
     "»trans": [
       "pol-nco-1016-zadanie"
     ]
@@ -4810,14 +4804,14 @@
   },
   {
     "lemma": "number",
-    "id": "eng-nco-0669-number",
+    "id": "eng-nco-0669-number(general)",
     "»trans": [
       "pol-nco-0546-liczba"
     ]
   },
   {
     "lemma": "number",
-    "id": "eng-nco-0919-number(þ)",
+    "id": "eng-nco-0919-number(phone)",
     "»trans": [
       "pol-nco-0747-numer"
     ]
@@ -4894,13 +4888,6 @@
     ]
   },
   {
-    "lemma": "occupation",
-    "id": "eng-nco-1311-occupation(þ)",
-    "»trans": [
-      "pol-nco-1056-zajęcie"
-    ]
-  },
-  {
     "lemma": "disappointment",
     "id": "eng-nco-0681-disappointment",
     "»trans": [
@@ -4930,14 +4917,14 @@
   },
   {
     "lemma": "property",
-    "id": "eng-nco-0685-property",
+    "id": "eng-nco-0685-property(building)",
     "»trans": [
       "pol-nco-0560-obiekt(facility)"
     ]
   },
   {
     "lemma": "property",
-    "id": "eng-nco-1294-property(þ)",
+    "id": "eng-nco-1294-property(possessions)",
     "»trans": [
       "pol-nco-1039-właściwość"
     ]
@@ -4958,14 +4945,14 @@
   },
   {
     "lemma": "relationship",
-    "id": "eng-nco-0688-relationship",
+    "id": "eng-nco-0688-relationship(connection)",
     "»trans": [
       "pol-nco-0562-związek(connection)"
     ]
   },
   {
     "lemma": "relationship",
-    "id": "eng-nco-0691-relationship(þ)",
+    "id": "eng-nco-0691-relationship(romantic)",
     "»trans": [
       "pol-nco-0563-związek(romantic relationship)"
     ]
@@ -5317,13 +5304,7 @@
     "lemma": "bell",
     "id": "eng-nco-0740-bell",
     "»trans": [
-      "pol-nco-0600-dzwon"
-    ]
-  },
-  {
-    "lemma": "bell",
-    "id": "eng-nco-1161-bell(þ)",
-    "»trans": [
+      "pol-nco-0600-dzwon",
       "pol-nco-0945-dzwonek"
     ]
   },
@@ -5463,14 +5444,14 @@
   },
   {
     "lemma": "pants",
-    "id": "eng-nco-0761-pants",
+    "id": "eng-nco-0761-pants(trousers)",
     "»trans": [
       "pol-nco-0617-spodnie"
     ]
   },
   {
     "lemma": "pants",
-    "id": "eng-nco-0954-pants(þ)",
+    "id": "eng-nco-0954-pants(underwear)",
     "»trans": [
       "pol-nco-0776-slipy"
     ]
@@ -5505,14 +5486,14 @@
   },
   {
     "lemma": "piece",
-    "id": "eng-nco-0766-piece",
+    "id": "eng-nco-0766-piece(part)",
     "»trans": [
       "pol-nco-0622-część"
     ]
   },
   {
     "lemma": "piece",
-    "id": "eng-nco-1220-piece(þ)",
+    "id": "eng-nco-1220-piece(chunk)",
     "»trans": [
       "pol-nco-0989-kawałek"
     ]
@@ -5547,14 +5528,14 @@
   },
   {
     "lemma": "degree",
-    "id": "eng-nco-0772-degree",
+    "id": "eng-nco-0772-degree(temperature)",
     "»trans": [
       "pol-nco-0628-stopień"
     ]
   },
   {
     "lemma": "degree",
-    "id": "eng-nco-1163-degree(þ)",
+    "id": "eng-nco-1163-degree(diploma)",
     "»trans": [
       "pol-nco-0946-dyplom"
     ]
@@ -5603,14 +5584,14 @@
   },
   {
     "lemma": "term",
-    "id": "eng-nco-0779-term",
+    "id": "eng-nco-0779-term(condition)",
     "»trans": [
       "pol-nco-0635-warunek"
     ]
   },
   {
     "lemma": "term",
-    "id": "eng-nco-1250-term(þ)",
+    "id": "eng-nco-1250-term(word)",
     "»trans": [
       "pol-nco-1008-termin(term)"
     ]
@@ -6041,14 +6022,14 @@
   },
   {
     "lemma": "beam",
-    "id": "eng-nco-0841-beam",
+    "id": "eng-nco-0841-beam(light)",
     "»trans": [
       "pol-nco-0683-promień(ray)"
     ]
   },
   {
     "lemma": "beam",
-    "id": "eng-nco-1289-beam(þ)",
+    "id": "eng-nco-1289-beam(wood)",
     "»trans": [
       "pol-nco-1034-belka"
     ]
@@ -6863,14 +6844,14 @@
   },
   {
     "lemma": "socket",
-    "id": "eng-nco-0963-socket",
+    "id": "eng-nco-0963-socket(electrical)",
     "»trans": [
       "pol-nco-0784-gniazdko"
     ]
   },
   {
     "lemma": "socket",
-    "id": "eng-nco-1275-socket(þ)",
+    "id": "eng-nco-1275-socket(general)",
     "»trans": [
       "pol-nco-1026-gniazdo(socket)"
     ]
@@ -6914,13 +6895,7 @@
     "lemma": "television",
     "id": "eng-nco-0969-television",
     "»trans": [
-      "pol-nco-0789-telewizja"
-    ]
-  },
-  {
-    "lemma": "television",
-    "id": "eng-nco-1107-television(þ)",
-    "»trans": [
+      "pol-nco-0789-telewizja",
       "pol-nco-0900-telewizor"
     ]
   },
@@ -6928,13 +6903,7 @@
     "lemma": "TV",
     "id": "eng-nco-0970-TV",
     "»trans": [
-      "pol-nco-0789-telewizja"
-    ]
-  },
-  {
-    "lemma": "TV",
-    "id": "eng-nco-1108-TV(þ)",
-    "»trans": [
+      "pol-nco-0789-telewizja",
       "pol-nco-0900-telewizor"
     ]
   },
@@ -7223,13 +7192,7 @@
     "lemma": "cause",
     "id": "eng-nco-1012-cause",
     "»trans": [
-      "pol-nco-0823-powód(cause)"
-    ]
-  },
-  {
-    "lemma": "cause",
-    "id": "eng-nco-1071-cause(þ)",
-    "»trans": [
+      "pol-nco-0823-powód(cause)",
       "pol-nco-0870-przyczyna"
     ]
   },
@@ -7489,14 +7452,14 @@
   },
   {
     "lemma": "entry",
-    "id": "eng-nco-1049-entry",
+    "id": "eng-nco-1049-entry(doorway)",
     "»trans": [
       "pol-nco-0850-wejście"
     ]
   },
   {
     "lemma": "entry",
-    "id": "eng-nco-1198-entry(þ)",
+    "id": "eng-nco-1198-entry(paid)",
     "»trans": [
       "pol-nco-0972-wstęp"
     ]
@@ -7638,14 +7601,14 @@
   },
   {
     "lemma": "class",
-    "id": "eng-nco-1069-class",
+    "id": "eng-nco-1069-class(event)",
     "»trans": [
       "pol-nco-0868-klasa(class)"
     ]
   },
   {
     "lemma": "class",
-    "id": "eng-nco-1070-class(þ)",
+    "id": "eng-nco-1070-class(room)",
     "»trans": [
       "pol-nco-0869-klasa(classroom)"
     ]
@@ -8037,14 +8000,14 @@
   },
   {
     "lemma": "exercise",
-    "id": "eng-nco-1131-exercise",
+    "id": "eng-nco-1131-exercise(physical)",
     "»trans": [
       "pol-nco-0922-ćwiczenie(physical exercise)"
     ]
   },
   {
     "lemma": "exercise",
-    "id": "eng-nco-1132-exercise(þ)",
+    "id": "eng-nco-1132-exercise(drill)",
     "»trans": [
       "pol-nco-0923-ćwiczenie(drill)"
     ]
@@ -8067,13 +8030,7 @@
     "lemma": "darkness",
     "id": "eng-nco-1136-darkness",
     "»trans": [
-      "pol-nco-0926-zmrok"
-    ]
-  },
-  {
-    "lemma": "darkness",
-    "id": "eng-nco-1240-darkness(þ)",
-    "»trans": [
+      "pol-nco-0926-zmrok",
       "pol-nco-1003-mrok"
     ]
   },
@@ -8208,13 +8165,7 @@
     "lemma": "cabinet",
     "id": "eng-nco-1156-cabinet",
     "»trans": [
-      "pol-nco-0941-szafa"
-    ]
-  },
-  {
-    "lemma": "cabinet",
-    "id": "eng-nco-1157-cabinet(þ)",
-    "»trans": [
+      "pol-nco-0941-szafa",
       "pol-nco-0942-szafka"
     ]
   },
@@ -8567,14 +8518,14 @@
   },
   {
     "lemma": "line",
-    "id": "eng-nco-1211-line",
+    "id": "eng-nco-1211-line(shape)",
     "»trans": [
       "pol-nco-0982-linia"
     ]
   },
   {
     "lemma": "line",
-    "id": "eng-nco-1313-line(þ)",
+    "id": "eng-nco-1313-line(queue)",
     "»trans": [
       "pol-nco-1057-kolejka"
     ]

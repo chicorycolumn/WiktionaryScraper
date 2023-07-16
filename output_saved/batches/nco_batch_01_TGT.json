@@ -15,9 +15,16 @@
   },
   {
     "lemma": "glass",
-    "id": "eng-nco-0003-glass",
+    "id": "eng-nco-0003-glass(tumbler)",
     "»trans": [
       "pol-nco-0003-szklanka"
+    ]
+  },
+  {
+    "lemma": "glass",
+    "id": "eng-nco-0571-glass(material)",
+    "»trans": [
+      "pol-nco-0465-szkło"
     ]
   },
   {
@@ -85,9 +92,16 @@
   },
   {
     "lemma": "light",
-    "id": "eng-nco-0013-light",
+    "id": "eng-nco-0013-light(lamp)",
     "»trans": [
       "pol-nco-0012-lampa"
+    ]
+  },
+  {
+    "lemma": "light",
+    "id": "eng-nco-0938-light(photons)",
+    "»trans": [
+      "pol-nco-0763-światło"
     ]
   },
   {
@@ -225,9 +239,16 @@
   },
   {
     "lemma": "rubber",
-    "id": "eng-nco-0033-rubber",
+    "id": "eng-nco-0033-rubber(material)",
     "»trans": [
       "pol-nco-0030-guma(rubber)"
+    ]
+  },
+  {
+    "lemma": "rubber",
+    "id": "eng-nco-1223-rubber(eraser)",
+    "»trans": [
+      "pol-nco-0990-gumka(eraser)"
     ]
   },
   {
@@ -438,9 +459,16 @@
   },
   {
     "lemma": "floor",
-    "id": "eng-nco-0063-floor",
+    "id": "eng-nco-0063-floor(!ceiling)",
     "»trans": [
       "pol-nco-0057-podłoga"
+    ]
+  },
+  {
+    "lemma": "floor",
+    "id": "eng-nco-0581-floor(storey)",
+    "»trans": [
+      "pol-nco-0474-piętro"
     ]
   },
   {
@@ -475,7 +503,8 @@
     "lemma": "year",
     "id": "eng-nco-0068-year",
     "»trans": [
-      "pol-nco-0062-rok"
+      "pol-nco-0062-rok",
+      "pol-nco-0093-lato(year)"
     ]
   },
   {
@@ -749,13 +778,6 @@
     ]
   },
   {
-    "lemma": "year",
-    "id": "eng-nco-0107-year(þ)",
-    "»trans": [
-      "pol-nco-0093-lato(year)"
-    ]
-  },
-  {
     "lemma": "spark",
     "id": "eng-nco-0108-spark",
     "»trans": [
@@ -890,6 +912,13 @@
     ]
   },
   {
+    "lemma": "ball",
+    "id": "eng-nco-0767-ball(object)",
+    "»trans": [
+      "pol-nco-0623-piłka"
+    ]
+  },
+  {
     "lemma": "sphere",
     "id": "eng-nco-0127-sphere",
     "»trans": [
@@ -926,9 +955,16 @@
   },
   {
     "lemma": "medicine",
-    "id": "eng-nco-0132-medicine",
+    "id": "eng-nco-0132-medicine(medication)",
     "»trans": [
       "pol-nco-0114-lek"
+    ]
+  },
+  {
+    "lemma": "medicine",
+    "id": "eng-nco-0507-medicine(field)",
+    "»trans": [
+      "pol-nco-0417-medycyna"
     ]
   },
   {
@@ -940,9 +976,16 @@
   },
   {
     "lemma": "dream",
-    "id": "eng-nco-0134-dream",
+    "id": "eng-nco-0134-dream(sleeping)",
     "»trans": [
       "pol-nco-0116-sen(dream)"
+    ]
+  },
+  {
+    "lemma": "dream",
+    "id": "eng-nco-1335-dream(hope)",
+    "»trans": [
+      "pol-nco-1078-marzenie"
     ]
   },
   {
@@ -975,16 +1018,30 @@
   },
   {
     "lemma": "letter",
-    "id": "eng-nco-0139-letter",
+    "id": "eng-nco-0139-letter(postal)",
     "»trans": [
       "pol-nco-0121-list"
     ]
   },
   {
+    "lemma": "letter",
+    "id": "eng-nco-0461-letter(alphabet)",
+    "»trans": [
+      "pol-nco-0377-litera"
+    ]
+  },
+  {
     "lemma": "bank",
-    "id": "eng-nco-0140-bank",
+    "id": "eng-nco-0140-bank(financial)",
     "»trans": [
       "pol-nco-0122-bank"
+    ]
+  },
+  {
+    "lemma": "bank",
+    "id": "eng-nco-0895-bank(river)",
+    "»trans": [
+      "pol-nco-0725-brzeg"
     ]
   },
   {
@@ -1060,9 +1117,16 @@
   },
   {
     "lemma": "sign",
-    "id": "eng-nco-0151-sign",
+    "id": "eng-nco-0151-sign(concrete)",
     "»trans": [
       "pol-nco-0132-znak"
+    ]
+  },
+  {
+    "lemma": "sign",
+    "id": "eng-nco-0188-sign(abstract)",
+    "»trans": [
+      "pol-nco-0162-oznaka"
     ]
   },
   {
@@ -1273,9 +1337,16 @@
   },
   {
     "lemma": "pyramid",
-    "id": "eng-nco-0181-pyramid",
+    "id": "eng-nco-0181-pyramid(egypt)",
     "»trans": [
       "pol-nco-0156-piramida"
+    ]
+  },
+  {
+    "lemma": "pyramid",
+    "id": "eng-nco-1309-pyramid(shape)",
+    "»trans": [
+      "pol-nco-1054-ostrosłup"
     ]
   },
   {
@@ -1309,9 +1380,16 @@
   },
   {
     "lemma": "height",
-    "id": "eng-nco-0186-height",
+    "id": "eng-nco-0186-height(altitude)",
     "»trans": [
       "pol-nco-0161-wysokość"
+    ]
+  },
+  {
+    "lemma": "height",
+    "id": "eng-nco-0245-height(personal)",
+    "»trans": [
+      "pol-nco-0206-wzrost"
     ]
   },
   {
@@ -1319,13 +1397,6 @@
     "id": "eng-nco-0187-altitude",
     "»trans": [
       "pol-nco-0161-wysokość"
-    ]
-  },
-  {
-    "lemma": "sign",
-    "id": "eng-nco-0188-sign(þ)",
-    "»trans": [
-      "pol-nco-0162-oznaka"
     ]
   },
   {
@@ -1351,9 +1422,16 @@
   },
   {
     "lemma": "love",
-    "id": "eng-nco-0192-love",
+    "id": "eng-nco-0192-love(concept)",
     "»trans": [
       "pol-nco-0166-miłość"
+    ]
+  },
+  {
+    "lemma": "love",
+    "id": "eng-nco-0434-love(darling)",
+    "»trans": [
+      "pol-nco-0357-kochanie"
     ]
   },
   {
@@ -1400,9 +1478,16 @@
   },
   {
     "lemma": "price",
-    "id": "eng-nco-0199-price",
+    "id": "eng-nco-0199-price(concrete)",
     "»trans": [
       "pol-nco-0170-cena"
+    ]
+  },
+  {
+    "lemma": "price",
+    "id": "eng-nco-1148-price(abstract)",
+    "»trans": [
+      "pol-nco-0935-koszt"
     ]
   },
   {
@@ -1463,9 +1548,16 @@
   },
   {
     "lemma": "board",
-    "id": "eng-nco-0208-board",
+    "id": "eng-nco-0208-board(plank)",
     "»trans": [
       "pol-nco-0179-deska"
+    ]
+  },
+  {
+    "lemma": "board",
+    "id": "eng-nco-0382-board(council)",
+    "»trans": [
+      "pol-nco-0312-rada(council)"
     ]
   },
   {
@@ -1491,9 +1583,16 @@
   },
   {
     "lemma": "picture",
-    "id": "eng-nco-0212-picture",
+    "id": "eng-nco-0212-picture(general)",
     "»trans": [
       "pol-nco-0182-obraz(image)"
+    ]
+  },
+  {
+    "lemma": "picture",
+    "id": "eng-nco-0215-picture(painting)",
+    "»trans": [
+      "pol-nco-0183-obraz(painting)"
     ]
   },
   {
@@ -1509,13 +1608,6 @@
     "»trans": [
       "pol-nco-0183-obraz(painting)",
       "pol-nco-1044-malarstwo"
-    ]
-  },
-  {
-    "lemma": "picture",
-    "id": "eng-nco-0215-picture(þ)",
-    "»trans": [
-      "pol-nco-0183-obraz(painting)"
     ]
   },
   {
@@ -1669,21 +1761,21 @@
   },
   {
     "lemma": "day",
-    "id": "eng-nco-0237-day",
+    "id": "eng-nco-0237-day(one day)",
     "»trans": [
       "pol-nco-0201-dzień(day)"
     ]
   },
   {
-    "lemma": "daytime",
-    "id": "eng-nco-0238-daytime",
+    "lemma": "day",
+    "id": "eng-nco-0239-day(daytime)",
     "»trans": [
       "pol-nco-0202-dzień(daytime)"
     ]
   },
   {
-    "lemma": "day",
-    "id": "eng-nco-0239-day(þ)",
+    "lemma": "daytime",
+    "id": "eng-nco-0238-daytime",
     "»trans": [
       "pol-nco-0202-dzień(daytime)"
     ]
@@ -1726,22 +1818,15 @@
     ]
   },
   {
-    "lemma": "height",
-    "id": "eng-nco-0245-height(þ)",
-    "»trans": [
-      "pol-nco-0206-wzrost"
-    ]
-  },
-  {
     "lemma": "weight",
-    "id": "eng-nco-0246-weight",
+    "id": "eng-nco-0246-weight(physical)",
     "»trans": [
       "pol-nco-0207-waga(physical)"
     ]
   },
   {
     "lemma": "weight",
-    "id": "eng-nco-0247-weight(þ)",
+    "id": "eng-nco-0247-weight(importance)",
     "»trans": [
       "pol-nco-0208-waga(importance)"
     ]
@@ -1750,7 +1835,8 @@
     "lemma": "importance",
     "id": "eng-nco-0248-importance",
     "»trans": [
-      "pol-nco-0208-waga(importance)"
+      "pol-nco-0208-waga(importance)",
+      "pol-nco-0750-znaczenie(importance)"
     ]
   },
   {
@@ -1818,9 +1904,16 @@
   },
   {
     "lemma": "country",
-    "id": "eng-nco-0258-country",
+    "id": "eng-nco-0258-country(nation)",
     "»trans": [
       "pol-nco-0216-kraj"
+    ]
+  },
+  {
+    "lemma": "country",
+    "id": "eng-nco-0657-country(countryside)",
+    "»trans": [
+      "pol-nco-0535-wieś(country)"
     ]
   },
   {
@@ -1944,14 +2037,14 @@
   },
   {
     "lemma": "border",
-    "id": "eng-nco-0276-border",
+    "id": "eng-nco-0276-border(national)",
     "»trans": [
       "pol-nco-0231-granica(border)"
     ]
   },
   {
     "lemma": "border",
-    "id": "eng-nco-0277-border(þ)",
+    "id": "eng-nco-0277-border(abstract)",
     "»trans": [
       "pol-nco-0232-granica(frontier)"
     ]
@@ -1995,7 +2088,8 @@
     "lemma": "mud",
     "id": "eng-nco-0283-mud",
     "»trans": [
-      "pol-nco-0235-muł"
+      "pol-nco-0235-muł",
+      "pol-nco-0488-błoto(mud)"
     ]
   },
   {
@@ -2203,9 +2297,16 @@
   },
   {
     "lemma": "target",
-    "id": "eng-nco-0313-target",
+    "id": "eng-nco-0313-target(abstract)",
     "»trans": [
       "pol-nco-0255-cel(goal)"
+    ]
+  },
+  {
+    "lemma": "target",
+    "id": "eng-nco-1104-target(physical)",
+    "»trans": [
+      "pol-nco-0897-tarcza(target)"
     ]
   },
   {
@@ -2688,13 +2789,6 @@
     ]
   },
   {
-    "lemma": "board",
-    "id": "eng-nco-0382-board(þ)",
-    "»trans": [
-      "pol-nco-0312-rada(council)"
-    ]
-  },
-  {
     "lemma": "advice",
     "id": "eng-nco-0383-advice",
     "»trans": [
@@ -2725,23 +2819,31 @@
   },
   {
     "lemma": "lead",
-    "id": "eng-nco-0387-lead",
+    "id": "eng-nco-0387-lead(metal)",
     "»trans": [
       "pol-nco-0317-ołów"
     ]
   },
   {
+    "lemma": "lead",
+    "id": "eng-nco-0389-lead(leash)",
+    "»trans": [
+      "pol-nco-0319-smycz"
+    ]
+  },
+  {
     "lemma": "plant",
-    "id": "eng-nco-0388-plant",
+    "id": "eng-nco-0388-plant(plantae)",
     "»trans": [
       "pol-nco-0318-roślina"
     ]
   },
   {
-    "lemma": "lead",
-    "id": "eng-nco-0389-lead(þ)",
+    "lemma": "plant",
+    "id": "eng-nco-0490-plant(factory)",
     "»trans": [
-      "pol-nco-0319-smycz"
+      "pol-nco-0403-zakład(plant)",
+      "pol-nco-0449-fabryka"
     ]
   },
   {
@@ -2774,9 +2876,16 @@
   },
   {
     "lemma": "cold",
-    "id": "eng-nco-0394-cold",
+    "id": "eng-nco-0394-cold(coldness)",
     "»trans": [
       "pol-nco-0323-zimno"
+    ]
+  },
+  {
+    "lemma": "cold",
+    "id": "eng-nco-0420-cold(common cold)",
+    "»trans": [
+      "pol-nco-0345-przeziębienie"
     ]
   },
   {
@@ -2868,9 +2977,16 @@
   },
   {
     "lemma": "stage",
-    "id": "eng-nco-0407-stage",
+    "id": "eng-nco-0407-stage(theatre)",
     "»trans": [
       "pol-nco-0333-scena(stage)"
+    ]
+  },
+  {
+    "lemma": "stage",
+    "id": "eng-nco-0532-stage(step)",
+    "»trans": [
+      "pol-nco-0435-etap"
     ]
   },
   {
@@ -2948,7 +3064,8 @@
     "lemma": "fire",
     "id": "eng-nco-0418-fire",
     "»trans": [
-      "pol-nco-0343-ogień"
+      "pol-nco-0343-ogień",
+      "pol-nco-0450-pożar"
     ]
   },
   {
@@ -2959,17 +3076,17 @@
     ]
   },
   {
-    "lemma": "cold",
-    "id": "eng-nco-0420-cold(þ)",
+    "lemma": "honey",
+    "id": "eng-nco-0421-honey(bees)",
     "»trans": [
-      "pol-nco-0345-przeziębienie"
+      "pol-nco-0346-miód"
     ]
   },
   {
     "lemma": "honey",
-    "id": "eng-nco-0421-honey",
+    "id": "eng-nco-0435-honey(darling)",
     "»trans": [
-      "pol-nco-0346-miód"
+      "pol-nco-0357-kochanie"
     ]
   },
   {
@@ -3017,9 +3134,16 @@
   },
   {
     "lemma": "key",
-    "id": "eng-nco-0428-key",
+    "id": "eng-nco-0428-key(door)",
     "»trans": [
       "pol-nco-0352-klucz(key)"
+    ]
+  },
+  {
+    "lemma": "key",
+    "id": "eng-nco-0897-key(computer)",
+    "»trans": [
+      "pol-nco-0727-klawisz"
     ]
   },
   {
@@ -3052,23 +3176,16 @@
   },
   {
     "lemma": "course",
-    "id": "eng-nco-0433-course",
+    "id": "eng-nco-0433-course(learning)",
     "»trans": [
       "pol-nco-0356-kurs"
     ]
   },
   {
-    "lemma": "love",
-    "id": "eng-nco-0434-love(þ)",
+    "lemma": "course",
+    "id": "eng-nco-1135-course(meal)",
     "»trans": [
-      "pol-nco-0357-kochanie"
-    ]
-  },
-  {
-    "lemma": "honey",
-    "id": "eng-nco-0435-honey(þ)",
-    "»trans": [
-      "pol-nco-0357-kochanie"
+      "pol-nco-0925-danie(course)"
     ]
   },
   {
@@ -3249,13 +3366,6 @@
     ]
   },
   {
-    "lemma": "letter",
-    "id": "eng-nco-0461-letter(þ)",
-    "»trans": [
-      "pol-nco-0377-litera"
-    ]
-  },
-  {
     "lemma": "sea",
     "id": "eng-nco-0462-sea",
     "»trans": [
@@ -3376,14 +3486,14 @@
   },
   {
     "lemma": "mouse",
-    "id": "eng-nco-0479-mouse",
+    "id": "eng-nco-0479-mouse(animal)",
     "»trans": [
       "pol-nco-0393-mysz(mouse)"
     ]
   },
   {
     "lemma": "mouse",
-    "id": "eng-nco-0480-mouse(þ)",
+    "id": "eng-nco-0480-mouse(computer)",
     "»trans": [
       "pol-nco-0394-mysz(computer mouse)"
     ]
@@ -3451,14 +3561,6 @@
     "id": "eng-nco-0489-branch",
     "»trans": [
       "pol-nco-0402-gałąź"
-    ]
-  },
-  {
-    "lemma": "plant",
-    "id": "eng-nco-0490-plant(þ)",
-    "»trans": [
-      "pol-nco-0403-zakład(plant)",
-      "pol-nco-0449-fabryka"
     ]
   },
   {
@@ -3573,13 +3675,6 @@
     "id": "eng-nco-0506-owl",
     "»trans": [
       "pol-nco-0416-sowa"
-    ]
-  },
-  {
-    "lemma": "medicine",
-    "id": "eng-nco-0507-medicine(þ)",
-    "»trans": [
-      "pol-nco-0417-medycyna"
     ]
   },
   {
@@ -3738,21 +3833,21 @@
   },
   {
     "lemma": "bat",
-    "id": "eng-nco-0530-bat",
+    "id": "eng-nco-0530-bat(animal)",
     "»trans": [
       "pol-nco-0434-nietoperz"
     ]
   },
   {
-    "lemma": "phase",
-    "id": "eng-nco-0531-phase",
+    "lemma": "bat",
+    "id": "eng-nco-0782-bat(sports)",
     "»trans": [
-      "pol-nco-0435-etap"
+      "pol-nco-0636-kij"
     ]
   },
   {
-    "lemma": "stage",
-    "id": "eng-nco-0532-stage(þ)",
+    "lemma": "phase",
+    "id": "eng-nco-0531-phase",
     "»trans": [
       "pol-nco-0435-etap"
     ]
@@ -3782,7 +3877,8 @@
     "lemma": "string",
     "id": "eng-nco-0536-string",
     "»trans": [
-      "pol-nco-0439-struna"
+      "pol-nco-0439-struna",
+      "pol-nco-0606-sznurek"
     ]
   },
   {
@@ -3860,13 +3956,6 @@
     "id": "eng-nco-0547-cod",
     "»trans": [
       "pol-nco-0448-dorsz"
-    ]
-  },
-  {
-    "lemma": "fire",
-    "id": "eng-nco-0548-fire(þ)",
-    "»trans": [
-      "pol-nco-0450-pożar"
     ]
   },
   {
@@ -4011,9 +4100,16 @@
   },
   {
     "lemma": "marriage",
-    "id": "eng-nco-0569-marriage",
+    "id": "eng-nco-0569-marriage(concept)",
     "»trans": [
       "pol-nco-0464-małżeństwo"
+    ]
+  },
+  {
+    "lemma": "marriage",
+    "id": "eng-nco-1073-marriage(wedding)",
+    "»trans": [
+      "pol-nco-0872-ślub"
     ]
   },
   {
@@ -4021,13 +4117,6 @@
     "id": "eng-nco-0570-marriedcouple",
     "»trans": [
       "pol-nco-0464-małżeństwo"
-    ]
-  },
-  {
-    "lemma": "glass",
-    "id": "eng-nco-0571-glass(þ)",
-    "»trans": [
-      "pol-nco-0465-szkło"
     ]
   },
   {
@@ -4092,13 +4181,6 @@
     "id": "eng-nco-0580-period",
     "»trans": [
       "pol-nco-0473-okres"
-    ]
-  },
-  {
-    "lemma": "floor",
-    "id": "eng-nco-0581-floor(þ)",
-    "»trans": [
-      "pol-nco-0474-piętro"
     ]
   },
   {
@@ -4228,13 +4310,6 @@
     ]
   },
   {
-    "lemma": "mud",
-    "id": "eng-nco-0600-mud(þ)",
-    "»trans": [
-      "pol-nco-0488-błoto(mud)"
-    ]
-  },
-  {
     "lemma": "marsh",
     "id": "eng-nco-0601-marsh",
     "»trans": [
@@ -4334,9 +4409,16 @@
   },
   {
     "lemma": "room",
-    "id": "eng-nco-0615-room",
+    "id": "eng-nco-0615-room(of house)",
     "»trans": [
       "pol-nco-0501-pokój(room)"
+    ]
+  },
+  {
+    "lemma": "room",
+    "id": "eng-nco-0728-room(space)",
+    "»trans": [
+      "pol-nco-0590-miejsce(room)"
     ]
   },
   {
@@ -4412,9 +4494,16 @@
   },
   {
     "lemma": "subject",
-    "id": "eng-nco-0626-subject",
+    "id": "eng-nco-0626-subject(thing)",
     "»trans": [
       "pol-nco-0510-przedmiot"
+    ]
+  },
+  {
+    "lemma": "subject",
+    "id": "eng-nco-0661-subject(theme)",
+    "»trans": [
+      "pol-nco-0539-temat"
     ]
   },
   {
@@ -4455,9 +4544,16 @@
   },
   {
     "lemma": "hair",
-    "id": "eng-nco-0632-hair",
+    "id": "eng-nco-0632-hair(human)",
     "»trans": [
       "pol-nco-0515-włos"
+    ]
+  },
+  {
+    "lemma": "hair",
+    "id": "eng-nco-1183-hair(fur)",
+    "»trans": [
+      "pol-nco-0961-sierść"
     ]
   },
   {
@@ -4581,9 +4677,17 @@
   },
   {
     "lemma": "job",
-    "id": "eng-nco-0650-job",
+    "id": "eng-nco-0650-job(profession)",
     "»trans": [
-      "pol-nco-0528-praca"
+      "pol-nco-0528-praca",
+      "pol-nco-0554-zawód(profession)"
+    ]
+  },
+  {
+    "lemma": "job",
+    "id": "eng-nco-1262-job(task)",
+    "»trans": [
+      "pol-nco-1016-zadanie"
     ]
   },
   {
@@ -4629,13 +4733,6 @@
     ]
   },
   {
-    "lemma": "country",
-    "id": "eng-nco-0657-country(þ)",
-    "»trans": [
-      "pol-nco-0535-wieś(country)"
-    ]
-  },
-  {
     "lemma": "village",
     "id": "eng-nco-0658-village",
     "»trans": [
@@ -4654,13 +4751,6 @@
     "id": "eng-nco-0660-face",
     "»trans": [
       "pol-nco-0538-twarz"
-    ]
-  },
-  {
-    "lemma": "subject",
-    "id": "eng-nco-0661-subject(þ)",
-    "»trans": [
-      "pol-nco-0539-temat"
     ]
   },
   {
@@ -4714,9 +4804,16 @@
   },
   {
     "lemma": "number",
-    "id": "eng-nco-0669-number",
+    "id": "eng-nco-0669-number(general)",
     "»trans": [
       "pol-nco-0546-liczba"
+    ]
+  },
+  {
+    "lemma": "number",
+    "id": "eng-nco-0919-number(phone)",
+    "»trans": [
+      "pol-nco-0747-numer"
     ]
   },
   {
@@ -4791,13 +4888,6 @@
     ]
   },
   {
-    "lemma": "job",
-    "id": "eng-nco-0680-job(þ)",
-    "»trans": [
-      "pol-nco-0554-zawód(profession)"
-    ]
-  },
-  {
     "lemma": "disappointment",
     "id": "eng-nco-0681-disappointment",
     "»trans": [
@@ -4827,9 +4917,16 @@
   },
   {
     "lemma": "property",
-    "id": "eng-nco-0685-property",
+    "id": "eng-nco-0685-property(building)",
     "»trans": [
       "pol-nco-0560-obiekt(facility)"
+    ]
+  },
+  {
+    "lemma": "property",
+    "id": "eng-nco-1294-property(possessions)",
+    "»trans": [
+      "pol-nco-1039-właściwość"
     ]
   },
   {
@@ -4848,9 +4945,16 @@
   },
   {
     "lemma": "relationship",
-    "id": "eng-nco-0688-relationship",
+    "id": "eng-nco-0688-relationship(connection)",
     "»trans": [
       "pol-nco-0562-związek(connection)"
+    ]
+  },
+  {
+    "lemma": "relationship",
+    "id": "eng-nco-0691-relationship(romantic)",
+    "»trans": [
+      "pol-nco-0563-związek(romantic relationship)"
     ]
   },
   {
@@ -4865,13 +4969,6 @@
     "id": "eng-nco-0690-bond",
     "»trans": [
       "pol-nco-0562-związek(connection)"
-    ]
-  },
-  {
-    "lemma": "relationship",
-    "id": "eng-nco-0691-relationship(þ)",
-    "»trans": [
-      "pol-nco-0563-związek(romantic relationship)"
     ]
   },
   {
@@ -5127,13 +5224,6 @@
     ]
   },
   {
-    "lemma": "room",
-    "id": "eng-nco-0728-room(þ)",
-    "»trans": [
-      "pol-nco-0590-miejsce(room)"
-    ]
-  },
-  {
     "lemma": "space",
     "id": "eng-nco-0729-space",
     "»trans": [
@@ -5214,7 +5304,8 @@
     "lemma": "bell",
     "id": "eng-nco-0740-bell",
     "»trans": [
-      "pol-nco-0600-dzwon"
+      "pol-nco-0600-dzwon",
+      "pol-nco-0945-dzwonek"
     ]
   },
   {
@@ -5250,13 +5341,6 @@
     "id": "eng-nco-0745-woodpecker",
     "»trans": [
       "pol-nco-0605-dzięcioł"
-    ]
-  },
-  {
-    "lemma": "string",
-    "id": "eng-nco-0746-string(þ)",
-    "»trans": [
-      "pol-nco-0606-sznurek"
     ]
   },
   {
@@ -5360,9 +5444,16 @@
   },
   {
     "lemma": "pants",
-    "id": "eng-nco-0761-pants",
+    "id": "eng-nco-0761-pants(trousers)",
     "»trans": [
       "pol-nco-0617-spodnie"
+    ]
+  },
+  {
+    "lemma": "pants",
+    "id": "eng-nco-0954-pants(underwear)",
+    "»trans": [
+      "pol-nco-0776-slipy"
     ]
   },
   {
@@ -5395,16 +5486,16 @@
   },
   {
     "lemma": "piece",
-    "id": "eng-nco-0766-piece",
+    "id": "eng-nco-0766-piece(part)",
     "»trans": [
       "pol-nco-0622-część"
     ]
   },
   {
-    "lemma": "ball",
-    "id": "eng-nco-0767-ball(object)",
+    "lemma": "piece",
+    "id": "eng-nco-1220-piece(chunk)",
     "»trans": [
-      "pol-nco-0623-piłka"
+      "pol-nco-0989-kawałek"
     ]
   },
   {
@@ -5437,9 +5528,16 @@
   },
   {
     "lemma": "degree",
-    "id": "eng-nco-0772-degree",
+    "id": "eng-nco-0772-degree(temperature)",
     "»trans": [
       "pol-nco-0628-stopień"
+    ]
+  },
+  {
+    "lemma": "degree",
+    "id": "eng-nco-1163-degree(diploma)",
+    "»trans": [
+      "pol-nco-0946-dyplom"
     ]
   },
   {
@@ -5486,9 +5584,16 @@
   },
   {
     "lemma": "term",
-    "id": "eng-nco-0779-term",
+    "id": "eng-nco-0779-term(condition)",
     "»trans": [
       "pol-nco-0635-warunek"
+    ]
+  },
+  {
+    "lemma": "term",
+    "id": "eng-nco-1250-term(word)",
+    "»trans": [
+      "pol-nco-1008-termin(term)"
     ]
   },
   {
@@ -5502,13 +5607,6 @@
   {
     "lemma": "cue",
     "id": "eng-nco-0781-cue",
-    "»trans": [
-      "pol-nco-0636-kij"
-    ]
-  },
-  {
-    "lemma": "bat",
-    "id": "eng-nco-0782-bat(þ)",
     "»trans": [
       "pol-nco-0636-kij"
     ]
@@ -5924,9 +6022,16 @@
   },
   {
     "lemma": "beam",
-    "id": "eng-nco-0841-beam",
+    "id": "eng-nco-0841-beam(light)",
     "»trans": [
       "pol-nco-0683-promień(ray)"
+    ]
+  },
+  {
+    "lemma": "beam",
+    "id": "eng-nco-1289-beam(wood)",
+    "»trans": [
+      "pol-nco-1034-belka"
     ]
   },
   {
@@ -6302,24 +6407,10 @@
     ]
   },
   {
-    "lemma": "bank",
-    "id": "eng-nco-0895-bank(þ)",
-    "»trans": [
-      "pol-nco-0725-brzeg"
-    ]
-  },
-  {
     "lemma": "wallet",
     "id": "eng-nco-0896-wallet",
     "»trans": [
       "pol-nco-0726-portfel"
-    ]
-  },
-  {
-    "lemma": "key",
-    "id": "eng-nco-0897-key(þ)",
-    "»trans": [
-      "pol-nco-0727-klawisz"
     ]
   },
   {
@@ -6471,13 +6562,6 @@
     ]
   },
   {
-    "lemma": "number",
-    "id": "eng-nco-0919-number(þ)",
-    "»trans": [
-      "pol-nco-0747-numer"
-    ]
-  },
-  {
     "lemma": "screwdriver",
     "id": "eng-nco-0920-screwdriver",
     "»trans": [
@@ -6489,13 +6573,6 @@
     "id": "eng-nco-0921-guide",
     "»trans": [
       "pol-nco-0749-przewodnik(guide)"
-    ]
-  },
-  {
-    "lemma": "importance",
-    "id": "eng-nco-0922-importance(þ)",
-    "»trans": [
-      "pol-nco-0750-znaczenie(importance)"
     ]
   },
   {
@@ -6605,13 +6682,6 @@
     ]
   },
   {
-    "lemma": "light",
-    "id": "eng-nco-0938-light(þ)",
-    "»trans": [
-      "pol-nco-0763-światło"
-    ]
-  },
-  {
     "lemma": "song",
     "id": "eng-nco-0939-song",
     "»trans": [
@@ -6717,13 +6787,6 @@
     ]
   },
   {
-    "lemma": "pants",
-    "id": "eng-nco-0954-pants(þ)",
-    "»trans": [
-      "pol-nco-0776-slipy"
-    ]
-  },
-  {
     "lemma": "rhinoceros",
     "id": "eng-nco-0955-rhinoceros",
     "»trans": [
@@ -6781,9 +6844,16 @@
   },
   {
     "lemma": "socket",
-    "id": "eng-nco-0963-socket",
+    "id": "eng-nco-0963-socket(electrical)",
     "»trans": [
       "pol-nco-0784-gniazdko"
+    ]
+  },
+  {
+    "lemma": "socket",
+    "id": "eng-nco-1275-socket(general)",
+    "»trans": [
+      "pol-nco-1026-gniazdo(socket)"
     ]
   },
   {
@@ -6825,14 +6895,16 @@
     "lemma": "television",
     "id": "eng-nco-0969-television",
     "»trans": [
-      "pol-nco-0789-telewizja"
+      "pol-nco-0789-telewizja",
+      "pol-nco-0900-telewizor"
     ]
   },
   {
     "lemma": "TV",
     "id": "eng-nco-0970-TV",
     "»trans": [
-      "pol-nco-0789-telewizja"
+      "pol-nco-0789-telewizja",
+      "pol-nco-0900-telewizor"
     ]
   },
   {
@@ -7012,14 +7084,6 @@
     ]
   },
   {
-    "lemma": "effect",
-    "id": "eng-nco-0996-effect(þ)",
-    "»trans": [
-      "pol-nco-0809-wpływ",
-      "pol-nco-0914-efekt"
-    ]
-  },
-  {
     "lemma": "asteroid",
     "id": "eng-nco-0997-asteroid",
     "»trans": [
@@ -7128,7 +7192,8 @@
     "lemma": "cause",
     "id": "eng-nco-1012-cause",
     "»trans": [
-      "pol-nco-0823-powód(cause)"
+      "pol-nco-0823-powód(cause)",
+      "pol-nco-0870-przyczyna"
     ]
   },
   {
@@ -7387,9 +7452,16 @@
   },
   {
     "lemma": "entry",
-    "id": "eng-nco-1049-entry",
+    "id": "eng-nco-1049-entry(doorway)",
     "»trans": [
       "pol-nco-0850-wejście"
+    ]
+  },
+  {
+    "lemma": "entry",
+    "id": "eng-nco-1198-entry(concept)",
+    "»trans": [
+      "pol-nco-0972-wstęp"
     ]
   },
   {
@@ -7529,23 +7601,16 @@
   },
   {
     "lemma": "class",
-    "id": "eng-nco-1069-class",
+    "id": "eng-nco-1069-class(event)",
     "»trans": [
       "pol-nco-0868-klasa(class)"
     ]
   },
   {
     "lemma": "class",
-    "id": "eng-nco-1070-class(þ)",
+    "id": "eng-nco-1070-class(room)",
     "»trans": [
       "pol-nco-0869-klasa(classroom)"
-    ]
-  },
-  {
-    "lemma": "cause",
-    "id": "eng-nco-1071-cause(þ)",
-    "»trans": [
-      "pol-nco-0870-przyczyna"
     ]
   },
   {
@@ -7553,13 +7618,6 @@
     "id": "eng-nco-1072-carpet",
     "»trans": [
       "pol-nco-0871-dywan"
-    ]
-  },
-  {
-    "lemma": "marriage",
-    "id": "eng-nco-1073-marriage(þ)",
-    "»trans": [
-      "pol-nco-0872-ślub"
     ]
   },
   {
@@ -7773,13 +7831,6 @@
     ]
   },
   {
-    "lemma": "target",
-    "id": "eng-nco-1104-target(þ)",
-    "»trans": [
-      "pol-nco-0897-tarcza(target)"
-    ]
-  },
-  {
     "lemma": "fact",
     "id": "eng-nco-1105-fact",
     "»trans": [
@@ -7791,20 +7842,6 @@
     "id": "eng-nco-1106-switch",
     "»trans": [
       "pol-nco-0899-wyłącznik"
-    ]
-  },
-  {
-    "lemma": "television",
-    "id": "eng-nco-1107-television(þ)",
-    "»trans": [
-      "pol-nco-0900-telewizor"
-    ]
-  },
-  {
-    "lemma": "TV",
-    "id": "eng-nco-1108-TV(þ)",
-    "»trans": [
-      "pol-nco-0900-telewizor"
     ]
   },
   {
@@ -7963,14 +8000,14 @@
   },
   {
     "lemma": "exercise",
-    "id": "eng-nco-1131-exercise",
+    "id": "eng-nco-1131-exercise(physical)",
     "»trans": [
       "pol-nco-0922-ćwiczenie(physical exercise)"
     ]
   },
   {
     "lemma": "exercise",
-    "id": "eng-nco-1132-exercise(þ)",
+    "id": "eng-nco-1132-exercise(drill)",
     "»trans": [
       "pol-nco-0923-ćwiczenie(drill)"
     ]
@@ -7990,17 +8027,11 @@
     ]
   },
   {
-    "lemma": "course",
-    "id": "eng-nco-1135-course(þ)",
-    "»trans": [
-      "pol-nco-0925-danie(course)"
-    ]
-  },
-  {
     "lemma": "darkness",
     "id": "eng-nco-1136-darkness",
     "»trans": [
-      "pol-nco-0926-zmrok"
+      "pol-nco-0926-zmrok",
+      "pol-nco-1003-mrok"
     ]
   },
   {
@@ -8082,13 +8113,6 @@
     ]
   },
   {
-    "lemma": "price",
-    "id": "eng-nco-1148-price(þ)",
-    "»trans": [
-      "pol-nco-0935-koszt"
-    ]
-  },
-  {
     "lemma": "relative",
     "id": "eng-nco-1149-relative",
     "»trans": [
@@ -8141,13 +8165,7 @@
     "lemma": "cabinet",
     "id": "eng-nco-1156-cabinet",
     "»trans": [
-      "pol-nco-0941-szafa"
-    ]
-  },
-  {
-    "lemma": "cabinet",
-    "id": "eng-nco-1157-cabinet(þ)",
-    "»trans": [
+      "pol-nco-0941-szafa",
       "pol-nco-0942-szafka"
     ]
   },
@@ -8173,22 +8191,8 @@
     ]
   },
   {
-    "lemma": "bell",
-    "id": "eng-nco-1161-bell(þ)",
-    "»trans": [
-      "pol-nco-0945-dzwonek"
-    ]
-  },
-  {
     "lemma": "diploma",
     "id": "eng-nco-1162-diploma",
-    "»trans": [
-      "pol-nco-0946-dyplom"
-    ]
-  },
-  {
-    "lemma": "degree",
-    "id": "eng-nco-1163-degree(þ)",
     "»trans": [
       "pol-nco-0946-dyplom"
     ]
@@ -8329,13 +8333,6 @@
     ]
   },
   {
-    "lemma": "hair",
-    "id": "eng-nco-1183-hair(þ)",
-    "»trans": [
-      "pol-nco-0961-sierść"
-    ]
-  },
-  {
     "lemma": "ice skate",
     "id": "eng-nco-1184-iceskate",
     "»trans": [
@@ -8436,13 +8433,6 @@
     ]
   },
   {
-    "lemma": "entry",
-    "id": "eng-nco-1198-entry(þ)",
-    "»trans": [
-      "pol-nco-0972-wstęp"
-    ]
-  },
-  {
     "lemma": "admission",
     "id": "eng-nco-1199-admission",
     "»trans": [
@@ -8528,9 +8518,16 @@
   },
   {
     "lemma": "line",
-    "id": "eng-nco-1211-line",
+    "id": "eng-nco-1211-line(shape)",
     "»trans": [
       "pol-nco-0982-linia"
+    ]
+  },
+  {
+    "lemma": "line",
+    "id": "eng-nco-1313-line(queue)",
+    "»trans": [
+      "pol-nco-1057-kolejka"
     ]
   },
   {
@@ -8590,13 +8587,6 @@
     ]
   },
   {
-    "lemma": "piece",
-    "id": "eng-nco-1220-piece(þ)",
-    "»trans": [
-      "pol-nco-0989-kawałek"
-    ]
-  },
-  {
     "lemma": "bit",
     "id": "eng-nco-1221-bit",
     "»trans": [
@@ -8606,13 +8596,6 @@
   {
     "lemma": "eraser",
     "id": "eng-nco-1222-eraser",
-    "»trans": [
-      "pol-nco-0990-gumka(eraser)"
-    ]
-  },
-  {
-    "lemma": "rubber",
-    "id": "eng-nco-1223-rubber(þ)",
     "»trans": [
       "pol-nco-0990-gumka(eraser)"
     ]
@@ -8731,13 +8714,6 @@
     ]
   },
   {
-    "lemma": "darkness",
-    "id": "eng-nco-1240-darkness(þ)",
-    "»trans": [
-      "pol-nco-1003-mrok"
-    ]
-  },
-  {
     "lemma": "dark",
     "id": "eng-nco-1241-dark",
     "»trans": [
@@ -8781,9 +8757,16 @@
   },
   {
     "lemma": "pipe",
-    "id": "eng-nco-1247-pipe(þ)",
+    "id": "eng-nco-1247-pipe(tobacco)",
     "»trans": [
       "pol-nco-1005-fajka(*pipe)"
+    ]
+  },
+  {
+    "lemma": "pipe",
+    "id": "eng-nco-1254-pipe(general)",
+    "»trans": [
+      "pol-nco-1010-rura"
     ]
   },
   {
@@ -8798,13 +8781,6 @@
     "id": "eng-nco-1249-deadline",
     "»trans": [
       "pol-nco-1007-termin(deadline)"
-    ]
-  },
-  {
-    "lemma": "term",
-    "id": "eng-nco-1250-term(þ)",
-    "»trans": [
-      "pol-nco-1008-termin(term)"
     ]
   },
   {
@@ -8826,13 +8802,6 @@
     "id": "eng-nco-1253-trip",
     "»trans": [
       "pol-nco-1009-podróż"
-    ]
-  },
-  {
-    "lemma": "pipe",
-    "id": "eng-nco-1254-pipe(þ)",
-    "»trans": [
-      "pol-nco-1010-rura"
     ]
   },
   {
@@ -8880,13 +8849,6 @@
   {
     "lemma": "task",
     "id": "eng-nco-1261-task",
-    "»trans": [
-      "pol-nco-1016-zadanie"
-    ]
-  },
-  {
-    "lemma": "job",
-    "id": "eng-nco-1262-job(þ)",
     "»trans": [
       "pol-nco-1016-zadanie"
     ]
@@ -8973,13 +8935,6 @@
     "id": "eng-nco-1274-nest",
     "»trans": [
       "pol-nco-1025-gniazdo(nest)"
-    ]
-  },
-  {
-    "lemma": "socket",
-    "id": "eng-nco-1275-socket(þ)",
-    "»trans": [
-      "pol-nco-1026-gniazdo(socket)"
     ]
   },
   {
@@ -9074,13 +9029,6 @@
     ]
   },
   {
-    "lemma": "beam",
-    "id": "eng-nco-1289-beam(þ)",
-    "»trans": [
-      "pol-nco-1034-belka"
-    ]
-  },
-  {
     "lemma": "title",
     "id": "eng-nco-1290-title",
     "»trans": [
@@ -9106,13 +9054,6 @@
     "id": "eng-nco-1293-octopus",
     "»trans": [
       "pol-nco-1038-ośmiornica"
-    ]
-  },
-  {
-    "lemma": "property",
-    "id": "eng-nco-1294-property(þ)",
-    "»trans": [
-      "pol-nco-1039-właściwość"
     ]
   },
   {
@@ -9214,13 +9155,6 @@
     ]
   },
   {
-    "lemma": "pyramid",
-    "id": "eng-nco-1309-pyramid(þ)",
-    "»trans": [
-      "pol-nco-1054-ostrosłup"
-    ]
-  },
-  {
     "lemma": "dishwasher",
     "id": "eng-nco-1310-dishwasher",
     "»trans": [
@@ -9228,22 +9162,8 @@
     ]
   },
   {
-    "lemma": "occupation",
-    "id": "eng-nco-1311-occupation(þ)",
-    "»trans": [
-      "pol-nco-1056-zajęcie"
-    ]
-  },
-  {
     "lemma": "queue",
     "id": "eng-nco-1312-queue",
-    "»trans": [
-      "pol-nco-1057-kolejka"
-    ]
-  },
-  {
-    "lemma": "line",
-    "id": "eng-nco-1313-line(þ)",
     "»trans": [
       "pol-nco-1057-kolejka"
     ]
@@ -9393,13 +9313,6 @@
     "id": "eng-nco-1334-contents",
     "»trans": [
       "pol-nco-1077-zawartość"
-    ]
-  },
-  {
-    "lemma": "dream",
-    "id": "eng-nco-1335-dream(þ)",
-    "»trans": [
-      "pol-nco-1078-marzenie"
     ]
   },
   {
