@@ -5707,7 +5707,7 @@
   },
   {
     "lemma": "kula",
-    "id": "pol-nco-0110-kula(ball)",
+    "id": "pol-nco-0110-kula(shape)",
     "tags": [
       "FREQ3",
       "dimension",
@@ -31872,15 +31872,17 @@
     "lemma": "piłka",
     "id": "pol-nco-0623-piłka",
     "tags": [
-      "FREQ3"
+      "FREQ3",
+      "concrete",
+      "holdable"
     ],
     "topics": [
-      "geometry",
       "sport"
     ],
     "translations": {
       "ENG": [
-        "ball"
+        "ball",
+        "football"
       ]
     },
     "gender": "f",
@@ -53762,6 +53764,64 @@
         "ins": "ofiarami",
         "loc": "ofiarach",
         "voc": "ofiary"
+      }
+    }
+  },
+  {
+    "lemma": "piłka nożna",
+    "id": "pol-nco-1081-piłkanożna",
+    "tags": [
+      "FREQ3",
+      "sport"
+    ],
+    "topics": [
+      "sport"
+    ],
+    "translations": {
+      "ENG": [
+        "football",
+        "soccer"
+      ]
+    },
+    "gender": "f",
+    "inflections": {
+      "singular": {
+        "nom": "piłka nożna",
+        "gen": "piłki nożnej",
+        "dat": "piłce nożnej",
+        "acc": "piłkę nożną",
+        "ins": "piłką nożną",
+        "loc": "piłce nożnej",
+        "voc": "piłko nożna"
+      }
+    }
+  },
+  {
+    "lemma": "futbol",
+    "id": "pol-nco-1082-futbol",
+    "tags": [
+      "FREQ3",
+      "sport"
+    ],
+    "topics": [
+      "sport"
+    ],
+    "translations": {
+      "ENG": [
+        "football",
+        "soccer"
+      ]
+    },
+    "gender": "m3",
+    "inflections": {
+      "singular": {
+        "nom": "futbol",
+        "gen": "futbolu",
+        "dat": "futbolowi",
+        "acc": "futbol",
+        "ins": "futbolem",
+        "loc": "futbolu",
+        "voc": "futbolu"
       }
     }
   }

@@ -884,16 +884,16 @@
   },
   {
     "lemma": "ball",
-    "id": "eng-nco-0126-ball",
+    "id": "eng-nco-0126-ball(shape)",
     "»trans": [
-      "pol-nco-0110-kula(ball)"
+      "pol-nco-0110-kula(shape)"
     ]
   },
   {
     "lemma": "sphere",
     "id": "eng-nco-0127-sphere",
     "»trans": [
-      "pol-nco-0110-kula(ball)"
+      "pol-nco-0110-kula(shape)"
     ]
   },
   {
@@ -5402,7 +5402,7 @@
   },
   {
     "lemma": "ball",
-    "id": "eng-nco-0767-ball(þ)",
+    "id": "eng-nco-0767-ball(object)",
     "»trans": [
       "pol-nco-0623-piłka"
     ]
@@ -9414,6 +9414,29 @@
     "id": "eng-nco-1337-sacrifice",
     "»trans": [
       "pol-npe-1080-ofiara(sacrifice)"
+    ]
+  },
+  {
+    "lemma": "football",
+    "id": "eng-nco-1338-football(ball)",
+    "»trans": [
+      "pol-nco-0623-piłka"
+    ]
+  },
+  {
+    "lemma": "football",
+    "id": "eng-nco-1339-football(sport)",
+    "»trans": [
+      "pol-nco-1081-piłkanożna",
+      "pol-nco-1082-futbol"
+    ]
+  },
+  {
+    "lemma": "soccer",
+    "id": "eng-nco-1340-soccer",
+    "»trans": [
+      "pol-nco-1081-piłkanożna",
+      "pol-nco-1082-futbol"
     ]
   }
 ]

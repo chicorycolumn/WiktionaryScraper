@@ -424,7 +424,7 @@ def get_signalwords(lobjs):
     print("* * * * * * * * * * * * * * *")
     print("")
 
-    user_input = input('Enter signalwords   h for help   ')
+    user_input = input('Enter signalwords   m to merge lobjs   x to delete   h for help\n')
 
     if user_input == "h":
         c.print_teal("*  -  *  -  *  -  *  -  *  -  *  -  *  -  *")

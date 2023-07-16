@@ -10,10 +10,9 @@ if __name__ == '__main__':
     # # # # # #
     wordtype = "nco"
     batch = "01"
-    target_lang = "ENG"
     # # # # # #
 
-    input_filename = f"{wordtype}_batch_{batch}_SRC"
+    input_filename = f"{wordtype}_batch_{batch}_TGT"
     stem = "./../../output_saved/batches/"
     input_path = f"{stem}{input_filename}"
     tempsave_path = input_path + "_S06_tempsave"
