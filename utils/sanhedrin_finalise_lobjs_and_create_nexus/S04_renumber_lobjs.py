@@ -9,10 +9,10 @@ from utils.universal import color as c, get_curried_save, load_data
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "adj"
+    wordtype = "nco"
     batch = "01"
     start_id_number = 1
-    suffix = "SRC"
+    suffix = "TGT"
     # # # # # #
 
     input_filename = f"{wordtype}_batch_{batch}_{suffix}"
