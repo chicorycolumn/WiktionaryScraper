@@ -54664,5 +54664,74 @@
     },
     "frequency": 3,
     "register": 0
+  },
+  {
+    "lemma": "wiertarka",
+    "id": "pol-nco-1083-wiertarka",
+    "tags": [
+      "tool",
+      "weapon"
+    ],
+    "topics": [
+      "engineering",
+      "violence"
+    ],
+    "translations": {
+      "ENG": [
+        "charger"
+      ]
+    },
+    "gender": "f",
+    "inflections": {
+      "singular": {
+        "nom": "wiertarka",
+        "gen": "wiertarki",
+        "dat": "wiertarce",
+        "acc": "wiertarkę",
+        "ins": "wiertarką",
+        "loc": "wiertarce",
+        "voc": "wiertarko"
+      },
+      "plural": {
+        "nom": "wiertarki",
+        "gen": "wiertarek",
+        "dat": "wiertarkom",
+        "acc": "wiertarki",
+        "ins": "wiertarkami",
+        "loc": "wiertarkach",
+        "voc": "wiertarki"
+      }
+    },
+    "frequency": 4,
+    "register": 0
+  },
+  {
+    "lemma": "czas",
+    "id": "pol-nco-1084-czas",
+    "tags": [
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ],
+    "translations": {
+      "ENG": [
+        "time"
+      ]
+    },
+    "gender": "m3",
+    "inflections": {
+      "singular": {
+        "nom": "czas",
+        "gen": "czasu",
+        "dat": "czasowi",
+        "acc": "czas",
+        "ins": "czasem",
+        "loc": "czasie",
+        "voc": "czasie"
+      }
+    },
+    "frequency": 2,
+    "register": 0
   }
 ]

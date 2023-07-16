@@ -2260,7 +2260,16 @@
   },
   {
     "lemma": "time",
-    "id": "eng-nco-0249-time",
+    "id": "eng-nco-0249-time(seconds)",
+    "»trans": [
+      "pol-nco-1084-czas"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "time",
+    "id": "eng-nco-0249-time(instance)",
     "»trans": [
       "pol-nco-0200-raz"
     ],
@@ -10345,7 +10354,7 @@
   },
   {
     "lemma": "drill",
-    "id": "eng-nco-1137-drill",
+    "id": "eng-nco-1137-drill(exercise)",
     "»trans": [
       "pol-nco-0923-ćwiczenie(drill)"
     ],
@@ -12074,5 +12083,14 @@
     ],
     "register": 0,
     "frequency": 3
+  },
+  {
+    "lemma": "drill",
+    "id": "eng-nco-1327-drill(tool)",
+    "»trans": [
+      "pol-nco-1082-wiertarka"
+    ],
+    "register": 0,
+    "frequency": 4
   }
 ]

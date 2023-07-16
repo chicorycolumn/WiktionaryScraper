@@ -76,11 +76,6 @@ J1) Run "S09_doublecheck_frequency_on_tgt.py" with step=1 arg then step=2.
     - doublecheck the automatically populated frequency on TGT
     Modifies "nou_batch_01_TGT.json"
 
-J2) If you have renumbered the SRC lobjs at any point since creating the TGT lobjs in step F)
-    run the supplemental stage "X1_renumber_src_lobjs_in_src_and_tgt.py"
-    Modifies "nou_batch_01_SRC.json"
-    Modifies "nou_batch_01_TGT.json"
-
 
 
 K1) Run "S10_create_nexus.py".
