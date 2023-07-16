@@ -53610,39 +53610,32 @@
     "register": 0
   },
   {
-    "lemma": "zajęcie",
-    "id": "pol-nco-1056-zajęcie",
-    "tags": [],
+    "lemma": "czas",
+    "id": "pol-nco-1056-czas",
+    "tags": [
+      "abstract"
+    ],
     "topics": [
-      "work"
+      "time"
     ],
     "translations": {
       "ENG": [
-        "*occupation"
+        "time"
       ]
     },
-    "gender": "n",
+    "gender": "m3",
     "inflections": {
       "singular": {
-        "nom": "zajęcie",
-        "gen": "zajęcia",
-        "dat": "zajęciu",
-        "acc": "zajęcie",
-        "ins": "zajęciem",
-        "loc": "zajęciu",
-        "voc": "zajęcie"
-      },
-      "plural": {
-        "nom": "zajęcia",
-        "gen": "zajęć",
-        "dat": "zajęciom",
-        "acc": "zajęcia",
-        "ins": "zajęciami",
-        "loc": "zajęciach",
-        "voc": "zajęcia"
+        "nom": "czas",
+        "gen": "czasu",
+        "dat": "czasowi",
+        "acc": "czas",
+        "ins": "czasem",
+        "loc": "czasie",
+        "voc": "czasie"
       }
     },
-    "frequency": 5,
+    "frequency": 2,
     "register": 0
   },
   {
@@ -54703,35 +54696,6 @@
       }
     },
     "frequency": 4,
-    "register": 0
-  },
-  {
-    "lemma": "czas",
-    "id": "pol-nco-1084-czas",
-    "tags": [
-      "abstract"
-    ],
-    "topics": [
-      "time"
-    ],
-    "translations": {
-      "ENG": [
-        "time"
-      ]
-    },
-    "gender": "m3",
-    "inflections": {
-      "singular": {
-        "nom": "czas",
-        "gen": "czasu",
-        "dat": "czasowi",
-        "acc": "czas",
-        "ins": "czasem",
-        "loc": "czasie",
-        "voc": "czasie"
-      }
-    },
-    "frequency": 2,
     "register": 0
   }
 ]
