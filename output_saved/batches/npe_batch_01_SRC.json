@@ -7213,5 +7213,89 @@
     },
     "frequency": 3,
     "register": 0
+  },
+  {
+    "lemma": "pan",
+    "id": "pol-npe-0135-pan",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "title"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "Mr",
+        "Sir"
+      ]
+    },
+    "gender": "m1",
+    "inflections": {
+      "singular": {
+        "nom": "pan",
+        "gen": "pana",
+        "dat": "panu",
+        "acc": "pana",
+        "ins": "panem",
+        "loc": "panu",
+        "voc": "panie"
+      },
+      "plural": {
+        "nom": "panowie",
+        "gen": "panów",
+        "dat": "panom",
+        "acc": "panów",
+        "ins": "panami",
+        "loc": "panach",
+        "voc": "panowie"
+      }
+    },
+    "frequency": 2,
+    "register": 0
+  },
+  {
+    "lemma": "pani",
+    "id": "pol-npe-0136-pani",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "title"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "Mrs",
+        "lady"
+      ]
+    },
+    "gender": "f",
+    "inflections": {
+      "singular": {
+        "nom": "pani",
+        "gen": "pani",
+        "dat": "pani",
+        "acc": "panią",
+        "ins": "panią",
+        "loc": "pani",
+        "voc": "pani"
+      },
+      "plural": {
+        "nom": "panie",
+        "gen": "pań",
+        "dat": "paniom",
+        "acc": "panie",
+        "ins": "paniami",
+        "loc": "paniach",
+        "voc": "panie"
+      }
+    },
+    "frequency": 2,
+    "register": 0
   }
 ]

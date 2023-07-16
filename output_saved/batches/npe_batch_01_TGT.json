@@ -1234,5 +1234,43 @@
     ],
     "register": 0,
     "frequency": 3
+  },
+  {
+    "lemma": "Mr",
+    "id": "eng-npe-0135-Mr",
+    "»trans": [
+      "pol-npe-0135-pan"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "Sir",
+    "id": "eng-npe-0136-Sir",
+    "»trans": [
+      "pol-npe-0135-pan"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "Mrs",
+    "id": "eng-npe-0137-Mrs",
+    "»trans": [
+      "pol-npe-0136-pani"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "lady",
+    "id": "eng-npe-0138-lady",
+    "»trans": [
+      "pol-npe-0136-pani",
+      "pol-npe-0015-kobieta",
+      "pol-npe-0009-panna"
+    ],
+    "register": 0,
+    "frequency": 2
   }
 ]
