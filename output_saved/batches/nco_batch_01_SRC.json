@@ -955,28 +955,9 @@
         "Usage notes [ edit ] Słownik is a Polish word which is usually translated as “dictionary”, but its usage is much wider than that. Almost anything that contains definitions of words is a “słownik”. While generally in Polish an encyclopedia is not usually considered to be a słownik ,specialist encyclopedias often are thus called as in ”Słownik Chemiczny”. This particular meaning is similar to glossary or lexicon (“Lexicon of Chemistry”)."
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "słownik",
-        "gen": "słownika",
-        "dat": "słownikowi",
-        "acc": "słownik",
-        "ins": "słownikiem",
-        "loc": "słowniku",
-        "voc": "słowniku"
-      },
-      "plural": {
-        "nom": "słowniki",
-        "gen": "słowników",
-        "dat": "słownikom",
-        "acc": "słowniki",
-        "ins": "słownikami",
-        "loc": "słownikach",
-        "voc": "słowniki"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0017-słownik(dictionary)"
   },
   {
     "lemma": "tor",
@@ -1138,28 +1119,9 @@
         "Nie pomogę wam w tym projekcie, dopóki góra go nie przyklepie. ― I won't help you with this project until the higher-ups sign off on it."
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "góra",
-        "gen": "góry",
-        "dat": "górze",
-        "acc": "górę",
-        "ins": "górą",
-        "loc": "górze",
-        "voc": "góro"
-      },
-      "plural": {
-        "nom": "góry",
-        "gen": "gór",
-        "dat": "górom",
-        "acc": "góry",
-        "ins": "górami",
-        "loc": "górach",
-        "voc": "góry"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0020-góra(mountain)"
   },
   {
     "lemma": "koza",
@@ -1695,28 +1657,9 @@
         "gumowy"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "guma",
-        "gen": "gumy",
-        "dat": "gumie",
-        "acc": "gumę",
-        "ins": "gumą",
-        "loc": "gumie",
-        "voc": "gumo"
-      },
-      "plural": {
-        "nom": "gumy",
-        "gen": "gum",
-        "dat": "gumom",
-        "acc": "gumy",
-        "ins": "gumami",
-        "loc": "gumach",
-        "voc": "gumy"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0030-guma(rubber)"
   },
   {
     "lemma": "droga",
@@ -1811,28 +1754,9 @@
         "stanąć na drodze"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "droga",
-        "gen": "drogi",
-        "dat": "drodze",
-        "acc": "drogę",
-        "ins": "drogą",
-        "loc": "drodze",
-        "voc": "drogo"
-      },
-      "plural": {
-        "nom": "drogi",
-        "gen": "dróg",
-        "dat": "drogom",
-        "acc": "drogi",
-        "ins": "drogami",
-        "loc": "drogach",
-        "voc": "drogi"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0032-droga(way)"
   },
   {
     "lemma": "kot",
@@ -2207,28 +2131,9 @@
         "trzymać język za zębami"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "język",
-        "gen": "języka",
-        "dat": "językowi",
-        "acc": "język",
-        "ins": "językiem",
-        "loc": "języku",
-        "voc": "języku"
-      },
-      "plural": {
-        "nom": "języki",
-        "gen": "języków",
-        "dat": "językom",
-        "acc": "języki",
-        "ins": "językami",
-        "loc": "językach",
-        "voc": "języki"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0038-język(tongue)"
   },
   {
     "lemma": "hol",
@@ -4915,62 +4820,6 @@
     "register": 0
   },
   {
-    "lemma": "lato",
-    "id": "pol-nco-0093-lato(year)",
-    "tags": [],
-    "topics": [
-      "time"
-    ],
-    "translations": {
-      "ENG": [
-        "year"
-      ]
-    },
-    "gender": "n",
-    "extra": {
-      "otherShapes": {
-        "diminutive": [
-          "latko"
-        ]
-      },
-      "derivedTerms": [
-        "latoś",
-        "letnio",
-        "letni",
-        "latosi",
-        "leciwy",
-        "letniskowy",
-        "babie lato",
-        "letnik",
-        "letnisko",
-        "letniość",
-        "śródlecie"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "lato",
-        "gen": "lata",
-        "dat": "latu",
-        "acc": "lato",
-        "ins": "latem",
-        "loc": "lecie",
-        "voc": "lato"
-      },
-      "plural": {
-        "nom": "lata",
-        "gen": "lat",
-        "dat": "latom",
-        "acc": "lata",
-        "ins": "latami",
-        "loc": "latach",
-        "voc": "lata"
-      }
-    },
-    "frequency": 1,
-    "register": 0
-  },
-  {
     "lemma": "iskra",
     "id": "pol-nco-0094-iskra",
     "tags": [],
@@ -5885,31 +5734,9 @@
         "pchnięcie kulą ― shot put"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "kula",
-        "gen": "kuli",
-        "dat": "kuli",
-        "acc": "kulę",
-        "ins": "kulą",
-        "loc": "kuli",
-        "voc": "kulo"
-      },
-      "plural": {
-        "nom": "kule",
-        "gen": [
-          "kul",
-          "kuli"
-        ],
-        "dat": "kulom",
-        "acc": "kule",
-        "ins": "kulami",
-        "loc": "kulach",
-        "voc": "kule"
-      }
-    },
     "frequency": 5,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0110-kula(shape)"
   },
   {
     "lemma": "kara",
@@ -6166,28 +5993,9 @@
         "śnić"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "sen",
-        "gen": "snu",
-        "dat": "snowi",
-        "acc": "sen",
-        "ins": "snem",
-        "loc": "śnie",
-        "voc": "śnie"
-      },
-      "plural": {
-        "nom": "sny",
-        "gen": "snów",
-        "dat": "snom",
-        "acc": "sny",
-        "ins": "snami",
-        "loc": "snach",
-        "voc": "sny"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0116-sen(dream)"
   },
   {
     "lemma": "długość",
@@ -6257,28 +6065,9 @@
         "Długość stołu wynosi 150 cm. ― The length of the table is 150 cm."
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "długość",
-        "gen": "długości",
-        "dat": "długości",
-        "acc": "długość",
-        "ins": "długością",
-        "loc": "długości",
-        "voc": "długości"
-      },
-      "plural": {
-        "nom": "długości",
-        "gen": "długości",
-        "dat": "długościom",
-        "acc": "długości",
-        "ins": "długościami",
-        "loc": "długościach",
-        "voc": "długości"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0118-długość(length)"
   },
   {
     "lemma": "widelec",
@@ -7607,28 +7396,9 @@
         "pieniądze"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "kasa",
-        "gen": "kasy",
-        "dat": "kasie",
-        "acc": "kasę",
-        "ins": "kasą",
-        "loc": "kasie",
-        "voc": "kaso"
-      },
-      "plural": {
-        "nom": "kasy",
-        "gen": "kas",
-        "dat": "kasom",
-        "acc": "kasy",
-        "ins": "kasami",
-        "loc": "kasach",
-        "voc": "kasy"
-      }
-    },
     "frequency": 4,
-    "register": 6
+    "register": 6,
+    "inflectionsRoot": "pol-nco-0144-kasa(cash desk)"
   },
   {
     "lemma": "aura",
@@ -9429,28 +9199,9 @@
         "\"Mona Lisa\" jest jednym z najbardziej znanych obrazów olejnych z czasów renesansu. The Mona Lisa is one of the most famous oil paintings of the Renaissance."
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "obraz",
-        "gen": "obrazu",
-        "dat": "obrazowi",
-        "acc": "obraz",
-        "ins": "obrazem",
-        "loc": "obrazie",
-        "voc": "obrazie"
-      },
-      "plural": {
-        "nom": "obrazy",
-        "gen": "obrazów",
-        "dat": "obrazom",
-        "acc": "obrazy",
-        "ins": "obrazami",
-        "loc": "obrazach",
-        "voc": "obrazy"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0182-obraz(image)"
   },
   {
     "lemma": "imię",
@@ -10019,28 +9770,9 @@
         "prawo autorskie"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "prawo",
-        "gen": "prawa",
-        "dat": "prawu",
-        "acc": "prawo",
-        "ins": "prawem",
-        "loc": "prawie",
-        "voc": "prawo"
-      },
-      "plural": {
-        "nom": "prawa",
-        "gen": "praw",
-        "dat": "prawom",
-        "acc": "prawa",
-        "ins": "prawami",
-        "loc": "prawach",
-        "voc": "prawa"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0194-prawo(law)"
   },
   {
     "lemma": "ciało",
@@ -10470,37 +10202,9 @@
         "na Nowy Rok przybywa dnia na barani skok"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "dzień",
-        "gen": "dnia",
-        "dat": "dniowi",
-        "acc": "dzień",
-        "ins": "dniem",
-        "loc": "dniu",
-        "voc": "dniu"
-      },
-      "plural": {
-        "nom": [
-          "dni",
-          "dnie"
-        ],
-        "gen": "dni",
-        "dat": "dniom",
-        "acc": [
-          "dni",
-          "dnie"
-        ],
-        "ins": "dniami",
-        "loc": "dniach",
-        "voc": [
-          "dni",
-          "dnie"
-        ]
-      }
-    },
     "frequency": 1,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0201-dzień(day)"
   },
   {
     "lemma": "dolar",
@@ -10822,28 +10526,9 @@
         "ważyć"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "waga",
-        "gen": "wagi",
-        "dat": "wadze",
-        "acc": "wagę",
-        "ins": "wagą",
-        "loc": "wadze",
-        "voc": "wago"
-      },
-      "plural": {
-        "nom": "wagi",
-        "gen": "wag",
-        "dat": "wagom",
-        "acc": "wagi",
-        "ins": "wagami",
-        "loc": "wagach",
-        "voc": "wagi"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0207-waga(physical)"
   },
   {
     "lemma": "ocet",
@@ -10959,28 +10644,9 @@
         "bezwypadkowo"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "wypadek",
-        "gen": "wypadku",
-        "dat": "wypadkowi",
-        "acc": "wypadek",
-        "ins": "wypadkiem",
-        "loc": "wypadku",
-        "voc": "wypadku"
-      },
-      "plural": {
-        "nom": "wypadki",
-        "gen": "wypadków",
-        "dat": "wypadkom",
-        "acc": "wypadki",
-        "ins": "wypadkami",
-        "loc": "wypadkach",
-        "voc": "wypadki"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0210-wypadek(accident)"
   },
   {
     "lemma": "ciasto",
@@ -11057,28 +10723,9 @@
         "ciastko"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "ciasto",
-        "gen": "ciasta",
-        "dat": "ciastu",
-        "acc": "ciasto",
-        "ins": "ciastem",
-        "loc": "cieście",
-        "voc": "ciasto"
-      },
-      "plural": {
-        "nom": "ciasta",
-        "gen": "ciast",
-        "dat": "ciastom",
-        "acc": "ciasta",
-        "ins": "ciastami",
-        "loc": "ciastach",
-        "voc": "ciasta"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0212-ciasto(cake)"
   },
   {
     "lemma": "esej",
@@ -11276,28 +10923,9 @@
         "piersiowy"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "pierś",
-        "gen": "piersi",
-        "dat": "piersi",
-        "acc": "pierś",
-        "ins": "piersią",
-        "loc": "piersi",
-        "voc": "piersi"
-      },
-      "plural": {
-        "nom": "piersi",
-        "gen": "piersi",
-        "dat": "piersiom",
-        "acc": "piersi",
-        "ins": "piersiami",
-        "loc": "piersiach",
-        "voc": "piersi"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0217-pierś(breast)"
   },
   {
     "lemma": "wrzesień",
@@ -12026,28 +11654,9 @@
         "bezgraniczność"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "granica",
-        "gen": "granicy",
-        "dat": "granicy",
-        "acc": "granicę",
-        "ins": "granicą",
-        "loc": "granicy",
-        "voc": "granico"
-      },
-      "plural": {
-        "nom": "granice",
-        "gen": "granic",
-        "dat": "granicom",
-        "acc": "granice",
-        "ins": "granicami",
-        "loc": "granicach",
-        "voc": "granice"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0231-granica(border)"
   },
   {
     "lemma": "śniadanie",
@@ -13363,31 +12972,9 @@
         "ціль"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "cel",
-        "gen": "celu",
-        "dat": "celowi",
-        "acc": "cel",
-        "ins": "celem",
-        "loc": "celu",
-        "voc": "celu"
-      },
-      "plural": {
-        "nom": "cele",
-        "gen": [
-          "celi",
-          "celów"
-        ],
-        "dat": "celom",
-        "acc": "cele",
-        "ins": "celami",
-        "loc": "celach",
-        "voc": "cele"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0255-cel(goal)"
   },
   {
     "lemma": "wiek",
@@ -13452,28 +13039,9 @@
         "XXI wiek ― 21st century"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "wiek",
-        "gen": "wieku",
-        "dat": "wiekowi",
-        "acc": "wiek",
-        "ins": "wiekiem",
-        "loc": "wieku",
-        "voc": "wieku"
-      },
-      "plural": {
-        "nom": "wieki",
-        "gen": "wieków",
-        "dat": "wiekom",
-        "acc": "wieki",
-        "ins": "wiekami",
-        "loc": "wiekach",
-        "voc": "wieki"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0257-wiek(age)"
   },
   {
     "lemma": "łabędź",
@@ -14008,31 +13576,9 @@
         "dostać kosza"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "kosz",
-        "gen": "kosza",
-        "dat": "koszowi",
-        "acc": "kosz",
-        "ins": "koszem",
-        "loc": "koszu",
-        "voc": "koszu"
-      },
-      "plural": {
-        "nom": "kosze",
-        "gen": [
-          "koszy",
-          "koszów"
-        ],
-        "dat": "koszom",
-        "acc": "kosze",
-        "ins": "koszami",
-        "loc": "koszach",
-        "voc": "kosze"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0267-kosz(basket)"
   },
   {
     "lemma": "styczeń",
@@ -14180,28 +13726,9 @@
       ]
     },
     "gender": "f",
-    "inflections": {
-      "singular": {
-        "nom": "pani",
-        "gen": "pani",
-        "dat": "pani",
-        "acc": "panią",
-        "ins": "panią",
-        "loc": "pani",
-        "voc": "pani"
-      },
-      "plural": {
-        "nom": "panie",
-        "gen": "pań",
-        "dat": "paniom",
-        "acc": "panie",
-        "ins": "paniami",
-        "loc": "paniach",
-        "voc": "panie"
-      }
-    },
     "frequency": 1,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0271-pani(woman)"
   },
   {
     "lemma": "naleśnik",
@@ -14912,34 +14439,9 @@
         "zaręczyć"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "ręka",
-        "gen": "ręki",
-        "dat": "ręce",
-        "acc": "rękę",
-        "ins": "ręką",
-        "loc": "ręce",
-        "voc": "ręko"
-      },
-      "plural": {
-        "nom": "ręce",
-        "gen": "rąk",
-        "dat": "rękom",
-        "acc": "ręce",
-        "ins": [
-          "rękami",
-          "rękoma"
-        ],
-        "loc": [
-          "rękach",
-          "ręku"
-        ],
-        "voc": "ręce"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0286-ręka(hand)"
   },
   {
     "lemma": "wielbłąd",
@@ -15284,28 +14786,9 @@
         "zniebieszczeć"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "niebo",
-        "gen": "nieba",
-        "dat": "niebu",
-        "acc": "niebo",
-        "ins": "niebem",
-        "loc": "niebie",
-        "voc": "niebo"
-      },
-      "plural": {
-        "nom": "nieba",
-        "gen": "nieb",
-        "dat": "niebom",
-        "acc": "nieba",
-        "ins": "niebami",
-        "loc": "niebach",
-        "voc": "nieba"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0293-niebo(sky)"
   },
   {
     "lemma": "pociąg",
@@ -16384,28 +15867,9 @@
         "radzić sobie"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "rada",
-        "gen": "rady",
-        "dat": "radzie",
-        "acc": "radę",
-        "ins": "radą",
-        "loc": "radzie",
-        "voc": "rado"
-      },
-      "plural": {
-        "nom": "rady",
-        "gen": "rad",
-        "dat": "radom",
-        "acc": "rady",
-        "ins": "radami",
-        "loc": "radach",
-        "voc": "rady"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0312-rada(council)"
   },
   {
     "lemma": "miska",
@@ -17432,28 +16896,9 @@
         "zascenie"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "scena",
-        "gen": "sceny",
-        "dat": "scenie",
-        "acc": "scenę",
-        "ins": "sceną",
-        "loc": "scenie",
-        "voc": "sceno"
-      },
-      "plural": {
-        "nom": "sceny",
-        "gen": "scen",
-        "dat": "scenom",
-        "acc": "sceny",
-        "ins": "scenami",
-        "loc": "scenach",
-        "voc": "sceny"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0333-scena(stage)"
   },
   {
     "lemma": "plaża",
@@ -17586,28 +17031,9 @@
         "napęd na cztery koła ― four- wheel drive"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "koło",
-        "gen": "koła",
-        "dat": "kołu",
-        "acc": "koło",
-        "ins": "kołem",
-        "loc": "kole",
-        "voc": "koło"
-      },
-      "plural": {
-        "nom": "koła",
-        "gen": "kół",
-        "dat": "kołom",
-        "acc": "koła",
-        "ins": "kołami",
-        "loc": "kołach",
-        "voc": "koła"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0336-koło(circle)"
   },
   {
     "lemma": "ból",
@@ -18490,28 +17916,9 @@
         "klucz wiolinowy ― treble clef"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "klucz",
-        "gen": "klucza",
-        "dat": "kluczowi",
-        "acc": "klucz",
-        "ins": "kluczem",
-        "loc": "kluczu",
-        "voc": "kluczu"
-      },
-      "plural": {
-        "nom": "klucze",
-        "gen": "kluczy",
-        "dat": "kluczom",
-        "acc": "klucze",
-        "ins": "kluczami",
-        "loc": "kluczach",
-        "voc": "klucze"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0352-klucz(key)"
   },
   {
     "lemma": "jeż",
@@ -19183,28 +18590,9 @@
         "pióro"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "pióro",
-        "gen": "pióra",
-        "dat": "pióru",
-        "acc": "pióro",
-        "ins": "piórem",
-        "loc": "piórze",
-        "voc": "pióro"
-      },
-      "plural": {
-        "nom": "pióra",
-        "gen": "piór",
-        "dat": "piórom",
-        "acc": "pióra",
-        "ins": "piórami",
-        "loc": "piórach",
-        "voc": "pióra"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0363-pióro(feather)"
   },
   {
     "lemma": "ochota",
@@ -19388,28 +18776,9 @@
         "biały sos"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "sos",
-        "gen": "sosu",
-        "dat": "sosowi",
-        "acc": "sos",
-        "ins": "sosem",
-        "loc": "sosie",
-        "voc": "sosie"
-      },
-      "plural": {
-        "nom": "sosy",
-        "gen": "sosów",
-        "dat": "sosom",
-        "acc": "sosy",
-        "ins": "sosami",
-        "loc": "sosach",
-        "voc": "sosy"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0367-sos(sauce)"
   },
   {
     "lemma": "łoś",
@@ -19767,31 +19136,9 @@
         "wężydło"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "wąż",
-        "gen": "węża",
-        "dat": "wężowi",
-        "acc": "wąż",
-        "ins": "wężem",
-        "loc": "wężu",
-        "voc": "wężu"
-      },
-      "plural": {
-        "nom": "węże",
-        "gen": [
-          "węży",
-          "wężów"
-        ],
-        "dat": "wężom",
-        "acc": "węże",
-        "ins": "wężami",
-        "loc": "wężach",
-        "voc": "węże"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0374-wąż(snake)"
   },
   {
     "lemma": "lustro",
@@ -20606,28 +19953,9 @@
         "pobić własną bronią"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "broń",
-        "gen": "broni",
-        "dat": "broni",
-        "acc": "broń",
-        "ins": "bronią",
-        "loc": "broni",
-        "voc": "broni"
-      },
-      "plural": {
-        "nom": "bronie",
-        "gen": "broni",
-        "dat": "broniom",
-        "acc": "bronie",
-        "ins": "broniami",
-        "loc": "broniach",
-        "voc": "bronie"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0390-broń(weapon)"
   },
   {
     "lemma": "duch",
@@ -20762,28 +20090,9 @@
         ]
       }
     },
-    "inflections": {
-      "singular": {
-        "nom": "mysz",
-        "gen": "myszy",
-        "dat": "myszy",
-        "acc": "mysz",
-        "ins": "myszą",
-        "loc": "myszy",
-        "voc": "myszy"
-      },
-      "plural": {
-        "nom": "myszy",
-        "gen": "myszy",
-        "dat": "myszom",
-        "acc": "myszy",
-        "ins": "myszami",
-        "loc": "myszach",
-        "voc": "myszy"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0393-mysz(mouse)"
   },
   {
     "lemma": "prezent",
@@ -21264,28 +20573,9 @@
         "pójść o zakład"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "zakład",
-        "gen": "zakładu",
-        "dat": "zakładowi",
-        "acc": "zakład",
-        "ins": "zakładem",
-        "loc": "zakładzie",
-        "voc": "zakładzie"
-      },
-      "plural": {
-        "nom": "zakłady",
-        "gen": "zakładów",
-        "dat": "zakładom",
-        "acc": "zakłady",
-        "ins": "zakładami",
-        "loc": "zakładach",
-        "voc": "zakłady"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0403-zakład(plant)"
   },
   {
     "lemma": "niedźwiedź",
@@ -21459,28 +20749,9 @@
         "projektować"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "projekt",
-        "gen": "projektu",
-        "dat": "projektowi",
-        "acc": "projekt",
-        "ins": "projektem",
-        "loc": "projekcie",
-        "voc": "projekcie"
-      },
-      "plural": {
-        "nom": "projekty",
-        "gen": "projektów",
-        "dat": "projektom",
-        "acc": "projekty",
-        "ins": "projektami",
-        "loc": "projektach",
-        "voc": "projekty"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0407-projekt(project)"
   },
   {
     "lemma": "żar",
@@ -21629,28 +20900,9 @@
         "за́мок"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "zamek",
-        "gen": "zamku",
-        "dat": "zamkowi",
-        "acc": "zamek",
-        "ins": "zamkiem",
-        "loc": "zamku",
-        "voc": "zamku"
-      },
-      "plural": {
-        "nom": "zamki",
-        "gen": "zamków",
-        "dat": "zamkom",
-        "acc": "zamki",
-        "ins": "zamkami",
-        "loc": "zamkach",
-        "voc": "zamki"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0410-zamek(lock)"
   },
   {
     "lemma": "bóbr",
@@ -24477,28 +23729,9 @@
         "rzędu"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "rząd",
-        "gen": "rządu",
-        "dat": "rządowi",
-        "acc": "rząd",
-        "ins": "rządem",
-        "loc": "rządzie",
-        "voc": "rządzie"
-      },
-      "plural": {
-        "nom": "rządy",
-        "gen": "rządów",
-        "dat": "rządom",
-        "acc": "rządy",
-        "ins": "rządami",
-        "loc": "rządach",
-        "voc": "rządy"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0470-rząd(row)"
   },
   {
     "lemma": "otwór",
@@ -24717,28 +23950,9 @@
       ]
     },
     "gender": "f",
-    "inflections": {
-      "singular": {
-        "nom": "baza",
-        "gen": "bazy",
-        "dat": "bazie",
-        "acc": "bazę",
-        "ins": "bazą",
-        "loc": "bazie",
-        "voc": "bazo"
-      },
-      "plural": {
-        "nom": "bazy",
-        "gen": "baz",
-        "dat": "bazom",
-        "acc": "bazy",
-        "ins": "bazami",
-        "loc": "bazach",
-        "voc": "bazy"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0475-baza(basis)"
   },
   {
     "lemma": "śmierć",
@@ -24879,28 +24093,9 @@
         "Jest twoja kolej . ― it's your turn ."
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "kolej",
-        "gen": "kolei",
-        "dat": "kolei",
-        "acc": "kolej",
-        "ins": "koleją",
-        "loc": "kolei",
-        "voc": "kolei"
-      },
-      "plural": {
-        "nom": "koleje",
-        "gen": "kolei",
-        "dat": "kolejom",
-        "acc": "koleje",
-        "ins": "kolejami",
-        "loc": "kolejach",
-        "voc": "koleje"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0478-kolej(railway)"
   },
   {
     "lemma": "pieprz",
@@ -25501,28 +24696,9 @@
         "zapadać się w błoto ― to sink into a swamp"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "błoto",
-        "gen": "błota",
-        "dat": "błotu",
-        "acc": "błoto",
-        "ins": "błotem",
-        "loc": "błocie",
-        "voc": "błoto"
-      },
-      "plural": {
-        "nom": "błota",
-        "gen": "błot",
-        "dat": "błotom",
-        "acc": "błota",
-        "ins": "błotami",
-        "loc": "błotach",
-        "voc": "błota"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0488-błoto(mud)"
   },
   {
     "lemma": "soczewica",
@@ -25758,28 +24934,9 @@
         "paprykowy"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "papryka",
-        "gen": "papryki",
-        "dat": "papryce",
-        "acc": "paprykę",
-        "ins": "papryką",
-        "loc": "papryce",
-        "voc": "papryko"
-      },
-      "plural": {
-        "nom": "papryki",
-        "gen": "papryk",
-        "dat": "paprykom",
-        "acc": "papryki",
-        "ins": "paprykami",
-        "loc": "paprykach",
-        "voc": "papryki"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0493-papryka(bell pepper)"
   },
   {
     "lemma": "skóra",
@@ -25888,28 +25045,9 @@
         "skórować"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "skóra",
-        "gen": "skóry",
-        "dat": "skórze",
-        "acc": "skórę",
-        "ins": "skórą",
-        "loc": "skórze",
-        "voc": "skóro"
-      },
-      "plural": {
-        "nom": "skóry",
-        "gen": "skór",
-        "dat": "skórom",
-        "acc": "skóry",
-        "ins": "skórami",
-        "loc": "skórach",
-        "voc": "skóry"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0495-skóra(skin)"
   },
   {
     "lemma": "godzina",
@@ -26224,31 +25362,9 @@
         "przedpokój"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "pokój",
-        "gen": "pokoju",
-        "dat": "pokojowi",
-        "acc": "pokój",
-        "ins": "pokojem",
-        "loc": "pokoju",
-        "voc": "pokoju"
-      },
-      "plural": {
-        "nom": "pokoje",
-        "gen": [
-          "pokojów",
-          "pokoi"
-        ],
-        "dat": "pokojom",
-        "acc": "pokoje",
-        "ins": "pokojami",
-        "loc": "pokojach",
-        "voc": "pokoje"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0501-pokój(room)"
   },
   {
     "lemma": "gąsienica",
@@ -27147,28 +26263,9 @@
         "małpować"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "małpa",
-        "gen": "małpy",
-        "dat": "małpie",
-        "acc": "małpę",
-        "ins": "małpą",
-        "loc": "małpie",
-        "voc": "małpo"
-      },
-      "plural": {
-        "nom": "małpy",
-        "gen": "małp",
-        "dat": "małpom",
-        "acc": "małpy",
-        "ins": "małpami",
-        "loc": "małpach",
-        "voc": "małpy"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0519-małpa(monkey)"
   },
   {
     "lemma": "żelazo",
@@ -28081,37 +27178,9 @@
         "wsiur"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "wieś",
-        "gen": "wsi",
-        "dat": "wsi",
-        "acc": "wieś",
-        "ins": "wsią",
-        "loc": "wsi",
-        "voc": "wsi"
-      },
-      "plural": {
-        "nom": [
-          "wsie",
-          "wsi"
-        ],
-        "gen": "wsi",
-        "dat": "wsiom",
-        "acc": [
-          "wsie",
-          "wsi"
-        ],
-        "ins": "wsiami",
-        "loc": "wsiach",
-        "voc": [
-          "wsie",
-          "wsi"
-        ]
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0535-wieś(country)"
   },
   {
     "lemma": "owad",
@@ -28537,28 +27606,9 @@
         "widłoróg"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "róg",
-        "gen": "rogu",
-        "dat": "rogowi",
-        "acc": "róg",
-        "ins": "rogiem",
-        "loc": "rogu",
-        "voc": "rogu"
-      },
-      "plural": {
-        "nom": "rogi",
-        "gen": "rogów",
-        "dat": "rogom",
-        "acc": "rogi",
-        "ins": "rogami",
-        "loc": "rogach",
-        "voc": "rogi"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0543-róg(horn)"
   },
   {
     "lemma": "konewka",
@@ -29027,28 +28077,9 @@
       ]
     },
     "gender": "m3",
-    "inflections": {
-      "singular": {
-        "nom": "zawód",
-        "gen": "zawodu",
-        "dat": "zawodowi",
-        "acc": "zawód",
-        "ins": "zawodem",
-        "loc": "zawodzie",
-        "voc": "zawodzie"
-      },
-      "plural": {
-        "nom": "zawody",
-        "gen": "zawodów",
-        "dat": "zawodom",
-        "acc": "zawody",
-        "ins": "zawodami",
-        "loc": "zawodach",
-        "voc": "zawody"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0554-zawód(profession)"
   },
   {
     "lemma": "winogrono",
@@ -29228,28 +28259,9 @@
       ]
     },
     "gender": "m3",
-    "inflections": {
-      "singular": {
-        "nom": "obiekt",
-        "gen": "obiektu",
-        "dat": "obiektowi",
-        "acc": "obiekt",
-        "ins": "obiektem",
-        "loc": "obiekcie",
-        "voc": "obiekcie"
-      },
-      "plural": {
-        "nom": "obiekty",
-        "gen": "obiektów",
-        "dat": "obiektom",
-        "acc": "obiekty",
-        "ins": "obiektami",
-        "loc": "obiektach",
-        "voc": "obiekty"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0559-obiekt(object)"
   },
   {
     "lemma": "trucizna",
@@ -29360,28 +28372,9 @@
         "Związek Radziecki ― Soviet Union"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "związek",
-        "gen": "związku",
-        "dat": "związkowi",
-        "acc": "związek",
-        "ins": "związkiem",
-        "loc": "związku",
-        "voc": "związku"
-      },
-      "plural": {
-        "nom": "związki",
-        "gen": "związków",
-        "dat": "związkom",
-        "acc": "związki",
-        "ins": "związkami",
-        "loc": "związkach",
-        "voc": "związki"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0562-związek(connection)"
   },
   {
     "lemma": "związek",
@@ -29405,28 +28398,9 @@
         "Związek Radziecki ― Soviet Union"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "związek",
-        "gen": "związku",
-        "dat": "związkowi",
-        "acc": "związek",
-        "ins": "związkiem",
-        "loc": "związku",
-        "voc": "związku"
-      },
-      "plural": {
-        "nom": "związki",
-        "gen": "związków",
-        "dat": "związkom",
-        "acc": "związki",
-        "ins": "związkami",
-        "loc": "związkach",
-        "voc": "związki"
-      }
-    },
     "frequency": 5,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0562-związek(connection)"
   },
   {
     "lemma": "krzesło",
@@ -29652,28 +28626,9 @@
         "posunięcie"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "ruch",
-        "gen": "ruchu",
-        "dat": "ruchowi",
-        "acc": "ruch",
-        "ins": "ruchem",
-        "loc": "ruchu",
-        "voc": "ruchu"
-      },
-      "plural": {
-        "nom": "ruchy",
-        "gen": "ruchów",
-        "dat": "ruchom",
-        "acc": "ruchy",
-        "ins": "ruchami",
-        "loc": "ruchach",
-        "voc": "ruchy"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0568-ruch(movement)"
   },
   {
     "lemma": "ruch",
@@ -29697,28 +28652,9 @@
         "posunięcie"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "ruch",
-        "gen": "ruchu",
-        "dat": "ruchowi",
-        "acc": "ruch",
-        "ins": "ruchem",
-        "loc": "ruchu",
-        "voc": "ruchu"
-      },
-      "plural": {
-        "nom": "ruchy",
-        "gen": "ruchów",
-        "dat": "ruchom",
-        "acc": "ruchy",
-        "ins": "ruchami",
-        "loc": "ruchach",
-        "voc": "ruchy"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0568-ruch(movement)"
   },
   {
     "lemma": "statek",
@@ -29847,28 +28783,9 @@
         "środek przeczyszczający ― lax ative"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "środek",
-        "gen": "środka",
-        "dat": "środkowi",
-        "acc": "środek",
-        "ins": "środkiem",
-        "loc": "środku",
-        "voc": "środku"
-      },
-      "plural": {
-        "nom": "środki",
-        "gen": "środków",
-        "dat": "środkom",
-        "acc": "środki",
-        "ins": "środkami",
-        "loc": "środkach",
-        "voc": "środki"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0572-środek(middle)"
   },
   {
     "lemma": "osioł",
@@ -30043,28 +28960,9 @@
         "pocztowy"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "poczta",
-        "gen": "poczty",
-        "dat": "poczcie",
-        "acc": "pocztę",
-        "ins": "pocztą",
-        "loc": "poczcie",
-        "voc": "poczto"
-      },
-      "plural": {
-        "nom": "poczty",
-        "gen": "poczt",
-        "dat": "pocztom",
-        "acc": "poczty",
-        "ins": "pocztami",
-        "loc": "pocztach",
-        "voc": "poczty"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0576-poczta(mail)"
   },
   {
     "lemma": "badanie",
@@ -30135,28 +29033,9 @@
         "badanie poligraficzne/wariograficzne ― polygraph examination"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "badanie",
-        "gen": "badania",
-        "dat": "badaniu",
-        "acc": "badanie",
-        "ins": "badaniem",
-        "loc": "badaniu",
-        "voc": "badanie"
-      },
-      "plural": {
-        "nom": "badania",
-        "gen": "badań",
-        "dat": "badaniom",
-        "acc": "badania",
-        "ins": "badaniami",
-        "loc": "badaniach",
-        "voc": "badania"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0578-badanie(research)"
   },
   {
     "lemma": "reklama",
@@ -30707,28 +29586,9 @@
         "Było za mało miejsca aby się rozsiadać. ― There wasn't enough room to sprawl out."
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "miejsce",
-        "gen": "miejsca",
-        "dat": "miejscu",
-        "acc": "miejsce",
-        "ins": "miejscem",
-        "loc": "miejscu",
-        "voc": "miejsce"
-      },
-      "plural": {
-        "nom": "miejsca",
-        "gen": "miejsc",
-        "dat": "miejscom",
-        "acc": "miejsca",
-        "ins": "miejscami",
-        "loc": "miejscach",
-        "voc": "miejsca"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0589-miejsce(place)"
   },
   {
     "lemma": "kwadrat",
@@ -31820,28 +30680,9 @@
         "wielokomórkowiec"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "komórka",
-        "gen": "komórki",
-        "dat": "komórce",
-        "acc": "komórkę",
-        "ins": "komórką",
-        "loc": "komórce",
-        "voc": "komórko"
-      },
-      "plural": {
-        "nom": "komórki",
-        "gen": "komórek",
-        "dat": "komórkom",
-        "acc": "komórki",
-        "ins": "komórkami",
-        "loc": "komórkach",
-        "voc": "komórki"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0610-komórka(cell)"
   },
   {
     "lemma": "wybory",
@@ -32952,28 +31793,9 @@
         "strona zwrotna ― reflexive voice"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "strona",
-        "gen": "strony",
-        "dat": "stronie",
-        "acc": "stronę",
-        "ins": "stroną",
-        "loc": "stronie",
-        "voc": "strono"
-      },
-      "plural": {
-        "nom": "strony",
-        "gen": "stron",
-        "dat": "stronom",
-        "acc": "strony",
-        "ins": "stronami",
-        "loc": "stronach",
-        "voc": "strony"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0632-strona(side)"
   },
   {
     "lemma": "toaleta",
@@ -33206,28 +32028,9 @@
         "zmienić"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "zmiana",
-        "gen": "zmiany",
-        "dat": "zmianie",
-        "acc": "zmianę",
-        "ins": "zmianą",
-        "loc": "zmianie",
-        "voc": "zmiano"
-      },
-      "plural": {
-        "nom": "zmiany",
-        "gen": "zmian",
-        "dat": "zmianom",
-        "acc": "zmiany",
-        "ins": "zmianami",
-        "loc": "zmianach",
-        "voc": "zmiany"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0637-zmiana(change)"
   },
   {
     "lemma": "zdanie",
@@ -33315,28 +32118,9 @@
         "bez dwóch zdań"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "zdanie",
-        "gen": "zdania",
-        "dat": "zdaniu",
-        "acc": "zdanie",
-        "ins": "zdaniem",
-        "loc": "zdaniu",
-        "voc": "zdanie"
-      },
-      "plural": {
-        "nom": "zdania",
-        "gen": "zdań",
-        "dat": "zdaniom",
-        "acc": "zdania",
-        "ins": "zdaniami",
-        "loc": "zdaniach",
-        "voc": "zdania"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0639-zdanie(sentence)"
   },
   {
     "lemma": "czoło",
@@ -35111,28 +33895,9 @@
         ]
       }
     },
-    "inflections": {
-      "singular": {
-        "nom": "hasło",
-        "gen": "hasła",
-        "dat": "hasłu",
-        "acc": "hasło",
-        "ins": "hasłem",
-        "loc": "haśle",
-        "voc": "hasło"
-      },
-      "plural": {
-        "nom": "hasła",
-        "gen": "haseł",
-        "dat": "hasłom",
-        "acc": "hasła",
-        "ins": "hasłami",
-        "loc": "hasłach",
-        "voc": "hasła"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0673-hasło(password)"
   },
   {
     "lemma": "przygoda",
@@ -35394,28 +34159,9 @@
         "Coordinate term: północ"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "południe",
-        "gen": "południa",
-        "dat": "południu",
-        "acc": "południe",
-        "ins": "południem",
-        "loc": "południu",
-        "voc": "południe"
-      },
-      "plural": {
-        "nom": "południa",
-        "gen": "południ",
-        "dat": "południom",
-        "acc": "południa",
-        "ins": "południami",
-        "loc": "południach",
-        "voc": "południa"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0679-południe(noon)"
   },
   {
     "lemma": "układ",
@@ -35548,28 +34294,9 @@
         "promieniować"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "promień",
-        "gen": "promienia",
-        "dat": "promieniowi",
-        "acc": "promień",
-        "ins": "promieniem",
-        "loc": "promieniu",
-        "voc": "promieniu"
-      },
-      "plural": {
-        "nom": "promienie",
-        "gen": "promieni",
-        "dat": "promieniom",
-        "acc": "promienie",
-        "ins": "promieniami",
-        "loc": "promieniach",
-        "voc": "promienie"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0682-promień(radius)"
   },
   {
     "lemma": "żyrafa",
@@ -36237,28 +34964,9 @@
         "dodatek do żywności ― food additive"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "dodatek",
-        "gen": "dodatku",
-        "dat": "dodatkowi",
-        "acc": "dodatek",
-        "ins": "dodatkiem",
-        "loc": "dodatku",
-        "voc": "dodatku"
-      },
-      "plural": {
-        "nom": "dodatki",
-        "gen": "dodatków",
-        "dat": "dodatkom",
-        "acc": "dodatki",
-        "ins": "dodatkami",
-        "loc": "dodatkach",
-        "voc": "dodatki"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0695-dodatek(addition)"
   },
   {
     "lemma": "wina",
@@ -36326,28 +35034,9 @@
         "winić"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "wina",
-        "gen": "winy",
-        "dat": "winie",
-        "acc": "winę",
-        "ins": "winą",
-        "loc": "winie",
-        "voc": "wino"
-      },
-      "plural": {
-        "nom": "winy",
-        "gen": "win",
-        "dat": "winom",
-        "acc": "winy",
-        "ins": "winami",
-        "loc": "winach",
-        "voc": "winy"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0697-wina(guilt)"
   },
   {
     "lemma": "obowiązek",
@@ -36795,28 +35484,9 @@
         "Dziś wieczorem mam sporo nauki . ― I have a lot to learn tonight."
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "nauka",
-        "gen": "nauki",
-        "dat": "nauce",
-        "acc": "naukę",
-        "ins": "nauką",
-        "loc": "nauce",
-        "voc": "nauko"
-      },
-      "plural": {
-        "nom": "nauki",
-        "gen": "nauk",
-        "dat": "naukom",
-        "acc": "nauki",
-        "ins": "naukami",
-        "loc": "naukach",
-        "voc": "nauki"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0706-nauka(science)"
   },
   {
     "lemma": "nauka",
@@ -36844,28 +35514,9 @@
         "Dziś wieczorem mam sporo nauki . ― I have a lot to learn tonight."
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "nauka",
-        "gen": "nauki",
-        "dat": "nauce",
-        "acc": "naukę",
-        "ins": "nauką",
-        "loc": "nauce",
-        "voc": "nauko"
-      },
-      "plural": {
-        "nom": "nauki",
-        "gen": "nauk",
-        "dat": "naukom",
-        "acc": "nauki",
-        "ins": "naukami",
-        "loc": "naukach",
-        "voc": "nauki"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0706-nauka(science)"
   },
   {
     "lemma": "pająk",
@@ -37092,31 +35743,9 @@
         "rodzajowy"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "rodzaj",
-        "gen": "rodzaju",
-        "dat": "rodzajowi",
-        "acc": "rodzaj",
-        "ins": "rodzajem",
-        "loc": "rodzaju",
-        "voc": "rodzaju"
-      },
-      "plural": {
-        "nom": "rodzaje",
-        "gen": [
-          "rodzajów",
-          "rodzai"
-        ],
-        "dat": "rodzajom",
-        "acc": "rodzaje",
-        "ins": "rodzajami",
-        "loc": "rodzajach",
-        "voc": "rodzaje"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0712-rodzaj(kind)"
   },
   {
     "lemma": "prysznic",
@@ -37949,28 +36578,9 @@
         "łukowy"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "łuk",
-        "gen": "łuku",
-        "dat": "łukowi",
-        "acc": "łuk",
-        "ins": "łukiem",
-        "loc": "łuku",
-        "voc": "łuku"
-      },
-      "plural": {
-        "nom": "łuki",
-        "gen": "łuków",
-        "dat": "łukom",
-        "acc": "łuki",
-        "ins": "łukami",
-        "loc": "łukach",
-        "voc": "łuki"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0728-łuk(*bow)"
   },
   {
     "lemma": "łza",
@@ -38283,28 +36893,9 @@
         "zachodni"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "zachód",
-        "gen": "zachodu",
-        "dat": "zachodowi",
-        "acc": "zachód",
-        "ins": "zachodem",
-        "loc": "zachodzie",
-        "voc": "zachodzie"
-      },
-      "plural": {
-        "nom": "zachody",
-        "gen": "zachodów",
-        "dat": "zachodom",
-        "acc": "zachody",
-        "ins": "zachodami",
-        "loc": "zachodach",
-        "voc": "zachody"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0735-zachód(*sunset)"
   },
   {
     "lemma": "zapalenie",
@@ -38750,28 +37341,9 @@
         "dwutlenek węgla ― carbon dioxide"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "węgiel",
-        "gen": "węgla",
-        "dat": "węglowi",
-        "acc": "węgiel",
-        "ins": "węglem",
-        "loc": "węglu",
-        "voc": "węglu"
-      },
-      "plural": {
-        "nom": "węgle",
-        "gen": "węgli",
-        "dat": "węglom",
-        "acc": "węgle",
-        "ins": "węglami",
-        "loc": "węglach",
-        "voc": "węgle"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0744-węgiel(carbon)"
   },
   {
     "lemma": "gardło",
@@ -39024,28 +37596,9 @@
         "mieć znaczenie"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "znaczenie",
-        "gen": "znaczenia",
-        "dat": "znaczeniu",
-        "acc": "znaczenie",
-        "ins": "znaczeniem",
-        "loc": "znaczeniu",
-        "voc": "znaczenie"
-      },
-      "plural": {
-        "nom": "znaczenia",
-        "gen": "znaczeń",
-        "dat": "znaczeniom",
-        "acc": "znaczenia",
-        "ins": "znaczeniami",
-        "loc": "znaczeniach",
-        "voc": "znaczenia"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0750-znaczenie(importance)"
   },
   {
     "lemma": "ognisko",
@@ -39920,28 +38473,9 @@
         "Bliski Wschód"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "wschód",
-        "gen": "wschodu",
-        "dat": "wschodowi",
-        "acc": "wschód",
-        "ins": "wschodem",
-        "loc": "wschodzie",
-        "voc": "wschodzie"
-      },
-      "plural": {
-        "nom": "wschody",
-        "gen": "wschodów",
-        "dat": "wschodom",
-        "acc": "wschody",
-        "ins": "wschodami",
-        "loc": "wschodach",
-        "voc": "wschody"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0767-wschód(*sunrise)"
   },
   {
     "lemma": "północ",
@@ -40004,21 +38538,11 @@
         "Coordinate term: północ"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "północ",
-        "gen": "północy",
-        "dat": "północy",
-        "acc": "północ",
-        "ins": "północą",
-        "loc": "północy",
-        "voc": "północy"
-      }
-    },
     "lacking": true,
     "tantumSingulare": true,
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0769-północ(midnight)"
   },
   {
     "lemma": "szlafrok",
@@ -41168,28 +39692,9 @@
         "rachunkowy"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "rachunek",
-        "gen": "rachunku",
-        "dat": "rachunkowi",
-        "acc": "rachunek",
-        "ins": "rachunkiem",
-        "loc": "rachunku",
-        "voc": "rachunku"
-      },
-      "plural": {
-        "nom": "rachunki",
-        "gen": "rachunków",
-        "dat": "rachunkom",
-        "acc": "rachunki",
-        "ins": "rachunkami",
-        "loc": "rachunkach",
-        "voc": "rachunki"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0798-rachunek(bill)"
   },
   {
     "lemma": "rachunek",
@@ -41215,28 +39720,9 @@
         "rachunkowy"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "rachunek",
-        "gen": "rachunku",
-        "dat": "rachunkowi",
-        "acc": "rachunek",
-        "ins": "rachunkiem",
-        "loc": "rachunku",
-        "voc": "rachunku"
-      },
-      "plural": {
-        "nom": "rachunki",
-        "gen": "rachunków",
-        "dat": "rachunkom",
-        "acc": "rachunki",
-        "ins": "rachunkami",
-        "loc": "rachunkach",
-        "voc": "rachunki"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0798-rachunek(bill)"
   },
   {
     "lemma": "tatuaż",
@@ -41420,28 +39906,9 @@
         "stawowy"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "staw",
-        "gen": "stawu",
-        "dat": "stawowi",
-        "acc": "staw",
-        "ins": "stawem",
-        "loc": "stawie",
-        "voc": "stawie"
-      },
-      "plural": {
-        "nom": "stawy",
-        "gen": "stawów",
-        "dat": "stawom",
-        "acc": "stawy",
-        "ins": "stawami",
-        "loc": "stawach",
-        "voc": "stawy"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0803-staw(pond)"
   },
   {
     "lemma": "zasada",
@@ -42051,28 +40518,9 @@
         ]
       }
     },
-    "inflections": {
-      "singular": {
-        "nom": "sędzia",
-        "gen": "sędziego",
-        "dat": "sędziemu",
-        "acc": "sędziego",
-        "ins": "sędzią",
-        "loc": "sędzi",
-        "voc": "sędzio"
-      },
-      "plural": {
-        "nom": "sędziowie",
-        "gen": "sędziów",
-        "dat": "sędziom",
-        "acc": "sędziów",
-        "ins": "sędziami",
-        "loc": "sędziach",
-        "voc": "sędziowie"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0816-sędzia(referee)"
   },
   {
     "lemma": "płot",
@@ -42344,28 +40792,9 @@
         "Nie miał żadnego powodu , żeby kłamać. ― He had no reason to lie."
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "powód",
-        "gen": "powodu",
-        "dat": "powodowi",
-        "acc": "powód",
-        "ins": "powodem",
-        "loc": "powodzie",
-        "voc": "powodzie"
-      },
-      "plural": {
-        "nom": "powody",
-        "gen": "powodów",
-        "dat": "powodom",
-        "acc": "powody",
-        "ins": "powodami",
-        "loc": "powodach",
-        "voc": "powody"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0822-powód(reason)"
   },
   {
     "lemma": "karetka",
@@ -43011,28 +41440,9 @@
         "gatunkowy"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "gatunek",
-        "gen": "gatunku",
-        "dat": "gatunkowi",
-        "acc": "gatunek",
-        "ins": "gatunkiem",
-        "loc": "gatunku",
-        "voc": "gatunku"
-      },
-      "plural": {
-        "nom": "gatunki",
-        "gen": "gatunków",
-        "dat": "gatunkom",
-        "acc": "gatunki",
-        "ins": "gatunkami",
-        "loc": "gatunkach",
-        "voc": "gatunki"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0835-gatunek(species)"
   },
   {
     "lemma": "szkielet",
@@ -44701,28 +43111,9 @@
         "klasówka"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "klasa",
-        "gen": "klasy",
-        "dat": "klasie",
-        "acc": "klasę",
-        "ins": "klasą",
-        "loc": "klasie",
-        "voc": "klaso"
-      },
-      "plural": {
-        "nom": "klasy",
-        "gen": "klas",
-        "dat": "klasom",
-        "acc": "klasy",
-        "ins": "klasami",
-        "loc": "klasach",
-        "voc": "klasy"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0868-klasa(class)"
   },
   {
     "lemma": "przyczyna",
@@ -46227,28 +44618,9 @@
         "tarczyk"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "tarcza",
-        "gen": "tarczy",
-        "dat": "tarczy",
-        "acc": "tarczę",
-        "ins": "tarczą",
-        "loc": "tarczy",
-        "voc": "tarczo"
-      },
-      "plural": {
-        "nom": "tarcze",
-        "gen": "tarcz",
-        "dat": "tarczom",
-        "acc": "tarcze",
-        "ins": "tarczami",
-        "loc": "tarczach",
-        "voc": "tarcze"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0896-tarcza(shield)"
   },
   {
     "lemma": "fakt",
@@ -46782,21 +45154,11 @@
       ]
     },
     "gender": "f",
-    "inflections": {
-      "singular": {
-        "nom": "zgoda",
-        "gen": "zgody",
-        "dat": "zgodzie",
-        "acc": "zgodę",
-        "ins": "zgodą",
-        "loc": "zgodzie",
-        "voc": "zgodo"
-      }
-    },
     "lacking": true,
     "tantumSingulare": true,
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0911-zgoda(agreement)"
   },
   {
     "lemma": "plecak",
@@ -47194,28 +45556,9 @@
       ]
     },
     "gender": "n",
-    "inflections": {
-      "singular": {
-        "nom": "ćwiczenie",
-        "gen": "ćwiczenia",
-        "dat": "ćwiczeniu",
-        "acc": "ćwiczenie",
-        "ins": "ćwiczeniem",
-        "loc": "ćwiczeniu",
-        "voc": "ćwiczenie"
-      },
-      "plural": {
-        "nom": "ćwiczenia",
-        "gen": "ćwiczeń",
-        "dat": "ćwiczeniom",
-        "acc": "ćwiczenia",
-        "ins": "ćwiczeniami",
-        "loc": "ćwiczeniach",
-        "voc": "ćwiczenia"
-      }
-    },
     "frequency": 5,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0922-ćwiczenie(physical exercise)"
   },
   {
     "lemma": "danie",
@@ -47270,28 +45613,9 @@
       ]
     },
     "gender": "n",
-    "inflections": {
-      "singular": {
-        "nom": "danie",
-        "gen": "dania",
-        "dat": "daniu",
-        "acc": "danie",
-        "ins": "daniem",
-        "loc": "daniu",
-        "voc": "danie"
-      },
-      "plural": {
-        "nom": "dania",
-        "gen": "dań",
-        "dat": "daniom",
-        "acc": "dania",
-        "ins": "daniami",
-        "loc": "daniach",
-        "voc": "dania"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0924-danie(dish)"
   },
   {
     "lemma": "zmrok",
@@ -47498,28 +45822,9 @@
       ]
     },
     "gender": "m3",
-    "inflections": {
-      "singular": {
-        "nom": "pancernik",
-        "gen": "pancernika",
-        "dat": "pancernikowi",
-        "acc": "pancernik",
-        "ins": "pancernikiem",
-        "loc": "pancerniku",
-        "voc": "pancerniku"
-      },
-      "plural": {
-        "nom": "pancerniki",
-        "gen": "pancerników",
-        "dat": "pancernikom",
-        "acc": "pancerniki",
-        "ins": "pancernikami",
-        "loc": "pancernikach",
-        "voc": "pancerniki"
-      }
-    },
     "frequency": 5,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0930-pancernik(armadillo)"
   },
   {
     "lemma": "przyjaźń",
@@ -47935,21 +46240,11 @@
         "polityczność"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "polityka",
-        "gen": "polityki",
-        "dat": "polityce",
-        "acc": "politykę",
-        "ins": "polityką",
-        "loc": "polityce",
-        "voc": "polityko"
-      }
-    },
     "lacking": true,
     "tantumSingulare": true,
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0939-polityka(politics)"
   },
   {
     "lemma": "szafa",
@@ -49339,28 +47634,9 @@
         "nastroić"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "nastrój",
-        "gen": "nastroju",
-        "dat": "nastrojowi",
-        "acc": "nastrój",
-        "ins": "nastrojem",
-        "loc": "nastroju",
-        "voc": "nastroju"
-      },
-      "plural": {
-        "nom": "nastroje",
-        "gen": "nastrojów",
-        "dat": "nastrojom",
-        "acc": "nastroje",
-        "ins": "nastrojami",
-        "loc": "nastrojach",
-        "voc": "nastroje"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0966-nastrój(mood)"
   },
   {
     "lemma": "zlew",
@@ -50528,28 +48804,9 @@
         "gumka do włosów ― hair tie"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "gumka",
-        "gen": "gumki",
-        "dat": "gumce",
-        "acc": "gumkę",
-        "ins": "gumką",
-        "loc": "gumce",
-        "voc": "gumko"
-      },
-      "plural": {
-        "nom": "gumki",
-        "gen": "gumek",
-        "dat": "gumkom",
-        "acc": "gumki",
-        "ins": "gumkami",
-        "loc": "gumkach",
-        "voc": "gumki"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0990-gumka(eraser)"
   },
   {
     "lemma": "boisko",
@@ -51066,28 +49323,9 @@
         "przejście podziemne ― subway, under pass"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "przejście",
-        "gen": "przejścia",
-        "dat": "przejściu",
-        "acc": "przejście",
-        "ins": "przejściem",
-        "loc": "przejściu",
-        "voc": "przejście"
-      },
-      "plural": {
-        "nom": "przejścia",
-        "gen": "przejść",
-        "dat": "przejściom",
-        "acc": "przejścia",
-        "ins": "przejściami",
-        "loc": "przejściach",
-        "voc": "przejścia"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-1000-przejście(transition)"
   },
   {
     "lemma": "przejście",
@@ -51113,28 +49351,9 @@
         "przejście podziemne ― subway, under pass"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "przejście",
-        "gen": "przejścia",
-        "dat": "przejściu",
-        "acc": "przejście",
-        "ins": "przejściem",
-        "loc": "przejściu",
-        "voc": "przejście"
-      },
-      "plural": {
-        "nom": "przejścia",
-        "gen": "przejść",
-        "dat": "przejściom",
-        "acc": "przejścia",
-        "ins": "przejściami",
-        "loc": "przejściach",
-        "voc": "przejścia"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-1000-przejście(transition)"
   },
   {
     "lemma": "mrok",
@@ -51351,28 +49570,9 @@
         "sfajczyć"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "fajka",
-        "gen": "fajki",
-        "dat": "fajce",
-        "acc": "fajkę",
-        "ins": "fajką",
-        "loc": "fajce",
-        "voc": "fajko"
-      },
-      "plural": {
-        "nom": "fajki",
-        "gen": "fajek",
-        "dat": "fajkom",
-        "acc": "fajki",
-        "ins": "fajkami",
-        "loc": "fajkach",
-        "voc": "fajki"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-1005-fajka(*pipe)"
   },
   {
     "lemma": "termin",
@@ -51446,28 +49646,9 @@
         "bezterminowość"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "termin",
-        "gen": "terminu",
-        "dat": "terminowi",
-        "acc": "termin",
-        "ins": "terminem",
-        "loc": "terminie",
-        "voc": "terminie"
-      },
-      "plural": {
-        "nom": "terminy",
-        "gen": "terminów",
-        "dat": "terminom",
-        "acc": "terminy",
-        "ins": "terminami",
-        "loc": "terminach",
-        "voc": "terminy"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-1007-termin(deadline)"
   },
   {
     "lemma": "podróż",
@@ -51690,28 +49871,9 @@
         "marihuana"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "zioło",
-        "gen": "zioła",
-        "dat": "ziołu",
-        "acc": "zioło",
-        "ins": "ziołem",
-        "loc": "ziole",
-        "voc": "zioło"
-      },
-      "plural": {
-        "nom": "zioła",
-        "gen": "ziół",
-        "dat": "ziołom",
-        "acc": "zioła",
-        "ins": "ziołami",
-        "loc": "ziołach",
-        "voc": "zioła"
-      }
-    },
     "frequency": 3,
-    "register": 6
+    "register": 6,
+    "inflectionsRoot": "pol-nco-1012-zioło(herb)"
   },
   {
     "lemma": "klatka",
@@ -52038,28 +50200,9 @@
         "drut kolczasty"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "drut",
-        "gen": "drutu",
-        "dat": "drutowi",
-        "acc": "drut",
-        "ins": "drutem",
-        "loc": "drucie",
-        "voc": "drucie"
-      },
-      "plural": {
-        "nom": "druty",
-        "gen": "drutów",
-        "dat": "drutom",
-        "acc": "druty",
-        "ins": "drutami",
-        "loc": "drutach",
-        "voc": "druty"
-      }
-    },
     "frequency": 5,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-1019-drut(wire)"
   },
   {
     "lemma": "pomnik",
@@ -52328,28 +50471,9 @@
         "gnieździć"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "gniazdo",
-        "gen": "gniazda",
-        "dat": "gniazdu",
-        "acc": "gniazdo",
-        "ins": "gniazdem",
-        "loc": "gnieździe",
-        "voc": "gniazdo"
-      },
-      "plural": {
-        "nom": "gniazda",
-        "gen": "gniazd",
-        "dat": "gniazdom",
-        "acc": "gniazda",
-        "ins": "gniazdami",
-        "loc": "gniazdach",
-        "voc": "gniazda"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-1025-gniazdo(nest)"
   },
   {
     "lemma": "rysunek",
@@ -53025,28 +51149,9 @@
       ]
     },
     "gender": "n",
-    "inflections": {
-      "singular": {
-        "nom": "doświadczenie",
-        "gen": "doświadczenia",
-        "dat": "doświadczeniu",
-        "acc": "doświadczenie",
-        "ins": "doświadczeniem",
-        "loc": "doświadczeniu",
-        "voc": "doświadczenie"
-      },
-      "plural": {
-        "nom": "doświadczenia",
-        "gen": "doświadczeń",
-        "dat": "doświadczeniom",
-        "acc": "doświadczenia",
-        "ins": "doświadczeniami",
-        "loc": "doświadczeniach",
-        "voc": "doświadczenia"
-      }
-    },
     "frequency": 5,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-1040-doświadczenie(experience)"
   },
   {
     "lemma": "spotkanie",
@@ -53230,28 +51335,9 @@
       ]
     },
     "gender": "m3",
-    "inflections": {
-      "singular": {
-        "nom": "regał",
-        "gen": "regału",
-        "dat": "regałowi",
-        "acc": "regał",
-        "ins": "regałem",
-        "loc": "regale",
-        "voc": "regale"
-      },
-      "plural": {
-        "nom": "regały",
-        "gen": "regałów",
-        "dat": "regałom",
-        "acc": "regały",
-        "ins": "regałami",
-        "loc": "regałach",
-        "voc": "regały"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-1045-regał(shelf)"
   },
   {
     "lemma": "lęk",
@@ -53463,28 +51549,9 @@
       ]
     },
     "gender": "f",
-    "inflections": {
-      "singular": {
-        "nom": "kierownica",
-        "gen": "kierownicy",
-        "dat": "kierownicy",
-        "acc": "kierownicę",
-        "ins": "kierownicą",
-        "loc": "kierownicy",
-        "voc": "kierownico"
-      },
-      "plural": {
-        "nom": "kierownice",
-        "gen": "kierownic",
-        "dat": "kierownicom",
-        "acc": "kierownice",
-        "ins": "kierownicami",
-        "loc": "kierownicach",
-        "voc": "kierownice"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-1051-kierownica(steering wheel)"
   },
   {
     "lemma": "płyn",
@@ -54528,28 +52595,9 @@
         "do trzech razy sztuka"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "sztuka",
-        "gen": "sztuki",
-        "dat": "sztuce",
-        "acc": "sztukę",
-        "ins": "sztuką",
-        "loc": "sztuce",
-        "voc": "sztuko"
-      },
-      "plural": {
-        "nom": "sztuki",
-        "gen": "sztuk",
-        "dat": "sztukom",
-        "acc": "sztuki",
-        "ins": "sztukami",
-        "loc": "sztukach",
-        "voc": "sztuki"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0529-sztuka"
   },
   {
     "lemma": "ofiara",

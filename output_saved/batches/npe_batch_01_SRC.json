@@ -213,34 +213,9 @@
         ]
       }
     },
-    "inflections": {
-      "singular": {
-        "nom": "chłopak",
-        "gen": "chłopaka",
-        "dat": "chłopakowi",
-        "acc": "chłopaka",
-        "ins": "chłopakiem",
-        "loc": "chłopaku",
-        "voc": "chłopaku"
-      },
-      "plural": {
-        "nom": [
-          "chłopacy",
-          "chłopaki"
-        ],
-        "gen": "chłopaków",
-        "dat": "chłopakom",
-        "acc": "chłopaków",
-        "ins": "chłopakami",
-        "loc": "chłopakach",
-        "voc": [
-          "chłopacy",
-          "chłopaki"
-        ]
-      }
-    },
     "frequency": 1,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-npe-0003-chłopak(boy)"
   },
   {
     "lemma": "chłopiec",
@@ -402,28 +377,9 @@
         "chłopak"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "dziewczyna",
-        "gen": "dziewczyny",
-        "dat": "dziewczynie",
-        "acc": "dziewczynę",
-        "ins": "dziewczyną",
-        "loc": "dziewczynie",
-        "voc": "dziewczyno"
-      },
-      "plural": {
-        "nom": "dziewczyny",
-        "gen": "dziewczyn",
-        "dat": "dziewczynom",
-        "acc": "dziewczyny",
-        "ins": "dziewczynami",
-        "loc": "dziewczynach",
-        "voc": "dziewczyny"
-      }
-    },
     "frequency": 1,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-npe-0006-dziewczyna(girl)"
   },
   {
     "lemma": "nauczycielka",
@@ -1912,34 +1868,9 @@
         "śledzić losy bohaterów ― to follow the fate of a protagonist"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "bohater",
-        "gen": "bohatera",
-        "dat": "bohaterowi",
-        "acc": "bohatera",
-        "ins": "bohaterem",
-        "loc": "bohaterze",
-        "voc": "bohaterze"
-      },
-      "plural": {
-        "nom": [
-          "bohaterowie",
-          "bohaterzy"
-        ],
-        "gen": "bohaterów",
-        "dat": "bohaterom",
-        "acc": "bohaterów",
-        "ins": "bohaterami",
-        "loc": "bohaterach",
-        "voc": [
-          "bohaterowie",
-          "bohaterzy"
-        ]
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-npe-0033-bohater(hero)"
   },
   {
     "lemma": "polityk",
@@ -3084,28 +3015,9 @@
         "obczyzna"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "obcy",
-        "gen": "obcego",
-        "dat": "obcemu",
-        "acc": "obcego",
-        "ins": "obcym",
-        "loc": "obcym",
-        "voc": "obcy"
-      },
-      "plural": {
-        "nom": "obcy",
-        "gen": "obcych",
-        "dat": "obcym",
-        "acc": "obcych",
-        "ins": "obcymi",
-        "loc": "obcych",
-        "voc": "obcy"
-      }
-    },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-npe-0055-obcy(alien)"
   },
   {
     "lemma": "kierowca",
@@ -4219,28 +4131,9 @@
         "gościć"
       ]
     },
-    "inflections": {
-      "singular": {
-        "nom": "gość",
-        "gen": "gościa",
-        "dat": "gościowi",
-        "acc": "gościa",
-        "ins": "gościem",
-        "loc": "gościu",
-        "voc": "gościu"
-      },
-      "plural": {
-        "nom": "goście",
-        "gen": "gości",
-        "dat": "gościom",
-        "acc": "gości",
-        "ins": "gośćmi",
-        "loc": "gościach",
-        "voc": "goście"
-      }
-    },
     "frequency": 2,
-    "register": 6
+    "register": 6,
+    "inflectionsRoot": "pol-npe-0075-gość(guest)"
   },
   {
     "lemma": "wnuk",
@@ -4994,28 +4887,9 @@
         ]
       }
     },
-    "inflections": {
-      "singular": {
-        "nom": "właściciel",
-        "gen": "właściciela",
-        "dat": "właścicielowi",
-        "acc": "właściciela",
-        "ins": "właścicielem",
-        "loc": "właścicielu",
-        "voc": "właścicielu"
-      },
-      "plural": {
-        "nom": "właściciele",
-        "gen": "właścicieli",
-        "dat": "właścicielom",
-        "acc": "właścicieli",
-        "ins": "właścicielami",
-        "loc": "właścicielach",
-        "voc": "właściciele"
-      }
-    },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-npe-0090-właściciel(owner)"
   },
   {
     "lemma": "pisarz",
@@ -7170,28 +7044,9 @@
       ]
     },
     "gender": "m1",
-    "inflections": {
-      "singular": {
-        "nom": "pan",
-        "gen": "pana",
-        "dat": "panu",
-        "acc": "pana",
-        "ins": "panem",
-        "loc": "panu",
-        "voc": "panie"
-      },
-      "plural": {
-        "nom": "panowie",
-        "gen": "panów",
-        "dat": "panom",
-        "acc": "panów",
-        "ins": "panami",
-        "loc": "panach",
-        "voc": "panowie"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-npe-0133-pan(title)"
   },
   {
     "lemma": "pani",
@@ -7254,28 +7109,9 @@
       ]
     },
     "gender": "f",
-    "inflections": {
-      "singular": {
-        "nom": "pani",
-        "gen": "pani",
-        "dat": "pani",
-        "acc": "panią",
-        "ins": "panią",
-        "loc": "pani",
-        "voc": "pani"
-      },
-      "plural": {
-        "nom": "panie",
-        "gen": "pań",
-        "dat": "paniom",
-        "acc": "panie",
-        "ins": "paniami",
-        "loc": "paniach",
-        "voc": "panie"
-      }
-    },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "inflectionsRoot": "pol-npe-0135-pani(title)"
   },
   {
     "lemma": "panna",

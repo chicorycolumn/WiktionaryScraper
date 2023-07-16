@@ -10,8 +10,16 @@ if __name__ == '__main__':
     # # # # # #
     batch = "01"
     suffix = "SRC"
-    wordtype = "adj"
+    wordtype = "nco"
     # # # # # #
+
+    inflection_keys_ref = {
+        "adj": ["adverb", "simple", "comparative", "superlative"],
+        "nco": ["singular", "plural"],
+        "npe": ["singular", "plural"],
+    }
+
+    inflection_keys = inflection_keys_ref[wordtype]
 
     input_filename = f"{wordtype}_batch_{batch}_{suffix}"
     stem = "./../../output_saved/batches/"
@@ -27,7 +35,6 @@ if __name__ == '__main__':
 
     for lindex, lobj in enumerate(lobjs):
         reordered_inflections = {}
-        inflection_keys = ["adverb", "simple", "comparative", "superlative"]
 
         for k in lobj["inflections"]:
             if k not in inflection_keys:

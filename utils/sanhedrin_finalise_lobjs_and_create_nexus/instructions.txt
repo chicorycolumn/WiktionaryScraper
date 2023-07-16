@@ -93,6 +93,8 @@ supplemental stages otherwise the ID links between NEX and TGT/SRC will be broke
 
 
 
+You just want to run L) for SRC (Polish), it's a data saver to crunch down lobjs with identical inflections.
+
 L1) Run "S11_reorder_keys_of_lobjs.py" for the set of lobjs you will run "S12_connect_sibling_lobjs.py" for.
     - to standardise order of inflection keys to allow correct comparisons by S12 stage.
     Modifies "nou_batch_01_{tgt or src}.json"
