@@ -1,5 +1,23 @@
 [
   {
+    "lemma": "woman",
+    "id": "eng-npe-0016-woman",
+    "»trans": [
+      "pol-npe-0015-kobieta"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "lady",
+    "id": "eng-npe-0139-lady",
+    "»trans": [
+      "pol-npe-0015-kobieta"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
     "lemma": "brother",
     "id": "eng-npe-0001-brother",
     "»trans": [
@@ -47,43 +65,6 @@
     "frequency": 1
   },
   {
-    "lemma": "guy",
-    "id": "eng-npe-0006-guy",
-    "»trans": [
-      "pol-npe-0008-facet",
-      "pol-npe-0075-gość(guy)"
-    ],
-    "register": 6,
-    "frequency": 2
-  },
-  {
-    "lemma": "fellow",
-    "id": "eng-npe-0007-fellow",
-    "»trans": [
-      "pol-npe-0008-facet"
-    ],
-    "register": 0,
-    "frequency": 4
-  },
-  {
-    "lemma": "chap",
-    "id": "eng-npe-0008-chap",
-    "»trans": [
-      "pol-npe-0008-facet"
-    ],
-    "register": 0,
-    "frequency": 4
-  },
-  {
-    "lemma": "Miss",
-    "id": "eng-npe-0009-Miss(title)",
-    "»trans": [
-      "pol-npe-0009-panna"
-    ],
-    "register": 0,
-    "frequency": 2
-  },
-  {
     "lemma": "nephew",
     "id": "eng-npe-0010-nephew",
     "»trans": [
@@ -100,97 +81,6 @@
       "pol-npe-0011-student",
       "pol-npe-0070-studentka",
       "pol-npe-0088-uczeń"
-    ],
-    "register": 0,
-    "frequency": 2
-  },
-  {
-    "lemma": "homie",
-    "id": "eng-npe-0012-homie",
-    "»trans": [
-      "pol-npe-0013-ziom"
-    ],
-    "register": 6,
-    "frequency": 4
-  },
-  {
-    "lemma": "bro",
-    "id": "eng-npe-0013-bro",
-    "»trans": [
-      "pol-npe-0013-ziom"
-    ],
-    "register": 6,
-    "frequency": 4
-  },
-  {
-    "lemma": "dude",
-    "id": "eng-npe-0014-dude",
-    "»trans": [
-      "pol-npe-0013-ziom"
-    ],
-    "register": 6,
-    "frequency": 4
-  },
-  {
-    "lemma": "pilot",
-    "id": "eng-npe-0015-pilot",
-    "»trans": [
-      "pol-npe-0014-pilot(pilot)"
-    ],
-    "register": 0,
-    "frequency": 4
-  },
-  {
-    "lemma": "woman",
-    "id": "eng-npe-0016-woman",
-    "»trans": [
-      "pol-npe-0015-kobieta"
-    ],
-    "register": 0,
-    "frequency": 1
-  },
-  {
-    "lemma": "man",
-    "id": "eng-npe-0017-man",
-    "»trans": [
-      "pol-npe-0016-mężczyzna"
-    ],
-    "register": 0,
-    "frequency": 1
-  },
-  {
-    "lemma": "actress",
-    "id": "eng-npe-0018-actress",
-    "»trans": [
-      "pol-npe-0017-aktorka"
-    ],
-    "register": 0,
-    "frequency": 2
-  },
-  {
-    "lemma": "actor",
-    "id": "eng-npe-0019-actor",
-    "»trans": [
-      "pol-npe-0018-aktor"
-    ],
-    "register": 0,
-    "frequency": 2
-  },
-  {
-    "lemma": "sister",
-    "id": "eng-npe-0020-sister",
-    "»trans": [
-      "pol-npe-0019-siostra"
-    ],
-    "register": 0,
-    "frequency": 1
-  },
-  {
-    "lemma": "partner",
-    "id": "eng-npe-0021-partner",
-    "»trans": [
-      "pol-npe-0020-partner",
-      "pol-npe-0111-partnerka"
     ],
     "register": 0,
     "frequency": 2
@@ -272,25 +162,50 @@
     "frequency": 1
   },
   {
-    "lemma": "buddy",
-    "id": "eng-npe-0030-buddy",
+    "lemma": "man",
+    "id": "eng-npe-0017-man",
     "»trans": [
-      "pol-npe-0030-kolega",
-      "pol-npe-0115-kumpel",
-      "pol-npe-0121-koleżanka"
-    ],
-    "register": 6,
-    "frequency": 3
-  },
-  {
-    "lemma": "colleague",
-    "id": "eng-npe-0031-colleague",
-    "»trans": [
-      "pol-npe-0030-kolega",
-      "pol-npe-0121-koleżanka"
+      "pol-npe-0016-mężczyzna"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 1
+  },
+  {
+    "lemma": "actress",
+    "id": "eng-npe-0018-actress",
+    "»trans": [
+      "pol-npe-0017-aktorka"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "actor",
+    "id": "eng-npe-0019-actor",
+    "»trans": [
+      "pol-npe-0018-aktor"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "sister",
+    "id": "eng-npe-0020-sister",
+    "»trans": [
+      "pol-npe-0019-siostra"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "partner",
+    "id": "eng-npe-0021-partner",
+    "»trans": [
+      "pol-npe-0020-partner",
+      "pol-npe-0111-partnerka"
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "grandmother",
@@ -1272,15 +1187,6 @@
     "frequency": 2
   },
   {
-    "lemma": "lady",
-    "id": "eng-npe-0139-lady",
-    "»trans": [
-      "pol-npe-0015-kobieta"
-    ],
-    "register": 0,
-    "frequency": 1
-  },
-  {
     "lemma": "Miss",
     "id": "eng-npe-0140-Miss(address)",
     "»trans": [
@@ -1288,5 +1194,99 @@
     ],
     "register": 0,
     "frequency": 2
+  },
+  {
+    "lemma": "Miss",
+    "id": "eng-npe-0009-Miss(title)",
+    "»trans": [
+      "pol-npe-0009-panna"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "pilot",
+    "id": "eng-npe-0015-pilot",
+    "»trans": [
+      "pol-npe-0014-pilot(pilot)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "guy",
+    "id": "eng-npe-0006-guy",
+    "»trans": [
+      "pol-npe-0008-facet",
+      "pol-npe-0075-gość(guy)"
+    ],
+    "register": 6,
+    "frequency": 2
+  },
+  {
+    "lemma": "fellow",
+    "id": "eng-npe-0007-fellow",
+    "»trans": [
+      "pol-npe-0008-facet"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "chap",
+    "id": "eng-npe-0008-chap",
+    "»trans": [
+      "pol-npe-0008-facet"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "homie",
+    "id": "eng-npe-0012-homie",
+    "»trans": [
+      "pol-npe-0013-ziom"
+    ],
+    "register": 6,
+    "frequency": 4
+  },
+  {
+    "lemma": "bro",
+    "id": "eng-npe-0013-bro",
+    "»trans": [
+      "pol-npe-0013-ziom"
+    ],
+    "register": 6,
+    "frequency": 4
+  },
+  {
+    "lemma": "dude",
+    "id": "eng-npe-0014-dude",
+    "»trans": [
+      "pol-npe-0013-ziom"
+    ],
+    "register": 6,
+    "frequency": 4
+  },
+  {
+    "lemma": "buddy",
+    "id": "eng-npe-0030-buddy",
+    "»trans": [
+      "pol-npe-0030-kolega",
+      "pol-npe-0115-kumpel",
+      "pol-npe-0121-koleżanka"
+    ],
+    "register": 6,
+    "frequency": 3
+  },
+  {
+    "lemma": "colleague",
+    "id": "eng-npe-0031-colleague",
+    "»trans": [
+      "pol-npe-0030-kolega",
+      "pol-npe-0121-koleżanka"
+    ],
+    "register": 0,
+    "frequency": 3
   }
 ]
