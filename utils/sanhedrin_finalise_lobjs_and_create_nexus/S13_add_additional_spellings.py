@@ -9,40 +9,17 @@ from utils.universal import color as c, get_curried_save, load_data
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "npe"
+    wordtype = "nco"
     batch = "01"
     suffix = "TGT"
     # # # # # #
 
     additional_spelling_sets = {
-        "adj": [],
+        "adj": [
+        ],
         "npe": [
-            ["neighbour", "neighbor"],
         ],
         "nco": [
-            ["mathematics", "math", "maths"],
-            ["kilogram", "kilo"],
-            ["colour", "color"],
-            ["metre", "meter"],
-            ["axe", "ax"],
-            ["kilometre", "kilometer"],
-            ["photograph", "photo"],
-            ["litre", "liter"],
-            ["crossroad", "crossroads"],
-            ["bicycle", "bike"],
-            ["storey", "story"],
-            ["centre", "center"],
-            ["advertisement", "advert", "ad"],
-            ["fridge", "refrigerator"],
-            ["launderette", "laundrette"],
-            ["odour", "odor"],
-            ["sulphur", "sulfur"],
-            ["theatre", "theater"],
-            ["mould", "mold"],
-            ["doughnut", "donut"],
-            ["neighbourhood", "neighborhood"],
-            ["behaviour", "behavior"],
-            ["laboratory", "lab"],
         ],
     }
 
@@ -57,7 +34,7 @@ if __name__ == '__main__':
 
     lobjs = load_data(input_path)
 
-    for spelling_set in additional_spelling_sets:
+    for spelling_set in additional_spelling_sets[wordtype]:
         done = False
         for lobj in lobjs:
             if lobj["lemma"] == spelling_set[0]:
@@ -66,6 +43,8 @@ if __name__ == '__main__':
                 else:
                     additional_spellings = []
                 additional_spellings.extend(spelling_set[1:])
+                lobj["additionalSpellings"] = additional_spellings
+                print(lobj["id"], c.green("added additionalSpellings"), additional_spellings)
                 done = True
         if not done:
             print(c.red("No lobj found for spelling set:"), spelling_set[0])

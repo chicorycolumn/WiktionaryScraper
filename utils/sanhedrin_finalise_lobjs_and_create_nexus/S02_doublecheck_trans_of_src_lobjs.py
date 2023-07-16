@@ -64,7 +64,7 @@ if __name__ == '__main__':
                 additional_spellings.append(tra[1:])
 
         if len(additional_spellings):
-            print(c.green("Added additionalSpellings"), additional_spellings)
+            print(lob["id"], c.green("added additionalSpellings"), additional_spellings)
             lob["additionalSpellings"] = additional_spellings
             lob["translations"][target_lang] = [t for t in lob["translations"][target_lang] if t[0] != "+"]
 
