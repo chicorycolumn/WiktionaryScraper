@@ -451,7 +451,7 @@ def get_signalwords(lobjs):
                     indexes_of_lobjs_to_merge.append(num)
                     num += 1
         else:
-            indexes_of_lobjs_to_merge = [int(char) for char in user_input.split(" ")[1:]]
+            indexes_of_lobjs_to_merge = [int(char) for char in user_input[1:].split("")]
             failed_index_validation = False
             if len(indexes_of_lobjs_to_merge) < 2:
                 failed_index_validation = True
@@ -520,6 +520,8 @@ def get_signalwords(lobjs):
         c.print_red("Invalid signalwords")
         time.sleep(0.8)
         return get_signalwords(lobjs)
+
+    signalwords = [sw.replace("SPACE", " ") for sw in signalwords]
 
     return signalwords
 
