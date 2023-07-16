@@ -21,7 +21,7 @@ B)  Run "S02_doublecheck_trans_of_src_lobjs.py"
 
 
 C)  Now you manually go through the generated file and search for flags. Resolve them.
-    - 🚩  A flag you added in step 2 with your own notes.
+    - 🚩  A flag you added in step B) with your own notes.
     - 🏁  Add shorthand tags and topics to this duplicated lobj.
     - ⛳  Add signal word eg "pol-nco-005-nail(bodypart)" vs "pol-nco-006-nail(metal)".
     You are modifying "nou_batch_01_SRC.json"
@@ -29,7 +29,7 @@ C)  Now you manually go through the generated file and search for flags. Resolve
 
 
 D1) Run "S03_expand_tags.py"
-    - to expand any shorthand tags you have added to "nou_batch_01_SRC.json" in step 3
+    - to expand any shorthand tags you have added to "nou_batch_01_SRC.json" in step C)
     Modifies "nou_batch_01_SRC.json"
 
 D2) Regex search for "" and "[qwertyuiopasdghjklzxcvb ]" in newly created SRC file.
@@ -38,7 +38,7 @@ D2) Regex search for "" and "[qwertyuiopasdghjklzxcvb ]" in newly created SRC fi
 
 
 E)  Run "S04_renumber_lobjs.py" with "SRC" argument.
-    - to standardise numbering after lobj duplication in step 2
+    - to standardise numbering after lobj duplication in step B)
     Modifies "nou_batch_01_SRC.json"
 
 
@@ -57,7 +57,7 @@ G)  Run "S06_distinguish_sibling_tgt_lobjs.py"
 
 
 H)  Run "S04_renumber_lobjs.py" with "TGT" argument
-    - to standardise numbering after merging and deleting in step 7
+    - to standardise numbering after merging and deleting in step G)
     Modifies "nou_batch_01_TGT.json"
 
 
@@ -86,7 +86,7 @@ K2) If you have renumbered the SRC lobjs at any point since creating the TGT lob
 
 
 L1) Run "S10_create_nexus.py".
-    - to connect Source and Target lobjs using the translations data from steps 2-8.
+    - to connect Source and Target lobjs using the translations data from previous steps.
     Creates "nou_batch_01_NEX.json"
 
 L2) If you have added or removed lobjs since step L1), run the supplemental stages

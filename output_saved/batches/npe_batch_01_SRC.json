@@ -3,7 +3,6 @@
     "lemma": "brat",
     "id": "pol-npe-0001-brat",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -77,13 +76,14 @@
         "loc": "braciach",
         "voc": "bracia"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "chłopak",
     "id": "pol-npe-0002-chłopak(boy)",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person"
@@ -129,13 +129,14 @@
           "chłopaki"
         ]
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "chłopak",
     "id": "pol-npe-0003-chłopak(boyfriend)",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -183,13 +184,14 @@
           "chłopaki"
         ]
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "chłopiec",
     "id": "pol-npe-0004-chłopiec(dimi)",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person"
@@ -255,13 +257,14 @@
         "loc": "chłopcach",
         "voc": "chłopcy"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "nauczycielka",
     "id": "pol-npe-0005-nauczycielka(femi)",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -304,13 +307,14 @@
         "loc": "nauczycielkach",
         "voc": "nauczycielki"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "nauczyciel",
     "id": "pol-npe-0006-nauczyciel(masc)",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -357,13 +361,14 @@
         "loc": "nauczycielach",
         "voc": "nauczyciele"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "syn",
     "id": "pol-npe-0007-syn",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -413,13 +418,14 @@
         "loc": "synach",
         "voc": "synowie"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "facet",
     "id": "pol-npe-0008-facet",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person"
@@ -464,13 +470,14 @@
         "loc": "facetach",
         "voc": "faceci"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "panna",
     "id": "pol-npe-0009-panna",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -520,13 +527,14 @@
         "loc": "pannach",
         "voc": "panny"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "siostrzeniec",
     "id": "pol-npe-0010-siostrzeniec",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -563,13 +571,14 @@
         "loc": "siostrzeńcach",
         "voc": "siostrzeńcy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "student",
     "id": "pol-npe-0011-student",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -617,13 +626,14 @@
         "loc": "studentach",
         "voc": "studenci"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "bratanek",
     "id": "pol-npe-0012-bratanek",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -669,15 +679,14 @@
           "bratanki"
         ]
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "ziom",
     "id": "pol-npe-0013-ziom",
-    "tags": [
-      "FREQ4",
-      "slang"
-    ],
+    "tags": [],
     "topics": [],
     "translations": {
       "ENG": [
@@ -714,13 +723,14 @@
         "loc": "ziomach",
         "voc": "ziomy"
       }
-    }
+    },
+    "frequency": 4,
+    "register": 6
   },
   {
     "lemma": "pilot",
     "id": "pol-npe-0014-pilot(pilot)",
     "tags": [
-      "FREQ4",
       "concrete",
       "living",
       "person",
@@ -760,13 +770,14 @@
         "loc": "pilotach",
         "voc": "piloci"
       }
-    }
+    },
+    "frequency": 4,
+    "register": 0
   },
   {
     "lemma": "kobieta",
     "id": "pol-npe-0015-kobieta",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person"
@@ -813,13 +824,14 @@
         "loc": "kobietach",
         "voc": "kobiety"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "mężczyzna",
     "id": "pol-npe-0016-mężczyzna",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person"
@@ -857,13 +869,14 @@
         "loc": "mężczyznach",
         "voc": "mężczyźni"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "aktorka",
     "id": "pol-npe-0017-aktorka",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -911,13 +924,14 @@
         "loc": "aktorkach",
         "voc": "aktorki"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "aktor",
     "id": "pol-npe-0018-aktor",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -977,13 +991,14 @@
         "loc": "aktorach",
         "voc": "aktorzy"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "siostra",
     "id": "pol-npe-0019-siostra",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -1030,13 +1045,14 @@
         "loc": "siostrach",
         "voc": "siostry"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "partner",
     "id": "pol-npe-0020-partner",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person"
@@ -1082,13 +1098,14 @@
         "loc": "partnerach",
         "voc": "partnerzy"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "matka",
     "id": "pol-npe-0021-matka",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -1133,13 +1150,14 @@
         "loc": "matkach",
         "voc": "matki"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "dziewczyna",
     "id": "pol-npe-0022-dziewczyna(girl)",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person"
@@ -1186,13 +1204,14 @@
         "loc": "dziewczynach",
         "voc": "dziewczyny"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "dziewczyna",
     "id": "pol-npe-0023-dziewczyna(girlfriend)",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -1241,13 +1260,14 @@
         "loc": "dziewczynach",
         "voc": "dziewczyny"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "siostrzenica",
     "id": "pol-npe-0024-siostrzenica",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -1281,13 +1301,14 @@
         "loc": "siostrzenicach",
         "voc": "siostrzenice"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "bratanica",
     "id": "pol-npe-0025-bratanica",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -1321,13 +1342,14 @@
         "loc": "bratanicach",
         "voc": "bratanice"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "mąż",
     "id": "pol-npe-0026-mąż",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -1374,13 +1396,14 @@
         "loc": "mężach",
         "voc": "mężowie"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "córka",
     "id": "pol-npe-0027-córka",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -1424,13 +1447,14 @@
         "loc": "córkach",
         "voc": "córki"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "przyjaciel",
     "id": "pol-npe-0028-przyjaciel",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -1477,13 +1501,14 @@
         "loc": "przyjaciołach",
         "voc": "przyjaciele"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "żona",
     "id": "pol-npe-0029-żona",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -1535,13 +1560,14 @@
         "loc": "żonach",
         "voc": "żony"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "kolega",
     "id": "pol-npe-0030-kolega",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -1587,13 +1613,14 @@
         "loc": "kolegach",
         "voc": "koledzy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "babcia",
     "id": "pol-npe-0031-babcia",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -1650,13 +1677,14 @@
         "loc": "babciach",
         "voc": "babcie"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "król",
     "id": "pol-npe-0032-król",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -1720,13 +1748,14 @@
         "loc": "królach",
         "voc": "królowie"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "lider",
     "id": "pol-npe-0033-lider",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -1772,13 +1801,14 @@
         "loc": "liderach",
         "voc": "liderzy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "człowiek",
     "id": "pol-npe-0034-człowiek",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person"
@@ -1851,13 +1881,14 @@
         "loc": "ludziach",
         "voc": "ludzie"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "turysta",
     "id": "pol-npe-0035-turysta",
     "tags": [
-      "FREQ4",
       "concrete",
       "living",
       "person"
@@ -1901,13 +1932,14 @@
         "loc": "turystach",
         "voc": "turyści"
       }
-    }
+    },
+    "frequency": 4,
+    "register": 0
   },
   {
     "lemma": "ojciec",
     "id": "pol-npe-0036-ojciec",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -1967,13 +1999,14 @@
         "loc": "ojcach",
         "voc": "ojcowie"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "bohater",
     "id": "pol-npe-0037-bohater(hero)",
     "tags": [
-      "FREQ4",
       "concrete",
       "living",
       "person",
@@ -2031,13 +2064,14 @@
           "bohaterzy"
         ]
       }
-    }
+    },
+    "frequency": 4,
+    "register": 0
   },
   {
     "lemma": "bohater",
     "id": "pol-npe-0038-bohater(protagonist)",
     "tags": [
-      "FREQ4",
       "concrete",
       "living",
       "person"
@@ -2132,13 +2166,14 @@
           "bohaterzy"
         ]
       }
-    }
+    },
+    "frequency": 4,
+    "register": 0
   },
   {
     "lemma": "polityk",
     "id": "pol-npe-0039-polityk",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -2181,13 +2216,14 @@
         "loc": "politykach",
         "voc": "politycy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "wuj",
     "id": "pol-npe-0040-wuj",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -2247,13 +2283,14 @@
         "loc": "wujach",
         "voc": "wujowie"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "chirurg",
     "id": "pol-npe-0041-chirurg",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -2294,13 +2331,14 @@
         "loc": "chirurgach",
         "voc": "chirurdzy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "sąsiad",
     "id": "pol-npe-0042-sąsiad",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -2341,13 +2379,14 @@
         "loc": "sąsiadach",
         "voc": "sąsiedzi"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "wujek",
     "id": "pol-npe-0043-wujek",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -2392,13 +2431,14 @@
         "loc": "wujkach",
         "voc": "wujkowie"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "tłumacz",
     "id": "pol-npe-0044-tłumacz",
     "tags": [
-      "FREQ4",
       "concrete",
       "living",
       "person",
@@ -2447,13 +2487,14 @@
         "loc": "tłumaczach",
         "voc": "tłumacze"
       }
-    }
+    },
+    "frequency": 4,
+    "register": 0
   },
   {
     "lemma": "kierownik",
     "id": "pol-npe-0045-kierownik",
     "tags": [
-      "FREQ4",
       "concrete",
       "living",
       "person",
@@ -2500,13 +2541,14 @@
         "loc": "kierownikach",
         "voc": "kierownicy"
       }
-    }
+    },
+    "frequency": 4,
+    "register": 0
   },
   {
     "lemma": "dziadek",
     "id": "pol-npe-0046-dziadek",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -2554,13 +2596,14 @@
         "loc": "dziadkach",
         "voc": "dziadkowie"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "rycerz",
     "id": "pol-npe-0047-rycerz",
     "tags": [
-      "FREQ4",
       "concrete",
       "living",
       "person",
@@ -2610,13 +2653,14 @@
         "loc": "rycerzach",
         "voc": "rycerze"
       }
-    }
+    },
+    "frequency": 4,
+    "register": 0
   },
   {
     "lemma": "osoba",
     "id": "pol-npe-0048-osoba",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -2650,13 +2694,14 @@
         "loc": "osobach",
         "voc": "osoby"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "kuzyn",
     "id": "pol-npe-0049-kuzyn",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -2697,13 +2742,14 @@
         "loc": "kuzynach",
         "voc": "kuzyni"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "złodziej",
     "id": "pol-npe-0050-złodziej",
     "tags": [
-      "FREQ3",
       "concrete",
       "crime",
       "living",
@@ -2762,13 +2808,14 @@
         "loc": "złodziejach",
         "voc": "złodzieje"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "kelner",
     "id": "pol-npe-0051-kelner",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -2814,13 +2861,14 @@
         "loc": "kelnerach",
         "voc": "kelnerzy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "inżynier",
     "id": "pol-npe-0052-inżynier",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -2873,13 +2921,14 @@
           "inżynierzy"
         ]
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "papież",
     "id": "pol-npe-0053-papież",
     "tags": [
-      "FREQ4",
       "concrete",
       "living",
       "person",
@@ -2935,13 +2984,14 @@
         "loc": "papieżach",
         "voc": "papieże"
       }
-    }
+    },
+    "frequency": 4,
+    "register": 0
   },
   {
     "lemma": "policja",
     "id": "pol-npe-0054-policja",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -2990,14 +3040,14 @@
         "loc": "policjach",
         "voc": "policje"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "obcy",
     "id": "pol-npe-0055-obcy(alien)",
-    "tags": [
-      "FREQ4"
-    ],
+    "tags": [],
     "topics": [
       "astronomy"
     ],
@@ -3036,13 +3086,14 @@
         "loc": "obcych",
         "voc": "obcy"
       }
-    }
+    },
+    "frequency": 4,
+    "register": 0
   },
   {
     "lemma": "obcy",
     "id": "pol-npe-0056-obcy(stranger)",
     "tags": [
-      "FREQ4",
       "concrete",
       "living",
       "person"
@@ -3083,13 +3134,14 @@
         "loc": "obcych",
         "voc": "obcy"
       }
-    }
+    },
+    "frequency": 4,
+    "register": 0
   },
   {
     "lemma": "kierowca",
     "id": "pol-npe-0057-kierowca",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -3134,13 +3186,14 @@
         "loc": "kierowcach",
         "voc": "kierowcy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "pułkownik",
     "id": "pol-npe-0058-pułkownik",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -3175,13 +3228,14 @@
         "loc": "pułkownikach",
         "voc": "pułkownicy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "przestępca",
     "id": "pol-npe-0059-przestępca",
     "tags": [
-      "FREQ3",
       "crime"
     ],
     "topics": [
@@ -3221,13 +3275,14 @@
         "loc": "przestępcach",
         "voc": "przestępcy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "teść",
     "id": "pol-npe-0060-teść",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -3272,13 +3327,14 @@
         "loc": "teściach",
         "voc": "teściowie"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "ciocia",
     "id": "pol-npe-0061-ciocia",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -3318,14 +3374,14 @@
         "loc": "ciociach",
         "voc": "ciocie"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "bóg",
     "id": "pol-npe-0062-bóg",
-    "tags": [
-      "FREQ2"
-    ],
+    "tags": [],
     "topics": [
       "philosophy and ethics",
       "religion"
@@ -3477,13 +3533,14 @@
         "loc": "bogach",
         "voc": "bogowie"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "strażak",
     "id": "pol-npe-0063-strażak",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -3526,13 +3583,14 @@
         "loc": "strażakach",
         "voc": "strażacy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "adwokat",
     "id": "pol-npe-0064-adwokat",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -3593,13 +3651,14 @@
         "loc": "adwokatach",
         "voc": "adwokaci"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "pracownik",
     "id": "pol-npe-0065-pracownik",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -3643,13 +3702,14 @@
         "loc": "pracownikach",
         "voc": "pracownicy"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "narzeczony",
     "id": "pol-npe-0066-narzeczony",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -3694,13 +3754,14 @@
         "loc": "narzeczonych",
         "voc": "narzeczeni"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "narzeczona",
     "id": "pol-npe-0067-narzeczona",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -3745,13 +3806,14 @@
         "loc": "narzeczonych",
         "voc": "narzeczone"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "ogrodnik",
     "id": "pol-npe-0068-ogrodnik",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -3799,13 +3861,14 @@
         "loc": "ogrodnikach",
         "voc": "ogrodnicy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "nastolatek",
     "id": "pol-npe-0069-nastolatek",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person"
@@ -3851,13 +3914,14 @@
         "loc": "nastolatkach",
         "voc": "nastolatki"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "studentka",
     "id": "pol-npe-0070-studentka",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person"
@@ -3901,13 +3965,14 @@
         "loc": "studentkach",
         "voc": "studentki"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "optyk",
     "id": "pol-npe-0071-optyk",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -3947,13 +4012,14 @@
         "loc": "optykach",
         "voc": "optycy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "modelka",
     "id": "pol-npe-0072-modelka",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -3995,13 +4061,14 @@
         "loc": "modelkach",
         "voc": "modelki"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "książę",
     "id": "pol-npe-0073-książę",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -4044,13 +4111,14 @@
         "loc": "książętach",
         "voc": "książęta"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "gość",
     "id": "pol-npe-0074-gość(guest)",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -4095,17 +4163,17 @@
         "loc": "gościach",
         "voc": "goście"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "gość",
     "id": "pol-npe-0075-gość(guy)",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
-      "person",
-      "slang"
+      "person"
     ],
     "topics": [
       "people"
@@ -4145,13 +4213,14 @@
         "loc": "gościach",
         "voc": "goście"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 6
   },
   {
     "lemma": "wnuk",
     "id": "pol-npe-0076-wnuk",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -4202,13 +4271,14 @@
           "wnuki"
         ]
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "kucharz",
     "id": "pol-npe-0077-kucharz",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -4254,13 +4324,14 @@
         "loc": "kucharzach",
         "voc": "kucharze"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "przewodnik",
     "id": "pol-npe-0078-przewodnik(guide)",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -4303,13 +4374,14 @@
         "loc": "przewodnikach",
         "voc": "przewodnicy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "akuszerka",
     "id": "pol-npe-0079-akuszerka",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -4360,13 +4432,14 @@
         "loc": "akuszerkach",
         "voc": "akuszerki"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "kapłan",
     "id": "pol-npe-0080-kapłan",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -4420,13 +4493,14 @@
         "loc": "kapłanach",
         "voc": "kapłani"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "wnuczka",
     "id": "pol-npe-0081-wnuczka",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -4470,13 +4544,14 @@
         "loc": "wnuczkach",
         "voc": "wnuczki"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "wróg",
     "id": "pol-npe-0082-wróg",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person"
@@ -4520,13 +4595,14 @@
         "loc": "wrogach",
         "voc": "wrogowie"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "pasażer",
     "id": "pol-npe-0083-pasażer",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person"
@@ -4570,13 +4646,14 @@
         "loc": "pasażerach",
         "voc": "pasażerowie"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "żołnierz",
     "id": "pol-npe-0084-żołnierz",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -4632,13 +4709,14 @@
         "loc": "żołnierzach",
         "voc": "żołnierze"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "dentysta",
     "id": "pol-npe-0085-dentysta",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -4679,13 +4757,14 @@
         "loc": "dentystach",
         "voc": "dentyści"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "rodzic",
     "id": "pol-npe-0086-rodzic",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -4719,15 +4798,14 @@
         "loc": "rodzicach",
         "voc": "rodzice"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "dupek",
     "id": "pol-npe-0087-dupek",
-    "tags": [
-      "FREQ3",
-      "insult"
-    ],
+    "tags": [],
     "topics": [],
     "translations": {
       "ENG": [
@@ -4755,13 +4833,14 @@
         "loc": "dupkach",
         "voc": "dupki"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 7
   },
   {
     "lemma": "uczeń",
     "id": "pol-npe-0088-uczeń",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -4813,13 +4892,14 @@
         "loc": "uczniach",
         "voc": "uczniowie"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "właściciel",
     "id": "pol-npe-0089-właściciel(owner)",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person"
@@ -4860,13 +4940,14 @@
         "loc": "właścicielach",
         "voc": "właściciele"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "właściciel",
     "id": "pol-npe-0090-właściciel(landlord)",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person"
@@ -4907,13 +4988,14 @@
         "loc": "właścicielach",
         "voc": "właściciele"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "pisarz",
     "id": "pol-npe-0091-pisarz",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -4956,13 +5038,14 @@
         "loc": "pisarzach",
         "voc": "pisarze"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "lekarz",
     "id": "pol-npe-0092-lekarz",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -5015,13 +5098,14 @@
         "loc": "lekarzach",
         "voc": "lekarze"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "lekarka",
     "id": "pol-npe-0093-lekarka",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -5069,13 +5153,14 @@
         "loc": "lekarkach",
         "voc": "lekarki"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "sędzia",
     "id": "pol-npe-0094-sędzia(judge)",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -5125,13 +5210,14 @@
         "loc": "sędziach",
         "voc": "sędziowie"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "turystka",
     "id": "pol-npe-0095-turystka",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person"
@@ -5172,13 +5258,14 @@
         "loc": "turystkach",
         "voc": "turystki"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "dziennikarz",
     "id": "pol-npe-0096-dziennikarz",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -5232,13 +5319,14 @@
         "loc": "dziennikarzach",
         "voc": "dziennikarze"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "celnik",
     "id": "pol-npe-0097-celnik",
     "tags": [
-      "FREQ4",
       "concrete",
       "living",
       "person",
@@ -5281,13 +5369,14 @@
         "loc": "celnikach",
         "voc": "celnicy"
       }
-    }
+    },
+    "frequency": 4,
+    "register": 0
   },
   {
     "lemma": "klient",
     "id": "pol-npe-0098-klient",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "money",
@@ -5336,13 +5425,14 @@
         "loc": "klientach",
         "voc": "klienci"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "fryzjer",
     "id": "pol-npe-0099-fryzjer",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -5391,13 +5481,14 @@
         "loc": "fryzjerach",
         "voc": "fryzjerzy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "śpiewak",
     "id": "pol-npe-0100-śpiewak",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -5443,13 +5534,14 @@
         "loc": "śpiewakach",
         "voc": "śpiewacy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "morderca",
     "id": "pol-npe-0101-morderca",
     "tags": [
-      "FREQ4",
       "concrete",
       "living",
       "person"
@@ -5495,13 +5587,14 @@
         "loc": "mordercach",
         "voc": "mordercy"
       }
-    }
+    },
+    "frequency": 4,
+    "register": 0
   },
   {
     "lemma": "policjant",
     "id": "pol-npe-0102-policjant",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -5545,13 +5638,14 @@
         "loc": "policjantach",
         "voc": "policjanci"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "pielęgniarka",
     "id": "pol-npe-0103-pielęgniarka",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -5587,13 +5681,14 @@
         "loc": "pielęgniarkach",
         "voc": "pielęgniarki"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "pielęgniarz",
     "id": "pol-npe-0104-pielęgniarz",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -5636,13 +5731,14 @@
         "loc": "pielęgniarzach",
         "voc": "pielęgniarze"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "obywatel",
     "id": "pol-npe-0105-obywatel",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person"
@@ -5686,13 +5782,14 @@
         "loc": "obywatelach",
         "voc": "obywatele"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "strażnik",
     "id": "pol-npe-0106-strażnik",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -5734,13 +5831,14 @@
         "loc": "strażnikach",
         "voc": "strażnicy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "naukowiec",
     "id": "pol-npe-0107-naukowiec",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -5779,13 +5877,14 @@
         "loc": "naukowcach",
         "voc": "naukowcy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "pacjent",
     "id": "pol-npe-0108-pacjent",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person"
@@ -5819,13 +5918,14 @@
         "loc": "pacjentach",
         "voc": "pacjenci"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "krewna",
     "id": "pol-npe-0109-krewna",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -5866,13 +5966,14 @@
         "loc": "krewnych",
         "voc": "krewne"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "krewny",
     "id": "pol-npe-0110-krewny",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -5913,13 +6014,14 @@
         "loc": "krewnych",
         "voc": "krewni"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "partnerka",
     "id": "pol-npe-0111-partnerka",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person"
@@ -5960,13 +6062,14 @@
         "loc": "partnerkach",
         "voc": "partnerki"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "rolnik",
     "id": "pol-npe-0112-rolnik",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -6016,13 +6119,14 @@
         "loc": "rolnikach",
         "voc": "rolnicy"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "ofiara",
     "id": "pol-npe-0113-ofiara(victim)",
     "tags": [
-      "FREQ4",
       "concrete",
       "living",
       "person"
@@ -6065,13 +6169,14 @@
         "loc": "ofiarach",
         "voc": "ofiary"
       }
-    }
+    },
+    "frequency": 4,
+    "register": 0
   },
   {
     "lemma": "detektyw",
     "id": "pol-npe-0114-detektyw",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -6115,18 +6220,18 @@
         "loc": "detektywach",
         "voc": "detektywi"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "kumpel",
     "id": "pol-npe-0115-kumpel",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
-      "relative",
-      "slang"
+      "relative"
     ],
     "topics": [
       "people"
@@ -6163,13 +6268,14 @@
         "loc": "kumplach",
         "voc": "kumple"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 6
   },
   {
     "lemma": "mistrz",
     "id": "pol-npe-0116-mistrz",
     "tags": [
-      "FREQ5",
       "concrete",
       "living",
       "person"
@@ -6222,13 +6328,14 @@
         "loc": "mistrzach",
         "voc": "mistrzowie"
       }
-    }
+    },
+    "frequency": 5,
+    "register": 0
   },
   {
     "lemma": "policjantka",
     "id": "pol-npe-0117-policjantka",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -6272,13 +6379,14 @@
         "loc": "policjantkach",
         "voc": "policjantki"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "wegetarianin",
     "id": "pol-npe-0118-wegetarianin",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person"
@@ -6330,13 +6438,14 @@
         "loc": "wegetarianach",
         "voc": "wegetarianie"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "sekretarz",
     "id": "pol-npe-0119-sekretarz",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -6378,13 +6487,14 @@
         "loc": "sekretarzach",
         "voc": "sekretarze"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "znajoma",
     "id": "pol-npe-0120-znajoma",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -6425,13 +6535,14 @@
         "loc": "znajomych",
         "voc": "znajome"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "koleżanka",
     "id": "pol-npe-0121-koleżanka",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -6477,13 +6588,14 @@
         "loc": "koleżankach",
         "voc": "koleżanki"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "artysta",
     "id": "pol-npe-0122-artysta",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -6547,13 +6659,14 @@
         "loc": "artystach",
         "voc": "artyści"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "artystka",
     "id": "pol-npe-0123-artystka",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -6600,13 +6713,14 @@
         "loc": "artystkach",
         "voc": "artystki"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "przyjaciółka",
     "id": "pol-npe-0124-przyjaciółka",
     "tags": [
-      "FREQ1",
       "concrete",
       "living",
       "person",
@@ -6647,13 +6761,14 @@
         "loc": "przyjaciółkach",
         "voc": "przyjaciółki"
       }
-    }
+    },
+    "frequency": 1,
+    "register": 0
   },
   {
     "lemma": "kryminalista",
     "id": "pol-npe-0125-kryminalista",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person"
@@ -6692,13 +6807,14 @@
         "loc": "kryminalistach",
         "voc": "kryminaliści"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "nastolatka",
     "id": "pol-npe-0126-nastolatka",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person"
@@ -6739,13 +6855,14 @@
         "loc": "nastolatkach",
         "voc": "nastolatki"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "prezydent",
     "id": "pol-npe-0127-prezydent",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -6788,13 +6905,14 @@
         "loc": "prezydentach",
         "voc": "prezydenci"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "więzień",
     "id": "pol-npe-0128-więzień",
     "tags": [
-      "FREQ4",
       "concrete",
       "living",
       "person"
@@ -6835,13 +6953,14 @@
         "loc": "więźniach",
         "voc": "więźniowie"
       }
-    }
+    },
+    "frequency": 4,
+    "register": 0
   },
   {
     "lemma": "kelnerka",
     "id": "pol-npe-0129-kelnerka",
     "tags": [
-      "FREQ2",
       "concrete",
       "living",
       "person",
@@ -6880,13 +6999,14 @@
         "loc": "kelnerkach",
         "voc": "kelnerki"
       }
-    }
+    },
+    "frequency": 2,
+    "register": 0
   },
   {
     "lemma": "sąsiadka",
     "id": "pol-npe-0130-sąsiadka",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "person",
@@ -6920,13 +7040,14 @@
         "loc": "sąsiadkach",
         "voc": "sąsiadki"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "miliarder",
     "id": "pol-npe-0131-miliarder",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "money",
@@ -6962,13 +7083,14 @@
         "loc": "miliarderach",
         "voc": "miliarderzy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "milioner",
     "id": "pol-npe-0132-milioner",
     "tags": [
-      "FREQ3",
       "concrete",
       "living",
       "money",
@@ -7004,7 +7126,9 @@
         "loc": "milionerach",
         "voc": "milionerzy"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "pieszy",
@@ -7044,7 +7168,9 @@
         "loc": "pieszych",
         "voc": "piesi"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   },
   {
     "lemma": "piesza",
@@ -7084,6 +7210,8 @@
         "loc": "pieszych",
         "voc": "piesze"
       }
-    }
+    },
+    "frequency": 3,
+    "register": 0
   }
 ]
