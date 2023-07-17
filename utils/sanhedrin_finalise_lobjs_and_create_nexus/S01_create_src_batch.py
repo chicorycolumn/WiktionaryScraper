@@ -9,7 +9,7 @@ from utils.universal import color as c, save, load_data
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "nou"
+    wordtype = "ver"
     batch = "01"
     input_filenames = ["01", "02", "03", "04", "05", "06", "07", "08", "09"]
     # # # # # #

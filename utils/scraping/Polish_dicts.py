@@ -307,6 +307,10 @@ shorthand_tag_refs = {
         "tags": ["title", "p"],
         "topics": ["people"],
     },
+    "E": {
+        "tags": ["address", "p"],
+        "topics": ["people"],
+    },
 
     ############### 5) Food
     "f": {

@@ -1,9 +1,9 @@
 SANHEDRIN STAGES
 
-After collecting several Source (probably Polish) lobjs files into one batch,
+After collecting several SOURCE (probably Polish) lobjs files into one batch,
 we now process them into final forms for adding to BE.
 
-This means creating the corresponding Target (probably English) lobjs,
+This means creating the corresponding TARGET (probably English) lobjs,
 and then creating the Nexus objects that connect them.
 
 
@@ -105,8 +105,14 @@ L2) Run "S12_connect_sibling_lobjs.py" for a set of lobjs.
 
 
 
-If you did not add additional spelling in step B):
+If you did not add additional spellings in step B), run this step, probably just for TGT (English):
 
 M)  Run "S13_add_additional_spellings.py"
     - to add American spellings to eng lobjs
     Modifies "nou_batch_01_{tgt or src}.json"
+
+
+
+N)  Do a final search in NEX, SRC, TGT files for * and þ
+    - to manually resolve these artefacts
+    Modifies "nou_batch_01_{tgt,src,nex}.json"
