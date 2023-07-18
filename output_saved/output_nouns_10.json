@@ -7967,6 +7967,100 @@
         }
     },
     {
+        "temp_id": "10.178a",
+        "lemma": "stosunek płciowy",
+        "gender": "m3",
+        "tags": [
+            "inanimate"
+        ],
+        "translations": {
+            "ENG": [
+                "relation relationship",
+                "proportion ratio",
+                "attitude",
+                "sexual intercourse"
+            ]
+        },
+        "id": null,
+        "extra": {
+            "synonyms": [
+                "stosunek",
+                "płciowy"
+            ],
+            "derivedTerms": [
+                "stosunkowo",
+                "stosunkowy"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "stosunek płciowy",
+                "gen": "stosunku płciowego",
+                "dat": "stosunkowi płciowemu",
+                "acc": "stosunek płciowego",
+                "ins": "stosunkiem płciowym",
+                "loc": "stosunku płciowym",
+                "voc": "stosunku płciowy"
+            },
+            "plural": {
+                "nom": "stosunki płciowe",
+                "gen": "stosunków płciowych",
+                "dat": "stosunkom płciowym",
+                "acc": "stosunki płciowe",
+                "ins": "stosunkami płciowymi",
+                "loc": "stosunkach płciowych",
+                "voc": "stosunki płciowe"
+            }
+        }
+    },
+      {
+        "temp_id": "10.178b",
+        "lemma": "stosunek seksualny",
+        "gender": "m3",
+        "tags": [
+            "inanimate"
+        ],
+        "translations": {
+            "ENG": [
+                "relation relationship",
+                "proportion ratio",
+                "attitude",
+                "sexual intercourse"
+            ]
+        },
+        "id": null,
+        "extra": {
+            "synonyms": [
+                "stosunek",
+                "seksualny"
+            ],
+            "derivedTerms": [
+                "stosunkowo",
+                "stosunkowy"
+            ]
+        },
+        "inflections": {
+            "singular": {
+                "nom": "stosunek seksualny",
+                "gen": "stosunku seksualnego",
+                "dat": "stosunkowi seksualnemu",
+                "acc": "stosunek seksualnego",
+                "ins": "stosunkiem seksualnym",
+                "loc": "stosunku seksualnym",
+                "voc": "stosunku seksualny"
+            },
+            "plural": {
+                "nom": "stosunki seksualne",
+                "gen": "stosunków seksualnych",
+                "dat": "stosunkom seksualnym",
+                "acc": "stosunki seksualne",
+                "ins": "stosunkami seksualnymi",
+                "loc": "stosunkach seksualnych",
+                "voc": "stosunki seksualne"
+            }
+        }
+    },
+    {
         "temp_id": "10.179",
         "lemma": "objaw",
         "gender": "m3",
