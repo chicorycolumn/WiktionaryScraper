@@ -173,7 +173,10 @@ def add_signalword_automatically(lobj_A, trans_for_lobj_A, trans_of_lobj_B):
     lobj_A["id"] += f"({signal_word})"
 
 
-def user_validate_translations(lobj, res, save_fxn, target_lang):
+def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang):
+    def restart():
+        return user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang)
+    
     def show_helptext():
         print("")
         c.print_teal("--------------------------------------------------------------------")
@@ -199,7 +202,7 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
         c.print_teal("$ [1,2] [1,2,3] [2,3]      : SPLIT these numbered translations into these new lobjs for this lemma.")
         print("--------------------------------------------------------------------")
         print("")
-        user_validate_translations(lobj, res, save_fxn, target_lang)
+        restart()
 
     def add_to_res(l):
         dupe = {}
@@ -214,7 +217,7 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
         time.sleep(0.8)
         res.append(dupe)
 
-    if int(lobj["id"].split("-")[2]) % 10 == 1:
+    if src_lobj_index % 10 == 1:
         save_fxn(res, True)
 
     show1(lobj, target_lang)
@@ -249,7 +252,7 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
             if tindex not in indexes_trans_to_delete:
                 trans_to_keep.append(tran)
         lobj["translations"][target_lang] = trans_to_keep
-        user_validate_translations(lobj, res, save_fxn, target_lang)
+        restart()
         return
 
     elif user_input[0] == "a" and " " in user_input:
@@ -257,7 +260,7 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
         new_trans = user_input.split(" ")[1:]
         new_trans = [tr.replace("SPACE", " ") for tr in new_trans]
         lobj["translations"][target_lang].extend(new_trans)
-        user_validate_translations(lobj, res, save_fxn, target_lang)
+        restart()
         return
 
     elif user_input[0] in ["s", "S", "$"]:
@@ -308,7 +311,7 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
                 return
             else:
                 print("🔄 RESTARTING...")
-                user_validate_translations(lobj, res, save_fxn, target_lang)
+                restart()
                 return
         else:
             if user_input == "S":
@@ -365,12 +368,12 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
                 return
 
             print("🔄 RESTARTING...")
-            user_validate_translations(lobj, res, save_fxn, target_lang)
+            restart()
             return
 
     elif user_input == "w":
         save_fxn(res, True)
-        user_validate_translations(lobj, res, save_fxn, target_lang)
+        restart()
         return
 
     elif user_input[0] == "f":
@@ -386,7 +389,7 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
         print("⬆️", c.blue(res[-1]["id"]), "will be FLAGGED")
         res[-1]["id"] += flag
         print("⬆️", c.green(res[-1]["id"]))
-        user_validate_translations(lobj, res, save_fxn, target_lang)
+        restart()
         return
 
     elif user_input == "xf":
@@ -396,7 +399,7 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
             print("❌", c.green(res[-1]["id"]))
         else:
             print(c.green(res[-1]["id"]), "DOESN'T HAVE ANY FLAGS")
-        user_validate_translations(lobj, res, save_fxn, target_lang)
+        restart()
         return
 
     show_helptext()
@@ -456,6 +459,9 @@ def add_signalwords(sibling_set):
 
 
 def get_signalwords(lobjs):
+    def restart():
+        return get_signalwords(lobjs)
+    
     if len(lobjs) < 2:
         print("NO LONGER SIBLINGS")
         for lobj in lobjs:
@@ -481,12 +487,12 @@ def get_signalwords(lobjs):
         c.print_teal('Or merge all given lobjs by giving no indexes "m".')
         c.print_teal('You can delete lobjs by giving "x" as the signalword.')
         c.print_teal("*  -  *  -  *  -  *  -  *  -  *  -  *  -  *")
-        return get_signalwords(lobjs)
+        return restart()
 
     if not user_input:
         c.print_red("Did not recognise input. Please type signalwords separated by a space.")
         time.sleep(0.8)
-        return get_signalwords(lobjs)
+        return restart()
 
     failed_character_check = False
     indexes_of_lobjs_to_merge = []
@@ -509,7 +515,7 @@ def get_signalwords(lobjs):
             if failed_index_validation:
                 print(c.red("Invalid indexes"), user_input, indexes_of_lobjs_to_merge)
                 time.sleep(0.8)
-                return get_signalwords(lobjs)
+                return restart()
     else:
         for char in user_input:
             if char not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 !":
@@ -518,7 +524,7 @@ def get_signalwords(lobjs):
     if failed_character_check:
         c.print_red("Invalid input")
         time.sleep(0.8)
-        return get_signalwords(lobjs)
+        return restart()
 
     if len(indexes_of_lobjs_to_merge):
         lobjs_to_merge = [lobjs[index_m] for index_m in indexes_of_lobjs_to_merge]
@@ -540,7 +546,7 @@ def get_signalwords(lobjs):
             print("")
             print("MERGED into", c.green(base_lobj["id"]), base_lobj["»trans"])
 
-        return get_signalwords(lobjs)
+        return restart()
 
     signalwords = user_input.strip().split(" ")
 
@@ -548,17 +554,17 @@ def get_signalwords(lobjs):
         if len(signalword) < 2 and signalword != "x":
             c.print_red("Signalwords must be more than one character each, separated by a space.")
             time.sleep(0.8)
-            return get_signalwords(lobjs)
+            return restart()
 
     if len(signalwords) != len(lobjs):
         c.print_red(f"Expected {len(lobjs)} signalwords but got {len(signalwords)}.")
         time.sleep(0.8)
-        return get_signalwords(lobjs)
+        return restart()
 
     if len(list(set(signalwords))) != len(signalwords) or lobjs[0]["lemma"] in signalwords:
         c.print_red(f"Signalwords must be unique.")
         time.sleep(0.8)
-        return get_signalwords(lobjs)
+        return restart()
 
     failed_signalword_check = False
     for signalword in signalwords:
@@ -567,7 +573,7 @@ def get_signalwords(lobjs):
     if failed_signalword_check:
         c.print_red("Invalid signalwords")
         time.sleep(0.8)
-        return get_signalwords(lobjs)
+        return restart()
 
     signalwords = [sw.replace("SPACE", " ") for sw in signalwords]
 
@@ -614,6 +620,8 @@ def get_freq(lobj, prompt = None, allow_null: bool = False):
 
 
 def get_new_freqs(holder):
+    def restart():
+        return get_new_freqs(holder)
 
     changes = []
 
@@ -636,7 +644,7 @@ def get_new_freqs(holder):
             "will set lobj at index 13 to be freq 1, lobj at index 14 to be freq 5, and lobj at index 20 to be freq 1.")
         c.print_teal("-  *  -  *  -  *  -  *  -  *  -  *  -")
         print("")
-        return get_new_freqs(holder)
+        return restart()
 
     user_input_split = user_input.strip().split(" ")
 
@@ -654,24 +662,24 @@ def get_new_freqs(holder):
     else:
         if not len(user_input_split):
             c.print_red("Invalid input A")
-            return get_new_freqs(holder)
+            return restart()
         for new_freq_instructions in user_input_split:
             new_freq_instructions_split = new_freq_instructions.split("-")
             if len(new_freq_instructions_split) != 2:
                 print(c.red("Invalid input B"), new_freq_instructions)
-                return get_new_freqs(holder)
+                return restart()
             else:
                 for char in new_freq_instructions_split[0]:
                     if char not in "1234567890":
                         print(c.red("Invalid input C"), new_freq_instructions)
-                        return get_new_freqs(holder)
+                        return restart()
                 if int(new_freq_instructions_split[0]) not in indexes:
                     print(c.red("Invalid input D"), new_freq_instructions)
-                    return get_new_freqs(holder)
+                    return restart()
                 for char in new_freq_instructions_split[1]:
                     if char not in "12345":
                         print(c.red("Invalid input E"), new_freq_instructions)
-                        return get_new_freqs(holder)
+                        return restart()
         for new_freq_instructions in user_input_split:
             new_freq_instructions_split = new_freq_instructions.split("-")
             index_to_modify = int(new_freq_instructions_split[0])
