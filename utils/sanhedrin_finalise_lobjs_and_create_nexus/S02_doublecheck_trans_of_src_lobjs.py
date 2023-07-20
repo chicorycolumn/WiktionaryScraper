@@ -9,7 +9,7 @@ from utils.universal import color as c, get_curried_save, load_tempsave_if_exist
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "nco"
+    wordtype = "ver"
     batch = "01"
     target_lang = "ENG"
     only_run_for_this_many_lobjs = 0  # Only set to integer for testing purposes.
