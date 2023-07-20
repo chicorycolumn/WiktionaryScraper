@@ -217,7 +217,7 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang)
         time.sleep(0.8)
         res.append(dupe)
 
-    if src_lobj_index % 10 == 1:
+    if src_lobj_index % 10 == 0:
         save_fxn(res, True)
 
     show1(lobj, target_lang)
