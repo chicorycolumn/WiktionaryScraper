@@ -192,7 +192,7 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang)
         print("")
         c.print_teal('a tin  : ADD translations eg "tin".')
         c.print_teal('a hue +color  : ADD translations eg "hue" and add additionalSpelling eg "color".')
-        c.print_teal('a tableSPACEtennis  : ADD translations eg "table tennis".')
+        c.print_teal('a table\stennis  : ADD translations eg "table tennis".')
         c.print_teal("d24    : DELETE translations at eg indexes 2 and 4.")
         c.print_teal("s24    : SPLIT translations at eg indexes 2 and 4 to a new lobj for this lemma.")
         c.print_teal("S24    : SPLIT translations at eg indexes 2 and 4 to a new lobj for this lemma but keep them in original lobj also.")
@@ -258,7 +258,7 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang)
     elif user_input[0] == "a" and " " in user_input:
         print("ADDING TRANS...")
         new_trans = user_input.split(" ")[1:]
-        new_trans = [tr.replace("SPACE", " ") for tr in new_trans]
+        new_trans = [tr.replace("\s", " ") for tr in new_trans]
         lobj["translations"][target_lang].extend(new_trans)
         restart()
         return
@@ -575,7 +575,7 @@ def get_signalwords(lobjs):
         time.sleep(0.8)
         return restart()
 
-    signalwords = [sw.replace("SPACE", " ") for sw in signalwords]
+    signalwords = [sw.replace("\s", " ") for sw in signalwords]
 
     return signalwords
 
