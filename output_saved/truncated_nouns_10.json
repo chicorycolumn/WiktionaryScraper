@@ -2151,7 +2151,7 @@
         "tags": "4-,eng",
         "translations": {
             "ENG": [
-                "defect","flaw","fault",
+                "defect","flaw","fault"
 
             ]
         },
@@ -2196,11 +2196,10 @@
     },
     {
         "lemma": "kałamarnica",
-        "tags": "xxxxxxxxx",
+        "tags": "4a,sv",
         "translations": {
             "ENG": [
-                "squid",
-                "calamari"
+                "squid"
             ]
         },
         "temp_id": "10.177",
@@ -2208,21 +2207,50 @@
     },
     {
         "lemma": "stosunek",
-        "tags": "xxxxxxxxx",
+        "tags": "5aa,mat",
         "translations": {
             "ENG": [
-                "relation relationship",
-                "proportion ratio",
-                "attitude",
-                "sexual intercourse"
+                "relation","relationship",
+                "proportion","ratio"
             ]
         },
         "temp_id": "10.178",
         "gender": "m3"
+    },    {
+        "lemma": "stosunek",
+        "tags": "4Y",
+        "translations": {
+            "ENG": [
+                "attitude"
+            ]
+        },
+        "temp_id": "10.178d",
+        "gender": "m3"
+    },
+    {
+        "lemma": "stosunek płciowy",
+        "tags": "4aa,bio,Z",
+        "translations": {
+            "ENG": [
+                "sexual intercourse"
+            ]
+        },
+        "temp_id": "10.178a",
+        "gender": "m3"
+    },    {
+        "lemma": "stosunek seksualny",
+          "tags": "4aa,bio,Z",
+        "translations": {
+            "ENG": [
+                "sexual intercourse"
+            ]
+        },
+        "temp_id": "10.178b",
+        "gender": "m3"
     },
     {
         "lemma": "objaw",
-        "tags": "xxxxxxxxx",
+        "tags": "3med,aa",
         "translations": {
             "ENG": [
                 "symptom"
@@ -2233,15 +2261,10 @@
     },
     {
         "lemma": "ładunek",
-        "tags": "xxxxxxxxx",
+        "tags": "4QQ",
         "translations": {
             "ENG": [
-                "load cargo",
-                "(transport)",
-                "charge",
-                "(physics)",
-                "paper cartridge",
-                "(historical military)"
+                "load","cargo"
             ]
         },
         "temp_id": "10.180",
@@ -2249,20 +2272,17 @@
     },
     {
         "lemma": "mikser",
-        "tags": "xxxxxxxxx",
+        "tags": "4hk",
         "translations": {
             "ENG": [
-                "mixer",
-                "(machine that mixes or beats ingredients)",
-                "mixing console",
-                "(music)"
+                "mixer"
             ]
         },
         "temp_id": "10.181",
         "gender": "m3"
     },
     {
-        "lemma": "mikser",
+        "lemma": "!mikser",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2275,7 +2295,7 @@
     },
     {
         "lemma": "powrót",
-        "tags": "xxxxxxxxx",
+        "tags": "4aa,TT",
         "translations": {
             "ENG": [
                 "return",
@@ -2287,11 +2307,10 @@
     },
     {
         "lemma": "rzecznik",
-        "tags": "xxxxxxxxx",
+        "tags": "4j,pol,bus",
         "translations": {
             "ENG": [
-                "spokesman",
-                "ombudsman"
+                "spokesman"
             ]
         },
         "temp_id": "10.184",
@@ -2299,7 +2318,7 @@
     },
     {
         "lemma": "wazon",
-        "tags": "xxxxxxxxx",
+        "tags": "4hb",
         "translations": {
             "ENG": [
                 "vase"
@@ -2310,7 +2329,7 @@
     },
     {
         "lemma": "porucznik",
-        "tags": "xxxxxxxxx",
+        "tags": "5XXX,j",
         "translations": {
             "ENG": [
                 "lieutenant"
@@ -2321,53 +2340,40 @@
     },
     {
         "lemma": "zabytek",
-        "tags": "xxxxxxxxx",
+        "tags": "4PP,m",
         "translations": {
             "ENG": [
-                "ancient monument cultural property",
-                "(cultural property item tangible cultural heritage)",
-                "relic",
-                "(something old and outdated) (colloquial)"
-            ]
+                "monument"  ]
         },
         "temp_id": "10.187",
         "gender": "m3"
     },
     {
         "lemma": "warzywo",
-        "tags": "xxxxxxxxx",
+        "tags": "2vg%",
         "translations": {
             "ENG": [
-                "vegetable",
-                "vegetable ; a person that is brain dead or suffers from extensive paralysis",
-                "(figurative colloquial derogatory)"
-            ]
+                "vegetable"    ]
         },
         "temp_id": "10.188",
         "gender": "n"
     },
     {
         "lemma": "zwierciadło",
-        "tags": "xxxxxxxxx",
+        "tags": "3hb,dr",
         "translations": {
             "ENG": [
-                "mirror 2010 Bliżej fizyki. Podręcznik gimnazjalisty. Część 2, WSiP, →ISBN, page 101:",
-                "(often poetic)"
-            ]
+                "mirror"  ]
         },
         "temp_id": "10.189",
         "gender": "n"
     },
     {
         "lemma": "nowotwór",
-        "tags": "xxxxxxxxx",
+        "tags": "4med,UU",
         "translations": {
             "ENG": [
-                "tumor",
-                "(pathology)",
-                "neologism",
-                "(lexicography derogatory dated)"
-            ]
+                "tumour","tumor" ]
         },
         "temp_id": "10.190",
         "gender": "m3"
