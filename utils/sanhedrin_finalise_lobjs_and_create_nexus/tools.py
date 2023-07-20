@@ -195,7 +195,8 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
         c.print_teal("S24    : SPLIT translations at eg indexes 2 and 4 to a new lobj for this lemma but keep them in original lobj also.")
         c.print_teal(
             "s24S3  : Translations at eg indexes 2 and 4 are for new lobj, at index 3 is for both original and new lobjs.")
-        c.print_teal("s      : SPLIT translations at indexes 0 and 1 to a new lobj for this lemma.")
+        c.print_teal("s      : SPLIT each translation to a new lobj for this lemma.")
+        c.print_teal("$ [1,2] [1,2,3] [2,3]      : SPLIT these numbered translations into these new lobjs for this lemma.")
         print("--------------------------------------------------------------------")
         print("")
         user_validate_translations(lobj, res, save_fxn, target_lang)
@@ -227,7 +228,7 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
         show_helptext()
         return
 
-    if user_input[0] not in ["f", "F", "a"]:
+    if user_input[0] not in ["f", "F", "a", "$"]:
         for char in user_input:
             if char not in "123456789dDfFwSsx":
                 c.print_red("         Did not recognise user input. Options are:")
@@ -259,64 +260,110 @@ def user_validate_translations(lobj, res, save_fxn, target_lang):
         user_validate_translations(lobj, res, save_fxn, target_lang)
         return
 
-    elif user_input[0] in ["s", "S"]:
+    elif user_input[0] in ["s", "S", "$"]:
         print("SWITCHING SOME TRANS TO NEW LOBJ...")
+
         if user_input == "s":
-            user_input = "s2"
-        if user_input == "S":
-            user_input = "S2"
+            user_input = "$"
+            for i in range(len(lobj["translations"][target_lang])):
+                user_input += f" [{i+1}]"
 
-        move_these = user_input[user_input.index("s"): user_input.index("S") if (
-                "S" in user_input and user_input.index("S") > user_input.index("s")) else len(user_input)][
-                     1:] if "s" in user_input else ""
-        copy_these = user_input[user_input.index("S"): user_input.index("s") if (
-                "s" in user_input and user_input.index("s") > user_input.index("S")) else len(user_input)][
-                     1:] if "S" in user_input else ""
+        if user_input[0] == "$":
+            new_index_sets_per_lobj = []
+            user_input = user_input[2:].split(" ")
+            for indices_string in user_input:
+                indices = [int(char)-1 for char in indices_string[1:-1].split(",")]
+                new_index_sets_per_lobj.append(indices)
+            print("new_index_sets_per_lobj", new_index_sets_per_lobj)
+            new_trans_sets_per_lobj = [[lobj["translations"][target_lang][index] for index in new_index_set_per_lobj] for new_index_set_per_lobj in new_index_sets_per_lobj]
+            print("new_trans_sets_per_lobj", new_trans_sets_per_lobj)
 
-        indexes_trans_to_move = [int(n) - 1 for n in move_these]
-        indexes_trans_to_copy = [int(n) - 1 for n in copy_these]
+            print("")
+            print("For lobj", c.blue(lobj["id"]))
+            print("")
+            print("EACH duplicate lobj will have")
+            for new_tran_set_per_lobj in new_trans_sets_per_lobj:
+                print("")
+                print(new_tran_set_per_lobj)
+            print("")
+            confirm = not input("OK?   Enter for yes   Any key for no ")
 
-        trans_for_original_lobj = []
-        trans_for_new_lobj = []
+            if confirm:
+                clone_seed_lobj = deepcopy(lobj)
 
-        for tindex, tran in enumerate(lobj["translations"][target_lang]):
-            if tindex in indexes_trans_to_move:
-                trans_for_new_lobj.append(tran)
-            elif tindex in indexes_trans_to_copy:
-                trans_for_new_lobj.append(tran)
-                trans_for_original_lobj.append(tran)
+                lobj["translations"][target_lang] = new_trans_sets_per_lobj[0]
+                add_signalword_automatically(lobj, new_trans_sets_per_lobj[0], [])
+                add_to_res(lobj)
+
+                for new_tran_set_per_lobj in new_trans_sets_per_lobj[1:]:
+                    duplicated_lobj = deepcopy(clone_seed_lobj)
+
+                    duplicated_lobj["translations"][target_lang] = new_tran_set_per_lobj
+                    add_signalword_automatically(duplicated_lobj, new_tran_set_per_lobj, [])
+                    duplicated_lobj["tags"] = "🏁"  # Add tags and topics manully before next stage.
+                    duplicated_lobj["topics"] = None
+
+                    add_to_res(duplicated_lobj)
+
+                return
             else:
-                trans_for_original_lobj.append(tran)
-
-        print("")
-        print("For lobj", c.blue(lobj["id"]))
-        print("")
-        print("ORIGINAL lobj will have")
-        print(trans_for_original_lobj)
-        print("")
-        print("NEW lobj will have")
-        print(trans_for_new_lobj)
-        print("")
-        confirm = not input("OK?   Enter for yes   Any key for no ")
-
-        if len(trans_for_new_lobj) and confirm:
-            duplicated_lobj = deepcopy(lobj)
-
-            duplicated_lobj["translations"][target_lang] = trans_for_new_lobj
-            add_signalword_automatically(duplicated_lobj, trans_for_new_lobj, trans_for_original_lobj)
-
-            duplicated_lobj["tags"] = "🏁"  # Add tags and topics manully before next stage.
-            duplicated_lobj["topics"] = None
-
-            lobj["translations"][target_lang] = trans_for_original_lobj
-            add_signalword_automatically(lobj, trans_for_original_lobj, trans_for_new_lobj)
-
-            add_to_res(lobj)
-            add_to_res(duplicated_lobj)
-
-            return
-
+                print("🔄 RESTARTING...")
+                user_validate_translations(lobj, res, save_fxn, target_lang)
+                return
         else:
+            if user_input == "S":
+                user_input = "S2"
+
+            move_these = user_input[user_input.index("s"): user_input.index("S") if (
+                    "S" in user_input and user_input.index("S") > user_input.index("s")) else len(user_input)][
+                         1:] if "s" in user_input else ""
+            copy_these = user_input[user_input.index("S"): user_input.index("s") if (
+                    "s" in user_input and user_input.index("s") > user_input.index("S")) else len(user_input)][
+                         1:] if "S" in user_input else ""
+
+            indexes_trans_to_move = [int(n) - 1 for n in move_these]
+            indexes_trans_to_copy = [int(n) - 1 for n in copy_these]
+
+            trans_for_original_lobj = []
+            trans_for_new_lobj = []
+
+            for tindex, tran in enumerate(lobj["translations"][target_lang]):
+                if tindex in indexes_trans_to_move:
+                    trans_for_new_lobj.append(tran)
+                elif tindex in indexes_trans_to_copy:
+                    trans_for_new_lobj.append(tran)
+                    trans_for_original_lobj.append(tran)
+                else:
+                    trans_for_original_lobj.append(tran)
+
+            print("")
+            print("For lobj", c.blue(lobj["id"]))
+            print("")
+            print("ORIGINAL lobj will have")
+            print(trans_for_original_lobj)
+            print("")
+            print("NEW lobj will have")
+            print(trans_for_new_lobj)
+            print("")
+            confirm = not input("OK?   Enter for yes   Any key for no ")
+
+            if len(trans_for_new_lobj) and confirm:
+                duplicated_lobj = deepcopy(lobj)
+
+                duplicated_lobj["translations"][target_lang] = trans_for_new_lobj
+                add_signalword_automatically(duplicated_lobj, trans_for_new_lobj, trans_for_original_lobj)
+
+                duplicated_lobj["tags"] = "🏁"  # Add tags and topics manully before next stage.
+                duplicated_lobj["topics"] = None
+
+                lobj["translations"][target_lang] = trans_for_original_lobj
+                add_signalword_automatically(lobj, trans_for_original_lobj, trans_for_new_lobj)
+
+                add_to_res(lobj)
+                add_to_res(duplicated_lobj)
+
+                return
+
             print("🔄 RESTARTING...")
             user_validate_translations(lobj, res, save_fxn, target_lang)
             return

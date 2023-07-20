@@ -68,7 +68,7 @@ if __name__ == '__main__':
                     print("Already done", lebindex)
                     continue
 
-                if lebindex != 0 and ((lebindex + 1 == len(sorted_lobjs["F" + str(num)])) or (lebindex % 20 == 0)):
+                if lebindex != 0 and ((lebindex + 1 == len(sorted_lobjs["F" + str(num)])) or (lebindex % 10 == 0)):
                     temp_arr.append([lebindex, leb])
 
                     c.print_purple(f'Are these frequency category {str(num)}?')
