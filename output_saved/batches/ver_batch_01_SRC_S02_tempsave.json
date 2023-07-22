@@ -27688,5 +27688,6417 @@
         "present": false
       }
     }
+  },
+  {
+    "lemma": "docenić",
+    "id": "pol-ver-0170-docenić",
+    "tags": [
+      "FREQ4",
+      "abstract"
+    ],
+    "topics": [
+      "mental"
+    ],
+    "translations": {
+      "ENG": [
+        "to appreciate"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "doceniać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "docenić",
+      "verbalNoun": "docenienie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "doceniony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "doceniwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "doceni się"
+            },
+            "plural": {
+              "allPluralGenders": "doceni się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "docenię"
+            },
+            "plural": {
+              "allPluralGenders": "docenimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "docenisz"
+            },
+            "plural": {
+              "allPluralGenders": "docenicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "doceni"
+            },
+            "plural": {
+              "allPluralGenders": "docenią"
+            }
+          }
+        },
+        "imperative": "doceń",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "doceniono"
+            },
+            "plural": {
+              "allPluralGenders": "doceniono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "doceniłem",
+              "f": "doceniłam"
+            },
+            "plural": {
+              "virile": "doceniliśmy",
+              "nonvirile": "doceniłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "doceniłeś",
+              "f": "doceniłaś"
+            },
+            "plural": {
+              "virile": "doceniliście",
+              "nonvirile": "doceniłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "docenił",
+              "f": "doceniła",
+              "n": "doceniło"
+            },
+            "plural": {
+              "virile": "docenili",
+              "nonvirile": "doceniły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "doceniać",
+    "id": "pol-ver-0171-doceniać",
+    "tags": [
+      "FREQ4",
+      "abstract"
+    ],
+    "topics": [
+      "mental"
+    ],
+    "translations": {
+      "ENG": [
+        "to appreciate"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "Doceniam twoje starania. ― I appreciate your efforts."
+      ],
+      "otherShapes": {
+        "perfective": [
+          "docenić"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "doceniać",
+      "verbalNoun": "docenianie",
+      "activeAdjectival": "doceniający",
+      "passiveAdjectival": "doceniany",
+      "contemporaryAdverbial": "doceniając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "doceniaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "doceniano"
+            },
+            "plural": {
+              "allPluralGenders": "doceniano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "doceniałem",
+              "f": "doceniałam"
+            },
+            "plural": {
+              "virile": "docenialiśmy",
+              "nonvirile": "doceniałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "doceniałeś",
+              "f": "doceniałaś"
+            },
+            "plural": {
+              "virile": "docenialiście",
+              "nonvirile": "doceniałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "doceniał",
+              "f": "doceniała",
+              "n": "doceniało"
+            },
+            "plural": {
+              "virile": "doceniali",
+              "nonvirile": "doceniały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "docenia się"
+            },
+            "plural": {
+              "allPluralGenders": "docenia się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "doceniam"
+            },
+            "plural": {
+              "allPluralGenders": "doceniamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "doceniasz"
+            },
+            "plural": {
+              "allPluralGenders": "doceniacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "docenia"
+            },
+            "plural": {
+              "allPluralGenders": "doceniają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "denerwować",
+    "id": "pol-ver-0172-denerwować(to annoy)",
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "emotion",
+      "negative judgment"
+    ],
+    "topics": [
+      "judgment",
+      "mental"
+    ],
+    "translations": {
+      "ENG": [
+        "to annoy",
+        "to irritate"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "zdenerwować"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "denerwować",
+      "verbalNoun": "denerwowanie",
+      "activeAdjectival": "denerwujący",
+      "passiveAdjectival": "denerwowany",
+      "contemporaryAdverbial": "denerwując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "denerwuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "denerwowano"
+            },
+            "plural": {
+              "allPluralGenders": "denerwowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "denerwowałem",
+              "f": "denerwowałam"
+            },
+            "plural": {
+              "virile": "denerwowaliśmy",
+              "nonvirile": "denerwowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "denerwowałeś",
+              "f": "denerwowałaś"
+            },
+            "plural": {
+              "virile": "denerwowaliście",
+              "nonvirile": "denerwowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "denerwował",
+              "f": "denerwowała",
+              "n": "denerwowało"
+            },
+            "plural": {
+              "virile": "denerwowali",
+              "nonvirile": "denerwowały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "denerwuje się"
+            },
+            "plural": {
+              "allPluralGenders": "denerwuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "denerwuję"
+            },
+            "plural": {
+              "allPluralGenders": "denerwujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "denerwujesz"
+            },
+            "plural": {
+              "allPluralGenders": "denerwujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "denerwuje"
+            },
+            "plural": {
+              "allPluralGenders": "denerwują"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "denerwować",
+    "id": "pol-ver-0172-denerwować(to be nervous[r])",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
+        "to be nervous[r]",
+        "to be irritated",
+        "to be annoyed"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "zdenerwować"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "denerwować",
+      "verbalNoun": "denerwowanie",
+      "activeAdjectival": "denerwujący",
+      "passiveAdjectival": "denerwowany",
+      "contemporaryAdverbial": "denerwując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "denerwuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "denerwowano"
+            },
+            "plural": {
+              "allPluralGenders": "denerwowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "denerwowałem",
+              "f": "denerwowałam"
+            },
+            "plural": {
+              "virile": "denerwowaliśmy",
+              "nonvirile": "denerwowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "denerwowałeś",
+              "f": "denerwowałaś"
+            },
+            "plural": {
+              "virile": "denerwowaliście",
+              "nonvirile": "denerwowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "denerwował",
+              "f": "denerwowała",
+              "n": "denerwowało"
+            },
+            "plural": {
+              "virile": "denerwowali",
+              "nonvirile": "denerwowały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "denerwuje się"
+            },
+            "plural": {
+              "allPluralGenders": "denerwuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "denerwuję"
+            },
+            "plural": {
+              "allPluralGenders": "denerwujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "denerwujesz"
+            },
+            "plural": {
+              "allPluralGenders": "denerwujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "denerwuje"
+            },
+            "plural": {
+              "allPluralGenders": "denerwują"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "zdenerwować",
+    "id": "pol-ver-0173-zdenerwować(to annoy)",
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "emotion",
+      "negative judgment"
+    ],
+    "topics": [
+      "judgment",
+      "mental"
+    ],
+    "translations": {
+      "ENG": [
+        "to annoy",
+        "to irritate"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "denerwować"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "zdenerwować",
+      "verbalNoun": "zdenerwowanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zdenerwowany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zdenerwowawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zdenerwuje się"
+            },
+            "plural": {
+              "allPluralGenders": "zdenerwuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zdenerwuję"
+            },
+            "plural": {
+              "allPluralGenders": "zdenerwujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zdenerwujesz"
+            },
+            "plural": {
+              "allPluralGenders": "zdenerwujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zdenerwuje"
+            },
+            "plural": {
+              "allPluralGenders": "zdenerwują"
+            }
+          }
+        },
+        "imperative": "zdenerwuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zdenerwowano"
+            },
+            "plural": {
+              "allPluralGenders": "zdenerwowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zdenerwowałem",
+              "f": "zdenerwowałam"
+            },
+            "plural": {
+              "virile": "zdenerwowaliśmy",
+              "nonvirile": "zdenerwowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zdenerwowałeś",
+              "f": "zdenerwowałaś"
+            },
+            "plural": {
+              "virile": "zdenerwowaliście",
+              "nonvirile": "zdenerwowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zdenerwował",
+              "f": "zdenerwowała",
+              "n": "zdenerwowało"
+            },
+            "plural": {
+              "virile": "zdenerwowali",
+              "nonvirile": "zdenerwowały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "zdenerwować",
+    "id": "pol-ver-0173-zdenerwować(to be nervous[r])",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
+        "to be nervous[r]",
+        "to be irritated",
+        "to be annoyed"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "denerwować"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "zdenerwować",
+      "verbalNoun": "zdenerwowanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zdenerwowany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zdenerwowawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zdenerwuje się"
+            },
+            "plural": {
+              "allPluralGenders": "zdenerwuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zdenerwuję"
+            },
+            "plural": {
+              "allPluralGenders": "zdenerwujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zdenerwujesz"
+            },
+            "plural": {
+              "allPluralGenders": "zdenerwujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zdenerwuje"
+            },
+            "plural": {
+              "allPluralGenders": "zdenerwują"
+            }
+          }
+        },
+        "imperative": "zdenerwuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zdenerwowano"
+            },
+            "plural": {
+              "allPluralGenders": "zdenerwowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zdenerwowałem",
+              "f": "zdenerwowałam"
+            },
+            "plural": {
+              "virile": "zdenerwowaliśmy",
+              "nonvirile": "zdenerwowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zdenerwowałeś",
+              "f": "zdenerwowałaś"
+            },
+            "plural": {
+              "virile": "zdenerwowaliście",
+              "nonvirile": "zdenerwowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zdenerwował",
+              "f": "zdenerwowała",
+              "n": "zdenerwowało"
+            },
+            "plural": {
+              "virile": "zdenerwowali",
+              "nonvirile": "zdenerwowały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "dążyć",
+    "id": "pol-ver-0174-dążyć",
+    "tags": [
+      "FREQ5",
+      "helper",
+      "concrete"
+    ],
+    "topics": [
+      "school",
+      "work",
+      "hobbies"
+    ],
+    "translations": {
+      "ENG": [
+        "to strive"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "derivedTerms": [
+        "nouns dążenie",
+        "dążność",
+        "verbs nadążać impf nadążyć pf",
+        "podążać impf podążyć pf",
+        "zdążać impf zdążyć pf"
+      ]
+    },
+    "inflections": {
+      "infinitive": "dążyć",
+      "verbalNoun": "dążenie",
+      "activeAdjectival": "dążący",
+      "passiveAdjectival": "dążony",
+      "contemporaryAdverbial": "dążąc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "dąż",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dążono"
+            },
+            "plural": {
+              "allPluralGenders": "dążono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dążyłem",
+              "f": "dążyłam"
+            },
+            "plural": {
+              "virile": "dążyliśmy",
+              "nonvirile": "dążyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dążyłeś",
+              "f": "dążyłaś"
+            },
+            "plural": {
+              "virile": "dążyliście",
+              "nonvirile": "dążyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dążył",
+              "f": "dążyła",
+              "n": "dążyło"
+            },
+            "plural": {
+              "virile": "dążyli",
+              "nonvirile": "dążyły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dąży się"
+            },
+            "plural": {
+              "allPluralGenders": "dąży się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dążę"
+            },
+            "plural": {
+              "allPluralGenders": "dążymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dążysz"
+            },
+            "plural": {
+              "allPluralGenders": "dążycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dąży"
+            },
+            "plural": {
+              "allPluralGenders": "dążą"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "dopuścić",
+    "id": "pol-ver-0175-dopuścić",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "request and permission"
+    ],
+    "translations": {
+      "ENG": [
+        "to let",
+        "to allow",
+        "to permit"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "dopuszczać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "dopuścić",
+      "verbalNoun": "dopuszczenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "dopuszczony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "dopuściwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dopuści się"
+            },
+            "plural": {
+              "allPluralGenders": "dopuści się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dopuszczę"
+            },
+            "plural": {
+              "allPluralGenders": "dopuścimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dopuścisz"
+            },
+            "plural": {
+              "allPluralGenders": "dopuścicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dopuści"
+            },
+            "plural": {
+              "allPluralGenders": "dopuszczą"
+            }
+          }
+        },
+        "imperative": "dopuść",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dopuszczono"
+            },
+            "plural": {
+              "allPluralGenders": "dopuszczono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dopuściłem",
+              "f": "dopuściłam"
+            },
+            "plural": {
+              "virile": "dopuściliśmy",
+              "nonvirile": "dopuściłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dopuściłeś",
+              "f": "dopuściłaś"
+            },
+            "plural": {
+              "virile": "dopuściliście",
+              "nonvirile": "dopuściłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dopuścił",
+              "f": "dopuściła",
+              "n": "dopuściło"
+            },
+            "plural": {
+              "virile": "dopuścili",
+              "nonvirile": "dopuściły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "dopuszczać",
+    "id": "pol-ver-0176-dopuszczać",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "request and permission"
+    ],
+    "translations": {
+      "ENG": [
+        "to let",
+        "to allow",
+        "to permit"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "dopuścić"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "dopuszczać",
+      "verbalNoun": "dopuszczanie",
+      "activeAdjectival": "dopuszczający",
+      "passiveAdjectival": "dopuszczany",
+      "contemporaryAdverbial": "dopuszczając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "dopuszczaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dopuszczano"
+            },
+            "plural": {
+              "allPluralGenders": "dopuszczano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dopuszczałem",
+              "f": "dopuszczałam"
+            },
+            "plural": {
+              "virile": "dopuszczaliśmy",
+              "nonvirile": "dopuszczałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dopuszczałeś",
+              "f": "dopuszczałaś"
+            },
+            "plural": {
+              "virile": "dopuszczaliście",
+              "nonvirile": "dopuszczałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dopuszczał",
+              "f": "dopuszczała",
+              "n": "dopuszczało"
+            },
+            "plural": {
+              "virile": "dopuszczali",
+              "nonvirile": "dopuszczały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dopuszcza się"
+            },
+            "plural": {
+              "allPluralGenders": "dopuszcza się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dopuszczam"
+            },
+            "plural": {
+              "allPluralGenders": "dopuszczamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dopuszczasz"
+            },
+            "plural": {
+              "allPluralGenders": "dopuszczacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dopuszcza"
+            },
+            "plural": {
+              "allPluralGenders": "dopuszczają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "cieszyć",
+    "id": "pol-ver-0177-cieszyć",
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "emotion",
+      "positive judgment"
+    ],
+    "topics": [
+      "judgment",
+      "mental"
+    ],
+    "translations": {
+      "ENG": [
+        "to please",
+        "to enjoy",
+        "to be glad[r]"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "ucieszyć"
+        ]
+      },
+      "derivedTerms": [
+        "nouns cieszenie",
+        "pociecha",
+        "pocieszenie",
+        "pocieszyciel",
+        "pocieszycielka",
+        "uciecha",
+        "verbs nacieszyć",
+        "pocieszać",
+        "pocieszyć",
+        "ucieszyć"
+      ]
+    },
+    "inflections": {
+      "infinitive": "cieszyć",
+      "verbalNoun": "cieszenie",
+      "activeAdjectival": "cieszący",
+      "passiveAdjectival": "cieszony",
+      "contemporaryAdverbial": "ciesząc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "ciesz",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "cieszono"
+            },
+            "plural": {
+              "allPluralGenders": "cieszono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "cieszyłem",
+              "f": "cieszyłam"
+            },
+            "plural": {
+              "virile": "cieszyliśmy",
+              "nonvirile": "cieszyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "cieszyłeś",
+              "f": "cieszyłaś"
+            },
+            "plural": {
+              "virile": "cieszyliście",
+              "nonvirile": "cieszyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "cieszył",
+              "f": "cieszyła",
+              "n": "cieszyło"
+            },
+            "plural": {
+              "virile": "cieszyli",
+              "nonvirile": "cieszyły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "cieszy się"
+            },
+            "plural": {
+              "allPluralGenders": "cieszy się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "cieszę"
+            },
+            "plural": {
+              "allPluralGenders": "cieszymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "cieszysz"
+            },
+            "plural": {
+              "allPluralGenders": "cieszycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "cieszy"
+            },
+            "plural": {
+              "allPluralGenders": "cieszą"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "ucieszyć",
+    "id": "pol-ver-0178-ucieszyć",
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "emotion",
+      "positive judgment"
+    ],
+    "topics": [
+      "judgment",
+      "mental"
+    ],
+    "translations": {
+      "ENG": [
+        "to please",
+        "to enjoy",
+        "to be glad[r]"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "cieszyć"
+        ]
+      },
+      "derivedTerms": [
+        "nouns cieszenie",
+        "pociecha",
+        "pocieszenie",
+        "pocieszyciel",
+        "pocieszycielka",
+        "uciecha",
+        "verbs cieszyć",
+        "pocieszać",
+        "pocieszyć"
+      ]
+    },
+    "inflections": {
+      "infinitive": "ucieszyć",
+      "verbalNoun": "ucieszenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "ucieszony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "ucieszywszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "ucieszy się"
+            },
+            "plural": {
+              "allPluralGenders": "ucieszy się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "ucieszę"
+            },
+            "plural": {
+              "allPluralGenders": "ucieszymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "ucieszysz"
+            },
+            "plural": {
+              "allPluralGenders": "ucieszycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "ucieszy"
+            },
+            "plural": {
+              "allPluralGenders": "ucieszą"
+            }
+          }
+        },
+        "imperative": "uciesz",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "ucieszono"
+            },
+            "plural": {
+              "allPluralGenders": "ucieszono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "ucieszyłem",
+              "f": "ucieszyłam"
+            },
+            "plural": {
+              "virile": "ucieszyliśmy",
+              "nonvirile": "ucieszyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "ucieszyłeś",
+              "f": "ucieszyłaś"
+            },
+            "plural": {
+              "virile": "ucieszyliście",
+              "nonvirile": "ucieszyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "ucieszył",
+              "f": "ucieszyła",
+              "n": "ucieszyło"
+            },
+            "plural": {
+              "virile": "ucieszyli",
+              "nonvirile": "ucieszyły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "domyślić",
+    "id": "pol-ver-0179-domyślić",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
+    "translations": {
+      "ENG": [
+        "to figure out",
+        "to work out"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "\"Mnie nie będzie na spotkaniu.\" Domyśliłem się . ― I'm not going to be at the meeting.",
+        "I figured/I guessed as much ."
+      ],
+      "otherShapes": {
+        "imperfective": [
+          "domyślać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "domyślić",
+      "verbalNoun": "domyślenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "domyśliwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "domyśli się"
+            },
+            "plural": {
+              "allPluralGenders": "domyśli się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "domyślę"
+            },
+            "plural": {
+              "allPluralGenders": "domyślimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "domyślisz"
+            },
+            "plural": {
+              "allPluralGenders": "domyślicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "domyśli"
+            },
+            "plural": {
+              "allPluralGenders": "domyślą"
+            }
+          }
+        },
+        "imperative": "domyśl",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "domyślono"
+            },
+            "plural": {
+              "allPluralGenders": "domyślono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "domyśliłem",
+              "f": "domyśliłam"
+            },
+            "plural": {
+              "virile": "domyśliliśmy",
+              "nonvirile": "domyśliłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "domyśliłeś",
+              "f": "domyśliłaś"
+            },
+            "plural": {
+              "virile": "domyśliliście",
+              "nonvirile": "domyśliłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "domyślił",
+              "f": "domyśliła",
+              "n": "domyśliło"
+            },
+            "plural": {
+              "virile": "domyślili",
+              "nonvirile": "domyśliły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "domyślać",
+    "id": "pol-ver-0180-domyślać",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
+    "translations": {
+      "ENG": [
+        "to figure out",
+        "to work out"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "domyślić"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "domyślać",
+      "verbalNoun": "domyślanie",
+      "activeAdjectival": "domyślający",
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": "domyślając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "domyślaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "domyślano"
+            },
+            "plural": {
+              "allPluralGenders": "domyślano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "domyślałem",
+              "f": "domyślałam"
+            },
+            "plural": {
+              "virile": "domyślaliśmy",
+              "nonvirile": "domyślałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "domyślałeś",
+              "f": "domyślałaś"
+            },
+            "plural": {
+              "virile": "domyślaliście",
+              "nonvirile": "domyślałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "domyślał",
+              "f": "domyślała",
+              "n": "domyślało"
+            },
+            "plural": {
+              "virile": "domyślali",
+              "nonvirile": "domyślały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "domyśla się"
+            },
+            "plural": {
+              "allPluralGenders": "domyśla się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "domyślam"
+            },
+            "plural": {
+              "allPluralGenders": "domyślamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "domyślasz"
+            },
+            "plural": {
+              "allPluralGenders": "domyślacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "domyśla"
+            },
+            "plural": {
+              "allPluralGenders": "domyślają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "chować",
+    "id": "pol-ver-0181-chować",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "appearance",
+      "knowledge and existence",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "to hide",
+        "to conceal"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "chować ciasto do lodówki ― to put the cake in the fridge",
+        "chować zapałki przed dziećmi ― to hide matches from children",
+        "Katarzyna chowała dziecko swojej zmarłej siostry. ― Katarzyna was bringing up her dead sister's daughter.",
+        "Rodzina i przyjaciele chowali zmarłego w ciszy. ― Family and friends buried the deceased in silence.",
+        "Marek chował twarz w dłoniach. ― Marek buried his head in his hands."
+      ],
+      "otherShapes": {
+        "perfective": [
+          "schować"
+        ]
+      },
+      "derivedTerms": [
+        "verbs chować ambicję do kieszeni impf schować ambicję do kieszeni pf",
+        "chować głowę w piasek impf",
+        "dochowywać impf dochować pf",
+        "odchowywać impf odchować pf",
+        "pochować pf",
+        "podchowywać impf podchować pf",
+        "przechowywać impf przechować pf",
+        "schować pf",
+        "uchować pf",
+        "wychowywać impf wychować pf",
+        "zachowywać impf zachować pf",
+        "adjective chowany",
+        "nouns chów",
+        "chowaniec",
+        "pochówek",
+        "schowek",
+        "wychowanek"
+      ]
+    },
+    "inflections": {
+      "infinitive": "chować",
+      "verbalNoun": "chowanie",
+      "activeAdjectival": "chowający",
+      "passiveAdjectival": "chowany",
+      "contemporaryAdverbial": "chowając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "chowaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "chowano"
+            },
+            "plural": {
+              "allPluralGenders": "chowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "chowałem",
+              "f": "chowałam"
+            },
+            "plural": {
+              "virile": "chowaliśmy",
+              "nonvirile": "chowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "chowałeś",
+              "f": "chowałaś"
+            },
+            "plural": {
+              "virile": "chowaliście",
+              "nonvirile": "chowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "chował",
+              "f": "chowała",
+              "n": "chowało"
+            },
+            "plural": {
+              "virile": "chowali",
+              "nonvirile": "chowały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "chowa się"
+            },
+            "plural": {
+              "allPluralGenders": "chowa się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "chowam"
+            },
+            "plural": {
+              "allPluralGenders": "chowamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "chowasz"
+            },
+            "plural": {
+              "allPluralGenders": "chowacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "chowa"
+            },
+            "plural": {
+              "allPluralGenders": "chowają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "schować",
+    "id": "pol-ver-0182-schować",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "appearance",
+      "knowledge and existence",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "to hide",
+        "to conceal"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "Schowaj bilet do kieszeni. ― Put the ticket in your pocket.",
+        "Schować cukierki przed dziećmi. ― To hide the sweets from the children."
+      ],
+      "otherShapes": {
+        "imperfective": [
+          "chować"
+        ]
+      },
+      "derivedTerms": [
+        "verbs chować ambicję do kieszeni impf schować ambicję do kieszeni pf",
+        "adjective schowany",
+        "nouns schowanko",
+        "schowek"
+      ]
+    },
+    "inflections": {
+      "infinitive": "schować",
+      "verbalNoun": "schowanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "schowany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "schowawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "schowa się"
+            },
+            "plural": {
+              "allPluralGenders": "schowa się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "schowam"
+            },
+            "plural": {
+              "allPluralGenders": "schowamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "schowasz"
+            },
+            "plural": {
+              "allPluralGenders": "schowacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "schowa"
+            },
+            "plural": {
+              "allPluralGenders": "schowają"
+            }
+          }
+        },
+        "imperative": "schowaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "schowano"
+            },
+            "plural": {
+              "allPluralGenders": "schowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "schowałem",
+              "f": "schowałam"
+            },
+            "plural": {
+              "virile": "schowaliśmy",
+              "nonvirile": "schowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "schowałeś",
+              "f": "schowałaś"
+            },
+            "plural": {
+              "virile": "schowaliście",
+              "nonvirile": "schowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "schował",
+              "f": "schowała",
+              "n": "schowało"
+            },
+            "plural": {
+              "virile": "schowali",
+              "nonvirile": "schowały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "dojrzeć",
+    "id": "pol-ver-0183-dojrzeć(to ripen[i])",
+    "tags": [
+      "FREQ3",
+      "concrete"
+    ],
+    "topics": [
+      "body",
+      "medicine",
+      "time"
+    ],
+    "translations": {
+      "ENG": [
+        "to ripen[i]"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "dojrzewać"
+        ]
+      },
+      "derivedTerms": [
+        "adjective dojrzały",
+        "noun dojrzałość"
+      ]
+    },
+    "inflections": {
+      "infinitive": "dojrzeć",
+      "verbalNoun": "dojrzenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "dojrzawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dojrzeje się"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzeje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dojrzeję"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzejemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dojrzejesz"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzejecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dojrzeje"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzeją"
+            }
+          }
+        },
+        "imperative": "dojrzej",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dojrzano"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dojrzałem",
+              "f": "dojrzałam"
+            },
+            "plural": {
+              "virile": "dojrzeliśmy",
+              "nonvirile": "dojrzałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dojrzałeś",
+              "f": "dojrzałaś"
+            },
+            "plural": {
+              "virile": "dojrzeliście",
+              "nonvirile": "dojrzałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dojrzał",
+              "f": "dojrzała",
+              "n": "dojrzało"
+            },
+            "plural": {
+              "virile": "dojrzeli",
+              "nonvirile": "dojrzały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "dojrzeć",
+    "id": "pol-ver-0183-dojrzeć(to mature[i])",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
+        "to mature[i]"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "dojrzewać"
+        ]
+      },
+      "derivedTerms": [
+        "adjective dojrzały",
+        "noun dojrzałość"
+      ]
+    },
+    "inflections": {
+      "infinitive": "dojrzeć",
+      "verbalNoun": "dojrzenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "dojrzawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dojrzeje się"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzeje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dojrzeję"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzejemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dojrzejesz"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzejecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dojrzeje"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzeją"
+            }
+          }
+        },
+        "imperative": "dojrzej",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dojrzano"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dojrzałem",
+              "f": "dojrzałam"
+            },
+            "plural": {
+              "virile": "dojrzeliśmy",
+              "nonvirile": "dojrzałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dojrzałeś",
+              "f": "dojrzałaś"
+            },
+            "plural": {
+              "virile": "dojrzeliście",
+              "nonvirile": "dojrzałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dojrzał",
+              "f": "dojrzała",
+              "n": "dojrzało"
+            },
+            "plural": {
+              "virile": "dojrzeli",
+              "nonvirile": "dojrzały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "dojrzewać",
+    "id": "pol-ver-0184-dojrzewać(to ripen[i])",
+    "tags": [
+      "FREQ3",
+      "concrete"
+    ],
+    "topics": [
+      "body",
+      "medicine",
+      "time"
+    ],
+    "translations": {
+      "ENG": [
+        "to ripen[i]"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "dojrzeć"
+        ]
+      },
+      "derivedTerms": [
+        "dojrzałość",
+        "dojrzały",
+        "dojrzale"
+      ]
+    },
+    "inflections": {
+      "infinitive": "dojrzewać",
+      "verbalNoun": "dojrzewanie",
+      "activeAdjectival": "dojrzewający",
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": "dojrzewając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "dojrzewaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dojrzewano"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzewano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dojrzewałem",
+              "f": "dojrzewałam"
+            },
+            "plural": {
+              "virile": "dojrzewaliśmy",
+              "nonvirile": "dojrzewałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dojrzewałeś",
+              "f": "dojrzewałaś"
+            },
+            "plural": {
+              "virile": "dojrzewaliście",
+              "nonvirile": "dojrzewałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dojrzewał",
+              "f": "dojrzewała",
+              "n": "dojrzewało"
+            },
+            "plural": {
+              "virile": "dojrzewali",
+              "nonvirile": "dojrzewały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dojrzewa się"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzewa się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dojrzewam"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzewamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dojrzewasz"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzewacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dojrzewa"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzewają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "dojrzewać",
+    "id": "pol-ver-0184-dojrzewać(to mature[i])",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
+        "to mature[i]"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "dojrzeć"
+        ]
+      },
+      "derivedTerms": [
+        "dojrzałość",
+        "dojrzały",
+        "dojrzale"
+      ]
+    },
+    "inflections": {
+      "infinitive": "dojrzewać",
+      "verbalNoun": "dojrzewanie",
+      "activeAdjectival": "dojrzewający",
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": "dojrzewając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "dojrzewaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dojrzewano"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzewano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dojrzewałem",
+              "f": "dojrzewałam"
+            },
+            "plural": {
+              "virile": "dojrzewaliśmy",
+              "nonvirile": "dojrzewałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dojrzewałeś",
+              "f": "dojrzewałaś"
+            },
+            "plural": {
+              "virile": "dojrzewaliście",
+              "nonvirile": "dojrzewałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dojrzewał",
+              "f": "dojrzewała",
+              "n": "dojrzewało"
+            },
+            "plural": {
+              "virile": "dojrzewali",
+              "nonvirile": "dojrzewały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dojrzewa się"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzewa się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dojrzewam"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzewamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dojrzewasz"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzewacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dojrzewa"
+            },
+            "plural": {
+              "allPluralGenders": "dojrzewają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "dokonywać",
+    "id": "pol-ver-0185-dokonywać",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "school",
+      "work"
+    ],
+    "translations": {
+      "ENG": [
+        "*to do",
+        "*to make",
+        "to carry out"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "dokonać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "dokonywać",
+      "verbalNoun": "dokonywanie",
+      "activeAdjectival": "dokonujący",
+      "passiveAdjectival": "dokonywany",
+      "contemporaryAdverbial": "dokonując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "dokonuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dokonywano"
+            },
+            "plural": {
+              "allPluralGenders": "dokonywano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dokonywałem",
+              "f": "dokonywałam"
+            },
+            "plural": {
+              "virile": "dokonywaliśmy",
+              "nonvirile": "dokonywałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dokonywałeś",
+              "f": "dokonywałaś"
+            },
+            "plural": {
+              "virile": "dokonywaliście",
+              "nonvirile": "dokonywałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dokonywał",
+              "f": "dokonywała",
+              "n": "dokonywało"
+            },
+            "plural": {
+              "virile": "dokonywali",
+              "nonvirile": "dokonywały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dokonuje się"
+            },
+            "plural": {
+              "allPluralGenders": "dokonuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dokonuję"
+            },
+            "plural": {
+              "allPluralGenders": "dokonujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dokonujesz"
+            },
+            "plural": {
+              "allPluralGenders": "dokonujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dokonuje"
+            },
+            "plural": {
+              "allPluralGenders": "dokonują"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "dokonać",
+    "id": "pol-ver-0186-dokonać",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "school",
+      "work"
+    ],
+    "translations": {
+      "ENG": [
+        "*to do",
+        "*to make",
+        "to carry out"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "dokonywać"
+        ]
+      },
+      "derivedTerms": [
+        "dokonany",
+        "koniec"
+      ]
+    },
+    "inflections": {
+      "infinitive": "dokonać",
+      "verbalNoun": "dokonanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "dokonany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "dokonawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dokona się"
+            },
+            "plural": {
+              "allPluralGenders": "dokona się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dokonam"
+            },
+            "plural": {
+              "allPluralGenders": "dokonamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dokonasz"
+            },
+            "plural": {
+              "allPluralGenders": "dokonacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dokona"
+            },
+            "plural": {
+              "allPluralGenders": "dokonają"
+            }
+          }
+        },
+        "imperative": "dokonaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dokonano"
+            },
+            "plural": {
+              "allPluralGenders": "dokonano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dokonałem",
+              "f": "dokonałam"
+            },
+            "plural": {
+              "virile": "dokonaliśmy",
+              "nonvirile": "dokonałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dokonałeś",
+              "f": "dokonałaś"
+            },
+            "plural": {
+              "virile": "dokonaliście",
+              "nonvirile": "dokonałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dokonał",
+              "f": "dokonała",
+              "n": "dokonało"
+            },
+            "plural": {
+              "virile": "dokonali",
+              "nonvirile": "dokonały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "cisnąć",
+    "id": "pol-ver-0187-cisnąć",
+    "tags": [
+      "FREQ4",
+      "movement",
+      "concrete"
+    ],
+    "topics": [
+      "body",
+      "sport"
+    ],
+    "translations": {
+      "ENG": [
+        "to hurl",
+        "to fling",
+        "to throw"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "ciskać"
+        ]
+      },
+      "derivedTerms": [
+        "verbs dociskać impf docisnąć pf",
+        "naciskać impf nacisnąć pf",
+        "obciskać impf obcisnąć pf",
+        "odciskać impf odcisnąć pf",
+        "pociskać impf pocisnąć pf",
+        "przeciskać impf przecisnąć pf",
+        "przyciskać impf przycisnąć pf",
+        "ściskać impf ścisnąć pf",
+        "uciskać impf ucisnąć pf",
+        "wciskać impf wcisnąć pf",
+        "wściskać impf wścisnąć pf",
+        "wyciskać impf wycisnąć pf",
+        "zaciskać impf zacisnąć pf"
+      ]
+    },
+    "inflections": {
+      "infinitive": "cisnąć",
+      "verbalNoun": "ciśnięcie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "ciśnięty",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "cisnąwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "ciśnie się"
+            },
+            "plural": {
+              "allPluralGenders": "ciśnie się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "cisnę"
+            },
+            "plural": {
+              "allPluralGenders": "ciśniemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "ciśniesz"
+            },
+            "plural": {
+              "allPluralGenders": "ciśniecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "ciśnie"
+            },
+            "plural": {
+              "allPluralGenders": "cisną"
+            }
+          }
+        },
+        "imperative": "ciśnij",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "ciśnięto"
+            },
+            "plural": {
+              "allPluralGenders": "ciśnięto"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "cisnąłem",
+              "f": "cisnęłam"
+            },
+            "plural": {
+              "virile": "cisnęliśmy",
+              "nonvirile": "cisnęłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "cisnąłeś",
+              "f": "cisnęłaś"
+            },
+            "plural": {
+              "virile": "cisnęliście",
+              "nonvirile": "cisnęłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "cisnął",
+              "f": "cisnęła",
+              "n": "cisnęło"
+            },
+            "plural": {
+              "virile": "cisnęli",
+              "nonvirile": "cisnęły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "ciskać",
+    "id": "pol-ver-0188-ciskać",
+    "tags": [
+      "FREQ4",
+      "movement",
+      "concrete"
+    ],
+    "topics": [
+      "body",
+      "sport"
+    ],
+    "translations": {
+      "ENG": [
+        "to hurl",
+        "to fling",
+        "to throw"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "cisnąć"
+        ]
+      },
+      "derivedTerms": [
+        "verbs dociskać impf docisnąć pf",
+        "naciskać impf nacisnąć pf",
+        "obciskać impf obcisnąć pf",
+        "odciskać impf odcisnąć pf",
+        "pociskać impf pocisnąć pf",
+        "przeciskać impf przecisnąć pf",
+        "przyciskać impf przycisnąć pf",
+        "ściskać impf ścisnąć pf",
+        "uciskać impf ucisnąć pf",
+        "wciskać impf wcisnąć pf",
+        "wściskać impf wścisnąć pf",
+        "wyciskać impf wycisnąć pf",
+        "zaciskać impf zacisnąć pf"
+      ]
+    },
+    "inflections": {
+      "infinitive": "ciskać",
+      "verbalNoun": "ciskanie",
+      "activeAdjectival": "ciskający",
+      "passiveAdjectival": "ciskany",
+      "contemporaryAdverbial": "ciskając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "ciskaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "ciskano"
+            },
+            "plural": {
+              "allPluralGenders": "ciskano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "ciskałem",
+              "f": "ciskałam"
+            },
+            "plural": {
+              "virile": "ciskaliśmy",
+              "nonvirile": "ciskałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "ciskałeś",
+              "f": "ciskałaś"
+            },
+            "plural": {
+              "virile": "ciskaliście",
+              "nonvirile": "ciskałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "ciskał",
+              "f": "ciskała",
+              "n": "ciskało"
+            },
+            "plural": {
+              "virile": "ciskali",
+              "nonvirile": "ciskały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "ciska się"
+            },
+            "plural": {
+              "allPluralGenders": "ciska się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "ciskam"
+            },
+            "plural": {
+              "allPluralGenders": "ciskamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "ciskasz"
+            },
+            "plural": {
+              "allPluralGenders": "ciskacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "ciska"
+            },
+            "plural": {
+              "allPluralGenders": "ciskają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "boleć",
+    "id": "pol-ver-0189-boleć",
+    "tags": [
+      "FREQ2",
+      "concrete"
+    ],
+    "topics": [
+      "disease",
+      "medicine"
+    ],
+    "translations": {
+      "ENG": [
+        "to hurt[i]",
+        "to ache[i]"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "Boli mnie ręka. ― My arm hurts."
+      ]
+    },
+    "inflections": {
+      "infinitive": "boleć",
+      "verbalNoun": "bolenie",
+      "activeAdjectival": "bolący",
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": "boląc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "ból",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "bolano"
+            },
+            "plural": {
+              "allPluralGenders": "bolano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "bolałem",
+              "f": "bolałam"
+            },
+            "plural": {
+              "virile": "boleliśmy",
+              "nonvirile": "bolałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "bolałeś",
+              "f": "bolałaś"
+            },
+            "plural": {
+              "virile": "boleliście",
+              "nonvirile": "bolałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "bolał",
+              "f": "bolała",
+              "n": "bolało"
+            },
+            "plural": {
+              "virile": "boleli",
+              "nonvirile": "bolały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "boli się"
+            },
+            "plural": {
+              "allPluralGenders": "boli się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "bolę"
+            },
+            "plural": {
+              "allPluralGenders": "bolimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "bolisz"
+            },
+            "plural": {
+              "allPluralGenders": "bolicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "boli"
+            },
+            "plural": {
+              "allPluralGenders": "bolą"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "dostrzec",
+    "id": "pol-ver-0190-dostrzec",
+    "tags": [
+      "FREQ4",
+      "abstract",
+      "perception"
+    ],
+    "topics": [
+      "appearance",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "to perceive",
+        "to make out",
+        "to spot",
+        "to spy"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "dostrzegać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "dostrzec",
+      "verbalNoun": "dostrzeżenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "dostrzeżony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "dostrzegłszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dostrzeże się"
+            },
+            "plural": {
+              "allPluralGenders": "dostrzeże się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dostrzegę"
+            },
+            "plural": {
+              "allPluralGenders": "dostrzeżemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dostrzeżesz"
+            },
+            "plural": {
+              "allPluralGenders": "dostrzeżecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dostrzeże"
+            },
+            "plural": {
+              "allPluralGenders": "dostrzegą"
+            }
+          }
+        },
+        "imperative": "dostrzeż",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dostrzeżono"
+            },
+            "plural": {
+              "allPluralGenders": "dostrzeżono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dostrzegłem",
+              "f": "dostrzegłam"
+            },
+            "plural": {
+              "virile": "dostrzegliśmy",
+              "nonvirile": "dostrzegłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dostrzegłeś",
+              "f": "dostrzegłaś"
+            },
+            "plural": {
+              "virile": "dostrzegliście",
+              "nonvirile": "dostrzegłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dostrzegł",
+              "f": "dostrzegła",
+              "n": "dostrzegło"
+            },
+            "plural": {
+              "virile": "dostrzegli",
+              "nonvirile": "dostrzegły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "dostrzegać",
+    "id": "pol-ver-0191-dostrzegać",
+    "tags": [
+      "FREQ4",
+      "abstract",
+      "perception"
+    ],
+    "topics": [
+      "appearance",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "to perceive",
+        "to make out",
+        "to spot",
+        "to spy"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "dostrzec"
+        ]
+      },
+      "derivedTerms": [
+        "proverb źdźbło w oku bliźniego widzisz, a belki w swoim nie dostrzegasz"
+      ]
+    },
+    "inflections": {
+      "infinitive": "dostrzegać",
+      "verbalNoun": "dostrzeganie",
+      "activeAdjectival": "dostrzegający",
+      "passiveAdjectival": "dostrzegany",
+      "contemporaryAdverbial": "dostrzegając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "dostrzegaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dostrzegano"
+            },
+            "plural": {
+              "allPluralGenders": "dostrzegano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dostrzegałem",
+              "f": "dostrzegałam"
+            },
+            "plural": {
+              "virile": "dostrzegaliśmy",
+              "nonvirile": "dostrzegałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dostrzegałeś",
+              "f": "dostrzegałaś"
+            },
+            "plural": {
+              "virile": "dostrzegaliście",
+              "nonvirile": "dostrzegałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dostrzegał",
+              "f": "dostrzegała",
+              "n": "dostrzegało"
+            },
+            "plural": {
+              "virile": "dostrzegali",
+              "nonvirile": "dostrzegały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dostrzega się"
+            },
+            "plural": {
+              "allPluralGenders": "dostrzega się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dostrzegam"
+            },
+            "plural": {
+              "allPluralGenders": "dostrzegamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dostrzegasz"
+            },
+            "plural": {
+              "allPluralGenders": "dostrzegacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dostrzega"
+            },
+            "plural": {
+              "allPluralGenders": "dostrzegają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "chwytać",
+    "id": "pol-ver-0192-chwytać(to grab)",
+    "tags": [
+      "FREQ4",
+      "abstract",
+      "movement"
+    ],
+    "topics": [
+      "body",
+      "mental",
+      "school"
+    ],
+    "translations": {
+      "ENG": [
+        "to grab",
+        "to grasp"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "chwycić"
+        ]
+      },
+      "derivedTerms": [
+        "verbs nachwytać impf",
+        "pochwytać impf pochwycić pf",
+        "podchwytywać impf podchwycić pf",
+        "przechwytywać impf przechwycić pf",
+        "przychwytywać impf przychwycić pf",
+        "schwycić pf",
+        "uchwytywać impf uchwycić pf",
+        "wychwytać impf wychwytywać impf wychwycić pf",
+        "zachwycać impf zachwycić pf",
+        "adjectives chwytliwy",
+        "chwytny",
+        "nouns chwyt",
+        "chwytak"
+      ]
+    },
+    "inflections": {
+      "infinitive": "chwytać",
+      "verbalNoun": "chwytanie",
+      "activeAdjectival": "chwytający",
+      "passiveAdjectival": "chwytany",
+      "contemporaryAdverbial": "chwytając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "chwytaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "chwytano"
+            },
+            "plural": {
+              "allPluralGenders": "chwytano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "chwytałem",
+              "f": "chwytałam"
+            },
+            "plural": {
+              "virile": "chwytaliśmy",
+              "nonvirile": "chwytałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "chwytałeś",
+              "f": "chwytałaś"
+            },
+            "plural": {
+              "virile": "chwytaliście",
+              "nonvirile": "chwytałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "chwytał",
+              "f": "chwytała",
+              "n": "chwytało"
+            },
+            "plural": {
+              "virile": "chwytali",
+              "nonvirile": "chwytały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "chwyta się"
+            },
+            "plural": {
+              "allPluralGenders": "chwyta się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "chwytam"
+            },
+            "plural": {
+              "allPluralGenders": "chwytamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "chwytasz"
+            },
+            "plural": {
+              "allPluralGenders": "chwytacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "chwyta"
+            },
+            "plural": {
+              "allPluralGenders": "chwytają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "chwytać",
+    "id": "pol-ver-0192-chwytać(to catch)",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
+        "to catch"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "chwycić"
+        ]
+      },
+      "derivedTerms": [
+        "verbs nachwytać impf",
+        "pochwytać impf pochwycić pf",
+        "podchwytywać impf podchwycić pf",
+        "przechwytywać impf przechwycić pf",
+        "przychwytywać impf przychwycić pf",
+        "schwycić pf",
+        "uchwytywać impf uchwycić pf",
+        "wychwytać impf wychwytywać impf wychwycić pf",
+        "zachwycać impf zachwycić pf",
+        "adjectives chwytliwy",
+        "chwytny",
+        "nouns chwyt",
+        "chwytak"
+      ]
+    },
+    "inflections": {
+      "infinitive": "chwytać",
+      "verbalNoun": "chwytanie",
+      "activeAdjectival": "chwytający",
+      "passiveAdjectival": "chwytany",
+      "contemporaryAdverbial": "chwytając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "chwytaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "chwytano"
+            },
+            "plural": {
+              "allPluralGenders": "chwytano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "chwytałem",
+              "f": "chwytałam"
+            },
+            "plural": {
+              "virile": "chwytaliśmy",
+              "nonvirile": "chwytałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "chwytałeś",
+              "f": "chwytałaś"
+            },
+            "plural": {
+              "virile": "chwytaliście",
+              "nonvirile": "chwytałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "chwytał",
+              "f": "chwytała",
+              "n": "chwytało"
+            },
+            "plural": {
+              "virile": "chwytali",
+              "nonvirile": "chwytały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "chwyta się"
+            },
+            "plural": {
+              "allPluralGenders": "chwyta się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "chwytam"
+            },
+            "plural": {
+              "allPluralGenders": "chwytamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "chwytasz"
+            },
+            "plural": {
+              "allPluralGenders": "chwytacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "chwyta"
+            },
+            "plural": {
+              "allPluralGenders": "chwytają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "chwycić",
+    "id": "pol-ver-0193-chwycić(to grab)",
+    "tags": [
+      "FREQ4",
+      "abstract",
+      "movement"
+    ],
+    "topics": [
+      "body",
+      "mental",
+      "school"
+    ],
+    "translations": {
+      "ENG": [
+        "to grab",
+        "to grasp"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "chwytać"
+        ]
+      },
+      "derivedTerms": [
+        "verbs nachwytać impf",
+        "pochwytać impf pochwycić pf",
+        "podchwytywać impf podchwycić pf",
+        "przechwytywać impf przechwycić pf",
+        "przychwytywać impf przychwycić pf",
+        "schwycić pf",
+        "uchwytywać impf uchwycić pf",
+        "wychwytać impf wychwytywać impf wychwycić pf",
+        "zachwycać impf zachwycić pf",
+        "adjectives chwytliwy",
+        "chwytny",
+        "nouns chwyt",
+        "chwytak"
+      ]
+    },
+    "inflections": {
+      "infinitive": "chwycić",
+      "verbalNoun": "chwycenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "chwycony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "chwyciwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "chwyci się"
+            },
+            "plural": {
+              "allPluralGenders": "chwyci się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "chwycę"
+            },
+            "plural": {
+              "allPluralGenders": "chwycimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "chwycisz"
+            },
+            "plural": {
+              "allPluralGenders": "chwycicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "chwyci"
+            },
+            "plural": {
+              "allPluralGenders": "chwycą"
+            }
+          }
+        },
+        "imperative": "chwyć",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "chwycono"
+            },
+            "plural": {
+              "allPluralGenders": "chwycono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "chwyciłem",
+              "f": "chwyciłam"
+            },
+            "plural": {
+              "virile": "chwyciliśmy",
+              "nonvirile": "chwyciłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "chwyciłeś",
+              "f": "chwyciłaś"
+            },
+            "plural": {
+              "virile": "chwyciliście",
+              "nonvirile": "chwyciłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "chwycił",
+              "f": "chwyciła",
+              "n": "chwyciło"
+            },
+            "plural": {
+              "virile": "chwycili",
+              "nonvirile": "chwyciły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "chwycić",
+    "id": "pol-ver-0193-chwycić(to catch)",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
+        "to catch"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "chwytać"
+        ]
+      },
+      "derivedTerms": [
+        "verbs nachwytać impf",
+        "pochwytać impf pochwycić pf",
+        "podchwytywać impf podchwycić pf",
+        "przechwytywać impf przechwycić pf",
+        "przychwytywać impf przychwycić pf",
+        "schwycić pf",
+        "uchwytywać impf uchwycić pf",
+        "wychwytać impf wychwytywać impf wychwycić pf",
+        "zachwycać impf zachwycić pf",
+        "adjectives chwytliwy",
+        "chwytny",
+        "nouns chwyt",
+        "chwytak"
+      ]
+    },
+    "inflections": {
+      "infinitive": "chwycić",
+      "verbalNoun": "chwycenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "chwycony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "chwyciwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "chwyci się"
+            },
+            "plural": {
+              "allPluralGenders": "chwyci się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "chwycę"
+            },
+            "plural": {
+              "allPluralGenders": "chwycimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "chwycisz"
+            },
+            "plural": {
+              "allPluralGenders": "chwycicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "chwyci"
+            },
+            "plural": {
+              "allPluralGenders": "chwycą"
+            }
+          }
+        },
+        "imperative": "chwyć",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "chwycono"
+            },
+            "plural": {
+              "allPluralGenders": "chwycono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "chwyciłem",
+              "f": "chwyciłam"
+            },
+            "plural": {
+              "virile": "chwyciliśmy",
+              "nonvirile": "chwyciłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "chwyciłeś",
+              "f": "chwyciłaś"
+            },
+            "plural": {
+              "virile": "chwyciliście",
+              "nonvirile": "chwyciłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "chwycił",
+              "f": "chwyciła",
+              "n": "chwyciło"
+            },
+            "plural": {
+              "virile": "chwycili",
+              "nonvirile": "chwyciły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "dostosować",
+    "id": "pol-ver-0194-dostosować",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "school",
+      "work"
+    ],
+    "translations": {
+      "ENG": [
+        "to adjust[i]",
+        "to adapt"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "dostosowywać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "dostosować",
+      "verbalNoun": "dostosowanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "dostosowany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "dostosowawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dostosuje się"
+            },
+            "plural": {
+              "allPluralGenders": "dostosuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dostosuję"
+            },
+            "plural": {
+              "allPluralGenders": "dostosujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dostosujesz"
+            },
+            "plural": {
+              "allPluralGenders": "dostosujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dostosuje"
+            },
+            "plural": {
+              "allPluralGenders": "dostosują"
+            }
+          }
+        },
+        "imperative": "dostosuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dostosowano"
+            },
+            "plural": {
+              "allPluralGenders": "dostosowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dostosowałem",
+              "f": "dostosowałam"
+            },
+            "plural": {
+              "virile": "dostosowaliśmy",
+              "nonvirile": "dostosowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dostosowałeś",
+              "f": "dostosowałaś"
+            },
+            "plural": {
+              "virile": "dostosowaliście",
+              "nonvirile": "dostosowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dostosował",
+              "f": "dostosowała",
+              "n": "dostosowało"
+            },
+            "plural": {
+              "virile": "dostosowali",
+              "nonvirile": "dostosowały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "dostosowywać",
+    "id": "pol-ver-0195-dostosowywać",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "school",
+      "work"
+    ],
+    "translations": {
+      "ENG": [
+        "to adjust[i]",
+        "to adapt"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "dostosować"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "dostosowywać",
+      "verbalNoun": "dostosowywanie",
+      "activeAdjectival": "dostosowujący",
+      "passiveAdjectival": "dostosowywany",
+      "contemporaryAdverbial": "dostosowując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "dostosowuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dostosowywano"
+            },
+            "plural": {
+              "allPluralGenders": "dostosowywano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dostosowywałem",
+              "f": "dostosowywałam"
+            },
+            "plural": {
+              "virile": "dostosowywaliśmy",
+              "nonvirile": "dostosowywałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dostosowywałeś",
+              "f": "dostosowywałaś"
+            },
+            "plural": {
+              "virile": "dostosowywaliście",
+              "nonvirile": "dostosowywałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dostosowywał",
+              "f": "dostosowywała",
+              "n": "dostosowywało"
+            },
+            "plural": {
+              "virile": "dostosowywali",
+              "nonvirile": "dostosowywały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dostosowuje się"
+            },
+            "plural": {
+              "allPluralGenders": "dostosowuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dostosowuję"
+            },
+            "plural": {
+              "allPluralGenders": "dostosowujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dostosowujesz"
+            },
+            "plural": {
+              "allPluralGenders": "dostosowujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dostosowuje"
+            },
+            "plural": {
+              "allPluralGenders": "dostosowują"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "dokończyć",
+    "id": "pol-ver-0196-dokończyć",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "school",
+      "time",
+      "work"
+    ],
+    "translations": {
+      "ENG": [
+        "to end",
+        "to finish",
+        "to complete"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "dokańczać"
+        ]
+      },
+      "derivedTerms": [
+        "verbs skończyć",
+        "ukańczać",
+        "ukończyć",
+        "wykańczać",
+        "wykończyć",
+        "zakańczać",
+        "zakończyć"
+      ]
+    },
+    "inflections": {
+      "infinitive": "dokończyć",
+      "verbalNoun": "dokończenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "dokończony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "dokończywszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dokończy się"
+            },
+            "plural": {
+              "allPluralGenders": "dokończy się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dokończę"
+            },
+            "plural": {
+              "allPluralGenders": "dokończymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dokończysz"
+            },
+            "plural": {
+              "allPluralGenders": "dokończycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dokończy"
+            },
+            "plural": {
+              "allPluralGenders": "dokończą"
+            }
+          }
+        },
+        "imperative": "dokończ",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dokończono"
+            },
+            "plural": {
+              "allPluralGenders": "dokończono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dokończyłem",
+              "f": "dokończyłam"
+            },
+            "plural": {
+              "virile": "dokończyliśmy",
+              "nonvirile": "dokończyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dokończyłeś",
+              "f": "dokończyłaś"
+            },
+            "plural": {
+              "virile": "dokończyliście",
+              "nonvirile": "dokończyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dokończył",
+              "f": "dokończyła",
+              "n": "dokończyło"
+            },
+            "plural": {
+              "virile": "dokończyli",
+              "nonvirile": "dokończyły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "dojechać",
+    "id": "pol-ver-0197-dojechać",
+    "tags": [
+      "FREQ3",
+      "concrete"
+    ],
+    "topics": [
+      "travel"
+    ],
+    "translations": {
+      "ENG": [
+        "to arrive[i]"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "dojeżdżać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "dojechać",
+      "verbalNoun": "dojechanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "dojechawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dojedzie się"
+            },
+            "plural": {
+              "allPluralGenders": "dojedzie się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dojadę"
+            },
+            "plural": {
+              "allPluralGenders": "dojedziemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dojedziesz"
+            },
+            "plural": {
+              "allPluralGenders": "dojedziecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dojedzie"
+            },
+            "plural": {
+              "allPluralGenders": "dojadą"
+            }
+          }
+        },
+        "imperative": "dojedź",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dojechano"
+            },
+            "plural": {
+              "allPluralGenders": "dojechano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dojechałem",
+              "f": "dojechałam"
+            },
+            "plural": {
+              "virile": "dojechaliśmy",
+              "nonvirile": "dojechałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dojechałeś",
+              "f": "dojechałaś"
+            },
+            "plural": {
+              "virile": "dojechaliście",
+              "nonvirile": "dojechałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dojechał",
+              "f": "dojechała",
+              "n": "dojechało"
+            },
+            "plural": {
+              "virile": "dojechali",
+              "nonvirile": "dojechały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "dojeżdżać",
+    "id": "pol-ver-0198-dojeżdżać",
+    "tags": [
+      "FREQ3",
+      "concrete"
+    ],
+    "topics": [
+      "travel"
+    ],
+    "translations": {
+      "ENG": [
+        "to arrive[i]"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "dojechać"
+        ]
+      },
+      "derivedTerms": []
+    },
+    "inflections": {
+      "infinitive": "dojeżdżać",
+      "verbalNoun": "dojeżdżanie",
+      "activeAdjectival": "dojeżdżający",
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": "dojeżdżając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "dojeżdżaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dojeżdżano"
+            },
+            "plural": {
+              "allPluralGenders": "dojeżdżano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dojeżdżałem",
+              "f": "dojeżdżałam"
+            },
+            "plural": {
+              "virile": "dojeżdżaliśmy",
+              "nonvirile": "dojeżdżałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dojeżdżałeś",
+              "f": "dojeżdżałaś"
+            },
+            "plural": {
+              "virile": "dojeżdżaliście",
+              "nonvirile": "dojeżdżałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dojeżdżał",
+              "f": "dojeżdżała",
+              "n": "dojeżdżało"
+            },
+            "plural": {
+              "virile": "dojeżdżali",
+              "nonvirile": "dojeżdżały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dojeżdża się"
+            },
+            "plural": {
+              "allPluralGenders": "dojeżdża się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dojeżdżam"
+            },
+            "plural": {
+              "allPluralGenders": "dojeżdżamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dojeżdżasz"
+            },
+            "plural": {
+              "allPluralGenders": "dojeżdżacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dojeżdża"
+            },
+            "plural": {
+              "allPluralGenders": "dojeżdżają"
+            }
+          }
+        }
+      }
+    },
+    "allohomInfo": null
+  },
+  {
+    "lemma": "badać",
+    "id": "pol-ver-0199-badać(to research)",
+    "tags": [
+      "FREQ3",
+      "concrete"
+    ],
+    "topics": [
+      "biology",
+      "chemistry",
+      "knowledge and existence",
+      "physics",
+      "school",
+      "science"
+    ],
+    "translations": {
+      "ENG": [
+        "to research",
+        "to study",
+        "to investigate"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "badać chorego/pacjenta ― to examine a patient badać ofiarę ― to examine a victim badać brzuch ― to check (someone's) stomach badać puls ― to check (someone's) pulse badać wzrok ― to check one's vision",
+        "badać dialekt ― to research a dialect badać faunę i florę ― to research flora and fauna badać galaktykę ― to study a galaxy badać hipotezę ― to examine/test a hypothesis badać krew ― to test blood badać okoliczności ― to examine/test one's surroundings badać problem ― to analyze/investigate a problem badać przyczyny ― to investigate the causes badać skutki (czegoś) ― to examine/study the effects (of something) badać sprawę ― to investigate/poke around (something) badać strukturę ― to study a structure badać właściwości (czegoś) ― to study the properties (of something)",
+        "badać reakcję ― to gauge a reaction badać alkomatem ― to breathalyze badać językiem ― to give a taste test badać wzrokiem ― to inspect/examine (with one's eyes)"
+      ],
+      "otherShapes": {
+        "perfective": [
+          "zbadać"
+        ]
+      },
+      "derivedTerms": [
+        "adjective badawczy",
+        "adverb badawczo",
+        "nouns badacz",
+        "badaczka",
+        "badana",
+        "badanie",
+        "badany",
+        "badawczość",
+        "verbs badać grunt",
+        "pobadać",
+        "przebadać",
+        "wybadać",
+        "wybadać grunt",
+        "wybadywać"
+      ]
+    },
+    "inflections": {
+      "infinitive": "badać",
+      "verbalNoun": "badanie",
+      "activeAdjectival": "badający",
+      "passiveAdjectival": "badany",
+      "contemporaryAdverbial": "badając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "badaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "badano"
+            },
+            "plural": {
+              "allPluralGenders": "badano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "badałem",
+              "f": "badałam"
+            },
+            "plural": {
+              "virile": "badaliśmy",
+              "nonvirile": "badałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "badałeś",
+              "f": "badałaś"
+            },
+            "plural": {
+              "virile": "badaliście",
+              "nonvirile": "badałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "badał",
+              "f": "badała",
+              "n": "badało"
+            },
+            "plural": {
+              "virile": "badali",
+              "nonvirile": "badały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "bada się"
+            },
+            "plural": {
+              "allPluralGenders": "bada się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "badam"
+            },
+            "plural": {
+              "allPluralGenders": "badamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "badasz"
+            },
+            "plural": {
+              "allPluralGenders": "badacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "bada"
+            },
+            "plural": {
+              "allPluralGenders": "badają"
+            }
+          }
+        }
+      }
+    },
+    "allohomInfo": null
+  },
+  {
+    "lemma": "badać",
+    "id": "pol-ver-0199-badać(to test)",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
+        "to test"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "badać chorego/pacjenta ― to examine a patient badać ofiarę ― to examine a victim badać brzuch ― to check (someone's) stomach badać puls ― to check (someone's) pulse badać wzrok ― to check one's vision",
+        "badać dialekt ― to research a dialect badać faunę i florę ― to research flora and fauna badać galaktykę ― to study a galaxy badać hipotezę ― to examine/test a hypothesis badać krew ― to test blood badać okoliczności ― to examine/test one's surroundings badać problem ― to analyze/investigate a problem badać przyczyny ― to investigate the causes badać skutki (czegoś) ― to examine/study the effects (of something) badać sprawę ― to investigate/poke around (something) badać strukturę ― to study a structure badać właściwości (czegoś) ― to study the properties (of something)",
+        "badać reakcję ― to gauge a reaction badać alkomatem ― to breathalyze badać językiem ― to give a taste test badać wzrokiem ― to inspect/examine (with one's eyes)"
+      ],
+      "otherShapes": {
+        "perfective": [
+          "zbadać"
+        ]
+      },
+      "derivedTerms": [
+        "adjective badawczy",
+        "adverb badawczo",
+        "nouns badacz",
+        "badaczka",
+        "badana",
+        "badanie",
+        "badany",
+        "badawczość",
+        "verbs badać grunt",
+        "pobadać",
+        "przebadać",
+        "wybadać",
+        "wybadać grunt",
+        "wybadywać"
+      ]
+    },
+    "inflections": {
+      "infinitive": "badać",
+      "verbalNoun": "badanie",
+      "activeAdjectival": "badający",
+      "passiveAdjectival": "badany",
+      "contemporaryAdverbial": "badając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "badaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "badano"
+            },
+            "plural": {
+              "allPluralGenders": "badano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "badałem",
+              "f": "badałam"
+            },
+            "plural": {
+              "virile": "badaliśmy",
+              "nonvirile": "badałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "badałeś",
+              "f": "badałaś"
+            },
+            "plural": {
+              "virile": "badaliście",
+              "nonvirile": "badałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "badał",
+              "f": "badała",
+              "n": "badało"
+            },
+            "plural": {
+              "virile": "badali",
+              "nonvirile": "badały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "bada się"
+            },
+            "plural": {
+              "allPluralGenders": "bada się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "badam"
+            },
+            "plural": {
+              "allPluralGenders": "badamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "badasz"
+            },
+            "plural": {
+              "allPluralGenders": "badacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "bada"
+            },
+            "plural": {
+              "allPluralGenders": "badają"
+            }
+          }
+        }
+      }
+    },
+    "allohomInfo": null
+  },
+  {
+    "lemma": "badać",
+    "id": "pol-ver-0199-badać(to explore)",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
+        "to explore"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "badać chorego/pacjenta ― to examine a patient badać ofiarę ― to examine a victim badać brzuch ― to check (someone's) stomach badać puls ― to check (someone's) pulse badać wzrok ― to check one's vision",
+        "badać dialekt ― to research a dialect badać faunę i florę ― to research flora and fauna badać galaktykę ― to study a galaxy badać hipotezę ― to examine/test a hypothesis badać krew ― to test blood badać okoliczności ― to examine/test one's surroundings badać problem ― to analyze/investigate a problem badać przyczyny ― to investigate the causes badać skutki (czegoś) ― to examine/study the effects (of something) badać sprawę ― to investigate/poke around (something) badać strukturę ― to study a structure badać właściwości (czegoś) ― to study the properties (of something)",
+        "badać reakcję ― to gauge a reaction badać alkomatem ― to breathalyze badać językiem ― to give a taste test badać wzrokiem ― to inspect/examine (with one's eyes)"
+      ],
+      "otherShapes": {
+        "perfective": [
+          "zbadać"
+        ]
+      },
+      "derivedTerms": [
+        "adjective badawczy",
+        "adverb badawczo",
+        "nouns badacz",
+        "badaczka",
+        "badana",
+        "badanie",
+        "badany",
+        "badawczość",
+        "verbs badać grunt",
+        "pobadać",
+        "przebadać",
+        "wybadać",
+        "wybadać grunt",
+        "wybadywać"
+      ]
+    },
+    "inflections": {
+      "infinitive": "badać",
+      "verbalNoun": "badanie",
+      "activeAdjectival": "badający",
+      "passiveAdjectival": "badany",
+      "contemporaryAdverbial": "badając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "badaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "badano"
+            },
+            "plural": {
+              "allPluralGenders": "badano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "badałem",
+              "f": "badałam"
+            },
+            "plural": {
+              "virile": "badaliśmy",
+              "nonvirile": "badałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "badałeś",
+              "f": "badałaś"
+            },
+            "plural": {
+              "virile": "badaliście",
+              "nonvirile": "badałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "badał",
+              "f": "badała",
+              "n": "badało"
+            },
+            "plural": {
+              "virile": "badali",
+              "nonvirile": "badały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "bada się"
+            },
+            "plural": {
+              "allPluralGenders": "bada się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "badam"
+            },
+            "plural": {
+              "allPluralGenders": "badamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "badasz"
+            },
+            "plural": {
+              "allPluralGenders": "badacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "bada"
+            },
+            "plural": {
+              "allPluralGenders": "badają"
+            }
+          }
+        }
+      }
+    },
+    "allohomInfo": null
+  },
+  {
+    "lemma": "zbadać",
+    "id": "pol-ver-0200-zbadać(to research)",
+    "tags": [
+      "FREQ3",
+      "concrete"
+    ],
+    "topics": [
+      "biology",
+      "chemistry",
+      "knowledge and existence",
+      "physics",
+      "school",
+      "science"
+    ],
+    "translations": {
+      "ENG": [
+        "to research",
+        "to study",
+        "to investigate"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "badać"
+        ]
+      },
+      "derivedTerms": [
+        "adjective badawczy",
+        "adverb badawczo",
+        "nouns badacz",
+        "badaczka",
+        "badana",
+        "badanie",
+        "badany",
+        "badawczość",
+        "verbs pobadać",
+        "przebadać",
+        "wybadać",
+        "wybadywać"
+      ]
+    },
+    "inflections": {
+      "infinitive": "zbadać",
+      "verbalNoun": "zbadanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zbadany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zbadawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zbada się"
+            },
+            "plural": {
+              "allPluralGenders": "zbada się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zbadam"
+            },
+            "plural": {
+              "allPluralGenders": "zbadamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zbadasz"
+            },
+            "plural": {
+              "allPluralGenders": "zbadacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zbada"
+            },
+            "plural": {
+              "allPluralGenders": "zbadają"
+            }
+          }
+        },
+        "imperative": "zbadaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zbadano"
+            },
+            "plural": {
+              "allPluralGenders": "zbadano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zbadałem",
+              "f": "zbadałam"
+            },
+            "plural": {
+              "virile": "zbadaliśmy",
+              "nonvirile": "zbadałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zbadałeś",
+              "f": "zbadałaś"
+            },
+            "plural": {
+              "virile": "zbadaliście",
+              "nonvirile": "zbadałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zbadał",
+              "f": "zbadała",
+              "n": "zbadało"
+            },
+            "plural": {
+              "virile": "zbadali",
+              "nonvirile": "zbadały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "zbadać",
+    "id": "pol-ver-0200-zbadać(to test)",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
+        "to test"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "badać"
+        ]
+      },
+      "derivedTerms": [
+        "adjective badawczy",
+        "adverb badawczo",
+        "nouns badacz",
+        "badaczka",
+        "badana",
+        "badanie",
+        "badany",
+        "badawczość",
+        "verbs pobadać",
+        "przebadać",
+        "wybadać",
+        "wybadywać"
+      ]
+    },
+    "inflections": {
+      "infinitive": "zbadać",
+      "verbalNoun": "zbadanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zbadany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zbadawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zbada się"
+            },
+            "plural": {
+              "allPluralGenders": "zbada się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zbadam"
+            },
+            "plural": {
+              "allPluralGenders": "zbadamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zbadasz"
+            },
+            "plural": {
+              "allPluralGenders": "zbadacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zbada"
+            },
+            "plural": {
+              "allPluralGenders": "zbadają"
+            }
+          }
+        },
+        "imperative": "zbadaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zbadano"
+            },
+            "plural": {
+              "allPluralGenders": "zbadano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zbadałem",
+              "f": "zbadałam"
+            },
+            "plural": {
+              "virile": "zbadaliśmy",
+              "nonvirile": "zbadałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zbadałeś",
+              "f": "zbadałaś"
+            },
+            "plural": {
+              "virile": "zbadaliście",
+              "nonvirile": "zbadałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zbadał",
+              "f": "zbadała",
+              "n": "zbadało"
+            },
+            "plural": {
+              "virile": "zbadali",
+              "nonvirile": "zbadały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "zbadać",
+    "id": "pol-ver-0200-zbadać(to explore)",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
+        "to explore"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "badać"
+        ]
+      },
+      "derivedTerms": [
+        "adjective badawczy",
+        "adverb badawczo",
+        "nouns badacz",
+        "badaczka",
+        "badana",
+        "badanie",
+        "badany",
+        "badawczość",
+        "verbs pobadać",
+        "przebadać",
+        "wybadać",
+        "wybadywać"
+      ]
+    },
+    "inflections": {
+      "infinitive": "zbadać",
+      "verbalNoun": "zbadanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zbadany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zbadawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zbada się"
+            },
+            "plural": {
+              "allPluralGenders": "zbada się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zbadam"
+            },
+            "plural": {
+              "allPluralGenders": "zbadamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zbadasz"
+            },
+            "plural": {
+              "allPluralGenders": "zbadacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zbada"
+            },
+            "plural": {
+              "allPluralGenders": "zbadają"
+            }
+          }
+        },
+        "imperative": "zbadaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zbadano"
+            },
+            "plural": {
+              "allPluralGenders": "zbadano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zbadałem",
+              "f": "zbadałam"
+            },
+            "plural": {
+              "virile": "zbadaliśmy",
+              "nonvirile": "zbadałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zbadałeś",
+              "f": "zbadałaś"
+            },
+            "plural": {
+              "virile": "zbadaliście",
+              "nonvirile": "zbadałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zbadał",
+              "f": "zbadała",
+              "n": "zbadało"
+            },
+            "plural": {
+              "virile": "zbadali",
+              "nonvirile": "zbadały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "dogadać",
+    "id": "pol-ver-0201-dogadać",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "to get along with[r]"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "dogadywać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "dogadać",
+      "verbalNoun": "dogadanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "dogadany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "dogadawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dogada się"
+            },
+            "plural": {
+              "allPluralGenders": "dogada się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dogadam"
+            },
+            "plural": {
+              "allPluralGenders": "dogadamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dogadasz"
+            },
+            "plural": {
+              "allPluralGenders": "dogadacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dogada"
+            },
+            "plural": {
+              "allPluralGenders": "dogadają"
+            }
+          }
+        },
+        "imperative": "dogadaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dogadano"
+            },
+            "plural": {
+              "allPluralGenders": "dogadano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dogadałem",
+              "f": "dogadałam"
+            },
+            "plural": {
+              "virile": "dogadaliśmy",
+              "nonvirile": "dogadałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dogadałeś",
+              "f": "dogadałaś"
+            },
+            "plural": {
+              "virile": "dogadaliście",
+              "nonvirile": "dogadałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dogadał",
+              "f": "dogadała",
+              "n": "dogadało"
+            },
+            "plural": {
+              "virile": "dogadali",
+              "nonvirile": "dogadały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "dogadywać",
+    "id": "pol-ver-0202-dogadywać",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "to get along with[r]"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "dogadać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "dogadywać",
+      "verbalNoun": "dogadywanie",
+      "activeAdjectival": "dogadujący",
+      "passiveAdjectival": "dogadywany",
+      "contemporaryAdverbial": "dogadując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "dogaduj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dogadywano"
+            },
+            "plural": {
+              "allPluralGenders": "dogadywano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dogadywałem",
+              "f": "dogadywałam"
+            },
+            "plural": {
+              "virile": "dogadywaliśmy",
+              "nonvirile": "dogadywałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dogadywałeś",
+              "f": "dogadywałaś"
+            },
+            "plural": {
+              "virile": "dogadywaliście",
+              "nonvirile": "dogadywałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dogadywał",
+              "f": "dogadywała",
+              "n": "dogadywało"
+            },
+            "plural": {
+              "virile": "dogadywali",
+              "nonvirile": "dogadywały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dogaduje się"
+            },
+            "plural": {
+              "allPluralGenders": "dogaduje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dogaduję"
+            },
+            "plural": {
+              "allPluralGenders": "dogadujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dogadujesz"
+            },
+            "plural": {
+              "allPluralGenders": "dogadujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dogaduje"
+            },
+            "plural": {
+              "allPluralGenders": "dogadują"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "czuć",
+    "id": "pol-ver-0203-czuć(to feel)",
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "perception"
+    ],
+    "topics": [
+      "mental",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "to feel"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "poczuć"
+        ]
+      },
+      "derivedTerms": [
+        "adjectives czujny",
+        "czuły",
+        "nouns czucie",
+        "czujnik",
+        "czułek",
+        "verbs odczuwać impf odczuć pf",
+        "poczuwać impf poczuć pf",
+        "przeczuwać impf przeczuć pf",
+        "uczuwać impf uczuć pf",
+        "wczuwać impf wczuć pf",
+        "współczuć impf",
+        "wyczuwać impf wyczuć pf",
+        "zaczuwać impf zaczuć pf",
+        "verb czuwać impf"
+      ]
+    },
+    "inflections": {
+      "infinitive": "czuć",
+      "verbalNoun": "czucie",
+      "activeAdjectival": "czujący",
+      "passiveAdjectival": "czuty",
+      "contemporaryAdverbial": "czując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "czuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "czuto"
+            },
+            "plural": {
+              "allPluralGenders": "czuto"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "czułem",
+              "f": "czułam"
+            },
+            "plural": {
+              "virile": "czuliśmy",
+              "nonvirile": "czułyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "czułeś",
+              "f": "czułaś"
+            },
+            "plural": {
+              "virile": "czuliście",
+              "nonvirile": "czułyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "czuł",
+              "f": "czuła",
+              "n": "czuło"
+            },
+            "plural": {
+              "virile": "czuli",
+              "nonvirile": "czuły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "czuje się"
+            },
+            "plural": {
+              "allPluralGenders": "czuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "czuję"
+            },
+            "plural": {
+              "allPluralGenders": "czujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "czujesz"
+            },
+            "plural": {
+              "allPluralGenders": "czujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "czuje"
+            },
+            "plural": {
+              "allPluralGenders": "czują"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "czuć",
+    "id": "pol-ver-0203-czuć(to smell)",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
+        "to smell"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "poczuć"
+        ]
+      },
+      "derivedTerms": [
+        "adjectives czujny",
+        "czuły",
+        "nouns czucie",
+        "czujnik",
+        "czułek",
+        "verbs odczuwać impf odczuć pf",
+        "poczuwać impf poczuć pf",
+        "przeczuwać impf przeczuć pf",
+        "uczuwać impf uczuć pf",
+        "wczuwać impf wczuć pf",
+        "współczuć impf",
+        "wyczuwać impf wyczuć pf",
+        "zaczuwać impf zaczuć pf",
+        "verb czuwać impf"
+      ]
+    },
+    "inflections": {
+      "infinitive": "czuć",
+      "verbalNoun": "czucie",
+      "activeAdjectival": "czujący",
+      "passiveAdjectival": "czuty",
+      "contemporaryAdverbial": "czując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "czuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "czuto"
+            },
+            "plural": {
+              "allPluralGenders": "czuto"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "czułem",
+              "f": "czułam"
+            },
+            "plural": {
+              "virile": "czuliśmy",
+              "nonvirile": "czułyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "czułeś",
+              "f": "czułaś"
+            },
+            "plural": {
+              "virile": "czuliście",
+              "nonvirile": "czułyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "czuł",
+              "f": "czuła",
+              "n": "czuło"
+            },
+            "plural": {
+              "virile": "czuli",
+              "nonvirile": "czuły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "czuje się"
+            },
+            "plural": {
+              "allPluralGenders": "czuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "czuję"
+            },
+            "plural": {
+              "allPluralGenders": "czujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "czujesz"
+            },
+            "plural": {
+              "allPluralGenders": "czujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "czuje"
+            },
+            "plural": {
+              "allPluralGenders": "czują"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "czuć",
+    "id": "pol-ver-0203-czuć(to feel[r])",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
+        "to feel[r]"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "poczuć"
+        ]
+      },
+      "derivedTerms": [
+        "adjectives czujny",
+        "czuły",
+        "nouns czucie",
+        "czujnik",
+        "czułek",
+        "verbs odczuwać impf odczuć pf",
+        "poczuwać impf poczuć pf",
+        "przeczuwać impf przeczuć pf",
+        "uczuwać impf uczuć pf",
+        "wczuwać impf wczuć pf",
+        "współczuć impf",
+        "wyczuwać impf wyczuć pf",
+        "zaczuwać impf zaczuć pf",
+        "verb czuwać impf"
+      ]
+    },
+    "inflections": {
+      "infinitive": "czuć",
+      "verbalNoun": "czucie",
+      "activeAdjectival": "czujący",
+      "passiveAdjectival": "czuty",
+      "contemporaryAdverbial": "czując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "czuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "czuto"
+            },
+            "plural": {
+              "allPluralGenders": "czuto"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "czułem",
+              "f": "czułam"
+            },
+            "plural": {
+              "virile": "czuliśmy",
+              "nonvirile": "czułyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "czułeś",
+              "f": "czułaś"
+            },
+            "plural": {
+              "virile": "czuliście",
+              "nonvirile": "czułyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "czuł",
+              "f": "czuła",
+              "n": "czuło"
+            },
+            "plural": {
+              "virile": "czuli",
+              "nonvirile": "czuły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "czuje się"
+            },
+            "plural": {
+              "allPluralGenders": "czuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "czuję"
+            },
+            "plural": {
+              "allPluralGenders": "czujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "czujesz"
+            },
+            "plural": {
+              "allPluralGenders": "czujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "czuje"
+            },
+            "plural": {
+              "allPluralGenders": "czują"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "poczuć",
+    "id": "pol-ver-0204-poczuć(to feel)",
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "perception"
+    ],
+    "topics": [
+      "mental",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "to feel"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "czuć"
+        ]
+      },
+      "derivedTerms": [
+        "noun poczucie"
+      ]
+    },
+    "inflections": {
+      "infinitive": "poczuć",
+      "verbalNoun": "poczucie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "poczuty",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "poczuwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "poczuje się"
+            },
+            "plural": {
+              "allPluralGenders": "poczuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "poczuję"
+            },
+            "plural": {
+              "allPluralGenders": "poczujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "poczujesz"
+            },
+            "plural": {
+              "allPluralGenders": "poczujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "poczuje"
+            },
+            "plural": {
+              "allPluralGenders": "poczują"
+            }
+          }
+        },
+        "imperative": "poczuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "poczuto"
+            },
+            "plural": {
+              "allPluralGenders": "poczuto"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "poczułem",
+              "f": "poczułam"
+            },
+            "plural": {
+              "virile": "poczuliśmy",
+              "nonvirile": "poczułyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "poczułeś",
+              "f": "poczułaś"
+            },
+            "plural": {
+              "virile": "poczuliście",
+              "nonvirile": "poczułyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "poczuł",
+              "f": "poczuła",
+              "n": "poczuło"
+            },
+            "plural": {
+              "virile": "poczuli",
+              "nonvirile": "poczuły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "poczuć",
+    "id": "pol-ver-0204-poczuć(to smell)",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
+        "to smell"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "czuć"
+        ]
+      },
+      "derivedTerms": [
+        "noun poczucie"
+      ]
+    },
+    "inflections": {
+      "infinitive": "poczuć",
+      "verbalNoun": "poczucie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "poczuty",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "poczuwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "poczuje się"
+            },
+            "plural": {
+              "allPluralGenders": "poczuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "poczuję"
+            },
+            "plural": {
+              "allPluralGenders": "poczujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "poczujesz"
+            },
+            "plural": {
+              "allPluralGenders": "poczujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "poczuje"
+            },
+            "plural": {
+              "allPluralGenders": "poczują"
+            }
+          }
+        },
+        "imperative": "poczuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "poczuto"
+            },
+            "plural": {
+              "allPluralGenders": "poczuto"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "poczułem",
+              "f": "poczułam"
+            },
+            "plural": {
+              "virile": "poczuliśmy",
+              "nonvirile": "poczułyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "poczułeś",
+              "f": "poczułaś"
+            },
+            "plural": {
+              "virile": "poczuliście",
+              "nonvirile": "poczułyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "poczuł",
+              "f": "poczuła",
+              "n": "poczuło"
+            },
+            "plural": {
+              "virile": "poczuli",
+              "nonvirile": "poczuły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "poczuć",
+    "id": "pol-ver-0204-poczuć(to feel[r])",
+    "tags": "🏁",
+    "topics": null,
+    "translations": {
+      "ENG": [
+        "to feel[r]"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "czuć"
+        ]
+      },
+      "derivedTerms": [
+        "noun poczucie"
+      ]
+    },
+    "inflections": {
+      "infinitive": "poczuć",
+      "verbalNoun": "poczucie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "poczuty",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "poczuwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "poczuje się"
+            },
+            "plural": {
+              "allPluralGenders": "poczuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "poczuję"
+            },
+            "plural": {
+              "allPluralGenders": "poczujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "poczujesz"
+            },
+            "plural": {
+              "allPluralGenders": "poczujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "poczuje"
+            },
+            "plural": {
+              "allPluralGenders": "poczują"
+            }
+          }
+        },
+        "imperative": "poczuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "poczuto"
+            },
+            "plural": {
+              "allPluralGenders": "poczuto"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "poczułem",
+              "f": "poczułam"
+            },
+            "plural": {
+              "virile": "poczuliśmy",
+              "nonvirile": "poczułyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "poczułeś",
+              "f": "poczułaś"
+            },
+            "plural": {
+              "virile": "poczuliście",
+              "nonvirile": "poczułyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "poczuł",
+              "f": "poczuła",
+              "n": "poczuło"
+            },
+            "plural": {
+              "virile": "poczuli",
+              "nonvirile": "poczuły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "atakować",
+    "id": "pol-ver-0205-atakować",
+    "tags": [
+      "FREQ5",
+      "crime",
+      "movement",
+      "concrete"
+    ],
+    "topics": [
+      "body",
+      "crime",
+      "law",
+      "violence"
+    ],
+    "translations": {
+      "ENG": [
+        "to attack"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "zaatakować"
+        ]
+      },
+      "derivedTerms": [
+        "noun atak"
+      ]
+    },
+    "inflections": {
+      "infinitive": "atakować",
+      "verbalNoun": "atakowanie",
+      "activeAdjectival": "atakujący",
+      "passiveAdjectival": "atakowany",
+      "contemporaryAdverbial": "atakując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "atakuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "atakowano"
+            },
+            "plural": {
+              "allPluralGenders": "atakowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "atakowałem",
+              "f": "atakowałam"
+            },
+            "plural": {
+              "virile": "atakowaliśmy",
+              "nonvirile": "atakowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "atakowałeś",
+              "f": "atakowałaś"
+            },
+            "plural": {
+              "virile": "atakowaliście",
+              "nonvirile": "atakowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "atakował",
+              "f": "atakowała",
+              "n": "atakowało"
+            },
+            "plural": {
+              "virile": "atakowali",
+              "nonvirile": "atakowały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "atakuje się"
+            },
+            "plural": {
+              "allPluralGenders": "atakuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "atakuję"
+            },
+            "plural": {
+              "allPluralGenders": "atakujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "atakujesz"
+            },
+            "plural": {
+              "allPluralGenders": "atakujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "atakuje"
+            },
+            "plural": {
+              "allPluralGenders": "atakują"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "zaatakować",
+    "id": "pol-ver-0206-zaatakować",
+    "tags": [
+      "FREQ5",
+      "crime",
+      "movement",
+      "concrete"
+    ],
+    "topics": [
+      "body",
+      "crime",
+      "law",
+      "violence"
+    ],
+    "translations": {
+      "ENG": [
+        "to attack"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "atakować"
+        ]
+      },
+      "derivedTerms": [
+        "noun atak"
+      ]
+    },
+    "inflections": {
+      "infinitive": "zaatakować",
+      "verbalNoun": "zaatakowanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zaatakowany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zaatakowawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zaatakuje się"
+            },
+            "plural": {
+              "allPluralGenders": "zaatakuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zaatakuję"
+            },
+            "plural": {
+              "allPluralGenders": "zaatakujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zaatakujesz"
+            },
+            "plural": {
+              "allPluralGenders": "zaatakujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zaatakuje"
+            },
+            "plural": {
+              "allPluralGenders": "zaatakują"
+            }
+          }
+        },
+        "imperative": "zaatakuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zaatakowano"
+            },
+            "plural": {
+              "allPluralGenders": "zaatakowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zaatakowałem",
+              "f": "zaatakowałam"
+            },
+            "plural": {
+              "virile": "zaatakowaliśmy",
+              "nonvirile": "zaatakowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zaatakowałeś",
+              "f": "zaatakowałaś"
+            },
+            "plural": {
+              "virile": "zaatakowaliście",
+              "nonvirile": "zaatakowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zaatakował",
+              "f": "zaatakowała",
+              "n": "zaatakowało"
+            },
+            "plural": {
+              "virile": "zaatakowali",
+              "nonvirile": "zaatakowały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "budować",
+    "id": "pol-ver-0207-budować",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "engineering"
+    ],
+    "translations": {
+      "ENG": [
+        "to build",
+        "to construct"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "zbudować"
+        ]
+      },
+      "derivedTerms": [
+        "verbs dobudowywać impf dobudować pf",
+        "nabudować pf",
+        "nadbudowywać impf nadbudować pf",
+        "obudowywać impf obudować pf",
+        "odbudowywać impf odbudować pf",
+        "pobudować pf",
+        "podbudowywać impf podbudować pf",
+        "przebudowywać impf przebudować pf",
+        "przybudowywać impf przybudować pf",
+        "rozbudowywać impf rozbudować pf",
+        "wbudowywać impf wbudować pf",
+        "wybudować pf",
+        "zabudowywać impf zabudować pf",
+        "adjective budowniczy",
+        "noun budowa"
+      ]
+    },
+    "inflections": {
+      "infinitive": "budować",
+      "verbalNoun": "budowanie",
+      "activeAdjectival": "budujący",
+      "passiveAdjectival": "budowany",
+      "contemporaryAdverbial": "budując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "buduj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "budowano"
+            },
+            "plural": {
+              "allPluralGenders": "budowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "budowałem",
+              "f": "budowałam"
+            },
+            "plural": {
+              "virile": "budowaliśmy",
+              "nonvirile": "budowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "budowałeś",
+              "f": "budowałaś"
+            },
+            "plural": {
+              "virile": "budowaliście",
+              "nonvirile": "budowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "budował",
+              "f": "budowała",
+              "n": "budowało"
+            },
+            "plural": {
+              "virile": "budowali",
+              "nonvirile": "budowały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "buduje się"
+            },
+            "plural": {
+              "allPluralGenders": "buduje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "buduję"
+            },
+            "plural": {
+              "allPluralGenders": "budujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "budujesz"
+            },
+            "plural": {
+              "allPluralGenders": "budujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "buduje"
+            },
+            "plural": {
+              "allPluralGenders": "budują"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "zbudować",
+    "id": "pol-ver-0208-zbudować",
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "engineering"
+    ],
+    "translations": {
+      "ENG": [
+        "to build",
+        "to construct"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "budować"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "zbudować",
+      "verbalNoun": "zbudowanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zbudowany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zbudowawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zbuduje się"
+            },
+            "plural": {
+              "allPluralGenders": "zbuduje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zbuduję"
+            },
+            "plural": {
+              "allPluralGenders": "zbudujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zbudujesz"
+            },
+            "plural": {
+              "allPluralGenders": "zbudujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zbuduje"
+            },
+            "plural": {
+              "allPluralGenders": "zbudują"
+            }
+          }
+        },
+        "imperative": "zbuduj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zbudowano"
+            },
+            "plural": {
+              "allPluralGenders": "zbudowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zbudowałem",
+              "f": "zbudowałam"
+            },
+            "plural": {
+              "virile": "zbudowaliśmy",
+              "nonvirile": "zbudowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zbudowałeś",
+              "f": "zbudowałaś"
+            },
+            "plural": {
+              "virile": "zbudowaliście",
+              "nonvirile": "zbudowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zbudował",
+              "f": "zbudowała",
+              "n": "zbudowało"
+            },
+            "plural": {
+              "virile": "zbudowali",
+              "nonvirile": "zbudowały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
   }
 ]
