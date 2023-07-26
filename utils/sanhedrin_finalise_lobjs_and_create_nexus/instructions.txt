@@ -32,7 +32,7 @@ D1) Run "S03_expand_tags.py"
     - to expand any shorthand tags you have added to "nou_batch_01_SRC.json" in step C)
     Modifies "nou_batch_01_SRC.json"
 
-D2) Regex search for "" and "[qwertyuiopasdghjklzxcvb ]" in newly created SRC file.
+D2) Regex search for "" and "[qwertyuiopasdghjklzxcvb ]" in SRC file.
     - to catch badly generated tags.
 
 
