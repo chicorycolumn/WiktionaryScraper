@@ -33127,8 +33127,15 @@
   {
     "lemma": "czuć",
     "id": "pol-ver-0203-czuć(to smell)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "perception"
+    ],
+    "topics": [
+      "mental",
+      "sense and perception"
+    ],
     "translations": {
       "ENG": [
         "to smell"
@@ -33251,8 +33258,15 @@
   {
     "lemma": "czuć",
     "id": "pol-ver-0203-czuć(to feel[r])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "perception"
+    ],
+    "topics": [
+      "mental",
+      "sense and perception"
+    ],
     "translations": {
       "ENG": [
         "to feel[r]"
@@ -33493,8 +33507,15 @@
   {
     "lemma": "poczuć",
     "id": "pol-ver-0204-poczuć(to smell)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "perception"
+    ],
+    "topics": [
+      "mental",
+      "sense and perception"
+    ],
     "translations": {
       "ENG": [
         "to smell"
@@ -33604,8 +33625,15 @@
   {
     "lemma": "poczuć",
     "id": "pol-ver-0204-poczuć(to feel[r])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "perception"
+    ],
+    "topics": [
+      "mental",
+      "sense and perception"
+    ],
     "translations": {
       "ENG": [
         "to feel[r]"
@@ -35296,7 +35324,7 @@
   {
     "lemma": "chwalić",
     "id": "pol-ver-0217-chwalić(to boast)",
-    "tags": "🏁",
+    "tags": "5sr",
     "topics": null,
     "translations": {
       "ENG": [
@@ -35529,7 +35557,7 @@
   {
     "lemma": "pochwalić",
     "id": "pol-ver-0218-pochwalić(to boast)",
-    "tags": "🏁",
+    "tags": "5sr",
     "topics": null,
     "translations": {
       "ENG": [
@@ -37906,14 +37934,8 @@
   {
     "lemma": "dołączyć",
     "id": "pol-ver-0237-dołączyć(to attach)",
-    "tags": [
-      "FREQ4",
-      "concrete"
-    ],
-    "topics": [
-      "people",
-      "sociology"
-    ],
+    "tags": "4eng",
+    "topics": null,
     "translations": {
       "ENG": [
         "to attach"
@@ -38020,8 +38042,14 @@
   {
     "lemma": "dołączyć",
     "id": "pol-ver-0237-dołączyć(to join[i])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "people",
+      "sociology"
+    ],
     "translations": {
       "ENG": [
         "to join[i]",
@@ -38129,14 +38157,8 @@
   {
     "lemma": "dołączać",
     "id": "pol-ver-0238-dołączać(to attach)",
-    "tags": [
-      "FREQ4",
-      "concrete"
-    ],
-    "topics": [
-      "people",
-      "sociology"
-    ],
+    "tags": "4eng",
+    "topics": null,
     "translations": {
       "ENG": [
         "to attach"
@@ -38243,8 +38265,14 @@
   {
     "lemma": "dołączać",
     "id": "pol-ver-0238-dołączać(to join[i])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "people",
+      "sociology"
+    ],
     "translations": {
       "ENG": [
         "to join[i]",
@@ -42912,8 +42940,16 @@
   {
     "lemma": "dręczyć",
     "id": "pol-ver-0275-dręczyć(to bother)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ5",
+      "abstract",
+      "emotion",
+      "negative judgment"
+    ],
+    "topics": [
+      "judgment",
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "to bother",
@@ -44820,8 +44856,15 @@
   {
     "lemma": "bronić",
     "id": "pol-ver-0292-bronić(to fight back[r])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "sport",
+      "violence",
+      "war"
+    ],
     "translations": {
       "ENG": [
         "to fight back[r]"
@@ -45059,8 +45102,15 @@
   {
     "lemma": "obronić",
     "id": "pol-ver-0293-obronić(to fight back[r])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "sport",
+      "violence",
+      "war"
+    ],
     "translations": {
       "ENG": [
         "to fight back[r]"
@@ -50653,7 +50703,7 @@
   {
     "lemma": "kwitnąć",
     "id": "pol-ver-0342-kwitnąć(to blossom)",
-    "tags": "🏁",
+    "tags": "5agr",
     "topics": null,
     "translations": {
       "ENG": [
@@ -51011,11 +51061,10 @@
     "id": "pol-ver-0347-hamować(to brake[i])",
     "tags": [
       "FREQ4",
-      "abstract"
+      "concrete"
     ],
     "topics": [
       "car",
-      "mental",
       "travel"
     ],
     "translations": {
@@ -51126,8 +51175,13 @@
   {
     "lemma": "hamować",
     "id": "pol-ver-0347-hamować(to inhibit)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract"
+    ],
+    "topics": [
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "to inhibit",
@@ -54895,8 +54949,16 @@
   {
     "lemma": "zamieszać",
     "id": "pol-ver-0377-zamieszać(to stir)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "hobbies",
+      "inside",
+      "kitchen",
+      "restaurant"
+    ],
     "translations": {
       "ENG": [
         "to stir"
@@ -55591,7 +55653,141 @@
   {
     "lemma": "męczyć",
     "id": "pol-ver-0382-męczyć(to nag)",
-    "tags": "🏁",
+    "tags": [
+      "FREQ5",
+      "abstract",
+      "emotion",
+      "negative judgment"
+    ],
+    "topics": [
+      "judgment",
+      "mental"
+    ],
+    "translations": {
+      "ENG": [
+        "to nag",
+        "to bother",
+        "to trouble"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "zmęczyć"
+        ]
+      },
+      "derivedTerms": [
+        "verbs domęczać impf domęczyć pf",
+        "namęczyć pf",
+        "pomęczyć pf",
+        "przemęczać impf przemęczyć pf",
+        "umęczać impf umęczyć pf",
+        "wymęczać impf wymęczyć pf",
+        "zamęczać impf zamęczyć pf",
+        "adjective męczący",
+        "zmęczony",
+        "adverb męcząco",
+        "noun zmęczenie",
+        "adjective miękki",
+        "noun męka",
+        "verb mięknąć impf"
+      ]
+    },
+    "inflections": {
+      "infinitive": "męczyć",
+      "verbalNoun": "męczenie",
+      "activeAdjectival": "męczący",
+      "passiveAdjectival": "męczony",
+      "contemporaryAdverbial": "męcząc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "męcz",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "męczono"
+            },
+            "plural": {
+              "allPluralGenders": "męczono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "męczyłem",
+              "f": "męczyłam"
+            },
+            "plural": {
+              "virile": "męczyliśmy",
+              "nonvirile": "męczyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "męczyłeś",
+              "f": "męczyłaś"
+            },
+            "plural": {
+              "virile": "męczyliście",
+              "nonvirile": "męczyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "męczył",
+              "f": "męczyła",
+              "n": "męczyło"
+            },
+            "plural": {
+              "virile": "męczyli",
+              "nonvirile": "męczyły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "męczy się"
+            },
+            "plural": {
+              "allPluralGenders": "męczy się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "męczę"
+            },
+            "plural": {
+              "allPluralGenders": "męczymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "męczysz"
+            },
+            "plural": {
+              "allPluralGenders": "męczycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "męczy"
+            },
+            "plural": {
+              "allPluralGenders": "męczą"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "męczyć",
+    "id": "pol-ver-0382-męczyć(to tire)",
+    "tags": "2e",
     "topics": null,
     "translations": {
       "ENG": [
@@ -55844,7 +56040,136 @@
   {
     "lemma": "zmęczyć",
     "id": "pol-ver-0383-zmęczyć(to nag)",
-    "tags": "🏁",
+    "tags": [
+      "FREQ5",
+      "abstract",
+      "emotion",
+      "negative judgment"
+    ],
+    "topics": [
+      "judgment",
+      "mental"
+    ],
+    "translations": {
+      "ENG": [
+        "to nag",
+        "to bother",
+        "to trouble"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "męczyć"
+        ]
+      },
+      "derivedTerms": [
+        "adjective zmęczony",
+        "noun zmęczenie",
+        "adjective miękki",
+        "zmęczony",
+        "adjective męczący",
+        "adverb męcząco",
+        "noun męka",
+        "verb męczyć",
+        "zmęczyć"
+      ]
+    },
+    "inflections": {
+      "infinitive": "zmęczyć",
+      "verbalNoun": "zmęczenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zmęczony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zmęczywszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zmęczy się"
+            },
+            "plural": {
+              "allPluralGenders": "zmęczy się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zmęczę"
+            },
+            "plural": {
+              "allPluralGenders": "zmęczymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zmęczysz"
+            },
+            "plural": {
+              "allPluralGenders": "zmęczycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zmęczy"
+            },
+            "plural": {
+              "allPluralGenders": "zmęczą"
+            }
+          }
+        },
+        "imperative": "zmęcz",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zmęczono"
+            },
+            "plural": {
+              "allPluralGenders": "zmęczono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zmęczyłem",
+              "f": "zmęczyłam"
+            },
+            "plural": {
+              "virile": "zmęczyliśmy",
+              "nonvirile": "zmęczyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zmęczyłeś",
+              "f": "zmęczyłaś"
+            },
+            "plural": {
+              "virile": "zmęczyliście",
+              "nonvirile": "zmęczyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zmęczył",
+              "f": "zmęczyła",
+              "n": "zmęczyło"
+            },
+            "plural": {
+              "virile": "zmęczyli",
+              "nonvirile": "zmęczyły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "zmęczyć",
+    "id": "pol-ver-0383-zmęczyć(to tire)",
+    "tags": "2e",
     "topics": null,
     "translations": {
       "ENG": [
@@ -56318,15 +56643,8 @@
   {
     "lemma": "nakładać",
     "id": "pol-ver-0387-nakładać(*to apply (e.g. sunscreen))",
-    "tags": [
-      "FREQ5",
-      "concrete"
-    ],
-    "topics": [
-      "art",
-      "engineering",
-      "politics"
-    ],
+    "tags": "5dr",
+    "topics": null,
     "translations": {
       "ENG": [
         "*to apply (e.g. sunscreen)"
@@ -56433,8 +56751,15 @@
   {
     "lemma": "nakładać",
     "id": "pol-ver-0387-nakładać(*to impose (e.g. sanctions))",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ5",
+      "concrete"
+    ],
+    "topics": [
+      "art",
+      "engineering",
+      "politics"
+    ],
     "translations": {
       "ENG": [
         "*to impose (e.g. sanctions)"
@@ -56541,15 +56866,8 @@
   {
     "lemma": "nałożyć",
     "id": "pol-ver-0388-nałożyć(*to apply (e.g. sunscreen))",
-    "tags": [
-      "FREQ5",
-      "concrete"
-    ],
-    "topics": [
-      "art",
-      "engineering",
-      "politics"
-    ],
+    "tags": "5dr",
+    "topics": null,
     "translations": {
       "ENG": [
         "*to apply (e.g. sunscreen)"
@@ -56656,8 +56974,15 @@
   {
     "lemma": "nałożyć",
     "id": "pol-ver-0388-nałożyć(*to impose (e.g. sanctions))",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ5",
+      "concrete"
+    ],
+    "topics": [
+      "art",
+      "engineering",
+      "politics"
+    ],
     "translations": {
       "ENG": [
         "*to impose (e.g. sanctions)"
@@ -61187,11 +61512,10 @@
     "lemma": "mijać",
     "id": "pol-ver-0428-mijać(to pass by)",
     "tags": [
-      "FREQ3",
+      "FREQ4",
       "concrete"
     ],
     "topics": [
-      "time",
       "travel"
     ],
     "translations": {
@@ -61315,8 +61639,13 @@
   {
     "lemma": "mijać",
     "id": "pol-ver-0428-mijać(elapse[i])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ],
     "translations": {
       "ENG": [
         "to pass",
@@ -61439,11 +61768,10 @@
     "lemma": "minąć",
     "id": "pol-ver-0429-minąć(to pass by)",
     "tags": [
-      "FREQ3",
+      "FREQ4",
       "concrete"
     ],
     "topics": [
-      "time",
       "travel"
     ],
     "translations": {
@@ -61565,8 +61893,13 @@
   {
     "lemma": "minąć",
     "id": "pol-ver-0429-minąć(elapse[i])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ],
     "translations": {
       "ENG": [
         "to pass",
@@ -65250,7 +65583,7 @@
   {
     "lemma": "odpłynąć",
     "id": "pol-ver-0461-odpłynąć(to sail away[i])",
-    "tags": "🏁",
+    "tags": "4TT,nau",
     "topics": null,
     "translations": {
       "ENG": [
@@ -65474,7 +65807,7 @@
   {
     "lemma": "odpływać",
     "id": "pol-ver-0462-odpływać(to sail away[i])",
-    "tags": "🏁",
+    "tags": "4TT,nau",
     "topics": null,
     "translations": {
       "ENG": [
@@ -65696,8 +66029,13 @@
   {
     "lemma": "oczyścić",
     "id": "pol-ver-0463-oczyścić(to purify)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "chemistry"
+    ],
     "translations": {
       "ENG": [
         "to purify"
@@ -65917,8 +66255,13 @@
   {
     "lemma": "oczyszczać",
     "id": "pol-ver-0464-oczyszczać(to purify)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "chemistry"
+    ],
     "translations": {
       "ENG": [
         "to purify"
@@ -74393,7 +74736,7 @@
   {
     "lemma": "oszukiwać",
     "id": "pol-ver-0539-oszukiwać(to cheat in a game)",
-    "tags": "🏁",
+    "tags": "3MM",
     "topics": null,
     "translations": {
       "ENG": [
@@ -74630,7 +74973,7 @@
   {
     "lemma": "oszukać",
     "id": "pol-ver-0540-oszukać(to cheat in a game)",
-    "tags": "🏁",
+    "tags": "3MM",
     "topics": null,
     "translations": {
       "ENG": [
@@ -82412,14 +82755,8 @@
   {
     "lemma": "podkreślać",
     "id": "pol-ver-0604-podkreślać(to underline)",
-    "tags": [
-      "FREQ4",
-      "abstract",
-      "speech"
-    ],
-    "topics": [
-      "mental"
-    ],
+    "tags": "5wri,oo",
+    "topics": null,
     "translations": {
       "ENG": [
         "to underline"
@@ -82531,8 +82868,14 @@
   {
     "lemma": "podkreślać",
     "id": "pol-ver-0604-podkreślać(to emphasise)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract",
+      "speech"
+    ],
+    "topics": [
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "to emphasise",
@@ -82648,14 +82991,8 @@
   {
     "lemma": "podkreślić",
     "id": "pol-ver-0605-podkreślić(to underline)",
-    "tags": [
-      "FREQ4",
-      "abstract",
-      "speech"
-    ],
-    "topics": [
-      "mental"
-    ],
+    "tags": "5wri,oo",
+    "topics": null,
     "translations": {
       "ENG": [
         "to underline"
@@ -82767,8 +83104,14 @@
   {
     "lemma": "podkreślić",
     "id": "pol-ver-0605-podkreślić(to emphasise)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract",
+      "speech"
+    ],
+    "topics": [
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "to emphasise",
@@ -82998,8 +83341,14 @@
   {
     "lemma": "podnieść",
     "id": "pol-ver-0606-podnieść(to raise)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "movement",
+      "concrete"
+    ],
+    "topics": [
+      "body"
+    ],
     "translations": {
       "ENG": [
         "to raise",
@@ -83221,8 +83570,14 @@
   {
     "lemma": "podnosić",
     "id": "pol-ver-0607-podnosić(to raise)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "movement",
+      "concrete"
+    ],
+    "topics": [
+      "body"
+    ],
     "translations": {
       "ENG": [
         "to raise",
@@ -85570,7 +85925,8 @@
       "concrete"
     ],
     "topics": [
-      "spatial"
+      "spatial",
+      "engineering"
     ],
     "translations": {
       "ENG": [
@@ -85678,8 +86034,16 @@
   {
     "lemma": "połączyć",
     "id": "pol-ver-0627-połączyć(to combine)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "hobbies",
+      "inside",
+      "kitchen",
+      "restaurant"
+    ],
     "translations": {
       "ENG": [
         "to combine"
@@ -85916,8 +86280,16 @@
   {
     "lemma": "łączyć",
     "id": "pol-ver-0628-łączyć(to combine)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "hobbies",
+      "inside",
+      "kitchen",
+      "restaurant"
+    ],
     "translations": {
       "ENG": [
         "to combine"
@@ -88309,7 +88681,7 @@
   {
     "lemma": "pilnować",
     "id": "pol-ver-0647-pilnować(to watch)",
-    "tags": "🏁",
+    "tags": "4pp,dr",
     "topics": null,
     "translations": {
       "ENG": [
@@ -92986,14 +93358,8 @@
   {
     "lemma": "pominąć",
     "id": "pol-ver-0690-pominąć(to omit)",
-    "tags": [
-      "FREQ4",
-      "abstract"
-    ],
-    "topics": [
-      "mental",
-      "planning"
-    ],
+    "tags": "4wri,eee",
+    "topics": null,
     "translations": {
       "ENG": [
         "to omit",
@@ -93101,8 +93467,14 @@
   {
     "lemma": "pominąć",
     "id": "pol-ver-0690-pominąć(to skip)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract"
+    ],
+    "topics": [
+      "mental",
+      "planning"
+    ],
     "translations": {
       "ENG": [
         "to skip"
@@ -93209,14 +93581,8 @@
   {
     "lemma": "pomijać",
     "id": "pol-ver-0691-pomijać(to omit)",
-    "tags": [
-      "FREQ4",
-      "abstract"
-    ],
-    "topics": [
-      "mental",
-      "planning"
-    ],
+    "tags": "4wri,eee",
+    "topics": null,
     "translations": {
       "ENG": [
         "to omit",
@@ -93324,8 +93690,14 @@
   {
     "lemma": "pomijać",
     "id": "pol-ver-0691-pomijać(to skip)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract"
+    ],
+    "topics": [
+      "mental",
+      "planning"
+    ],
     "translations": {
       "ENG": [
         "to skip"
@@ -95907,7 +96279,7 @@
   {
     "lemma": "przejąć",
     "id": "pol-ver-0716-przejąć(take)(to seize)",
-    "tags": "🏁",
+    "tags": "5v,VV",
     "topics": null,
     "translations": {
       "ENG": [
@@ -96243,7 +96615,7 @@
   {
     "lemma": "przejmować",
     "id": "pol-ver-0718-przejmować(take)(to seize)",
-    "tags": "🏁",
+    "tags": "5v,VV",
     "topics": null,
     "translations": {
       "ENG": [
@@ -101163,7 +101535,7 @@
   {
     "lemma": "przesadzać",
     "id": "pol-ver-0763-przesadzać(to overdo)",
-    "tags": "🏁",
+    "tags": "5qq",
     "topics": null,
     "translations": {
       "ENG": [
@@ -101393,7 +101765,7 @@
   {
     "lemma": "przesadzić",
     "id": "pol-ver-0764-przesadzić(to overdo)",
-    "tags": "🏁",
+    "tags": "5qq",
     "topics": null,
     "translations": {
       "ENG": [
@@ -102551,8 +102923,17 @@
   {
     "lemma": "przerwać",
     "id": "pol-ver-0773-przerwać(to interrupt)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "concrete",
+      "living",
+      "person",
+      "speech"
+    ],
+    "topics": [
+      "people",
+      "work"
+    ],
     "translations": {
       "ENG": [
         "to interrupt"
@@ -102791,8 +103172,17 @@
   {
     "lemma": "przerywać",
     "id": "pol-ver-0774-przerywać(to interrupt)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "concrete",
+      "living",
+      "person",
+      "speech"
+    ],
+    "topics": [
+      "people",
+      "work"
+    ],
     "translations": {
       "ENG": [
         "to interrupt"
@@ -108023,8 +108413,14 @@
   {
     "lemma": "pożyczyć",
     "id": "pol-ver-0819-pożyczyć(*to borrow)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "concrete"
+    ],
+    "topics": [
+      "possession",
+      "school"
+    ],
     "translations": {
       "ENG": [
         "*to borrow"
@@ -108260,8 +108656,14 @@
   {
     "lemma": "pożyczać",
     "id": "pol-ver-0820-pożyczać(*to borrow)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "concrete"
+    ],
+    "topics": [
+      "possession",
+      "school"
+    ],
     "translations": {
       "ENG": [
         "*to borrow"
