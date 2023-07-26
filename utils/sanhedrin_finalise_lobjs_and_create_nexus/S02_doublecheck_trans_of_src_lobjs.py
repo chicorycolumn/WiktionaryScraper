@@ -27,6 +27,7 @@ if __name__ == '__main__':
     c.print_teal("tempsave_path =     " + c.teal(tempsave_path))
 
     doublechecked_src_lobjs = load_tempsave_if_exists(tempsave_path)
+    cmd_history = []
 
     ready = True
     if len(doublechecked_src_lobjs):
@@ -45,7 +46,7 @@ if __name__ == '__main__':
         print(f"{src_lobj_index + 1}/{len(src_lobjs)}")
 
         if ready:
-            user_validate_translations(src_lobj_index, src_lobj, doublechecked_src_lobjs, save, target_lang)
+            user_validate_translations(src_lobj_index, src_lobj, doublechecked_src_lobjs, save, target_lang, cmd_history)
         else:
             if not ready and compare_lobj_id_root(src_lobj["id"], id_of_last_done_src_lobj):
                 print(c.green(src_lobj["id"]), "is last item from tempsave.")

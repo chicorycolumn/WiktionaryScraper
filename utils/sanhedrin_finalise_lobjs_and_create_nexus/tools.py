@@ -173,9 +173,9 @@ def add_signalword_automatically(lobj_A, trans_for_lobj_A, trans_of_lobj_B):
     lobj_A["id"] += f"({signal_word})"
 
 
-def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang):
+def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang, cmd_history):
     def restart():
-        return user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang)
+        return user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang, cmd_history)
     
     def show_helptext():
         print("")
@@ -231,6 +231,19 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang)
         show_helptext()
         return
 
+    if user_input[0] == "q":
+        index_of_cmd_to_repeat = int(user_input[1])
+        if len(cmd_history) < index_of_cmd_to_repeat:
+            c.print_red("History does not go back that far.")
+            restart()
+        cmd_to_repeat = cmd_history[-index_of_cmd_to_repeat]
+        c.print_yellow(cmd_to_repeat)
+        confirmed = not input("Repeat cmd?   Enter for yes   Any key for no")
+        if confirmed:
+            user_input = cmd_to_repeat
+        else:
+            restart()
+
     if user_input[0] not in "fFa$":
         for char in user_input:
             if char not in "123456789dDfFwSsx":
@@ -246,6 +259,8 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang)
                 time.sleep(0.8)
                 show_helptext()
                 return
+
+    cmd_history.append(user_input)
 
     if user_input[0] == "D":
         print("🔥🔥 DELETED LOBJ")
