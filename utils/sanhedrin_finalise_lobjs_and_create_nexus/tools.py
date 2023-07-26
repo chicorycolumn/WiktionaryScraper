@@ -243,11 +243,13 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang,
                     print(f"q{ind}", c.yellow(cmd_history[-ind]))
             time.sleep(0.8)
             restart()
+            return
         else:
             index_of_cmd_to_repeat = int(user_input[1])
             if len(cmd_history) < index_of_cmd_to_repeat:
                 c.print_red("History does not go back that far.")
                 restart()
+                return
             cmd_to_repeat = cmd_history[-index_of_cmd_to_repeat]
             c.print_yellow(cmd_to_repeat)
             confirmed = not input("Repeat cmd?   Enter for yes   Any key for no")
@@ -255,6 +257,7 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang,
                 user_input = cmd_to_repeat
             else:
                 restart()
+                return
 
     if user_input[0] not in "fFa$":
         for char in user_input:
