@@ -61706,7 +61706,7 @@
   },
   {
     "lemma": "nakręcić",
-    "id": "pol-ver-0431-nakręcić(turn)",
+    "id": "pol-ver-0431-nakręcić(turn someone on)",
     "tags": [
       "FREQ4",
       "concrete"
@@ -61717,7 +61717,8 @@
     ],
     "translations": {
       "ENG": [
-        "*to turn on (sexually)"
+        "*to turn on (sexually)",
+        "to arouse"
       ]
     },
     "aspect": "perfective",
@@ -66646,7 +66647,7 @@
   },
   {
     "lemma": "odbyć",
-    "id": "pol-ver-0471-odbyć(take)",
+    "id": "pol-ver-0471-odbyć(occur)",
     "tags": [
       "FREQ3",
       "abstract"
@@ -68054,7 +68055,7 @@
   },
   {
     "lemma": "oddać",
-    "id": "pol-ver-0483-oddać(give)",
+    "id": "pol-ver-0483-oddać(give back)",
     "tags": [
       "FREQ3",
       "concrete"
@@ -68066,7 +68067,8 @@
     ],
     "translations": {
       "ENG": [
-        "to give back"
+        "to give back",
+        "*to return"
       ]
     },
     "aspect": "perfective",
@@ -82154,7 +82156,7 @@
   },
   {
     "lemma": "pieprzyć",
-    "id": "pol-ver-0603-pieprzyć(fuck)",
+    "id": "pol-ver-0603-pieprzyć(fuck up)",
     "tags": [
       "FREQ4",
       "curseword",
@@ -93798,7 +93800,7 @@
   },
   {
     "lemma": "przejechać",
-    "id": "pol-ver-0698-przejechać(run)",
+    "id": "pol-ver-0698-przejechać(run over)",
     "tags": [
       "FREQ4",
       "concrete"
@@ -97299,7 +97301,7 @@
   },
   {
     "lemma": "przeprowadzić",
-    "id": "pol-ver-0730-przeprowadzić(carry)",
+    "id": "pol-ver-0730-przeprowadzić(carry out)",
     "tags": [
       "FREQ4",
       "concrete"
@@ -105589,7 +105591,9 @@
     ],
     "translations": {
       "ENG": [
-        "to postpone"
+        "to postpone",
+        "to put off",
+        "to defer"
       ]
     },
     "aspect": "perfective",
@@ -105821,7 +105825,9 @@
     ],
     "translations": {
       "ENG": [
-        "to postpone"
+        "to postpone",
+        "to put off",
+        "to defer"
       ]
     },
     "aspect": "imperfective",
@@ -108489,6 +108495,112 @@
         },
         "present": false
       }
+    }
+  },
+  {
+    "lemma": "czynić",
+    "id": "pol-ver-0823-czynić",
+    "tags": [
+      "FREQ5",
+      "abstract"
+    ],
+    "topics": [
+      "mental",
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "*to make someone feel something"
+      ]
+    },
+    "aspect": "imperfective",
+    "inflections": {
+        "infinitive": "czynić",
+        "verbalNoun": "czynienie",
+        "activeAdjectival": "czyniący",
+        "passiveAdjectival": "czyniony",
+        "contemporaryAdverbial": "czyniąc",
+        "anteriorAdverbial": false,
+        "verbal": {
+            "conditional": true,
+            "future": true,
+            "imperative": "czyń",
+            "past": {
+                "impersonal": {
+                    "singular": {
+                        "allSingularGenders": "czyniono"
+                    },
+                    "plural": {
+                        "allPluralGenders": "czyniono"
+                    }
+                },
+                "1per": {
+                    "singular": {
+                        "m": "czyniłem",
+                        "f": "czyniłam"
+                    },
+                    "plural": {
+                        "virile": "czyniliśmy",
+                        "nonvirile": "czyniłyśmy"
+                    }
+                },
+                "2per": {
+                    "singular": {
+                        "m": "czyniłeś",
+                        "f": "czyniłaś"
+                    },
+                    "plural": {
+                        "virile": "czyniliście",
+                        "nonvirile": "czyniłyście"
+                    }
+                },
+                "3per": {
+                    "singular": {
+                        "m": "czynił",
+                        "f": "czyniła",
+                        "n": "czyniło"
+                    },
+                    "plural": {
+                        "virile": "czynili",
+                        "nonvirile": "czyniły"
+                    }
+                }
+            },
+            "present": {
+                "impersonal": {
+                    "singular": {
+                        "allSingularGenders": "czyni się"
+                    },
+                    "plural": {
+                        "allPluralGenders": "czyni się"
+                    }
+                },
+                "1per": {
+                    "singular": {
+                        "allSingularGenders": "czynię"
+                    },
+                    "plural": {
+                        "allPluralGenders": "czynimy"
+                    }
+                },
+                "2per": {
+                    "singular": {
+                        "allSingularGenders": "czynisz"
+                    },
+                    "plural": {
+                        "allPluralGenders": "czynicie"
+                    }
+                },
+                "3per": {
+                    "singular": {
+                        "allSingularGenders": "czyni"
+                    },
+                    "plural": {
+                        "allPluralGenders": "czynią"
+                    }
+                }
+            }
+        }
     }
   }
 ]
