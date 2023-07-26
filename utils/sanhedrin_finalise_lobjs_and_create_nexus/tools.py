@@ -183,6 +183,10 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang,
         print("")
         c.print_teal("Enter  : This lobj is OK.")
         print("")
+        c.print_teal("h      : Help.")
+        c.print_teal("qq     : Show COMMAND history.")
+        c.print_teal("q1     : Repeat last COMMAND.")
+        print("")
         c.print_teal("D      : DELETE lobj.")
         c.print_teal("w      : WRITE current res array to temporary file.")
         print("")
@@ -232,17 +236,25 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang,
         return
 
     if user_input[0] == "q":
-        index_of_cmd_to_repeat = int(user_input[1])
-        if len(cmd_history) < index_of_cmd_to_repeat:
-            c.print_red("History does not go back that far.")
+        if user_input[1] == "q":
+            c.print_yellow("COMMAND HISTORY")
+            for ind in range(1,5):
+                if len(cmd_history) >= ind:
+                    print(f"q{ind}", c.yellow(cmd_history[-ind]))
+            time.sleep(0.8)
             restart()
-        cmd_to_repeat = cmd_history[-index_of_cmd_to_repeat]
-        c.print_yellow(cmd_to_repeat)
-        confirmed = not input("Repeat cmd?   Enter for yes   Any key for no")
-        if confirmed:
-            user_input = cmd_to_repeat
         else:
-            restart()
+            index_of_cmd_to_repeat = int(user_input[1])
+            if len(cmd_history) < index_of_cmd_to_repeat:
+                c.print_red("History does not go back that far.")
+                restart()
+            cmd_to_repeat = cmd_history[-index_of_cmd_to_repeat]
+            c.print_yellow(cmd_to_repeat)
+            confirmed = not input("Repeat cmd?   Enter for yes   Any key for no")
+            if confirmed:
+                user_input = cmd_to_repeat
+            else:
+                restart()
 
     if user_input[0] not in "fFa$":
         for char in user_input:
