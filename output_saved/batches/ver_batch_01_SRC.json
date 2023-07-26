@@ -3367,7 +3367,7 @@
   {
     "lemma": "liczyć",
     "id": "pol-ver-0015-liczyć(to count on)",
-    "tags": "🏁",
+    "tags": "4pp,Y,pl",
     "topics": null,
     "aspect": "imperfective",
     "inflections": {
@@ -3495,7 +3495,7 @@
   {
     "lemma": "liczyć",
     "id": "pol-ver-0015-liczyć(to matter)",
-    "tags": "🏁",
+    "tags": "4eee,he",
     "topics": null,
     "aspect": "imperfective",
     "inflections": {
@@ -3769,7 +3769,7 @@
   {
     "lemma": "dać",
     "id": "pol-ver-0016-dać(to let)",
-    "tags": "🏁",
+    "tags": "4rp",
     "topics": null,
     "aspect": "perfective",
     "inflections": {
@@ -4051,7 +4051,7 @@
   {
     "lemma": "dawać",
     "id": "pol-ver-0016-dawać(to let)",
-    "tags": "🏁",
+    "tags": "4rp",
     "topics": null,
     "aspect": "imperfective",
     "inflections": {
@@ -5610,7 +5610,7 @@
   },
   {
     "lemma": "móc",
-    "id": "pol-ver-0023-móc(to be able to[i])",
+    "id": "pol-ver-0023-móc(can or be able to)",
     "tags": [
       "FREQ1"
     ],
@@ -5725,8 +5725,8 @@
   },
   {
     "lemma": "móc",
-    "id": "pol-ver-0023-móc(can)",
-    "tags": "🏁",
+    "id": "pol-ver-0023-móc(can or be allowed)",
+    "tags": "4rp",
     "topics": null,
     "aspect": "imperfective",
     "inflections": {
@@ -5836,8 +5836,8 @@
   },
   {
     "lemma": "móc",
-    "id": "pol-ver-0023-móc(can)",
-    "tags": "🏁",
+    "id": "pol-ver-0023-móc(can may might)",
+    "tags": "2eee,pl",
     "topics": null,
     "aspect": "imperfective",
     "inflections": {
@@ -6547,7 +6547,7 @@
   {
     "lemma": "ugotować",
     "id": "pol-ver-0026-ugotować(to boil)",
-    "tags": "🏁",
+    "tags": "3phy,H",
     "topics": null,
     "aspect": "perfective",
     "inflections": {
@@ -6783,7 +6783,7 @@
   {
     "lemma": "gotować",
     "id": "pol-ver-0026-gotować(to boil)",
-    "tags": "🏁",
+    "tags": "3phy,H",
     "topics": null,
     "aspect": "imperfective",
     "inflections": {
@@ -7476,8 +7476,14 @@
   {
     "lemma": "przynieść",
     "id": "pol-ver-0030-przynieść(to fetch)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "movement"
+    ],
+    "topics": [
+      "body",
+      "social glue"
+    ],
     "aspect": "perfective",
     "inflections": {
       "infinitive": "przynieść",
@@ -7701,8 +7707,14 @@
   {
     "lemma": "przynosić",
     "id": "pol-ver-0030-przynosić(to fetch)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "movement"
+    ],
+    "topics": [
+      "body",
+      "social glue"
+    ],
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "przynosić",
@@ -8629,8 +8641,14 @@
   {
     "lemma": "iść",
     "id": "pol-ver-0035-iść(to walk[i])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "movement"
+    ],
+    "topics": [
+      "body",
+      "locomotion"
+    ],
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "iść",
@@ -8863,8 +8881,14 @@
   {
     "lemma": "pójść",
     "id": "pol-ver-0035-pójść(to walk[i])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "movement"
+    ],
+    "topics": [
+      "body",
+      "locomotion"
+    ],
     "aspect": "perfective",
     "inflections": {
       "infinitive": "pójść",
@@ -9105,8 +9129,14 @@
   {
     "lemma": "chodzić",
     "id": "pol-ver-0035-chodzić(to walk[i])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "movement"
+    ],
+    "topics": [
+      "body",
+      "locomotion"
+    ],
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "chodzić",
@@ -9235,14 +9265,8 @@
   {
     "lemma": "jechać",
     "id": "pol-ver-0036-jechać(to go[i])",
-    "tags": [
-      "FREQ3",
-      "movement"
-    ],
-    "topics": [
-      "body",
-      "locomotion"
-    ],
+    "tags": "3TT",
+    "topics": null,
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "jechać",
@@ -9381,7 +9405,7 @@
   {
     "lemma": "jechać",
     "id": "pol-ver-0036-jechać(to drive[i])",
-    "tags": "🏁",
+    "tags": "3TT",
     "topics": null,
     "aspect": "imperfective",
     "inflections": {
@@ -9521,14 +9545,8 @@
   {
     "lemma": "pojechać",
     "id": "pol-ver-0036-pojechać(to go[i])",
-    "tags": [
-      "FREQ3",
-      "movement"
-    ],
-    "topics": [
-      "body",
-      "locomotion"
-    ],
+    "tags": "3TT",
+    "topics": null,
     "aspect": "perfective",
     "inflections": {
       "infinitive": "pojechać",
@@ -9638,7 +9656,7 @@
   {
     "lemma": "pojechać",
     "id": "pol-ver-0036-pojechać(to drive[i])",
-    "tags": "🏁",
+    "tags": "3TT",
     "topics": null,
     "aspect": "perfective",
     "inflections": {
@@ -9749,14 +9767,8 @@
   {
     "lemma": "jeździć",
     "id": "pol-ver-0036-jeździć(to go[i])",
-    "tags": [
-      "FREQ3",
-      "movement"
-    ],
-    "topics": [
-      "body",
-      "locomotion"
-    ],
+    "tags": "3TT",
+    "topics": null,
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "jeździć",
@@ -9873,7 +9885,7 @@
   {
     "lemma": "jeździć",
     "id": "pol-ver-0036-jeździć(to drive[i])",
-    "tags": "🏁",
+    "tags": "3TT",
     "topics": null,
     "aspect": "imperfective",
     "inflections": {
@@ -10237,10 +10249,13 @@
     "id": "pol-ver-0039-wyłączać(to turn off)",
     "tags": [
       "FREQ3",
-      "concrete"
+      "concrete",
+      "holdable",
+      "household object"
     ],
     "topics": [
-      "body",
+      "home",
+      "inside",
       "tech"
     ],
     "translations": {
@@ -10349,7 +10364,7 @@
   {
     "lemma": "wyłączać",
     "id": "pol-ver-0039-wyłączać(to exclude)",
-    "tags": "🏁",
+    "tags": "4eee",
     "topics": null,
     "translations": {
       "ENG": [
@@ -10458,10 +10473,13 @@
     "id": "pol-ver-0040-wyłączyć(to turn off)",
     "tags": [
       "FREQ3",
-      "concrete"
+      "concrete",
+      "holdable",
+      "household object"
     ],
     "topics": [
-      "body",
+      "home",
+      "inside",
       "tech"
     ],
     "translations": {
@@ -10570,7 +10588,7 @@
   {
     "lemma": "wyłączyć",
     "id": "pol-ver-0040-wyłączyć(to exclude)",
-    "tags": "🏁",
+    "tags": "4eee",
     "topics": null,
     "translations": {
       "ENG": [
@@ -11794,16 +11812,8 @@
   {
     "lemma": "tracić",
     "id": "pol-ver-0050-tracić(to lose)",
-    "tags": [
-      "FREQ3",
-      "money",
-      "concrete"
-    ],
-    "topics": [
-      "business",
-      "shopping",
-      "travel"
-    ],
+    "tags": "2VV",
+    "topics": null,
     "translations": {
       "ENG": [
         "to lose"
@@ -11910,8 +11920,16 @@
   {
     "lemma": "tracić",
     "id": "pol-ver-0050-tracić(to waste)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "money",
+      "concrete"
+    ],
+    "topics": [
+      "business",
+      "shopping",
+      "travel"
+    ],
     "translations": {
       "ENG": [
         "to waste"
@@ -12018,16 +12036,8 @@
   {
     "lemma": "stracić",
     "id": "pol-ver-0051-stracić(to lose)",
-    "tags": [
-      "FREQ3",
-      "money",
-      "concrete"
-    ],
-    "topics": [
-      "business",
-      "shopping",
-      "travel"
-    ],
+    "tags": "2VV",
+    "topics": null,
     "translations": {
       "ENG": [
         "to lose"
@@ -12135,8 +12145,16 @@
   {
     "lemma": "stracić",
     "id": "pol-ver-0051-stracić(to waste)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "money",
+      "concrete"
+    ],
+    "topics": [
+      "business",
+      "shopping",
+      "travel"
+    ],
     "translations": {
       "ENG": [
         "to waste"
@@ -13333,7 +13351,7 @@
   {
     "lemma": "włączyć",
     "id": "pol-ver-0060-włączyć(to include)",
-    "tags": "🏁",
+    "tags": "4eee",
     "topics": null,
     "translations": {
       "ENG": [
@@ -13557,7 +13575,7 @@
   {
     "lemma": "włączać",
     "id": "pol-ver-0061-włączać(to include)",
-    "tags": "🏁",
+    "tags": "4eee",
     "topics": null,
     "translations": {
       "ENG": [
@@ -16197,7 +16215,7 @@
   },
   {
     "lemma": "wysyłać",
-    "id": "pol-ver-0084-wysyłać(⛳)",
+    "id": "pol-ver-0084-wysyłać(to send)",
     "tags": [
       "FREQ3",
       "concrete"
@@ -16312,8 +16330,14 @@
   {
     "lemma": "wysyłać",
     "id": "pol-ver-0084-wysyłać(to mail)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "concrete"
+    ],
+    "topics": [
+      "travel",
+      "communications"
+    ],
     "translations": {
       "ENG": [
         "to send",
@@ -16420,7 +16444,7 @@
   },
   {
     "lemma": "wysłać",
-    "id": "pol-ver-0085-wysłać(⛳)",
+    "id": "pol-ver-0085-wysłać(to send)",
     "tags": [
       "FREQ3",
       "concrete"
@@ -16535,8 +16559,14 @@
   {
     "lemma": "wysłać",
     "id": "pol-ver-0085-wysłać(to mail)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "concrete"
+    ],
+    "topics": [
+      "travel",
+      "communications"
+    ],
     "translations": {
       "ENG": [
         "to send",
@@ -18444,7 +18474,6 @@
       "household object"
     ],
     "topics": [
-      "body",
       "home",
       "inside"
     ],
@@ -18555,8 +18584,16 @@
   {
     "lemma": "zamknąć",
     "id": "pol-ver-0101-zamknąć(to lock)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "concrete",
+      "holdable",
+      "household object"
+    ],
+    "topics": [
+      "home",
+      "inside"
+    ],
     "translations": {
       "ENG": [
         "to lock"
@@ -18781,8 +18818,16 @@
   {
     "lemma": "zamykać",
     "id": "pol-ver-0102-zamykać(to lock)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "concrete",
+      "holdable",
+      "household object"
+    ],
+    "topics": [
+      "home",
+      "inside"
+    ],
     "translations": {
       "ENG": [
         "to lock"
@@ -20387,13 +20432,8 @@
   {
     "lemma": "zgubić",
     "id": "pol-ver-0116-zgubić(to lose)",
-    "tags": [
-      "FREQ4",
-      "concrete"
-    ],
-    "topics": [
-      "spatial"
-    ],
+    "tags": "2VV",
+    "topics": null,
     "translations": {
       "ENG": [
         "*to lose",
@@ -20506,8 +20546,13 @@
   {
     "lemma": "zgubić",
     "id": "pol-ver-0116-zgubić(to get lost[r])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "concrete"
+    ],
+    "topics": [
+      "spatial"
+    ],
     "translations": {
       "ENG": [
         "to get lost[r]"
@@ -21433,8 +21478,13 @@
   {
     "lemma": "nauczyć",
     "id": "pol-ver-0123-nauczyć(to learn[r])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "concrete"
+    ],
+    "topics": [
+      "school"
+    ],
     "translations": {
       "ENG": [
         "to learn[r]",
@@ -21655,8 +21705,13 @@
   {
     "lemma": "nauczać",
     "id": "pol-ver-0124-nauczać(to learn[r])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "concrete"
+    ],
+    "topics": [
+      "school"
+    ],
     "translations": {
       "ENG": [
         "to learn[r]",
@@ -22955,7 +23010,7 @@
   {
     "lemma": "korzystać",
     "id": "pol-ver-0134-korzystać(to benefit)",
-    "tags": "🏁",
+    "tags": "4$",
     "topics": null,
     "translations": {
       "ENG": [
@@ -23064,7 +23119,7 @@
   {
     "lemma": "korzystać",
     "id": "pol-ver-0134-korzystać(to take advantage)",
-    "tags": "🏁",
+    "tags": "4Z,XX",
     "topics": null,
     "translations": {
       "ENG": [
@@ -23286,7 +23341,7 @@
   {
     "lemma": "skorzystać",
     "id": "pol-ver-0135-skorzystać(to benefit)",
-    "tags": "🏁",
+    "tags": "4$",
     "topics": null,
     "translations": {
       "ENG": [
@@ -23395,7 +23450,7 @@
   {
     "lemma": "skorzystać",
     "id": "pol-ver-0135-skorzystać(to take advantage)",
-    "tags": "🏁",
+    "tags": "$Z,XX",
     "topics": null,
     "translations": {
       "ENG": [
@@ -23630,8 +23685,13 @@
   {
     "lemma": "uczyć",
     "id": "pol-ver-0136-uczyć(to learn[r])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "concrete"
+    ],
+    "topics": [
+      "school"
+    ],
     "translations": {
       "ENG": [
         "to learn[r]",
@@ -26159,7 +26219,7 @@
   {
     "lemma": "odpowiedzieć",
     "id": "pol-ver-0156-odpowiedzieć(to answer for)",
-    "tags": "🏁",
+    "tags": "4sg,l",
     "topics": null,
     "translations": {
       "ENG": [
@@ -26392,7 +26452,7 @@
   {
     "lemma": "odpowiadać",
     "id": "pol-ver-0157-odpowiadać(to answer for)",
-    "tags": "🏁",
+    "tags": "4sg,l",
     "topics": null,
     "translations": {
       "ENG": [
@@ -28042,8 +28102,14 @@
   {
     "lemma": "denerwować",
     "id": "pol-ver-0172-denerwować(to be nervous[r])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "emotion"
+    ],
+    "topics": [
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "to be nervous[r]",
@@ -28269,8 +28335,14 @@
   {
     "lemma": "zdenerwować",
     "id": "pol-ver-0173-zdenerwować(to be nervous[r])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "abstract",
+      "emotion"
+    ],
+    "topics": [
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "to be nervous[r]",
@@ -29486,15 +29558,8 @@
   {
     "lemma": "dojrzeć",
     "id": "pol-ver-0183-dojrzeć(to ripen[i])",
-    "tags": [
-      "FREQ3",
-      "concrete"
-    ],
-    "topics": [
-      "body",
-      "medicine",
-      "time"
-    ],
+    "tags": "3ff,agr",
+    "topics": null,
     "translations": {
       "ENG": [
         "to ripen[i]"
@@ -29605,8 +29670,15 @@
   {
     "lemma": "dojrzeć",
     "id": "pol-ver-0183-dojrzeć(to mature[i])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "concrete"
+    ],
+    "topics": [
+      "body",
+      "medicine",
+      "time"
+    ],
     "translations": {
       "ENG": [
         "to mature[i]"
@@ -29717,15 +29789,8 @@
   {
     "lemma": "dojrzewać",
     "id": "pol-ver-0184-dojrzewać(to ripen[i])",
-    "tags": [
-      "FREQ3",
-      "concrete"
-    ],
-    "topics": [
-      "body",
-      "medicine",
-      "time"
-    ],
+    "tags": "3ff,agr",
+    "topics": null,
     "translations": {
       "ENG": [
         "to ripen[i]"
@@ -29837,8 +29902,15 @@
   {
     "lemma": "dojrzewać",
     "id": "pol-ver-0184-dojrzewać(to mature[i])",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "concrete"
+    ],
+    "topics": [
+      "body",
+      "medicine",
+      "time"
+    ],
     "translations": {
       "ENG": [
         "to mature[i]"
@@ -30802,16 +30874,8 @@
   {
     "lemma": "chwytać",
     "id": "pol-ver-0192-chwytać(to grab)",
-    "tags": [
-      "FREQ4",
-      "abstract",
-      "movement"
-    ],
-    "topics": [
-      "body",
-      "mental",
-      "school"
-    ],
+    "tags": "3v",
+    "topics": null,
     "translations": {
       "ENG": [
         "to grab",
@@ -30934,8 +30998,16 @@
   {
     "lemma": "chwytać",
     "id": "pol-ver-0192-chwytać(to catch)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract",
+      "movement"
+    ],
+    "topics": [
+      "body",
+      "mental",
+      "school"
+    ],
     "translations": {
       "ENG": [
         "to catch"
@@ -31057,16 +31129,8 @@
   {
     "lemma": "chwycić",
     "id": "pol-ver-0193-chwycić(to grab)",
-    "tags": [
-      "FREQ4",
-      "abstract",
-      "movement"
-    ],
-    "topics": [
-      "body",
-      "mental",
-      "school"
-    ],
+    "tags": "3v",
+    "topics": null,
     "translations": {
       "ENG": [
         "to grab",
@@ -31189,8 +31253,16 @@
   {
     "lemma": "chwycić",
     "id": "pol-ver-0193-chwycić(to catch)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract",
+      "movement"
+    ],
+    "topics": [
+      "body",
+      "mental",
+      "school"
+    ],
     "translations": {
       "ENG": [
         "to catch"
@@ -32038,8 +32110,19 @@
   {
     "lemma": "badać",
     "id": "pol-ver-0199-badać(to test)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "concrete"
+    ],
+    "topics": [
+      "biology",
+      "chemistry",
+      "knowledge and existence",
+      "physics",
+      "school",
+      "science",
+      "medicine"
+    ],
     "translations": {
       "ENG": [
         "to test"
@@ -32168,7 +32251,7 @@
   {
     "lemma": "badać",
     "id": "pol-ver-0199-badać(to explore)",
-    "tags": "🏁",
+    "tags": "4PP",
     "topics": null,
     "translations": {
       "ENG": [
@@ -32432,8 +32515,19 @@
   {
     "lemma": "zbadać",
     "id": "pol-ver-0200-zbadać(to test)",
-    "tags": "🏁",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "concrete"
+    ],
+    "topics": [
+      "biology",
+      "chemistry",
+      "knowledge and existence",
+      "physics",
+      "school",
+      "science",
+      "medicine"
+    ],
     "translations": {
       "ENG": [
         "to test"
@@ -32554,7 +32648,7 @@
   {
     "lemma": "zbadać",
     "id": "pol-ver-0200-zbadać(to explore)",
-    "tags": "🏁",
+    "tags": "4PP",
     "topics": null,
     "translations": {
       "ENG": [
@@ -74298,7 +74392,7 @@
   },
   {
     "lemma": "oszukiwać",
-    "id": "pol-ver-0539-oszukiwać(⛳)",
+    "id": "pol-ver-0539-oszukiwać(to cheat in a game)",
     "tags": "🏁",
     "topics": null,
     "translations": {
@@ -74535,7 +74629,7 @@
   },
   {
     "lemma": "oszukać",
-    "id": "pol-ver-0540-oszukać(⛳)",
+    "id": "pol-ver-0540-oszukać(to cheat in a game)",
     "tags": "🏁",
     "topics": null,
     "translations": {
