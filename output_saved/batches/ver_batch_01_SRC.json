@@ -11147,7 +11147,7 @@
   },
   {
     "lemma": "mówić",
-    "id": "pol-ver-0091-mówić",
+    "id": "pol-ver-0091-mówić(talk)",
     "tags": [
       "FREQ1",
       "concrete",
@@ -103082,8 +103082,7 @@
       "FREQ3",
       "concrete",
       "living",
-      "person",
-      "title"
+      "person"
     ],
     "topics": [
       "people",
@@ -103331,8 +103330,7 @@
       "FREQ3",
       "concrete",
       "living",
-      "person",
-      "title"
+      "person"
     ],
     "topics": [
       "people",
@@ -103580,8 +103578,7 @@
       "FREQ3",
       "concrete",
       "living",
-      "person",
-      "title"
+      "person"
     ],
     "topics": [
       "people",
@@ -103699,8 +103696,7 @@
       "FREQ3",
       "concrete",
       "living",
-      "person",
-      "title"
+      "person"
     ],
     "topics": [
       "people",
@@ -109373,6 +109369,150 @@
             },
             "plural": {
               "allPluralGenders": "czynią"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "mówić",
+    "id": "pol-ver-0908-mówić(speak a language)",
+    "tags": [
+      "FREQ1",
+      "concrete",
+      "speech"
+    ],
+    "topics": [
+      "body",
+      "language"
+    ],
+    "translations": {
+      "ENG": [
+        "to speak (a language)"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "Czy mówi Pan(i) po angielsku? ― Do you speak English? (",
+        "formal ) Mówisz po angielsku? ― Do you speak English? (",
+        "informal )",
+        "Nie rozumiem, o czym mówisz . ― I don't understand what you are talking about."
+      ],
+      "otherShapes": {
+        "perfective": [
+          "powiedzieć"
+        ],
+        "frequentative": [
+          "mawiać"
+        ]
+      },
+      "derivedTerms": [
+        "vers derived from mówić domawiać impf domówić pf",
+        "namawiać impf namówić pf",
+        "omawiać impf omówić pf",
+        "obmawiać impf obmówić pf",
+        "odmawiać impf odmówić pf",
+        "pomawiać impf pomówić pf",
+        "podmawiać impf podmówić pf",
+        "przemawiać impf przemówić pf",
+        "przymawiać impf przymówić pf",
+        "rozmawiać impf porozmawiać pf rozmówić pf",
+        "umawiać impf umówić pf",
+        "wmawiać impf wmówić pf",
+        "wymawiać impf wymówić pf",
+        "zmawiać impf zmówić pf",
+        "zamawiać impf zamówić pf",
+        "( nouns ) mówca m mówczyni f mównica f przemówienie n",
+        "( adjective ) wymawialny",
+        "( noun ) mowa f ( “ speech ” )"
+      ]
+    },
+    "inflections": {
+      "infinitive": "mówić",
+      "verbalNoun": "mówienie",
+      "activeAdjectival": "mówiący",
+      "passiveAdjectival": "mówiony",
+      "contemporaryAdverbial": "mówiąc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "mów",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "mówiono"
+            },
+            "plural": {
+              "allPluralGenders": "mówiono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "mówiłem",
+              "f": "mówiłam"
+            },
+            "plural": {
+              "virile": "mówiliśmy",
+              "nonvirile": "mówiłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "mówiłeś",
+              "f": "mówiłaś"
+            },
+            "plural": {
+              "virile": "mówiliście",
+              "nonvirile": "mówiłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "mówił",
+              "f": "mówiła",
+              "n": "mówiło"
+            },
+            "plural": {
+              "virile": "mówili",
+              "nonvirile": "mówiły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "mówi się"
+            },
+            "plural": {
+              "allPluralGenders": "mówi się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "mówię"
+            },
+            "plural": {
+              "allPluralGenders": "mówimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "mówisz"
+            },
+            "plural": {
+              "allPluralGenders": "mówicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "mówi"
+            },
+            "plural": {
+              "allPluralGenders": "mówią"
             }
           }
         }

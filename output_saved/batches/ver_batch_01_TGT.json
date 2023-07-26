@@ -539,7 +539,7 @@
     "id": "eng-ver-0016-totell[t,i]",
     "»trans": [
       "pol-ver-0090-powiedzieć",
-      "pol-ver-0091-mówić"
+      "pol-ver-0091-mówić(talk)"
     ]
   },
   {
@@ -547,23 +547,30 @@
     "id": "eng-ver-0017-tosay[t,i]",
     "»trans": [
       "pol-ver-0090-powiedzieć",
-      "pol-ver-0091-mówić"
+      "pol-ver-0091-mówić(talk)"
     ]
   },
   {
     "lemma": "to speak[i]",
     "id": "eng-ver-0018-tospeak[i]",
     "»trans": [
-      "pol-ver-0091-mówić",
+      "pol-ver-0091-mówić(talk)",
       "pol-ver-0092-porozmawiać",
       "pol-ver-0093-rozmawiać"
+    ]
+  },
+  {
+    "lemma": "to speak[i]",
+    "id": "eng-ver-0018-tospeakalanguage",
+    "»trans": [
+      "pol-ver-0908-mówić(speak a language)"
     ]
   },
   {
     "lemma": "to talk[i]",
     "id": "eng-ver-0019-totalk[i]",
     "»trans": [
-      "pol-ver-0091-mówić",
+      "pol-ver-0091-mówić(talk)",
       "pol-ver-0092-porozmawiać",
       "pol-ver-0093-rozmawiać"
     ]
