@@ -7,13 +7,17 @@ from utils.universal import color as c, get_curried_save, load_tempsave_if_exist
 
 if __name__ == '__main__':
 
+    # First run this file with input_override = 1, this will tell you what number you should set
+    # hardcoded_number_of_inputs_needed_gauged_by_dryruns variable to. Then set input_override = 0
+    # and you're ready to go.
+
     # # # # # #
-    wordtype = "nco"
+    wordtype = "ver"
     batch = "01"
     target_lang = "ENG"
     input_override = 0  # Only set True for dryruns
-    hardcoded_number_of_inputs_needed_gauged_by_dryruns = 999
-    # adj = 162, npe = 26, nco = 38
+    hardcoded_number_of_inputs_needed_gauged_by_dryruns = 583
+    # adj = 162, npe = 26, nco = 38, ver = 583
     # # # # # #
 
     bare_input_filename = f"{wordtype}_batch_{batch}"
