@@ -3367,8 +3367,16 @@
   {
     "lemma": "liczyć",
     "id": "pol-ver-0015-liczyć(to count on)",
-    "tags": "4pp,Y,pl",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "abstract",
+      "thought"
+    ],
+    "topics": [
+      "mental",
+      "people",
+      "planning"
+    ],
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "liczyć",
@@ -3495,8 +3503,13 @@
   {
     "lemma": "liczyć",
     "id": "pol-ver-0015-liczyć(to matter)",
-    "tags": "4eee,he",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "helper"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "liczyć",
@@ -3769,8 +3782,12 @@
   {
     "lemma": "dać",
     "id": "pol-ver-0016-dać(to let)",
-    "tags": "4rp",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "request and permission"
+    ],
     "aspect": "perfective",
     "inflections": {
       "infinitive": "dać",
@@ -4051,8 +4068,12 @@
   {
     "lemma": "dawać",
     "id": "pol-ver-0016-dawać(to let)",
-    "tags": "4rp",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "request and permission"
+    ],
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "dawać",
@@ -5726,8 +5747,12 @@
   {
     "lemma": "móc",
     "id": "pol-ver-0023-móc(can or be allowed)",
-    "tags": "4rp",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "request and permission"
+    ],
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "móc",
@@ -5837,8 +5862,13 @@
   {
     "lemma": "móc",
     "id": "pol-ver-0023-móc(can may might)",
-    "tags": "2eee,pl",
-    "topics": null,
+    "tags": [
+      "FREQ2"
+    ],
+    "topics": [
+      "knowledge and existence",
+      "planning"
+    ],
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "móc",
@@ -6547,8 +6577,17 @@
   {
     "lemma": "ugotować",
     "id": "pol-ver-0026-ugotować(to boil)",
-    "tags": "3phy,H",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "temperature",
+      "weather"
+    ],
+    "topics": [
+      "geography",
+      "outdoor",
+      "physics",
+      "science"
+    ],
     "aspect": "perfective",
     "inflections": {
       "infinitive": "ugotować",
@@ -6783,8 +6822,17 @@
   {
     "lemma": "gotować",
     "id": "pol-ver-0026-gotować(to boil)",
-    "tags": "3phy,H",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "temperature",
+      "weather"
+    ],
+    "topics": [
+      "geography",
+      "outdoor",
+      "physics",
+      "science"
+    ],
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "gotować",
@@ -9265,8 +9313,12 @@
   {
     "lemma": "jechać",
     "id": "pol-ver-0036-jechać(to go)",
-    "tags": "3TT",
-    "topics": null,
+    "tags": [
+      "FREQ3"
+    ],
+    "topics": [
+      "travel"
+    ],
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "jechać",
@@ -9405,8 +9457,12 @@
   {
     "lemma": "jechać",
     "id": "pol-ver-0036-jechać(to drive)",
-    "tags": "3TT",
-    "topics": null,
+    "tags": [
+      "FREQ3"
+    ],
+    "topics": [
+      "travel"
+    ],
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "jechać",
@@ -9545,8 +9601,12 @@
   {
     "lemma": "pojechać",
     "id": "pol-ver-0036-pojechać(to go)",
-    "tags": "3TT",
-    "topics": null,
+    "tags": [
+      "FREQ3"
+    ],
+    "topics": [
+      "travel"
+    ],
     "aspect": "perfective",
     "inflections": {
       "infinitive": "pojechać",
@@ -9656,8 +9716,12 @@
   {
     "lemma": "pojechać",
     "id": "pol-ver-0036-pojechać(to drive)",
-    "tags": "3TT",
-    "topics": null,
+    "tags": [
+      "FREQ3"
+    ],
+    "topics": [
+      "travel"
+    ],
     "aspect": "perfective",
     "inflections": {
       "infinitive": "pojechać",
@@ -9767,8 +9831,12 @@
   {
     "lemma": "jeździć",
     "id": "pol-ver-0036-jeździć(to go)",
-    "tags": "3TT",
-    "topics": null,
+    "tags": [
+      "FREQ3"
+    ],
+    "topics": [
+      "travel"
+    ],
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "jeździć",
@@ -9885,8 +9953,12 @@
   {
     "lemma": "jeździć",
     "id": "pol-ver-0036-jeździć(to drive)",
-    "tags": "3TT",
-    "topics": null,
+    "tags": [
+      "FREQ3"
+    ],
+    "topics": [
+      "travel"
+    ],
     "aspect": "imperfective",
     "inflections": {
       "infinitive": "jeździć",
@@ -10364,8 +10436,12 @@
   {
     "lemma": "wyłączać",
     "id": "pol-ver-0039-wyłączać(to exclude)",
-    "tags": "4eee",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
     "translations": {
       "ENG": [
         "to exclude"
@@ -10588,8 +10664,12 @@
   {
     "lemma": "wyłączyć",
     "id": "pol-ver-0040-wyłączyć(to exclude)",
-    "tags": "4eee",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
     "translations": {
       "ENG": [
         "to exclude"
@@ -11812,8 +11892,12 @@
   {
     "lemma": "tracić",
     "id": "pol-ver-0050-tracić(to lose)",
-    "tags": "2VV",
-    "topics": null,
+    "tags": [
+      "FREQ2"
+    ],
+    "topics": [
+      "possession"
+    ],
     "translations": {
       "ENG": [
         "to lose"
@@ -12036,8 +12120,12 @@
   {
     "lemma": "stracić",
     "id": "pol-ver-0051-stracić(to lose)",
-    "tags": "2VV",
-    "topics": null,
+    "tags": [
+      "FREQ2"
+    ],
+    "topics": [
+      "possession"
+    ],
     "translations": {
       "ENG": [
         "to lose"
@@ -13351,8 +13439,12 @@
   {
     "lemma": "włączyć",
     "id": "pol-ver-0060-włączyć(to include)",
-    "tags": "4eee",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
     "translations": {
       "ENG": [
         "to include"
@@ -13575,8 +13667,12 @@
   {
     "lemma": "włączać",
     "id": "pol-ver-0061-włączać(to include)",
-    "tags": "4eee",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
     "translations": {
       "ENG": [
         "to include"
@@ -20432,8 +20528,12 @@
   {
     "lemma": "zgubić",
     "id": "pol-ver-0116-zgubić(to lose)",
-    "tags": "2VV",
-    "topics": null,
+    "tags": [
+      "FREQ2"
+    ],
+    "topics": [
+      "possession"
+    ],
     "translations": {
       "ENG": [
         "*to lose",
@@ -23010,8 +23110,14 @@
   {
     "lemma": "korzystać",
     "id": "pol-ver-0134-korzystać(to benefit)",
-    "tags": "4$",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "money"
+    ],
+    "topics": [
+      "business",
+      "shopping"
+    ],
     "translations": {
       "ENG": [
         "to benefit",
@@ -23119,8 +23225,14 @@
   {
     "lemma": "korzystać",
     "id": "pol-ver-0134-korzystać(to take advantage)",
-    "tags": "4Z,XX",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "love",
+      "people",
+      "violence"
+    ],
     "translations": {
       "ENG": [
         "to take advantage",
@@ -23341,8 +23453,14 @@
   {
     "lemma": "skorzystać",
     "id": "pol-ver-0135-skorzystać(to benefit)",
-    "tags": "4$",
-    "topics": null,
+    "tags": [
+      "FREQ4",
+      "money"
+    ],
+    "topics": [
+      "business",
+      "shopping"
+    ],
     "translations": {
       "ENG": [
         "to benefit",
@@ -23450,8 +23568,17 @@
   {
     "lemma": "skorzystać",
     "id": "pol-ver-0135-skorzystać(to take advantage)",
-    "tags": "$Z,XX",
-    "topics": null,
+    "tags": [
+      "FREQ5",
+      "money"
+    ],
+    "topics": [
+      "business",
+      "love",
+      "people",
+      "shopping",
+      "violence"
+    ],
     "translations": {
       "ENG": [
         "to take advantage",
@@ -26219,8 +26346,13 @@
   {
     "lemma": "odpowiedzieć",
     "id": "pol-ver-0156-odpowiedzieć(to answer for)",
-    "tags": "4sg,l",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "law",
+      "social glue"
+    ],
     "translations": {
       "ENG": [
         "to answer for",
@@ -26452,8 +26584,13 @@
   {
     "lemma": "odpowiadać",
     "id": "pol-ver-0157-odpowiadać(to answer for)",
-    "tags": "4sg,l",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "law",
+      "social glue"
+    ],
     "translations": {
       "ENG": [
         "to answer for",
@@ -29558,8 +29695,15 @@
   {
     "lemma": "dojrzeć",
     "id": "pol-ver-0183-dojrzeć(to ripen)",
-    "tags": "3ff,agr",
-    "topics": null,
+    "tags": [
+      "FREQ3"
+    ],
+    "topics": [
+      "agriculture",
+      "inside",
+      "kitchen",
+      "restaurant"
+    ],
     "translations": {
       "ENG": [
         "to ripen[i]"
@@ -29789,8 +29933,15 @@
   {
     "lemma": "dojrzewać",
     "id": "pol-ver-0184-dojrzewać(to ripen)",
-    "tags": "3ff,agr",
-    "topics": null,
+    "tags": [
+      "FREQ3"
+    ],
+    "topics": [
+      "agriculture",
+      "inside",
+      "kitchen",
+      "restaurant"
+    ],
     "translations": {
       "ENG": [
         "to ripen[i]"
@@ -30874,8 +31025,13 @@
   {
     "lemma": "chwytać",
     "id": "pol-ver-0192-chwytać(to grab)",
-    "tags": "3v",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "movement"
+    ],
+    "topics": [
+      "body"
+    ],
     "translations": {
       "ENG": [
         "to grab",
@@ -31129,8 +31285,13 @@
   {
     "lemma": "chwycić",
     "id": "pol-ver-0193-chwycić(to grab)",
-    "tags": "3v",
-    "topics": null,
+    "tags": [
+      "FREQ3",
+      "movement"
+    ],
+    "topics": [
+      "body"
+    ],
     "translations": {
       "ENG": [
         "to grab",
@@ -32251,8 +32412,12 @@
   {
     "lemma": "badać",
     "id": "pol-ver-0199-badać(to explore)",
-    "tags": "4PP",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "holiday"
+    ],
     "translations": {
       "ENG": [
         "to explore"
@@ -32648,8 +32813,12 @@
   {
     "lemma": "zbadać",
     "id": "pol-ver-0200-zbadać(to explore)",
-    "tags": "4PP",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "holiday"
+    ],
     "translations": {
       "ENG": [
         "to explore"
@@ -35324,8 +35493,14 @@
   {
     "lemma": "chwalić",
     "id": "pol-ver-0217-chwalić(to boast)",
-    "tags": "5sr",
-    "topics": null,
+    "tags": [
+      "FREQ5",
+      "abstract",
+      "speech"
+    ],
+    "topics": [
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "to boast"
@@ -35557,8 +35732,14 @@
   {
     "lemma": "pochwalić",
     "id": "pol-ver-0218-pochwalić(to boast)",
-    "tags": "5sr",
-    "topics": null,
+    "tags": [
+      "FREQ5",
+      "abstract",
+      "speech"
+    ],
+    "topics": [
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "to boast"
@@ -37934,8 +38115,12 @@
   {
     "lemma": "dołączyć",
     "id": "pol-ver-0237-dołączyć(to attach)",
-    "tags": "4eng",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "engineering"
+    ],
     "translations": {
       "ENG": [
         "to attach"
@@ -38157,8 +38342,12 @@
   {
     "lemma": "dołączać",
     "id": "pol-ver-0238-dołączać(to attach)",
-    "tags": "4eng",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "engineering"
+    ],
     "translations": {
       "ENG": [
         "to attach"
@@ -50703,8 +50892,12 @@
   {
     "lemma": "kwitnąć",
     "id": "pol-ver-0342-kwitnąć(to blossom)",
-    "tags": "5agr",
-    "topics": null,
+    "tags": [
+      "FREQ5"
+    ],
+    "topics": [
+      "agriculture"
+    ],
     "translations": {
       "ENG": [
         "to blossom",
@@ -55787,8 +55980,14 @@
   {
     "lemma": "męczyć",
     "id": "pol-ver-0382-męczyć(to tire)",
-    "tags": "2e",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "abstract",
+      "emotion"
+    ],
+    "topics": [
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "to nag",
@@ -56169,8 +56368,14 @@
   {
     "lemma": "zmęczyć",
     "id": "pol-ver-0383-zmęczyć(to tire)",
-    "tags": "2e",
-    "topics": null,
+    "tags": [
+      "FREQ2",
+      "abstract",
+      "emotion"
+    ],
+    "topics": [
+      "mental"
+    ],
     "translations": {
       "ENG": [
         "to nag",
@@ -56643,8 +56848,12 @@
   {
     "lemma": "nakładać",
     "id": "pol-ver-0387-nakładać(*to apply (e.g. sunscreen))",
-    "tags": "5dr",
-    "topics": null,
+    "tags": [
+      "FREQ5"
+    ],
+    "topics": [
+      "daily routine"
+    ],
     "translations": {
       "ENG": [
         "*to apply (e.g. sunscreen)"
@@ -56866,8 +57075,12 @@
   {
     "lemma": "nałożyć",
     "id": "pol-ver-0388-nałożyć(*to apply (e.g. sunscreen))",
-    "tags": "5dr",
-    "topics": null,
+    "tags": [
+      "FREQ5"
+    ],
+    "topics": [
+      "daily routine"
+    ],
     "translations": {
       "ENG": [
         "*to apply (e.g. sunscreen)"
@@ -65583,8 +65796,13 @@
   {
     "lemma": "odpłynąć",
     "id": "pol-ver-0461-odpłynąć(to sail away)",
-    "tags": "4TT,nau",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "nautical",
+      "travel"
+    ],
     "translations": {
       "ENG": [
         "to sail away[i]",
@@ -65807,8 +66025,13 @@
   {
     "lemma": "odpływać",
     "id": "pol-ver-0462-odpływać(to sail away)",
-    "tags": "4TT,nau",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "nautical",
+      "travel"
+    ],
     "translations": {
       "ENG": [
         "to sail away[i]",
@@ -74736,8 +74959,12 @@
   {
     "lemma": "oszukiwać",
     "id": "pol-ver-0539-oszukiwać(to cheat in a game)",
-    "tags": "3MM",
-    "topics": null,
+    "tags": [
+      "FREQ3"
+    ],
+    "topics": [
+      "game"
+    ],
     "translations": {
       "ENG": [
         "to cheat"
@@ -74973,8 +75200,12 @@
   {
     "lemma": "oszukać",
     "id": "pol-ver-0540-oszukać(to cheat in a game)",
-    "tags": "3MM",
-    "topics": null,
+    "tags": [
+      "FREQ3"
+    ],
+    "topics": [
+      "game"
+    ],
     "translations": {
       "ENG": [
         "to cheat"
@@ -82755,8 +82986,15 @@
   {
     "lemma": "podkreślać",
     "id": "pol-ver-0604-podkreślać(to underline)",
-    "tags": "5wri,oo",
-    "topics": null,
+    "tags": [
+      "FREQ5",
+      "abstract",
+      "punctuation"
+    ],
+    "topics": [
+      "language",
+      "writing"
+    ],
     "translations": {
       "ENG": [
         "to underline"
@@ -82991,8 +83229,15 @@
   {
     "lemma": "podkreślić",
     "id": "pol-ver-0605-podkreślić(to underline)",
-    "tags": "5wri,oo",
-    "topics": null,
+    "tags": [
+      "FREQ5",
+      "abstract",
+      "punctuation"
+    ],
+    "topics": [
+      "language",
+      "writing"
+    ],
     "translations": {
       "ENG": [
         "to underline"
@@ -88681,8 +88926,13 @@
   {
     "lemma": "pilnować",
     "id": "pol-ver-0647-pilnować(to watch)",
-    "tags": "4pp,dr",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "daily routine",
+      "people"
+    ],
     "translations": {
       "ENG": [
         "to watch",
@@ -93358,8 +93608,13 @@
   {
     "lemma": "pominąć",
     "id": "pol-ver-0690-pominąć(to omit)",
-    "tags": "4wri,eee",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "knowledge and existence",
+      "writing"
+    ],
     "translations": {
       "ENG": [
         "to omit",
@@ -93581,8 +93836,13 @@
   {
     "lemma": "pomijać",
     "id": "pol-ver-0691-pomijać(to omit)",
-    "tags": "4wri,eee",
-    "topics": null,
+    "tags": [
+      "FREQ4"
+    ],
+    "topics": [
+      "knowledge and existence",
+      "writing"
+    ],
     "translations": {
       "ENG": [
         "to omit",
@@ -96279,8 +96539,14 @@
   {
     "lemma": "przejąć",
     "id": "pol-ver-0716-przejąć(take)(to seize)",
-    "tags": "5v,VV",
-    "topics": null,
+    "tags": [
+      "FREQ5",
+      "movement"
+    ],
+    "topics": [
+      "body",
+      "possession"
+    ],
     "translations": {
       "ENG": [
         "to seize"
@@ -96615,8 +96881,14 @@
   {
     "lemma": "przejmować",
     "id": "pol-ver-0718-przejmować(take)(to seize)",
-    "tags": "5v,VV",
-    "topics": null,
+    "tags": [
+      "FREQ5",
+      "movement"
+    ],
+    "topics": [
+      "body",
+      "possession"
+    ],
     "translations": {
       "ENG": [
         "to seize"
@@ -101535,8 +101807,12 @@
   {
     "lemma": "przesadzać",
     "id": "pol-ver-0763-przesadzać(to overdo)",
-    "tags": "5qq",
-    "topics": null,
+    "tags": [
+      "FREQ5"
+    ],
+    "topics": [
+      "hobbies"
+    ],
     "translations": {
       "ENG": [
         "to overdo"
@@ -101765,8 +102041,12 @@
   {
     "lemma": "przesadzić",
     "id": "pol-ver-0764-przesadzić(to overdo)",
-    "tags": "5qq",
-    "topics": null,
+    "tags": [
+      "FREQ5"
+    ],
+    "topics": [
+      "hobbies"
+    ],
     "translations": {
       "ENG": [
         "to overdo"
@@ -109011,92 +109291,92 @@
     },
     "aspect": "imperfective",
     "inflections": {
-        "infinitive": "czynić",
-        "verbalNoun": "czynienie",
-        "activeAdjectival": "czyniący",
-        "passiveAdjectival": "czyniony",
-        "contemporaryAdverbial": "czyniąc",
-        "anteriorAdverbial": false,
-        "verbal": {
-            "conditional": true,
-            "future": true,
-            "imperative": "czyń",
-            "past": {
-                "impersonal": {
-                    "singular": {
-                        "allSingularGenders": "czyniono"
-                    },
-                    "plural": {
-                        "allPluralGenders": "czyniono"
-                    }
-                },
-                "1per": {
-                    "singular": {
-                        "m": "czyniłem",
-                        "f": "czyniłam"
-                    },
-                    "plural": {
-                        "virile": "czyniliśmy",
-                        "nonvirile": "czyniłyśmy"
-                    }
-                },
-                "2per": {
-                    "singular": {
-                        "m": "czyniłeś",
-                        "f": "czyniłaś"
-                    },
-                    "plural": {
-                        "virile": "czyniliście",
-                        "nonvirile": "czyniłyście"
-                    }
-                },
-                "3per": {
-                    "singular": {
-                        "m": "czynił",
-                        "f": "czyniła",
-                        "n": "czyniło"
-                    },
-                    "plural": {
-                        "virile": "czynili",
-                        "nonvirile": "czyniły"
-                    }
-                }
+      "infinitive": "czynić",
+      "verbalNoun": "czynienie",
+      "activeAdjectival": "czyniący",
+      "passiveAdjectival": "czyniony",
+      "contemporaryAdverbial": "czyniąc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "czyń",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "czyniono"
             },
-            "present": {
-                "impersonal": {
-                    "singular": {
-                        "allSingularGenders": "czyni się"
-                    },
-                    "plural": {
-                        "allPluralGenders": "czyni się"
-                    }
-                },
-                "1per": {
-                    "singular": {
-                        "allSingularGenders": "czynię"
-                    },
-                    "plural": {
-                        "allPluralGenders": "czynimy"
-                    }
-                },
-                "2per": {
-                    "singular": {
-                        "allSingularGenders": "czynisz"
-                    },
-                    "plural": {
-                        "allPluralGenders": "czynicie"
-                    }
-                },
-                "3per": {
-                    "singular": {
-                        "allSingularGenders": "czyni"
-                    },
-                    "plural": {
-                        "allPluralGenders": "czynią"
-                    }
-                }
+            "plural": {
+              "allPluralGenders": "czyniono"
             }
+          },
+          "1per": {
+            "singular": {
+              "m": "czyniłem",
+              "f": "czyniłam"
+            },
+            "plural": {
+              "virile": "czyniliśmy",
+              "nonvirile": "czyniłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "czyniłeś",
+              "f": "czyniłaś"
+            },
+            "plural": {
+              "virile": "czyniliście",
+              "nonvirile": "czyniłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "czynił",
+              "f": "czyniła",
+              "n": "czyniło"
+            },
+            "plural": {
+              "virile": "czynili",
+              "nonvirile": "czyniły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "czyni się"
+            },
+            "plural": {
+              "allPluralGenders": "czyni się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "czynię"
+            },
+            "plural": {
+              "allPluralGenders": "czynimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "czynisz"
+            },
+            "plural": {
+              "allPluralGenders": "czynicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "czyni"
+            },
+            "plural": {
+              "allPluralGenders": "czynią"
+            }
+          }
         }
+      }
     }
   }
 ]
