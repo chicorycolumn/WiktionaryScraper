@@ -2402,7 +2402,9 @@
     "lemma": "to lead",
     "id": "eng-ver-0077-tolead",
     "»trans": [
-      "pol-ver-0347-dowodzić"
+      "pol-ver-0347-dowodzić",
+      "pol-ver-0906-poprowadzić",
+      "pol-ver-0380-kierować"
     ]
   },
   {
@@ -2701,7 +2703,8 @@
     "lemma": "to make someone feel something",
     "id": "eng-ver-0116-to make someone feel something(þ)",
     "»trans": [
-      "pol-ver-0378-uczynić"
+      "pol-ver-0378-uczynić",
+      "pol-ver-0907-czynić"
     ]
   },
   {
@@ -2738,7 +2741,8 @@
     "»trans": [
       "pol-ver-0380-kierować",
       "pol-ver-0832-prowadzić(lead)",
-      "pol-ver-0833-prowadzać(lead)"
+      "pol-ver-0833-prowadzać(lead)",
+      "pol-ver-0906-poprowadzić"
     ]
   },
   {
@@ -6375,7 +6379,51 @@
     "lemma": "to lend",
     "id": "eng-ver-0038-to lend(þ)",
     "»trans": [
-      "pol-ver-0901-pożyczyć(*to lend)"
+      "pol-ver-0901-pożyczyć(*to lend)",
+      "pol-ver-0903-pożyczać(*to lend)"
+    ]
+  },
+  {
+    "lemma": "to borrow",
+    "id": "eng-ver-0039-to borrow(þ)",
+    "»trans": [
+      "pol-ver-0902-pożyczyć(*to borrow)",
+      "pol-ver-0904-pożyczać(*to borrow)"
+    ]
+  },
+  {
+    "lemma": "to lend",
+    "id": "eng-ver-0040-to lend(þ)",
+    "»trans": [
+      "pol-ver-0903-pożyczać(*to lend)"
+    ]
+  },
+  {
+    "lemma": "to borrow",
+    "id": "eng-ver-0041-to borrow(þ)",
+    "»trans": [
+      "pol-ver-0904-pożyczać(*to borrow)"
+    ]
+  },
+  {
+    "lemma": "to last",
+    "id": "eng-ver-0042-tolast",
+    "»trans": [
+      "pol-ver-0905-potrwać"
+    ]
+  },
+  {
+    "lemma": "to guide",
+    "id": "eng-ver-0043-toguide",
+    "»trans": [
+      "pol-ver-0906-poprowadzić"
+    ]
+  },
+  {
+    "lemma": "to make someone feel something",
+    "id": "eng-ver-0044-to make someone feel something(þ)",
+    "»trans": [
+      "pol-ver-0907-czynić"
     ]
   }
 ]
