@@ -231,9 +231,17 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang)
         show_helptext()
         return
 
-    if user_input[0] not in ["f", "F", "a", "$"]:
+    if user_input[0] not in "fFa$":
         for char in user_input:
             if char not in "123456789dDfFwSsx":
+                c.print_red("         Did not recognise user input. Options are:")
+                time.sleep(0.8)
+                show_helptext()
+                return
+
+    if user_input[0] in "sd":
+        for char in user_input[1:]:
+            if char not in "123456789":
                 c.print_red("         Did not recognise user input. Options are:")
                 time.sleep(0.8)
                 show_helptext()
