@@ -9,7 +9,7 @@ from utils.universal import color as c, get_curried_save, load_data
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "nco"
+    wordtype = "ver"
     batch = "01"
     start_id_number = 1
     suffix = "TGT"
