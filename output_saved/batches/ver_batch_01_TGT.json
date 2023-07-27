@@ -1240,7 +1240,7 @@
   },
   {
     "lemma": "to play",
-    "id": "eng-ver-0124-toplay(general)",
+    "id": "eng-ver-0124-toplay(have fun)",
     "»trans": [
       "pol-ver-0144-bawić"
     ],
@@ -1249,7 +1249,17 @@
   },
   {
     "lemma": "to play",
-    "id": "eng-ver-0125-to play(gameXinstrument)",
+    "id": "eng-ver-0125-to play(game)",
+    "»trans": [
+      "pol-ver-0205-grać",
+      "pol-ver-0206-zagrać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "to play",
+    "id": "eng-ver-0125-to play(instrument)",
     "»trans": [
       "pol-ver-0205-grać",
       "pol-ver-0206-zagrać"
@@ -1622,7 +1632,9 @@
     "id": "eng-ver-0161-toadore",
     "»trans": [
       "pol-ver-0185-uwielbiać",
-      "pol-ver-0186-uwielbić"
+      "pol-ver-0186-uwielbić",
+      "pol-ver-0210-kochać",
+      "pol-ver-0211-pokochać"
     ],
     "register": 0,
     "frequency": 1
@@ -1632,7 +1644,9 @@
     "id": "eng-ver-0162-tolove(adore)",
     "»trans": [
       "pol-ver-0185-uwielbiać",
-      "pol-ver-0186-uwielbić"
+      "pol-ver-0186-uwielbić",
+      "pol-ver-0210-kochać",
+      "pol-ver-0211-pokochać"
     ],
     "register": 0,
     "frequency": 1
@@ -3108,16 +3122,6 @@
     "frequency": 5
   },
   {
-    "lemma": "to bother",
-    "id": "eng-ver-0309-tobother(tire)",
-    "»trans": [
-      "pol-ver-0459-męczyć(to tire)",
-      "pol-ver-0462-zmęczyć(to tire)"
-    ],
-    "register": 0,
-    "frequency": 2
-  },
-  {
     "lemma": "to trouble",
     "id": "eng-ver-0310-totrouble(bother)",
     "»trans": [
@@ -3129,8 +3133,8 @@
     "frequency": 5
   },
   {
-    "lemma": "to trouble",
-    "id": "eng-ver-0311-totrouble(tire)",
+    "lemma": "to tire",
+    "id": "eng-ver-0311-totire",
     "»trans": [
       "pol-ver-0459-męczyć(to tire)",
       "pol-ver-0462-zmęczyć(to tire)"
@@ -3148,16 +3152,6 @@
     ],
     "register": 0,
     "frequency": 5
-  },
-  {
-    "lemma": "to nag",
-    "id": "eng-ver-0313-tonag(tire)",
-    "»trans": [
-      "pol-ver-0459-męczyć(to tire)",
-      "pol-ver-0462-zmęczyć(to tire)"
-    ],
-    "register": 0,
-    "frequency": 2
   },
   {
     "lemma": "to tremble",
