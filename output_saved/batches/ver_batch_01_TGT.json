@@ -41,9 +41,17 @@
   },
   {
     "lemma": "to run[i]",
-    "id": "eng-ver-0005-torun[i]",
+    "id": "eng-ver-0005-torun[i](around)",
     "»trans": [
       "pol-ver-0009-biegać"
+    ]
+  },
+  {
+    "lemma": "to run[i]",
+    "id": "eng-ver-0008-torun[i](to)",
+    "»trans": [
+      "pol-ver-0010-pobiec",
+      "pol-ver-0011-biec"
     ]
   },
   {
@@ -58,14 +66,6 @@
     "id": "eng-ver-0007-togojogging[i]",
     "»trans": [
       "pol-ver-0009-biegać"
-    ]
-  },
-  {
-    "lemma": "to run[i]",
-    "id": "eng-ver-0008-torun[i](þ)",
-    "»trans": [
-      "pol-ver-0010-pobiec",
-      "pol-ver-0011-biec"
     ]
   },
   {
@@ -171,7 +171,11 @@
     "id": "eng-ver-0021-tolet",
     "»trans": [
       "pol-ver-0031-dać(to let)",
-      "pol-ver-0033-dawać(to let)"
+      "pol-ver-0033-dawać(to let)",
+      "pol-ver-0238-dopuścić",
+      "pol-ver-0239-dopuszczać",
+      "pol-ver-0828-pozwalać",
+      "pol-ver-0829-pozwolić"
     ]
   },
   {
@@ -179,7 +183,11 @@
     "id": "eng-ver-0022-toallow",
     "»trans": [
       "pol-ver-0031-dać(to let)",
-      "pol-ver-0033-dawać(to let)"
+      "pol-ver-0033-dawać(to let)",
+      "pol-ver-0238-dopuścić",
+      "pol-ver-0239-dopuszczać",
+      "pol-ver-0828-pozwalać",
+      "pol-ver-0829-pozwolić"
     ]
   },
   {
@@ -187,7 +195,11 @@
     "id": "eng-ver-0023-topermit",
     "»trans": [
       "pol-ver-0031-dać(to let)",
-      "pol-ver-0033-dawać(to let)"
+      "pol-ver-0033-dawać(to let)",
+      "pol-ver-0238-dopuścić",
+      "pol-ver-0239-dopuszczać",
+      "pol-ver-0828-pozwalać",
+      "pol-ver-0829-pozwolić"
     ]
   },
   {
@@ -244,10 +256,24 @@
   },
   {
     "lemma": "can",
-    "id": "eng-ver-0031-can",
+    "id": "eng-ver-0031-can(able)",
     "»trans": [
       "pol-ver-0042-umieć",
       "pol-ver-0045-móc(can or be able to)"
+    ]
+  },
+  {
+    "lemma": "can",
+    "id": "eng-ver-0036-can(allowed)",
+    "»trans": [
+      "pol-ver-0046-móc(can or be allowed)"
+    ]
+  },
+  {
+    "lemma": "can",
+    "id": "eng-ver-0038-can(might)",
+    "»trans": [
+      "pol-ver-0047-móc(can may might)"
     ]
   },
   {
@@ -280,24 +306,10 @@
     ]
   },
   {
-    "lemma": "can",
-    "id": "eng-ver-0036-can(þ)",
-    "»trans": [
-      "pol-ver-0046-móc(can or be allowed)"
-    ]
-  },
-  {
     "lemma": "to be allowed[i]",
     "id": "eng-ver-0037-tobeallowed[i]",
     "»trans": [
       "pol-ver-0046-móc(can or be allowed)"
-    ]
-  },
-  {
-    "lemma": "can",
-    "id": "eng-ver-0038-can(þ)",
-    "»trans": [
-      "pol-ver-0047-móc(can may might)"
     ]
   },
   {
@@ -428,15 +440,7 @@
   },
   {
     "lemma": "to arrive[i]",
-    "id": "eng-ver-0003-toarrive[i]",
-    "»trans": [
-      "pol-ver-0066-przychodzić",
-      "pol-ver-0068-przyjść"
-    ]
-  },
-  {
-    "lemma": "to come[i]",
-    "id": "eng-ver-0004-tocome[i]",
+    "id": "eng-ver-0003-toarrive[i](foot)",
     "»trans": [
       "pol-ver-0066-przychodzić",
       "pol-ver-0068-przyjść"
@@ -444,15 +448,25 @@
   },
   {
     "lemma": "to arrive[i]",
-    "id": "eng-ver-0005-toarrive[i](þ)",
+    "id": "eng-ver-0005-toarrive[i](vehicle)",
     "»trans": [
       "pol-ver-0067-przyjechać",
-      "pol-ver-0069-przyjeżdżać"
+      "pol-ver-0069-przyjeżdżać",
+      "pol-ver-0264-dojechać",
+      "pol-ver-0265-dojeżdżać"
     ]
   },
   {
     "lemma": "to come[i]",
-    "id": "eng-ver-0006-tocome[i](þ)",
+    "id": "eng-ver-0004-tocome[i](foot)",
+    "»trans": [
+      "pol-ver-0066-przychodzić",
+      "pol-ver-0068-przyjść"
+    ]
+  },
+  {
+    "lemma": "to come[i]",
+    "id": "eng-ver-0006-tocome[i](vehicle)",
     "»trans": [
       "pol-ver-0067-przyjechać",
       "pol-ver-0069-przyjeżdżać"
@@ -460,11 +474,20 @@
   },
   {
     "lemma": "to go[i]",
-    "id": "eng-ver-0007-togo[i]",
+    "id": "eng-ver-0007-togo[i](foot)",
     "»trans": [
       "pol-ver-0070-iść(to go)",
       "pol-ver-0072-pójść(to go)",
       "pol-ver-0074-chodzić(to go)"
+    ]
+  },
+  {
+    "lemma": "to go[i]",
+    "id": "eng-ver-0009-togo[i](vehicle)",
+    "»trans": [
+      "pol-ver-0076-jechać(to go)",
+      "pol-ver-0078-pojechać(to go)",
+      "pol-ver-0080-jeździć(to go)"
     ]
   },
   {
@@ -474,15 +497,6 @@
       "pol-ver-0071-iść(to walk)",
       "pol-ver-0073-pójść(to walk)",
       "pol-ver-0075-chodzić(to walk)"
-    ]
-  },
-  {
-    "lemma": "to go[i]",
-    "id": "eng-ver-0009-togo[i](þ)",
-    "»trans": [
-      "pol-ver-0076-jechać(to go)",
-      "pol-ver-0078-pojechać(to go)",
-      "pol-ver-0080-jeździć(to go)"
     ]
   },
   {
@@ -552,7 +566,7 @@
   },
   {
     "lemma": "to speak[i]",
-    "id": "eng-ver-0018-tospeak[i]",
+    "id": "eng-ver-0018-tospeak[i](talk)",
     "»trans": [
       "pol-ver-0091-mówić(talk)",
       "pol-ver-0092-porozmawiać",
@@ -561,7 +575,7 @@
   },
   {
     "lemma": "to speak[i]",
-    "id": "eng-ver-0018-tospeakalanguage",
+    "id": "eng-ver-0018-tospeakalanguage(language)",
     "»trans": [
       "pol-ver-0908-mówić(speak a language)"
     ]
@@ -572,7 +586,8 @@
     "»trans": [
       "pol-ver-0091-mówić(talk)",
       "pol-ver-0092-porozmawiać",
-      "pol-ver-0093-rozmawiać"
+      "pol-ver-0093-rozmawiać",
+      "pol-ver-0379-gadać"
     ]
   },
   {
@@ -588,7 +603,8 @@
     "id": "eng-ver-0021-tochat[i]",
     "»trans": [
       "pol-ver-0092-porozmawiać",
-      "pol-ver-0093-rozmawiać"
+      "pol-ver-0093-rozmawiać",
+      "pol-ver-0379-gadać"
     ]
   },
   {
@@ -616,10 +632,26 @@
   },
   {
     "lemma": "to lose",
-    "id": "eng-ver-0025-tolose",
+    "id": "eng-ver-0025-tolose(possession)",
     "»trans": [
       "pol-ver-0097-tracić(to lose)",
-      "pol-ver-0099-stracić(to lose)"
+      "pol-ver-0099-stracić(to lose)",
+      "pol-ver-0101-utracić"
+    ]
+  },
+  {
+    "lemma": "to lose",
+    "id": "eng-ver-0087-to lose(misplace)",
+    "»trans": [
+      "pol-ver-0169-zgubić(to lose)"
+    ]
+  },
+  {
+    "lemma": "to lose",
+    "id": "eng-ver-0111-tolose(game)",
+    "»trans": [
+      "pol-ver-0201-przegrać",
+      "pol-ver-0202-przegrywać"
     ]
   },
   {
@@ -630,13 +662,6 @@
       "pol-ver-0100-stracić(to waste)",
       "pol-ver-0528-marnować",
       "pol-ver-0529-zmarnować"
-    ]
-  },
-  {
-    "lemma": "to lose",
-    "id": "eng-ver-0027-tolose(þ)",
-    "»trans": [
-      "pol-ver-0101-utracić"
     ]
   },
   {
@@ -664,10 +689,18 @@
   },
   {
     "lemma": "to organise",
-    "id": "eng-ver-0031-toorganise",
+    "id": "eng-ver-0031-toorganise(general)",
     "»trans": [
       "pol-ver-0107-organizować",
       "pol-ver-0108-zorganizować"
+    ]
+  },
+  {
+    "lemma": "to organise",
+    "id": "eng-ver-0291-to organise(event)",
+    "»trans": [
+      "pol-ver-0555-odbyć(hold)",
+      "pol-ver-0557-odbywać(hold)"
     ]
   },
   {
@@ -688,10 +721,18 @@
   },
   {
     "lemma": "to include",
-    "id": "eng-ver-0034-toinclude",
+    "id": "eng-ver-0034-toinclude(include)",
     "»trans": [
       "pol-ver-0110-włączyć(to include)",
       "pol-ver-0112-włączać(to include)"
+    ]
+  },
+  {
+    "lemma": "to include",
+    "id": "eng-ver-0191-toinclude(comprise)",
+    "»trans": [
+      "pol-ver-0455-objąć",
+      "pol-ver-0456-obejmować"
     ]
   },
   {
@@ -720,26 +761,51 @@
   },
   {
     "lemma": "to clean",
-    "id": "eng-ver-0038-toclean",
+    "id": "eng-ver-0038-toclean(wash)",
     "»trans": [
       "pol-ver-0115-umyć",
       "pol-ver-0116-myć"
     ]
   },
   {
+    "lemma": "to clean",
+    "id": "eng-ver-0045-toclean(tidy)",
+    "»trans": [
+      "pol-ver-0122-sprzątać",
+      "pol-ver-0224-posprzątać"
+    ]
+  },
+  {
     "lemma": "to watch",
-    "id": "eng-ver-0039-towatch",
+    "id": "eng-ver-0039-towatch(film)",
     "»trans": [
       "pol-ver-0117-oglądać",
       "pol-ver-0118-obejrzeć"
     ]
   },
   {
+    "lemma": "to watch",
+    "id": "eng-ver-0450-towatch(child)",
+    "»trans": [
+      "pol-ver-0735-pilnować(to watch)"
+    ]
+  },
+  {
     "lemma": "to use",
-    "id": "eng-ver-0040-touse",
+    "id": "eng-ver-0040-touse(use)",
     "»trans": [
       "pol-ver-0119-używać",
-      "pol-ver-0120-użyć"
+      "pol-ver-0120-użyć",
+      "pol-ver-0190-korzystać(to use)",
+      "pol-ver-0193-skorzystać(to use)"
+    ]
+  },
+  {
+    "lemma": "to use",
+    "id": "eng-ver-0107-touse(takeadvantage)",
+    "»trans": [
+      "pol-ver-0192-korzystać(to take advantage)",
+      "pol-ver-0195-skorzystać(to take advantage)"
     ]
   },
   {
@@ -758,23 +824,23 @@
   },
   {
     "lemma": "to clean up",
-    "id": "eng-ver-0043-tocleanup",
+    "id": "eng-ver-0043-tocleanup(tidy)",
     "»trans": [
       "pol-ver-0122-sprzątać",
       "pol-ver-0224-posprzątać"
+    ]
+  },
+  {
+    "lemma": "to clean up",
+    "id": "eng-ver-0278-tocleanup(cleananobject)",
+    "»trans": [
+      "pol-ver-0544-oczyścić(to clean up)",
+      "pol-ver-0546-oczyszczać(to clean up)"
     ]
   },
   {
     "lemma": "to tidy up",
     "id": "eng-ver-0044-totidyup",
-    "»trans": [
-      "pol-ver-0122-sprzątać",
-      "pol-ver-0224-posprzątać"
-    ]
-  },
-  {
-    "lemma": "to clean",
-    "id": "eng-ver-0045-toclean(þ)",
     "»trans": [
       "pol-ver-0122-sprzątać",
       "pol-ver-0224-posprzątać"
@@ -805,10 +871,18 @@
   },
   {
     "lemma": "to get",
-    "id": "eng-ver-0049-toget",
+    "id": "eng-ver-0049-toget(receive)",
     "»trans": [
       "pol-ver-0126-dostawać",
       "pol-ver-0127-dostać"
+    ]
+  },
+  {
+    "lemma": "to get",
+    "id": "eng-ver-0435-to get(understand)",
+    "»trans": [
+      "pol-ver-0721-pojąć",
+      "pol-ver-0722-pojmować"
     ]
   },
   {
@@ -855,10 +929,18 @@
   },
   {
     "lemma": "to leave[i]",
-    "id": "eng-ver-0055-toleave[i]",
+    "id": "eng-ver-0055-toleave[i](foot)",
     "»trans": [
       "pol-ver-0130-wyjść",
       "pol-ver-0131-wychodzić"
+    ]
+  },
+  {
+    "lemma": "to leave[i]",
+    "id": "eng-ver-0326-toleave[i](vehicle)",
+    "»trans": [
+      "pol-ver-0591-odjechać",
+      "pol-ver-0592-odjeżdżać"
     ]
   },
   {
@@ -873,7 +955,7 @@
   },
   {
     "lemma": "to send",
-    "id": "eng-ver-0057-tosend",
+    "id": "eng-ver-0057-tosend(send)",
     "»trans": [
       "pol-ver-0134-wysyłać(to send)",
       "pol-ver-0136-wysłać(to send)",
@@ -883,7 +965,7 @@
   },
   {
     "lemma": "to send",
-    "id": "eng-ver-0058-tosend(þ)",
+    "id": "eng-ver-0058-tosend(mail)",
     "»trans": [
       "pol-ver-0135-wysyłać(to mail)",
       "pol-ver-0137-wysłać(to mail)"
@@ -940,9 +1022,25 @@
   },
   {
     "lemma": "to play",
-    "id": "eng-ver-0065-toplay",
+    "id": "eng-ver-0065-toplay(general)",
     "»trans": [
       "pol-ver-0144-bawić"
+    ]
+  },
+  {
+    "lemma": "to play",
+    "id": "eng-ver-0113-to play(gameXinstrument)",
+    "»trans": [
+      "pol-ver-0205-grać",
+      "pol-ver-0206-zagrać"
+    ]
+  },
+  {
+    "lemma": "to play",
+    "id": "eng-ver-0272-to play(role)",
+    "»trans": [
+      "pol-ver-0538-odgrywać",
+      "pol-ver-0539-odegrać"
     ]
   },
   {
@@ -988,15 +1086,35 @@
     "id": "eng-ver-0070-toattempt",
     "»trans": [
       "pol-ver-0149-próbować",
-      "pol-ver-0150-spróbować"
+      "pol-ver-0150-spróbować",
+      "pol-ver-0760-postarać",
+      "pol-ver-0761-starać"
     ]
   },
   {
     "lemma": "to leave",
-    "id": "eng-ver-0071-toleave",
+    "id": "eng-ver-0071-toleave(behind)",
     "»trans": [
       "pol-ver-0151-zostawiać",
       "pol-ver-0152-zostawić"
+    ]
+  },
+  {
+    "lemma": "to leave",
+    "id": "eng-ver-0306-toleave(exit)",
+    "»trans": [
+      "pol-ver-0570-odchodzić",
+      "pol-ver-0571-odejść"
+    ]
+  },
+  {
+    "lemma": "to leave",
+    "id": "eng-ver-0382-toleave(abandon)",
+    "»trans": [
+      "pol-ver-0657-opuścić",
+      "pol-ver-0658-opuszczać",
+      "pol-ver-0867-porzucić",
+      "pol-ver-0868-porzucać"
     ]
   },
   {
@@ -1063,15 +1181,6 @@
     ]
   },
   {
-    "lemma": "to tell",
-    "id": "eng-ver-0080-to tell(þ)",
-    "»trans": [
-      "pol-ver-0159-opowiadać",
-      "pol-ver-0710-oznajmić",
-      "pol-ver-0711-oznajmiać"
-    ]
-  },
-  {
     "lemma": "to carry",
     "id": "eng-ver-0081-tocarry",
     "»trans": [
@@ -1091,7 +1200,9 @@
     "id": "eng-ver-0083-tofind",
     "»trans": [
       "pol-ver-0163-znaleźć",
-      "pol-ver-0164-znajdować"
+      "pol-ver-0164-znajdować",
+      "pol-ver-0605-odnaleźć",
+      "pol-ver-0606-odnajdywać"
     ]
   },
   {
@@ -1116,13 +1227,6 @@
     "»trans": [
       "pol-ver-0167-podziękować",
       "pol-ver-0168-dziękować"
-    ]
-  },
-  {
-    "lemma": "to lose",
-    "id": "eng-ver-0087-to lose(þ)",
-    "»trans": [
-      "pol-ver-0169-zgubić(to lose)"
     ]
   },
   {
@@ -1231,10 +1335,18 @@
   },
   {
     "lemma": "to love",
-    "id": "eng-ver-0101-tolove",
+    "id": "eng-ver-0101-tolove(adore)",
     "»trans": [
       "pol-ver-0185-uwielbiać",
       "pol-ver-0186-uwielbić"
+    ]
+  },
+  {
+    "lemma": "to love",
+    "id": "eng-ver-0116-tolove(romantic)",
+    "»trans": [
+      "pol-ver-0210-kochać",
+      "pol-ver-0211-pokochać"
     ]
   },
   {
@@ -1245,14 +1357,6 @@
       "pol-ver-0188-zapytać",
       "pol-ver-0189-spytać",
       "pol-ver-0198-zapytywać"
-    ]
-  },
-  {
-    "lemma": "to use",
-    "id": "eng-ver-0103-touse(þ)",
-    "»trans": [
-      "pol-ver-0190-korzystać(to use)",
-      "pol-ver-0193-skorzystać(to use)"
     ]
   },
   {
@@ -1275,27 +1379,7 @@
     "lemma": "to take advantage",
     "id": "eng-ver-0106-totakeadvantage",
     "»trans": [
-      "pol-ver-0192-korzystać(to take advantage)"
-    ]
-  },
-  {
-    "lemma": "to use",
-    "id": "eng-ver-0107-touse(þ)",
-    "»trans": [
-      "pol-ver-0192-korzystać(to take advantage)"
-    ]
-  },
-  {
-    "lemma": "to take advantage",
-    "id": "eng-ver-0108-totakeadvantage(þ)",
-    "»trans": [
-      "pol-ver-0195-skorzystać(to take advantage)"
-    ]
-  },
-  {
-    "lemma": "to use",
-    "id": "eng-ver-0109-touse(þ)",
-    "»trans": [
+      "pol-ver-0192-korzystać(to take advantage)",
       "pol-ver-0195-skorzystać(to take advantage)"
     ]
   },
@@ -1310,34 +1394,11 @@
     ]
   },
   {
-    "lemma": "to lose",
-    "id": "eng-ver-0111-tolose(þ)",
-    "»trans": [
-      "pol-ver-0201-przegrać",
-      "pol-ver-0202-przegrywać"
-    ]
-  },
-  {
     "lemma": "to listen",
     "id": "eng-ver-0112-tolisten",
     "»trans": [
       "pol-ver-0203-słuchać",
       "pol-ver-0204-posłuchać"
-    ]
-  },
-  {
-    "lemma": "to play",
-    "id": "eng-ver-0113-to play(þ)",
-    "»trans": [
-      "pol-ver-0205-grać",
-      "pol-ver-0206-zagrać"
-    ]
-  },
-  {
-    "lemma": "to play",
-    "id": "eng-ver-0114-to play(þ)",
-    "»trans": [
-      "pol-ver-0206-zagrać"
     ]
   },
   {
@@ -1347,14 +1408,6 @@
       "pol-ver-0207-widzieć",
       "pol-ver-0208-zobaczyć",
       "pol-ver-0209-widywać"
-    ]
-  },
-  {
-    "lemma": "to love",
-    "id": "eng-ver-0116-tolove(þ)",
-    "»trans": [
-      "pol-ver-0210-kochać",
-      "pol-ver-0211-pokochać"
     ]
   },
   {
@@ -1570,36 +1623,6 @@
     ]
   },
   {
-    "lemma": "to let",
-    "id": "eng-ver-0143-tolet(þ)",
-    "»trans": [
-      "pol-ver-0238-dopuścić",
-      "pol-ver-0239-dopuszczać",
-      "pol-ver-0828-pozwalać",
-      "pol-ver-0829-pozwolić"
-    ]
-  },
-  {
-    "lemma": "to allow",
-    "id": "eng-ver-0144-toallow(þ)",
-    "»trans": [
-      "pol-ver-0238-dopuścić",
-      "pol-ver-0239-dopuszczać",
-      "pol-ver-0828-pozwalać",
-      "pol-ver-0829-pozwolić"
-    ]
-  },
-  {
-    "lemma": "to permit",
-    "id": "eng-ver-0145-topermit(þ)",
-    "»trans": [
-      "pol-ver-0238-dopuścić",
-      "pol-ver-0239-dopuszczać",
-      "pol-ver-0828-pozwalać",
-      "pol-ver-0829-pozwolić"
-    ]
-  },
-  {
     "lemma": "to enjoy",
     "id": "eng-ver-0146-toenjoy",
     "»trans": [
@@ -1636,7 +1659,10 @@
     "id": "eng-ver-0150-tohide",
     "»trans": [
       "pol-ver-0244-chować",
-      "pol-ver-0245-schować"
+      "pol-ver-0245-schować",
+      "pol-ver-0399-kryć",
+      "pol-ver-0400-ukryć",
+      "pol-ver-0401-skryć"
     ]
   },
   {
@@ -1644,7 +1670,10 @@
     "id": "eng-ver-0151-toconceal",
     "»trans": [
       "pol-ver-0244-chować",
-      "pol-ver-0245-schować"
+      "pol-ver-0245-schować",
+      "pol-ver-0399-kryć",
+      "pol-ver-0400-ukryć",
+      "pol-ver-0401-skryć"
     ]
   },
   {
@@ -1684,21 +1713,9 @@
     "id": "eng-ver-0156-tocarryout",
     "»trans": [
       "pol-ver-0250-dokonywać",
-      "pol-ver-0251-dokonać"
-    ]
-  },
-  {
-    "lemma": "to do",
-    "id": "eng-ver-0157-to do(þ)",
-    "»trans": [
-      "pol-ver-0251-dokonać"
-    ]
-  },
-  {
-    "lemma": "to make",
-    "id": "eng-ver-0158-to make(þ)",
-    "»trans": [
-      "pol-ver-0251-dokonać"
+      "pol-ver-0251-dokonać",
+      "pol-ver-0813-przeprowadzić(carry out)",
+      "pol-ver-0814-przeprowadzać(carry)"
     ]
   },
   {
@@ -1741,10 +1758,18 @@
   },
   {
     "lemma": "to perceive",
-    "id": "eng-ver-0164-toperceive",
+    "id": "eng-ver-0164-toperceive(visually)",
     "»trans": [
       "pol-ver-0255-dostrzec",
       "pol-ver-0256-dostrzegać"
+    ]
+  },
+  {
+    "lemma": "to perceive",
+    "id": "eng-ver-0016-toperceive(generally)",
+    "»trans": [
+      "pol-ver-0875-postrzegać",
+      "pol-ver-0876-postrzec"
     ]
   },
   {
@@ -1781,10 +1806,18 @@
   },
   {
     "lemma": "to grasp",
-    "id": "eng-ver-0169-tograsp",
+    "id": "eng-ver-0169-tograsp(physically)",
     "»trans": [
       "pol-ver-0257-chwytać(to grab)",
       "pol-ver-0259-chwycić(to grab)"
+    ]
+  },
+  {
+    "lemma": "to grasp",
+    "id": "eng-ver-0436-to grasp(mentally)",
+    "»trans": [
+      "pol-ver-0721-pojąć",
+      "pol-ver-0722-pojmować"
     ]
   },
   {
@@ -1830,14 +1863,6 @@
     "id": "eng-ver-0003-tocomplete",
     "»trans": [
       "pol-ver-0263-dokończyć"
-    ]
-  },
-  {
-    "lemma": "to arrive[i]",
-    "id": "eng-ver-0004-toarrive[i](þ)",
-    "»trans": [
-      "pol-ver-0264-dojechać",
-      "pol-ver-0265-dojeżdżać"
     ]
   },
   {
@@ -2054,11 +2079,19 @@
   },
   {
     "lemma": "to protect",
-    "id": "eng-ver-0032-toprotect",
+    "id": "eng-ver-0032-toprotect(general)",
     "»trans": [
       "pol-ver-0302-chronić",
       "pol-ver-0303-uchronić",
       "pol-ver-0304-schronić"
+    ]
+  },
+  {
+    "lemma": "to protect",
+    "id": "eng-ver-0106-toprotect(military)",
+    "»trans": [
+      "pol-ver-0368-bronić(to defend)",
+      "pol-ver-0370-obronić(to defend)"
     ]
   },
   {
@@ -2075,7 +2108,9 @@
     "id": "eng-ver-0034-toreach",
     "»trans": [
       "pol-ver-0308-docierać",
-      "pol-ver-0309-dotrzeć"
+      "pol-ver-0309-dotrzeć",
+      "pol-ver-0325-dojść",
+      "pol-ver-0326-dochodzić"
     ]
   },
   {
@@ -2083,15 +2118,25 @@
     "id": "eng-ver-0035-toarrive",
     "»trans": [
       "pol-ver-0308-docierać",
-      "pol-ver-0309-dotrzeć"
+      "pol-ver-0309-dotrzeć",
+      "pol-ver-0325-dojść",
+      "pol-ver-0326-dochodzić"
     ]
   },
   {
     "lemma": "to beat",
-    "id": "eng-ver-0036-tobeat",
+    "id": "eng-ver-0036-tobeat(strike)",
     "»trans": [
       "pol-ver-0310-bić",
       "pol-ver-0311-bijać"
+    ]
+  },
+  {
+    "lemma": "to beat",
+    "id": "eng-ver-0418-tobeat(defeat)",
+    "»trans": [
+      "pol-ver-0705-pokonywać",
+      "pol-ver-0706-pokonać"
     ]
   },
   {
@@ -2138,7 +2183,8 @@
     "lemma": "to fear",
     "id": "eng-ver-0042-tofear",
     "»trans": [
-      "pol-ver-0318-bać"
+      "pol-ver-0318-bać",
+      "pol-ver-0463-obawiać"
     ]
   },
   {
@@ -2159,7 +2205,8 @@
     "lemma": "to care for",
     "id": "eng-ver-0045-tocarefor",
     "»trans": [
-      "pol-ver-0319-dbać"
+      "pol-ver-0319-dbać",
+      "pol-ver-0724-opiekować"
     ]
   },
   {
@@ -2173,7 +2220,8 @@
     "lemma": "to look after",
     "id": "eng-ver-0047-tolookafter",
     "»trans": [
-      "pol-ver-0319-dbać"
+      "pol-ver-0319-dbać",
+      "pol-ver-0724-opiekować"
     ]
   },
   {
@@ -2227,26 +2275,18 @@
   },
   {
     "lemma": "to get to",
-    "id": "eng-ver-0054-togetto",
+    "id": "eng-ver-0054-togetto(arrive)",
     "»trans": [
       "pol-ver-0325-dojść",
       "pol-ver-0326-dochodzić"
     ]
   },
   {
-    "lemma": "to reach",
-    "id": "eng-ver-0055-toreach(þ)",
+    "lemma": "to get to",
+    "id": "eng-ver-0113-togetto(huntdown)",
     "»trans": [
-      "pol-ver-0325-dojść",
-      "pol-ver-0326-dochodzić"
-    ]
-  },
-  {
-    "lemma": "to arrive",
-    "id": "eng-ver-0056-toarrive(þ)",
-    "»trans": [
-      "pol-ver-0325-dojść",
-      "pol-ver-0326-dochodzić"
+      "pol-ver-0375-dopaść",
+      "pol-ver-0376-dopadać"
     ]
   },
   {
@@ -2400,9 +2440,17 @@
   },
   {
     "lemma": "to command",
-    "id": "eng-ver-0076-tocommand",
+    "id": "eng-ver-0076-tocommand(lead)",
     "»trans": [
       "pol-ver-0347-dowodzić"
+    ]
+  },
+  {
+    "lemma": "to command",
+    "id": "eng-ver-0237-tocommand(order)",
+    "»trans": [
+      "pol-ver-0500-nakazać",
+      "pol-ver-0501-nakazywać"
     ]
   },
   {
@@ -2411,7 +2459,9 @@
     "»trans": [
       "pol-ver-0347-dowodzić",
       "pol-ver-0906-poprowadzić",
-      "pol-ver-0380-kierować"
+      "pol-ver-0380-kierować",
+      "pol-ver-0832-prowadzić(lead)",
+      "pol-ver-0833-prowadzać(lead)"
     ]
   },
   {
@@ -2452,13 +2502,6 @@
     ]
   },
   {
-    "lemma": "to keep a promise",
-    "id": "eng-ver-0083-to keep a promise(þ)",
-    "»trans": [
-      "pol-ver-0352-dotrzymywać"
-    ]
-  },
-  {
     "lemma": "to torment",
     "id": "eng-ver-0084-totorment",
     "»trans": [
@@ -2469,7 +2512,24 @@
   },
   {
     "lemma": "to bother",
-    "id": "eng-ver-0085-tobother",
+    "id": "eng-ver-0085-tobother(bother)",
+    "»trans": [
+      "pol-ver-0354-dręczyć(to bother)",
+      "pol-ver-0458-męczyć(to nag)",
+      "pol-ver-0461-zmęczyć(to nag)"
+    ]
+  },
+  {
+    "lemma": "to bother",
+    "id": "eng-ver-0193-tobother(tire)",
+    "»trans": [
+      "pol-ver-0459-męczyć(to tire)",
+      "pol-ver-0462-zmęczyć(to tire)"
+    ]
+  },
+  {
+    "lemma": "to trouble",
+    "id": "eng-ver-0086-totrouble(bother)",
     "»trans": [
       "pol-ver-0354-dręczyć(to bother)",
       "pol-ver-0458-męczyć(to nag)",
@@ -2478,7 +2538,15 @@
   },
   {
     "lemma": "to trouble",
-    "id": "eng-ver-0086-totrouble",
+    "id": "eng-ver-0194-totrouble(tire)",
+    "»trans": [
+      "pol-ver-0459-męczyć(to tire)",
+      "pol-ver-0462-zmęczyć(to tire)"
+    ]
+  },
+  {
+    "lemma": "to nag",
+    "id": "eng-ver-0087-tonag(bother)",
     "»trans": [
       "pol-ver-0354-dręczyć(to bother)",
       "pol-ver-0458-męczyć(to nag)",
@@ -2487,11 +2555,10 @@
   },
   {
     "lemma": "to nag",
-    "id": "eng-ver-0087-tonag",
+    "id": "eng-ver-0192-tonag(tire)",
     "»trans": [
-      "pol-ver-0354-dręczyć(to bother)",
-      "pol-ver-0458-męczyć(to nag)",
-      "pol-ver-0461-zmęczyć(to nag)"
+      "pol-ver-0459-męczyć(to tire)",
+      "pol-ver-0462-zmęczyć(to tire)"
     ]
   },
   {
@@ -2629,15 +2696,8 @@
     "id": "eng-ver-0105-toguard",
     "»trans": [
       "pol-ver-0368-bronić(to defend)",
-      "pol-ver-0370-obronić(to defend)"
-    ]
-  },
-  {
-    "lemma": "to protect",
-    "id": "eng-ver-0106-toprotect(þ)",
-    "»trans": [
-      "pol-ver-0368-bronić(to defend)",
-      "pol-ver-0370-obronić(to defend)"
+      "pol-ver-0370-obronić(to defend)",
+      "pol-ver-0734-pilnować(to guard)"
     ]
   },
   {
@@ -2684,14 +2744,6 @@
     ]
   },
   {
-    "lemma": "to get to",
-    "id": "eng-ver-0113-togetto(þ)",
-    "»trans": [
-      "pol-ver-0375-dopaść",
-      "pol-ver-0376-dopadać"
-    ]
-  },
-  {
     "lemma": "to hunt down",
     "id": "eng-ver-0114-tohuntdown",
     "»trans": [
@@ -2715,20 +2767,6 @@
     ]
   },
   {
-    "lemma": "to talk[i]",
-    "id": "eng-ver-0117-totalk[i](þ)",
-    "»trans": [
-      "pol-ver-0379-gadać"
-    ]
-  },
-  {
-    "lemma": "to chat[i]",
-    "id": "eng-ver-0118-tochat[i](þ)",
-    "»trans": [
-      "pol-ver-0379-gadać"
-    ]
-  },
-  {
     "lemma": "to direct",
     "id": "eng-ver-0119-todirect",
     "»trans": [
@@ -2740,16 +2778,6 @@
     "id": "eng-ver-0120-tohead",
     "»trans": [
       "pol-ver-0380-kierować"
-    ]
-  },
-  {
-    "lemma": "to lead",
-    "id": "eng-ver-0121-tolead(þ)",
-    "»trans": [
-      "pol-ver-0380-kierować",
-      "pol-ver-0832-prowadzić(lead)",
-      "pol-ver-0833-prowadzać(lead)",
-      "pol-ver-0906-poprowadzić"
     ]
   },
   {
@@ -2847,31 +2875,6 @@
     ]
   },
   {
-    "lemma": "to nod[i]",
-    "id": "eng-ver-0134-to nod[i](þ)",
-    "»trans": [
-      "pol-ver-0398-kiwnąć"
-    ]
-  },
-  {
-    "lemma": "to hide",
-    "id": "eng-ver-0135-tohide(þ)",
-    "»trans": [
-      "pol-ver-0399-kryć",
-      "pol-ver-0400-ukryć",
-      "pol-ver-0401-skryć"
-    ]
-  },
-  {
-    "lemma": "to conceal",
-    "id": "eng-ver-0136-toconceal(þ)",
-    "»trans": [
-      "pol-ver-0399-kryć",
-      "pol-ver-0400-ukryć",
-      "pol-ver-0401-skryć"
-    ]
-  },
-  {
     "lemma": "to land[i]",
     "id": "eng-ver-0137-toland[i]",
     "»trans": [
@@ -2913,13 +2916,7 @@
     "lemma": "to fly[i]",
     "id": "eng-ver-0142-tofly[i]",
     "»trans": [
-      "pol-ver-0408-latać"
-    ]
-  },
-  {
-    "lemma": "to fly[i]",
-    "id": "eng-ver-0143-tofly[i](þ)",
-    "»trans": [
+      "pol-ver-0408-latać",
       "pol-ver-0409-lecieć",
       "pol-ver-0410-polecieć"
     ]
@@ -3097,10 +3094,17 @@
   },
   {
     "lemma": "to lie[i]",
-    "id": "eng-ver-0167-tolie[i]",
+    "id": "eng-ver-0167-tolie[i](untruth)",
     "»trans": [
       "pol-ver-0435-kłamać",
       "pol-ver-0436-skłamać"
+    ]
+  },
+  {
+    "lemma": "to lie[i]",
+    "id": "eng-ver-0235-tolie[i](bodily)",
+    "»trans": [
+      "pol-ver-0499-leżeć"
     ]
   },
   {
@@ -3281,45 +3285,6 @@
     ]
   },
   {
-    "lemma": "to include",
-    "id": "eng-ver-0191-toinclude(þ)",
-    "»trans": [
-      "pol-ver-0455-objąć",
-      "pol-ver-0456-obejmować"
-    ]
-  },
-  {
-    "lemma": "to nag",
-    "id": "eng-ver-0192-tonag(þ)",
-    "»trans": [
-      "pol-ver-0459-męczyć(to tire)",
-      "pol-ver-0462-zmęczyć(to tire)"
-    ]
-  },
-  {
-    "lemma": "to bother",
-    "id": "eng-ver-0193-tobother(þ)",
-    "»trans": [
-      "pol-ver-0459-męczyć(to tire)",
-      "pol-ver-0462-zmęczyć(to tire)"
-    ]
-  },
-  {
-    "lemma": "to trouble",
-    "id": "eng-ver-0194-totrouble(þ)",
-    "»trans": [
-      "pol-ver-0459-męczyć(to tire)",
-      "pol-ver-0462-zmęczyć(to tire)"
-    ]
-  },
-  {
-    "lemma": "to fear",
-    "id": "eng-ver-0195-tofear(þ)",
-    "»trans": [
-      "pol-ver-0463-obawiać"
-    ]
-  },
-  {
     "lemma": "to worry",
     "id": "eng-ver-0196-toworry",
     "»trans": [
@@ -3369,18 +3334,18 @@
     ]
   },
   {
+    "lemma": "to apply (e.g. sunscreen)",
+    "id": "eng-ver-0203-to apply (e.g. sunscreen)(þ)",
+    "»trans": [
+      "pol-ver-0468-nałożyć(*to apply (e.g. sunscreen))"
+    ]
+  },
+  {
     "lemma": "to impose (e.g. sanctions)",
     "id": "eng-ver-0202-to impose (e.g. sanctions)(þ)",
     "»trans": [
       "pol-ver-0467-nakładać(*to impose (e.g. sanctions))",
       "pol-ver-0469-nałożyć(*to impose (e.g. sanctions))"
-    ]
-  },
-  {
-    "lemma": "to apply (e.g. sunscreen)",
-    "id": "eng-ver-0203-to apply (e.g. sunscreen)(þ)",
-    "»trans": [
-      "pol-ver-0468-nałożyć(*to apply (e.g. sunscreen))"
     ]
   },
   {
@@ -3514,13 +3479,6 @@
     ]
   },
   {
-    "lemma": "to record",
-    "id": "eng-ver-0221-to record(þ)",
-    "»trans": [
-      "pol-ver-0485-nagrać"
-    ]
-  },
-  {
     "lemma": "to wave",
     "id": "eng-ver-0222-towave",
     "»trans": [
@@ -3622,23 +3580,8 @@
     ]
   },
   {
-    "lemma": "to lie[i]",
-    "id": "eng-ver-0235-tolie[i](þ)",
-    "»trans": [
-      "pol-ver-0499-leżeć"
-    ]
-  },
-  {
     "lemma": "to order",
     "id": "eng-ver-0236-toorder",
-    "»trans": [
-      "pol-ver-0500-nakazać",
-      "pol-ver-0501-nakazywać"
-    ]
-  },
-  {
-    "lemma": "to command",
-    "id": "eng-ver-0237-tocommand(þ)",
     "»trans": [
       "pol-ver-0500-nakazać",
       "pol-ver-0501-nakazywać"
@@ -3696,7 +3639,7 @@
   },
   {
     "lemma": "to pass",
-    "id": "eng-ver-0244-topass",
+    "id": "eng-ver-0244-topass(travel)",
     "»trans": [
       "pol-ver-0507-mijać(to pass by)",
       "pol-ver-0509-minąć(to pass by)"
@@ -3704,10 +3647,18 @@
   },
   {
     "lemma": "to pass",
-    "id": "eng-ver-0245-topass(þ)",
+    "id": "eng-ver-0245-topass(time)",
     "»trans": [
       "pol-ver-0508-mijać(elapse)",
       "pol-ver-0510-minąć(elapse)"
+    ]
+  },
+  {
+    "lemma": "to pass",
+    "id": "eng-ver-0389-topass(salt)",
+    "»trans": [
+      "pol-ver-0665-podawać",
+      "pol-ver-0666-podać"
     ]
   },
   {
@@ -3727,21 +3678,6 @@
     ]
   },
   {
-    "lemma": "to turn on (sexually)",
-    "id": "eng-ver-0248-to turn on (sexually)(þ)",
-    "»trans": [
-      "pol-ver-0512-nakręcić(turn someone on)",
-      "pol-ver-0514-nakręcać(turn)"
-    ]
-  },
-  {
-    "lemma": "to arouse",
-    "id": "eng-ver-0249-toarouse",
-    "»trans": [
-      "pol-ver-0512-nakręcić(turn someone on)"
-    ]
-  },
-  {
     "lemma": "to shoot (film)",
     "id": "eng-ver-0250-to shoot (film)(þ)",
     "»trans": [
@@ -3750,9 +3686,24 @@
   },
   {
     "lemma": "to turn on (sexually)",
+    "id": "eng-ver-0248-to turn on (sexually)(þ)",
+    "»trans": [
+      "pol-ver-0512-nakręcić(turn someone on)",
+      "pol-ver-0514-nakręcać(turn)"
+    ]
+  },
+  {
+    "lemma": "to turn on (sexually)",
     "id": "eng-ver-0251-to turn on (sexually)(þ)",
     "»trans": [
       "pol-ver-0514-nakręcać(turn)"
+    ]
+  },
+  {
+    "lemma": "to arouse",
+    "id": "eng-ver-0249-toarouse",
+    "»trans": [
+      "pol-ver-0512-nakręcić(turn someone on)"
     ]
   },
   {
@@ -3848,10 +3799,18 @@
   },
   {
     "lemma": "to treat",
-    "id": "eng-ver-0262-totreat",
+    "id": "eng-ver-0262-totreat(medical)",
     "»trans": [
       "pol-ver-0524-leczyć",
       "pol-ver-0525-wyleczyć"
+    ]
+  },
+  {
+    "lemma": "to treat",
+    "id": "eng-ver-0516-totreat(consider)",
+    "»trans": [
+      "pol-ver-0811-potraktować",
+      "pol-ver-0812-traktować"
     ]
   },
   {
@@ -3922,21 +3881,6 @@
     ]
   },
   {
-    "lemma": "to play",
-    "id": "eng-ver-0272-to play(þ)",
-    "»trans": [
-      "pol-ver-0538-odgrywać",
-      "pol-ver-0539-odegrać"
-    ]
-  },
-  {
-    "lemma": "to play",
-    "id": "eng-ver-0273-to play(þ)",
-    "»trans": [
-      "pol-ver-0539-odegrać"
-    ]
-  },
-  {
     "lemma": "to swim away[i]",
     "id": "eng-ver-0274-toswimaway[i]",
     "»trans": [
@@ -3966,14 +3910,6 @@
     "»trans": [
       "pol-ver-0541-odpłynąć(to sail away)",
       "pol-ver-0543-odpływać(to sail away)"
-    ]
-  },
-  {
-    "lemma": "to clean up",
-    "id": "eng-ver-0278-tocleanup(þ)",
-    "»trans": [
-      "pol-ver-0544-oczyścić(to clean up)",
-      "pol-ver-0546-oczyszczać(to clean up)"
     ]
   },
   {
@@ -4033,13 +3969,6 @@
     ]
   },
   {
-    "lemma": "to deny",
-    "id": "eng-ver-0286-to deny(þ)",
-    "»trans": [
-      "pol-ver-0553-odmówić"
-    ]
-  },
-  {
     "lemma": "to take place[r]",
     "id": "eng-ver-0287-totakeplace[r]",
     "»trans": [
@@ -4057,23 +3986,7 @@
   },
   {
     "lemma": "to hold",
-    "id": "eng-ver-0289-to hold(þ)",
-    "»trans": [
-      "pol-ver-0555-odbyć(hold)",
-      "pol-ver-0557-odbywać(hold)"
-    ]
-  },
-  {
-    "lemma": "to put on",
-    "id": "eng-ver-0290-to put on(þ)",
-    "»trans": [
-      "pol-ver-0555-odbyć(hold)",
-      "pol-ver-0557-odbywać(hold)"
-    ]
-  },
-  {
-    "lemma": "to organise",
-    "id": "eng-ver-0291-to organise(þ)",
+    "id": "eng-ver-0289-to hold(party)",
     "»trans": [
       "pol-ver-0555-odbyć(hold)",
       "pol-ver-0557-odbywać(hold)"
@@ -4081,22 +3994,17 @@
   },
   {
     "lemma": "to hold",
-    "id": "eng-ver-0292-to hold(þ)",
+    "id": "eng-ver-0003-tohold(storage)",
     "»trans": [
-      "pol-ver-0557-odbywać(hold)"
+      "pol-ver-0853-przechowywać",
+      "pol-ver-0854-przechować"
     ]
   },
   {
     "lemma": "to put on",
-    "id": "eng-ver-0293-to put on(þ)",
+    "id": "eng-ver-0290-to put on(þ)",
     "»trans": [
-      "pol-ver-0557-odbywać(hold)"
-    ]
-  },
-  {
-    "lemma": "to organise",
-    "id": "eng-ver-0294-to organise(þ)",
-    "»trans": [
+      "pol-ver-0555-odbyć(hold)",
       "pol-ver-0557-odbywać(hold)"
     ]
   },
@@ -4113,7 +4021,9 @@
     "id": "eng-ver-0296-tooffer",
     "»trans": [
       "pol-ver-0560-oferować",
-      "pol-ver-0561-zaoferować"
+      "pol-ver-0561-zaoferować",
+      "pol-ver-0797-proponować",
+      "pol-ver-0798-zaproponować"
     ]
   },
   {
@@ -4121,7 +4031,9 @@
     "id": "eng-ver-0297-topropose",
     "»trans": [
       "pol-ver-0560-oferować",
-      "pol-ver-0561-zaoferować"
+      "pol-ver-0561-zaoferować",
+      "pol-ver-0797-proponować",
+      "pol-ver-0798-zaproponować"
     ]
   },
   {
@@ -4145,7 +4057,9 @@
     "id": "eng-ver-0300-topostpone",
     "»trans": [
       "pol-ver-0564-odłożyć",
-      "pol-ver-0565-odkładać"
+      "pol-ver-0565-odkładać",
+      "pol-ver-0882-przełożyć(postpone)",
+      "pol-ver-0884-przekładać(postpone)"
     ]
   },
   {
@@ -4153,7 +4067,9 @@
     "id": "eng-ver-0301-toputoff",
     "»trans": [
       "pol-ver-0564-odłożyć",
-      "pol-ver-0565-odkładać"
+      "pol-ver-0565-odkładać",
+      "pol-ver-0882-przełożyć(postpone)",
+      "pol-ver-0884-przekładać(postpone)"
     ]
   },
   {
@@ -4161,7 +4077,9 @@
     "id": "eng-ver-0302-todefer",
     "»trans": [
       "pol-ver-0564-odłożyć",
-      "pol-ver-0565-odkładać"
+      "pol-ver-0565-odkładać",
+      "pol-ver-0882-przełożyć(postpone)",
+      "pol-ver-0884-przekładać(postpone)"
     ]
   },
   {
@@ -4185,14 +4103,6 @@
     "»trans": [
       "pol-ver-0567-oddać(donate)",
       "pol-ver-0569-oddawać(donate)"
-    ]
-  },
-  {
-    "lemma": "to leave",
-    "id": "eng-ver-0306-toleave(þ)",
-    "»trans": [
-      "pol-ver-0570-odchodzić",
-      "pol-ver-0571-odejść"
     ]
   },
   {
@@ -4244,10 +4154,18 @@
   },
   {
     "lemma": "to save",
-    "id": "eng-ver-0313-tosave",
+    "id": "eng-ver-0313-tosave(life)",
     "»trans": [
       "pol-ver-0577-ocalić",
       "pol-ver-0578-ocalać"
+    ]
+  },
+  {
+    "lemma": "to save",
+    "id": "eng-ver-0366-tosave(money)",
+    "»trans": [
+      "pol-ver-0642-oszczędzać",
+      "pol-ver-0733-oszczędzić"
     ]
   },
   {
@@ -4279,7 +4197,9 @@
     "id": "eng-ver-0317-toannounce",
     "»trans": [
       "pol-ver-0581-ogłaszać",
-      "pol-ver-0582-ogłosić"
+      "pol-ver-0582-ogłosić",
+      "pol-ver-0710-oznajmić",
+      "pol-ver-0711-oznajmiać"
     ]
   },
   {
@@ -4287,7 +4207,9 @@
     "id": "eng-ver-0318-todeclare",
     "»trans": [
       "pol-ver-0581-ogłaszać",
-      "pol-ver-0582-ogłosić"
+      "pol-ver-0582-ogłosić",
+      "pol-ver-0710-oznajmić",
+      "pol-ver-0711-oznajmiać"
     ]
   },
   {
@@ -4341,14 +4263,6 @@
   {
     "lemma": "to depart",
     "id": "eng-ver-0325-todepart",
-    "»trans": [
-      "pol-ver-0591-odjechać",
-      "pol-ver-0592-odjeżdżać"
-    ]
-  },
-  {
-    "lemma": "to leave[i]",
-    "id": "eng-ver-0326-toleave[i](þ)",
     "»trans": [
       "pol-ver-0591-odjechać",
       "pol-ver-0592-odjeżdżać"
@@ -4483,14 +4397,6 @@
     ]
   },
   {
-    "lemma": "to find",
-    "id": "eng-ver-0343-tofind(þ)",
-    "»trans": [
-      "pol-ver-0605-odnaleźć",
-      "pol-ver-0606-odnajdywać"
-    ]
-  },
-  {
     "lemma": "to wipe away",
     "id": "eng-ver-0344-towipeaway",
     "»trans": [
@@ -4539,10 +4445,18 @@
   },
   {
     "lemma": "to cheat",
-    "id": "eng-ver-0350-tocheat",
+    "id": "eng-ver-0350-tocheat(deceive)",
     "»trans": [
       "pol-ver-0618-oszukiwać(to deceive)",
       "pol-ver-0620-oszukać(to deceive)"
+    ]
+  },
+  {
+    "lemma": "to cheat",
+    "id": "eng-ver-0353-tocheat(game)",
+    "»trans": [
+      "pol-ver-0619-oszukiwać(to cheat in a game)",
+      "pol-ver-0621-oszukać(to cheat in a game)"
     ]
   },
   {
@@ -4559,14 +4473,6 @@
     "»trans": [
       "pol-ver-0618-oszukiwać(to deceive)",
       "pol-ver-0620-oszukać(to deceive)"
-    ]
-  },
-  {
-    "lemma": "to cheat",
-    "id": "eng-ver-0353-tocheat(þ)",
-    "»trans": [
-      "pol-ver-0619-oszukiwać(to cheat in a game)",
-      "pol-ver-0621-oszukać(to cheat in a game)"
     ]
   },
   {
@@ -4662,14 +4568,6 @@
     ]
   },
   {
-    "lemma": "to save",
-    "id": "eng-ver-0366-tosave(þ)",
-    "»trans": [
-      "pol-ver-0642-oszczędzać",
-      "pol-ver-0733-oszczędzić"
-    ]
-  },
-  {
     "lemma": "to pack",
     "id": "eng-ver-0367-topack",
     "»trans": [
@@ -4730,20 +4628,6 @@
     ]
   },
   {
-    "lemma": "to take [a decision]",
-    "id": "eng-ver-0374-to take [a decision](þ)",
-    "»trans": [
-      "pol-ver-0650-podejmować"
-    ]
-  },
-  {
-    "lemma": "to make [a decision]",
-    "id": "eng-ver-0375-to make [a decision](þ)",
-    "»trans": [
-      "pol-ver-0650-podejmować"
-    ]
-  },
-  {
     "lemma": "to sign",
     "id": "eng-ver-0376-tosign",
     "»trans": [
@@ -4786,16 +4670,6 @@
   {
     "lemma": "to abandon",
     "id": "eng-ver-0381-toabandon",
-    "»trans": [
-      "pol-ver-0657-opuścić",
-      "pol-ver-0658-opuszczać",
-      "pol-ver-0867-porzucić",
-      "pol-ver-0868-porzucać"
-    ]
-  },
-  {
-    "lemma": "to leave",
-    "id": "eng-ver-0382-toleave(þ)",
     "»trans": [
       "pol-ver-0657-opuścić",
       "pol-ver-0658-opuszczać",
@@ -4852,14 +4726,6 @@
     ]
   },
   {
-    "lemma": "to pass",
-    "id": "eng-ver-0389-topass(þ)",
-    "»trans": [
-      "pol-ver-0665-podawać",
-      "pol-ver-0666-podać"
-    ]
-  },
-  {
     "lemma": "to burst",
     "id": "eng-ver-0390-toburst",
     "»trans": [
@@ -4877,10 +4743,18 @@
   },
   {
     "lemma": "to break",
-    "id": "eng-ver-0392-tobreak",
+    "id": "eng-ver-0392-tobreak(burst)",
     "»trans": [
       "pol-ver-0667-pęknąć",
       "pol-ver-0668-pękać"
+    ]
+  },
+  {
+    "lemma": "to break",
+    "id": "eng-ver-0004-tobreak(breaktime)",
+    "»trans": [
+      "pol-ver-0855-przerwać(to break)",
+      "pol-ver-0857-przerywać(to break)"
     ]
   },
   {
@@ -4982,10 +4856,18 @@
   },
   {
     "lemma": "to pick up",
-    "id": "eng-ver-0405-topickup",
+    "id": "eng-ver-0405-topickup(object)",
     "»trans": [
       "pol-ver-0689-podnieść(to pick up)",
       "pol-ver-0691-podnosić(to pick up)"
+    ]
+  },
+  {
+    "lemma": "to pick up",
+    "id": "eng-ver-0410-to pick up(romantic)",
+    "»trans": [
+      "pol-ver-0695-poderwać",
+      "pol-ver-0696-podrywać"
     ]
   },
   {
@@ -5017,21 +4899,6 @@
     "id": "eng-ver-0409-tohiton",
     "»trans": [
       "pol-ver-0695-poderwać",
-      "pol-ver-0696-podrywać"
-    ]
-  },
-  {
-    "lemma": "to pick up",
-    "id": "eng-ver-0410-to pick up(þ)",
-    "»trans": [
-      "pol-ver-0695-poderwać",
-      "pol-ver-0696-podrywać"
-    ]
-  },
-  {
-    "lemma": "to pick up",
-    "id": "eng-ver-0411-to pick up(þ)",
-    "»trans": [
       "pol-ver-0696-podrywać"
     ]
   },
@@ -5081,14 +4948,6 @@
     ]
   },
   {
-    "lemma": "to beat",
-    "id": "eng-ver-0418-tobeat(þ)",
-    "»trans": [
-      "pol-ver-0705-pokonywać",
-      "pol-ver-0706-pokonać"
-    ]
-  },
-  {
     "lemma": "to remember",
     "id": "eng-ver-0419-toremember",
     "»trans": [
@@ -5132,22 +4991,6 @@
     "»trans": [
       "pol-ver-0708-pogorszyć",
       "pol-ver-0709-pogarszać"
-    ]
-  },
-  {
-    "lemma": "to announce",
-    "id": "eng-ver-0425-toannounce(þ)",
-    "»trans": [
-      "pol-ver-0710-oznajmić",
-      "pol-ver-0711-oznajmiać"
-    ]
-  },
-  {
-    "lemma": "to declare",
-    "id": "eng-ver-0426-todeclare(þ)",
-    "»trans": [
-      "pol-ver-0710-oznajmić",
-      "pol-ver-0711-oznajmiać"
     ]
   },
   {
@@ -5210,22 +5053,6 @@
     ]
   },
   {
-    "lemma": "to get",
-    "id": "eng-ver-0435-to get(þ)",
-    "»trans": [
-      "pol-ver-0721-pojąć",
-      "pol-ver-0722-pojmować"
-    ]
-  },
-  {
-    "lemma": "to grasp",
-    "id": "eng-ver-0436-to grasp(þ)",
-    "»trans": [
-      "pol-ver-0721-pojąć",
-      "pol-ver-0722-pojmować"
-    ]
-  },
-  {
     "lemma": "to understand",
     "id": "eng-ver-0437-tounderstand",
     "»trans": [
@@ -5242,20 +5069,6 @@
     ]
   },
   {
-    "lemma": "to get",
-    "id": "eng-ver-0439-to get(þ)",
-    "»trans": [
-      "pol-ver-0722-pojmować"
-    ]
-  },
-  {
-    "lemma": "to grasp",
-    "id": "eng-ver-0440-to grasp(þ)",
-    "»trans": [
-      "pol-ver-0722-pojmować"
-    ]
-  },
-  {
     "lemma": "to talk",
     "id": "eng-ver-0441-totalk",
     "»trans": [
@@ -5267,20 +5080,6 @@
     "id": "eng-ver-0442-tochat",
     "»trans": [
       "pol-ver-0723-pogadać"
-    ]
-  },
-  {
-    "lemma": "to care for",
-    "id": "eng-ver-0443-tocarefor(þ)",
-    "»trans": [
-      "pol-ver-0724-opiekować"
-    ]
-  },
-  {
-    "lemma": "to look after",
-    "id": "eng-ver-0444-tolookafter(þ)",
-    "»trans": [
-      "pol-ver-0724-opiekować"
     ]
   },
   {
@@ -5313,20 +5112,6 @@
     "»trans": [
       "pol-ver-0731-oświadczyć",
       "pol-ver-0732-oświadczać"
-    ]
-  },
-  {
-    "lemma": "to guard",
-    "id": "eng-ver-0449-toguard(þ)",
-    "»trans": [
-      "pol-ver-0734-pilnować(to guard)"
-    ]
-  },
-  {
-    "lemma": "to watch",
-    "id": "eng-ver-0450-towatch(þ)",
-    "»trans": [
-      "pol-ver-0735-pilnować(to watch)"
     ]
   },
   {
@@ -5522,14 +5307,6 @@
     ]
   },
   {
-    "lemma": "to attempt",
-    "id": "eng-ver-0476-toattempt(þ)",
-    "»trans": [
-      "pol-ver-0760-postarać",
-      "pol-ver-0761-starać"
-    ]
-  },
-  {
     "lemma": "to try[r]",
     "id": "eng-ver-0477-totry[r]",
     "»trans": [
@@ -5625,17 +5402,17 @@
     ]
   },
   {
-    "lemma": "to get changed",
-    "id": "eng-ver-0489-togetchanged",
+    "lemma": "to change (clothes)",
+    "id": "eng-ver-0490-to change (clothes)(þ)",
     "»trans": [
-      "pol-ver-0779-przebrać",
       "pol-ver-0780-przebierać"
     ]
   },
   {
-    "lemma": "to change (clothes)",
-    "id": "eng-ver-0490-to change (clothes)(þ)",
+    "lemma": "to get changed",
+    "id": "eng-ver-0489-togetchanged",
     "»trans": [
+      "pol-ver-0779-przebrać",
       "pol-ver-0780-przebierać"
     ]
   },
@@ -5742,24 +5519,8 @@
     ]
   },
   {
-    "lemma": "to propose",
-    "id": "eng-ver-0504-topropose(þ)",
-    "»trans": [
-      "pol-ver-0797-proponować",
-      "pol-ver-0798-zaproponować"
-    ]
-  },
-  {
     "lemma": "to suggest",
     "id": "eng-ver-0505-tosuggest",
-    "»trans": [
-      "pol-ver-0797-proponować",
-      "pol-ver-0798-zaproponować"
-    ]
-  },
-  {
-    "lemma": "to offer",
-    "id": "eng-ver-0506-tooffer(þ)",
     "»trans": [
       "pol-ver-0797-proponować",
       "pol-ver-0798-zaproponować"
@@ -5838,34 +5599,11 @@
     ]
   },
   {
-    "lemma": "to treat",
-    "id": "eng-ver-0516-totreat(þ)",
-    "»trans": [
-      "pol-ver-0811-potraktować",
-      "pol-ver-0812-traktować"
-    ]
-  },
-  {
     "lemma": "to consider [X as X]",
     "id": "eng-ver-0517-to consider [X as X](þ)",
     "»trans": [
       "pol-ver-0811-potraktować",
       "pol-ver-0812-traktować"
-    ]
-  },
-  {
-    "lemma": "to consider [X as X]",
-    "id": "eng-ver-0518-to consider [X as X](þ)",
-    "»trans": [
-      "pol-ver-0812-traktować"
-    ]
-  },
-  {
-    "lemma": "to carry out",
-    "id": "eng-ver-0519-tocarryout(þ)",
-    "»trans": [
-      "pol-ver-0813-przeprowadzić(carry out)",
-      "pol-ver-0814-przeprowadzać(carry)"
     ]
   },
   {
@@ -5948,14 +5686,6 @@
     ]
   },
   {
-    "lemma": "to make (a mistake)",
-    "id": "eng-ver-0530-to make (a mistake)(þ)",
-    "»trans": [
-      "pol-ver-0830-popełnić",
-      "pol-ver-0831-popełniać"
-    ]
-  },
-  {
     "lemma": "to commit (an error)",
     "id": "eng-ver-0531-to commit (an error)(þ)",
     "»trans": [
@@ -5964,24 +5694,17 @@
   },
   {
     "lemma": "to make (a mistake)",
-    "id": "eng-ver-0532-to make (a mistake)(þ)",
+    "id": "eng-ver-0530-to make (a mistake)(þ)",
     "»trans": [
+      "pol-ver-0830-popełnić",
       "pol-ver-0831-popełniać"
     ]
   },
   {
-    "lemma": "to run",
-    "id": "eng-ver-0533-to run(þ)",
+    "lemma": "to make (a mistake)",
+    "id": "eng-ver-0532-to make (a mistake)(þ)",
     "»trans": [
-      "pol-ver-0832-prowadzić(lead)",
-      "pol-ver-0833-prowadzać(lead)"
-    ]
-  },
-  {
-    "lemma": "to run",
-    "id": "eng-ver-0534-to run(þ)",
-    "»trans": [
-      "pol-ver-0833-prowadzać(lead)"
+      "pol-ver-0831-popełniać"
     ]
   },
   {
@@ -6101,22 +5824,6 @@
     ]
   },
   {
-    "lemma": "to hold",
-    "id": "eng-ver-0003-tohold(þ)",
-    "»trans": [
-      "pol-ver-0853-przechowywać",
-      "pol-ver-0854-przechować"
-    ]
-  },
-  {
-    "lemma": "to break",
-    "id": "eng-ver-0004-tobreak(þ)",
-    "»trans": [
-      "pol-ver-0855-przerwać(to break)",
-      "pol-ver-0857-przerywać(to break)"
-    ]
-  },
-  {
     "lemma": "to stop",
     "id": "eng-ver-0005-tostop",
     "»trans": [
@@ -6207,14 +5914,6 @@
     ]
   },
   {
-    "lemma": "to perceive",
-    "id": "eng-ver-0016-toperceive(þ)",
-    "»trans": [
-      "pol-ver-0875-postrzegać",
-      "pol-ver-0876-postrzec"
-    ]
-  },
-  {
     "lemma": "to introduce",
     "id": "eng-ver-0017-tointroduce",
     "»trans": [
@@ -6260,30 +5959,6 @@
     "»trans": [
       "pol-ver-0881-przełożyć(move)",
       "pol-ver-0883-przekładać(move)"
-    ]
-  },
-  {
-    "lemma": "to postpone",
-    "id": "eng-ver-0023-topostpone(þ)",
-    "»trans": [
-      "pol-ver-0882-przełożyć(postpone)",
-      "pol-ver-0884-przekładać(postpone)"
-    ]
-  },
-  {
-    "lemma": "to put off",
-    "id": "eng-ver-0024-toputoff(þ)",
-    "»trans": [
-      "pol-ver-0882-przełożyć(postpone)",
-      "pol-ver-0884-przekładać(postpone)"
-    ]
-  },
-  {
-    "lemma": "to defer",
-    "id": "eng-ver-0025-todefer(þ)",
-    "»trans": [
-      "pol-ver-0882-przełożyć(postpone)",
-      "pol-ver-0884-przekładać(postpone)"
     ]
   },
   {
@@ -6399,20 +6074,6 @@
     ]
   },
   {
-    "lemma": "to lend",
-    "id": "eng-ver-0040-to lend(þ)",
-    "»trans": [
-      "pol-ver-0903-pożyczać(*to lend)"
-    ]
-  },
-  {
-    "lemma": "to borrow",
-    "id": "eng-ver-0041-to borrow(þ)",
-    "»trans": [
-      "pol-ver-0904-pożyczać(*to borrow)"
-    ]
-  },
-  {
     "lemma": "to last",
     "id": "eng-ver-0042-tolast",
     "»trans": [
@@ -6424,13 +6085,6 @@
     "id": "eng-ver-0043-toguide",
     "»trans": [
       "pol-ver-0906-poprowadzić"
-    ]
-  },
-  {
-    "lemma": "to make someone feel something",
-    "id": "eng-ver-0044-to make someone feel something(þ)",
-    "»trans": [
-      "pol-ver-0907-czynić"
     ]
   }
 ]
