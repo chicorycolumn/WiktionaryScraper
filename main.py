@@ -14,15 +14,15 @@ if __name__ == '__main__':
     #         print(el)
 
     step = 1
-    group_number = 882
+    group_number = 888
     input_indexes = [0, 870]
-    wordtype = "a"
-    these_headwords_only = [
+    wordtype = "v"
+    these_headwords_only = ["stworzyć","stwarzać"
     ]
     skip_make_ids = False  # only set True when manually testing.
     skip_scraping = False  # only set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
-    reparse_previously_rejected = False  # If you're manually rerunning rejected ones when collecting batch together.
-    skip_extras = False  # You know, the extra lemmas to parse gathered from synonyms of lemmas you asked to parse.
+    reparse_previously_rejected = True  # If you're manually rerunning rejected ones when collecting batch together.
+    skip_extras = True  # You know, the extra lemmas to parse gathered from synonyms of lemmas you asked to parse.
     langcode = "pol"
 
     """

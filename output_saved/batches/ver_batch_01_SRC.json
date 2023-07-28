@@ -1,5 +1,808 @@
 [
   {
+    "lemma": "być",
+    "id": "pol-ver-0000-być",
+    "tags": [],
+    "topics": [],
+    "aspect": "imperfective",
+    "derivedTerms": [
+      "dobywać impf dobyć pf wydobywać impf wydobyć pf",
+      "zdobywać impf zdobyć pf",
+      "nabywać impf nabyć pf",
+      "obywać impf obyć pf",
+      "odbywać impf odbyć pf",
+      "pobyć pf",
+      "przebywać impf przebyć pf",
+      "przybywać impf przybyć pf",
+      "ubywać impf ubyć pf",
+      "zbywać impf zbyć pf pozbywać impf pozbyć pf",
+      "wyzbywać impf wyzbyć pf",
+      "(nou) nabytek m pobyt m przybytek m ubytek m zbytek m",
+      "(adj) zbyteczny",
+      "(ver) bawić bywać",
+      "(nou) bydło n byt m",
+      "references ^ k. nitsch , editor (1954), “ 1. być ”, in słownik staropolski (in old polish), volume 1, warsaw polish academy of sciences , page 182",
+      "^ B. Sieradzka-Baziur , editor (2011–2015), “ być ”, in Słownik pojęciowy języka staropolskiego Conceptual Dictionary of Old Polish (in Polish), Kraków IJP PAN →ISBN"
+    ],
+    "inflections": {
+      "infinitive": "być",
+      "verbalNoun": "bycie",
+      "activeAdjectival": "będący",
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": "będąc",
+      "anteriorAdverbial": "bywszy",
+      "verbal": {
+        "conditional": {
+          "1per": {
+            "singular": {
+              "m": "byłbym",
+              "f": "byłabym"
+            },
+            "plural": {
+              "virile": "bylibyśmy",
+              "nonvirile": "byłybyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "byłbyś",
+              "f": "byłabyś"
+            },
+            "plural": {
+              "virile": "bylibyście",
+              "nonvirile": "byłybyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "byłby",
+              "f": "byłaby",
+              "n": "byłoby"
+            },
+            "plural": {
+              "virile": "byliby",
+              "nonvirile": "byłyby"
+            }
+          }
+        },
+        "future": {
+          "1per": {
+            "singular": {
+              "allSingularGenders": "będę"
+            },
+            "plural": {
+              "allPluralGenders": "będziemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "będziesz"
+            },
+            "plural": {
+              "allPluralGenders": "będziecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "będzie"
+            },
+            "plural": {
+              "allPluralGenders": "będą"
+            }
+          }
+        },
+        "imperative": "bądź",
+        "past": {
+          "1per": {
+            "singular": {
+              "m": "byłem",
+              "f": "byłam"
+            },
+            "plural": {
+              "virile": "byliśmy",
+              "nonvirile": "byłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "byłeś",
+              "f": "byłaś"
+            },
+            "plural": {
+              "virile": "byliście",
+              "nonvirile": "byłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "był",
+              "f": "była",
+              "n": "było"
+            },
+            "plural": {
+              "virile": "byli",
+              "nonvirile": "były"
+            }
+          }
+        },
+        "present": {
+          "1per": {
+            "singular": {
+              "allSingularGenders": [
+                "jestem",
+                "-m"
+              ]
+            },
+            "plural": {
+              "allPluralGenders": [
+                "jesteśmy",
+                "-śmy"
+              ]
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": [
+                "jesteś",
+                "-ś"
+              ]
+            },
+            "plural": {
+              "allPluralGenders": [
+                "jesteście",
+                "-ście"
+              ]
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "jest"
+            },
+            "plural": {
+              "allPluralGenders": "są"
+            }
+          }
+        }
+      }
+    },
+    "otherShapes": {
+      "indeterminate": [
+        "bywać"
+      ]
+    },
+    "secondaryAspects": [],
+    "translations": {
+      "ENG": [
+        "to be"
+      ]
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "bywać",
+    "id": "pol-ver-0044-bywać",
+    "tags": [],
+    "topics": [],
+    "aspect": "imperfective",
+    "inflections": {
+      "infinitive": "bywać",
+      "verbalNoun": "bywanie",
+      "activeAdjectival": "bywający",
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": "bywając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "bywaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "bywano"
+            },
+            "plural": {
+              "allPluralGenders": "bywano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "bywałem",
+              "f": "bywałam"
+            },
+            "plural": {
+              "virile": "bywaliśmy",
+              "nonvirile": "bywałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "bywałeś",
+              "f": "bywałaś"
+            },
+            "plural": {
+              "virile": "bywaliście",
+              "nonvirile": "bywałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "bywał",
+              "f": "bywała",
+              "n": "bywało"
+            },
+            "plural": {
+              "virile": "bywali",
+              "nonvirile": "bywały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "bywa się"
+            },
+            "plural": {
+              "allPluralGenders": "bywa się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "bywam"
+            },
+            "plural": {
+              "allPluralGenders": "bywamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "bywasz"
+            },
+            "plural": {
+              "allPluralGenders": "bywacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "bywa"
+            },
+            "plural": {
+              "allPluralGenders": "bywają"
+            }
+          }
+        }
+      }
+    },
+    "secondaryAspects": [
+      "indeterminate",
+      "frequentative"
+    ],
+    "translations": {
+      "ENG": [
+        "to be habitually[i]"
+      ]
+    },
+    "extra": {
+      "usage": [
+        "On bywa całkiem wredny. ― He can be pretty mean."
+      ],
+      "otherShapes": {
+        "imperfective": [
+          "być"
+        ]
+      },
+      "derivedTerms": [
+        "dobywać impf dobyć pf wydobywać impf wydobyć pf",
+        "zdobywać impf zdobyć pf",
+        "nabywać impf nabyć pf",
+        "obywać impf obyć pf",
+        "odbywać impf odbyć pf",
+        "pobyć pf",
+        "przebywać impf przebyć pf",
+        "przybywać impf przybyć pf",
+        "ubywać impf ubyć pf",
+        "zbywać impf zbyć pf pozbywać impf pozbyć pf",
+        "wyzbywać impf wyzbyć pf",
+        "(nou) bywalec"
+      ]
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "mieć",
+    "id": "pol-ver-0000-mieć",
+    "tags": [],
+    "topics": [
+      "possession"
+    ],
+    "aspect": "imperfective",
+    "inflections": {
+      "infinitive": "mieć",
+      "activeAdjectival": "mający",
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": "mając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "miej",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "miano"
+            },
+            "plural": {
+              "allPluralGenders": "miano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "miałem",
+              "f": "miałam"
+            },
+            "plural": {
+              "virile": "mieliśmy",
+              "nonvirile": "miałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "miałeś",
+              "f": "miałaś"
+            },
+            "plural": {
+              "virile": "mieliście",
+              "nonvirile": "miałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "miał",
+              "f": "miała",
+              "n": "miało"
+            },
+            "plural": {
+              "virile": "mieli",
+              "nonvirile": "miały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "ma się"
+            },
+            "plural": {
+              "allPluralGenders": "ma się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "mam"
+            },
+            "plural": {
+              "allPluralGenders": "mamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "masz"
+            },
+            "plural": {
+              "allPluralGenders": "macie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "ma"
+            },
+            "plural": {
+              "allPluralGenders": "mają"
+            }
+          }
+        }
+      }
+    },
+    "secondaryAspects": [],
+    "translations": {
+      "ENG": [
+        "to have"
+      ]
+    },
+    "extra": {
+      "usage": [
+        "Mam kota. ― I have a cat.",
+        "Mam 22 lata. ― I am 22 [years old]. (literally I have 22 years. )",
+        "Mamy iść na zakupy. ― We have to go shopping.",
+        "Masz się za lepszego? ― You think you're better than me?"
+      ],
+      "otherShapes": {
+        "frequentative": [
+          "miewać"
+        ]
+      }
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "miewać",
+    "id": "pol-ver-0059-miewać",
+    "tags": [],
+    "topics": [
+      "possession"
+    ],
+    "aspect": "imperfective",
+    "inflections": {
+      "infinitive": "miewać",
+      "verbalNoun": "miewanie",
+      "activeAdjectival": "miewający",
+      "passiveAdjectival": "miewany",
+      "contemporaryAdverbial": "miewając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "miewaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "miewano"
+            },
+            "plural": {
+              "allPluralGenders": "miewano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "miewałem",
+              "f": "miewałam"
+            },
+            "plural": {
+              "virile": "miewaliśmy",
+              "nonvirile": "miewałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "miewałeś",
+              "f": "miewałaś"
+            },
+            "plural": {
+              "virile": "miewaliście",
+              "nonvirile": "miewałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "miewał",
+              "f": "miewała",
+              "n": "miewało"
+            },
+            "plural": {
+              "virile": "miewali",
+              "nonvirile": "miewały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "miewa się"
+            },
+            "plural": {
+              "allPluralGenders": "miewa się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "miewam"
+            },
+            "plural": {
+              "allPluralGenders": "miewamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "miewasz"
+            },
+            "plural": {
+              "allPluralGenders": "miewacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "miewa"
+            },
+            "plural": {
+              "allPluralGenders": "miewają"
+            }
+          }
+        }
+      }
+    },
+    "secondaryAspects": [
+      "indeterminate",
+      "frequentative"
+    ],
+    "translations": {
+      "ENG": [
+        "to have habitually"
+      ]
+    },
+    "extra": {
+      "usage": [
+        "W dzieciństwie miewałem częste bóle głowy. ― As a child, I used to have frequent headaches."
+      ],
+      "otherShapes": {
+        "imperfective": [
+          "mieć"
+        ]
+      }
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "robić",
+    "id": "pol-ver-0000-robić",
+    "tags": [],
+    "topics": [],
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "Robię im śniadanie. ― I'm making them breakfast.",
+        "Co robisz ― What are you doing?",
+        "Robię trzy godziny dziennie. ― I work three hours a day.",
+        "Robi się późno. ― It's getting late."
+      ],
+      "otherShapes": {
+        "perfective": [
+          "zrobić"
+        ]
+      },
+      "derivedTerms": [
+        "verbs dorobić pf dorabiać impf",
+        "nadrobić pf nadrabiać impf",
+        "narobić pf narabiać impf",
+        "obrobić pf obrabiać impf",
+        "odrobić pf odrabiać impf",
+        "podrobić pf podrabiać impf",
+        "porobić pf porabiać impf",
+        "przerobić pf przerabiać impf",
+        "przyrobić pf przyrabiać impf",
+        "rozrobić pf rozrabiać impf",
+        "urobić pf urabiać impf",
+        "wrobić pf wrabiać impf",
+        "współrobić impf",
+        "wyrobić pf wyrabiać impf",
+        "zarobić pf zarabiać impf",
+        "verbs robić miejsce impf zrobić miejsce pf",
+        "robić z igły widły impf zrobić z igły widły pf",
+        "adjectives bezrobotny",
+        "roboczy",
+        "robotny",
+        "nouns bezrobocie",
+        "parób",
+        "robigrosz",
+        "robocizna",
+        "robota",
+        "robotnica",
+        "robotnik",
+        "references .mw-parser-output .reflist.list-style-lower-alpha ol{list-style:lower-alpha}.mw-parser-output .reflist.list-style-upper-alpha ol{list-style:upper-alpha}.mw-parser-output .reflist.list-style-lower-roman ol{list-style:lower-roman}.mw-parser-output .reflist.list-style-upper-roman ol{list-style:upper-roman}.mw-parser-output .reflist.list-style-lower-greek ol{list-style:lower-greek}.mw-parser-output .reflist.list-style-disc ol{list-style:disc}.mw-parser-output .reflist.list-style-square ol{list-style:square}.mw-parser-output .reflist.list-style-none ol{list-style:none}.mw-parser-output .reflist.nobacklinks .mw-cite-backlink,.mw-parser-output .reflist.nobacklinks li>a{display:none}.mw-parser-output .reflist.font-size-xx-small ol{font-size:xx-small}.mw-parser-output .reflist.font-size-x-small ol{font-size:x-small}.mw-parser-output .reflist.font-size-smaller ol{font-size:smaller}.mw-parser-output .reflist.font-size-small ol{font-size:small}.mw-parser-output .reflist.font-size-medium ol{font-size:medium}.mw-parser-output .reflist.font-size-large ol{font-size:large}.mw-parser-output .reflist.font-size-larger ol{font-size:larger}.mw-parser-output .reflist.font-size-x-large ol{font-size:x-large}.mw-parser-output .reflist.font-size-xx-large ol{font-size:xx-large}.mw-parser-output .reflist[data-column-count=\"2\"] .mw-references-wrap{column-count:2}.mw-parser-output .reflist[data-column-count=\"3\"] .mw-references-wrap{column-count:3}.mw-parser-output .reflist[data-column-count=\"4\"] .mw-references-wrap{column-count:4}.mw-parser-output .reflist[data-column-count=\"5\"] .mw-references-wrap{column-count:5} ^ b. sieradzka-baziur , editor (2011–2015), “ robić ”, in słownik pojęciowy języka staropolskiego conceptual dictionary of old polish (in polish), kraków ijp pan →isbn"
+      ]
+    },
+    "inflections": {
+      "infinitive": "robić",
+      "verbalNoun": "robienie",
+      "activeAdjectival": "robiący",
+      "passiveAdjectival": "robiony",
+      "contemporaryAdverbial": "robiąc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "rób",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "robiono"
+            },
+            "plural": {
+              "allPluralGenders": "robiono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "robiłem",
+              "f": "robiłam"
+            },
+            "plural": {
+              "virile": "robiliśmy",
+              "nonvirile": "robiłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "robiłeś",
+              "f": "robiłaś"
+            },
+            "plural": {
+              "virile": "robiliście",
+              "nonvirile": "robiłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "robił",
+              "f": "robiła",
+              "n": "robiło"
+            },
+            "plural": {
+              "virile": "robili",
+              "nonvirile": "robiły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "robi się"
+            },
+            "plural": {
+              "allPluralGenders": "robi się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "robię"
+            },
+            "plural": {
+              "allPluralGenders": "robimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "robisz"
+            },
+            "plural": {
+              "allPluralGenders": "robicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "robi"
+            },
+            "plural": {
+              "allPluralGenders": "robią"
+            }
+          }
+        }
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to do"
+      ]
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "zrobić",
+    "id": "pol-ver-0000-zrobić",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "robić"
+        ]
+      },
+      "derivedTerms": [
+        "verbs zrobić miejsce pf robić miejsce impf",
+        "zrobić z igły widły pf robić z igły widły impf"
+      ]
+    },
+    "inflections": {
+      "infinitive": "zrobić",
+      "verbalNoun": "zrobienie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zrobiony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zrobiwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zrobi się"
+            },
+            "plural": {
+              "allPluralGenders": "zrobi się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zrobię"
+            },
+            "plural": {
+              "allPluralGenders": "zrobimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zrobisz"
+            },
+            "plural": {
+              "allPluralGenders": "zrobicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zrobi"
+            },
+            "plural": {
+              "allPluralGenders": "zrobią"
+            }
+          }
+        },
+        "imperative": "zrób",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zrobiono"
+            },
+            "plural": {
+              "allPluralGenders": "zrobiono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zrobiłem",
+              "f": "zrobiłam"
+            },
+            "plural": {
+              "virile": "zrobiliśmy",
+              "nonvirile": "zrobiłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zrobiłeś",
+              "f": "zrobiłaś"
+            },
+            "plural": {
+              "virile": "zrobiliście",
+              "nonvirile": "zrobiłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zrobił",
+              "f": "zrobiła",
+              "n": "zrobiło"
+            },
+            "plural": {
+              "virile": "zrobili",
+              "nonvirile": "zrobiły"
+            }
+          }
+        },
+        "present": false
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to do"
+      ]
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
     "lemma": "stać",
     "id": "pol-ver-0001-stać(stand)",
     "tags": [
@@ -5346,316 +6149,6 @@
     "register": 0
   },
   {
-    "lemma": "być",
-    "id": "pol-ver-0043-być",
-    "tags": [],
-    "topics": [],
-    "aspect": "imperfective",
-    "derivedTerms": [
-      "dobywać impf dobyć pf wydobywać impf wydobyć pf",
-      "zdobywać impf zdobyć pf",
-      "nabywać impf nabyć pf",
-      "obywać impf obyć pf",
-      "odbywać impf odbyć pf",
-      "pobyć pf",
-      "przebywać impf przebyć pf",
-      "przybywać impf przybyć pf",
-      "ubywać impf ubyć pf",
-      "zbywać impf zbyć pf pozbywać impf pozbyć pf",
-      "wyzbywać impf wyzbyć pf",
-      "(nou) nabytek m pobyt m przybytek m ubytek m zbytek m",
-      "(adj) zbyteczny",
-      "(ver) bawić bywać",
-      "(nou) bydło n byt m",
-      "references ^ k. nitsch , editor (1954), “ 1. być ”, in słownik staropolski (in old polish), volume 1, warsaw polish academy of sciences , page 182",
-      "^ B. Sieradzka-Baziur , editor (2011–2015), “ być ”, in Słownik pojęciowy języka staropolskiego Conceptual Dictionary of Old Polish (in Polish), Kraków IJP PAN →ISBN"
-    ],
-    "inflections": {
-      "infinitive": "być",
-      "verbalNoun": "bycie",
-      "activeAdjectival": "będący",
-      "passiveAdjectival": false,
-      "contemporaryAdverbial": "będąc",
-      "anteriorAdverbial": "bywszy",
-      "verbal": {
-        "conditional": {
-          "1per": {
-            "singular": {
-              "m": "byłbym",
-              "f": "byłabym"
-            },
-            "plural": {
-              "virile": "bylibyśmy",
-              "nonvirile": "byłybyśmy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "m": "byłbyś",
-              "f": "byłabyś"
-            },
-            "plural": {
-              "virile": "bylibyście",
-              "nonvirile": "byłybyście"
-            }
-          },
-          "3per": {
-            "singular": {
-              "m": "byłby",
-              "f": "byłaby",
-              "n": "byłoby"
-            },
-            "plural": {
-              "virile": "byliby",
-              "nonvirile": "byłyby"
-            }
-          }
-        },
-        "future": {
-          "1per": {
-            "singular": {
-              "allSingularGenders": "będę"
-            },
-            "plural": {
-              "allPluralGenders": "będziemy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "allSingularGenders": "będziesz"
-            },
-            "plural": {
-              "allPluralGenders": "będziecie"
-            }
-          },
-          "3per": {
-            "singular": {
-              "allSingularGenders": "będzie"
-            },
-            "plural": {
-              "allPluralGenders": "będą"
-            }
-          }
-        },
-        "imperative": "bądź",
-        "past": {
-          "1per": {
-            "singular": {
-              "m": "byłem",
-              "f": "byłam"
-            },
-            "plural": {
-              "virile": "byliśmy",
-              "nonvirile": "byłyśmy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "m": "byłeś",
-              "f": "byłaś"
-            },
-            "plural": {
-              "virile": "byliście",
-              "nonvirile": "byłyście"
-            }
-          },
-          "3per": {
-            "singular": {
-              "m": "był",
-              "f": "była",
-              "n": "było"
-            },
-            "plural": {
-              "virile": "byli",
-              "nonvirile": "były"
-            }
-          }
-        },
-        "present": {
-          "1per": {
-            "singular": {
-              "allSingularGenders": [
-                "jestem",
-                "-m"
-              ]
-            },
-            "plural": {
-              "allPluralGenders": [
-                "jesteśmy",
-                "-śmy"
-              ]
-            }
-          },
-          "2per": {
-            "singular": {
-              "allSingularGenders": [
-                "jesteś",
-                "-ś"
-              ]
-            },
-            "plural": {
-              "allPluralGenders": [
-                "jesteście",
-                "-ście"
-              ]
-            }
-          },
-          "3per": {
-            "singular": {
-              "allSingularGenders": "jest"
-            },
-            "plural": {
-              "allPluralGenders": "są"
-            }
-          }
-        }
-      }
-    },
-    "otherShapes": {
-      "indeterminate": [
-        "bywać"
-      ]
-    },
-    "secondaryAspects": [],
-    "translations": {
-      "ENG": [
-        "to be[i]"
-      ]
-    },
-    "frequency": 1,
-    "register": 0
-  },
-  {
-    "lemma": "bywać",
-    "id": "pol-ver-0044-bywać",
-    "tags": [],
-    "topics": [],
-    "aspect": "imperfective",
-    "inflections": {
-      "infinitive": "bywać",
-      "verbalNoun": "bywanie",
-      "activeAdjectival": "bywający",
-      "passiveAdjectival": false,
-      "contemporaryAdverbial": "bywając",
-      "anteriorAdverbial": false,
-      "verbal": {
-        "conditional": true,
-        "future": true,
-        "imperative": "bywaj",
-        "past": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "bywano"
-            },
-            "plural": {
-              "allPluralGenders": "bywano"
-            }
-          },
-          "1per": {
-            "singular": {
-              "m": "bywałem",
-              "f": "bywałam"
-            },
-            "plural": {
-              "virile": "bywaliśmy",
-              "nonvirile": "bywałyśmy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "m": "bywałeś",
-              "f": "bywałaś"
-            },
-            "plural": {
-              "virile": "bywaliście",
-              "nonvirile": "bywałyście"
-            }
-          },
-          "3per": {
-            "singular": {
-              "m": "bywał",
-              "f": "bywała",
-              "n": "bywało"
-            },
-            "plural": {
-              "virile": "bywali",
-              "nonvirile": "bywały"
-            }
-          }
-        },
-        "present": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "bywa się"
-            },
-            "plural": {
-              "allPluralGenders": "bywa się"
-            }
-          },
-          "1per": {
-            "singular": {
-              "allSingularGenders": "bywam"
-            },
-            "plural": {
-              "allPluralGenders": "bywamy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "allSingularGenders": "bywasz"
-            },
-            "plural": {
-              "allPluralGenders": "bywacie"
-            }
-          },
-          "3per": {
-            "singular": {
-              "allSingularGenders": "bywa"
-            },
-            "plural": {
-              "allPluralGenders": "bywają"
-            }
-          }
-        }
-      }
-    },
-    "secondaryAspects": [
-      "indeterminate",
-      "frequentative"
-    ],
-    "translations": {
-      "ENG": [
-        "to be habitually[i]"
-      ]
-    },
-    "extra": {
-      "usage": [
-        "On bywa całkiem wredny. ― He can be pretty mean."
-      ],
-      "otherShapes": {
-        "imperfective": [
-          "być"
-        ]
-      },
-      "derivedTerms": [
-        "dobywać impf dobyć pf wydobywać impf wydobyć pf",
-        "zdobywać impf zdobyć pf",
-        "nabywać impf nabyć pf",
-        "obywać impf obyć pf",
-        "odbywać impf odbyć pf",
-        "pobyć pf",
-        "przebywać impf przebyć pf",
-        "przybywać impf przybyć pf",
-        "ubywać impf ubyć pf",
-        "zbywać impf zbyć pf pozbywać impf pozbyć pf",
-        "wyzbywać impf wyzbyć pf",
-        "(nou) bywalec"
-      ]
-    },
-    "frequency": 1,
-    "register": 0
-  },
-  {
     "lemma": "móc",
     "id": "pol-ver-0045-móc(can or be able to)",
     "tags": [],
@@ -7197,241 +7690,6 @@
       "derivedTerms": [
         "(ver) przymuszać przymusić zmuszać zmusić"
       ]
-    },
-    "frequency": 1,
-    "register": 0
-  },
-  {
-    "lemma": "mieć",
-    "id": "pol-ver-0058-mieć",
-    "tags": [],
-    "topics": [
-      "possession"
-    ],
-    "aspect": "imperfective",
-    "inflections": {
-      "infinitive": "mieć",
-      "activeAdjectival": "mający",
-      "passiveAdjectival": false,
-      "contemporaryAdverbial": "mając",
-      "anteriorAdverbial": false,
-      "verbal": {
-        "conditional": true,
-        "future": true,
-        "imperative": "miej",
-        "past": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "miano"
-            },
-            "plural": {
-              "allPluralGenders": "miano"
-            }
-          },
-          "1per": {
-            "singular": {
-              "m": "miałem",
-              "f": "miałam"
-            },
-            "plural": {
-              "virile": "mieliśmy",
-              "nonvirile": "miałyśmy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "m": "miałeś",
-              "f": "miałaś"
-            },
-            "plural": {
-              "virile": "mieliście",
-              "nonvirile": "miałyście"
-            }
-          },
-          "3per": {
-            "singular": {
-              "m": "miał",
-              "f": "miała",
-              "n": "miało"
-            },
-            "plural": {
-              "virile": "mieli",
-              "nonvirile": "miały"
-            }
-          }
-        },
-        "present": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "ma się"
-            },
-            "plural": {
-              "allPluralGenders": "ma się"
-            }
-          },
-          "1per": {
-            "singular": {
-              "allSingularGenders": "mam"
-            },
-            "plural": {
-              "allPluralGenders": "mamy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "allSingularGenders": "masz"
-            },
-            "plural": {
-              "allPluralGenders": "macie"
-            }
-          },
-          "3per": {
-            "singular": {
-              "allSingularGenders": "ma"
-            },
-            "plural": {
-              "allPluralGenders": "mają"
-            }
-          }
-        }
-      }
-    },
-    "secondaryAspects": [],
-    "translations": {
-      "ENG": [
-        "to have"
-      ]
-    },
-    "extra": {
-      "usage": [
-        "Mam kota. ― I have a cat.",
-        "Mam 22 lata. ― I am 22 [years old]. (literally I have 22 years. )",
-        "Mamy iść na zakupy. ― We have to go shopping.",
-        "Masz się za lepszego? ― You think you're better than me?"
-      ],
-      "otherShapes": {
-        "frequentative": [
-          "miewać"
-        ]
-      }
-    },
-    "frequency": 1,
-    "register": 0
-  },
-  {
-    "lemma": "miewać",
-    "id": "pol-ver-0059-miewać",
-    "tags": [],
-    "topics": [
-      "possession"
-    ],
-    "aspect": "imperfective",
-    "inflections": {
-      "infinitive": "miewać",
-      "verbalNoun": "miewanie",
-      "activeAdjectival": "miewający",
-      "passiveAdjectival": "miewany",
-      "contemporaryAdverbial": "miewając",
-      "anteriorAdverbial": false,
-      "verbal": {
-        "conditional": true,
-        "future": true,
-        "imperative": "miewaj",
-        "past": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "miewano"
-            },
-            "plural": {
-              "allPluralGenders": "miewano"
-            }
-          },
-          "1per": {
-            "singular": {
-              "m": "miewałem",
-              "f": "miewałam"
-            },
-            "plural": {
-              "virile": "miewaliśmy",
-              "nonvirile": "miewałyśmy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "m": "miewałeś",
-              "f": "miewałaś"
-            },
-            "plural": {
-              "virile": "miewaliście",
-              "nonvirile": "miewałyście"
-            }
-          },
-          "3per": {
-            "singular": {
-              "m": "miewał",
-              "f": "miewała",
-              "n": "miewało"
-            },
-            "plural": {
-              "virile": "miewali",
-              "nonvirile": "miewały"
-            }
-          }
-        },
-        "present": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "miewa się"
-            },
-            "plural": {
-              "allPluralGenders": "miewa się"
-            }
-          },
-          "1per": {
-            "singular": {
-              "allSingularGenders": "miewam"
-            },
-            "plural": {
-              "allPluralGenders": "miewamy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "allSingularGenders": "miewasz"
-            },
-            "plural": {
-              "allPluralGenders": "miewacie"
-            }
-          },
-          "3per": {
-            "singular": {
-              "allSingularGenders": "miewa"
-            },
-            "plural": {
-              "allPluralGenders": "miewają"
-            }
-          }
-        }
-      }
-    },
-    "secondaryAspects": [
-      "indeterminate",
-      "frequentative"
-    ],
-    "translations": {
-      "ENG": [
-        "to have habitually"
-      ]
-    },
-    "extra": {
-      "usage": [
-        "W dzieciństwie miewałem częste bóle głowy. ― As a child, I used to have frequent headaches."
-      ],
-      "otherShapes": {
-        "imperfective": [
-          "mieć"
-        ]
-      }
     },
     "frequency": 1,
     "register": 0
@@ -110359,5 +110617,258 @@
     },
     "frequency": 1,
     "register": 0
+  },
+  {
+    "lemma": "stwarzać",
+    "id": "pol-ver-0909-stwarzać",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "tags": [],
+    "topics": [
+      "hobbies"
+    ],
+    "translations": {
+      "ENG": [
+        "to create"
+      ]
+    },
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "stworzyć"
+        ]
+      },
+      "derivedTerms": [
+        "nouns stwora",
+        "stworzenie",
+        "stworzonko",
+        "Stworzyciel",
+        "stworzyciel",
+        "stworzycielka",
+        "stwór",
+        "Stwórca",
+        "stwórca"
+      ]
+    },
+    "inflections": {
+      "infinitive": "stwarzać",
+      "verbalNoun": "stwarzanie",
+      "activeAdjectival": "stwarzający",
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": "stwarzając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "stwarzaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "stwarzano"
+            },
+            "plural": {
+              "allPluralGenders": "stwarzano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "stwarzałem",
+              "f": "stwarzałam"
+            },
+            "plural": {
+              "virile": "stwarzaliśmy",
+              "nonvirile": "stwarzałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "stwarzałeś",
+              "f": "stwarzałaś"
+            },
+            "plural": {
+              "virile": "stwarzaliście",
+              "nonvirile": "stwarzałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "stwarzał",
+              "f": "stwarzała",
+              "n": "stwarzało"
+            },
+            "plural": {
+              "virile": "stwarzali",
+              "nonvirile": "stwarzały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "stwarza się"
+            },
+            "plural": {
+              "allPluralGenders": "stwarza się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "stwarzam"
+            },
+            "plural": {
+              "allPluralGenders": "stwarzamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "stwarzasz"
+            },
+            "plural": {
+              "allPluralGenders": "stwarzacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "stwarza"
+            },
+            "plural": {
+              "allPluralGenders": "stwarzają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "stworzyć",
+    "id": "pol-ver-0910-stworzyć",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "tags": [],
+    "topics": [
+      "hobbies"
+    ],
+    "translations": {
+      "ENG": [
+        "to create"
+      ]
+    },
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "stwarzać"
+        ]
+      },
+      "derivedTerms": [
+        "nouns stwora",
+        "stworzenie",
+        "stworzonko",
+        "Stworzyciel",
+        "stworzyciel",
+        "stworzycielka",
+        "stwór",
+        "Stwórca",
+        "stwórca"
+      ]
+    },
+    "tags": "xxxxxxxxx",
+    "translations": {
+      "ENG": [
+        "to create bring to life",
+        "to bring about conceive",
+        "to generate produce",
+        "to become a member of a group",
+        "to make",
+        "to come into being[r,with,się,with,się]"
+      ]
+    },
+    "inflections": {
+      "infinitive": "stworzyć",
+      "verbalNoun": "stworzenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "stworzony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "stworzywszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "stworzy się"
+            },
+            "plural": {
+              "allPluralGenders": "stworzy się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "stworzę"
+            },
+            "plural": {
+              "allPluralGenders": "stworzymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "stworzysz"
+            },
+            "plural": {
+              "allPluralGenders": "stworzycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "stworzy"
+            },
+            "plural": {
+              "allPluralGenders": "stworzą"
+            }
+          }
+        },
+        "imperative": "stwórz",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "stworzono"
+            },
+            "plural": {
+              "allPluralGenders": "stworzono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "stworzyłem",
+              "f": "stworzyłam"
+            },
+            "plural": {
+              "virile": "stworzyliśmy",
+              "nonvirile": "stworzyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "stworzyłeś",
+              "f": "stworzyłaś"
+            },
+            "plural": {
+              "virile": "stworzyliście",
+              "nonvirile": "stworzyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "stworzył",
+              "f": "stworzyła",
+              "n": "stworzyło"
+            },
+            "plural": {
+              "virile": "stworzyli",
+              "nonvirile": "stworzyły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
   }
 ]
