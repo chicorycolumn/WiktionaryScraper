@@ -44961,7 +44961,7 @@
   },
   {
     "lemma": "doczekać",
-    "id": "pol-ver-0364-doczekać",
+    "id": "pol-ver-0364-doczekać(negative only)",
     "tags": [
       "concrete"
     ],
@@ -96344,7 +96344,7 @@
   },
   {
     "lemma": "powieść",
-    "id": "pol-ver-0790-powieść",
+    "id": "pol-ver-0790-powieść(powodzi mi się)",
     "tags": [
       "positive judgment",
       "concrete"
@@ -110868,6 +110868,119 @@
           }
         },
         "present": false
+      }
+    }
+  },
+  {
+    "lemma": "uważać",
+    "aspect": "imperfective",
+    "id": "pol-ver-0911-uważać",
+    "secondaryAspects": [],
+    "tags": [
+      "abstract"
+    ],
+    "topics": [
+      "appearance",
+      "mental",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "to ]  to consider",
+        "to regard [ (accusative) za (accusative) = (somebody something) as (something)",
+        "to be careful",
+        "to take care[i]",
+        "to = for something][i]  to watch out",
+        "to look out [+ na (accusative)",
+        "= someone][r,with,się]  to consider oneself to be [+ za (genitive)"
+      ]
+    },
+    "inflections": {
+      "infinitive": "uważać",
+      "verbalNoun": "uważanie",
+      "activeAdjectival": "uważający",
+      "passiveAdjectival": "uważany",
+      "contemporaryAdverbial": "uważając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "uważaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "uważano"
+            },
+            "plural": {
+              "allPluralGenders": "uważano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "uważałem",
+              "f": "uważałam"
+            },
+            "plural": {
+              "virile": "uważaliśmy",
+              "nonvirile": "uważałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "uważałeś",
+              "f": "uważałaś"
+            },
+            "plural": {
+              "virile": "uważaliście",
+              "nonvirile": "uważałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "uważał",
+              "f": "uważała",
+              "n": "uważało"
+            },
+            "plural": {
+              "virile": "uważali",
+              "nonvirile": "uważały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "uważa się"
+            },
+            "plural": {
+              "allPluralGenders": "uważa się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "uważam"
+            },
+            "plural": {
+              "allPluralGenders": "uważamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "uważasz"
+            },
+            "plural": {
+              "allPluralGenders": "uważacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "uważa"
+            },
+            "plural": {
+              "allPluralGenders": "uważają"
+            }
+          }
+        }
       }
     }
   }

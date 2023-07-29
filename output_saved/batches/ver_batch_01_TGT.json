@@ -52,8 +52,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to stand[i]",
-    "id": "eng-ver-0001-stand[i]",
+    "lemma": "to stand",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0001-stand",
     "»trans": [
       "pol-ver-0001-stać(stand)",
       "pol-ver-0002-stanąć"
@@ -62,8 +65,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to become[r]",
-    "id": "eng-ver-0002-become[r]",
+    "lemma": "to become",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0002-become",
     "»trans": [
       "pol-ver-0003-stawać",
       "pol-ver-0004-stać(become)"
@@ -72,8 +78,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to get up[i]",
-    "id": "eng-ver-0003-getup[i]",
+    "lemma": "to get up",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0003-getup",
     "»trans": [
       "pol-ver-0005-wstać",
       "pol-ver-0006-wstawać"
@@ -82,8 +91,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to stand up[i]",
-    "id": "eng-ver-0004-standup[i]",
+    "lemma": "to stand up",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0004-standup",
     "»trans": [
       "pol-ver-0005-wstać",
       "pol-ver-0006-wstawać"
@@ -102,8 +114,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to run[i](around)",
-    "id": "eng-ver-0006-run[i](around)",
+    "lemma": "to run",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0006-run(around)",
     "»trans": [
       "pol-ver-0009-biegać"
     ],
@@ -111,8 +126,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to run[i](to)",
-    "id": "eng-ver-0007-run[i](to)",
+    "lemma": "to run",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0007-run(to)",
     "»trans": [
       "pol-ver-0010-pobiec",
       "pol-ver-0011-biec"
@@ -121,8 +139,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to jog[i]",
-    "id": "eng-ver-0008-jog[i]",
+    "lemma": "to jog",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0008-jog",
     "»trans": [
       "pol-ver-0009-biegać"
     ],
@@ -130,8 +151,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to go jogging[i]",
-    "id": "eng-ver-0009-gojogging[i]",
+    "lemma": "to go jogging",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0009-gojogging",
     "»trans": [
       "pol-ver-0009-biegać"
     ],
@@ -139,8 +163,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to sit down[i]",
-    "id": "eng-ver-0010-sitdown[i]",
+    "lemma": "to sit down",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0010-sitdown",
     "»trans": [
       "pol-ver-0012-siąść",
       "pol-ver-0014-siadać",
@@ -150,8 +177,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to sit[i]",
-    "id": "eng-ver-0011-sit[i]",
+    "lemma": "to sit",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0011-sit",
     "»trans": [
       "pol-ver-0012-siąść",
       "pol-ver-0013-siedzieć",
@@ -161,8 +191,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to fall down[i]",
-    "id": "eng-ver-0012-falldown[i]",
+    "lemma": "to fall down",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0012-falldown",
     "»trans": [
       "pol-ver-0016-upadać",
       "pol-ver-0017-upaść"
@@ -171,8 +204,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to fall[i]",
-    "id": "eng-ver-0013-fall[i]",
+    "lemma": "to fall",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0013-fall",
     "»trans": [
       "pol-ver-0016-upadać",
       "pol-ver-0017-upaść"
@@ -312,8 +348,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to return[i]",
-    "id": "eng-ver-0025-return[i]",
+    "lemma": "to return",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0025-return(travel)",
     "»trans": [
       "pol-ver-0034-wrócić",
       "pol-ver-0035-wracać"
@@ -322,8 +361,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to come back[i]",
-    "id": "eng-ver-0026-comeback[i]",
+    "lemma": "to come back",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0026-comeback",
     "»trans": [
       "pol-ver-0034-wrócić",
       "pol-ver-0035-wracać"
@@ -332,8 +374,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to prefer[i]",
-    "id": "eng-ver-0027-prefer[i]",
+    "lemma": "to prefer",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0027-prefer",
     "»trans": [
       "pol-ver-0036-woleć"
     ],
@@ -341,8 +386,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to happen[r]",
-    "id": "eng-ver-0028-happen[r]",
+    "lemma": "to happen",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0028-happen",
     "»trans": [
       "pol-ver-0037-dziać"
     ],
@@ -397,8 +445,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to be able to[i]",
-    "id": "eng-ver-0034-beableto[i]",
+    "lemma": "to be able to",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0034-beableto",
     "»trans": [
       "pol-ver-0042-umieć",
       "pol-ver-0045-móc(can or be able to)"
@@ -416,8 +467,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to be allowed[i]",
-    "id": "eng-ver-0037-beallowed[i]",
+    "lemma": "to be allowed",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0037-beallowed",
     "»trans": [
       "pol-ver-0046-móc(can or be allowed)"
     ],
@@ -500,8 +554,11 @@
     "frequency": 1
   },
   {
-    "lemma": "must[i]",
-    "id": "eng-ver-0046-must[i]",
+    "lemma": "must",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0046-must",
     "»trans": [
       "pol-ver-0057-musieć"
     ],
@@ -509,8 +566,11 @@
     "frequency": 1
   },
   {
-    "lemma": "to have to[i]",
-    "id": "eng-ver-0047-haveto[i]",
+    "lemma": "to have to",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0047-haveto",
     "»trans": [
       "pol-ver-0057-musieć"
     ],
@@ -518,8 +578,11 @@
     "frequency": 1
   },
   {
-    "lemma": "to need to[i]",
-    "id": "eng-ver-0048-needto[i]",
+    "lemma": "to need to",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0048-needto",
     "»trans": [
       "pol-ver-0057-musieć"
     ],
@@ -547,8 +610,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to descend[i]",
-    "id": "eng-ver-0052-descend[i]",
+    "lemma": "to descend",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0052-descend",
     "»trans": [
       "pol-ver-0064-schodzić",
       "pol-ver-0065-zejść"
@@ -557,8 +623,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to go down[i]",
-    "id": "eng-ver-0053-godown[i]",
+    "lemma": "to go down",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0053-godown",
     "»trans": [
       "pol-ver-0064-schodzić",
       "pol-ver-0065-zejść"
@@ -567,8 +636,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to arrive[i]",
-    "id": "eng-ver-0054-arrive[i](foot)",
+    "lemma": "to arrive",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0054-arrive(foot)",
     "»trans": [
       "pol-ver-0066-przychodzić",
       "pol-ver-0068-przyjść"
@@ -577,8 +649,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to arrive[i]",
-    "id": "eng-ver-0055-arrive[i](vehicle)",
+    "lemma": "to arrive",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0055-arrive(vehicle)",
     "»trans": [
       "pol-ver-0067-przyjechać",
       "pol-ver-0069-przyjeżdżać",
@@ -589,8 +664,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to come[i]",
-    "id": "eng-ver-0056-come[i](foot)",
+    "lemma": "to come",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0056-come(foot)",
     "»trans": [
       "pol-ver-0066-przychodzić",
       "pol-ver-0068-przyjść"
@@ -599,8 +677,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to come[i]",
-    "id": "eng-ver-0057-come[i](vehicle)",
+    "lemma": "to come",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0057-come(vehicle)",
     "»trans": [
       "pol-ver-0067-przyjechać",
       "pol-ver-0069-przyjeżdżać"
@@ -609,8 +690,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to go[i]",
-    "id": "eng-ver-0058-go[i](foot)",
+    "lemma": "to go",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0058-go(foot)",
     "»trans": [
       "pol-ver-0070-iść(to go)",
       "pol-ver-0072-pójść(to go)",
@@ -620,8 +704,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to go[i]",
-    "id": "eng-ver-0059-go[i](vehicle)",
+    "lemma": "to go",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0059-go(vehicle)",
     "»trans": [
       "pol-ver-0076-jechać(to go)",
       "pol-ver-0078-pojechać(to go)",
@@ -631,8 +718,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to walk[i]",
-    "id": "eng-ver-0060-walk[i]",
+    "lemma": "to walk",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0060-walk",
     "»trans": [
       "pol-ver-0071-iść(to walk)",
       "pol-ver-0073-pójść(to walk)",
@@ -642,8 +732,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to drive[i]",
-    "id": "eng-ver-0061-drive[i]",
+    "lemma": "to drive",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0061-drive",
     "»trans": [
       "pol-ver-0077-jechać(to drive)",
       "pol-ver-0079-pojechać(to drive)",
@@ -653,8 +746,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to think[i]#o+locative",
-    "id": "eng-ver-0062-think[i]#o+locative",
+    "lemma": "to think",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0062-think",
     "»trans": [
       "pol-ver-0082-pomyśleć",
       "pol-ver-0083-myśleć"
@@ -717,8 +813,12 @@
     "frequency": 1
   },
   {
-    "lemma": "to say[t,i]",
-    "id": "eng-ver-0068-say[t,i]",
+    "lemma": "to say",
+    "transitivity": [
+      "t",
+      "i"
+    ],
+    "id": "eng-ver-0068-say",
     "»trans": [
       "pol-ver-0090-powiedzieć",
       "pol-ver-0091-mówić(talk)"
@@ -727,8 +827,11 @@
     "frequency": 1
   },
   {
-    "lemma": "to speak[i]",
-    "id": "eng-ver-0069-speak[i](talk)",
+    "lemma": "to speak",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0069-speak(talk)",
     "»trans": [
       "pol-ver-0091-mówić(talk)",
       "pol-ver-0092-porozmawiać",
@@ -738,7 +841,10 @@
     "frequency": 1
   },
   {
-    "lemma": "to speak[i]",
+    "lemma": "to speak",
+    "transitivity": [
+      "i"
+    ],
     "id": "eng-ver-0070-speakalanguage(language)",
     "»trans": [
       "pol-ver-0908-mówić(speak a language)"
@@ -747,8 +853,11 @@
     "frequency": 1
   },
   {
-    "lemma": "to talk[i]",
-    "id": "eng-ver-0071-talk[i]",
+    "lemma": "to talk",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0071-talk",
     "»trans": [
       "pol-ver-0091-mówić(talk)",
       "pol-ver-0092-porozmawiać",
@@ -759,8 +868,11 @@
     "frequency": 1
   },
   {
-    "lemma": "to converse[i]",
-    "id": "eng-ver-0072-converse[i]",
+    "lemma": "to converse",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0072-converse",
     "»trans": [
       "pol-ver-0092-porozmawiać",
       "pol-ver-0093-rozmawiać"
@@ -769,8 +881,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to chat[i]",
-    "id": "eng-ver-0073-chat[i]",
+    "lemma": "to chat",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0073-chat",
     "»trans": [
       "pol-ver-0092-porozmawiać",
       "pol-ver-0093-rozmawiać",
@@ -780,8 +895,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to end[i]",
-    "id": "eng-ver-0074-end[i]",
+    "lemma": "to end",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0074-end",
     "»trans": [
       "pol-ver-0094-kończyć",
       "pol-ver-0095-skończyć"
@@ -790,8 +908,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to finish[i]",
-    "id": "eng-ver-0075-finish[i]",
+    "lemma": "to finish",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0075-finish",
     "»trans": [
       "pol-ver-0094-kończyć",
       "pol-ver-0095-skończyć"
@@ -800,8 +921,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to sleep[i]",
-    "id": "eng-ver-0076-sleep[i]",
+    "lemma": "to sleep",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0076-sleep",
     "»trans": [
       "pol-ver-0096-spać"
     ],
@@ -941,8 +1065,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to go into[i]",
-    "id": "eng-ver-0090-gointo[i]",
+    "lemma": "to go into",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0090-gointo",
     "»trans": [
       "pol-ver-0113-wejść",
       "pol-ver-0114-wchodzić"
@@ -1022,8 +1149,8 @@
     "frequency": 4
   },
   {
-    "lemma": "to look for#[+genitive]",
-    "id": "eng-ver-0098-lookfor#[+genitive]",
+    "lemma": "to look for",
+    "id": "eng-ver-0098-lookfor",
     "»trans": [
       "pol-ver-0121-szukać"
     ],
@@ -1031,8 +1158,8 @@
     "frequency": 2
   },
   {
-    "lemma": "to search for#[+genitive]",
-    "id": "eng-ver-0099-searchfor#[+genitive]",
+    "lemma": "to search for",
+    "id": "eng-ver-0099-searchfor",
     "»trans": [
       "pol-ver-0121-szukać"
     ],
@@ -1080,8 +1207,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to live[i]",
-    "id": "eng-ver-0104-live[i](be alive)",
+    "lemma": "to live",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0104-live(be alive)",
     "»trans": [
       "pol-ver-0123-żyć"
     ],
@@ -1141,8 +1271,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to be born[r]",
-    "id": "eng-ver-0110-beborn[r]",
+    "lemma": "to be born",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0110-beborn",
     "»trans": [
       "pol-ver-0128-urodzić",
       "pol-ver-0129-rodzić"
@@ -1171,8 +1304,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to leave[i]",
-    "id": "eng-ver-0113-leave[i](foot)",
+    "lemma": "to leave",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0113-leave(foot)",
     "»trans": [
       "pol-ver-0130-wyjść",
       "pol-ver-0131-wychodzić"
@@ -1181,8 +1317,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to leave[i]",
-    "id": "eng-ver-0114-leave[i](vehicle)",
+    "lemma": "to leave",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0114-leave(vehicle)",
     "»trans": [
       "pol-ver-0591-odjechać",
       "pol-ver-0592-odjeżdżać"
@@ -1257,8 +1396,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to believe[i]",
-    "id": "eng-ver-0121-believe[i]",
+    "lemma": "to believe",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0121-believe",
     "»trans": [
       "pol-ver-0142-uwierzyć",
       "pol-ver-0143-wierzyć"
@@ -1267,8 +1409,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to trust[i]",
-    "id": "eng-ver-0122-trust[i]",
+    "lemma": "to trust",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0122-trust",
     "»trans": [
       "pol-ver-0142-uwierzyć",
       "pol-ver-0143-wierzyć"
@@ -1277,8 +1422,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to have fun[r]",
-    "id": "eng-ver-0123-havefun[r]",
+    "lemma": "to have fun",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0123-havefun",
     "»trans": [
       "pol-ver-0144-bawić"
     ],
@@ -1349,8 +1497,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to die[i]",
-    "id": "eng-ver-0129-die[i]",
+    "lemma": "to die",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0129-die",
     "»trans": [
       "pol-ver-0147-umrzeć",
       "pol-ver-0148-umierać",
@@ -1561,8 +1712,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to get lost[r]",
-    "id": "eng-ver-0151-getlost[r]",
+    "lemma": "to get lost",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0151-getlost",
     "»trans": [
       "pol-ver-0170-zgubić(to get lost)"
     ],
@@ -1611,8 +1765,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to learn[r]",
-    "id": "eng-ver-0156-learn[r]",
+    "lemma": "to learn",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0156-learn",
     "»trans": [
       "pol-ver-0178-nauczyć(to learn)",
       "pol-ver-0180-nauczać(to learn)",
@@ -1622,8 +1779,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to study[r]",
-    "id": "eng-ver-0157-study[r]",
+    "lemma": "to study",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0157-study",
     "»trans": [
       "pol-ver-0178-nauczyć(to learn)",
       "pol-ver-0180-nauczać(to learn)",
@@ -1916,8 +2076,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to lurk[i]",
-    "id": "eng-ver-0185-lurk[i]",
+    "lemma": "to lurk",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0185-lurk",
     "»trans": [
       "pol-ver-0228-czaić"
     ],
@@ -1925,8 +2088,11 @@
     "frequency": 5
   },
   {
-    "lemma": "to skulk[i]",
-    "id": "eng-ver-0186-skulk[i]",
+    "lemma": "to skulk",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0186-skulk",
     "»trans": [
       "pol-ver-0228-czaić"
     ],
@@ -1997,8 +2163,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to be nervous[r]",
-    "id": "eng-ver-0193-benervous[r]",
+    "lemma": "to be nervous",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0193-benervous",
     "»trans": [
       "pol-ver-0234-denerwować(to be nervous)",
       "pol-ver-0236-zdenerwować(to be nervous)"
@@ -2046,8 +2215,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to be glad[r]",
-    "id": "eng-ver-0198-beglad[r]",
+    "lemma": "to be glad",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0198-beglad",
     "»trans": [
       "pol-ver-0240-cieszyć",
       "pol-ver-0241-ucieszyć"
@@ -2102,8 +2274,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to ripen[i]",
-    "id": "eng-ver-0203-ripen[i]",
+    "lemma": "to ripen",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0203-ripen",
     "»trans": [
       "pol-ver-0246-dojrzeć(to ripen)",
       "pol-ver-0248-dojrzewać(to ripen)"
@@ -2112,8 +2287,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to mature[i]",
-    "id": "eng-ver-0204-mature[i]",
+    "lemma": "to mature",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0204-mature",
     "»trans": [
       "pol-ver-0247-dojrzeć(to mature)",
       "pol-ver-0249-dojrzewać(to mature)"
@@ -2184,8 +2362,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to hurt[i]",
-    "id": "eng-ver-0211-hurt[i]",
+    "lemma": "to hurt",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0211-hurt",
     "»trans": [
       "pol-ver-0254-boleć"
     ],
@@ -2193,8 +2374,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to ache[i]",
-    "id": "eng-ver-0212-ache[i]",
+    "lemma": "to ache",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0212-ache",
     "»trans": [
       "pol-ver-0254-boleć"
     ],
@@ -2292,8 +2476,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to adjust[i]",
-    "id": "eng-ver-0222-adjust[i]",
+    "lemma": "to adjust",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0222-adjust",
     "»trans": [
       "pol-ver-0261-dostosować",
       "pol-ver-0262-dostosowywać"
@@ -2389,8 +2576,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to get along with[r]",
-    "id": "eng-ver-0232-getalongwith[r]",
+    "lemma": "to get along with",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0232-getalongwith",
     "»trans": [
       "pol-ver-0272-dogadać",
       "pol-ver-0273-dogadywać"
@@ -2419,8 +2609,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to feel[r]",
-    "id": "eng-ver-0235-feel[r]",
+    "lemma": "to feel",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0235-feel",
     "»trans": [
       "pol-ver-0276-czuć(to feel)",
       "pol-ver-0279-poczuć(to feel)"
@@ -2491,8 +2684,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to exercise[i]",
-    "id": "eng-ver-0242-exercise[i]",
+    "lemma": "to exercise",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0242-exercise",
     "»trans": [
       "pol-ver-0288-ćwiczyć"
     ],
@@ -2711,8 +2907,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to join[i]",
-    "id": "eng-ver-0264-join[i]",
+    "lemma": "to join",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0264-join",
     "»trans": [
       "pol-ver-0315-dołączyć(to join)",
       "pol-ver-0317-dołączać(to join)"
@@ -2721,8 +2920,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to join in[r]",
-    "id": "eng-ver-0265-joinin[r]",
+    "lemma": "to join in",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0265-joinin",
     "»trans": [
       "pol-ver-0315-dołączyć(to join)",
       "pol-ver-0317-dołączać(to join)"
@@ -2840,8 +3042,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to stay awake[i]",
-    "id": "eng-ver-0277-stayawake[i]",
+    "lemma": "to stay awake",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0277-stayawake",
     "»trans": [
       "pol-ver-0324-czuwać"
     ],
@@ -2879,8 +3084,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to be angry[r]",
-    "id": "eng-ver-0281-beangry[r]",
+    "lemma": "to be angry",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0281-beangry",
     "»trans": [
       "pol-ver-0329-gniewać"
     ],
@@ -2888,8 +3096,11 @@
     "frequency": 5
   },
   {
-    "lemma": "to get angry [r]",
-    "id": "eng-ver-0282-getangry[r]",
+    "lemma": "to get angry ",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0282-getangry",
     "»trans": [
       "pol-ver-0329-gniewać",
       "pol-ver-0330-rozgniewać"
@@ -2898,8 +3109,11 @@
     "frequency": 5
   },
   {
-    "lemma": "to be angry [r]",
-    "id": "eng-ver-0283-beangry[r]",
+    "lemma": "to be angry ",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0283-beangry",
     "»trans": [
       "pol-ver-0330-rozgniewać"
     ],
@@ -3016,8 +3230,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to perish[i]",
-    "id": "eng-ver-0295-perish[i]",
+    "lemma": "to perish",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0295-perish",
     "»trans": [
       "pol-ver-0341-ginąć",
       "pol-ver-0342-zginąć"
@@ -3026,8 +3243,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to find out[r]",
-    "id": "eng-ver-0296-findout[r]",
+    "lemma": "to find out",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0296-findout",
     "»trans": [
       "pol-ver-0343-dowiadywać",
       "pol-ver-0344-dowiedzieć"
@@ -3036,8 +3256,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to figure out[r]",
-    "id": "eng-ver-0297-figureout[r]",
+    "lemma": "to figure out",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0297-figureout",
     "»trans": [
       "pol-ver-0343-dowiadywać",
       "pol-ver-0344-dowiedzieć"
@@ -3046,8 +3269,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to flash[i]",
-    "id": "eng-ver-0298-flash[i]",
+    "lemma": "to flash",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0298-flash",
     "»trans": [
       "pol-ver-0345-błysnąć",
       "pol-ver-0346-błyskać"
@@ -3268,8 +3494,11 @@
     "frequency": 5
   },
   {
-    "lemma": "to work[i]",
-    "id": "eng-ver-0322-work[i]",
+    "lemma": "to work",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0322-work",
     "»trans": [
       "pol-ver-0362-działać",
       "pol-ver-0363-zadziałać"
@@ -3278,8 +3507,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to function[i]",
-    "id": "eng-ver-0323-function[i]",
+    "lemma": "to function",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0323-function",
     "»trans": [
       "pol-ver-0362-działać",
       "pol-ver-0363-zadziałać"
@@ -3288,10 +3520,13 @@
     "frequency": 4
   },
   {
-    "lemma": "to not be able to wait[r] (stricly in the negative)",
-    "id": "eng-ver-0324-not be able to wait[r] (stricly in the negative)(þ)",
+    "lemma": "to not be able to wait",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0324-not be able to wait",
     "»trans": [
-      "pol-ver-0364-doczekać"
+      "pol-ver-0364-doczekać(negative only)"
     ],
     "register": 0,
     "frequency": 4
@@ -3364,8 +3599,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to fight back[r]",
-    "id": "eng-ver-0332-fightback[r]",
+    "lemma": "to fight back",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0332-fightback",
     "»trans": [
       "pol-ver-0369-bronić(to fight back)",
       "pol-ver-0371-obronić(to fight back)"
@@ -3374,8 +3612,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to tease[r]",
-    "id": "eng-ver-0333-tease[r]",
+    "lemma": "to tease",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0333-tease",
     "»trans": [
       "pol-ver-0372-drażnić"
     ],
@@ -3429,8 +3670,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to pant[i]",
-    "id": "eng-ver-0339-pant[i]",
+    "lemma": "to pant",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0339-pant",
     "»trans": [
       "pol-ver-0377-dyszeć"
     ],
@@ -3486,8 +3730,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to exist[i]",
-    "id": "eng-ver-0345-exist[i]",
+    "lemma": "to exist",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0345-exist",
     "»trans": [
       "pol-ver-0381-istnieć"
     ],
@@ -3564,8 +3811,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to moan[i]",
-    "id": "eng-ver-0353-moan[i]",
+    "lemma": "to moan",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0353-moan",
     "»trans": [
       "pol-ver-0395-jęknąć",
       "pol-ver-0396-jęczeć"
@@ -3574,8 +3824,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to nod[i]",
-    "id": "eng-ver-0354-nod[i](þ)",
+    "lemma": "to nod",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0354-nod",
     "»trans": [
       "pol-ver-0397-kiwać",
       "pol-ver-0398-kiwnąć"
@@ -3584,8 +3837,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to land[i]",
-    "id": "eng-ver-0355-land[i]",
+    "lemma": "to land",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0355-land",
     "»trans": [
       "pol-ver-0402-lądować"
     ],
@@ -3603,8 +3859,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to circulate[i]",
-    "id": "eng-ver-0357-circulate[i]",
+    "lemma": "to circulate",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0357-circulate",
     "»trans": [
       "pol-ver-0405-krążyć"
     ],
@@ -3632,8 +3891,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to fly[i]",
-    "id": "eng-ver-0360-fly[i]",
+    "lemma": "to fly",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0360-fly",
     "»trans": [
       "pol-ver-0408-latać",
       "pol-ver-0409-lecieć",
@@ -3738,8 +4000,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to brake[i]",
-    "id": "eng-ver-0371-brake[i]",
+    "lemma": "to brake",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0371-brake",
     "»trans": [
       "pol-ver-0420-hamować(to brake)"
     ],
@@ -3785,8 +4050,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to cost[i]",
-    "id": "eng-ver-0376-cost[i]",
+    "lemma": "to cost",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0376-cost",
     "»trans": [
       "pol-ver-0426-kosztować"
     ],
@@ -3794,8 +4062,12 @@
     "frequency": 3
   },
   {
-    "lemma": "to threaten[t,i]",
-    "id": "eng-ver-0377-threaten[t,i]",
+    "lemma": "to threaten",
+    "transitivity": [
+      "t",
+      "i"
+    ],
+    "id": "eng-ver-0377-threaten",
     "»trans": [
       "pol-ver-0427-grozić",
       "pol-ver-0428-zagrozić(threaten)"
@@ -3860,8 +4132,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to lie[i]",
-    "id": "eng-ver-0384-lie[i](untruth)",
+    "lemma": "to lie",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0384-lie(untruth)",
     "»trans": [
       "pol-ver-0435-kłamać",
       "pol-ver-0436-skłamać"
@@ -3870,8 +4145,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to lie[i]",
-    "id": "eng-ver-0385-lie[i](bodily)",
+    "lemma": "to lie",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0385-lie(bodily)",
     "»trans": [
       "pol-ver-0499-leżeć"
     ],
@@ -3979,8 +4257,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to shine[i]",
-    "id": "eng-ver-0396-shine[i]",
+    "lemma": "to shine",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0396-shine",
     "»trans": [
       "pol-ver-0447-lśnić"
     ],
@@ -3988,8 +4269,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to glitter[i]",
-    "id": "eng-ver-0397-glitter[i]",
+    "lemma": "to glitter",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0397-glitter",
     "»trans": [
       "pol-ver-0447-lśnić"
     ],
@@ -3997,8 +4281,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to shimmer[i]",
-    "id": "eng-ver-0398-shimmer[i]",
+    "lemma": "to shimmer",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0398-shimmer",
     "»trans": [
       "pol-ver-0447-lśnić"
     ],
@@ -4006,8 +4293,12 @@
     "frequency": 4
   },
   {
-    "lemma": "to glisten[i,r]",
-    "id": "eng-ver-0399-glisten[i,r]",
+    "lemma": "to glisten",
+    "transitivity": [
+      "i",
+      "r"
+    ],
+    "id": "eng-ver-0399-glisten",
     "»trans": [
       "pol-ver-0447-lśnić"
     ],
@@ -4015,8 +4306,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to blink[i]",
-    "id": "eng-ver-0400-blink[i]",
+    "lemma": "to blink",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0400-blink",
     "»trans": [
       "pol-ver-0448-mrugać"
     ],
@@ -4191,8 +4485,11 @@
     "frequency": 5
   },
   {
-    "lemma": "to be called[r]",
-    "id": "eng-ver-0418-becalled[r]",
+    "lemma": "to be called",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0418-becalled",
     "»trans": [
       "pol-ver-0470-nazwać",
       "pol-ver-0471-nazywać"
@@ -4277,8 +4574,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to insist[i]",
-    "id": "eng-ver-0427-insist[i]",
+    "lemma": "to insist",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0427-insist",
     "»trans": [
       "pol-ver-0477-nalegać"
     ],
@@ -4306,8 +4606,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to be bored[r]",
-    "id": "eng-ver-0430-bebored[r]",
+    "lemma": "to be bored",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0430-bebored",
     "»trans": [
       "pol-ver-0480-nudzić",
       "pol-ver-0481-znudzić"
@@ -4326,8 +4629,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to mutter[i]",
-    "id": "eng-ver-0432-mutter[i]",
+    "lemma": "to mutter",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0432-mutter",
     "»trans": [
       "pol-ver-0482-mruknąć",
       "pol-ver-0483-mruczeć"
@@ -4357,8 +4663,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to belong[i]",
-    "id": "eng-ver-0435-belong[i]",
+    "lemma": "to belong",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0435-belong",
     "»trans": [
       "pol-ver-0488-należeć"
     ],
@@ -4366,8 +4675,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to fit[r]",
-    "id": "eng-ver-0436-fit[r]",
+    "lemma": "to fit",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0436-fit",
     "»trans": [
       "pol-ver-0489-mieścić"
     ],
@@ -4483,8 +4795,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to worry[r]",
-    "id": "eng-ver-0448-worry[r]",
+    "lemma": "to worry",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0448-worry",
     "»trans": [
       "pol-ver-0502-martwić",
       "pol-ver-0503-zmartwić"
@@ -4575,8 +4890,11 @@
     "frequency": 3
   },
   {
-    "lemma": "elapse[i]",
-    "id": "eng-ver-0457-elapse[i]",
+    "lemma": "elapse",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0457-elapse",
     "»trans": [
       "pol-ver-0508-mijać(elapse)",
       "pol-ver-0510-minąć(elapse)"
@@ -4818,8 +5136,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to breathe[i]",
-    "id": "eng-ver-0481-breathe[i]",
+    "lemma": "to breathe",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0481-breathe",
     "»trans": [
       "pol-ver-0534-odetchnąć",
       "pol-ver-0535-oddychać"
@@ -4848,8 +5169,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to swim away[i]",
-    "id": "eng-ver-0484-swimaway[i]",
+    "lemma": "to swim away",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0484-swimaway",
     "»trans": [
       "pol-ver-0540-odpłynąć(to swim away)",
       "pol-ver-0542-odpływać(to swim away)"
@@ -4858,8 +5182,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to swim off[i]",
-    "id": "eng-ver-0485-swimoff[i]",
+    "lemma": "to swim off",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0485-swimoff",
     "»trans": [
       "pol-ver-0540-odpłynąć(to swim away)",
       "pol-ver-0542-odpływać(to swim away)"
@@ -4868,8 +5195,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to sail away[i]",
-    "id": "eng-ver-0486-sailaway[i]",
+    "lemma": "to sail away",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0486-sailaway",
     "»trans": [
       "pol-ver-0541-odpłynąć(to sail away)",
       "pol-ver-0543-odpływać(to sail away)"
@@ -4878,8 +5208,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to sail off[i]",
-    "id": "eng-ver-0487-sailoff[i]",
+    "lemma": "to sail off",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0487-sailoff",
     "»trans": [
       "pol-ver-0541-odpłynąć(to sail away)",
       "pol-ver-0543-odpływać(to sail away)"
@@ -4958,8 +5291,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to take place[r]",
-    "id": "eng-ver-0495-takeplace[r]",
+    "lemma": "to take place",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0495-takeplace",
     "»trans": [
       "pol-ver-0554-odbyć(occur)",
       "pol-ver-0556-odbywać(take)"
@@ -4968,8 +5304,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to occur[i]",
-    "id": "eng-ver-0496-occur[i]",
+    "lemma": "to occur",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0496-occur",
     "»trans": [
       "pol-ver-0554-odbyć(occur)",
       "pol-ver-0556-odbywać(take)"
@@ -5042,8 +5381,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to fly away[i]",
-    "id": "eng-ver-0503-flyaway[i]",
+    "lemma": "to fly away",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0503-flyaway",
     "»trans": [
       "pol-ver-0562-odlecieć",
       "pol-ver-0563-odlatywać"
@@ -5052,8 +5394,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to fly off[i]",
-    "id": "eng-ver-0504-flyoff[i]",
+    "lemma": "to fly off",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0504-flyoff",
     "»trans": [
       "pol-ver-0562-odlecieć",
       "pol-ver-0563-odlatywać"
@@ -5226,8 +5571,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to relax[i]",
-    "id": "eng-ver-0521-relax[i]",
+    "lemma": "to relax",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0521-relax",
     "»trans": [
       "pol-ver-0579-odpocząć",
       "pol-ver-0580-odpoczywać"
@@ -5260,8 +5608,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to turn out[r]",
-    "id": "eng-ver-0524-turnout[r]",
+    "lemma": "to turn out",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0524-turnout",
     "»trans": [
       "pol-ver-0583-okazać",
       "pol-ver-0584-okazywać"
@@ -5270,8 +5621,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to transpire[r]",
-    "id": "eng-ver-0525-transpire[r]",
+    "lemma": "to transpire",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0525-transpire",
     "»trans": [
       "pol-ver-0583-okazać",
       "pol-ver-0584-okazywać"
@@ -5609,8 +5963,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to smell[i]",
-    "id": "eng-ver-0559-smell[i]",
+    "lemma": "to smell",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0559-smell",
     "»trans": [
       "pol-ver-0626-pachnieć"
     ],
@@ -5618,8 +5975,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to smoke[i]",
-    "id": "eng-ver-0560-smoke[i](þ)",
+    "lemma": "to smoke",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0560-smoke(tobacco)",
     "»trans": [
       "pol-ver-0627-palić(smoke)"
     ],
@@ -5636,8 +5996,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to approach[i]",
-    "id": "eng-ver-0562-approach[i]",
+    "lemma": "to approach",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0562-approach",
     "»trans": [
       "pol-ver-0629-podchodzić",
       "pol-ver-0630-podejść"
@@ -5646,8 +6009,8 @@
     "frequency": 3
   },
   {
-    "lemma": "to come [from an origin]",
-    "id": "eng-ver-0563-come [from an origin](þ)",
+    "lemma": "to come",
+    "id": "eng-ver-0563-come(origin)",
     "»trans": [
       "pol-ver-0631-pochodzić"
     ],
@@ -5685,8 +6048,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to approach[i] (in a vehicle)",
-    "id": "eng-ver-0567-approach[i](inavehicle)",
+    "lemma": "to approach",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0567-approach(vehicle)",
     "»trans": [
       "pol-ver-0638-podjechać",
       "pol-ver-0639-podjeżdżać"
@@ -5759,8 +6125,8 @@
     "frequency": 3
   },
   {
-    "lemma": "to take [a decision]",
-    "id": "eng-ver-0574-take [a decision](þ)",
+    "lemma": "to take",
+    "id": "eng-ver-0574-take(decision)",
     "»trans": [
       "pol-ver-0649-podjąć",
       "pol-ver-0650-podejmować"
@@ -5789,8 +6155,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to go crazy[i]",
-    "id": "eng-ver-0577-gocrazy[i]",
+    "lemma": "to go crazy",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0577-gocrazy",
     "»trans": [
       "pol-ver-0653-oszaleć",
       "pol-ver-0654-szaleć"
@@ -5799,8 +6168,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to go mad[i]",
-    "id": "eng-ver-0578-gomad[i]",
+    "lemma": "to go mad",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0578-gomad",
     "»trans": [
       "pol-ver-0653-oszaleć",
       "pol-ver-0654-szaleć"
@@ -5809,8 +6181,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to go nuts[i]",
-    "id": "eng-ver-0579-gonuts[i]",
+    "lemma": "to go nuts",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0579-gonuts",
     "»trans": [
       "pol-ver-0653-oszaleć",
       "pol-ver-0654-szaleć"
@@ -5819,8 +6194,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to dare[r]",
-    "id": "eng-ver-0580-dare[r]",
+    "lemma": "to dare",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0580-dare",
     "»trans": [
       "pol-ver-0655-ośmielić",
       "pol-ver-0656-ośmielać"
@@ -5841,8 +6219,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to burn[i]",
-    "id": "eng-ver-0582-burn[i]",
+    "lemma": "to burn",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0582-burn",
     "»trans": [
       "pol-ver-0659-płonąć",
       "pol-ver-0660-spłonąć"
@@ -5851,8 +6232,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to be on fire[i]",
-    "id": "eng-ver-0583-beonfire[i]",
+    "lemma": "to be on fire",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0583-beonfire",
     "»trans": [
       "pol-ver-0659-płonąć",
       "pol-ver-0660-spłonąć"
@@ -5941,8 +6325,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to swim[i]",
-    "id": "eng-ver-0592-swim[i]",
+    "lemma": "to swim",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0592-swim",
     "»trans": [
       "pol-ver-0669-pływać(swim)",
       "pol-ver-0670-płynąć(swim)",
@@ -5952,8 +6339,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to sail[i]",
-    "id": "eng-ver-0593-sail[i]",
+    "lemma": "to sail",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0593-sail",
     "»trans": [
       "pol-ver-0672-pływać(sail)",
       "pol-ver-0673-płynąć(sail)",
@@ -5963,8 +6353,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to float[i]",
-    "id": "eng-ver-0594-float[i]",
+    "lemma": "to float",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0594-float",
     "»trans": [
       "pol-ver-0675-pływać(float)",
       "pol-ver-0676-płynąć(float)",
@@ -6132,8 +6525,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to cry[i]",
-    "id": "eng-ver-0611-cry[i]",
+    "lemma": "to cry",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0611-cry",
     "»trans": [
       "pol-ver-0701-płakać"
     ],
@@ -6257,8 +6653,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to travel[i]",
-    "id": "eng-ver-0624-travel[i]",
+    "lemma": "to travel",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0624-travel",
     "»trans": [
       "pol-ver-0716-podróżować"
     ],
@@ -6275,8 +6674,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to match[i]",
-    "id": "eng-ver-0626-match[i]",
+    "lemma": "to match",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0626-match",
     "»trans": [
       "pol-ver-0717-pasować"
     ],
@@ -6284,8 +6686,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to fit[i]",
-    "id": "eng-ver-0627-fit[i]",
+    "lemma": "to fit",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0627-fit",
     "»trans": [
       "pol-ver-0717-pasować"
     ],
@@ -6465,8 +6870,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to penetrate[r]",
-    "id": "eng-ver-0646-penetrate[r]",
+    "lemma": "to penetrate",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0646-penetrate",
     "»trans": [
       "pol-ver-0742-przebijać",
       "pol-ver-0743-przebić"
@@ -6632,8 +7040,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to try[r]",
-    "id": "eng-ver-0663-try[r]",
+    "lemma": "to try",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0663-try",
     "»trans": [
       "pol-ver-0760-postarać",
       "pol-ver-0761-starać"
@@ -6799,8 +7210,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to stay[i]",
-    "id": "eng-ver-0680-stay[i]",
+    "lemma": "to stay",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0680-stay",
     "»trans": [
       "pol-ver-0784-pozostawać",
       "pol-ver-0785-pozostać"
@@ -6849,10 +7263,10 @@
     "frequency": 5
   },
   {
-    "lemma": "to succeed (powodzi [C] się)",
-    "id": "eng-ver-0685-succeed (powodzi [C] się)(þ)",
+    "lemma": "to succeed",
+    "id": "eng-ver-0685-succeed",
     "»trans": [
-      "pol-ver-0790-powieść"
+      "pol-ver-0790-powieść(powodzi mi się)"
     ],
     "register": 0,
     "frequency": 4
@@ -6958,8 +7372,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to swear[i]",
-    "id": "eng-ver-0696-swear[i]",
+    "lemma": "to swear",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0696-swear",
     "»trans": [
       "pol-ver-0807-przeklinać",
       "pol-ver-0808-przekląć"
@@ -6968,8 +7385,11 @@
     "frequency": 4
   },
   {
-    "lemma": "to curse[i]",
-    "id": "eng-ver-0697-curse[i]",
+    "lemma": "to curse",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0697-curse",
     "»trans": [
       "pol-ver-0807-przeklinać",
       "pol-ver-0808-przekląć"
@@ -6998,11 +7418,12 @@
     "frequency": 5
   },
   {
-    "lemma": "to consider [X as X]",
-    "id": "eng-ver-0700-consider [X as X](þ)",
+    "lemma": "to consider",
+    "id": "eng-ver-0700-consider(as)",
     "»trans": [
       "pol-ver-0811-potraktować",
-      "pol-ver-0812-traktować"
+      "pol-ver-0812-traktować",
+      "pol-ver-0911-uważać"
     ],
     "register": 0,
     "frequency": 4
@@ -7018,8 +7439,12 @@
     "frequency": 4
   },
   {
-    "lemma": "to move[i,r] (to change residence)",
-    "id": "eng-ver-0702-move[i,r](tochangeresidence)",
+    "lemma": "to move",
+    "transitivity": [
+      "i",
+      "r"
+    ],
+    "id": "eng-ver-0702-move(house)",
     "»trans": [
       "pol-ver-0815-przeprowadzić(move)",
       "pol-ver-0816-przeprowadzać(move)"
@@ -7038,7 +7463,7 @@
   },
   {
     "lemma": "to move",
-    "id": "eng-ver-0704-move",
+    "id": "eng-ver-0704-move(object)",
     "»trans": [
       "pol-ver-0818-przenosić(move)",
       "pol-ver-0819-przenieść(move)"
@@ -7057,8 +7482,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to trip[i]",
-    "id": "eng-ver-0706-trip[i]",
+    "lemma": "to trip",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0706-trip",
     "»trans": [
       "pol-ver-0822-potknąć",
       "pol-ver-0823-potykać"
@@ -7077,8 +7505,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to stumble[i]",
-    "id": "eng-ver-0708-stumble[i]",
+    "lemma": "to stumble",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0708-stumble",
     "»trans": [
       "pol-ver-0822-potknąć",
       "pol-ver-0823-potykać"
@@ -7147,8 +7578,11 @@
     "frequency": 2
   },
   {
-    "lemma": "to be sorry[i]",
-    "id": "eng-ver-0717-besorry[i]",
+    "lemma": "to be sorry",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0717-besorry",
     "»trans": [
       "pol-ver-0839-przeprosić",
       "pol-ver-0840-przepraszać"
@@ -7191,8 +7625,11 @@
     "frequency": 3
   },
   {
-    "lemma": "to exaggerate[i]",
-    "id": "eng-ver-0721-exaggerate[i]",
+    "lemma": "to exaggerate",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0721-exaggerate",
     "»trans": [
       "pol-ver-0843-przesadzać(to exaggerate)",
       "pol-ver-0845-przesadzić(to exaggerate)"
@@ -7600,8 +8037,11 @@
     "frequency": 1
   },
   {
-    "lemma": "to be habitually[i]",
-    "id": "eng-ver-0762-behabitually[i]",
+    "lemma": "to be habitually",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0762-behabitually",
     "»trans": [
       "pol-ver-0044-bywać"
     ],
@@ -7618,8 +8058,11 @@
     "frequency": 1
   },
   {
-    "lemma": "to say habitually[i]",
-    "id": "eng-ver-0764-sayhabitually[i]",
+    "lemma": "to say habitually",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0764-sayhabitually",
     "»trans": [
       "pol-ver-0106-mawiać"
     ],
