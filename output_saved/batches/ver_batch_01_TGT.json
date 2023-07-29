@@ -263,7 +263,7 @@
     "id": "eng-ver-0018-count(numbers)",
     "»trans": [
       "pol-ver-0026-policzyć",
-      "pol-ver-0027-liczyć(to count)"
+      "pol-ver-0027-liczyć(count)"
     ],
     "register": 0,
     "frequency": 3
@@ -272,7 +272,7 @@
     "lemma": "count on",
     "id": "eng-ver-0019-counton",
     "»trans": [
-      "pol-ver-0028-liczyć(to count on)"
+      "pol-ver-0028-liczyć(count on)"
     ],
     "register": 0,
     "frequency": 4
@@ -281,7 +281,7 @@
     "lemma": "matter",
     "id": "eng-ver-0020-matter",
     "»trans": [
-      "pol-ver-0029-liczyć(to matter)"
+      "pol-ver-0029-liczyć(matter)"
     ],
     "register": 0,
     "frequency": 4
@@ -290,7 +290,7 @@
     "lemma": "count",
     "id": "eng-ver-0020-count(matter)",
     "»trans": [
-      "pol-ver-0029-liczyć(to matter)"
+      "pol-ver-0029-liczyć(matter)"
     ],
     "register": 0,
     "frequency": 4
@@ -299,8 +299,8 @@
     "lemma": "give",
     "id": "eng-ver-0021-give",
     "»trans": [
-      "pol-ver-0030-dać(to give)",
-      "pol-ver-0032-dawać(to give)"
+      "pol-ver-0030-dać(give)",
+      "pol-ver-0032-dawać(give)"
     ],
     "register": 0,
     "frequency": 2
@@ -309,8 +309,8 @@
     "lemma": "let",
     "id": "eng-ver-0022-let",
     "»trans": [
-      "pol-ver-0031-dać(to let)",
-      "pol-ver-0033-dawać(to let)",
+      "pol-ver-0031-dać(let)",
+      "pol-ver-0033-dawać(let)",
       "pol-ver-0238-dopuścić",
       "pol-ver-0239-dopuszczać",
       "pol-ver-0828-pozwalać",
@@ -323,8 +323,8 @@
     "lemma": "allow",
     "id": "eng-ver-0023-allow",
     "»trans": [
-      "pol-ver-0031-dać(to let)",
-      "pol-ver-0033-dawać(to let)",
+      "pol-ver-0031-dać(let)",
+      "pol-ver-0033-dawać(let)",
       "pol-ver-0238-dopuścić",
       "pol-ver-0239-dopuszczać",
       "pol-ver-0828-pozwalać",
@@ -337,8 +337,8 @@
     "lemma": "permit",
     "id": "eng-ver-0024-permit",
     "»trans": [
-      "pol-ver-0031-dać(to let)",
-      "pol-ver-0033-dawać(to let)",
+      "pol-ver-0031-dać(let)",
+      "pol-ver-0033-dawać(let)",
       "pol-ver-0238-dopuścić",
       "pol-ver-0239-dopuszczać",
       "pol-ver-0828-pozwalać",
@@ -528,8 +528,8 @@
     "lemma": "cook",
     "id": "eng-ver-0043-cook",
     "»trans": [
-      "pol-ver-0052-ugotować(to cook)",
-      "pol-ver-0054-gotować(to cook)"
+      "pol-ver-0052-ugotować(cook)",
+      "pol-ver-0054-gotować(cook)"
     ],
     "register": 0,
     "frequency": 2
@@ -538,8 +538,8 @@
     "lemma": "boil",
     "id": "eng-ver-0044-boil",
     "»trans": [
-      "pol-ver-0053-ugotować(to boil)",
-      "pol-ver-0055-gotować(to boil)"
+      "pol-ver-0053-ugotować(boil)",
+      "pol-ver-0055-gotować(boil)"
     ],
     "register": 0,
     "frequency": 3
@@ -593,8 +593,8 @@
     "lemma": "bring",
     "id": "eng-ver-0050-bring",
     "»trans": [
-      "pol-ver-0060-przynieść(to bring)",
-      "pol-ver-0062-przynosić(to bring)"
+      "pol-ver-0060-przynieść(bring)",
+      "pol-ver-0062-przynosić(bring)"
     ],
     "register": 0,
     "frequency": 3
@@ -603,8 +603,8 @@
     "lemma": "fetch",
     "id": "eng-ver-0051-fetch",
     "»trans": [
-      "pol-ver-0061-przynieść(to fetch)",
-      "pol-ver-0063-przynosić(to fetch)"
+      "pol-ver-0061-przynieść(fetch)",
+      "pol-ver-0063-przynosić(fetch)"
     ],
     "register": 0,
     "frequency": 3
@@ -696,9 +696,9 @@
     ],
     "id": "eng-ver-0058-go(foot)",
     "»trans": [
-      "pol-ver-0070-iść(to go)",
-      "pol-ver-0072-pójść(to go)",
-      "pol-ver-0074-chodzić(to go)"
+      "pol-ver-0070-iść(go)",
+      "pol-ver-0072-pójść(go)",
+      "pol-ver-0074-chodzić(go)"
     ],
     "register": 0,
     "frequency": 3
@@ -710,9 +710,9 @@
     ],
     "id": "eng-ver-0059-go(vehicle)",
     "»trans": [
-      "pol-ver-0076-jechać(to go)",
-      "pol-ver-0078-pojechać(to go)",
-      "pol-ver-0080-jeździć(to go)"
+      "pol-ver-0076-jechać(go)",
+      "pol-ver-0078-pojechać(go)",
+      "pol-ver-0080-jeździć(go)"
     ],
     "register": 0,
     "frequency": 3
@@ -724,9 +724,9 @@
     ],
     "id": "eng-ver-0060-walk",
     "»trans": [
-      "pol-ver-0071-iść(to walk)",
-      "pol-ver-0073-pójść(to walk)",
-      "pol-ver-0075-chodzić(to walk)"
+      "pol-ver-0071-iść(walk)",
+      "pol-ver-0073-pójść(walk)",
+      "pol-ver-0075-chodzić(walk)"
     ],
     "register": 0,
     "frequency": 3
@@ -738,9 +738,9 @@
     ],
     "id": "eng-ver-0061-drive",
     "»trans": [
-      "pol-ver-0077-jechać(to drive)",
-      "pol-ver-0079-pojechać(to drive)",
-      "pol-ver-0081-jeździć(to drive)"
+      "pol-ver-0077-jechać(drive)",
+      "pol-ver-0079-pojechać(drive)",
+      "pol-ver-0081-jeździć(drive)"
     ],
     "register": 0,
     "frequency": 3
@@ -762,8 +762,8 @@
     "lemma": "turn off",
     "id": "eng-ver-0063-turnoff",
     "»trans": [
-      "pol-ver-0084-wyłączać(to turn off)",
-      "pol-ver-0086-wyłączyć(to turn off)"
+      "pol-ver-0084-wyłączać(turn off)",
+      "pol-ver-0086-wyłączyć(turn off)"
     ],
     "register": 0,
     "frequency": 3
@@ -772,8 +772,8 @@
     "lemma": "switch off",
     "id": "eng-ver-0064-switchoff",
     "»trans": [
-      "pol-ver-0084-wyłączać(to turn off)",
-      "pol-ver-0086-wyłączyć(to turn off)"
+      "pol-ver-0084-wyłączać(turn off)",
+      "pol-ver-0086-wyłączyć(turn off)"
     ],
     "register": 0,
     "frequency": 3
@@ -782,8 +782,8 @@
     "lemma": "exclude",
     "id": "eng-ver-0065-exclude",
     "»trans": [
-      "pol-ver-0085-wyłączać(to exclude)",
-      "pol-ver-0087-wyłączyć(to exclude)"
+      "pol-ver-0085-wyłączać(exclude)",
+      "pol-ver-0087-wyłączyć(exclude)"
     ],
     "register": 0,
     "frequency": 4
@@ -936,8 +936,8 @@
     "lemma": "lose",
     "id": "eng-ver-0077-lose(possession)",
     "»trans": [
-      "pol-ver-0097-tracić(to lose)",
-      "pol-ver-0099-stracić(to lose)",
+      "pol-ver-0097-tracić(lose)",
+      "pol-ver-0099-stracić(lose)",
       "pol-ver-0101-utracić"
     ],
     "register": 0,
@@ -947,7 +947,7 @@
     "lemma": "lose",
     "id": "eng-ver-0078-lose(misplace)",
     "»trans": [
-      "pol-ver-0169-zgubić(to lose)"
+      "pol-ver-0169-zgubić(lose)"
     ],
     "register": 0,
     "frequency": 2
@@ -966,8 +966,8 @@
     "lemma": "waste",
     "id": "eng-ver-0080-waste",
     "»trans": [
-      "pol-ver-0098-tracić(to waste)",
-      "pol-ver-0100-stracić(to waste)",
+      "pol-ver-0098-tracić(waste)",
+      "pol-ver-0100-stracić(waste)",
       "pol-ver-0528-marnować",
       "pol-ver-0529-zmarnować"
     ],
@@ -1018,8 +1018,8 @@
     "lemma": "switch on",
     "id": "eng-ver-0085-switchon",
     "»trans": [
-      "pol-ver-0109-włączyć(to switch on)",
-      "pol-ver-0111-włączać(to switch on)"
+      "pol-ver-0109-włączyć(switch on)",
+      "pol-ver-0111-włączać(switch on)"
     ],
     "register": 0,
     "frequency": 3
@@ -1028,8 +1028,8 @@
     "lemma": "turn on",
     "id": "eng-ver-0086-turnon",
     "»trans": [
-      "pol-ver-0109-włączyć(to switch on)",
-      "pol-ver-0111-włączać(to switch on)"
+      "pol-ver-0109-włączyć(switch on)",
+      "pol-ver-0111-włączać(switch on)"
     ],
     "register": 0,
     "frequency": 3
@@ -1038,8 +1038,8 @@
     "lemma": "include",
     "id": "eng-ver-0087-include(include)",
     "»trans": [
-      "pol-ver-0110-włączyć(to include)",
-      "pol-ver-0112-włączać(to include)"
+      "pol-ver-0110-włączyć(include)",
+      "pol-ver-0112-włączać(include)"
     ],
     "register": 0,
     "frequency": 4
@@ -1121,7 +1121,7 @@
     "lemma": "watch",
     "id": "eng-ver-0095-watch(child)",
     "»trans": [
-      "pol-ver-0735-pilnować(to watch)"
+      "pol-ver-0735-pilnować(watch)"
     ],
     "register": 0,
     "frequency": 4
@@ -1132,8 +1132,8 @@
     "»trans": [
       "pol-ver-0119-używać",
       "pol-ver-0120-użyć",
-      "pol-ver-0190-korzystać(to use)",
-      "pol-ver-0193-skorzystać(to use)"
+      "pol-ver-0190-korzystać(use)",
+      "pol-ver-0193-skorzystać(use)"
     ],
     "register": 0,
     "frequency": 3
@@ -1142,8 +1142,8 @@
     "lemma": "use",
     "id": "eng-ver-0097-use(takeadvantage)",
     "»trans": [
-      "pol-ver-0192-korzystać(to take advantage)",
-      "pol-ver-0195-skorzystać(to take advantage)"
+      "pol-ver-0192-korzystać(take advantage)",
+      "pol-ver-0195-skorzystać(take advantage)"
     ],
     "register": 0,
     "frequency": 4
@@ -1180,8 +1180,8 @@
     "lemma": "clean up",
     "id": "eng-ver-0101-cleanup(cleananobject)",
     "»trans": [
-      "pol-ver-0544-oczyścić(to clean up)",
-      "pol-ver-0546-oczyszczać(to clean up)"
+      "pol-ver-0544-oczyścić(clean up)",
+      "pol-ver-0546-oczyszczać(clean up)"
     ],
     "register": 0,
     "frequency": 4
@@ -1345,8 +1345,8 @@
     "lemma": "send",
     "id": "eng-ver-0116-send(send)",
     "»trans": [
-      "pol-ver-0134-wysyłać(to send)",
-      "pol-ver-0136-wysłać(to send)",
+      "pol-ver-0134-wysyłać(send)",
+      "pol-ver-0136-wysłać(send)",
       "pol-ver-0895-przesłać",
       "pol-ver-0896-przesyłać"
     ],
@@ -1357,8 +1357,8 @@
     "lemma": "send",
     "id": "eng-ver-0117-send(mail)",
     "»trans": [
-      "pol-ver-0135-wysyłać(to mail)",
-      "pol-ver-0137-wysłać(to mail)"
+      "pol-ver-0135-wysyłać(mail)",
+      "pol-ver-0137-wysłać(mail)"
     ],
     "register": 0,
     "frequency": 3
@@ -1367,8 +1367,8 @@
     "lemma": "mail",
     "id": "eng-ver-0118-mail",
     "»trans": [
-      "pol-ver-0135-wysyłać(to mail)",
-      "pol-ver-0137-wysłać(to mail)"
+      "pol-ver-0135-wysyłać(mail)",
+      "pol-ver-0137-wysłać(mail)"
     ],
     "register": 0,
     "frequency": 3
@@ -1579,8 +1579,8 @@
     "lemma": "close",
     "id": "eng-ver-0136-close",
     "»trans": [
-      "pol-ver-0153-zamknąć(to close)",
-      "pol-ver-0155-zamykać(to close)"
+      "pol-ver-0153-zamknąć(close)",
+      "pol-ver-0155-zamykać(close)"
     ],
     "register": 0,
     "frequency": 2
@@ -1589,8 +1589,8 @@
     "lemma": "shut",
     "id": "eng-ver-0137-shut",
     "»trans": [
-      "pol-ver-0153-zamknąć(to close)",
-      "pol-ver-0155-zamykać(to close)"
+      "pol-ver-0153-zamknąć(close)",
+      "pol-ver-0155-zamykać(close)"
     ],
     "register": 0,
     "frequency": 2
@@ -1599,8 +1599,8 @@
     "lemma": "lock",
     "id": "eng-ver-0138-lock",
     "»trans": [
-      "pol-ver-0154-zamknąć(to lock)",
-      "pol-ver-0156-zamykać(to lock)"
+      "pol-ver-0154-zamknąć(lock)",
+      "pol-ver-0156-zamykać(lock)"
     ],
     "register": 0,
     "frequency": 2
@@ -1697,7 +1697,7 @@
     "lemma": "mislay",
     "id": "eng-ver-0149-mislay",
     "»trans": [
-      "pol-ver-0169-zgubić(to lose)"
+      "pol-ver-0169-zgubić(lose)"
     ],
     "register": 0,
     "frequency": 2
@@ -1706,7 +1706,7 @@
     "lemma": "misplace",
     "id": "eng-ver-0150-misplace",
     "»trans": [
-      "pol-ver-0169-zgubić(to lose)"
+      "pol-ver-0169-zgubić(lose)"
     ],
     "register": 0,
     "frequency": 2
@@ -1718,7 +1718,7 @@
     ],
     "id": "eng-ver-0151-getlost",
     "»trans": [
-      "pol-ver-0170-zgubić(to get lost)"
+      "pol-ver-0170-zgubić(get lost)"
     ],
     "register": 0,
     "frequency": 4
@@ -1757,9 +1757,9 @@
     "lemma": "teach",
     "id": "eng-ver-0155-teach",
     "»trans": [
-      "pol-ver-0177-nauczyć(to teach)",
-      "pol-ver-0179-nauczać(to teach)",
-      "pol-ver-0196-uczyć(to teach)"
+      "pol-ver-0177-nauczyć(teach)",
+      "pol-ver-0179-nauczać(teach)",
+      "pol-ver-0196-uczyć(teach)"
     ],
     "register": 0,
     "frequency": 2
@@ -1771,9 +1771,9 @@
     ],
     "id": "eng-ver-0156-learn",
     "»trans": [
-      "pol-ver-0178-nauczyć(to learn)",
-      "pol-ver-0180-nauczać(to learn)",
-      "pol-ver-0197-uczyć(to learn)"
+      "pol-ver-0178-nauczyć(learn)",
+      "pol-ver-0180-nauczać(learn)",
+      "pol-ver-0197-uczyć(learn)"
     ],
     "register": 0,
     "frequency": 2
@@ -1785,9 +1785,9 @@
     ],
     "id": "eng-ver-0157-study",
     "»trans": [
-      "pol-ver-0178-nauczyć(to learn)",
-      "pol-ver-0180-nauczać(to learn)",
-      "pol-ver-0197-uczyć(to learn)"
+      "pol-ver-0178-nauczyć(learn)",
+      "pol-ver-0180-nauczać(learn)",
+      "pol-ver-0197-uczyć(learn)"
     ],
     "register": 0,
     "frequency": 2
@@ -1872,8 +1872,8 @@
     "lemma": "benefit",
     "id": "eng-ver-0165-benefit",
     "»trans": [
-      "pol-ver-0191-korzystać(to benefit)",
-      "pol-ver-0194-skorzystać(to benefit)"
+      "pol-ver-0191-korzystać(benefit)",
+      "pol-ver-0194-skorzystać(benefit)"
     ],
     "register": 0,
     "frequency": 4
@@ -1882,8 +1882,8 @@
     "lemma": "profit",
     "id": "eng-ver-0166-profit",
     "»trans": [
-      "pol-ver-0191-korzystać(to benefit)",
-      "pol-ver-0194-skorzystać(to benefit)"
+      "pol-ver-0191-korzystać(benefit)",
+      "pol-ver-0194-skorzystać(benefit)"
     ],
     "register": 0,
     "frequency": 4
@@ -1892,8 +1892,8 @@
     "lemma": "take advantage",
     "id": "eng-ver-0167-takeadvantage",
     "»trans": [
-      "pol-ver-0192-korzystać(to take advantage)",
-      "pol-ver-0195-skorzystać(to take advantage)"
+      "pol-ver-0192-korzystać(take advantage)",
+      "pol-ver-0195-skorzystać(take advantage)"
     ],
     "register": 0,
     "frequency": 4
@@ -1983,8 +1983,8 @@
     "lemma": "reply",
     "id": "eng-ver-0176-reply",
     "»trans": [
-      "pol-ver-0217-odpowiedzieć(to reply)",
-      "pol-ver-0219-odpowiadać(to reply)",
+      "pol-ver-0217-odpowiedzieć(reply)",
+      "pol-ver-0219-odpowiadać(reply)",
       "pol-ver-0612-odrzec",
       "pol-ver-0613-odrzekać"
     ],
@@ -1995,8 +1995,8 @@
     "lemma": "respond",
     "id": "eng-ver-0177-respond",
     "»trans": [
-      "pol-ver-0217-odpowiedzieć(to reply)",
-      "pol-ver-0219-odpowiadać(to reply)",
+      "pol-ver-0217-odpowiedzieć(reply)",
+      "pol-ver-0219-odpowiadać(reply)",
       "pol-ver-0612-odrzec",
       "pol-ver-0613-odrzekać"
     ],
@@ -2007,8 +2007,8 @@
     "lemma": "answer",
     "id": "eng-ver-0178-answer",
     "»trans": [
-      "pol-ver-0217-odpowiedzieć(to reply)",
-      "pol-ver-0219-odpowiadać(to reply)",
+      "pol-ver-0217-odpowiedzieć(reply)",
+      "pol-ver-0219-odpowiadać(reply)",
       "pol-ver-0612-odrzec",
       "pol-ver-0613-odrzekać"
     ],
@@ -2019,8 +2019,8 @@
     "lemma": "answer for",
     "id": "eng-ver-0179-answerfor",
     "»trans": [
-      "pol-ver-0218-odpowiedzieć(to answer for)",
-      "pol-ver-0220-odpowiadać(to answer for)"
+      "pol-ver-0218-odpowiedzieć(answer for)",
+      "pol-ver-0220-odpowiadać(answer for)"
     ],
     "register": 0,
     "frequency": 4
@@ -2029,8 +2029,8 @@
     "lemma": "be accountable for",
     "id": "eng-ver-0180-beaccountablefor",
     "»trans": [
-      "pol-ver-0218-odpowiedzieć(to answer for)",
-      "pol-ver-0220-odpowiadać(to answer for)"
+      "pol-ver-0218-odpowiedzieć(answer for)",
+      "pol-ver-0220-odpowiadać(answer for)"
     ],
     "register": 0,
     "frequency": 4
@@ -2039,8 +2039,8 @@
     "lemma": "be responsible for",
     "id": "eng-ver-0181-beresponsiblefor",
     "»trans": [
-      "pol-ver-0218-odpowiedzieć(to answer for)",
-      "pol-ver-0220-odpowiadać(to answer for)"
+      "pol-ver-0218-odpowiedzieć(answer for)",
+      "pol-ver-0220-odpowiadać(answer for)"
     ],
     "register": 0,
     "frequency": 4
@@ -2142,8 +2142,8 @@
     "lemma": "annoy",
     "id": "eng-ver-0191-annoy",
     "»trans": [
-      "pol-ver-0233-denerwować(to annoy)",
-      "pol-ver-0235-zdenerwować(to annoy)",
+      "pol-ver-0233-denerwować(annoy)",
+      "pol-ver-0235-zdenerwować(annoy)",
       "pol-ver-0388-irytować",
       "pol-ver-0389-zirytować"
     ],
@@ -2154,8 +2154,8 @@
     "lemma": "irritate",
     "id": "eng-ver-0192-irritate",
     "»trans": [
-      "pol-ver-0233-denerwować(to annoy)",
-      "pol-ver-0235-zdenerwować(to annoy)",
+      "pol-ver-0233-denerwować(annoy)",
+      "pol-ver-0235-zdenerwować(annoy)",
       "pol-ver-0388-irytować",
       "pol-ver-0389-zirytować"
     ],
@@ -2169,8 +2169,8 @@
     ],
     "id": "eng-ver-0193-benervous",
     "»trans": [
-      "pol-ver-0234-denerwować(to be nervous)",
-      "pol-ver-0236-zdenerwować(to be nervous)"
+      "pol-ver-0234-denerwować(be nervous)",
+      "pol-ver-0236-zdenerwować(be nervous)"
     ],
     "register": 0,
     "frequency": 3
@@ -2179,8 +2179,8 @@
     "lemma": "be irritated",
     "id": "eng-ver-0194-beirritated",
     "»trans": [
-      "pol-ver-0234-denerwować(to be nervous)",
-      "pol-ver-0236-zdenerwować(to be nervous)"
+      "pol-ver-0234-denerwować(be nervous)",
+      "pol-ver-0236-zdenerwować(be nervous)"
     ],
     "register": 0,
     "frequency": 3
@@ -2189,8 +2189,8 @@
     "lemma": "be annoyed",
     "id": "eng-ver-0195-beannoyed",
     "»trans": [
-      "pol-ver-0234-denerwować(to be nervous)",
-      "pol-ver-0236-zdenerwować(to be nervous)"
+      "pol-ver-0234-denerwować(be nervous)",
+      "pol-ver-0236-zdenerwować(be nervous)"
     ],
     "register": 0,
     "frequency": 3
@@ -2280,8 +2280,8 @@
     ],
     "id": "eng-ver-0203-ripen",
     "»trans": [
-      "pol-ver-0246-dojrzeć(to ripen)",
-      "pol-ver-0248-dojrzewać(to ripen)"
+      "pol-ver-0246-dojrzeć(ripen)",
+      "pol-ver-0248-dojrzewać(ripen)"
     ],
     "register": 0,
     "frequency": 3
@@ -2293,8 +2293,8 @@
     ],
     "id": "eng-ver-0204-mature",
     "»trans": [
-      "pol-ver-0247-dojrzeć(to mature)",
-      "pol-ver-0249-dojrzewać(to mature)"
+      "pol-ver-0247-dojrzeć(mature)",
+      "pol-ver-0249-dojrzewać(mature)"
     ],
     "register": 0,
     "frequency": 3
@@ -2439,8 +2439,8 @@
     "lemma": "grab",
     "id": "eng-ver-0218-grab",
     "»trans": [
-      "pol-ver-0257-chwytać(to grab)",
-      "pol-ver-0259-chwycić(to grab)"
+      "pol-ver-0257-chwytać(grab)",
+      "pol-ver-0259-chwycić(grab)"
     ],
     "register": 0,
     "frequency": 3
@@ -2449,8 +2449,8 @@
     "lemma": "grasp",
     "id": "eng-ver-0219-grasp(physically)",
     "»trans": [
-      "pol-ver-0257-chwytać(to grab)",
-      "pol-ver-0259-chwycić(to grab)"
+      "pol-ver-0257-chwytać(grab)",
+      "pol-ver-0259-chwycić(grab)"
     ],
     "register": 0,
     "frequency": 3
@@ -2469,8 +2469,8 @@
     "lemma": "catch",
     "id": "eng-ver-0221-catch",
     "»trans": [
-      "pol-ver-0258-chwytać(to catch)",
-      "pol-ver-0260-chwycić(to catch)"
+      "pol-ver-0258-chwytać(catch)",
+      "pol-ver-0260-chwycić(catch)"
     ],
     "register": 0,
     "frequency": 4
@@ -2529,8 +2529,8 @@
     "lemma": "research",
     "id": "eng-ver-0227-research",
     "»trans": [
-      "pol-ver-0266-badać(to research)",
-      "pol-ver-0269-zbadać(to research)"
+      "pol-ver-0266-badać(research)",
+      "pol-ver-0269-zbadać(research)"
     ],
     "register": 0,
     "frequency": 3
@@ -2539,8 +2539,8 @@
     "lemma": "study",
     "id": "eng-ver-0228-study",
     "»trans": [
-      "pol-ver-0266-badać(to research)",
-      "pol-ver-0269-zbadać(to research)"
+      "pol-ver-0266-badać(research)",
+      "pol-ver-0269-zbadać(research)"
     ],
     "register": 0,
     "frequency": 3
@@ -2549,8 +2549,8 @@
     "lemma": "investigate",
     "id": "eng-ver-0229-investigate",
     "»trans": [
-      "pol-ver-0266-badać(to research)",
-      "pol-ver-0269-zbadać(to research)"
+      "pol-ver-0266-badać(research)",
+      "pol-ver-0269-zbadać(research)"
     ],
     "register": 0,
     "frequency": 3
@@ -2559,8 +2559,8 @@
     "lemma": "test",
     "id": "eng-ver-0230-test",
     "»trans": [
-      "pol-ver-0267-badać(to test)",
-      "pol-ver-0270-zbadać(to test)"
+      "pol-ver-0267-badać(test)",
+      "pol-ver-0270-zbadać(test)"
     ],
     "register": 0,
     "frequency": 3
@@ -2569,8 +2569,8 @@
     "lemma": "explore",
     "id": "eng-ver-0231-explore",
     "»trans": [
-      "pol-ver-0268-badać(to explore)",
-      "pol-ver-0271-zbadać(to explore)"
+      "pol-ver-0268-badać(explore)",
+      "pol-ver-0271-zbadać(explore)"
     ],
     "register": 0,
     "frequency": 4
@@ -2592,8 +2592,8 @@
     "lemma": "feel",
     "id": "eng-ver-0233-feel",
     "»trans": [
-      "pol-ver-0274-czuć(to feel)",
-      "pol-ver-0277-poczuć(to feel)"
+      "pol-ver-0274-czuć(feel)",
+      "pol-ver-0277-poczuć(feel)"
     ],
     "register": 0,
     "frequency": 3
@@ -2602,8 +2602,8 @@
     "lemma": "smell",
     "id": "eng-ver-0234-smell",
     "»trans": [
-      "pol-ver-0275-czuć(to smell)",
-      "pol-ver-0278-poczuć(to smell)"
+      "pol-ver-0275-czuć(smell)",
+      "pol-ver-0278-poczuć(smell)"
     ],
     "register": 0,
     "frequency": 3
@@ -2615,8 +2615,8 @@
     ],
     "id": "eng-ver-0235-feel",
     "»trans": [
-      "pol-ver-0276-czuć(to feel)",
-      "pol-ver-0279-poczuć(to feel)"
+      "pol-ver-0276-czuć(feel)",
+      "pol-ver-0279-poczuć(feel)"
     ],
     "register": 0,
     "frequency": 3
@@ -2727,8 +2727,8 @@
     "lemma": "praise",
     "id": "eng-ver-0246-praise",
     "»trans": [
-      "pol-ver-0292-chwalić(to praise)",
-      "pol-ver-0294-pochwalić(to praise)"
+      "pol-ver-0292-chwalić(praise)",
+      "pol-ver-0294-pochwalić(praise)"
     ],
     "register": 0,
     "frequency": 5
@@ -2737,8 +2737,8 @@
     "lemma": "boast",
     "id": "eng-ver-0247-boast",
     "»trans": [
-      "pol-ver-0293-chwalić(to boast)",
-      "pol-ver-0295-pochwalić(to boast)"
+      "pol-ver-0293-chwalić(boast)",
+      "pol-ver-0295-pochwalić(boast)"
     ],
     "register": 0,
     "frequency": 5
@@ -2815,8 +2815,8 @@
     "lemma": "protect",
     "id": "eng-ver-0255-protect(military)",
     "»trans": [
-      "pol-ver-0368-bronić(to defend)",
-      "pol-ver-0370-obronić(to defend)"
+      "pol-ver-0368-bronić(defend)",
+      "pol-ver-0370-obronić(defend)"
     ],
     "register": 0,
     "frequency": 4
@@ -2900,8 +2900,8 @@
     "lemma": "attach",
     "id": "eng-ver-0263-attach",
     "»trans": [
-      "pol-ver-0314-dołączyć(to attach)",
-      "pol-ver-0316-dołączać(to attach)"
+      "pol-ver-0314-dołączyć(attach)",
+      "pol-ver-0316-dołączać(attach)"
     ],
     "register": 0,
     "frequency": 4
@@ -2913,8 +2913,8 @@
     ],
     "id": "eng-ver-0264-join",
     "»trans": [
-      "pol-ver-0315-dołączyć(to join)",
-      "pol-ver-0317-dołączać(to join)"
+      "pol-ver-0315-dołączyć(join)",
+      "pol-ver-0317-dołączać(join)"
     ],
     "register": 0,
     "frequency": 4
@@ -2926,8 +2926,8 @@
     ],
     "id": "eng-ver-0265-joinin",
     "»trans": [
-      "pol-ver-0315-dołączyć(to join)",
-      "pol-ver-0317-dołączać(to join)"
+      "pol-ver-0315-dołączyć(join)",
+      "pol-ver-0317-dołączać(join)"
     ],
     "register": 0,
     "frequency": 4
@@ -3364,20 +3364,20 @@
     "lemma": "torment",
     "id": "eng-ver-0307-torment",
     "»trans": [
-      "pol-ver-0353-dręczyć(to torment)",
-      "pol-ver-0457-męczyć(to torment)",
-      "pol-ver-0460-zmęczyć(to torment)"
+      "pol-ver-0353-dręczyć(torment)",
+      "pol-ver-0457-męczyć(torment)",
+      "pol-ver-0460-zmęczyć(torment)"
     ],
     "register": 0,
     "frequency": 5
   },
   {
     "lemma": "bother",
-    "id": "eng-ver-0308-bother(bother)",
+    "id": "eng-ver-0308-bother",
     "»trans": [
-      "pol-ver-0354-dręczyć(to bother)",
-      "pol-ver-0458-męczyć(to nag)",
-      "pol-ver-0461-zmęczyć(to nag)"
+      "pol-ver-0354-dręczyć(bother)",
+      "pol-ver-0458-męczyć(nag)",
+      "pol-ver-0461-zmęczyć(nag)"
     ],
     "register": 0,
     "frequency": 5
@@ -3386,9 +3386,9 @@
     "lemma": "trouble",
     "id": "eng-ver-0310-trouble(bother)",
     "»trans": [
-      "pol-ver-0354-dręczyć(to bother)",
-      "pol-ver-0458-męczyć(to nag)",
-      "pol-ver-0461-zmęczyć(to nag)"
+      "pol-ver-0354-dręczyć(bother)",
+      "pol-ver-0458-męczyć(nag)",
+      "pol-ver-0461-zmęczyć(nag)"
     ],
     "register": 0,
     "frequency": 5
@@ -3397,8 +3397,8 @@
     "lemma": "tire",
     "id": "eng-ver-0311-tire",
     "»trans": [
-      "pol-ver-0459-męczyć(to tire)",
-      "pol-ver-0462-zmęczyć(to tire)"
+      "pol-ver-0459-męczyć(tire)",
+      "pol-ver-0462-zmęczyć(tire)"
     ],
     "register": 0,
     "frequency": 2
@@ -3407,9 +3407,9 @@
     "lemma": "nag",
     "id": "eng-ver-0312-nag(bother)",
     "»trans": [
-      "pol-ver-0354-dręczyć(to bother)",
-      "pol-ver-0458-męczyć(to nag)",
-      "pol-ver-0461-zmęczyć(to nag)"
+      "pol-ver-0354-dręczyć(bother)",
+      "pol-ver-0458-męczyć(nag)",
+      "pol-ver-0461-zmęczyć(nag)"
     ],
     "register": 0,
     "frequency": 5
@@ -3581,8 +3581,8 @@
     "lemma": "defend",
     "id": "eng-ver-0330-defend",
     "»trans": [
-      "pol-ver-0368-bronić(to defend)",
-      "pol-ver-0370-obronić(to defend)"
+      "pol-ver-0368-bronić(defend)",
+      "pol-ver-0370-obronić(defend)"
     ],
     "register": 0,
     "frequency": 4
@@ -3591,9 +3591,9 @@
     "lemma": "guard",
     "id": "eng-ver-0331-guard",
     "»trans": [
-      "pol-ver-0368-bronić(to defend)",
-      "pol-ver-0370-obronić(to defend)",
-      "pol-ver-0734-pilnować(to guard)"
+      "pol-ver-0368-bronić(defend)",
+      "pol-ver-0370-obronić(defend)",
+      "pol-ver-0734-pilnować(guard)"
     ],
     "register": 0,
     "frequency": 4
@@ -3605,8 +3605,8 @@
     ],
     "id": "eng-ver-0332-fightback",
     "»trans": [
-      "pol-ver-0369-bronić(to fight back)",
-      "pol-ver-0371-obronić(to fight back)"
+      "pol-ver-0369-bronić(fight back)",
+      "pol-ver-0371-obronić(fight back)"
     ],
     "register": 0,
     "frequency": 4
@@ -3947,7 +3947,7 @@
     "lemma": "flourish",
     "id": "eng-ver-0365-flourish",
     "»trans": [
-      "pol-ver-0416-kwitnąć(to flourish)"
+      "pol-ver-0416-kwitnąć(flourish)"
     ],
     "register": 0,
     "frequency": 4
@@ -3956,7 +3956,7 @@
     "lemma": "thrive",
     "id": "eng-ver-0366-thrive",
     "»trans": [
-      "pol-ver-0416-kwitnąć(to flourish)"
+      "pol-ver-0416-kwitnąć(flourish)"
     ],
     "register": 0,
     "frequency": 4
@@ -3965,7 +3965,7 @@
     "lemma": "blossom",
     "id": "eng-ver-0367-blossom",
     "»trans": [
-      "pol-ver-0417-kwitnąć(to blossom)"
+      "pol-ver-0417-kwitnąć(blossom)"
     ],
     "register": 0,
     "frequency": 5
@@ -3974,7 +3974,7 @@
     "lemma": "bloom",
     "id": "eng-ver-0368-bloom",
     "»trans": [
-      "pol-ver-0417-kwitnąć(to blossom)"
+      "pol-ver-0417-kwitnąć(blossom)"
     ],
     "register": 0,
     "frequency": 5
@@ -4006,7 +4006,7 @@
     ],
     "id": "eng-ver-0371-brake",
     "»trans": [
-      "pol-ver-0420-hamować(to brake)"
+      "pol-ver-0420-hamować(brake)"
     ],
     "register": 0,
     "frequency": 4
@@ -4015,7 +4015,7 @@
     "lemma": "inhibit",
     "id": "eng-ver-0372-inhibit",
     "»trans": [
-      "pol-ver-0421-hamować(to inhibit)"
+      "pol-ver-0421-hamować(inhibit)"
     ],
     "register": 0,
     "frequency": 4
@@ -4024,7 +4024,7 @@
     "lemma": "suppress",
     "id": "eng-ver-0373-suppress",
     "»trans": [
-      "pol-ver-0421-hamować(to inhibit)"
+      "pol-ver-0421-hamować(inhibit)"
     ],
     "register": 0,
     "frequency": 4
@@ -4341,7 +4341,7 @@
     "lemma": "mix",
     "id": "eng-ver-0403-mix",
     "»trans": [
-      "pol-ver-0451-zamieszać(to mix)"
+      "pol-ver-0451-zamieszać(mix)"
     ],
     "register": 0,
     "frequency": 4
@@ -4350,7 +4350,7 @@
     "lemma": "stir",
     "id": "eng-ver-0404-stir",
     "»trans": [
-      "pol-ver-0452-zamieszać(to stir)"
+      "pol-ver-0452-zamieszać(stir)"
     ],
     "register": 0,
     "frequency": 4
@@ -4826,8 +4826,8 @@
     "lemma": "pass by",
     "id": "eng-ver-0453-passby",
     "»trans": [
-      "pol-ver-0507-mijać(to pass by)",
-      "pol-ver-0509-minąć(to pass by)"
+      "pol-ver-0507-mijać(pass by)",
+      "pol-ver-0509-minąć(pass by)"
     ],
     "register": 0,
     "frequency": 4
@@ -4836,8 +4836,8 @@
     "lemma": "pass",
     "id": "eng-ver-0454-pass(travel)",
     "»trans": [
-      "pol-ver-0507-mijać(to pass by)",
-      "pol-ver-0509-minąć(to pass by)"
+      "pol-ver-0507-mijać(pass by)",
+      "pol-ver-0509-minąć(pass by)"
     ],
     "register": 0,
     "frequency": 4
@@ -5130,8 +5130,8 @@
     ],
     "id": "eng-ver-0484-swimaway",
     "»trans": [
-      "pol-ver-0540-odpłynąć(to swim away)",
-      "pol-ver-0542-odpływać(to swim away)"
+      "pol-ver-0540-odpłynąć(swim away)",
+      "pol-ver-0542-odpływać(swim away)"
     ],
     "register": 0,
     "frequency": 4
@@ -5143,8 +5143,8 @@
     ],
     "id": "eng-ver-0485-swimoff",
     "»trans": [
-      "pol-ver-0540-odpłynąć(to swim away)",
-      "pol-ver-0542-odpływać(to swim away)"
+      "pol-ver-0540-odpłynąć(swim away)",
+      "pol-ver-0542-odpływać(swim away)"
     ],
     "register": 0,
     "frequency": 4
@@ -5156,8 +5156,8 @@
     ],
     "id": "eng-ver-0486-sailaway",
     "»trans": [
-      "pol-ver-0541-odpłynąć(to sail away)",
-      "pol-ver-0543-odpływać(to sail away)"
+      "pol-ver-0541-odpłynąć(sail away)",
+      "pol-ver-0543-odpływać(sail away)"
     ],
     "register": 0,
     "frequency": 4
@@ -5169,8 +5169,8 @@
     ],
     "id": "eng-ver-0487-sailoff",
     "»trans": [
-      "pol-ver-0541-odpłynąć(to sail away)",
-      "pol-ver-0543-odpływać(to sail away)"
+      "pol-ver-0541-odpłynąć(sail away)",
+      "pol-ver-0543-odpływać(sail away)"
     ],
     "register": 0,
     "frequency": 4
@@ -5179,8 +5179,8 @@
     "lemma": "purify",
     "id": "eng-ver-0488-purify",
     "»trans": [
-      "pol-ver-0545-oczyścić(to purify)",
-      "pol-ver-0547-oczyszczać(to purify)"
+      "pol-ver-0545-oczyścić(purify)",
+      "pol-ver-0547-oczyszczać(purify)"
     ],
     "register": 0,
     "frequency": 4
@@ -5862,8 +5862,8 @@
     "lemma": "cheat",
     "id": "eng-ver-0553-cheat(deceive)",
     "»trans": [
-      "pol-ver-0618-oszukiwać(to deceive)",
-      "pol-ver-0620-oszukać(to deceive)"
+      "pol-ver-0618-oszukiwać(deceive)",
+      "pol-ver-0620-oszukać(deceive)"
     ],
     "register": 0,
     "frequency": 4
@@ -5872,8 +5872,8 @@
     "lemma": "cheat",
     "id": "eng-ver-0554-cheat(game)",
     "»trans": [
-      "pol-ver-0619-oszukiwać(to cheat in a game)",
-      "pol-ver-0621-oszukać(to cheat in a game)"
+      "pol-ver-0619-oszukiwać(cheat in a game)",
+      "pol-ver-0621-oszukać(cheat in a game)"
     ],
     "register": 0,
     "frequency": 3
@@ -5882,8 +5882,8 @@
     "lemma": "deceive",
     "id": "eng-ver-0555-deceive",
     "»trans": [
-      "pol-ver-0618-oszukiwać(to deceive)",
-      "pol-ver-0620-oszukać(to deceive)"
+      "pol-ver-0618-oszukiwać(deceive)",
+      "pol-ver-0620-oszukać(deceive)"
     ],
     "register": 0,
     "frequency": 4
@@ -5892,8 +5892,8 @@
     "lemma": "trick",
     "id": "eng-ver-0556-trick",
     "»trans": [
-      "pol-ver-0618-oszukiwać(to deceive)",
-      "pol-ver-0620-oszukać(to deceive)"
+      "pol-ver-0618-oszukiwać(deceive)",
+      "pol-ver-0620-oszukać(deceive)"
     ],
     "register": 0,
     "frequency": 4
@@ -6274,8 +6274,8 @@
     "lemma": "break",
     "id": "eng-ver-0591-break(breaktime)",
     "»trans": [
-      "pol-ver-0855-przerwać(to break)",
-      "pol-ver-0857-przerywać(to break)"
+      "pol-ver-0855-przerwać(break)",
+      "pol-ver-0857-przerywać(break)"
     ],
     "register": 0,
     "frequency": 3
@@ -6384,8 +6384,8 @@
     "lemma": "underline",
     "id": "eng-ver-0601-underline",
     "»trans": [
-      "pol-ver-0685-podkreślać(to underline)",
-      "pol-ver-0687-podkreślić(to underline)"
+      "pol-ver-0685-podkreślać(underline)",
+      "pol-ver-0687-podkreślić(underline)"
     ],
     "register": 0,
     "frequency": 5
@@ -6394,8 +6394,8 @@
     "lemma": "emphasise",
     "id": "eng-ver-0602-emphasise",
     "»trans": [
-      "pol-ver-0686-podkreślać(to emphasise)",
-      "pol-ver-0688-podkreślić(to emphasise)"
+      "pol-ver-0686-podkreślać(emphasise)",
+      "pol-ver-0688-podkreślić(emphasise)"
     ],
     "register": 0,
     "frequency": 4
@@ -6404,8 +6404,8 @@
     "lemma": "stress",
     "id": "eng-ver-0603-stress",
     "»trans": [
-      "pol-ver-0686-podkreślać(to emphasise)",
-      "pol-ver-0688-podkreślić(to emphasise)"
+      "pol-ver-0686-podkreślać(emphasise)",
+      "pol-ver-0688-podkreślić(emphasise)"
     ],
     "register": 0,
     "frequency": 4
@@ -6414,8 +6414,8 @@
     "lemma": "pick up",
     "id": "eng-ver-0604-pickup(object)",
     "»trans": [
-      "pol-ver-0689-podnieść(to pick up)",
-      "pol-ver-0691-podnosić(to pick up)"
+      "pol-ver-0689-podnieść(pick up)",
+      "pol-ver-0691-podnosić(pick up)"
     ],
     "register": 0,
     "frequency": 2
@@ -6434,8 +6434,8 @@
     "lemma": "raise",
     "id": "eng-ver-0606-raise",
     "»trans": [
-      "pol-ver-0690-podnieść(to raise)",
-      "pol-ver-0692-podnosić(to raise)"
+      "pol-ver-0690-podnieść(raise)",
+      "pol-ver-0692-podnosić(raise)"
     ],
     "register": 0,
     "frequency": 2
@@ -6444,8 +6444,8 @@
     "lemma": "lift",
     "id": "eng-ver-0607-lift",
     "»trans": [
-      "pol-ver-0690-podnieść(to raise)",
-      "pol-ver-0692-podnosić(to raise)"
+      "pol-ver-0690-podnieść(raise)",
+      "pol-ver-0692-podnosić(raise)"
     ],
     "register": 0,
     "frequency": 2
@@ -6592,8 +6592,8 @@
     "lemma": "connect",
     "id": "eng-ver-0622-connect",
     "»trans": [
-      "pol-ver-0712-połączyć(to connect)",
-      "pol-ver-0714-łączyć(to connect)"
+      "pol-ver-0712-połączyć(connect)",
+      "pol-ver-0714-łączyć(connect)"
     ],
     "register": 0,
     "frequency": 3
@@ -6602,8 +6602,8 @@
     "lemma": "combine",
     "id": "eng-ver-0623-combine",
     "»trans": [
-      "pol-ver-0713-połączyć(to combine)",
-      "pol-ver-0715-łączyć(to combine)"
+      "pol-ver-0713-połączyć(combine)",
+      "pol-ver-0715-łączyć(combine)"
     ],
     "register": 0,
     "frequency": 4
@@ -6754,7 +6754,7 @@
     "lemma": "keep an eye on",
     "id": "eng-ver-0638-keepaneyeon",
     "»trans": [
-      "pol-ver-0735-pilnować(to watch)"
+      "pol-ver-0735-pilnować(watch)"
     ],
     "register": 0,
     "frequency": 4
@@ -7081,8 +7081,8 @@
     "lemma": "omit",
     "id": "eng-ver-0671-omit",
     "»trans": [
-      "pol-ver-0775-pominąć(to omit)",
-      "pol-ver-0777-pomijać(to omit)"
+      "pol-ver-0775-pominąć(omit)",
+      "pol-ver-0777-pomijać(omit)"
     ],
     "register": 0,
     "frequency": 4
@@ -7091,8 +7091,8 @@
     "lemma": "leave out",
     "id": "eng-ver-0672-leaveout",
     "»trans": [
-      "pol-ver-0775-pominąć(to omit)",
-      "pol-ver-0777-pomijać(to omit)"
+      "pol-ver-0775-pominąć(omit)",
+      "pol-ver-0777-pomijać(omit)"
     ],
     "register": 0,
     "frequency": 4
@@ -7101,8 +7101,8 @@
     "lemma": "skip",
     "id": "eng-ver-0673-skip",
     "»trans": [
-      "pol-ver-0776-pominąć(to skip)",
-      "pol-ver-0778-pomijać(to skip)"
+      "pol-ver-0776-pominąć(skip)",
+      "pol-ver-0778-pomijać(skip)"
     ],
     "register": 0,
     "frequency": 4
@@ -7272,8 +7272,8 @@
     "lemma": "take over",
     "id": "eng-ver-0691-takeover",
     "»trans": [
-      "pol-ver-0799-przejąć(take)(to take over)",
-      "pol-ver-0802-przejmować(take)(to take over)"
+      "pol-ver-0799-przejąć(take)(take over)",
+      "pol-ver-0802-przejmować(take)(take over)"
     ],
     "register": 0,
     "frequency": 4
@@ -7282,8 +7282,8 @@
     "lemma": "seize",
     "id": "eng-ver-0692-seize",
     "»trans": [
-      "pol-ver-0800-przejąć(take)(to seize)",
-      "pol-ver-0803-przejmować(take)(to seize)"
+      "pol-ver-0800-przejąć(take)(seize)",
+      "pol-ver-0803-przejmować(take)(seize)"
     ],
     "register": 0,
     "frequency": 5
@@ -7578,8 +7578,8 @@
     ],
     "id": "eng-ver-0721-exaggerate",
     "»trans": [
-      "pol-ver-0843-przesadzać(to exaggerate)",
-      "pol-ver-0845-przesadzić(to exaggerate)"
+      "pol-ver-0843-przesadzać(exaggerate)",
+      "pol-ver-0845-przesadzić(exaggerate)"
     ],
     "register": 0,
     "frequency": 4
@@ -7588,8 +7588,8 @@
     "lemma": "overdo",
     "id": "eng-ver-0722-overdo",
     "»trans": [
-      "pol-ver-0844-przesadzać(to overdo)",
-      "pol-ver-0846-przesadzić(to overdo)"
+      "pol-ver-0844-przesadzać(overdo)",
+      "pol-ver-0846-przesadzić(overdo)"
     ],
     "register": 0,
     "frequency": 5
@@ -7648,8 +7648,8 @@
     "lemma": "stop",
     "id": "eng-ver-0728-stop",
     "»trans": [
-      "pol-ver-0855-przerwać(to break)",
-      "pol-ver-0857-przerywać(to break)",
+      "pol-ver-0855-przerwać(break)",
+      "pol-ver-0857-przerywać(break)",
       "pol-ver-0859-przestawać",
       "pol-ver-0860-przestać"
     ],
@@ -7660,8 +7660,8 @@
     "lemma": "interrupt",
     "id": "eng-ver-0729-interrupt",
     "»trans": [
-      "pol-ver-0856-przerwać(to interrupt)",
-      "pol-ver-0858-przerywać(to interrupt)"
+      "pol-ver-0856-przerwać(interrupt)",
+      "pol-ver-0858-przerywać(interrupt)"
     ],
     "register": 0,
     "frequency": 3
