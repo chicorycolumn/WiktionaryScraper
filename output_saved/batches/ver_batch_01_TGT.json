@@ -3682,8 +3682,8 @@
     "frequency": 5
   },
   {
-    "lemma": "make someone feel something",
-    "id": "eng-ver-0340-make someone feel something(þ)",
+    "lemma": "make",
+    "id": "eng-ver-0340-make(causative)",
     "»trans": [
       "pol-ver-0378-uczynić",
       "pol-ver-0907-czynić"
@@ -3720,7 +3720,7 @@
   },
   {
     "lemma": "run",
-    "id": "eng-ver-0344-run(þ)",
+    "id": "eng-ver-0344-run(lead)",
     "»trans": [
       "pol-ver-0380-kierować",
       "pol-ver-0832-prowadzić(lead)",
@@ -4447,39 +4447,21 @@
     "frequency": 4
   },
   {
-    "lemma": "apply (e.g. sunscreen)",
-    "id": "eng-ver-0414-apply (e.g. sunscreen)(þ)",
+    "lemma": "apply",
+    "id": "eng-ver-0414-apply(sunscreen)",
     "»trans": [
-      "pol-ver-0466-nakładać(*to apply (e.g. sunscreen))",
-      "pol-ver-0468-nałożyć(*to apply (e.g. sunscreen))"
+      "pol-ver-0466-nakładać(sunscreen)",
+      "pol-ver-0468-nałożyć(sunscreen)"
     ],
     "register": 0,
     "frequency": 5
   },
   {
-    "lemma": "apply (e.g. sunscreen)",
-    "id": "eng-ver-0415-apply (e.g. sunscreen)(þ)",
+    "lemma": "impose",
+    "id": "eng-ver-0416-impose(sanctions)",
     "»trans": [
-      "pol-ver-0468-nałożyć(*to apply (e.g. sunscreen))"
-    ],
-    "register": 0,
-    "frequency": 5
-  },
-  {
-    "lemma": "impose (e.g. sanctions)",
-    "id": "eng-ver-0416-impose (e.g. sanctions)(þ)",
-    "»trans": [
-      "pol-ver-0467-nakładać(*to impose (e.g. sanctions))",
-      "pol-ver-0469-nałożyć(*to impose (e.g. sanctions))"
-    ],
-    "register": 0,
-    "frequency": 5
-  },
-  {
-    "lemma": "impose (e.g. sanctions)",
-    "id": "eng-ver-0417-impose (e.g. sanctions)(þ)",
-    "»trans": [
-      "pol-ver-0469-nałożyć(*to impose (e.g. sanctions))"
+      "pol-ver-0467-nakładać(sanctions)",
+      "pol-ver-0469-nałożyć(sanctions)"
     ],
     "register": 0,
     "frequency": 5
@@ -4643,7 +4625,7 @@
   },
   {
     "lemma": "record",
-    "id": "eng-ver-0433-record(þ)",
+    "id": "eng-ver-0433-record",
     "»trans": [
       "pol-ver-0484-nagrywać",
       "pol-ver-0485-nagrać"
@@ -4757,19 +4739,10 @@
     "frequency": 3
   },
   {
-    "lemma": "push (a button)",
-    "id": "eng-ver-0444-push (a button)(þ)",
+    "lemma": "push",
+    "id": "eng-ver-0444-push(button)",
     "»trans": [
       "pol-ver-0496-nacisnąć",
-      "pol-ver-0497-naciskać"
-    ],
-    "register": 0,
-    "frequency": 3
-  },
-  {
-    "lemma": "push (a button)",
-    "id": "eng-ver-0445-push (a button)(þ)",
-    "»trans": [
       "pol-ver-0497-naciskać"
     ],
     "register": 0,
@@ -4903,8 +4876,8 @@
     "frequency": 4
   },
   {
-    "lemma": "shoot (film)",
-    "id": "eng-ver-0458-shoot (film)(þ)",
+    "lemma": "shoot",
+    "id": "eng-ver-0458-shoot(film)",
     "»trans": [
       "pol-ver-0511-nakręcić(shoot)",
       "pol-ver-0513-nakręcać(shoot)"
@@ -4913,29 +4886,11 @@
     "frequency": 4
   },
   {
-    "lemma": "shoot (film)",
-    "id": "eng-ver-0459-shoot (film)(þ)",
+    "lemma": "turn on",
+    "id": "eng-ver-0460-turnon(sexually)",
     "»trans": [
-      "pol-ver-0513-nakręcać(shoot)"
-    ],
-    "register": 0,
-    "frequency": 4
-  },
-  {
-    "lemma": "turn on (sexually)",
-    "id": "eng-ver-0460-turn on (sexually)(þ)",
-    "»trans": [
-      "pol-ver-0512-nakręcić(turn someone on)",
-      "pol-ver-0514-nakręcać(turn)"
-    ],
-    "register": 0,
-    "frequency": 4
-  },
-  {
-    "lemma": "turn on (sexually)",
-    "id": "eng-ver-0461-turn on (sexually)(þ)",
-    "»trans": [
-      "pol-ver-0514-nakręcać(turn)"
+      "pol-ver-0512-nakręcić(sexually)",
+      "pol-ver-0514-nakręcać(sexually)"
     ],
     "register": 0,
     "frequency": 4
@@ -5282,7 +5237,7 @@
   },
   {
     "lemma": "deny",
-    "id": "eng-ver-0494-deny(þ)",
+    "id": "eng-ver-0494-deny(someone)",
     "»trans": [
       "pol-ver-0552-odmawiać",
       "pol-ver-0553-odmówić"
@@ -5338,7 +5293,7 @@
   },
   {
     "lemma": "put on",
-    "id": "eng-ver-0499-put on(þ)",
+    "id": "eng-ver-0499-puton(event)",
     "»trans": [
       "pol-ver-0555-odbyć(hold)",
       "pol-ver-0557-odbywać(hold)"
@@ -5447,16 +5402,17 @@
     "id": "eng-ver-0508-giveback",
     "»trans": [
       "pol-ver-0566-oddać(give back)",
-      "pol-ver-0568-oddawać(give)"
+      "pol-ver-0568-oddawać(give back)"
     ],
     "register": 0,
     "frequency": 3
   },
   {
     "lemma": "return",
-    "id": "eng-ver-0509-return(þ)",
+    "id": "eng-ver-0509-return(give back)",
     "»trans": [
-      "pol-ver-0566-oddać(give back)"
+      "pol-ver-0566-oddać(give back)",
+      "pol-ver-0568-oddawać(give back)"
     ],
     "register": 0,
     "frequency": 3
@@ -7152,19 +7108,10 @@
     "frequency": 4
   },
   {
-    "lemma": "change (clothes)",
-    "id": "eng-ver-0674-change (clothes)(þ)",
+    "lemma": "change",
+    "id": "eng-ver-0674-change(clothes)",
     "»trans": [
       "pol-ver-0779-przebrać",
-      "pol-ver-0780-przebierać"
-    ],
-    "register": 0,
-    "frequency": 3
-  },
-  {
-    "lemma": "change (clothes)",
-    "id": "eng-ver-0675-change (clothes)(þ)",
-    "»trans": [
       "pol-ver-0780-przebierać"
     ],
     "register": 0,
@@ -7730,8 +7677,8 @@
     "frequency": 4
   },
   {
-    "lemma": "look through (eg through documents not through a window)",
-    "id": "eng-ver-0731-lookthrough(egthroughdocumentsnotthroughawindow)",
+    "lemma": "look through",
+    "id": "eng-ver-0731-lookthrough(documents)",
     "»trans": [
       "pol-ver-0863-przeglądać",
       "pol-ver-0864-przejrzeć"
@@ -7991,20 +7938,20 @@
   },
   {
     "lemma": "lend",
-    "id": "eng-ver-0757-lend(þ)",
+    "id": "eng-ver-0757-lend",
     "»trans": [
-      "pol-ver-0901-pożyczyć(*to lend)",
-      "pol-ver-0903-pożyczać(*to lend)"
+      "pol-ver-0901-pożyczyć(lend)",
+      "pol-ver-0903-pożyczać(lend)"
     ],
     "register": 0,
     "frequency": 2
   },
   {
     "lemma": "borrow",
-    "id": "eng-ver-0758-borrow(þ)",
+    "id": "eng-ver-0758-borrow",
     "»trans": [
-      "pol-ver-0902-pożyczyć(*to borrow)",
-      "pol-ver-0904-pożyczać(*to borrow)"
+      "pol-ver-0902-pożyczyć(borrow)",
+      "pol-ver-0904-pożyczać(borrow)"
     ],
     "register": 0,
     "frequency": 2
@@ -8028,8 +7975,8 @@
     "frequency": 4
   },
   {
-    "lemma": "eat habitually",
-    "id": "eng-ver-0761-eathabitually",
+    "lemma": "eat",
+    "id": "eng-ver-0761-eat(habitually)",
     "»trans": [
       "pol-ver-0041-jadać"
     ],
@@ -8037,11 +7984,11 @@
     "frequency": 1
   },
   {
-    "lemma": "be habitually",
+    "lemma": "be",
     "transitivity": [
       "i"
     ],
-    "id": "eng-ver-0762-behabitually",
+    "id": "eng-ver-0762-be(habitually)",
     "»trans": [
       "pol-ver-0044-bywać"
     ],
@@ -8049,8 +7996,8 @@
     "frequency": 1
   },
   {
-    "lemma": "have habitually",
-    "id": "eng-ver-0763-havehabitually",
+    "lemma": "have",
+    "id": "eng-ver-0763-have(habitually)",
     "»trans": [
       "pol-ver-0059-miewać"
     ],
@@ -8058,11 +8005,11 @@
     "frequency": 1
   },
   {
-    "lemma": "say habitually",
+    "lemma": "say",
     "transitivity": [
       "i"
     ],
-    "id": "eng-ver-0764-sayhabitually",
+    "id": "eng-ver-0764-say(habitually)",
     "»trans": [
       "pol-ver-0106-mawiać"
     ],
