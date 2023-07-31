@@ -111316,5 +111316,223 @@
         }
       }
     }
+  },
+  {
+    "lemma": "anulować",
+    "id": "pol-ver-0915-anulować(pf)",
+    "tags": [
+      "helper",
+      "concrete"
+    ],
+    "topics": [
+      "law",
+      "planning"
+    ],
+    "aspect": "perfective",
+    "inflections": {
+      "infinitive": "anulować",
+      "verbalNoun": "anulowanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "anulowany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "anulowawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "anuluje się"
+            },
+            "plural": {
+              "allPluralGenders": "anuluje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "anuluję"
+            },
+            "plural": {
+              "allPluralGenders": "anulujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "anulujesz"
+            },
+            "plural": {
+              "allPluralGenders": "anulujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "anuluje"
+            },
+            "plural": {
+              "allPluralGenders": "anulują"
+            }
+          }
+        },
+        "imperative": "anuluj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "anulowano"
+            },
+            "plural": {
+              "allPluralGenders": "anulowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "anulowałem",
+              "f": "anulowałam"
+            },
+            "plural": {
+              "virile": "anulowaliśmy",
+              "nonvirile": "anulowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "anulowałeś",
+              "f": "anulowałaś"
+            },
+            "plural": {
+              "virile": "anulowaliście",
+              "nonvirile": "anulowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "anulował",
+              "f": "anulowała",
+              "n": "anulowało"
+            },
+            "plural": {
+              "virile": "anulowali",
+              "nonvirile": "anulowały"
+            }
+          }
+        },
+        "present": false
+      }
+    },
+    "secondaryAspects": [],
+    "translations": {
+      "ENG": [
+        "to cancel"
+      ]
+    },
+    "frequency": 4,
+    "register": 0
+  },
+  {
+    "lemma": "anulować",
+    "id": "pol-ver-0916-anulować(im)",
+    "tags": [
+      "helper",
+      "concrete"
+    ],
+    "topics": [
+      "law",
+      "planning"
+    ],
+    "aspect": "imperfective",
+    "inflections": {
+      "infinitive": "anulować",
+      "verbalNoun": "anulowanie",
+      "activeAdjectival": "anulujący",
+      "passiveAdjectival": "anulowany",
+      "contemporaryAdverbial": "anulując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "anuluj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "anulowano"
+            },
+            "plural": {
+              "allPluralGenders": "anulowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "anulowałem",
+              "f": "anulowałam"
+            },
+            "plural": {
+              "virile": "anulowaliśmy",
+              "nonvirile": "anulowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "anulowałeś",
+              "f": "anulowałaś"
+            },
+            "plural": {
+              "virile": "anulowaliście",
+              "nonvirile": "anulowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "anulował",
+              "f": "anulowała",
+              "n": "anulowało"
+            },
+            "plural": {
+              "virile": "anulowali",
+              "nonvirile": "anulowały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "anuluje się"
+            },
+            "plural": {
+              "allPluralGenders": "anuluje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "anuluję"
+            },
+            "plural": {
+              "allPluralGenders": "anulujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "anulujesz"
+            },
+            "plural": {
+              "allPluralGenders": "anulujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "anuluje"
+            },
+            "plural": {
+              "allPluralGenders": "anulują"
+            }
+          }
+        }
+      }
+    },
+    "secondaryAspects": [],
+    "translations": {
+      "ENG": [
+        "to cancel"
+      ]
+    },
+    "frequency": 4,
+    "register": 0
   }
 ]
