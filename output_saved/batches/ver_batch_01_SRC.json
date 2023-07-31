@@ -48455,6 +48455,130 @@
     "register": 0
   },
   {
+    "lemma": "zgodzić",
+    "id": "pol-ver-0912-zgodzić",
+    "tags": [
+      "abstract",
+      "thought"
+    ],
+    "topics": [
+      "law",
+      "mental",
+      "philosophy and ethics"
+    ],
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "Nie zgodzę się z Tobą ― I won't agree with you!"
+      ],
+      "otherShapes": {
+        "imperfective": [
+          "zgadzać"
+        ]
+      },
+      "derivedTerms": [
+        "noun zgoda"
+      ]
+    },
+    "translations": {
+      "ENG": [
+        "to bring together",
+        "to join[t,dated]",
+        "to Synonym: przyświadczyć[r,with,się]  to agree",
+        "to concede (to admit to be true)"
+      ]
+    },
+    "inflections": {
+      "infinitive": "zgodzić",
+      "verbalNoun": "zgodzenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zgodzony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zgodziwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zgodzi się"
+            },
+            "plural": {
+              "allPluralGenders": "zgodzi się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zgodzę"
+            },
+            "plural": {
+              "allPluralGenders": "zgodzimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zgodzisz"
+            },
+            "plural": {
+              "allPluralGenders": "zgodzicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zgodzi"
+            },
+            "plural": {
+              "allPluralGenders": "zgodzą"
+            }
+          }
+        },
+        "imperative": "zrób",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zgodzono"
+            },
+            "plural": {
+              "allPluralGenders": "zgodzono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zgodziłem",
+              "f": "zgodziłam"
+            },
+            "plural": {
+              "virile": "zgodziliśmy",
+              "nonvirile": "zgodziłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zgodziłeś",
+              "f": "zgodziłaś"
+            },
+            "plural": {
+              "virile": "zgodziliście",
+              "nonvirile": "zgodziłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zgodził",
+              "f": "zgodziła",
+              "n": "zgodziło"
+            },
+            "plural": {
+              "virile": "zgodzili",
+              "nonvirile": "zgodziły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
     "lemma": "godzić",
     "id": "pol-ver-0392-godzić",
     "tags": [
@@ -110948,6 +111072,245 @@
             },
             "plural": {
               "allPluralGenders": "uważają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "zrozumieć",
+    "id": "pol-ver-0913-zrozumieć",
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "rozumieć"
+        ]
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to understand ; to comprehend",
+        "to understand each other[r,with,się]"
+      ]
+    },
+    "inflections": {
+      "infinitive": "zrozumieć",
+      "verbalNoun": "zrozumienie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zrozumiany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zrozumiawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zrozumie się"
+            },
+            "plural": {
+              "allPluralGenders": "zrozumie się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zrozumiem"
+            },
+            "plural": {
+              "allPluralGenders": "zrozumiemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zrozumiesz"
+            },
+            "plural": {
+              "allPluralGenders": "zrozumiecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zrozumie"
+            },
+            "plural": {
+              "allPluralGenders": "zrozumieją"
+            }
+          }
+        },
+        "imperative": "zrozum",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zrozumiano"
+            },
+            "plural": {
+              "allPluralGenders": "zrozumiano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zrozumiałem",
+              "f": "zrozumiałam"
+            },
+            "plural": {
+              "virile": "zrozumieliśmy",
+              "nonvirile": "zrozumiałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zrozumiałeś",
+              "f": "zrozumiałaś"
+            },
+            "plural": {
+              "virile": "zrozumieliście",
+              "nonvirile": "zrozumiałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zrozumiał",
+              "f": "zrozumiała",
+              "n": "zrozumiało"
+            },
+            "plural": {
+              "virile": "zrozumieli",
+              "nonvirile": "zrozumiały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "rozumieć",
+    "id": "pol-ver-0914-rozumieć",
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "zrozumieć"
+        ]
+      },
+      "derivedTerms": [
+        "adjectives bezrozumny",
+        "rozumny",
+        "zrozumiały",
+        "adverb bezrozumnie",
+        "noun bezrozum",
+        "bezrozumność",
+        "rozum",
+        "verbs rozumować",
+        "zrozumieć"
+      ]
+    },
+    "translations": {
+      "ENG": [
+        "to understand Synonyms: jarzyć kapować kumać pojmować",
+        "to understand each other[r,with,się]",
+        "to = around something][r,with,się,colloquial]  to know one's way around something",
+        "to know something very well [+ na (locative)"
+      ]
+    },
+    "inflections": {
+      "infinitive": "rozumieć",
+      "verbalNoun": "rozumienie",
+      "activeAdjectival": "rozumiejący",
+      "passiveAdjectival": "rozumiany",
+      "contemporaryAdverbial": "rozumiejąc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "rozumiej",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "rozumiano"
+            },
+            "plural": {
+              "allPluralGenders": "rozumiano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "rozumiałem",
+              "f": "rozumiałam"
+            },
+            "plural": {
+              "virile": "rozumieliśmy",
+              "nonvirile": "rozumiałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "rozumiałeś",
+              "f": "rozumiałaś"
+            },
+            "plural": {
+              "virile": "rozumieliście",
+              "nonvirile": "rozumiałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "rozumiał",
+              "f": "rozumiała",
+              "n": "rozumiało"
+            },
+            "plural": {
+              "virile": "rozumieli",
+              "nonvirile": "rozumiały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "rozumie się"
+            },
+            "plural": {
+              "allPluralGenders": "rozumie się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "rozumiem"
+            },
+            "plural": {
+              "allPluralGenders": "rozumiemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "rozumiesz"
+            },
+            "plural": {
+              "allPluralGenders": "rozumiecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "rozumie"
+            },
+            "plural": {
+              "allPluralGenders": "rozumieją"
             }
           }
         }
