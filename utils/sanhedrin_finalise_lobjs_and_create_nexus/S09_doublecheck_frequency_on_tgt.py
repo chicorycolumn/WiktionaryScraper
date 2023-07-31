@@ -55,21 +55,7 @@ if __name__ == '__main__':
 
     print("")
     for num in [1,2,3,4,5]:
-        print("")
-        print("")
-        c.print_red("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        c.print_yellow("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        c.print_green("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        c.print_cyan("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        c.print_blue("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        c.print_purple("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        print("                     ", len(sorted_lobjs["F" + str(num)]), f"lobjs with frequency category {str(num)}.")
-        c.print_purple("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        c.print_blue("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        c.print_cyan("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        c.print_green("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        c.print_yellow("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        c.print_red("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        c.print_inside_rainbow(f'                     {len(sorted_lobjs["F" + str(num)])} lobjs with frequency category {str(num)}.')
 
         temp_arr = []
 
@@ -103,13 +89,7 @@ if __name__ == '__main__':
 
         save(to_change_lobjs, True)
 
-    c.print_blue("************************************************")
-    c.print_blue("************************************************")
-    c.print_blue("************************************************")
-    c.print_blue("*********     NOW APPLYING CHANGES     *********")
-    c.print_blue("************************************************")
-    c.print_blue("************************************************")
-    c.print_blue("************************************************")
+    c.print_inside_rainbow("* * * * * * * * *             NOW APPLYING CHANGES            * * * * * * * * *")
 
     for num in [1,2,3,4,5]:
         ids_of_lobjs_to_change = to_change_lobjs[f"F{str(num)}"]

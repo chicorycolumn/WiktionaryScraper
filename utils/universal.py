@@ -98,6 +98,22 @@ class color:
     def print_bold(s):
         print(color.bold(s))
 
+    def print_inside_rainbow(input):
+        print("")
+        print("")
+        color.print_red("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        color.print_yellow("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        color.print_green("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        color.print_cyan("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        color.print_blue("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        color.print_purple("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        print(input)
+        color.print_purple("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        color.print_blue("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        color.print_cyan("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        color.print_green("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        color.print_yellow("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        color.print_red("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
 
 def get_curried_save(output_path: str, tempsave_path: str):
     def curried_save(data: any, temp: bool = False):
