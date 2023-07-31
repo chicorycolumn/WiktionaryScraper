@@ -1002,7 +1002,10 @@
       "pol-ver-0108-zorganizować"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "additionalSpellings": [
+      "organize"
+    ]
   },
   {
     "lemma": "organise",
@@ -1012,7 +1015,10 @@
       "pol-ver-0557-odbywać(hold)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "additionalSpellings": [
+      "organize"
+    ]
   },
   {
     "lemma": "switch on",
@@ -1666,6 +1672,16 @@
   {
     "lemma": "wake",
     "id": "eng-ver-0146-wake",
+    "»trans": [
+      "pol-ver-0165-obudzić",
+      "pol-ver-0166-budzić"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "wake up",
+    "id": "eng-ver-0147-wakeup",
     "»trans": [
       "pol-ver-0165-obudzić",
       "pol-ver-0166-budzić"
@@ -3491,14 +3507,17 @@
       "pol-ver-0361-przeanalizować"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "additionalSpellings": [
+      "analyze"
+    ]
   },
   {
     "lemma": "work",
     "transitivity": [
       "i"
     ],
-    "id": "eng-ver-0322-work",
+    "id": "eng-ver-0322-work(device)",
     "»trans": [
       "pol-ver-0362-działać",
       "pol-ver-0363-zadziałać"
@@ -4097,10 +4116,15 @@
     "lemma": "jeopardise",
     "id": "eng-ver-0380-jeopardise",
     "»trans": [
-      "pol-ver-0429-zagrozić(endanger)"
+      "pol-ver-0429-zagrozić(endanger)",
+      "pol-ver-0464-narażać",
+      "pol-ver-0465-narazić"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "additionalSpellings": [
+      "jeopardize"
+    ]
   },
   {
     "lemma": "spin",
@@ -4405,16 +4429,6 @@
     ],
     "register": 0,
     "frequency": 3
-  },
-  {
-    "lemma": "jeopardize",
-    "id": "eng-ver-0410-jeopardize",
-    "»trans": [
-      "pol-ver-0464-narażać",
-      "pol-ver-0465-narazić"
-    ],
-    "register": 0,
-    "frequency": 4
   },
   {
     "lemma": "put at risk",
@@ -6398,7 +6412,10 @@
       "pol-ver-0688-podkreślić(emphasise)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "additionalSpellings": [
+      "emphasize"
+    ]
   },
   {
     "lemma": "stress",
@@ -7055,7 +7072,10 @@
       "pol-ver-0768-poznać(recognise)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "additionalSpellings": [
+      "recognize"
+    ]
   },
   {
     "lemma": "shake",
@@ -7401,7 +7421,7 @@
   },
   {
     "lemma": "work",
-    "id": "eng-ver-0703-work",
+    "id": "eng-ver-0703-work(person)",
     "»trans": [
       "pol-ver-0817-pracować"
     ],
@@ -7522,7 +7542,10 @@
       "pol-ver-0840-przepraszać"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "additionalSpellings": [
+      "apologize"
+    ]
   },
   {
     "lemma": "be sorry",
