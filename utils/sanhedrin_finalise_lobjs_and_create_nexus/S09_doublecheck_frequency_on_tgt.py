@@ -63,7 +63,7 @@ if __name__ == '__main__':
         c.print_cyan("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
         c.print_blue("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
         c.print_purple("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        print("                     ", len(sorted_lobjs["F" + str(num)]), f"lobjs with frequency category {str(num)}.")
+        print("                     ", len(sorted_lobjs["F" + str(num)]), f"lobjs with frequency category {str(num)}")
         c.print_purple("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
         c.print_blue("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
         c.print_cyan("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
