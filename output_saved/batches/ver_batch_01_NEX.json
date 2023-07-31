@@ -1350,7 +1350,9 @@
         "eng-ver-0099-searchfor"
       ],
       "POL": [
-        "pol-ver-0121-szukać"
+        "pol-ver-0121-szukać",
+        "pol-ver-0793-poszukiwać",
+        "pol-ver-0794-poszukać"
       ]
     },
     "papers": [
@@ -8554,26 +8556,23 @@
     ]
   },
   {
-    "key": "ver-0410-lookfor",
+    "key": "ver-0410-speakalanguage(language)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0687-lookfor",
-        "eng-ver-0688-searchfor"
+        "eng-ver-0070-speakalanguage(language)"
       ],
       "POL": [
-        "pol-ver-0793-poszukiwać",
-        "pol-ver-0794-poszukać"
+        "pol-ver-0908-mówić(speak a language)"
       ]
     },
     "papers": [
-      "movement",
-      "perception",
-      "abstract"
+      "speech",
+      "concrete"
     ],
     "topics": [
       "body",
-      "sense and perception"
+      "language"
     ]
   },
   {
@@ -9528,26 +9527,6 @@
       "restaurant",
       "kitchen",
       "time"
-    ]
-  },
-  {
-    "key": "ver-0456-speakalanguage(language)",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-ver-0070-speakalanguage(language)"
-      ],
-      "POL": [
-        "pol-ver-0908-mówić(speak a language)"
-      ]
-    },
-    "papers": [
-      "speech",
-      "concrete"
-    ],
-    "topics": [
-      "body",
-      "language"
     ]
   }
 ]
