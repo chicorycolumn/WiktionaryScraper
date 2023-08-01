@@ -19,14 +19,14 @@ if __name__ == '__main__':
     wordtype = "v"
     these_headwords_only = [
         "potracić",
-        "spowodować",
+
         "pociąć",
-        "zadbać",
-        "zaopiekować",
-        "zablokować",
+
+
+
         "wylądować",
-        "zagwarantować",
-        "zahamować",
+
+
         "zmieścić",
         "namalować",
         "pomalować",
@@ -34,8 +34,8 @@ if __name__ == '__main__':
         "spalić",
         "zapamiętać",
         "powodzić",
-        "półknąć",
-        "połykać"
+
+
     ]
     skip_make_ids = False  # only set True when manually testing.
     skip_scraping = False  # only set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
