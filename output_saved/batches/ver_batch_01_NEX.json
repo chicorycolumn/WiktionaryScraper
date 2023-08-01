@@ -466,7 +466,8 @@
         "eng-ver-0028-happen"
       ],
       "POL": [
-        "pol-ver-0037-dziać"
+        "pol-ver-0037-dziać",
+        "pol-ver-0004-stać(happen)"
       ]
     },
     "papers": [
@@ -1835,7 +1836,9 @@
         "eng-ver-0144-wear"
       ],
       "POL": [
-        "pol-ver-0162-nosić(wear)"
+        "pol-ver-0162-nosić(wear)",
+        "pol-ver-0919-miećnasobie",
+        "pol-ver-0920-założyć(wear)"
       ]
     },
     "papers": [
@@ -7364,7 +7367,8 @@
         "eng-ver-0595-flow"
       ],
       "POL": [
-        "pol-ver-0678-popłynąć(flow)"
+        "pol-ver-0678-popłynąć(flow)",
+        "pol-ver-0676-płynąć(flow)"
       ]
     },
     "papers": [
@@ -9606,6 +9610,51 @@
       "restaurant",
       "kitchen",
       "time"
+    ]
+  },
+  {
+    "key": "ver-0456-suppose",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0766-assume",
+        "eng-ver-0767-presume",
+        "eng-ver-0768-suppose"
+      ],
+      "POL": [
+        "pol-ver-0921-założyć(assume)",
+        "pol-ver-0922-zakładać(assume)",
+        "pol-ver-0923-przypuszczać",
+        "pol-ver-0924-przypuścić"
+      ]
+    },
+    "papers": [
+      "thought",
+      "abstract"
+    ],
+    "topics": [
+      "mental"
+    ]
+  },
+  {
+    "key": "ver-0457-bet",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0769-bet"
+      ],
+      "POL": [
+        "pol-ver-0921-założyć(bet)",
+        "pol-ver-0922-zakładać(bet)"
+      ]
+    },
+    "papers": [
+      "thought",
+      "abstract"
+    ],
+    "topics": [
+      "mental",
+      "game"
     ]
   }
 ]

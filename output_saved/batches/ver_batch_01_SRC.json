@@ -1344,6 +1344,110 @@
     "frequency": 4,
     "register": 0
   },
+   {
+    "lemma": "stać",
+    "id": "pol-ver-0004-stać(happen)",
+    "tags": [
+    ],
+    "topics": [],
+    "aspect": "perfective",
+    "inflections": {
+      "infinitive": "stać",
+      "verbalNoun": "stanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "stawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "stanie się"
+            },
+            "plural": {
+              "allPluralGenders": "stanie się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "stanę"
+            },
+            "plural": {
+              "allPluralGenders": "staniemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "staniesz"
+            },
+            "plural": {
+              "allPluralGenders": "staniecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "stanie"
+            },
+            "plural": {
+              "allPluralGenders": "staną"
+            }
+          }
+        },
+        "imperative": "stań",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "stano"
+            },
+            "plural": {
+              "allPluralGenders": "stano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "stałem",
+              "f": "stałam"
+            },
+            "plural": {
+              "virile": "staliśmy",
+              "nonvirile": "stałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "stałeś",
+              "f": "stałaś"
+            },
+            "plural": {
+              "virile": "staliście",
+              "nonvirile": "stałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "stał",
+              "f": "stała",
+              "n": "stało"
+            },
+            "plural": {
+              "virile": "stali",
+              "nonvirile": "stały"
+            }
+          }
+        },
+        "present": false
+      }
+    },
+    "secondaryAspects": [],
+    "translations": {
+      "ENG": [
+        "to happen[r]"
+      ]
+    },
+    "frequency": 4,
+    "register": 0
+  },
   {
     "lemma": "wstać",
     "id": "pol-ver-0005-wstać",
@@ -84496,6 +84600,146 @@
     "register": 0
   },
   {
+    "lemma": "płynąć",
+    "id": "pol-ver-0676-płynąć(flow)",
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "physics",
+      "science"
+    ],
+    "translations": {
+      "ENG": [
+        "to float[i]"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [
+      "determinate"
+    ],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "popłynąć"
+        ],
+        "indeterminate": [
+          "pływać"
+        ]
+      },
+      "derivedTerms": [
+        "verbs dopłynąć pf dopływać impf",
+        "nadpłynąć pf nadpływać impf",
+        "napłynąć pf napływać impf",
+        "odpłynąć pf odpływać impf",
+        "opłynąć pf opływać impf",
+        "podpłynąć pf podpływać impf",
+        "popłynąć pf popływać impf",
+        "przepłynąć pf przepływać impf",
+        "przypłynąć pf przypływać impf",
+        "rozpłynąć pf rozpływać impf",
+        "spłynąć pf spływać impf",
+        "upłynąć pf upływać impf",
+        "wpłynąć pf wpływać impf",
+        "wypłynąć pf wypływać impf",
+        "zapłynąć pf zapływać impf",
+        "adjective płytki",
+        "noun płetwa",
+        "verb pławić"
+      ]
+    },
+    "inflections": {
+      "infinitive": "płynąć",
+      "verbalNoun": "płynięcie",
+      "activeAdjectival": "płynący",
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": "płynąc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "płyń",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "płynięto"
+            },
+            "plural": {
+              "allPluralGenders": "płynięto"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "płynąłem",
+              "f": "płynęłam"
+            },
+            "plural": {
+              "virile": "płynęliśmy",
+              "nonvirile": "płynęłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "płynąłeś",
+              "f": "płynęłaś"
+            },
+            "plural": {
+              "virile": "płynęliście",
+              "nonvirile": "płynęłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "płynął",
+              "f": "płynęła",
+              "n": "płynęło"
+            },
+            "plural": {
+              "virile": "płynęli",
+              "nonvirile": "płynęły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "płynie się"
+            },
+            "plural": {
+              "allPluralGenders": "płynie się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "płynę"
+            },
+            "plural": {
+              "allPluralGenders": "płyniemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "płyniesz"
+            },
+            "plural": {
+              "allPluralGenders": "płyniecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "płynie"
+            },
+            "plural": {
+              "allPluralGenders": "płyną"
+            }
+          }
+        }
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+  {
     "lemma": "popłynąć",
     "id": "pol-ver-0677-popłynąć(float)",
     "tags": [
@@ -114366,5 +114610,976 @@
     },
     "frequency": 3,
     "register": 0
+  },
+    {
+    "lemma": "mieć na sobie",
+    "id": "pol-ver-0919-miećnasobie",
+    "tags": [],
+    "topics": [
+      "possession"
+    ],
+    "aspect": "imperfective",
+    "inflections": {
+      "infinitive": "mieć na sobie",
+      "activeAdjectival": "mający na sobie",
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": "mając na sobie",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "miej na sobie",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "miano na sobie"
+            },
+            "plural": {
+              "allPluralGenders": "miano na sobie"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "miałem na sobie na sobie",
+              "f": "miałam na sobie na sobie"
+            },
+            "plural": {
+              "virile": "mieliśmy na sobie na sobie",
+              "nonvirile": "miałyśmy na sobie na sobie"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "miałeś na sobie",
+              "f": "miałaś na sobie"
+            },
+            "plural": {
+              "virile": "mieliście na sobie",
+              "nonvirile": "miałyście na sobie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "miał na sobie",
+              "f": "miała na sobie",
+              "n": "miało na sobie"
+            },
+            "plural": {
+              "virile": "mieli na sobie",
+              "nonvirile": "miały na sobie"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "ma się na sobie"
+            },
+            "plural": {
+              "allPluralGenders": "ma się na sobie"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "mam na sobie"
+            },
+            "plural": {
+              "allPluralGenders": "mamy na sobie"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "masz na sobie"
+            },
+            "plural": {
+              "allPluralGenders": "macie na sobie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "ma na sobie"
+            },
+            "plural": {
+              "allPluralGenders": "mają na sobie"
+            }
+          }
+        }
+      }
+    },
+    "secondaryAspects": [],
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "fashion"
+    ],
+    "translations": {
+      "ENG": [
+        "to wear"
+      ]
+    },
+        "frequency": 3,
+    "register": 0
+  },
+  {
+    "lemma": "założyć",
+    "id": "pol-ver-0920-założyć(wear)",
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "fashion"
+    ],
+    "translations": {
+      "ENG": [
+        "to wear"
+      ]
+    },
+        "frequency": 3,
+    "register": 0,
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "zakładać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "założyć",
+      "verbalNoun": "założenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "założony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "założywszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "założy się"
+            },
+            "plural": {
+              "allPluralGenders": "założy się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "założę"
+            },
+            "plural": {
+              "allPluralGenders": "założymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "założysz"
+            },
+            "plural": {
+              "allPluralGenders": "założycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "założy"
+            },
+            "plural": {
+              "allPluralGenders": "założą"
+            }
+          }
+        },
+        "imperative": "załóż",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "założono"
+            },
+            "plural": {
+              "allPluralGenders": "założono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "założyłem",
+              "f": "założyłam"
+            },
+            "plural": {
+              "virile": "założyliśmy",
+              "nonvirile": "założyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "założyłeś",
+              "f": "założyłaś"
+            },
+            "plural": {
+              "virile": "założyliście",
+              "nonvirile": "założyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "założył",
+              "f": "założyła",
+              "n": "założyło"
+            },
+            "plural": {
+              "virile": "założyli",
+              "nonvirile": "założyły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "założyć",
+    "id": "pol-ver-0921-założyć(assume)",
+    "tags": [
+    ],
+    "topics": [
+    ],
+    "translations": {
+      "ENG": [
+        "to assume"
+      ]
+    },
+        "frequency": 3,
+    "register": 0,
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "zakładać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "założyć",
+      "verbalNoun": "założenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "założony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "założywszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "założy się"
+            },
+            "plural": {
+              "allPluralGenders": "założy się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "założę"
+            },
+            "plural": {
+              "allPluralGenders": "założymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "założysz"
+            },
+            "plural": {
+              "allPluralGenders": "założycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "założy"
+            },
+            "plural": {
+              "allPluralGenders": "założą"
+            }
+          }
+        },
+        "imperative": "załóż",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "założono"
+            },
+            "plural": {
+              "allPluralGenders": "założono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "założyłem",
+              "f": "założyłam"
+            },
+            "plural": {
+              "virile": "założyliśmy",
+              "nonvirile": "założyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "założyłeś",
+              "f": "założyłaś"
+            },
+            "plural": {
+              "virile": "założyliście",
+              "nonvirile": "założyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "założył",
+              "f": "założyła",
+              "n": "założyło"
+            },
+            "plural": {
+              "virile": "założyli",
+              "nonvirile": "założyły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+    {
+    "lemma": "zakładać",
+    "id": "pol-ver-0922-zakładać(assume)",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "Nie zakładaj kurtki, jest ciepło. ― Don't put on the jacket, it's warm outside.",
+        "Zakładamy kablówkę w ciągu jednego dnia. ― We install cable TV in one day.",
+        "W przyszłym miesiącu zakładamy z bratem firmę. ― Next month I am starting a company with my brother.",
+        "Gdy zakładasz hasło, powinieneś zwrócić szczególną uwagę na jego złożoność. ― When you set up a password, you should pay special attention to its complexity.",
+        "Zakładam , że nie zrobiłeś tego, o co prosiłam ― I assume you haven't done the thing I asked?",
+        "And when the Jew, bowing to the lord with great respect from a distance, immediately, and that without much haggling, bought so much wood, boards, and shingles from those mountain villages that he covered a large table with the money for them, then the lord, bearing in mind that up to that time the starostwo had never gotten a penny for those materials, was very grateful to the Jew, and even offered him vodka and gingerbread.",
+        "...he said to tightly block the holes in the roof and strongly bar the door, because a big blizzard was approaching.",
+        "\"... I am ready to bet that he didn't know about the problem. ...\" adds an American collector.",
+        "The engineer Richard Trevithick bet the owner of a coalmine in Penydarran in England a thousand pounds sterling over whether a steam car built by him, put on rails on which little horse-drawn carts usually rode, would manage to pull a load of 10 tons a given distance."
+      ],
+      "otherShapes": {
+        "perfective": [
+          "założyć"
+        ]
+      },
+      "derivedTerms": [
+        "nouns zakład",
+        "zakładacz",
+        "zakładca",
+        "zakładczarka",
+        "zakładka",
+        "zakładnica",
+        "zakładniczka",
+        "zakładnik",
+        "zakładowca",
+        "zakładziny",
+        "verbs zakładać siatkę impf założyć siatkę pf",
+        "zakładać sobie pętlę na szyję impf założyć sobie pętlę na szyję pf",
+        "zakładać szew impf założyć szew pf",
+        "adjectives zakładkowy",
+        "zakładny",
+        "zakładowy",
+        "zakładzinowy",
+        "nouns zakładeczka",
+        "zakładnictwo",
+        "zakładzik",
+        "zakładziny",
+        "verbs kładać impf",
+        "kłaść impf",
+        "zakłaść pf",
+        "references .mw-parser-output .reflist.list-style-lower-alpha ol{list-style:lower-alpha}.mw-parser-output .reflist.list-style-upper-alpha ol{list-style:upper-alpha}.mw-parser-output .reflist.list-style-lower-roman ol{list-style:lower-roman}.mw-parser-output .reflist.list-style-upper-roman ol{list-style:upper-roman}.mw-parser-output .reflist.list-style-lower-greek ol{list-style:lower-greek}.mw-parser-output .reflist.list-style-disc ol{list-style:disc}.mw-parser-output .reflist.list-style-square ol{list-style:square}.mw-parser-output .reflist.list-style-none ol{list-style:none}.mw-parser-output .reflist.nobacklinks .mw-cite-backlink,.mw-parser-output .reflist.nobacklinks li>a{display:none}.mw-parser-output .reflist.font-size-xx-small ol{font-size:xx-small}.mw-parser-output .reflist.font-size-x-small ol{font-size:x-small}.mw-parser-output .reflist.font-size-smaller ol{font-size:smaller}.mw-parser-output .reflist.font-size-small ol{font-size:small}.mw-parser-output .reflist.font-size-medium ol{font-size:medium}.mw-parser-output .reflist.font-size-large ol{font-size:large}.mw-parser-output .reflist.font-size-larger ol{font-size:larger}.mw-parser-output .reflist.font-size-x-large ol{font-size:x-large}.mw-parser-output .reflist.font-size-xx-large ol{font-size:xx-large}.mw-parser-output .reflist[data-column-count=\"2\"] .mw-references-wrap{column-count:2}.mw-parser-output .reflist[data-column-count=\"3\"] .mw-references-wrap{column-count:3}.mw-parser-output .reflist[data-column-count=\"4\"] .mw-references-wrap{column-count:4}.mw-parser-output .reflist[data-column-count=\"5\"] .mw-references-wrap{column-count:5} ^ b. sieradzka-baziur , editor (2011–2015), “ zakładać, zakładać się ”, in słownik pojęciowy języka staropolskiego conceptual dictionary of old polish (in polish), kraków ijp pan →isbn"
+      ]
+    },
+    "tags": [
+    ],
+    "topics": [
+    ],
+    "translations": {
+      "ENG": [
+        "to assume"
+      ]
+    },
+    "frequency": 3,
+    "register": 0,
+    "inflections": {
+      "infinitive": "zakładać",
+      "verbalNoun": "zakładanie",
+      "activeAdjectival": "zakładający",
+      "passiveAdjectival": "zakładany",
+      "contemporaryAdverbial": "zakładając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "zakładaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zakładano"
+            },
+            "plural": {
+              "allPluralGenders": "zakładano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zakładałem",
+              "f": "zakładałam"
+            },
+            "plural": {
+              "virile": "zakładaliśmy",
+              "nonvirile": "zakładałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zakładałeś",
+              "f": "zakładałaś"
+            },
+            "plural": {
+              "virile": "zakładaliście",
+              "nonvirile": "zakładałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zakładał",
+              "f": "zakładała",
+              "n": "zakładało"
+            },
+            "plural": {
+              "virile": "zakładali",
+              "nonvirile": "zakładały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zakłada się"
+            },
+            "plural": {
+              "allPluralGenders": "zakłada się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zakładam"
+            },
+            "plural": {
+              "allPluralGenders": "zakładamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zakładasz"
+            },
+            "plural": {
+              "allPluralGenders": "zakładacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zakłada"
+            },
+            "plural": {
+              "allPluralGenders": "zakładają"
+            }
+          }
+        }
+      }
+    }
+  },{
+    "lemma": "założyć",
+    "id": "pol-ver-0921-założyć(bet)",
+    "tags": [
+    ],
+    "topics": [
+    ],
+    "translations": {
+      "ENG": [
+        "to assume"
+      ]
+    },
+        "frequency": 3,
+    "register": 0,
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "zakładać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "założyć",
+      "verbalNoun": "założenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "założony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "założywszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "założy się"
+            },
+            "plural": {
+              "allPluralGenders": "założy się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "założę"
+            },
+            "plural": {
+              "allPluralGenders": "założymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "założysz"
+            },
+            "plural": {
+              "allPluralGenders": "założycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "założy"
+            },
+            "plural": {
+              "allPluralGenders": "założą"
+            }
+          }
+        },
+        "imperative": "załóż",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "założono"
+            },
+            "plural": {
+              "allPluralGenders": "założono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "założyłem",
+              "f": "założyłam"
+            },
+            "plural": {
+              "virile": "założyliśmy",
+              "nonvirile": "założyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "założyłeś",
+              "f": "założyłaś"
+            },
+            "plural": {
+              "virile": "założyliście",
+              "nonvirile": "założyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "założył",
+              "f": "założyła",
+              "n": "założyło"
+            },
+            "plural": {
+              "virile": "założyli",
+              "nonvirile": "założyły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+    {
+    "lemma": "zakładać",
+    "id": "pol-ver-0922-zakładać(bet)",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "Nie zakładaj kurtki, jest ciepło. ― Don't put on the jacket, it's warm outside.",
+        "Zakładamy kablówkę w ciągu jednego dnia. ― We install cable TV in one day.",
+        "W przyszłym miesiącu zakładamy z bratem firmę. ― Next month I am starting a company with my brother.",
+        "Gdy zakładasz hasło, powinieneś zwrócić szczególną uwagę na jego złożoność. ― When you set up a password, you should pay special attention to its complexity.",
+        "Zakładam , że nie zrobiłeś tego, o co prosiłam ― I assume you haven't done the thing I asked?",
+        "And when the Jew, bowing to the lord with great respect from a distance, immediately, and that without much haggling, bought so much wood, boards, and shingles from those mountain villages that he covered a large table with the money for them, then the lord, bearing in mind that up to that time the starostwo had never gotten a penny for those materials, was very grateful to the Jew, and even offered him vodka and gingerbread.",
+        "...he said to tightly block the holes in the roof and strongly bar the door, because a big blizzard was approaching.",
+        "\"... I am ready to bet that he didn't know about the problem. ...\" adds an American collector.",
+        "The engineer Richard Trevithick bet the owner of a coalmine in Penydarran in England a thousand pounds sterling over whether a steam car built by him, put on rails on which little horse-drawn carts usually rode, would manage to pull a load of 10 tons a given distance."
+      ],
+      "otherShapes": {
+        "perfective": [
+          "założyć"
+        ]
+      },
+      "derivedTerms": [
+        "nouns zakład",
+        "zakładacz",
+        "zakładca",
+        "zakładczarka",
+        "zakładka",
+        "zakładnica",
+        "zakładniczka",
+        "zakładnik",
+        "zakładowca",
+        "zakładziny",
+        "verbs zakładać siatkę impf założyć siatkę pf",
+        "zakładać sobie pętlę na szyję impf założyć sobie pętlę na szyję pf",
+        "zakładać szew impf założyć szew pf",
+        "adjectives zakładkowy",
+        "zakładny",
+        "zakładowy",
+        "zakładzinowy",
+        "nouns zakładeczka",
+        "zakładnictwo",
+        "zakładzik",
+        "zakładziny",
+        "verbs kładać impf",
+        "kłaść impf",
+        "zakłaść pf",
+        "references .mw-parser-output .reflist.list-style-lower-alpha ol{list-style:lower-alpha}.mw-parser-output .reflist.list-style-upper-alpha ol{list-style:upper-alpha}.mw-parser-output .reflist.list-style-lower-roman ol{list-style:lower-roman}.mw-parser-output .reflist.list-style-upper-roman ol{list-style:upper-roman}.mw-parser-output .reflist.list-style-lower-greek ol{list-style:lower-greek}.mw-parser-output .reflist.list-style-disc ol{list-style:disc}.mw-parser-output .reflist.list-style-square ol{list-style:square}.mw-parser-output .reflist.list-style-none ol{list-style:none}.mw-parser-output .reflist.nobacklinks .mw-cite-backlink,.mw-parser-output .reflist.nobacklinks li>a{display:none}.mw-parser-output .reflist.font-size-xx-small ol{font-size:xx-small}.mw-parser-output .reflist.font-size-x-small ol{font-size:x-small}.mw-parser-output .reflist.font-size-smaller ol{font-size:smaller}.mw-parser-output .reflist.font-size-small ol{font-size:small}.mw-parser-output .reflist.font-size-medium ol{font-size:medium}.mw-parser-output .reflist.font-size-large ol{font-size:large}.mw-parser-output .reflist.font-size-larger ol{font-size:larger}.mw-parser-output .reflist.font-size-x-large ol{font-size:x-large}.mw-parser-output .reflist.font-size-xx-large ol{font-size:xx-large}.mw-parser-output .reflist[data-column-count=\"2\"] .mw-references-wrap{column-count:2}.mw-parser-output .reflist[data-column-count=\"3\"] .mw-references-wrap{column-count:3}.mw-parser-output .reflist[data-column-count=\"4\"] .mw-references-wrap{column-count:4}.mw-parser-output .reflist[data-column-count=\"5\"] .mw-references-wrap{column-count:5} ^ b. sieradzka-baziur , editor (2011–2015), “ zakładać, zakładać się ”, in słownik pojęciowy języka staropolskiego conceptual dictionary of old polish (in polish), kraków ijp pan →isbn"
+      ]
+    },
+    "tags": [
+    ],
+    "topics": [
+    ],
+    "translations": {
+      "ENG": [
+        "to assume"
+      ]
+    },
+    "frequency": 3,
+    "register": 0,
+    "inflections": {
+      "infinitive": "zakładać",
+      "verbalNoun": "zakładanie",
+      "activeAdjectival": "zakładający",
+      "passiveAdjectival": "zakładany",
+      "contemporaryAdverbial": "zakładając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "zakładaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zakładano"
+            },
+            "plural": {
+              "allPluralGenders": "zakładano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zakładałem",
+              "f": "zakładałam"
+            },
+            "plural": {
+              "virile": "zakładaliśmy",
+              "nonvirile": "zakładałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zakładałeś",
+              "f": "zakładałaś"
+            },
+            "plural": {
+              "virile": "zakładaliście",
+              "nonvirile": "zakładałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zakładał",
+              "f": "zakładała",
+              "n": "zakładało"
+            },
+            "plural": {
+              "virile": "zakładali",
+              "nonvirile": "zakładały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zakłada się"
+            },
+            "plural": {
+              "allPluralGenders": "zakłada się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zakładam"
+            },
+            "plural": {
+              "allPluralGenders": "zakładamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zakładasz"
+            },
+            "plural": {
+              "allPluralGenders": "zakładacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zakłada"
+            },
+            "plural": {
+              "allPluralGenders": "zakładają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "przypuszczać",
+    "id": "pol-ver-0923-przypuszczać",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "przypuścić"
+        ]
+      }
+    },
+    "tags": [
+    ],
+    "topics": [
+    ],
+    "translations": {
+      "ENG": [
+        "to assume"
+      ]
+    },
+    "frequency": 3,
+    "register": 0,
+    "inflections": {
+      "infinitive": "przypuszczać",
+      "verbalNoun": "przypuszczanie",
+      "activeAdjectival": "przypuszczający",
+      "passiveAdjectival": "przypuszczany",
+      "contemporaryAdverbial": "przypuszczając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "przypuszczaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "przypuszczano"
+            },
+            "plural": {
+              "allPluralGenders": "przypuszczano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "przypuszczałem",
+              "f": "przypuszczałam"
+            },
+            "plural": {
+              "virile": "przypuszczaliśmy",
+              "nonvirile": "przypuszczałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "przypuszczałeś",
+              "f": "przypuszczałaś"
+            },
+            "plural": {
+              "virile": "przypuszczaliście",
+              "nonvirile": "przypuszczałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "przypuszczał",
+              "f": "przypuszczała",
+              "n": "przypuszczało"
+            },
+            "plural": {
+              "virile": "przypuszczali",
+              "nonvirile": "przypuszczały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "przypuszcza się"
+            },
+            "plural": {
+              "allPluralGenders": "przypuszcza się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "przypuszczam"
+            },
+            "plural": {
+              "allPluralGenders": "przypuszczamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "przypuszczasz"
+            },
+            "plural": {
+              "allPluralGenders": "przypuszczacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "przypuszcza"
+            },
+            "plural": {
+              "allPluralGenders": "przypuszczają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "przypuścić",
+    "id": "pol-ver-0924-przypuścić",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "przypuszczać"
+        ]
+      }
+    },
+    "tags": [
+    ],
+    "topics": [
+    ],
+    "translations": {
+      "ENG": [
+        "to assume"
+      ]
+    },
+    "frequency": 3,
+    "register": 0,
+    "inflections": {
+      "infinitive": "przypuszczać",
+      "verbalNoun": "przypuszczenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "przypuszczony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "przypuściwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "przypuści się"
+            },
+            "plural": {
+              "allPluralGenders": "przypuści się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "przypuszczę"
+            },
+            "plural": {
+              "allPluralGenders": "przypuścimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "przypuścisz"
+            },
+            "plural": {
+              "allPluralGenders": "przypuścicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "przypuści"
+            },
+            "plural": {
+              "allPluralGenders": "przypuszczą"
+            }
+          }
+        },
+        "imperative": "przypuść",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "przypuszczono"
+            },
+            "plural": {
+              "allPluralGenders": "przypuszczono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "przypuściłem",
+              "f": "przypuściłam"
+            },
+            "plural": {
+              "virile": "przypuściliśmy",
+              "nonvirile": "przypuściłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "przypuściłeś",
+              "f": "przypuściłaś"
+            },
+            "plural": {
+              "virile": "przypuściliście",
+              "nonvirile": "przypuściłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "przypuścił",
+              "f": "przypuściła",
+              "n": "przypuściło"
+            },
+            "plural": {
+              "virile": "przypuścili",
+              "nonvirile": "przypuściły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
   }
 ]
