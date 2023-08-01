@@ -61304,6 +61304,117 @@
     "register": 0
   },
   {
+    "lemma": "zmieścić",
+    "id": "pol-ver-0490-zmieścić",
+    "tags": [
+      "dimension",
+      "concrete"
+    ],
+    "topics": [
+      "appearance",
+      "fashion",
+      "sense and perception",
+      "spatial"
+    ],
+    "translations": {
+      "ENG": [
+        "to fit[r]"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "inflections": {
+      "infinitive": "zmieścić",
+      "verbalNoun": "zmieszczenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zmieszczony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zmieściwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zmieści się"
+            },
+            "plural": {
+              "allPluralGenders": "zmieści się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zmieszczę"
+            },
+            "plural": {
+              "allPluralGenders": "zmieścimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zmieścisz"
+            },
+            "plural": {
+              "allPluralGenders": "zmieścicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zmieści"
+            },
+            "plural": {
+              "allPluralGenders": "zmieszczą"
+            }
+          }
+        },
+        "imperative": "zmieść",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zmieszczono"
+            },
+            "plural": {
+              "allPluralGenders": "zmieszczono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zmieściłem",
+              "f": "zmieściłam"
+            },
+            "plural": {
+              "virile": "zmieściliśmy",
+              "nonvirile": "zmieściłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zmieściłeś",
+              "f": "zmieściłaś"
+            },
+            "plural": {
+              "virile": "zmieściliście",
+              "nonvirile": "zmieściłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zmieścił",
+              "f": "zmieściła",
+              "n": "zmieściło"
+            },
+            "plural": {
+              "virile": "zmieścili",
+              "nonvirile": "zmieściły"
+            }
+          }
+        },
+        "present": false
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+  {
     "lemma": "mordować",
     "id": "pol-ver-0490-mordować",
     "tags": [
@@ -71495,6 +71606,122 @@
           }
         },
         "present": false
+      }
+    },
+    "frequency": 4,
+    "register": 0
+  },
+    {
+    "lemma": "odrzucać",
+    "id": "pol-ver-0575-odrzucać",
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "love",
+      "people",
+      "politics"
+    ],
+    "translations": {
+      "ENG": [
+        "to reject"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "odrzucić"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "odrzucać",
+      "verbalNoun": "odrzucanie",
+      "activeAdjectival": "odrzucający",
+      "passiveAdjectival": "odrzucany",
+      "contemporaryAdverbial": "odrzucając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "odrzucaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odrzucano"
+            },
+            "plural": {
+              "allPluralGenders": "odrzucano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "odrzucałem",
+              "f": "odrzucałam"
+            },
+            "plural": {
+              "virile": "odrzucaliśmy",
+              "nonvirile": "odrzucałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "odrzucałeś",
+              "f": "odrzucałaś"
+            },
+            "plural": {
+              "virile": "odrzucaliście",
+              "nonvirile": "odrzucałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "odrzucał",
+              "f": "odrzucała",
+              "n": "odrzucało"
+            },
+            "plural": {
+              "virile": "odrzucali",
+              "nonvirile": "odrzucały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odrzuca się"
+            },
+            "plural": {
+              "allPluralGenders": "odrzuca się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "odrzucam"
+            },
+            "plural": {
+              "allPluralGenders": "odrzucamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "odrzucasz"
+            },
+            "plural": {
+              "allPluralGenders": "odrzucacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "odrzuca"
+            },
+            "plural": {
+              "allPluralGenders": "odrzucają"
+            }
+          }
+        }
       }
     },
     "frequency": 4,
@@ -113311,6 +113538,242 @@
       ]
     },
     "frequency": 4,
+    "register": 0
+  },
+    {
+    "lemma": "rzucić",
+    "id": "pol-ver-0917-rzucić",
+    "tags": [
+      "movement",
+      "concrete"
+    ],
+    "topics": [
+      "body",
+      "sport"
+    ],
+    "translations": {
+      "ENG": [
+        "to hurl",
+        "to fling",
+        "to throw"
+      ]
+    },
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "rzucać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "rzucić",
+      "verbalNoun": "rzucenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "rzuciwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "rzuci się"
+            },
+            "plural": {
+              "allPluralGenders": "rzuci się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "rzucę"
+            },
+            "plural": {
+              "allPluralGenders": "rzucimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "rzucisz"
+            },
+            "plural": {
+              "allPluralGenders": "rzucicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "rzuci"
+            },
+            "plural": {
+              "allPluralGenders": "rzucą"
+            }
+          }
+        },
+        "imperative": "rzuć",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "rzucono"
+            },
+            "plural": {
+              "allPluralGenders": "rzucono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "rzuciłem",
+              "f": "rzuciłam"
+            },
+            "plural": {
+              "virile": "rzuciliśmy",
+              "nonvirile": "rzuciłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "rzuciłeś",
+              "f": "rzuciłaś"
+            },
+            "plural": {
+              "virile": "rzuciliście",
+              "nonvirile": "rzuciłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "rzucił",
+              "f": "rzuciła",
+              "n": "rzuciło"
+            },
+            "plural": {
+              "virile": "rzucili",
+              "nonvirile": "rzuciły"
+            }
+          }
+        },
+        "present": false
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+    {
+    "lemma": "rzucać",
+    "id": "pol-ver-0918-rzucać",
+    "tags": [
+      "movement",
+      "concrete"
+    ],
+    "topics": [
+      "body",
+      "sport"
+    ],
+    "translations": {
+      "ENG": [
+        "to hurl",
+        "to fling",
+        "to throw"
+      ]
+    },
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "rzucić"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "rzucać",
+      "verbalNoun": "rzucanie",
+      "activeAdjectival": "rzucający",
+      "passiveAdjectival": "rzucany",
+      "contemporaryAdverbial": "rzucając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "rzucaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "rzucano"
+            },
+            "plural": {
+              "allPluralGenders": "rzucano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "rzucałem",
+              "f": "rzucałam"
+            },
+            "plural": {
+              "virile": "rzucaliśmy",
+              "nonvirile": "rzucałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "rzucałeś",
+              "f": "rzucałaś"
+            },
+            "plural": {
+              "virile": "rzucaliście",
+              "nonvirile": "rzucałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "rzucał",
+              "f": "rzucała",
+              "n": "rzucało"
+            },
+            "plural": {
+              "virile": "rzucali",
+              "nonvirile": "rzucały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "rzuca się"
+            },
+            "plural": {
+              "allPluralGenders": "rzuca się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "rzucam"
+            },
+            "plural": {
+              "allPluralGenders": "rzucamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "rzucasz"
+            },
+            "plural": {
+              "allPluralGenders": "rzucacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "rzuca"
+            },
+            "plural": {
+              "allPluralGenders": "rzucają"
+            }
+          }
+        }
+      }
+    },
+    "frequency": 3,
     "register": 0
   }
 ]

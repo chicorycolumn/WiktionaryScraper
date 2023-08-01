@@ -27,10 +27,10 @@ if __name__ == '__main__':
 
 
 
-        "zmieścić",
+
         "namalować",
         "pomalować",
-        "odrzucać",
+
 
 
         "powodzić",
