@@ -18,24 +18,6 @@ if __name__ == '__main__':
     input_indexes = [0, 870]
     wordtype = "v"
     these_headwords_only = [
-        "potracić",
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        "powodzić",
-
-
     ]
     skip_make_ids = False  # only set True when manually testing.
     skip_scraping = False  # only set True if you've already scraped but want to rerun post-scraping fxns of Step 1.

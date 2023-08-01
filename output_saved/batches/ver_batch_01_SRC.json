@@ -97844,6 +97844,122 @@
     "frequency": 4,
     "register": 0
   },
+      {
+        "lemma": "potrącić",
+          "id": "pol-ver-0784-potrącić(run over)",
+        "aspect": "perfective",
+        "secondaryAspects": [],
+        "extra": {
+            "otherShapes": {
+                "imperfective": [
+                    "potrącać"
+                ]
+            }
+        },
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "car",
+      "danger",
+      "travel"
+    ],
+    "translations": {
+      "ENG": [
+        "to run over"
+      ]
+    },
+        "frequency": 4,
+    "register": 0,
+        "inflections": {
+            "infinitive": "potrącić",
+            "verbalNoun": "potrącenie",
+            "activeAdjectival": false,
+            "passiveAdjectival": "potrącony",
+            "contemporaryAdverbial": false,
+            "anteriorAdverbial": "potrąciwszy",
+            "verbal": {
+                "conditional": true,
+                "future": {
+                    "impersonal": {
+                        "singular": {
+                            "allSingularGenders": "potrąci się"
+                        },
+                        "plural": {
+                            "allPluralGenders": "potrąci się"
+                        }
+                    },
+                    "1per": {
+                        "singular": {
+                            "allSingularGenders": "potrącę"
+                        },
+                        "plural": {
+                            "allPluralGenders": "potrącimy"
+                        }
+                    },
+                    "2per": {
+                        "singular": {
+                            "allSingularGenders": "potrącisz"
+                        },
+                        "plural": {
+                            "allPluralGenders": "potrącicie"
+                        }
+                    },
+                    "3per": {
+                        "singular": {
+                            "allSingularGenders": "potrąci"
+                        },
+                        "plural": {
+                            "allPluralGenders": "potrącą"
+                        }
+                    }
+                },
+                "imperative": "potrąć",
+                "past": {
+                    "impersonal": {
+                        "singular": {
+                            "allSingularGenders": "potrącono"
+                        },
+                        "plural": {
+                            "allPluralGenders": "potrącono"
+                        }
+                    },
+                    "1per": {
+                        "singular": {
+                            "m": "potrąciłem",
+                            "f": "potrąciłam"
+                        },
+                        "plural": {
+                            "virile": "potrąciliśmy",
+                            "nonvirile": "potrąciłyśmy"
+                        }
+                    },
+                    "2per": {
+                        "singular": {
+                            "m": "potrąciłeś",
+                            "f": "potrąciłaś"
+                        },
+                        "plural": {
+                            "virile": "potrąciliście",
+                            "nonvirile": "potrąciłyście"
+                        }
+                    },
+                    "3per": {
+                        "singular": {
+                            "m": "potrącił",
+                            "f": "potrąciła",
+                            "n": "potrąciło"
+                        },
+                        "plural": {
+                            "virile": "potrącili",
+                            "nonvirile": "potrąciły"
+                        }
+                    }
+                },
+                "present": false
+            }
+        }
+    },
   {
     "lemma": "pozostawać",
     "id": "pol-ver-0784-pozostawać",
