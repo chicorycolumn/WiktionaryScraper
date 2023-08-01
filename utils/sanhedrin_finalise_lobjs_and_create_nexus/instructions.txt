@@ -8,19 +8,23 @@ and then creating the Nexus objects that connect them.
 
 
 
-A)  Run "S01_create_src_batch.py"
+- - - - - - - - - - - - - - - - - - - - - - - - - - PHASE ONE - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+1A) Run "S01_create_src_batch.py"
     - to gather scraped and tagged files into one batch
     Creates "nou_batch_01_SRC_original.json"
 
 
 
-B)  Run "S02_doublecheck_trans_of_src_lobjs.py"
+1B) Run "S02_doublecheck_trans_of_src_lobjs.py"
     - to finalise translations of Source lobjs
     Creates "nou_batch_01_SRC.json"
 
 
 
-C)  Now you manually go through the generated file and search for flags. Resolve them.
+1C) Now you manually go through the generated file and search for flags. Resolve them.
     - 🚩  A flag you added in step B) with your own notes.
     - 🏁  Add shorthand tags and topics to this duplicated lobj.
     - ⛳  Add signal word eg "pol-nco-005-nail(bodypart)" vs "pol-nco-006-nail(metal)".
@@ -28,59 +32,67 @@ C)  Now you manually go through the generated file and search for flags. Resolve
 
 
 
-D1) Run "S03_expand_tags.py"
-    - to expand any shorthand tags you have added to "nou_batch_01_SRC.json" in step C)
-    Modifies "nou_batch_01_SRC.json"
+1D-i)   Run "S03_expand_tags.py"
+        - to expand any shorthand tags you have added to "nou_batch_01_SRC.json" in step C)
+        Modifies "nou_batch_01_SRC.json"
 
-D2) Regex search for "" and "[qwertyuiopasdghjklzxcvb ]" in SRC file.
-    - to catch badly generated tags.
+1D-ii)  Regex search for "" and "[qwertyuiopasdghjklzxcvb ]" in SRC file.
+        - to catch badly generated tags.
 
 
 
-E)  Run "S04_renumber_lobjs.py" with "SRC" argument.
+1E) Run "S04_renumber_lobjs.py" with "SRC" argument.
     - to standardise numbering after lobj duplication in step B)
     Modifies "nou_batch_01_SRC.json"
 
 
 
-F)  Run "S05_create_tgt_lobjs.py"
+- - - - - - - - - - - - - - - - - - - - - - - - - - PHASE TWO - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+2A) Run "S05_create_tgt_lobjs.py"
     - to create Target lobjs from the Source ones
     Creates "nou_batch_01_TGT.json"
 
 
 
-G)  Run "S06_distinguish_sibling_tgt_lobjs.py"
+2B) Run "S06_distinguish_sibling_tgt_lobjs.py"
     - to delete any unnecessary siblings in the newly created Target lobjs
     - to add signal words to the newly created Target lobjs
     Modifies "nou_batch_01_TGT.json"
 
 
 
-H)  Run "S04_renumber_lobjs.py" with "TGT" argument
+2C) Run "S04_renumber_lobjs.py" with "TGT" argument
     - to standardise numbering after merging and deleting in step G)
     Modifies "nou_batch_01_TGT.json"
 
 
 
-I1)  Run "S07_add_frequency_and_register_to_src.py"
-    - to move "FREQn", ""slang", "insult", "curseword" out of tags and into own key
-    Modifies "nou_batch_01_SRC.json"
+2D-i)   Run "S07_add_frequency_and_register_to_src.py"
+        - to move "FREQn", ""slang", "insult", "curseword" out of tags and into own key
+        Modifies "nou_batch_01_SRC.json"
 
-I2)  Run "S08_add_frequency_and_register_to_tgt.py"
-    - automatically populate frequency and register from SRC onto TGT
-    Modifies "nou_batch_01_TGT.json"
+2D-ii)  Run "S08_add_frequency_and_register_to_tgt.py"
+        - automatically populate frequency and register from SRC onto TGT
+        Modifies "nou_batch_01_TGT.json"
 
-I3) Run "S09_doublecheck_frequency_on_tgt.py" with step=1 arg then step=2.
-    - doublecheck the automatically populated frequency on TGT
-    Modifies "nou_batch_01_TGT.json"
+2D-iii) Run "S09_doublecheck_frequency_on_tgt.py" with step=1 arg then step=2.
+        - doublecheck the automatically populated frequency on TGT
+        Modifies "nou_batch_01_TGT.json"
 
 
 
-J)  Run "S10_create_nexus.py".
+2E) Run "S10_create_nexus.py".
     - to connect Source and Target lobjs using the translations data from previous steps.
     Creates "nou_batch_01_NEX.json"
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - PHASE THREE - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
 
 From now on, if you add or remove lobjs from TGT or SRC files, you must then run the following
 supplemental stages otherwise the ID links between NEX and TGT/SRC will be broken.
@@ -91,26 +103,53 @@ supplemental stages otherwise the ID links between NEX and TGT/SRC will be broke
 
 
 
-You just want to run L) for SRC (Polish), it's a data saver to crunch down lobjs with identical inflections:
+You probably just want to run this next double-step for SRC (Polish).
+It's a data saver to crunch down lobjs with identical inflections.
 
-K1) Run "S11_reorder_keys_of_lobjs.py" for the set of lobjs you will run "S12_connect_sibling_lobjs.py" for.
-    - to standardise order of inflection keys to allow correct comparisons by S12 stage.
-    Modifies "nou_batch_01_{tgt or src}.json"
+3A-i)   Run "S11_reorder_keys_of_lobjs.py" for the set of lobjs you will run "S12_connect_sibling_lobjs.py" for.
+        - to standardise order of inflection keys to allow correct comparisons by S12 stage.
+        Modifies "nou_batch_01_{tgt or src}.json"
 
-K2) Run "S12_connect_sibling_lobjs.py" for a set of lobjs.
-    - to compact data by removing duplicated inflection data, replacing with reference to the one sibling which holds it
-    Modifies "nou_batch_01_{tgt or src}.json"
+3A-ii)  Run "S12_connect_sibling_lobjs.py" for a set of lobjs.
+        - to compact data by removing duplicated inflection data, replacing with reference to the one sibling which holds it
+        Modifies "nou_batch_01_{tgt or src}.json"
 
 
 
-If you did not add additional spellings in step B), run this step, probably just for TGT (English):
+If you did not add additional spellings in step 1B), run this step, probably just for TGT (English).
+It uses additionalSpellings that you manually type into this stage.
 
-L)  Run "S13_add_additional_spellings.py"
+3B) Run "S13_add_additional_spellings.py"
     - to add American spellings to eng lobjs
     Modifies "nou_batch_01_{tgt or src}.json"
 
 
 
-M)  Do a final search in NEX, SRC, TGT files for * and þ
-    - to manually resolve these artefacts
-    Modifies "nou_batch_01_{tgt,src,nex}.json"
+3C-i)   Do a final search in NEX, SRC, TGT files for     *   and   þ
+        - to manually resolve these artefacts
+        Modifies "nou_batch_01_{tgt,src,nex}.json"
+
+3C-ii)  Do a final search in NEX, SRC, TGT files for     allohomInfo": null
+        - to manually create allohomInfo where needed
+        Modifies "nou_batch_01_{tgt,src,nex}.json"
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - PHASE FOUR - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+4A) You now need to create the inflection data for the TGT lobjs (presumably English).
+    - to complete tgt lobjs
+    Modifies "nou_batch_01_tgt.json"
+
+
+
+4B) Run "S12_connect_sibling_lobjs.py" for tgt lobjs.
+    - to compact data by removing duplicated inflection data, replacing with reference to the one sibling which holds it
+    Modifies "nou_batch_01_tgt.json"
+
+
+
+4C) Remove now-unneeded data from SRC lobjs, such as "translations", "»translations"
+    - to compact data
