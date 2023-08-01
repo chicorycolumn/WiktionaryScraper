@@ -14,10 +14,28 @@ if __name__ == '__main__':
     #         print(el)
 
     step = 1
-    group_number = 888
+    group_number = 99
     input_indexes = [0, 870]
     wordtype = "v"
-    these_headwords_only = ["stworzyć","stwarzać"
+    these_headwords_only = [
+        "potracić",
+        "spowodować",
+        "pociąć",
+        "zadbać",
+        "zaopiekować",
+        "zablokować",
+        "wylądować",
+        "zagwarantować",
+        "zahamować",
+        "zmieścić",
+        "namalować",
+        "pomalować",
+        "odrzucać",
+        "spalić",
+        "zapamiętać",
+        "powodzić",
+        "półknąć",
+        "połykać"
     ]
     skip_make_ids = False  # only set True when manually testing.
     skip_scraping = False  # only set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
