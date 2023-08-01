@@ -8,7 +8,7 @@ from utils.universal import color as c, load_data, save
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "adj"
+    wordtype = "ver"
     batch = "01"
     id_start_number = 1
     # # # # # #
@@ -26,7 +26,9 @@ if __name__ == '__main__':
     c.print_teal("No tempsave file is used in this stage..")
 
     tgt = load_data(tgt_input_path)
+    c.print_yellow("Loaded " + tgt_input_path)
     nex = load_data(nex_input_path)
+    c.print_yellow("Loaded " + nex_input_path)
 
     print("Loaded", len(tgt), "source lobjs.")
     print("Loaded", len(nex), "nexus objs.")
