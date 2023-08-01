@@ -20,18 +20,18 @@ if __name__ == '__main__':
     these_headwords_only = [
         "potracić",
 
-        "pociąć",
 
 
 
-        "wylądować",
+
+
 
 
         "zmieścić",
         "namalować",
         "pomalować",
         "odrzucać",
-        "spalić",
+
 
         "powodzić",
 

@@ -35858,6 +35858,117 @@
     "frequency": 3,
     "register": 0
   },
+    {
+    "lemma": "pociąć",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "id": "pol-ver-0292-pociąć",
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "kitchen",
+      "restaurant",
+      "inside",
+      "school",
+      "hobbies"
+    ],
+    "translations": {
+      "ENG": [
+        "to cut"
+      ]
+    },
+        "frequency": 3,
+    "register": 0,
+    "inflections": {
+      "infinitive": "pociąć",
+      "verbalNoun": "pocięcie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "pocięty",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "pociąwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "potnie się"
+            },
+            "plural": {
+              "allPluralGenders": "potnie się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "potnę"
+            },
+            "plural": {
+              "allPluralGenders": "potniemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "potniesz"
+            },
+            "plural": {
+              "allPluralGenders": "potniecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "potnie"
+            },
+            "plural": {
+              "allPluralGenders": "potną"
+            }
+          }
+        },
+        "imperative": "potnij",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "pocięto"
+            },
+            "plural": {
+              "allPluralGenders": "pocięto"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "pociąłem",
+              "f": "pocięłam"
+            },
+            "plural": {
+              "virile": "pocięliśmy",
+              "nonvirile": "pocięłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "pociąłeś",
+              "f": "pocięłaś"
+            },
+            "plural": {
+              "virile": "pocięliście",
+              "nonvirile": "pocięłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "pociął",
+              "f": "pocięła",
+              "n": "pocięło"
+            },
+            "plural": {
+              "virile": "pocięli",
+              "nonvirile": "pocięły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
   {
     "lemma": "chwalić",
     "id": "pol-ver-0292-chwalić(praise)",
@@ -50132,6 +50243,123 @@
     },
     "frequency": 4,
     "register": 0
+  },
+    {
+    "lemma": "wylądować",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "lądować"
+        ]
+      },
+      "derivedTerms": [
+        "noun wyląd"
+      ]
+    },
+    "id": "pol-ver-0403-wylądować",
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "travel"
+    ],
+    "translations": {
+      "ENG": [
+        "to land[i]"
+      ]
+    },
+        "frequency": 4,
+    "register": 0,
+    "inflections": {
+      "infinitive": "wylądować",
+      "verbalNoun": "wylądowanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "wylądowawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "wyląduje się"
+            },
+            "plural": {
+              "allPluralGenders": "wyląduje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "wyląduję"
+            },
+            "plural": {
+              "allPluralGenders": "wylądujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "wylądujesz"
+            },
+            "plural": {
+              "allPluralGenders": "wylądujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "wyląduje"
+            },
+            "plural": {
+              "allPluralGenders": "wylądują"
+            }
+          }
+        },
+        "imperative": "wyląduj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "wylądowano"
+            },
+            "plural": {
+              "allPluralGenders": "wylądowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "wylądowałem",
+              "f": "wylądowałam"
+            },
+            "plural": {
+              "virile": "wylądowaliśmy",
+              "nonvirile": "wylądowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "wylądowałeś",
+              "f": "wylądowałaś"
+            },
+            "plural": {
+              "virile": "wylądowaliście",
+              "nonvirile": "wylądowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "wylądował",
+              "f": "wylądowała",
+              "n": "wylądowało"
+            },
+            "plural": {
+              "virile": "wylądowali",
+              "nonvirile": "wylądowały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
   },
   {
     "lemma": "karmić",
@@ -77715,6 +77943,122 @@
     },
     "frequency": 3,
     "register": 0
+  },
+  {
+    "lemma": "spalić",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "spalać"
+        ]
+      }
+    },
+    "id": "pol-ver-0629-spalić(burn)",
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "danger",
+      "physics",
+      "science"
+    ],
+    "translations": {
+      "ENG": [
+        "to burn"
+      ]
+    },
+        "frequency": 3,
+    "register": 0,
+    "inflections": {
+      "infinitive": "spalić",
+      "verbalNoun": "spalenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "spalony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "spaliwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "spali się"
+            },
+            "plural": {
+              "allPluralGenders": "spali się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "spalę"
+            },
+            "plural": {
+              "allPluralGenders": "spalimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "spalisz"
+            },
+            "plural": {
+              "allPluralGenders": "spalicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "spali"
+            },
+            "plural": {
+              "allPluralGenders": "spalą"
+            }
+          }
+        },
+        "imperative": "spal",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "spalono"
+            },
+            "plural": {
+              "allPluralGenders": "spalono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "spaliłem",
+              "f": "spaliłam"
+            },
+            "plural": {
+              "virile": "spaliliśmy",
+              "nonvirile": "spaliłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "spaliłeś",
+              "f": "spaliłaś"
+            },
+            "plural": {
+              "virile": "spaliliście",
+              "nonvirile": "spaliłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "spalił",
+              "f": "spaliła",
+              "n": "spaliło"
+            },
+            "plural": {
+              "virile": "spalili",
+              "nonvirile": "spaliły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
   },
   {
     "lemma": "podchodzić",
