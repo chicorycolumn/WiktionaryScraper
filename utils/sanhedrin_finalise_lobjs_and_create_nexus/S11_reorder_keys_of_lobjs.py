@@ -41,6 +41,8 @@ if __name__ == '__main__':
                 "inflections", "translations", "extra", "derivedTerms", "otherShapes"]
     }
 
+    move_these_keys_to_extra = ["derivedTerms", "otherShapes"]
+
     inflection_keys = inflection_keys_ref[wordtype]
 
     input_filename = f"{wordtype}_batch_{batch}_{suffix}"
@@ -99,7 +101,16 @@ if __name__ == '__main__':
 
             for k in inflection_keys:
                 if k in lobj:
-                    reordered_lobj[k] = lobj[k]
+
+                    if k in move_these_keys_to_extra:
+                        if "extra" not in reordered_lobj:
+                            reordered_lobj["extra"] = {}
+                        if k in reordered_lobj["extra"]:
+                            print("Woah", reordered_lobj["id"], k)
+                        else:
+                            reordered_lobj["extra"][k] = lobj[k]
+                    else:
+                        reordered_lobj[k] = lobj[k]
 
             double_done_lobjs.append(reordered_lobj)
 

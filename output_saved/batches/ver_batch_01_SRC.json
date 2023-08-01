@@ -150,29 +150,31 @@
         "to be"
       ]
     },
-    "derivedTerms": [
-      "dobywać impf dobyć pf wydobywać impf wydobyć pf",
-      "zdobywać impf zdobyć pf",
-      "nabywać impf nabyć pf",
-      "obywać impf obyć pf",
-      "odbywać impf odbyć pf",
-      "pobyć pf",
-      "przebywać impf przebyć pf",
-      "przybywać impf przybyć pf",
-      "ubywać impf ubyć pf",
-      "zbywać impf zbyć pf pozbywać impf pozbyć pf",
-      "wyzbywać impf wyzbyć pf",
-      "(nou) nabytek m pobyt m przybytek m ubytek m zbytek m",
-      "(adj) zbyteczny",
-      "(ver) bawić bywać",
-      "(nou) bydło n byt m",
-      "references ^ k. nitsch , editor (1954), “ 1. być ”, in słownik staropolski (in old polish), volume 1, warsaw polish academy of sciences , page 182",
-      "^ B. Sieradzka-Baziur , editor (2011–2015), “ być ”, in Słownik pojęciowy języka staropolskiego Conceptual Dictionary of Old Polish (in Polish), Kraków IJP PAN →ISBN"
-    ],
-    "otherShapes": {
-      "indeterminate": [
-        "bywać"
-      ]
+    "extra": {
+      "derivedTerms": [
+        "dobywać impf dobyć pf wydobywać impf wydobyć pf",
+        "zdobywać impf zdobyć pf",
+        "nabywać impf nabyć pf",
+        "obywać impf obyć pf",
+        "odbywać impf odbyć pf",
+        "pobyć pf",
+        "przebywać impf przebyć pf",
+        "przybywać impf przybyć pf",
+        "ubywać impf ubyć pf",
+        "zbywać impf zbyć pf pozbywać impf pozbyć pf",
+        "wyzbywać impf wyzbyć pf",
+        "(nou) nabytek m pobyt m przybytek m ubytek m zbytek m",
+        "(adj) zbyteczny",
+        "(ver) bawić bywać",
+        "(nou) bydło n byt m",
+        "references ^ k. nitsch , editor (1954), “ 1. być ”, in słownik staropolski (in old polish), volume 1, warsaw polish academy of sciences , page 182",
+        "^ B. Sieradzka-Baziur , editor (2011–2015), “ być ”, in Słownik pojęciowy języka staropolskiego Conceptual Dictionary of Old Polish (in Polish), Kraków IJP PAN →ISBN"
+      ],
+      "otherShapes": {
+        "indeterminate": [
+          "bywać"
+        ]
+      }
     }
   },
   {
@@ -2202,7 +2204,9 @@
         "to run[i]"
       ]
     },
-    "otherShapes": {}
+    "extra": {
+      "otherShapes": {}
+    }
   },
   {
     "lemma": "biec",
@@ -3063,10 +3067,12 @@
         "to fall[i]"
       ]
     },
-    "otherShapes": {
-      "imperfective": [
-        "upadać"
-      ]
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "upadać"
+        ]
+      }
     }
   },
   {
@@ -4147,7 +4153,9 @@
         "to count"
       ]
     },
-    "otherShapes": {}
+    "extra": {
+      "otherShapes": {}
+    }
   },
   {
     "lemma": "liczyć",
@@ -5481,9 +5489,9 @@
         "Wolisz brunetki czy blondynki? ― Do you prefer brunettes or blondes?",
         "Wolę jeździć na rowerze niż pływać. ― I prefer cycling to swimming.",
         "Wolałbym umrzeć. ― I would prefer to die."
-      ]
-    },
-    "otherShapes": {}
+      ],
+      "otherShapes": {}
+    }
   },
   {
     "lemma": "dziać",
@@ -5591,16 +5599,18 @@
         "to happen[r]"
       ]
     },
-    "derivedTerms": [
-      "(ver) nadziewać nadziać podziewać podziać przywdziewać przywdziać spodziewać",
-      "(nou) dzianie dzianina dzieje nadzieja nadzienie",
-      "(adj) dziejowy",
-      "references ^ k. nitsch , editor (1957), “ dziać, dzieć, dziejać ”, in słownik staropolski (in old polish), volume 2, warsaw, kraków polish academy of sciences , page 252"
-    ],
-    "otherShapes": {
-      "perfective": [
-        "stać się"
-      ]
+    "extra": {
+      "derivedTerms": [
+        "(ver) nadziewać nadziać podziewać podziać przywdziewać przywdziać spodziewać",
+        "(nou) dzianie dzianina dzieje nadzieja nadzienie",
+        "(adj) dziejowy",
+        "references ^ k. nitsch , editor (1957), “ dziać, dzieć, dziejać ”, in słownik staropolski (in old polish), volume 2, warsaw, kraków polish academy of sciences , page 252"
+      ],
+      "otherShapes": {
+        "perfective": [
+          "stać się"
+        ]
+      }
     }
   },
   {
@@ -6243,9 +6253,9 @@
       "derivedTerms": [
         "(ver) naumieć rozumieć zrozumieć zdumiewać zdumieć",
         "(nou) um rozum [Term?]"
-      ]
-    },
-    "otherShapes": {}
+      ],
+      "otherShapes": {}
+    }
   },
   {
     "lemma": "móc",
@@ -6358,9 +6368,9 @@
         "(nou) możność możny",
         "(adj) możliwy możny",
         "(nou) moc"
-      ]
-    },
-    "otherShapes": {}
+      ],
+      "otherShapes": {}
+    }
   },
   {
     "lemma": "móc",
@@ -6473,9 +6483,9 @@
         "(nou) możność możny",
         "(adj) możliwy możny",
         "(nou) moc"
-      ]
-    },
-    "otherShapes": {}
+      ],
+      "otherShapes": {}
+    }
   },
   {
     "lemma": "móc",
@@ -6590,9 +6600,9 @@
         "(nou) możność możny",
         "(adj) możliwy możny",
         "(nou) moc"
-      ]
-    },
-    "otherShapes": {}
+      ],
+      "otherShapes": {}
+    }
   },
   {
     "lemma": "chcieć",
@@ -7074,9 +7084,9 @@
         "(ver) poić",
         "(nou) piwo napój",
         "noun pić genitive plural of picie"
-      ]
-    },
-    "otherShapes": {}
+      ],
+      "otherShapes": {}
+    }
   },
   {
     "lemma": "ugotować",
@@ -7676,13 +7686,15 @@
         "to need"
       ]
     },
-    "derivedTerms": [
-      "(nou) potrzeba potrzebujący",
-      "(adj) potrzebny",
-      "( adverb ) potrzebnie",
-      "(ver) trzeba trza"
-    ],
-    "otherShapes": {}
+    "extra": {
+      "derivedTerms": [
+        "(nou) potrzeba potrzebujący",
+        "(adj) potrzebny",
+        "( adverb ) potrzebnie",
+        "(ver) trzeba trza"
+      ],
+      "otherShapes": {}
+    }
   },
   {
     "lemma": "musieć",
@@ -7789,9 +7801,9 @@
       ],
       "derivedTerms": [
         "(ver) przymuszać przymusić zmuszać zmusić"
-      ]
-    },
-    "otherShapes": {}
+      ],
+      "otherShapes": {}
+    }
   },
   {
     "lemma": "przynieść",
@@ -8367,13 +8379,15 @@
         "to go down[i]"
       ]
     },
-    "derivedTerms": [
-      "schodzić na psy zejść na psy schodzić z obłoków zejść z obłoków"
-    ],
-    "otherShapes": {
-      "perfective": [
-        "zejść"
-      ]
+    "extra": {
+      "derivedTerms": [
+        "schodzić na psy zejść na psy schodzić z obłoków zejść z obłoków"
+      ],
+      "otherShapes": {
+        "perfective": [
+          "zejść"
+        ]
+      }
     }
   },
   {
@@ -9571,9 +9585,9 @@
         "schodzić impf zejść pf",
         "see also chadzać",
         "iść"
-      ]
-    },
-    "otherShapes": {}
+      ],
+      "otherShapes": {}
+    }
   },
   {
     "lemma": "chodzić",
@@ -9708,9 +9722,9 @@
         "schodzić impf zejść pf",
         "see also chadzać",
         "iść"
-      ]
-    },
-    "otherShapes": {}
+      ],
+      "otherShapes": {}
+    }
   },
   {
     "lemma": "jechać",
