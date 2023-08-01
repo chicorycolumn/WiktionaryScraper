@@ -5511,14 +5511,34 @@
     ]
   },
   {
-    "key": "ver-0263-paint",
+    "key": "ver-0263-paint(wall)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0446-paint"
+        "eng-ver-0446-paint(wall)"
       ],
       "POL": [
-        "pol-ver-0498-malować"
+        "pol-ver-0498-malować(wall)",
+        "pol-ver-0499-pomalować"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "art"
+    ]
+  },
+  {
+    "key": "ver-0264-paint(picture)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0446-paint(picture)"
+      ],
+      "POL": [
+        "pol-ver-0498-malować(picture)",
+        "pol-ver-0499-namalować"
       ]
     },
     "papers": [
