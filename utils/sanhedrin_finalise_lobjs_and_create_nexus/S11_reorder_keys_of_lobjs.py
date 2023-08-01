@@ -41,7 +41,14 @@ if __name__ == '__main__':
                 "inflections", "translations", "extra", "derivedTerms", "otherShapes"]
     }
 
-    move_these_keys_to_extra = ["derivedTerms", "otherShapes"]
+    move_these_keys_to_extra_ref = {
+        "ver": ["derivedTerms", "otherShapes"]
+    }
+
+    if wordtype in move_these_keys_to_extra_ref:
+        move_these_keys_to_extra = move_these_keys_to_extra_ref[wordtype]
+    else:
+        move_these_keys_to_extra = []
 
     inflection_keys = inflection_keys_ref[wordtype]
 
