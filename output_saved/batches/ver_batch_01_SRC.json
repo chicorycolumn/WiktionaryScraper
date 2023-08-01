@@ -98572,7 +98572,7 @@
   },
   {
     "lemma": "powieść",
-    "id": "pol-ver-0790-powieść(powodzi mi się)",
+    "id": "pol-ver-0790-powieść",
     "tags": [
       "positive judgment",
       "concrete"
@@ -98684,6 +98684,116 @@
     },
     "frequency": 4,
     "register": 0
+  },
+    {
+    "lemma": "powodzić",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "tags": [
+      "positive judgment",
+      "concrete"
+    ],
+    "topics": [
+      "judgment",
+      "school",
+      "work"
+    ],
+        "frequency": 4,
+    "register": 0
+    "id": "pol-ver-0790-powodzić(powodzi mi się)",
+    "translations": {
+      "ENG": [
+        "to succeed (powodzi [C] się)"
+      ]
+    },
+    "inflections": {
+      "infinitive": "powodzić",
+      "verbalNoun": "powodzenie",
+      "activeAdjectival": "powodzący",
+      "passiveAdjectival": "powodzony",
+      "contemporaryAdverbial": "powodząc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "powódź",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "powodzono"
+            },
+            "plural": {
+              "allPluralGenders": "powodzono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "powodziłem",
+              "f": "powodziłam"
+            },
+            "plural": {
+              "virile": "powodziliśmy",
+              "nonvirile": "powodziłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "powodziłeś",
+              "f": "powodziłaś"
+            },
+            "plural": {
+              "virile": "powodziliście",
+              "nonvirile": "powodziłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "powodził",
+              "f": "powodziła",
+              "n": "powodziło"
+            },
+            "plural": {
+              "virile": "powodzili",
+              "nonvirile": "powodziły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "powodzi się"
+            },
+            "plural": {
+              "allPluralGenders": "powodzi się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "powodzę"
+            },
+            "plural": {
+              "allPluralGenders": "powodzimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "powodzisz"
+            },
+            "plural": {
+              "allPluralGenders": "powodzicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "powodzi"
+            },
+            "plural": {
+              "allPluralGenders": "powodzą"
+            }
+          }
+        }
+      }
+    }
   },
   {
     "lemma": "przełknąć",
