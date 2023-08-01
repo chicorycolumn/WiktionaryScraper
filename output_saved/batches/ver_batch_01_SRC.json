@@ -129,28 +129,24 @@
           "1per": {
             "singular": {
               "allSingularGenders": [
-                "jestem",
-                "-m"
+                "jestem"
               ]
             },
             "plural": {
               "allPluralGenders": [
-                "jesteśmy",
-                "-śmy"
+                "jesteśmy"
               ]
             }
           },
           "2per": {
             "singular": {
               "allSingularGenders": [
-                "jesteś",
-                "-ś"
+                "jesteś"
               ]
             },
             "plural": {
               "allPluralGenders": [
-                "jesteście",
-                "-ście"
+                "jesteście"
               ]
             }
           },
@@ -78901,7 +78897,7 @@
     },
     "inflections": {
       "infinitive": "podejść",
-      "verbalNoun": "-",
+      "verbalNoun": "podejście",
       "activeAdjectival": false,
       "passiveAdjectival": false,
       "contemporaryAdverbial": false,
@@ -78944,14 +78940,6 @@
         },
         "imperative": "podejdź",
         "past": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "-"
-            },
-            "plural": {
-              "allPluralGenders": "-"
-            }
-          },
           "1per": {
             "singular": {
               "m": "podszedłem",
