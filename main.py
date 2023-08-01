@@ -32,7 +32,7 @@ if __name__ == '__main__':
         "pomalować",
         "odrzucać",
         "spalić",
-        "zapamiętać",
+
         "powodzić",
 
 
