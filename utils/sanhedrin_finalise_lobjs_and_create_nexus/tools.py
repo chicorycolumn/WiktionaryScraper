@@ -621,7 +621,10 @@ def get_signalwords(lobjs):
 def get_signalword(id):
     if "(" in id:
         ending = id[id.index("(") + 1:]
-        return ending[:ending.index(")")]
+        signalword = ending[:ending.index(")")]
+        if signalword[0] == "*":
+            return signalword[1:]
+        return signalword
 
 
 def test_signalword(s):
