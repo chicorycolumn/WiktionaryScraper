@@ -29,8 +29,7 @@
       ],
       "POL": [
         "pol-adj-0002-kiepski",
-        "pol-adj-0003-zły(bad)",
-        "pol-adj-0153-niedobry(bad)"
+        "pol-adj-0003-zły(bad)"
       ]
     },
     "papers": [
@@ -46,11 +45,12 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0006-evil"
+        "eng-adj-0006-evil",
+        "eng-adj-0265-wicked"
       ],
       "POL": [
         "pol-adj-0004-zły(evil)",
-        "pol-adj-0154-niedobry(unkind)"
+        "pol-adj-0743-niegodziwy"
       ]
     },
     "papers": [
@@ -61,7 +61,9 @@
     ],
     "topics": [
       "judgment",
-      "people"
+      "people",
+      "fantasy",
+      "philosophy and ethics"
     ]
   },
   {
@@ -1273,8 +1275,7 @@
         "pol-adj-0069-błędny",
         "pol-adj-0124-niepoprawny",
         "pol-adj-0140-niewłaściwy(wrong)",
-        "pol-adj-0145-nieprawidłowy(incorrect)",
-        "pol-adj-0153-niedobry(bad)"
+        "pol-adj-0145-nieprawidłowy(incorrect)"
       ]
     },
     "papers": [
@@ -3733,7 +3734,7 @@
       ],
       "POL": [
         "pol-adj-0232-pikantny",
-        "pol-adj-0234-ostry(hot)"
+        "pol-adj-0234-ostry(spicy)"
       ]
     },
     "papers": [
@@ -4322,7 +4323,6 @@
         "eng-adj-0411-unpleasant"
       ],
       "POL": [
-        "pol-adj-0154-niedobry(unkind)",
         "pol-adj-0268-niemiły",
         "pol-adj-0648-nieprzyjemny"
       ]
@@ -11660,28 +11660,6 @@
     ],
     "topics": [
       "spatial"
-    ]
-  },
-  {
-    "key": "adj-0567-wicked",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-adj-0265-wicked"
-      ],
-      "POL": [
-        "pol-adj-0154-niedobry(unkind)",
-        "pol-adj-0743-niegodziwy"
-      ]
-    },
-    "papers": [
-      "concrete",
-      "negative judgment"
-    ],
-    "topics": [
-      "judgment",
-      "fantasy",
-      "philosophy and ethics"
     ]
   },
   {
