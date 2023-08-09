@@ -54,13 +54,15 @@ if __name__ == '__main__':
     sorted_lobjs["F5"] = [l for l in lobjs if int(l["frequency"]) == 5]
 
     print("")
-    for num in [1,2,3,4,5]:
-        c.print_inside_rainbow(f'                     {len(sorted_lobjs["F" + str(num)])} lobjs with frequency category {str(num)}.')
+    for num in [1, 2, 3, 4, 5]:
+        c.print_inside_rainbow(
+            f'                     {len(sorted_lobjs["F" + str(num)])} lobjs with frequency category {str(num)}.')
 
         temp_arr = []
 
         for lebindex, leb in enumerate(sorted_lobjs["F" + str(num)]):
-            if to_change_lobjs[f"F{str(num)} done up to"] > 0 and lebindex <= to_change_lobjs[f"F{str(num)} done up to"]:
+            if to_change_lobjs[f"F{str(num)} done up to"] > 0 and lebindex <= to_change_lobjs[
+                f"F{str(num)} done up to"]:
                 print("Already done", lebindex)
                 continue
 
@@ -91,14 +93,14 @@ if __name__ == '__main__':
 
     c.print_inside_rainbow("* * * * * * * * *             NOW APPLYING CHANGES            * * * * * * * * *")
 
-    for num in [1,2,3,4,5]:
+    for num in [1, 2, 3, 4, 5]:
         ids_of_lobjs_to_change = to_change_lobjs[f"F{str(num)}"]
         print(len(ids_of_lobjs_to_change), "lobjs to change to frequency", c.bold(str(num)))
 
         for ids_of_lobj_to_change in ids_of_lobjs_to_change:
             for lobj in lobjs:
                 if lobj["id"] == ids_of_lobj_to_change:
-                   lobj["frequency"] = num
+                    lobj["frequency"] = num
 
     print("Completely done.")
     save(lobjs)

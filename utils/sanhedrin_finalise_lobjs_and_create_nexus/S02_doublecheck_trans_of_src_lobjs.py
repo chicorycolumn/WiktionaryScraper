@@ -46,7 +46,8 @@ if __name__ == '__main__':
         print(f"{src_lobj_index + 1}/{len(src_lobjs)}")
 
         if ready:
-            user_validate_translations(src_lobj_index, src_lobj, doublechecked_src_lobjs, save, target_lang, cmd_history)
+            user_validate_translations(src_lobj_index, src_lobj, doublechecked_src_lobjs, save, target_lang,
+                                       cmd_history)
         else:
             if not ready and compare_lobj_id_root(src_lobj["id"], id_of_last_done_src_lobj):
                 print(c.green(src_lobj["id"]), "is last item from tempsave.")

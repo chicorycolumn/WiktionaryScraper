@@ -74,7 +74,7 @@ if __name__ == '__main__':
         if lindex % 10 == 1:
             save(done_lobjs, True)
 
-        print(f"{lindex+1}/{len(lobjs_without_freq)}")
+        print(f"{lindex + 1}/{len(lobjs_without_freq)}")
         lobj["frequency"] = get_freq(lobj)
 
     print("Completely done.")

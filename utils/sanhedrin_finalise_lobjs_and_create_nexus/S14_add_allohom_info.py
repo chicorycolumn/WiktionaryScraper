@@ -37,7 +37,7 @@ if __name__ == '__main__':
         if index and index % 10 == 0:
             save(lobjs)
         print(f"{index + 1}/{len(to_do_lobjs)}")
-        add_allohom_info(lobj, [l["id"] for l in to_do_lobjs[index+1:index+4]])
+        add_allohom_info(lobj, [l["id"] for l in to_do_lobjs[index + 1:index + 4]])
 
     save(lobjs)
 

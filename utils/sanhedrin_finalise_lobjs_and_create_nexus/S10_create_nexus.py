@@ -1,6 +1,7 @@
 from parsers.common import scrape_word_data
 from utils.general.common import write_todo
-from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, add_signalwords, get_signalword, test_signalword
+from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, add_signalwords, \
+    get_signalword, test_signalword
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
 from utils.universal import color as c, get_curried_save, load_data
@@ -111,9 +112,9 @@ if __name__ == '__main__':
         new_nexus_obj = {
             "key": new_nexus_id,
             "traductions": {
-              "SPA": [],
-              "ENG": sorted(record["tgt"]),
-              "POL": sorted(record["src"])
+                "SPA": [],
+                "ENG": sorted(record["tgt"]),
+                "POL": sorted(record["src"])
             },
             "papers": record["tags"],
             "topics": record["topics"]

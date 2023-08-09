@@ -39,10 +39,12 @@ if __name__ == '__main__':
     tgt_save = get_curried_save(output_path_tgt, tempsave_path_tgt)
     src_save = get_curried_save(None, tempsave_path_src)
 
+
     def save(temp: bool = False):
         if not input_override:
             tgt_save(all_new_tgt_lobjs, temp)
             src_save(done_src_lobjs, True)
+
 
     src_lobjs = load_data(input_path)
 
@@ -69,7 +71,8 @@ if __name__ == '__main__':
         for tindex, t in enumerate(src_lobj["translations"][target_lang]):
             print("")
             print("")
-            print("          Part 1: Check trans", c.blue(t), f'{tindex + 1}/{len(src_lobj["translations"][target_lang])}',
+            print("          Part 1: Check trans", c.blue(t),
+                  f'{tindex + 1}/{len(src_lobj["translations"][target_lang])}',
                   "     for", c.blue(src_lobj["id"]))
 
             this_t_now_done = False
@@ -95,7 +98,8 @@ if __name__ == '__main__':
                         for target in targets:
                             if src_lobj["id"] not in target["»trans"]:
                                 print("")
-                                print("               Added1", c.blue(src_lobj["id"]), "to trans of", c.blue(target["id"]))
+                                print("               Added1", c.blue(src_lobj["id"]), "to trans of",
+                                      c.blue(target["id"]))
                                 target["»trans"].append(src_lobj["id"])
                             if pell["id"] not in target["»trans"]:
                                 print("")
@@ -129,9 +133,11 @@ if __name__ == '__main__':
 
                                 if is_the_same:
                                     print("")
-                                    print("}", c.blue(src_lobj["id"]), "same as", c.blue(slob["id"]), "due to", is_the_same)
+                                    print("}", c.blue(src_lobj["id"]), "same as", c.blue(slob["id"]), "due to",
+                                          is_the_same)
                                     print("")
-                                    print("STOP with t", c.blue(t), "because already exist TARGET lobj", c.blue(targlem["id"]),
+                                    print("STOP with t", c.blue(t), "because already exist TARGET lobj",
+                                          c.blue(targlem["id"]),
                                           targlem["»trans"])
 
                                     have_found_one_with_same_meaning = True

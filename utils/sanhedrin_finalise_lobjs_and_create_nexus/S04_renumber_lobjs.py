@@ -27,11 +27,14 @@ if __name__ == '__main__':
 
     src_lobjs = load_data(input_path)
 
+
     def check():
         if suffix == "SRC":
-            user_input = input("If you've already created TGT lobjs with stage S4 then don't run\nthis stage for SRC because it will break the connections to these IDs in the »trans key of TGT lobjs.\nIf you want to proceed, type 'yes'.")
+            user_input = input(
+                "If you've already created TGT lobjs with stage S4 then don't run\nthis stage for SRC because it will break the connections to these IDs in the »trans key of TGT lobjs.\nIf you want to proceed, type 'yes'.")
             return user_input == "yes"
         return True
+
 
     if check():
         for src_lobj in src_lobjs:

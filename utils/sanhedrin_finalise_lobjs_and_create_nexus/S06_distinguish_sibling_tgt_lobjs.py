@@ -1,6 +1,7 @@
 from parsers.common import scrape_word_data
 from utils.general.common import write_todo
-from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, add_signalwords, get_signalword, test_signalword
+from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, add_signalwords, \
+    get_signalword, test_signalword
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
 from utils.universal import color as c, get_curried_save, load_tempsave_if_exists
@@ -21,6 +22,7 @@ if __name__ == '__main__':
     c.print_teal("input_path    =     " + c.teal(input_path))
     c.print_teal("tempsave_path =     " + c.teal(tempsave_path))
     c.print_teal("Output path will be the same as input.")
+
 
     def save(tgt_lobjs, temp: bool = False):
         print(f"Got {len(tgt_lobjs)} members.")
@@ -48,6 +50,7 @@ if __name__ == '__main__':
         print(f"Got {len(res)} members.")
 
         _save(res, temp)
+
 
     tgt_lobjs = load_tempsave_if_exists(tempsave_path, input_path)
     siblings = []

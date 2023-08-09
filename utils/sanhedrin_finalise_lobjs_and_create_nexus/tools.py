@@ -51,7 +51,8 @@ def print_conf_no():
     print("")
 
 
-def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_anticipated, input_override, save_fxn, target_lang):
+def is_it_the_same_meaning(lobj_1, lobj_2, input_counter, matches_record, total_anticipated, input_override, save_fxn,
+                           target_lang):
     for match_record in matches_record["YES"]:
         if len(match_record) == 2 and lobj_1["id"] in match_record and lobj_2["id"] in match_record:
             return "ALREADY CONFIRMED"
@@ -176,7 +177,7 @@ def add_signalword_automatically(lobj_A, trans_for_lobj_A, trans_of_lobj_B):
 def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang, cmd_history):
     def restart():
         return user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang, cmd_history)
-    
+
     def show_helptext():
         print("")
         c.print_teal("--------------------------------------------------------------------")
@@ -199,11 +200,13 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang,
         c.print_teal('a table.tennis  : ADD translations eg "table tennis".')
         c.print_teal("d24    : DELETE translations at eg indexes 2 and 4.")
         c.print_teal("s24    : SPLIT translations at eg indexes 2 and 4 to a new lobj for this lemma.")
-        c.print_teal("S24    : SPLIT translations at eg indexes 2 and 4 to a new lobj for this lemma but keep them in original lobj also.")
+        c.print_teal(
+            "S24    : SPLIT translations at eg indexes 2 and 4 to a new lobj for this lemma but keep them in original lobj also.")
         c.print_teal(
             "s24S3  : Translations at eg indexes 2 and 4 are for new lobj, at index 3 is for both original and new lobjs.")
         c.print_teal("s      : SPLIT each translation to a new lobj for this lemma.")
-        c.print_teal("$ [1,2] [1,2,3] [2,3]      : SPLIT these numbered translations into these new lobjs for this lemma.")
+        c.print_teal(
+            "$ [1,2] [1,2,3] [2,3]      : SPLIT these numbered translations into these new lobjs for this lemma.")
         print("--------------------------------------------------------------------")
         print("")
         restart()
@@ -225,7 +228,8 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang,
         save_fxn(res, True)
 
     show1(lobj, target_lang)
-    user_input = input("OK?   Enter for yes   Any key for no   a for Add   a then + for additional spellings   h for help\n")
+    user_input = input(
+        "OK?   Enter for yes   Any key for no   a for Add   a then + for additional spellings   h for help\n")
 
     if not user_input:
         add_to_res(lobj)
@@ -238,7 +242,7 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang,
     if user_input[0] == "q":
         if user_input[1] == "q":
             c.print_yellow("COMMAND HISTORY")
-            for ind in range(1,5):
+            for ind in range(1, 5):
                 if len(cmd_history) >= ind:
                     print(f"q{ind}", c.yellow(cmd_history[-ind]))
             time.sleep(0.8)
@@ -307,16 +311,17 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang,
         if user_input == "s":
             user_input = "$"
             for i in range(len(lobj["translations"][target_lang])):
-                user_input += f" [{i+1}]"
+                user_input += f" [{i + 1}]"
 
         if user_input[0] == "$":
             new_index_sets_per_lobj = []
             user_input = user_input[2:].split(" ")
             for indices_string in user_input:
-                indices = [int(char)-1 for char in indices_string[1:-1].split(",")]
+                indices = [int(char) - 1 for char in indices_string[1:-1].split(",")]
                 new_index_sets_per_lobj.append(indices)
             print("new_index_sets_per_lobj", new_index_sets_per_lobj)
-            new_trans_sets_per_lobj = [[lobj["translations"][target_lang][index] for index in new_index_set_per_lobj] for new_index_set_per_lobj in new_index_sets_per_lobj]
+            new_trans_sets_per_lobj = [[lobj["translations"][target_lang][index] for index in new_index_set_per_lobj]
+                                       for new_index_set_per_lobj in new_index_sets_per_lobj]
             print("new_trans_sets_per_lobj", new_trans_sets_per_lobj)
 
             print("")
@@ -499,7 +504,7 @@ def add_signalwords(sibling_set):
 def get_signalwords(lobjs):
     def restart():
         return get_signalwords(lobjs)
-    
+
     if len(lobjs) < 2:
         print("NO LONGER SIBLINGS")
         for lobj in lobjs:
@@ -535,7 +540,8 @@ def get_signalwords(lobjs):
     failed_character_check = False
     indexes_of_lobjs_to_merge = []
 
-    if user_input[0:5] == "merge" or user_input in ["m", "merge"] or (user_input[0] == "m" and user_input[1] in "1234567890"):
+    if user_input[0:5] == "merge" or user_input in ["m", "merge"] or (
+            user_input[0] == "m" and user_input[1] in "1234567890"):
         if user_input == "m":
             if len(lobjs):
                 num = 0
@@ -645,7 +651,7 @@ def test_signalword(s):
     return True
 
 
-def get_freq(lobj, prompt = None, allow_null: bool = False):
+def get_freq(lobj, prompt=None, allow_null: bool = False):
     if not prompt:
         prompt = f'Enter frequency 1-5 for {c.purple(lobj["lemma"])} {c.blue(lobj["id"])}\n'
 
