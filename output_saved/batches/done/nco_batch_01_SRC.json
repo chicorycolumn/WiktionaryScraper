@@ -916,7 +916,12 @@
       }
     },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    }
   },
   {
     "lemma": "słownik",
@@ -957,7 +962,12 @@
     },
     "frequency": 4,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0017-słownik(dictionary)"
+    "inflectionsRoot": "pol-nco-0017-słownik(dictionary)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "psychological",
+      "emoji": "🧠"
+    }
   },
   {
     "lemma": "tor",
@@ -1716,7 +1726,12 @@
       }
     },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    }
   },
   {
     "lemma": "droga",
@@ -1756,7 +1771,12 @@
     },
     "frequency": 3,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0032-droga(way)"
+    "inflectionsRoot": "pol-nco-0032-droga(way)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    }
   },
   {
     "lemma": "kot",
@@ -4765,7 +4785,7 @@
   },
   {
     "lemma": "lato",
-    "id": "pol-nco-0092-lato(summer)",
+    "id": "pol-nco-0092-lato",
     "tags": [],
     "topics": [
       "time"
@@ -5706,7 +5726,12 @@
       }
     },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    }
   },
   {
     "lemma": "kula",
@@ -5736,7 +5761,12 @@
     },
     "frequency": 5,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0110-kula(shape)"
+    "inflectionsRoot": "pol-nco-0110-kula(shape)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    }
   },
   {
     "lemma": "kara",
@@ -5966,7 +5996,12 @@
       }
     },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "dream",
+      "emoji": "💭"
+    }
   },
   {
     "lemma": "sen",
@@ -5995,7 +6030,12 @@
     },
     "frequency": 2,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0116-sen(dream)"
+    "inflectionsRoot": "pol-nco-0116-sen(dream)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "sleep",
+      "emoji": "💤"
+    }
   },
   {
     "lemma": "długość",
@@ -6040,7 +6080,12 @@
       }
     },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    }
   },
   {
     "lemma": "długość",
@@ -6067,7 +6112,12 @@
     },
     "frequency": 4,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0118-długość(length)"
+    "inflectionsRoot": "pol-nco-0118-długość(length)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "time",
+      "emoji": "🕒"
+    }
   },
   {
     "lemma": "widelec",
@@ -7373,7 +7423,12 @@
       }
     },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "location",
+      "emoji": "📍"
+    }
   },
   {
     "lemma": "kasa",
@@ -7398,7 +7453,12 @@
     },
     "frequency": 4,
     "register": 6,
-    "inflectionsRoot": "pol-nco-0144-kasa(cash desk)"
+    "inflectionsRoot": "pol-nco-0144-kasa(cash desk)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    }
   },
   {
     "lemma": "aura",
@@ -7620,7 +7680,12 @@
       }
     },
     "frequency": 3,
-    "register": 8
+    "register": 8,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "curseword",
+      "emoji": "🤬️"
+    }
   },
   {
     "lemma": "cement",
@@ -9166,7 +9231,12 @@
       }
     },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    }
   },
   {
     "lemma": "obraz",
@@ -9201,7 +9271,12 @@
     },
     "frequency": 3,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0182-obraz(image)"
+    "inflectionsRoot": "pol-nco-0182-obraz(image)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    }
   },
   {
     "lemma": "imię",
@@ -9743,7 +9818,12 @@
       }
     },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "law",
+      "emoji": "🗽"
+    }
   },
   {
     "lemma": "prawo",
@@ -9772,7 +9852,12 @@
     },
     "frequency": 4,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0194-prawo(law)"
+    "inflectionsRoot": "pol-nco-0194-prawo(law)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "right",
+      "emoji": "⛓️"
+    }
   },
   {
     "lemma": "ciało",
@@ -10159,7 +10244,12 @@
       }
     },
     "frequency": 1,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "day",
+      "emoji": "📅"
+    }
   },
   {
     "lemma": "dzień",
@@ -10204,7 +10294,12 @@
     },
     "frequency": 1,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0201-dzień(day)"
+    "inflectionsRoot": "pol-nco-0201-dzień(day)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "daytime",
+      "emoji": "🌅"
+    }
   },
   {
     "lemma": "dolar",
@@ -10483,7 +10578,12 @@
       }
     },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    }
   },
   {
     "lemma": "waga",
@@ -10528,7 +10628,12 @@
     },
     "frequency": 4,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0207-waga(physical)"
+    "inflectionsRoot": "pol-nco-0207-waga(physical)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    }
   },
   {
     "lemma": "ocet",
@@ -10620,7 +10725,12 @@
       }
     },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "danger",
+      "emoji": "☠️"
+    }
   },
   {
     "lemma": "wypadek",
@@ -10646,7 +10756,12 @@
     },
     "frequency": 3,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0210-wypadek(accident)"
+    "inflectionsRoot": "pol-nco-0210-wypadek(accident)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "time",
+      "emoji": "🕒"
+    }
   },
   {
     "lemma": "ciasto",
@@ -10695,7 +10810,12 @@
       }
     },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "cake",
+      "emoji": "🍰"
+    }
   },
   {
     "lemma": "ciasto",
@@ -10725,7 +10845,12 @@
     },
     "frequency": 4,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0212-ciasto(cake)"
+    "inflectionsRoot": "pol-nco-0212-ciasto(cake)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "dough",
+      "emoji": "🍞"
+    }
   },
   {
     "lemma": "esej",
@@ -10899,7 +11024,12 @@
       }
     },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "female body part",
+      "emoji": "🤱"
+    }
   },
   {
     "lemma": "pierś",
@@ -10925,7 +11055,12 @@
     },
     "frequency": 3,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0217-pierś(breast)"
+    "inflectionsRoot": "pol-nco-0217-pierś(breast)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
   },
   {
     "lemma": "wrzesień",
@@ -11627,7 +11762,12 @@
       }
     },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "location",
+      "emoji": "📍"
+    }
   },
   {
     "lemma": "granica",
@@ -11656,7 +11796,12 @@
     },
     "frequency": 3,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0231-granica(border)"
+    "inflectionsRoot": "pol-nco-0231-granica(border)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
   },
   {
     "lemma": "śniadanie",
@@ -12944,7 +13089,12 @@
       }
     },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "psychological",
+      "emoji": "🧠"
+    }
   },
   {
     "lemma": "cel",
@@ -12974,7 +13124,12 @@
     },
     "frequency": 4,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0255-cel(goal)"
+    "inflectionsRoot": "pol-nco-0255-cel(goal)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "direction",
+      "emoji": "📍"
+    }
   },
   {
     "lemma": "wiek",
@@ -13017,7 +13172,12 @@
       }
     },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
   },
   {
     "lemma": "wiek",
@@ -13041,7 +13201,12 @@
     },
     "frequency": 2,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0257-wiek(age)"
+    "inflectionsRoot": "pol-nco-0257-wiek(age)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "hundred years",
+      "emoji": "📅"
+    }
   },
   {
     "lemma": "łabędź",
@@ -13544,7 +13709,12 @@
       }
     },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
   },
   {
     "lemma": "kosz",
@@ -13578,7 +13748,12 @@
     },
     "frequency": 3,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0267-kosz(basket)"
+    "inflectionsRoot": "pol-nco-0267-kosz(basket)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "for rubbish",
+      "emoji": "🗑️"
+    }
   },
   {
     "lemma": "styczeń",
@@ -13706,7 +13881,12 @@
       }
     },
     "frequency": 1,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
   },
   {
     "lemma": "pani",
@@ -13728,7 +13908,12 @@
     "gender": "f",
     "frequency": 1,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0271-pani(woman)"
+    "inflectionsRoot": "pol-nco-0271-pani(woman)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "title",
+      "emoji": "🙇"
+    }
   },
   {
     "lemma": "naleśnik",
@@ -14382,7 +14567,12 @@
       }
     },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "hand",
+      "emoji": "✋"
+    }
   },
   {
     "lemma": "ręka",
@@ -14441,7 +14631,12 @@
     },
     "frequency": 2,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0286-ręka(hand)"
+    "inflectionsRoot": "pol-nco-0286-ręka(hand)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "arm",
+      "emoji": "💪"
+    }
   },
   {
     "lemma": "wielbłąd",
@@ -14752,7 +14947,12 @@
       }
     },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    }
   },
   {
     "lemma": "niebo",
@@ -14788,7 +14988,12 @@
     },
     "frequency": 3,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0293-niebo(sky)"
+    "inflectionsRoot": "pol-nco-0293-niebo(sky)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    }
   },
   {
     "lemma": "pociąg",
@@ -15830,7 +16035,12 @@
       }
     },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
+    }
   },
   {
     "lemma": "rada",
@@ -15869,7 +16079,12 @@
     },
     "frequency": 4,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0312-rada(council)"
+    "inflectionsRoot": "pol-nco-0312-rada(council)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    }
   },
   {
     "lemma": "miska",
@@ -16869,7 +17084,12 @@
       }
     },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "location",
+      "emoji": "📍"
+    }
   },
   {
     "lemma": "scena",
@@ -16898,7 +17118,12 @@
     },
     "frequency": 4,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0333-scena(stage)"
+    "inflectionsRoot": "pol-nco-0333-scena(stage)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    }
   },
   {
     "lemma": "plaża",
@@ -17001,7 +17226,12 @@
       }
     },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    }
   },
   {
     "lemma": "koło",
@@ -17033,7 +17263,12 @@
     },
     "frequency": 4,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0336-koło(circle)"
+    "inflectionsRoot": "pol-nco-0336-koło(circle)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    }
   },
   {
     "lemma": "ból",
@@ -17864,7 +18099,12 @@
       }
     },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
   },
   {
     "lemma": "klucz",
@@ -17918,7 +18158,12 @@
     },
     "frequency": 4,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0352-klucz(key)"
+    "inflectionsRoot": "pol-nco-0352-klucz(key)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "tool",
+      "emoji": "⚒️"
+    }
   },
   {
     "lemma": "jeż",
@@ -18561,7 +18806,12 @@
       }
     },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "of a bird",
+      "emoji": "🐦"
+    }
   },
   {
     "lemma": "pióro",
@@ -18592,7 +18842,12 @@
     },
     "frequency": 3,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0363-pióro(feather)"
+    "inflectionsRoot": "pol-nco-0363-pióro(feather)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "in school",
+      "emoji": "🎒"
+    }
   },
   {
     "lemma": "ochota",
@@ -18749,7 +19004,12 @@
       }
     },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
   },
   {
     "lemma": "sos",
@@ -18778,7 +19038,12 @@
     },
     "frequency": 4,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0367-sos(sauce)"
+    "inflectionsRoot": "pol-nco-0367-sos(sauce)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg for roast dinner",
+      "emoji": "🍗"
+    }
   },
   {
     "lemma": "łoś",
@@ -19103,7 +19368,12 @@
       }
     },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "animal",
+      "emoji": "🐕"
+    }
   },
   {
     "lemma": "wąż",
@@ -19138,7 +19408,12 @@
     },
     "frequency": 3,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0374-wąż(snake)"
+    "inflectionsRoot": "pol-nco-0374-wąż(snake)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "for gardening",
+      "emoji": "🌱"
+    }
   },
   {
     "lemma": "lustro",
@@ -19925,7 +20200,12 @@
       }
     },
     "frequency": 3,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
   },
   {
     "lemma": "broń",
@@ -19955,7 +20235,12 @@
     },
     "frequency": 3,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0390-broń(weapon)"
+    "inflectionsRoot": "pol-nco-0390-broń(weapon)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "specific",
+      "emoji": "🔫"
+    }
   },
   {
     "lemma": "duch",
@@ -20066,7 +20351,12 @@
       }
     },
     "frequency": 2,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "animal",
+      "emoji": "🐕"
+    }
   },
   {
     "lemma": "mysz",
@@ -20092,7 +20382,12 @@
     },
     "frequency": 3,
     "register": 0,
-    "inflectionsRoot": "pol-nco-0393-mysz(mouse)"
+    "inflectionsRoot": "pol-nco-0393-mysz(mouse)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "computing",
+      "emoji": "💻"
+    }
   },
   {
     "lemma": "prezent",
@@ -20551,7 +20846,12 @@
       }
     },
     "frequency": 4,
-    "register": 0
+    "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "location",
+      "emoji": "📍"
+    }
   },
   {
     "lemma": "zakład",

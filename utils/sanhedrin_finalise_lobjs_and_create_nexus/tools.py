@@ -763,6 +763,7 @@ allohom_infos = {
     "qu": {"singleWordtype": True, "text": "quality", "emoji": "✅"},
     "ma": {"singleWordtype": True, "text": "mathematical", "emoji": "🧮"},
     "di": {"singleWordtype": True, "text": "direction", "emoji": "📍"},
+    "lo": {"singleWordtype": True, "text": "location", "emoji": "📍"},
     "ti": {"singleWordtype": True, "text": "time", "emoji": "🕒"},
     "fr": {"singleWordtype": True, "text": "frequency", "emoji": "📅"},
     "mo": {'singleWordtype': True, 'text': 'money', 'emoji': '💵'},
@@ -779,7 +780,10 @@ allohom_infos = {
     "ea": {"singleWordtype": True, "text": "ease", "emoji": "🤔"},
     "po": {"singleWordtype": True, "text": "politics", "emoji": "🗽"},
     "tr": {"singleWordtype": True, "text": "truthiness", "emoji": "💬"},
-    "ap": {"singleWordtype": True, "text": "appearance", "emoji": "🧍"}
+    "ap": {"singleWordtype": True, "text": "appearance", "emoji": "🧍"},
+    "an": {"singleWordtype": True, "text": "animal", "emoji": "🐕"},
+    "co": {"singleWordtype": True, "text": "computing", "emoji": "💻"},
+    "sc": {"singleWordtype": True, "text": "in school", "emoji": "🎒"},
 }
 
 
