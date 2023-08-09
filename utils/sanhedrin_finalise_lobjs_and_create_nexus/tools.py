@@ -741,6 +741,79 @@ def compare_lobj_id_root(id1, id2):
     return id1 == id2
 
 
+allohom_info_template = {
+    "singleWordtype": True,
+    "text": "",
+    "emoji": ""
+}
+
+allohom_infos = {
+    "ab": {"singleWordtype": True, "text": "abstract", "emoji": "💭"},
+    "ph": {"singleWordtype": True, "text": "physical", "emoji": "🪨"},
+    "pe": {"singleWordtype": True, "text": "person", "emoji": "🏃"},
+    "ob": {"singleWordtype": True, "text": "object", "emoji": "📦"},
+    "fo": {"singleWordtype": True, "text": "food", "emoji": "🍲"},
+    "me": {"singleWordtype": True, "text": "medical", "emoji": "🩺"},
+    "qu": {"singleWordtype": True, "text": "quality", "emoji": "✅"},
+    "ma": {"singleWordtype": True, "text": "mathematical", "emoji": "🧮"},
+    "di": {"singleWordtype": True, "text": "direction", "emoji": "📍"},
+    "ti": {"singleWordtype": True, "text": "time", "emoji": "🕒"},
+    "fr": {"singleWordtype": True, "text": "frequency", "emoji": "📅"},
+    "mo": {'singleWordtype': True, 'text': 'money', 'emoji': '💵'},
+    "ge": {'singleWordtype': True, 'text': 'general', 'emoji': '🔲'},
+    "te": {'singleWordtype': True, 'text': 'texture', 'emoji': '🪨'},
+    "th": {'singleWordtype': True, 'text': 'temperature', 'emoji': '🌡️'},
+    "cu": {'singleWordtype': True, 'text': 'curseword', 'emoji': '🤬️'},
+    "li": {'singleWordtype': True, 'text': 'linguistics', 'emoji': '🔤'},
+    "ps": {'singleWordtype': True, 'text': 'psychological', 'emoji': '🧠'},
+    "py": {'singleWordtype': True, 'text': 'personality', 'emoji': '🧠'},
+    "ma": {"singleWordtype": True, "text": "mathematical", "emoji": "🧮"},
+    "tr": {"singleWordtype": True, "text": "truthiness", "emoji": "💬"},
+    "ac": {"singleWordtype": True, "text": "accuracy", "emoji": "✅"},
+    "ea": {"singleWordtype": True, "text": "ease", "emoji": "🤔"},
+    "po": {"singleWordtype": True, "text": "politics", "emoji": "🗽"},
+    "tr": {"singleWordtype": True, "text": "truthiness", "emoji": "💬"},
+    "ap": {"singleWordtype": True, "text": "appearance", "emoji": "🧍"}
+}
+
+
+def get_allohom_info():
+    template_keys = [k + allohom_infos[k]["text"][2:] for k in allohom_infos]
+    template_keys.sort()
+
+    print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[:10]]))
+    print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[10:20]]))
+    print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[20:]]))
+
+    user_input = input("Use first two letters of existing templates above, or enter new like so 'activity.🏕'\n")
+
+    if user_input in allohom_infos:
+        return allohom_infos[user_input]
+
+    if "." not in user_input:
+        return get_allohom_info()
+
+    user_input_split = user_input.split(".")
+    allohom_info = deepcopy(allohom_info_template)
+    allohom_info["text"] = user_input_split[0]
+    allohom_info["emoji"] = user_input_split[1]
+    return allohom_info
+
+
+def add_allohom_info(lobj, following_lobjs):
+    print("")
+    c.print_bold(f'CURRENT is             {lobj["id"]}')
+    for following_lobj in following_lobjs:
+        c.print_purple(f'                       {following_lobj}')
+    print("")
+
+    allohom_info = get_allohom_info()
+    print(c.green(allohom_info["text"]), allohom_info)
+    print("")
+    lobj["allohomInfo"] = allohom_info
+    time.sleep(0.8)
+
+
 reg_refs = [
     {"tag": "fancy", "num": 1},
     {"tag": "slang", "num": 6},

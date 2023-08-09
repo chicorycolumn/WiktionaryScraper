@@ -1,6 +1,6 @@
 from parsers.common import scrape_word_data
 from utils.general.common import write_todo
-from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q
+from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, add_allohom_info
 from utils.postprocessing.common import finalise_lemma_objects, add_tags_and_topics_from_shorthand
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 from utils.scraping.common import check_rescraped_against_existing
@@ -9,66 +9,13 @@ from utils.universal import color as c, get_curried_save, load_data
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "adj"
+    wordtype = "nco"
     batch = "01"
-    suffix = "TGT"
+    suffix = "SRC"
     # # # # # #
 
-    templates = {
-        "ab": {
-            "singleWordtype": True,
-            "text": "abstract",
-            "emoji": "💭"
-        },
-        "ph": {
-            "singleWordtype": True,
-            "text": "physical",
-            "emoji": "🪨"
-        },
-        "pe": {
-            "singleWordtype": True,
-            "text": "person",
-            "emoji": "🏃"
-        },
-        "ob": {
-            "singleWordtype": True,
-            "text": "object",
-            "emoji": "📦"
-        },
-        "fo": {
-            "singleWordtype": True,
-            "text": "food",
-            "emoji": "🍲"
-        },
-        "me": {
-            "singleWordtype": True,
-            "text": "medical",
-            "emoji": "🩺"
-        },
-        "qu": {
-            "singleWordtype": True,
-            "text": "quality",
-            "emoji": "✅"
-        },
-        "ma": {
-            "singleWordtype": True,
-            "text": "mathematical",
-            "emoji": "🧮"
-        },
-        "di": {
-            "singleWordtype": True,
-            "text": "direction",
-            "emoji": "📍"
-        },
-        "ti": {
-            "singleWordtype": True,
-            "text": "time",
-            "emoji": "🕒"
-        },
-    }
-
     input_filename = f"{wordtype}_batch_{batch}_{suffix}"
-    stem = "./../../output_saved/batches/"
+    stem = "./../../output_saved/batches/done/"
     input_path = f"{stem}{input_filename}"
     save = get_curried_save(input_path, None)
 
@@ -78,9 +25,19 @@ if __name__ == '__main__':
 
     lobjs = load_data(input_path)
 
+    to_do_lobjs = []
     for lobj in lobjs:
         if "(" in lobj["id"]:
+            if "allohomInfo" not in lobj or not lobj["allohomInfo"]:
+                to_do_lobjs.append(lobj)
 
+    c.print_bold(f"{len(to_do_lobjs)} need allohomInfo added.")
+
+    for index, lobj in enumerate(to_do_lobjs):
+        if index and index % 10 == 0:
+            save(lobjs)
+        print(f"{index + 1}/{len(to_do_lobjs)}")
+        add_allohom_info(lobj, [l["id"] for l in to_do_lobjs[index+1:index+4]])
 
     save(lobjs)
 

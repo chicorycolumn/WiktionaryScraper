@@ -129,7 +129,7 @@ It uses additionalSpellings that you manually type into this stage.
         - to manually resolve these artefacts
         Modifies "nou_batch_01_{tgt,src,nex}.json"
 
-3C-ii)  Do a final search in NEX, SRC, TGT files for     allohomInfo": null
+3C-ii)  Run "S14_add_allohom_info.py"
         - to manually create allohomInfo where needed
         Modifies "nou_batch_01_{tgt,src,nex}.json"
 
