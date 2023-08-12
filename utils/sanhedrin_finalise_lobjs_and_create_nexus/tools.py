@@ -793,9 +793,15 @@ allohom_infos = {
     "em": {"singleWordtype": True, "text": "employment", "emoji": "🏢"},
     "ro": {"singleWordtype": True, "text": "romantic", "emoji": "💕"},
     "dr": {"singleWordtype": True, "text": "driving", "emoji": "🚗"},
+    "si": {"singleWordtype": True, "text": "science", "emoji": "🧫"},
     "ch": {"singleWordtype": True, "text": "chemical", "emoji": "🧪"},
     "bi": {"singleWordtype": True, "text": "biology", "emoji": "🧬"},
     "pc": {"singleWordtype": True, "text": "physics", "emoji": "☄️"},
+    "we": {"singleWordtype": True, "text": "weather", "emoji": "☀️️"},
+    "tt": {"singleWordtype": True, "text": "transport", "emoji": "🚢️️"},
+    "fu": {"singleWordtype": True, "text": "furniture", "emoji": "🛋️️️"},
+    "dg": {"singleWordtype": True, "text": "drug", "emoji": "🚬️️️"},
+    "cr": {"singleWordtype": True, "text": "crafts", "emoji": "🧵️️"},
 }
 
 
@@ -805,7 +811,9 @@ def get_allohom_info():
 
     print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[:10]]))
     print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[10:20]]))
-    print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[20:]]))
+    print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[20:30]]))
+    print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[30:40]]))
+    print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[40:]]))
 
     user_input = input("Use first two letters of existing templates above, or enter new like so 'activity.🏕'\n")
 
