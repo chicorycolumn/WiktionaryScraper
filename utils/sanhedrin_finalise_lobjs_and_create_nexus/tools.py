@@ -802,6 +802,8 @@ allohom_infos = {
     "fu": {"singleWordtype": True, "text": "furniture", "emoji": "🛋️️️"},
     "dg": {"singleWordtype": True, "text": "drug", "emoji": "🚬️️️"},
     "cr": {"singleWordtype": True, "text": "crafts", "emoji": "🧵️️"},
+    "na": {"singleWordtype": True, "text": "nature", "emoji": "🌳️"},
+    "ev": {"singleWordtype": True, "text": "event", "emoji": "📅️"},
 }
 
 
