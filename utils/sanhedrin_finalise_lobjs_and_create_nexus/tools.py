@@ -804,6 +804,8 @@ allohom_infos = {
     "cr": {"singleWordtype": True, "text": "crafts", "emoji": "🧵️️"},
     "na": {"singleWordtype": True, "text": "nature", "emoji": "🌳️"},
     "ev": {"singleWordtype": True, "text": "event", "emoji": "📅️"},
+    "tl": {"singleWordtype": True, "text": "title", "emoji": "🙇"},
+    "fm": {"singleWordtype": True, "text": "form of address", "emoji": "👋"},
 }
 
 
