@@ -4,7 +4,7 @@ import time
 from copy import deepcopy
 
 from utils.general.common import write_todo
-from utils.universal import color as c
+from utils.universal import color as c, interact_cmd_history
 
 
 def show1(lobj, target_lang):
@@ -239,29 +239,11 @@ def user_validate_translations(src_lobj_index, lobj, res, save_fxn, target_lang,
         show_helptext()
         return
 
-    if user_input[0] == "q":
-        if user_input[1] == "q":
-            c.print_yellow("COMMAND HISTORY")
-            for ind in range(1, 5):
-                if len(cmd_history) >= ind:
-                    print(f"q{ind}", c.yellow(cmd_history[-ind]))
-            time.sleep(0.8)
-            restart()
-            return
-        else:
-            index_of_cmd_to_repeat = int(user_input[1])
-            if len(cmd_history) < index_of_cmd_to_repeat:
-                c.print_red("History does not go back that far.")
-                restart()
-                return
-            cmd_to_repeat = cmd_history[-index_of_cmd_to_repeat]
-            c.print_yellow(cmd_to_repeat)
-            confirmed = not input("Repeat cmd?   Enter for yes   Any key for no")
-            if confirmed:
-                user_input = cmd_to_repeat
-            else:
-                restart()
-                return
+    cmd_history_interaction = interact_cmd_history(user_input, cmd_history)
+    if cmd_history_interaction == True:
+        return restart()
+    if type(cmd_history_interaction) is str:
+        user_input = cmd_history_interaction
 
     if user_input[0] not in "fFa$":
         for char in user_input:
@@ -811,39 +793,51 @@ allohom_infos = {
 }
 
 
-def get_allohom_info():
+def get_allohom_info(cmd_history):
+    def restart():
+        return get_allohom_info(cmd_history)
+
     template_keys = [k + allohom_infos[k]["text"][2:] for k in allohom_infos]
     template_keys.sort()
 
-    print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[:10]]))
-    print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[10:20]]))
-    print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[20:30]]))
-    print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[30:40]]))
-    print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[40:]]))
+    index = 10
+    while index < len(template_keys):
+        print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[index - 10:index]]))
+        index = index + 10
+    print(", ".join([c.blue(t[:2]) + t[2:] for t in template_keys[index - 10:index]]))
 
     user_input = input("Use first two letters of existing templates above, or enter new like so 'activity.🏕'\n")
 
+    cmd_history_interaction = interact_cmd_history(user_input, cmd_history)
+    if cmd_history_interaction == True:
+        return restart()
+    if type(cmd_history_interaction) is str:
+        user_input = cmd_history_interaction
+
     if user_input in allohom_infos:
+        cmd_history.append(user_input)
         return allohom_infos[user_input]
 
     if "." not in user_input:
-        return get_allohom_info()
+        return restart()
 
     user_input_split = user_input.split(".")
     allohom_info = deepcopy(allohom_info_template)
     allohom_info["text"] = user_input_split[0]
     allohom_info["emoji"] = user_input_split[1]
+
+    cmd_history.append(user_input)
     return allohom_info
 
 
-def add_allohom_info(lobj, following_lobjs):
+def add_allohom_info(cmd_history, lobj, following_lobjs):
     print("")
     c.print_bold(f'CURRENT is             {lobj["id"]}')
     for following_lobj in following_lobjs:
         c.print_purple(f'                       {following_lobj}')
     print("")
 
-    allohom_info = get_allohom_info()
+    allohom_info = get_allohom_info(cmd_history)
     print(c.green(allohom_info["text"]), allohom_info)
     print("")
     lobj["allohomInfo"] = allohom_info

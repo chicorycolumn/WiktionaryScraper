@@ -1,5 +1,6 @@
 import json
 import os
+import time
 
 
 class colors:
@@ -202,3 +203,27 @@ def deepequals(obj1, obj2):
         return True
 
     return _deepequals(obj1, obj2)
+
+
+def interact_cmd_history(user_input, cmd_history):
+    if user_input[0] == "q":
+        if user_input[1] == "q":
+            color.print_yellow("COMMAND HISTORY")
+            for ind in range(1, 5):
+                if len(cmd_history) >= ind:
+                    print(f"q{ind}", color.yellow(cmd_history[-ind]))
+            time.sleep(0.8)
+            return True
+
+        else:
+            index_of_cmd_to_repeat = int(user_input[1])
+            if len(cmd_history) < index_of_cmd_to_repeat:
+                color.print_red("History does not go back that far.")
+                return True
+            cmd_to_repeat = cmd_history[-index_of_cmd_to_repeat]
+            color.print_yellow(cmd_to_repeat)
+            confirmed = not input("Repeat cmd?   Enter for yes   Any key for no")
+            if confirmed:
+                return cmd_to_repeat
+            else:
+                return True

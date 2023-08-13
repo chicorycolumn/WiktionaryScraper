@@ -9,7 +9,7 @@ from utils.universal import color as c, get_curried_save, load_data
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "nco"
+    wordtype = "ver"
     batch = "01"
     suffix = "SRC"
     # # # # # #
@@ -33,11 +33,13 @@ if __name__ == '__main__':
 
     c.print_bold(f"{len(to_do_lobjs)} need allohomInfo added.")
 
+    cmd_history = []
+
     for index, lobj in enumerate(to_do_lobjs):
         if index and index % 10 == 0:
             save(lobjs)
         print(f"{index + 1}/{len(to_do_lobjs)}")
-        add_allohom_info(lobj, [l["id"] for l in to_do_lobjs[index + 1:index + 4]])
+        add_allohom_info(cmd_history, lobj, [l["id"] for l in to_do_lobjs[index + 1:index + 4]])
 
     save(lobjs)
 
