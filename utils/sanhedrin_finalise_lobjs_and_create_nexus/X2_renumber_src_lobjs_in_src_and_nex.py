@@ -12,6 +12,7 @@ if __name__ == '__main__':
     wordtype = "ver"
     batch = "01"
     id_start_number = 1
+    reorder_so_siblings_consequent = False
     # # # # # #
 
     src_input_filename = f"{wordtype}_batch_{batch}_SRC"
@@ -30,6 +31,19 @@ if __name__ == '__main__':
     c.print_yellow("Loaded " + src_input_path)
     nex = load_data(nex_input_path)
     c.print_yellow("Loaded " + nex_input_path)
+    
+    if reorder_so_siblings_consequent:
+        new_lobjs_dict = {}
+        for lob in src:
+            if lob["lemma"] in new_lobjs_dict:
+                new_lobjs_dict[lob["lemma"]].append(lob)
+            else:
+                new_lobjs_dict[lob["lemma"]] = [lob]
+        new_lobjs_list = []
+        for tarkey in new_lobjs_dict:
+            for lob in new_lobjs_dict[tarkey]:
+                new_lobjs_list.append(lob)
+        src = new_lobjs_list
 
     print("Loaded", len(src), "source lobjs.")
     print("Loaded", len(nex), "nexus objs.")

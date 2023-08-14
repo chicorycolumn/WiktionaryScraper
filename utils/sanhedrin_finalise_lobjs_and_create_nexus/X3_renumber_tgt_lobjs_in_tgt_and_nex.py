@@ -33,17 +33,17 @@ if __name__ == '__main__':
     c.print_yellow("Loaded " + nex_input_path)
 
     if reorder_so_siblings_consequent:
-        tgt_new = {}
-        for tarlob in tgt:
-            if tarlob["lemma"] in tgt_new:
-                tgt_new[tarlob["lemma"]].append(tarlob)
+        new_lobjs_dict = {}
+        for lob in tgt:
+            if lob["lemma"] in new_lobjs_dict:
+                new_lobjs_dict[lob["lemma"]].append(lob)
             else:
-                tgt_new[tarlob["lemma"]] = [tarlob]
-        tgt_new_arr = []
-        for tarkey in tgt_new:
-            for tarlob in tgt_new[tarkey]:
-                tgt_new_arr.append(tarlob)
-        tgt = tgt_new_arr
+                new_lobjs_dict[lob["lemma"]] = [lob]
+        new_lobjs_list = []
+        for tarkey in new_lobjs_dict:
+            for lob in new_lobjs_dict[tarkey]:
+                new_lobjs_list.append(lob)
+        tgt = new_lobjs_list
 
     print("Loaded", len(tgt), "source lobjs.")
     print("Loaded", len(nex), "nexus objs.")
