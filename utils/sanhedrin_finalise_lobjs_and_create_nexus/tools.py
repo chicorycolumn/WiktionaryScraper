@@ -790,6 +790,14 @@ allohom_infos = {
     "fm": {"singleWordtype": True, "text": "form of address", "emoji": "👋"},
     "wr": {"singleWordtype": True, "text": "writing", "emoji": "📖"},
     "im": {"singleWordtype": True, "text": "importance", "emoji": "❗"},
+    "pm": {"singleWordtype": True, "text": "permission", "emoji": "🚫"},
+    "bb": {"singleWordtype": True, "text": "ability", "emoji": "🏃"},
+    "pb": {"singleWordtype": True, "text": "possibility", "emoji": "❓"},
+    "nj": {"singleWordtype": True, "text": "negative judgement", "emoji": "👎"},
+    "pj": {"singleWordtype": True, "text": "positive judgement", "emoji": "👍"},
+    "cl": {"singleWordtype": True, "text": "clothes", "emoji": "👚"},
+    "mi": {"singleWordtype": True, "text": "military", "emoji": "🪖"},
+    "mu": {"singleWordtype": True, "text": "music", "emoji": "🎵"},
 }
 
 
