@@ -12,6 +12,7 @@ if __name__ == '__main__':
     wordtype = "ver"
     batch = "01"
     id_start_number = 1
+    reorder_so_siblings_consequent = False
     # # # # # #
 
     tgt_input_filename = f"{wordtype}_batch_{batch}_TGT"
@@ -30,6 +31,19 @@ if __name__ == '__main__':
     c.print_yellow("Loaded " + tgt_input_path)
     nex = load_data(nex_input_path)
     c.print_yellow("Loaded " + nex_input_path)
+
+    if reorder_so_siblings_consequent:
+        tgt_new = {}
+        for tarlob in tgt:
+            if tarlob["lemma"] in tgt_new:
+                tgt_new[tarlob["lemma"]].append(tarlob)
+            else:
+                tgt_new[tarlob["lemma"]] = [tarlob]
+        tgt_new_arr = []
+        for tarkey in tgt_new:
+            for tarlob in tgt_new[tarkey]:
+                tgt_new_arr.append(tarlob)
+        tgt = tgt_new_arr
 
     print("Loaded", len(tgt), "source lobjs.")
     print("Loaded", len(nex), "nexus objs.")
