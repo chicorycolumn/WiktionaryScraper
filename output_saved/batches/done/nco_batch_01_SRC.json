@@ -3366,7 +3366,7 @@
   },
   {
     "lemma": "stan",
-    "id": "pol-nco-0063-stan(mental state)",
+    "id": "pol-nco-0063-stan",
     "tags": [
       "abstract"
     ],
@@ -7560,7 +7560,7 @@
   },
   {
     "lemma": "kurwa",
-    "id": "pol-nco-0147-kurwa(curseword)",
+    "id": "pol-nco-0147-kurwa",
     "tags": [],
     "topics": [],
     "translations": {
@@ -7680,12 +7680,7 @@
       }
     },
     "frequency": 3,
-    "register": 8,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "curseword",
-      "emoji": "🤬️"
-    }
+    "register": 8
   },
   {
     "lemma": "cement",
@@ -21785,7 +21780,7 @@
   },
   {
     "lemma": "brokuł",
-    "id": "pol-nco-0421-brokuł(broccoli)",
+    "id": "pol-nco-0421-brokuł",
     "tags": [
       "concrete",
       "food",
@@ -21829,12 +21824,7 @@
       }
     },
     "frequency": 4,
-    "register": 0,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "food",
-      "emoji": "🍲"
-    }
+    "register": 0
   },
   {
     "lemma": "teren",
@@ -25973,7 +25963,7 @@
   },
   {
     "lemma": "brąz",
-    "id": "pol-nco-0506-brąz(bronze)",
+    "id": "pol-nco-0506-brąz",
     "tags": [
       "concrete",
       "material",
@@ -26014,12 +26004,7 @@
       }
     },
     "frequency": 3,
-    "register": 0,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "material",
-      "emoji": "👚"
-    }
+    "register": 0
   },
   {
     "lemma": "tłumaczenie",
@@ -27111,7 +27096,7 @@
   },
   {
     "lemma": "sztuka",
-    "id": "pol-nco-0528-sztuka",
+    "id": "pol-nco-0528-sztuka(art)",
     "tags": [
       "art hypernym",
       "school subject",
@@ -27163,6 +27148,35 @@
     },
     "frequency": 4,
     "register": 0
+  },
+  {
+    "lemma": "sztuka",
+    "id": "pol-nco-1078-sztuka(play)",
+    "tags": [
+      "event"
+    ],
+    "topics": [
+      "time",
+      "theatre"
+    ],
+    "translations": {
+      "ENG": [
+        "play"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "derivedTerms": [
+        "sztuczny",
+        "sztukmistrz",
+        "sztukować",
+        "błąd w sztuce",
+        "do trzech razy sztuka"
+      ]
+    },
+    "frequency": 3,
+    "register": 0,
+    "inflectionsRoot": "pol-nco-0529-sztuka"
   },
   {
     "lemma": "podatek",
@@ -38168,7 +38182,7 @@
   },
   {
     "lemma": "przewodnik",
-    "id": "pol-nco-0748-przewodnik(guide)",
+    "id": "pol-nco-0748-przewodnik(object)",
     "tags": [],
     "topics": [
       "holiday",
@@ -38212,7 +38226,7 @@
     "register": 0,
     "allohomInfo": {
       "singleWordtype": true,
-      "text": "guide",
+      "text": "object",
       "emoji": "📖"
     }
   },
@@ -53526,37 +53540,8 @@
     "register": 0
   },
   {
-    "lemma": "sztuka",
-    "id": "pol-nco-1078-sztuka",
-    "tags": [
-      "event"
-    ],
-    "topics": [
-      "time",
-      "theatre"
-    ],
-    "translations": {
-      "ENG": [
-        "play"
-      ]
-    },
-    "gender": "f",
-    "extra": {
-      "derivedTerms": [
-        "sztuczny",
-        "sztukmistrz",
-        "sztukować",
-        "błąd w sztuce",
-        "do trzech razy sztuka"
-      ]
-    },
-    "frequency": 3,
-    "register": 0,
-    "inflectionsRoot": "pol-nco-0529-sztuka"
-  },
-  {
     "lemma": "ofiara",
-    "id": "pol-npe-1079-ofiara(sacrifice)",
+    "id": "pol-npe-1079-ofiara(abstract)",
     "tags": [
       "abstract"
     ],

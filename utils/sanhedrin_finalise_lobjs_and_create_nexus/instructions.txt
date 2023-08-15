@@ -125,13 +125,19 @@ It uses additionalSpellings that you manually type into this stage.
 
 
 
-3C-i)   Do a final search in NEX, SRC, TGT files for     *   and   þ
+3C)     Do a final search in NEX, SRC, TGT files for     *   and   þ
         - to manually resolve these artefacts
         Modifies "nou_batch_01_{tgt,src,nex}.json"
 
-3C-ii)  Run "S14_add_allohom_info.py"
+
+
+3D-i)   Run "S14_add_allohom_info.py"
         - to manually create allohomInfo where needed
-        Modifies "nou_batch_01_{tgt,src,nex}.json"
+        Modifies "nou_batch_01_{tgt,src}.json"
+
+3D-ii)  Run "S15_doublecheck_allohom_info.py"
+        - to add allohom info to any lobjs which missed it
+        Modifies "nou_batch_01_{tgt,src}.json"
 
 
 
