@@ -82,7 +82,7 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0011-stand"
+        "eng-ver-0011-stand(on your feet)"
       ],
       "POL": [
         "pol-ver-0007-stać(stand)",
@@ -114,12 +114,11 @@
     "topics": []
   },
   {
-    "key": "ver-0008-getup",
+    "key": "ver-0008-getup(out of bed)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0014-getup",
-        "eng-ver-0015-standup"
+        "eng-ver-0014-getup"
       ],
       "POL": [
         "pol-ver-0012-wstać",
@@ -138,7 +137,7 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0017-take"
+        "eng-ver-0017-take(general)"
       ],
       "POL": [
         "pol-ver-0014-brać",
@@ -221,7 +220,7 @@
       "SPA": [],
       "ENG": [
         "eng-ver-0026-falldown",
-        "eng-ver-0027-fall"
+        "eng-ver-0027-fall(person)"
       ],
       "POL": [
         "pol-ver-0023-upadać",
@@ -305,7 +304,7 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0032-change"
+        "eng-ver-0032-change(general)"
       ],
       "POL": [
         "pol-ver-0031-zmienić",
@@ -904,7 +903,7 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0079-drive"
+        "eng-ver-0079-drive(intransitive)"
       ],
       "POL": [
         "pol-ver-0080-jechać(drive)",
@@ -1041,7 +1040,8 @@
         "pol-ver-0094-mówić(talk)",
         "pol-ver-0095-porozmawiać",
         "pol-ver-0096-rozmawiać",
-        "pol-ver-0385-gadać"
+        "pol-ver-0385-gadać",
+        "pol-ver-0746-pogadać"
       ]
     },
     "papers": [
@@ -1058,8 +1058,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0095-end",
-        "eng-ver-0097-finish"
+        "eng-ver-0095-end(intransitive)",
+        "eng-ver-0097-finish(intransitive)"
       ],
       "POL": [
         "pol-ver-0097-kończyć",
@@ -1221,7 +1221,7 @@
       "SPA": [],
       "ENG": [
         "eng-ver-0108-switchon",
-        "eng-ver-0109-turnon"
+        "eng-ver-0109-turnon(device)"
       ],
       "POL": [
         "pol-ver-0112-włączyć(switch on)",
@@ -1698,11 +1698,11 @@
     ]
   },
   {
-    "key": "ver-0084-try",
+    "key": "ver-0084-try(to)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0159-try",
+        "eng-ver-0160-try(to)",
         "eng-ver-0161-attempt"
       ],
       "POL": [
@@ -1710,6 +1710,26 @@
         "pol-ver-0153-spróbować",
         "pol-ver-0785-postarać",
         "pol-ver-0786-starać"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "helper"
+    ],
+    "topics": [
+      "hobbies"
+    ]
+  },
+  {
+    "key": "ver-0084-try(plus noun)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0159-try(plus noun)"
+      ],
+      "POL": [
+        "pol-ver-0152-próbować",
+        "pol-ver-0153-spróbować"
       ]
     },
     "papers": [
@@ -2840,8 +2860,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0096-end",
-        "eng-ver-0098-finish",
+        "eng-ver-0096-end(transitive)",
+        "eng-ver-0098-finish(transitive)",
         "eng-ver-0250-complete"
       ],
       "POL": [
@@ -3336,7 +3356,8 @@
       "SPA": [],
       "ENG": [
         "eng-ver-0281-reach",
-        "eng-ver-0072-arrive"
+        "eng-ver-0070-arrive(foot)",
+        "eng-ver-0071-arrive(vehicle)"
       ],
       "POL": [
         "pol-ver-0312-docierać",
@@ -7895,27 +7916,6 @@
     ]
   },
   {
-    "key": "ver-0375-talk",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-ver-0091-talk",
-        "eng-ver-0094-chat"
-      ],
-      "POL": [
-        "pol-ver-0746-pogadać"
-      ]
-    },
-    "papers": [
-      "speech",
-      "abstract"
-    ],
-    "topics": [
-      "people",
-      "mental"
-    ]
-  },
-  {
     "key": "ver-0376-estimate",
     "traductions": {
       "SPA": [],
@@ -7964,7 +7964,7 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0028-fall"
+        "eng-ver-0028-fall(general)"
       ],
       "POL": [
         "pol-ver-0753-paść",
@@ -8742,16 +8742,17 @@
     ]
   },
   {
-    "key": "ver-0415-stand",
+    "key": "ver-0415-standup",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0012-stand",
         "eng-ver-0016-standup"
       ],
       "POL": [
         "pol-ver-0834-powstać",
-        "pol-ver-0835-powstawać"
+        "pol-ver-0835-powstawać",
+        "pol-ver-0012-wstać",
+        "pol-ver-0013-wstawać"
       ]
     },
     "papers": [
@@ -8957,7 +8958,7 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0080-drive"
+        "eng-ver-0080-drive(transitive)"
       ],
       "POL": [
         "pol-ver-0863-prowadzić(drive)",
