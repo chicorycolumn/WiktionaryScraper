@@ -16586,7 +16586,7 @@
   },
   {
     "lemma": "próbować",
-    "id": "pol-ver-0152-próbować",
+    "id": "pol-ver-0152-próbować(plus verb)",
     "aspect": "imperfective",
     "secondaryAspects": [],
     "tags": [
@@ -16702,7 +16702,239 @@
   },
   {
     "lemma": "spróbować",
-    "id": "pol-ver-0153-spróbować",
+    "id": "pol-ver-0153-spróbować(plus verb)",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "tags": [
+      "helper",
+      "concrete"
+    ],
+    "topics": [
+      "hobbies"
+    ],
+    "frequency": 3,
+    "register": 0,
+    "inflections": {
+      "infinitive": "spróbować",
+      "verbalNoun": "spróbowanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "spróbowany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "spróbowawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "spróbuje się"
+            },
+            "plural": {
+              "allPluralGenders": "spróbuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "spróbuję"
+            },
+            "plural": {
+              "allPluralGenders": "spróbujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "spróbujesz"
+            },
+            "plural": {
+              "allPluralGenders": "spróbujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "spróbuje"
+            },
+            "plural": {
+              "allPluralGenders": "spróbują"
+            }
+          }
+        },
+        "imperative": "spróbuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "spróbowano"
+            },
+            "plural": {
+              "allPluralGenders": "spróbowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "spróbowałem",
+              "f": "spróbowałam"
+            },
+            "plural": {
+              "virile": "spróbowaliśmy",
+              "nonvirile": "spróbowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "spróbowałeś",
+              "f": "spróbowałaś"
+            },
+            "plural": {
+              "virile": "spróbowaliście",
+              "nonvirile": "spróbowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "spróbował",
+              "f": "spróbowała",
+              "n": "spróbowało"
+            },
+            "plural": {
+              "virile": "spróbowali",
+              "nonvirile": "spróbowały"
+            }
+          }
+        },
+        "present": false
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to try",
+        "to attempt"
+      ]
+    },
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "próbować"
+        ]
+      }
+    }
+  },
+  {
+    "lemma": "próbować",
+    "id": "pol-ver-0152-próbować(plus noun)",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "tags": [
+      "helper",
+      "concrete"
+    ],
+    "topics": [
+      "hobbies"
+    ],
+    "frequency": 3,
+    "register": 0,
+    "inflections": {
+      "infinitive": "próbować",
+      "verbalNoun": "próbowanie",
+      "activeAdjectival": "próbujący",
+      "passiveAdjectival": "próbowany",
+      "contemporaryAdverbial": "próbując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "próbuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "próbowano"
+            },
+            "plural": {
+              "allPluralGenders": "próbowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "próbowałem",
+              "f": "próbowałam"
+            },
+            "plural": {
+              "virile": "próbowaliśmy",
+              "nonvirile": "próbowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "próbowałeś",
+              "f": "próbowałaś"
+            },
+            "plural": {
+              "virile": "próbowaliście",
+              "nonvirile": "próbowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "próbował",
+              "f": "próbowała",
+              "n": "próbowało"
+            },
+            "plural": {
+              "virile": "próbowali",
+              "nonvirile": "próbowały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "próbuje się"
+            },
+            "plural": {
+              "allPluralGenders": "próbuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "próbuję"
+            },
+            "plural": {
+              "allPluralGenders": "próbujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "próbujesz"
+            },
+            "plural": {
+              "allPluralGenders": "próbujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "próbuje"
+            },
+            "plural": {
+              "allPluralGenders": "próbują"
+            }
+          }
+        }
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to try",
+        "to attempt"
+      ]
+    },
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "spróbować"
+        ]
+      }
+    }
+  },
+  {
+    "lemma": "spróbować",
+    "id": "pol-ver-0153-spróbować(plus noun)",
     "aspect": "perfective",
     "secondaryAspects": [],
     "tags": [
@@ -29959,7 +30191,7 @@
   },
   {
     "lemma": "czuć",
-    "id": "pol-ver-0277-czuć(feel)",
+    "id": "pol-ver-0277-czuć(feel transitive)",
     "aspect": "imperfective",
     "secondaryAspects": [],
     "tags": [
@@ -30146,7 +30378,7 @@
   },
   {
     "lemma": "czuć",
-    "id": "pol-ver-0279-czuć(feel)",
+    "id": "pol-ver-0279-czuć(feel intransitive)",
     "aspect": "imperfective",
     "secondaryAspects": [],
     "tags": [
@@ -30196,7 +30428,7 @@
   },
   {
     "lemma": "poczuć",
-    "id": "pol-ver-0280-poczuć(feel)",
+    "id": "pol-ver-0280-poczuć(feel transitive)",
     "aspect": "perfective",
     "secondaryAspects": [],
     "tags": [
@@ -30357,7 +30589,7 @@
   },
   {
     "lemma": "poczuć",
-    "id": "pol-ver-0282-poczuć(feel)",
+    "id": "pol-ver-0282-poczuć(feel intransitive)",
     "aspect": "perfective",
     "secondaryAspects": [],
     "tags": [
@@ -53286,7 +53518,7 @@
   },
   {
     "lemma": "nakładać",
-    "id": "pol-ver-0479-nakładać(sunscreen)",
+    "id": "pol-ver-0479-nakładać(eg sunscreen)",
     "aspect": "imperfective",
     "secondaryAspects": [],
     "tags": [],
@@ -53403,7 +53635,7 @@
   },
   {
     "lemma": "nakładać",
-    "id": "pol-ver-0480-nakładać(sanctions)",
+    "id": "pol-ver-0480-nakładać(eg sanctions)",
     "aspect": "imperfective",
     "secondaryAspects": [],
     "tags": [
@@ -53428,7 +53660,7 @@
         ]
       }
     },
-    "inflectionsRoot": "pol-ver-0479-nakładać(sunscreen)",
+    "inflectionsRoot": "pol-ver-0479-nakładać(eg sunscreen)",
     "allohomInfo": {
       "singleWordtype": true,
       "text": "abstract",
@@ -53437,7 +53669,7 @@
   },
   {
     "lemma": "nałożyć",
-    "id": "pol-ver-0481-nałożyć(sunscreen)",
+    "id": "pol-ver-0481-nałożyć(eg sunscreen)",
     "aspect": "perfective",
     "secondaryAspects": [],
     "tags": [],
@@ -53554,7 +53786,7 @@
   },
   {
     "lemma": "nałożyć",
-    "id": "pol-ver-0482-nałożyć(sanctions)",
+    "id": "pol-ver-0482-nałożyć(eg sanctions)",
     "aspect": "perfective",
     "secondaryAspects": [],
     "tags": [
@@ -53579,7 +53811,7 @@
         ]
       }
     },
-    "inflectionsRoot": "pol-ver-0481-nałożyć(sunscreen)",
+    "inflectionsRoot": "pol-ver-0481-nałożyć(eg sunscreen)",
     "allohomInfo": {
       "singleWordtype": true,
       "text": "abstract",

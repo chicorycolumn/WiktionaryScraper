@@ -1706,8 +1706,8 @@
         "eng-ver-0161-attempt"
       ],
       "POL": [
-        "pol-ver-0152-próbować",
-        "pol-ver-0153-spróbować",
+        "pol-ver-0152-próbować(plus verb)",
+        "pol-ver-0153-spróbować(plus verb)",
         "pol-ver-0785-postarać",
         "pol-ver-0786-starać"
       ]
@@ -1728,8 +1728,8 @@
         "eng-ver-0159-try(plus noun)"
       ],
       "POL": [
-        "pol-ver-0152-próbować",
-        "pol-ver-0153-spróbować"
+        "pol-ver-0152-próbować(plus noun)",
+        "pol-ver-0153-spróbować(plus noun)"
       ]
     },
     "papers": [
@@ -2060,7 +2060,7 @@
       "SPA": [],
       "ENG": [
         "eng-ver-0183-learn",
-        "eng-ver-0184-study"
+        "eng-ver-0184-study(learn)"
       ],
       "POL": [
         "pol-ver-0181-nauczyć(learn)",
@@ -2321,7 +2321,7 @@
       "SPA": [],
       "ENG": [
         "eng-ver-0199-fallinlove",
-        "eng-ver-0200-fallfor(love)"
+        "eng-ver-0200-fallfor"
       ],
       "POL": [
         "pol-ver-0215-zakochać"
@@ -2883,7 +2883,7 @@
       "SPA": [],
       "ENG": [
         "eng-ver-0251-research",
-        "eng-ver-0185-study",
+        "eng-ver-0185-study(research)",
         "eng-ver-0252-investigate"
       ],
       "POL": [
@@ -2965,15 +2965,15 @@
     ]
   },
   {
-    "key": "ver-0142-feel",
+    "key": "ver-0142-feel(transitive)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0256-feel"
+        "eng-ver-0256-feel(transitive)"
       ],
       "POL": [
-        "pol-ver-0277-czuć(feel)",
-        "pol-ver-0280-poczuć(feel)"
+        "pol-ver-0277-czuć(feel transitive)",
+        "pol-ver-0280-poczuć(feel transitive)"
       ]
     },
     "papers": [
@@ -2986,11 +2986,11 @@
     ]
   },
   {
-    "key": "ver-0143-smell",
+    "key": "ver-0143-smell(transitive)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0258-smell"
+        "eng-ver-0258-smell(transitive)"
       ],
       "POL": [
         "pol-ver-0278-czuć(smell)",
@@ -3007,15 +3007,15 @@
     ]
   },
   {
-    "key": "ver-0144-feel",
+    "key": "ver-0144-feel(intransitive)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0257-feel"
+        "eng-ver-0257-feel(intransitive)"
       ],
       "POL": [
-        "pol-ver-0279-czuć(feel)",
-        "pol-ver-0282-poczuć(feel)"
+        "pol-ver-0279-czuć(feel intransitive)",
+        "pol-ver-0282-poczuć(feel intransitive)"
       ]
     },
     "papers": [
@@ -3754,8 +3754,7 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0319-findout",
-        "eng-ver-0227-figureout"
+        "eng-ver-0319-findout"
       ],
       "POL": [
         "pol-ver-0348-dowiadywać",
@@ -3839,7 +3838,7 @@
       "ENG": [
         "eng-ver-0325-concern",
         "eng-ver-0326-pertainto",
-        "eng-ver-0327-apply"
+        "eng-ver-0327-apply(abstract)"
       ],
       "POL": [
         "pol-ver-0355-dotyczyć"
@@ -3903,8 +3902,8 @@
       "SPA": [],
       "ENG": [
         "eng-ver-0332-bother",
-        "eng-ver-0333-trouble(bother)",
-        "eng-ver-0335-nag(bother)"
+        "eng-ver-0333-trouble",
+        "eng-ver-0335-nag"
       ],
       "POL": [
         "pol-ver-0359-dręczyć(bother)",
@@ -5158,15 +5157,15 @@
     ]
   },
   {
-    "key": "ver-0245-apply(sunscreen)",
+    "key": "ver-0245-apply(eg sunscreen)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0328-apply(sunscreen)"
+        "eng-ver-0328-apply(eg sunscreen)"
       ],
       "POL": [
-        "pol-ver-0479-nakładać(sunscreen)",
-        "pol-ver-0481-nałożyć(sunscreen)"
+        "pol-ver-0479-nakładać(eg sunscreen)",
+        "pol-ver-0481-nałożyć(eg sunscreen)"
       ]
     },
     "papers": [],
@@ -5182,8 +5181,8 @@
         "eng-ver-0436-impose(sanctions)"
       ],
       "POL": [
-        "pol-ver-0480-nakładać(sanctions)",
-        "pol-ver-0482-nałożyć(sanctions)"
+        "pol-ver-0480-nakładać(eg sanctions)",
+        "pol-ver-0482-nałożyć(eg sanctions)"
       ]
     },
     "papers": [
@@ -6843,11 +6842,11 @@
     ]
   },
   {
-    "key": "ver-0324-smell",
+    "key": "ver-0324-smell(intransitive)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0259-smell"
+        "eng-ver-0259-smell(intransitive)"
       ],
       "POL": [
         "pol-ver-0644-pachnieć"
@@ -9125,7 +9124,7 @@
       "ENG": [
         "eng-ver-0515-hold(storage)",
         "eng-ver-0723-store",
-        "eng-ver-0330-keep"
+        "eng-ver-0330-keep(general)"
       ],
       "POL": [
         "pol-ver-0882-przechowywać",
