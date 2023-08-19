@@ -798,6 +798,10 @@ allohom_infos = {
     "cl": {"singleWordtype": True, "text": "clothes", "emoji": "👚"},
     "mi": {"singleWordtype": True, "text": "military", "emoji": "🪖"},
     "mu": {"singleWordtype": True, "text": "music", "emoji": "🎵"},
+    "iv": {"singleWordtype": True, "text": "intransitive", "emoji": "🇮"},
+    "tv": {"singleWordtype": True, "text": "transitive", "emoji": "🇹"},
+    "pv": {"singleWordtype": True, "text": "plus verb", "emoji": "🇻"},
+    "pn": {"singleWordtype": True, "text": "plus noun", "emoji": "🇳"},
 }
 
 
