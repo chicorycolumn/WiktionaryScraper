@@ -9,11 +9,11 @@ from utils.universal import color as c, load_data, get_curried_save
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "adj"
+    wordtype = "ver"
     batch = "01"
     id_start_number = 1
     reorder_so_siblings_consequent = False
-    lang = "src"
+    lang = "tgt"
     # # # # # #
 
     input_filename = f"{wordtype}_batch_{batch}_{lang.upper()}"

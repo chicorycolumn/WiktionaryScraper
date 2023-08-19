@@ -4053,8 +4053,30 @@
       "time"
     ]
   },
+    {
+    "key": "ver-0238-shine",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0348-shine",
+        "eng-ver-0350-glitter",
+        "eng-ver-0352-shimmer",
+        "eng-ver-0421-glisten"
+      ],
+      "POL": [
+        "pol-ver-0458-lśnić"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "sense and perception",
+      "appearance"
+    ]
+  },
   {
-    "key": "ver-0193-shine",
+    "key": "ver-0193-sparkle",
     "traductions": {
       "SPA": [],
       "ENG": [
@@ -4797,7 +4819,7 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0401-threaten"
+        "eng-ver-0401-threaten(speech)"
       ],
       "POL": [
         "pol-ver-0438-grozić",
@@ -4820,7 +4842,7 @@
       "SPA": [],
       "ENG": [
         "eng-ver-0403-endanger",
-        "eng-ver-0402-threaten",
+        "eng-ver-0402-threaten(endanger)",
         "eng-ver-0404-jeopardise"
       ],
       "POL": [
@@ -4996,10 +5018,13 @@
     "traductions": {
       "SPA": [],
       "ENG": [
+        "eng-ver-0452-mumble",
         "eng-ver-0418-mutter",
         "eng-ver-0420-murmur"
       ],
       "POL": [
+        "pol-ver-0495-mruknąć",
+        "pol-ver-0496-mruczeć",
         "pol-ver-0456-mamrotać",
         "pol-ver-0457-wymamrotać"
       ]
@@ -5010,28 +5035,6 @@
     ],
     "topics": [
       "mental"
-    ]
-  },
-  {
-    "key": "ver-0238-shine",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-ver-0349-shine",
-        "eng-ver-0351-glitter",
-        "eng-ver-0353-shimmer",
-        "eng-ver-0421-glisten"
-      ],
-      "POL": [
-        "pol-ver-0458-lśnić"
-      ]
-    },
-    "papers": [
-      "concrete"
-    ],
-    "topics": [
-      "sense and perception",
-      "appearance"
     ]
   },
   {
@@ -5178,7 +5181,7 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0436-impose(sanctions)"
+        "eng-ver-0436-impose"
       ],
       "POL": [
         "pol-ver-0480-nakładać(eg sanctions)",
@@ -5304,27 +5307,6 @@
     ]
   },
   {
-    "key": "ver-0252-takeplace",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-ver-0447-takeplace",
-        "eng-ver-0449-occur"
-      ],
-      "POL": [
-        "pol-ver-0491-nastąpić",
-        "pol-ver-0492-następować"
-      ]
-    },
-    "papers": [
-      "concrete"
-    ],
-    "topics": [
-      "time",
-      "knowledge and existence"
-    ]
-  },
-  {
     "key": "ver-0253-bebored",
     "traductions": {
       "SPA": [],
@@ -5338,27 +5320,6 @@
     },
     "papers": [
       "emotion",
-      "abstract"
-    ],
-    "topics": [
-      "mental"
-    ]
-  },
-  {
-    "key": "ver-0254-mumble",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-ver-0452-mumble",
-        "eng-ver-0419-mutter"
-      ],
-      "POL": [
-        "pol-ver-0495-mruknąć",
-        "pol-ver-0496-mruczeć"
-      ]
-    },
-    "papers": [
-      "speech",
       "abstract"
     ],
     "topics": [
@@ -5617,11 +5578,35 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0432-worry"
+        "eng-ver-0432-worry(emotion)"
       ],
       "POL": [
-        "pol-ver-0519-martwić",
-        "pol-ver-0520-zmartwić"
+        "pol-ver-0476-obawiać",
+        "pol-ver-0519-martwić(emotion)",
+        "pol-ver-0520-zmartwić(emotion)"
+      ]
+    },
+    "papers": [
+      "emotion",
+      "abstract"
+    ],
+    "topics": [
+      "mental"
+    ]
+  },
+  {
+    "key": "ver-0414-mind",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0431-worry(mind)",
+        "eng-ver-0697-mind"
+      ],
+      "POL": [
+        "pol-ver-0830-przejąć(mind)",
+        "pol-ver-0833-przejmować(mind)",
+        "pol-ver-0519-martwić(mind)",
+        "pol-ver-0520-zmartwić(mind)"
       ]
     },
     "papers": [
@@ -5707,8 +5692,8 @@
         "eng-ver-0480-shoot(film)"
       ],
       "POL": [
-        "pol-ver-0528-nakręcić(shoot)",
-        "pol-ver-0530-nakręcać(shoot)"
+        "pol-ver-0528-nakręcić(film)",
+        "pol-ver-0530-nakręcać(film)"
       ]
     },
     "papers": [
@@ -6119,20 +6104,22 @@
     ]
   },
   {
-    "key": "ver-0290-takeplace",
+    "key": "ver-0252-takeplace",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0448-takeplace",
-        "eng-ver-0450-occur"
+        "eng-ver-0447-takeplace",
+        "eng-ver-0449-occur"
       ],
       "POL": [
+        "pol-ver-0491-nastąpić",
+        "pol-ver-0492-następować",
         "pol-ver-0571-odbyć(occur)",
         "pol-ver-0573-odbywać(occur)"
       ]
     },
     "papers": [
-      "abstract"
+      "concrete"
     ],
     "topics": [
       "time",
@@ -6880,15 +6867,39 @@
     ]
   },
   {
-    "key": "ver-0326-burn",
+    "key": "ver-0326-burn(transitive)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0576-burn"
+        "eng-ver-0576-burn(transitive)"
       ],
       "POL": [
-        "pol-ver-0646-palić(burn)",
-        "pol-ver-0647-spalić"
+        "pol-ver-0646-palić(burn transitive)",
+        "pol-ver-0647-spalić(burn transitive)"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "physics",
+      "danger",
+      "science"
+    ]
+  },
+  {
+    "key": "ver-0342-burn(intransitive)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0577-burn(intransitive)",
+        "eng-ver-0594-beonfire"
+      ],
+      "POL": [
+        "pol-ver-0678-płonąć",
+        "pol-ver-0679-spłonąć",
+        "pol-ver-0646-palić(burn intransitive)",
+        "pol-ver-0647-spalić(burn intransitive)"
       ]
     },
     "papers": [
@@ -6905,7 +6916,7 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0578-approach"
+        "eng-ver-0578-approach(on foot)"
       ],
       "POL": [
         "pol-ver-0648-podchodzić",
@@ -7067,7 +7078,7 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0467-push",
+        "eng-ver-0467-push(general)",
         "eng-ver-0586-shove"
       ],
       "POL": [
@@ -7209,28 +7220,6 @@
     "topics": [
       "people",
       "possession"
-    ]
-  },
-  {
-    "key": "ver-0342-burn",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-ver-0577-burn",
-        "eng-ver-0594-beonfire"
-      ],
-      "POL": [
-        "pol-ver-0678-płonąć",
-        "pol-ver-0679-spłonąć"
-      ]
-    },
-    "papers": [
-      "concrete"
-    ],
-    "topics": [
-      "physics",
-      "danger",
-      "science"
     ]
   },
   {
@@ -8105,7 +8094,7 @@
       "ENG": [
         "eng-ver-0651-pierce",
         "eng-ver-0652-puncture",
-        "eng-ver-0653-penetrate"
+        "eng-ver-0653-penetrate(pierce)"
       ],
       "POL": [
         "pol-ver-0766-przebijać",
@@ -8719,28 +8708,6 @@
     ]
   },
   {
-    "key": "ver-0414-worry",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-ver-0431-worry",
-        "eng-ver-0697-mind"
-      ],
-      "POL": [
-        "pol-ver-0476-obawiać",
-        "pol-ver-0830-przejąć(mind)",
-        "pol-ver-0833-przejmować(mind)"
-      ]
-    },
-    "papers": [
-      "emotion",
-      "abstract"
-    ],
-    "topics": [
-      "mental"
-    ]
-  },
-  {
     "key": "ver-0415-standup",
     "traductions": {
       "SPA": [],
@@ -9298,7 +9265,7 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0654-penetrate",
+        "eng-ver-0654-penetrate(permeate)",
         "eng-ver-0733-permeate"
       ],
       "POL": [

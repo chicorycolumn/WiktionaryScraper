@@ -141,23 +141,13 @@
     "transitivity": [
       "i"
     ],
-    "id": "eng-ver-0011-stand",
+    "id": "eng-ver-0011-stand(on your feet)",
     "»trans": [
       "pol-ver-0001-stać(stand)",
       "pol-ver-0002-stanąć"
     ],
     "register": 0,
     "frequency": 3
-  },
-  {
-    "lemma": "stand",
-    "id": "eng-ver-0012-stand",
-    "»trans": [
-      "pol-ver-0805-powstać(stand)",
-      "pol-ver-0806-powstawać(stand)"
-    ],
-    "register": 0,
-    "frequency": 4
   },
   {
     "lemma": "become",
@@ -199,18 +189,8 @@
     "frequency": 4
   },
   {
-    "lemma": "stand up",
-    "id": "eng-ver-0016-standup",
-    "»trans": [
-      "pol-ver-0805-powstać(stand)",
-      "pol-ver-0806-powstawać(stand)"
-    ],
-    "register": 0,
-    "frequency": 4
-  },
-  {
     "lemma": "take",
-    "id": "eng-ver-0017-take",
+    "id": "eng-ver-0017-take(general)",
     "»trans": [
       "pol-ver-0007-brać",
       "pol-ver-0008-wziąć"
@@ -354,7 +334,7 @@
     "transitivity": [
       "i"
     ],
-    "id": "eng-ver-0027-fall",
+    "id": "eng-ver-0027-fall(person)",
     "»trans": [
       "pol-ver-0016-upadać",
       "pol-ver-0017-upaść"
@@ -364,7 +344,7 @@
   },
   {
     "lemma": "fall",
-    "id": "eng-ver-0028-fall",
+    "id": "eng-ver-0028-fall(general)",
     "»trans": [
       "pol-ver-0729-paść",
       "pol-ver-0730-padać"
@@ -406,7 +386,7 @@
   },
   {
     "lemma": "change",
-    "id": "eng-ver-0032-change",
+    "id": "eng-ver-0032-change(general)",
     "»trans": [
       "pol-ver-0024-zmienić",
       "pol-ver-0025-zmieniać"
@@ -890,18 +870,6 @@
     }
   },
   {
-    "lemma": "arrive",
-    "id": "eng-ver-0072-arrive",
-    "»trans": [
-      "pol-ver-0308-docierać",
-      "pol-ver-0309-dotrzeć",
-      "pol-ver-0325-dojść",
-      "pol-ver-0326-dochodzić"
-    ],
-    "register": 0,
-    "frequency": 3
-  },
-  {
     "lemma": "come",
     "transitivity": [
       "i"
@@ -1008,7 +976,7 @@
     "transitivity": [
       "i"
     ],
-    "id": "eng-ver-0079-drive",
+    "id": "eng-ver-0079-drive(intransitive)",
     "»trans": [
       "pol-ver-0077-jechać(drive)",
       "pol-ver-0079-pojechać(drive)",
@@ -1019,7 +987,7 @@
   },
   {
     "lemma": "drive",
-    "id": "eng-ver-0080-drive",
+    "id": "eng-ver-0080-drive(transitive)",
     "»trans": [
       "pol-ver-0834-prowadzić(drive)",
       "pol-ver-0835-prowadzać(drive)"
@@ -1160,15 +1128,6 @@
     "frequency": 1
   },
   {
-    "lemma": "talk",
-    "id": "eng-ver-0091-talk",
-    "»trans": [
-      "pol-ver-0723-pogadać"
-    ],
-    "register": 0,
-    "frequency": 1
-  },
-  {
     "lemma": "converse",
     "transitivity": [
       "i"
@@ -1196,20 +1155,11 @@
     "frequency": 3
   },
   {
-    "lemma": "chat",
-    "id": "eng-ver-0094-chat",
-    "»trans": [
-      "pol-ver-0723-pogadać"
-    ],
-    "register": 0,
-    "frequency": 2
-  },
-  {
     "lemma": "end",
     "transitivity": [
       "i"
     ],
-    "id": "eng-ver-0095-end",
+    "id": "eng-ver-0095-end(intransitive)",
     "»trans": [
       "pol-ver-0094-kończyć",
       "pol-ver-0095-skończyć"
@@ -1219,7 +1169,7 @@
   },
   {
     "lemma": "end",
-    "id": "eng-ver-0096-end",
+    "id": "eng-ver-0096-end(transitive)",
     "»trans": [
       "pol-ver-0263-dokończyć"
     ],
@@ -1231,7 +1181,7 @@
     "transitivity": [
       "i"
     ],
-    "id": "eng-ver-0097-finish",
+    "id": "eng-ver-0097-finish(intransitive)",
     "»trans": [
       "pol-ver-0094-kończyć",
       "pol-ver-0095-skończyć"
@@ -1241,7 +1191,7 @@
   },
   {
     "lemma": "finish",
-    "id": "eng-ver-0098-finish",
+    "id": "eng-ver-0098-finish(transitive)",
     "»trans": [
       "pol-ver-0263-dokończyć"
     ],
@@ -1385,7 +1335,7 @@
   },
   {
     "lemma": "turn on",
-    "id": "eng-ver-0109-turnon",
+    "id": "eng-ver-0109-turnon(device)",
     "»trans": [
       "pol-ver-0109-włączyć(switch on)",
       "pol-ver-0111-włączać(switch on)"
@@ -2054,7 +2004,7 @@
   },
   {
     "lemma": "try",
-    "id": "eng-ver-0159-try",
+    "id": "eng-ver-0159-try(plus noun)",
     "»trans": [
       "pol-ver-0149-próbować",
       "pol-ver-0150-spróbować"
@@ -2067,7 +2017,7 @@
     "transitivity": [
       "r"
     ],
-    "id": "eng-ver-0160-try",
+    "id": "eng-ver-0160-try(to)",
     "»trans": [
       "pol-ver-0760-postarać",
       "pol-ver-0761-starać"
@@ -2315,7 +2265,7 @@
     "transitivity": [
       "r"
     ],
-    "id": "eng-ver-0184-study",
+    "id": "eng-ver-0184-study(learn)",
     "»trans": [
       "pol-ver-0178-nauczyć(learn)",
       "pol-ver-0180-nauczać(learn)",
@@ -2326,7 +2276,7 @@
   },
   {
     "lemma": "study",
-    "id": "eng-ver-0185-study",
+    "id": "eng-ver-0185-study(research)",
     "»trans": [
       "pol-ver-0266-badać(research)",
       "pol-ver-0269-zbadać(research)"
@@ -2494,17 +2444,12 @@
   },
   {
     "lemma": "fall for",
-    "id": "eng-ver-0200-fallfor(love)",
+    "id": "eng-ver-0200-fallfor",
     "»trans": [
       "pol-ver-0212-zakochać"
     ],
     "register": 0,
-    "frequency": 3,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "romantic",
-      "emoji": "💕"
-    }
+    "frequency": 3
   },
   {
     "lemma": "look at",
@@ -2783,19 +2728,6 @@
     ],
     "register": 0,
     "frequency": 4
-  },
-  {
-    "lemma": "figure out",
-    "transitivity": [
-      "r"
-    ],
-    "id": "eng-ver-0227-figureout",
-    "»trans": [
-      "pol-ver-0343-dowiadywać",
-      "pol-ver-0344-dowiedzieć"
-    ],
-    "register": 0,
-    "frequency": 3
   },
   {
     "lemma": "work out",
@@ -3122,7 +3054,7 @@
   },
   {
     "lemma": "feel",
-    "id": "eng-ver-0256-feel",
+    "id": "eng-ver-0256-feel(transitive)",
     "»trans": [
       "pol-ver-0274-czuć(feel)",
       "pol-ver-0277-poczuć(feel)"
@@ -3135,7 +3067,7 @@
     "transitivity": [
       "r"
     ],
-    "id": "eng-ver-0257-feel",
+    "id": "eng-ver-0257-feel(intransitive)",
     "»trans": [
       "pol-ver-0276-czuć(feel)",
       "pol-ver-0279-poczuć(feel)"
@@ -3145,7 +3077,7 @@
   },
   {
     "lemma": "smell",
-    "id": "eng-ver-0258-smell",
+    "id": "eng-ver-0258-smell(transitive)",
     "»trans": [
       "pol-ver-0275-czuć(smell)",
       "pol-ver-0278-poczuć(smell)"
@@ -3158,7 +3090,7 @@
     "transitivity": [
       "i"
     ],
-    "id": "eng-ver-0259-smell",
+    "id": "eng-ver-0259-smell(intransitive)",
     "»trans": [
       "pol-ver-0626-pachnieć"
     ],
@@ -3907,7 +3839,7 @@
   },
   {
     "lemma": "apply",
-    "id": "eng-ver-0327-apply",
+    "id": "eng-ver-0327-apply(abstract)",
     "»trans": [
       "pol-ver-0350-dotyczyć"
     ],
@@ -3916,7 +3848,7 @@
   },
   {
     "lemma": "apply",
-    "id": "eng-ver-0328-apply(sunscreen)",
+    "id": "eng-ver-0328-apply(eg sunscreen)",
     "»trans": [
       "pol-ver-0466-nakładać(sunscreen)",
       "pol-ver-0468-nałożyć(sunscreen)"
@@ -3946,7 +3878,7 @@
   },
   {
     "lemma": "keep",
-    "id": "eng-ver-0330-keep",
+    "id": "eng-ver-0330-keep(general)",
     "»trans": [
       "pol-ver-0853-przechowywać",
       "pol-ver-0854-przechować"
@@ -3978,19 +3910,14 @@
   },
   {
     "lemma": "trouble",
-    "id": "eng-ver-0333-trouble(bother)",
+    "id": "eng-ver-0333-trouble",
     "»trans": [
       "pol-ver-0354-dręczyć(bother)",
       "pol-ver-0458-męczyć(nag)",
       "pol-ver-0461-zmęczyć(nag)"
     ],
     "register": 0,
-    "frequency": 5,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "negative judgement",
-      "emoji": "👎"
-    }
+    "frequency": 5
   },
   {
     "lemma": "tire",
@@ -4004,19 +3931,14 @@
   },
   {
     "lemma": "nag",
-    "id": "eng-ver-0335-nag(bother)",
+    "id": "eng-ver-0335-nag",
     "»trans": [
       "pol-ver-0354-dręczyć(bother)",
       "pol-ver-0458-męczyć(nag)",
       "pol-ver-0461-zmęczyć(nag)"
     ],
     "register": 0,
-    "frequency": 5,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "negative judgement",
-      "emoji": "👎"
-    }
+    "frequency": 5
   },
   {
     "lemma": "tremble",
@@ -4167,18 +4089,6 @@
     "frequency": 5
   },
   {
-    "lemma": "shine",
-    "transitivity": [
-      "i"
-    ],
-    "id": "eng-ver-0349-shine",
-    "»trans": [
-      "pol-ver-0447-lśnić"
-    ],
-    "register": 0,
-    "frequency": 5
-  },
-  {
     "lemma": "glitter",
     "id": "eng-ver-0350-glitter",
     "»trans": [
@@ -4188,34 +4098,10 @@
     "frequency": 5
   },
   {
-    "lemma": "glitter",
-    "transitivity": [
-      "i"
-    ],
-    "id": "eng-ver-0351-glitter",
-    "»trans": [
-      "pol-ver-0447-lśnić"
-    ],
-    "register": 0,
-    "frequency": 5
-  },
-  {
     "lemma": "shimmer",
     "id": "eng-ver-0352-shimmer",
     "»trans": [
       "pol-ver-0365-błyszczeć"
-    ],
-    "register": 0,
-    "frequency": 5
-  },
-  {
-    "lemma": "shimmer",
-    "transitivity": [
-      "i"
-    ],
-    "id": "eng-ver-0353-shimmer",
-    "»trans": [
-      "pol-ver-0447-lśnić"
     ],
     "register": 0,
     "frequency": 5
@@ -4709,7 +4595,7 @@
       "t",
       "i"
     ],
-    "id": "eng-ver-0401-threaten",
+    "id": "eng-ver-0401-threaten(speech)",
     "»trans": [
       "pol-ver-0427-grozić",
       "pol-ver-0428-zagrozić(threaten)"
@@ -4719,7 +4605,7 @@
   },
   {
     "lemma": "threaten",
-    "id": "eng-ver-0402-threaten",
+    "id": "eng-ver-0402-threaten(endanger)",
     "»trans": [
       "pol-ver-0429-zagrozić(endanger)"
     ],
@@ -4904,19 +4790,6 @@
     "frequency": 4
   },
   {
-    "lemma": "mutter",
-    "transitivity": [
-      "i"
-    ],
-    "id": "eng-ver-0419-mutter",
-    "»trans": [
-      "pol-ver-0482-mruknąć",
-      "pol-ver-0483-mruczeć"
-    ],
-    "register": 0,
-    "frequency": 4
-  },
-  {
     "lemma": "murmur",
     "id": "eng-ver-0420-murmur",
     "»trans": [
@@ -5031,7 +4904,7 @@
   },
   {
     "lemma": "worry",
-    "id": "eng-ver-0431-worry",
+    "id": "eng-ver-0431-worry(mind)",
     "»trans": [
       "pol-ver-0463-obawiać",
       "pol-ver-0801-przejąć(mind)",
@@ -5045,7 +4918,7 @@
     "transitivity": [
       "r"
     ],
-    "id": "eng-ver-0432-worry",
+    "id": "eng-ver-0432-worry(emotion)",
     "»trans": [
       "pol-ver-0502-martwić",
       "pol-ver-0503-zmartwić"
@@ -5085,18 +4958,13 @@
   },
   {
     "lemma": "impose",
-    "id": "eng-ver-0436-impose(sanctions)",
+    "id": "eng-ver-0436-impose",
     "»trans": [
       "pol-ver-0467-nakładać(sanctions)",
       "pol-ver-0469-nałożyć(sanctions)"
     ],
     "register": 0,
-    "frequency": 5,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "abstract",
-      "emoji": "💭"
-    }
+    "frequency": 5
   },
   {
     "lemma": "be called",
@@ -5210,19 +5078,6 @@
     "frequency": 4
   },
   {
-    "lemma": "take place",
-    "transitivity": [
-      "r"
-    ],
-    "id": "eng-ver-0448-takeplace",
-    "»trans": [
-      "pol-ver-0554-odbyć(occur)",
-      "pol-ver-0556-odbywać(take)"
-    ],
-    "register": 0,
-    "frequency": 3
-  },
-  {
     "lemma": "occur",
     "id": "eng-ver-0449-occur",
     "»trans": [
@@ -5231,19 +5086,6 @@
     ],
     "register": 0,
     "frequency": 4
-  },
-  {
-    "lemma": "occur",
-    "transitivity": [
-      "i"
-    ],
-    "id": "eng-ver-0450-occur",
-    "»trans": [
-      "pol-ver-0554-odbyć(occur)",
-      "pol-ver-0556-odbywać(take)"
-    ],
-    "register": 0,
-    "frequency": 3
   },
   {
     "lemma": "be bored",
@@ -5437,7 +5279,7 @@
   },
   {
     "lemma": "push",
-    "id": "eng-ver-0467-push",
+    "id": "eng-ver-0467-push(general)",
     "»trans": [
       "pol-ver-0645-pchnąć",
       "pol-ver-0646-pchać",
@@ -5599,8 +5441,8 @@
     "lemma": "shoot",
     "id": "eng-ver-0480-shoot(film)",
     "»trans": [
-      "pol-ver-0511-nakręcić(shoot)",
-      "pol-ver-0513-nakręcać(shoot)"
+      "pol-ver-0511-nakręcić(film)",
+      "pol-ver-0513-nakręcać(film)"
     ],
     "register": 0,
     "frequency": 4,
@@ -6668,7 +6510,7 @@
   },
   {
     "lemma": "burn",
-    "id": "eng-ver-0576-burn",
+    "id": "eng-ver-0576-burn(transitive)",
     "»trans": [
       "pol-ver-0628-palić(burn)"
     ],
@@ -6680,7 +6522,7 @@
     "transitivity": [
       "i"
     ],
-    "id": "eng-ver-0577-burn",
+    "id": "eng-ver-0577-burn(intransitive)",
     "»trans": [
       "pol-ver-0659-płonąć",
       "pol-ver-0660-spłonąć"
@@ -6693,7 +6535,7 @@
     "transitivity": [
       "i"
     ],
-    "id": "eng-ver-0578-approach",
+    "id": "eng-ver-0578-approach(on foot)",
     "»trans": [
       "pol-ver-0629-podchodzić",
       "pol-ver-0630-podejść"
@@ -7505,7 +7347,7 @@
     "transitivity": [
       "r"
     ],
-    "id": "eng-ver-0653-penetrate",
+    "id": "eng-ver-0653-penetrate(pierce)",
     "»trans": [
       "pol-ver-0742-przebijać",
       "pol-ver-0743-przebić"
@@ -7515,7 +7357,7 @@
   },
   {
     "lemma": "penetrate",
-    "id": "eng-ver-0654-penetrate",
+    "id": "eng-ver-0654-penetrate(permeate)",
     "»trans": [
       "pol-ver-0873-przenikać",
       "pol-ver-0874-przeniknąć"
