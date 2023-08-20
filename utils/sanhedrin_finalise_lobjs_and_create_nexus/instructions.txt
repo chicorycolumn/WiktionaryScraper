@@ -131,15 +131,19 @@ It uses additionalSpellings that you manually type into this stage.
 
 
 
-3D-i)   Run "S14_add_allohom_info.py"
+3D-i)   Run "S14_add_allohom_info.py" for TGT and SRC
         - to manually create allohomInfo where needed
         Modifies "nou_batch_01_{tgt,src}.json"
 
-3D-ii)  Run "S15_doublecheck_allohom_info.py"
+3D-ii)  Run "S15_doublecheck_allohom_info.py" for TGT and SRC
         - to add allohom info to any lobjs which missed it
         Modifies "nou_batch_01_{tgt,src}.json"
 
-3D-iii) Rerun "S14_add_allohom_info.py"
+3D-iii) Rerun "S14_add_allohom_info.py" for TGT and SRC
+        Modifies "nou_batch_01_{tgt,src}.json"
+
+3D-iv)  Rerun "S12_connect_sibling_lobjs.py" for SRC
+        Modifies "nou_batch_01_src.json"
 
 
 
@@ -147,17 +151,17 @@ It uses additionalSpellings that you manually type into this stage.
 
 
 
-4A) You now need to create the inflection data for the TGT lobjs (presumably English).
-    - to complete tgt lobjs
+4A) You now need to create the inflection data for the TGT lobjs (presumably English)
+    - to complete TGT lobjs
     Modifies "nou_batch_01_tgt.json"
 
 
 
-4B) Run "S12_connect_sibling_lobjs.py" for tgt lobjs.
+4B) Run "S12_connect_sibling_lobjs.py" for TGT
     - to compact data by removing duplicated inflection data, replacing with reference to the one sibling which holds it
     Modifies "nou_batch_01_tgt.json"
 
 
 
-4C) Remove now-unneeded data from SRC lobjs, such as "translations", "»translations"
-    - to compact data
+4C) Remove now-unneeded data from SRC and TGT
+    such as "translations", "»translations", "tags", "topics"

@@ -77,6 +77,7 @@ class PolishVerbParser(HTMLParser):
                         keychain.append(header_row[cell_index])
 
                     if cell != "<blank>":
+                        keychain = [keyc for keyc in keychain if "Conjugation of" not in keyc]
                         add_value_at_keychain(cell, [k[1:] for k in keychain], inflections)
 
         self.output_obj["inflections"] = inflections

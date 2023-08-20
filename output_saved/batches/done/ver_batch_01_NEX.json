@@ -1868,6 +1868,25 @@
     ]
   },
   {
+    "key": "ver-0090-puton",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0516-puton(clothes)"
+      ],
+      "POL": [
+        "pol-ver-0952-zakładać(put on clothes)",
+        "pol-ver-0949-założyć(put on clothes)"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "fashion"
+    ]
+  },
+  {
     "key": "ver-0091-find",
     "traductions": {
       "SPA": [],
@@ -9623,6 +9642,46 @@
     "topics": [
       "mental",
       "game"
+    ]
+  },
+  {
+    "key": "ver-0457-claim(that)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0308-claim(that)"
+      ],
+      "POL": [
+        "pol-ver-0955-twierdzić",
+        "pol-ver-0956-stwierdzić(claim)"
+      ]
+    },
+    "papers": [
+      "speech",
+      "abstract"
+    ],
+    "topics": [
+      "mental"
+    ]
+  },
+  {
+    "key": "ver-0457-conclude",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0308-conclude(that)",
+        "eng-ver-0308-state"
+      ],
+      "POL": [
+        "pol-ver-0957-stwierdzić(conclude)"
+      ]
+    },
+    "papers": [
+      "speech",
+      "abstract"
+    ],
+    "topics": [
+      "mental"
     ]
   }
 ]
