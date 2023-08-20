@@ -862,3 +862,12 @@ reg_refs = [
     {"tag": "insult", "num": 7},
     {"tag": "curseword", "num": 8},
 ]
+
+
+def run_sanhedrin(fxn, wordtypes):
+    if not len(wordtypes):
+        wordtypes = ["adj", "nco", "npe", "ver"]
+    for w in wordtypes:
+        c.print_purple(f"Running for wordtype {w}")
+        fxn(w)
+        time.sleep(1)

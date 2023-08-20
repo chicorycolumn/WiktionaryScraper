@@ -1,7 +1,7 @@
 from parsers.common import scrape_word_data
 from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, add_signalwords, \
-    get_signalword, test_signalword
+    get_signalword, test_signalword, run_sanhedrin
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
 from utils.universal import color as c, get_curried_save, load_tempsave_if_exists, load_data, deepequals
@@ -10,7 +10,7 @@ from time import sleep
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = ["adj", "nco", "npe", "ver"]
+    wordtypes = []  # Leave blank for all.
     batch = "01"
     suffix = "SRC"
     # # # # # #
@@ -92,6 +92,4 @@ if __name__ == '__main__':
         print("Completely done.")
 
 
-    for w in wordtype:
-        go(w)
-        sleep(1)
+    run_sanhedrin(go, wordtypes)
