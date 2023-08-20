@@ -16840,94 +16840,6 @@
     ],
     "frequency": 3,
     "register": 0,
-    "inflections": {
-      "infinitive": "próbować",
-      "verbalNoun": "próbowanie",
-      "activeAdjectival": "próbujący",
-      "passiveAdjectival": "próbowany",
-      "contemporaryAdverbial": "próbując",
-      "anteriorAdverbial": false,
-      "verbal": {
-        "conditional": true,
-        "future": true,
-        "imperative": "próbuj",
-        "past": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "próbowano"
-            },
-            "plural": {
-              "allPluralGenders": "próbowano"
-            }
-          },
-          "1per": {
-            "singular": {
-              "m": "próbowałem",
-              "f": "próbowałam"
-            },
-            "plural": {
-              "virile": "próbowaliśmy",
-              "nonvirile": "próbowałyśmy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "m": "próbowałeś",
-              "f": "próbowałaś"
-            },
-            "plural": {
-              "virile": "próbowaliście",
-              "nonvirile": "próbowałyście"
-            }
-          },
-          "3per": {
-            "singular": {
-              "m": "próbował",
-              "f": "próbowała",
-              "n": "próbowało"
-            },
-            "plural": {
-              "virile": "próbowali",
-              "nonvirile": "próbowały"
-            }
-          }
-        },
-        "present": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "próbuje się"
-            },
-            "plural": {
-              "allPluralGenders": "próbuje się"
-            }
-          },
-          "1per": {
-            "singular": {
-              "allSingularGenders": "próbuję"
-            },
-            "plural": {
-              "allPluralGenders": "próbujemy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "allSingularGenders": "próbujesz"
-            },
-            "plural": {
-              "allPluralGenders": "próbujecie"
-            }
-          },
-          "3per": {
-            "singular": {
-              "allSingularGenders": "próbuje"
-            },
-            "plural": {
-              "allPluralGenders": "próbują"
-            }
-          }
-        }
-      }
-    },
     "translations": {
       "ENG": [
         "to try",
@@ -16945,7 +16857,8 @@
       "singleWordtype": true,
       "text": "plus noun",
       "emoji": "🇳"
-    }
+    },
+    "inflectionsRoot": "pol-ver-0152-próbować(plus verb)"
   },
   {
     "lemma": "spróbować",
@@ -16961,94 +16874,6 @@
     ],
     "frequency": 3,
     "register": 0,
-    "inflections": {
-      "infinitive": "spróbować",
-      "verbalNoun": "spróbowanie",
-      "activeAdjectival": false,
-      "passiveAdjectival": "spróbowany",
-      "contemporaryAdverbial": false,
-      "anteriorAdverbial": "spróbowawszy",
-      "verbal": {
-        "conditional": true,
-        "future": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "spróbuje się"
-            },
-            "plural": {
-              "allPluralGenders": "spróbuje się"
-            }
-          },
-          "1per": {
-            "singular": {
-              "allSingularGenders": "spróbuję"
-            },
-            "plural": {
-              "allPluralGenders": "spróbujemy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "allSingularGenders": "spróbujesz"
-            },
-            "plural": {
-              "allPluralGenders": "spróbujecie"
-            }
-          },
-          "3per": {
-            "singular": {
-              "allSingularGenders": "spróbuje"
-            },
-            "plural": {
-              "allPluralGenders": "spróbują"
-            }
-          }
-        },
-        "imperative": "spróbuj",
-        "past": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "spróbowano"
-            },
-            "plural": {
-              "allPluralGenders": "spróbowano"
-            }
-          },
-          "1per": {
-            "singular": {
-              "m": "spróbowałem",
-              "f": "spróbowałam"
-            },
-            "plural": {
-              "virile": "spróbowaliśmy",
-              "nonvirile": "spróbowałyśmy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "m": "spróbowałeś",
-              "f": "spróbowałaś"
-            },
-            "plural": {
-              "virile": "spróbowaliście",
-              "nonvirile": "spróbowałyście"
-            }
-          },
-          "3per": {
-            "singular": {
-              "m": "spróbował",
-              "f": "spróbowała",
-              "n": "spróbowało"
-            },
-            "plural": {
-              "virile": "spróbowali",
-              "nonvirile": "spróbowały"
-            }
-          }
-        },
-        "present": false
-      }
-    },
     "translations": {
       "ENG": [
         "to try",
@@ -17066,7 +16891,8 @@
       "singleWordtype": true,
       "text": "plus noun",
       "emoji": "🇳"
-    }
+    },
+    "inflectionsRoot": "pol-ver-0153-spróbować(plus verb)"
   },
   {
     "lemma": "zostawiać",
@@ -58368,94 +58194,6 @@
     ],
     "frequency": 2,
     "register": 0,
-    "inflections": {
-      "infinitive": "martwić",
-      "verbalNoun": "martwienie",
-      "activeAdjectival": "martwiący",
-      "passiveAdjectival": "martwiony",
-      "contemporaryAdverbial": "martwiąc",
-      "anteriorAdverbial": false,
-      "verbal": {
-        "conditional": true,
-        "future": true,
-        "imperative": "martw",
-        "past": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "martwiono"
-            },
-            "plural": {
-              "allPluralGenders": "martwiono"
-            }
-          },
-          "1per": {
-            "singular": {
-              "m": "martwiłem",
-              "f": "martwiłam"
-            },
-            "plural": {
-              "virile": "martwiliśmy",
-              "nonvirile": "martwiłyśmy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "m": "martwiłeś",
-              "f": "martwiłaś"
-            },
-            "plural": {
-              "virile": "martwiliście",
-              "nonvirile": "martwiłyście"
-            }
-          },
-          "3per": {
-            "singular": {
-              "m": "martwił",
-              "f": "martwiła",
-              "n": "martwiło"
-            },
-            "plural": {
-              "virile": "martwili",
-              "nonvirile": "martwiły"
-            }
-          }
-        },
-        "present": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "martwi się"
-            },
-            "plural": {
-              "allPluralGenders": "martwi się"
-            }
-          },
-          "1per": {
-            "singular": {
-              "allSingularGenders": "martwię"
-            },
-            "plural": {
-              "allPluralGenders": "martwimy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "allSingularGenders": "martwisz"
-            },
-            "plural": {
-              "allPluralGenders": "martwicie"
-            }
-          },
-          "3per": {
-            "singular": {
-              "allSingularGenders": "martwi"
-            },
-            "plural": {
-              "allPluralGenders": "martwią"
-            }
-          }
-        }
-      }
-    },
     "translations": {
       "ENG": [
         "to worry[r]"
@@ -58476,7 +58214,8 @@
       "singleWordtype": true,
       "text": "a thought about",
       "emoji": "💭"
-    }
+    },
+    "inflectionsRoot": "pol-ver-0519-martwić(emotion)"
   },
   {
     "lemma": "zmartwić",
@@ -58492,94 +58231,6 @@
     ],
     "frequency": 2,
     "register": 0,
-    "inflections": {
-      "infinitive": "zmartwić",
-      "verbalNoun": "zmartwienie",
-      "activeAdjectival": false,
-      "passiveAdjectival": "zmartwiony",
-      "contemporaryAdverbial": false,
-      "anteriorAdverbial": "zmartwiwszy",
-      "verbal": {
-        "conditional": true,
-        "future": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "zmartwi się"
-            },
-            "plural": {
-              "allPluralGenders": "zmartwi się"
-            }
-          },
-          "1per": {
-            "singular": {
-              "allSingularGenders": "zmartwię"
-            },
-            "plural": {
-              "allPluralGenders": "zmartwimy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "allSingularGenders": "zmartwisz"
-            },
-            "plural": {
-              "allPluralGenders": "zmartwicie"
-            }
-          },
-          "3per": {
-            "singular": {
-              "allSingularGenders": "zmartwi"
-            },
-            "plural": {
-              "allPluralGenders": "zmartwią"
-            }
-          }
-        },
-        "imperative": "zmartw",
-        "past": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "zmartwiono"
-            },
-            "plural": {
-              "allPluralGenders": "zmartwiono"
-            }
-          },
-          "1per": {
-            "singular": {
-              "m": "zmartwiłem",
-              "f": "zmartwiłam"
-            },
-            "plural": {
-              "virile": "zmartwiliśmy",
-              "nonvirile": "zmartwiłyśmy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "m": "zmartwiłeś",
-              "f": "zmartwiłaś"
-            },
-            "plural": {
-              "virile": "zmartwiliście",
-              "nonvirile": "zmartwiłyście"
-            }
-          },
-          "3per": {
-            "singular": {
-              "m": "zmartwił",
-              "f": "zmartwiła",
-              "n": "zmartwiło"
-            },
-            "plural": {
-              "virile": "zmartwili",
-              "nonvirile": "zmartwiły"
-            }
-          }
-        },
-        "present": false
-      }
-    },
     "translations": {
       "ENG": [
         "to worry[r]"
@@ -58596,7 +58247,8 @@
       "singleWordtype": true,
       "text": "a thought about",
       "emoji": "💭"
-    }
+    },
+    "inflectionsRoot": "pol-ver-0520-zmartwić(emotion)"
   },
   {
     "lemma": "pomachać",
@@ -72520,94 +72172,6 @@
     ],
     "frequency": 3,
     "register": 0,
-    "inflections": {
-      "infinitive": "spalić",
-      "verbalNoun": "spalenie",
-      "activeAdjectival": false,
-      "passiveAdjectival": "spalony",
-      "contemporaryAdverbial": false,
-      "anteriorAdverbial": "spaliwszy",
-      "verbal": {
-        "conditional": true,
-        "future": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "spali się"
-            },
-            "plural": {
-              "allPluralGenders": "spali się"
-            }
-          },
-          "1per": {
-            "singular": {
-              "allSingularGenders": "spalę"
-            },
-            "plural": {
-              "allPluralGenders": "spalimy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "allSingularGenders": "spalisz"
-            },
-            "plural": {
-              "allPluralGenders": "spalicie"
-            }
-          },
-          "3per": {
-            "singular": {
-              "allSingularGenders": "spali"
-            },
-            "plural": {
-              "allPluralGenders": "spalą"
-            }
-          }
-        },
-        "imperative": "spal",
-        "past": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "spalono"
-            },
-            "plural": {
-              "allPluralGenders": "spalono"
-            }
-          },
-          "1per": {
-            "singular": {
-              "m": "spaliłem",
-              "f": "spaliłam"
-            },
-            "plural": {
-              "virile": "spaliliśmy",
-              "nonvirile": "spaliłyśmy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "m": "spaliłeś",
-              "f": "spaliłaś"
-            },
-            "plural": {
-              "virile": "spaliliście",
-              "nonvirile": "spaliłyście"
-            }
-          },
-          "3per": {
-            "singular": {
-              "m": "spalił",
-              "f": "spaliła",
-              "n": "spaliło"
-            },
-            "plural": {
-              "virile": "spalili",
-              "nonvirile": "spaliły"
-            }
-          }
-        },
-        "present": false
-      }
-    },
     "translations": {
       "ENG": [
         "to burn"
@@ -72624,7 +72188,8 @@
       "singleWordtype": true,
       "text": "transitive",
       "emoji": "🇹"
-    }
+    },
+    "inflectionsRoot": "pol-ver-0647-spalić(burn intransitive)"
   },
   {
     "lemma": "podchodzić",
