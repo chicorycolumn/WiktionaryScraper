@@ -105381,7 +105381,7 @@
         "perfective": [
           "założyć"
         ]
-      },
+      }
     },
     "inflectionsRoot": "pol-ver-0950-zakładać(assume)",
     "allohomInfo": {
@@ -105610,351 +105610,262 @@
       }
     }
   },
-
-    {
-        "id": "pol-ver-0955-twierdzić",
-        "lemma": "twierdzić",
-        "aspect": "imperfective",
-        "secondaryAspects": [],
-        "extra": {
-            "derivedTerms": [
-                "verbs potwierdzić pf potwierdzać impf",
-                "przytwierdzić pf przytwierdzać impf",
-                "stwierdzić pf stwierdzać impf",
-                "utwierdzić pf utwierdzać impf",
-                "zatwierdzić pf zatwierdzać impf"
-            ]
-        },
-    "frequency": 4,
-    "register": 0,
-        "translations": {
-            "ENG": [
-                "to claim[i] (to state a new fact)",
-                "to maintain[i]"
-            ]
-        },
-        "inflections": {
-            "infinitive": "twierdzić",
-            "verbalNoun": "twierdzenie",
-            "activeAdjectival": "twierdzący",
-            "passiveAdjectival": false,
-            "contemporaryAdverbial": "twierdząc",
-            "anteriorAdverbial": false,
-            "verbal": {
-                "conditional": true,
-                "future": true,
-                "imperative": "twierdź",
-                "past": {
-                    "impersonal": {
-                        "singular": {
-                            "allSingularGenders": "twierdzono"
-                        },
-                        "plural": {
-                            "allPluralGenders": "twierdzono"
-                        }
-                    },
-                    "1per": {
-                        "singular": {
-                            "m": "twierdziłem",
-                            "f": "twierdziłam"
-                        },
-                        "plural": {
-                            "virile": "twierdziliśmy",
-                            "nonvirile": "twierdziłyśmy"
-                        }
-                    },
-                    "2per": {
-                        "singular": {
-                            "m": "twierdziłeś",
-                            "f": "twierdziłaś"
-                        },
-                        "plural": {
-                            "virile": "twierdziliście",
-                            "nonvirile": "twierdziłyście"
-                        }
-                    },
-                    "3per": {
-                        "singular": {
-                            "m": "twierdził",
-                            "f": "twierdziła",
-                            "n": "twierdziło"
-                        },
-                        "plural": {
-                            "virile": "twierdzili",
-                            "nonvirile": "twierdziły"
-                        }
-                    }
-                },
-                "present": {
-                    "impersonal": {
-                        "singular": {
-                            "allSingularGenders": "twierdzi się"
-                        },
-                        "plural": {
-                            "allPluralGenders": "twierdzi się"
-                        }
-                    },
-                    "1per": {
-                        "singular": {
-                            "allSingularGenders": "twierdzę"
-                        },
-                        "plural": {
-                            "allPluralGenders": "twierdzimy"
-                        }
-                    },
-                    "2per": {
-                        "singular": {
-                            "allSingularGenders": "twierdzisz"
-                        },
-                        "plural": {
-                            "allPluralGenders": "twierdzicie"
-                        }
-                    },
-                    "3per": {
-                        "singular": {
-                            "allSingularGenders": "twierdzi"
-                        },
-                        "plural": {
-                            "allPluralGenders": "twierdzą"
-                        }
-                    }
-                }
-            }
-        }
+  {
+    "id": "pol-ver-0955-twierdzić",
+    "lemma": "twierdzić",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "derivedTerms": [
+        "verbs potwierdzić pf potwierdzać impf",
+        "przytwierdzić pf przytwierdzać impf",
+        "stwierdzić pf stwierdzać impf",
+        "utwierdzić pf utwierdzać impf",
+        "zatwierdzić pf zatwierdzać impf"
+      ]
     },
-    {
-        "id": "pol-ver-0956-stwierdzić(claim)",
-        "lemma": "stwierdzić",
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "extra": {
-            "otherShapes": {
-                "imperfective": [
-                    "stwierdzać"
-                ]
-            }
-        },
     "frequency": 4,
     "register": 0,
-        "allohomInfo": {
+    "translations": {
+      "ENG": [
+        "to claim[i] (to state a new fact)",
+        "to maintain[i]"
+      ]
+    },
+    "inflections": {
+      "infinitive": "twierdzić",
+      "verbalNoun": "twierdzenie",
+      "activeAdjectival": "twierdzący",
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": "twierdząc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "twierdź",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "twierdzono"
+            },
+            "plural": {
+              "allPluralGenders": "twierdzono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "twierdziłem",
+              "f": "twierdziłam"
+            },
+            "plural": {
+              "virile": "twierdziliśmy",
+              "nonvirile": "twierdziłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "twierdziłeś",
+              "f": "twierdziłaś"
+            },
+            "plural": {
+              "virile": "twierdziliście",
+              "nonvirile": "twierdziłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "twierdził",
+              "f": "twierdziła",
+              "n": "twierdziło"
+            },
+            "plural": {
+              "virile": "twierdzili",
+              "nonvirile": "twierdziły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "twierdzi się"
+            },
+            "plural": {
+              "allPluralGenders": "twierdzi się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "twierdzę"
+            },
+            "plural": {
+              "allPluralGenders": "twierdzimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "twierdzisz"
+            },
+            "plural": {
+              "allPluralGenders": "twierdzicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "twierdzi"
+            },
+            "plural": {
+              "allPluralGenders": "twierdzą"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "pol-ver-0956-stwierdzić(claim)",
+    "lemma": "stwierdzić",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "stwierdzać"
+        ]
+      }
+    },
+    "frequency": 4,
+    "register": 0,
+    "allohomInfo": {
       "singleWordtype": true,
       "text": "claim",
-      "emoji": "\uD83D\uDCAC"
-    }
-        "translations": {
-            "ENG": [
-                "to state",
-                "to affirm",
-                "to attest",
-                "to find",
-                "to ascertain"
-            ]
-        },
-        "inflections": {
-            "infinitive": "stwierdzić",
-            "verbalNoun": "stwierdzenie",
-            "activeAdjectival": false,
-            "passiveAdjectival": "stwierdzony",
-            "contemporaryAdverbial": false,
-            "anteriorAdverbial": "stwierdziwszy",
-            "verbal": {
-                "conditional": true,
-                "future": {
-                    "impersonal": {
-                        "singular": {
-                            "allSingularGenders": "stwierdzi się"
-                        },
-                        "plural": {
-                            "allPluralGenders": "stwierdzi się"
-                        }
-                    },
-                    "1per": {
-                        "singular": {
-                            "allSingularGenders": "stwierdzę"
-                        },
-                        "plural": {
-                            "allPluralGenders": "stwierdzimy"
-                        }
-                    },
-                    "2per": {
-                        "singular": {
-                            "allSingularGenders": "stwierdzisz"
-                        },
-                        "plural": {
-                            "allPluralGenders": "stwierdzicie"
-                        }
-                    },
-                    "3per": {
-                        "singular": {
-                            "allSingularGenders": "stwierdzi"
-                        },
-                        "plural": {
-                            "allPluralGenders": "stwierdzą"
-                        }
-                    }
-                },
-                "imperative": "stwierdź",
-                "past": {
-                    "impersonal": {
-                        "singular": {
-                            "allSingularGenders": "stwierdzono"
-                        },
-                        "plural": {
-                            "allPluralGenders": "stwierdzono"
-                        }
-                    },
-                    "1per": {
-                        "singular": {
-                            "m": "stwierdziłem",
-                            "f": "stwierdziłam"
-                        },
-                        "plural": {
-                            "virile": "stwierdziliśmy",
-                            "nonvirile": "stwierdziłyśmy"
-                        }
-                    },
-                    "2per": {
-                        "singular": {
-                            "m": "stwierdziłeś",
-                            "f": "stwierdziłaś"
-                        },
-                        "plural": {
-                            "virile": "stwierdziliście",
-                            "nonvirile": "stwierdziłyście"
-                        }
-                    },
-                    "3per": {
-                        "singular": {
-                            "m": "stwierdził",
-                            "f": "stwierdziła",
-                            "n": "stwierdziło"
-                        },
-                        "plural": {
-                            "virile": "stwierdzili",
-                            "nonvirile": "stwierdziły"
-                        }
-                    }
-                },
-                "present": false
+      "emoji": "💬"
+    },
+    "translations": {
+      "ENG": [
+        "to state",
+        "to affirm",
+        "to attest",
+        "to find",
+        "to ascertain"
+      ]
+    },
+    "inflections": {
+      "infinitive": "stwierdzić",
+      "verbalNoun": "stwierdzenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "stwierdzony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "stwierdziwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "stwierdzi się"
+            },
+            "plural": {
+              "allPluralGenders": "stwierdzi się"
             }
-        }
-    }
-    {
-        "id": "pol-ver-0957-stwierdzić(conclude)",
-        "lemma": "stwierdzić",
-        "aspect": "perfective",
-        "secondaryAspects": [],
-        "extra": {
-            "otherShapes": {
-                "imperfective": [
-                    "stwierdzać"
-                ]
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "stwierdzę"
+            },
+            "plural": {
+              "allPluralGenders": "stwierdzimy"
             }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "stwierdzisz"
+            },
+            "plural": {
+              "allPluralGenders": "stwierdzicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "stwierdzi"
+            },
+            "plural": {
+              "allPluralGenders": "stwierdzą"
+            }
+          }
         },
+        "imperative": "stwierdź",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "stwierdzono"
+            },
+            "plural": {
+              "allPluralGenders": "stwierdzono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "stwierdziłem",
+              "f": "stwierdziłam"
+            },
+            "plural": {
+              "virile": "stwierdziliśmy",
+              "nonvirile": "stwierdziłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "stwierdziłeś",
+              "f": "stwierdziłaś"
+            },
+            "plural": {
+              "virile": "stwierdziliście",
+              "nonvirile": "stwierdziłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "stwierdził",
+              "f": "stwierdziła",
+              "n": "stwierdziło"
+            },
+            "plural": {
+              "virile": "stwierdzili",
+              "nonvirile": "stwierdziły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "id": "pol-ver-0957-stwierdzić(conclude)",
+    "lemma": "stwierdzić",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "stwierdzać"
+        ]
+      }
+    },
     "frequency": 4,
     "register": 0,
-        "allohomInfo": {
+    "allohomInfo": {
       "singleWordtype": true,
       "text": "conclude",
-      "emoji": "\uD83D\uDCAC"
-    }
-        "translations": {
-            "ENG": [
-                "to state",
-                "to affirm",
-                "to attest",
-                "to find",
-                "to ascertain"
-            ]
-        },
-        "inflections": {
-            "infinitive": "stwierdzić",
-            "verbalNoun": "stwierdzenie",
-            "activeAdjectival": false,
-            "passiveAdjectival": "stwierdzony",
-            "contemporaryAdverbial": false,
-            "anteriorAdverbial": "stwierdziwszy",
-            "verbal": {
-                "conditional": true,
-                "future": {
-                    "impersonal": {
-                        "singular": {
-                            "allSingularGenders": "stwierdzi się"
-                        },
-                        "plural": {
-                            "allPluralGenders": "stwierdzi się"
-                        }
-                    },
-                    "1per": {
-                        "singular": {
-                            "allSingularGenders": "stwierdzę"
-                        },
-                        "plural": {
-                            "allPluralGenders": "stwierdzimy"
-                        }
-                    },
-                    "2per": {
-                        "singular": {
-                            "allSingularGenders": "stwierdzisz"
-                        },
-                        "plural": {
-                            "allPluralGenders": "stwierdzicie"
-                        }
-                    },
-                    "3per": {
-                        "singular": {
-                            "allSingularGenders": "stwierdzi"
-                        },
-                        "plural": {
-                            "allPluralGenders": "stwierdzą"
-                        }
-                    }
-                },
-                "imperative": "stwierdź",
-                "past": {
-                    "impersonal": {
-                        "singular": {
-                            "allSingularGenders": "stwierdzono"
-                        },
-                        "plural": {
-                            "allPluralGenders": "stwierdzono"
-                        }
-                    },
-                    "1per": {
-                        "singular": {
-                            "m": "stwierdziłem",
-                            "f": "stwierdziłam"
-                        },
-                        "plural": {
-                            "virile": "stwierdziliśmy",
-                            "nonvirile": "stwierdziłyśmy"
-                        }
-                    },
-                    "2per": {
-                        "singular": {
-                            "m": "stwierdziłeś",
-                            "f": "stwierdziłaś"
-                        },
-                        "plural": {
-                            "virile": "stwierdziliście",
-                            "nonvirile": "stwierdziłyście"
-                        }
-                    },
-                    "3per": {
-                        "singular": {
-                            "m": "stwierdził",
-                            "f": "stwierdziła",
-                            "n": "stwierdziło"
-                        },
-                        "plural": {
-                            "virile": "stwierdzili",
-                            "nonvirile": "stwierdziły"
-                        }
-                    }
-                },
-                "present": false
-            }
-        }
-    }
-
+      "emoji": "💬"
+    },
+    "translations": {
+      "ENG": [
+        "to state",
+        "to affirm",
+        "to attest",
+        "to find",
+        "to ascertain"
+      ]
+    },
+    "inflectionsRoot": "pol-ver-0956-stwierdzić(claim)"
+  }
 ]
