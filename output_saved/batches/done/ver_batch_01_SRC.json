@@ -63370,7 +63370,379 @@
   },
   {
     "lemma": "odmawiać",
-    "id": "pol-ver-0569-odmawiać",
+    "id": "pol-ver-0569-odmawiać(that or someone)",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "tags": [
+      "abstract",
+      "speech"
+    ],
+    "topics": [
+      "mental",
+      "social glue"
+    ],
+    "frequency": 3,
+    "register": 0,
+    "inflections": {
+      "infinitive": "odmawiać",
+      "verbalNoun": "odmawianie",
+      "activeAdjectival": "odmawiający",
+      "passiveAdjectival": "odmawiany",
+      "contemporaryAdverbial": "odmawiając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "odmawiaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odmawiano"
+            },
+            "plural": {
+              "allPluralGenders": "odmawiano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "odmawiałem",
+              "f": "odmawiałam"
+            },
+            "plural": {
+              "virile": "odmawialiśmy",
+              "nonvirile": "odmawiałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "odmawiałeś",
+              "f": "odmawiałaś"
+            },
+            "plural": {
+              "virile": "odmawialiście",
+              "nonvirile": "odmawiałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "odmawiał",
+              "f": "odmawiała",
+              "n": "odmawiało"
+            },
+            "plural": {
+              "virile": "odmawiali",
+              "nonvirile": "odmawiały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odmawia się"
+            },
+            "plural": {
+              "allPluralGenders": "odmawia się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "odmawiam"
+            },
+            "plural": {
+              "allPluralGenders": "odmawiamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "odmawiasz"
+            },
+            "plural": {
+              "allPluralGenders": "odmawiacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "odmawia"
+            },
+            "plural": {
+              "allPluralGenders": "odmawiają"
+            }
+          }
+        }
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to say no",
+        "to refuse",
+        "*to deny"
+      ]
+    },
+    "extra": {
+      "usage": [
+        "odmawiać robienia czegoś ― to refuse to do something"
+      ],
+      "otherShapes": {
+        "perfective": [
+          "odmówić"
+        ]
+      },
+      "derivedTerms": [
+        "noun odmowa"
+      ]
+    }
+  },
+  {
+    "lemma": "odmawiać",
+    "id": "pol-ver-0569-odmawiać(plus verb)",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "tags": [
+      "abstract",
+      "speech"
+    ],
+    "topics": [
+      "mental",
+      "social glue"
+    ],
+    "frequency": 3,
+    "register": 0,
+    "inflections": {
+      "infinitive": "odmawiać",
+      "verbalNoun": "odmawianie",
+      "activeAdjectival": "odmawiający",
+      "passiveAdjectival": "odmawiany",
+      "contemporaryAdverbial": "odmawiając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "odmawiaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odmawiano"
+            },
+            "plural": {
+              "allPluralGenders": "odmawiano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "odmawiałem",
+              "f": "odmawiałam"
+            },
+            "plural": {
+              "virile": "odmawialiśmy",
+              "nonvirile": "odmawiałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "odmawiałeś",
+              "f": "odmawiałaś"
+            },
+            "plural": {
+              "virile": "odmawialiście",
+              "nonvirile": "odmawiałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "odmawiał",
+              "f": "odmawiała",
+              "n": "odmawiało"
+            },
+            "plural": {
+              "virile": "odmawiali",
+              "nonvirile": "odmawiały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odmawia się"
+            },
+            "plural": {
+              "allPluralGenders": "odmawia się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "odmawiam"
+            },
+            "plural": {
+              "allPluralGenders": "odmawiamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "odmawiasz"
+            },
+            "plural": {
+              "allPluralGenders": "odmawiacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "odmawia"
+            },
+            "plural": {
+              "allPluralGenders": "odmawiają"
+            }
+          }
+        }
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to say no",
+        "to refuse",
+        "*to deny"
+      ]
+    },
+    "extra": {
+      "usage": [
+        "odmawiać robienia czegoś ― to refuse to do something"
+      ],
+      "otherShapes": {
+        "perfective": [
+          "odmówić"
+        ]
+      },
+      "derivedTerms": [
+        "noun odmowa"
+      ]
+    }
+  },
+  {
+    "lemma": "odmawiać",
+    "id": "pol-ver-0569-odmawiać(plus noun)",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "tags": [
+      "abstract",
+      "speech"
+    ],
+    "topics": [
+      "mental",
+      "social glue"
+    ],
+    "frequency": 3,
+    "register": 0,
+    "inflections": {
+      "infinitive": "odmawiać",
+      "verbalNoun": "odmawianie",
+      "activeAdjectival": "odmawiający",
+      "passiveAdjectival": "odmawiany",
+      "contemporaryAdverbial": "odmawiając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "odmawiaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odmawiano"
+            },
+            "plural": {
+              "allPluralGenders": "odmawiano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "odmawiałem",
+              "f": "odmawiałam"
+            },
+            "plural": {
+              "virile": "odmawialiśmy",
+              "nonvirile": "odmawiałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "odmawiałeś",
+              "f": "odmawiałaś"
+            },
+            "plural": {
+              "virile": "odmawialiście",
+              "nonvirile": "odmawiałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "odmawiał",
+              "f": "odmawiała",
+              "n": "odmawiało"
+            },
+            "plural": {
+              "virile": "odmawiali",
+              "nonvirile": "odmawiały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odmawia się"
+            },
+            "plural": {
+              "allPluralGenders": "odmawia się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "odmawiam"
+            },
+            "plural": {
+              "allPluralGenders": "odmawiamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "odmawiasz"
+            },
+            "plural": {
+              "allPluralGenders": "odmawiacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "odmawia"
+            },
+            "plural": {
+              "allPluralGenders": "odmawiają"
+            }
+          }
+        }
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to say no",
+        "to refuse",
+        "*to deny"
+      ]
+    },
+    "extra": {
+      "usage": [
+        "odmawiać robienia czegoś ― to refuse to do something"
+      ],
+      "otherShapes": {
+        "perfective": [
+          "odmówić"
+        ]
+      },
+      "derivedTerms": [
+        "noun odmowa"
+      ]
+    }
+  },
+  {
+    "lemma": "odmawiać",
+    "id": "pol-ver-0569-odmawiać(intransitive)",
     "aspect": "imperfective",
     "secondaryAspects": [],
     "tags": [
@@ -63494,7 +63866,379 @@
   },
   {
     "lemma": "odmówić",
-    "id": "pol-ver-0570-odmówić",
+    "id": "pol-ver-0570-odmówić(that or someone)",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "tags": [
+      "abstract",
+      "speech"
+    ],
+    "topics": [
+      "mental",
+      "social glue"
+    ],
+    "frequency": 3,
+    "register": 0,
+    "inflections": {
+      "infinitive": "odmówić",
+      "verbalNoun": "odmówienie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "odmówiony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "odmówiwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odmówi się"
+            },
+            "plural": {
+              "allPluralGenders": "odmówi się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "odmówię"
+            },
+            "plural": {
+              "allPluralGenders": "odmówimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "odmówisz"
+            },
+            "plural": {
+              "allPluralGenders": "odmówicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "odmówi"
+            },
+            "plural": {
+              "allPluralGenders": "odmówią"
+            }
+          }
+        },
+        "imperative": "odmów",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odmówiono"
+            },
+            "plural": {
+              "allPluralGenders": "odmówiono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "odmówiłem",
+              "f": "odmówiłam"
+            },
+            "plural": {
+              "virile": "odmówiliśmy",
+              "nonvirile": "odmówiłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "odmówiłeś",
+              "f": "odmówiłaś"
+            },
+            "plural": {
+              "virile": "odmówiliście",
+              "nonvirile": "odmówiłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "odmówił",
+              "f": "odmówiła",
+              "n": "odmówiło"
+            },
+            "plural": {
+              "virile": "odmówili",
+              "nonvirile": "odmówiły"
+            }
+          }
+        },
+        "present": false
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to say no",
+        "to refuse",
+        "*to deny"
+      ]
+    },
+    "extra": {
+      "usage": [
+        "Mr. Jules Favre refused to negotiate with the rebels, though a city of two million people was in rebellion, entirely the same way Tsar Nicholas refused to negotiate with the Poles."
+      ],
+      "otherShapes": {
+        "imperfective": [
+          "odmawiać"
+        ]
+      },
+      "derivedTerms": [
+        "noun odmowa"
+      ]
+    }
+  },
+  {
+    "lemma": "odmówić",
+    "id": "pol-ver-0570-odmówić(plus verb)",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "tags": [
+      "abstract",
+      "speech"
+    ],
+    "topics": [
+      "mental",
+      "social glue"
+    ],
+    "frequency": 3,
+    "register": 0,
+    "inflections": {
+      "infinitive": "odmówić",
+      "verbalNoun": "odmówienie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "odmówiony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "odmówiwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odmówi się"
+            },
+            "plural": {
+              "allPluralGenders": "odmówi się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "odmówię"
+            },
+            "plural": {
+              "allPluralGenders": "odmówimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "odmówisz"
+            },
+            "plural": {
+              "allPluralGenders": "odmówicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "odmówi"
+            },
+            "plural": {
+              "allPluralGenders": "odmówią"
+            }
+          }
+        },
+        "imperative": "odmów",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odmówiono"
+            },
+            "plural": {
+              "allPluralGenders": "odmówiono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "odmówiłem",
+              "f": "odmówiłam"
+            },
+            "plural": {
+              "virile": "odmówiliśmy",
+              "nonvirile": "odmówiłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "odmówiłeś",
+              "f": "odmówiłaś"
+            },
+            "plural": {
+              "virile": "odmówiliście",
+              "nonvirile": "odmówiłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "odmówił",
+              "f": "odmówiła",
+              "n": "odmówiło"
+            },
+            "plural": {
+              "virile": "odmówili",
+              "nonvirile": "odmówiły"
+            }
+          }
+        },
+        "present": false
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to say no",
+        "to refuse",
+        "*to deny"
+      ]
+    },
+    "extra": {
+      "usage": [
+        "Mr. Jules Favre refused to negotiate with the rebels, though a city of two million people was in rebellion, entirely the same way Tsar Nicholas refused to negotiate with the Poles."
+      ],
+      "otherShapes": {
+        "imperfective": [
+          "odmawiać"
+        ]
+      },
+      "derivedTerms": [
+        "noun odmowa"
+      ]
+    }
+  },
+  {
+    "lemma": "odmówić",
+    "id": "pol-ver-0570-odmówić(plus noun)",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "tags": [
+      "abstract",
+      "speech"
+    ],
+    "topics": [
+      "mental",
+      "social glue"
+    ],
+    "frequency": 3,
+    "register": 0,
+    "inflections": {
+      "infinitive": "odmówić",
+      "verbalNoun": "odmówienie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "odmówiony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "odmówiwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odmówi się"
+            },
+            "plural": {
+              "allPluralGenders": "odmówi się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "odmówię"
+            },
+            "plural": {
+              "allPluralGenders": "odmówimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "odmówisz"
+            },
+            "plural": {
+              "allPluralGenders": "odmówicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "odmówi"
+            },
+            "plural": {
+              "allPluralGenders": "odmówią"
+            }
+          }
+        },
+        "imperative": "odmów",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odmówiono"
+            },
+            "plural": {
+              "allPluralGenders": "odmówiono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "odmówiłem",
+              "f": "odmówiłam"
+            },
+            "plural": {
+              "virile": "odmówiliśmy",
+              "nonvirile": "odmówiłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "odmówiłeś",
+              "f": "odmówiłaś"
+            },
+            "plural": {
+              "virile": "odmówiliście",
+              "nonvirile": "odmówiłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "odmówił",
+              "f": "odmówiła",
+              "n": "odmówiło"
+            },
+            "plural": {
+              "virile": "odmówili",
+              "nonvirile": "odmówiły"
+            }
+          }
+        },
+        "present": false
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to say no",
+        "to refuse",
+        "*to deny"
+      ]
+    },
+    "extra": {
+      "usage": [
+        "Mr. Jules Favre refused to negotiate with the rebels, though a city of two million people was in rebellion, entirely the same way Tsar Nicholas refused to negotiate with the Poles."
+      ],
+      "otherShapes": {
+        "imperfective": [
+          "odmawiać"
+        ]
+      },
+      "derivedTerms": [
+        "noun odmowa"
+      ]
+    }
+  },
+  {
+    "lemma": "odmówić",
+    "id": "pol-ver-0570-odmówić(intransitive)",
     "aspect": "perfective",
     "secondaryAspects": [],
     "tags": [

@@ -6100,17 +6100,79 @@
     ]
   },
   {
-    "key": "ver-0289-sayno",
+    "key": "ver-0289-refuse(plus noun)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0512-refuse(plus noun)"
+      ],
+      "POL": [
+        "pol-ver-0569-odmawiać(plus noun)",
+        "pol-ver-0570-odmówić(plus noun)"
+      ]
+    },
+    "papers": [
+      "speech",
+      "abstract"
+    ],
+    "topics": [
+      "mental",
+      "social glue"
+    ]
+  },
+  {
+    "key": "ver-0289-refuse(intransitive)",
     "traductions": {
       "SPA": [],
       "ENG": [
         "eng-ver-0511-sayno",
-        "eng-ver-0512-refuse",
-        "eng-ver-0513-deny(someone)"
+        "eng-ver-0512-refuse(intransitive)"
       ],
       "POL": [
-        "pol-ver-0569-odmawiać",
-        "pol-ver-0570-odmówić"
+        "pol-ver-0569-odmawiać(intransitive)",
+        "pol-ver-0570-odmówić(intransitive)"
+      ]
+    },
+    "papers": [
+      "speech",
+      "abstract"
+    ],
+    "topics": [
+      "mental",
+      "social glue"
+    ]
+  },
+  {
+    "key": "ver-0289-refuse(plus verb)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0512-refuse(plus verb)"
+      ],
+      "POL": [
+        "pol-ver-0569-odmawiać(plus verb)",
+        "pol-ver-0570-odmówić(plus verb)"
+      ]
+    },
+    "papers": [
+      "speech",
+      "abstract"
+    ],
+    "topics": [
+      "mental",
+      "social glue"
+    ]
+  },
+  {
+    "key": "ver-0289-deny",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0513-deny"
+      ],
+      "POL": [
+        "pol-ver-0569-odmawiać(that or someone)",
+        "pol-ver-0570-odmówić(that or someone)"
       ]
     },
     "papers": [

@@ -13,8 +13,6 @@ if __name__ == '__main__':
     wordtype = ["adj", "nco", "npe", "ver"]
     batch = "01"
     suffix = "SRC"
-
-
     # # # # # #
 
     def go(wordtype):
