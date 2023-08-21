@@ -871,3 +871,30 @@ def run_sanhedrin(fxn, wordtypes):
         c.print_purple(f"Running for wordtype {w}")
         fxn(w)
         time.sleep(1)
+
+
+def get_unused(lobjs, nex, lang):
+    unused = []
+    for lob in [l for l in lobjs if not l.get("untranslated")]:
+        found = False
+        for nobj in nex:
+            if lob["id"] in nobj["traductions"][lang]:
+                found = True
+                break
+        if not found:
+            unused.append(lob["id"])
+    return unused
+
+
+def get_nonexisting(lobjs, nex, lang):
+    nonexisting = []
+    for nobj in nex:
+        for lobj_id in nobj["traductions"][lang]:
+            existing = False
+            for lob in lobjs:
+                if lob["id"] == lobj_id:
+                    existing = True
+                    break
+            if not existing:
+                nonexisting.append(lobj_id)
+    return nonexisting
