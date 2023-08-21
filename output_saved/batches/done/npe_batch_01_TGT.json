@@ -1,91 +1,5 @@
 [
   {
-    "lemma": "woman",
-    "id": "eng-npe-0001-woman",
-    "»trans": [
-      "pol-npe-0015-kobieta"
-    ],
-    "register": 0,
-    "frequency": 1
-  },
-  {
-    "lemma": "lady",
-    "id": "eng-npe-0002-lady",
-    "»trans": [
-      "pol-npe-0015-kobieta"
-    ],
-    "register": 0,
-    "frequency": 1
-  },
-  {
-    "lemma": "brother",
-    "id": "eng-npe-0003-brother",
-    "»trans": [
-      "pol-npe-0001-brat"
-    ],
-    "register": 0,
-    "frequency": 1
-  },
-  {
-    "lemma": "boy",
-    "id": "eng-npe-0004-boy",
-    "»trans": [
-      "pol-npe-0002-chłopak(boy)",
-      "pol-npe-0004-chłopiec(dimi)"
-    ],
-    "register": 0,
-    "frequency": 1
-  },
-  {
-    "lemma": "boyfriend",
-    "id": "eng-npe-0005-boyfriend",
-    "»trans": [
-      "pol-npe-0003-chłopak(boyfriend)"
-    ],
-    "register": 0,
-    "frequency": 1
-  },
-  {
-    "lemma": "teacher",
-    "id": "eng-npe-0006-teacher",
-    "»trans": [
-      "pol-npe-0005-nauczycielka(femi)",
-      "pol-npe-0006-nauczyciel(masc)"
-    ],
-    "register": 0,
-    "frequency": 2
-  },
-  {
-    "lemma": "son",
-    "id": "eng-npe-0007-son",
-    "»trans": [
-      "pol-npe-0007-syn"
-    ],
-    "register": 0,
-    "frequency": 1
-  },
-  {
-    "lemma": "nephew",
-    "id": "eng-npe-0008-nephew",
-    "»trans": [
-      "pol-npe-0010-siostrzeniec",
-      "pol-npe-0012-bratanek"
-    ],
-    "register": 0,
-    "frequency": 3
-  },
-  {
-    "lemma": "student",
-    "id": "eng-npe-0009-student",
-    "»trans": [
-      "pol-npe-0011-student",
-      "pol-npe-0070-studentka",
-      "pol-npe-0088-uczeń"
-    ],
-    "register": 0,
-    "frequency": 2
-  },
-  {
     "lemma": "mother",
     "id": "eng-npe-0010-mother",
     "»trans": [
@@ -95,19 +9,19 @@
     "frequency": 1
   },
   {
-    "lemma": "girl",
-    "id": "eng-npe-0011-girl",
+    "lemma": "father",
+    "id": "eng-npe-0029-father",
     "»trans": [
-      "pol-npe-0022-dziewczyna(girl)"
+      "pol-npe-0036-ojciec"
     ],
     "register": 0,
     "frequency": 1
   },
   {
-    "lemma": "girlfriend",
-    "id": "eng-npe-0012-girlfriend",
+    "lemma": "brother",
+    "id": "eng-npe-0003-brother",
     "»trans": [
-      "pol-npe-0023-dziewczyna(girlfriend)"
+      "pol-npe-0001-brat"
     ],
     "register": 0,
     "frequency": 1
@@ -141,16 +55,78 @@
     "frequency": 1
   },
   {
-    "lemma": "friend",
-    "id": "eng-npe-0016-friend",
+    "lemma": "son",
+    "id": "eng-npe-0007-son",
     "»trans": [
-      "pol-npe-0028-przyjaciel",
-      "pol-npe-0030-kolega",
-      "pol-npe-0121-koleżanka",
-      "pol-npe-0124-przyjaciółka"
+      "pol-npe-0007-syn"
     ],
     "register": 0,
     "frequency": 1
+  },
+  {
+    "lemma": "nephew",
+    "id": "eng-npe-0008-nephew",
+    "»trans": [
+      "pol-npe-0010-siostrzeniec",
+      "pol-npe-0012-bratanek"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "grandfather",
+    "id": "eng-npe-0040-grandfather",
+    "»trans": [
+      "pol-npe-0046-dziadek"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "grandmother",
+    "id": "eng-npe-0023-grandmother",
+    "»trans": [
+      "pol-npe-0031-babcia"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "aunt",
+    "id": "eng-npe-0054-aunt",
+    "»trans": [
+      "pol-npe-0061-ciocia"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "auntie",
+    "id": "eng-npe-0055-auntie",
+    "»trans": [
+      "pol-npe-0061-ciocia"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "uncle",
+    "id": "eng-npe-0033-uncle",
+    "»trans": [
+      "pol-npe-0040-wuj",
+      "pol-npe-0043-wujek"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "cousin",
+    "id": "eng-npe-0042-cousin",
+    "»trans": [
+      "pol-npe-0049-kuzyn"
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "wife",
@@ -171,22 +147,22 @@
     "frequency": 1
   },
   {
-    "lemma": "actress",
-    "id": "eng-npe-0019-actress",
+    "lemma": "woman",
+    "id": "eng-npe-0001-woman",
     "»trans": [
-      "pol-npe-0017-aktorka"
+      "pol-npe-0015-kobieta"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 1
   },
   {
-    "lemma": "actor",
-    "id": "eng-npe-0020-actor",
+    "lemma": "lady",
+    "id": "eng-npe-0002-lady",
     "»trans": [
-      "pol-npe-0018-aktor"
+      "pol-npe-0015-kobieta"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 1
   },
   {
     "lemma": "sister",
@@ -208,13 +184,92 @@
     "frequency": 2
   },
   {
-    "lemma": "grandmother",
-    "id": "eng-npe-0023-grandmother",
+    "lemma": "boy",
+    "id": "eng-npe-0004-boy",
     "»trans": [
-      "pol-npe-0031-babcia"
+      "pol-npe-0002-chłopak(boy)",
+      "pol-npe-0004-chłopiec(dimi)"
     ],
     "register": 0,
     "frequency": 1
+  },
+  {
+    "lemma": "boyfriend",
+    "id": "eng-npe-0005-boyfriend",
+    "»trans": [
+      "pol-npe-0003-chłopak(boyfriend)"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "teacher",
+    "id": "eng-npe-0006-teacher",
+    "»trans": [
+      "pol-npe-0005-nauczycielka(femi)",
+      "pol-npe-0006-nauczyciel(masc)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "student",
+    "id": "eng-npe-0009-student",
+    "»trans": [
+      "pol-npe-0011-student",
+      "pol-npe-0070-studentka",
+      "pol-npe-0088-uczeń"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "girl",
+    "id": "eng-npe-0011-girl",
+    "»trans": [
+      "pol-npe-0022-dziewczyna(girl)"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "girlfriend",
+    "id": "eng-npe-0012-girlfriend",
+    "»trans": [
+      "pol-npe-0023-dziewczyna(girlfriend)"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "friend",
+    "id": "eng-npe-0016-friend",
+    "»trans": [
+      "pol-npe-0028-przyjaciel",
+      "pol-npe-0030-kolega",
+      "pol-npe-0121-koleżanka",
+      "pol-npe-0124-przyjaciółka"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "actress",
+    "id": "eng-npe-0019-actress",
+    "»trans": [
+      "pol-npe-0017-aktorka"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "actor",
+    "id": "eng-npe-0020-actor",
+    "»trans": [
+      "pol-npe-0018-aktor"
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "king",
@@ -264,15 +319,6 @@
     "frequency": 3
   },
   {
-    "lemma": "father",
-    "id": "eng-npe-0029-father",
-    "»trans": [
-      "pol-npe-0036-ojciec"
-    ],
-    "register": 0,
-    "frequency": 1
-  },
-  {
     "lemma": "hero",
     "id": "eng-npe-0030-hero",
     "»trans": [
@@ -298,16 +344,6 @@
     ],
     "register": 0,
     "frequency": 3
-  },
-  {
-    "lemma": "uncle",
-    "id": "eng-npe-0033-uncle",
-    "»trans": [
-      "pol-npe-0040-wuj",
-      "pol-npe-0043-wujek"
-    ],
-    "register": 0,
-    "frequency": 2
   },
   {
     "lemma": "surgeon",
@@ -368,15 +404,6 @@
     "frequency": 4
   },
   {
-    "lemma": "grandfather",
-    "id": "eng-npe-0040-grandfather",
-    "»trans": [
-      "pol-npe-0046-dziadek"
-    ],
-    "register": 0,
-    "frequency": 1
-  },
-  {
     "lemma": "knight",
     "id": "eng-npe-0041-knight",
     "»trans": [
@@ -384,15 +411,6 @@
     ],
     "register": 0,
     "frequency": 4
-  },
-  {
-    "lemma": "cousin",
-    "id": "eng-npe-0042-cousin",
-    "»trans": [
-      "pol-npe-0049-kuzyn"
-    ],
-    "register": 0,
-    "frequency": 2
   },
   {
     "lemma": "thief",
@@ -493,24 +511,6 @@
     ],
     "register": 0,
     "frequency": 3
-  },
-  {
-    "lemma": "aunt",
-    "id": "eng-npe-0054-aunt",
-    "»trans": [
-      "pol-npe-0061-ciocia"
-    ],
-    "register": 0,
-    "frequency": 2
-  },
-  {
-    "lemma": "auntie",
-    "id": "eng-npe-0055-auntie",
-    "»trans": [
-      "pol-npe-0061-ciocia"
-    ],
-    "register": 0,
-    "frequency": 2
   },
   {
     "lemma": "god",
@@ -784,15 +784,6 @@
     "frequency": 3
   },
   {
-    "lemma": "pupil",
-    "id": "eng-npe-0086-pupil",
-    "»trans": [
-      "pol-npe-0088-uczeń"
-    ],
-    "register": 0,
-    "frequency": 3
-  },
-  {
     "lemma": "owner",
     "id": "eng-npe-0087-owner",
     "»trans": [
@@ -919,6 +910,15 @@
     ],
     "register": 0,
     "frequency": 2
+  },
+  {
+    "lemma": "policewoman",
+    "id": "eng-npe-0115-policewoman",
+    "»trans": [
+      "pol-npe-0117-policjantka"
+    ],
+    "register": 0,
+    "frequency": 3
   },
   {
     "lemma": "police officer",
@@ -1048,15 +1048,6 @@
     ],
     "register": 0,
     "frequency": 5
-  },
-  {
-    "lemma": "policewoman",
-    "id": "eng-npe-0115-policewoman",
-    "»trans": [
-      "pol-npe-0117-policjantka"
-    ],
-    "register": 0,
-    "frequency": 3
   },
   {
     "lemma": "vegetarian",
@@ -1292,6 +1283,16 @@
   {
     "lemma": "colleague",
     "id": "eng-npe-0140-colleague",
+    "»trans": [
+      "pol-npe-0030-kolega",
+      "pol-npe-0121-koleżanka"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "workmate",
+    "id": "eng-npe-0140-workmate",
     "»trans": [
       "pol-npe-0030-kolega",
       "pol-npe-0121-koleżanka"

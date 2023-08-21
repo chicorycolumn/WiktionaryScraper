@@ -1,5 +1,124 @@
 [
   {
+    "lemma": "matka",
+    "id": "pol-npe-0022-matka",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "mother"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "derivedTerms": [
+        "awiomatka",
+        "matczyny",
+        "mateczny",
+        "matecznik",
+        "matula",
+        "matczyć",
+        "matkować"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "matka",
+        "gen": "matki",
+        "dat": "matce",
+        "acc": "matkę",
+        "ins": "matką",
+        "loc": "matce",
+        "voc": "matko"
+      },
+      "plural": {
+        "nom": "matki",
+        "gen": "matek",
+        "dat": "matkom",
+        "acc": "matki",
+        "ins": "matkami",
+        "loc": "matkach",
+        "voc": "matki"
+      }
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "ojciec",
+    "id": "pol-npe-0023-ojciec",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "father"
+      ]
+    },
+    "gender": "m1",
+    "extra": {
+      "otherShapes": {
+        "abbreviation": [
+          "o."
+        ]
+      },
+      "synonyms": [
+        "ksiądz"
+      ],
+      "derivedTerms": [
+        "ojcobójczy",
+        "ojcowski",
+        "ojcowy",
+        "ojczysty",
+        "ojciec chrzestny",
+        "ojciec dyrektor",
+        "ojcobójca",
+        "ojcobójczyni",
+        "ojcobójstwo",
+        "ojcostwo",
+        "ojcowizna",
+        "ojczym",
+        "ojczyzna",
+        "jaki ojciec, taki syn"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "ojciec",
+        "gen": "ojca",
+        "dat": "ojcu",
+        "acc": "ojca",
+        "ins": "ojcem",
+        "loc": "ojcu",
+        "voc": "ojcze"
+      },
+      "plural": {
+        "nom": "ojcowie",
+        "gen": "ojców",
+        "dat": "ojcom",
+        "acc": "ojców",
+        "ins": "ojcami",
+        "loc": "ojcach",
+        "voc": "ojcowie"
+      }
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
     "lemma": "brat",
     "id": "pol-npe-0001-brat",
     "tags": [
@@ -132,6 +251,939 @@
       }
     },
     "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "kobieta",
+    "id": "pol-npe-0016-kobieta",
+    "tags": [
+      "concrete",
+      "living",
+      "person"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "woman"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "kobietka"
+        ]
+      },
+      "antonyms": [
+        "mężczyzna"
+      ],
+      "derivedTerms": [
+        "kobiecy",
+        "(adjective)"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "kobieta",
+        "gen": "kobiety",
+        "dat": "kobiecie",
+        "acc": "kobietę",
+        "ins": "kobietą",
+        "loc": "kobiecie",
+        "voc": "kobieto"
+      },
+      "plural": {
+        "nom": "kobiety",
+        "gen": "kobiet",
+        "dat": "kobietom",
+        "acc": "kobiety",
+        "ins": "kobietami",
+        "loc": "kobietach",
+        "voc": "kobiety"
+      }
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "mężczyzna",
+    "id": "pol-npe-0017-mężczyzna",
+    "tags": [
+      "concrete",
+      "living",
+      "person"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "man"
+      ]
+    },
+    "gender": "m1",
+    "extra": {
+      "antonyms": [
+        "kobieta"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "mężczyzna",
+        "gen": "mężczyzny",
+        "dat": "mężczyźnie",
+        "acc": "mężczyznę",
+        "ins": "mężczyzną",
+        "loc": "mężczyźnie",
+        "voc": "mężczyzno"
+      },
+      "plural": {
+        "nom": "mężczyźni",
+        "gen": "mężczyzn",
+        "dat": "mężczyznom",
+        "acc": "mężczyzn",
+        "ins": "mężczyznami",
+        "loc": "mężczyznach",
+        "voc": "mężczyźni"
+      }
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "córka",
+    "id": "pol-npe-0010-córka",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "daughter"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "córeczka"
+        ],
+        "augmentative": [
+          "córa"
+        ]
+      }
+    },
+    "inflections": {
+      "singular": {
+        "nom": "córka",
+        "gen": "córki",
+        "dat": "córce",
+        "acc": "córkę",
+        "ins": "córką",
+        "loc": "córce",
+        "voc": "córko"
+      },
+      "plural": {
+        "nom": "córki",
+        "gen": "córek",
+        "dat": "córkom",
+        "acc": "córki",
+        "ins": "córkami",
+        "loc": "córkach",
+        "voc": "córki"
+      }
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "syn",
+    "id": "pol-npe-0011-syn",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "son"
+      ]
+    },
+    "gender": "m1",
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "synek"
+        ]
+      },
+      "derivedTerms": [
+        "syneczek",
+        "synek",
+        "syncio",
+        "synulek",
+        "synuś",
+        "synal",
+        "synalek"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "syn",
+        "gen": "syna",
+        "dat": "synowi",
+        "acc": "syna",
+        "ins": "synem",
+        "loc": "synu",
+        "voc": "synu"
+      },
+      "plural": {
+        "nom": "synowie",
+        "gen": "synów",
+        "dat": "synom",
+        "acc": "synów",
+        "ins": "synami",
+        "loc": "synach",
+        "voc": "synowie"
+      }
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "dziadek",
+    "id": "pol-npe-0044-dziadek",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "grandfather"
+      ]
+    },
+    "gender": "m1",
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "dziadziuś"
+        ],
+        "augmentative": [
+          "dziad"
+        ]
+      },
+      "derivedTerms": [
+        "gdyby babcia miała wąsy, toby była dziadkiem",
+        "dziadek do orzechów"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "dziadek",
+        "gen": "dziadka",
+        "dat": "dziadkowi",
+        "acc": "dziadka",
+        "ins": "dziadkiem",
+        "loc": "dziadku",
+        "voc": "dziadku"
+      },
+      "plural": {
+        "nom": "dziadkowie",
+        "gen": "dziadków",
+        "dat": "dziadkom",
+        "acc": "dziadków",
+        "ins": "dziadkami",
+        "loc": "dziadkach",
+        "voc": "dziadkowie"
+      }
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "babcia",
+    "id": "pol-npe-0045-babcia",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "grandmother"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "babunia",
+          "babusia"
+        ]
+      },
+      "synonyms": [
+        "baba",
+        "babka",
+        "babunia",
+        "babina",
+        "starowina",
+        "staruszka"
+      ],
+      "derivedTerms": [
+        "babciny",
+        "babciowy",
+        "babcia klozetowa",
+        "gdyby babcia miała wąsy, toby była dziadkiem",
+        "skończyło się babci sranie"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "babcia",
+        "gen": "babci",
+        "dat": "babci",
+        "acc": "babcię",
+        "ins": "babcią",
+        "loc": "babci",
+        "voc": "babciu"
+      },
+      "plural": {
+        "nom": "babcie",
+        "gen": "babć",
+        "dat": "babciom",
+        "acc": "babcie",
+        "ins": "babciami",
+        "loc": "babciach",
+        "voc": "babcie"
+      }
+    },
+    "frequency": 2,
+    "register": 0
+  },
+  {
+    "lemma": "mąż",
+    "id": "pol-npe-0026-mąż",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "husband"
+      ]
+    },
+    "gender": "m1",
+    "extra": {
+      "derivedTerms": [
+        "mężowski",
+        "mężowy",
+        "mąż stanu",
+        "mężulek",
+        "mężuś",
+        "mężysko"
+      ],
+      "usage": [
+        "Usage notes [ edit ] The sense of \"male human being\" carries connotations of bravery honour or responsibility ; in other words, the stereotypical quality of \" manliness \"."
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "mąż",
+        "gen": "męża",
+        "dat": "mężowi",
+        "acc": "męża",
+        "ins": "mężem",
+        "loc": "mężu",
+        "voc": "mężu"
+      },
+      "plural": {
+        "nom": "mężowie",
+        "gen": "mężów",
+        "dat": "mężom",
+        "acc": "mężów",
+        "ins": "mężami",
+        "loc": "mężach",
+        "voc": "mężowie"
+      }
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "żona",
+    "id": "pol-npe-0027-żona",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "wife"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "derivedTerms": [
+        "bezżenny",
+        "nieżonaty",
+        "żonaty",
+        "żonin",
+        "żoniny",
+        "bezżennie",
+        "bezżeństwo",
+        "bezżenność",
+        "żoncia",
+        "żoneczka",
+        "żonisko",
+        "żonka",
+        "żonkoś",
+        "żonusia"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "żona",
+        "gen": "żony",
+        "dat": "żonie",
+        "acc": "żonę",
+        "ins": "żoną",
+        "loc": "żonie",
+        "voc": "żono"
+      },
+      "plural": {
+        "nom": "żony",
+        "gen": "żon",
+        "dat": "żonom",
+        "acc": "żony",
+        "ins": "żonami",
+        "loc": "żonach",
+        "voc": "żony"
+      }
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "wuj",
+    "id": "pol-npe-0036-wuj",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "uncle"
+      ]
+    },
+    "gender": "m1",
+    "extra": {
+      "synonyms": [
+        "wujek"
+      ],
+      "derivedTerms": [
+        "wujaszkowy",
+        "wujeczny",
+        "wujowski",
+        "wujowy",
+        "wujanka",
+        "wujaszek",
+        "wujek",
+        "wujenka",
+        "wujostwo",
+        "wujaszkować"
+      ],
+      "usage": [
+        "Coordinate term: stryj"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "wuj",
+        "gen": "wuja",
+        "dat": "wujowi",
+        "acc": "wuja",
+        "ins": "wujem",
+        "loc": "wuju",
+        "voc": "wuju"
+      },
+      "plural": {
+        "nom": "wujowie",
+        "gen": [
+          "wujów",
+          "wui"
+        ],
+        "dat": "wujom",
+        "acc": [
+          "wujów",
+          "wui"
+        ],
+        "ins": "wujami",
+        "loc": "wujach",
+        "voc": "wujowie"
+      }
+    },
+    "frequency": 2,
+    "register": 0
+  },
+  {
+    "lemma": "wujek",
+    "id": "pol-npe-0041-wujek",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "uncle"
+      ]
+    },
+    "gender": "m1",
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "wujcio",
+          "wujaszek"
+        ]
+      },
+      "synonyms": [
+        "wuj"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "wujek",
+        "gen": "wujka",
+        "dat": "wujkowi",
+        "acc": "wujka",
+        "ins": "wujkiem",
+        "loc": "wujku",
+        "voc": "wujku"
+      },
+      "plural": {
+        "nom": "wujkowie",
+        "gen": "wujków",
+        "dat": "wujkom",
+        "acc": "wujków",
+        "ins": "wujkami",
+        "loc": "wujkach",
+        "voc": "wujkowie"
+      }
+    },
+    "frequency": 2,
+    "register": 0
+  },
+  {
+    "lemma": "ciocia",
+    "id": "pol-npe-0037-ciocia",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "aunt",
+        "auntie"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "synonyms": [
+        "ciotka"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "ciocia",
+        "gen": "cioci",
+        "dat": "cioci",
+        "acc": "ciocię",
+        "ins": "ciocią",
+        "loc": "cioci",
+        "voc": "ciociu"
+      },
+      "plural": {
+        "nom": "ciocie",
+        "gen": "cioć",
+        "dat": "ciociom",
+        "acc": "ciocie",
+        "ins": "ciociami",
+        "loc": "ciociach",
+        "voc": "ciocie"
+      }
+    },
+    "frequency": 2,
+    "register": 0
+  },
+  {
+    "lemma": "kuzyn",
+    "id": "pol-npe-0048-kuzyn",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "cousin"
+      ]
+    },
+    "gender": "m1",
+    "extra": {
+      "otherShapes": {
+        "feminine": [
+          "kuzynka"
+        ]
+      }
+    },
+    "inflections": {
+      "singular": {
+        "nom": "kuzyn",
+        "gen": "kuzyna",
+        "dat": "kuzynowi",
+        "acc": "kuzyna",
+        "ins": "kuzynem",
+        "loc": "kuzynie",
+        "voc": "kuzynie"
+      },
+      "plural": {
+        "nom": "kuzyni",
+        "gen": "kuzynów",
+        "dat": "kuzynom",
+        "acc": "kuzynów",
+        "ins": "kuzynami",
+        "loc": "kuzynach",
+        "voc": "kuzyni"
+      }
+    },
+    "frequency": 2,
+    "register": 0
+  },
+  {
+    "lemma": "siostrzenica",
+    "id": "pol-npe-0024-siostrzenica",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "niece"
+      ]
+    },
+    "gender": "f",
+    "inflections": {
+      "singular": {
+        "nom": "siostrzenica",
+        "gen": "siostrzenicy",
+        "dat": "siostrzenicy",
+        "acc": "siostrzenicę",
+        "ins": "siostrzenicą",
+        "loc": "siostrzenicy",
+        "voc": "siostrzenico"
+      },
+      "plural": {
+        "nom": "siostrzenice",
+        "gen": "siostrzenic",
+        "dat": "siostrzenicom",
+        "acc": "siostrzenice",
+        "ins": "siostrzenicami",
+        "loc": "siostrzenicach",
+        "voc": "siostrzenice"
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+  {
+    "lemma": "bratanica",
+    "id": "pol-npe-0025-bratanica",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "niece"
+      ]
+    },
+    "gender": "f",
+    "inflections": {
+      "singular": {
+        "nom": "bratanica",
+        "gen": "bratanicy",
+        "dat": "bratanicy",
+        "acc": "bratanicę",
+        "ins": "bratanicą",
+        "loc": "bratanicy",
+        "voc": "bratanico"
+      },
+      "plural": {
+        "nom": "bratanice",
+        "gen": "bratanic",
+        "dat": "bratanicom",
+        "acc": "bratanice",
+        "ins": "bratanicami",
+        "loc": "bratanicach",
+        "voc": "bratanice"
+      }
+    },
+    "frequency": 1,
+    "register": 0
+  },
+  {
+    "lemma": "siostrzeniec",
+    "id": "pol-npe-0013-siostrzeniec",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "nephew"
+      ]
+    },
+    "gender": "m1",
+    "inflections": {
+      "singular": {
+        "nom": "siostrzeniec",
+        "gen": "siostrzeńca",
+        "dat": "siostrzeńcowi",
+        "acc": "siostrzeńca",
+        "ins": "siostrzeńcem",
+        "loc": "siostrzeńcu",
+        "voc": [
+          "siostrzeńcu",
+          "siostrzeńcze"
+        ]
+      },
+      "plural": {
+        "nom": "siostrzeńcy",
+        "gen": "siostrzeńców",
+        "dat": "siostrzeńcom",
+        "acc": "siostrzeńców",
+        "ins": "siostrzeńcami",
+        "loc": "siostrzeńcach",
+        "voc": "siostrzeńcy"
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+  {
+    "lemma": "bratanek",
+    "id": "pol-npe-0014-bratanek",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "nephew"
+      ]
+    },
+    "gender": "m1",
+    "extra": {
+      "synonyms": [
+        "brataniec",
+        "synowiec"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "bratanek",
+        "gen": "bratanka",
+        "dat": "bratankowi",
+        "acc": "bratanka",
+        "ins": "bratankiem",
+        "loc": "bratanku",
+        "voc": "bratanku"
+      },
+      "plural": {
+        "nom": [
+          "bratankowie",
+          "bratanki"
+        ],
+        "gen": "bratanków",
+        "dat": "bratankom",
+        "acc": "bratanków",
+        "ins": "bratankami",
+        "loc": "bratankach",
+        "voc": [
+          "bratankowie",
+          "bratanki"
+        ]
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+  {
+    "lemma": "partner",
+    "id": "pol-npe-0020-partner",
+    "tags": [
+      "concrete",
+      "living",
+      "person"
+    ],
+    "topics": [
+      "love",
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "partner"
+      ]
+    },
+    "gender": "m1",
+    "extra": {
+      "otherShapes": {
+        "feminine": [
+          "partnerka"
+        ]
+      },
+      "derivedTerms": [
+        "partnerski",
+        "partnerstwo",
+        "partnerować"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "partner",
+        "gen": "partnera",
+        "dat": "partnerowi",
+        "acc": "partnera",
+        "ins": "partnerem",
+        "loc": "partnerze",
+        "voc": "partnerze"
+      },
+      "plural": {
+        "nom": "partnerzy",
+        "gen": "partnerów",
+        "dat": "partnerom",
+        "acc": "partnerów",
+        "ins": "partnerami",
+        "loc": "partnerach",
+        "voc": "partnerzy"
+      }
+    },
+    "frequency": 2,
+    "register": 0
+  },
+  {
+    "lemma": "partnerka",
+    "id": "pol-npe-0021-partnerka",
+    "tags": [
+      "concrete",
+      "living",
+      "person"
+    ],
+    "topics": [
+      "love",
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "partner"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "otherShapes": {
+        "masculine": [
+          "partner"
+        ]
+      }
+    },
+    "inflections": {
+      "singular": {
+        "nom": "partnerka",
+        "gen": "partnerki",
+        "dat": "partnerce",
+        "acc": "partnerkę",
+        "ins": "partnerką",
+        "loc": "partnerce",
+        "voc": "partnerko"
+      },
+      "plural": {
+        "nom": "partnerki",
+        "gen": "partnerek",
+        "dat": "partnerkom",
+        "acc": "partnerki",
+        "ins": "partnerkami",
+        "loc": "partnerkach",
+        "voc": "partnerki"
+      }
+    },
+    "frequency": 2,
     "register": 0
   },
   {
@@ -506,114 +1558,6 @@
     "register": 0
   },
   {
-    "lemma": "córka",
-    "id": "pol-npe-0010-córka",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "daughter"
-      ]
-    },
-    "gender": "f",
-    "extra": {
-      "otherShapes": {
-        "diminutive": [
-          "córeczka"
-        ],
-        "augmentative": [
-          "córa"
-        ]
-      }
-    },
-    "inflections": {
-      "singular": {
-        "nom": "córka",
-        "gen": "córki",
-        "dat": "córce",
-        "acc": "córkę",
-        "ins": "córką",
-        "loc": "córce",
-        "voc": "córko"
-      },
-      "plural": {
-        "nom": "córki",
-        "gen": "córek",
-        "dat": "córkom",
-        "acc": "córki",
-        "ins": "córkami",
-        "loc": "córkach",
-        "voc": "córki"
-      }
-    },
-    "frequency": 1,
-    "register": 0
-  },
-  {
-    "lemma": "syn",
-    "id": "pol-npe-0011-syn",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "son"
-      ]
-    },
-    "gender": "m1",
-    "extra": {
-      "otherShapes": {
-        "diminutive": [
-          "synek"
-        ]
-      },
-      "derivedTerms": [
-        "syneczek",
-        "synek",
-        "syncio",
-        "synulek",
-        "synuś",
-        "synal",
-        "synalek"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "syn",
-        "gen": "syna",
-        "dat": "synowi",
-        "acc": "syna",
-        "ins": "synem",
-        "loc": "synu",
-        "voc": "synu"
-      },
-      "plural": {
-        "nom": "synowie",
-        "gen": "synów",
-        "dat": "synom",
-        "acc": "synów",
-        "ins": "synami",
-        "loc": "synach",
-        "voc": "synowie"
-      }
-    },
-    "frequency": 1,
-    "register": 0
-  },
-  {
     "lemma": "facet",
     "id": "pol-npe-0012-facet",
     "tags": [
@@ -666,103 +1610,6 @@
     "register": 0
   },
   {
-    "lemma": "siostrzeniec",
-    "id": "pol-npe-0013-siostrzeniec",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "nephew"
-      ]
-    },
-    "gender": "m1",
-    "inflections": {
-      "singular": {
-        "nom": "siostrzeniec",
-        "gen": "siostrzeńca",
-        "dat": "siostrzeńcowi",
-        "acc": "siostrzeńca",
-        "ins": "siostrzeńcem",
-        "loc": "siostrzeńcu",
-        "voc": [
-          "siostrzeńcu",
-          "siostrzeńcze"
-        ]
-      },
-      "plural": {
-        "nom": "siostrzeńcy",
-        "gen": "siostrzeńców",
-        "dat": "siostrzeńcom",
-        "acc": "siostrzeńców",
-        "ins": "siostrzeńcami",
-        "loc": "siostrzeńcach",
-        "voc": "siostrzeńcy"
-      }
-    },
-    "frequency": 3,
-    "register": 0
-  },
-  {
-    "lemma": "bratanek",
-    "id": "pol-npe-0014-bratanek",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "nephew"
-      ]
-    },
-    "gender": "m1",
-    "extra": {
-      "synonyms": [
-        "brataniec",
-        "synowiec"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "bratanek",
-        "gen": "bratanka",
-        "dat": "bratankowi",
-        "acc": "bratanka",
-        "ins": "bratankiem",
-        "loc": "bratanku",
-        "voc": "bratanku"
-      },
-      "plural": {
-        "nom": [
-          "bratankowie",
-          "bratanki"
-        ],
-        "gen": "bratanków",
-        "dat": "bratankom",
-        "acc": "bratanków",
-        "ins": "bratankami",
-        "loc": "bratankach",
-        "voc": [
-          "bratankowie",
-          "bratanki"
-        ]
-      }
-    },
-    "frequency": 3,
-    "register": 0
-  },
-  {
     "lemma": "ziom",
     "id": "pol-npe-0015-ziom",
     "tags": [],
@@ -805,105 +1652,6 @@
     },
     "frequency": 4,
     "register": 6
-  },
-  {
-    "lemma": "kobieta",
-    "id": "pol-npe-0016-kobieta",
-    "tags": [
-      "concrete",
-      "living",
-      "person"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "woman"
-      ]
-    },
-    "gender": "f",
-    "extra": {
-      "otherShapes": {
-        "diminutive": [
-          "kobietka"
-        ]
-      },
-      "antonyms": [
-        "mężczyzna"
-      ],
-      "derivedTerms": [
-        "kobiecy",
-        "(adjective)"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "kobieta",
-        "gen": "kobiety",
-        "dat": "kobiecie",
-        "acc": "kobietę",
-        "ins": "kobietą",
-        "loc": "kobiecie",
-        "voc": "kobieto"
-      },
-      "plural": {
-        "nom": "kobiety",
-        "gen": "kobiet",
-        "dat": "kobietom",
-        "acc": "kobiety",
-        "ins": "kobietami",
-        "loc": "kobietach",
-        "voc": "kobiety"
-      }
-    },
-    "frequency": 1,
-    "register": 0
-  },
-  {
-    "lemma": "mężczyzna",
-    "id": "pol-npe-0017-mężczyzna",
-    "tags": [
-      "concrete",
-      "living",
-      "person"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "man"
-      ]
-    },
-    "gender": "m1",
-    "extra": {
-      "antonyms": [
-        "kobieta"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "mężczyzna",
-        "gen": "mężczyzny",
-        "dat": "mężczyźnie",
-        "acc": "mężczyznę",
-        "ins": "mężczyzną",
-        "loc": "mężczyźnie",
-        "voc": "mężczyzno"
-      },
-      "plural": {
-        "nom": "mężczyźni",
-        "gen": "mężczyzn",
-        "dat": "mężczyznom",
-        "acc": "mężczyzn",
-        "ins": "mężczyznami",
-        "loc": "mężczyznach",
-        "voc": "mężczyźni"
-      }
-    },
-    "frequency": 1,
-    "register": 0
   },
   {
     "lemma": "aktorka",
@@ -1028,161 +1776,56 @@
     "register": 0
   },
   {
-    "lemma": "partner",
-    "id": "pol-npe-0020-partner",
+    "lemma": "przyjaciółka",
+    "id": "pol-npe-0124-przyjaciółka",
     "tags": [
       "concrete",
       "living",
-      "person"
+      "person",
+      "relative"
     ],
     "topics": [
-      "love",
       "people"
     ],
     "translations": {
       "ENG": [
-        "partner"
-      ]
-    },
-    "gender": "m1",
-    "extra": {
-      "otherShapes": {
-        "feminine": [
-          "partnerka"
-        ]
-      },
-      "derivedTerms": [
-        "partnerski",
-        "partnerstwo",
-        "partnerować"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "partner",
-        "gen": "partnera",
-        "dat": "partnerowi",
-        "acc": "partnera",
-        "ins": "partnerem",
-        "loc": "partnerze",
-        "voc": "partnerze"
-      },
-      "plural": {
-        "nom": "partnerzy",
-        "gen": "partnerów",
-        "dat": "partnerom",
-        "acc": "partnerów",
-        "ins": "partnerami",
-        "loc": "partnerach",
-        "voc": "partnerzy"
-      }
-    },
-    "frequency": 2,
-    "register": 0
-  },
-  {
-    "lemma": "partnerka",
-    "id": "pol-npe-0021-partnerka",
-    "tags": [
-      "concrete",
-      "living",
-      "person"
-    ],
-    "topics": [
-      "love",
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "partner"
+        "friend"
       ]
     },
     "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
-          "partner"
+          "przyjaciel"
         ]
       }
     },
     "inflections": {
       "singular": {
-        "nom": "partnerka",
-        "gen": "partnerki",
-        "dat": "partnerce",
-        "acc": "partnerkę",
-        "ins": "partnerką",
-        "loc": "partnerce",
-        "voc": "partnerko"
+        "nom": "przyjaciółka",
+        "gen": "przyjaciółki",
+        "dat": "przyjaciółce",
+        "acc": "przyjaciółkę",
+        "ins": "przyjaciółką",
+        "loc": "przyjaciółce",
+        "voc": "przyjaciółko"
       },
       "plural": {
-        "nom": "partnerki",
-        "gen": "partnerek",
-        "dat": "partnerkom",
-        "acc": "partnerki",
-        "ins": "partnerkami",
-        "loc": "partnerkach",
-        "voc": "partnerki"
-      }
-    },
-    "frequency": 2,
-    "register": 0
-  },
-  {
-    "lemma": "matka",
-    "id": "pol-npe-0022-matka",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "mother"
-      ]
-    },
-    "gender": "f",
-    "extra": {
-      "derivedTerms": [
-        "awiomatka",
-        "matczyny",
-        "mateczny",
-        "matecznik",
-        "matula",
-        "matczyć",
-        "matkować"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "matka",
-        "gen": "matki",
-        "dat": "matce",
-        "acc": "matkę",
-        "ins": "matką",
-        "loc": "matce",
-        "voc": "matko"
-      },
-      "plural": {
-        "nom": "matki",
-        "gen": "matek",
-        "dat": "matkom",
-        "acc": "matki",
-        "ins": "matkami",
-        "loc": "matkach",
-        "voc": "matki"
+        "nom": "przyjaciółki",
+        "gen": "przyjaciółek",
+        "dat": "przyjaciółkom",
+        "acc": "przyjaciółki",
+        "ins": "przyjaciółkami",
+        "loc": "przyjaciółkach",
+        "voc": "przyjaciółki"
       }
     },
     "frequency": 1,
     "register": 0
   },
   {
-    "lemma": "ojciec",
-    "id": "pol-npe-0023-ojciec",
+    "lemma": "przyjaciel",
+    "id": "pol-npe-0125-przyjaciel",
     "tags": [
       "concrete",
       "living",
@@ -1194,249 +1837,41 @@
     ],
     "translations": {
       "ENG": [
-        "father"
+        "friend"
       ]
     },
     "gender": "m1",
     "extra": {
       "otherShapes": {
-        "abbreviation": [
-          "o."
+        "feminine": [
+          "przyjaciółka"
         ]
       },
-      "synonyms": [
-        "ksiądz"
-      ],
       "derivedTerms": [
-        "ojcobójczy",
-        "ojcowski",
-        "ojcowy",
-        "ojczysty",
-        "ojciec chrzestny",
-        "ojciec dyrektor",
-        "ojcobójca",
-        "ojcobójczyni",
-        "ojcobójstwo",
-        "ojcostwo",
-        "ojcowizna",
-        "ojczym",
-        "ojczyzna",
-        "jaki ojciec, taki syn"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "ojciec",
-        "gen": "ojca",
-        "dat": "ojcu",
-        "acc": "ojca",
-        "ins": "ojcem",
-        "loc": "ojcu",
-        "voc": "ojcze"
-      },
-      "plural": {
-        "nom": "ojcowie",
-        "gen": "ojców",
-        "dat": "ojcom",
-        "acc": "ojców",
-        "ins": "ojcami",
-        "loc": "ojcach",
-        "voc": "ojcowie"
-      }
-    },
-    "frequency": 1,
-    "register": 0
-  },
-  {
-    "lemma": "siostrzenica",
-    "id": "pol-npe-0024-siostrzenica",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "niece"
-      ]
-    },
-    "gender": "f",
-    "inflections": {
-      "singular": {
-        "nom": "siostrzenica",
-        "gen": "siostrzenicy",
-        "dat": "siostrzenicy",
-        "acc": "siostrzenicę",
-        "ins": "siostrzenicą",
-        "loc": "siostrzenicy",
-        "voc": "siostrzenico"
-      },
-      "plural": {
-        "nom": "siostrzenice",
-        "gen": "siostrzenic",
-        "dat": "siostrzenicom",
-        "acc": "siostrzenice",
-        "ins": "siostrzenicami",
-        "loc": "siostrzenicach",
-        "voc": "siostrzenice"
-      }
-    },
-    "frequency": 3,
-    "register": 0
-  },
-  {
-    "lemma": "bratanica",
-    "id": "pol-npe-0025-bratanica",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "niece"
-      ]
-    },
-    "gender": "f",
-    "inflections": {
-      "singular": {
-        "nom": "bratanica",
-        "gen": "bratanicy",
-        "dat": "bratanicy",
-        "acc": "bratanicę",
-        "ins": "bratanicą",
-        "loc": "bratanicy",
-        "voc": "bratanico"
-      },
-      "plural": {
-        "nom": "bratanice",
-        "gen": "bratanic",
-        "dat": "bratanicom",
-        "acc": "bratanice",
-        "ins": "bratanicami",
-        "loc": "bratanicach",
-        "voc": "bratanice"
-      }
-    },
-    "frequency": 1,
-    "register": 0
-  },
-  {
-    "lemma": "mąż",
-    "id": "pol-npe-0026-mąż",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "husband"
-      ]
-    },
-    "gender": "m1",
-    "extra": {
-      "derivedTerms": [
-        "mężowski",
-        "mężowy",
-        "mąż stanu",
-        "mężulek",
-        "mężuś",
-        "mężysko"
+        "prawdziwych przyjaciół poznaje się w biedzie"
       ],
       "usage": [
-        "Usage notes [ edit ] The sense of \"male human being\" carries connotations of bravery honour or responsibility ; in other words, the stereotypical quality of \" manliness \"."
+        "Usage notes [ edit ] Not used for casual relationships; znajomy or kolega is preferable for that."
       ]
     },
     "inflections": {
       "singular": {
-        "nom": "mąż",
-        "gen": "męża",
-        "dat": "mężowi",
-        "acc": "męża",
-        "ins": "mężem",
-        "loc": "mężu",
-        "voc": "mężu"
+        "nom": "przyjaciel",
+        "gen": "przyjaciela",
+        "dat": "przyjacielowi",
+        "acc": "przyjaciela",
+        "ins": "przyjacielem",
+        "loc": "przyjacielu",
+        "voc": "przyjacielu"
       },
       "plural": {
-        "nom": "mężowie",
-        "gen": "mężów",
-        "dat": "mężom",
-        "acc": "mężów",
-        "ins": "mężami",
-        "loc": "mężach",
-        "voc": "mężowie"
-      }
-    },
-    "frequency": 1,
-    "register": 0
-  },
-  {
-    "lemma": "żona",
-    "id": "pol-npe-0027-żona",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "wife"
-      ]
-    },
-    "gender": "f",
-    "extra": {
-      "derivedTerms": [
-        "bezżenny",
-        "nieżonaty",
-        "żonaty",
-        "żonin",
-        "żoniny",
-        "bezżennie",
-        "bezżeństwo",
-        "bezżenność",
-        "żoncia",
-        "żoneczka",
-        "żonisko",
-        "żonka",
-        "żonkoś",
-        "żonusia"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "żona",
-        "gen": "żony",
-        "dat": "żonie",
-        "acc": "żonę",
-        "ins": "żoną",
-        "loc": "żonie",
-        "voc": "żono"
-      },
-      "plural": {
-        "nom": "żony",
-        "gen": "żon",
-        "dat": "żonom",
-        "acc": "żony",
-        "ins": "żonami",
-        "loc": "żonach",
-        "voc": "żony"
+        "nom": "przyjaciele",
+        "gen": "przyjaciół",
+        "dat": "przyjaciołom",
+        "acc": "przyjaciół",
+        "ins": "przyjaciółmi",
+        "loc": "przyjaciołach",
+        "voc": "przyjaciele"
       }
     },
     "frequency": 1,
@@ -1444,7 +1879,7 @@
   },
   {
     "lemma": "kolega",
-    "id": "pol-npe-0028-kolega",
+    "id": "pol-npe-0028-kolega(friend)",
     "tags": [
       "concrete",
       "living",
@@ -1496,128 +1931,259 @@
     "register": 0
   },
   {
-    "lemma": "król",
-    "id": "pol-npe-0029-król",
+    "lemma": "kolega",
+    "id": "pol-npe-0028-kolega(colleague)",
     "tags": [
       "concrete",
       "living",
       "person",
-      "profession"
+      "relative"
     ],
     "topics": [
-      "people",
-      "work"
+      "people"
     ],
     "translations": {
       "ENG": [
-        "king"
+        "friend",
+        "buddy",
+        "colleague"
       ]
     },
     "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
-          "królewiątko"
+          "koleżka"
         ],
         "feminine": [
-          "królowa"
+          "koleżanka"
         ]
-      },
-      "derivedTerms": [
-        "bezkrólewie",
-        "Król",
-        "królestwo",
-        "królewiątko",
-        "królewiacki",
-        "królewiak",
-        "królewicz",
-        "królewna",
-        "królewski",
-        "królewskość",
-        "królewszczyzna",
-        "króliczek",
-        "królik",
-        "królowa",
-        "królować",
-        "królowanie",
-        "Trzej Królowie"
-      ]
+      }
     },
     "inflections": {
       "singular": {
-        "nom": "król",
-        "gen": "króla",
-        "dat": "królowi",
-        "acc": "króla",
-        "ins": "królem",
-        "loc": "królu",
-        "voc": "królu"
+        "nom": "kolega",
+        "gen": "kolegi",
+        "dat": "koledze",
+        "acc": "kolegę",
+        "ins": "kolegą",
+        "loc": "koledze",
+        "voc": "kolego"
       },
       "plural": {
-        "nom": "królowie",
-        "gen": "królów",
-        "dat": "królom",
-        "acc": "królów",
-        "ins": "królami",
-        "loc": "królach",
-        "voc": "królowie"
+        "nom": "koledzy",
+        "gen": "kolegów",
+        "dat": "kolegom",
+        "acc": "kolegów",
+        "ins": "kolegami",
+        "loc": "kolegach",
+        "voc": "koledzy"
       }
     },
     "frequency": 3,
     "register": 0
   },
   {
-    "lemma": "lider",
-    "id": "pol-npe-0030-lider",
+    "lemma": "koleżanka",
+    "id": "pol-npe-0121-koleżanka(friend)",
     "tags": [
       "concrete",
       "living",
       "person",
-      "profession",
       "relative"
     ],
     "topics": [
-      "people",
-      "work"
+      "people"
     ],
     "translations": {
       "ENG": [
-        "leader"
+        "friend",
+        "buddy",
+        "colleague"
       ]
     },
-    "gender": "m1",
+    "gender": "f",
     "extra": {
       "otherShapes": {
-        "feminine": [
-          "liderka"
+        "diminutive": [
+          "koleżaneczka"
+        ],
+        "masculine": [
+          "kolega"
         ]
-      },
-      "synonyms": [
-        "przywódca"
-      ]
+      }
     },
     "inflections": {
       "singular": {
-        "nom": "lider",
-        "gen": "lidera",
-        "dat": "liderowi",
-        "acc": "lidera",
-        "ins": "liderem",
-        "loc": "liderze",
-        "voc": "liderze"
+        "nom": "koleżanka",
+        "gen": "koleżanki",
+        "dat": "koleżance",
+        "acc": "koleżankę",
+        "ins": "koleżanką",
+        "loc": "koleżance",
+        "voc": "koleżanko"
       },
       "plural": {
-        "nom": "liderzy",
-        "gen": "liderów",
-        "dat": "liderom",
-        "acc": "liderów",
-        "ins": "liderami",
-        "loc": "liderach",
-        "voc": "liderzy"
+        "nom": "koleżanki",
+        "gen": "koleżanek",
+        "dat": "koleżankom",
+        "acc": "koleżanki",
+        "ins": "koleżankami",
+        "loc": "koleżankach",
+        "voc": "koleżanki"
       }
     },
     "frequency": 3,
     "register": 0
+  },
+  {
+    "lemma": "koleżanka",
+    "id": "pol-npe-0121-koleżanka(colleague)",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "friend",
+        "buddy",
+        "colleague"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "koleżaneczka"
+        ],
+        "masculine": [
+          "kolega"
+        ]
+      }
+    },
+    "inflections": {
+      "singular": {
+        "nom": "koleżanka",
+        "gen": "koleżanki",
+        "dat": "koleżance",
+        "acc": "koleżankę",
+        "ins": "koleżanką",
+        "loc": "koleżance",
+        "voc": "koleżanko"
+      },
+      "plural": {
+        "nom": "koleżanki",
+        "gen": "koleżanek",
+        "dat": "koleżankom",
+        "acc": "koleżanki",
+        "ins": "koleżankami",
+        "loc": "koleżankach",
+        "voc": "koleżanki"
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+  {
+    "lemma": "kumpel",
+    "id": "pol-npe-0115-kumpel",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "mate",
+        "pal",
+        "buddy"
+      ]
+    },
+    "gender": "m1",
+    "extra": {
+      "synonyms": [
+        "znajomy"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "kumpel",
+        "gen": "kumpla",
+        "dat": "kumplowi",
+        "acc": "kumpla",
+        "ins": "kumplem",
+        "loc": "kumplu",
+        "voc": "kumplu"
+      },
+      "plural": {
+        "nom": "kumple",
+        "gen": "kumpli",
+        "dat": "kumplom",
+        "acc": "kumpli",
+        "ins": "kumplami",
+        "loc": "kumplach",
+        "voc": "kumple"
+      }
+    },
+    "frequency": 3,
+    "register": 6
+  },
+  {
+    "lemma": "kumpela",
+    "id": "pol-npe-0115-kumpela",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "relative"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "mate",
+        "pal",
+        "buddy"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "synonyms": [
+        "znajoma"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "kumpela",
+        "gen": "kumpeli",
+        "dat": "kumpeli",
+        "acc": "kumpelę",
+        "ins": "kumpelą",
+        "loc": "kumpeli",
+        "voc": "kumpelo"
+      },
+      "plural": {
+        "nom": "kumpele",
+        "gen": "kumpel",
+        "dat": "kumpelom",
+        "acc": "kumpele",
+        "ins": "kumpelami",
+        "loc": "kumpelach",
+        "voc": "kumpele"
+      }
+    },
+    "frequency": 3,
+    "register": 6
   },
   {
     "lemma": "człowiek",
@@ -1953,120 +2519,6 @@
     "register": 0
   },
   {
-    "lemma": "wuj",
-    "id": "pol-npe-0036-wuj",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "uncle"
-      ]
-    },
-    "gender": "m1",
-    "extra": {
-      "synonyms": [
-        "wujek"
-      ],
-      "derivedTerms": [
-        "wujaszkowy",
-        "wujeczny",
-        "wujowski",
-        "wujowy",
-        "wujanka",
-        "wujaszek",
-        "wujek",
-        "wujenka",
-        "wujostwo",
-        "wujaszkować"
-      ],
-      "usage": [
-        "Coordinate term: stryj"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "wuj",
-        "gen": "wuja",
-        "dat": "wujowi",
-        "acc": "wuja",
-        "ins": "wujem",
-        "loc": "wuju",
-        "voc": "wuju"
-      },
-      "plural": {
-        "nom": "wujowie",
-        "gen": [
-          "wujów",
-          "wui"
-        ],
-        "dat": "wujom",
-        "acc": [
-          "wujów",
-          "wui"
-        ],
-        "ins": "wujami",
-        "loc": "wujach",
-        "voc": "wujowie"
-      }
-    },
-    "frequency": 2,
-    "register": 0
-  },
-  {
-    "lemma": "ciocia",
-    "id": "pol-npe-0037-ciocia",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "aunt",
-        "auntie"
-      ]
-    },
-    "gender": "f",
-    "extra": {
-      "synonyms": [
-        "ciotka"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "ciocia",
-        "gen": "cioci",
-        "dat": "cioci",
-        "acc": "ciocię",
-        "ins": "ciocią",
-        "loc": "cioci",
-        "voc": "ciociu"
-      },
-      "plural": {
-        "nom": "ciocie",
-        "gen": "cioć",
-        "dat": "ciociom",
-        "acc": "ciocie",
-        "ins": "ciociami",
-        "loc": "ciociach",
-        "voc": "ciocie"
-      }
-    },
-    "frequency": 2,
-    "register": 0
-  },
-  {
     "lemma": "chirurg",
     "id": "pol-npe-0038-chirurg",
     "tags": [
@@ -2204,58 +2656,6 @@
     "register": 0
   },
   {
-    "lemma": "wujek",
-    "id": "pol-npe-0041-wujek",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "uncle"
-      ]
-    },
-    "gender": "m1",
-    "extra": {
-      "otherShapes": {
-        "diminutive": [
-          "wujcio",
-          "wujaszek"
-        ]
-      },
-      "synonyms": [
-        "wuj"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "wujek",
-        "gen": "wujka",
-        "dat": "wujkowi",
-        "acc": "wujka",
-        "ins": "wujkiem",
-        "loc": "wujku",
-        "voc": "wujku"
-      },
-      "plural": {
-        "nom": "wujkowie",
-        "gen": "wujków",
-        "dat": "wujkom",
-        "acc": "wujków",
-        "ins": "wujkami",
-        "loc": "wujkach",
-        "voc": "wujkowie"
-      }
-    },
-    "frequency": 2,
-    "register": 0
-  },
-  {
     "lemma": "tłumacz",
     "id": "pol-npe-0042-tłumacz",
     "tags": [
@@ -2366,125 +2766,6 @@
     "register": 0
   },
   {
-    "lemma": "dziadek",
-    "id": "pol-npe-0044-dziadek",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "grandfather"
-      ]
-    },
-    "gender": "m1",
-    "extra": {
-      "otherShapes": {
-        "diminutive": [
-          "dziadziuś"
-        ],
-        "augmentative": [
-          "dziad"
-        ]
-      },
-      "derivedTerms": [
-        "gdyby babcia miała wąsy, toby była dziadkiem",
-        "dziadek do orzechów"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "dziadek",
-        "gen": "dziadka",
-        "dat": "dziadkowi",
-        "acc": "dziadka",
-        "ins": "dziadkiem",
-        "loc": "dziadku",
-        "voc": "dziadku"
-      },
-      "plural": {
-        "nom": "dziadkowie",
-        "gen": "dziadków",
-        "dat": "dziadkom",
-        "acc": "dziadków",
-        "ins": "dziadkami",
-        "loc": "dziadkach",
-        "voc": "dziadkowie"
-      }
-    },
-    "frequency": 1,
-    "register": 0
-  },
-  {
-    "lemma": "babcia",
-    "id": "pol-npe-0045-babcia",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "grandmother"
-      ]
-    },
-    "gender": "f",
-    "extra": {
-      "otherShapes": {
-        "diminutive": [
-          "babunia",
-          "babusia"
-        ]
-      },
-      "synonyms": [
-        "baba",
-        "babka",
-        "babunia",
-        "babina",
-        "starowina",
-        "staruszka"
-      ],
-      "derivedTerms": [
-        "babciny",
-        "babciowy",
-        "babcia klozetowa",
-        "gdyby babcia miała wąsy, toby była dziadkiem",
-        "skończyło się babci sranie"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "babcia",
-        "gen": "babci",
-        "dat": "babci",
-        "acc": "babcię",
-        "ins": "babcią",
-        "loc": "babci",
-        "voc": "babciu"
-      },
-      "plural": {
-        "nom": "babcie",
-        "gen": "babć",
-        "dat": "babciom",
-        "acc": "babcie",
-        "ins": "babciami",
-        "loc": "babciach",
-        "voc": "babcie"
-      }
-    },
-    "frequency": 2,
-    "register": 0
-  },
-  {
     "lemma": "rycerz",
     "id": "pol-npe-0046-rycerz",
     "tags": [
@@ -2577,54 +2858,6 @@
         "ins": "osobami",
         "loc": "osobach",
         "voc": "osoby"
-      }
-    },
-    "frequency": 2,
-    "register": 0
-  },
-  {
-    "lemma": "kuzyn",
-    "id": "pol-npe-0048-kuzyn",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "cousin"
-      ]
-    },
-    "gender": "m1",
-    "extra": {
-      "otherShapes": {
-        "feminine": [
-          "kuzynka"
-        ]
-      }
-    },
-    "inflections": {
-      "singular": {
-        "nom": "kuzyn",
-        "gen": "kuzyna",
-        "dat": "kuzynowi",
-        "acc": "kuzyna",
-        "ins": "kuzynem",
-        "loc": "kuzynie",
-        "voc": "kuzynie"
-      },
-      "plural": {
-        "nom": "kuzyni",
-        "gen": "kuzynów",
-        "dat": "kuzynom",
-        "acc": "kuzynów",
-        "ins": "kuzynami",
-        "loc": "kuzynach",
-        "voc": "kuzyni"
       }
     },
     "frequency": 2,
@@ -5612,6 +5845,57 @@
     "register": 0
   },
   {
+    "lemma": "policjantka",
+    "id": "pol-npe-0117-policjantka",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "profession"
+    ],
+    "topics": [
+      "law",
+      "people",
+      "work"
+    ],
+    "translations": {
+      "ENG": [
+        "policewoman",
+        "police officer"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "otherShapes": {
+        "masculine": [
+          "policjant"
+        ]
+      }
+    },
+    "inflections": {
+      "singular": {
+        "nom": "policjantka",
+        "gen": "policjantki",
+        "dat": "policjantce",
+        "acc": "policjantkę",
+        "ins": "policjantką",
+        "loc": "policjantce",
+        "voc": "policjantko"
+      },
+      "plural": {
+        "nom": "policjantki",
+        "gen": "policjantek",
+        "dat": "policjantkom",
+        "acc": "policjantki",
+        "ins": "policjantkami",
+        "loc": "policjantkach",
+        "voc": "policjantki"
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+  {
     "lemma": "pielęgniarka",
     "id": "pol-npe-0104-pielęgniarka",
     "tags": [
@@ -6151,54 +6435,6 @@
     "register": 0
   },
   {
-    "lemma": "kumpel",
-    "id": "pol-npe-0115-kumpel",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "mate",
-        "pal",
-        "buddy"
-      ]
-    },
-    "gender": "m1",
-    "extra": {
-      "synonyms": [
-        "znajomy"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "kumpel",
-        "gen": "kumpla",
-        "dat": "kumplowi",
-        "acc": "kumpla",
-        "ins": "kumplem",
-        "loc": "kumplu",
-        "voc": "kumplu"
-      },
-      "plural": {
-        "nom": "kumple",
-        "gen": "kumpli",
-        "dat": "kumplom",
-        "acc": "kumpli",
-        "ins": "kumplami",
-        "loc": "kumplach",
-        "voc": "kumple"
-      }
-    },
-    "frequency": 3,
-    "register": 6
-  },
-  {
     "lemma": "mistrz",
     "id": "pol-npe-0116-mistrz",
     "tags": [
@@ -6256,57 +6492,6 @@
       }
     },
     "frequency": 5,
-    "register": 0
-  },
-  {
-    "lemma": "policjantka",
-    "id": "pol-npe-0117-policjantka",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "profession"
-    ],
-    "topics": [
-      "law",
-      "people",
-      "work"
-    ],
-    "translations": {
-      "ENG": [
-        "policewoman",
-        "police officer"
-      ]
-    },
-    "gender": "f",
-    "extra": {
-      "otherShapes": {
-        "masculine": [
-          "policjant"
-        ]
-      }
-    },
-    "inflections": {
-      "singular": {
-        "nom": "policjantka",
-        "gen": "policjantki",
-        "dat": "policjantce",
-        "acc": "policjantkę",
-        "ins": "policjantką",
-        "loc": "policjantce",
-        "voc": "policjantko"
-      },
-      "plural": {
-        "nom": "policjantki",
-        "gen": "policjantek",
-        "dat": "policjantkom",
-        "acc": "policjantki",
-        "ins": "policjantkami",
-        "loc": "policjantkach",
-        "voc": "policjantki"
-      }
-    },
-    "frequency": 3,
     "register": 0
   },
   {
@@ -6466,8 +6651,8 @@
     "register": 0
   },
   {
-    "lemma": "koleżanka",
-    "id": "pol-npe-0121-koleżanka",
+    "lemma": "znajomy",
+    "id": "pol-npe-0120-znajomy",
     "tags": [
       "concrete",
       "living",
@@ -6479,40 +6664,35 @@
     ],
     "translations": {
       "ENG": [
-        "friend",
-        "buddy",
-        "colleague"
+        "acquaintance"
       ]
     },
-    "gender": "f",
+    "gender": "m1",
     "extra": {
       "otherShapes": {
-        "diminutive": [
-          "koleżaneczka"
-        ],
-        "masculine": [
-          "kolega"
+        "feminine": [
+          "znajoma"
         ]
       }
     },
     "inflections": {
       "singular": {
-        "nom": "koleżanka",
-        "gen": "koleżanki",
-        "dat": "koleżance",
-        "acc": "koleżankę",
-        "ins": "koleżanką",
-        "loc": "koleżance",
-        "voc": "koleżanko"
+        "nom": "znajomy",
+        "gen": "znajomego",
+        "dat": "znajomemu",
+        "acc": "znajomego",
+        "ins": "znajomym",
+        "loc": "znajomym",
+        "voc": "znajomy"
       },
       "plural": {
-        "nom": "koleżanki",
-        "gen": "koleżanek",
-        "dat": "koleżankom",
-        "acc": "koleżanki",
-        "ins": "koleżankami",
-        "loc": "koleżankach",
-        "voc": "koleżanki"
+        "nom": "znajomi",
+        "gen": "znajomych",
+        "dat": "znajomym",
+        "acc": "znajomych",
+        "ins": "znajomymi",
+        "loc": "znajomych",
+        "voc": "znajomi"
       }
     },
     "frequency": 3,
@@ -6641,108 +6821,6 @@
       }
     },
     "frequency": 2,
-    "register": 0
-  },
-  {
-    "lemma": "przyjaciółka",
-    "id": "pol-npe-0124-przyjaciółka",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "friend"
-      ]
-    },
-    "gender": "f",
-    "extra": {
-      "otherShapes": {
-        "masculine": [
-          "przyjaciel"
-        ]
-      }
-    },
-    "inflections": {
-      "singular": {
-        "nom": "przyjaciółka",
-        "gen": "przyjaciółki",
-        "dat": "przyjaciółce",
-        "acc": "przyjaciółkę",
-        "ins": "przyjaciółką",
-        "loc": "przyjaciółce",
-        "voc": "przyjaciółko"
-      },
-      "plural": {
-        "nom": "przyjaciółki",
-        "gen": "przyjaciółek",
-        "dat": "przyjaciółkom",
-        "acc": "przyjaciółki",
-        "ins": "przyjaciółkami",
-        "loc": "przyjaciółkach",
-        "voc": "przyjaciółki"
-      }
-    },
-    "frequency": 1,
-    "register": 0
-  },
-  {
-    "lemma": "przyjaciel",
-    "id": "pol-npe-0125-przyjaciel",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "friend"
-      ]
-    },
-    "gender": "m1",
-    "extra": {
-      "otherShapes": {
-        "feminine": [
-          "przyjaciółka"
-        ]
-      },
-      "derivedTerms": [
-        "prawdziwych przyjaciół poznaje się w biedzie"
-      ],
-      "usage": [
-        "Usage notes [ edit ] Not used for casual relationships; znajomy or kolega is preferable for that."
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "przyjaciel",
-        "gen": "przyjaciela",
-        "dat": "przyjacielowi",
-        "acc": "przyjaciela",
-        "ins": "przyjacielem",
-        "loc": "przyjacielu",
-        "voc": "przyjacielu"
-      },
-      "plural": {
-        "nom": "przyjaciele",
-        "gen": "przyjaciół",
-        "dat": "przyjaciołom",
-        "acc": "przyjaciół",
-        "ins": "przyjaciółmi",
-        "loc": "przyjaciołach",
-        "voc": "przyjaciele"
-      }
-    },
-    "frequency": 1,
     "register": 0
   },
   {
@@ -7310,6 +7388,130 @@
       }
     },
     "frequency": 4,
+    "register": 0
+  },
+  {
+    "lemma": "lider",
+    "id": "pol-npe-0030-lider",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "profession",
+      "relative"
+    ],
+    "topics": [
+      "people",
+      "work"
+    ],
+    "translations": {
+      "ENG": [
+        "leader"
+      ]
+    },
+    "gender": "m1",
+    "extra": {
+      "otherShapes": {
+        "feminine": [
+          "liderka"
+        ]
+      },
+      "synonyms": [
+        "przywódca"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "lider",
+        "gen": "lidera",
+        "dat": "liderowi",
+        "acc": "lidera",
+        "ins": "liderem",
+        "loc": "liderze",
+        "voc": "liderze"
+      },
+      "plural": {
+        "nom": "liderzy",
+        "gen": "liderów",
+        "dat": "liderom",
+        "acc": "liderów",
+        "ins": "liderami",
+        "loc": "liderach",
+        "voc": "liderzy"
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+  {
+    "lemma": "król",
+    "id": "pol-npe-0029-król",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "profession"
+    ],
+    "topics": [
+      "people",
+      "work"
+    ],
+    "translations": {
+      "ENG": [
+        "king"
+      ]
+    },
+    "gender": "m1",
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "królewiątko"
+        ],
+        "feminine": [
+          "królowa"
+        ]
+      },
+      "derivedTerms": [
+        "bezkrólewie",
+        "Król",
+        "królestwo",
+        "królewiątko",
+        "królewiacki",
+        "królewiak",
+        "królewicz",
+        "królewna",
+        "królewski",
+        "królewskość",
+        "królewszczyzna",
+        "króliczek",
+        "królik",
+        "królowa",
+        "królować",
+        "królowanie",
+        "Trzej Królowie"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "król",
+        "gen": "króla",
+        "dat": "królowi",
+        "acc": "króla",
+        "ins": "królem",
+        "loc": "królu",
+        "voc": "królu"
+      },
+      "plural": {
+        "nom": "królowie",
+        "gen": "królów",
+        "dat": "królom",
+        "acc": "królów",
+        "ins": "królami",
+        "loc": "królach",
+        "voc": "królowie"
+      }
+    },
+    "frequency": 3,
     "register": 0
   }
 ]

@@ -500,9 +500,80 @@
       ],
       "POL": [
         "pol-npe-0125-przyjaciel",
-        "pol-npe-0028-kolega",
-        "pol-npe-0121-koleżanka",
+        "pol-npe-0028-kolega(friend)",
+        "pol-npe-0121-koleżanka(friend)",
         "pol-npe-0124-przyjaciółka"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "relative",
+      "person",
+      "living"
+    ],
+    "topics": [
+      "people"
+    ]
+  },
+  {
+    "key": "npe-0100-buddy",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-npe-0139-buddy",
+        "eng-npe-0111-mate",
+        "eng-npe-0112-pal"
+      ],
+      "POL": [
+        "pol-npe-0115-kumpel",
+        "pol-npe-0115-kumpela",
+        "pol-npe-0028-kolega(friend)",
+        "pol-npe-0121-koleżanka(friend)"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "relative",
+      "person",
+      "living"
+    ],
+    "topics": [
+      "people"
+    ]
+  },
+  {
+    "key": "npe-0104-acquaintance",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-npe-0118-acquaintance"
+      ],
+      "POL": [
+        "pol-npe-0120-znajoma",
+        "pol-npe-0120-znajomy"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "relative",
+      "person",
+      "living"
+    ],
+    "topics": [
+      "people"
+    ]
+  },
+  {
+    "key": "npe-0100-colleague",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-npe-0140-colleague",
+        "eng-npe-0140-workmate"
+      ],
+      "POL": [
+        "pol-npe-0028-kolega(colleague)",
+        "pol-npe-0121-koleżanka(colleague)"
       ]
     },
     "papers": [
@@ -2180,31 +2251,6 @@
     ]
   },
   {
-    "key": "npe-0100-buddy",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-npe-0139-buddy",
-        "eng-npe-0111-mate",
-        "eng-npe-0112-pal"
-      ],
-      "POL": [
-        "pol-npe-0028-kolega",
-        "pol-npe-0115-kumpel",
-        "pol-npe-0121-koleżanka"
-      ]
-    },
-    "papers": [
-      "concrete",
-      "relative",
-      "person",
-      "living"
-    ],
-    "topics": [
-      "people"
-    ]
-  },
-  {
     "key": "npe-0101-master",
     "traductions": {
       "SPA": [],
@@ -2268,27 +2314,6 @@
     ],
     "topics": [
       "work",
-      "people"
-    ]
-  },
-  {
-    "key": "npe-0104-acquaintance",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-npe-0118-acquaintance"
-      ],
-      "POL": [
-        "pol-npe-0120-znajoma"
-      ]
-    },
-    "papers": [
-      "concrete",
-      "relative",
-      "person",
-      "living"
-    ],
-    "topics": [
       "people"
     ]
   },
