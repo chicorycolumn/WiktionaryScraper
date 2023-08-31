@@ -2651,7 +2651,7 @@
     },
     {
         "lemma": "śledztwo",
-        "tags": "xxxxxxxxx",
+        "tags": "4l",
         "translations": {
             "ENG": [
                 "investigation"
@@ -2662,10 +2662,10 @@
     },
     {
         "lemma": "śmieci",
-        "tags": "xxxxxxxxx",
+        "tags": "3ene",
         "translations": {
             "ENG": [
-                "rubbish garbage trash waste refuse junk",
+                "rubbish","garbage","trash","litter",
                 "(collective)"
             ]
         },
@@ -2674,12 +2674,21 @@
     },
     {
         "lemma": "pogotowie",
-        "tags": "xxxxxxxxx",
+        "tags": "3T,med,JJ",
         "translations": {
             "ENG": [
-                "emergency service",
-                "alertness",
-                "state of preparedness, ready"
+                "ambulance"
+            ]
+        },
+        "temp_id": "10.216",
+        "gender": "n"
+    },
+    {
+        "lemma": "pogotowie",
+        "tags": "4lr,med,JJ",
+        "translations": {
+            "ENG": [
+                "emergency room"
             ]
         },
         "temp_id": "10.216",
