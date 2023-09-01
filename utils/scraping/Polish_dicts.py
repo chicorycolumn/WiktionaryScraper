@@ -531,6 +531,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["social life", "people"],
     },
+    "cc": {
+        "tags": [],
+        "topics": ["childcare"],
+    },
     "£": {
         "tags": ["language"],
         "topics": ["language"],
