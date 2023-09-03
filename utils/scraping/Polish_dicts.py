@@ -284,8 +284,12 @@ shorthand_tag_refs = {
         "topics": ["people"],
     },
     "ppp": {
-        "tags": ["physical personal description", "kk", "bb"], # tall handsome fat
+        "tags": ["physical personal description", "kk", "bb"],  # tall handsome fat
         "topics": ["sense and perception", "appearance", "body"],
+    },
+    "pppp": {
+        "tags": ["group of people"],  # council resistance cast
+        "topics": ["people"],
     },
     "j": {
         "tags": ["profession", "p"],
