@@ -2766,11 +2766,10 @@
     },
     {
         "lemma": "odporność",
-        "tags": "xxxxxxxxx",
+        "tags": "4med,UU",
         "translations": {
             "ENG": [
                 "resistance",
-                "resilience",
                 "immunity"
             ]
         },
@@ -2778,14 +2777,35 @@
         "gender": "f"
     },
     {
-        "lemma": "zapytanie",
-        "tags": "xxxxxxxxx",
+        "lemma": "odporność",
+        "tags": "4py",
         "translations": {
             "ENG": [
-                "verbal noun of zapytać",
+                "resilience"
+            ]
+        },
+        "temp_id": "10.222",
+        "gender": "f"
+    },
+    {
+        "lemma": "ruch oporu",
+        "tags": "5pol,pppp",
+        "translations": {
+            "ENG": [
+                "resistance"
+            ]
+        },
+        "temp_id": "10.263",
+        "gender": "f"
+    },
+    {
+        "lemma": "zapytanie",
+        "tags": "5sr",
+        "translations": {
+            "ENG": [
                 "query",
-                "(computing databases)",
-                "question"
+                "enquiry",
+                "inquiry"
             ]
         },
         "temp_id": "10.223",
