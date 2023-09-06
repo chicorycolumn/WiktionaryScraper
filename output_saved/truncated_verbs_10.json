@@ -1,6 +1,6 @@
 [
     {
-        "lemma": "przybierać",
+        "lemma": "!przybierać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -15,7 +15,7 @@
         "temp_id": "10.1"
     },
     {
-        "lemma": "przybrać",
+        "lemma": "!przybrać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -30,7 +30,7 @@
         "temp_id": "10.2"
     },
     {
-        "lemma": "szarpnąć",
+        "lemma": "!szarpnąć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -54,7 +54,7 @@
         "temp_id": "10.3"
     },
     {
-        "lemma": "szarpać",
+        "lemma": "!szarpać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -76,7 +76,7 @@
         "temp_id": "10.4"
     },
     {
-        "lemma": "szarpać",
+        "lemma": "!szarpać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -94,26 +94,40 @@
     },
     {
         "lemma": "rezygnować",
-        "tags": "xxxxxxxxx",
+        "tags": "4w",
         "translations": {
             "ENG": [
-                "to = from something] Synonym: odstępować[i]  to resign",
-                "to give up",
-                "to forswear",
-                "to quit [+ z (genitive)"
+                "to resign"
+            ]
+        },
+        "temp_id": "10.6"
+    },
+    {
+        "lemma": "rezygnować",
+        "tags": "4VV",
+        "translations": {
+            "ENG": [
+                "to give up something"
             ]
         },
         "temp_id": "10.6"
     },
     {
         "lemma": "zrezygnować",
-        "tags": "xxxxxxxxx",
+        "tags": "4w",
         "translations": {
             "ENG": [
-                "to = from something][i]  to resign",
-                "to give up",
-                "to forswear",
-                "to quit [+ z (genitive)"
+                       "to resign"
+            ]
+        },
+        "temp_id": "10.7"
+    },
+    {
+        "lemma": "zrezygnować",
+         "tags": "4VV",
+        "translations": {
+            "ENG": [
+                "to give up something"
             ]
         },
         "temp_id": "10.7"
