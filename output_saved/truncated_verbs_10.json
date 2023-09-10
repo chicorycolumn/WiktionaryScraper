@@ -326,20 +326,20 @@
     },
     {
         "lemma": "rosnąć",
-        "tags": "xxxxxxxxx",
+        "tags": "3tt,agr,bb",
         "translations": {
             "ENG": [
-                "Synonym: urastać[i]  to grow (become taller or longer)"
+               "to grow[i]"
             ]
         },
         "temp_id": "10.25"
     },
     {
         "lemma": "urosnąć",
-        "tags": "xxxxxxxxx",
+          "tags": "3tt,agr,bb",
         "translations": {
             "ENG": [
-                "to grow[i] (become taller or longer)"
+                "to grow[i]"
             ]
         },
         "temp_id": "10.26"
@@ -416,28 +416,41 @@
     },
     {
         "lemma": "trenować",
-        "tags": "xxxxxxxxx",
+        "tags": "4yy,bb,dr",
         "translations": {
             "ENG": [
-                "to coach",
-                "to train Synonym: szkolić",
-                "to exercise",
-                "to train",
-                "to work out Synonym: ćwiczyć[i,or,r]"
+                "to train","to exercise",
+                "to do exercise","to work out"
+            ]
+        },
+        "temp_id": "10.32"
+    },
+    {
+        "lemma": "trenować",
+        "tags": "4s,w",
+        "translations": {
+            "ENG": [
+                "to train","to coach"
             ]
         },
         "temp_id": "10.32"
     },
     {
         "lemma": "wytrenować",
-        "tags": "xxxxxxxxx",
+        "tags": "4yy,bb,dr",
         "translations": {
             "ENG": [
-                "to coach",
-                "to train Synonym: wyszkolić",
-                "to exercise",
-                "to train",
-                "to work out Synonym: wyćwiczyć[i,or,r]"
+                "to train","to exercise",
+                "to do exercise","to work out"
+            ]
+        },
+        "temp_id": "10.33"
+    },    {
+        "lemma": "wytrenować",
+        "tags": "4s,w",
+        "translations": {
+            "ENG": [
+                "to train","to coach"
             ]
         },
         "temp_id": "10.33"
