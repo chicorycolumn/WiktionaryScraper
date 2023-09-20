@@ -912,7 +912,7 @@
         "temp_id": "10.69"
     },
     {
-        "lemma": "przycisnąć",
+        "lemma": "!przycisnąć",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -928,7 +928,7 @@
         "temp_id": "10.70"
     },
     {
-        "lemma": "przyciskać",
+        "lemma": "!przyciskać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -945,32 +945,63 @@
     },
     {
         "lemma": "przypominać",
-        "tags": "xxxxxxxxx",
+        "tags": "3Y",
         "translations": {
             "ENG": [
-                "to remind of",
-                "to bring to mind",
-                "][i]  to remind [+ (dative) o (locative) = (someone) about/of (something)",
-                "to remember[r,with,sobie]",
-                "to resemble"
+                "to remind"
             ]
         },
         "temp_id": "10.72"
     },
     {
         "lemma": "przypomnieć",
-        "tags": "xxxxxxxxx",
+       "tags": "3Y",
         "translations": {
             "ENG": [
-                "to remind of",
-                "to bring to mind",
-                "][i]  to remind [+ (dative) o (locative) = (someone) about (something)",
-                "to remember",
-                "to recall[r,with,sobie]",
-                "to resemble"
+                "to remind"
             ]
         },
         "temp_id": "10.73"
+    },
+    {
+        "lemma": "przypominać",
+        "tags": "3kk",
+        "translations": {
+            "ENG": [
+                "to resemble","to look like"
+            ]
+        },
+        "temp_id": "10.72"
+    },
+    {
+        "lemma": "przypomnieć",
+        "tags": "3kk",
+        "translations": {
+            "ENG": [
+                "to resemble","to look like"
+            ]
+        },
+        "temp_id": "10.73"
+    },
+    {
+        "lemma": "przypominać sobie",
+        "tags": "4Y",
+        "translations": {
+            "ENG": [
+                "to remember","to recall"
+            ]
+        },
+        "temp_id": "10.342"
+    },
+    {
+        "lemma": "przypomnieć sobie",
+        "tags": "4Y",
+        "translations": {
+            "ENG": [
+                "to remember","to recall"
+            ]
+        },
+        "temp_id": "10.343"
     },
     {
         "lemma": "śnić",
