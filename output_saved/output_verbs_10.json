@@ -8349,6 +8349,240 @@
         }
     },
     {
+        "temp_id": "10.342",
+        "lemma": "przypominać sobie",
+        "aspect": "imperfective",
+        "secondaryAspects": [],
+        "extra": {
+            "usage": [
+                "Naprawdę przypomina mi moją siostrę. ― She really reminds me of my sister.",
+                "Jutro musimy iść do pracy. Och, nie przypominaj mi! ― We have to go to work tomorrow. Oh, don't",
+                "remind me!",
+                "Powoli zaczęła sobie przypominać , co się stało tego wieczoru. ― She slowly started to remember what had happened that evening."
+            ],
+            "otherShapes": {
+                "perfective": [
+                    "przypomnieć sobie"
+                ]
+            }
+        },
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "to remind of",
+                "to bring to mind",
+                "][i]  to remind [+ (dative) o (locative) = (someone) about/of (something)",
+                "to remember[r,with,sobie]",
+                "to resemble"
+            ]
+        },
+        "inflections": {
+            "infinitive": "przypominać sobie",
+            "verbalNoun": "przypominanie",
+            "activeAdjectival": "przypominający",
+            "passiveAdjectival": "przypominany",
+            "contemporaryAdverbial": "przypominając",
+            "anteriorAdverbial": false,
+            "verbal": {
+                "conditional": true,
+                "future": true,
+                "imperative": "przypominaj sobie",
+                "past": {
+                    "impersonal": {
+                        "singular": {
+                            "allSingularGenders": "przypominano"
+                        },
+                        "plural": {
+                            "allPluralGenders": "przypominano"
+                        }
+                    },
+                    "1per": {
+                        "singular": {
+                            "m": "przypominałem sobie",
+                            "f": "przypominałam sobie"
+                        },
+                        "plural": {
+                            "virile": "przypominaliśmy sobie",
+                            "nonvirile": "przypominałyśmy sobie"
+                        }
+                    },
+                    "2per": {
+                        "singular": {
+                            "m": "przypominałeś sobie",
+                            "f": "przypominałaś sobie"
+                        },
+                        "plural": {
+                            "virile": "przypominaliście sobie",
+                            "nonvirile": "przypominałyście sobie"
+                        }
+                    },
+                    "3per": {
+                        "singular": {
+                            "m": "przypominał sobie",
+                            "f": "przypominała sobie",
+                            "n": "przypominało sobie"
+                        },
+                        "plural": {
+                            "virile": "przypominali sobie",
+                            "nonvirile": "przypominały sobie"
+                        }
+                    }
+                },
+                "present": {
+                    "impersonal": {
+                        "singular": {
+                            "allSingularGenders": "przypomina się"
+                        },
+                        "plural": {
+                            "allPluralGenders": "przypomina się"
+                        }
+                    },
+                    "1per": {
+                        "singular": {
+                            "allSingularGenders": "przypominam sobie"
+                        },
+                        "plural": {
+                            "allPluralGenders": "przypominamy sobie"
+                        }
+                    },
+                    "2per": {
+                        "singular": {
+                            "allSingularGenders": "przypominasz sobie"
+                        },
+                        "plural": {
+                            "allPluralGenders": "przypominacie sobie"
+                        }
+                    },
+                    "3per": {
+                        "singular": {
+                            "allSingularGenders": "przypomina sobie"
+                        },
+                        "plural": {
+                            "allPluralGenders": "przypominają sobie"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "temp_id": "10.343",
+        "lemma": "przypomnieć sobie",
+        "aspect": "perfective",
+        "secondaryAspects": [],
+        "extra": {
+            "usage": [
+                "Bardzo przypomniał mi mojego wujka. ― He really reminded me of my uncle.",
+                "Przypomniałem jej o wizycie u lekarza. ― I reminded her about her doctor's appointment.",
+                "Nagle sobie przypomniałam , że zostawiłam włączony piecyk. ― I suddenly remembered that I had left the stove on."
+            ],
+            "otherShapes": {
+                "imperfective": [
+                    "przypominać sobie"
+                ]
+            }
+        },
+        "tags": "xxxxxxxxx",
+        "translations": {
+            "ENG": [
+                "to remind of",
+                "to bring to mind",
+                "][i]  to remind [+ (dative) o (locative) = (someone) about (something)",
+                "to remember",
+                "to recall[r,with,sobie]",
+                "to resemble"
+            ]
+        },
+        "inflections": {
+            "infinitive": "przypomnieć sobie",
+            "verbalNoun": "przypomnienie",
+            "activeAdjectival": false,
+            "passiveAdjectival": "przypomniany",
+            "contemporaryAdverbial": false,
+            "anteriorAdverbial": "przypomniwszy",
+            "verbal": {
+                "conditional": true,
+                "future": {
+                    "impersonal": {
+                        "singular": {
+                            "allSingularGenders": "przypomni się"
+                        },
+                        "plural": {
+                            "allPluralGenders": "przypomni się"
+                        }
+                    },
+                    "1per": {
+                        "singular": {
+                            "allSingularGenders": "przypomnę sobie"
+                        },
+                        "plural": {
+                            "allPluralGenders": "przypomnimy sobie"
+                        }
+                    },
+                    "2per": {
+                        "singular": {
+                            "allSingularGenders": "przypomnisz sobie"
+                        },
+                        "plural": {
+                            "allPluralGenders": "przypomnicie sobie"
+                        }
+                    },
+                    "3per": {
+                        "singular": {
+                            "allSingularGenders": "przypomni sobie"
+                        },
+                        "plural": {
+                            "allPluralGenders": "przypomną sobie"
+                        }
+                    }
+                },
+                "imperative": "przypomnij",
+                "past": {
+                    "impersonal": {
+                        "singular": {
+                            "allSingularGenders": "przypomniano"
+                        },
+                        "plural": {
+                            "allPluralGenders": "przypomniano"
+                        }
+                    },
+                    "1per": {
+                        "singular": {
+                            "m": "przypomniałem sobie",
+                            "f": "przypomniałam sobie"
+                        },
+                        "plural": {
+                            "virile": "przypomnieliśmy sobie",
+                            "nonvirile": "przypomniałyśmy sobie"
+                        }
+                    },
+                    "2per": {
+                        "singular": {
+                            "m": "przypomniałeś sobie",
+                            "f": "przypomniałaś sobie"
+                        },
+                        "plural": {
+                            "virile": "przypomnieliście sobie",
+                            "nonvirile": "przypomniałyście sobie"
+                        }
+                    },
+                    "3per": {
+                        "singular": {
+                            "m": "przypomniał sobie",
+                            "f": "przypomniała sobie",
+                            "n": "przypomniało sobie"
+                        },
+                        "plural": {
+                            "virile": "przypomnieli sobie",
+                            "nonvirile": "przypomniały sobie"
+                        }
+                    }
+                },
+                "present": false
+            }
+        }
+    },
+    {
         "temp_id": "10.74",
         "lemma": "śnić",
         "aspect": "imperfective",
