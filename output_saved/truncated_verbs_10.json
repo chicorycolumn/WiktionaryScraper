@@ -2349,7 +2349,7 @@
         "temp_id": "10.173"
     },
     {
-        "lemma": "przypisywać",
+        "lemma": "!przypisywać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2362,7 +2362,7 @@
         "temp_id": "10.174"
     },
     {
-        "lemma": "przypisać",
+        "lemma": "!przypisać",
         "tags": "xxxxxxxxx",
         "translations": {
             "ENG": [
@@ -2387,26 +2387,30 @@
     },
     {
         "lemma": "tonąć",
-        "tags": "xxxxxxxxx",
+        "tags": "4phy,TT,JJ,nau",
         "translations": {
             "ENG": [
-                "to sink[i]",
-                "to drown Synonym: topić się[i]"
+                "to sink[i]"
+            ]
+        },
+        "temp_id": "10.177"
+    },
+    {
+        "lemma": "tonąć",
+        "tags": "4JJ,bb,nau",
+        "translations": {
+            "ENG": [
+                "to drown[i]"
             ]
         },
         "temp_id": "10.177"
     },
     {
         "lemma": "utonąć",
-        "tags": "xxxxxxxxx",
+        "tags": "4JJ,bb,nau",
         "translations": {
             "ENG": [
-                "to drown[i]",
-                "to sink into something",
-                "to become absorbed by something[i,figuratively]",
-                "to delve into[i]",
-                "to hide in something[i]",
-                "to get lost[i]"
+                "to drown[i]"
             ]
         },
         "temp_id": "10.178"
