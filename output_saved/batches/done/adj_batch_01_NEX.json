@@ -3283,7 +3283,9 @@
       "frequency",
       "abstract"
     ],
-    "topics": []
+    "topics": [
+      "maths"
+    ]
   },
   {
     "key": "adj-0151-primary",
@@ -3300,7 +3302,9 @@
       "frequency",
       "abstract"
     ],
-    "topics": []
+    "topics": [
+      "maths"
+    ]
   },
   {
     "key": "adj-0152-high",
@@ -3350,12 +3354,12 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0151-normal"
+        "eng-adj-0151-normal",
+        "eng-adj-0152-ordinary"
       ],
       "POL": [
         "pol-adj-0079-zwykły",
-        "pol-adj-0201-normalny",
-        "eng-adj-0152-ordinary"
+        "pol-adj-0201-normalny"
       ]
     },
     "papers": [
@@ -12333,5 +12337,22 @@
       "sense and perception",
       "appearance"
     ]
+  },
+  {
+    "key": "adj-0596-basic",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-1044-basic"
+      ],
+      "POL": [
+        "pol-adj-0041-podstawowy"
+      ]
+    },
+    "papers": [
+      "helper",
+      "concrete"
+    ],
+    "topics": []
   }
 ]
