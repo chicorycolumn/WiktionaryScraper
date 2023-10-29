@@ -148,20 +148,39 @@ It uses additionalSpellings that you manually type into this stage.
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - PHASE FOUR - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-                        Create inflection data for TGT and final tidyup for SRC and TGT.
+                            Check for unused or unmatched lobjs in SRC and TGT.
 
 
-4A) You now need to create the inflection data for the TGT lobjs (presumably English)
+4A) Run "S16_check_for_unused_lobjs.py" and resolve these.
+    Prints a list of unused and nonexistent lobjs in SRC and TGT.
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - PHASE FIVE - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+                                        Create inflection data for TGT.
+
+
+5A) Run "S17_create_inflection_data.py" [yet to make this file] to create the inflection data for the TGT lobjs (presumably English)
     - to complete TGT lobjs
     Modifies "nou_batch_01_tgt.json"
 
 
 
-4B) Run "S12_connect_sibling_lobjs.py" for TGT
+5B) Run "S12_connect_sibling_lobjs.py" for TGT
     - to compact data by removing duplicated inflection data, replacing with reference to the one sibling which holds it
     Modifies "nou_batch_01_tgt.json"
 
 
 
-4C) Remove now-unneeded data from SRC and TGT
+5C) Remove now-unneeded data from SRC and TGT
     such as "translations", "»translations", "tags", "topics"
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - PHASE SIX - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+                                                   Final tasks.
+
+
+6A) Resolve any "T\ODO.txt" items for this wordtype
+
+6B) Resolve any TSFs (tasks of scraping finalising) for this wordtype from NOTES.txt
