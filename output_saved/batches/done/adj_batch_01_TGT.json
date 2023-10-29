@@ -713,8 +713,8 @@
     "frequency": 4
   },
   {
-    "lemma": "basic",
-    "id": "eng-adj-0065-basic",
+    "lemma": "key",
+    "id": "eng-adj-0065-key",
     "»trans": [
       "pol-adj-0037-zasadniczy",
       "pol-adj-0041-podstawowy"
@@ -816,7 +816,7 @@
       "pol-adj-0040-niezbędny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 5
   },
   {
     "lemma": "primary",
@@ -1211,20 +1211,6 @@
       "singleWordtype": true,
       "text": "truthiness",
       "emoji": "💬"
-    }
-  },
-  {
-    "lemma": "true",
-    "id": "eng-adj-0110-true(real)",
-    "»trans": [
-      "pol-adj-0567-istny"
-    ],
-    "register": 0,
-    "frequency": 2,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "real",
-      "emoji": "🪨"
     }
   },
   {
@@ -1638,12 +1624,29 @@
   },
   {
     "lemma": "fine",
-    "id": "eng-adj-0148-fine",
+    "id": "eng-adj-0148-fine(texture)",
     "»trans": [
       "pol-adj-0418-drobny(fine)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "texture",
+      "emoji": "🪨"
+    }
+  },
+  {
+    "lemma": "fine",
+    "id": "eng-adj-0148-fine(quality)",
+    "»trans": [],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "quality",
+      "emoji": "✅"
+    }
   },
   {
     "lemma": "nice",
@@ -2219,15 +2222,6 @@
   {
     "lemma": "perfect",
     "id": "eng-adj-0204-perfect",
-    "»trans": [
-      "pol-adj-0111-doskonały"
-    ],
-    "register": 0,
-    "frequency": 4
-  },
-  {
-    "lemma": "flawless",
-    "id": "eng-adj-0205-flawless",
     "»trans": [
       "pol-adj-0111-doskonały"
     ],

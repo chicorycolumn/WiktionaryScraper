@@ -232,11 +232,31 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0028-good",
-        "eng-adj-0029-correct"
+        "eng-adj-0028-good"
       ],
       "POL": [
-        "pol-adj-0013-dobry",
+        "pol-adj-0013-dobry"
+      ]
+    },
+    "papers": [
+      "positive judgment",
+      "concrete",
+      "abstract"
+    ],
+    "topics": [
+      "judgment",
+      "hobbies"
+    ]
+  },
+  {
+    "key": "adj-0011-correct",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0029-correct",
+        "eng-adj-0225-right(correct)"
+      ],
+      "POL": [
         "pol-adj-0123-poprawny",
         "pol-adj-0309-prawidłowy"
       ]
@@ -290,30 +310,6 @@
     "papers": [
       "concrete",
       "negative judgment"
-    ],
-    "topics": [
-      "judgment"
-    ]
-  },
-  {
-    "key": "adj-0014-excellent",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-adj-0035-magnificent",
-        "eng-adj-0036-excellent"
-      ],
-      "POL": [
-        "pol-adj-0017-wspaniały",
-        "pol-adj-0092-świetny",
-        "pol-adj-0111-doskonały",
-        "pol-adj-0359-cudowny"
-      ]
-    },
-    "papers": [
-      "positive judgment",
-      "concrete",
-      "abstract"
     ],
     "topics": [
       "judgment"
@@ -648,26 +644,46 @@
     ]
   },
   {
-    "key": "adj-0031-elementary",
+    "key": "adj-0031-essential",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0064-elementary",
-        "eng-adj-0065-basic",
+        "eng-adj-0065-key",
         "eng-adj-0066-fundamental",
         "eng-adj-0067-essential",
         "eng-adj-0068-principal(important)",
         "eng-adj-0070-chief",
         "eng-adj-0071-main",
-        "eng-adj-0072-prime"
+        "eng-adj-0072-prime",
+        "eng-adj-0075-primary(important)"
       ],
       "POL": [
         "pol-adj-0037-zasadniczy",
         "pol-adj-0040-niezbędny",
-        "pol-adj-0041-podstawowy",
         "pol-adj-0065-główny",
         "pol-adj-0526-centralny",
         "pol-adj-0557-kluczowy"
+      ]
+    },
+    "papers": [
+      "abstract",
+      "concrete"
+    ],
+    "topics": [
+      "request and permission",
+      "planning"
+    ]
+  },
+  {
+    "key": "adj-0031-indispensable",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0074-indispensable"
+      ],
+      "POL": [
+        "pol-adj-0040-niezbędny",
+        "pol-adj-8888-nieodzowny"
       ]
     },
     "papers": [
@@ -913,7 +929,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0096-sweet(cute)"
+        "eng-adj-0096-sweet(cute)",
+        "eng-adj-0097-cute"
       ],
       "POL": [
         "pol-adj-0053-słodki(cute)",
@@ -1013,7 +1030,8 @@
       "ENG": [
         "eng-adj-0034-powerful",
         "eng-adj-0106-huge",
-        "eng-adj-0107-massive"
+        "eng-adj-0107-massive",
+        "eng-adj-0195-immense"
       ],
       "POL": [
         "pol-adj-0016-mocny",
@@ -1059,13 +1077,14 @@
     ]
   },
   {
-    "key": "adj-0049-true(truthful)",
+    "key": "adj-0049-true",
     "traductions": {
       "SPA": [],
       "ENG": [
         "eng-adj-0109-true(truthful)",
         "eng-adj-0111-authentic",
-        "eng-adj-0112-real"
+        "eng-adj-0112-real",
+        "eng-adj-0158-genuine"
       ],
       "POL": [
         "pol-adj-0059-prawdziwy",
@@ -1882,14 +1901,17 @@
     ]
   },
   {
-    "key": "adj-0087-ideal",
+    "key": "adj-0087-perfect",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0193-ideal"
+        "eng-adj-0193-ideal",
+        "eng-adj-0204-perfect"
       ],
       "POL": [
-        "pol-adj-0102-idealny"
+        "pol-adj-0102-idealny",
+        "pol-adj-8888-perfekcyjny",
+        "pol-adj-0111-doskonały"
       ]
     },
     "papers": [
@@ -2031,7 +2053,8 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0206-various",
-        "eng-adj-0207-different(various)"
+        "eng-adj-0207-different(various)",
+        "eng-adj-0210-diverse"
       ],
       "POL": [
         "pol-adj-0112-różny",
@@ -2994,9 +3017,27 @@
       ],
       "POL": [
         "pol-adj-0176-mały",
-        "pol-adj-0416-drobny(fine)",
-        "pol-adj-0417-drobny(petty)",
         "pol-adj-0676-niewielki"
+      ]
+    },
+    "papers": [
+      "dimension",
+      "concrete"
+    ],
+    "topics": [
+      "sense and perception",
+      "appearance"
+    ]
+  },
+  {
+    "key": "adj-0139-fine(texture)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0148-fine(texture)"
+      ],
+      "POL": [
+        "pol-adj-0416-drobny(fine)"
       ]
     },
     "papers": [
@@ -3245,6 +3286,23 @@
     "topics": []
   },
   {
+    "key": "adj-0151-primary",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0076-primary(first)"
+      ],
+      "POL": [
+        "pol-adj-8888-pierwszorzędowy"
+      ]
+    },
+    "papers": [
+      "frequency",
+      "abstract"
+    ],
+    "topics": []
+  },
+  {
     "key": "adj-0152-high",
     "traductions": {
       "SPA": [],
@@ -3296,7 +3354,8 @@
       ],
       "POL": [
         "pol-adj-0079-zwykły",
-        "pol-adj-0201-normalny"
+        "pol-adj-0201-normalny",
+        "eng-adj-0152-ordinary"
       ]
     },
     "papers": [
@@ -3505,13 +3564,14 @@
     ]
   },
   {
-    "key": "adj-0164-intelligent",
+    "key": "adj-0164-clever",
     "traductions": {
       "SPA": [],
       "ENG": [
         "eng-adj-0339-intelligent",
         "eng-adj-0340-smart",
-        "eng-adj-0341-clever"
+        "eng-adj-0341-clever",
+        "eng-adj-0011-bright(clever)"
       ],
       "POL": [
         "pol-adj-0215-inteligentny",
@@ -3949,12 +4009,13 @@
     ]
   },
   {
-    "key": "adj-0185-significant",
+    "key": "adj-0185-important",
     "traductions": {
       "SPA": [],
       "ENG": [
         "eng-adj-0375-significant",
-        "eng-adj-0376-important"
+        "eng-adj-0376-important",
+        "eng-adj-0065-key"
       ],
       "POL": [
         "pol-adj-0241-istotny",
@@ -4320,7 +4381,8 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0264-unkind",
-        "eng-adj-0411-unpleasant"
+        "eng-adj-0411-unpleasant",
+        "eng-adj-0003-bad(unkind)"
       ],
       "POL": [
         "pol-adj-0266-niemiły",
@@ -8207,12 +8269,18 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0174-fantastic"
+        "eng-adj-0174-fantastic",
+        "eng-adj-0087-great(awesome)",
+        "eng-adj-0175-splendid",
+        "eng-adj-0035-magnificent",
+        "eng-adj-0036-excellent"
       ],
       "POL": [
         "pol-adj-0092-świetny",
         "pol-adj-0359-cudowny",
-        "pol-adj-0522-fantastyczny"
+        "pol-adj-0522-fantastyczny",
+        "pol-adj-0017-wspaniały",
+        "pol-adj-0111-doskonały"
       ]
     },
     "papers": [
@@ -11142,7 +11210,10 @@
       "ENG": [
         "eng-adj-0969-notbad",
         "eng-adj-0970-prettygood",
-        "eng-adj-0971-decent"
+        "eng-adj-0971-decent",
+        "eng-adj-8888-okay",
+        "eng-adj-0148-fine(quality)",
+        "eng-adj-8888-alright"
       ],
       "POL": [
         "pol-adj-0705-niezły",
