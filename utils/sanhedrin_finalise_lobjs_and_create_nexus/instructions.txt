@@ -1,7 +1,7 @@
 SANHEDRIN STAGES
 
-After collecting several SOURCE (probably Polish) lobjs files into one batch,
-we now process them into final forms for adding to BE.
+These stages are to collect several SOURCE (probably Polish) files of lobjs into one batch,
+and then process that into final forms for adding to BE.
 
 This means creating the corresponding TARGET (probably English) lobjs,
 and then creating the Nexus objects that connect them.
@@ -9,7 +9,7 @@ and then creating the Nexus objects that connect them.
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - PHASE ONE - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
+                                    Gather into SRC batch and clean up the tags.
 
 
 1A) Run "S01_create_src_batch.py"
@@ -48,7 +48,7 @@ and then creating the Nexus objects that connect them.
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - PHASE TWO - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
+                                        Create TGT and NEX for this batch.
 
 
 2A) Run "S05_create_tgt_lobjs.py"
@@ -71,7 +71,7 @@ and then creating the Nexus objects that connect them.
 
 
 2D-i)   Run "S07_add_frequency_and_register_to_src.py"
-        - to move "FREQn", ""slang", "insult", "curseword" out of tags and into own key
+        - to move "FREQ", "slang", "insult", "curseword" out of tags and into own key
         Modifies "nou_batch_01_SRC.json"
 
 2D-ii)  Run "S08_add_frequency_and_register_to_tgt.py"
@@ -91,7 +91,7 @@ and then creating the Nexus objects that connect them.
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - PHASE THREE - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
+                                        Enhancing lobjs in both SRC and TGT.
 
 
 From now on, if you add or remove lobjs from TGT or SRC files, you must then run the following
@@ -148,7 +148,7 @@ It uses additionalSpellings that you manually type into this stage.
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - PHASE FOUR - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
+                        Create inflection data for TGT and final tidyup for SRC and TGT.
 
 
 4A) You now need to create the inflection data for the TGT lobjs (presumably English)
