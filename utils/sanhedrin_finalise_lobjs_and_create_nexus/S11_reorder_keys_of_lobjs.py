@@ -4,7 +4,7 @@ from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same
     get_signalword, test_signalword, run_sanhedrin
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c, get_curried_save, load_tempsave_if_exists, load_data, deepequals
+from utils.universal import Color as c, get_curried_save, load_tempsave_if_exists, load_data, deepequals
 
 if __name__ == '__main__':
 

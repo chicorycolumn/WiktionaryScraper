@@ -6,7 +6,7 @@ from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same
 from utils.postprocessing.common import finalise_lemma_objects, add_tags_and_topics_from_shorthand
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import color as c, get_curried_save, load_data
+from utils.universal import Color as c, get_curried_save, load_data
 
 if __name__ == '__main__':
 

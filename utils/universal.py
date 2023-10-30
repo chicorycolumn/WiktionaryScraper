@@ -3,7 +3,7 @@ import os
 import time
 
 
-class colors:
+class Colors:
     PURPLE = '\033[95m'
     CYAN = '\033[96m'
     TEAL = '\033[36m'
@@ -16,105 +16,106 @@ class colors:
     END = '\033[0m'
 
 
-class color:
-    def bold(s):
-        return colors.BOLD + s + colors.END
+class Color:
+    def bold(s: str):
+        return Colors.BOLD + s + Colors.END
 
-    def purple_light(s):
-        return colors.PURPLE + s + colors.END
+    def purple_light(s: str):
+        return Colors.PURPLE + s + Colors.END
 
-    def cyan_light(s):
-        return colors.CYAN + s + colors.END
+    def cyan_light(s: str):
+        return Colors.CYAN + s + Colors.END
 
-    def teal_light(s):
-        return colors.TEAL + s + colors.END
+    def teal_light(s: str):
+        return Colors.TEAL + s + Colors.END
 
-    def blue_light(s):
-        return colors.BLUE + s + colors.END
+    def blue_light(s: str):
+        return Colors.BLUE + s + Colors.END
 
-    def green_light(s):
-        return colors.GREEN + s + colors.END
+    def green_light(s: str):
+        return Colors.GREEN + s + Colors.END
 
-    def yellow_light(s):
-        return colors.YELLOW + s + colors.END
+    def yellow_light(s: str):
+        return Colors.YELLOW + s + Colors.END
 
-    def red_light(s):
-        return colors.RED + s + colors.END
+    def red_light(s: str):
+        return Colors.RED + s + Colors.END
 
-    def underline_light(s):
-        return colors.UNDERLINE + s + colors.END
-
-    #
-
-    def purple(s):
-        return color.bold(colors.PURPLE + s + colors.END)
-
-    def cyan(s):
-        return color.bold(colors.CYAN + s + colors.END)
-
-    def teal(s):
-        return color.bold(colors.TEAL + s + colors.END)
-
-    def blue(s):
-        return color.bold(colors.BLUE + s + colors.END)
-
-    def green(s):
-        return color.bold(colors.GREEN + s + colors.END)
-
-    def yellow(s):
-        return color.bold(colors.YELLOW + s + colors.END)
-
-    def red(s):
-        return color.bold(colors.RED + s + colors.END)
-
-    def underline(s):
-        return color.bold(colors.UNDERLINE + s + colors.END)
+    def underline_light(s: str):
+        return Colors.UNDERLINE + s + Colors.END
 
     #
 
-    def print_purple(s):
-        print(color.purple(s))
+    def purple(s: str):
+        return Color.bold(Colors.PURPLE + s + Colors.END)
 
-    def print_cyan(s):
-        print(color.cyan(s))
+    def cyan(s: str):
+        return Color.bold(Colors.CYAN + s + Colors.END)
 
-    def print_teal(s):
-        print(color.teal(s))
+    def teal(s: str):
+        return Color.bold(Colors.TEAL + s + Colors.END)
 
-    def print_blue(s):
-        print(color.blue(s))
+    def blue(s: str):
+        return Color.bold(Colors.BLUE + s + Colors.END)
 
-    def print_green(s):
-        print(color.green(s))
+    def green(s: str):
+        return Color.bold(Colors.GREEN + s + Colors.END)
 
-    def print_yellow(s):
-        print(color.yellow(s))
+    def yellow(s: str):
+        return Color.bold(Colors.YELLOW + s + Colors.END)
 
-    def print_red(s):
-        print(color.red(s))
+    def red(s: str):
+        return Color.bold(Colors.RED + s + Colors.END)
 
-    def print_underline(s):
-        print(color.underline(s))
+    def underline(s: str):
+        return Color.bold(Colors.UNDERLINE + s + Colors.END)
 
-    def print_bold(s):
-        print(color.bold(s))
+    #
+
+    def print_purple(s: str):
+        print(Color.purple(s))
+
+    def print_cyan(s: str):
+        print(Color.cyan(s))
+
+    def print_teal(s: str):
+        print(Color.teal(s))
+
+    def print_blue(s: str):
+        print(Color.blue(s))
+
+    def print_green(s: str):
+        print(Color.green(s))
+
+    def print_yellow(s: str):
+        print(Color.yellow(s))
+
+    def print_red(s: str):
+        print(Color.red(s))
+
+    def print_underline(s: str):
+        print(Color.underline(s))
+
+    def print_bold(s: str):
+        print(Color.bold(s))
 
     def print_inside_rainbow(input):
         print("")
         print("")
-        color.print_red("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        color.print_yellow("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        color.print_green("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        color.print_cyan("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        color.print_blue("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        color.print_purple("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        Color.print_red("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        Color.print_yellow("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        Color.print_green("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        Color.print_cyan("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        Color.print_blue("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        Color.print_purple("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
         print(input)
-        color.print_purple("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        color.print_blue("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        color.print_cyan("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        color.print_green("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        color.print_yellow("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
-        color.print_red("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        Color.print_purple("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        Color.print_blue("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        Color.print_cyan("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        Color.print_green("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        Color.print_yellow("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        Color.print_red("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+
 
 def get_curried_save(output_path: str, tempsave_path: str):
     def curried_save(data: any, temp: bool = False):
@@ -156,25 +157,25 @@ def load_tempsave_if_exists(tempsave_path, input_path: str = None):
     if os.path.isfile(tempsave_path + ".json"):
         with open(tempsave_path + ".json", "r") as f:
             loaded = json.load(f)
-            color.print_teal("Loaded " + str(len(loaded)) + " items from tempsave.")
+            Color.print_teal("Loaded " + str(len(loaded)) + " items from tempsave.")
             f.close()
         return loaded
     else:
         if not input_path:
-            color.print_teal("No tempsave_path file found, I assume you're at the start of this batch?")
+            Color.print_teal("No tempsave_path file found, I assume you're at the start of this batch?")
             return []
         else:
-            color.print_teal(f'No tempsave_path file found, loading input "{input_path}".')
+            Color.print_teal(f'No tempsave_path file found, loading input "{input_path}".')
             with open(input_path + ".json", "r") as f:
                 loaded = json.load(f)
-                color.print_teal("Loaded " + str(len(loaded)) + " items from input.")
+                Color.print_teal("Loaded " + str(len(loaded)) + " items from input.")
                 f.close()
             return loaded
 
 
 def deepequals(obj1, obj2):
     def _deepequals(item1, item2):
-        if type(item1) != type(item2):
+        if type(item1) is not type(item2):
             return False
 
         if type(item1) in [str, int, float, complex, bool]:
@@ -208,20 +209,20 @@ def deepequals(obj1, obj2):
 def interact_cmd_history(user_input, cmd_history):
     if user_input[0] == "q":
         if user_input[1] == "q":
-            color.print_yellow("COMMAND HISTORY")
+            Color.print_yellow("COMMAND HISTORY")
             for ind in range(1, 5):
                 if len(cmd_history) >= ind:
-                    print(f"q{ind}", color.yellow(cmd_history[-ind]))
+                    print(f"q{ind}", Color.yellow(cmd_history[-ind]))
             time.sleep(0.8)
             return True
 
         else:
             index_of_cmd_to_repeat = int(user_input[1])
             if len(cmd_history) < index_of_cmd_to_repeat:
-                color.print_red("History does not go back that far.")
+                Color.print_red("History does not go back that far.")
                 return True
             cmd_to_repeat = cmd_history[-index_of_cmd_to_repeat]
-            color.print_yellow(cmd_to_repeat)
+            Color.print_yellow(cmd_to_repeat)
             confirmed = not input("Repeat cmd?   Enter for yes   Any key for no")
             if confirmed:
                 return cmd_to_repeat

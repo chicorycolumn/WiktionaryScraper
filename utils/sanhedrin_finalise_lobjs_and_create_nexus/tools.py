@@ -4,7 +4,7 @@ import time
 from copy import deepcopy
 
 from utils.general.common import write_todo
-from utils.universal import color as c, interact_cmd_history
+from utils.universal import Color as c, interact_cmd_history
 
 
 def show1(lobj, target_lang):
