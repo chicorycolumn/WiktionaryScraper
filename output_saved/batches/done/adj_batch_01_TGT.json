@@ -885,7 +885,17 @@
   },
   {
     "lemma": "shallow",
-    "id": "eng-adj-0080-shallow",
+    "id": "eng-adj-0080-shallow(concrete)",
+    "»trans": [
+      "pol-adj-0044-płytki",
+      "pol-adj-0310-powierzchowny"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "shallow",
+    "id": "eng-adj-0080-shallow(abstract)",
     "»trans": [
       "pol-adj-0044-płytki",
       "pol-adj-0310-powierzchowny"
@@ -1083,7 +1093,7 @@
   },
   {
     "lemma": "tight",
-    "id": "eng-adj-0098-tight(concrete)",
+    "id": "eng-adj-0098-tight(clothes)",
     "»trans": [
       "pol-adj-0054-ciasny",
       "pol-adj-0210-wąski",
@@ -1093,8 +1103,24 @@
     "frequency": 3,
     "allohomInfo": {
       "singleWordtype": true,
-      "text": "physical",
-      "emoji": "🪨"
+      "text": "clothes",
+      "emoji": "\uD83D\uDC5A"
+    }
+  },
+  {
+    "lemma": "tight",
+    "id": "eng-adj-0098-tight(space)",
+    "»trans": [
+      "pol-adj-0054-ciasny",
+      "pol-adj-0210-wąski",
+      "pol-adj-0285-obcisły"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "space",
+      "emoji": "\uD83C\uDFE0"
     }
   },
   {
@@ -3690,8 +3716,35 @@
     "frequency": 4
   },
   {
+    "lemma": "fun",
+    "id": "eng-adj-0355-fun",
+    "»trans": [
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "enjoyable",
+    "id": "eng-adj-0355-enjoyable",
+    "»trans": [
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
     "lemma": "funny",
-    "id": "eng-adj-0355-funny(amusing)",
+    "id": "eng-adj-0355-funny(humorous thing)",
+    "»trans": [
+      "pol-adj-0228-zabawny",
+      "pol-adj-0229-śmieszny",
+      "pol-adj-0231-dowcipny"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "funny",
+    "id": "eng-adj-0355-funny(humorous person)",
     "»trans": [
       "pol-adj-0228-zabawny",
       "pol-adj-0229-śmieszny",
@@ -3734,15 +3787,6 @@
     ],
     "register": 0,
     "frequency": 3
-  },
-  {
-    "lemma": "tongue-in-cheek",
-    "id": "eng-adj-0358-tongueincheek",
-    "»trans": [
-      "pol-adj-0230-żartobliwy"
-    ],
-    "register": 0,
-    "frequency": 5
   },
   {
     "lemma": "playful",
@@ -4132,15 +4176,6 @@
   {
     "lemma": "exceptional",
     "id": "eng-adj-0399-exceptional",
-    "»trans": [
-      "pol-adj-0259-wyjątkowy"
-    ],
-    "register": 0,
-    "frequency": 4
-  },
-  {
-    "lemma": "unique",
-    "id": "eng-adj-0400-unique",
     "»trans": [
       "pol-adj-0259-wyjątkowy"
     ],
@@ -5113,15 +5148,6 @@
     "frequency": 4
   },
   {
-    "lemma": "murky",
-    "id": "eng-adj-0502-murky",
-    "»trans": [
-      "pol-adj-0337-mroczny"
-    ],
-    "register": 0,
-    "frequency": 4
-  },
-  {
     "lemma": "popular",
     "id": "eng-adj-0503-popular",
     "»trans": [
@@ -5896,6 +5922,15 @@
     "frequency": 4
   },
   {
+    "lemma": "glittery",
+    "id": "eng-adj-0581-glittery",
+    "»trans": [
+      "pol-adj-0389-lśniący"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
     "lemma": "sparkling",
     "id": "eng-adj-0582-sparkling",
     "»trans": [
@@ -6249,25 +6284,6 @@
     "lemma": "petty",
     "id": "eng-adj-0620-petty",
     "»trans": [
-      "pol-adj-0419-drobny(petty)"
-    ],
-    "register": 0,
-    "frequency": 4
-  },
-  {
-    "lemma": "trivial",
-    "id": "eng-adj-0621-trivial",
-    "»trans": [
-      "pol-adj-0419-drobny(petty)"
-    ],
-    "register": 0,
-    "frequency": 4
-  },
-  {
-    "lemma": "trifling",
-    "id": "eng-adj-0622-trifling",
-    "»trans": [
-      "pol-adj-0419-drobny(petty)"
     ],
     "register": 0,
     "frequency": 5

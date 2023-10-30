@@ -44183,7 +44183,395 @@
   },
   {
     "lemma": "zabawny",
-    "id": "pol-adj-0226-zabawny",
+    "id": "pol-adj-0226-zabawny(fun)",
+    "tags": [
+      "abstract"
+    ],
+    "topics": [
+      "appearance",
+      "mental",
+      "people",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "amusing",
+        "funny"
+      ]
+    },
+    "extra": {
+      "synonyms": [
+        "dowcipny",
+        "śmieszny",
+        "komiczny",
+        "żartobliwy"
+      ]
+    },
+    "inflections": {
+      "adverb": "zabawnie",
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "zabawny",
+            "gen": "zabawnego",
+            "dat": "zabawnemu",
+            "acc": "zabawnego",
+            "ins": "zabawnym",
+            "loc": "zabawnym"
+          },
+          "m3": {
+            "nom": "zabawny",
+            "gen": "zabawnego",
+            "dat": "zabawnemu",
+            "acc": "zabawny",
+            "ins": "zabawnym",
+            "loc": "zabawnym"
+          },
+          "f": {
+            "nom": "zabawna",
+            "gen": "zabawnej",
+            "dat": "zabawnej",
+            "acc": "zabawną",
+            "ins": "zabawną",
+            "loc": "zabawnej"
+          },
+          "n": {
+            "nom": "zabawne",
+            "gen": "zabawnego",
+            "dat": "zabawnemu",
+            "acc": "zabawne",
+            "ins": "zabawnym",
+            "loc": "zabawnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "zabawni",
+            "gen": "zabawnych",
+            "dat": "zabawnym",
+            "acc": "zabawnych",
+            "ins": "zabawnymi",
+            "loc": "zabawnych"
+          },
+          "nonvirile": {
+            "nom": "zabawne",
+            "gen": "zabawnych",
+            "dat": "zabawnym",
+            "acc": "zabawne",
+            "ins": "zabawnymi",
+            "loc": "zabawnych"
+          }
+        }
+      },
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "zabawniejszy",
+            "gen": "zabawniejszego",
+            "dat": "zabawniejszemu",
+            "acc": "zabawniejszego",
+            "ins": "zabawniejszym",
+            "loc": "zabawniejszym"
+          },
+          "m3": {
+            "nom": "zabawniejszy",
+            "gen": "zabawniejszego",
+            "dat": "zabawniejszemu",
+            "acc": "zabawniejszy",
+            "ins": "zabawniejszym",
+            "loc": "zabawniejszym"
+          },
+          "f": {
+            "nom": "zabawniejsza",
+            "gen": "zabawniejszej",
+            "dat": "zabawniejszej",
+            "acc": "zabawniejszą",
+            "ins": "zabawniejszą",
+            "loc": "zabawniejszej"
+          },
+          "n": {
+            "nom": "zabawniejsze",
+            "gen": "zabawniejszego",
+            "dat": "zabawniejszemu",
+            "acc": "zabawniejsze",
+            "ins": "zabawniejszym",
+            "loc": "zabawniejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "zabawniejsi",
+            "gen": "zabawniejszych",
+            "dat": "zabawniejszym",
+            "acc": "zabawniejszych",
+            "ins": "zabawniejszymi",
+            "loc": "zabawniejszych"
+          },
+          "nonvirile": {
+            "nom": "zabawniejsze",
+            "gen": "zabawniejszych",
+            "dat": "zabawniejszym",
+            "acc": "zabawniejsze",
+            "ins": "zabawniejszymi",
+            "loc": "zabawniejszych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najzabawniejszy",
+            "gen": "najzabawniejszego",
+            "dat": "najzabawniejszemu",
+            "acc": "najzabawniejszego",
+            "ins": "najzabawniejszym",
+            "loc": "najzabawniejszym"
+          },
+          "m3": {
+            "nom": "najzabawniejszy",
+            "gen": "najzabawniejszego",
+            "dat": "najzabawniejszemu",
+            "acc": "najzabawniejszy",
+            "ins": "najzabawniejszym",
+            "loc": "najzabawniejszym"
+          },
+          "f": {
+            "nom": "najzabawniejsza",
+            "gen": "najzabawniejszej",
+            "dat": "najzabawniejszej",
+            "acc": "najzabawniejszą",
+            "ins": "najzabawniejszą",
+            "loc": "najzabawniejszej"
+          },
+          "n": {
+            "nom": "najzabawniejsze",
+            "gen": "najzabawniejszego",
+            "dat": "najzabawniejszemu",
+            "acc": "najzabawniejsze",
+            "ins": "najzabawniejszym",
+            "loc": "najzabawniejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najzabawniejsi",
+            "gen": "najzabawniejszych",
+            "dat": "najzabawniejszym",
+            "acc": "najzabawniejszych",
+            "ins": "najzabawniejszymi",
+            "loc": "najzabawniejszych"
+          },
+          "nonvirile": {
+            "nom": "najzabawniejsze",
+            "gen": "najzabawniejszych",
+            "dat": "najzabawniejszym",
+            "acc": "najzabawniejsze",
+            "ins": "najzabawniejszymi",
+            "loc": "najzabawniejszych"
+          }
+        }
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+  {
+    "lemma": "zabawny",
+    "id": "pol-adj-0226-zabawny(humorous thing)",
+    "tags": [
+      "abstract"
+    ],
+    "topics": [
+      "appearance",
+      "mental",
+      "people",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "amusing",
+        "funny"
+      ]
+    },
+    "extra": {
+      "synonyms": [
+        "dowcipny",
+        "śmieszny",
+        "komiczny",
+        "żartobliwy"
+      ]
+    },
+    "inflections": {
+      "adverb": "zabawnie",
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "zabawny",
+            "gen": "zabawnego",
+            "dat": "zabawnemu",
+            "acc": "zabawnego",
+            "ins": "zabawnym",
+            "loc": "zabawnym"
+          },
+          "m3": {
+            "nom": "zabawny",
+            "gen": "zabawnego",
+            "dat": "zabawnemu",
+            "acc": "zabawny",
+            "ins": "zabawnym",
+            "loc": "zabawnym"
+          },
+          "f": {
+            "nom": "zabawna",
+            "gen": "zabawnej",
+            "dat": "zabawnej",
+            "acc": "zabawną",
+            "ins": "zabawną",
+            "loc": "zabawnej"
+          },
+          "n": {
+            "nom": "zabawne",
+            "gen": "zabawnego",
+            "dat": "zabawnemu",
+            "acc": "zabawne",
+            "ins": "zabawnym",
+            "loc": "zabawnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "zabawni",
+            "gen": "zabawnych",
+            "dat": "zabawnym",
+            "acc": "zabawnych",
+            "ins": "zabawnymi",
+            "loc": "zabawnych"
+          },
+          "nonvirile": {
+            "nom": "zabawne",
+            "gen": "zabawnych",
+            "dat": "zabawnym",
+            "acc": "zabawne",
+            "ins": "zabawnymi",
+            "loc": "zabawnych"
+          }
+        }
+      },
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "zabawniejszy",
+            "gen": "zabawniejszego",
+            "dat": "zabawniejszemu",
+            "acc": "zabawniejszego",
+            "ins": "zabawniejszym",
+            "loc": "zabawniejszym"
+          },
+          "m3": {
+            "nom": "zabawniejszy",
+            "gen": "zabawniejszego",
+            "dat": "zabawniejszemu",
+            "acc": "zabawniejszy",
+            "ins": "zabawniejszym",
+            "loc": "zabawniejszym"
+          },
+          "f": {
+            "nom": "zabawniejsza",
+            "gen": "zabawniejszej",
+            "dat": "zabawniejszej",
+            "acc": "zabawniejszą",
+            "ins": "zabawniejszą",
+            "loc": "zabawniejszej"
+          },
+          "n": {
+            "nom": "zabawniejsze",
+            "gen": "zabawniejszego",
+            "dat": "zabawniejszemu",
+            "acc": "zabawniejsze",
+            "ins": "zabawniejszym",
+            "loc": "zabawniejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "zabawniejsi",
+            "gen": "zabawniejszych",
+            "dat": "zabawniejszym",
+            "acc": "zabawniejszych",
+            "ins": "zabawniejszymi",
+            "loc": "zabawniejszych"
+          },
+          "nonvirile": {
+            "nom": "zabawniejsze",
+            "gen": "zabawniejszych",
+            "dat": "zabawniejszym",
+            "acc": "zabawniejsze",
+            "ins": "zabawniejszymi",
+            "loc": "zabawniejszych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najzabawniejszy",
+            "gen": "najzabawniejszego",
+            "dat": "najzabawniejszemu",
+            "acc": "najzabawniejszego",
+            "ins": "najzabawniejszym",
+            "loc": "najzabawniejszym"
+          },
+          "m3": {
+            "nom": "najzabawniejszy",
+            "gen": "najzabawniejszego",
+            "dat": "najzabawniejszemu",
+            "acc": "najzabawniejszy",
+            "ins": "najzabawniejszym",
+            "loc": "najzabawniejszym"
+          },
+          "f": {
+            "nom": "najzabawniejsza",
+            "gen": "najzabawniejszej",
+            "dat": "najzabawniejszej",
+            "acc": "najzabawniejszą",
+            "ins": "najzabawniejszą",
+            "loc": "najzabawniejszej"
+          },
+          "n": {
+            "nom": "najzabawniejsze",
+            "gen": "najzabawniejszego",
+            "dat": "najzabawniejszemu",
+            "acc": "najzabawniejsze",
+            "ins": "najzabawniejszym",
+            "loc": "najzabawniejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najzabawniejsi",
+            "gen": "najzabawniejszych",
+            "dat": "najzabawniejszym",
+            "acc": "najzabawniejszych",
+            "ins": "najzabawniejszymi",
+            "loc": "najzabawniejszych"
+          },
+          "nonvirile": {
+            "nom": "najzabawniejsze",
+            "gen": "najzabawniejszych",
+            "dat": "najzabawniejszym",
+            "acc": "najzabawniejsze",
+            "ins": "najzabawniejszymi",
+            "loc": "najzabawniejszych"
+          }
+        }
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+  {
+    "lemma": "zabawny",
+    "id": "pol-adj-0226-zabawny(humorous person)",
     "tags": [
       "abstract"
     ],
@@ -44377,7 +44765,198 @@
   },
   {
     "lemma": "śmieszny",
-    "id": "pol-adj-0227-śmieszny",
+    "id": "pol-adj-0227-śmieszny(humorous thing)",
+    "tags": [
+      "abstract"
+    ],
+    "topics": [
+      "appearance",
+      "mental",
+      "people",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "funny",
+        "ridiculous"
+      ]
+    },
+    "extra": {
+      "usage": [
+        "Nie ma w tym nic śmiesznego . ― There is nothing funny about it."
+      ]
+    },
+    "inflections": {
+      "adverb": "śmiesznie",
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "śmieszny",
+            "gen": "śmiesznego",
+            "dat": "śmiesznemu",
+            "acc": "śmiesznego",
+            "ins": "śmiesznym",
+            "loc": "śmiesznym"
+          },
+          "m3": {
+            "nom": "śmieszny",
+            "gen": "śmiesznego",
+            "dat": "śmiesznemu",
+            "acc": "śmieszny",
+            "ins": "śmiesznym",
+            "loc": "śmiesznym"
+          },
+          "f": {
+            "nom": "śmieszna",
+            "gen": "śmiesznej",
+            "dat": "śmiesznej",
+            "acc": "śmieszną",
+            "ins": "śmieszną",
+            "loc": "śmiesznej"
+          },
+          "n": {
+            "nom": "śmieszne",
+            "gen": "śmiesznego",
+            "dat": "śmiesznemu",
+            "acc": "śmieszne",
+            "ins": "śmiesznym",
+            "loc": "śmiesznym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "śmieszni",
+            "gen": "śmiesznych",
+            "dat": "śmiesznym",
+            "acc": "śmiesznych",
+            "ins": "śmiesznymi",
+            "loc": "śmiesznych"
+          },
+          "nonvirile": {
+            "nom": "śmieszne",
+            "gen": "śmiesznych",
+            "dat": "śmiesznym",
+            "acc": "śmieszne",
+            "ins": "śmiesznymi",
+            "loc": "śmiesznych"
+          }
+        }
+      },
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "śmieszniejszy",
+            "gen": "śmieszniejszego",
+            "dat": "śmieszniejszemu",
+            "acc": "śmieszniejszego",
+            "ins": "śmieszniejszym",
+            "loc": "śmieszniejszym"
+          },
+          "m3": {
+            "nom": "śmieszniejszy",
+            "gen": "śmieszniejszego",
+            "dat": "śmieszniejszemu",
+            "acc": "śmieszniejszy",
+            "ins": "śmieszniejszym",
+            "loc": "śmieszniejszym"
+          },
+          "f": {
+            "nom": "śmieszniejsza",
+            "gen": "śmieszniejszej",
+            "dat": "śmieszniejszej",
+            "acc": "śmieszniejszą",
+            "ins": "śmieszniejszą",
+            "loc": "śmieszniejszej"
+          },
+          "n": {
+            "nom": "śmieszniejsze",
+            "gen": "śmieszniejszego",
+            "dat": "śmieszniejszemu",
+            "acc": "śmieszniejsze",
+            "ins": "śmieszniejszym",
+            "loc": "śmieszniejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "śmieszniejsi",
+            "gen": "śmieszniejszych",
+            "dat": "śmieszniejszym",
+            "acc": "śmieszniejszych",
+            "ins": "śmieszniejszymi",
+            "loc": "śmieszniejszych"
+          },
+          "nonvirile": {
+            "nom": "śmieszniejsze",
+            "gen": "śmieszniejszych",
+            "dat": "śmieszniejszym",
+            "acc": "śmieszniejsze",
+            "ins": "śmieszniejszymi",
+            "loc": "śmieszniejszych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najśmieszniejszy",
+            "gen": "najśmieszniejszego",
+            "dat": "najśmieszniejszemu",
+            "acc": "najśmieszniejszego",
+            "ins": "najśmieszniejszym",
+            "loc": "najśmieszniejszym"
+          },
+          "m3": {
+            "nom": "najśmieszniejszy",
+            "gen": "najśmieszniejszego",
+            "dat": "najśmieszniejszemu",
+            "acc": "najśmieszniejszy",
+            "ins": "najśmieszniejszym",
+            "loc": "najśmieszniejszym"
+          },
+          "f": {
+            "nom": "najśmieszniejsza",
+            "gen": "najśmieszniejszej",
+            "dat": "najśmieszniejszej",
+            "acc": "najśmieszniejszą",
+            "ins": "najśmieszniejszą",
+            "loc": "najśmieszniejszej"
+          },
+          "n": {
+            "nom": "najśmieszniejsze",
+            "gen": "najśmieszniejszego",
+            "dat": "najśmieszniejszemu",
+            "acc": "najśmieszniejsze",
+            "ins": "najśmieszniejszym",
+            "loc": "najśmieszniejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najśmieszniejsi",
+            "gen": "najśmieszniejszych",
+            "dat": "najśmieszniejszym",
+            "acc": "najśmieszniejszych",
+            "ins": "najśmieszniejszymi",
+            "loc": "najśmieszniejszych"
+          },
+          "nonvirile": {
+            "nom": "najśmieszniejsze",
+            "gen": "najśmieszniejszych",
+            "dat": "najśmieszniejszym",
+            "acc": "najśmieszniejsze",
+            "ins": "najśmieszniejszymi",
+            "loc": "najśmieszniejszych"
+          }
+        }
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+  {
+    "lemma": "śmieszny",
+    "id": "pol-adj-0227-śmieszny(humorous person)",
     "tags": [
       "abstract"
     ],
@@ -46822,6 +47401,195 @@
             "acc": "najwiarygodniejsze",
             "ins": "najwiarygodniejszymi",
             "loc": "najwiarygodniejszych"
+          }
+        }
+      }
+    },
+    "frequency": 4,
+    "register": 0
+  },
+  {
+    "lemma": "niewiarygodny",
+    "id": "pol-adj-0240-niewiarygodny",
+    "tags": [
+      "abstract",
+      "personality",
+      "positive judgment"
+    ],
+    "topics": [
+      "judgment",
+      "people",
+      "probability",
+      "travel"
+    ],
+    "translations": {
+      "ENG": [
+        "credible",
+        "reliable",
+        "trustworthy"
+      ]
+    },
+    "inflections": {
+      "adverb": "niewiarygodnie",
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "niewiarygodny",
+            "gen": "niewiarygodnego",
+            "dat": "niewiarygodnemu",
+            "acc": "niewiarygodnego",
+            "ins": "niewiarygodnym",
+            "loc": "niewiarygodnym"
+          },
+          "m3": {
+            "nom": "niewiarygodny",
+            "gen": "niewiarygodnego",
+            "dat": "niewiarygodnemu",
+            "acc": "niewiarygodny",
+            "ins": "niewiarygodnym",
+            "loc": "niewiarygodnym"
+          },
+          "f": {
+            "nom": "niewiarygodna",
+            "gen": "niewiarygodnej",
+            "dat": "niewiarygodnej",
+            "acc": "niewiarygodną",
+            "ins": "niewiarygodną",
+            "loc": "niewiarygodnej"
+          },
+          "n": {
+            "nom": "niewiarygodne",
+            "gen": "niewiarygodnego",
+            "dat": "niewiarygodnemu",
+            "acc": "niewiarygodne",
+            "ins": "niewiarygodnym",
+            "loc": "niewiarygodnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "niewiarygodni",
+            "gen": "niewiarygodnych",
+            "dat": "niewiarygodnym",
+            "acc": "niewiarygodnych",
+            "ins": "niewiarygodnymi",
+            "loc": "niewiarygodnych"
+          },
+          "nonvirile": {
+            "nom": "niewiarygodne",
+            "gen": "niewiarygodnych",
+            "dat": "niewiarygodnym",
+            "acc": "niewiarygodne",
+            "ins": "niewiarygodnymi",
+            "loc": "niewiarygodnych"
+          }
+        }
+      },
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "niewiarygodniejszy",
+            "gen": "niewiarygodniejszego",
+            "dat": "niewiarygodniejszemu",
+            "acc": "niewiarygodniejszego",
+            "ins": "niewiarygodniejszym",
+            "loc": "niewiarygodniejszym"
+          },
+          "m3": {
+            "nom": "niewiarygodniejszy",
+            "gen": "niewiarygodniejszego",
+            "dat": "niewiarygodniejszemu",
+            "acc": "niewiarygodniejszy",
+            "ins": "niewiarygodniejszym",
+            "loc": "niewiarygodniejszym"
+          },
+          "f": {
+            "nom": "niewiarygodniejsza",
+            "gen": "niewiarygodniejszej",
+            "dat": "niewiarygodniejszej",
+            "acc": "niewiarygodniejszą",
+            "ins": "niewiarygodniejszą",
+            "loc": "niewiarygodniejszej"
+          },
+          "n": {
+            "nom": "niewiarygodniejsze",
+            "gen": "niewiarygodniejszego",
+            "dat": "niewiarygodniejszemu",
+            "acc": "niewiarygodniejsze",
+            "ins": "niewiarygodniejszym",
+            "loc": "niewiarygodniejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "niewiarygodniejsi",
+            "gen": "niewiarygodniejszych",
+            "dat": "niewiarygodniejszym",
+            "acc": "niewiarygodniejszych",
+            "ins": "niewiarygodniejszymi",
+            "loc": "niewiarygodniejszych"
+          },
+          "nonvirile": {
+            "nom": "niewiarygodniejsze",
+            "gen": "niewiarygodniejszych",
+            "dat": "niewiarygodniejszym",
+            "acc": "niewiarygodniejsze",
+            "ins": "niewiarygodniejszymi",
+            "loc": "niewiarygodniejszych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najniewiarygodniejszy",
+            "gen": "najniewiarygodniejszego",
+            "dat": "najniewiarygodniejszemu",
+            "acc": "najniewiarygodniejszego",
+            "ins": "najniewiarygodniejszym",
+            "loc": "najniewiarygodniejszym"
+          },
+          "m3": {
+            "nom": "najniewiarygodniejszy",
+            "gen": "najniewiarygodniejszego",
+            "dat": "najniewiarygodniejszemu",
+            "acc": "najniewiarygodniejszy",
+            "ins": "najniewiarygodniejszym",
+            "loc": "najniewiarygodniejszym"
+          },
+          "f": {
+            "nom": "najniewiarygodniejsza",
+            "gen": "najniewiarygodniejszej",
+            "dat": "najniewiarygodniejszej",
+            "acc": "najniewiarygodniejszą",
+            "ins": "najniewiarygodniejszą",
+            "loc": "najniewiarygodniejszej"
+          },
+          "n": {
+            "nom": "najniewiarygodniejsze",
+            "gen": "najniewiarygodniejszego",
+            "dat": "najniewiarygodniejszemu",
+            "acc": "najniewiarygodniejsze",
+            "ins": "najniewiarygodniejszym",
+            "loc": "najniewiarygodniejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najniewiarygodniejsi",
+            "gen": "najniewiarygodniejszych",
+            "dat": "najniewiarygodniejszym",
+            "acc": "najniewiarygodniejszych",
+            "ins": "najniewiarygodniejszymi",
+            "loc": "najniewiarygodniejszych"
+          },
+          "nonvirile": {
+            "nom": "najniewiarygodniejsze",
+            "gen": "najniewiarygodniejszych",
+            "dat": "najniewiarygodniejszym",
+            "acc": "najniewiarygodniejsze",
+            "ins": "najniewiarygodniejszymi",
+            "loc": "najniewiarygodniejszych"
           }
         }
       }
@@ -136720,7 +137488,190 @@
         }
       }
     },
-    "frequency": 4,
+    "frequency": 5,
+    "register": 0
+  },
+    {
+    "lemma": "małostkowy",
+    "id": "pol-adj-0481-małostkowy",
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ],
+    "translations": {
+      "ENG": [
+        "random",
+        "accidental"
+      ]
+    },
+    "inflections": {
+      "adverb": "małostkowo",
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "małostkowy",
+            "gen": "małostkowego",
+            "dat": "małostkowemu",
+            "acc": "małostkowego",
+            "ins": "małostkowym",
+            "loc": "małostkowym"
+          },
+          "m3": {
+            "nom": "małostkowy",
+            "gen": "małostkowego",
+            "dat": "małostkowemu",
+            "acc": "małostkowy",
+            "ins": "małostkowym",
+            "loc": "małostkowym"
+          },
+          "f": {
+            "nom": "małostkowa",
+            "gen": "małostkowej",
+            "dat": "małostkowej",
+            "acc": "małostkową",
+            "ins": "małostkową",
+            "loc": "małostkowej"
+          },
+          "n": {
+            "nom": "małostkowe",
+            "gen": "małostkowego",
+            "dat": "małostkowemu",
+            "acc": "małostkowe",
+            "ins": "małostkowym",
+            "loc": "małostkowym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "małostkowi",
+            "gen": "małostkowych",
+            "dat": "małostkowym",
+            "acc": "małostkowych",
+            "ins": "małostkowymi",
+            "loc": "małostkowych"
+          },
+          "nonvirile": {
+            "nom": "małostkowe",
+            "gen": "małostkowych",
+            "dat": "małostkowym",
+            "acc": "małostkowe",
+            "ins": "małostkowymi",
+            "loc": "małostkowych"
+          }
+        }
+      },
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "bardziej małostkowy",
+            "gen": "bardziej małostkowego",
+            "dat": "bardziej małostkowemu",
+            "acc": "bardziej małostkowego",
+            "ins": "bardziej małostkowym",
+            "loc": "bardziej małostkowym"
+          },
+          "m3": {
+            "nom": "bardziej małostkowy",
+            "gen": "bardziej małostkowego",
+            "dat": "bardziej małostkowemu",
+            "acc": "bardziej małostkowy",
+            "ins": "bardziej małostkowym",
+            "loc": "bardziej małostkowym"
+          },
+          "f": {
+            "nom": "bardziej małostkowa",
+            "gen": "bardziej małostkowej",
+            "dat": "bardziej małostkowej",
+            "acc": "bardziej małostkową",
+            "ins": "bardziej małostkową",
+            "loc": "bardziej małostkowej"
+          },
+          "n": {
+            "nom": "bardziej małostkowe",
+            "gen": "bardziej małostkowego",
+            "dat": "bardziej małostkowemu",
+            "acc": "bardziej małostkowe",
+            "ins": "bardziej małostkowym",
+            "loc": "bardziej małostkowym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "bardziej małostkowi",
+            "gen": "bardziej małostkowych",
+            "dat": "bardziej małostkowym",
+            "acc": "bardziej małostkowych",
+            "ins": "bardziej małostkowymi",
+            "loc": "bardziej małostkowych"
+          },
+          "nonvirile": {
+            "nom": "bardziej małostkowe",
+            "gen": "bardziej małostkowych",
+            "dat": "bardziej małostkowym",
+            "acc": "bardziej małostkowe",
+            "ins": "bardziej małostkowymi",
+            "loc": "bardziej małostkowych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najbardziej małostkowy",
+            "gen": "najbardziej małostkowego",
+            "dat": "najbardziej małostkowemu",
+            "acc": "najbardziej małostkowego",
+            "ins": "najbardziej małostkowym",
+            "loc": "najbardziej małostkowym"
+          },
+          "m3": {
+            "nom": "najbardziej małostkowy",
+            "gen": "najbardziej małostkowego",
+            "dat": "najbardziej małostkowemu",
+            "acc": "najbardziej małostkowy",
+            "ins": "najbardziej małostkowym",
+            "loc": "najbardziej małostkowym"
+          },
+          "f": {
+            "nom": "najbardziej małostkowa",
+            "gen": "najbardziej małostkowej",
+            "dat": "najbardziej małostkowej",
+            "acc": "najbardziej małostkową",
+            "ins": "najbardziej małostkową",
+            "loc": "najbardziej małostkowej"
+          },
+          "n": {
+            "nom": "najbardziej małostkowe",
+            "gen": "najbardziej małostkowego",
+            "dat": "najbardziej małostkowemu",
+            "acc": "najbardziej małostkowe",
+            "ins": "najbardziej małostkowym",
+            "loc": "najbardziej małostkowym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najbardziej małostkowi",
+            "gen": "najbardziej małostkowych",
+            "dat": "najbardziej małostkowym",
+            "acc": "najbardziej małostkowych",
+            "ins": "najbardziej małostkowymi",
+            "loc": "najbardziej małostkowych"
+          },
+          "nonvirile": {
+            "nom": "najbardziej małostkowe",
+            "gen": "najbardziej małostkowych",
+            "dat": "najbardziej małostkowym",
+            "acc": "najbardziej małostkowe",
+            "ins": "najbardziej małostkowymi",
+            "loc": "najbardziej małostkowych"
+          }
+        }
+      }
+    },
+    "frequency": 5,
     "register": 0
   }
 ]

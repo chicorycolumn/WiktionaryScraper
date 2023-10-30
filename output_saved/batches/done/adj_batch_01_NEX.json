@@ -506,7 +506,8 @@
         "eng-adj-0052-lively",
         "eng-adj-0053-vivacious",
         "eng-adj-0054-vivid",
-        "eng-adj-0055-vibrant"
+        "eng-adj-0055-vibrant",
+        "eng-adj-0593-exuberant"
       ],
       "POL": [
         "pol-adj-0030-żywy(lively)",
@@ -760,15 +761,14 @@
     ]
   },
   {
-    "key": "adj-0035-shallow",
+    "key": "adj-0035-shallow(concrete)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0080-shallow"
+        "eng-adj-0080-shallow(concrete)"
       ],
       "POL": [
-        "pol-adj-0044-płytki",
-        "pol-adj-0308-powierzchowny"
+        "pol-adj-0044-płytki"
       ]
     },
     "papers": [
@@ -778,6 +778,27 @@
     "topics": [
       "sense and perception",
       "appearance"
+    ]
+  },
+  {
+    "key": "adj-0035-shallow(abstract)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0080-shallow(abstract)",
+        "eng-adj-0466-superficial"
+      ],
+      "POL": [
+        "pol-adj-0308-powierzchowny"
+      ]
+    },
+    "papers": [
+      "personality",
+      "abstract",
+      "helper"
+    ],
+    "topics": [
+      "people"
     ]
   },
   {
@@ -958,17 +979,83 @@
     ]
   },
   {
-    "key": "adj-0044-tight(concrete)",
+    "key": "adj-0248-tight(abstract)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0098-tight(concrete)",
-        "eng-adj-0100-cramped"
+        "eng-adj-0099-tight(abstract)",
+        "eng-adj-0492-rigorous",
+        "eng-adj-0493-strict(regulated)"
+      ],
+      "POL": [
+        "pol-adj-0329-ścisły"
+      ]
+    },
+    "papers": [
+      "dimension",
+      "helper",
+      "abstract"
+    ],
+    "topics": [
+      "time",
+      "planning"
+    ]
+  },
+  {
+    "key": "adj-0044-tight(clothes)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0098-tight(clothes)",
+        "eng-adj-0433-tight-fitting"
       ],
       "POL": [
         "pol-adj-0054-ciasny",
-        "pol-adj-0208-wąski",
         "pol-adj-0283-obcisły"
+      ]
+    },
+    "papers": [
+      "dimension",
+      "concrete",
+      "clothes",
+      "holdable"
+    ],
+    "topics": [
+      "sense and perception",
+      "appearance",
+      "fashion"
+    ]
+  },
+  {
+    "key": "adj-0044-cramped",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0098-tight(space)",
+        "eng-adj-0100-cramped"
+      ],
+      "POL": [
+        "pol-adj-0054-ciasny"
+      ]
+    },
+    "papers": [
+      "dimension",
+      "concrete"
+    ],
+    "topics": [
+      "sense and perception",
+      "appearance"
+    ]
+  },
+  {
+    "key": "adj-0044-narrow",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0329-narrow"
+      ],
+      "POL": [
+        "pol-adj-0208-wąski"
       ]
     },
     "papers": [
@@ -1092,7 +1179,8 @@
         "eng-adj-0109-true(truthful)",
         "eng-adj-0111-authentic",
         "eng-adj-0112-real",
-        "eng-adj-0158-genuine"
+        "eng-adj-0158-genuine",
+        "eng-adj-0484-actual"
       ],
       "POL": [
         "pol-adj-0059-prawdziwy",
@@ -3114,6 +3202,29 @@
     ]
   },
   {
+    "key": "adj-0139-petty",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0620-petty"
+      ],
+      "POL": [
+        "pol-adj-0481-małostkowy"
+      ]
+    },
+    "papers": [
+      "personality",
+      "concrete",
+      "negative judgment"
+    ],
+    "topics": [
+      "judgment",
+      "sense and perception",
+      "appearance",
+      "people"
+    ]
+  },
+  {
     "key": "adj-0140-dry",
     "traductions": {
       "SPA": [],
@@ -3811,18 +3922,15 @@
     ]
   },
   {
-    "key": "adj-0172-funny",
+    "key": "adj-0172-fun",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0354-amusing",
-        "eng-adj-0355-funny(amusing)",
-        "eng-adj-0356-ridiculous(funny)"
+        "eng-adj-0355-fun",
+        "eng-adj-0355-enjoyable"
       ],
       "POL": [
-        "pol-adj-0226-zabawny",
-        "pol-adj-0227-śmieszny",
-        "pol-adj-0229-dowcipny"
+        "pol-adj-0226-zabawny(fun)"
       ]
     },
     "papers": [
@@ -3836,25 +3944,54 @@
     ]
   },
   {
-    "key": "adj-0173-humorous",
+    "key": "adj-0172-funny(humorous thing)",
     "traductions": {
       "SPA": [],
       "ENG": [
+        "eng-adj-0354-amusing",
+        "eng-adj-0355-funny(humorous thing)",
+        "eng-adj-0356-ridiculous(funny)"
+      ],
+      "POL": [
+        "pol-adj-0226-zabawny(humorous thing)",
+        "pol-adj-0227-śmieszny(humorous thing)"
+      ]
+    },
+    "papers": [
+      "abstract"
+    ],
+    "topics": [
+      "mental",
+      "sense and perception",
+      "appearance"
+    ]
+  },
+  {
+    "key": "adj-0172-funny(humorous person)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0354-amusing",
+        "eng-adj-0355-funny(humorous person)",
+        "eng-adj-0361-witty",
         "eng-adj-0357-humorous",
-        "eng-adj-0358-tongueincheek",
         "eng-adj-0359-playful",
         "eng-adj-0360-lighthearted"
       ],
       "POL": [
-        "pol-adj-0228-żartobliwy",
-        "pol-adj-0229-dowcipny"
+        "pol-adj-0226-zabawny(humorous person)",
+        "pol-adj-0227-śmieszny(humorous person)",
+        "pol-adj-0229-dowcipny",
+        "pol-adj-0228-żartobliwy"
       ]
     },
     "papers": [
-      "personality",
-      "concrete"
+      "abstract"
     ],
     "topics": [
+      "mental",
+      "sense and perception",
+      "appearance",
       "people"
     ]
   },
@@ -4393,7 +4530,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0405-foreign"
+        "eng-adj-0405-foreign",
+        "eng-adj-0515-unfamiliar"
       ],
       "POL": [
         "pol-adj-0263-zagraniczny",
@@ -5201,7 +5339,8 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0469-far",
-        "eng-adj-0470-distant"
+        "eng-adj-0470-distant",
+        "eng-adj-0472-faraway"
       ],
       "POL": [
         "pol-adj-0314-daleki",
@@ -5375,29 +5514,6 @@
       "sense and perception",
       "appearance",
       "mental"
-    ]
-  },
-  {
-    "key": "adj-0248-tight(abstract)",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-adj-0099-tight(abstract)",
-        "eng-adj-0492-rigorous",
-        "eng-adj-0493-strict(regulated)"
-      ],
-      "POL": [
-        "pol-adj-0329-ścisły"
-      ]
-    },
-    "papers": [
-      "dimension",
-      "helper",
-      "concrete"
-    ],
-    "topics": [
-      "sense and perception",
-      "appearance"
     ]
   },
   {
@@ -5650,7 +5766,8 @@
         "eng-adj-0524-absurd",
         "eng-adj-0525-nonsensical",
         "eng-adj-0526-preposterous",
-        "eng-adj-0356-ridiculous(absurd)"
+        "eng-adj-0356-ridiculous(absurd)",
+        "eng-adj-0527-ludicrous"
       ],
       "POL": [
         "pol-adj-0350-absurdalny",
@@ -6214,7 +6331,11 @@
         "eng-adj-0577-brilliant",
         "eng-adj-0578-resplendent",
         "eng-adj-0579-sparkly",
-        "eng-adj-0580-shiny"
+        "eng-adj-0580-shiny",
+        "eng-adj-0581-glittering",
+        "eng-adj-0581-glittery",
+        "eng-adj-0582-sparkling",
+        "eng-adj-0583-glistening"
       ],
       "POL": [
         "pol-adj-0386-błyszczący",
@@ -6378,7 +6499,8 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0596-intentional",
-        "eng-adj-0597-deliberate"
+        "eng-adj-0597-deliberate",
+        "eng-adj-0598-intended"
       ],
       "POL": [
         "pol-adj-0397-celowy",
@@ -10703,6 +10825,25 @@
     "topics": [
       "judgment",
       "people"
+    ]
+  },
+  {
+    "key": "adj-0510-unbelievable",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0584-unbelievable"
+      ],
+      "POL": [
+        "pol-adj-0240-niewiarygodny"
+      ]
+    },
+    "papers": [
+      "abstract"
+    ],
+    "topics": [
+      "probability",
+      "knowledge and existence"
     ]
   },
   {
