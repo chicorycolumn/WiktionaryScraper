@@ -17393,7 +17393,197 @@
   },
   {
     "lemma": "cichy",
-    "id": "pol-adj-0098-cichy",
+    "id": "pol-adj-0098-cichy(volume)",
+    "tags": [
+      "abstract",
+      "noise"
+    ],
+    "topics": [
+      "appearance",
+      "sense and perception"
+    ],
+    "translations": {
+      "ENG": [
+        "quiet",
+        "silent"
+      ]
+    },
+    "extra": {
+      "antonyms": [
+        "głośny"
+      ]
+    },
+    "inflections": {
+      "adverb": "cicho",
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "cichy",
+            "gen": "cichego",
+            "dat": "cichemu",
+            "acc": "cichego",
+            "ins": "cichym",
+            "loc": "cichym"
+          },
+          "m3": {
+            "nom": "cichy",
+            "gen": "cichego",
+            "dat": "cichemu",
+            "acc": "cichy",
+            "ins": "cichym",
+            "loc": "cichym"
+          },
+          "f": {
+            "nom": "cicha",
+            "gen": "cichej",
+            "dat": "cichej",
+            "acc": "cichą",
+            "ins": "cichą",
+            "loc": "cichej"
+          },
+          "n": {
+            "nom": "ciche",
+            "gen": "cichego",
+            "dat": "cichemu",
+            "acc": "ciche",
+            "ins": "cichym",
+            "loc": "cichym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "cisi",
+            "gen": "cichych",
+            "dat": "cichym",
+            "acc": "cichych",
+            "ins": "cichymi",
+            "loc": "cichych"
+          },
+          "nonvirile": {
+            "nom": "ciche",
+            "gen": "cichych",
+            "dat": "cichym",
+            "acc": "ciche",
+            "ins": "cichymi",
+            "loc": "cichych"
+          }
+        }
+      },
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "cichszy",
+            "gen": "cichszego",
+            "dat": "cichszemu",
+            "acc": "cichszego",
+            "ins": "cichszym",
+            "loc": "cichszym"
+          },
+          "m3": {
+            "nom": "cichszy",
+            "gen": "cichszego",
+            "dat": "cichszemu",
+            "acc": "cichszy",
+            "ins": "cichszym",
+            "loc": "cichszym"
+          },
+          "f": {
+            "nom": "cichsza",
+            "gen": "cichszej",
+            "dat": "cichszej",
+            "acc": "cichszą",
+            "ins": "cichszą",
+            "loc": "cichszej"
+          },
+          "n": {
+            "nom": "cichsze",
+            "gen": "cichszego",
+            "dat": "cichszemu",
+            "acc": "cichsze",
+            "ins": "cichszym",
+            "loc": "cichszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "cichsi",
+            "gen": "cichszych",
+            "dat": "cichszym",
+            "acc": "cichszych",
+            "ins": "cichszymi",
+            "loc": "cichszych"
+          },
+          "nonvirile": {
+            "nom": "cichsze",
+            "gen": "cichszych",
+            "dat": "cichszym",
+            "acc": "cichsze",
+            "ins": "cichszymi",
+            "loc": "cichszych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najcichszy",
+            "gen": "najcichszego",
+            "dat": "najcichszemu",
+            "acc": "najcichszego",
+            "ins": "najcichszym",
+            "loc": "najcichszym"
+          },
+          "m3": {
+            "nom": "najcichszy",
+            "gen": "najcichszego",
+            "dat": "najcichszemu",
+            "acc": "najcichszy",
+            "ins": "najcichszym",
+            "loc": "najcichszym"
+          },
+          "f": {
+            "nom": "najcichsza",
+            "gen": "najcichszej",
+            "dat": "najcichszej",
+            "acc": "najcichszą",
+            "ins": "najcichszą",
+            "loc": "najcichszej"
+          },
+          "n": {
+            "nom": "najcichsze",
+            "gen": "najcichszego",
+            "dat": "najcichszemu",
+            "acc": "najcichsze",
+            "ins": "najcichszym",
+            "loc": "najcichszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najcichsi",
+            "gen": "najcichszych",
+            "dat": "najcichszym",
+            "acc": "najcichszych",
+            "ins": "najcichszymi",
+            "loc": "najcichszych"
+          },
+          "nonvirile": {
+            "nom": "najcichsze",
+            "gen": "najcichszych",
+            "dat": "najcichszym",
+            "acc": "najcichsze",
+            "ins": "najcichszymi",
+            "loc": "najcichszych"
+          }
+        }
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+  {
+    "lemma": "cichy",
+    "id": "pol-adj-0098-cichy(calm)",
     "tags": [
       "abstract",
       "noise"

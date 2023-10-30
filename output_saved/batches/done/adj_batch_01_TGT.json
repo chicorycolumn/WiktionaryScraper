@@ -2025,10 +2025,17 @@
   },
   {
     "lemma": "quiet",
-    "id": "eng-adj-0185-quiet",
+    "id": "eng-adj-0185-quiet(volume)",
     "»trans": [
-      "pol-adj-0098-cichy",
-      "pol-adj-0320-spokojny"
+      "pol-adj-0098-cichy"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "quiet",
+    "id": "eng-adj-0185-quiet(calm)",
+    "»trans": [
     ],
     "register": 0,
     "frequency": 3
@@ -3654,15 +3661,6 @@
     "frequency": 3
   },
   {
-    "lemma": "raucous",
-    "id": "eng-adj-0351-raucous",
-    "»trans": [
-      "pol-adj-0225-hałaśliwy"
-    ],
-    "register": 0,
-    "frequency": 5
-  },
-  {
     "lemma": "known",
     "id": "eng-adj-0352-known",
     "»trans": [
@@ -3693,7 +3691,7 @@
   },
   {
     "lemma": "funny",
-    "id": "eng-adj-0355-funny",
+    "id": "eng-adj-0355-funny(amusing)",
     "»trans": [
       "pol-adj-0228-zabawny",
       "pol-adj-0229-śmieszny",
@@ -3703,10 +3701,26 @@
     "frequency": 3
   },
   {
+    "lemma": "funny",
+    "id": "eng-adj-0355-funny(strange)",
+    "»trans": [
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
     "lemma": "ridiculous",
-    "id": "eng-adj-0356-ridiculous",
+    "id": "eng-adj-0356-ridiculous(funny)",
     "»trans": [
       "pol-adj-0229-śmieszny"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "ridiculous",
+    "id": "eng-adj-0356-ridiculous(absurd)",
+    "»trans": [
     ],
     "register": 0,
     "frequency": 3
@@ -3881,15 +3895,6 @@
     ],
     "register": 0,
     "frequency": 2
-  },
-  {
-    "lemma": "credible",
-    "id": "eng-adj-0373-credible",
-    "»trans": [
-      "pol-adj-0242-wiarygodny"
-    ],
-    "register": 0,
-    "frequency": 4
   },
   {
     "lemma": "reliable",
@@ -4414,15 +4419,6 @@
     "frequency": 4
   },
   {
-    "lemma": "unfailing",
-    "id": "eng-adj-0428-unfailing",
-    "»trans": [
-      "pol-adj-0281-niezawodny"
-    ],
-    "register": 0,
-    "frequency": 4
-  },
-  {
     "lemma": "content",
     "id": "eng-adj-0429-content",
     "»trans": [
@@ -4880,16 +4876,7 @@
       "pol-adj-0320-spokojny"
     ],
     "register": 0,
-    "frequency": 3
-  },
-  {
-    "lemma": "placid",
-    "id": "eng-adj-0479-placid",
-    "»trans": [
-      "pol-adj-0320-spokojny"
-    ],
-    "register": 0,
-    "frequency": 3
+    "frequency": 4
   },
   {
     "lemma": "anxious",
@@ -5103,7 +5090,7 @@
       "pol-adj-0335-tępy(dumb)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 4
   },
   {
     "lemma": "shrewd",
@@ -5438,15 +5425,6 @@
   {
     "lemma": "marvellous",
     "id": "eng-adj-0535-marvellous",
-    "»trans": [
-      "pol-adj-0361-cudowny"
-    ],
-    "register": 0,
-    "frequency": 3
-  },
-  {
-    "lemma": "marvelous",
-    "id": "eng-adj-0536-marvelous",
     "»trans": [
       "pol-adj-0361-cudowny"
     ],
@@ -7345,15 +7323,6 @@
     "id": "eng-adj-0734-hand",
     "»trans": [
       "pol-adj-0498-ręczny"
-    ],
-    "register": 0,
-    "frequency": 5
-  },
-  {
-    "lemma": "wrathful",
-    "id": "eng-adj-0735-wrathful",
-    "»trans": [
-      "pol-adj-0500-gniewny"
     ],
     "register": 0,
     "frequency": 5

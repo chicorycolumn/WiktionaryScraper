@@ -302,7 +302,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0032-mediocre"
+        "eng-adj-0032-mediocre",
+        "eng-adj-0418-average(mediocre)"
       ],
       "POL": [
         "pol-adj-0015-mierny",
@@ -526,7 +527,8 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0056-freeofcharge",
-        "eng-adj-0057-free(money)"
+        "eng-adj-0057-free(money)",
+        "eng-adj-0306-complimentary"
       ],
       "POL": [
         "pol-adj-0031-bezpłatny",
@@ -1136,7 +1138,8 @@
       "ENG": [
         "eng-adj-0114-extraordinary",
         "eng-adj-0115-phenomenal",
-        "eng-adj-0116-remarkable"
+        "eng-adj-0116-remarkable",
+        "eng-adj-0399-exceptional"
       ],
       "POL": [
         "pol-adj-0061-niezwykły",
@@ -1642,7 +1645,8 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0166-rich",
-        "eng-adj-0167-wealthy"
+        "eng-adj-0167-wealthy",
+        "eng-adj-0468-affluent"
       ],
       "POL": [
         "pol-adj-0088-bogaty",
@@ -1825,17 +1829,40 @@
     ]
   },
   {
-    "key": "adj-0083-quiet",
+    "key": "adj-0083-silent",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0185-quiet",
+        "eng-adj-0185-quiet(volume)",
         "eng-adj-0186-silent"
       ],
       "POL": [
-        "pol-adj-0098-cichy",
-        "pol-adj-0318-spokojny",
+        "pol-adj-0098-cichy(volume)",
         "pol-adj-0605-niemy"
+      ]
+    },
+    "papers": [
+      "noise",
+      "abstract"
+    ],
+    "topics": [
+      "sense and perception",
+      "appearance"
+    ]
+  },
+  {
+    "key": "adj-0083-calm",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0185-quiet(calm)",
+        "eng-adj-0476-calm",
+        "eng-adj-0477-peaceful",
+        "eng-adj-0478-tranquil"
+      ],
+      "POL": [
+        "pol-adj-0098-cichy(calm)",
+        "pol-adj-0318-spokojny"
       ]
     },
     "papers": [
@@ -2061,7 +2088,8 @@
       "ENG": [
         "eng-adj-0206-various",
         "eng-adj-0207-different(various)",
-        "eng-adj-0210-diverse"
+        "eng-adj-0210-diverse",
+        "eng-adj-0451-varied"
       ],
       "POL": [
         "pol-adj-0112-różny",
@@ -2296,7 +2324,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0227-ugly(appearance)"
+        "eng-adj-0227-ugly(appearance)",
+        "eng-adj-0966-hideous"
       ],
       "POL": [
         "pol-adj-0125-brzydki"
@@ -2306,6 +2335,30 @@
       "physical personal description",
       "concrete",
       "negative judgment"
+    ],
+    "topics": [
+      "judgment",
+      "sense and perception",
+      "appearance"
+    ]
+  },
+  {
+    "key": "adj-0221-disgusting",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0439-disgusting",
+        "eng-adj-0440-repulsive",
+        "eng-adj-0967-gross"
+      ],
+      "POL": [
+        "pol-adj-0288-obrzydliwy",
+        "pol-adj-0703-ohydny"
+      ]
+    },
+    "papers": [
+      "positive judgment",
+      "concrete"
     ],
     "topics": [
       "judgment",
@@ -3023,7 +3076,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0299-small"
+        "eng-adj-0299-small",
+        "eng-adj-0933-little"
       ],
       "POL": [
         "pol-adj-0176-mały",
@@ -3585,7 +3639,8 @@
         "eng-adj-0339-intelligent",
         "eng-adj-0340-smart",
         "eng-adj-0341-clever",
-        "eng-adj-0011-bright(clever)"
+        "eng-adj-0011-bright(clever)",
+        "eng-adj-0500-shrewd"
       ],
       "POL": [
         "pol-adj-0215-inteligentny",
@@ -3611,7 +3666,9 @@
       "ENG": [
         "eng-adj-0342-stupid",
         "eng-adj-0343-silly",
-        "eng-adj-0344-dumb"
+        "eng-adj-0344-dumb",
+        "eng-adj-0499-dull-witted",
+        "eng-adj-0519-foolish"
       ],
       "POL": [
         "pol-adj-0216-głupi",
@@ -3735,7 +3792,9 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0350-famous"
+        "eng-adj-0350-famous",
+        "eng-adj-0352-known",
+        "eng-adj-0353-well-known"
       ],
       "POL": [
         "pol-adj-0222-sławny",
@@ -3752,12 +3811,13 @@
     ]
   },
   {
-    "key": "adj-0172-amusing",
+    "key": "adj-0172-funny",
     "traductions": {
       "SPA": [],
       "ENG": [
         "eng-adj-0354-amusing",
-        "eng-adj-0355-funny"
+        "eng-adj-0355-funny(amusing)",
+        "eng-adj-0356-ridiculous(funny)"
       ],
       "POL": [
         "pol-adj-0226-zabawny",
@@ -3926,7 +3986,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0371-purple"
+        "eng-adj-0371-purple",
+        "eng-adj-0708-violet"
       ],
       "POL": [
         "pol-adj-0238-purpurowy",
@@ -4352,7 +4413,10 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0406-terrible"
+        "eng-adj-0406-terrible",
+        "eng-adj-0511-horrid",
+        "eng-adj-0512-horrible",
+        "eng-adj-0513-awful"
       ],
       "POL": [
         "pol-adj-0264-okropny",
@@ -4703,7 +4767,8 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0435-strange",
-        "eng-adj-0436-odd"
+        "eng-adj-0436-odd",
+        "eng-adj-0355-funny(strange)"
       ],
       "POL": [
         "pol-adj-0285-dziwny"
@@ -4757,29 +4822,6 @@
       "shopping",
       "people",
       "business"
-    ]
-  },
-  {
-    "key": "adj-0221-disgusting",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-adj-0439-disgusting",
-        "eng-adj-0440-repulsive"
-      ],
-      "POL": [
-        "pol-adj-0288-obrzydliwy",
-        "pol-adj-0703-ohydny"
-      ]
-    },
-    "papers": [
-      "positive judgment",
-      "concrete"
-    ],
-    "topics": [
-      "judgment",
-      "sense and perception",
-      "appearance"
     ]
   },
   {
@@ -5607,7 +5649,8 @@
       "ENG": [
         "eng-adj-0524-absurd",
         "eng-adj-0525-nonsensical",
-        "eng-adj-0526-preposterous"
+        "eng-adj-0526-preposterous",
+        "eng-adj-0356-ridiculous(absurd)"
       ],
       "POL": [
         "pol-adj-0350-absurdalny",
@@ -6007,7 +6050,9 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0560-bloody(damn)",
-        "eng-adj-0562-damn"
+        "eng-adj-0562-damn",
+        "eng-adj-1001-cursed",
+        "eng-adj-1002-damned"
       ],
       "POL": [
         "pol-adj-0376-cholerny",
@@ -8287,7 +8332,10 @@
         "eng-adj-0087-great(awesome)",
         "eng-adj-0175-splendid",
         "eng-adj-0035-magnificent",
-        "eng-adj-0036-excellent"
+        "eng-adj-0036-excellent",
+        "eng-adj-0432-superb",
+        "eng-adj-0534-wonderful",
+        "eng-adj-0535-marvellous"
       ],
       "POL": [
         "pol-adj-0092-świetny",
@@ -10588,6 +10636,29 @@
     ]
   },
   {
+    "key": "adj-0508-ex",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0654-ex",
+        "eng-adj-0653-then"
+      ],
+      "POL": [
+        "pol-adj-0437-były"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "relative",
+      "person",
+      "living"
+    ],
+    "topics": [
+      "love",
+      "people"
+    ]
+  },
+  {
     "key": "adj-0509-mandatory",
     "traductions": {
       "SPA": [],
@@ -11394,7 +11465,8 @@
       "ENG": [
         "eng-adj-0509-scary",
         "eng-adj-0510-frightening",
-        "eng-adj-0981-terrifying"
+        "eng-adj-0981-terrifying",
+        "eng-adj-1027-monstrous"
       ],
       "POL": [
         "pol-adj-0341-straszny",
