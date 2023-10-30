@@ -34745,7 +34745,7 @@
   },
   {
     "lemma": "wściekły",
-    "id": "pol-adj-0171-wściekły",
+    "id": "pol-adj-0171-wściekły(angry)",
     "tags": [
       "abstract",
       "emotion"
@@ -34766,6 +34766,177 @@
         "zły"
       ]
     },
+    "inflections": {
+      "adverb": "wściekle",
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "wściekły",
+            "gen": "wściekłego",
+            "dat": "wściekłemu",
+            "acc": "wściekłego",
+            "ins": "wściekłym",
+            "loc": "wściekłym"
+          },
+          "m3": {
+            "nom": "wściekły",
+            "gen": "wściekłego",
+            "dat": "wściekłemu",
+            "acc": "wściekły",
+            "ins": "wściekłym",
+            "loc": "wściekłym"
+          },
+          "f": {
+            "nom": "wściekła",
+            "gen": "wściekłej",
+            "dat": "wściekłej",
+            "acc": "wściekłą",
+            "ins": "wściekłą",
+            "loc": "wściekłej"
+          },
+          "n": {
+            "nom": "wściekłe",
+            "gen": "wściekłego",
+            "dat": "wściekłemu",
+            "acc": "wściekłe",
+            "ins": "wściekłym",
+            "loc": "wściekłym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "wściekli",
+            "gen": "wściekłych",
+            "dat": "wściekłym",
+            "acc": "wściekłych",
+            "ins": "wściekłymi",
+            "loc": "wściekłych"
+          },
+          "nonvirile": {
+            "nom": "wściekłe",
+            "gen": "wściekłych",
+            "dat": "wściekłym",
+            "acc": "wściekłe",
+            "ins": "wściekłymi",
+            "loc": "wściekłych"
+          }
+        }
+      },
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "wścieklejszy",
+            "gen": "wścieklejszego",
+            "dat": "wścieklejszemu",
+            "acc": "wścieklejszego",
+            "ins": "wścieklejszym",
+            "loc": "wścieklejszym"
+          },
+          "m3": {
+            "nom": "wścieklejszy",
+            "gen": "wścieklejszego",
+            "dat": "wścieklejszemu",
+            "acc": "wścieklejszy",
+            "ins": "wścieklejszym",
+            "loc": "wścieklejszym"
+          },
+          "f": {
+            "nom": "wścieklejsza",
+            "gen": "wścieklejszej",
+            "dat": "wścieklejszej",
+            "acc": "wścieklejszą",
+            "ins": "wścieklejszą",
+            "loc": "wścieklejszej"
+          },
+          "n": {
+            "nom": "wścieklejsze",
+            "gen": "wścieklejszego",
+            "dat": "wścieklejszemu",
+            "acc": "wścieklejsze",
+            "ins": "wścieklejszym",
+            "loc": "wścieklejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "wścieklejsi",
+            "gen": "wścieklejszych",
+            "dat": "wścieklejszym",
+            "acc": "wścieklejszych",
+            "ins": "wścieklejszymi",
+            "loc": "wścieklejszych"
+          },
+          "nonvirile": {
+            "nom": "wścieklejsze",
+            "gen": "wścieklejszych",
+            "dat": "wścieklejszym",
+            "acc": "wścieklejsze",
+            "ins": "wścieklejszymi",
+            "loc": "wścieklejszych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najwścieklejszy",
+            "gen": "najwścieklejszego",
+            "dat": "najwścieklejszemu",
+            "acc": "najwścieklejszego",
+            "ins": "najwścieklejszym",
+            "loc": "najwścieklejszym"
+          },
+          "m3": {
+            "nom": "najwścieklejszy",
+            "gen": "najwścieklejszego",
+            "dat": "najwścieklejszemu",
+            "acc": "najwścieklejszy",
+            "ins": "najwścieklejszym",
+            "loc": "najwścieklejszym"
+          },
+          "f": {
+            "nom": "najwścieklejsza",
+            "gen": "najwścieklejszej",
+            "dat": "najwścieklejszej",
+            "acc": "najwścieklejszą",
+            "ins": "najwścieklejszą",
+            "loc": "najwścieklejszej"
+          },
+          "n": {
+            "nom": "najwścieklejsze",
+            "gen": "najwścieklejszego",
+            "dat": "najwścieklejszemu",
+            "acc": "najwścieklejsze",
+            "ins": "najwścieklejszym",
+            "loc": "najwścieklejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najwścieklejsi",
+            "gen": "najwścieklejszych",
+            "dat": "najwścieklejszym",
+            "acc": "najwścieklejszych",
+            "ins": "najwścieklejszymi",
+            "loc": "najwścieklejszych"
+          },
+          "nonvirile": {
+            "nom": "najwścieklejsze",
+            "gen": "najwścieklejszych",
+            "dat": "najwścieklejszym",
+            "acc": "najwścieklejsze",
+            "ins": "najwścieklejszymi",
+            "loc": "najwścieklejszych"
+          }
+        }
+      }
+    },
+    "frequency": 4,
+    "register": 0
+  },,
+  {
+    "lemma": "wściekły",
+    "id": "pol-adj-8888-wściekły(rabid)",
     "inflections": {
       "adverb": "wściekle",
       "simple": {
@@ -136190,5 +136361,176 @@
       "adverb": "pierwszorzędowo"
     },
     "id": "pol-adj-8888-pierwszorzędowy"
+  },
+  {
+    "lemma": "lukratywny",
+    "id": "pol-adj-8888-lukratywny",
+    "inflections": {
+      "adverb": "lukratywnie",
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "lukratywny",
+            "gen": "lukratywnego",
+            "dat": "lukratywnemu",
+            "acc": "lukratywnego",
+            "ins": "lukratywnym",
+            "loc": "lukratywnym"
+          },
+          "m3": {
+            "nom": "lukratywny",
+            "gen": "lukratywnego",
+            "dat": "lukratywnemu",
+            "acc": "lukratywny",
+            "ins": "lukratywnym",
+            "loc": "lukratywnym"
+          },
+          "f": {
+            "nom": "lukratywna",
+            "gen": "lukratywnej",
+            "dat": "lukratywnej",
+            "acc": "lukratywną",
+            "ins": "lukratywną",
+            "loc": "lukratywnej"
+          },
+          "n": {
+            "nom": "lukratywne",
+            "gen": "lukratywnego",
+            "dat": "lukratywnemu",
+            "acc": "lukratywne",
+            "ins": "lukratywnym",
+            "loc": "lukratywnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "lukratywni",
+            "gen": "lukratywnych",
+            "dat": "lukratywnym",
+            "acc": "lukratywnych",
+            "ins": "lukratywnymi",
+            "loc": "lukratywnych"
+          },
+          "nonvirile": {
+            "nom": "lukratywne",
+            "gen": "lukratywnych",
+            "dat": "lukratywnym",
+            "acc": "lukratywne",
+            "ins": "lukratywnymi",
+            "loc": "lukratywnych"
+          }
+        }
+      },
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "bardziej lukratywny",
+            "gen": "bardziej lukratywnego",
+            "dat": "bardziej lukratywnemu",
+            "acc": "bardziej lukratywnego",
+            "ins": "bardziej lukratywnym",
+            "loc": "bardziej lukratywnym"
+          },
+          "m3": {
+            "nom": "bardziej lukratywny",
+            "gen": "bardziej lukratywnego",
+            "dat": "bardziej lukratywnemu",
+            "acc": "bardziej lukratywny",
+            "ins": "bardziej lukratywnym",
+            "loc": "bardziej lukratywnym"
+          },
+          "f": {
+            "nom": "bardziej lukratywna",
+            "gen": "bardziej lukratywnej",
+            "dat": "bardziej lukratywnej",
+            "acc": "bardziej lukratywną",
+            "ins": "bardziej lukratywną",
+            "loc": "bardziej lukratywnej"
+          },
+          "n": {
+            "nom": "bardziej lukratywne",
+            "gen": "bardziej lukratywnego",
+            "dat": "bardziej lukratywnemu",
+            "acc": "bardziej lukratywne",
+            "ins": "bardziej lukratywnym",
+            "loc": "bardziej lukratywnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "bardziej lukratywni",
+            "gen": "bardziej lukratywnych",
+            "dat": "bardziej lukratywnym",
+            "acc": "bardziej lukratywnych",
+            "ins": "bardziej lukratywnymi",
+            "loc": "bardziej lukratywnych"
+          },
+          "nonvirile": {
+            "nom": "bardziej lukratywne",
+            "gen": "bardziej lukratywnych",
+            "dat": "bardziej lukratywnym",
+            "acc": "bardziej lukratywne",
+            "ins": "bardziej lukratywnymi",
+            "loc": "bardziej lukratywnych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najbardziej lukratywny",
+            "gen": "najbardziej lukratywnego",
+            "dat": "najbardziej lukratywnemu",
+            "acc": "najbardziej lukratywnego",
+            "ins": "najbardziej lukratywnym",
+            "loc": "najbardziej lukratywnym"
+          },
+          "m3": {
+            "nom": "najbardziej lukratywny",
+            "gen": "najbardziej lukratywnego",
+            "dat": "najbardziej lukratywnemu",
+            "acc": "najbardziej lukratywny",
+            "ins": "najbardziej lukratywnym",
+            "loc": "najbardziej lukratywnym"
+          },
+          "f": {
+            "nom": "najbardziej lukratywna",
+            "gen": "najbardziej lukratywnej",
+            "dat": "najbardziej lukratywnej",
+            "acc": "najbardziej lukratywną",
+            "ins": "najbardziej lukratywną",
+            "loc": "najbardziej lukratywnej"
+          },
+          "n": {
+            "nom": "najbardziej lukratywne",
+            "gen": "najbardziej lukratywnego",
+            "dat": "najbardziej lukratywnemu",
+            "acc": "najbardziej lukratywne",
+            "ins": "najbardziej lukratywnym",
+            "loc": "najbardziej lukratywnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najbardziej lukratywni",
+            "gen": "najbardziej lukratywnych",
+            "dat": "najbardziej lukratywnym",
+            "acc": "najbardziej lukratywnych",
+            "ins": "najbardziej lukratywnymi",
+            "loc": "najbardziej lukratywnych"
+          },
+          "nonvirile": {
+            "nom": "najbardziej lukratywne",
+            "gen": "najbardziej lukratywnych",
+            "dat": "najbardziej lukratywnym",
+            "acc": "najbardziej lukratywne",
+            "ins": "najbardziej lukratywnymi",
+            "loc": "najbardziej lukratywnych"
+          }
+        }
+      }
+    },
+    "frequency": 4,
+    "register": 0
   }
 ]

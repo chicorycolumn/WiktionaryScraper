@@ -72,11 +72,13 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0007-angry",
-        "eng-adj-0008-mad(angry)"
+        "eng-adj-0008-mad(angry)",
+        "eng-adj-0289-furious",
+        "eng-adj-0290-livid"
       ],
       "POL": [
         "pol-adj-0005-zły(angry)",
-        "pol-adj-0171-wściekły",
+        "pol-adj-0171-wściekły(angry)",
         "pol-adj-0498-gniewny"
       ]
     },
@@ -655,7 +657,8 @@
         "eng-adj-0070-chief",
         "eng-adj-0071-main",
         "eng-adj-0072-prime",
-        "eng-adj-0075-primary(important)"
+        "eng-adj-0075-primary(important)",
+        "eng-adj-0064-elementary"
       ],
       "POL": [
         "pol-adj-0037-zasadniczy",
@@ -843,7 +846,8 @@
       "ENG": [
         "eng-adj-0089-arduous",
         "eng-adj-0090-tiresome",
-        "eng-adj-0091-tiring"
+        "eng-adj-0091-tiring",
+        "eng-adj-0311-exhausting"
       ],
       "POL": [
         "pol-adj-0049-męczący",
@@ -860,12 +864,13 @@
     ]
   },
   {
-    "key": "adj-0040-ultimate",
+    "key": "adj-0040-final",
     "traductions": {
       "SPA": [],
       "ENG": [
         "eng-adj-0092-ultimate",
-        "eng-adj-0093-final"
+        "eng-adj-0093-final",
+        "eng-adj-0318-last"
       ],
       "POL": [
         "pol-adj-0050-ostateczny",
@@ -930,7 +935,8 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0096-sweet(cute)",
-        "eng-adj-0097-cute"
+        "eng-adj-0097-cute",
+        "eng-adj-0305-adorable"
       ],
       "POL": [
         "pol-adj-0053-słodki(cute)",
@@ -1489,7 +1495,8 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0147-pretty",
-        "eng-adj-0149-nice(cool)"
+        "eng-adj-0149-nice(cool)",
+        "eng-adj-0240-cool(nice)"
       ],
       "POL": [
         "pol-adj-0078-ładny",
@@ -2575,7 +2582,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0259-cold"
+        "eng-adj-0259-cold",
+        "eng-adj-0241-cool(temperature)"
       ],
       "POL": [
         "pol-adj-0147-zimny",
@@ -2742,12 +2750,14 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0274-profitable"
+        "eng-adj-0274-profitable",
+        "eng-adj-0286-lucrative"
       ],
       "POL": [
         "pol-adj-0159-rentowny",
         "pol-adj-0168-opłacalny",
-        "pol-adj-0169-dochodowy"
+        "pol-adj-0169-dochodowy",
+        "pol-adj-8888-lukratywny"
       ]
     },
     "papers": [
@@ -12354,5 +12364,26 @@
       "concrete"
     ],
     "topics": []
+  },
+  {
+    "key": "adj-0597-rabid",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0291-rabid"
+      ],
+      "POL": [
+        "pol-adj-8888-wściekły(rabid)"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "disease"
+    ],
+    "topics": [
+      "body",
+      "medicine",
+      "danger"
+    ]
   }
 ]

@@ -16,12 +16,13 @@ if __name__ == '__main__':
     step = 1
     group_number = 99
     input_indexes = [0, 870]
-    wordtype = "v"
-    these_headwords_only = ["zakładać", "przypuszczać", "przypuścić"
+    wordtype = "a"
+    these_headwords_only = [
+
     ]
     skip_make_ids = False  # only set True when manually testing.
     skip_scraping = False  # only set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
-    reparse_previously_rejected = True  # If you're manually rerunning rejected ones when collecting batch together.
+    reparse_previously_rejected = False  # If you're manually rerunning rejected ones when collecting batch together.
     skip_extras = True  # You know, the extra lemmas to parse gathered from synonyms of lemmas you asked to parse.
     langcode = "pol"
 

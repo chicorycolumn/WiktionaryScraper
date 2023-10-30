@@ -9,7 +9,7 @@ from utils.universal import color as c, load_data, save
 if __name__ == '__main__':
 
     # # # # # #
-    wordtypes = []  # Leave blank for all.
+    wordtypes = ['adj']  # Leave blank for all.
     batch = "01"
     tgt_lang = "ENG"
     src_lang = "POL"
@@ -59,7 +59,7 @@ if __name__ == '__main__':
             if len(res[key]):
                 c.print_red(key + ":")
                 for item in res[key]:
-                    print(item)
+                    print(f'"{item}"')
 
         print("\nCompletely done.")
 
