@@ -661,7 +661,8 @@
         "eng-adj-0071-main",
         "eng-adj-0072-prime",
         "eng-adj-0075-primary(important)",
-        "eng-adj-0064-elementary"
+        "eng-adj-0064-elementary",
+        "eng-adj-0763-central"
       ],
       "POL": [
         "pol-adj-0037-zasadniczy",
@@ -1097,7 +1098,9 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0104-charming",
-        "eng-adj-0105-enchanting"
+        "eng-adj-0105-enchanting",
+        "eng-adj-0631-captivating",
+        "eng-adj-0755-fascinating"
       ],
       "POL": [
         "pol-adj-0056-czarujący",
@@ -1180,7 +1183,8 @@
         "eng-adj-0111-authentic",
         "eng-adj-0112-real",
         "eng-adj-0158-genuine",
-        "eng-adj-0484-actual"
+        "eng-adj-0484-actual",
+        "eng-adj-0802-veritable"
       ],
       "POL": [
         "pol-adj-0059-prawdziwy",
@@ -1477,7 +1481,8 @@
       "ENG": [
         "eng-adj-0138-whole",
         "eng-adj-0139-complete",
-        "eng-adj-0140-entire"
+        "eng-adj-0140-entire",
+        "eng-adj-0655-total"
       ],
       "POL": [
         "pol-adj-0073-cały",
@@ -2200,7 +2205,9 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0208-different(individual)"
+        "eng-adj-0208-different(individual)",
+        "eng-adj-1031-another",
+        "eng-adj-1032-other"
       ],
       "POL": [
         "pol-adj-0677-odmienny",
@@ -2605,7 +2612,8 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0245-special",
-        "eng-adj-0246-particular"
+        "eng-adj-0246-particular",
+        "eng-adj-0725-specific"
       ],
       "POL": [
         "pol-adj-0136-szczególny",
@@ -2977,7 +2985,8 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0279-careful",
-        "eng-adj-0281-meticulous"
+        "eng-adj-0281-meticulous",
+        "eng-adj-0962-cautious"
       ],
       "POL": [
         "pol-adj-0164-staranny",
@@ -5872,7 +5881,10 @@
       "ENG": [
         "eng-adj-0537-persistent",
         "eng-adj-0538-repeated",
-        "eng-adj-0539-continuous"
+        "eng-adj-0539-continuous",
+        "eng-adj-0946-constant",
+        "eng-adj-0947-continual",
+        "eng-adj-0948-perpetual"
       ],
       "POL": [
         "pol-adj-0360-ciągły",
@@ -6285,7 +6297,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0570-violent(person)"
+        "eng-adj-0570-violent(person)",
+        "eng-adj-0691-brutal"
       ],
       "POL": [
         "pol-adj-0384-gwałtowny(person)",
@@ -7991,7 +8004,8 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0069-principal(general)",
-        "eng-adj-0714-general"
+        "eng-adj-0714-general",
+        "eng-adj-0921-overall"
       ],
       "POL": [
         "pol-adj-0484-generalny",
@@ -10967,7 +10981,8 @@
       "SPA": [],
       "ENG": [
         "eng-adj-0925-opposite",
-        "eng-adj-0926-reverse"
+        "eng-adj-0926-reverse",
+        "eng-adj-0928-contrary"
       ],
       "POL": [
         "pol-adj-0669-odwrotny",
@@ -11396,7 +11411,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0963-faint"
+        "eng-adj-0963-faint",
+        "eng-adj-0965-hazy"
       ],
       "POL": [
         "pol-adj-0701-nikły",
@@ -12597,6 +12613,28 @@
       "body",
       "medicine",
       "danger"
+    ]
+  },
+  {
+    "key": "adj-8888-garish",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0830-garish"
+      ],
+      "POL": [
+        "pol-adj-8888-krzykliwy"
+      ]
+    },
+    "papers": [
+      "abstract",
+      "negative judgment",
+      "concrete"
+    ],
+    "topics": [
+      "sense and perception",
+      "appearance",
+      "judgment"
     ]
   }
 ]
