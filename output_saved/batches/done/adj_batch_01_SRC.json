@@ -64871,6 +64871,69 @@
     "register": 0
   },
   {
+    "lemma": "faktyczny",
+    "id": "pol-adj-0322-faktyczny",
+    "inflections": {
+      "adverb": "faktycznie",
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "faktyczny",
+            "gen": "faktycznego",
+            "dat": "faktycznemu",
+            "acc": "faktycznego",
+            "ins": "faktycznym",
+            "loc": "faktycznym"
+          },
+          "m3": {
+            "nom": "faktyczny",
+            "gen": "faktycznego",
+            "dat": "faktycznemu",
+            "acc": "faktyczny",
+            "ins": "faktycznym",
+            "loc": "faktycznym"
+          },
+          "f": {
+            "nom": "faktyczna",
+            "gen": "faktycznej",
+            "dat": "faktycznej",
+            "acc": "faktyczną",
+            "ins": "faktyczną",
+            "loc": "faktycznej"
+          },
+          "n": {
+            "nom": "faktyczne",
+            "gen": "faktycznego",
+            "dat": "faktycznemu",
+            "acc": "faktyczne",
+            "ins": "faktycznym",
+            "loc": "faktycznym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "faktyczni",
+            "gen": "faktycznych",
+            "dat": "faktycznym",
+            "acc": "faktycznych",
+            "ins": "faktycznymi",
+            "loc": "faktycznych"
+          },
+          "nonvirile": {
+            "nom": "faktyczne",
+            "gen": "faktycznych",
+            "dat": "faktycznym",
+            "acc": "faktyczne",
+            "ins": "faktycznymi",
+            "loc": "faktycznych"
+          }
+        }
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+  {
     "lemma": "zbędny",
     "id": "pol-adj-0323-zbędny",
     "tags": [
@@ -138092,6 +138155,609 @@
       }
     },
     "frequency": 5,
+    "register": 0
+  },
+  {
+    "lemma": "aktualny",
+    "id": "pol-adj-8888-aktualny",
+    "inflections": {
+      "adverb": "aktualnie",
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "aktualny",
+            "gen": "aktualnego",
+            "dat": "aktualnemu",
+            "acc": "aktualnego",
+            "ins": "aktualnym",
+            "loc": "aktualnym"
+          },
+          "m3": {
+            "nom": "aktualny",
+            "gen": "aktualnego",
+            "dat": "aktualnemu",
+            "acc": "aktualny",
+            "ins": "aktualnym",
+            "loc": "aktualnym"
+          },
+          "f": {
+            "nom": "aktualna",
+            "gen": "aktualnej",
+            "dat": "aktualnej",
+            "acc": "aktualną",
+            "ins": "aktualną",
+            "loc": "aktualnej"
+          },
+          "n": {
+            "nom": "aktualne",
+            "gen": "aktualnego",
+            "dat": "aktualnemu",
+            "acc": "aktualne",
+            "ins": "aktualnym",
+            "loc": "aktualnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "aktualni",
+            "gen": "aktualnych",
+            "dat": "aktualnym",
+            "acc": "aktualnych",
+            "ins": "aktualnymi",
+            "loc": "aktualnych"
+          },
+          "nonvirile": {
+            "nom": "aktualne",
+            "gen": "aktualnych",
+            "dat": "aktualnym",
+            "acc": "aktualne",
+            "ins": "aktualnymi",
+            "loc": "aktualnych"
+          }
+        }
+      },
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszy",
+                "bardziej aktualny"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszego",
+                "bardziej aktualnego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszemu",
+                "bardziej aktualnemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszego",
+                "bardziej aktualnego"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszym",
+                "bardziej aktualnym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszym",
+                "bardziej aktualnym"
+              ]
+            }
+          },
+          "m3": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszy",
+                "bardziej aktualny"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszego",
+                "bardziej aktualnego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszemu",
+                "bardziej aktualnemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszy",
+                "bardziej aktualny"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszym",
+                "bardziej aktualnym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszym",
+                "bardziej aktualnym"
+              ]
+            }
+          },
+          "f": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejsza",
+                "bardziej aktualna"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszej",
+                "bardziej aktualnej"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszej",
+                "bardziej aktualnej"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszą",
+                "bardziej aktualną"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszą",
+                "bardziej aktualną"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszej",
+                "bardziej aktualnej"
+              ]
+            }
+          },
+          "n": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejsze",
+                "bardziej aktualne"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszego",
+                "bardziej aktualnego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszemu",
+                "bardziej aktualnemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejsze",
+                "bardziej aktualne"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszym",
+                "bardziej aktualnym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszym",
+                "bardziej aktualnym"
+              ]
+            }
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejsi",
+                "bardziej aktualni"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszych",
+                "bardziej aktualnych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszym",
+                "bardziej aktualnym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszych",
+                "bardziej aktualnych"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszymi",
+                "bardziej aktualnymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszych",
+                "bardziej aktualnych"
+              ]
+            }
+          },
+          "nonvirile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejsze",
+                "bardziej aktualne"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszych",
+                "bardziej aktualnych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszym",
+                "bardziej aktualnym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejsze",
+                "bardziej aktualne"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszymi",
+                "bardziej aktualnymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "aktualniejszych",
+                "bardziej aktualnych"
+              ]
+            }
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszy",
+                "najbardziej aktualny"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszego",
+                "najbardziej aktualnego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszemu",
+                "najbardziej aktualnemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszego",
+                "najbardziej aktualnego"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszym",
+                "najbardziej aktualnym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszym",
+                "najbardziej aktualnym"
+              ]
+            }
+          },
+          "m3": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszy",
+                "najbardziej aktualny"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszego",
+                "najbardziej aktualnego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszemu",
+                "najbardziej aktualnemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszy",
+                "najbardziej aktualny"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszym",
+                "najbardziej aktualnym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszym",
+                "najbardziej aktualnym"
+              ]
+            }
+          },
+          "f": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejsza",
+                "najbardziej aktualna"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszej",
+                "najbardziej aktualnej"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszej",
+                "najbardziej aktualnej"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszą",
+                "najbardziej aktualną"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszą",
+                "najbardziej aktualną"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszej",
+                "najbardziej aktualnej"
+              ]
+            }
+          },
+          "n": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejsze",
+                "najbardziej aktualne"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszego",
+                "najbardziej aktualnego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszemu",
+                "najbardziej aktualnemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejsze",
+                "najbardziej aktualne"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszym",
+                "najbardziej aktualnym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszym",
+                "najbardziej aktualnym"
+              ]
+            }
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejsi",
+                "najbardziej aktualni"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszych",
+                "najbardziej aktualnych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszym",
+                "najbardziej aktualnym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszych",
+                "najbardziej aktualnych"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszymi",
+                "najbardziej aktualnymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszych",
+                "najbardziej aktualnych"
+              ]
+            }
+          },
+          "nonvirile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejsze",
+                "najbardziej aktualne"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszych",
+                "najbardziej aktualnych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszym",
+                "najbardziej aktualnym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejsze",
+                "najbardziej aktualne"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszymi",
+                "najbardziej aktualnymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najaktualniejszych",
+                "najbardziej aktualnych"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "frequency": 3,
     "register": 0
   }
 ]

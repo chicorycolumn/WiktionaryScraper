@@ -184,3 +184,6 @@ It uses additionalSpellings that you manually type into this stage.
 6A) Resolve any "T\ODO.txt" items for this wordtype
 
 6B) Resolve any TSFs (tasks of scraping finalising) for this wordtype from NOTES.txt
+
+6C) Run check that every inflection value for a given lobj starts with the same letter as the lemma value.
+    Because sometimes when manually creating lobjs we've missed one, normally virile plural.
