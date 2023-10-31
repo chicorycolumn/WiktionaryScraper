@@ -66843,7 +66843,86 @@
   },
   {
     "lemma": "obecny",
-    "id": "pol-adj-0331-obecny",
+    "id": "pol-adj-0331-obecny(in attendance)",
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "spatial"
+    ],
+    "translations": {
+      "ENG": [
+        "present"
+      ]
+    },
+    "extra": {
+      "synonyms": [
+        "bieżący"
+      ]
+    },
+    "inflections": {
+      "adverb": "obecnie",
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "obecny",
+            "gen": "obecnego",
+            "dat": "obecnemu",
+            "acc": "obecnego",
+            "ins": "obecnym",
+            "loc": "obecnym"
+          },
+          "m3": {
+            "nom": "obecny",
+            "gen": "obecnego",
+            "dat": "obecnemu",
+            "acc": "obecny",
+            "ins": "obecnym",
+            "loc": "obecnym"
+          },
+          "f": {
+            "nom": "obecna",
+            "gen": "obecnej",
+            "dat": "obecnej",
+            "acc": "obecną",
+            "ins": "obecną",
+            "loc": "obecnej"
+          },
+          "n": {
+            "nom": "obecne",
+            "gen": "obecnego",
+            "dat": "obecnemu",
+            "acc": "obecne",
+            "ins": "obecnym",
+            "loc": "obecnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "obecni",
+            "gen": "obecnych",
+            "dat": "obecnym",
+            "acc": "obecnych",
+            "ins": "obecnymi",
+            "loc": "obecnych"
+          },
+          "nonvirile": {
+            "nom": "obecne",
+            "gen": "obecnych",
+            "dat": "obecnym",
+            "acc": "obecne",
+            "ins": "obecnymi",
+            "loc": "obecnych"
+          }
+        }
+      }
+    },
+    "frequency": 4,
+    "register": 0
+  },
+  {
+    "lemma": "obecny",
+    "id": "pol-adj-0331-obecny(time)",
     "tags": [
       "concrete"
     ],
@@ -98228,7 +98307,155 @@
   },
   {
     "lemma": "dzisiejszy",
-    "id": "pol-adj-0532-dzisiejszy",
+    "id": "pol-adj-0532-dzisiejszy(literally today)",
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "time"
+    ],
+    "translations": {
+      "ENG": [
+        "today's",
+        "present"
+      ]
+    },
+    "inflections": {
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "dzisiejszy",
+            "gen": "dzisiejszego",
+            "dat": "dzisiejszemu",
+            "acc": "dzisiejszego",
+            "ins": "dzisiejszym",
+            "loc": "dzisiejszym"
+          },
+          "m3": {
+            "nom": "dzisiejszy",
+            "gen": "dzisiejszego",
+            "dat": "dzisiejszemu",
+            "acc": "dzisiejszy",
+            "ins": "dzisiejszym",
+            "loc": "dzisiejszym"
+          },
+          "f": {
+            "nom": "dzisiejsza",
+            "gen": "dzisiejszej",
+            "dat": "dzisiejszej",
+            "acc": "dzisiejszą",
+            "ins": "dzisiejszą",
+            "loc": "dzisiejszej"
+          },
+          "n": {
+            "nom": "dzisiejsze",
+            "gen": "dzisiejszego",
+            "dat": "dzisiejszemu",
+            "acc": "dzisiejsze",
+            "ins": "dzisiejszym",
+            "loc": "dzisiejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "dzisiejsi",
+            "gen": "dzisiejszych",
+            "dat": "dzisiejszym",
+            "acc": "dzisiejszych",
+            "ins": "dzisiejszymi",
+            "loc": "dzisiejszych"
+          },
+          "nonvirile": {
+            "nom": "dzisiejsze",
+            "gen": "dzisiejszych",
+            "dat": "dzisiejszym",
+            "acc": "dzisiejsze",
+            "ins": "dzisiejszymi",
+            "loc": "dzisiejszych"
+          }
+        }
+      }
+    },
+    "frequency": 4,
+    "register": 0
+  },
+  {
+    "lemma": "dzisiejszy",
+    "id": "pol-adj-0532-dzisiejszy(contemporary)",
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "time"
+    ],
+    "translations": {
+      "ENG": [
+        "today's",
+        "present"
+      ]
+    },
+    "inflections": {
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "dzisiejszy",
+            "gen": "dzisiejszego",
+            "dat": "dzisiejszemu",
+            "acc": "dzisiejszego",
+            "ins": "dzisiejszym",
+            "loc": "dzisiejszym"
+          },
+          "m3": {
+            "nom": "dzisiejszy",
+            "gen": "dzisiejszego",
+            "dat": "dzisiejszemu",
+            "acc": "dzisiejszy",
+            "ins": "dzisiejszym",
+            "loc": "dzisiejszym"
+          },
+          "f": {
+            "nom": "dzisiejsza",
+            "gen": "dzisiejszej",
+            "dat": "dzisiejszej",
+            "acc": "dzisiejszą",
+            "ins": "dzisiejszą",
+            "loc": "dzisiejszej"
+          },
+          "n": {
+            "nom": "dzisiejsze",
+            "gen": "dzisiejszego",
+            "dat": "dzisiejszemu",
+            "acc": "dzisiejsze",
+            "ins": "dzisiejszym",
+            "loc": "dzisiejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "dzisiejsi",
+            "gen": "dzisiejszych",
+            "dat": "dzisiejszym",
+            "acc": "dzisiejszych",
+            "ins": "dzisiejszymi",
+            "loc": "dzisiejszych"
+          },
+          "nonvirile": {
+            "nom": "dzisiejsze",
+            "gen": "dzisiejszych",
+            "dat": "dzisiejszym",
+            "acc": "dzisiejsze",
+            "ins": "dzisiejszymi",
+            "loc": "dzisiejszych"
+          }
+        }
+      }
+    },
+    "frequency": 4,
+    "register": 0
+  },
+  {
+    "lemma": "dzisiejszy",
+    "id": "pol-adj-0532-dzisiejszy(present)",
     "tags": [
       "concrete"
     ],
@@ -118858,7 +119085,200 @@
         }
       }
     },
-    "frequency": 2,
+    "frequency": 3,
+    "register": 0
+  },
+  {
+    "lemma": "współczesny",
+    "id": "pol-adj-0673-współczesny",
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "history",
+      "time"
+    ],
+    "translations": {
+      "ENG": [
+        "modern"
+      ]
+    },
+    "extra": {
+      "antonyms": [
+        "anachroniczny",
+        "archaiczny",
+        "archaistyczny",
+        "niedzisiejszy",
+        "przestarzały",
+        "przeżytkowy"
+      ]
+    },
+    "inflections": {
+      "adverb": "współcześnie",
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "współczesny",
+            "gen": "współczesnego",
+            "dat": "współczesnemu",
+            "acc": "współczesnego",
+            "ins": "współczesnym",
+            "loc": "współczesnym"
+          },
+          "m3": {
+            "nom": "współczesny",
+            "gen": "współczesnego",
+            "dat": "współczesnemu",
+            "acc": "współczesny",
+            "ins": "współczesnym",
+            "loc": "współczesnym"
+          },
+          "f": {
+            "nom": "współczesna",
+            "gen": "współczesnej",
+            "dat": "współczesnej",
+            "acc": "współczesną",
+            "ins": "współczesną",
+            "loc": "współczesnej"
+          },
+          "n": {
+            "nom": "współczesne",
+            "gen": "współczesnego",
+            "dat": "współczesnemu",
+            "acc": "współczesne",
+            "ins": "współczesnym",
+            "loc": "współczesnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "współcześni",
+            "gen": "współczesnych",
+            "dat": "współczesnym",
+            "acc": "współczesnych",
+            "ins": "współczesnymi",
+            "loc": "współczesnych"
+          },
+          "nonvirile": {
+            "nom": "współczesne",
+            "gen": "współczesnych",
+            "dat": "współczesnym",
+            "acc": "współczesne",
+            "ins": "współczesnymi",
+            "loc": "współczesnych"
+          }
+        }
+      },
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "współcześniejszy",
+            "gen": "współcześniejszego",
+            "dat": "współcześniejszemu",
+            "acc": "współcześniejszego",
+            "ins": "współcześniejszym",
+            "loc": "współcześniejszym"
+          },
+          "m3": {
+            "nom": "współcześniejszy",
+            "gen": "współcześniejszego",
+            "dat": "współcześniejszemu",
+            "acc": "współcześniejszy",
+            "ins": "współcześniejszym",
+            "loc": "współcześniejszym"
+          },
+          "f": {
+            "nom": "współcześniejsza",
+            "gen": "współcześniejszej",
+            "dat": "współcześniejszej",
+            "acc": "współcześniejszą",
+            "ins": "współcześniejszą",
+            "loc": "współcześniejszej"
+          },
+          "n": {
+            "nom": "współcześniejsze",
+            "gen": "współcześniejszego",
+            "dat": "współcześniejszemu",
+            "acc": "współcześniejsze",
+            "ins": "współcześniejszym",
+            "loc": "współcześniejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "współcześniejsi",
+            "gen": "współcześniejszych",
+            "dat": "współcześniejszym",
+            "acc": "współcześniejszych",
+            "ins": "współcześniejszymi",
+            "loc": "współcześniejszych"
+          },
+          "nonvirile": {
+            "nom": "współcześniejsze",
+            "gen": "współcześniejszych",
+            "dat": "współcześniejszym",
+            "acc": "współcześniejsze",
+            "ins": "współcześniejszymi",
+            "loc": "współcześniejszych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najwspółcześniejszy",
+            "gen": "najwspółcześniejszego",
+            "dat": "najwspółcześniejszemu",
+            "acc": "najwspółcześniejszego",
+            "ins": "najwspółcześniejszym",
+            "loc": "najwspółcześniejszym"
+          },
+          "m3": {
+            "nom": "najwspółcześniejszy",
+            "gen": "najwspółcześniejszego",
+            "dat": "najwspółcześniejszemu",
+            "acc": "najwspółcześniejszy",
+            "ins": "najwspółcześniejszym",
+            "loc": "najwspółcześniejszym"
+          },
+          "f": {
+            "nom": "najwspółcześniejsza",
+            "gen": "najwspółcześniejszej",
+            "dat": "najwspółcześniejszej",
+            "acc": "najwspółcześniejszą",
+            "ins": "najwspółcześniejszą",
+            "loc": "najwspółcześniejszej"
+          },
+          "n": {
+            "nom": "najwspółcześniejsze",
+            "gen": "najwspółcześniejszego",
+            "dat": "najwspółcześniejszemu",
+            "acc": "najwspółcześniejsze",
+            "ins": "najwspółcześniejszym",
+            "loc": "najwspółcześniejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najwspółcześniejsi",
+            "gen": "najwspółcześniejszych",
+            "dat": "najwspółcześniejszym",
+            "acc": "najwspółcześniejszych",
+            "ins": "najwspółcześniejszymi",
+            "loc": "najwspółcześniejszych"
+          },
+          "nonvirile": {
+            "nom": "najwspółcześniejsze",
+            "gen": "najwspółcześniejszych",
+            "dat": "najwspółcześniejszym",
+            "acc": "najwspółcześniejsze",
+            "ins": "najwspółcześniejszymi",
+            "loc": "najwspółcześniejszych"
+          }
+        }
+      }
+    },
+    "frequency": 3,
     "register": 0
   },
   {
@@ -137491,7 +137911,7 @@
     "frequency": 5,
     "register": 0
   },
-    {
+  {
     "lemma": "małostkowy",
     "id": "pol-adj-0481-małostkowy",
     "tags": [

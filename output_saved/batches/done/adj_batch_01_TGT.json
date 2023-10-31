@@ -5097,7 +5097,7 @@
   },
   {
     "lemma": "present",
-    "id": "eng-adj-0497-present(location)",
+    "id": "eng-adj-0497-present(in attendance)",
     "»trans": [
       "pol-adj-0333-obecny"
     ],
@@ -6273,7 +6273,15 @@
   },
   {
     "lemma": "current",
-    "id": "eng-adj-0619-current",
+    "id": "eng-adj-0619-current(time)",
+    "»trans": [
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "current",
+    "id": "eng-adj-0619-current(finance)",
     "»trans": [
       "pol-adj-0417-bieżący"
     ],
@@ -9944,15 +9952,6 @@
     "frequency": 4
   },
   {
-    "lemma": "nature",
-    "id": "eng-adj-1026-nature",
-    "»trans": [
-      "pol-adj-0762-przyrodniczy"
-    ],
-    "register": 0,
-    "frequency": 4
-  },
-  {
     "lemma": "monstrous",
     "id": "eng-adj-1027-monstrous",
     "»trans": [
@@ -10139,5 +10138,13 @@
     ],
     "register": 0,
     "frequency": 2
+  },
+    {
+    "lemma": "contemporary",
+    "id": "eng-adj-8888-contemporary",
+    "»trans": [
+    ],
+    "register": 0,
+    "frequency": 4
   }
 ]

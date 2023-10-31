@@ -1191,6 +1191,7 @@
         "pol-adj-0082-autentyczny",
         "pol-adj-0321-realny",
         "pol-adj-0322-rzeczywisty",
+        "pol-adj-0322-faktyczny",
         "pol-adj-0565-istny"
       ]
     },
@@ -2793,7 +2794,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0263-national"
+        "eng-adj-0263-national",
+        "eng-adj-0959-state"
       ],
       "POL": [
         "pol-adj-0152-narodowy",
@@ -5545,16 +5547,79 @@
     ]
   },
   {
+    "key": "adj-0250-present(in attendance)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0497-present(in attendance)"
+      ],
+      "POL": [
+        "pol-adj-0331-obecny(in attendance)"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "event"
+    ],
+    "topics": [
+      "spatial",
+      "people"
+    ]
+  },
+  {
     "key": "adj-0250-present(time)",
     "traductions": {
       "SPA": [],
       "ENG": [
         "eng-adj-0496-present(time)",
-        "eng-adj-0497-present(location)"
+        "eng-adj-0619-current(time)"
       ],
       "POL": [
-        "pol-adj-0331-obecny",
-        "pol-adj-0532-dzisiejszy"
+        "pol-adj-0331-obecny(time)",
+        "pol-adj-8888-aktualny",
+        "pol-adj-0532-dzisiejszy(present)"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "history",
+      "time"
+    ]
+  },
+  {
+    "key": "adj-0250-contemporary",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-8888-contemporary",
+        "eng-adj-0929-modern"
+      ],
+      "POL": [
+        "pol-adj-0532-dzisiejszy(contemporary)",
+        "pol-adj-0673-współczesny",
+        "pol-adj-0673-nowoczesny"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "history",
+      "time",
+      "art"
+    ]
+  },
+  {
+    "key": "adj-0250-today's",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0769-today's"
+      ],
+      "POL": [
+        "pol-adj-0532-dzisiejszy(literally today)"
       ]
     },
     "papers": [
@@ -6784,11 +6849,11 @@
     ]
   },
   {
-    "key": "adj-0311-current",
+    "key": "adj-0311-current(finance)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0619-current"
+        "eng-adj-0619-current(finance)"
       ],
       "POL": [
         "pol-adj-0415-bieżący"
@@ -11016,25 +11081,6 @@
     "topics": [
       "mental",
       "philosophy and ethics"
-    ]
-  },
-  {
-    "key": "adj-0519-modern",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-adj-0929-modern"
-      ],
-      "POL": [
-        "pol-adj-0673-nowoczesny"
-      ]
-    },
-    "papers": [
-      "concrete"
-    ],
-    "topics": [
-      "history",
-      "time"
     ]
   },
   {
