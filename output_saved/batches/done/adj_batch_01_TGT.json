@@ -6146,7 +6146,17 @@
   },
   {
     "lemma": "feminine",
-    "id": "eng-adj-0605-feminine",
+    "id": "eng-adj-0605-feminine(linguistics)",
+    "»trans": [
+      "pol-adj-0407-żeński",
+      "pol-adj-0505-kobiecy"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "feminine",
+    "id": "eng-adj-0605-feminine(womanly)",
     "»trans": [
       "pol-adj-0407-żeński",
       "pol-adj-0505-kobiecy"
@@ -7336,7 +7346,22 @@
   },
   {
     "lemma": "female",
-    "id": "eng-adj-0738-female",
+    "id": "eng-adj-0738-female(women's)",
+    "»trans": [
+      "pol-adj-0504-damski"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "female",
+    "id": "eng-adj-0738-female(animal)",
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "male",
+    "id": "eng-adj-0738-male(animal)",
     "»trans": [
       "pol-adj-0504-damski"
     ],
@@ -8411,21 +8436,7 @@
   },
   {
     "lemma": "male",
-    "id": "eng-adj-0859-male(linguistics)",
-    "»trans": [
-      "pol-adj-0619-męski(linguistic)"
-    ],
-    "register": 0,
-    "frequency": 4,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "linguistics",
-      "emoji": "🔤"
-    }
-  },
-  {
-    "lemma": "male",
-    "id": "eng-adj-0860-male(manly)",
+    "id": "eng-adj-0860-male(men's)",
     "»trans": [
       "pol-adj-0620-męski(manly)"
     ],
@@ -8438,10 +8449,21 @@
     }
   },
   {
+    "lemma": "male",
+    "id": "eng-adj-8888-men's",
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
+    }
+  },
+  {
     "lemma": "masculine",
     "id": "eng-adj-0861-masculine(linguistics)",
     "»trans": [
-      "pol-adj-0619-męski(linguistic)"
+      "pol-adj-0619-męski(linguistics)"
     ],
     "register": 0,
     "frequency": 4,
@@ -10130,7 +10152,7 @@
     "register": 0,
     "frequency": 2
   },
-    {
+  {
     "lemma": "contemporary",
     "id": "eng-adj-8888-contemporary",
     "»trans": [

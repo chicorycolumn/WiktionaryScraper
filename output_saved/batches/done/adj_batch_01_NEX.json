@@ -6674,15 +6674,14 @@
     ]
   },
   {
-    "key": "adj-0302-feminine",
+    "key": "adj-0473-masculine(linguistics)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0605-feminine"
+        "eng-adj-0861-masculine(linguistics)"
       ],
       "POL": [
-        "pol-adj-0405-żeński",
-        "pol-adj-0503-kobiecy"
+        "pol-adj-0617-męski(linguistics)"
       ]
     },
     "papers": [
@@ -6690,6 +6689,167 @@
     ],
     "topics": [
       "language"
+    ]
+  },
+  {
+    "key": "adj-0302-feminine(linguistics)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0605-feminine(linguistics)"
+      ],
+      "POL": [
+        "pol-adj-0405-żeński"
+      ]
+    },
+    "papers": [
+      "abstract"
+    ],
+    "topics": [
+      "language"
+    ]
+  },
+  {
+    "key": "adj-0474-masculine(manly)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0862-masculine(manly)",
+        "eng-adj-0863-manly"
+      ],
+      "POL": [
+        "pol-adj-0618-męski(manly)"
+      ]
+    },
+    "papers": [
+      "personality"
+    ],
+    "topics": [
+      "people"
+    ]
+  },
+  {
+    "key": "adj-0302-feminine(womanly)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0605-feminine(womanly)",
+        "eng-adj-0742-womanly"
+      ],
+      "POL": [
+        "pol-adj-0503-kobiecy"
+      ]
+    },
+    "papers": [
+      "emotion",
+      "personality",
+      "abstract"
+    ],
+    "topics": [
+      "mental",
+      "sense and perception",
+      "appearance",
+      "people"
+    ]
+  },
+  {
+    "key": "adj-0474-men's",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0860-male(men's)",
+        "eng-adj-8888-men's"
+      ],
+      "POL": [
+        "pol-adj-0618-męski(men's)"
+      ]
+    },
+    "papers": [
+      "personality"
+    ],
+    "topics": [
+      "people"
+    ]
+  },
+  {
+    "key": "adj-0383-women's",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0738-female(women's)",
+        "eng-adj-0739-women's",
+        "eng-adj-0740-ladies'"
+      ],
+      "POL": [
+        "pol-adj-0502-damski"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "fashion",
+      "people"
+    ]
+  },
+  {
+    "key": "adj-0383-female(animal)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0738-female(animal)"
+      ],
+      "POL": [
+        "pol-nco-8888-samica"
+      ]
+    },
+    "papers": [
+      "animal",
+      "living",
+      "concrete"
+    ],
+    "topics": [
+      "outside"
+    ]
+  },
+  {
+    "key": "adj-0383-male(animal)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0738-male(animal)"
+      ],
+      "POL": [
+        "pol-nco-8888-samiec"
+      ]
+    },
+    "papers": [
+      "animal",
+      "living",
+      "concrete"
+    ],
+    "topics": [
+      "outside"
+    ]
+  },
+  {
+    "key": "adj-0384-girly",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0743-girly",
+        "eng-adj-0744-effeminate"
+      ],
+      "POL": [
+        "pol-adj-0504-babski"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "fashion",
+      "people"
     ]
   },
   {
@@ -8305,47 +8465,6 @@
       "fashion",
       "shopping",
       "business"
-    ]
-  },
-  {
-    "key": "adj-0383-female",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-adj-0738-female",
-        "eng-adj-0739-women's",
-        "eng-adj-0740-ladies'"
-      ],
-      "POL": [
-        "pol-adj-0502-damski"
-      ]
-    },
-    "papers": [
-      "concrete"
-    ],
-    "topics": [
-      "fashion",
-      "people"
-    ]
-  },
-  {
-    "key": "adj-0384-girly",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-adj-0743-girly",
-        "eng-adj-0744-effeminate"
-      ],
-      "POL": [
-        "pol-adj-0504-babski"
-      ]
-    },
-    "papers": [
-      "concrete"
-    ],
-    "topics": [
-      "fashion",
-      "people"
     ]
   },
   {
@@ -10116,45 +10235,6 @@
     ],
     "topics": [
       "mental",
-      "people"
-    ]
-  },
-  {
-    "key": "adj-0473-male(linguistics)",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-adj-0859-male(linguistics)",
-        "eng-adj-0861-masculine(linguistics)"
-      ],
-      "POL": [
-        "pol-adj-0617-męski(linguistic)"
-      ]
-    },
-    "papers": [
-      "abstract"
-    ],
-    "topics": [
-      "language"
-    ]
-  },
-  {
-    "key": "adj-0474-male(manly)",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-adj-0860-male(manly)",
-        "eng-adj-0862-masculine(manly)",
-        "eng-adj-0863-manly"
-      ],
-      "POL": [
-        "pol-adj-0618-męski(manly)"
-      ]
-    },
-    "papers": [
-      "personality"
-    ],
-    "topics": [
       "people"
     ]
   },
