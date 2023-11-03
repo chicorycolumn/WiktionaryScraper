@@ -24174,7 +24174,7 @@
   },
   {
     "lemma": "okres",
-    "id": "pol-nco-0472-okres",
+    "id": "pol-nco-0472-okres(general)",
     "tags": [
       "abstract"
     ],
@@ -24207,6 +24207,58 @@
         "gen": "okresu",
         "dat": "okresowi",
         "acc": "okres",
+        "ins": "okresem",
+        "loc": "okresie",
+        "voc": "okresie"
+      },
+      "plural": {
+        "nom": "okresy",
+        "gen": "okresów",
+        "dat": "okresom",
+        "acc": "okresy",
+        "ins": "okresami",
+        "loc": "okresach",
+        "voc": "okresy"
+      }
+    },
+    "frequency": 2,
+    "register": 0
+  },
+  {
+    "lemma": "okres",
+    "id": "pol-nco-0472-okres(menstrual)",
+    "tags": [
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ],
+    "translations": {
+      "ENG": [
+        "period"
+      ]
+    },
+    "gender": "m2",
+    "extra": {
+      "synonyms": [
+        "period",
+        "ciota",
+        "ciotka",
+        "menstruacja",
+        "miesiączka",
+        "period"
+      ],
+      "derivedTerms": [
+        "okresowo",
+        "okresowy"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "okres",
+        "gen": "okresu",
+        "dat": "okresowi",
+        "acc": "okresu",
         "ins": "okresem",
         "loc": "okresie",
         "voc": "okresie"

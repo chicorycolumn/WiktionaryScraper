@@ -5694,10 +5694,34 @@
   },
   {
     "lemma": "period",
-    "id": "eng-nco-0590-period",
+    "id": "eng-nco-0590-period(general)",
     "»trans": [
       "pol-nco-0473-okres"
     ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "period",
+    "id": "eng-nco-0590-period(menstrual)",
+    "»trans": [
+      "pol-nco-0473-okres"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "period",
+    "id": "eng-nco-0590-period(punctuation)",
+    "»trans": [
+      "pol-nco-0473-okres"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "full stop",
+    "id": "eng-nco-8888-fullstop",
     "register": 0,
     "frequency": 2
   },
@@ -11473,6 +11497,12 @@
     ],
     "register": 0,
     "frequency": 3
+  },
+  {
+    "lemma": "dot",
+    "id": "eng-nco-8888-dot",
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "line",

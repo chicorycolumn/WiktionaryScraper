@@ -7622,26 +7622,6 @@
     ]
   },
   {
-    "key": "nco-0379-comma",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-nco-0488-comma"
-      ],
-      "POL": [
-        "pol-nco-0386-przecinek"
-      ]
-    },
-    "papers": [
-      "punctuation",
-      "abstract"
-    ],
-    "topics": [
-      "language",
-      "writing"
-    ]
-  },
-  {
     "key": "nco-0380-hell",
     "traductions": {
       "SPA": [],
@@ -9237,7 +9217,7 @@
     ]
   },
   {
-    "key": "nco-0460-hole",
+    "key": "nco-0460-hole(small)",
     "traductions": {
       "SPA": [],
       "ENG": [
@@ -9254,14 +9234,131 @@
     ]
   },
   {
-    "key": "nco-0461-period",
+    "key": "nco-0460-hole(large)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0590-period"
+        "eng-nco-0589-hole(large)",
+        "eng-nco-0613-pit"
       ],
       "POL": [
-        "pol-nco-0472-okres"
+      ]
+    },
+    "papers": [],
+    "topics": [
+      "spatial"
+    ]
+  },
+  {
+    "key": "nco-0503-monkey",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0647-monkey",
+        "eng-nco-0648-ape"
+      ],
+      "POL": [
+        "pol-nco-0518-małpa(monkey)"
+      ]
+    },
+    "papers": [
+      "living",
+      "concrete",
+      "animal"
+    ],
+    "topics": [
+      "outside"
+    ]
+  },
+  {
+    "key": "nco-0504-atsign",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0649-atsign"
+      ],
+      "POL": [
+        "pol-nco-0519-małpa(at sign)"
+      ]
+    },
+    "papers": [
+      "punctuation",
+      "abstract"
+    ],
+    "topics": [
+      "language",
+      "writing"
+    ]
+  },
+  {
+    "key": "nco-0379-comma",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0488-comma"
+      ],
+      "POL": [
+        "pol-nco-0386-przecinek"
+      ]
+    },
+    "papers": [
+      "punctuation",
+      "abstract"
+    ],
+    "topics": [
+      "language",
+      "writing"
+    ]
+  },
+  {
+    "key": "nco-0461-period(punctuation)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0590-period(punctuation)",
+        "eng-nco-8888-fullstop"
+      ],
+      "POL": [
+        "pol-nco-8888-kropka(punctuation)"
+      ]
+    },
+    "papers": [
+      "punctuation",
+      "abstract"
+    ],
+    "topics": [
+      "language",
+      "writing"
+    ]
+  },
+  {
+    "key": "nco-0461-dot",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-8888-dot"
+      ],
+      "POL": [
+        "pol-nco-8888-kropka(dot)",
+        "pol-nco-8888-punkt(dot)"
+      ]
+    },
+    "papers": [
+      "shape"
+    ],
+    "topics": [
+      "geometry"
+    ]
+  },
+  {
+    "key": "nco-0461-period(general)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0590-period(general)"
+      ],
+      "POL": [
+        "pol-nco-0472-okres(general)"
       ]
     },
     "papers": [
@@ -9269,6 +9366,27 @@
     ],
     "topics": [
       "time"
+    ]
+  },
+  {
+    "key": "nco-0461-period(menstrual)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0590-period(menstrual)"
+      ],
+      "POL": [
+        "pol-nco-0472-okres(menstrual)"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "time",
+      "daily routine",
+      "body",
+      "medicine"
     ]
   },
   {
@@ -10103,47 +10221,6 @@
       "business",
       "shopping",
       "knowledge and existence"
-    ]
-  },
-  {
-    "key": "nco-0503-monkey",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-nco-0647-monkey",
-        "eng-nco-0648-ape"
-      ],
-      "POL": [
-        "pol-nco-0518-małpa(monkey)"
-      ]
-    },
-    "papers": [
-      "living",
-      "concrete",
-      "animal"
-    ],
-    "topics": [
-      "outside"
-    ]
-  },
-  {
-    "key": "nco-0504-atsign",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-nco-0649-atsign"
-      ],
-      "POL": [
-        "pol-nco-0519-małpa(at sign)"
-      ]
-    },
-    "papers": [
-      "punctuation",
-      "abstract"
-    ],
-    "topics": [
-      "language",
-      "writing"
     ]
   },
   {
@@ -19996,7 +20073,6 @@
     ],
     "topics": [
       "daily routine"
-
     ]
   },
   {
