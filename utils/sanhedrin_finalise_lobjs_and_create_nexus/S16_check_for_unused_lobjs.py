@@ -9,7 +9,7 @@ from utils.universal import Color as c, load_data, save
 if __name__ == '__main__':
 
     # # # # # #
-    wordtypes = ['adj']  # Leave blank for all.
+    wordtypes = ['nco']  # Leave blank for all.
     batch = "01"
     tgt_lang = "ENG"
     src_lang = "POL"
@@ -44,20 +44,45 @@ if __name__ == '__main__':
 
         res = {}
 
-        res["unused_tgt"] = get_unused(tgt, nex, tgt_lang)
-        res["unused_src"] = get_unused(src, nex, src_lang)
+        def add_to_res_dict(main_dict_key, res_dict, results_list):
+            main_res_dict = []
+            ignored_res_dict = []
+            for result_str in results_list:
+                if result_str.split("-")[1] == wordtype:
+                    main_res_dict.append(result_str)
+                else:
+                    ignored_res_dict.append(result_str)
+            res_dict[main_dict_key] = main_res_dict
+            res_dict[main_dict_key + "_IGNORED"] = ignored_res_dict
 
-        res["nonexisting_tgt"] = get_nonexisting(tgt, nex, tgt_lang)
-        res["nonexisting_src"] = get_nonexisting(src, nex, src_lang)
+        add_to_res_dict("unused_tgt", res, get_unused(tgt, nex, tgt_lang))
+        add_to_res_dict("unused_src", res, get_unused(src, nex, src_lang))
+        add_to_res_dict("nonexisting_tgt", res, get_nonexisting(tgt, nex, tgt_lang))
+        add_to_res_dict("nonexisting_src", res, get_nonexisting(src, nex, src_lang))
+
+        non_ignored_keys = []
+        ignored_keys = []
+        for k in res:
+            if k.endswith("_IGNORED"):
+                ignored_keys.append(k)
+            else:
+                non_ignored_keys.append(k)
 
         print("")
-        for key in res:
+        for key in non_ignored_keys:
             c.print_blue(f"{len(res[key])} {key}")
 
         print("")
-        for key in res:
+        for key in non_ignored_keys:
             if len(res[key]):
                 c.print_red(key + ":")
+                for item in res[key]:
+                    print(f'"{item}"')
+
+        print("")
+        for key in ignored_keys:
+            if len(res[key]):
+                c.print_yellow(key + ":")
                 for item in res[key]:
                     print(f'"{item}"')
 
