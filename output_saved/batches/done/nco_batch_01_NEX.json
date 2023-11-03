@@ -1636,28 +1636,6 @@
     ]
   },
   {
-    "key": "nco-0081-ground",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-nco-0098-ground"
-      ],
-      "POL": [
-        "pol-nco-0081-grunt",
-        "pol-nco-0497-ziemia"
-      ]
-    },
-    "papers": [
-      "natural",
-      "location",
-      "concrete"
-    ],
-    "topics": [
-      "geography",
-      "outside"
-    ]
-  },
-  {
     "key": "nco-0082-alarm",
     "traductions": {
       "SPA": [],
@@ -1735,7 +1713,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0103-gift"
+        "eng-nco-0103-gift",
+        "eng-nco-0497-present"
       ],
       "POL": [
         "pol-nco-0086-dar",
@@ -2025,7 +2004,10 @@
       ]
     },
     "papers": [
-      "weather"
+      "weather",
+      "astro object",
+      "concrete",
+      "special location"
     ],
     "topics": [
       "outdoor",
@@ -2075,12 +2057,12 @@
     ]
   },
   {
-    "key": "nco-0104-balsam",
+    "key": "nco-0104-lotion",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0122-balsam",
-        "eng-nco-0123-lotion"
+        "eng-nco-0123-lotion",
+        "eng-nco-0306-cream(lotion)"
       ],
       "POL": [
         "pol-nco-0104-balsam",
@@ -2090,7 +2072,8 @@
     "papers": [
       "holdable",
       "concrete",
-      "household object"
+      "household object",
+      "cosmetic"
     ],
     "topics": [
       "washroom",
@@ -2469,16 +2452,15 @@
     ]
   },
   {
-    "key": "nco-0124-taste",
+    "key": "nco-0124-taste(preference)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0151-taste",
+        "eng-nco-0151-taste(preference)",
         "eng-nco-0152-personalpreference"
       ],
       "POL": [
-        "pol-nco-0124-gust",
-        "pol-nco-0248-smak"
+        "pol-nco-0124-gust"
       ]
     },
     "papers": [
@@ -2486,6 +2468,29 @@
     ],
     "topics": [
       "mental"
+    ]
+  },
+  {
+    "key": "nco-0124-taste(flavour)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0151-taste(flavour)",
+        "eng-nco-0317-flavour"
+      ],
+      "POL": [
+        "pol-nco-0248-smak"
+      ]
+    },
+    "papers": [
+      "perception",
+      "abstract"
+    ],
+    "topics": [
+      "sense and perception",
+      "kitchen",
+      "restaurant",
+      "inside"
     ]
   },
   {
@@ -3001,14 +3006,56 @@
     ]
   },
   {
+    "key": "nco-0081-Earth",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0619-Earth"
+      ],
+      "POL": [
+        "pol-nco-0497-Ziemia"
+      ]
+    },
+    "papers": [
+      "astro object"
+    ],
+    "topics": [
+      "astronomy"
+    ]
+  },
+  {
+    "key": "nco-0081-ground",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0098-ground"
+      ],
+      "POL": [
+        "pol-nco-0081-grunt",
+        "pol-nco-0497-ziemia(ground)"
+      ]
+    },
+    "papers": [
+      "natural",
+      "location",
+      "concrete"
+    ],
+    "topics": [
+      "geography",
+      "outside"
+    ]
+  },
+  {
     "key": "nco-0151-soil",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0186-soil"
+        "eng-nco-0186-soil",
+        "eng-nco-0619-earth"
       ],
       "POL": [
-        "pol-nco-0151-gleba"
+        "pol-nco-0151-gleba",
+        "pol-nco-0497-ziemia(soil)"
       ]
     },
     "papers": [
@@ -5576,6 +5623,25 @@
     ]
   },
   {
+    "key": "nco-0350-palm",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0450-palm"
+      ],
+      "POL": [
+        "pol-nco-0354-dłoń"
+      ]
+    },
+    "papers": [
+      "bodypart"
+    ],
+    "topics": [
+      "medicine",
+      "body"
+    ]
+  },
+  {
     "key": "nco-0282-hand",
     "traductions": {
       "SPA": [],
@@ -5603,7 +5669,27 @@
       ],
       "POL": [
         "pol-nco-0286-ręka(arm)",
-        "pol-nco-0385-ramię"
+        "pol-nco-0385-ramię(arm)"
+      ]
+    },
+    "papers": [
+      "bodypart"
+    ],
+    "topics": [
+      "medicine",
+      "body"
+    ]
+  },
+  {
+    "key": "nco-0283-shoulder",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0487-shoulder"
+      ],
+      "POL": [
+        "pol-nco-0385-ramię(shoulder)",
+        "pol-nco-8888-bark"
       ]
     },
     "papers": [
@@ -5995,7 +6081,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0389-axe"
+        "eng-nco-0389-axe",
+        "eng-nco-0503-hatchet"
       ],
       "POL": [
         "pol-nco-0306-topór",
@@ -6953,25 +7040,6 @@
     ]
   },
   {
-    "key": "nco-0350-palm",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-nco-0450-palm"
-      ],
-      "POL": [
-        "pol-nco-0354-dłoń"
-      ]
-    },
-    "papers": [
-      "bodypart"
-    ],
-    "topics": [
-      "medicine",
-      "body"
-    ]
-  },
-  {
     "key": "nco-0351-course(learning)",
     "traductions": {
       "SPA": [],
@@ -7179,6 +7247,30 @@
       "condiment",
       "concrete",
       "food"
+    ],
+    "topics": [
+      "kitchen",
+      "inside",
+      "restaurant"
+    ]
+  },
+  {
+    "key": "nco-0361-cream(food)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0306-cream(food)"
+      ],
+      "POL": [
+        "pol-nco-8888-śmietana"
+      ]
+    },
+    "papers": [
+      "holdable",
+      "condiment",
+      "concrete",
+      "food",
+      "sweet"
     ],
     "topics": [
       "kitchen",
@@ -9514,7 +9606,8 @@
     },
     "papers": [
       "special location",
-      "abstract"
+      "concrete",
+      "astro object"
     ],
     "topics": [
       "astronomy"
@@ -9948,7 +10041,6 @@
     ],
     "topics": [
       "medicine",
-      "cosmetics",
       "body"
     ]
   },
@@ -10325,7 +10417,11 @@
         "pol-nco-0532-gwiazda"
       ]
     },
-    "papers": [],
+    "papers": [
+      "special location",
+      "concrete",
+      "astro object"
+    ],
     "topics": [
       "astronomy"
     ]
@@ -10429,7 +10525,6 @@
     ],
     "topics": [
       "medicine",
-      "cosmetics",
       "body"
     ]
   },
@@ -10517,7 +10612,6 @@
       "home",
       "inside",
       "washroom",
-      "cosmetics",
       "daily routine"
     ]
   },
@@ -19897,11 +19991,12 @@
     },
     "papers": [
       "holdable",
-      "concrete"
+      "concrete",
+      "cosmetic"
     ],
     "topics": [
-      "daily routine",
-      "cosmetics"
+      "daily routine"
+
     ]
   },
   {

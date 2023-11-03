@@ -1144,15 +1144,6 @@
     "frequency": 2
   },
   {
-    "lemma": "balsam",
-    "id": "eng-nco-0122-balsam",
-    "»trans": [
-      "pol-nco-0105-balsam"
-    ],
-    "register": 0,
-    "frequency": 5
-  },
-  {
     "lemma": "lotion",
     "id": "eng-nco-0123-lotion",
     "»trans": [
@@ -1457,7 +1448,17 @@
   },
   {
     "lemma": "taste",
-    "id": "eng-nco-0151-taste",
+    "id": "eng-nco-0151-taste(preference)",
+    "»trans": [
+      "pol-nco-0125-gust",
+      "pol-nco-0249-smak"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "taste",
+    "id": "eng-nco-0151-taste(flavour)",
     "»trans": [
       "pol-nco-0125-gust",
       "pol-nco-0249-smak"
@@ -2987,7 +2988,16 @@
   },
   {
     "lemma": "cream",
-    "id": "eng-nco-0306-cream",
+    "id": "eng-nco-0306-cream(lotion)",
+    "»trans": [
+      "pol-nco-0241-krem"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "cream",
+    "id": "eng-nco-0306-cream(food)",
     "»trans": [
       "pol-nco-0241-krem"
     ],
@@ -4705,15 +4715,6 @@
     "frequency": 2
   },
   {
-    "lemma": "upper arm",
-    "id": "eng-nco-0486-upperarm",
-    "»trans": [
-      "pol-nco-0386-ramię"
-    ],
-    "register": 0,
-    "frequency": 3
-  },
-  {
     "lemma": "shoulder",
     "id": "eng-nco-0487-shoulder",
     "»trans": [
@@ -5954,6 +5955,15 @@
     ],
     "register": 0,
     "frequency": 1
+  },
+  {
+    "lemma": "Earth",
+    "id": "eng-nco-0619-Earth",
+    "»trans": [
+      "pol-nco-0498-ziemia"
+    ],
+    "register": 0,
+    "frequency": 2
   },
   {
     "lemma": "earth",
