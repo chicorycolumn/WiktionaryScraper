@@ -25272,7 +25272,63 @@
   },
   {
     "lemma": "dziura",
-    "id": "pol-nco-0491-dziura",
+    "id": "pol-nco-0491-dziura(small)",
+    "tags": [],
+    "topics": [
+      "spatial"
+    ],
+    "translations": {
+      "ENG": [
+        "hole",
+        "pit"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "dziurka"
+        ]
+      },
+      "synonyms": [
+        "ubytek",
+        "zadupie",
+        "pochwa",
+        "jaskinia"
+      ],
+      "derivedTerms": [
+        "dziurawy"
+      ],
+      "usage": [
+        "Hypernym: otwór"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "dziura",
+        "gen": "dziury",
+        "dat": "dziurze",
+        "acc": "dziurę",
+        "ins": "dziurą",
+        "loc": "dziurze",
+        "voc": "dziuro"
+      },
+      "plural": {
+        "nom": "dziury",
+        "gen": "dziur",
+        "dat": "dziurom",
+        "acc": "dziury",
+        "ins": "dziurami",
+        "loc": "dziurach",
+        "voc": "dziury"
+      }
+    },
+    "frequency": 3,
+    "register": 0
+  },
+  {
+    "lemma": "dziura",
+    "id": "pol-nco-0491-dziura(large)",
     "tags": [],
     "topics": [
       "spatial"

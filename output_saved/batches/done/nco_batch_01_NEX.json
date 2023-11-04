@@ -394,47 +394,6 @@
     ]
   },
   {
-    "key": "nco-0020-mountain",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-nco-0024-mountain"
-      ],
-      "POL": [
-        "pol-nco-0020-góra(mountain)"
-      ]
-    },
-    "papers": [
-      "natural",
-      "location",
-      "concrete"
-    ],
-    "topics": [
-      "geography",
-      "outside"
-    ]
-  },
-  {
-    "key": "nco-0021-top",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-nco-0025-top"
-      ],
-      "POL": [
-        "pol-nco-0021-góra(top)"
-      ]
-    },
-    "papers": [
-      "dimension",
-      "abstract"
-    ],
-    "topics": [
-      "geometry",
-      "sense and perception"
-    ]
-  },
-  {
     "key": "nco-0022-goat",
     "traductions": {
       "SPA": [],
@@ -9221,16 +9180,20 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0589-hole"
+        "eng-nco-0589-hole(small)"
       ],
       "POL": [
         "pol-nco-0471-otwór",
-        "pol-nco-0491-dziura"
+        "pol-nco-0491-dziura(small)"
       ]
     },
-    "papers": [],
+    "papers": [
+      "concrete"
+    ],
     "topics": [
-      "spatial"
+      "spatial",
+      "engineering",
+      "fashion"
     ]
   },
   {
@@ -9242,10 +9205,223 @@
         "eng-nco-0613-pit"
       ],
       "POL": [
+        "pol-nco-0491-dziura(large)",
+        "pol-nco-8888-dół(hole)",
+        "pol-nco-8888-dołek"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "spatial",
+      "engineering",
+      "fashion",
+      "danger"
+    ]
+  },
+  {
+    "key": "nco-0460-bottom",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-8888-bottom(spatial)"
+      ],
+      "POL": [
+        "pol-nco-8888-dół(bottom)",
+        "pol-nco-8888-dno"
+      ]
+    },
+    "papers": [
+      "part",
+      "abstract"
+    ],
+    "topics": [
+      "geometry",
+      "spatial"
+    ]
+  },
+  {
+    "key": "nco-0460-bottom(bodypart)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-8888-bottom(bodypart)",
+        "eng-nco-8888-arse",
+        "eng-nco-8888-bum",
+        "eng-nco-8888-butt"
+      ],
+      "POL": [
+        "pol-nco-8888-tyłek",
+        "pol-nco-8888-dupa"
+      ]
+    },
+    "papers": [
+      "bodypart"
+    ],
+    "topics": [
+      "medicine",
+      "body"
+    ]
+  },
+  {
+    "key": "nco-0021-top",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0025-top"
+      ],
+      "POL": [
+        "pol-nco-0021-góra(top)"
+      ]
+    },
+    "papers": [
+      "part",
+      "abstract"
+    ],
+    "topics": [
+      "geometry",
+      "spatial"
+    ]
+  },
+  {
+    "key": "nco-0020-mountain",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0024-mountain"
+      ],
+      "POL": [
+        "pol-nco-0020-góra(mountain)"
+      ]
+    },
+    "papers": [
+      "natural",
+      "location",
+      "concrete"
+    ],
+    "topics": [
+      "geography",
+      "outside"
+    ]
+  },
+  {
+    "key": "nco-0553-middle",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0714-middle",
+        "eng-nco-0715-centre"
+      ],
+      "POL": [
+        "pol-nco-0571-środek(middle)"
+      ]
+    },
+    "papers": [
+      "part",
+      "abstract"
+    ],
+    "topics": [
+      "geometry",
+      "spatial"
+    ]
+  },
+  {
+    "key": "nco-0554-means",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0716-means"
+      ],
+      "POL": [
+        "pol-nco-0572-środek(agent)"
       ]
     },
     "papers": [],
     "topics": [
+      "law",
+      "time",
+      "knowledge and existence",
+      "science",
+      "chemistry"
+    ]
+  },
+  {
+    "key": "nco-8888-citycentre",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-8888-citycentre"
+      ],
+      "POL": [
+        "pol-nco-8888-centrum"
+      ]
+    },
+    "papers": [
+      "location",
+      "concrete"
+    ],
+    "topics": [
+      "travel",
+      "outside"
+    ]
+  },
+  {
+    "key": "nco-0626-back(bodypart)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0812-back(bodypart)"
+      ],
+      "POL": [
+        "pol-nco-0649-plecy"
+      ]
+    },
+    "papers": [
+      "bodypart"
+    ],
+    "topics": [
+      "medicine",
+      "body"
+    ]
+  },
+  {
+    "key": "nco-0626-back(spatial)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0812-back(spatial)"
+      ],
+      "POL": [
+        "pol-nco-8888-tył"
+      ]
+    },
+    "papers": [
+      "part",
+      "abstract"
+    ],
+    "topics": [
+      "geometry",
+      "spatial"
+    ]
+  },
+  {
+    "key": "nco-0626-front",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-8888-front"
+      ],
+      "POL": [
+        "pol-nco-8888-przód"
+      ]
+    },
+    "papers": [
+      "part",
+      "abstract"
+    ],
+    "topics": [
+      "geometry",
       "spatial"
     ]
   },
@@ -9481,7 +9657,7 @@
     },
     "papers": [
       "location",
-      "abstract"
+      "concrete"
     ],
     "topics": [
       "travel"
@@ -10153,8 +10329,6 @@
       ]
     },
     "papers": [
-      "holdable",
-      "concrete",
       "bodypart"
     ],
     "topics": [
@@ -11218,43 +11392,6 @@
     ],
     "topics": [
       "travel"
-    ]
-  },
-  {
-    "key": "nco-0553-middle",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-nco-0714-middle",
-        "eng-nco-0715-centre"
-      ],
-      "POL": [
-        "pol-nco-0571-środek(middle)"
-      ]
-    },
-    "papers": [
-      "part"
-    ],
-    "topics": []
-  },
-  {
-    "key": "nco-0554-means",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-nco-0716-means"
-      ],
-      "POL": [
-        "pol-nco-0572-środek(agent)"
-      ]
-    },
-    "papers": [],
-    "topics": [
-      "law",
-      "time",
-      "knowledge and existence",
-      "science",
-      "chemistry"
     ]
   },
   {
@@ -12684,26 +12821,6 @@
     ],
     "topics": [
       "mental"
-    ]
-  },
-  {
-    "key": "nco-0626-back",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-nco-0812-back"
-      ],
-      "POL": [
-        "pol-nco-0649-plecy"
-      ]
-    },
-    "papers": [
-      "bodypart",
-      "part"
-    ],
-    "topics": [
-      "medicine",
-      "body"
     ]
   },
   {

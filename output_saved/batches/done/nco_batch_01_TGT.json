@@ -5684,7 +5684,17 @@
   },
   {
     "lemma": "hole",
-    "id": "eng-nco-0589-hole",
+    "id": "eng-nco-0589-hole(small)",
+    "»trans": [
+      "pol-nco-0472-otwór",
+      "pol-nco-0492-dziura"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "hole",
+    "id": "eng-nco-0589-hole(large)",
     "»trans": [
       "pol-nco-0472-otwór",
       "pol-nco-0492-dziura"
@@ -7856,9 +7866,26 @@
   },
   {
     "lemma": "back",
-    "id": "eng-nco-0812-back",
+    "id": "eng-nco-0812-back(bodypart)",
     "»trans": [
       "pol-nco-0650-plecy"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "back",
+    "id": "eng-nco-0812-back(spatial)",
+    "»trans": [
+      "pol-nco-0650-plecy"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "front",
+    "id": "eng-nco-8888-front",
+    "»trans": [
     ],
     "register": 0,
     "frequency": 2
