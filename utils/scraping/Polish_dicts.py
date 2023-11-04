@@ -192,8 +192,8 @@ shorthand_tag_refs = {
         "topics": ["fashion"],
     },
     "ggg": {  #
-        "tags": ["h"],
-        "topics": ["cosmetics"],
+        "tags": ["h", "cosmetic"],
+        "topics": ["home", "inside", "washroom"],
     },
     "c": {  # cotton steel cardboard
         "tags": ["material", "uncountable", "concrete"],

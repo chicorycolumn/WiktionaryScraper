@@ -19921,7 +19921,70 @@
   },
   {
     "lemma": "ramię",
-    "id": "pol-nco-0385-ramię",
+    "id": "pol-nco-0385-ramię(shoulder)",
+    "tags": [
+      "bodypart"
+    ],
+    "topics": [
+      "body",
+      "medicine"
+    ],
+    "translations": {
+      "ENG": [
+        "upper arm",
+        "shoulder",
+        "arm"
+      ]
+    },
+    "gender": "n",
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "ramionko"
+        ]
+      },
+      "synonyms": [
+        "bark"
+      ],
+      "derivedTerms": [
+        "białoramienny",
+        "naramienny",
+        "podramienny",
+        "ramieniowy",
+        "ramienny",
+        "równoramienny",
+        "naramiennik",
+        "ramiączko",
+        "ramię przy ramieniu",
+        "ramię w ramię"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "ramię",
+        "gen": "ramienia",
+        "dat": "ramieniu",
+        "acc": "ramię",
+        "ins": "ramieniem",
+        "loc": "ramieniu",
+        "voc": "ramię"
+      },
+      "plural": {
+        "nom": "ramiona",
+        "gen": "ramion",
+        "dat": "ramionom",
+        "acc": "ramiona",
+        "ins": "ramionami",
+        "loc": "ramionach",
+        "voc": "ramiona"
+      }
+    },
+    "frequency": 2,
+    "register": 0
+  },
+  {
+    "lemma": "ramię",
+    "id": "pol-nco-0385-ramię(arm)",
     "tags": [
       "bodypart"
     ],
@@ -24111,7 +24174,7 @@
   },
   {
     "lemma": "okres",
-    "id": "pol-nco-0472-okres",
+    "id": "pol-nco-0472-okres(general)",
     "tags": [
       "abstract"
     ],
@@ -24144,6 +24207,58 @@
         "gen": "okresu",
         "dat": "okresowi",
         "acc": "okres",
+        "ins": "okresem",
+        "loc": "okresie",
+        "voc": "okresie"
+      },
+      "plural": {
+        "nom": "okresy",
+        "gen": "okresów",
+        "dat": "okresom",
+        "acc": "okresy",
+        "ins": "okresami",
+        "loc": "okresach",
+        "voc": "okresy"
+      }
+    },
+    "frequency": 2,
+    "register": 0
+  },
+  {
+    "lemma": "okres",
+    "id": "pol-nco-0472-okres(menstrual)",
+    "tags": [
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ],
+    "translations": {
+      "ENG": [
+        "period"
+      ]
+    },
+    "gender": "m2",
+    "extra": {
+      "synonyms": [
+        "period",
+        "ciota",
+        "ciotka",
+        "menstruacja",
+        "miesiączka",
+        "period"
+      ],
+      "derivedTerms": [
+        "okresowo",
+        "okresowy"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "okres",
+        "gen": "okresu",
+        "dat": "okresowi",
+        "acc": "okresu",
         "ins": "okresem",
         "loc": "okresie",
         "voc": "okresie"
@@ -25488,7 +25603,7 @@
   },
   {
     "lemma": "ziemia",
-    "id": "pol-nco-0497-ziemia",
+    "id": "pol-nco-0497-ziemia(soil)",
     "tags": [
       "concrete",
       "material",
@@ -25548,6 +25663,116 @@
         "ins": "ziemiami",
         "loc": "ziemiach",
         "voc": "ziemie"
+      }
+    },
+    "frequency": 2,
+    "register": 0
+  },
+  {
+    "lemma": "ziemia",
+    "id": "pol-nco-0497-ziemia(ground)",
+    "tags": [
+      "concrete",
+      "material",
+      "uncountable"
+    ],
+    "topics": [
+      "agriculture",
+      "engineering"
+    ],
+    "translations": {
+      "ENG": [
+        "earth",
+        "land",
+        "ground"
+      ]
+    },
+    "gender": "f",
+    "extra": {
+      "synonyms": [
+        "grunt",
+        "ląd",
+        "gleba"
+      ],
+      "derivedTerms": [
+        "bliskoziemski",
+        "nadziemny",
+        "podziemny",
+        "przyziemny",
+        "ziemisty",
+        "ziemny",
+        "ziemski",
+        "poziomka",
+        "Ziemia",
+        "Ziemianin",
+        "ziemianka",
+        "ziemniak",
+        "stąpać twardo po ziemi",
+        "uziemiać",
+        "uziemić"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "ziemia",
+        "gen": "ziemi",
+        "dat": "ziemi",
+        "acc": "ziemię",
+        "ins": "ziemią",
+        "loc": "ziemi",
+        "voc": "ziemio"
+      },
+      "plural": {
+        "nom": "ziemie",
+        "gen": "ziem",
+        "dat": "ziemiom",
+        "acc": "ziemie",
+        "ins": "ziemiami",
+        "loc": "ziemiach",
+        "voc": "ziemie"
+      }
+    },
+    "frequency": 2,
+    "register": 0
+  },
+  {
+    "lemma": "Ziemia",
+    "id": "pol-nco-0497-Ziemia",
+    "tags": [
+      "concrete",
+      "material",
+      "uncountable"
+    ],
+    "topics": [
+      "agriculture",
+      "engineering"
+    ],
+    "translations": {
+      "ENG": [
+        "earth",
+        "land",
+        "ground"
+      ]
+    },
+    "gender": "f",
+    "inflections": {
+      "singular": {
+        "nom": "Ziemia",
+        "gen": "Ziemi",
+        "dat": "Ziemi",
+        "acc": "Ziemię",
+        "ins": "Ziemią",
+        "loc": "Ziemi",
+        "voc": "Ziemio"
+      },
+      "plural": {
+        "nom": "Ziemie",
+        "gen": "Ziem",
+        "dat": "Ziemiom",
+        "acc": "Ziemie",
+        "ins": "Ziemiami",
+        "loc": "Ziemiach",
+        "voc": "Ziemie"
       }
     },
     "frequency": 2,
