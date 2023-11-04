@@ -245,6 +245,10 @@ shorthand_tag_refs = {
         "tags": [],
         "topics": ["spatial"],
     },
+    "sss": {
+        "tags": ["direction"],
+        "topics": ["spatial"],
+    },
     "as": {
         "tags": ["aa"],
         "topics": ["school"],
@@ -605,7 +609,7 @@ shorthand_tag_refs = {
     },
     "W": { # top bottom side centre
         "tags": ["part"],
-        "topics": [],
+        "topics": ["spatial"],
     },
     "WW": { # cog board gear joint
         "tags": ["component"],
