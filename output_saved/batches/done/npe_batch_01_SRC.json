@@ -1558,6 +1558,33 @@
     "register": 0
   },
   {
+    "lemma": "laska",
+    "id": "pol-npe-8888-laska(woman)",
+    "gender": "f",
+    "inflections": {
+      "singular": {
+        "nom": "laska",
+        "gen": "laski",
+        "dat": "lasce",
+        "acc": "laskę",
+        "ins": "laską",
+        "loc": "lasce",
+        "voc": "lasko"
+      },
+      "plural": {
+        "nom": "laski",
+        "gen": "lasek",
+        "dat": "laskom",
+        "acc": "laski",
+        "ins": "laskami",
+        "loc": "laskach",
+        "voc": "laski"
+      }
+    },
+    "frequency": 4,
+    "register": 6
+  },
+  {
     "lemma": "facet",
     "id": "pol-npe-0012-facet",
     "tags": [
@@ -1607,7 +1634,7 @@
       }
     },
     "frequency": 1,
-    "register": 0
+    "register": 6
   },
   {
     "lemma": "ziom",

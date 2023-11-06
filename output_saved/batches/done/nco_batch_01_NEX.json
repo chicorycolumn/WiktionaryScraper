@@ -630,7 +630,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0038-way(direction)"
+        "eng-nco-0038-way(direction)",
+        "eng-nco-1066-route"
       ],
       "POL": [
         "pol-nco-0032-droga(way)",
@@ -2754,7 +2755,9 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0170-marijuana"
+        "eng-nco-0170-marijuana",
+        "eng-nco-1250-cannabis",
+        "eng-nco-1251-weed"
       ],
       "POL": [
         "pol-nco-0139-marihuana",
@@ -7979,8 +7982,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0513-ember",
-        "eng-nco-0514-heat"
+        "eng-nco-0514-heat",
+        "eng-nco-1035-warmth"
       ],
       "POL": [
         "pol-nco-0408-żar",
@@ -12605,8 +12608,7 @@
         "eng-nco-0794-club"
       ],
       "POL": [
-        "pol-nco-0635-kij",
-        "pol-nco-0829-laska"
+        "pol-nco-0635-kij"
       ]
     },
     "papers": [
@@ -12615,6 +12617,25 @@
     "topics": [
       "violence",
       "sport"
+    ]
+  },
+  {
+    "key": "nco-0612-cane",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-1030-cane",
+        "eng-nco-1031-walkingstick"
+      ],
+      "POL": [
+        "pol-nco-0829-laska(cane)"
+      ]
+    },
+    "papers": [
+      "tool"
+    ],
+    "topics": [
+      "medicine"
     ]
   },
   {
@@ -12842,7 +12863,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0811-choice"
+        "eng-nco-0811-choice",
+        "eng-nco-1256-decision"
       ],
       "POL": [
         "pol-nco-0648-wybór",
@@ -12947,7 +12969,9 @@
       "SPA": [],
       "ENG": [
         "eng-nco-0817-attack",
-        "eng-nco-0818-robbery"
+        "eng-nco-0818-robbery",
+        "eng-nco-1062-theft",
+        "eng-nco-1073-mugging"
       ],
       "POL": [
         "pol-nco-0654-napad",
@@ -14927,7 +14951,10 @@
       "SPA": [],
       "ENG": [
         "eng-nco-0944-secret",
-        "eng-nco-0945-mystery"
+        "eng-nco-0945-mystery",
+        "eng-nco-1181-riddle",
+        "eng-nco-1182-puzzle",
+        "eng-nco-1183-enigma"
       ],
       "POL": [
         "pol-nco-0761-tajemnica",
@@ -16379,7 +16406,9 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-1047-crime"
+        "eng-nco-1047-crime",
+        "eng-nco-1126-offence",
+        "eng-nco-1127-felony"
       ],
       "POL": [
         "pol-nco-0844-zbrodnia",
@@ -17782,7 +17811,9 @@
       "ENG": [
         "eng-nco-1137-darkness",
         "eng-nco-1138-dusk",
-        "eng-nco-1139-nightfall"
+        "eng-nco-1139-nightfall",
+        "eng-nco-1234-dark",
+        "eng-nco-1235-gloom"
       ],
       "POL": [
         "pol-nco-0925-zmrok",
@@ -17803,7 +17834,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-1140-danger"
+        "eng-nco-1140-danger",
+        "eng-nco-1309-threat"
       ],
       "POL": [
         "pol-nco-0926-niebezpieczeństwo",
@@ -18088,7 +18120,9 @@
       "ENG": [
         "eng-nco-1154-wardrobe",
         "eng-nco-1155-closet",
-        "eng-nco-1156-cabinet"
+        "eng-nco-1156-cabinet",
+        "eng-nco-1157-locker",
+        "eng-nco-1158-cupboard"
       ],
       "POL": [
         "pol-nco-0940-szafa",
@@ -19021,7 +19055,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-1225-shelf"
+        "eng-nco-1225-shelf",
+        "eng-nco-1287-rack"
       ],
       "POL": [
         "pol-nco-0996-półka",
@@ -20539,6 +20574,26 @@
     "topics": [
       "violence",
       "engineering"
+    ]
+  },
+  {
+    "key": "nco-8888-chick(bird)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-8888-chick(bird)"
+      ],
+      "POL": [
+        "pol-nco-0414-pisklę"
+      ]
+    },
+    "papers": [
+      "living",
+      "concrete",
+      "animal"
+    ],
+    "topics": [
+      "outside"
     ]
   }
 ]

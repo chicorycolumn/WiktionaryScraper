@@ -21519,6 +21519,33 @@
     "register": 0
   },
   {
+    "lemma": "pisklę",
+    "id": "pol-nco-0414-pisklę",
+    "gender": "n",
+    "inflections": {
+      "singular": {
+        "nom": "pisklę",
+        "gen": "pisklęcia",
+        "dat": "pisklęciu",
+        "acc": "pisklę",
+        "ins": "pisklęciem",
+        "loc": "pisklęciu",
+        "voc": "pisklę"
+      },
+      "plural": {
+        "nom": "pisklęta",
+        "gen": "piskląt",
+        "dat": "pisklętom",
+        "acc": "pisklęta",
+        "ins": "pisklętami",
+        "loc": "pisklętach",
+        "voc": "pisklęta"
+      }
+    },
+    "frequency": 5,
+    "register": 0
+  },
+  {
     "lemma": "sowa",
     "id": "pol-nco-0415-sowa",
     "tags": [
@@ -42172,7 +42199,7 @@
   },
   {
     "lemma": "laska",
-    "id": "pol-nco-0829-laska",
+    "id": "pol-nco-0829-laska(cane)",
     "tags": [
       "concrete",
       "holdable"
