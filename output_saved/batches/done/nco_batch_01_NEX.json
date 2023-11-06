@@ -606,15 +606,34 @@
     ]
   },
   {
-    "key": "nco-0032-way",
+    "key": "nco-0032-way(method)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0038-way"
+        "eng-nco-0038-way(method)",
+        "eng-nco-0844-method"
+      ],
+      "POL": [
+        "pol-nco-0676-sposób",
+        "pol-nco-8888-metoda"
+      ]
+    },
+    "papers": [
+      "helper"
+    ],
+    "topics": [
+      "knowledge and existence"
+    ]
+  },
+  {
+    "key": "nco-0032-way(direction)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0038-way(direction)"
       ],
       "POL": [
         "pol-nco-0032-droga(way)",
-        "pol-nco-0676-sposób",
         "pol-nco-0859-trasa"
       ]
     },
@@ -2987,7 +3006,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0098-ground"
+        "eng-nco-0098-ground",
+        "eng-nco-0620-land"
       ],
       "POL": [
         "pol-nco-0081-grunt",
@@ -6477,7 +6497,8 @@
       "ENG": [
         "eng-nco-0417-effect",
         "eng-nco-0418-result",
-        "eng-nco-0419-consequence"
+        "eng-nco-0419-consequence",
+        "eng-nco-1002-influence"
       ],
       "POL": [
         "pol-nco-0328-skutek",
@@ -6835,7 +6856,9 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0439-suitcase"
+        "eng-nco-0439-suitcase",
+        "eng-nco-0741-briefcase",
+        "eng-nco-0741-case(luggage)"
       ],
       "POL": [
         "pol-nco-0346-waliza",
@@ -7780,7 +7803,9 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0502-thing"
+        "eng-nco-0502-thing",
+        "eng-nco-0637-object",
+        "eng-nco-0635-item"
       ],
       "POL": [
         "pol-nco-0398-rzecz",
@@ -10076,7 +10101,11 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0625-peace"
+        "eng-nco-0625-peace",
+        "eng-nco-1021-calm",
+        "eng-nco-1022-calmness",
+        "eng-nco-1023-tranquility",
+        "eng-nco-1024-quiet"
       ],
       "POL": [
         "pol-nco-0501-pokój(peace)",
@@ -10558,7 +10587,9 @@
       "SPA": [],
       "ENG": [
         "eng-nco-0660-work",
-        "eng-nco-0661-job(profession)"
+        "eng-nco-0661-job(profession)",
+        "eng-nco-0689-profession",
+        "eng-nco-0690-occupation"
       ],
       "POL": [
         "pol-nco-0527-praca",
@@ -12132,7 +12163,9 @@
       "ENG": [
         "eng-nco-0763-briefs",
         "eng-nco-0764-panties",
-        "eng-nco-0765-underwear"
+        "eng-nco-0765-underwear",
+        "eng-nco-0771-pants(underwear)",
+        "eng-nco-0960-underpants"
       ],
       "POL": [
         "pol-nco-0612-majtki",
@@ -12791,7 +12824,7 @@
         "eng-nco-0807-affair",
         "eng-nco-0808-matter",
         "eng-nco-0809-business",
-        "eng-nco-0810-case"
+        "eng-nco-0810-case(matter)"
       ],
       "POL": [
         "pol-nco-0647-sprawa"

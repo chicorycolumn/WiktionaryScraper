@@ -364,7 +364,18 @@
   },
   {
     "lemma": "way",
-    "id": "eng-nco-0038-way",
+    "id": "eng-nco-0038-way(method)",
+    "»trans": [
+      "pol-nco-0032-droga(way)",
+      "pol-nco-0677-sposób",
+      "pol-nco-0860-trasa"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "way",
+    "id": "eng-nco-0038-way(direction)",
     "»trans": [
       "pol-nco-0032-droga(way)",
       "pol-nco-0677-sposób",
@@ -6155,18 +6166,13 @@
     "frequency": 4
   },
   {
-    "lemma": "subject",
-    "id": "eng-nco-0635-subject(thing)",
+    "lemma": "item",
+    "id": "eng-nco-0635-item",
     "»trans": [
       "pol-nco-0510-przedmiot"
     ],
     "register": 0,
-    "frequency": 4,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "thing",
-      "emoji": "⚪"
-    }
+    "frequency": 4
   },
   {
     "lemma": "subject",
@@ -6175,12 +6181,7 @@
       "pol-nco-0539-temat"
     ],
     "register": 0,
-    "frequency": 3,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "theme",
-      "emoji": "⚪"
-    }
+    "frequency": 3
   },
   {
     "lemma": "object",
@@ -7199,6 +7200,15 @@
     "frequency": 3
   },
   {
+    "lemma": "case",
+    "id": "eng-nco-0741-case(luggage)",
+    "»trans": [
+      "pol-nco-0592-walizka"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
     "lemma": "glue",
     "id": "eng-nco-0742-glue",
     "»trans": [
@@ -7858,7 +7868,7 @@
   },
   {
     "lemma": "case",
-    "id": "eng-nco-0810-case",
+    "id": "eng-nco-0810-case(matter)",
     "»trans": [
       "pol-nco-0648-sprawa"
     ],
