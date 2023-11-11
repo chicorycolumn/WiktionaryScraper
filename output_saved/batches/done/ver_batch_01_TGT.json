@@ -3575,7 +3575,7 @@
   },
   {
     "lemma": "catch up with",
-    "id": "eng-ver-0295-catchupwith",
+    "id": "eng-ver-0295-catch up with(in a race)",
     "»trans": [
       "pol-ver-0320-dogonić",
       "pol-ver-0321-doganiać",
@@ -3587,7 +3587,7 @@
   },
   {
     "lemma": "catch up to",
-    "id": "eng-ver-0296-catchupto",
+    "id": "eng-ver-0296-catch up to",
     "»trans": [
       "pol-ver-0320-dogonić",
       "pol-ver-0321-doganiać"
@@ -3639,7 +3639,7 @@
   },
   {
     "lemma": "get to",
-    "id": "eng-ver-0301-getto(arrive)",
+    "id": "eng-ver-0301-get to(arrive)",
     "»trans": [
       "pol-ver-0325-dojść",
       "pol-ver-0326-dochodzić"
@@ -3650,21 +3650,6 @@
       "singleWordtype": true,
       "text": "transport",
       "emoji": "🚢️️"
-    }
-  },
-  {
-    "lemma": "get to",
-    "id": "eng-ver-0302-getto(huntdown)",
-    "»trans": [
-      "pol-ver-0375-dopaść",
-      "pol-ver-0376-dopadać"
-    ],
-    "register": 0,
-    "frequency": 4,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "military",
-      "emoji": "🪖"
     }
   },
   {
@@ -3682,7 +3667,7 @@
     "transitivity": [
       "r"
     ],
-    "id": "eng-ver-0304-beangry",
+    "id": "eng-ver-0304-be angry",
     "»trans": [
       "pol-ver-0329-gniewać"
     ],
@@ -3690,25 +3675,13 @@
     "frequency": 5
   },
   {
-    "lemma": "get angry ",
+    "lemma": "get angry",
     "transitivity": [
       "r"
     ],
-    "id": "eng-ver-0305-getangry",
+    "id": "eng-ver-0305-get angry",
     "»trans": [
       "pol-ver-0329-gniewać",
-      "pol-ver-0330-rozgniewać"
-    ],
-    "register": 0,
-    "frequency": 5
-  },
-  {
-    "lemma": "be angry ",
-    "transitivity": [
-      "r"
-    ],
-    "id": "eng-ver-0306-beangry",
-    "»trans": [
       "pol-ver-0330-rozgniewać"
     ],
     "register": 0,
@@ -7774,7 +7747,7 @@
   },
   {
     "lemma": "get to know",
-    "id": "eng-ver-0674-gettoknow",
+    "id": "eng-ver-0674-get to know",
     "»trans": [
       "pol-ver-0765-poznawać(meet)",
       "pol-ver-0766-poznać(meet)"

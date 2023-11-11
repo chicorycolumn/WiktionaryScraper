@@ -3325,7 +3325,8 @@
       "ENG": [
         "eng-ver-0281-reach",
         "eng-ver-0070-arrive(foot)",
-        "eng-ver-0071-arrive(vehicle)"
+        "eng-ver-0071-arrive(vehicle)",
+        "eng-ver-0301-get to(arrive)"
       ],
       "POL": [
         "pol-ver-0312-docierać",
@@ -3486,18 +3487,16 @@
     ]
   },
   {
-    "key": "ver-0168-catchupwith",
+    "key": "ver-0168-catch up to",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0295-catchupwith",
-        "eng-ver-0296-catchupto"
+        "eng-ver-0295-catch up with(in a race)",
+        "eng-ver-0296-catch up to"
       ],
       "POL": [
         "pol-ver-0325-dogonić",
-        "pol-ver-0326-doganiać",
-        "pol-ver-0381-dopaść",
-        "pol-ver-0382-dopadać"
+        "pol-ver-0326-doganiać"
       ]
     },
     "papers": [
@@ -3572,16 +3571,18 @@
     ]
   },
   {
-    "key": "ver-0172-beangry",
+    "key": "ver-0172-be angry",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0304-beangry",
-        "eng-ver-0305-getangry"
+        "eng-ver-0304-be angry",
+        "eng-ver-0305-get angry"
       ],
       "POL": [
         "pol-ver-0334-gniewać",
-        "pol-ver-0335-rozgniewać"
+        "pol-ver-0335-rozgniewać",
+        "pol-ver-8888-złościć",
+        "pol-ver-8888-zezłościć"
       ]
     },
     "papers": [
@@ -8387,7 +8388,7 @@
       "SPA": [],
       "ENG": [
         "eng-ver-0673-meet",
-        "eng-ver-0674-gettoknow"
+        "eng-ver-0674-get to know"
       ],
       "POL": [
         "pol-ver-0790-poznawać(meet)",
