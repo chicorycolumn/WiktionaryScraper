@@ -867,8 +867,10 @@ reg_refs = [
 def run_sanhedrin(fxn, wordtypes):
     if not len(wordtypes):
         wordtypes = ["adj", "nco", "npe", "ver"]
+    print(c.purple('Running for wordtypes:'), wordtypes)
     for w in wordtypes:
-        c.print_purple(f"Running for wordtype {w}")
+        print("")
+        print(c.purple("Running for wordtype:"), w)
         fxn(w)
         time.sleep(1)
 
