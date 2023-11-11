@@ -49,7 +49,7 @@
   },
   {
     "lemma": "make",
-    "id": "eng-ver-0005-make(general)",
+    "id": "eng-ver-0005-make(create)",
     "»trans": [
       "pol-ver-0000-robić",
       "pol-ver-0000-zrobić",
@@ -4928,7 +4928,7 @@
       "pol-ver-0444-napadać"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 5
   },
   {
     "lemma": "mutter",
@@ -5089,7 +5089,7 @@
   },
   {
     "lemma": "put at risk",
-    "id": "eng-ver-0433-putatrisk",
+    "id": "eng-ver-0433-put at risk",
     "»trans": [
       "pol-ver-0464-narażać",
       "pol-ver-0465-narazić"
@@ -5109,7 +5109,7 @@
   },
   {
     "lemma": "put in danger",
-    "id": "eng-ver-0435-putindanger",
+    "id": "eng-ver-0435-put in danger",
     "»trans": [
       "pol-ver-0464-narażać",
       "pol-ver-0465-narazić"
@@ -8677,6 +8677,13 @@
   {
     "lemma": "bet",
     "id": "eng-ver-0763-bet",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "expose",
+    "id": "eng-ver-8888-expose",
     "»trans": [],
     "register": 0,
     "frequency": 4

@@ -35,17 +35,60 @@
       "SPA": [],
       "ENG": [
         "eng-ver-0010-create",
-        "eng-ver-0005-make(general)"
+        "eng-ver-0005-make(create)"
       ],
       "POL": [
-        "pol-ver-0005-robić",
-        "pol-ver-0006-zrobić",
+        "pol-ver-0005-robić(make)",
+        "pol-ver-0006-zrobić(make)",
         "pol-ver-0938-stwarzać",
         "pol-ver-0939-stworzyć"
       ]
     },
     "papers": [],
     "topics": []
+  },
+  {
+    "key": "ver-0005-do(general)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0003-do(general)"
+      ],
+      "POL": [
+        "pol-ver-0005-robić(do)",
+        "pol-ver-0006-zrobić(do)"
+      ]
+    },
+    "papers": [],
+    "topics": [
+      "school",
+      "work"
+    ]
+  },
+  {
+    "key": "ver-0130-do(perform)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0004-do(perform)",
+        "eng-ver-0006-make(perform)",
+        "eng-ver-0233-carryout"
+      ],
+      "POL": [
+        "pol-ver-0253-dokonywać",
+        "pol-ver-0254-dokonać",
+        "pol-ver-0842-przeprowadzić(carry out)",
+        "pol-ver-0843-przeprowadzać(carry out)"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "school",
+      "work",
+      "money"
+    ]
   },
   {
     "key": "ver-0006-stand",
@@ -1606,7 +1649,8 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0158-die"
+        "eng-ver-0158-die",
+        "eng-ver-0318-perish"
       ],
       "POL": [
         "pol-ver-0150-umrzeć",
@@ -2131,7 +2175,7 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0196-please"
+        "eng-ver-0196-please_swdeNeeds attn"
       ],
       "POL": [
         "pol-ver-0202-podobać",
@@ -2646,30 +2690,6 @@
     ]
   },
   {
-    "key": "ver-0130-do(perform)",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-ver-0004-do(perform)",
-        "eng-ver-0006-make(perform)",
-        "eng-ver-0233-carryout"
-      ],
-      "POL": [
-        "pol-ver-0253-dokonywać",
-        "pol-ver-0254-dokonać",
-        "pol-ver-0842-przeprowadzić(carry out)",
-        "pol-ver-0843-przeprowadzać(carry out)"
-      ]
-    },
-    "papers": [
-      "concrete"
-    ],
-    "topics": [
-      "school",
-      "work"
-    ]
-  },
-  {
     "key": "ver-0131-hurl",
     "traductions": {
       "SPA": [],
@@ -2978,7 +2998,9 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-ver-0260-attack"
+        "eng-ver-0260-attack",
+        "eng-ver-0416-assault",
+        "eng-ver-0417-mug"
       ],
       "POL": [
         "pol-ver-0283-atakować",
@@ -3735,12 +3757,16 @@
     ]
   },
   {
-    "key": "ver-0181-command(lead)",
+    "key": "ver-0181-run(lead)",
     "traductions": {
       "SPA": [],
       "ENG": [
         "eng-ver-0321-command(lead)",
-        "eng-ver-0323-lead"
+        "eng-ver-0323-lead",
+        "eng-ver-0021-run(lead)",
+        "eng-ver-0366-direct",
+        "eng-ver-0367-head",
+        "eng-ver-0368-manage"
       ],
       "POL": [
         "pol-ver-0352-dowodzić",
@@ -3999,7 +4025,7 @@
       "time"
     ]
   },
-    {
+  {
     "key": "ver-0238-shine",
     "traductions": {
       "SPA": [],
@@ -4789,12 +4815,16 @@
       "ENG": [
         "eng-ver-0403-endanger",
         "eng-ver-0402-threaten(endanger)",
-        "eng-ver-0404-jeopardise"
+        "eng-ver-0404-jeopardise",
+        "eng-ver-0433-put at risk",
+        "eng-ver-0435-put in danger"
       ],
       "POL": [
         "pol-ver-0440-zagrozić(endanger)",
-        "pol-ver-0477-narażać",
-        "pol-ver-0478-narazić"
+        "pol-ver-0477-narażać na ryzyko",
+        "pol-ver-0478-narazić na ryzyko",
+        "pol-ver-0477-narażać na szwank",
+        "pol-ver-0478-narazić na szwank"
       ]
     },
     "papers": [
@@ -4804,6 +4834,28 @@
       "violence",
       "disease",
       "politics",
+      "medicine"
+    ]
+  },
+  {
+    "key": "ver-0229-expose",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-8888-expose"
+      ],
+      "POL": [
+        "pol-ver-0477-narażać",
+        "pol-ver-0478-narazić"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "danger",
+      "disease",
+      "science",
       "medicine"
     ]
   },

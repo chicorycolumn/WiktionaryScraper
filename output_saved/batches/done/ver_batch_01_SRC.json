@@ -546,7 +546,7 @@
   },
   {
     "lemma": "robić",
-    "id": "pol-ver-0005-robić",
+    "id": "pol-ver-0005-robić(do)",
     "aspect": "imperfective",
     "secondaryAspects": [],
     "tags": [],
@@ -692,7 +692,265 @@
   },
   {
     "lemma": "zrobić",
-    "id": "pol-ver-0006-zrobić",
+    "id": "pol-ver-0006-zrobić(do)",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "frequency": 1,
+    "register": 0,
+    "inflections": {
+      "infinitive": "zrobić",
+      "verbalNoun": "zrobienie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zrobiony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zrobiwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zrobi się"
+            },
+            "plural": {
+              "allPluralGenders": "zrobi się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zrobię"
+            },
+            "plural": {
+              "allPluralGenders": "zrobimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zrobisz"
+            },
+            "plural": {
+              "allPluralGenders": "zrobicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zrobi"
+            },
+            "plural": {
+              "allPluralGenders": "zrobią"
+            }
+          }
+        },
+        "imperative": "zrób",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zrobiono"
+            },
+            "plural": {
+              "allPluralGenders": "zrobiono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zrobiłem",
+              "f": "zrobiłam"
+            },
+            "plural": {
+              "virile": "zrobiliśmy",
+              "nonvirile": "zrobiłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zrobiłeś",
+              "f": "zrobiłaś"
+            },
+            "plural": {
+              "virile": "zrobiliście",
+              "nonvirile": "zrobiłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zrobił",
+              "f": "zrobiła",
+              "n": "zrobiło"
+            },
+            "plural": {
+              "virile": "zrobili",
+              "nonvirile": "zrobiły"
+            }
+          }
+        },
+        "present": false
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to do"
+      ]
+    },
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "robić"
+        ]
+      },
+      "derivedTerms": [
+        "verbs zrobić miejsce pf robić miejsce impf",
+        "zrobić z igły widły pf robić z igły widły impf"
+      ]
+    }
+  },
+  {
+    "lemma": "robić",
+    "id": "pol-ver-0005-robić(make)",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "tags": [],
+    "topics": [],
+    "frequency": 1,
+    "register": 0,
+    "inflections": {
+      "infinitive": "robić",
+      "verbalNoun": "robienie",
+      "activeAdjectival": "robiący",
+      "passiveAdjectival": "robiony",
+      "contemporaryAdverbial": "robiąc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "rób",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "robiono"
+            },
+            "plural": {
+              "allPluralGenders": "robiono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "robiłem",
+              "f": "robiłam"
+            },
+            "plural": {
+              "virile": "robiliśmy",
+              "nonvirile": "robiłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "robiłeś",
+              "f": "robiłaś"
+            },
+            "plural": {
+              "virile": "robiliście",
+              "nonvirile": "robiłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "robił",
+              "f": "robiła",
+              "n": "robiło"
+            },
+            "plural": {
+              "virile": "robili",
+              "nonvirile": "robiły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "robi się"
+            },
+            "plural": {
+              "allPluralGenders": "robi się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "robię"
+            },
+            "plural": {
+              "allPluralGenders": "robimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "robisz"
+            },
+            "plural": {
+              "allPluralGenders": "robicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "robi"
+            },
+            "plural": {
+              "allPluralGenders": "robią"
+            }
+          }
+        }
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to do"
+      ]
+    },
+    "extra": {
+      "usage": [
+        "Robię im śniadanie. ― I'm making them breakfast.",
+        "Co robisz ― What are you doing?",
+        "Robię trzy godziny dziennie. ― I work three hours a day.",
+        "Robi się późno. ― It's getting late."
+      ],
+      "otherShapes": {
+        "perfective": [
+          "zrobić"
+        ]
+      },
+      "derivedTerms": [
+        "verbs dorobić pf dorabiać impf",
+        "nadrobić pf nadrabiać impf",
+        "narobić pf narabiać impf",
+        "obrobić pf obrabiać impf",
+        "odrobić pf odrabiać impf",
+        "podrobić pf podrabiać impf",
+        "porobić pf porabiać impf",
+        "przerobić pf przerabiać impf",
+        "przyrobić pf przyrabiać impf",
+        "rozrobić pf rozrabiać impf",
+        "urobić pf urabiać impf",
+        "wrobić pf wrabiać impf",
+        "współrobić impf",
+        "wyrobić pf wyrabiać impf",
+        "zarobić pf zarabiać impf",
+        "verbs robić miejsce impf zrobić miejsce pf",
+        "robić z igły widły impf zrobić z igły widły pf",
+        "adjectives bezrobotny",
+        "roboczy",
+        "robotny",
+        "nouns bezrobocie",
+        "parób",
+        "robigrosz",
+        "robocizna",
+        "robota",
+        "robotnica",
+        "robotnik",
+        "references .mw-parser-output .reflist.list-style-lower-alpha ol{list-style:lower-alpha}.mw-parser-output .reflist.list-style-upper-alpha ol{list-style:upper-alpha}.mw-parser-output .reflist.list-style-lower-roman ol{list-style:lower-roman}.mw-parser-output .reflist.list-style-upper-roman ol{list-style:upper-roman}.mw-parser-output .reflist.list-style-lower-greek ol{list-style:lower-greek}.mw-parser-output .reflist.list-style-disc ol{list-style:disc}.mw-parser-output .reflist.list-style-square ol{list-style:square}.mw-parser-output .reflist.list-style-none ol{list-style:none}.mw-parser-output .reflist.nobacklinks .mw-cite-backlink,.mw-parser-output .reflist.nobacklinks li>a{display:none}.mw-parser-output .reflist.font-size-xx-small ol{font-size:xx-small}.mw-parser-output .reflist.font-size-x-small ol{font-size:x-small}.mw-parser-output .reflist.font-size-smaller ol{font-size:smaller}.mw-parser-output .reflist.font-size-small ol{font-size:small}.mw-parser-output .reflist.font-size-medium ol{font-size:medium}.mw-parser-output .reflist.font-size-large ol{font-size:large}.mw-parser-output .reflist.font-size-larger ol{font-size:larger}.mw-parser-output .reflist.font-size-x-large ol{font-size:x-large}.mw-parser-output .reflist.font-size-xx-large ol{font-size:xx-large}.mw-parser-output .reflist[data-column-count=\"2\"] .mw-references-wrap{column-count:2}.mw-parser-output .reflist[data-column-count=\"3\"] .mw-references-wrap{column-count:3}.mw-parser-output .reflist[data-column-count=\"4\"] .mw-references-wrap{column-count:4}.mw-parser-output .reflist[data-column-count=\"5\"] .mw-references-wrap{column-count:5} ^ b. sieradzka-baziur , editor (2011–2015), “ robić ”, in słownik pojęciowy języka staropolskiego conceptual dictionary of old polish (in polish), kraków ijp pan →isbn"
+      ]
+    }
+  },
+  {
+    "lemma": "zrobić",
+    "id": "pol-ver-0006-zrobić(make)",
     "aspect": "perfective",
     "secondaryAspects": [],
     "frequency": 1,
@@ -53367,6 +53625,478 @@
       "otherShapes": {
         "imperfective": [
           "narażać"
+        ]
+      }
+    }
+  },
+    {
+    "lemma": "narażać na ryzyko",
+    "id": "pol-ver-0477-narażać na ryzyko",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "law",
+      "violence"
+    ],
+    "frequency": 4,
+    "register": 0,
+    "inflections": {
+      "infinitive": "narażać na ryzyko",
+      "verbalNoun": "narażanie na ryzyko",
+      "activeAdjectival": "narażający na ryzyko",
+      "passiveAdjectival": "narażany na ryzyko",
+      "contemporaryAdverbial": "narażając na ryzyko",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "narażaj na ryzyko",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "narażano na ryzyko"
+            },
+            "plural": {
+              "allPluralGenders": "narażano na ryzyko"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "narażałem na ryzyko",
+              "f": "narażałam na ryzyko"
+            },
+            "plural": {
+              "virile": "narażaliśmy na ryzyko",
+              "nonvirile": "narażałyśmy na ryzyko"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "narażałeś na ryzyko",
+              "f": "narażałaś na ryzyko"
+            },
+            "plural": {
+              "virile": "narażaliście na ryzyko",
+              "nonvirile": "narażałyście na ryzyko"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "narażał na ryzyko",
+              "f": "narażała na ryzyko",
+              "n": "narażało na ryzyko"
+            },
+            "plural": {
+              "virile": "narażali na ryzyko",
+              "nonvirile": "narażały na ryzyko"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "naraża się na ryzyko"
+            },
+            "plural": {
+              "allPluralGenders": "naraża się na ryzyko"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "narażam na ryzyko"
+            },
+            "plural": {
+              "allPluralGenders": "narażamy na ryzyko"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "narażasz na ryzyko"
+            },
+            "plural": {
+              "allPluralGenders": "narażacie na ryzyko"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "naraża na ryzyko"
+            },
+            "plural": {
+              "allPluralGenders": "narażają na ryzyko"
+            }
+          }
+        }
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to jeopardize",
+        "to put at risk",
+        "to risk",
+        "to put in danger"
+      ]
+    },
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "narazić na ryzyko"
+        ]
+      }
+    }
+  },
+  {
+    "lemma": "narazić na ryzyko",
+    "id": "pol-ver-0478-narazić na ryzyko",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "law",
+      "violence"
+    ],
+    "frequency": 4,
+    "register": 0,
+    "inflections": {
+      "infinitive": "narazić na ryzyko",
+      "verbalNoun": "narażenie na ryzyko",
+      "activeAdjectival": false,
+      "passiveAdjectival": "narażony na ryzyko",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "naraziwszy na ryzyko",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "narazi się na ryzyko"
+            },
+            "plural": {
+              "allPluralGenders": "narazi się na ryzyko"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "narażę na ryzyko"
+            },
+            "plural": {
+              "allPluralGenders": "narazimy na ryzyko"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "narazisz na ryzyko"
+            },
+            "plural": {
+              "allPluralGenders": "narazicie na ryzyko"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "narazi na ryzyko"
+            },
+            "plural": {
+              "allPluralGenders": "narażą na ryzyko"
+            }
+          }
+        },
+        "imperative": "naraź na ryzyko",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "narażono na ryzyko"
+            },
+            "plural": {
+              "allPluralGenders": "narażono na ryzyko"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "naraziłem na ryzyko",
+              "f": "naraziłam na ryzyko"
+            },
+            "plural": {
+              "virile": "naraziliśmy na ryzyko",
+              "nonvirile": "naraziłyśmy na ryzyko"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "naraziłeś na ryzyko",
+              "f": "naraziłaś na ryzyko"
+            },
+            "plural": {
+              "virile": "naraziliście na ryzyko",
+              "nonvirile": "naraziłyście na ryzyko"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "naraził na ryzyko",
+              "f": "naraziła na ryzyko",
+              "n": "naraziło na ryzyko"
+            },
+            "plural": {
+              "virile": "narazili na ryzyko",
+              "nonvirile": "naraziły na ryzyko"
+            }
+          }
+        },
+        "present": false
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to jeopardize",
+        "to put at risk",
+        "to risk",
+        "to put in danger"
+      ]
+    },
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "narażać na ryzyko"
+        ]
+      }
+    }
+  },
+    {
+    "lemma": "narażać na szwank",
+    "id": "pol-ver-0477-narażać na szwank",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "law",
+      "violence"
+    ],
+    "frequency": 4,
+    "register": 0,
+    "inflections": {
+      "infinitive": "narażać na szwank",
+      "verbalNoun": "narażanie na szwank",
+      "activeAdjectival": "narażający na szwank",
+      "passiveAdjectival": "narażany na szwank",
+      "contemporaryAdverbial": "narażając na szwank",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "narażaj na szwank",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "narażano na szwank"
+            },
+            "plural": {
+              "allPluralGenders": "narażano na szwank"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "narażałem na szwank",
+              "f": "narażałam na szwank"
+            },
+            "plural": {
+              "virile": "narażaliśmy na szwank",
+              "nonvirile": "narażałyśmy na szwank"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "narażałeś na szwank",
+              "f": "narażałaś na szwank"
+            },
+            "plural": {
+              "virile": "narażaliście na szwank",
+              "nonvirile": "narażałyście na szwank"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "narażał na szwank",
+              "f": "narażała na szwank",
+              "n": "narażało na szwank"
+            },
+            "plural": {
+              "virile": "narażali na szwank",
+              "nonvirile": "narażały na szwank"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "naraża się na szwank"
+            },
+            "plural": {
+              "allPluralGenders": "naraża się na szwank"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "narażam na szwank"
+            },
+            "plural": {
+              "allPluralGenders": "narażamy na szwank"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "narażasz na szwank"
+            },
+            "plural": {
+              "allPluralGenders": "narażacie na szwank"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "naraża na szwank"
+            },
+            "plural": {
+              "allPluralGenders": "narażają na szwank"
+            }
+          }
+        }
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to jeopardize",
+        "to put at risk",
+        "to risk",
+        "to put in danger"
+      ]
+    },
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "narazić na szwank"
+        ]
+      }
+    }
+  },
+  {
+    "lemma": "narazić na szwank",
+    "id": "pol-ver-0478-narazić na szwank",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "law",
+      "violence"
+    ],
+    "frequency": 4,
+    "register": 0,
+    "inflections": {
+      "infinitive": "narazić na szwank",
+      "verbalNoun": "narażenie na szwank",
+      "activeAdjectival": false,
+      "passiveAdjectival": "narażony na szwank",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "naraziwszy na szwank",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "narazi się na szwank"
+            },
+            "plural": {
+              "allPluralGenders": "narazi się na szwank"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "narażę na szwank"
+            },
+            "plural": {
+              "allPluralGenders": "narazimy na szwank"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "narazisz na szwank"
+            },
+            "plural": {
+              "allPluralGenders": "narazicie na szwank"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "narazi na szwank"
+            },
+            "plural": {
+              "allPluralGenders": "narażą na szwank"
+            }
+          }
+        },
+        "imperative": "naraź na szwank",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "narażono na szwank"
+            },
+            "plural": {
+              "allPluralGenders": "narażono na szwank"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "naraziłem na szwank",
+              "f": "naraziłam na szwank"
+            },
+            "plural": {
+              "virile": "naraziliśmy na szwank",
+              "nonvirile": "naraziłyśmy na szwank"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "naraziłeś na szwank",
+              "f": "naraziłaś na szwank"
+            },
+            "plural": {
+              "virile": "naraziliście na szwank",
+              "nonvirile": "naraziłyście na szwank"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "naraził na szwank",
+              "f": "naraziła na szwank",
+              "n": "naraziło na szwank"
+            },
+            "plural": {
+              "virile": "narazili na szwank",
+              "nonvirile": "naraziły na szwank"
+            }
+          }
+        },
+        "present": false
+      }
+    },
+    "translations": {
+      "ENG": [
+        "to jeopardize",
+        "to put at risk",
+        "to risk",
+        "to put in danger"
+      ]
+    },
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "narażać na szwank"
         ]
       }
     }
