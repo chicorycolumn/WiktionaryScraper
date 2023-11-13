@@ -1481,8 +1481,8 @@
       "POL": [
         "pol-ver-0135-lubić",
         "pol-ver-0136-polubić",
-        "pol-ver-0188-uwielbiać",
-        "pol-ver-0189-uwielbić"
+        "pol-ver-0202-*podobać",
+        "pol-ver-0203-*spodobać"
       ]
     },
     "papers": [
@@ -1490,6 +1490,81 @@
       "positive judgment"
     ],
     "topics": [
+      "mental",
+      "judgment"
+    ]
+  },
+  {
+    "key": "ver-0075-enjoy",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0224-enjoy"
+      ],
+      "POL": [
+        "pol-ver-0135-lubić",
+        "pol-ver-0136-polubić",
+        "pol-ver-0188-uwielbiać",
+        "pol-ver-0189-uwielbić",
+        "pol-ver-0243-*cieszyć",
+        "pol-ver-0244-*ucieszyć"
+      ]
+    },
+    "papers": [
+      "abstract",
+      "positive judgment"
+    ],
+    "topics": [
+      "mental",
+      "judgment"
+    ]
+  },
+  {
+    "key": "ver-0111-adore",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0189-adore",
+        "eng-ver-0190-love(adore)",
+        "eng-ver-0191-love(romantic)"
+      ],
+      "POL": [
+        "pol-ver-0188-uwielbiać",
+        "pol-ver-0189-uwielbić",
+        "pol-ver-0213-kochać",
+        "pol-ver-0214-pokochać"
+      ]
+    },
+    "papers": [
+      "abstract",
+      "positive judgment"
+    ],
+    "topics": [
+      "people",
+      "love",
+      "mental",
+      "judgment"
+    ]
+  },
+  {
+    "key": "ver-0112-fallinlove",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0199-fallinlove",
+        "eng-ver-0200-fallfor"
+      ],
+      "POL": [
+        "pol-ver-0215-zakochać"
+      ]
+    },
+    "papers": [
+      "abstract",
+      "positive judgment"
+    ],
+    "topics": [
+      "people",
+      "love",
       "mental",
       "judgment"
     ]
@@ -2171,29 +2246,6 @@
     ]
   },
   {
-    "key": "ver-0106-please",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-ver-0196-please_swdeNeeds attn"
-      ],
-      "POL": [
-        "pol-ver-0202-podobać",
-        "pol-ver-0203-spodobać",
-        "pol-ver-0243-cieszyć",
-        "pol-ver-0244-ucieszyć"
-      ]
-    },
-    "papers": [
-      "abstract",
-      "positive judgment"
-    ],
-    "topics": [
-      "mental",
-      "judgment"
-    ]
-  },
-  {
     "key": "ver-0107-lose(game)",
     "traductions": {
       "SPA": [],
@@ -2276,56 +2328,6 @@
     ],
     "topics": [
       "sense and perception"
-    ]
-  },
-  {
-    "key": "ver-0111-adore",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-ver-0189-adore",
-        "eng-ver-0190-love(adore)",
-        "eng-ver-0191-love(romantic)"
-      ],
-      "POL": [
-        "pol-ver-0188-uwielbiać",
-        "pol-ver-0189-uwielbić",
-        "pol-ver-0213-kochać",
-        "pol-ver-0214-pokochać"
-      ]
-    },
-    "papers": [
-      "abstract",
-      "positive judgment"
-    ],
-    "topics": [
-      "people",
-      "love",
-      "mental",
-      "judgment"
-    ]
-  },
-  {
-    "key": "ver-0112-fallinlove",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-ver-0199-fallinlove",
-        "eng-ver-0200-fallfor"
-      ],
-      "POL": [
-        "pol-ver-0215-zakochać"
-      ]
-    },
-    "papers": [
-      "abstract",
-      "positive judgment"
-    ],
-    "topics": [
-      "people",
-      "love",
-      "mental",
-      "judgment"
     ]
   },
   {

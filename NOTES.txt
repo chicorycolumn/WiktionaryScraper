@@ -49,3 +49,6 @@ Sort bodypart nouns into internal and external.
 TSF-008 (all)
 Move "money" tag into topics.
 
+TSF-009 (all)
+If the lemma section of a lobj id starts with a *, then it requires special handling.
+ie "pol-ver-0243-*cieszyć" means "to enjoy" but it mustn't be conjugated like "to enjoy" because really it means "to please".
