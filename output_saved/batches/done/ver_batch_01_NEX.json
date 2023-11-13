@@ -72,7 +72,8 @@
       "ENG": [
         "eng-ver-0004-do(perform)",
         "eng-ver-0006-make(perform)",
-        "eng-ver-0233-carryout"
+        "eng-ver-0233-carryout",
+        "eng-ver-0703-perform(carry out)"
       ],
       "POL": [
         "pol-ver-0253-dokonywać",
@@ -486,6 +487,31 @@
     ],
     "topics": [
       "planning"
+    ]
+  },
+  {
+    "key": "ver-0252-takeplace",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0447-takeplace",
+        "eng-ver-0449-occur"
+      ],
+      "POL": [
+        "pol-ver-0491-nastąpić",
+        "pol-ver-0492-następować",
+        "pol-ver-0571-odbyć(occur)",
+        "pol-ver-0573-odbywać(occur)",
+        "pol-ver-8888-występować(occur)",
+        "pol-ver-8888-wystąpić(occur)"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "time",
+      "knowledge and existence"
     ]
   },
   {
@@ -1701,7 +1727,8 @@
       "SPA": [],
       "ENG": [
         "eng-ver-0156-buy",
-        "eng-ver-0157-purchase"
+        "eng-ver-0157-purchase",
+        "eng-ver-0424-acquire"
       ],
       "POL": [
         "pol-ver-0148-kupować",
@@ -6170,29 +6197,6 @@
     ]
   },
   {
-    "key": "ver-0252-takeplace",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-ver-0447-takeplace",
-        "eng-ver-0449-occur"
-      ],
-      "POL": [
-        "pol-ver-0491-nastąpić",
-        "pol-ver-0492-następować",
-        "pol-ver-0571-odbyć(occur)",
-        "pol-ver-0573-odbywać(occur)"
-      ]
-    },
-    "papers": [
-      "concrete"
-    ],
-    "topics": [
-      "time",
-      "knowledge and existence"
-    ]
-  },
-  {
     "key": "ver-0291-organise(event)",
     "traductions": {
       "SPA": [],
@@ -9732,6 +9736,26 @@
     ],
     "topics": [
       "mental"
+    ]
+  },
+  {
+    "key": "ver-8888-perform(in a show)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0703-perform(in a show)"
+      ],
+      "POL": [
+        "pol-ver-8888-występować(perform)",
+        "pol-ver-8888-wystąpić(perform)"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "music",
+      "theatre"
     ]
   }
 ]
