@@ -13,6 +13,8 @@ if __name__ == '__main__':
     batch = "01"
     suffix = "SRC"
     files_are_in_done_folder = True
+
+
     # # # # # #
 
     def go(wordtype):
@@ -39,8 +41,15 @@ if __name__ == '__main__':
         }
 
         lobj_keys_ref = {
-            "ver": ["lemma", "id", "aspect", "secondaryAspects", "tags", "topics", "frequency", "register", "allohomInfo",
-                    "inflections", "translations", "extra", "derivedTerms", "otherShapes", "_inflectionsRoot", "_untranslated"]
+            "ver": [
+                "lemma", "id",
+                "_inflectionsRoot", "_untranslated",
+                "frequency", "register",
+                "aspect", "secondaryAspects",
+                "tags", "topics", "translations",
+                "allohomInfo", "extra", "derivedTerms", "otherShapes",
+                "inflections",
+            ]
         }
 
         move_these_keys_to_extra_ref = {
