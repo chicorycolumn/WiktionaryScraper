@@ -23,6 +23,7 @@ if __name__ == '__main__':
     skip_make_ids = False  # only set True when manually testing.
     skip_scraping = False  # only set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
     reparse_previously_rejected = False  # If you're manually rerunning rejected ones when collecting batch together.
+    test_only_boolean_override_check_existing = True  # If you're manually rerunning scraped ones for testing purposes.
     skip_extras = True  # You know, the extra lemmas to parse gathered from synonyms of lemmas you asked to parse.
     langcode = "pol"
 
@@ -108,6 +109,7 @@ You must duplicate lobjs which have double meaning, and whittle respective trans
             skip_scraping=skip_scraping,
             just_assess_scrape_status_of_lemmas=step == 0,
             reparse_previously_rejected=reparse_previously_rejected,
+            test_only_boolean_override_check_existing=test_only_boolean_override_check_existing,
             skip_extras=skip_extras
         )
     elif step == 2:

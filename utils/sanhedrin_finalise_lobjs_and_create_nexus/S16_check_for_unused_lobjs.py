@@ -9,7 +9,7 @@ from utils.universal import Color as c, load_data, save
 if __name__ == '__main__':
 
     # # # # # #
-    wordtypes = ['ver']  # Leave blank for all.
+    wordtypes = []  # Leave blank for all.
     batch = "01"
     tgt_lang = "ENG"
     src_lang = "POL"
