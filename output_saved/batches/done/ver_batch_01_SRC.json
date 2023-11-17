@@ -181,7 +181,6 @@
     "lemma": "bywać",
     "id": "pol-ver-0002-bywać",
     "aspect": "imperfective",
-    "_untranslated": true,
     "secondaryAspects": [
       "indeterminate",
       "frequentative"
@@ -306,7 +305,8 @@
         "wyzbywać impf wyzbyć pf",
         "(nou) bywalec"
       ]
-    }
+    },
+    "_untranslated": true
   },
   {
     "lemma": "mieć",
@@ -429,7 +429,6 @@
     "lemma": "miewać",
     "id": "pol-ver-0004-miewać",
     "aspect": "imperfective",
-    "_untranslated": true,
     "secondaryAspects": [
       "indeterminate",
       "frequentative"
@@ -542,7 +541,8 @@
           "mieć"
         ]
       }
-    }
+    },
+    "_untranslated": true
   },
   {
     "lemma": "robić",
@@ -1524,17 +1524,17 @@
     "topics": [],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "event",
+      "emoji": "📅️"
+    },
     "translations": {
       "ENG": [
         "to happen[r]"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0007-stać(stand)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "event",
-      "emoji": "📅️"
-    }
+    "_inflectionsRoot": "pol-ver-0007-stać(stand)"
   },
   {
     "lemma": "wstać",
@@ -4260,6 +4260,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "mathematical",
+      "emoji": "🧮"
+    },
     "inflections": {
       "infinitive": "liczyć",
       "verbalNoun": "liczenie",
@@ -4379,11 +4384,6 @@
         "(nou) bezlik liczba liczebnik licznik liczydło liczyrzepa lik",
         "(adj) liczbowy liczebny liczny"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "mathematical",
-      "emoji": "🧮"
     }
   },
   {
@@ -4402,6 +4402,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
+    },
     "translations": {
       "ENG": [
         "to count on"
@@ -4434,12 +4439,7 @@
         "(adj) liczbowy liczebny liczny"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0034-liczyć(count)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "person",
-      "emoji": "🏃"
-    }
+    "_inflectionsRoot": "pol-ver-0034-liczyć(count)"
   },
   {
     "lemma": "liczyć",
@@ -4454,6 +4454,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "importance",
+      "emoji": "❗"
+    },
     "translations": {
       "ENG": [
         "to matter"
@@ -4486,12 +4491,7 @@
         "(adj) liczbowy liczebny liczny"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0034-liczyć(count)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "importance",
-      "emoji": "❗"
-    }
+    "_inflectionsRoot": "pol-ver-0034-liczyć(count)"
   },
   {
     "lemma": "dać",
@@ -4506,6 +4506,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg a present",
+      "emoji": "🎁"
+    },
     "inflections": {
       "infinitive": "dać",
       "verbalNoun": "danie",
@@ -4637,11 +4642,6 @@
         "references ^ k. nitsch , editor (1956), “ dać, dajać ”, in słownik staropolski (in old polish), volume 2, warsaw polish academy of sciences , page 10",
         "^ B. Sieradzka-Baziur , editor (2011–2015), “ 1. dać, dajać ”, in Słownik pojęciowy języka staropolskiego Conceptual Dictionary of Old Polish (in Polish), Kraków IJP PAN →ISBN"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "eg a present",
-      "emoji": "🎁"
     }
   },
   {
@@ -4655,6 +4655,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "permission",
+      "emoji": "🚫"
+    },
     "translations": {
       "ENG": [
         "to let",
@@ -4701,12 +4706,7 @@
         "^ B. Sieradzka-Baziur , editor (2011–2015), “ 1. dać, dajać ”, in Słownik pojęciowy języka staropolskiego Conceptual Dictionary of Old Polish (in Polish), Kraków IJP PAN →ISBN"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0037-dać(give)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "permission",
-      "emoji": "🚫"
-    }
+    "_inflectionsRoot": "pol-ver-0037-dać(give)"
   },
   {
     "lemma": "dawać",
@@ -4721,6 +4721,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg a present",
+      "emoji": "🎁"
+    },
     "inflections": {
       "infinitive": "dawać",
       "verbalNoun": "dawanie",
@@ -4846,11 +4851,6 @@
         "(nou) dar podarek udar",
         "(ver) darzyć darować"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "eg a present",
-      "emoji": "🎁"
     }
   },
   {
@@ -4864,6 +4864,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "permission",
+      "emoji": "🚫"
+    },
     "translations": {
       "ENG": [
         "to let",
@@ -4904,12 +4909,7 @@
         "(ver) darzyć darować"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0039-dawać(give)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "permission",
-      "emoji": "🚫"
-    }
+    "_inflectionsRoot": "pol-ver-0039-dawać(give)"
   },
   {
     "lemma": "wrócić",
@@ -5783,7 +5783,6 @@
     "lemma": "jadać",
     "id": "pol-ver-0048-jadać",
     "aspect": "imperfective",
-    "_untranslated": true,
     "secondaryAspects": [
       "indeterminate",
       "frequentative"
@@ -5920,7 +5919,8 @@
         "zajadać impf zajeść pf",
         "nadjadać impf nadjeść pf"
       ]
-    }
+    },
+    "_untranslated": true
   },
   {
     "lemma": "umieć",
@@ -6047,6 +6047,11 @@
     ],
     "frequency": 1,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "ability",
+      "emoji": "🏃"
+    },
     "inflections": {
       "infinitive": "móc",
       "activeAdjectival": "mogący",
@@ -6149,11 +6154,6 @@
         "(nou) moc"
       ],
       "otherShapes": {}
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "ability",
-      "emoji": "🏃"
     }
   },
   {
@@ -6167,6 +6167,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "permission",
+      "emoji": "🚫"
+    },
     "translations": {
       "ENG": [
         "can",
@@ -6191,12 +6196,7 @@
       ],
       "otherShapes": {}
     },
-    "_inflectionsRoot": "pol-ver-0050-móc(can or be able to)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "permission",
-      "emoji": "🚫"
-    }
+    "_inflectionsRoot": "pol-ver-0050-móc(can or be able to)"
   },
   {
     "lemma": "móc",
@@ -6210,6 +6210,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "possibility",
+      "emoji": "❓"
+    },
     "translations": {
       "ENG": [
         "can",
@@ -6235,12 +6240,7 @@
       ],
       "otherShapes": {}
     },
-    "_inflectionsRoot": "pol-ver-0050-móc(can or be able to)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "possibility",
-      "emoji": "❓"
-    }
+    "_inflectionsRoot": "pol-ver-0050-móc(can or be able to)"
   },
   {
     "lemma": "chcieć",
@@ -6740,6 +6740,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "ugotować",
       "verbalNoun": "ugotowanie",
@@ -6839,11 +6844,6 @@
           "gotować"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -6863,6 +6863,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physics",
+      "emoji": "☄️"
+    },
     "translations": {
       "ENG": [
         "to boil"
@@ -6875,12 +6880,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0057-ugotować(cook)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "physics",
-      "emoji": "☄️"
-    }
+    "_inflectionsRoot": "pol-ver-0057-ugotować(cook)"
   },
   {
     "lemma": "gotować",
@@ -6896,6 +6896,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "gotować",
       "verbalNoun": "gotowanie",
@@ -7008,11 +7013,6 @@
         "zagotować pf zagotowywać impf",
         "zgotować pf zgotowywać impf"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -7032,6 +7032,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physics",
+      "emoji": "☄️"
+    },
     "translations": {
       "ENG": [
         "to boil"
@@ -7057,12 +7062,7 @@
         "zgotować pf zgotowywać impf"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0059-gotować(cook)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "physics",
-      "emoji": "☄️"
-    }
+    "_inflectionsRoot": "pol-ver-0059-gotować(cook)"
   },
   {
     "lemma": "potrzebować",
@@ -7303,6 +7303,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "bring",
+      "emoji": "👜"
+    },
     "inflections": {
       "infinitive": "przynieść",
       "verbalNoun": "przyniesienie",
@@ -7402,11 +7407,6 @@
           "przynosić"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "bring",
-      "emoji": "👜"
     }
   },
   {
@@ -7423,6 +7423,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "fetch",
+      "emoji": "👜"
+    },
     "translations": {
       "ENG": [
         "to fetch"
@@ -7435,12 +7440,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0063-przynieść(bring)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "fetch",
-      "emoji": "👜"
-    }
+    "_inflectionsRoot": "pol-ver-0063-przynieść(bring)"
   },
   {
     "lemma": "przynosić",
@@ -7456,6 +7456,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "bring",
+      "emoji": "👜"
+    },
     "inflections": {
       "infinitive": "przynosić",
       "verbalNoun": "przynoszenie",
@@ -7558,11 +7563,6 @@
           "przynieść"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "bring",
-      "emoji": "👜"
     }
   },
   {
@@ -7579,6 +7579,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "fetch",
+      "emoji": "👜"
+    },
     "translations": {
       "ENG": [
         "to fetch"
@@ -7594,12 +7599,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0065-przynosić(bring)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "fetch",
-      "emoji": "👜"
-    }
+    "_inflectionsRoot": "pol-ver-0065-przynosić(bring)"
   },
   {
     "lemma": "schodzić",
@@ -8312,6 +8312,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "iść",
       "activeAdjectival": "idący",
@@ -8425,11 +8430,6 @@
         "zachodzić impf zajść pf",
         "schodzić impf zejść pf"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -8446,6 +8446,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    },
     "translations": {
       "ENG": [
         "to walk[i]"
@@ -8481,12 +8486,7 @@
         "schodzić impf zejść pf"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0073-iść(go)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "body",
-      "emoji": "🧍"
-    }
+    "_inflectionsRoot": "pol-ver-0073-iść(go)"
   },
   {
     "lemma": "pójść",
@@ -8502,6 +8502,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "pójść",
       "verbalNoun": "pójście",
@@ -8599,11 +8604,6 @@
           "chodzić"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -8620,6 +8620,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    },
     "translations": {
       "ENG": [
         "to walk[i]"
@@ -8638,12 +8643,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0075-pójść(go)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "body",
-      "emoji": "🧍"
-    }
+    "_inflectionsRoot": "pol-ver-0075-pójść(go)"
   },
   {
     "lemma": "chodzić",
@@ -8659,6 +8659,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "chodzić",
       "verbalNoun": "chodzenie",
@@ -8780,11 +8785,6 @@
         "iść"
       ],
       "otherShapes": {}
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -8801,6 +8801,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    },
     "translations": {
       "ENG": [
         "to walk[i]"
@@ -8835,12 +8840,7 @@
       ],
       "otherShapes": {}
     },
-    "_inflectionsRoot": "pol-ver-0077-chodzić(go)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "body",
-      "emoji": "🧍"
-    }
+    "_inflectionsRoot": "pol-ver-0077-chodzić(go)"
   },
   {
     "lemma": "jechać",
@@ -8853,6 +8853,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "jechać",
       "verbalNoun": "jechanie",
@@ -8984,11 +8989,6 @@
         "nazjeżdżać pf",
         "pozjeżdżać impf"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -9002,6 +9002,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "driving",
+      "emoji": "🚗"
+    },
     "translations": {
       "ENG": [
         "to drive[i]"
@@ -9046,12 +9051,7 @@
         "pozjeżdżać impf"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0079-jechać(go)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "driving",
-      "emoji": "🚗"
-    }
+    "_inflectionsRoot": "pol-ver-0079-jechać(go)"
   },
   {
     "lemma": "pojechać",
@@ -9064,6 +9064,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "pojechać",
       "verbalNoun": "pojechanie",
@@ -9166,11 +9171,6 @@
           "jeździć"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -9184,6 +9184,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "driving",
+      "emoji": "🚗"
+    },
     "translations": {
       "ENG": [
         "to drive[i]"
@@ -9199,12 +9204,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0081-pojechać(go)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "driving",
-      "emoji": "🚗"
-    }
+    "_inflectionsRoot": "pol-ver-0081-pojechać(go)"
   },
   {
     "lemma": "jeździć",
@@ -9219,6 +9219,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "jeździć",
       "verbalNoun": "jeżdżenie",
@@ -9326,11 +9331,6 @@
         "(nou) jazda jezdnia jeździec objazd wyjazd",
         "(adj) jezdny jeździecki"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -9346,6 +9346,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "driving",
+      "emoji": "🚗"
+    },
     "translations": {
       "ENG": [
         "to drive[i]"
@@ -9366,12 +9371,7 @@
         "(adj) jezdny jeździecki"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0083-jeździć(go)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "driving",
-      "emoji": "🚗"
-    }
+    "_inflectionsRoot": "pol-ver-0083-jeździć(go)"
   },
   {
     "lemma": "pomyśleć",
@@ -9636,6 +9636,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "technology",
+      "emoji": "💻"
+    },
     "inflections": {
       "infinitive": "wyłączać",
       "verbalNoun": "wyłączanie",
@@ -9735,11 +9740,6 @@
         "Synonym: dezaktywować Antonym: włączać  to switch off, to turn off, to disable (put a mechanism, device or system out of operation; to deactivate)",
         "Synonym: wykluczać Antonym: włączać  to exclude (omit from consideration)"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "technology",
-      "emoji": "💻"
     }
   },
   {
@@ -9753,6 +9753,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    },
     "translations": {
       "ENG": [
         "to exclude"
@@ -9764,12 +9769,7 @@
         "Synonym: wykluczać Antonym: włączać  to exclude (omit from consideration)"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0087-wyłączać(turn off)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "abstract",
-      "emoji": "💭"
-    }
+    "_inflectionsRoot": "pol-ver-0087-wyłączać(turn off)"
   },
   {
     "lemma": "wyłączyć",
@@ -9788,6 +9788,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "technology",
+      "emoji": "💻"
+    },
     "inflections": {
       "infinitive": "wyłączyć",
       "verbalNoun": "wyłączenie",
@@ -9887,11 +9892,6 @@
         "Synonym: zdezaktywować Antonym: włączyć  to switch off, to turn off, to disable (put a mechanism, device or system out of operation; to deactivate)",
         "Synonym: wykluczyć Antonym: włączyć  to exclude (omit from consideration)"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "technology",
-      "emoji": "💻"
     }
   },
   {
@@ -9905,6 +9905,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    },
     "translations": {
       "ENG": [
         "to exclude"
@@ -9916,12 +9921,7 @@
         "Synonym: wykluczyć Antonym: włączyć  to exclude (omit from consideration)"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0089-wyłączyć(turn off)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "abstract",
-      "emoji": "💭"
-    }
+    "_inflectionsRoot": "pol-ver-0089-wyłączyć(turn off)"
   },
   {
     "lemma": "otwierać",
@@ -10314,6 +10314,11 @@
     ],
     "frequency": 1,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "mówić",
       "verbalNoun": "mówienie",
@@ -10445,11 +10450,6 @@
         "( adjective ) wymawialny",
         "( noun ) mowa f ( “ speech ” )"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -11065,6 +11065,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "tracić",
       "verbalNoun": "tracenie",
@@ -11164,11 +11169,6 @@
         "Synonyms: marnować trwonić  to waste, to squander (e.g. time)",
         "Synonym: przepuszczać  to pass up, to miss (e.g. an opportunity)"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -11187,6 +11187,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "negative judgement",
+      "emoji": "👎"
+    },
     "translations": {
       "ENG": [
         "to waste"
@@ -11199,12 +11204,7 @@
         "Synonym: przepuszczać  to pass up, to miss (e.g. an opportunity)"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0100-tracić(lose)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "negative judgement",
-      "emoji": "👎"
-    }
+    "_inflectionsRoot": "pol-ver-0100-tracić(lose)"
   },
   {
     "lemma": "stracić",
@@ -11217,6 +11217,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "stracić",
       "verbalNoun": "stracenie",
@@ -11317,11 +11322,6 @@
         "Synonym: przepuścić  to pass up, to miss (e.g. an opportunity)",
         "to execute, to put to death"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -11340,6 +11340,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "negative judgement",
+      "emoji": "👎"
+    },
     "translations": {
       "ENG": [
         "to waste"
@@ -11353,12 +11358,7 @@
         "to execute, to put to death"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0102-stracić(lose)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "negative judgement",
-      "emoji": "👎"
-    }
+    "_inflectionsRoot": "pol-ver-0102-stracić(lose)"
   },
   {
     "lemma": "utracić",
@@ -11972,7 +11972,6 @@
     "lemma": "mawiać",
     "id": "pol-ver-0109-mawiać",
     "aspect": "imperfective",
-    "_untranslated": true,
     "secondaryAspects": [
       "indeterminate",
       "frequentative"
@@ -12103,7 +12102,8 @@
         "zmawiać impf zmówić pf",
         "zamawiać impf zamówić pf"
       ]
-    }
+    },
+    "_untranslated": true
   },
   {
     "lemma": "organizować",
@@ -12352,6 +12352,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "technology",
+      "emoji": "💻"
+    },
     "inflections": {
       "infinitive": "włączyć",
       "verbalNoun": "włączenie",
@@ -12451,11 +12456,6 @@
         "Synonyms: aktywować uaktywnić Antonym: wyłączyć  to switch on, to power up, to enable (put a mechanism, device or system into operation)",
         "Antonym: wyłączyć  to include (bring into as a part or member)"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "technology",
-      "emoji": "💻"
     }
   },
   {
@@ -12469,6 +12469,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    },
     "translations": {
       "ENG": [
         "to include"
@@ -12480,12 +12485,7 @@
         "Antonym: wyłączyć  to include (bring into as a part or member)"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0112-włączyć(switch on)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "abstract",
-      "emoji": "💭"
-    }
+    "_inflectionsRoot": "pol-ver-0112-włączyć(switch on)"
   },
   {
     "lemma": "włączać",
@@ -12504,6 +12504,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "technology",
+      "emoji": "💻"
+    },
     "inflections": {
       "infinitive": "włączać",
       "verbalNoun": "włączanie",
@@ -12603,11 +12608,6 @@
         "Synonyms: aktywować uaktywniać Antonym: wyłączyć  to switch on, to power up, to enable (put a mechanism, device or system into operation)",
         "Synonym: uwzględniać Antonym: wyłączyć  to include (bring into as a part or member)"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "technology",
-      "emoji": "💻"
     }
   },
   {
@@ -12621,6 +12621,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    },
     "translations": {
       "ENG": [
         "to include"
@@ -12632,12 +12637,7 @@
         "Synonym: uwzględniać Antonym: wyłączyć  to include (bring into as a part or member)"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0114-włączać(switch on)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "abstract",
-      "emoji": "💭"
-    }
+    "_inflectionsRoot": "pol-ver-0114-włączać(switch on)"
   },
   {
     "lemma": "wejść",
@@ -15208,6 +15208,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "wysyłać",
       "verbalNoun": "wysyłanie",
@@ -15307,11 +15312,6 @@
           "wysłać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -15328,6 +15328,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "postal service",
+      "emoji": "✉️"
+    },
     "translations": {
       "ENG": [
         "to send",
@@ -15341,12 +15346,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0137-wysyłać(send)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "postal service",
-      "emoji": "✉️"
-    }
+    "_inflectionsRoot": "pol-ver-0137-wysyłać(send)"
   },
   {
     "lemma": "wysłać",
@@ -15362,6 +15362,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "wysłać",
       "verbalNoun": "wysłanie",
@@ -15461,11 +15466,6 @@
           "wysyłać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -15482,6 +15482,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "postal service",
+      "emoji": "✉️"
+    },
     "translations": {
       "ENG": [
         "to send",
@@ -15495,12 +15500,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0139-wysłać(send)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "postal service",
-      "emoji": "✉️"
-    }
+    "_inflectionsRoot": "pol-ver-0139-wysłać(send)"
   },
   {
     "lemma": "wygrywać",
@@ -16860,6 +16860,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "plus verb",
+      "emoji": "🇻"
+    },
     "inflections": {
       "infinitive": "próbować",
       "verbalNoun": "próbowanie",
@@ -16960,11 +16965,6 @@
           "spróbować"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "plus verb",
-      "emoji": "🇻"
     }
   },
   {
@@ -16981,6 +16981,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "plus verb",
+      "emoji": "🇻"
+    },
     "inflections": {
       "infinitive": "spróbować",
       "verbalNoun": "spróbowanie",
@@ -17081,11 +17086,6 @@
           "próbować"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "plus verb",
-      "emoji": "🇻"
     }
   },
   {
@@ -17102,6 +17102,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "plus noun",
+      "emoji": "🇳"
+    },
     "translations": {
       "ENG": [
         "to try",
@@ -17114,11 +17119,6 @@
           "spróbować"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "plus noun",
-      "emoji": "🇳"
     },
     "_inflectionsRoot": "pol-ver-0152-próbować(plus verb)"
   },
@@ -17136,6 +17136,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "plus noun",
+      "emoji": "🇳"
+    },
     "translations": {
       "ENG": [
         "to try",
@@ -17148,11 +17153,6 @@
           "próbować"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "plus noun",
-      "emoji": "🇳"
     },
     "_inflectionsRoot": "pol-ver-0153-spróbować(plus verb)"
   },
@@ -17404,6 +17404,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "zamknąć",
       "verbalNoun": "zamknięcie",
@@ -17504,11 +17509,6 @@
           "zamykać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -17527,6 +17527,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "with key",
+      "emoji": "🔒"
+    },
     "translations": {
       "ENG": [
         "to lock"
@@ -17539,12 +17544,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0156-zamknąć(close)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "with key",
-      "emoji": "🔒"
-    }
+    "_inflectionsRoot": "pol-ver-0156-zamknąć(close)"
   },
   {
     "lemma": "zamykać",
@@ -17563,6 +17563,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "zamykać",
       "verbalNoun": "zamykanie",
@@ -17663,11 +17668,6 @@
           "zamknąć"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -17686,6 +17686,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "with key",
+      "emoji": "🔒"
+    },
     "translations": {
       "ENG": [
         "to lock"
@@ -17698,12 +17703,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0158-zamykać(close)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "with key",
-      "emoji": "🔒"
-    }
+    "_inflectionsRoot": "pol-ver-0158-zamykać(close)"
   },
   {
     "lemma": "nienawidzić",
@@ -19139,6 +19139,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "zgubić",
       "verbalNoun": "zgubienie",
@@ -19244,11 +19249,6 @@
           "gubić"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -19264,6 +19264,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "direction",
+      "emoji": "📍"
+    },
     "translations": {
       "ENG": [
         "to get lost[r]"
@@ -19280,12 +19285,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0172-zgubić(lose)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "direction",
-      "emoji": "📍"
-    }
+    "_inflectionsRoot": "pol-ver-0172-zgubić(lose)"
   },
   {
     "lemma": "obiecywać",
@@ -20008,6 +20008,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "giving",
+      "emoji": "➡️"
+    },
     "inflections": {
       "infinitive": "nauczyć",
       "verbalNoun": "nauczenie",
@@ -20107,11 +20112,6 @@
           "nauczać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "giving",
-      "emoji": "➡️"
     }
   },
   {
@@ -20127,6 +20127,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "receiving",
+      "emoji": "⬅️"
+    },
     "translations": {
       "ENG": [
         "to learn[r]",
@@ -20140,12 +20145,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0180-nauczyć(teach)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "receiving",
-      "emoji": "⬅️"
-    }
+    "_inflectionsRoot": "pol-ver-0180-nauczyć(teach)"
   },
   {
     "lemma": "nauczać",
@@ -20160,6 +20160,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "giving",
+      "emoji": "➡️"
+    },
     "inflections": {
       "infinitive": "nauczać",
       "verbalNoun": "nauczanie",
@@ -20259,11 +20264,6 @@
           "nauczyć"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "giving",
-      "emoji": "➡️"
     }
   },
   {
@@ -20279,6 +20279,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "receiving",
+      "emoji": "⬅️"
+    },
     "translations": {
       "ENG": [
         "to learn[r]",
@@ -20292,12 +20297,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0182-nauczać(teach)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "receiving",
-      "emoji": "⬅️"
-    }
+    "_inflectionsRoot": "pol-ver-0182-nauczać(teach)"
   },
   {
     "lemma": "opisywać",
@@ -21399,6 +21399,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "korzystać",
       "verbalNoun": "korzystanie",
@@ -21498,11 +21503,6 @@
           "skorzystać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -21519,6 +21519,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "positive judgement",
+      "emoji": "👍"
+    },
     "translations": {
       "ENG": [
         "to benefit",
@@ -21532,12 +21537,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0193-korzystać(use)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "positive judgement",
-      "emoji": "👍"
-    }
+    "_inflectionsRoot": "pol-ver-0193-korzystać(use)"
   },
   {
     "lemma": "korzystać",
@@ -21552,6 +21552,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "negative judgement",
+      "emoji": "👎"
+    },
     "translations": {
       "ENG": [
         "to take advantage",
@@ -21565,12 +21570,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0193-korzystać(use)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "negative judgement",
-      "emoji": "👎"
-    }
+    "_inflectionsRoot": "pol-ver-0193-korzystać(use)"
   },
   {
     "lemma": "skorzystać",
@@ -21585,6 +21585,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "skorzystać",
       "verbalNoun": "skorzystanie",
@@ -21684,11 +21689,6 @@
           "korzystać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -21705,6 +21705,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "positive judgement",
+      "emoji": "👍"
+    },
     "translations": {
       "ENG": [
         "to benefit",
@@ -21718,12 +21723,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0196-skorzystać(use)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "positive judgement",
-      "emoji": "👍"
-    }
+    "_inflectionsRoot": "pol-ver-0196-skorzystać(use)"
   },
   {
     "lemma": "skorzystać",
@@ -21742,6 +21742,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "negative judgement",
+      "emoji": "👎"
+    },
     "translations": {
       "ENG": [
         "to take advantage",
@@ -21755,12 +21760,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0196-skorzystać(use)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "negative judgement",
-      "emoji": "👎"
-    }
+    "_inflectionsRoot": "pol-ver-0196-skorzystać(use)"
   },
   {
     "lemma": "uczyć",
@@ -21775,6 +21775,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "giving",
+      "emoji": "➡️"
+    },
     "inflections": {
       "infinitive": "uczyć",
       "verbalNoun": "uczenie",
@@ -21887,11 +21892,6 @@
         "( nouns ) nauczyciel nauczycielka nauczycielstwo nauka nieuk samouk uczelnia uczeń uczennica uczony",
         "( adjectives ) antynaukowy uczony naukowy wyuczalny"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "giving",
-      "emoji": "➡️"
     }
   },
   {
@@ -21907,6 +21907,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "receiving",
+      "emoji": "⬅️"
+    },
     "translations": {
       "ENG": [
         "to learn[r]",
@@ -21933,12 +21938,7 @@
         "( adjectives ) antynaukowy uczony naukowy wyuczalny"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0199-uczyć(teach)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "receiving",
-      "emoji": "⬅️"
-    }
+    "_inflectionsRoot": "pol-ver-0199-uczyć(teach)"
   },
   {
     "lemma": "zapytywać",
@@ -24261,6 +24261,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "linguistics",
+      "emoji": "🔤"
+    },
     "inflections": {
       "infinitive": "odpowiedzieć",
       "verbalNoun": "odpowiedzenie",
@@ -24365,11 +24370,6 @@
           "odpowiadać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "linguistics",
-      "emoji": "🔤"
     }
   },
   {
@@ -24384,6 +24384,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "law/justice",
+      "emoji": "⚖️"
+    },
     "translations": {
       "ENG": [
         "to answer for",
@@ -24401,12 +24406,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0220-odpowiedzieć(reply)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "law/justice",
-      "emoji": "⚖️"
-    }
+    "_inflectionsRoot": "pol-ver-0220-odpowiedzieć(reply)"
   },
   {
     "lemma": "odpowiadać",
@@ -24423,6 +24423,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "linguistics",
+      "emoji": "🔤"
+    },
     "inflections": {
       "infinitive": "odpowiadać",
       "verbalNoun": "odpowiadanie",
@@ -24527,11 +24532,6 @@
           "odpowiedzieć"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "linguistics",
-      "emoji": "🔤"
     }
   },
   {
@@ -24546,6 +24546,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "law/justice",
+      "emoji": "⚖️"
+    },
     "translations": {
       "ENG": [
         "to answer for",
@@ -24563,12 +24568,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0222-odpowiadać(reply)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "law/justice",
-      "emoji": "⚖️"
-    }
+    "_inflectionsRoot": "pol-ver-0222-odpowiadać(reply)"
   },
   {
     "lemma": "poczekać",
@@ -26017,6 +26017,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "to someone else",
+      "emoji": "➡️"
+    },
     "inflections": {
       "infinitive": "denerwować",
       "verbalNoun": "denerwowanie",
@@ -26117,11 +26122,6 @@
           "zdenerwować"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "to someone else",
-      "emoji": "➡️"
     }
   },
   {
@@ -26138,6 +26138,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "to yourself",
+      "emoji": "⬅️"
+    },
     "translations": {
       "ENG": [
         "to be nervous[r]",
@@ -26152,12 +26157,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0236-denerwować(annoy)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "to yourself",
-      "emoji": "⬅️"
-    }
+    "_inflectionsRoot": "pol-ver-0236-denerwować(annoy)"
   },
   {
     "lemma": "zdenerwować",
@@ -26175,6 +26175,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "to someone else",
+      "emoji": "➡️"
+    },
     "inflections": {
       "infinitive": "zdenerwować",
       "verbalNoun": "zdenerwowanie",
@@ -26275,11 +26280,6 @@
           "denerwować"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "to someone else",
-      "emoji": "➡️"
     }
   },
   {
@@ -26296,6 +26296,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "to yourself",
+      "emoji": "⬅️"
+    },
     "translations": {
       "ENG": [
         "to be nervous[r]",
@@ -26310,12 +26315,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0238-zdenerwować(annoy)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "to yourself",
-      "emoji": "⬅️"
-    }
+    "_inflectionsRoot": "pol-ver-0238-zdenerwować(annoy)"
   },
   {
     "lemma": "dążyć",
@@ -27447,6 +27447,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "food",
+      "emoji": "🍲"
+    },
     "inflections": {
       "infinitive": "dojrzeć",
       "verbalNoun": "dojrzenie",
@@ -27550,11 +27555,6 @@
         "adjective dojrzały",
         "noun dojrzałość"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "food",
-      "emoji": "🍲"
     }
   },
   {
@@ -27572,6 +27572,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
+    },
     "translations": {
       "ENG": [
         "to mature[i]"
@@ -27588,12 +27593,7 @@
         "noun dojrzałość"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0249-dojrzeć(ripen)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "person",
-      "emoji": "🏃"
-    }
+    "_inflectionsRoot": "pol-ver-0249-dojrzeć(ripen)"
   },
   {
     "lemma": "dojrzewać",
@@ -27609,6 +27609,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "food",
+      "emoji": "🍲"
+    },
     "inflections": {
       "infinitive": "dojrzewać",
       "verbalNoun": "dojrzewanie",
@@ -27713,11 +27718,6 @@
         "dojrzały",
         "dojrzale"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "food",
-      "emoji": "🍲"
     }
   },
   {
@@ -27735,6 +27735,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
+    },
     "translations": {
       "ENG": [
         "to mature[i]"
@@ -27752,12 +27757,7 @@
         "dojrzale"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0251-dojrzewać(ripen)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "person",
-      "emoji": "🏃"
-    }
+    "_inflectionsRoot": "pol-ver-0251-dojrzewać(ripen)"
   },
   {
     "lemma": "dokonywać",
@@ -28631,6 +28631,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "grab",
+      "emoji": "👜"
+    },
     "inflections": {
       "infinitive": "chwytać",
       "verbalNoun": "chwytanie",
@@ -28746,11 +28751,6 @@
         "nouns chwyt",
         "chwytak"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "grab",
-      "emoji": "👜"
     }
   },
   {
@@ -28769,6 +28769,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "catch",
+      "emoji": "👜"
+    },
     "translations": {
       "ENG": [
         "to catch"
@@ -28796,12 +28801,7 @@
         "chwytak"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0260-chwytać(grab)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "catch",
-      "emoji": "👜"
-    }
+    "_inflectionsRoot": "pol-ver-0260-chwytać(grab)"
   },
   {
     "lemma": "chwycić",
@@ -28816,6 +28816,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "grab",
+      "emoji": "👜"
+    },
     "inflections": {
       "infinitive": "chwycić",
       "verbalNoun": "chwycenie",
@@ -28931,11 +28936,6 @@
         "nouns chwyt",
         "chwytak"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "grab",
-      "emoji": "👜"
     }
   },
   {
@@ -28954,6 +28954,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "catch",
+      "emoji": "👜"
+    },
     "translations": {
       "ENG": [
         "to catch"
@@ -28981,12 +28986,7 @@
         "chwytak"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0262-chwycić(grab)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "catch",
-      "emoji": "👜"
-    }
+    "_inflectionsRoot": "pol-ver-0262-chwycić(grab)"
   },
   {
     "lemma": "dostosować",
@@ -30312,6 +30312,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "czuć",
       "verbalNoun": "czucie",
@@ -30427,11 +30432,6 @@
         "zaczuwać impf zaczuć pf",
         "verb czuwać impf"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -30449,6 +30449,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "with nose",
+      "emoji": "👃"
+    },
     "translations": {
       "ENG": [
         "to smell"
@@ -30477,12 +30482,7 @@
         "verb czuwać impf"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0277-czuć(feel)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "with nose",
-      "emoji": "👃"
-    }
+    "_inflectionsRoot": "pol-ver-0277-czuć(feel)"
   },
   {
     "lemma": "czuć",
@@ -30499,6 +30499,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "translations": {
       "ENG": [
         "to feel[r]"
@@ -30527,12 +30532,7 @@
         "verb czuwać impf"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0277-czuć(feel)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
-    }
+    "_inflectionsRoot": "pol-ver-0277-czuć(feel)"
   },
   {
     "lemma": "poczuć",
@@ -30549,6 +30549,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "poczuć",
       "verbalNoun": "poczucie",
@@ -30651,11 +30656,6 @@
       "derivedTerms": [
         "noun poczucie"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -30673,6 +30673,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "with nose",
+      "emoji": "👃"
+    },
     "translations": {
       "ENG": [
         "to smell"
@@ -30688,12 +30693,7 @@
         "noun poczucie"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0280-poczuć(feel)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "with nose",
-      "emoji": "👃"
-    }
+    "_inflectionsRoot": "pol-ver-0280-poczuć(feel)"
   },
   {
     "lemma": "poczuć",
@@ -30710,6 +30710,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "translations": {
       "ENG": [
         "to feel[r]"
@@ -30725,12 +30730,7 @@
         "noun poczucie"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0280-poczuć(feel)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
-    }
+    "_inflectionsRoot": "pol-ver-0280-poczuć(feel)"
   },
   {
     "lemma": "atakować",
@@ -32327,6 +32327,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "positive judgement",
+      "emoji": "👍"
+    },
     "inflections": {
       "infinitive": "chwalić",
       "verbalNoun": "chwalenie",
@@ -32435,11 +32440,6 @@
         "wychwalać impf wychwalić pf",
         "zachwalać impf zachwalić pf"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "positive judgement",
-      "emoji": "👍"
     }
   },
   {
@@ -32456,6 +32456,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "negative judgement",
+      "emoji": "👎"
+    },
     "translations": {
       "ENG": [
         "to boast"
@@ -32477,12 +32482,7 @@
         "zachwalać impf zachwalić pf"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0296-chwalić(praise)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "negative judgement",
-      "emoji": "👎"
-    }
+    "_inflectionsRoot": "pol-ver-0296-chwalić(praise)"
   },
   {
     "lemma": "pochwalić",
@@ -32500,6 +32500,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "positive judgement",
+      "emoji": "👍"
+    },
     "inflections": {
       "infinitive": "pochwalić",
       "verbalNoun": "pochwalenie",
@@ -32599,11 +32604,6 @@
           "chwalić"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "positive judgement",
-      "emoji": "👍"
     }
   },
   {
@@ -32620,6 +32620,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "negative judgement",
+      "emoji": "👎"
+    },
     "translations": {
       "ENG": [
         "to boast"
@@ -32632,12 +32637,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0298-pochwalić(praise)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "negative judgement",
-      "emoji": "👎"
-    }
+    "_inflectionsRoot": "pol-ver-0298-pochwalić(praise)"
   },
   {
     "lemma": "cenić",
@@ -34937,6 +34937,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "attach",
+      "emoji": "🔗"
+    },
     "inflections": {
       "infinitive": "dołączyć",
       "verbalNoun": "dołączenie",
@@ -35036,11 +35041,6 @@
           "dołączać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "attach",
-      "emoji": "🔗"
     }
   },
   {
@@ -35057,6 +35057,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "join",
+      "emoji": "🔗"
+    },
     "translations": {
       "ENG": [
         "to join[i]",
@@ -35070,12 +35075,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0318-dołączyć(attach)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "join",
-      "emoji": "🔗"
-    }
+    "_inflectionsRoot": "pol-ver-0318-dołączyć(attach)"
   },
   {
     "lemma": "dołączać",
@@ -35088,6 +35088,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "attach",
+      "emoji": "🔗"
+    },
     "inflections": {
       "infinitive": "dołączać",
       "verbalNoun": "dołączanie",
@@ -35187,11 +35192,6 @@
           "dołączyć"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "attach",
-      "emoji": "🔗"
     }
   },
   {
@@ -35208,6 +35208,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "join",
+      "emoji": "🔗"
+    },
     "translations": {
       "ENG": [
         "to join[i]",
@@ -35221,12 +35226,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0320-dołączać(attach)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "join",
-      "emoji": "🔗"
-    }
+    "_inflectionsRoot": "pol-ver-0320-dołączać(attach)"
   },
   {
     "lemma": "bać",
@@ -39836,6 +39836,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "strong meaning",
+      "emoji": "⚫"
+    },
     "inflections": {
       "infinitive": "dręczyć",
       "verbalNoun": "dręczenie",
@@ -39938,11 +39943,6 @@
       "derivedTerms": [
         "noun udręka"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "strong meaning",
-      "emoji": "⚫"
     }
   },
   {
@@ -39961,6 +39961,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "light meaning",
+      "emoji": "⚪"
+    },
     "translations": {
       "ENG": [
         "to bother",
@@ -39978,12 +39983,7 @@
         "noun udręka"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0358-dręczyć(torment)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "light meaning",
-      "emoji": "⚪"
-    }
+    "_inflectionsRoot": "pol-ver-0358-dręczyć(torment)"
   },
   {
     "lemma": "drżeć",
@@ -41261,6 +41261,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "negative only",
+      "emoji": "✖️"
+    },
     "inflections": {
       "infinitive": "doczekać",
       "verbalNoun": "doczekanie",
@@ -41378,11 +41383,6 @@
         "wyczekiwać",
         "zaczekać"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "negative only",
-      "emoji": "✖️"
     }
   },
   {
@@ -41798,6 +41798,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "defend",
+      "emoji": "⚔️"
+    },
     "inflections": {
       "infinitive": "bronić",
       "verbalNoun": "bronienie",
@@ -41907,11 +41912,6 @@
         "noun obrońca",
         "obrona"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "defend",
-      "emoji": "⚔️"
     }
   },
   {
@@ -41929,6 +41929,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "fight back",
+      "emoji": "⚔️"
+    },
     "translations": {
       "ENG": [
         "to fight back[r]"
@@ -41949,12 +41954,7 @@
         "obrona"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0374-bronić(defend)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "fight back",
-      "emoji": "⚔️"
-    }
+    "_inflectionsRoot": "pol-ver-0374-bronić(defend)"
   },
   {
     "lemma": "obronić",
@@ -41971,6 +41971,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "defend",
+      "emoji": "⚔️"
+    },
     "inflections": {
       "infinitive": "obronić",
       "verbalNoun": "obronienie",
@@ -42078,11 +42083,6 @@
       "derivedTerms": [
         "obrona"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "defend",
-      "emoji": "⚔️"
     }
   },
   {
@@ -42100,6 +42100,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "fight back",
+      "emoji": "⚔️"
+    },
     "translations": {
       "ENG": [
         "to fight back[r]"
@@ -42118,12 +42123,7 @@
         "obrona"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0376-obronić(defend)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "fight back",
-      "emoji": "⚔️"
-    }
+    "_inflectionsRoot": "pol-ver-0376-obronić(defend)"
   },
   {
     "lemma": "drażnić",
@@ -47578,6 +47578,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "flourish",
+      "emoji": "🌻"
+    },
     "inflections": {
       "infinitive": "kwitnąć",
       "verbalNoun": "kwitnięcie",
@@ -47695,11 +47700,6 @@
         "zakwit",
         "verb kwiecić"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "flourish",
-      "emoji": "🌻"
     }
   },
   {
@@ -47713,6 +47713,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "blossom",
+      "emoji": "🌻"
+    },
     "translations": {
       "ENG": [
         "to blossom",
@@ -47743,12 +47748,7 @@
         "verb kwiecić"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0425-kwitnąć(flourish)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "blossom",
-      "emoji": "🌻"
-    }
+    "_inflectionsRoot": "pol-ver-0425-kwitnąć(flourish)"
   },
   {
     "lemma": "gromadzić",
@@ -47996,6 +47996,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "driving",
+      "emoji": "🚗"
+    },
     "inflections": {
       "infinitive": "hamować",
       "verbalNoun": "hamowanie",
@@ -48097,11 +48102,6 @@
         "zahamowywać impf zahamować pf",
         "noun hamulec"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "driving",
-      "emoji": "🚗"
     }
   },
   {
@@ -48118,6 +48118,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "driving",
+      "emoji": "🚗"
+    },
     "inflections": {
       "infinitive": "zahamować",
       "verbalNoun": "zahamowanie",
@@ -48227,11 +48232,6 @@
         "wyhamować",
         "wyhamowywać"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "driving",
-      "emoji": "🚗"
     }
   },
   {
@@ -48247,6 +48247,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "translations": {
       "ENG": [
         "to inhibit",
@@ -48262,12 +48267,7 @@
         "noun hamulec"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0429-hamować(brake)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
-    }
+    "_inflectionsRoot": "pol-ver-0429-hamować(brake)"
   },
   {
     "lemma": "zahamować",
@@ -48282,6 +48282,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "translations": {
       "ENG": [
         "to inhibit",
@@ -48305,12 +48310,7 @@
         "wyhamowywać"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0430-zahamować(brake)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
-    }
+    "_inflectionsRoot": "pol-ver-0430-zahamować(brake)"
   },
   {
     "lemma": "interesować",
@@ -51820,6 +51820,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "zamieszać",
       "verbalNoun": "zamieszanie",
@@ -51919,11 +51924,6 @@
           "mieszać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -51935,6 +51935,11 @@
     "topics": [],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "mieszać",
       "verbalNoun": "mieszanie",
@@ -52035,11 +52040,6 @@
       "derivedTerms": [
         "adjective niemieszany"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -52051,6 +52051,11 @@
     "topics": [],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "food",
+      "emoji": "🍲"
+    },
     "translations": {
       "ENG": []
     },
@@ -52064,12 +52069,7 @@
         "adjective niemieszany"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0463-mieszać(mix)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "food",
-      "emoji": "🍲"
-    }
+    "_inflectionsRoot": "pol-ver-0463-mieszać(mix)"
   },
   {
     "lemma": "zamieszać",
@@ -52087,6 +52087,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "food",
+      "emoji": "🍲"
+    },
     "translations": {
       "ENG": [
         "to stir"
@@ -52099,12 +52104,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0462-zamieszać(mix)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "food",
-      "emoji": "🍲"
-    }
+    "_inflectionsRoot": "pol-ver-0462-zamieszać(mix)"
   },
   {
     "lemma": "obniżać",
@@ -52582,6 +52582,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "strong meaning",
+      "emoji": "⚫"
+    },
     "inflections": {
       "infinitive": "męczyć",
       "verbalNoun": "męczenie",
@@ -52697,11 +52702,6 @@
         "noun męka",
         "verb mięknąć impf"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "strong meaning",
-      "emoji": "⚫"
     }
   },
   {
@@ -52720,6 +52720,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "light meaning",
+      "emoji": "⚪"
+    },
     "translations": {
       "ENG": [
         "to nag",
@@ -52750,12 +52755,7 @@
         "verb mięknąć impf"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0470-męczyć(torment)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "light meaning",
-      "emoji": "⚪"
-    }
+    "_inflectionsRoot": "pol-ver-0470-męczyć(torment)"
   },
   {
     "lemma": "męczyć",
@@ -52771,6 +52771,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "tired",
+      "emoji": "🥱"
+    },
     "translations": {
       "ENG": [
         "to nag",
@@ -52801,12 +52806,7 @@
         "verb mięknąć impf"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0470-męczyć(torment)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "tired",
-      "emoji": "🥱"
-    }
+    "_inflectionsRoot": "pol-ver-0470-męczyć(torment)"
   },
   {
     "lemma": "zmęczyć",
@@ -52824,6 +52824,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "strong meaning",
+      "emoji": "⚫"
+    },
     "inflections": {
       "infinitive": "zmęczyć",
       "verbalNoun": "zmęczenie",
@@ -52934,11 +52939,6 @@
         "verb męczyć",
         "zmęczyć"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "strong meaning",
-      "emoji": "⚫"
     }
   },
   {
@@ -52957,6 +52957,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "light meaning",
+      "emoji": "⚪"
+    },
     "translations": {
       "ENG": [
         "to nag",
@@ -52982,12 +52987,7 @@
         "zmęczyć"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0473-zmęczyć(torment)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "light meaning",
-      "emoji": "⚪"
-    }
+    "_inflectionsRoot": "pol-ver-0473-zmęczyć(torment)"
   },
   {
     "lemma": "zmęczyć",
@@ -53003,6 +53003,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "tired",
+      "emoji": "🥱"
+    },
     "translations": {
       "ENG": [
         "to nag",
@@ -53028,12 +53033,7 @@
         "zmęczyć"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0473-zmęczyć(torment)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "tired",
-      "emoji": "🥱"
-    }
+    "_inflectionsRoot": "pol-ver-0473-zmęczyć(torment)"
   },
   {
     "lemma": "obawiać",
@@ -53391,7 +53391,7 @@
       }
     }
   },
-    {
+  {
     "lemma": "narażać na ryzyko",
     "id": "pol-ver-0477-narażać na ryzyko",
     "aspect": "imperfective",
@@ -53627,7 +53627,7 @@
       }
     }
   },
-    {
+  {
     "lemma": "narażać na szwank",
     "id": "pol-ver-0477-narażać na szwank",
     "aspect": "imperfective",
@@ -53874,6 +53874,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    },
     "inflections": {
       "infinitive": "nakładać",
       "verbalNoun": "nakładanie",
@@ -53973,11 +53978,6 @@
           "nałożyć"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "physical",
-      "emoji": "🪨"
     }
   },
   {
@@ -53995,6 +53995,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    },
     "translations": {
       "ENG": [
         "*to impose (e.g. sanctions)"
@@ -54007,12 +54012,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0479-nakładać(eg sunscreen)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "abstract",
-      "emoji": "💭"
-    }
+    "_inflectionsRoot": "pol-ver-0479-nakładać(eg sunscreen)"
   },
   {
     "lemma": "nałożyć",
@@ -54025,6 +54025,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    },
     "inflections": {
       "infinitive": "nałożyć",
       "verbalNoun": "nałożenia",
@@ -54124,11 +54129,6 @@
           "nakładać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "physical",
-      "emoji": "🪨"
     }
   },
   {
@@ -54146,6 +54146,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    },
     "translations": {
       "ENG": [
         "*to impose (e.g. sanctions)"
@@ -54158,12 +54163,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0481-nałożyć(eg sunscreen)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "abstract",
-      "emoji": "💭"
-    }
+    "_inflectionsRoot": "pol-ver-0481-nałożyć(eg sunscreen)"
   },
   {
     "lemma": "nazwać",
@@ -57631,6 +57631,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg a wall",
+      "emoji": "🧱"
+    },
     "inflections": {
       "infinitive": "malować",
       "verbalNoun": "malowanie",
@@ -57767,11 +57772,6 @@
         "malowniczość",
         "malowność"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "eg a wall",
-      "emoji": "🧱"
     }
   },
   {
@@ -57787,6 +57787,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg a picture",
+      "emoji": "🖼️"
+    },
     "translations": {
       "ENG": [
         "to paint"
@@ -57836,12 +57841,7 @@
         "malowność"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0512-malować(wall)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "eg a picture",
-      "emoji": "🖼️"
-    }
+    "_inflectionsRoot": "pol-ver-0512-malować(wall)"
   },
   {
     "lemma": "pomalować",
@@ -58446,6 +58446,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "emotion",
+      "emoji": "🧠"
+    },
     "inflections": {
       "infinitive": "martwić",
       "verbalNoun": "martwienie",
@@ -58549,11 +58554,6 @@
           "zmartwić"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "emotion",
-      "emoji": "🧠"
     }
   },
   {
@@ -58570,6 +58570,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "emotion",
+      "emoji": "🧠"
+    },
     "inflections": {
       "infinitive": "zmartwić",
       "verbalNoun": "zmartwienie",
@@ -58669,11 +58674,6 @@
           "martwić"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "emotion",
-      "emoji": "🧠"
     }
   },
   {
@@ -58690,6 +58690,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "a thought about",
+      "emoji": "💭"
+    },
     "translations": {
       "ENG": [
         "to worry[r]"
@@ -58705,11 +58710,6 @@
           "zmartwić"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "a thought about",
-      "emoji": "💭"
     },
     "_inflectionsRoot": "pol-ver-0519-martwić(emotion)"
   },
@@ -58727,6 +58727,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "a thought about",
+      "emoji": "💭"
+    },
     "translations": {
       "ENG": [
         "to worry[r]"
@@ -58738,11 +58743,6 @@
           "martwić"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "a thought about",
-      "emoji": "💭"
     },
     "_inflectionsRoot": "pol-ver-0520-zmartwić(emotion)"
   },
@@ -59114,6 +59114,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    },
     "inflections": {
       "infinitive": "mijać",
       "verbalNoun": "mijanie",
@@ -59228,11 +59233,6 @@
         "minięcie",
         "preposition mimo"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "physical",
-      "emoji": "🪨"
     }
   },
   {
@@ -59248,6 +59248,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "time",
+      "emoji": "🕒"
+    },
     "translations": {
       "ENG": [
         "to pass",
@@ -59275,12 +59280,7 @@
         "preposition mimo"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0524-mijać(pass by)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "time",
-      "emoji": "🕒"
-    }
+    "_inflectionsRoot": "pol-ver-0524-mijać(pass by)"
   },
   {
     "lemma": "minąć",
@@ -59295,6 +59295,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    },
     "inflections": {
       "infinitive": "minąć",
       "verbalNoun": "minięcie",
@@ -59407,11 +59412,6 @@
         "wymijać impf wyminąć pf",
         "adjective miniony"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "physical",
-      "emoji": "🪨"
     }
   },
   {
@@ -59427,6 +59427,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "time",
+      "emoji": "🕒"
+    },
     "translations": {
       "ENG": [
         "to pass",
@@ -59452,12 +59457,7 @@
         "adjective miniony"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0526-minąć(pass by)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "time",
-      "emoji": "🕒"
-    }
+    "_inflectionsRoot": "pol-ver-0526-minąć(pass by)"
   },
   {
     "lemma": "nakręcić",
@@ -59627,6 +59627,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "film",
+      "emoji": "🎥"
+    },
     "inflections": {
       "infinitive": "nakręcać",
       "verbalNoun": "nakręcanie",
@@ -59726,11 +59731,6 @@
           "nakręcić"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "film",
-      "emoji": "🎥"
     }
   },
   {
@@ -59747,6 +59747,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "romantic",
+      "emoji": "💕"
+    },
     "translations": {
       "ENG": [
         "*to turn on (sexually)"
@@ -59759,12 +59764,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0530-nakręcać(film)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "romantic",
-      "emoji": "💕"
-    }
+    "_inflectionsRoot": "pol-ver-0530-nakręcać(film)"
   },
   {
     "lemma": "naruszać",
@@ -62795,6 +62795,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    },
     "inflections": {
       "infinitive": "odpłynąć",
       "verbalNoun": "odpłynięcie",
@@ -62895,11 +62900,6 @@
           "odpływać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "body",
-      "emoji": "🧍"
     }
   },
   {
@@ -62914,6 +62914,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transport",
+      "emoji": "🚢️️"
+    },
     "translations": {
       "ENG": [
         "to sail away[i]",
@@ -62927,12 +62932,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0557-odpłynąć(swim away)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "transport",
-      "emoji": "🚢️️"
-    }
+    "_inflectionsRoot": "pol-ver-0557-odpłynąć(swim away)"
   },
   {
     "lemma": "odpływać",
@@ -62948,6 +62948,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    },
     "inflections": {
       "infinitive": "odpływać",
       "verbalNoun": "odpływanie",
@@ -63048,11 +63053,6 @@
           "odpłynąć"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "body",
-      "emoji": "🧍"
     }
   },
   {
@@ -63067,6 +63067,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transport",
+      "emoji": "🚢️️"
+    },
     "translations": {
       "ENG": [
         "to sail away[i]",
@@ -63080,12 +63085,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0559-odpływać(swim away)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "transport",
-      "emoji": "🚢️️"
-    }
+    "_inflectionsRoot": "pol-ver-0559-odpływać(swim away)"
   },
   {
     "lemma": "oczyścić",
@@ -63100,6 +63100,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "oczyścić",
       "verbalNoun": "oczyszczenie",
@@ -63199,11 +63204,6 @@
           "oczyszczać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -63219,6 +63219,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "chemical",
+      "emoji": "🧪"
+    },
     "translations": {
       "ENG": [
         "to purify"
@@ -63231,12 +63236,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0561-oczyścić(clean up)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "chemical",
-      "emoji": "🧪"
-    }
+    "_inflectionsRoot": "pol-ver-0561-oczyścić(clean up)"
   },
   {
     "lemma": "oczyszczać",
@@ -63251,6 +63251,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "oczyszczać",
       "verbalNoun": "oczyszczanie",
@@ -63350,11 +63355,6 @@
           "oczyścić"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -63370,6 +63370,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "chemical",
+      "emoji": "🧪"
+    },
     "translations": {
       "ENG": [
         "to purify"
@@ -63382,12 +63387,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0563-oczyszczać(clean up)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "chemical",
-      "emoji": "🧪"
-    }
+    "_inflectionsRoot": "pol-ver-0563-oczyszczać(clean up)"
   },
   {
     "lemma": "ominąć",
@@ -63879,6 +63879,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "odmawiać",
       "verbalNoun": "odmawianie",
@@ -63986,11 +63991,6 @@
       "derivedTerms": [
         "noun odmowa"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -64008,6 +64008,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "plus verb",
+      "emoji": "🇻"
+    },
     "translations": {
       "ENG": [
         "to say no",
@@ -64028,12 +64033,7 @@
         "noun odmowa"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0569-odmawiać(that or someone)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "plus verb",
-      "emoji": "🇻"
-    }
+    "_inflectionsRoot": "pol-ver-0569-odmawiać(that or someone)"
   },
   {
     "lemma": "odmawiać",
@@ -64050,6 +64050,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "plus noun",
+      "emoji": "🇳"
+    },
     "translations": {
       "ENG": [
         "to say no",
@@ -64070,12 +64075,7 @@
         "noun odmowa"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0569-odmawiać(that or someone)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "plus noun",
-      "emoji": "🇳"
-    }
+    "_inflectionsRoot": "pol-ver-0569-odmawiać(that or someone)"
   },
   {
     "lemma": "odmawiać",
@@ -64092,6 +64092,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "intransitive",
+      "emoji": "🇮"
+    },
     "translations": {
       "ENG": [
         "to say no",
@@ -64112,12 +64117,7 @@
         "noun odmowa"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0569-odmawiać(that or someone)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "intransitive",
-      "emoji": "🇮"
-    }
+    "_inflectionsRoot": "pol-ver-0569-odmawiać(that or someone)"
   },
   {
     "lemma": "odmówić",
@@ -64134,6 +64134,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "odmówić",
       "verbalNoun": "odmówienie",
@@ -64241,11 +64246,6 @@
       "derivedTerms": [
         "noun odmowa"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -64263,6 +64263,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "plus verb",
+      "emoji": "🇻"
+    },
     "translations": {
       "ENG": [
         "to say no",
@@ -64283,12 +64288,7 @@
         "noun odmowa"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0570-odmówić(that or someone)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "plus verb",
-      "emoji": "🇻"
-    }
+    "_inflectionsRoot": "pol-ver-0570-odmówić(that or someone)"
   },
   {
     "lemma": "odmówić",
@@ -64305,6 +64305,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "plus noun",
+      "emoji": "🇳"
+    },
     "translations": {
       "ENG": [
         "to say no",
@@ -64325,12 +64330,7 @@
         "noun odmowa"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0570-odmówić(that or someone)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "plus noun",
-      "emoji": "🇳"
-    }
+    "_inflectionsRoot": "pol-ver-0570-odmówić(that or someone)"
   },
   {
     "lemma": "odmówić",
@@ -64347,6 +64347,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "intransitive",
+      "emoji": "🇮"
+    },
     "translations": {
       "ENG": [
         "to say no",
@@ -64367,12 +64372,7 @@
         "noun odmowa"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0570-odmówić(that or someone)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "intransitive",
-      "emoji": "🇮"
-    }
+    "_inflectionsRoot": "pol-ver-0570-odmówić(that or someone)"
   },
   {
     "lemma": "odbyć",
@@ -64388,6 +64388,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "event",
+      "emoji": "📅️"
+    },
     "inflections": {
       "infinitive": "odbyć",
       "verbalNoun": "odbycie",
@@ -64488,11 +64493,6 @@
           "odbywać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "event",
-      "emoji": "📅️"
     }
   },
   {
@@ -64510,6 +64510,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "organise an event",
+      "emoji": "📅️"
+    },
     "translations": {
       "ENG": [
         "*to hold",
@@ -64524,12 +64529,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0571-odbyć(occur)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "organise an event",
-      "emoji": "📅️"
-    }
+    "_inflectionsRoot": "pol-ver-0571-odbyć(occur)"
   },
   {
     "lemma": "odbywać",
@@ -64545,6 +64545,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "event",
+      "emoji": "📅️"
+    },
     "inflections": {
       "infinitive": "odbywać",
       "verbalNoun": "odbywanie",
@@ -64645,11 +64650,6 @@
           "odbyć"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "event",
-      "emoji": "📅️"
     }
   },
   {
@@ -64667,6 +64667,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "organise an event",
+      "emoji": "📅️"
+    },
     "translations": {
       "ENG": [
         "*to hold",
@@ -64681,12 +64686,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0573-odbywać(occur)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "organise an event",
-      "emoji": "📅️"
-    }
+    "_inflectionsRoot": "pol-ver-0573-odbywać(occur)"
   },
   {
     "lemma": "odziedziczyć",
@@ -65655,6 +65655,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "give back",
+      "emoji": "⬇️"
+    },
     "inflections": {
       "infinitive": "oddać",
       "verbalNoun": "oddanie",
@@ -65758,11 +65763,6 @@
           "oddawać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "give back",
-      "emoji": "⬇️"
     }
   },
   {
@@ -65781,6 +65781,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "donate",
+      "emoji": "⬇️"
+    },
     "translations": {
       "ENG": [
         "to donate"
@@ -65796,12 +65801,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0583-oddać(give back)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "donate",
-      "emoji": "⬇️"
-    }
+    "_inflectionsRoot": "pol-ver-0583-oddać(give back)"
   },
   {
     "lemma": "oddawać",
@@ -65818,6 +65818,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "give back",
+      "emoji": "⬇️"
+    },
     "inflections": {
       "infinitive": "oddawać",
       "verbalNoun": "oddawanie",
@@ -65917,11 +65922,6 @@
           "oddać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "give back",
-      "emoji": "⬇️"
     }
   },
   {
@@ -65940,6 +65940,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "donate",
+      "emoji": "⬇️"
+    },
     "translations": {
       "ENG": [
         "to donate"
@@ -65952,12 +65957,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0585-oddawać(give back)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "donate",
-      "emoji": "⬇️"
-    }
+    "_inflectionsRoot": "pol-ver-0585-oddawać(give back)"
   },
   {
     "lemma": "odchodzić",
@@ -68103,6 +68103,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "mirror",
+      "emoji": "🪞"
+    },
     "inflections": {
       "infinitive": "odbić",
       "verbalNoun": "odbicie",
@@ -68205,11 +68210,6 @@
       "derivedTerms": [
         "verbal noun odbicie"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "mirror",
-      "emoji": "🪞"
     }
   },
   {
@@ -68226,6 +68226,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "mirror",
+      "emoji": "🪞"
+    },
     "inflections": {
       "infinitive": "odbijać",
       "verbalNoun": "odbijanie",
@@ -68328,11 +68333,6 @@
       "derivedTerms": [
         "noun odbicie"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "mirror",
-      "emoji": "🪞"
     }
   },
   {
@@ -68349,6 +68349,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg a ball",
+      "emoji": "🏀"
+    },
     "translations": {
       "ENG": [
         "to bounce"
@@ -68364,12 +68369,7 @@
         "verbal noun odbicie"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0605-odbić(reflect)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "eg a ball",
-      "emoji": "🏀"
-    }
+    "_inflectionsRoot": "pol-ver-0605-odbić(reflect)"
   },
   {
     "lemma": "odbijać",
@@ -68385,6 +68385,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg a ball",
+      "emoji": "🏀"
+    },
     "translations": {
       "ENG": [
         "to bounce"
@@ -68400,12 +68405,7 @@
         "noun odbicie"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0606-odbijać(reflect)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "eg a ball",
-      "emoji": "🏀"
-    }
+    "_inflectionsRoot": "pol-ver-0606-odbijać(reflect)"
   },
   {
     "lemma": "odjechać",
@@ -71635,6 +71635,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "oszukiwać",
       "verbalNoun": "oszukiwanie",
@@ -71742,11 +71747,6 @@
         "oszustka",
         "oszustwo"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -71760,6 +71760,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "games/sports",
+      "emoji": "🎲"
+    },
     "translations": {
       "ENG": [
         "to cheat"
@@ -71778,12 +71783,7 @@
         "oszustwo"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0636-oszukiwać(deceive)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "games/sports",
-      "emoji": "🎲"
-    }
+    "_inflectionsRoot": "pol-ver-0636-oszukiwać(deceive)"
   },
   {
     "lemma": "oszukać",
@@ -71800,6 +71800,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "oszukać",
       "verbalNoun": "oszukanie",
@@ -71907,11 +71912,6 @@
         "oszust",
         "oszustwo"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -71925,6 +71925,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "games/sports",
+      "emoji": "🎲"
+    },
     "translations": {
       "ENG": [
         "to cheat"
@@ -71943,12 +71948,7 @@
         "oszustwo"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0638-oszukać(deceive)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "games/sports",
-      "emoji": "🎲"
-    }
+    "_inflectionsRoot": "pol-ver-0638-oszukać(deceive)"
   },
   {
     "lemma": "opłacić",
@@ -72545,6 +72545,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "tobacco",
+      "emoji": "🚬"
+    },
     "inflections": {
       "infinitive": "palić",
       "verbalNoun": "palenie",
@@ -72669,11 +72674,6 @@
         "zapalić pf zapalać impf",
         "noun płomień"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "tobacco",
-      "emoji": "🚬"
     }
   },
   {
@@ -72691,6 +72691,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "translations": {
       "ENG": [
         "to burn"
@@ -72728,12 +72733,7 @@
         "noun płomień"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0645-palić(smoke)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
-    }
+    "_inflectionsRoot": "pol-ver-0645-palić(smoke)"
   },
   {
     "lemma": "spalić",
@@ -72750,6 +72750,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "intransitive",
+      "emoji": "🇮"
+    },
     "inflections": {
       "infinitive": "spalić",
       "verbalNoun": "spalenie",
@@ -72849,11 +72854,6 @@
           "spalać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "intransitive",
-      "emoji": "🇮"
     }
   },
   {
@@ -72871,6 +72871,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "translations": {
       "ENG": [
         "to burn"
@@ -72908,12 +72913,7 @@
         "noun płomień"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0645-palić(smoke)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
-    }
+    "_inflectionsRoot": "pol-ver-0645-palić(smoke)"
   },
   {
     "lemma": "spalić",
@@ -72930,6 +72930,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transitive",
+      "emoji": "🇹"
+    },
     "translations": {
       "ENG": [
         "to burn"
@@ -72941,11 +72946,6 @@
           "spalać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "transitive",
-      "emoji": "🇹"
     },
     "_inflectionsRoot": "pol-ver-0647-spalić(burn intransitive)"
   },
@@ -77723,6 +77723,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    },
     "inflections": {
       "infinitive": "pływać",
       "verbalNoun": "pływanie",
@@ -77846,11 +77851,6 @@
         "noun płetwa",
         "verb pławić"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "body",
-      "emoji": "🧍"
     }
   },
   {
@@ -77869,6 +77869,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    },
     "inflections": {
       "infinitive": "płynąć",
       "verbalNoun": "płynięcie",
@@ -77991,11 +77996,6 @@
         "noun płetwa",
         "verb pławić"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "body",
-      "emoji": "🧍"
     }
   },
   {
@@ -78012,6 +78012,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    },
     "inflections": {
       "infinitive": "popłynąć",
       "verbalNoun": "popłynięcie",
@@ -78114,11 +78119,6 @@
           "pływać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "body",
-      "emoji": "🧍"
     }
   },
   {
@@ -78136,6 +78136,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transport",
+      "emoji": "🚢️️"
+    },
     "translations": {
       "ENG": [
         "to sail[i]"
@@ -78172,12 +78177,7 @@
         "verb pławić"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0688-pływać(swim)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "transport",
-      "emoji": "🚢️️"
-    }
+    "_inflectionsRoot": "pol-ver-0688-pływać(swim)"
   },
   {
     "lemma": "płynąć",
@@ -78194,6 +78194,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transport",
+      "emoji": "🚢️️"
+    },
     "translations": {
       "ENG": [
         "to sail[i]"
@@ -78229,12 +78234,7 @@
         "verb pławić"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0689-płynąć(swim)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "transport",
-      "emoji": "🚢️️"
-    }
+    "_inflectionsRoot": "pol-ver-0689-płynąć(swim)"
   },
   {
     "lemma": "popłynąć",
@@ -78249,6 +78249,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transport",
+      "emoji": "🚢️️"
+    },
     "translations": {
       "ENG": [
         "to sail[i]"
@@ -78264,12 +78269,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0690-popłynąć(swim)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "transport",
-      "emoji": "🚢️️"
-    }
+    "_inflectionsRoot": "pol-ver-0690-popłynąć(swim)"
   },
   {
     "lemma": "pływać",
@@ -78287,6 +78287,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg like a cork",
+      "emoji": "🛟"
+    },
     "translations": {
       "ENG": [
         "to float[i]"
@@ -78323,12 +78328,7 @@
         "verb pławić"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0688-pływać(swim)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "eg like a cork",
-      "emoji": "🛟"
-    }
+    "_inflectionsRoot": "pol-ver-0688-pływać(swim)"
   },
   {
     "lemma": "płynąć",
@@ -78346,6 +78346,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg like a cork",
+      "emoji": "🛟"
+    },
     "translations": {
       "ENG": [
         "to float[i]"
@@ -78381,12 +78386,7 @@
         "verb pławić"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0689-płynąć(swim)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "eg like a cork",
-      "emoji": "🛟"
-    }
+    "_inflectionsRoot": "pol-ver-0689-płynąć(swim)"
   },
   {
     "lemma": "płynąć",
@@ -78404,6 +78404,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "what a liquid does",
+      "emoji": "🚰"
+    },
     "translations": {
       "ENG": [
         "to float[i]"
@@ -78439,12 +78444,7 @@
         "verb pławić"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0689-płynąć(swim)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "what a liquid does",
-      "emoji": "🚰"
-    }
+    "_inflectionsRoot": "pol-ver-0689-płynąć(swim)"
   },
   {
     "lemma": "popłynąć",
@@ -78460,6 +78460,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg like a cork",
+      "emoji": "🛟"
+    },
     "translations": {
       "ENG": [
         "to float[i]"
@@ -78475,12 +78480,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0690-popłynąć(swim)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "eg like a cork",
-      "emoji": "🛟"
-    }
+    "_inflectionsRoot": "pol-ver-0690-popłynąć(swim)"
   },
   {
     "lemma": "popłynąć",
@@ -78496,6 +78496,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "what a liquid does",
+      "emoji": "🚰"
+    },
     "translations": {
       "ENG": [
         "to flow"
@@ -78511,12 +78516,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0690-popłynąć(swim)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "what a liquid does",
-      "emoji": "🚰"
-    }
+    "_inflectionsRoot": "pol-ver-0690-popłynąć(swim)"
   },
   {
     "lemma": "oskarżyć",
@@ -78997,6 +78997,11 @@
     ],
     "frequency": 4,
     "register": 8,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "romantic",
+      "emoji": "💕"
+    },
     "inflections": {
       "infinitive": "pieprzyć",
       "verbalNoun": "pieprzenie",
@@ -79143,11 +79148,6 @@
         "zapieprz",
         "verb pieprznąć pf"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "romantic",
-      "emoji": "💕"
     }
   },
   {
@@ -79163,6 +79163,11 @@
     ],
     "frequency": 4,
     "register": 8,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "negative judgement",
+      "emoji": "👎"
+    },
     "translations": {
       "ENG": [
         "to fuck up"
@@ -79222,12 +79227,7 @@
         "verb pieprznąć pf"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0703-pieprzyć(fuck)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "negative judgement",
-      "emoji": "👎"
-    }
+    "_inflectionsRoot": "pol-ver-0703-pieprzyć(fuck)"
   },
   {
     "lemma": "podkreślać",
@@ -79244,6 +79244,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "writing",
+      "emoji": "📖"
+    },
     "inflections": {
       "infinitive": "podkreślać",
       "verbalNoun": "podkreślanie",
@@ -79348,11 +79353,6 @@
         "nouns podkreślenie",
         "podkreślnik"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "writing",
-      "emoji": "📖"
     }
   },
   {
@@ -79369,6 +79369,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "linguistics",
+      "emoji": "🔤"
+    },
     "translations": {
       "ENG": [
         "to emphasise",
@@ -79387,12 +79392,7 @@
         "podkreślnik"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0705-podkreślać(underline)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "linguistics",
-      "emoji": "🔤"
-    }
+    "_inflectionsRoot": "pol-ver-0705-podkreślać(underline)"
   },
   {
     "lemma": "podkreślić",
@@ -79409,6 +79409,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "writing",
+      "emoji": "📖"
+    },
     "inflections": {
       "infinitive": "podkreślić",
       "verbalNoun": "podkreślenie",
@@ -79513,11 +79518,6 @@
         "nouns podkreślanie",
         "podkreślnik"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "writing",
-      "emoji": "📖"
     }
   },
   {
@@ -79534,6 +79534,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "linguistics",
+      "emoji": "🔤"
+    },
     "translations": {
       "ENG": [
         "to emphasise",
@@ -79552,12 +79557,7 @@
         "podkreślnik"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0707-podkreślić(underline)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "linguistics",
-      "emoji": "🔤"
-    }
+    "_inflectionsRoot": "pol-ver-0707-podkreślić(underline)"
   },
   {
     "lemma": "podnieść",
@@ -79573,6 +79573,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "off the floor",
+      "emoji": "⬆️"
+    },
     "inflections": {
       "infinitive": "podnieść",
       "verbalNoun": "podniesienie",
@@ -79672,11 +79677,6 @@
           "podnosić"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "off the floor",
-      "emoji": "⬆️"
     }
   },
   {
@@ -79693,6 +79693,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "into the air",
+      "emoji": "⬆️"
+    },
     "translations": {
       "ENG": [
         "to raise",
@@ -79706,12 +79711,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0709-podnieść(pick up)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "into the air",
-      "emoji": "⬆️"
-    }
+    "_inflectionsRoot": "pol-ver-0709-podnieść(pick up)"
   },
   {
     "lemma": "podnosić",
@@ -79727,6 +79727,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "off the floor",
+      "emoji": "⬆️"
+    },
     "inflections": {
       "infinitive": "podnosić",
       "verbalNoun": "podnoszenie",
@@ -79826,11 +79831,6 @@
           "podnieść"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "off the floor",
-      "emoji": "⬆️"
     }
   },
   {
@@ -79847,6 +79847,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "into the air",
+      "emoji": "⬆️"
+    },
     "translations": {
       "ENG": [
         "to raise",
@@ -79860,12 +79865,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0711-podnosić(pick up)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "into the air",
-      "emoji": "⬆️"
-    }
+    "_inflectionsRoot": "pol-ver-0711-podnosić(pick up)"
   },
   {
     "lemma": "owinąć",
@@ -81655,6 +81655,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "zapamiętać",
       "verbalNoun": "zapamiętanie",
@@ -81755,11 +81760,6 @@
           "zapamiętywać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -81776,6 +81776,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "school",
+      "emoji": "🎒"
+    },
     "translations": {
       "ENG": [
         "to remember",
@@ -81789,12 +81794,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0728-zapamiętać(remember)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "school",
-      "emoji": "🎒"
-    }
+    "_inflectionsRoot": "pol-ver-0728-zapamiętać(remember)"
   },
   {
     "lemma": "zapamiętywać",
@@ -82404,6 +82404,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "connect",
+      "emoji": "🔗"
+    },
     "inflections": {
       "infinitive": "połączyć",
       "verbalNoun": "połączenie",
@@ -82503,11 +82508,6 @@
           "łączyć"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "connect",
-      "emoji": "🔗"
     }
   },
   {
@@ -82526,6 +82526,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "combine",
+      "emoji": "🔗"
+    },
     "translations": {
       "ENG": [
         "to combine"
@@ -82538,12 +82543,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0735-połączyć(connect)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "combine",
-      "emoji": "🔗"
-    }
+    "_inflectionsRoot": "pol-ver-0735-połączyć(connect)"
   },
   {
     "lemma": "łączyć",
@@ -82558,6 +82558,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "connect",
+      "emoji": "🔗"
+    },
     "inflections": {
       "infinitive": "łączyć",
       "verbalNoun": "łączenie",
@@ -82674,11 +82679,6 @@
         "łączeń",
         "łącznik"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "connect",
-      "emoji": "🔗"
     }
   },
   {
@@ -82697,6 +82697,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "combine",
+      "emoji": "🔗"
+    },
     "translations": {
       "ENG": [
         "to combine"
@@ -82726,12 +82731,7 @@
         "łącznik"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0737-łączyć(connect)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "combine",
-      "emoji": "🔗"
-    }
+    "_inflectionsRoot": "pol-ver-0737-łączyć(connect)"
   },
   {
     "lemma": "podróżować",
@@ -85039,6 +85039,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "guard",
+      "emoji": "🛡️"
+    },
     "inflections": {
       "infinitive": "pilnować",
       "verbalNoun": "pilnowanie",
@@ -85142,11 +85147,6 @@
         "adjective pilny",
         "adverb pilnie"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "guard",
-      "emoji": "🛡️"
     }
   },
   {
@@ -85161,6 +85161,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "watch",
+      "emoji": "👀"
+    },
     "translations": {
       "ENG": [
         "to watch",
@@ -85178,12 +85183,7 @@
         "adverb pilnie"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0758-pilnować(guard)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "watch",
-      "emoji": "👀"
-    }
+    "_inflectionsRoot": "pol-ver-0758-pilnować(guard)"
   },
   {
     "lemma": "planować",
@@ -88722,6 +88722,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg for business",
+      "emoji": "🕴️"
+    },
     "inflections": {
       "infinitive": "poznawać",
       "verbalNoun": "poznawanie",
@@ -88828,11 +88833,6 @@
       "derivedTerms": [
         "proverb prawdziwych przyjaciół poznaje się w biedzie"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "eg for business",
-      "emoji": "🕴️"
     }
   },
   {
@@ -88849,6 +88849,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg for business",
+      "emoji": "🕴️"
+    },
     "inflections": {
       "infinitive": "poznać",
       "verbalNoun": "poznanie",
@@ -88952,11 +88957,6 @@
       "derivedTerms": [
         "poznań"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "eg for business",
-      "emoji": "🕴️"
     }
   },
   {
@@ -88974,6 +88974,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "remember information",
+      "emoji": "👀"
+    },
     "translations": {
       "ENG": [
         "to recognise"
@@ -88992,12 +88997,7 @@
         "proverb prawdziwych przyjaciół poznaje się w biedzie"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0790-poznawać(meet)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "remember information",
-      "emoji": "👀"
-    }
+    "_inflectionsRoot": "pol-ver-0790-poznawać(meet)"
   },
   {
     "lemma": "poznać",
@@ -89014,6 +89014,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "remember information",
+      "emoji": "👀"
+    },
     "translations": {
       "ENG": [
         "to recognise"
@@ -89029,12 +89034,7 @@
         "poznań"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0791-poznać(meet)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "remember information",
-      "emoji": "👀"
-    }
+    "_inflectionsRoot": "pol-ver-0791-poznać(meet)"
   },
   {
     "lemma": "potrząsać",
@@ -89753,6 +89753,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "omit",
+      "emoji": "✖️"
+    },
     "inflections": {
       "infinitive": "pominąć",
       "verbalNoun": "pominięcie",
@@ -89853,11 +89858,6 @@
           "pomijać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "omit",
-      "emoji": "✖️"
     }
   },
   {
@@ -89874,6 +89874,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "skip",
+      "emoji": "✖️"
+    },
     "translations": {
       "ENG": [
         "to skip"
@@ -89886,12 +89891,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0800-pominąć(omit)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "skip",
-      "emoji": "✖️"
-    }
+    "_inflectionsRoot": "pol-ver-0800-pominąć(omit)"
   },
   {
     "lemma": "pomijać",
@@ -89905,6 +89905,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "omit",
+      "emoji": "✖️"
+    },
     "inflections": {
       "infinitive": "pomijać",
       "verbalNoun": "pomijanie",
@@ -90005,11 +90010,6 @@
           "pominąć"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "omit",
-      "emoji": "✖️"
     }
   },
   {
@@ -90026,6 +90026,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "skip",
+      "emoji": "✖️"
+    },
     "translations": {
       "ENG": [
         "to skip"
@@ -90038,12 +90043,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0802-pomijać(omit)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "skip",
-      "emoji": "✖️"
-    }
+    "_inflectionsRoot": "pol-ver-0802-pomijać(omit)"
   },
   {
     "lemma": "przebrać",
@@ -90642,6 +90642,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "driving",
+      "emoji": "🚗"
+    },
     "inflections": {
       "infinitive": "potrącić",
       "verbalNoun": "potrącenie",
@@ -90741,11 +90746,6 @@
           "potrącać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "driving",
-      "emoji": "🚗"
     }
   },
   {
@@ -92912,6 +92912,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "take over",
+      "emoji": "⚪"
+    },
     "inflections": {
       "infinitive": "przejąć",
       "verbalNoun": "przejęcie",
@@ -93011,11 +93016,6 @@
           "przejmować"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "take over",
-      "emoji": "⚪"
     }
   },
   {
@@ -93032,6 +93032,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "seize",
+      "emoji": "⚪"
+    },
     "translations": {
       "ENG": [
         "to seize"
@@ -93044,12 +93049,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0828-przejąć(take)(take over)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "seize",
-      "emoji": "⚪"
-    }
+    "_inflectionsRoot": "pol-ver-0828-przejąć(take)(take over)"
   },
   {
     "lemma": "przejąć",
@@ -93065,6 +93065,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "psychological",
+      "emoji": "🧠"
+    },
     "translations": {
       "ENG": [
         "to mind",
@@ -93078,12 +93083,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0828-przejąć(take)(take over)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "psychological",
-      "emoji": "🧠"
-    }
+    "_inflectionsRoot": "pol-ver-0828-przejąć(take)(take over)"
   },
   {
     "lemma": "przejmować",
@@ -93098,6 +93098,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "take over",
+      "emoji": "⚪"
+    },
     "inflections": {
       "infinitive": "przejmować",
       "verbalNoun": "przejmowanie",
@@ -93197,11 +93202,6 @@
           "przejąć"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "take over",
-      "emoji": "⚪"
     }
   },
   {
@@ -93218,6 +93218,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "seize",
+      "emoji": "⚪"
+    },
     "translations": {
       "ENG": [
         "to seize"
@@ -93230,12 +93235,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0831-przejmować(take)(take over)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "seize",
-      "emoji": "⚪"
-    }
+    "_inflectionsRoot": "pol-ver-0831-przejmować(take)(take over)"
   },
   {
     "lemma": "przejmować",
@@ -93251,6 +93251,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "psychological",
+      "emoji": "🧠"
+    },
     "translations": {
       "ENG": [
         "to mind",
@@ -93264,12 +93269,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0831-przejmować(take)(take over)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "psychological",
-      "emoji": "🧠"
-    }
+    "_inflectionsRoot": "pol-ver-0831-przejmować(take)(take over)"
   },
   {
     "lemma": "powstać",
@@ -94223,6 +94223,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "perform",
+      "emoji": "⚪"
+    },
     "inflections": {
       "infinitive": "przeprowadzić",
       "verbalNoun": "przeprowadzenie",
@@ -94326,11 +94331,6 @@
       "derivedTerms": [
         "noun przeprowadzka"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "perform",
-      "emoji": "⚪"
     }
   },
   {
@@ -94347,6 +94347,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "perform",
+      "emoji": "⚪"
+    },
     "inflections": {
       "infinitive": "przeprowadzać",
       "verbalNoun": "przeprowadzanie",
@@ -94450,11 +94455,6 @@
       "derivedTerms": [
         "noun przeprowadzka"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "perform",
-      "emoji": "⚪"
     }
   },
   {
@@ -94472,6 +94472,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg house",
+      "emoji": "🏠"
+    },
     "translations": {
       "ENG": [
         "to move[i,r] (change residence)"
@@ -94487,12 +94492,7 @@
         "noun przeprowadzka"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0842-przeprowadzić(carry out)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "eg house",
-      "emoji": "🏠"
-    }
+    "_inflectionsRoot": "pol-ver-0842-przeprowadzić(carry out)"
   },
   {
     "lemma": "przeprowadzać",
@@ -94509,6 +94509,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg house",
+      "emoji": "🏠"
+    },
     "translations": {
       "ENG": [
         "to move[i,r] (change residence)"
@@ -94524,12 +94529,7 @@
         "noun przeprowadzka"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0843-przeprowadzać(carry out)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "eg house",
-      "emoji": "🏠"
-    }
+    "_inflectionsRoot": "pol-ver-0843-przeprowadzać(carry out)"
   },
   {
     "lemma": "pracować",
@@ -96344,6 +96344,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "employment",
+      "emoji": "🏢"
+    },
     "inflections": {
       "infinitive": "prowadzić",
       "verbalNoun": "prowadzenie",
@@ -96471,11 +96476,6 @@
         "zaprowadzić pf zaprowadzać impf",
         "adjective prowadniczy"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "employment",
-      "emoji": "🏢"
     }
   },
   {
@@ -96495,6 +96495,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "employment",
+      "emoji": "🏢"
+    },
     "inflections": {
       "infinitive": "prowadzać",
       "verbalNoun": "prowadzanie",
@@ -96604,11 +96609,6 @@
         "prowadzenie",
         "prowadzony"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "employment",
-      "emoji": "🏢"
     }
   },
   {
@@ -96625,6 +96625,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "driving",
+      "emoji": "🚗"
+    },
     "translations": {
       "ENG": [
         "to drive"
@@ -96664,12 +96669,7 @@
         "adjective prowadniczy"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0861-prowadzić(lead)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "driving",
-      "emoji": "🚗"
-    }
+    "_inflectionsRoot": "pol-ver-0861-prowadzić(lead)"
   },
   {
     "lemma": "prowadzać",
@@ -96688,6 +96688,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "driving",
+      "emoji": "🚗"
+    },
     "translations": {
       "ENG": [
         "to drive"
@@ -96709,12 +96714,7 @@
         "prowadzony"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0862-prowadzać(lead)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "driving",
-      "emoji": "🚗"
-    }
+    "_inflectionsRoot": "pol-ver-0862-prowadzać(lead)"
   },
   {
     "lemma": "przelecieć",
@@ -97587,6 +97587,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "linguistics",
+      "emoji": "🔤"
+    },
     "inflections": {
       "infinitive": "przesadzać",
       "verbalNoun": "przesadzanie",
@@ -97690,11 +97695,6 @@
         "przesada",
         "see also synonyms: see thesaurus: przesadzać"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "linguistics",
-      "emoji": "🔤"
     }
   },
   {
@@ -97708,6 +97708,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "translations": {
       "ENG": [
         "to overdo"
@@ -97724,12 +97729,7 @@
         "see also synonyms: see thesaurus: przesadzać"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0872-przesadzać(exaggerate)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
-    }
+    "_inflectionsRoot": "pol-ver-0872-przesadzać(exaggerate)"
   },
   {
     "lemma": "przesadzić",
@@ -97745,6 +97745,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "linguistics",
+      "emoji": "🔤"
+    },
     "inflections": {
       "infinitive": "przesadzić",
       "verbalNoun": "przesadzenie",
@@ -97848,11 +97853,6 @@
         "przesada",
         "see also synonyms: see thesaurus: przesadzać"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "linguistics",
-      "emoji": "🔤"
     }
   },
   {
@@ -97866,6 +97866,11 @@
     ],
     "frequency": 5,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "translations": {
       "ENG": [
         "to overdo"
@@ -97882,12 +97887,7 @@
         "see also synonyms: see thesaurus: przesadzać"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0874-przesadzić(exaggerate)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
-    }
+    "_inflectionsRoot": "pol-ver-0874-przesadzić(exaggerate)"
   },
   {
     "lemma": "przerażać",
@@ -97903,6 +97903,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "frighten",
+      "emoji": "😨"
+    },
     "inflections": {
       "infinitive": "przerażać",
       "verbalNoun": "przerażanie",
@@ -98003,11 +98008,6 @@
           "przerazić"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "frighten",
-      "emoji": "😨"
     }
   },
   {
@@ -98024,6 +98024,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "horrify",
+      "emoji": "🤯"
+    },
     "translations": {
       "ENG": [
         "to horrify",
@@ -98037,12 +98042,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0876-przerażać(frighten)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "horrify",
-      "emoji": "🤯"
-    }
+    "_inflectionsRoot": "pol-ver-0876-przerażać(frighten)"
   },
   {
     "lemma": "przerazić",
@@ -98058,6 +98058,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "frighten",
+      "emoji": "😨"
+    },
     "inflections": {
       "infinitive": "przerazić",
       "verbalNoun": "przerażenie",
@@ -98158,11 +98163,6 @@
           "przerażać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "frighten",
-      "emoji": "😨"
     }
   },
   {
@@ -98179,6 +98179,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "horrify",
+      "emoji": "🤯"
+    },
     "translations": {
       "ENG": [
         "to horrify",
@@ -98192,12 +98197,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0878-przerazić(frighten)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "horrify",
-      "emoji": "🤯"
-    }
+    "_inflectionsRoot": "pol-ver-0878-przerazić(frighten)"
   },
   {
     "lemma": "przerzucić",
@@ -98680,6 +98680,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "przerwać",
       "verbalNoun": "przerwanie",
@@ -98787,11 +98792,6 @@
         "przerywany",
         "przerywnik"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -98811,6 +98811,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "linguistics",
+      "emoji": "🔤"
+    },
     "translations": {
       "ENG": [
         "to interrupt"
@@ -98830,12 +98835,7 @@
         "przerywnik"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0884-przerwać(break)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "linguistics",
-      "emoji": "🔤"
-    }
+    "_inflectionsRoot": "pol-ver-0884-przerwać(break)"
   },
   {
     "lemma": "przerywać",
@@ -98853,6 +98853,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "inflections": {
       "infinitive": "przerywać",
       "verbalNoun": "przerywanie",
@@ -98960,11 +98965,6 @@
         "przerywany",
         "przerywnik"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
@@ -98984,6 +98984,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "linguistics",
+      "emoji": "🔤"
+    },
     "translations": {
       "ENG": [
         "to interrupt"
@@ -99003,12 +99008,7 @@
         "przerywnik"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0886-przerywać(break)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "linguistics",
-      "emoji": "🔤"
-    }
+    "_inflectionsRoot": "pol-ver-0886-przerywać(break)"
   },
   {
     "lemma": "przestawać",
@@ -101696,6 +101696,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    },
     "inflections": {
       "infinitive": "przełożyć",
       "verbalNoun": "przełożenie",
@@ -101796,11 +101801,6 @@
           "przekładać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "object",
-      "emoji": "📦"
     }
   },
   {
@@ -101817,6 +101817,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "event",
+      "emoji": "📅️"
+    },
     "translations": {
       "ENG": [
         "to postpone",
@@ -101831,12 +101836,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0910-przełożyć(move)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "event",
-      "emoji": "📅️"
-    }
+    "_inflectionsRoot": "pol-ver-0910-przełożyć(move)"
   },
   {
     "lemma": "przekładać",
@@ -101851,6 +101851,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    },
     "inflections": {
       "infinitive": "przekładać",
       "verbalNoun": "przekładanie",
@@ -101955,11 +101960,6 @@
           "przełożyć"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "object",
-      "emoji": "📦"
     }
   },
   {
@@ -101976,6 +101976,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "event",
+      "emoji": "📅️"
+    },
     "translations": {
       "ENG": [
         "to postpone",
@@ -101994,12 +101999,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0912-przekładać(move)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "event",
-      "emoji": "📅️"
-    }
+    "_inflectionsRoot": "pol-ver-0912-przekładać(move)"
   },
   {
     "lemma": "poprzeć",
@@ -103904,6 +103904,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "giving",
+      "emoji": "➡️"
+    },
     "inflections": {
       "infinitive": "pożyczyć",
       "verbalNoun": "pożyczenie",
@@ -104010,11 +104015,6 @@
         "zapożyczać",
         "zapożyczyć"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "giving",
-      "emoji": "➡️"
     }
   },
   {
@@ -104031,6 +104031,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "receiving",
+      "emoji": "⬅️"
+    },
     "translations": {
       "ENG": [
         "*to borrow"
@@ -104050,12 +104055,7 @@
         "zapożyczyć"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0930-pożyczyć(lend)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "receiving",
-      "emoji": "⬅️"
-    }
+    "_inflectionsRoot": "pol-ver-0930-pożyczyć(lend)"
   },
   {
     "lemma": "pożyczać",
@@ -104071,6 +104071,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "giving",
+      "emoji": "➡️"
+    },
     "inflections": {
       "infinitive": "pożyczać",
       "verbalNoun": "pożyczanie",
@@ -104178,11 +104183,6 @@
         "zapożyczać",
         "zapożyczyć"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "giving",
-      "emoji": "➡️"
     }
   },
   {
@@ -104199,6 +104199,11 @@
     ],
     "frequency": 2,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "receiving",
+      "emoji": "⬅️"
+    },
     "translations": {
       "ENG": [
         "*to borrow"
@@ -104219,12 +104224,7 @@
         "zapożyczyć"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0932-pożyczać(lend)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "receiving",
-      "emoji": "⬅️"
-    }
+    "_inflectionsRoot": "pol-ver-0932-pożyczać(lend)"
   },
   {
     "lemma": "potrwać",
@@ -104458,6 +104458,11 @@
     ],
     "frequency": 1,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "a language",
+      "emoji": "🇯🇵"
+    },
     "translations": {
       "ENG": [
         "to speak (a language)"
@@ -104499,12 +104504,7 @@
         "( noun ) mowa f ( “ speech ” )"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0094-mówić(talk)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "a language",
-      "emoji": "🇯🇵"
-    }
+    "_inflectionsRoot": "pol-ver-0094-mówić(talk)"
   },
   {
     "lemma": "stwarzać",
@@ -105120,6 +105120,11 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "event",
+      "emoji": "📅️"
+    },
     "inflections": {
       "infinitive": "anulować",
       "verbalNoun": "anulowanie",
@@ -105212,11 +105217,6 @@
       "ENG": [
         "to cancel"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "event",
-      "emoji": "📅️"
     }
   },
   {
@@ -105234,17 +105234,17 @@
     ],
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "event",
+      "emoji": "📅️"
+    },
     "translations": {
       "ENG": [
         "to cancel"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0943-anulować(pf)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "event",
-      "emoji": "📅️"
-    }
+    "_inflectionsRoot": "pol-ver-0943-anulować(pf)"
   },
   {
     "lemma": "rzucić",
@@ -105601,6 +105601,11 @@
     ],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "clothes",
+      "emoji": "👚"
+    },
     "inflections": {
       "infinitive": "założyć",
       "verbalNoun": "założenie",
@@ -105700,11 +105705,6 @@
           "zakładać"
         ]
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "clothes",
-      "emoji": "👚"
     }
   },
   {
@@ -105716,6 +105716,11 @@
     "topics": [],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "psychological",
+      "emoji": "🧠"
+    },
     "translations": {
       "ENG": [
         "to assume"
@@ -105728,12 +105733,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0948-założyć(wear)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "psychological",
-      "emoji": "🧠"
-    }
+    "_inflectionsRoot": "pol-ver-0948-założyć(wear)"
   },
   {
     "lemma": "założyć",
@@ -105744,6 +105744,11 @@
     "topics": [],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "clothes",
+      "emoji": "👚"
+    },
     "translations": {
       "ENG": [
         "to put on"
@@ -105756,12 +105761,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0948-założyć(wear)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "clothes",
-      "emoji": "👚"
-    }
+    "_inflectionsRoot": "pol-ver-0948-założyć(wear)"
   },
   {
     "lemma": "zakładać",
@@ -105772,6 +105772,11 @@
     "topics": [],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "psychological",
+      "emoji": "🧠"
+    },
     "inflections": {
       "infinitive": "zakładać",
       "verbalNoun": "zakładanie",
@@ -105909,11 +105914,6 @@
         "zakłaść pf",
         "references .mw-parser-output .reflist.list-style-lower-alpha ol{list-style:lower-alpha}.mw-parser-output .reflist.list-style-upper-alpha ol{list-style:upper-alpha}.mw-parser-output .reflist.list-style-lower-roman ol{list-style:lower-roman}.mw-parser-output .reflist.list-style-upper-roman ol{list-style:upper-roman}.mw-parser-output .reflist.list-style-lower-greek ol{list-style:lower-greek}.mw-parser-output .reflist.list-style-disc ol{list-style:disc}.mw-parser-output .reflist.list-style-square ol{list-style:square}.mw-parser-output .reflist.list-style-none ol{list-style:none}.mw-parser-output .reflist.nobacklinks .mw-cite-backlink,.mw-parser-output .reflist.nobacklinks li>a{display:none}.mw-parser-output .reflist.font-size-xx-small ol{font-size:xx-small}.mw-parser-output .reflist.font-size-x-small ol{font-size:x-small}.mw-parser-output .reflist.font-size-smaller ol{font-size:smaller}.mw-parser-output .reflist.font-size-small ol{font-size:small}.mw-parser-output .reflist.font-size-medium ol{font-size:medium}.mw-parser-output .reflist.font-size-large ol{font-size:large}.mw-parser-output .reflist.font-size-larger ol{font-size:larger}.mw-parser-output .reflist.font-size-x-large ol{font-size:x-large}.mw-parser-output .reflist.font-size-xx-large ol{font-size:xx-large}.mw-parser-output .reflist[data-column-count=\"2\"] .mw-references-wrap{column-count:2}.mw-parser-output .reflist[data-column-count=\"3\"] .mw-references-wrap{column-count:3}.mw-parser-output .reflist[data-column-count=\"4\"] .mw-references-wrap{column-count:4}.mw-parser-output .reflist[data-column-count=\"5\"] .mw-references-wrap{column-count:5} ^ b. sieradzka-baziur , editor (2011–2015), “ zakładać, zakładać się ”, in słownik pojęciowy języka staropolskiego conceptual dictionary of old polish (in polish), kraków ijp pan →isbn"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "psychological",
-      "emoji": "🧠"
     }
   },
   {
@@ -105925,6 +105925,11 @@
     "topics": [],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "games/sports",
+      "emoji": "🎲"
+    },
     "translations": {
       "ENG": [
         "to assume"
@@ -105937,12 +105942,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0948-założyć(wear)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "games/sports",
-      "emoji": "🎲"
-    }
+    "_inflectionsRoot": "pol-ver-0948-założyć(wear)"
   },
   {
     "lemma": "zakładać",
@@ -105953,6 +105953,11 @@
     "topics": [],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "games/sports",
+      "emoji": "🎲"
+    },
     "translations": {
       "ENG": [
         "to assume"
@@ -106003,12 +106008,7 @@
         "references .mw-parser-output .reflist.list-style-lower-alpha ol{list-style:lower-alpha}.mw-parser-output .reflist.list-style-upper-alpha ol{list-style:upper-alpha}.mw-parser-output .reflist.list-style-lower-roman ol{list-style:lower-roman}.mw-parser-output .reflist.list-style-upper-roman ol{list-style:upper-roman}.mw-parser-output .reflist.list-style-lower-greek ol{list-style:lower-greek}.mw-parser-output .reflist.list-style-disc ol{list-style:disc}.mw-parser-output .reflist.list-style-square ol{list-style:square}.mw-parser-output .reflist.list-style-none ol{list-style:none}.mw-parser-output .reflist.nobacklinks .mw-cite-backlink,.mw-parser-output .reflist.nobacklinks li>a{display:none}.mw-parser-output .reflist.font-size-xx-small ol{font-size:xx-small}.mw-parser-output .reflist.font-size-x-small ol{font-size:x-small}.mw-parser-output .reflist.font-size-smaller ol{font-size:smaller}.mw-parser-output .reflist.font-size-small ol{font-size:small}.mw-parser-output .reflist.font-size-medium ol{font-size:medium}.mw-parser-output .reflist.font-size-large ol{font-size:large}.mw-parser-output .reflist.font-size-larger ol{font-size:larger}.mw-parser-output .reflist.font-size-x-large ol{font-size:x-large}.mw-parser-output .reflist.font-size-xx-large ol{font-size:xx-large}.mw-parser-output .reflist[data-column-count=\"2\"] .mw-references-wrap{column-count:2}.mw-parser-output .reflist[data-column-count=\"3\"] .mw-references-wrap{column-count:3}.mw-parser-output .reflist[data-column-count=\"4\"] .mw-references-wrap{column-count:4}.mw-parser-output .reflist[data-column-count=\"5\"] .mw-references-wrap{column-count:5} ^ b. sieradzka-baziur , editor (2011–2015), “ zakładać, zakładać się ”, in słownik pojęciowy języka staropolskiego conceptual dictionary of old polish (in polish), kraków ijp pan →isbn"
       ]
     },
-    "_inflectionsRoot": "pol-ver-0950-zakładać(assume)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "games/sports",
-      "emoji": "🎲"
-    }
+    "_inflectionsRoot": "pol-ver-0950-zakładać(assume)"
   },
   {
     "lemma": "zakładać",
@@ -106019,6 +106019,11 @@
     "topics": [],
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "clothes",
+      "emoji": "👚"
+    },
     "translations": {
       "ENG": [
         "to put on"
@@ -106031,12 +106036,7 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-ver-0950-zakładać(assume)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "clothes",
-      "emoji": "👚"
-    }
+    "_inflectionsRoot": "pol-ver-0950-zakładać(assume)"
   },
   {
     "lemma": "przypuszczać",
@@ -106259,27 +106259,12 @@
     }
   },
   {
-    "id": "pol-ver-0955-twierdzić",
     "lemma": "twierdzić",
+    "id": "pol-ver-0955-twierdzić",
     "aspect": "imperfective",
     "secondaryAspects": [],
-    "extra": {
-      "derivedTerms": [
-        "verbs potwierdzić pf potwierdzać impf",
-        "przytwierdzić pf przytwierdzać impf",
-        "stwierdzić pf stwierdzać impf",
-        "utwierdzić pf utwierdzać impf",
-        "zatwierdzić pf zatwierdzać impf"
-      ]
-    },
     "frequency": 4,
     "register": 0,
-    "translations": {
-      "ENG": [
-        "to claim[i] (to state a new fact)",
-        "to maintain[i]"
-      ]
-    },
     "inflections": {
       "infinitive": "twierdzić",
       "verbalNoun": "twierdzenie",
@@ -106367,35 +106352,34 @@
           }
         }
       }
+    },
+    "translations": {
+      "ENG": [
+        "to claim[i] (to state a new fact)",
+        "to maintain[i]"
+      ]
+    },
+    "extra": {
+      "derivedTerms": [
+        "verbs potwierdzić pf potwierdzać impf",
+        "przytwierdzić pf przytwierdzać impf",
+        "stwierdzić pf stwierdzać impf",
+        "utwierdzić pf utwierdzać impf",
+        "zatwierdzić pf zatwierdzać impf"
+      ]
     }
   },
   {
-    "id": "pol-ver-0956-stwierdzić(claim)",
     "lemma": "stwierdzić",
+    "id": "pol-ver-0956-stwierdzić(claim)",
     "aspect": "perfective",
     "secondaryAspects": [],
-    "extra": {
-      "otherShapes": {
-        "imperfective": [
-          "stwierdzać"
-        ]
-      }
-    },
     "frequency": 4,
     "register": 0,
     "allohomInfo": {
       "singleWordtype": true,
       "text": "claim",
       "emoji": "💬"
-    },
-    "translations": {
-      "ENG": [
-        "to state",
-        "to affirm",
-        "to attest",
-        "to find",
-        "to ascertain"
-      ]
     },
     "inflections": {
       "infinitive": "stwierdzić",
@@ -106484,20 +106468,29 @@
         },
         "present": false
       }
-    }
-  },
-  {
-    "id": "pol-ver-0957-stwierdzić(conclude)",
-    "lemma": "stwierdzić",
-    "aspect": "perfective",
-    "secondaryAspects": [],
+    },
+    "translations": {
+      "ENG": [
+        "to state",
+        "to affirm",
+        "to attest",
+        "to find",
+        "to ascertain"
+      ]
+    },
     "extra": {
       "otherShapes": {
         "imperfective": [
           "stwierdzać"
         ]
       }
-    },
+    }
+  },
+  {
+    "lemma": "stwierdzić",
+    "id": "pol-ver-0957-stwierdzić(conclude)",
+    "aspect": "perfective",
+    "secondaryAspects": [],
     "frequency": 4,
     "register": 0,
     "allohomInfo": {
@@ -106513,6 +106506,13 @@
         "to find",
         "to ascertain"
       ]
+    },
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "stwierdzać"
+        ]
+      }
     },
     "_inflectionsRoot": "pol-ver-0956-stwierdzić(claim)"
   }
