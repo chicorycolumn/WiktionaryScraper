@@ -37,7 +37,7 @@ if __name__ == '__main__':
                     if index_1 != index_2 and tgt_lobj_1["lemma"] == tgt_lobj_2["lemma"]:
                         sibling_set.append(tgt_lobj_2)
 
-                sibling_set = [siblg for siblg in sibling_set if "inflectionsRoot" not in siblg]
+                sibling_set = [siblg for siblg in sibling_set if "_inflectionsRoot" not in siblg]
                 if len(sibling_set) > 1:
                     siblings.append(sibling_set)
                     sibling_headers.append(tgt_lobj_1["lemma"])
@@ -76,10 +76,10 @@ if __name__ == '__main__':
                 print("")
 
                 if same_exact_inflections:
-                    sibling_b["inflectionsRoot"] = root_id_for_inflections
+                    sibling_b["_inflectionsRoot"] = root_id_for_inflections
 
             for sindex, sibling_b in enumerate(sib_set):
-                if "inflectionsRoot" in sibling_b:
+                if "_inflectionsRoot" in sibling_b:
                     if sindex == 0:
                         c.print_red("Didn't expect first sibling to have inflectionsRoot key: " + sibling_b["id"])
                         raise Exception("Stop")

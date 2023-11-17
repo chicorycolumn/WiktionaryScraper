@@ -9,9 +9,10 @@ from utils.universal import Color as c, get_curried_save, load_tempsave_if_exist
 if __name__ == '__main__':
 
     # # # # # #
-    wordtypes = ["ver"]  # Leave blank for all.
+    wordtypes = []  # Leave blank for all.
     batch = "01"
     suffix = "SRC"
+    files_are_in_done_folder = True
     # # # # # #
 
     def go(wordtype):
@@ -39,7 +40,7 @@ if __name__ == '__main__':
 
         lobj_keys_ref = {
             "ver": ["lemma", "id", "aspect", "secondaryAspects", "tags", "topics", "frequency", "register", "allohomInfo",
-                    "inflections", "translations", "extra", "derivedTerms", "otherShapes"]
+                    "inflections", "translations", "extra", "derivedTerms", "otherShapes", "_inflectionsRoot", "_untranslated"]
         }
 
         move_these_keys_to_extra_ref = {
@@ -54,7 +55,7 @@ if __name__ == '__main__':
         inflection_keys = inflection_keys_ref[wordtype]
 
         input_filename = f"{wordtype}_batch_{batch}_{suffix}"
-        stem = "./../../output_saved/batches/"
+        stem = f"./../../output_saved/batches/{'done/' if files_are_in_done_folder else ''}"
         input_path = f"{stem}{input_filename}"
         save = get_curried_save(input_path, None)
 
@@ -66,32 +67,33 @@ if __name__ == '__main__':
         done_lobjs = []
 
         for lindex, lobj in enumerate(lobjs):
-            reordered_inflections = {}
+            if "_inflectionsRoot" not in lobj:
+                reordered_inflections = {}
 
-            for k in lobj["inflections"]:
-                if k not in inflection_keys:
-                    c.print_red(f'Did not expect inflection key "{k}"')
-                    raise Exception("Stop")
-
-            for k in inflection_keys:
-                if k in lobj["inflections"]:
-                    reordered_inflections[k] = lobj["inflections"][k]
-
-            lobj["inflections"] = reordered_inflections
-
-            if wordtype == "ver":
-                reordered_verbal_inflections = {}
-
-                for k in lobj["inflections"]["verbal"]:
-                    if k not in inflection_keys_ref["verbal"]:
+                for k in lobj["inflections"]:
+                    if k not in inflection_keys:
                         c.print_red(f'Did not expect inflection key "{k}"')
                         raise Exception("Stop")
 
-                for k in inflection_keys_ref["verbal"]:
-                    if k in lobj["inflections"]["verbal"]:
-                        reordered_verbal_inflections[k] = lobj["inflections"]["verbal"][k]
+                for k in inflection_keys:
+                    if k in lobj["inflections"]:
+                        reordered_inflections[k] = lobj["inflections"][k]
 
-                lobj["inflections"]["verbal"] = reordered_verbal_inflections
+                lobj["inflections"] = reordered_inflections
+
+                if wordtype == "ver":
+                    reordered_verbal_inflections = {}
+
+                    for k in lobj["inflections"]["verbal"]:
+                        if k not in inflection_keys_ref["verbal"]:
+                            c.print_red(f'Did not expect inflection key "{k}"')
+                            raise Exception("Stop")
+
+                    for k in inflection_keys_ref["verbal"]:
+                        if k in lobj["inflections"]["verbal"]:
+                            reordered_verbal_inflections[k] = lobj["inflections"]["verbal"][k]
+
+                    lobj["inflections"]["verbal"] = reordered_verbal_inflections
 
             done_lobjs.append(lobj)
 

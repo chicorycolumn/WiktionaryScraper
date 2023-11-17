@@ -877,7 +877,7 @@ def run_sanhedrin(fxn, wordtypes):
 
 def get_unused(lobjs, nex, lang):
     unused = []
-    for lob in [l for l in lobjs if not l.get("untranslated")]:
+    for lob in [l for l in lobjs if not l.get("_untranslated")]:
         found = False
         for nobj in nex:
             if lob["id"] in nobj["traductions"][lang]:
