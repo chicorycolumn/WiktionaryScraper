@@ -55,7 +55,7 @@ if __name__ == '__main__':
                 "lemma", "id",
                 "_inflectionsRoot", "_untranslated", "_lacking",
                 "frequency", "register",
-                "gender",
+                "gender", "tantumSingulare", "tantumPlurale",
                 "tags", "topics", "translations",
                 "allohomInfo",
                 "extra", "derivedTerms", "otherShapes",
@@ -84,7 +84,10 @@ if __name__ == '__main__':
         }
 
         move_these_keys_to_extra_ref = {
-            "ver": ["derivedTerms", "otherShapes"]
+            "ver": ["derivedTerms", "otherShapes"],
+            "nco": ["derivedTerms", "otherShapes"],
+            "npe": ["derivedTerms", "otherShapes"],
+            "adj": ["derivedTerms", "otherShapes"],
         }
 
         if wordtype in move_these_keys_to_extra_ref:

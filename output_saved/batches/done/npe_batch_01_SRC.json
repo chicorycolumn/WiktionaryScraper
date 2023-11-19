@@ -2,6 +2,9 @@
   {
     "lemma": "matka",
     "id": "pol-npe-0022-matka",
+    "frequency": 1,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -16,7 +19,6 @@
         "mother"
       ]
     },
-    "gender": "f",
     "extra": {
       "derivedTerms": [
         "awiomatka",
@@ -47,13 +49,14 @@
         "loc": "matkach",
         "voc": "matki"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "ojciec",
     "id": "pol-npe-0023-ojciec",
+    "frequency": 1,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -68,7 +71,6 @@
         "father"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "abbreviation": [
@@ -114,13 +116,14 @@
         "loc": "ojcach",
         "voc": "ojcowie"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "brat",
     "id": "pol-npe-0001-brat",
+    "frequency": 1,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -135,7 +138,6 @@
         "brother"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -195,13 +197,14 @@
         "loc": "braciach",
         "voc": "bracia"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "siostra",
     "id": "pol-npe-0002-siostra",
+    "frequency": 1,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -216,7 +219,6 @@
         "sister"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -249,13 +251,14 @@
         "loc": "siostrach",
         "voc": "siostry"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "kobieta",
     "id": "pol-npe-0016-kobieta",
+    "frequency": 1,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -269,7 +272,6 @@
         "woman"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -303,13 +305,14 @@
         "loc": "kobietach",
         "voc": "kobiety"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "mężczyzna",
     "id": "pol-npe-0017-mężczyzna",
+    "frequency": 1,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -323,7 +326,6 @@
         "man"
       ]
     },
-    "gender": "m1",
     "extra": {
       "antonyms": [
         "kobieta"
@@ -348,13 +350,14 @@
         "loc": "mężczyznach",
         "voc": "mężczyźni"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "córka",
     "id": "pol-npe-0010-córka",
+    "frequency": 1,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -369,7 +372,6 @@
         "daughter"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -399,13 +401,14 @@
         "loc": "córkach",
         "voc": "córki"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "syn",
     "id": "pol-npe-0011-syn",
+    "frequency": 1,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -420,7 +423,6 @@
         "son"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -456,13 +458,14 @@
         "loc": "synach",
         "voc": "synowie"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "dziadek",
     "id": "pol-npe-0044-dziadek",
+    "frequency": 1,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -477,7 +480,6 @@
         "grandfather"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -511,13 +513,14 @@
         "loc": "dziadkach",
         "voc": "dziadkowie"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "babcia",
     "id": "pol-npe-0045-babcia",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -532,7 +535,6 @@
         "grandmother"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -575,13 +577,14 @@
         "loc": "babciach",
         "voc": "babcie"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "mąż",
     "id": "pol-npe-0026-mąż",
+    "frequency": 1,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -596,7 +599,6 @@
         "husband"
       ]
     },
-    "gender": "m1",
     "extra": {
       "derivedTerms": [
         "mężowski",
@@ -629,13 +631,14 @@
         "loc": "mężach",
         "voc": "mężowie"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "żona",
     "id": "pol-npe-0027-żona",
+    "frequency": 1,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -650,7 +653,6 @@
         "wife"
       ]
     },
-    "gender": "f",
     "extra": {
       "derivedTerms": [
         "bezżenny",
@@ -688,13 +690,14 @@
         "loc": "żonach",
         "voc": "żony"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "wuj",
     "id": "pol-npe-0036-wuj",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -709,7 +712,6 @@
         "uncle"
       ]
     },
-    "gender": "m1",
     "extra": {
       "synonyms": [
         "wujek"
@@ -755,13 +757,14 @@
         "loc": "wujach",
         "voc": "wujowie"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "wujek",
     "id": "pol-npe-0041-wujek",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -776,7 +779,6 @@
         "uncle"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -807,13 +809,14 @@
         "loc": "wujkach",
         "voc": "wujkowie"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "ciocia",
     "id": "pol-npe-0037-ciocia",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -829,7 +832,6 @@
         "auntie"
       ]
     },
-    "gender": "f",
     "extra": {
       "synonyms": [
         "ciotka"
@@ -854,13 +856,14 @@
         "loc": "ciociach",
         "voc": "ciocie"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "kuzyn",
     "id": "pol-npe-0048-kuzyn",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -875,7 +878,6 @@
         "cousin"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -902,13 +904,14 @@
         "loc": "kuzynach",
         "voc": "kuzyni"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "siostrzenica",
     "id": "pol-npe-0024-siostrzenica",
+    "frequency": 3,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -923,7 +926,6 @@
         "niece"
       ]
     },
-    "gender": "f",
     "inflections": {
       "singular": {
         "nom": "siostrzenica",
@@ -943,13 +945,14 @@
         "loc": "siostrzenicach",
         "voc": "siostrzenice"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "bratanica",
     "id": "pol-npe-0025-bratanica",
+    "frequency": 1,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -964,7 +967,6 @@
         "niece"
       ]
     },
-    "gender": "f",
     "inflections": {
       "singular": {
         "nom": "bratanica",
@@ -984,13 +986,14 @@
         "loc": "bratanicach",
         "voc": "bratanice"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "siostrzeniec",
     "id": "pol-npe-0013-siostrzeniec",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -1005,7 +1008,6 @@
         "nephew"
       ]
     },
-    "gender": "m1",
     "inflections": {
       "singular": {
         "nom": "siostrzeniec",
@@ -1028,13 +1030,14 @@
         "loc": "siostrzeńcach",
         "voc": "siostrzeńcy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "bratanek",
     "id": "pol-npe-0014-bratanek",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -1049,7 +1052,6 @@
         "nephew"
       ]
     },
-    "gender": "m1",
     "extra": {
       "synonyms": [
         "brataniec",
@@ -1081,13 +1083,14 @@
           "bratanki"
         ]
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "partner",
     "id": "pol-npe-0020-partner",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -1102,7 +1105,6 @@
         "partner"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -1134,13 +1136,14 @@
         "loc": "partnerach",
         "voc": "partnerzy"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "partnerka",
     "id": "pol-npe-0021-partnerka",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -1155,7 +1158,6 @@
         "partner"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
@@ -1182,13 +1184,14 @@
         "loc": "partnerkach",
         "voc": "partnerki"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "chłopak",
     "id": "pol-npe-0003-chłopak(boy)",
+    "frequency": 1,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -1202,7 +1205,11 @@
         "boy"
       ]
     },
-    "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -1235,18 +1242,15 @@
           "chłopaki"
         ]
       }
-    },
-    "frequency": 1,
-    "register": 0,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
     "lemma": "chłopak",
     "id": "pol-npe-0004-chłopak(boyfriend)",
+    "_inflectionsRoot": "pol-npe-0003-chłopak(boy)",
+    "frequency": 1,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -1262,26 +1266,25 @@
         "boyfriend"
       ]
     },
-    "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "romantic",
+      "emoji": "💕"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
           "chłopiec"
         ]
       }
-    },
-    "frequency": 1,
-    "register": 0,
-    "_inflectionsRoot": "pol-npe-0003-chłopak(boy)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "romantic",
-      "emoji": "💕"
     }
   },
   {
     "lemma": "chłopiec",
     "id": "pol-npe-0005-chłopiec",
+    "frequency": 1,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -1295,7 +1298,6 @@
         "boy"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -1348,13 +1350,14 @@
         "loc": "chłopcach",
         "voc": "chłopcy"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "dziewczyna",
     "id": "pol-npe-0006-dziewczyna(girl)",
+    "frequency": 1,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -1368,7 +1371,11 @@
         "girl"
       ]
     },
-    "gender": "f",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -1402,18 +1409,15 @@
         "loc": "dziewczynach",
         "voc": "dziewczyny"
       }
-    },
-    "frequency": 1,
-    "register": 0,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
     "lemma": "dziewczyna",
     "id": "pol-npe-0007-dziewczyna(girlfriend)",
+    "_inflectionsRoot": "pol-npe-0006-dziewczyna(girl)",
+    "frequency": 1,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -1429,7 +1433,11 @@
         "girlfriend"
       ]
     },
-    "gender": "f",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "romantic",
+      "emoji": "💕"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -1443,19 +1451,14 @@
       "antonyms": [
         "chłopak"
       ]
-    },
-    "frequency": 1,
-    "register": 0,
-    "_inflectionsRoot": "pol-npe-0006-dziewczyna(girl)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "romantic",
-      "emoji": "💕"
     }
   },
   {
     "lemma": "nauczycielka",
     "id": "pol-npe-0008-nauczycielka",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -1472,7 +1475,6 @@
         "teacher"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
@@ -1499,13 +1501,14 @@
         "loc": "nauczycielkach",
         "voc": "nauczycielki"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "nauczyciel",
     "id": "pol-npe-0009-nauczyciel",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -1522,7 +1525,6 @@
         "teacher"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -1553,13 +1555,13 @@
         "loc": "nauczycielach",
         "voc": "nauczyciele"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "laska",
     "id": "pol-npe-8888-laska(woman)",
+    "frequency": 4,
+    "register": 6,
     "gender": "f",
     "inflections": {
       "singular": {
@@ -1580,13 +1582,14 @@
         "loc": "laskach",
         "voc": "laski"
       }
-    },
-    "frequency": 4,
-    "register": 6
+    }
   },
   {
     "lemma": "facet",
     "id": "pol-npe-0012-facet",
+    "frequency": 1,
+    "register": 6,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -1602,7 +1605,6 @@
         "chap"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -1632,13 +1634,14 @@
         "loc": "facetach",
         "voc": "faceci"
       }
-    },
-    "frequency": 1,
-    "register": 6
+    }
   },
   {
     "lemma": "ziom",
     "id": "pol-npe-0015-ziom",
+    "frequency": 4,
+    "register": 6,
+    "gender": "m1",
     "tags": [],
     "topics": [],
     "translations": {
@@ -1648,7 +1651,6 @@
         "dude"
       ]
     },
-    "gender": "m1",
     "extra": {
       "synonyms": [
         "facet",
@@ -1676,13 +1678,14 @@
         "loc": "ziomach",
         "voc": "ziomy"
       }
-    },
-    "frequency": 4,
-    "register": 6
+    }
   },
   {
     "lemma": "aktorka",
     "id": "pol-npe-0018-aktorka",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -1698,7 +1701,6 @@
         "actress"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -1731,13 +1733,14 @@
         "loc": "aktorkach",
         "voc": "aktorki"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "aktor",
     "id": "pol-npe-0019-aktor",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -1753,7 +1756,6 @@
         "actor"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -1798,13 +1800,14 @@
         "loc": "aktorach",
         "voc": "aktorzy"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "przyjaciółka",
     "id": "pol-npe-0124-przyjaciółka",
+    "frequency": 1,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -1819,7 +1822,6 @@
         "friend"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
@@ -1846,13 +1848,14 @@
         "loc": "przyjaciółkach",
         "voc": "przyjaciółki"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "przyjaciel",
     "id": "pol-npe-0125-przyjaciel",
+    "frequency": 1,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -1867,7 +1870,6 @@
         "friend"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -1900,13 +1902,14 @@
         "loc": "przyjaciołach",
         "voc": "przyjaciele"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "kolega",
     "id": "pol-npe-0028-kolega(friend)",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -1923,7 +1926,6 @@
         "colleague"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -1953,13 +1955,14 @@
         "loc": "kolegach",
         "voc": "koledzy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "kolega",
     "id": "pol-npe-0028-kolega(colleague)",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -1976,7 +1979,6 @@
         "colleague"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -2006,13 +2008,14 @@
         "loc": "kolegach",
         "voc": "koledzy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "koleżanka",
     "id": "pol-npe-0121-koleżanka(friend)",
+    "frequency": 3,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -2029,7 +2032,6 @@
         "colleague"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -2059,13 +2061,14 @@
         "loc": "koleżankach",
         "voc": "koleżanki"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "koleżanka",
     "id": "pol-npe-0121-koleżanka(colleague)",
+    "frequency": 3,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -2082,7 +2085,6 @@
         "colleague"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -2112,13 +2114,14 @@
         "loc": "koleżankach",
         "voc": "koleżanki"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "kumpel",
     "id": "pol-npe-0115-kumpel",
+    "frequency": 3,
+    "register": 6,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -2135,7 +2138,6 @@
         "buddy"
       ]
     },
-    "gender": "m1",
     "extra": {
       "synonyms": [
         "znajomy"
@@ -2160,13 +2162,14 @@
         "loc": "kumplach",
         "voc": "kumple"
       }
-    },
-    "frequency": 3,
-    "register": 6
+    }
   },
   {
     "lemma": "kumpela",
     "id": "pol-npe-0115-kumpela",
+    "frequency": 3,
+    "register": 6,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -2183,7 +2186,6 @@
         "buddy"
       ]
     },
-    "gender": "f",
     "extra": {
       "synonyms": [
         "znajoma"
@@ -2208,13 +2210,14 @@
         "loc": "kumpelach",
         "voc": "kumpele"
       }
-    },
-    "frequency": 3,
-    "register": 6
+    }
   },
   {
     "lemma": "człowiek",
     "id": "pol-npe-0031-człowiek",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -2229,7 +2232,6 @@
         "person"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -2288,13 +2290,14 @@
         "loc": "ludziach",
         "voc": "ludzie"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "turysta",
     "id": "pol-npe-0032-turysta",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -2308,7 +2311,6 @@
         "tourist"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -2339,13 +2341,14 @@
         "loc": "turystach",
         "voc": "turyści"
       }
-    },
-    "frequency": 4,
-    "register": 0
+    }
   },
   {
     "lemma": "bohater",
     "id": "pol-npe-0033-bohater(hero)",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -2361,7 +2364,11 @@
         "hero"
       ]
     },
-    "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "positive term",
+      "emoji": "👍"
+    },
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -2404,18 +2411,15 @@
           "bohaterzy"
         ]
       }
-    },
-    "frequency": 4,
-    "register": 0,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "positive term",
-      "emoji": "👍"
     }
   },
   {
     "lemma": "bohater",
     "id": "pol-npe-0034-bohater(protagonist)",
+    "_inflectionsRoot": "pol-npe-0033-bohater(hero)",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -2431,7 +2435,11 @@
         "protagonist"
       ]
     },
-    "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "writing",
+      "emoji": "📖"
+    },
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -2485,19 +2493,14 @@
         "przygody bohatera ― the adventures of a protagonist",
         "śledzić losy bohaterów ― to follow the fate of a protagonist"
       ]
-    },
-    "frequency": 4,
-    "register": 0,
-    "_inflectionsRoot": "pol-npe-0033-bohater(hero)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "writing",
-      "emoji": "📖"
     }
   },
   {
     "lemma": "polityk",
     "id": "pol-npe-0035-polityk",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -2513,7 +2516,6 @@
         "politician"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -2541,13 +2543,14 @@
         "loc": "politykach",
         "voc": "politycy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "chirurg",
     "id": "pol-npe-0038-chirurg",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -2564,7 +2567,6 @@
         "surgeon"
       ]
     },
-    "gender": "m1",
     "extra": {
       "synonyms": [
         "operator"
@@ -2589,13 +2591,14 @@
         "loc": "chirurgach",
         "voc": "chirurdzy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "sąsiad",
     "id": "pol-npe-0039-sąsiad",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -2610,7 +2613,6 @@
         "neighbour"
       ]
     },
-    "gender": "m1",
     "extra": {
       "derivedTerms": [
         "sąsiadka",
@@ -2637,13 +2639,14 @@
         "loc": "sąsiadach",
         "voc": "sąsiedzi"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "sąsiadka",
     "id": "pol-npe-0040-sąsiadka",
+    "frequency": 3,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -2658,7 +2661,6 @@
         "neighbour"
       ]
     },
-    "gender": "f",
     "inflections": {
       "singular": {
         "nom": "sąsiadka",
@@ -2678,13 +2680,14 @@
         "loc": "sąsiadkach",
         "voc": "sąsiadki"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "tłumacz",
     "id": "pol-npe-0042-tłumacz",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -2701,7 +2704,6 @@
         "interpreter"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -2734,13 +2736,14 @@
         "loc": "tłumaczach",
         "voc": "tłumacze"
       }
-    },
-    "frequency": 4,
-    "register": 0
+    }
   },
   {
     "lemma": "kierownik",
     "id": "pol-npe-0043-kierownik",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -2757,7 +2760,6 @@
         "head"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -2788,13 +2790,14 @@
         "loc": "kierownikach",
         "voc": "kierownicy"
       }
-    },
-    "frequency": 4,
-    "register": 0
+    }
   },
   {
     "lemma": "rycerz",
     "id": "pol-npe-0046-rycerz",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -2811,7 +2814,6 @@
         "knight"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -2845,13 +2847,14 @@
         "loc": "rycerzach",
         "voc": "rycerze"
       }
-    },
-    "frequency": 4,
-    "register": 0
+    }
   },
   {
     "lemma": "osoba",
     "id": "pol-npe-0047-osoba",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -2866,7 +2869,6 @@
         "person"
       ]
     },
-    "gender": "f",
     "inflections": {
       "singular": {
         "nom": "osoba",
@@ -2886,13 +2888,14 @@
         "loc": "osobach",
         "voc": "osoby"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "złodziej",
     "id": "pol-npe-0049-złodziej",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "crime",
@@ -2909,7 +2912,6 @@
         "thief"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -2952,13 +2954,14 @@
         "loc": "złodziejach",
         "voc": "złodzieje"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "kelner",
     "id": "pol-npe-0050-kelner",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -2978,7 +2981,6 @@
         "waiter"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -3005,13 +3007,14 @@
         "loc": "kelnerach",
         "voc": "kelnerzy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "kelnerka",
     "id": "pol-npe-0051-kelnerka",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -3031,7 +3034,6 @@
         "waitress"
       ]
     },
-    "gender": "f",
     "inflections": {
       "singular": {
         "nom": "kelnerka",
@@ -3051,13 +3053,14 @@
         "loc": "kelnerkach",
         "voc": "kelnerki"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "inżynier",
     "id": "pol-npe-0052-inżynier",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -3074,7 +3077,6 @@
         "engineer"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "abbreviation": [
@@ -3111,13 +3113,14 @@
           "inżynierzy"
         ]
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "papież",
     "id": "pol-npe-0053-papież",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -3133,7 +3136,6 @@
         "pope"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -3174,13 +3176,14 @@
         "loc": "papieżach",
         "voc": "papieże"
       }
-    },
-    "frequency": 4,
-    "register": 0
+    }
   },
   {
     "lemma": "policja",
     "id": "pol-npe-0054-policja",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -3195,7 +3198,6 @@
         "police"
       ]
     },
-    "gender": "f",
     "extra": {
       "derivedTerms": [
         "policyjny",
@@ -3230,13 +3232,14 @@
         "loc": "policjach",
         "voc": "policje"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "obcy",
     "id": "pol-npe-0055-obcy(alien)",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m1",
     "tags": [],
     "topics": [
       "astronomy"
@@ -3246,7 +3249,11 @@
         "alien"
       ]
     },
-    "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "animal",
+      "emoji": "🐕"
+    },
     "extra": {
       "synonyms": [
         "kosmita",
@@ -3276,18 +3283,15 @@
         "loc": "obcych",
         "voc": "obcy"
       }
-    },
-    "frequency": 4,
-    "register": 0,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "animal",
-      "emoji": "🐕"
     }
   },
   {
     "lemma": "obcy",
     "id": "pol-npe-0056-obcy(stranger)",
+    "_inflectionsRoot": "pol-npe-0055-obcy(alien)",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -3301,7 +3305,11 @@
         "stranger"
       ]
     },
-    "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
+    },
     "extra": {
       "synonyms": [
         "nieznajomy"
@@ -3309,19 +3317,14 @@
       "derivedTerms": [
         "obczyzna"
       ]
-    },
-    "frequency": 4,
-    "register": 0,
-    "_inflectionsRoot": "pol-npe-0055-obcy(alien)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "person",
-      "emoji": "🏃"
     }
   },
   {
     "lemma": "kierowca",
     "id": "pol-npe-0057-kierowca",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -3339,7 +3342,6 @@
         "driver"
       ]
     },
-    "gender": "m1",
     "extra": {
       "synonyms": [
         "(",
@@ -3367,13 +3369,14 @@
         "loc": "kierowcach",
         "voc": "kierowcy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "pułkownik",
     "id": "pol-npe-0058-pułkownik",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -3389,7 +3392,6 @@
         "colonel"
       ]
     },
-    "gender": "m1",
     "inflections": {
       "singular": {
         "nom": "pułkownik",
@@ -3409,13 +3411,14 @@
         "loc": "pułkownikach",
         "voc": "pułkownicy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "przestępca",
     "id": "pol-npe-0059-przestępca",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "crime"
     ],
@@ -3429,7 +3432,6 @@
         "criminal"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -3456,13 +3458,14 @@
         "loc": "przestępcach",
         "voc": "przestępcy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "teść",
     "id": "pol-npe-0060-teść",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -3477,7 +3480,6 @@
         "father-in-law"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -3508,13 +3510,14 @@
         "loc": "teściach",
         "voc": "teściowie"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "bóg",
     "id": "pol-npe-0061-bóg",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [],
     "topics": [
       "philosophy and ethics",
@@ -3525,7 +3528,6 @@
         "god"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -3667,13 +3669,14 @@
         "loc": "bogach",
         "voc": "bogowie"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "strażak",
     "id": "pol-npe-0062-strażak",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -3690,7 +3693,6 @@
         "fireman"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -3717,13 +3719,14 @@
         "loc": "strażakach",
         "voc": "strażacy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "adwokat",
     "id": "pol-npe-0063-adwokat",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -3742,7 +3745,6 @@
         "solicitor"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -3785,13 +3787,14 @@
         "loc": "adwokatach",
         "voc": "adwokaci"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "pracownik",
     "id": "pol-npe-0064-pracownik",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -3808,7 +3811,6 @@
         "worker"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -3836,13 +3838,14 @@
         "loc": "pracownikach",
         "voc": "pracownicy"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "narzeczony",
     "id": "pol-npe-0065-narzeczony",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -3858,7 +3861,6 @@
         "fiancé"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -3888,13 +3890,14 @@
         "loc": "narzeczonych",
         "voc": "narzeczeni"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "narzeczona",
     "id": "pol-npe-0066-narzeczona",
+    "frequency": 3,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -3910,7 +3913,6 @@
         "fiancée"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
@@ -3940,13 +3942,14 @@
         "loc": "narzeczonych",
         "voc": "narzeczone"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "ogrodnik",
     "id": "pol-npe-0067-ogrodnik",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -3963,7 +3966,6 @@
         "gardener"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -3995,13 +3997,14 @@
         "loc": "ogrodnikach",
         "voc": "ogrodnicy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "nastolatek",
     "id": "pol-npe-0068-nastolatek",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -4016,7 +4019,6 @@
         "teenager"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -4048,13 +4050,14 @@
         "loc": "nastolatkach",
         "voc": "nastolatki"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "nastolatka",
     "id": "pol-npe-0069-nastolatka",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -4069,7 +4072,6 @@
         "teenager"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
@@ -4096,13 +4098,14 @@
         "loc": "nastolatkach",
         "voc": "nastolatki"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "student",
     "id": "pol-npe-0070-student",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -4118,7 +4121,6 @@
         "student"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -4151,13 +4153,14 @@
         "loc": "studentach",
         "voc": "studenci"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "studentka",
     "id": "pol-npe-0071-studentka",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -4172,7 +4175,6 @@
         "student"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
@@ -4202,13 +4204,14 @@
         "loc": "studentkach",
         "voc": "studentki"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "optyk",
     "id": "pol-npe-0072-optyk",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -4224,7 +4227,6 @@
         "optician"
       ]
     },
-    "gender": "m1",
     "extra": {
       "derivedTerms": [
         "optyka"
@@ -4249,13 +4251,14 @@
         "loc": "optykach",
         "voc": "optycy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "modelka",
     "id": "pol-npe-0073-modelka",
+    "frequency": 3,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -4271,7 +4274,6 @@
         "model"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
@@ -4298,13 +4300,14 @@
         "loc": "modelkach",
         "voc": "modelki"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "książę",
     "id": "pol-npe-0074-książę",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -4321,7 +4324,6 @@
         "prince"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -4348,13 +4350,14 @@
         "loc": "książętach",
         "voc": "książęta"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "gość",
     "id": "pol-npe-0075-gość(guest)",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -4370,7 +4373,11 @@
         "guest"
       ]
     },
-    "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "hospitality",
+      "emoji": "🏨"
+    },
     "extra": {
       "derivedTerms": [
         "gościnny",
@@ -4400,18 +4407,15 @@
         "loc": "gościach",
         "voc": "goście"
       }
-    },
-    "frequency": 2,
-    "register": 0,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "hospitality",
-      "emoji": "🏨"
     }
   },
   {
     "lemma": "gość",
     "id": "pol-npe-0076-gość(guy)",
+    "_inflectionsRoot": "pol-npe-0075-gość(guest)",
+    "frequency": 2,
+    "register": 6,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -4425,7 +4429,11 @@
         "guy"
       ]
     },
-    "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
+    },
     "extra": {
       "derivedTerms": [
         "gościnny",
@@ -4435,19 +4443,14 @@
         "gość w dom, Bóg w dom",
         "gościć"
       ]
-    },
-    "frequency": 2,
-    "register": 6,
-    "_inflectionsRoot": "pol-npe-0075-gość(guest)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "person",
-      "emoji": "🏃"
     }
   },
   {
     "lemma": "wnuk",
     "id": "pol-npe-0077-wnuk",
+    "frequency": 1,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -4462,7 +4465,6 @@
         "grandson"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -4499,13 +4501,14 @@
           "wnuki"
         ]
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "wnuczka",
     "id": "pol-npe-0078-wnuczka",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -4520,7 +4523,6 @@
         "granddaughter"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -4550,13 +4552,14 @@
         "loc": "wnuczkach",
         "voc": "wnuczki"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "kucharz",
     "id": "pol-npe-0079-kucharz",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -4576,7 +4579,6 @@
         "chef"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -4603,13 +4605,14 @@
         "loc": "kucharzach",
         "voc": "kucharze"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "przewodnik",
     "id": "pol-npe-0080-przewodnik(person)",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -4626,7 +4629,11 @@
         "guide"
       ]
     },
-    "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
+    },
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -4653,18 +4660,14 @@
         "loc": "przewodnikach",
         "voc": "przewodnicy"
       }
-    },
-    "frequency": 3,
-    "register": 0,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "person",
-      "emoji": "🏃"
     }
   },
   {
     "lemma": "akuszerka",
     "id": "pol-npe-0081-akuszerka",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -4681,7 +4684,6 @@
         "midwife"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
@@ -4716,13 +4718,14 @@
         "loc": "akuszerkach",
         "voc": "akuszerki"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "kapłan",
     "id": "pol-npe-0082-kapłan",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -4739,7 +4742,6 @@
         "priest"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -4777,13 +4779,14 @@
         "loc": "kapłanach",
         "voc": "kapłani"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "wróg",
     "id": "pol-npe-0083-wróg",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -4798,7 +4801,6 @@
         "enemy"
       ]
     },
-    "gender": "m1",
     "extra": {
       "synonyms": [
         "nieprzyjaciel",
@@ -4828,13 +4830,14 @@
         "loc": "wrogach",
         "voc": "wrogowie"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "pasażer",
     "id": "pol-npe-0084-pasażer",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -4849,7 +4852,6 @@
         "passenger"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -4879,13 +4881,14 @@
         "loc": "pasażerach",
         "voc": "pasażerowie"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "żołnierz",
     "id": "pol-npe-0085-żołnierz",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -4902,7 +4905,6 @@
         "soldier"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -4942,13 +4944,14 @@
         "loc": "żołnierzach",
         "voc": "żołnierze"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "dentysta",
     "id": "pol-npe-0086-dentysta",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -4965,7 +4968,6 @@
         "dentist"
       ]
     },
-    "gender": "m1",
     "extra": {
       "synonyms": [
         "stomatolog"
@@ -4990,13 +4992,14 @@
         "loc": "dentystach",
         "voc": "dentyści"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "rodzic",
     "id": "pol-npe-0087-rodzic",
+    "frequency": 1,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5011,7 +5014,6 @@
         "parent"
       ]
     },
-    "gender": "m1",
     "inflections": {
       "singular": {
         "nom": "rodzic",
@@ -5031,13 +5033,14 @@
         "loc": "rodzicach",
         "voc": "rodzice"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "dupek",
     "id": "pol-npe-0088-dupek",
+    "frequency": 3,
+    "register": 7,
+    "gender": "m1",
     "tags": [],
     "topics": [],
     "translations": {
@@ -5046,7 +5049,6 @@
         "jerk"
       ]
     },
-    "gender": "m1",
     "inflections": {
       "singular": {
         "nom": "dupek",
@@ -5066,13 +5068,14 @@
         "loc": "dupkach",
         "voc": "dupki"
       }
-    },
-    "frequency": 3,
-    "register": 7
+    }
   },
   {
     "lemma": "uczeń",
     "id": "pol-npe-0089-uczeń",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5089,7 +5092,6 @@
         "pupil"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -5125,13 +5127,14 @@
         "loc": "uczniach",
         "voc": "uczniowie"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "właściciel",
     "id": "pol-npe-0090-właściciel(owner)",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5146,7 +5149,11 @@
         "owner"
       ]
     },
-    "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "of anything",
+      "emoji": "🔲"
+    },
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -5173,18 +5180,15 @@
         "loc": "właścicielach",
         "voc": "właściciele"
       }
-    },
-    "frequency": 3,
-    "register": 0,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "of anything",
-      "emoji": "🔲"
     }
   },
   {
     "lemma": "właściciel",
     "id": "pol-npe-0091-właściciel(landlord)",
+    "_inflectionsRoot": "pol-npe-0090-właściciel(owner)",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5199,26 +5203,25 @@
         "landlord"
       ]
     },
-    "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "of a building",
+      "emoji": "🏠"
+    },
     "extra": {
       "otherShapes": {
         "feminine": [
           "właścicielka"
         ]
       }
-    },
-    "frequency": 3,
-    "register": 0,
-    "_inflectionsRoot": "pol-npe-0090-właściciel(owner)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "of a building",
-      "emoji": "🏠"
     }
   },
   {
     "lemma": "pisarz",
     "id": "pol-npe-0092-pisarz",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5235,7 +5238,6 @@
         "writer"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -5262,13 +5264,14 @@
         "loc": "pisarzach",
         "voc": "pisarze"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "lekarz",
     "id": "pol-npe-0093-lekarz",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5286,7 +5289,6 @@
         "doctor"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -5322,13 +5324,14 @@
         "loc": "lekarzach",
         "voc": "lekarze"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "lekarka",
     "id": "pol-npe-0094-lekarka",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -5346,7 +5349,6 @@
         "doctor"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
@@ -5377,13 +5379,14 @@
         "loc": "lekarkach",
         "voc": "lekarki"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "sędzia",
     "id": "pol-npe-0095-sędzia(judge)",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5400,7 +5403,11 @@
         "judge"
       ]
     },
-    "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "law/justice",
+      "emoji": "⚖️"
+    },
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -5434,18 +5441,14 @@
         "loc": "sędziach",
         "voc": "sędziowie"
       }
-    },
-    "frequency": 3,
-    "register": 0,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "law/justice",
-      "emoji": "⚖️"
     }
   },
   {
     "lemma": "turystka",
     "id": "pol-npe-0096-turystka",
+    "frequency": 3,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -5460,7 +5463,6 @@
         "tourist"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
@@ -5487,13 +5489,14 @@
         "loc": "turystkach",
         "voc": "turystki"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "dziennikarz",
     "id": "pol-npe-0097-dziennikarz",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5511,7 +5514,6 @@
         "journalist"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "augmentative": [
@@ -5548,13 +5550,14 @@
         "loc": "dziennikarzach",
         "voc": "dziennikarze"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "celnik",
     "id": "pol-npe-0098-celnik",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5571,7 +5574,6 @@
         "customs officer"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -5598,13 +5600,14 @@
         "loc": "celnikach",
         "voc": "celnicy"
       }
-    },
-    "frequency": 4,
-    "register": 0
+    }
   },
   {
     "lemma": "klient",
     "id": "pol-npe-0099-klient",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5622,7 +5625,6 @@
         "customer"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -5654,13 +5656,14 @@
         "loc": "klientach",
         "voc": "klienci"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "fryzjer",
     "id": "pol-npe-0100-fryzjer",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5677,7 +5680,6 @@
         "hairdresser"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -5710,13 +5712,14 @@
         "loc": "fryzjerach",
         "voc": "fryzjerzy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "śpiewak",
     "id": "pol-npe-0101-śpiewak",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5733,7 +5736,6 @@
         "singer"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -5763,13 +5765,14 @@
         "loc": "śpiewakach",
         "voc": "śpiewacy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "morderca",
     "id": "pol-npe-0102-morderca",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5785,7 +5788,6 @@
         "murderer"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -5816,13 +5818,14 @@
         "loc": "mordercach",
         "voc": "mordercy"
       }
-    },
-    "frequency": 4,
-    "register": 0
+    }
   },
   {
     "lemma": "policjant",
     "id": "pol-npe-0103-policjant",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5840,7 +5843,6 @@
         "police officer"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -5867,13 +5869,14 @@
         "loc": "policjantach",
         "voc": "policjanci"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "policjantka",
     "id": "pol-npe-0117-policjantka",
+    "frequency": 3,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -5891,7 +5894,6 @@
         "police officer"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
@@ -5918,13 +5920,14 @@
         "loc": "policjantkach",
         "voc": "policjantki"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "pielęgniarka",
     "id": "pol-npe-0104-pielęgniarka",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -5941,7 +5944,6 @@
         "nurse"
       ]
     },
-    "gender": "f",
     "inflections": {
       "singular": {
         "nom": "pielęgniarka",
@@ -5961,13 +5963,14 @@
         "loc": "pielęgniarkach",
         "voc": "pielęgniarki"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "pielęgniarz",
     "id": "pol-npe-0105-pielęgniarz",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -5984,7 +5987,6 @@
         "nurse"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -6011,13 +6013,14 @@
         "loc": "pielęgniarzach",
         "voc": "pielęgniarze"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "obywatel",
     "id": "pol-npe-0106-obywatel",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6032,7 +6035,6 @@
         "citizen"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -6062,13 +6064,14 @@
         "loc": "obywatelach",
         "voc": "obywatele"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "strażnik",
     "id": "pol-npe-0107-strażnik",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6084,7 +6087,6 @@
         "guard"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -6111,13 +6113,14 @@
         "loc": "strażnikach",
         "voc": "strażnicy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "naukowiec",
     "id": "pol-npe-0108-naukowiec",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6137,7 +6140,6 @@
         "scientist"
       ]
     },
-    "gender": "m1",
     "inflections": {
       "singular": {
         "nom": "naukowiec",
@@ -6157,13 +6159,14 @@
         "loc": "naukowcach",
         "voc": "naukowcy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "pacjent",
     "id": "pol-npe-0109-pacjent",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6178,7 +6181,6 @@
         "patient"
       ]
     },
-    "gender": "m1",
     "inflections": {
       "singular": {
         "nom": "pacjent",
@@ -6198,13 +6200,14 @@
         "loc": "pacjentach",
         "voc": "pacjenci"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "krewna",
     "id": "pol-npe-0110-krewna",
+    "frequency": 3,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -6219,7 +6222,6 @@
         "relative"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
@@ -6246,13 +6248,14 @@
         "loc": "krewnych",
         "voc": "krewne"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "krewny",
     "id": "pol-npe-0111-krewny",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6267,7 +6270,6 @@
         "relative"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -6294,13 +6296,14 @@
         "loc": "krewnych",
         "voc": "krewni"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "rolnik",
     "id": "pol-npe-0112-rolnik",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6317,7 +6320,6 @@
         "farmer"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -6351,13 +6353,14 @@
         "loc": "rolnikach",
         "voc": "rolnicy"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "ofiara",
     "id": "pol-npe-0113-ofiara(victim)",
+    "frequency": 4,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -6372,7 +6375,11 @@
         "victim"
       ]
     },
-    "gender": "f",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
+    },
     "extra": {
       "synonyms": [
         "niezdara"
@@ -6401,18 +6408,14 @@
         "loc": "ofiarach",
         "voc": "ofiary"
       }
-    },
-    "frequency": 4,
-    "register": 0,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "person",
-      "emoji": "🏃"
     }
   },
   {
     "lemma": "detektyw",
     "id": "pol-npe-0114-detektyw",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6429,7 +6432,6 @@
         "detective"
       ]
     },
-    "gender": "m1",
     "extra": {
       "synonyms": [
         "śledczy"
@@ -6457,13 +6459,14 @@
         "loc": "detektywach",
         "voc": "detektywi"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "mistrz",
     "id": "pol-npe-0116-mistrz",
+    "frequency": 5,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6479,7 +6482,6 @@
         "champion"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -6517,13 +6519,14 @@
         "loc": "mistrzach",
         "voc": "mistrzowie"
       }
-    },
-    "frequency": 5,
-    "register": 0
+    }
   },
   {
     "lemma": "wegetarianin",
     "id": "pol-npe-0118-wegetarianin",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6540,7 +6543,6 @@
         "vegetarian"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -6576,13 +6578,14 @@
         "loc": "wegetarianach",
         "voc": "wegetarianie"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "sekretarz",
     "id": "pol-npe-0119-sekretarz",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6598,7 +6601,6 @@
         "secretary"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -6625,13 +6627,14 @@
         "loc": "sekretarzach",
         "voc": "sekretarze"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "znajoma",
     "id": "pol-npe-0120-znajoma",
+    "frequency": 3,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -6646,7 +6649,6 @@
         "acquaintance"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
@@ -6673,13 +6675,14 @@
         "loc": "znajomych",
         "voc": "znajome"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "znajomy",
     "id": "pol-npe-0120-znajomy",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6694,7 +6697,6 @@
         "acquaintance"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -6721,13 +6723,14 @@
         "loc": "znajomych",
         "voc": "znajomi"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "artysta",
     "id": "pol-npe-0122-artysta",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6744,7 +6747,6 @@
         "artist"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "abbreviation": [
@@ -6792,13 +6794,14 @@
         "loc": "artystach",
         "voc": "artyści"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "artystka",
     "id": "pol-npe-0123-artystka",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -6815,7 +6818,6 @@
         "artist"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "masculine": [
@@ -6846,13 +6848,14 @@
         "loc": "artystkach",
         "voc": "artystki"
       }
-    },
-    "frequency": 2,
-    "register": 0
+    }
   },
   {
     "lemma": "kryminalista",
     "id": "pol-npe-0126-kryminalista",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6867,7 +6870,6 @@
         "criminal"
       ]
     },
-    "gender": "m1",
     "extra": {
       "synonyms": [
         "przestępca"
@@ -6892,13 +6894,14 @@
         "loc": "kryminalistach",
         "voc": "kryminaliści"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "prezydent",
     "id": "pol-npe-0127-prezydent",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6915,7 +6918,6 @@
         "president"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -6942,13 +6944,14 @@
         "loc": "prezydentach",
         "voc": "prezydenci"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "więzień",
     "id": "pol-npe-0128-więzień",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -6963,7 +6966,6 @@
         "prisoner"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -6990,13 +6992,14 @@
         "loc": "więźniach",
         "voc": "więźniowie"
       }
-    },
-    "frequency": 4,
-    "register": 0
+    }
   },
   {
     "lemma": "miliarder",
     "id": "pol-npe-0129-miliarder",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -7013,7 +7016,6 @@
         "billionaire"
       ]
     },
-    "gender": "m1",
     "inflections": {
       "singular": {
         "nom": "miliarder",
@@ -7033,13 +7035,14 @@
         "loc": "miliarderach",
         "voc": "miliarderzy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "milioner",
     "id": "pol-npe-0130-milioner",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -7056,7 +7059,6 @@
         "millionaire"
       ]
     },
-    "gender": "m1",
     "inflections": {
       "singular": {
         "nom": "milioner",
@@ -7076,13 +7078,14 @@
         "loc": "milionerach",
         "voc": "milionerzy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "pieszy",
     "id": "pol-npe-0131-pieszy",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "person",
       "living",
@@ -7098,7 +7101,6 @@
         "pedestrian"
       ]
     },
-    "gender": "m1",
     "inflections": {
       "singular": {
         "nom": "pieszy",
@@ -7118,13 +7120,14 @@
         "loc": "pieszych",
         "voc": "piesi"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "piesza",
     "id": "pol-npe-0132-piesza",
+    "frequency": 3,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "person",
       "living",
@@ -7140,7 +7143,6 @@
         "pedestrian"
       ]
     },
-    "gender": "f",
     "inflections": {
       "singular": {
         "nom": "piesza",
@@ -7160,13 +7162,14 @@
         "loc": "pieszych",
         "voc": "piesze"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "pan",
     "id": "pol-npe-0133-pan(title)",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -7182,7 +7185,11 @@
         "Sir"
       ]
     },
-    "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "title",
+      "emoji": "🙇"
+    },
     "inflections": {
       "singular": {
         "nom": "pan",
@@ -7202,18 +7209,15 @@
         "loc": "panach",
         "voc": "panowie"
       }
-    },
-    "frequency": 2,
-    "register": 0,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "title",
-      "emoji": "🙇"
     }
   },
   {
     "lemma": "pan",
     "id": "pol-npe-0134-pan(address)",
+    "_inflectionsRoot": "pol-npe-0133-pan(title)",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -7228,10 +7232,6 @@
         "Sir"
       ]
     },
-    "gender": "m1",
-    "frequency": 2,
-    "register": 0,
-    "_inflectionsRoot": "pol-npe-0133-pan(title)",
     "allohomInfo": {
       "singleWordtype": true,
       "text": "form of address",
@@ -7241,6 +7241,9 @@
   {
     "lemma": "pani",
     "id": "pol-npe-0135-pani(title)",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -7256,7 +7259,11 @@
         "lady"
       ]
     },
-    "gender": "f",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "title",
+      "emoji": "🙇"
+    },
     "inflections": {
       "singular": {
         "nom": "pani",
@@ -7276,18 +7283,15 @@
         "loc": "paniach",
         "voc": "panie"
       }
-    },
-    "frequency": 2,
-    "register": 0,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "title",
-      "emoji": "🙇"
     }
   },
   {
     "lemma": "pani",
     "id": "pol-npe-0136-pani(address)",
+    "_inflectionsRoot": "pol-npe-0135-pani(title)",
+    "frequency": 2,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -7303,10 +7307,6 @@
         "Miss"
       ]
     },
-    "gender": "f",
-    "frequency": 2,
-    "register": 0,
-    "_inflectionsRoot": "pol-npe-0135-pani(title)",
     "allohomInfo": {
       "singleWordtype": true,
       "text": "form of address",
@@ -7316,6 +7316,9 @@
   {
     "lemma": "panna",
     "id": "pol-npe-0137-panna",
+    "frequency": 1,
+    "register": 0,
+    "gender": "f",
     "tags": [
       "concrete",
       "living",
@@ -7330,7 +7333,6 @@
         "Miss"
       ]
     },
-    "gender": "f",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -7366,13 +7368,14 @@
         "loc": "pannach",
         "voc": "panny"
       }
-    },
-    "frequency": 1,
-    "register": 0
+    }
   },
   {
     "lemma": "pilot",
     "id": "pol-npe-0138-pilot(pilot)",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -7388,7 +7391,6 @@
         "pilot"
       ]
     },
-    "gender": "m1",
     "allohomInfo": {
       "singleWordtype": true,
       "text": "a job",
@@ -7413,13 +7415,14 @@
         "loc": "pilotach",
         "voc": "piloci"
       }
-    },
-    "frequency": 4,
-    "register": 0
+    }
   },
   {
     "lemma": "lider",
     "id": "pol-npe-0030-lider",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -7436,7 +7439,6 @@
         "leader"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "feminine": [
@@ -7466,13 +7468,14 @@
         "loc": "liderach",
         "voc": "liderzy"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   },
   {
     "lemma": "król",
     "id": "pol-npe-0029-król",
+    "frequency": 3,
+    "register": 0,
+    "gender": "m1",
     "tags": [
       "concrete",
       "living",
@@ -7488,7 +7491,6 @@
         "king"
       ]
     },
-    "gender": "m1",
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -7537,8 +7539,6 @@
         "loc": "królach",
         "voc": "królowie"
       }
-    },
-    "frequency": 3,
-    "register": 0
+    }
   }
 ]
