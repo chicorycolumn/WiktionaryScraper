@@ -9,7 +9,7 @@ from utils.universal import Color as c, get_curried_save, load_tempsave_if_exist
 if __name__ == '__main__':
 
     # # # # # #
-    wordtypes = []  # Leave blank for all.
+    wordtypes = ['nco']  # Leave blank for all.
     batch = "01"
     suffix = "SRC"
     lang = "pol"
@@ -17,7 +17,7 @@ if __name__ == '__main__':
     files_are_in_done_folder = True
 
     add_dummy_id = True  # Only set True when running Sanhedrin step 4B).
-    override_filepath = "output_saved/output_nouns_616.json"  # Only for when running Sanhedrin step 4B).
+    override_filepath = "output_saved/output_nouns_616"  # Only for when running Sanhedrin step 4B).
 
     # # # # # #
 
