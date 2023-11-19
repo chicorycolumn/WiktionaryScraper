@@ -12,8 +12,12 @@ if __name__ == '__main__':
     wordtypes = []  # Leave blank for all.
     batch = "01"
     suffix = "SRC"
+    lang = "pol"
+
     files_are_in_done_folder = True
 
+    add_dummy_id = True  # Only set True when running Sanhedrin step 4B).
+    override_filepath = "output_saved/output_nouns_616.json"  # Only for when running Sanhedrin step 4B).
 
     # # # # # #
 
@@ -98,8 +102,9 @@ if __name__ == '__main__':
         inflection_keys = inflection_keys_ref[wordtype]
 
         input_filename = f"{wordtype}_batch_{batch}_{suffix}"
-        stem = f"./../../output_saved/batches/{'done/' if files_are_in_done_folder else ''}"
-        input_path = f"{stem}{input_filename}"
+        stem = f"output_saved/batches/{'done/' if files_are_in_done_folder else ''}"
+        input_path = f"{stem}{input_filename}" if not override_filepath else override_filepath
+        input_path = "./../../" + input_path
         save = get_curried_save(input_path, None)
 
         c.print_teal("input_path    =     " + c.teal(input_path))
@@ -110,6 +115,11 @@ if __name__ == '__main__':
         done_lobjs = []
 
         for lindex, lobj in enumerate(lobjs):
+            if add_dummy_id:
+                if not lobj["id"]:
+                    lobj["id"] = f'{lang}-{wordtype}-8888-{lobj["lemma"]}'
+                    del lobj["temp_id"]
+
             if "_inflectionsRoot" not in lobj:
                 reordered_inflections = {}
 

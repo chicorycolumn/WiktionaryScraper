@@ -153,6 +153,16 @@ It uses additionalSpellings that you manually type into this stage.
 
 4A) Run "S16_check_for_unused_lobjs.py" and resolve these.
     Prints a list of unused and nonexistent lobjs in SRC and TGT.
+    Manually resolve these.
+    If you need to scrape additional words, just go ahead and add placeholder ids for them to nexus obj:
+        eg "pol-nco-8888-tapeta". Always use 8888 as placeholder id number.
+    Running S16 will show these as needing to do ("nonexistent in SRC"). Resolve everything else, leave those for 4B).
+
+4B) You will likely need to scrape some additional words now, based on 4A).
+    Copy the lemmas to scrape into scraper main, and scrape them.
+    Move file into output_saved folder.
+    Now run "S11_reorder_keys_of_lobjs.py" with add_dummy_id set to True, plus override_filepath.
+
 
 
 
