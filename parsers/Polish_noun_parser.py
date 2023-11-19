@@ -75,10 +75,10 @@ class PolishNounParser(HTMLParser):
             self.output_obj["tags"].extend(gender_to_tags_ref[self.output_obj["gender"]])
 
         if "singular" in self.output_obj["inflections"] and "plural" not in self.output_obj["inflections"]:
-            self.output_obj["lacking"] = True
+            self.output_obj["_lacking"] = True
             self.output_obj["tantumSingulare"] = True
         elif "singular" not in self.output_obj["inflections"] and "plural" in self.output_obj["inflections"]:
-            self.output_obj["lacking"] = True
+            self.output_obj["_lacking"] = True
             self.output_obj["tantumPlurale"] = True
 
         self.output_arr.append(self.output_obj)

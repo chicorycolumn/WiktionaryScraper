@@ -41,15 +41,46 @@ if __name__ == '__main__':
         }
 
         lobj_keys_ref = {
+            "adj": [
+                "lemma", "id",
+                "_inflectionsRoot", "_untranslated", "_lacking",
+                "frequency", "register",
+
+                "tags", "topics", "translations",
+                "allohomInfo",
+                "extra", "derivedTerms", "otherShapes",
+                "inflections",
+            ],
+            "nco": [
+                "lemma", "id",
+                "_inflectionsRoot", "_untranslated", "_lacking",
+                "frequency", "register",
+                "gender",
+                "tags", "topics", "translations",
+                "allohomInfo",
+                "extra", "derivedTerms", "otherShapes",
+                "inflections",
+            ],
+            "npe": [
+                "lemma", "id",
+                "_inflectionsRoot", "_untranslated", "_lacking",
+                "frequency", "register",
+                "gender",
+                "tags", "topics", "translations",
+                "allohomInfo",
+                "extra", "derivedTerms", "otherShapes",
+                "inflections",
+            ],
             "ver": [
                 "lemma", "id",
-                "_inflectionsRoot", "_untranslated",
+                "_inflectionsRoot", "_untranslated", "_lacking",
                 "frequency", "register",
                 "aspect", "secondaryAspects",
                 "tags", "topics", "translations",
-                "allohomInfo", "extra", "derivedTerms", "otherShapes",
+                "allohomInfo",
+                "extra", "derivedTerms", "otherShapes",
                 "inflections",
-            ]
+            ],
         }
 
         move_these_keys_to_extra_ref = {
