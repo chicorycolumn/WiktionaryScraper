@@ -3,6 +3,7 @@ import json
 from datetime import datetime
 import re
 import os
+from utils.universal import Color as c
 
 
 def get_existing_lobjs(wordtype: str, lemmas_only: bool = False, existing_lobjs_path: str = None):
@@ -47,7 +48,10 @@ def get_value_from_keypath(dict, keypath):
     return dict
 
 
-def write_todo(msg):
+def write_todo(msg, also_print_to_console: bool = False):
+    if also_print_to_console:
+        c.print_bold(msg)
+
     with open("TODO.txt", "a") as f:
         f.write(
             "\n"
