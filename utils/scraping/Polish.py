@@ -53,31 +53,71 @@ def minimise_inflections(lemma_object):
     # STEP TWO
     #       Shortcutting future and conditional for imperfective lemma objects.
 
+    def lower_bound_message_function(js_key, lemma_object, expected_count, actual_count):
+        return f'The "{js_key}" tense on {lemma_object["aspect"]} ' \
+        f'"{lemma_object["lemma"]}" should have {expected_count} ' \
+        f'strings but has {actual_count}. I think the Wiktionary ' \
+        f'page was missing the "{js_key} impersonal", I have ' \
+        f'gone ahead and minimised the "{js_key}" to True boolean. ' \
+        f'If you disagree, you must change that.'
+
+    def upper_bound_message_function_future(js_key, lemma_object, expected_count, actual_count):
+        return f'The "{js_key}" tense on {lemma_object["aspect"]} ' \
+        f'"{lemma_object["lemma"]}" should have {expected_count} ' \
+        f'strings but has {actual_count}.'
+
+    def upper_bound_message_function_conditional(js_key, lemma_object, expected_count, actual_count):
+        return f'The "{js_key}" tense on {lemma_object["aspect"]} ' \
+        f'"{lemma_object["lemma"]}" should have {expected_count} ' \
+        f'strings but has {actual_count}. Wiktionary now includes "bym chodził" ' \
+        f'as well as "chodziłbym" so number is doubled.'
+
     if lemma_object["lemma"] != "być":
         if lemma_object["aspect"] == "imperfective":
-            tense_ref = {
-                "future": ["future", 31],
-                "conditional": ["conditional", 18]
+            tense_count_acceptable_bounds_ref = {
+                "future": {
+                    "js_key": "future",
+                    "expected_count": {"value": 31, "message": None},
+                    "lower_bound": {"value": 26, "message": lower_bound_message_function},
+                    "upper_bound": {"value": 26, "message": upper_bound_message_function_future},
+                },
+                "conditional": {
+                    "js_key": "conditional",
+                    "expected_count": {"value": 18, "message": None},
+                    "lower_bound": {"value": 13, "message": lower_bound_message_function},
+                    "upper_bound": {"value": 31, "message": upper_bound_message_function_conditional},
+                }
             }
         elif lemma_object["aspect"] == "perfective":
-            tense_ref = {
-                "conditional": ["conditional", 18]
+            tense_count_acceptable_bounds_ref = {
+                "conditional": {
+                    "js_key": "conditional",
+                    "expected_count": {"value": 18, "message": None},
+                    "lower_bound": {"value": 13, "message": lower_bound_message_function},
+                    "upper_bound": {"value": 31, "message": upper_bound_message_function_conditional},
+                }
             }
         else:
-            write_todo(f'SKIPPED this whole lobj in minimise_inflections. Lobj "{lemma_object["lemma"]}" has unexpected aspect: "{lemma_object["aspect"]}".')
+            msg = f'SKIPPED this whole lobj in minimise_inflections. Lobj "{lemma_object["lemma"]}" has unexpected aspect: "{lemma_object["aspect"]}".'
+            write_todo(msg, True)
             return
 
-        for py_key, js_key_and_count in tense_ref.items():
-            js_key = js_key_and_count[0]
-            if js_key == "future":
-                print("")
-            expected_count = js_key_and_count[1]
+        for py_key, acceptable_bounds_dict in tense_count_acceptable_bounds_ref.items():
+            js_key = acceptable_bounds_dict["js_key"]
+
             actual_count = recursively_count_strings(full_inflections[py_key])
+            expected_count = acceptable_bounds_dict["expected_count"]["value"]
+
             if actual_count != expected_count:
-                if actual_count + 5 == expected_count:
-                    write_todo(f'The "{js_key}" tense on {lemma_object["aspect"]} "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}. I think the Wiktionary page was missing the "{js_key} impersonal", I have gone ahead and minimised the "{js_key}" to True boolean. If you disagree, you must change that.')
+                if actual_count == acceptable_bounds_dict["lower_bound"]["value"]:
+                    msg = acceptable_bounds_dict["lower_bound"]["message"](js_key, lemma_object, expected_count, actual_count)
+                    write_todo(msg, True)
+                elif actual_count == acceptable_bounds_dict["upper_bound"]["value"]:
+                    msg = acceptable_bounds_dict["upper_bound"]["message"](js_key, lemma_object, expected_count, actual_count)
+                    write_todo(msg, True)
                 else:
-                    write_todo(f'SKIPPED this entire lobj in minimise_inflections. "{js_key}" tense on {lemma_object["aspect"]} "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count}.')
+                    msg = f'SKIPPED this entire lobj in minimise_inflections. "{js_key}" tense on {lemma_object["aspect"]} "{lemma_object["lemma"]}" should have {expected_count} strings but has {actual_count} and does not match upper or lower bound.'
+                    write_todo(msg, True)
                     return
 
             full_inflections[js_key] = True

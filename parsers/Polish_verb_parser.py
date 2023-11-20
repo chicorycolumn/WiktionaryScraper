@@ -60,15 +60,15 @@ class PolishVerbParser(HTMLParser):
                 index_of_first_data_row = index
                 break
 
-        for list_index, list in enumerate(t[index_of_first_data_row:]):
+        for list_index, lista in enumerate(t[index_of_first_data_row:]):
             keychain_base = []
 
-            for cell in list:
+            for cell in lista:
                 if type(cell) == str and cell.startswith("#"):
                     if not len(keychain_base) or cell not in keychain_base:
                         keychain_base.append(cell)
 
-            for cell_index, cell in enumerate(list):
+            for cell_index, cell in enumerate(lista):
                 if type(cell) is not str or not cell.startswith("#"):
                     keychain = keychain_base[:]
                     for header_row in header_rows:
@@ -78,6 +78,20 @@ class PolishVerbParser(HTMLParser):
 
                     if cell != "<blank>":
                         keychain = [keyc for keyc in keychain if "Conjugation of" not in keyc]
+
+                        if type(cell) is list:
+                            if any(el.startswith("-(") for el in cell):
+                                print("     BX1 IGNORE '-(...' from", cell)
+                                cell = [el for el in cell if not el.startswith("-(")]
+                        elif type(cell) is str:
+                            if cell.startswith("-("):
+                                print("     BX1 IGNORE", cell)
+                                continue
+
+                        if "#neuter" in keychain and ("#1 st" in keychain or "#2 nd" in keychain):
+                            print("     NX1 IGNORE", cell, "for keychain", keychain)
+                            continue
+
                         add_value_at_keychain(cell, [k[1:] for k in keychain], inflections)
 
         self.output_obj["inflections"] = inflections
