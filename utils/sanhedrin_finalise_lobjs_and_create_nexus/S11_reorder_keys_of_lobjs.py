@@ -9,7 +9,7 @@ from utils.universal import Color as c, get_curried_save, load_tempsave_if_exist
 if __name__ == '__main__':
 
     # # # # # #
-    wordtypes = ['nco']  # Leave blank for all.
+    wordtypes = ['ver']  # Leave blank for all.
     batch = "01"
     suffix = "SRC"
     lang = "pol"
@@ -17,7 +17,7 @@ if __name__ == '__main__':
     files_are_in_done_folder = True
 
     add_dummy_id = True  # Only set True when running Sanhedrin step 4B).
-    override_filepath = "output_saved/output_nouns_616"  # Only for when running Sanhedrin step 4B).
+    override_filepath = "output_saved/output_verbs_500"  # Only for when running Sanhedrin step 4B).
 
     # # # # # #
 
@@ -116,7 +116,7 @@ if __name__ == '__main__':
 
         for lindex, lobj in enumerate(lobjs):
             if add_dummy_id:
-                if not lobj["id"]:
+                if not lobj.get("id"):
                     lobj["id"] = f'{lang}-{wordtype}-8888-{lobj["lemma"]}'
                     del lobj["temp_id"]
 
