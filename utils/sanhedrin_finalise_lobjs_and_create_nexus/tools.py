@@ -900,3 +900,127 @@ def get_nonexisting(lobjs, nex, lang):
             if not existing:
                 nonexisting.append(lobj_id)
     return nonexisting
+
+
+def get_inflections_eng_ver(lemma, manually_entered_inflections: list[str] = None):
+    def restart():
+        return get_inflections_eng_ver(lemma)
+
+    if manually_entered_inflections:
+        v2, v3, thirdPS, gerund = manually_entered_inflections
+    else:
+        v2 = lemma + "ed"
+        v3 = lemma + "ed"
+        thirdPS = lemma + ("s" if lemma[-1] not in ['h', 'x'] else "es")
+        gerund = lemma + "ing"
+
+    print("")
+    c.print_bold(f'{lemma}, {v2}, {v3}')
+    c.print_bold(f'{thirdPS}, {gerund}')
+    print("")
+    user_input = input('Okay?     Enter for YES     Any key for NO     Or type in manually and press enter')
+
+    if not user_input:
+        return {
+            "infinitive": lemma,
+            "verbal": {},
+            "v2": v2,
+            "v3": v3,
+            "thirdPS": thirdPS,
+            "gerund": gerund
+        }
+
+    if len(user_input) == 1:
+        return restart()
+
+    else:
+        split = user_input.split(" ")
+        if len(split) != 4 or any(len(s) < 2 for s in split):
+            c.print_red("You must type four strings: v2, v3, thirdPS, gerund")
+            return restart()
+        else:
+            return get_inflections_eng_ver(lemma, split)
+
+
+def get_inflections_eng_nou(lemma, manually_entered_inflections: list[str] = None):
+    def restart():
+        return get_inflections_eng_nou(lemma)
+
+    if manually_entered_inflections:
+        sing_gen, plur_nom, plur_gen = manually_entered_inflections
+    else:
+        sing_gen = lemma + "'s"
+        plur_nom = lemma + ("s" if lemma[-1] not in ['h', 'x'] else "es")
+        plur_gen = plur_nom + "'"
+
+    print("")
+    c.print_bold(f'{lemma}, {plur_nom}')
+    c.print_bold(f'{sing_gen}, {plur_gen}')
+    print("")
+    user_input = input('Okay?     Enter for YES     Any key for NO     Or type in manually and press enter')
+
+    if not user_input:
+        return {
+            "singular": {
+                "nom": lemma,
+                "gen": sing_gen
+            },
+            "plural": {
+                "nom": plur_nom,
+                "gen": plur_gen
+            }
+        }
+
+    if len(user_input) == 1:
+        return restart()
+
+    else:
+        split = user_input.split(" ")
+        if len(split) != 3 or any(len(s) < 2 for s in split):
+            c.print_red("You must type three strings: plural, genitive singular, genitive plural")
+            return restart()
+        else:
+            return get_inflections_eng_nou(lemma, split)
+
+
+def get_inflections_eng_adj(lemma, manually_entered_inflections: list[str] = None):
+    def restart():
+        return get_inflections_eng_adj(lemma)
+
+    if manually_entered_inflections:
+        compar, superl, adverb = manually_entered_inflections
+    else:
+        compar = lemma + "er"
+        superl = lemma + "est"
+        adverb = lemma + "ly"
+
+    print("")
+    c.print_bold(f'{compar}, {superl}')
+    c.print_bold(adverb)
+    print("")
+    user_input = input('Okay?     Enter for YES     Any key for NO     q to nix adverb     w to double final consonant     Or type in manually and press enter')
+
+    if not user_input:
+        return {
+            "simple": lemma,
+            "comparative": compar,
+            "superlative": superl,
+            "adverb": adverb
+        }
+
+    if len(user_input) == 1:
+        if user_input == 'q':
+            return get_inflections_eng_adj(lemma, [compar, superl, adverb])
+        if user_input == 'w':
+            compar = compar[0:-2] + compar[-3] + compar[-2:]
+            superl = superl[0:-3] + superl[-4] + superl[-3:]
+            return get_inflections_eng_adj(lemma, [compar, superl, adverb])
+        return restart()
+
+    else:
+        split = user_input.split(" ")
+        if len(split) != 3 or any(len(s) < 2 for s in split):
+            c.print_red("You must type four strings: comparative, superlative, adverb. Type 'no' for adverb if none.")
+            return restart()
+        else:
+            return get_inflections_eng_adj(lemma, split)
