@@ -9,12 +9,12 @@ from utils.universal import Color as c, get_curried_save, load_tempsave_if_exist
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "nco"
+    wordtype = "adj"
     batch = "01"
     # # # # # #
 
     input_filename = f"{wordtype}_batch_{batch}_TGT"
-    stem = "./../../output_saved/batches/"
+    stem = "./../../output_saved/batches/done/"
     input_path = f"{stem}{input_filename}"
     tempsave_path = input_path + "_S17_tempsave"
     save = get_curried_save(input_path, tempsave_path)
@@ -30,16 +30,19 @@ if __name__ == '__main__':
         "ver": get_inflections_eng_ver,
     }
 
+    get_inflections = get_inflections_ref[wordtype]
+
     tgt_lobjs = load_tempsave_if_exists(tempsave_path, input_path)
     siblings = []
     sibling_headers = []
 
+
     print("Loaded", len(tgt_lobjs), "target lobjs.")
 
-    for index_1, tgt_lobj_1 in enumerate(tgt_lobjs):
-        tgt_lobj_1['inflections'] = get_inflections_eng_ver(tgt_lobj_1["lemma"])
+    for index, tgt_lobj in enumerate(tgt_lobjs):
+        tgt_lobj['inflections'] = get_inflections(tgt_lobj["lemma"])
 
-        if tgt_lobj_1 % 5 == 0:
+        if index % 5 == 0:
             save(tgt_lobjs, True)
 
     save(tgt_lobjs)

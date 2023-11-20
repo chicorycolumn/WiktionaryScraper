@@ -902,23 +902,25 @@ def get_nonexisting(lobjs, nex, lang):
     return nonexisting
 
 
-def get_inflections_eng_ver(lemma, manually_entered_inflections: list[str] = None):
+def get_inflections_eng_ver(lemma, manually_entered_inflections: [str] = None):
     def restart():
         return get_inflections_eng_ver(lemma)
 
     if manually_entered_inflections:
         v2, v3, thirdPS, gerund = manually_entered_inflections
     else:
-        v2 = lemma + "ed"
-        v3 = lemma + "ed"
-        thirdPS = lemma + ("s" if lemma[-1] not in ['h', 'x'] else "es")
+        v2 = lemma + ("ed" if not lemma.endswith('e') else 'd')
+        v3 = v2
+        thirdPS = lemma + ("s" if lemma[-1] not in 'hxs' else "es")
         gerund = lemma + "ing"
 
     print("")
-    c.print_bold(f'{lemma}, {v2}, {v3}')
-    c.print_bold(f'{thirdPS}, {gerund}')
+    c.print_bold(f"today I {lemma},    yesterday I {v2},    I've already {v3}")
+    print(""
+          "")
+    c.print_bold(f'          she {thirdPS},      yo we {gerund}')
     print("")
-    user_input = input('Okay?     Enter for YES     Any key for NO     Or type in manually and press enter')
+    user_input = input('Okay?     Enter for YES     Any key for NO     w to double final consonant     Or type in manually and press enter')
 
     if not user_input:
         return {
@@ -931,6 +933,11 @@ def get_inflections_eng_ver(lemma, manually_entered_inflections: list[str] = Non
         }
 
     if len(user_input) == 1:
+        if user_input == 'w':
+            v2 = v2[0:-2] + v2[-3] + v2[-2:]
+            v3 = v2
+            gerund = gerund[0:-3] + gerund[-4] + gerund[-3:]
+            return get_inflections_eng_adj(lemma, [v2, v3, thirdPS, gerund])
         return restart()
 
     else:
@@ -942,7 +949,7 @@ def get_inflections_eng_ver(lemma, manually_entered_inflections: list[str] = Non
             return get_inflections_eng_ver(lemma, split)
 
 
-def get_inflections_eng_nou(lemma, manually_entered_inflections: list[str] = None):
+def get_inflections_eng_nou(lemma, manually_entered_inflections: [str] = None):
     def restart():
         return get_inflections_eng_nou(lemma)
 
@@ -950,7 +957,7 @@ def get_inflections_eng_nou(lemma, manually_entered_inflections: list[str] = Non
         sing_gen, plur_nom, plur_gen = manually_entered_inflections
     else:
         sing_gen = lemma + "'s"
-        plur_nom = lemma + ("s" if lemma[-1] not in ['h', 'x'] else "es")
+        plur_nom = lemma + ("s" if lemma[-1] not in 'hsx' else "es")
         plur_gen = plur_nom + "'"
 
     print("")
@@ -983,15 +990,15 @@ def get_inflections_eng_nou(lemma, manually_entered_inflections: list[str] = Non
             return get_inflections_eng_nou(lemma, split)
 
 
-def get_inflections_eng_adj(lemma, manually_entered_inflections: list[str] = None):
+def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None):
     def restart():
         return get_inflections_eng_adj(lemma)
 
     if manually_entered_inflections:
         compar, superl, adverb = manually_entered_inflections
     else:
-        compar = lemma + "er"
-        superl = lemma + "est"
+        compar = lemma + ("er" if not lemma.endswith('e') else 'r')
+        superl = lemma + ("est" if not lemma.endswith('e') else 'st')
         adverb = lemma + "ly"
 
     print("")
