@@ -72,6 +72,9 @@ if __name__ == '__main__':
         for key in non_ignored_keys:
             c.print_blue(f"{len(res[key])} {key}")
 
+        if all(len(res[key]) == 0 for key in non_ignored_keys):
+            print("🟢 All resolved.")
+
         print("")
         for key in non_ignored_keys:
             if len(res[key]):
