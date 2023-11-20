@@ -902,7 +902,7 @@ def get_nonexisting(lobjs, nex, lang):
     return nonexisting
 
 
-def get_inflections_eng_ver(lemma, manually_entered_inflections: [str] = None):
+def get_inflections_eng_ver(lemma, manually_entered_inflections: [str] = None, reconfirming: bool = False):
     def restart():
         return get_inflections_eng_ver(lemma)
 
@@ -915,12 +915,12 @@ def get_inflections_eng_ver(lemma, manually_entered_inflections: [str] = None):
         gerund = lemma + "ing"
 
     print("")
-    c.print_bold(f"today I {lemma},    yesterday I {v2},    I've already {v3}")
-    print(""
-          "")
-    c.print_bold(f'          she {thirdPS},      yo we {gerund}')
+    print_function = c.print_blue if reconfirming else c.print_bold
+    print_function(f"today I {lemma},    yesterday I {v2},    I've already {v3}")
     print("")
-    user_input = input('Okay?     Enter for YES     Any key for NO     w to double final consonant     Or type in manually and press enter')
+    print_function(f'          she {thirdPS},      yo we {gerund}')
+    print("")
+    user_input = input('Enter    for YES\nAny key  for NO\nw        to double final consonant\nOr type in manually and press enter\n')
 
     if not user_input:
         return {
@@ -946,10 +946,11 @@ def get_inflections_eng_ver(lemma, manually_entered_inflections: [str] = None):
             c.print_red("You must type four strings: v2, v3, thirdPS, gerund")
             return restart()
         else:
-            return get_inflections_eng_ver(lemma, split)
+            split = [False if el == 'no' else el for el in split]
+            return get_inflections_eng_ver(lemma, split, reconfirming)
 
 
-def get_inflections_eng_nou(lemma, manually_entered_inflections: [str] = None):
+def get_inflections_eng_nou(lemma, manually_entered_inflections: [str] = None, reconfirming: bool = False):
     def restart():
         return get_inflections_eng_nou(lemma)
 
@@ -961,10 +962,11 @@ def get_inflections_eng_nou(lemma, manually_entered_inflections: [str] = None):
         plur_gen = plur_nom + "'"
 
     print("")
-    c.print_bold(f'{lemma}, {plur_nom}')
-    c.print_bold(f'{sing_gen}, {plur_gen}')
+    print_function = c.print_blue if reconfirming else c.print_bold
+    print_function(f'{lemma}, {plur_nom}')
+    print_function(f'{sing_gen}, {plur_gen}')
     print("")
-    user_input = input('Okay?     Enter for YES     Any key for NO     Or type in manually and press enter')
+    user_input = input('Enter    for YES\nAny key  for NO\nOr type in manually and press enter\n')
 
     if not user_input:
         return {
@@ -987,10 +989,11 @@ def get_inflections_eng_nou(lemma, manually_entered_inflections: [str] = None):
             c.print_red("You must type three strings: plural, genitive singular, genitive plural")
             return restart()
         else:
-            return get_inflections_eng_nou(lemma, split)
+            split = [False if el == 'no' else el for el in split]
+            return get_inflections_eng_nou(lemma, split, True)
 
 
-def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None):
+def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, reconfirming: bool = False):
     def restart():
         return get_inflections_eng_adj(lemma)
 
@@ -1002,10 +1005,12 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None):
         adverb = lemma + "ly"
 
     print("")
-    c.print_bold(f'{compar}, {superl}')
-    c.print_bold(adverb)
+    print_function = c.print_blue if reconfirming else c.print_bold
+    print_function(compar)
+    print_function(superl)
+    print_function(adverb if adverb else '(none)')
     print("")
-    user_input = input('Okay?     Enter for YES     Any key for NO     q to nix adverb     w to double final consonant     Or type in manually and press enter')
+    user_input = input('Enter    for YES\nAny key  for NO\nmore     to have "more orange" not "oranger" and no adverb\nq        to have no adverb\nw        to double final consonant\nOr type in manually and press enter\n')
 
     if not user_input:
         return {
@@ -1017,17 +1022,21 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None):
 
     if len(user_input) == 1:
         if user_input == 'q':
-            return get_inflections_eng_adj(lemma, [compar, superl, adverb])
+            return get_inflections_eng_adj(lemma, [compar, superl, adverb], True)
         if user_input == 'w':
             compar = compar[0:-2] + compar[-3] + compar[-2:]
             superl = superl[0:-3] + superl[-4] + superl[-3:]
-            return get_inflections_eng_adj(lemma, [compar, superl, adverb])
+            return get_inflections_eng_adj(lemma, [compar, superl, adverb], True)
         return restart()
 
     else:
+        if user_input == 'more':
+            return get_inflections_eng_adj(lemma, [f'more {lemma}', f'the most {lemma}', False], True)
+
         split = user_input.split(" ")
         if len(split) != 3 or any(len(s) < 2 for s in split):
-            c.print_red("You must type four strings: comparative, superlative, adverb. Type 'no' for adverb if none.")
+            c.print_red("You must type four strings: comparative, superlative, adverb. Type 'no' for any if none.")
             return restart()
         else:
-            return get_inflections_eng_adj(lemma, split)
+            split = [False if el == 'no' else el for el in split]
+            return get_inflections_eng_adj(lemma, split, True)
