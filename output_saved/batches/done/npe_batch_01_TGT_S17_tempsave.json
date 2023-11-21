@@ -942,8 +942,8 @@
         "gen": "police's"
       },
       "plural": {
-        "nom": "swde",
-        "gen": "swde's"
+        "nom": "police",
+        "gen": "police's"
       }
     }
   },
@@ -1088,7 +1088,17 @@
       "pol-npe-0063-strażak"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "firefighter",
+        "gen": "firefighter's"
+      },
+      "plural": {
+        "nom": "firefighters",
+        "gen": "firefighters'"
+      }
+    }
   },
   {
     "lemma": "fireman",
@@ -1097,7 +1107,17 @@
       "pol-npe-0063-strażak"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "fireman",
+        "gen": "fireman's"
+      },
+      "plural": {
+        "nom": "firemen",
+        "gen": "firemen's"
+      }
+    }
   },
   {
     "lemma": "lawyer",
@@ -1106,7 +1126,17 @@
       "pol-npe-0064-adwokat"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "lawyer",
+        "gen": "lawyer's"
+      },
+      "plural": {
+        "nom": "lawyers",
+        "gen": "lawyers'"
+      }
+    }
   },
   {
     "lemma": "attorney",
@@ -1115,7 +1145,17 @@
       "pol-npe-0064-adwokat"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "attorney",
+        "gen": "attorney's"
+      },
+      "plural": {
+        "nom": "attorneys",
+        "gen": "attorneys'"
+      }
+    }
   },
   {
     "lemma": "solicitor",
@@ -1124,7 +1164,17 @@
       "pol-npe-0064-adwokat"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "solicitor",
+        "gen": "solicitor's"
+      },
+      "plural": {
+        "nom": "solicitors",
+        "gen": "solicitors'"
+      }
+    }
   },
   {
     "lemma": "employee",
@@ -1133,7 +1183,17 @@
       "pol-npe-0065-pracownik"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "employee",
+        "gen": "employee's"
+      },
+      "plural": {
+        "nom": "employees",
+        "gen": "employees'"
+      }
+    }
   },
   {
     "lemma": "worker",
@@ -1142,7 +1202,17 @@
       "pol-npe-0065-pracownik"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "worker",
+        "gen": "worker's"
+      },
+      "plural": {
+        "nom": "workers",
+        "gen": "workers'"
+      }
+    }
   },
   {
     "lemma": "fiancé",
@@ -1151,7 +1221,17 @@
       "pol-npe-0066-narzeczony"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "fiancé",
+        "gen": "fiancé's"
+      },
+      "plural": {
+        "nom": "fiancés",
+        "gen": "fiancés'"
+      }
+    }
   },
   {
     "lemma": "fiancée",
@@ -1160,7 +1240,17 @@
       "pol-npe-0067-narzeczona"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "fiancée",
+        "gen": "fiancée's"
+      },
+      "plural": {
+        "nom": "fiancées",
+        "gen": "fiancées'"
+      }
+    }
   },
   {
     "lemma": "gardener",
@@ -1169,7 +1259,17 @@
       "pol-npe-0068-ogrodnik"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "gardener",
+        "gen": "gardener's"
+      },
+      "plural": {
+        "nom": "gardeners",
+        "gen": "gardeners'"
+      }
+    }
   },
   {
     "lemma": "teenager",
@@ -1179,7 +1279,17 @@
       "pol-npe-0126-nastolatka"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "teenager",
+        "gen": "teenager's"
+      },
+      "plural": {
+        "nom": "teenagers",
+        "gen": "teenagers'"
+      }
+    }
   },
   {
     "lemma": "optician",
@@ -1188,7 +1298,17 @@
       "pol-npe-0071-optyk"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "optician",
+        "gen": "optician's"
+      },
+      "plural": {
+        "nom": "opticians",
+        "gen": "opticians'"
+      }
+    }
   },
   {
     "lemma": "model",
@@ -1197,7 +1317,17 @@
       "pol-npe-0072-modelka"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "model",
+        "gen": "model's"
+      },
+      "plural": {
+        "nom": "models",
+        "gen": "models'"
+      }
+    }
   },
   {
     "lemma": "prince",
@@ -1206,7 +1336,17 @@
       "pol-npe-0073-książę"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "prince",
+        "gen": "prince's"
+      },
+      "plural": {
+        "nom": "princes",
+        "gen": "princes'"
+      }
+    }
   },
   {
     "lemma": "guest",
@@ -1215,7 +1355,17 @@
       "pol-npe-0074-gość(guest)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "guest",
+        "gen": "guest's"
+      },
+      "plural": {
+        "nom": "guests",
+        "gen": "guests'"
+      }
+    }
   },
   {
     "lemma": "grandson",
@@ -1224,7 +1374,17 @@
       "pol-npe-0076-wnuk"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "grandson",
+        "gen": "grandson's"
+      },
+      "plural": {
+        "nom": "grandsons",
+        "gen": "grandsons'"
+      }
+    }
   },
   {
     "lemma": "cook",
@@ -1233,7 +1393,17 @@
       "pol-npe-0077-kucharz"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "cook",
+        "gen": "cook's"
+      },
+      "plural": {
+        "nom": "cooks",
+        "gen": "cooks'"
+      }
+    }
   },
   {
     "lemma": "chef",
@@ -1242,7 +1412,17 @@
       "pol-npe-0077-kucharz"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "chef",
+        "gen": "chef's"
+      },
+      "plural": {
+        "nom": "chefs",
+        "gen": "chefs'"
+      }
+    }
   },
   {
     "lemma": "guide",
@@ -1251,7 +1431,17 @@
       "pol-npe-0078-przewodnik(guide)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "guide",
+        "gen": "guide's"
+      },
+      "plural": {
+        "nom": "guides",
+        "gen": "guides'"
+      }
+    }
   },
   {
     "lemma": "midwife",
@@ -1260,7 +1450,17 @@
       "pol-npe-0079-akuszerka"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "midwife",
+        "gen": "midwife's"
+      },
+      "plural": {
+        "nom": "midwives",
+        "gen": "midwives'"
+      }
+    }
   },
   {
     "lemma": "priest",
@@ -1269,7 +1469,17 @@
       "pol-npe-0080-kapłan"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "priest",
+        "gen": "priest's"
+      },
+      "plural": {
+        "nom": "priests",
+        "gen": "priests'"
+      }
+    }
   },
   {
     "lemma": "granddaughter",
@@ -1278,7 +1488,17 @@
       "pol-npe-0081-wnuczka"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "granddaughter",
+        "gen": "granddaughter's"
+      },
+      "plural": {
+        "nom": "granddaughters",
+        "gen": "granddaughters'"
+      }
+    }
   },
   {
     "lemma": "enemy",
@@ -1287,7 +1507,17 @@
       "pol-npe-0082-wróg"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "enemy",
+        "gen": "enemy's"
+      },
+      "plural": {
+        "nom": "enemies",
+        "gen": "enemies'"
+      }
+    }
   },
   {
     "lemma": "passenger",
@@ -1296,7 +1526,17 @@
       "pol-npe-0083-pasażer"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "passenger",
+        "gen": "passenger's"
+      },
+      "plural": {
+        "nom": "passengers",
+        "gen": "passengers'"
+      }
+    }
   },
   {
     "lemma": "soldier",
@@ -1305,7 +1545,17 @@
       "pol-npe-0084-żołnierz"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "soldier",
+        "gen": "soldier's"
+      },
+      "plural": {
+        "nom": "soldiers",
+        "gen": "soldiers'"
+      }
+    }
   },
   {
     "lemma": "dentist",
@@ -1314,7 +1564,17 @@
       "pol-npe-0085-dentysta"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "dentist",
+        "gen": "dentist's"
+      },
+      "plural": {
+        "nom": "dentists",
+        "gen": "dentists'"
+      }
+    }
   },
   {
     "lemma": "parent",
@@ -1323,7 +1583,17 @@
       "pol-npe-0086-rodzic"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "parent",
+        "gen": "parent's"
+      },
+      "plural": {
+        "nom": "parents",
+        "gen": "parents'"
+      }
+    }
   },
   {
     "lemma": "asshole",
@@ -1332,7 +1602,17 @@
       "pol-npe-0087-dupek"
     ],
     "register": 7,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "asshole",
+        "gen": "asshole's"
+      },
+      "plural": {
+        "nom": "assholes",
+        "gen": "assholes'"
+      }
+    }
   },
   {
     "lemma": "jerk",
@@ -1341,7 +1621,17 @@
       "pol-npe-0087-dupek"
     ],
     "register": 7,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "jerk",
+        "gen": "jerk's"
+      },
+      "plural": {
+        "nom": "jerks",
+        "gen": "jerks'"
+      }
+    }
   },
   {
     "lemma": "owner",
@@ -1350,7 +1640,17 @@
       "pol-npe-0089-właściciel(owner)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "owner",
+        "gen": "owner's"
+      },
+      "plural": {
+        "nom": "owners",
+        "gen": "owners'"
+      }
+    }
   },
   {
     "lemma": "landlord",
@@ -1359,7 +1659,17 @@
       "pol-npe-0090-właściciel(landlord)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "landlord",
+        "gen": "landlord's"
+      },
+      "plural": {
+        "nom": "landlords",
+        "gen": "landlords'"
+      }
+    }
   },
   {
     "lemma": "writer",
@@ -1368,7 +1678,17 @@
       "pol-npe-0091-pisarz"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "writer",
+        "gen": "writer's"
+      },
+      "plural": {
+        "nom": "writers",
+        "gen": "writers'"
+      }
+    }
   },
   {
     "lemma": "physician",
@@ -1378,7 +1698,17 @@
       "pol-npe-0093-lekarka"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "physician",
+        "gen": "physician's"
+      },
+      "plural": {
+        "nom": "physicians",
+        "gen": "physicians'"
+      }
+    }
   },
   {
     "lemma": "doctor",
@@ -1388,7 +1718,17 @@
       "pol-npe-0093-lekarka"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "doctor",
+        "gen": "doctor's"
+      },
+      "plural": {
+        "nom": "doctors",
+        "gen": "doctors'"
+      }
+    }
   },
   {
     "lemma": "judge",
@@ -1397,7 +1737,17 @@
       "pol-npe-0094-sędzia(judge)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "judge",
+        "gen": "judge's"
+      },
+      "plural": {
+        "nom": "judges",
+        "gen": "judges'"
+      }
+    }
   },
   {
     "lemma": "journalist",
@@ -1406,7 +1756,17 @@
       "pol-npe-0096-dziennikarz"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "journalist",
+        "gen": "journalist's"
+      },
+      "plural": {
+        "nom": "journalists",
+        "gen": "journalists'"
+      }
+    }
   },
   {
     "lemma": "customs officer",
@@ -1415,7 +1775,17 @@
       "pol-npe-0097-celnik"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "customs officer",
+        "gen": "customs officer's"
+      },
+      "plural": {
+        "nom": "customs officers",
+        "gen": "customs officers'"
+      }
+    }
   },
   {
     "lemma": "client",
@@ -1424,7 +1794,17 @@
       "pol-npe-0098-klient"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "client",
+        "gen": "client's"
+      },
+      "plural": {
+        "nom": "clients",
+        "gen": "clients'"
+      }
+    }
   },
   {
     "lemma": "customer",
@@ -1433,7 +1813,17 @@
       "pol-npe-0098-klient"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "customer",
+        "gen": "customer's"
+      },
+      "plural": {
+        "nom": "customers",
+        "gen": "customers'"
+      }
+    }
   },
   {
     "lemma": "hairdresser",
@@ -1442,7 +1832,17 @@
       "pol-npe-0099-fryzjer"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "hairdresser",
+        "gen": "hairdresser's"
+      },
+      "plural": {
+        "nom": "hairdressers",
+        "gen": "hairdressers'"
+      }
+    }
   },
   {
     "lemma": "singer",
@@ -1451,7 +1851,17 @@
       "pol-npe-0100-śpiewak"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "singer",
+        "gen": "singer's"
+      },
+      "plural": {
+        "nom": "singers",
+        "gen": "singers'"
+      }
+    }
   },
   {
     "lemma": "murderer",
@@ -1460,7 +1870,17 @@
       "pol-npe-0101-morderca"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "murderer",
+        "gen": "murderer's"
+      },
+      "plural": {
+        "nom": "murderers",
+        "gen": "murderers'"
+      }
+    }
   },
   {
     "lemma": "policeman",
@@ -1469,7 +1889,17 @@
       "pol-npe-0102-policjant"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "policeman",
+        "gen": "policeman's"
+      },
+      "plural": {
+        "nom": "policemen",
+        "gen": "policemen's"
+      }
+    }
   },
   {
     "lemma": "policewoman",
@@ -1478,7 +1908,17 @@
       "pol-npe-0117-policjantka"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "policewoman",
+        "gen": "policewoman's"
+      },
+      "plural": {
+        "nom": "policewomen",
+        "gen": "policewomen's"
+      }
+    }
   },
   {
     "lemma": "police officer",
@@ -1488,7 +1928,17 @@
       "pol-npe-0117-policjantka"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "police officer",
+        "gen": "police officer's"
+      },
+      "plural": {
+        "nom": "police officers",
+        "gen": "police officers'"
+      }
+    }
   },
   {
     "lemma": "nurse",
@@ -1498,7 +1948,17 @@
       "pol-npe-0104-pielęgniarz"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "nurse",
+        "gen": "nurse's"
+      },
+      "plural": {
+        "nom": "nurses",
+        "gen": "nurses'"
+      }
+    }
   },
   {
     "lemma": "citizen",
@@ -1507,7 +1967,17 @@
       "pol-npe-0105-obywatel"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "citizen",
+        "gen": "citizen's"
+      },
+      "plural": {
+        "nom": "citizens",
+        "gen": "citizens'"
+      }
+    }
   },
   {
     "lemma": "guard",
@@ -1516,7 +1986,17 @@
       "pol-npe-0106-strażnik"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "guard",
+        "gen": "guard's"
+      },
+      "plural": {
+        "nom": "guards",
+        "gen": "guards'"
+      }
+    }
   },
   {
     "lemma": "scientist",
@@ -1525,7 +2005,17 @@
       "pol-npe-0107-naukowiec"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "scientist",
+        "gen": "scientist's"
+      },
+      "plural": {
+        "nom": "scientists",
+        "gen": "scientists'"
+      }
+    }
   },
   {
     "lemma": "patient",
@@ -1534,7 +2024,17 @@
       "pol-npe-0108-pacjent"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "patient",
+        "gen": "patient's"
+      },
+      "plural": {
+        "nom": "patients",
+        "gen": "patients'"
+      }
+    }
   },
   {
     "lemma": "relative",
@@ -1544,7 +2044,17 @@
       "pol-npe-0110-krewny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "relative",
+        "gen": "relative's"
+      },
+      "plural": {
+        "nom": "relatives",
+        "gen": "relatives'"
+      }
+    }
   },
   {
     "lemma": "farmer",
@@ -1553,7 +2063,17 @@
       "pol-npe-0112-rolnik"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "farmer",
+        "gen": "farmer's"
+      },
+      "plural": {
+        "nom": "farmers",
+        "gen": "farmers'"
+      }
+    }
   },
   {
     "lemma": "victim",
@@ -1562,7 +2082,17 @@
       "pol-npe-0113-ofiara(victim)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "victim",
+        "gen": "victim's"
+      },
+      "plural": {
+        "nom": "victims",
+        "gen": "victims'"
+      }
+    }
   },
   {
     "lemma": "detective",
@@ -1571,7 +2101,17 @@
       "pol-npe-0114-detektyw"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "detective",
+        "gen": "detective's"
+      },
+      "plural": {
+        "nom": "detectives",
+        "gen": "detectives'"
+      }
+    }
   },
   {
     "lemma": "mate",
@@ -1580,7 +2120,17 @@
       "pol-npe-0115-kumpel"
     ],
     "register": 6,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "mate",
+        "gen": "mate's"
+      },
+      "plural": {
+        "nom": "mates",
+        "gen": "mates'"
+      }
+    }
   },
   {
     "lemma": "pal",
@@ -1589,7 +2139,17 @@
       "pol-npe-0115-kumpel"
     ],
     "register": 6,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "pal",
+        "gen": "pal's"
+      },
+      "plural": {
+        "nom": "pals",
+        "gen": "pals'"
+      }
+    }
   },
   {
     "lemma": "master",
@@ -1598,7 +2158,17 @@
       "pol-npe-0116-mistrz"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "singular": {
+        "nom": "master",
+        "gen": "master's"
+      },
+      "plural": {
+        "nom": "masters",
+        "gen": "masters'"
+      }
+    }
   },
   {
     "lemma": "champion",
@@ -1607,7 +2177,17 @@
       "pol-npe-0116-mistrz"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "singular": {
+        "nom": "champion",
+        "gen": "champion's"
+      },
+      "plural": {
+        "nom": "champions",
+        "gen": "champions'"
+      }
+    }
   },
   {
     "lemma": "vegetarian",
@@ -1616,7 +2196,17 @@
       "pol-npe-0118-wegetarianin"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "vegetarian",
+        "gen": "vegetarian's"
+      },
+      "plural": {
+        "nom": "vegetarians",
+        "gen": "vegetarians'"
+      }
+    }
   },
   {
     "lemma": "secretary",
@@ -1625,7 +2215,17 @@
       "pol-npe-0119-sekretarz"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "secretary",
+        "gen": "secretary's"
+      },
+      "plural": {
+        "nom": "secretaries",
+        "gen": "secretaries'"
+      }
+    }
   },
   {
     "lemma": "acquaintance",
@@ -1634,7 +2234,17 @@
       "pol-npe-0120-znajoma"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "acquaintance",
+        "gen": "acquaintance's"
+      },
+      "plural": {
+        "nom": "acquaintances",
+        "gen": "acquaintances'"
+      }
+    }
   },
   {
     "lemma": "artist",
@@ -1644,7 +2254,17 @@
       "pol-npe-0123-artystka"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "artist",
+        "gen": "artist's"
+      },
+      "plural": {
+        "nom": "artists",
+        "gen": "artists'"
+      }
+    }
   },
   {
     "lemma": "president",
@@ -1653,7 +2273,17 @@
       "pol-npe-0127-prezydent"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "president",
+        "gen": "president's"
+      },
+      "plural": {
+        "nom": "presidents",
+        "gen": "presidents'"
+      }
+    }
   },
   {
     "lemma": "prisoner",
@@ -1662,7 +2292,17 @@
       "pol-npe-0128-więzień"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "prisoner",
+        "gen": "prisoner's"
+      },
+      "plural": {
+        "nom": "prisoners",
+        "gen": "prisoners'"
+      }
+    }
   },
   {
     "lemma": "waitress",
@@ -1671,7 +2311,17 @@
       "pol-npe-0129-kelnerka"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "waitress",
+        "gen": "waitress's"
+      },
+      "plural": {
+        "nom": "waitresses",
+        "gen": "waitresses'"
+      }
+    }
   },
   {
     "lemma": "billionaire",
@@ -1680,7 +2330,17 @@
       "pol-npe-0131-miliarder"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "billionaire",
+        "gen": "billionaire's"
+      },
+      "plural": {
+        "nom": "billionaires",
+        "gen": "billionaires'"
+      }
+    }
   },
   {
     "lemma": "millionaire",
@@ -1689,7 +2349,17 @@
       "pol-npe-0132-milioner"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "millionaire",
+        "gen": "millionaire's"
+      },
+      "plural": {
+        "nom": "millionaires",
+        "gen": "millionaires'"
+      }
+    }
   },
   {
     "lemma": "pedestrian",
@@ -1699,7 +2369,17 @@
       "pol-npe-0134-piesza"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "pedestrian",
+        "gen": "pedestrian's"
+      },
+      "plural": {
+        "nom": "pedestrians",
+        "gen": "pedestrians'"
+      }
+    }
   },
   {
     "lemma": "Mr",
@@ -1708,7 +2388,17 @@
       "pol-npe-0135-pan(title)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "Mr",
+        "gen": "Mr's"
+      },
+      "plural": {
+        "nom": "swde",
+        "gen": "swde's"
+      }
+    }
   },
   {
     "lemma": "Sir",
@@ -1717,7 +2407,17 @@
       "pol-npe-0137-pan(address)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "Sir",
+        "gen": "Sir's"
+      },
+      "plural": {
+        "nom": "Sirs",
+        "gen": "Sirs'"
+      }
+    }
   },
   {
     "lemma": "Madam",
@@ -1726,7 +2426,17 @@
       "pol-npe-0138-pani(address)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "Madam",
+        "gen": "Madam's"
+      },
+      "plural": {
+        "nom": "Madams",
+        "gen": "Madams'"
+      }
+    }
   },
   {
     "lemma": "Mrs",
@@ -1735,7 +2445,17 @@
       "pol-npe-0136-pani(title)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "Mrs",
+        "gen": "Mrs's"
+      },
+      "plural": {
+        "nom": "swde",
+        "gen": "swde's"
+      }
+    }
   },
   {
     "lemma": "Miss",
@@ -1749,6 +2469,16 @@
       "singleWordtype": true,
       "text": "form of address",
       "emoji": "👋"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "Miss",
+        "gen": "Miss's"
+      },
+      "plural": {
+        "nom": "swde",
+        "gen": "swde's"
+      }
     }
   },
   {
@@ -1763,6 +2493,16 @@
       "singleWordtype": true,
       "text": "title",
       "emoji": "🙇"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "Miss",
+        "gen": "Miss's"
+      },
+      "plural": {
+        "nom": "swde",
+        "gen": "swde's"
+      }
     }
   },
   {
@@ -1772,7 +2512,17 @@
       "pol-npe-0014-pilot(pilot)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "pilot",
+        "gen": "pilot's"
+      },
+      "plural": {
+        "nom": "pilots",
+        "gen": "pilots'"
+      }
+    }
   },
   {
     "lemma": "guy",
@@ -1782,7 +2532,17 @@
       "pol-npe-0075-gość(guy)"
     ],
     "register": 6,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "guy",
+        "gen": "guy's"
+      },
+      "plural": {
+        "nom": "guys",
+        "gen": "guys'"
+      }
+    }
   },
   {
     "lemma": "chick",
@@ -1791,7 +2551,17 @@
       "pol-npe-0008-facet"
     ],
     "register": 6,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "chick",
+        "gen": "chick's"
+      },
+      "plural": {
+        "nom": "chicks",
+        "gen": "chicks'"
+      }
+    }
   },
   {
     "lemma": "fellow",
@@ -1800,7 +2570,17 @@
       "pol-npe-0008-facet"
     ],
     "register": 6,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "fellow",
+        "gen": "fellow's"
+      },
+      "plural": {
+        "nom": "fellows",
+        "gen": "fellows'"
+      }
+    }
   },
   {
     "lemma": "chap",
@@ -1809,7 +2589,17 @@
       "pol-npe-0008-facet"
     ],
     "register": 6,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "chap",
+        "gen": "chap's"
+      },
+      "plural": {
+        "nom": "chaps",
+        "gen": "chaps'"
+      }
+    }
   },
   {
     "lemma": "homie",
@@ -1818,7 +2608,17 @@
       "pol-npe-0013-ziom"
     ],
     "register": 6,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "homie",
+        "gen": "homie's"
+      },
+      "plural": {
+        "nom": "homies",
+        "gen": "homies'"
+      }
+    }
   },
   {
     "lemma": "bro",
@@ -1827,7 +2627,17 @@
       "pol-npe-0013-ziom"
     ],
     "register": 6,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "bro",
+        "gen": "bro's"
+      },
+      "plural": {
+        "nom": "bros",
+        "gen": "bros'"
+      }
+    }
   },
   {
     "lemma": "dude",
@@ -1836,7 +2646,17 @@
       "pol-npe-0013-ziom"
     ],
     "register": 6,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "dude",
+        "gen": "dude's"
+      },
+      "plural": {
+        "nom": "dudes",
+        "gen": "dudes'"
+      }
+    }
   },
   {
     "lemma": "buddy",
@@ -1847,7 +2667,17 @@
       "pol-npe-0121-koleżanka"
     ],
     "register": 6,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "buddy",
+        "gen": "buddy's"
+      },
+      "plural": {
+        "nom": "buddies",
+        "gen": "buddies'"
+      }
+    }
   },
   {
     "lemma": "colleague",
@@ -1857,7 +2687,17 @@
       "pol-npe-0121-koleżanka"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "colleague",
+        "gen": "colleague's"
+      },
+      "plural": {
+        "nom": "colleagues",
+        "gen": "colleagues'"
+      }
+    }
   },
   {
     "lemma": "workmate",
@@ -1867,6 +2707,16 @@
       "pol-npe-0121-koleżanka"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "workmate",
+        "gen": "workmate's"
+      },
+      "plural": {
+        "nom": "workmates",
+        "gen": "workmates'"
+      }
+    }
   }
 ]

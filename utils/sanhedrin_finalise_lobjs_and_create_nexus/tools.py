@@ -960,6 +960,7 @@ def get_inflections_eng_nou(
         reconfirming: bool = False,
         remove_sas: bool = False,
         flip_sas: bool = False,
+        plural_is_same: bool = False,
 ):
     def restart():
         return get_inflections_eng_nou(lemma)
@@ -970,9 +971,13 @@ def get_inflections_eng_nou(
         plur_gen = plur_nom + "'s"
         if remove_sas:
             plur_gen = plur_gen[0:-2]
+            plur_gen = plur_gen + "'"
         if flip_sas:
             plur_gen = replace_char_at_index(plur_gen, -2, '')
             plur_gen = plur_gen + "'"
+        if plural_is_same:
+            plur_gen = sing_gen
+            plur_nom = lemma
     else:
         sing_gen = lemma + "'s"
         plur_nom = lemma + ("s" if lemma[-1] not in 'hsxy' else "es")
@@ -985,7 +990,7 @@ def get_inflections_eng_nou(
     print_function(f'{lemma}, {plur_nom}')
     print_function(f'{sing_gen}, {plur_gen}')
     print("")
-    user_input = input('Enter YES\nAny   NO\nq     Remove "s`s"\nw     Flip "`s"\nOr type in manually nominative plural eg "men" and press enter\n: ')
+    user_input = input('Enter YES\nAny   NO\nq     Remove "s`s"\nw     Flip "`s"\nq     Plural is same as singular\nOr type in manually nominative plural eg "men" and press enter\n: ')
 
     if not user_input or user_input == 'y':
         return {
@@ -1000,9 +1005,11 @@ def get_inflections_eng_nou(
         }
 
     if user_input == 'q':
-        return get_inflections_eng_nou(lemma, user_input, True, True)
+        return get_inflections_eng_nou(lemma, plur_nom, True, True)
     if user_input == 'w':
-        return get_inflections_eng_nou(lemma, user_input, True, False, True)
+        return get_inflections_eng_nou(lemma, plur_nom, True, False, True)
+    if user_input == 'e':
+        return get_inflections_eng_nou(lemma, plur_nom, True, False, False, True)
 
     if len(user_input) == 1:
         return restart()
