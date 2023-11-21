@@ -1,6 +1,7 @@
 import json
 import os
 import time
+from math import floor
 
 
 class Colors:
@@ -234,3 +235,18 @@ def replace_char_at_index(s, index, new_char):
     split = [char for char in s]
     split[index] = new_char
     return ''.join(split)
+
+
+def progress_bar(index, total, use_emojis: bool = False, double_length: bool = False):
+    height = 50
+    emojis = "⚽🏑🏉🎾🏒🥏🏀🎳🏈🏏🥎🥍🏓🏐🏸🥊🥋🥅⛸🎣🎿🛷🥌💃🎹🕺🎼🎺🎵🎻🎶🎸🎷🎅🎂🎃🎄🎆🎈🎋🎊🎍🎎🎏🎐🎑🎀🎁🪅️"
+
+    if use_emojis:
+        if double_length:
+            emojis = emojis + emojis
+        height = len(emojis)
+        progress = floor((index / total) * height)
+        print(f'[{emojis[0:progress]}{"-" * (height - progress)}]')
+    else:
+        progress = floor((index / total) * height)
+        Color.print_purple(f'[{"#" * progress}{"-" * (height - progress)}]')

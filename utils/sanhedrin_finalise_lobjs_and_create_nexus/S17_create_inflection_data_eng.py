@@ -4,7 +4,7 @@ from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same
     get_signalword, test_signalword, get_inflections_eng_ver, get_inflections_eng_nou, get_inflections_eng_adj
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import Color as c, get_curried_save, load_tempsave_if_exists
+from utils.universal import Color as c, get_curried_save, load_tempsave_if_exists, progress_bar
 
 if __name__ == '__main__':
 
@@ -36,7 +36,6 @@ if __name__ == '__main__':
     siblings = []
     sibling_headers = []
 
-
     print("Loaded", len(tgt_lobjs), "target lobjs.")
 
     for index, tgt_lobj in enumerate(tgt_lobjs):
@@ -47,6 +46,7 @@ if __name__ == '__main__':
 
         if index % 5 == 0:
             save(tgt_lobjs, True)
+            progress_bar(index + 1, len(tgt_lobjs), True, True)
 
     save(tgt_lobjs)
 

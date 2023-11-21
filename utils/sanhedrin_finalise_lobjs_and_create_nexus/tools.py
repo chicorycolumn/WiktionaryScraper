@@ -1013,6 +1013,9 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
             compar = replace_char_at_index(compar, -3, 'i')
             superl = replace_char_at_index(superl, -4, 'i')
             adverb = replace_char_at_index(adverb, -3, 'i')
+        if lemma.endswith('le'):
+            adverb = replace_char_at_index(adverb, -3, '')
+            adverb = replace_char_at_index(adverb, -3, '')
 
 
     print("")
