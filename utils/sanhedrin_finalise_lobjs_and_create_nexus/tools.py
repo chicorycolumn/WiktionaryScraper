@@ -1008,7 +1008,7 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
     else:
         compar = lemma + ("er" if not lemma.endswith('e') else 'r')
         superl = lemma + ("est" if not lemma.endswith('e') else 'st')
-        adverb = lemma + "ly"
+        adverb = lemma + ("ly" if not lemma.endswith('l') else 'y')
         if lemma.endswith('y'):
             compar = replace_char_at_index(compar, -3, 'i')
             superl = replace_char_at_index(superl, -4, 'i')
@@ -1016,6 +1016,8 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
         if lemma.endswith('le'):
             adverb = replace_char_at_index(adverb, -3, '')
             adverb = replace_char_at_index(adverb, -3, '')
+        if lemma.endswith('ic'):
+            adverb = replace_char_at_index(adverb, -3, 'cal')
 
 
     print("")
@@ -1024,7 +1026,7 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
     print_function(superl if superl else '(none)')
     print_function(adverb if adverb else '(none)')
     if not compar and not superl and not adverb:
-        print(f'(lemma is {lemma})')
+        c.print_bold(f'(lemma was {lemma})')
     else:
         print("")
 

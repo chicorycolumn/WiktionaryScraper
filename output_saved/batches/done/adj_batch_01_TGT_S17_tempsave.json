@@ -3023,7 +3023,13 @@
       "pol-adj-0092-świetny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "splendid",
+      "comparative": "more splendid",
+      "superlative": "the most splendid",
+      "adverb": "splendidly"
+    }
   },
   {
     "lemma": "shy",
@@ -3032,7 +3038,13 @@
       "pol-adj-0093-nieśmiały"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "shy",
+      "comparative": "shyer",
+      "superlative": "shyest",
+      "adverb": "shyly"
+    }
   },
   {
     "lemma": "timid",
@@ -3041,7 +3053,13 @@
       "pol-adj-0093-nieśmiały"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "timid",
+      "comparative": "more timid",
+      "superlative": "the most timid",
+      "adverb": "timidly"
+    }
   },
   {
     "lemma": "daring",
@@ -3050,7 +3068,13 @@
       "pol-adj-0094-śmiały"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "daring",
+      "comparative": "more daring",
+      "superlative": "the most daring",
+      "adverb": "daringly"
+    }
   },
   {
     "lemma": "bold",
@@ -3059,7 +3083,13 @@
       "pol-adj-0094-śmiały"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "bold",
+      "comparative": "bolder",
+      "superlative": "boldest",
+      "adverb": "boldly"
+    }
   },
   {
     "lemma": "thin",
@@ -3069,7 +3099,13 @@
       "pol-adj-0131-cienki"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "thin",
+      "comparative": "thinner",
+      "superlative": "thinnest",
+      "adverb": "thinly"
+    }
   },
   {
     "lemma": "lean",
@@ -3078,7 +3114,13 @@
       "pol-adj-0095-chudy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "lean",
+      "comparative": "leaner",
+      "superlative": "leanest",
+      "adverb": false
+    }
   },
   {
     "lemma": "fat",
@@ -3087,7 +3129,13 @@
       "pol-adj-0096-gruby(fat)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "fat",
+      "comparative": "fatter",
+      "superlative": "fattest",
+      "adverb": false
+    }
   },
   {
     "lemma": "thick",
@@ -3101,6 +3149,12 @@
       "singleWordtype": true,
       "text": "object",
       "emoji": "📦"
+    },
+    "inflections": {
+      "simple": "thick",
+      "comparative": "thicker",
+      "superlative": "thickest",
+      "adverb": false
     }
   },
   {
@@ -3115,6 +3169,12 @@
       "singleWordtype": true,
       "text": "texture",
       "emoji": "🪨"
+    },
+    "inflections": {
+      "simple": "thick",
+      "comparative": "thicker",
+      "superlative": "thickest",
+      "adverb": false
     }
   },
   {
@@ -3124,14 +3184,26 @@
       "pol-adj-0098-cichy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "quiet",
+      "comparative": "quieter",
+      "superlative": "quietest",
+      "adverb": "quietly"
+    }
   },
   {
     "lemma": "quiet",
     "id": "eng-adj-0185-quiet(calm)",
     "»trans": [],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "quiet",
+      "comparative": "quieter",
+      "superlative": "quietest",
+      "adverb": "quietly"
+    }
   },
   {
     "lemma": "silent",
@@ -3141,7 +3213,13 @@
       "pol-adj-0607-niemy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "silent",
+      "comparative": "more silent",
+      "superlative": "the most silent",
+      "adverb": "silently"
+    }
   },
   {
     "lemma": "loud",
@@ -3151,7 +3229,13 @@
       "pol-adj-0225-hałaśliwy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "loud",
+      "comparative": "louder",
+      "superlative": "loudest",
+      "adverb": "loudly"
+    }
   },
   {
     "lemma": "noisy",
@@ -3161,7 +3245,13 @@
       "pol-adj-0225-hałaśliwy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "noisy",
+      "comparative": "noisier",
+      "superlative": "noisiest",
+      "adverb": "noisily"
+    }
   },
   {
     "lemma": "accessible",
@@ -3170,7 +3260,13 @@
       "pol-adj-0100-dostępny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "accessible",
+      "comparative": "more accessible",
+      "superlative": "the most accessible",
+      "adverb": "accessibly"
+    }
   },
   {
     "lemma": "available",
@@ -3179,7 +3275,13 @@
       "pol-adj-0100-dostępny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "available",
+      "comparative": "more available",
+      "superlative": "the most available",
+      "adverb": "availably"
+    }
   },
   {
     "lemma": "unavailable",
@@ -3188,7 +3290,13 @@
       "pol-adj-0101-niedostępny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "unavailable",
+      "comparative": "more unavailable",
+      "superlative": "the most unavailable",
+      "adverb": "unavailably"
+    }
   },
   {
     "lemma": "inaccessible",
@@ -3197,7 +3305,13 @@
       "pol-adj-0101-niedostępny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "inaccessible",
+      "comparative": "more inaccessible",
+      "superlative": "the most inaccessible",
+      "adverb": "inaccessibly"
+    }
   },
   {
     "lemma": "ideal",
@@ -3206,7 +3320,13 @@
       "pol-adj-0102-idealny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "ideal",
+      "comparative": "more ideal",
+      "superlative": "the most ideal",
+      "adverb": "ideally"
+    }
   },
   {
     "lemma": "safe",
@@ -3215,7 +3335,13 @@
       "pol-adj-0103-bezpieczny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "safe",
+      "comparative": "safer",
+      "superlative": "safest",
+      "adverb": "safely"
+    }
   },
   {
     "lemma": "immense",
@@ -3224,7 +3350,13 @@
       "pol-adj-0104-ogromny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "immense",
+      "comparative": "more immense",
+      "superlative": "the most immense",
+      "adverb": "immensely"
+    }
   },
   {
     "lemma": "cheap",
@@ -3238,6 +3370,12 @@
       "singleWordtype": true,
       "text": "money",
       "emoji": "💵"
+    },
+    "inflections": {
+      "simple": "cheap",
+      "comparative": "cheaper",
+      "superlative": "cheapest",
+      "adverb": "cheaply"
     }
   },
   {
@@ -3252,6 +3390,12 @@
       "singleWordtype": true,
       "text": "quality",
       "emoji": "✅"
+    },
+    "inflections": {
+      "simple": "cheap",
+      "comparative": "cheaper",
+      "superlative": "cheapest",
+      "adverb": "cheaply"
     }
   },
   {
@@ -3261,7 +3405,13 @@
       "pol-adj-0106-drogi"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "expensive",
+      "comparative": "more expensive",
+      "superlative": "the most expensive",
+      "adverb": "expensively"
+    }
   },
   {
     "lemma": "interesting",
@@ -3271,7 +3421,13 @@
       "pol-adj-0108-ciekawy(interesting)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "interesting",
+      "comparative": "more interesting",
+      "superlative": "the most interesting",
+      "adverb": "interestingly"
+    }
   },
   {
     "lemma": "curious",
@@ -3280,7 +3436,13 @@
       "pol-adj-0109-ciekawy(curious)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "curious",
+      "comparative": "more curious",
+      "superlative": "the most curious",
+      "adverb": "curiously"
+    }
   },
   {
     "lemma": "boring",
@@ -3289,7 +3451,13 @@
       "pol-adj-0110-nudny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "boring",
+      "comparative": "more boring",
+      "superlative": "the most boring",
+      "adverb": "boringly"
+    }
   },
   {
     "lemma": "dull",
@@ -3303,6 +3471,12 @@
       "singleWordtype": true,
       "text": "quality",
       "emoji": "✅"
+    },
+    "inflections": {
+      "simple": "dull",
+      "comparative": "duller",
+      "superlative": "dullest",
+      "adverb": "dully"
     }
   },
   {
@@ -3317,6 +3491,12 @@
       "singleWordtype": true,
       "text": "texture",
       "emoji": "🪨"
+    },
+    "inflections": {
+      "simple": "dull",
+      "comparative": "duller",
+      "superlative": "dullest",
+      "adverb": "dully"
     }
   },
   {
