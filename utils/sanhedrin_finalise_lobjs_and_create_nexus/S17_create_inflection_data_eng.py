@@ -46,7 +46,7 @@ if __name__ == '__main__':
 
         if index % 5 == 0:
             save(tgt_lobjs, True)
-            progress_bar(index + 1, len(tgt_lobjs), True, True)
+            progress_bar(index + 1, len(tgt_lobjs), True)
 
     save(tgt_lobjs)
 

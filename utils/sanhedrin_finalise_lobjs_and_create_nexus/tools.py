@@ -1038,24 +1038,24 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
             "adverb": adverb
         }
 
-    if len(user_input) == 1:
-        if user_input == 'f':
-            return get_inflections_eng_adj(lemma, [compar, superl, False], True)
-        if user_input == 'd':
-            compar = compar[0:-2] + compar[-3] + compar[-2:]
-            superl = superl[0:-3] + superl[-4] + superl[-3:]
-            return get_inflections_eng_adj(lemma, [compar, superl, adverb], True)
-        if user_input == 's':
-            return get_inflections_eng_adj(lemma, [f'more {lemma}', f'the most {lemma}', False], True)
-        if user_input == 'a':
-            return get_inflections_eng_adj(lemma, [f'more {lemma}', f'the most {lemma}', adverb], True)
 
+    if user_input == 'f':
+        return get_inflections_eng_adj(lemma, [compar, superl, False], True)
+    if user_input == 'd':
+        compar = compar[0:-2] + compar[-3] + compar[-2:]
+        superl = superl[0:-3] + superl[-4] + superl[-3:]
+        return get_inflections_eng_adj(lemma, [compar, superl, adverb], True)
+    if user_input == 's':
+        return get_inflections_eng_adj(lemma, [f'more {lemma}', f'the most {lemma}', False], True)
+    if user_input == 'a':
+        return get_inflections_eng_adj(lemma, [f'more {lemma}', f'the most {lemma}', adverb], True)
+    if user_input in ['no', 'g']:
+        return get_inflections_eng_adj(lemma, [False, False, False], True)
+
+    if len(user_input) == 1:
         return restart()
 
     else:
-        if user_input == 'no':
-            return get_inflections_eng_adj(lemma, [False, False, False], True)
-
         split = user_input.split(" ")
 
         if len(split) != 3 or any(len(s) < 2 for s in split):

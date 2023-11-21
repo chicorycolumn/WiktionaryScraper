@@ -31,8 +31,14 @@
     },
     "inflections": {
       "simple": "bad",
-      "comparative": ["worse", "badder"],
-      "superlative": ["worst", "baddest"],
+      "comparative": [
+        "worse",
+        "badder"
+      ],
+      "superlative": [
+        "worst",
+        "baddest"
+      ],
       "adverb": "badly"
     }
   },
@@ -51,8 +57,14 @@
     },
     "inflections": {
       "simple": "bad",
-      "comparative": ["worse", "badder"],
-      "superlative": ["worst", "baddest"],
+      "comparative": [
+        "worse",
+        "badder"
+      ],
+      "superlative": [
+        "worst",
+        "baddest"
+      ],
       "adverb": "badly"
     }
   },
@@ -560,7 +572,13 @@
       "pol-adj-0275-przeciętny(mediocre)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "mediocre",
+      "comparative": "more mediocre",
+      "superlative": "the most mediocre",
+      "adverb": "mediocrely"
+    }
   },
   {
     "lemma": "sturdy",
@@ -570,7 +588,13 @@
       "pol-adj-0174-solidny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "sturdy",
+      "comparative": "sturdier",
+      "superlative": "sturdiest",
+      "adverb": "sturdily"
+    }
   },
   {
     "lemma": "powerful",
@@ -580,7 +604,13 @@
       "pol-adj-0057-potężny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "powerful",
+      "comparative": "more powerful",
+      "superlative": "the most powerful",
+      "adverb": "powerfully"
+    }
   },
   {
     "lemma": "magnificent",
@@ -589,7 +619,13 @@
       "pol-adj-0017-wspaniały"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "magnificent",
+      "comparative": "more magnificent",
+      "superlative": "the most magnificent",
+      "adverb": "magnificently"
+    }
   },
   {
     "lemma": "excellent",
@@ -601,7 +637,13 @@
       "pol-adj-0361-cudowny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "excellent",
+      "comparative": "more excellent",
+      "superlative": "the most excellent",
+      "adverb": "excellently"
+    }
   },
   {
     "lemma": "heavy",
@@ -610,7 +652,13 @@
       "pol-adj-0018-ciężki(heavy)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "heavy",
+      "comparative": "heavier",
+      "superlative": "heaviest",
+      "adverb": "heavily"
+    }
   },
   {
     "lemma": "difficult",
@@ -620,7 +668,13 @@
       "pol-adj-0021-trudny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "difficult",
+      "comparative": "more difficult",
+      "superlative": "the most difficult",
+      "adverb": "difficultly"
+    }
   },
   {
     "lemma": "sensitive",
@@ -634,6 +688,12 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "simple": "sensitive",
+      "comparative": "more sensitive",
+      "superlative": "the most sensitive",
+      "adverb": "sensitively"
     }
   },
   {
@@ -648,6 +708,12 @@
       "singleWordtype": true,
       "text": "medical",
       "emoji": "🩺"
+    },
+    "inflections": {
+      "simple": "sensitive",
+      "comparative": "more sensitive",
+      "superlative": "the most sensitive",
+      "adverb": "sensitively"
     }
   },
   {
@@ -657,7 +723,13 @@
       "pol-adj-0022-wrażliwy(impressionable)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "tender",
+      "comparative": "tenderer",
+      "superlative": "tenderest",
+      "adverb": "tenderly"
+    }
   },
   {
     "lemma": "impressionable",
@@ -666,7 +738,13 @@
       "pol-adj-0022-wrażliwy(impressionable)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "impressionable",
+      "comparative": "more impressionable",
+      "superlative": "the most impressionable",
+      "adverb": "impressionably"
+    }
   },
   {
     "lemma": "susceptible",
@@ -675,7 +753,13 @@
       "pol-adj-0023-wrażliwy(susceptible)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "susceptible",
+      "comparative": "more susceptible",
+      "superlative": "the most susceptible",
+      "adverb": "susceptibly"
+    }
   },
   {
     "lemma": "common",
@@ -691,6 +775,12 @@
       "singleWordtype": true,
       "text": "frequency",
       "emoji": "📅"
+    },
+    "inflections": {
+      "simple": "common",
+      "comparative": "more common",
+      "superlative": "the most common",
+      "adverb": "commonly"
     }
   },
   {
@@ -705,6 +795,12 @@
       "singleWordtype": true,
       "text": "shared",
       "emoji": "🫂"
+    },
+    "inflections": {
+      "simple": "common",
+      "comparative": "more common",
+      "superlative": "the most common",
+      "adverb": "commonly"
     }
   },
   {
@@ -715,7 +811,13 @@
       "pol-adj-0025-częsty"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "frequent",
+      "comparative": "more frequent",
+      "superlative": "the most frequent",
+      "adverb": "frequently"
+    }
   },
   {
     "lemma": "dead",
@@ -724,7 +826,13 @@
       "pol-adj-0026-martwy(dead)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "dead",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "inanimate",
@@ -734,7 +842,13 @@
       "pol-adj-0028-nieożywiony"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "inanimate",
+      "comparative": "more inanimate",
+      "superlative": "the most inanimate",
+      "adverb": false
+    }
   },
   {
     "lemma": "live",
@@ -743,7 +857,13 @@
       "pol-adj-0029-żywy(live)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "live",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "alive",
@@ -752,7 +872,13 @@
       "pol-adj-0029-żywy(live)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "alive",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "living",
@@ -761,7 +887,13 @@
       "pol-adj-0029-żywy(live)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "living",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "lively",
@@ -771,7 +903,13 @@
       "pol-adj-0501-żywiołowy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "lively",
+      "comparative": "livelier",
+      "superlative": "liveliest",
+      "adverb": false
+    }
   },
   {
     "lemma": "vivacious",
@@ -780,7 +918,13 @@
       "pol-adj-0030-żywy(lively)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "vivacious",
+      "comparative": "more vivacious",
+      "superlative": "the most vivacious",
+      "adverb": "vivaciously"
+    }
   },
   {
     "lemma": "vivid",
@@ -791,7 +935,13 @@
       "pol-adj-0591-jaskrawy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "vivid",
+      "comparative": "more vivid",
+      "superlative": "the most vivid",
+      "adverb": "vividly"
+    }
   },
   {
     "lemma": "vibrant",
@@ -800,7 +950,13 @@
       "pol-adj-0030-żywy(lively)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "vibrant",
+      "comparative": "more vibrant",
+      "superlative": "the most vibrant",
+      "adverb": "vibrantly"
+    }
   },
   {
     "lemma": "free of charge",
@@ -810,7 +966,13 @@
       "pol-adj-0185-darmowy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "free of charge",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "free",
@@ -824,6 +986,12 @@
       "singleWordtype": true,
       "text": "money",
       "emoji": "💵"
+    },
+    "inflections": {
+      "simple": "free",
+      "comparative": "freer",
+      "superlative": "freest",
+      "adverb": "freely"
     }
   },
   {
@@ -839,6 +1007,12 @@
       "singleWordtype": true,
       "text": "liberty",
       "emoji": "🗽"
+    },
+    "inflections": {
+      "simple": "free",
+      "comparative": "freer",
+      "superlative": "freest",
+      "adverb": "freely"
     }
   },
   {
@@ -848,7 +1022,13 @@
       "pol-adj-0032-młody"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "young",
+      "comparative": "younger",
+      "superlative": "youngest",
+      "adverb": false
+    }
   },
   {
     "lemma": "old",
@@ -857,7 +1037,13 @@
       "pol-adj-0033-stary"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "old",
+      "comparative": "older",
+      "superlative": "oldest",
+      "adverb": false
+    }
   },
   {
     "lemma": "black",
@@ -866,7 +1052,13 @@
       "pol-adj-0034-czarny"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "black",
+      "comparative": "blacker",
+      "superlative": "blackest",
+      "adverb": false
+    }
   },
   {
     "lemma": "white",
@@ -875,7 +1067,13 @@
       "pol-adj-0035-biały"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "white",
+      "comparative": "whiter",
+      "superlative": "whitest",
+      "adverb": false
+    }
   },
   {
     "lemma": "necessary",
@@ -886,7 +1084,13 @@
       "pol-adj-0040-niezbędny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "necessary",
+      "comparative": "more necessary",
+      "superlative": "the most necessary",
+      "adverb": "necessarily"
+    }
   },
   {
     "lemma": "elementary",
@@ -896,7 +1100,13 @@
       "pol-adj-0041-podstawowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "elementary",
+      "comparative": "more elementary",
+      "superlative": "the most elementary",
+      "adverb": "elementarily"
+    }
   },
   {
     "lemma": "key",
@@ -906,7 +1116,13 @@
       "pol-adj-0041-podstawowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "key",
+      "comparative": "more key",
+      "superlative": "the most key",
+      "adverb": "keyly"
+    }
   },
   {
     "lemma": "fundamental",
@@ -916,7 +1132,13 @@
       "pol-adj-0559-kluczowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "fundamental",
+      "comparative": "more fundamental",
+      "superlative": "the most fundamental",
+      "adverb": "fundamentally"
+    }
   },
   {
     "lemma": "essential",
