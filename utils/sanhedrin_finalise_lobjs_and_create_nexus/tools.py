@@ -1028,7 +1028,7 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
     else:
         print("")
 
-    user_input = input('Enter    for YES\nAny key  for NO\na        to have "more incorrect" not "incorrecter"\ns     to have "more orange" not "oranger" and no adverb\nf        to have no adverb\nd        to double final consonant\nOr type in manually and press enter\n: ')
+    user_input = input('Enter    for YES\nAny key  for NO\na        to have "more incorrect" not "incorrecter"\ns        to have "more orange" not "oranger" and no adverb\nd        to double final consonant\nf        to have no adverb\ng        to have none none none\nh        to have adverb yes but not the other two\nOr type in manually and press enter\n: ')
 
     if not user_input:
         return {
@@ -1041,6 +1041,8 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
 
     if user_input == 'f':
         return get_inflections_eng_adj(lemma, [compar, superl, False], True)
+    if user_input == 'h':
+        return get_inflections_eng_adj(lemma, [False, False, adverb], True)
     if user_input == 'd':
         compar = compar[0:-2] + compar[-3] + compar[-2:]
         superl = superl[0:-3] + superl[-4] + superl[-3:]

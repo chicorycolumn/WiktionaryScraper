@@ -1148,7 +1148,13 @@
       "pol-adj-0040-niezbędny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "essential",
+      "comparative": "more essential",
+      "superlative": "the most essential",
+      "adverb": "essentially"
+    }
   },
   {
     "lemma": "principal",
@@ -1163,6 +1169,12 @@
       "singleWordtype": true,
       "text": "important",
       "emoji": "❗"
+    },
+    "inflections": {
+      "simple": "principal",
+      "comparative": "more principal",
+      "superlative": "the most principal",
+      "adverb": "principally"
     }
   },
   {
@@ -1177,6 +1189,12 @@
       "singleWordtype": true,
       "text": "general",
       "emoji": "🔲"
+    },
+    "inflections": {
+      "simple": "principal",
+      "comparative": "more principal",
+      "superlative": "the most principal",
+      "adverb": "principally"
     }
   },
   {
@@ -1186,7 +1204,13 @@
       "pol-adj-0037-zasadniczy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "chief",
+      "comparative": "chiefer",
+      "superlative": "chiefest",
+      "adverb": "chiefly"
+    }
   },
   {
     "lemma": "main",
@@ -1197,7 +1221,13 @@
       "pol-adj-0528-centralny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "main",
+      "comparative": "more main",
+      "superlative": "the most main",
+      "adverb": "mainly"
+    }
   },
   {
     "lemma": "prime",
@@ -1206,7 +1236,13 @@
       "pol-adj-0037-zasadniczy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "prime",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "unconditional",
@@ -1215,7 +1251,13 @@
       "pol-adj-0039-bezwarunkowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "unconditional",
+      "comparative": "more unconditional",
+      "superlative": "the most unconditional",
+      "adverb": "unconditionally"
+    }
   },
   {
     "lemma": "indispensable",
@@ -1224,7 +1266,13 @@
       "pol-adj-0040-niezbędny"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "indispensable",
+      "comparative": "more indispensable",
+      "superlative": "the most indispensable",
+      "adverb": "indispensably"
+    }
   },
   {
     "lemma": "primary",
@@ -1238,6 +1286,12 @@
       "singleWordtype": true,
       "text": "important",
       "emoji": "❗"
+    },
+    "inflections": {
+      "simple": "primary",
+      "comparative": "more primary",
+      "superlative": "the most primary",
+      "adverb": "primarily"
     }
   },
   {
@@ -1252,6 +1306,12 @@
       "singleWordtype": true,
       "text": "mathematical",
       "emoji": "🧮"
+    },
+    "inflections": {
+      "simple": "primary",
+      "comparative": "more primary",
+      "superlative": "the most primary",
+      "adverb": "primarily"
     }
   },
   {
@@ -1266,6 +1326,12 @@
       "singleWordtype": true,
       "text": "physical",
       "emoji": "🪨"
+    },
+    "inflections": {
+      "simple": "deep",
+      "comparative": "deeper",
+      "superlative": "deepest",
+      "adverb": "deeply"
     }
   },
   {
@@ -1280,6 +1346,12 @@
       "singleWordtype": true,
       "text": "abstract",
       "emoji": "💭"
+    },
+    "inflections": {
+      "simple": "deep",
+      "comparative": "deeper",
+      "superlative": "deepest",
+      "adverb": "deeply"
     }
   },
   {
@@ -1289,7 +1361,13 @@
       "pol-adj-0043-głęboki(abstract)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "profound",
+      "comparative": "more profound",
+      "superlative": "the most profound",
+      "adverb": "profoundly"
+    }
   },
   {
     "lemma": "shallow",
@@ -1299,7 +1377,13 @@
       "pol-adj-0310-powierzchowny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "shallow",
+      "comparative": "shallower",
+      "superlative": "shallowest",
+      "adverb": "shallowly"
+    }
   },
   {
     "lemma": "shallow",
@@ -1309,7 +1393,13 @@
       "pol-adj-0310-powierzchowny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "shallow",
+      "comparative": "shallower",
+      "superlative": "shallowest",
+      "adverb": "shallowly"
+    }
   },
   {
     "lemma": "next",
@@ -1320,7 +1410,13 @@
       "pol-adj-0761-przyszły"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "next",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "previous",
@@ -1329,7 +1425,13 @@
       "pol-adj-0046-poprzedni"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "previous",
+      "comparative": false,
+      "superlative": false,
+      "adverb": "previously"
+    }
   },
   {
     "lemma": "prior",
@@ -1338,7 +1440,13 @@
       "pol-adj-0046-poprzedni"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "prior",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "big",
@@ -1348,7 +1456,13 @@
       "pol-adj-0048-duży"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "big",
+      "comparative": "bigger",
+      "superlative": "biggest",
+      "adverb": false
+    }
   },
   {
     "lemma": "large",
@@ -1358,7 +1472,13 @@
       "pol-adj-0048-duży"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "large",
+      "comparative": "larger",
+      "superlative": "largest",
+      "adverb": "largely"
+    }
   },
   {
     "lemma": "great",
@@ -1373,6 +1493,12 @@
       "singleWordtype": true,
       "text": "physical",
       "emoji": "🪨"
+    },
+    "inflections": {
+      "simple": "great",
+      "comparative": "greater",
+      "superlative": "greatest",
+      "adverb": "greatly"
     }
   },
   {
@@ -1391,6 +1517,12 @@
       "singleWordtype": true,
       "text": "quality",
       "emoji": "✅"
+    },
+    "inflections": {
+      "simple": "great",
+      "comparative": "greater",
+      "superlative": "greatest",
+      "adverb": "greatly"
     }
   },
   {
@@ -1400,7 +1532,13 @@
       "pol-adj-0047-wielki"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "grand",
+      "comparative": "grander",
+      "superlative": "grandest",
+      "adverb": "grandly"
+    }
   },
   {
     "lemma": "arduous",
@@ -1409,7 +1547,13 @@
       "pol-adj-0049-męczący"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "arduous",
+      "comparative": "more arduous",
+      "superlative": "the most arduous",
+      "adverb": "arduously"
+    }
   },
   {
     "lemma": "tiresome",
@@ -1418,7 +1562,13 @@
       "pol-adj-0049-męczący"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "tiresome",
+      "comparative": "more tiresome",
+      "superlative": "the most tiresome",
+      "adverb": "tiresomely"
+    }
   },
   {
     "lemma": "tiring",
@@ -1428,7 +1578,13 @@
       "pol-adj-0192-wyczerpujący(exhausting)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "tiring",
+      "comparative": "more tiring",
+      "superlative": "the most tiring",
+      "adverb": "tiringly"
+    }
   },
   {
     "lemma": "ultimate",
@@ -1438,7 +1594,13 @@
       "pol-adj-0530-końcowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "ultimate",
+      "comparative": "more ultimate",
+      "superlative": "the most ultimate",
+      "adverb": "ultimately"
+    }
   },
   {
     "lemma": "final",
@@ -1450,7 +1612,13 @@
       "pol-adj-0530-końcowy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "final",
+      "comparative": "more final",
+      "superlative": "the most final",
+      "adverb": "finally"
+    }
   },
   {
     "lemma": "bitter",
@@ -1459,7 +1627,13 @@
       "pol-adj-0051-gorzki"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "bitter",
+      "comparative": "bitterer",
+      "superlative": "bitterest",
+      "adverb": "bitterly"
+    }
   },
   {
     "lemma": "sweet",
@@ -1473,6 +1647,12 @@
       "singleWordtype": true,
       "text": "food",
       "emoji": "🍲"
+    },
+    "inflections": {
+      "simple": "sweet",
+      "comparative": "sweeter",
+      "superlative": "sweetest",
+      "adverb": "sweetly"
     }
   },
   {
@@ -1488,6 +1668,12 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "simple": "sweet",
+      "comparative": "sweeter",
+      "superlative": "sweetest",
+      "adverb": "sweetly"
     }
   },
   {
@@ -1497,7 +1683,13 @@
       "pol-adj-0000-słodki"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "cute",
+      "comparative": "cuter",
+      "superlative": "cutest",
+      "adverb": "cutely"
+    }
   },
   {
     "lemma": "tight",
@@ -1513,6 +1705,12 @@
       "singleWordtype": true,
       "text": "clothes",
       "emoji": "👚"
+    },
+    "inflections": {
+      "simple": "tight",
+      "comparative": "tighter",
+      "superlative": "tightest",
+      "adverb": "tightly"
     }
   },
   {
@@ -1529,6 +1727,12 @@
       "singleWordtype": true,
       "text": "space",
       "emoji": "🏠"
+    },
+    "inflections": {
+      "simple": "tight",
+      "comparative": "tighter",
+      "superlative": "tightest",
+      "adverb": "tightly"
     }
   },
   {
@@ -1543,6 +1747,12 @@
       "singleWordtype": true,
       "text": "abstract",
       "emoji": "💭"
+    },
+    "inflections": {
+      "simple": "tight",
+      "comparative": "tighter",
+      "superlative": "tightest",
+      "adverb": "tightly"
     }
   },
   {
