@@ -1020,10 +1020,14 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
 
     print("")
     print_function = c.print_blue if reconfirming else c.print_bold
-    print_function(compar)
-    print_function(superl)
+    print_function(compar if compar else '(none)')
+    print_function(superl if superl else '(none)')
     print_function(adverb if adverb else '(none)')
-    print("")
+    if not compar and not superl and not adverb:
+        print(f'(lemma is {lemma})')
+    else:
+        print("")
+
     user_input = input('Enter    for YES\nAny key  for NO\na        to have "more incorrect" not "incorrecter"\ns     to have "more orange" not "oranger" and no adverb\nf        to have no adverb\nd        to double final consonant\nOr type in manually and press enter\n: ')
 
     if not user_input:
@@ -1049,9 +1053,13 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
         return restart()
 
     else:
+        if user_input == 'no':
+            return get_inflections_eng_adj(lemma, [False, False, False], True)
+
         split = user_input.split(" ")
+
         if len(split) != 3 or any(len(s) < 2 for s in split):
-            c.print_red("You must type four strings: comparative, superlative, adverb. Type 'no' for any if none.")
+            c.print_red("You must type three strings: comparative, superlative, adverb. Type 'no' for any if none.")
             return restart()
         else:
             split = [False if el == 'no' else el for el in split]
