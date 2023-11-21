@@ -1008,7 +1008,7 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
     else:
         compar = lemma + ("er" if not lemma.endswith('e') else 'r')
         superl = lemma + ("est" if not lemma.endswith('e') else 'st')
-        adverb = lemma + ("ly" if not lemma.endswith('l') else 'y')
+        adverb = lemma + ("ly" if not lemma.endswith('ll') else 'y')
         if lemma.endswith('y'):
             compar = replace_char_at_index(compar, -3, 'i')
             superl = replace_char_at_index(superl, -4, 'i')
