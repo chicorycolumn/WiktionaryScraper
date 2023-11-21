@@ -5262,7 +5262,13 @@
       "pol-adj-0247-spóźniony"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "late",
+      "comparative": "later",
+      "superlative": "latest",
+      "adverb": "lately"
+    }
   },
   {
     "lemma": "early",
@@ -5271,7 +5277,13 @@
       "pol-adj-0198-wczesny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "early",
+      "comparative": "earlier",
+      "superlative": "earliest",
+      "adverb": "early"
+    }
   },
   {
     "lemma": "first",
@@ -5280,7 +5292,13 @@
       "pol-adj-0199-pierwszy"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "first",
+      "comparative": false,
+      "superlative": false,
+      "adverb": "firstly"
+    }
   },
   {
     "lemma": "last",
@@ -5290,7 +5308,13 @@
       "pol-adj-0637-miniony"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "last",
+      "comparative": false,
+      "superlative": false,
+      "adverb": "lastly"
+    }
   },
   {
     "lemma": "high",
@@ -5299,7 +5323,13 @@
       "pol-adj-0201-wysoki(abstract)"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "high",
+      "comparative": "higher",
+      "superlative": "highest",
+      "adverb": "highly"
+    }
   },
   {
     "lemma": "tall",
@@ -5308,7 +5338,13 @@
       "pol-adj-0202-wysoki(physical)"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "tall",
+      "comparative": "taller",
+      "superlative": "tallest",
+      "adverb": false
+    }
   },
   {
     "lemma": "gigantic",
@@ -5318,7 +5354,13 @@
       "pol-adj-0773-gigantyczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "gigantic",
+      "comparative": "more gigantic",
+      "superlative": "the most gigantic",
+      "adverb": "gigantically"
+    }
   },
   {
     "lemma": "stingy",
@@ -5327,7 +5369,13 @@
       "pol-adj-0205-skąpy(miserly)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "stingy",
+      "comparative": "stingier",
+      "superlative": "stingiest",
+      "adverb": "stingily"
+    }
   },
   {
     "lemma": "miserly",
@@ -5336,7 +5384,13 @@
       "pol-adj-0205-skąpy(miserly)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "miserly",
+      "comparative": "more miserly",
+      "superlative": "the most miserly",
+      "adverb": false
+    }
   },
   {
     "lemma": "scant",
@@ -5345,7 +5399,13 @@
       "pol-adj-0206-skąpy(scant)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "scant",
+      "comparative": "scanter",
+      "superlative": "scantest",
+      "adverb": "scantly"
+    }
   },
   {
     "lemma": "insufficient",
@@ -5354,7 +5414,13 @@
       "pol-adj-0206-skąpy(scant)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "insufficient",
+      "comparative": "more insufficient",
+      "superlative": "the most insufficient",
+      "adverb": "insufficiently"
+    }
   },
   {
     "lemma": "generous",
@@ -5364,7 +5430,13 @@
       "pol-adj-0208-szczodry"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "generous",
+      "comparative": "more generous",
+      "superlative": "the most generous",
+      "adverb": "generously"
+    }
   },
   {
     "lemma": "wide",
@@ -5373,7 +5445,13 @@
       "pol-adj-0209-szeroki"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "wide",
+      "comparative": "wider",
+      "superlative": "widest",
+      "adverb": "widely"
+    }
   },
   {
     "lemma": "broad",
@@ -5382,7 +5460,13 @@
       "pol-adj-0209-szeroki"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "broad",
+      "comparative": "broader",
+      "superlative": "broadest",
+      "adverb": "broadly"
+    }
   },
   {
     "lemma": "narrow",
@@ -5391,7 +5475,13 @@
       "pol-adj-0210-wąski"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "narrow",
+      "comparative": "narrower",
+      "superlative": "narrowest",
+      "adverb": "narrowly"
+    }
   },
   {
     "lemma": "vast",
@@ -5401,7 +5491,13 @@
       "pol-adj-0212-obszerny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "vast",
+      "comparative": "vaster",
+      "superlative": "vastest",
+      "adverb": "vastly"
+    }
   },
   {
     "lemma": "extensive",
@@ -5411,7 +5507,13 @@
       "pol-adj-0212-obszerny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "extensive",
+      "comparative": "more extensive",
+      "superlative": "the most extensive",
+      "adverb": "extensively"
+    }
   },
   {
     "lemma": "fair",
@@ -5420,7 +5522,13 @@
       "pol-adj-0213-sprawiedliwy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "fair",
+      "comparative": "fairer",
+      "superlative": "fairest",
+      "adverb": "fairly"
+    }
   },
   {
     "lemma": "just",
@@ -5429,7 +5537,13 @@
       "pol-adj-0213-sprawiedliwy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "just",
+      "comparative": "more just",
+      "superlative": "the most just",
+      "adverb": "justly"
+    }
   },
   {
     "lemma": "unfair",
@@ -5438,7 +5552,13 @@
       "pol-adj-0214-niesprawiedliwy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "unfair",
+      "comparative": "unfairer",
+      "superlative": "unfairest",
+      "adverb": "unfairly"
+    }
   },
   {
     "lemma": "unjust",
@@ -5447,7 +5567,13 @@
       "pol-adj-0214-niesprawiedliwy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "unjust",
+      "comparative": "more unjust",
+      "superlative": "the most unjust",
+      "adverb": "unjustly"
+    }
   },
   {
     "lemma": "rare",
@@ -5456,7 +5582,13 @@
       "pol-adj-0215-rzadki(rare)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "rare",
+      "comparative": "rarer",
+      "superlative": "rarest",
+      "adverb": "rarely"
+    }
   },
   {
     "lemma": "scarce",
@@ -5465,7 +5597,13 @@
       "pol-adj-0215-rzadki(rare)"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "scarce",
+      "comparative": "scarcer",
+      "superlative": "scarcest",
+      "adverb": "scarcely"
+    }
   },
   {
     "lemma": "runny",
@@ -5474,7 +5612,13 @@
       "pol-adj-0216-rzadki(runny)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "runny",
+      "comparative": "runnier",
+      "superlative": "runniest",
+      "adverb": "runnily"
+    }
   },
   {
     "lemma": "intelligent",
@@ -5483,7 +5627,13 @@
       "pol-adj-0217-inteligentny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "intelligent",
+      "comparative": "more intelligent",
+      "superlative": "the most intelligent",
+      "adverb": "intelligently"
+    }
   },
   {
     "lemma": "smart",
@@ -5495,7 +5645,13 @@
       "pol-adj-0503-wytworny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "smart",
+      "comparative": "smarter",
+      "superlative": "smartest",
+      "adverb": "smartly"
+    }
   },
   {
     "lemma": "clever",
@@ -5505,7 +5661,13 @@
       "pol-adj-0714-sprytny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "clever",
+      "comparative": "cleverer",
+      "superlative": "cleverest",
+      "adverb": "cleverly"
+    }
   },
   {
     "lemma": "stupid",
@@ -5515,7 +5677,13 @@
       "pol-adj-0347-durny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "stupid",
+      "comparative": "stupider",
+      "superlative": "stupidest",
+      "adverb": "stupidly"
+    }
   },
   {
     "lemma": "silly",
@@ -5524,7 +5692,13 @@
       "pol-adj-0218-głupi"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "silly",
+      "comparative": "sillier",
+      "superlative": "silliest",
+      "adverb": "sillily"
+    }
   },
   {
     "lemma": "dumb",
@@ -5535,7 +5709,13 @@
       "pol-adj-0347-durny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "dumb",
+      "comparative": "dumber",
+      "superlative": "dumbest",
+      "adverb": "dumbly"
+    }
   },
   {
     "lemma": "possible",
@@ -5544,7 +5724,13 @@
       "pol-adj-0219-możliwy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "possible",
+      "comparative": "more possible",
+      "superlative": "the most possible",
+      "adverb": "possibly"
+    }
   },
   {
     "lemma": "full",
@@ -5553,7 +5739,13 @@
       "pol-adj-0220-pełny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "full",
+      "comparative": "fuller",
+      "superlative": "fullest",
+      "adverb": "fully"
+    }
   },
   {
     "lemma": "empty",
@@ -5562,7 +5754,13 @@
       "pol-adj-0221-pusty"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "empty",
+      "comparative": "emptier",
+      "superlative": "emptiest",
+      "adverb": "emptily"
+    }
   },
   {
     "lemma": "international",
@@ -5571,7 +5769,13 @@
       "pol-adj-0222-międzynarodowy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "international",
+      "comparative": false,
+      "superlative": false,
+      "adverb": "internationally"
+    }
   },
   {
     "lemma": "comfortable",
@@ -5580,7 +5784,13 @@
       "pol-adj-0223-wygodny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "comfortable",
+      "comparative": "more comfortable",
+      "superlative": "the most comfortable",
+      "adverb": "comfortably"
+    }
   },
   {
     "lemma": "famous",
@@ -5591,7 +5801,13 @@
       "pol-adj-0227-słynny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "famous",
+      "comparative": "more famous",
+      "superlative": "the most famous",
+      "adverb": "famously"
+    }
   },
   {
     "lemma": "known",
@@ -5600,7 +5816,13 @@
       "pol-adj-0226-znany"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "known",
+      "comparative": "more known",
+      "superlative": "the most known",
+      "adverb": false
+    }
   },
   {
     "lemma": "well-known",
@@ -5610,7 +5832,13 @@
       "pol-adj-0227-słynny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "well-known",
+      "comparative": "more well-known",
+      "superlative": "the most well-known",
+      "adverb": false
+    }
   },
   {
     "lemma": "amusing",
@@ -5620,14 +5848,26 @@
       "pol-adj-0231-dowcipny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "amusing",
+      "comparative": "more amusing",
+      "superlative": "the most amusing",
+      "adverb": "amusingly"
+    }
   },
   {
     "lemma": "fun",
     "id": "eng-adj-0355-fun",
     "»trans": [],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "fun",
+      "comparative": "more fun",
+      "superlative": "the most fun",
+      "adverb": false
+    }
   },
   {
     "lemma": "enjoyable",
