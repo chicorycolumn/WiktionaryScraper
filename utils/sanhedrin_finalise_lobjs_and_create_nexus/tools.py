@@ -926,7 +926,7 @@ def get_inflections_eng_ver(lemma, manually_entered_inflections: [str] = None, r
     print("")
     user_input = input('Enter YES\nAny   NO\nd     to double final consonant\nOr type in manually and press enter\n: ')
 
-    if not user_input:
+    if not user_input or user_input == 'y':
         return {
             "infinitive": lemma,
             "verbal": {},
@@ -959,7 +959,7 @@ def get_inflections_eng_nou(lemma, manually_entered_inflections: [str] = None, r
         return get_inflections_eng_nou(lemma)
 
     if manually_entered_inflections:
-        sing_gen, plur_nom, plur_gen = manually_entered_inflections
+        plur_nom, sing_gen, plur_gen = manually_entered_inflections
     else:
         sing_gen = lemma + "'s"
         plur_nom = lemma + ("s" if lemma[-1] not in 'hsxy' else "es")
@@ -972,9 +972,9 @@ def get_inflections_eng_nou(lemma, manually_entered_inflections: [str] = None, r
     print_function(f'{lemma}, {plur_nom}')
     print_function(f'{sing_gen}, {plur_gen}')
     print("")
-    user_input = input('Enter YES\nAny   NO\nOr type in manually and press enter\n: ')
+    user_input = input("Enter YES\nAny   NO\nOr type in manually men men's mens' and press enter\n: ")
 
-    if not user_input:
+    if not user_input or user_input == 'y':
         return {
             "singular": {
                 "nom": lemma,
@@ -1032,7 +1032,7 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
 
     user_input = input('Enter YES\nAny   NO\na     "more" and "most" plus adverb\ns     "more" and "most" but NO adverb\nd     double final consonant\nf     NO adverb\ng     NO ANYTHING\nh     adverb ONLY\nOr type in manually and press enter\n: ')
 
-    if not user_input:
+    if not user_input or user_input == 'y':
         return {
             "simple": lemma,
             "comparative": compar,
