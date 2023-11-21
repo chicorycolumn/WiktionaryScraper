@@ -5874,7 +5874,13 @@
     "id": "eng-adj-0355-enjoyable",
     "»trans": [],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "enjoyable",
+      "comparative": "more enjoyable",
+      "superlative": "the most enjoyable",
+      "adverb": "enjoyably"
+    }
   },
   {
     "lemma": "funny",
@@ -5885,7 +5891,13 @@
       "pol-adj-0231-dowcipny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "funny",
+      "comparative": "funnier",
+      "superlative": "funniest",
+      "adverb": "funnily"
+    }
   },
   {
     "lemma": "funny",
@@ -5896,14 +5908,26 @@
       "pol-adj-0231-dowcipny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "funny",
+      "comparative": "funnier",
+      "superlative": "funniest",
+      "adverb": "funnily"
+    }
   },
   {
     "lemma": "funny",
     "id": "eng-adj-0355-funny(strange)",
     "»trans": [],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "funny",
+      "comparative": "funnier",
+      "superlative": "funniest",
+      "adverb": "funnily"
+    }
   },
   {
     "lemma": "ridiculous",
@@ -5912,14 +5936,26 @@
       "pol-adj-0229-śmieszny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "ridiculous",
+      "comparative": "more ridiculous",
+      "superlative": "the most ridiculous",
+      "adverb": "ridiculously"
+    }
   },
   {
     "lemma": "ridiculous",
     "id": "eng-adj-0356-ridiculous(absurd)",
     "»trans": [],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "ridiculous",
+      "comparative": "more ridiculous",
+      "superlative": "the most ridiculous",
+      "adverb": "ridiculously"
+    }
   },
   {
     "lemma": "humorous",
@@ -5929,7 +5965,13 @@
       "pol-adj-0231-dowcipny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "humorous",
+      "comparative": "more humorous",
+      "superlative": "the most humorous",
+      "adverb": "humorously"
+    }
   },
   {
     "lemma": "playful",
@@ -5938,7 +5980,13 @@
       "pol-adj-0230-żartobliwy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "playful",
+      "comparative": "more playful",
+      "superlative": "the most playful",
+      "adverb": "playfully"
+    }
   },
   {
     "lemma": "lighthearted",
@@ -5947,7 +5995,13 @@
       "pol-adj-0230-żartobliwy"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "lighthearted",
+      "comparative": "more lighthearted",
+      "superlative": "the most lighthearted",
+      "adverb": "lightheartedly"
+    }
   },
   {
     "lemma": "witty",
@@ -5956,7 +6010,13 @@
       "pol-adj-0231-dowcipny"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "witty",
+      "comparative": "wittier",
+      "superlative": "wittiest",
+      "adverb": "wittily"
+    }
   },
   {
     "lemma": "hot",
@@ -5971,6 +6031,12 @@
       "singleWordtype": true,
       "text": "spicy",
       "emoji": "🌶️"
+    },
+    "inflections": {
+      "simple": "hot",
+      "comparative": "hotter",
+      "superlative": "hottest",
+      "adverb": "hotly"
     }
   },
   {
@@ -5985,6 +6051,12 @@
       "singleWordtype": true,
       "text": "temperature",
       "emoji": "🌡️"
+    },
+    "inflections": {
+      "simple": "hot",
+      "comparative": "hotter",
+      "superlative": "hottest",
+      "adverb": "hotly"
     }
   },
   {
@@ -5995,7 +6067,13 @@
       "pol-adj-0234-ostry(spicy)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "spicy",
+      "comparative": "spicier",
+      "superlative": "spiciest",
+      "adverb": "spicily"
+    }
   },
   {
     "lemma": "sharp",
@@ -6009,6 +6087,12 @@
       "singleWordtype": true,
       "text": "physical",
       "emoji": "🪨"
+    },
+    "inflections": {
+      "simple": "sharp",
+      "comparative": "sharper",
+      "superlative": "sharpest",
+      "adverb": "sharply"
     }
   },
   {
@@ -6023,6 +6107,12 @@
       "singleWordtype": true,
       "text": "abstract",
       "emoji": "💭"
+    },
+    "inflections": {
+      "simple": "sharp",
+      "comparative": "sharper",
+      "superlative": "sharpest",
+      "adverb": "sharply"
     }
   },
   {
@@ -6032,7 +6122,13 @@
       "pol-adj-0235-ostry(acute)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "acute",
+      "comparative": "more acute",
+      "superlative": "the most acute",
+      "adverb": "acutely"
+    }
   },
   {
     "lemma": "uninteresting",
@@ -6041,7 +6137,13 @@
       "pol-adj-0236-nieciekawy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "uninteresting",
+      "comparative": "more uninteresting",
+      "superlative": "the most uninteresting",
+      "adverb": "uninterestingly"
+    }
   },
   {
     "lemma": "dirty",
@@ -6050,7 +6152,13 @@
       "pol-adj-0237-brudny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "dirty",
+      "comparative": "dirtier",
+      "superlative": "dirtiest",
+      "adverb": "dirtily"
+    }
   },
   {
     "lemma": "local",
@@ -6061,7 +6169,13 @@
       "pol-adj-0513-tutejszy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "local",
+      "comparative": "more local",
+      "superlative": "the most local",
+      "adverb": "locally"
+    }
   },
   {
     "lemma": "purple",
@@ -6071,7 +6185,13 @@
       "pol-adj-0480-fioletowy"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "purple",
+      "comparative": "purpler",
+      "superlative": "purplest",
+      "adverb": false
+    }
   },
   {
     "lemma": "open",
@@ -6081,7 +6201,13 @@
       "pol-adj-0369-czynny(open)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "open",
+      "comparative": "more open",
+      "superlative": "the most open",
+      "adverb": "openly"
+    }
   },
   {
     "lemma": "reliable",
@@ -6092,7 +6218,13 @@
       "pol-adj-0662-rzetelny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "reliable",
+      "comparative": "more reliable",
+      "superlative": "the most reliable",
+      "adverb": "reliably"
+    }
   },
   {
     "lemma": "significant",
@@ -6102,7 +6234,13 @@
       "pol-adj-0248-ważny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "significant",
+      "comparative": "more significant",
+      "superlative": "the most significant",
+      "adverb": "significantly"
+    }
   },
   {
     "lemma": "important",
@@ -6113,7 +6251,13 @@
       "pol-adj-0559-kluczowy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "important",
+      "comparative": "more important",
+      "superlative": "the most important",
+      "adverb": "importantly"
+    }
   },
   {
     "lemma": "immediate",
@@ -6122,7 +6266,13 @@
       "pol-adj-0244-natychmiastowy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "immediate",
+      "comparative": "more immediate",
+      "superlative": "the most immediate",
+      "adverb": "immediately"
+    }
   },
   {
     "lemma": "instantaneous",
@@ -6131,7 +6281,13 @@
       "pol-adj-0244-natychmiastowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "instantaneous",
+      "comparative": "more instantaneous",
+      "superlative": "the most instantaneous",
+      "adverb": "instantaneously"
+    }
   },
   {
     "lemma": "jealous",
@@ -6140,7 +6296,13 @@
       "pol-adj-0245-zazdrosny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "jealous",
+      "comparative": "jealouser",
+      "superlative": "jealousest",
+      "adverb": "jealously"
+    }
   },
   {
     "lemma": "envious",
@@ -6149,7 +6311,13 @@
       "pol-adj-0245-zazdrosny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "envious",
+      "comparative": "more envious",
+      "superlative": "the most envious",
+      "adverb": "enviously"
+    }
   },
   {
     "lemma": "electric",
@@ -6158,7 +6326,13 @@
       "pol-adj-0246-elektryczny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "electric",
+      "comparative": false,
+      "superlative": false,
+      "adverb": "electrically"
+    }
   },
   {
     "lemma": "electrical",
@@ -6167,7 +6341,13 @@
       "pol-adj-0246-elektryczny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "electrical",
+      "comparative": false,
+      "superlative": false,
+      "adverb": "electrically"
+    }
   },
   {
     "lemma": "near",
@@ -6176,7 +6356,13 @@
       "pol-adj-0249-bliski"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "near",
+      "comparative": "nearer",
+      "superlative": "nearest",
+      "adverb": "nearly"
+    }
   },
   {
     "lemma": "close",
@@ -6186,7 +6372,13 @@
       "pol-adj-0317-niedaleki"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "close",
+      "comparative": "closer",
+      "superlative": "closest",
+      "adverb": "closely"
+    }
   },
   {
     "lemma": "surprised",
@@ -6195,7 +6387,13 @@
       "pol-adj-0250-zaskoczony"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "surprised",
+      "comparative": "more surprised",
+      "superlative": "the most surprised",
+      "adverb": "surprisedly"
+    }
   },
   {
     "lemma": "startled",
@@ -6204,7 +6402,13 @@
       "pol-adj-0250-zaskoczony"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "startled",
+      "comparative": "more startled",
+      "superlative": "the most startled",
+      "adverb": "startledly"
+    }
   },
   {
     "lemma": "taken aback",
@@ -6213,7 +6417,13 @@
       "pol-adj-0250-zaskoczony"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "taken aback",
+      "comparative": "more taken aback",
+      "superlative": "the most taken aback",
+      "adverb": false
+    }
   },
   {
     "lemma": "probable",
