@@ -170,8 +170,8 @@ It uses additionalSpellings that you manually type into this stage.
                                         Create inflection data for TGT.
 
 
-5A) Run "S17_create_inflection_data.py" [yet to make this file] to create the inflection data for the TGT lobjs (presumably English)
-    - to complete TGT lobjs
+5A) Run "S17_create_inflection_data_eng.py"
+    - to create the inflection data for English TGT lobjs
     Modifies "nou_batch_01_tgt.json"
 
 

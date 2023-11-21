@@ -228,3 +228,9 @@ def interact_cmd_history(user_input, cmd_history):
                 return cmd_to_repeat
             else:
                 return True
+
+
+def replace_char_at_index(s, index, new_char):
+    split = [char for char in s]
+    split[index] = new_char
+    return ''.join(split)

@@ -40,7 +40,10 @@ if __name__ == '__main__':
     print("Loaded", len(tgt_lobjs), "target lobjs.")
 
     for index, tgt_lobj in enumerate(tgt_lobjs):
-        tgt_lobj['inflections'] = get_inflections(tgt_lobj["lemma"])
+        print('')
+        print(f"{index + 1}/{len(tgt_lobjs)}", tgt_lobj['lemma'])
+        if not tgt_lobj.get('inflections'):
+            tgt_lobj['inflections'] = get_inflections(tgt_lobj["lemma"])
 
         if index % 5 == 0:
             save(tgt_lobjs, True)
