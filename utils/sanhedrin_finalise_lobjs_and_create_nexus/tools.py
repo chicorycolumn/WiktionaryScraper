@@ -924,7 +924,7 @@ def get_inflections_eng_ver(lemma, manually_entered_inflections: [str] = None, r
     print("")
     print_function(f'          she {thirdPS},      yo we {gerund}')
     print("")
-    user_input = input('Enter    for YES\nAny key  for NO\nd        to double final consonant\nOr type in manually and press enter\n: ')
+    user_input = input('Enter YES\nAny   NO\nd     to double final consonant\nOr type in manually and press enter\n: ')
 
     if not user_input:
         return {
@@ -972,7 +972,7 @@ def get_inflections_eng_nou(lemma, manually_entered_inflections: [str] = None, r
     print_function(f'{lemma}, {plur_nom}')
     print_function(f'{sing_gen}, {plur_gen}')
     print("")
-    user_input = input('Enter    for YES\nAny key  for NO\nOr type in manually and press enter\n: ')
+    user_input = input('Enter YES\nAny   NO\nOr type in manually and press enter\n: ')
 
     if not user_input:
         return {
@@ -1030,7 +1030,7 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
     else:
         print("")
 
-    user_input = input('Enter    for YES\nAny key  for NO\na        to have "more incorrect" not "incorrecter"\ns        to have "more orange" not "oranger" and no adverb\nd        to double final consonant\nf        to have no adverb\ng        to have none none none\nh        to have adverb yes but not the other two\nOr type in manually and press enter\n: ')
+    user_input = input('Enter YES\nAny   NO\na     "more" and "most" plus adverb\ns     "more" and "most" but NO adverb\nd     double final consonant\nf     NO adverb\ng     NO ANYTHING\nh     adverb ONLY\nOr type in manually and press enter\n: ')
 
     if not user_input:
         return {

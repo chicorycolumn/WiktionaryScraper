@@ -4163,7 +4163,13 @@
       "pol-adj-0493-specyficzny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "special",
+      "comparative": "more special",
+      "superlative": "the most special",
+      "adverb": "specially"
+    }
   },
   {
     "lemma": "particular",
@@ -4173,7 +4179,13 @@
       "pol-adj-0494-swoisty"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "particular",
+      "comparative": "more particular",
+      "superlative": "the most particular",
+      "adverb": "particularly"
+    }
   },
   {
     "lemma": "peculiar",
@@ -4183,7 +4195,13 @@
       "pol-adj-0494-swoisty"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "peculiar",
+      "comparative": "more peculiar",
+      "superlative": "the most peculiar",
+      "adverb": "peculiarly"
+    }
   },
   {
     "lemma": "quaint",
@@ -4192,7 +4210,13 @@
       "pol-adj-0138-osobliwy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "quaint",
+      "comparative": "quainter",
+      "superlative": "quaintest",
+      "adverb": "quaintly"
+    }
   },
   {
     "lemma": "improper",
@@ -4201,7 +4225,13 @@
       "pol-adj-0139-niewłaściwy(inappropriate)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "improper",
+      "comparative": "more improper",
+      "superlative": "the most improper",
+      "adverb": "improperly"
+    }
   },
   {
     "lemma": "unsuitable",
@@ -4210,7 +4240,13 @@
       "pol-adj-0139-niewłaściwy(inappropriate)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "unsuitable",
+      "comparative": "more unsuitable",
+      "superlative": "the most unsuitable",
+      "adverb": "unsuitably"
+    }
   },
   {
     "lemma": "inappropriate",
@@ -4220,7 +4256,13 @@
       "pol-adj-0156-nieodpowiedni"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "inappropriate",
+      "comparative": "more inappropriate",
+      "superlative": "the most inappropriate",
+      "adverb": "inappropriately"
+    }
   },
   {
     "lemma": "new",
@@ -4229,7 +4271,13 @@
       "pol-adj-0141-nowy"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "new",
+      "comparative": "newer",
+      "superlative": "newest",
+      "adverb": "newly"
+    }
   },
   {
     "lemma": "abnormal",
@@ -4239,7 +4287,13 @@
       "pol-adj-0144-nieprawidłowy(irregular)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "abnormal",
+      "comparative": "more abnormal",
+      "superlative": "the most abnormal",
+      "adverb": "abnormally"
+    }
   },
   {
     "lemma": "irregular",
@@ -4249,7 +4303,13 @@
       "pol-adj-0144-nieprawidłowy(irregular)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "irregular",
+      "comparative": "more irregular",
+      "superlative": "the most irregular",
+      "adverb": "irregularly"
+    }
   },
   {
     "lemma": "uncommon",
@@ -4260,7 +4320,13 @@
       "pol-adj-0215-rzadki(rare)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "uncommon",
+      "comparative": "more uncommon",
+      "superlative": "the most uncommon",
+      "adverb": "uncommonly"
+    }
   },
   {
     "lemma": "unusual",
@@ -4271,7 +4337,13 @@
       "pol-adj-0669-nietypowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "unusual",
+      "comparative": "more unusual",
+      "superlative": "the most unusual",
+      "adverb": "unusually"
+    }
   },
   {
     "lemma": "ill",
@@ -4280,7 +4352,13 @@
       "pol-adj-0143-chory"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "ill",
+      "comparative": "iller",
+      "superlative": "illest",
+      "adverb": false
+    }
   },
   {
     "lemma": "sick",
@@ -4289,7 +4367,13 @@
       "pol-adj-0143-chory"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "sick",
+      "comparative": "sicker",
+      "superlative": "sickest",
+      "adverb": "sickly"
+    }
   },
   {
     "lemma": "cold",
@@ -4299,7 +4383,13 @@
       "pol-adj-0148-chłodny"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "cold",
+      "comparative": "colder",
+      "superlative": "coldest",
+      "adverb": "coldly"
+    }
   },
   {
     "lemma": "blue",
@@ -4308,7 +4398,13 @@
       "pol-adj-0149-niebieski"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "blue",
+      "comparative": "bluer",
+      "superlative": "bluest",
+      "adverb": false
+    }
   },
   {
     "lemma": "heavenly",
@@ -4317,7 +4413,13 @@
       "pol-adj-0150-niebiański"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "heavenly",
+      "comparative": "more heavenly",
+      "superlative": "the most heavenly",
+      "adverb": false
+    }
   },
   {
     "lemma": "celestial",
@@ -4326,7 +4428,13 @@
       "pol-adj-0150-niebiański"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "celestial",
+      "comparative": false,
+      "superlative": false,
+      "adverb": "celestially"
+    }
   },
   {
     "lemma": "national",
@@ -4337,7 +4445,13 @@
       "pol-adj-0698-państwowy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "national",
+      "comparative": false,
+      "superlative": false,
+      "adverb": "nationally"
+    }
   },
   {
     "lemma": "unkind",
@@ -4347,7 +4461,13 @@
       "pol-adj-0268-niemiły"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "unkind",
+      "comparative": "unkinder",
+      "superlative": "unkindest",
+      "adverb": "unkindly"
+    }
   },
   {
     "lemma": "wicked",
@@ -4357,7 +4477,13 @@
       "pol-adj-0743-niegodziwy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "wicked",
+      "comparative": "wickeder",
+      "superlative": "wickedest",
+      "adverb": "wickedly"
+    }
   },
   {
     "lemma": "unprofitable",
@@ -4368,7 +4494,13 @@
       "pol-adj-0163-nierentowny"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "unprofitable",
+      "comparative": "more unprofitable",
+      "superlative": "the most unprofitable",
+      "adverb": "unprofitably"
+    }
   },
   {
     "lemma": "naughty",
@@ -4377,7 +4509,13 @@
       "pol-adj-0157-nieposłuszny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "naughty",
+      "comparative": "naughtier",
+      "superlative": "naughtiest",
+      "adverb": "naughtily"
+    }
   },
   {
     "lemma": "disobedient",
@@ -4386,7 +4524,13 @@
       "pol-adj-0157-nieposłuszny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "disobedient",
+      "comparative": "more disobedient",
+      "superlative": "the most disobedient",
+      "adverb": "disobediently"
+    }
   },
   {
     "lemma": "defiant",
@@ -4395,7 +4539,13 @@
       "pol-adj-0157-nieposłuszny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "defiant",
+      "comparative": "more defiant",
+      "superlative": "the most defiant",
+      "adverb": "defiantly"
+    }
   },
   {
     "lemma": "optimistic",
@@ -4404,7 +4554,13 @@
       "pol-adj-0158-optymistyczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "optimistic",
+      "comparative": "more optimistic",
+      "superlative": "the most optimistic",
+      "adverb": "optimistically"
+    }
   },
   {
     "lemma": "unsavoury",
@@ -4416,7 +4572,13 @@
       "pol-adj-0160-niesmaczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "unsavoury",
+      "comparative": "more unsavoury",
+      "superlative": "the most unsavoury",
+      "adverb": "unsavourily"
+    }
   },
   {
     "lemma": "distasteful",
@@ -4425,7 +4587,13 @@
       "pol-adj-0160-niesmaczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "distasteful",
+      "comparative": "more distasteful",
+      "superlative": "the most distasteful",
+      "adverb": "distastefully"
+    }
   },
   {
     "lemma": "tasteless",
@@ -4434,7 +4602,13 @@
       "pol-adj-0160-niesmaczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "tasteless",
+      "comparative": "more tasteless",
+      "superlative": "the most tasteless",
+      "adverb": "tastelessly"
+    }
   },
   {
     "lemma": "profitable",
@@ -4445,7 +4619,13 @@
       "pol-adj-0171-dochodowy"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "profitable",
+      "comparative": "more profitable",
+      "superlative": "the most profitable",
+      "adverb": "profitably"
+    }
   },
   {
     "lemma": "kind",
@@ -4454,7 +4634,13 @@
       "pol-adj-0162-życzliwy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "kind",
+      "comparative": "kinder",
+      "superlative": "kindest",
+      "adverb": "kindly"
+    }
   },
   {
     "lemma": "friendly",
@@ -4464,7 +4650,13 @@
       "pol-adj-0239-przyjazny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "friendly",
+      "comparative": "friendlier",
+      "superlative": "friendliest",
+      "adverb": "friendlily"
+    }
   },
   {
     "lemma": "unfriendly",
@@ -4473,7 +4665,13 @@
       "pol-adj-0164-nieżyczliwy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "unfriendly",
+      "comparative": "unfriendlier",
+      "superlative": "unfriendliest",
+      "adverb": "unfriendlily"
+    }
   },
   {
     "lemma": "pessimistic",
@@ -4482,7 +4680,13 @@
       "pol-adj-0165-pesymistyczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "pessimistic",
+      "comparative": "more pessimistic",
+      "superlative": "the most pessimistic",
+      "adverb": "pessimistically"
+    }
   },
   {
     "lemma": "careful",
@@ -4492,7 +4696,13 @@
       "pol-adj-0701-ostrożny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "careful",
+      "comparative": "more careful",
+      "superlative": "the most careful",
+      "adverb": "carefully"
+    }
   },
   {
     "lemma": "neat",
@@ -4501,7 +4711,13 @@
       "pol-adj-0166-staranny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "neat",
+      "comparative": "neater",
+      "superlative": "neatest",
+      "adverb": "neatly"
+    }
   },
   {
     "lemma": "meticulous",
@@ -4510,7 +4726,13 @@
       "pol-adj-0166-staranny"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "meticulous",
+      "comparative": "more meticulous",
+      "superlative": "the most meticulous",
+      "adverb": "meticulously"
+    }
   },
   {
     "lemma": "immoral",
@@ -4519,7 +4741,13 @@
       "pol-adj-0167-niemoralny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "immoral",
+      "comparative": "more immoral",
+      "superlative": "the most immoral",
+      "adverb": "immorally"
+    }
   },
   {
     "lemma": "moral",
@@ -4528,7 +4756,13 @@
       "pol-adj-0168-moralny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "moral",
+      "comparative": "more moral",
+      "superlative": "the most moral",
+      "adverb": "morally"
+    }
   },
   {
     "lemma": "tasty",
@@ -4538,7 +4772,13 @@
       "pol-adj-0263-pyszny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "tasty",
+      "comparative": "tastier",
+      "superlative": "tastiest",
+      "adverb": "tastily"
+    }
   },
   {
     "lemma": "delicious",
