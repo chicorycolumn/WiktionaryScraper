@@ -244,7 +244,10 @@ def progress_bar(index, total, use_emojis: bool = False):
     if use_emojis:
         height = len(emojis)
         progress = floor((index / total) * height)
-        print(f'[{emojis[0:progress]}{"-" * (height - progress)}]')
+        emoji_string = emojis[0:progress]
+        print(f'[{emoji_string}{"-" * (height - progress)}]')
+        if (len(emoji_string)):
+            print(("   " + emoji_string[-1]) * 5)
     else:
         progress = floor((index / total) * height)
         Color.print_purple(f'[{"#" * progress}{"-" * (height - progress)}]')
