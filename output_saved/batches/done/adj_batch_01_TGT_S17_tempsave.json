@@ -369,7 +369,7 @@
       "simple": "cryptic",
       "comparative": "more cryptic",
       "superlative": "the most cryptic",
-      "adverb": "crypticly"
+      "adverb": "cryptically"
     }
   },
   {
@@ -1762,7 +1762,13 @@
       "pol-adj-0054-ciasny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "cramped",
+      "comparative": "more cramped",
+      "superlative": "the most cramped",
+      "adverb": false
+    }
   },
   {
     "lemma": "rotten",
@@ -1771,7 +1777,13 @@
       "pol-adj-0055-zgniły"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "rotten",
+      "comparative": "more rotten",
+      "superlative": "the most rotten",
+      "adverb": false
+    }
   },
   {
     "lemma": "decayed",
@@ -1780,7 +1792,13 @@
       "pol-adj-0055-zgniły"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "decayed",
+      "comparative": "more decayed",
+      "superlative": "the most decayed",
+      "adverb": false
+    }
   },
   {
     "lemma": "putrid",
@@ -1789,7 +1807,13 @@
       "pol-adj-0055-zgniły"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "putrid",
+      "comparative": "more putrid",
+      "superlative": "the most putrid",
+      "adverb": "putridly"
+    }
   },
   {
     "lemma": "charming",
@@ -1801,7 +1825,13 @@
       "pol-adj-0521-fascynujący"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "charming",
+      "comparative": "more charming",
+      "superlative": "the most charming",
+      "adverb": "charmingly"
+    }
   },
   {
     "lemma": "enchanting",
@@ -1811,7 +1841,13 @@
       "pol-adj-0424-urzekający"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "enchanting",
+      "comparative": "more enchanting",
+      "superlative": "the most enchanting",
+      "adverb": "enchantingly"
+    }
   },
   {
     "lemma": "huge",
@@ -1822,7 +1858,13 @@
       "pol-adj-0204-olbrzymi"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "huge",
+      "comparative": "huger",
+      "superlative": "hugest",
+      "adverb": "hugely"
+    }
   },
   {
     "lemma": "massive",
@@ -1832,7 +1874,13 @@
       "pol-adj-0606-masywny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "massive",
+      "comparative": "more massive",
+      "superlative": "the most massive",
+      "adverb": "massively"
+    }
   },
   {
     "lemma": "hungry",
@@ -1841,7 +1889,13 @@
       "pol-adj-0058-głodny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "hungry",
+      "comparative": "hungrier",
+      "superlative": "hungriest",
+      "adverb": "hungrily"
+    }
   },
   {
     "lemma": "true",
@@ -1855,6 +1909,12 @@
       "singleWordtype": true,
       "text": "truthiness",
       "emoji": "💬"
+    },
+    "inflections": {
+      "simple": "true",
+      "comparative": "truer",
+      "superlative": "truest",
+      "adverb": "truely"
     }
   },
   {
@@ -1865,7 +1925,13 @@
       "pol-adj-0082-autentyczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "authentic",
+      "comparative": "more authentic",
+      "superlative": "the most authentic",
+      "adverb": "authentically"
+    }
   },
   {
     "lemma": "real",
@@ -1878,7 +1944,13 @@
       "pol-adj-0567-istny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "real",
+      "comparative": "realer",
+      "superlative": "realest",
+      "adverb": false
+    }
   },
   {
     "lemma": "warm",
@@ -1887,7 +1959,13 @@
       "pol-adj-0060-ciepły"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "warm",
+      "comparative": "warmer",
+      "superlative": "warmest",
+      "adverb": "warmly"
+    }
   },
   {
     "lemma": "extraordinary",
@@ -1900,7 +1978,13 @@
       "pol-adj-0146-niespotykany"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "extraordinary",
+      "comparative": "more extraordinary",
+      "superlative": "the most extraordinary",
+      "adverb": "extraordinarily"
+    }
   },
   {
     "lemma": "phenomenal",
@@ -1909,7 +1993,13 @@
       "pol-adj-0061-niezwykły"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "phenomenal",
+      "comparative": "more phenomenal",
+      "superlative": "the most phenomenal",
+      "adverb": "phenomenally"
+    }
   },
   {
     "lemma": "remarkable",
@@ -1918,7 +2008,13 @@
       "pol-adj-0061-niezwykły"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "remarkable",
+      "comparative": "more remarkable",
+      "superlative": "the most remarkable",
+      "adverb": "remarkably"
+    }
   },
   {
     "lemma": "dangerous",
@@ -1928,7 +2024,13 @@
       "pol-adj-0571-groźny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "dangerous",
+      "comparative": "more dangerous",
+      "superlative": "the most dangerous",
+      "adverb": "dangerously"
+    }
   },
   {
     "lemma": "traditional",
@@ -1937,7 +2039,13 @@
       "pol-adj-0063-tradycyjny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "traditional",
+      "comparative": "more traditional",
+      "superlative": "the most traditional",
+      "adverb": "traditionally"
+    }
   },
   {
     "lemma": "square",
@@ -1946,7 +2054,13 @@
       "pol-adj-0064-kwadratowy"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "square",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "attentive",
@@ -1955,7 +2069,13 @@
       "pol-adj-0066-uważny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "attentive",
+      "comparative": "more attentive",
+      "superlative": "the most attentive",
+      "adverb": "attentively"
+    }
   },
   {
     "lemma": "watchful",
@@ -1964,7 +2084,13 @@
       "pol-adj-0066-uważny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "watchful",
+      "comparative": "more watchful",
+      "superlative": "the most watchful",
+      "adverb": "watchfully"
+    }
   },
   {
     "lemma": "observant",
@@ -1973,7 +2099,13 @@
       "pol-adj-0066-uważny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "observant",
+      "comparative": "more observant",
+      "superlative": "the most observant",
+      "adverb": "observantly"
+    }
   },
   {
     "lemma": "ready",
@@ -1988,6 +2120,12 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "simple": "ready",
+      "comparative": "readier",
+      "superlative": "readiest",
+      "adverb": "readily"
     }
   },
   {
@@ -2003,6 +2141,12 @@
       "singleWordtype": true,
       "text": "object",
       "emoji": "📦"
+    },
+    "inflections": {
+      "simple": "ready",
+      "comparative": "readier",
+      "superlative": "readiest",
+      "adverb": "readily"
     }
   },
   {
@@ -2018,6 +2162,12 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "simple": "prepared",
+      "comparative": "more prepared",
+      "superlative": "the most prepared",
+      "adverb": "preparedly"
     }
   },
   {
@@ -2033,6 +2183,12 @@
       "singleWordtype": true,
       "text": "object",
       "emoji": "📦"
+    },
+    "inflections": {
+      "simple": "prepared",
+      "comparative": "more prepared",
+      "superlative": "the most prepared",
+      "adverb": "preparedly"
     }
   },
   {
@@ -2042,7 +2198,13 @@
       "pol-adj-0068-gotowy(readymade)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "finished",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "done",
@@ -2051,7 +2213,13 @@
       "pol-adj-0068-gotowy(readymade)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "done",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "readymade",
@@ -2060,7 +2228,13 @@
       "pol-adj-0068-gotowy(readymade)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "readymade",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "wrong",
@@ -2073,7 +2247,13 @@
       "pol-adj-0153-niedobry(bad)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "wrong",
+      "comparative": "more wrong",
+      "superlative": "the most wrong",
+      "adverb": "wrongly"
+    }
   },
   {
     "lemma": "sure",
@@ -2087,6 +2267,12 @@
       "singleWordtype": true,
       "text": "object",
       "emoji": "📦"
+    },
+    "inflections": {
+      "simple": "sure",
+      "comparative": "surer",
+      "superlative": "surest",
+      "adverb": "surely"
     }
   },
   {
@@ -2102,6 +2288,12 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "simple": "sure",
+      "comparative": "surer",
+      "superlative": "surest",
+      "adverb": "surely"
     }
   },
   {
@@ -2116,6 +2308,12 @@
       "singleWordtype": true,
       "text": "object",
       "emoji": "📦"
+    },
+    "inflections": {
+      "simple": "certain",
+      "comparative": "more certain",
+      "superlative": "the most certain",
+      "adverb": "certainly"
     }
   },
   {
@@ -2131,6 +2329,12 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "simple": "certain",
+      "comparative": "more certain",
+      "superlative": "the most certain",
+      "adverb": "certainly"
     }
   },
   {
@@ -2141,7 +2345,13 @@
       "pol-adj-0071-pewny(confident)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "confident",
+      "comparative": "more confident",
+      "superlative": "the most confident",
+      "adverb": "confidently"
+    }
   },
   {
     "lemma": "brave",
@@ -2151,7 +2361,13 @@
       "pol-adj-0405-dzielny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "brave",
+      "comparative": "braver",
+      "superlative": "bravest",
+      "adverb": "bravely"
+    }
   },
   {
     "lemma": "courageous",
@@ -2160,7 +2376,13 @@
       "pol-adj-0072-odważny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "courageous",
+      "comparative": "more courageous",
+      "superlative": "the most courageous",
+      "adverb": "courageously"
+    }
   },
   {
     "lemma": "whole",
@@ -2169,7 +2391,13 @@
       "pol-adj-0073-cały"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "whole",
+      "comparative": false,
+      "superlative": false,
+      "adverb": "wholly"
+    }
   },
   {
     "lemma": "complete",
@@ -2180,7 +2408,13 @@
       "pol-adj-0440-całkowity"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "complete",
+      "comparative": "more complete",
+      "superlative": "the most complete",
+      "adverb": "completely"
+    }
   },
   {
     "lemma": "entire",
@@ -2190,7 +2424,13 @@
       "pol-adj-0440-całkowity"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "entire",
+      "comparative": false,
+      "superlative": false,
+      "adverb": "entirely"
+    }
   },
   {
     "lemma": "short",
@@ -2204,6 +2444,12 @@
       "singleWordtype": true,
       "text": "vertically",
       "emoji": "↕️"
+    },
+    "inflections": {
+      "simple": "short",
+      "comparative": "shorter",
+      "superlative": "shortest",
+      "adverb": false
     }
   },
   {
@@ -2218,6 +2464,12 @@
       "singleWordtype": true,
       "text": "horizontally",
       "emoji": "↔️"
+    },
+    "inflections": {
+      "simple": "short",
+      "comparative": "shorter",
+      "superlative": "shortest",
+      "adverb": false
     }
   },
   {
@@ -2227,7 +2479,13 @@
       "pol-adj-0075-niski(abstract)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "low",
+      "comparative": "lower",
+      "superlative": "lowest",
+      "adverb": false
+    }
   },
   {
     "lemma": "tired",
@@ -2236,7 +2494,13 @@
       "pol-adj-0076-zmęczony"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "tired",
+      "comparative": "more tired",
+      "superlative": "the most tired",
+      "adverb": "tiredly"
+    }
   },
   {
     "lemma": "weary",
@@ -2245,7 +2509,13 @@
       "pol-adj-0076-zmęczony"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "weary",
+      "comparative": "wearier",
+      "superlative": "weariest",
+      "adverb": "wearily"
+    }
   },
   {
     "lemma": "slow",
@@ -2255,7 +2525,13 @@
       "pol-adj-0297-wolny(slow)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "slow",
+      "comparative": "slower",
+      "superlative": "slowest",
+      "adverb": "slowly"
+    }
   },
   {
     "lemma": "pretty",
@@ -2264,7 +2540,13 @@
       "pol-adj-0078-ładny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "pretty",
+      "comparative": "prettier",
+      "superlative": "prettiest",
+      "adverb": "prettily"
+    }
   },
   {
     "lemma": "fine",
@@ -2278,6 +2560,12 @@
       "singleWordtype": true,
       "text": "texture",
       "emoji": "🪨"
+    },
+    "inflections": {
+      "simple": "fine",
+      "comparative": "finer",
+      "superlative": "finest",
+      "adverb": "finely"
     }
   },
   {
@@ -2290,6 +2578,12 @@
       "singleWordtype": true,
       "text": "quality",
       "emoji": "✅"
+    },
+    "inflections": {
+      "simple": "fine",
+      "comparative": "finer",
+      "superlative": "finest",
+      "adverb": "finely"
     }
   },
   {
@@ -2306,6 +2600,12 @@
       "singleWordtype": true,
       "text": "quality",
       "emoji": "✅"
+    },
+    "inflections": {
+      "simple": "nice",
+      "comparative": "nicer",
+      "superlative": "nicest",
+      "adverb": "nicely"
     }
   },
   {
@@ -2320,6 +2620,12 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "simple": "nice",
+      "comparative": "nicer",
+      "superlative": "nicest",
+      "adverb": "nicely"
     }
   },
   {
@@ -2330,7 +2636,13 @@
       "pol-adj-0203-normalny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "normal",
+      "comparative": "more normal",
+      "superlative": "the most normal",
+      "adverb": "normally"
+    }
   },
   {
     "lemma": "ordinary",
@@ -2340,7 +2652,13 @@
       "pol-adj-0741-pospolity"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "ordinary",
+      "comparative": "more ordinary",
+      "superlative": "the most ordinary",
+      "adverb": "ordinarily"
+    }
   },
   {
     "lemma": "brittle",
@@ -2349,7 +2667,13 @@
       "pol-adj-0080-kruchy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "brittle",
+      "comparative": "brittler",
+      "superlative": "brittlest",
+      "adverb": "brittly"
+    }
   },
   {
     "lemma": "fragile",
@@ -2358,7 +2682,13 @@
       "pol-adj-0080-kruchy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "fragile",
+      "comparative": "more fragile",
+      "superlative": "the most fragile",
+      "adverb": false
+    }
   },
   {
     "lemma": "fake",
@@ -2367,7 +2697,13 @@
       "pol-adj-0081-fałszywy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "fake",
+      "comparative": "faker",
+      "superlative": "fakest",
+      "adverb": false
+    }
   },
   {
     "lemma": "false",
@@ -2381,6 +2717,12 @@
       "singleWordtype": true,
       "text": "truthiness",
       "emoji": "💬"
+    },
+    "inflections": {
+      "simple": "false",
+      "comparative": "falser",
+      "superlative": "falsest",
+      "adverb": "falsely"
     }
   },
   {
@@ -2395,6 +2737,12 @@
       "singleWordtype": true,
       "text": "quality",
       "emoji": "✅"
+    },
+    "inflections": {
+      "simple": "false",
+      "comparative": "falser",
+      "superlative": "falsest",
+      "adverb": "falsely"
     }
   },
   {
@@ -2404,7 +2752,13 @@
       "pol-adj-0082-autentyczny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "genuine",
+      "comparative": "more genuine",
+      "superlative": "the most genuine",
+      "adverb": "genuinely"
+    }
   },
   {
     "lemma": "original",
@@ -2414,7 +2768,13 @@
       "pol-adj-0674-pierwotny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "original",
+      "comparative": "more original",
+      "superlative": "the most original",
+      "adverb": "originally"
+    }
   },
   {
     "lemma": "hard",
@@ -2423,7 +2783,13 @@
       "pol-adj-0084-twardy"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "hard",
+      "comparative": "harder",
+      "superlative": "hardest",
+      "adverb": false
+    }
   },
   {
     "lemma": "tough",
@@ -2432,7 +2798,13 @@
       "pol-adj-0084-twardy"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "tough",
+      "comparative": "tougher",
+      "superlative": "toughest",
+      "adverb": "toughly"
+    }
   },
   {
     "lemma": "firm",
@@ -2441,7 +2813,13 @@
       "pol-adj-0084-twardy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "firm",
+      "comparative": "firmer",
+      "superlative": "firmest",
+      "adverb": "firmly"
+    }
   },
   {
     "lemma": "soft",
@@ -2455,6 +2833,12 @@
       "singleWordtype": true,
       "text": "texture",
       "emoji": "🪨"
+    },
+    "inflections": {
+      "simple": "soft",
+      "comparative": "softer",
+      "superlative": "softest",
+      "adverb": "softly"
     }
   },
   {
@@ -2469,6 +2853,12 @@
       "singleWordtype": true,
       "text": "eg flavour",
       "emoji": "🍲"
+    },
+    "inflections": {
+      "simple": "soft",
+      "comparative": "softer",
+      "superlative": "softest",
+      "adverb": "softly"
     }
   },
   {
@@ -2479,7 +2869,13 @@
       "pol-adj-0087-zawiedziony"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "disappointed",
+      "comparative": "more disappointed",
+      "superlative": "the most disappointed",
+      "adverb": "disappointedly"
+    }
   },
   {
     "lemma": "rich",
@@ -2489,7 +2885,13 @@
       "pol-adj-0314-zamożny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "rich",
+      "comparative": "richer",
+      "superlative": "richest",
+      "adverb": "richly"
+    }
   },
   {
     "lemma": "wealthy",
@@ -2499,7 +2901,13 @@
       "pol-adj-0314-zamożny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "wealthy",
+      "comparative": "wealthier",
+      "superlative": "wealthiest",
+      "adverb": "wealthily"
+    }
   },
   {
     "lemma": "abundant",
@@ -2508,7 +2916,13 @@
       "pol-adj-0089-obfity"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "abundant",
+      "comparative": "more abundant",
+      "superlative": "the most abundant",
+      "adverb": "abundantly"
+    }
   },
   {
     "lemma": "plentiful",
@@ -2517,7 +2931,13 @@
       "pol-adj-0089-obfity"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "plentiful",
+      "comparative": "more plentiful",
+      "superlative": "the most plentiful",
+      "adverb": "plentifully"
+    }
   },
   {
     "lemma": "ample",
@@ -2526,7 +2946,13 @@
       "pol-adj-0089-obfity"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "ample",
+      "comparative": "ampler",
+      "superlative": "amplest",
+      "adverb": "amply"
+    }
   },
   {
     "lemma": "copious",
@@ -2535,7 +2961,13 @@
       "pol-adj-0089-obfity"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "copious",
+      "comparative": "more copious",
+      "superlative": "the most copious",
+      "adverb": "copiously"
+    }
   },
   {
     "lemma": "painful",
@@ -2544,7 +2976,13 @@
       "pol-adj-0090-bolesny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "painful",
+      "comparative": "more painful",
+      "superlative": "the most painful",
+      "adverb": "painfully"
+    }
   },
   {
     "lemma": "painless",
@@ -2553,7 +2991,13 @@
       "pol-adj-0091-bezbolesny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "painless",
+      "comparative": "more painless",
+      "superlative": "the most painless",
+      "adverb": "painlessly"
+    }
   },
   {
     "lemma": "fantastic",
@@ -2564,7 +3008,13 @@
       "pol-adj-0524-fantastyczny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "fantastic",
+      "comparative": "more fantastic",
+      "superlative": "the most fantastic",
+      "adverb": "fantastically"
+    }
   },
   {
     "lemma": "splendid",
