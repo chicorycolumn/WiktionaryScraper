@@ -1052,7 +1052,7 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
     else:
         print("")
 
-    user_input = input('Enter YES\nAny   NO\na     "more" and "most" plus adverb\ns     "more" and "most" but NO adverb\nd     double final consonant\nf     NO adverb\ng     NO ANYTHING\nh     adverb ONLY\nOr type in manually and press enter\n: ')
+    user_input = input('Enter for YES / Any for NO / Or type in manually and press Enter\na     "more" and "most" plus adverb\ns     "more" and "most" but NO adverb\nd     double final consonant\nf     NO adverb\ng     NO ANYTHING\nh     adverb ONLY\n: ')
 
     if not user_input or user_input == 'y':
         return {
