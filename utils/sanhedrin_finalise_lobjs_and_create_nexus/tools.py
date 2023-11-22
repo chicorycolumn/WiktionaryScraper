@@ -911,7 +911,7 @@ def get_inflections_eng_ver(lemma, manually_entered_inflections: [str] = None, r
     else:
         v2 = lemma + ("ed" if not lemma.endswith('e') else 'd')
         v3 = v2
-        thirdPS = lemma + ("s" if lemma[-1] not in 'hxsy' else "es")
+        thirdPS = lemma + ("s" if (lemma[-1] not in 'hxsy' or lemma.endswith('th')) else "es")
         if lemma.endswith('y'):
             thirdPS = replace_char_at_index(thirdPS, -3, 'i')
             v2 = replace_char_at_index(v2, -3, 'i')
@@ -980,7 +980,7 @@ def get_inflections_eng_nou(
             plur_nom = lemma
     else:
         sing_gen = lemma + "'s"
-        plur_nom = lemma + ("s" if lemma[-1] not in 'hsxy' else "es")
+        plur_nom = lemma + ("s" if (lemma[-1] not in 'hxsy' or lemma.endswith('th')) else "es")
         if lemma.endswith('y'):
             plur_nom = replace_char_at_index(plur_nom, -3, 'i')
         plur_gen = plur_nom + "'"
