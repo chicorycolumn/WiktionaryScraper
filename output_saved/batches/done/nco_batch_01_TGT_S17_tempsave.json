@@ -5935,7 +5935,17 @@
       "pol-nco-0238-chleb"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "bread",
+        "gen": "bread's"
+      },
+      "plural": {
+        "nom": "breads",
+        "gen": "breads'"
+      }
+    }
   },
   {
     "lemma": "area",
@@ -5944,7 +5954,17 @@
       "pol-nco-0239-obszar"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "area",
+        "gen": "area's"
+      },
+      "plural": {
+        "nom": "areas",
+        "gen": "areas'"
+      }
+    }
   },
   {
     "lemma": "domain",
@@ -5953,7 +5973,17 @@
       "pol-nco-0239-obszar"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "domain",
+        "gen": "domain's"
+      },
+      "plural": {
+        "nom": "domains",
+        "gen": "domains'"
+      }
+    }
   },
   {
     "lemma": "region",
@@ -5962,7 +5992,17 @@
       "pol-nco-0239-obszar"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "region",
+        "gen": "region's"
+      },
+      "plural": {
+        "nom": "regions",
+        "gen": "regions'"
+      }
+    }
   },
   {
     "lemma": "beard",
@@ -5971,7 +6011,17 @@
       "pol-nco-0240-broda"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "beard",
+        "gen": "beard's"
+      },
+      "plural": {
+        "nom": "beards",
+        "gen": "beards'"
+      }
+    }
   },
   {
     "lemma": "cream",
@@ -5980,7 +6030,17 @@
       "pol-nco-0241-krem"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "cream",
+        "gen": "cream's"
+      },
+      "plural": {
+        "nom": "creams",
+        "gen": "creams'"
+      }
+    }
   },
   {
     "lemma": "cream",
@@ -5989,7 +6049,17 @@
       "pol-nco-0241-krem"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "cream",
+        "gen": "cream's"
+      },
+      "plural": {
+        "nom": "creams",
+        "gen": "creams'"
+      }
+    }
   },
   {
     "lemma": "door",
@@ -5998,7 +6068,17 @@
       "pol-nco-0242-drzwi"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "door",
+        "gen": "door's"
+      },
+      "plural": {
+        "nom": "doors",
+        "gen": "doors'"
+      }
+    }
   },
   {
     "lemma": "cinema",
@@ -6007,7 +6087,17 @@
       "pol-nco-0243-kino"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "cinema",
+        "gen": "cinema's"
+      },
+      "plural": {
+        "nom": "cinemas",
+        "gen": "cinemas'"
+      }
+    }
   },
   {
     "lemma": "coconut",
@@ -6016,7 +6106,17 @@
       "pol-nco-0244-kokos"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "coconut",
+        "gen": "coconut's"
+      },
+      "plural": {
+        "nom": "coconuts",
+        "gen": "coconuts'"
+      }
+    }
   },
   {
     "lemma": "rain",
@@ -6025,7 +6125,15 @@
       "pol-nco-0245-deszcz"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "rain",
+        "gen": "rain's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "city",
@@ -6034,7 +6142,17 @@
       "pol-nco-0246-miasto"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "city",
+        "gen": "city's"
+      },
+      "plural": {
+        "nom": "cities",
+        "gen": "cities'"
+      }
+    }
   },
   {
     "lemma": "town",
@@ -6043,7 +6161,17 @@
       "pol-nco-0246-miasto"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "town",
+        "gen": "town's"
+      },
+      "plural": {
+        "nom": "towns",
+        "gen": "towns'"
+      }
+    }
   },
   {
     "lemma": "August",
@@ -6052,7 +6180,17 @@
       "pol-nco-0247-sierpień"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "August",
+        "gen": "August's"
+      },
+      "plural": {
+        "nom": "Augusts",
+        "gen": "Augusts'"
+      }
+    }
   },
   {
     "lemma": "dirt",
@@ -6061,7 +6199,15 @@
       "pol-nco-0248-brud"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "dirt",
+        "gen": "dirt's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "filth",
@@ -6070,7 +6216,15 @@
       "pol-nco-0248-brud"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "filth",
+        "gen": "filth's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "grime",
@@ -6079,7 +6233,15 @@
       "pol-nco-0248-brud"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "grime",
+        "gen": "grime's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "flavour",
@@ -6088,7 +6250,17 @@
       "pol-nco-0249-smak"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "flavour",
+        "gen": "flavour's"
+      },
+      "plural": {
+        "nom": "flavours",
+        "gen": "flavours'"
+      }
+    }
   },
   {
     "lemma": "berry",
@@ -6097,7 +6269,17 @@
       "pol-nco-0250-jagoda"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "berry",
+        "gen": "berry's"
+      },
+      "plural": {
+        "nom": "berries",
+        "gen": "berries'"
+      }
+    }
   },
   {
     "lemma": "fog",
@@ -6106,7 +6288,15 @@
       "pol-nco-0251-mgła"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "fog",
+        "gen": "fog's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "mist",
@@ -6115,7 +6305,15 @@
       "pol-nco-0251-mgła"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "mist",
+        "gen": "mist's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "seagull",
@@ -6124,7 +6322,17 @@
       "pol-nco-0252-mewa"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "singular": {
+        "nom": "seagull",
+        "gen": "seagull's"
+      },
+      "plural": {
+        "nom": "seagulls",
+        "gen": "seagulls'"
+      }
+    }
   },
   {
     "lemma": "ice",
@@ -6133,7 +6341,15 @@
       "pol-nco-0253-lód"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "ice",
+        "gen": "ice's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "airport",
@@ -6142,7 +6358,17 @@
       "pol-nco-0254-lotnisko"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "airport",
+        "gen": "airport's"
+      },
+      "plural": {
+        "nom": "airports",
+        "gen": "airports'"
+      }
+    }
   },
   {
     "lemma": "goal",
@@ -6151,7 +6377,17 @@
       "pol-nco-0255-cel(goal)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "goal",
+        "gen": "goal's"
+      },
+      "plural": {
+        "nom": "goals",
+        "gen": "goals'"
+      }
+    }
   },
   {
     "lemma": "aim",
@@ -6160,7 +6396,17 @@
       "pol-nco-0255-cel(goal)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "aim",
+        "gen": "aim's"
+      },
+      "plural": {
+        "nom": "aims",
+        "gen": "aims'"
+      }
+    }
   },
   {
     "lemma": "objective",
@@ -6169,7 +6415,17 @@
       "pol-nco-0255-cel(goal)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "objective",
+        "gen": "objective's"
+      },
+      "plural": {
+        "nom": "objectives",
+        "gen": "objectives'"
+      }
+    }
   },
   {
     "lemma": "target",
@@ -6183,6 +6439,16 @@
       "singleWordtype": true,
       "text": "abstract",
       "emoji": "💭"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "target",
+        "gen": "target's"
+      },
+      "plural": {
+        "nom": "targets",
+        "gen": "targets'"
+      }
     }
   },
   {
@@ -6197,6 +6463,16 @@
       "singleWordtype": true,
       "text": "physical",
       "emoji": "🪨"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "target",
+        "gen": "target's"
+      },
+      "plural": {
+        "nom": "targets",
+        "gen": "targets'"
+      }
     }
   },
   {
@@ -6206,7 +6482,17 @@
       "pol-nco-0256-cel(destination)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "destination",
+        "gen": "destination's"
+      },
+      "plural": {
+        "nom": "destinations",
+        "gen": "destinations'"
+      }
+    }
   },
   {
     "lemma": "age",
@@ -6215,7 +6501,17 @@
       "pol-nco-0257-wiek(age)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "age",
+        "gen": "age's"
+      },
+      "plural": {
+        "nom": "ages",
+        "gen": "ages'"
+      }
+    }
   },
   {
     "lemma": "century",
@@ -6224,7 +6520,17 @@
       "pol-nco-0258-wiek(century)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "century",
+        "gen": "century's"
+      },
+      "plural": {
+        "nom": "centuries",
+        "gen": "centuries'"
+      }
+    }
   },
   {
     "lemma": "swan",
@@ -6233,7 +6539,17 @@
       "pol-nco-0259-łabędź"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "swan",
+        "gen": "swan's"
+      },
+      "plural": {
+        "nom": "swans",
+        "gen": "swans'"
+      }
+    }
   },
   {
     "lemma": "wasp",
@@ -6242,7 +6558,17 @@
       "pol-nco-0260-osa"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "wasp",
+        "gen": "wasp's"
+      },
+      "plural": {
+        "nom": "wasps",
+        "gen": "wasps'"
+      }
+    }
   },
   {
     "lemma": "fable",
@@ -6251,7 +6577,17 @@
       "pol-nco-0261-bajka"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "fable",
+        "gen": "fable's"
+      },
+      "plural": {
+        "nom": "fables",
+        "gen": "fables'"
+      }
+    }
   },
   {
     "lemma": "fairy tale",
@@ -6260,7 +6596,17 @@
       "pol-nco-0261-bajka"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "fairy tale",
+        "gen": "fairy tale's"
+      },
+      "plural": {
+        "nom": "fairy tales",
+        "gen": "fairy tales'"
+      }
+    }
   },
   {
     "lemma": "cartoon",
@@ -6269,7 +6615,17 @@
       "pol-nco-0261-bajka"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "cartoon",
+        "gen": "cartoon's"
+      },
+      "plural": {
+        "nom": "cartoons",
+        "gen": "cartoons'"
+      }
+    }
   },
   {
     "lemma": "bone",
@@ -6278,7 +6634,17 @@
       "pol-nco-0262-kość"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "bone",
+        "gen": "bone's"
+      },
+      "plural": {
+        "nom": "bones",
+        "gen": "bones'"
+      }
+    }
   },
   {
     "lemma": "printing",
@@ -6287,7 +6653,17 @@
       "pol-nco-0263-druk"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "printing",
+        "gen": "printing's"
+      },
+      "plural": {
+        "nom": "printings",
+        "gen": "printings'"
+      }
+    }
   },
   {
     "lemma": "print",
@@ -6296,7 +6672,17 @@
       "pol-nco-0263-druk"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "print",
+        "gen": "print's"
+      },
+      "plural": {
+        "nom": "prints",
+        "gen": "prints'"
+      }
+    }
   },
   {
     "lemma": "blanket",
@@ -6305,7 +6691,17 @@
       "pol-nco-0264-koc"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "blanket",
+        "gen": "blanket's"
+      },
+      "plural": {
+        "nom": "blankets",
+        "gen": "blankets'"
+      }
+    }
   },
   {
     "lemma": "tablecloth",
@@ -6314,7 +6710,17 @@
       "pol-nco-0265-obrus"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "tablecloth",
+        "gen": "tablecloth's"
+      },
+      "plural": {
+        "nom": "tablecloths",
+        "gen": "tablecloths'"
+      }
+    }
   },
   {
     "lemma": "island",
@@ -6323,7 +6729,17 @@
       "pol-nco-0266-wyspa"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "island",
+        "gen": "island's"
+      },
+      "plural": {
+        "nom": "islands",
+        "gen": "islands'"
+      }
+    }
   },
   {
     "lemma": "basket",
@@ -6332,7 +6748,17 @@
       "pol-nco-0267-kosz(basket)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "basket",
+        "gen": "basket's"
+      },
+      "plural": {
+        "nom": "baskets",
+        "gen": "baskets'"
+      }
+    }
   },
   {
     "lemma": "bin",
@@ -6341,7 +6767,17 @@
       "pol-nco-0268-kosz(bin)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "bin",
+        "gen": "bin's"
+      },
+      "plural": {
+        "nom": "bins",
+        "gen": "bins'"
+      }
+    }
   },
   {
     "lemma": "trashcan",
@@ -6350,7 +6786,17 @@
       "pol-nco-0268-kosz(bin)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "trashcan",
+        "gen": "trashcan's"
+      },
+      "plural": {
+        "nom": "trashcans",
+        "gen": "trashcans'"
+      }
+    }
   },
   {
     "lemma": "January",
@@ -6359,7 +6805,17 @@
       "pol-nco-0269-styczeń"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "January",
+        "gen": "January's"
+      },
+      "plural": {
+        "nom": "Januarys",
+        "gen": "Januarys'"
+      }
+    }
   },
   {
     "lemma": "beetle",
@@ -6368,7 +6824,17 @@
       "pol-nco-0270-chrząszcz"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "beetle",
+        "gen": "beetle's"
+      },
+      "plural": {
+        "nom": "beetles",
+        "gen": "beetles'"
+      }
+    }
   },
   {
     "lemma": "woman",
@@ -6377,7 +6843,17 @@
       "pol-nco-0271-pani(woman)"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "woman",
+        "gen": "woman's"
+      },
+      "plural": {
+        "nom": "women",
+        "gen": "women's"
+      }
+    }
   },
   {
     "lemma": "lady",
@@ -6386,16 +6862,17 @@
       "pol-nco-0271-pani(woman)"
     ],
     "register": 0,
-    "frequency": 1
-  },
-  {
-    "lemma": "Mrs",
-    "id": "eng-nco-0350-Mrs",
-    "»trans": [
-      "pol-nco-0272-pani(Mrs)"
-    ],
-    "register": 0,
-    "frequency": 2
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "lady",
+        "gen": "lady's"
+      },
+      "plural": {
+        "nom": "ladies",
+        "gen": "ladies'"
+      }
+    }
   },
   {
     "lemma": "pancake",
@@ -6404,7 +6881,17 @@
       "pol-nco-0273-naleśnik"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "singular": {
+        "nom": "pancake",
+        "gen": "pancake's"
+      },
+      "plural": {
+        "nom": "pancakes",
+        "gen": "pancakes'"
+      }
+    }
   },
   {
     "lemma": "crepe",
@@ -6413,7 +6900,17 @@
       "pol-nco-0273-naleśnik"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "singular": {
+        "nom": "crepe",
+        "gen": "crepe's"
+      },
+      "plural": {
+        "nom": "crepes",
+        "gen": "crepes'"
+      }
+    }
   },
   {
     "lemma": "inn",
@@ -6422,7 +6919,17 @@
       "pol-nco-0274-gospoda"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "inn",
+        "gen": "inn's"
+      },
+      "plural": {
+        "nom": "inns",
+        "gen": "inns'"
+      }
+    }
   },
   {
     "lemma": "inch",
@@ -6431,7 +6938,17 @@
       "pol-nco-0275-cal"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "inch",
+        "gen": "inch's"
+      },
+      "plural": {
+        "nom": "inches",
+        "gen": "inches'"
+      }
+    }
   },
   {
     "lemma": "document",

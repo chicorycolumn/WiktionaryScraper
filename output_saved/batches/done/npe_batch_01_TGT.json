@@ -2392,11 +2392,7 @@
     "inflections": {
       "singular": {
         "nom": "Mr",
-        "gen": false
-      },
-      "plural": {
-        "nom": false,
-        "gen": false
+        "lacking": true
       }
     }
   },
@@ -2449,11 +2445,7 @@
     "inflections": {
       "singular": {
         "nom": "Mrs",
-        "gen": false
-      },
-      "plural": {
-        "nom": false,
-        "gen": false
+        "lacking": true
       }
     }
   },
@@ -2473,11 +2465,7 @@
     "inflections": {
       "singular": {
         "nom": "Miss",
-        "gen": false
-      },
-      "plural": {
-        "nom": false,
-        "gen": false
+        "lacking": true
       }
     }
   },
@@ -2497,11 +2485,7 @@
     "inflections": {
       "singular": {
         "nom": "Miss",
-        "gen": false
-      },
-      "plural": {
-        "nom": false,
-        "gen": false
+        "lacking": true
       }
     }
   },
