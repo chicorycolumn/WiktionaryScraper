@@ -9733,7 +9733,7 @@
       "simple": "daily",
       "comparative": false,
       "superlative": false,
-      "adverb": false
+      "adverb": "daily"
     }
   },
   {
@@ -9743,7 +9743,13 @@
       "pol-adj-0404-nocny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "nocturnal",
+      "comparative": "more nocturnal",
+      "superlative": "the most nocturnal",
+      "adverb": "nocturnally"
+    }
   },
   {
     "lemma": "nightly",
@@ -9752,7 +9758,13 @@
       "pol-adj-0404-nocny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "nightly",
+      "comparative": false,
+      "superlative": false,
+      "adverb": "nightly"
+    }
   },
   {
     "lemma": "dexterous",
@@ -9761,7 +9773,13 @@
       "pol-adj-0406-zręczny"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "dexterous",
+      "comparative": "more dexterous",
+      "superlative": "the most dexterous",
+      "adverb": "dexterously"
+    }
   },
   {
     "lemma": "feminine",
@@ -9771,7 +9789,13 @@
       "pol-adj-0505-kobiecy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "feminine",
+      "comparative": "more feminine",
+      "superlative": "the most feminine",
+      "adverb": "femininely"
+    }
   },
   {
     "lemma": "feminine",
@@ -9781,7 +9805,13 @@
       "pol-adj-0505-kobiecy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "feminine",
+      "comparative": "more feminine",
+      "superlative": "the most feminine",
+      "adverb": "femininely"
+    }
   },
   {
     "lemma": "upper",
@@ -9790,7 +9820,13 @@
       "pol-adj-0408-górny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "upper",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "lower",
@@ -9799,7 +9835,13 @@
       "pol-adj-0409-dolny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "lower",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "biological",
@@ -9808,7 +9850,13 @@
       "pol-adj-0410-biologiczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "biological",
+      "comparative": "more biological",
+      "superlative": "the most biological",
+      "adverb": "biologically"
+    }
   },
   {
     "lemma": "childish",
@@ -9817,7 +9865,13 @@
       "pol-adj-0411-dziecinny"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "childish",
+      "comparative": "more childish",
+      "superlative": "the most childish",
+      "adverb": "childishly"
+    }
   },
   {
     "lemma": "infantile",
@@ -9826,7 +9880,13 @@
       "pol-adj-0411-dziecinny"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "infantile",
+      "comparative": "more infantile",
+      "superlative": "the most infantile",
+      "adverb": "infantily"
+    }
   },
   {
     "lemma": "juvenile",
@@ -9835,7 +9895,13 @@
       "pol-adj-0411-dziecinny"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "juvenile",
+      "comparative": "more juvenile",
+      "superlative": "the most juvenile",
+      "adverb": "juvenily"
+    }
   },
   {
     "lemma": "childlike",
@@ -9844,7 +9910,13 @@
       "pol-adj-0411-dziecinny"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "childlike",
+      "comparative": "more childlike",
+      "superlative": "the most childlike",
+      "adverb": false
+    }
   },
   {
     "lemma": "children's",
@@ -9853,7 +9925,13 @@
       "pol-adj-0412-dziecięcy"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "children's",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "child",
@@ -9862,7 +9940,13 @@
       "pol-adj-0412-dziecięcy"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "child",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "naive",
@@ -9871,7 +9955,13 @@
       "pol-adj-0413-naiwny"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "naive",
+      "comparative": "naiver",
+      "superlative": "naivest",
+      "adverb": "naively"
+    }
   },
   {
     "lemma": "wise",
@@ -9880,7 +9970,13 @@
       "pol-adj-0330-mądry"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "wise",
+      "comparative": "wiser",
+      "superlative": "wisest",
+      "adverb": "wisely"
+    }
   },
   {
     "lemma": "sky-blue",
@@ -9889,7 +9985,13 @@
       "pol-adj-0414-błękitny"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "sky-blue",
+      "comparative": "more sky-blue",
+      "superlative": "the most sky-blue",
+      "adverb": false
+    }
   },
   {
     "lemma": "deaf",
@@ -9898,14 +10000,26 @@
       "pol-adj-0415-głuchy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "deaf",
+      "comparative": "deafer",
+      "superlative": "deafest",
+      "adverb": "deafly"
+    }
   },
   {
     "lemma": "current",
     "id": "eng-adj-0619-current(time)",
     "»trans": [],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "current",
+      "comparative": "more current",
+      "superlative": "the most current",
+      "adverb": "currently"
+    }
   },
   {
     "lemma": "current",
@@ -9914,14 +10028,26 @@
       "pol-adj-0417-bieżący"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "current",
+      "comparative": "more current",
+      "superlative": "the most current",
+      "adverb": "currently"
+    }
   },
   {
     "lemma": "petty",
     "id": "eng-adj-0620-petty",
     "»trans": [],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "petty",
+      "comparative": "pettier",
+      "superlative": "pettiest",
+      "adverb": "pettily"
+    }
   },
   {
     "lemma": "smooth",
@@ -9930,7 +10056,13 @@
       "pol-adj-0420-gładki"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "smooth",
+      "comparative": "smoother",
+      "superlative": "smoothest",
+      "adverb": "smoothly"
+    }
   },
   {
     "lemma": "rough",
@@ -9944,6 +10076,12 @@
       "singleWordtype": true,
       "text": "texture",
       "emoji": "🪨"
+    },
+    "inflections": {
+      "simple": "rough",
+      "comparative": "rougher",
+      "superlative": "roughest",
+      "adverb": "roughly"
     }
   },
   {
@@ -9958,6 +10096,12 @@
       "singleWordtype": true,
       "text": "ease",
       "emoji": "🤔"
+    },
+    "inflections": {
+      "simple": "rough",
+      "comparative": "rougher",
+      "superlative": "roughest",
+      "adverb": "roughly"
     }
   },
   {
@@ -9967,7 +10111,13 @@
       "pol-adj-0421-szorstki"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "coarse",
+      "comparative": "coarser",
+      "superlative": "coarsest",
+      "adverb": "coarsely"
+    }
   },
   {
     "lemma": "political",
@@ -9976,7 +10126,13 @@
       "pol-adj-0422-polityczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "political",
+      "comparative": "more political",
+      "superlative": "the most political",
+      "adverb": "politically"
+    }
   },
   {
     "lemma": "suspect",
@@ -9985,7 +10141,13 @@
       "pol-adj-0423-podejrzany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "suspect",
+      "comparative": "more suspect",
+      "superlative": "the most suspect",
+      "adverb": "suspectly"
+    }
   },
   {
     "lemma": "fishy",
@@ -9994,7 +10156,13 @@
       "pol-adj-0423-podejrzany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "fishy",
+      "comparative": "fishier",
+      "superlative": "fishiest",
+      "adverb": "fishily"
+    }
   },
   {
     "lemma": "suspicious",
@@ -10003,7 +10171,13 @@
       "pol-adj-0423-podejrzany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "suspicious",
+      "comparative": "more suspicious",
+      "superlative": "the most suspicious",
+      "adverb": "suspiciously"
+    }
   },
   {
     "lemma": "captivating",
@@ -10012,7 +10186,13 @@
       "pol-adj-0424-urzekający"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "captivating",
+      "comparative": "more captivating",
+      "superlative": "the most captivating",
+      "adverb": "captivatingly"
+    }
   },
   {
     "lemma": "endearing",
@@ -10021,7 +10201,13 @@
       "pol-adj-0425-ujmujący"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "endearing",
+      "comparative": "more endearing",
+      "superlative": "the most endearing",
+      "adverb": "endearingly"
+    }
   },
   {
     "lemma": "stormy",
@@ -10030,7 +10216,13 @@
       "pol-adj-0426-burzliwy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "stormy",
+      "comparative": "stormier",
+      "superlative": "stormiest",
+      "adverb": "stormily"
+    }
   },
   {
     "lemma": "tumultuous",
@@ -10039,7 +10231,13 @@
       "pol-adj-0426-burzliwy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "tumultuous",
+      "comparative": "more tumultuous",
+      "superlative": "the most tumultuous",
+      "adverb": "tumultuously"
+    }
   },
   {
     "lemma": "rocky",
@@ -10048,7 +10246,13 @@
       "pol-adj-0426-burzliwy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "rocky",
+      "comparative": "rockier",
+      "superlative": "rockiest",
+      "adverb": "rockily"
+    }
   },
   {
     "lemma": "turbulent",
@@ -10057,7 +10261,13 @@
       "pol-adj-0426-burzliwy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "turbulent",
+      "comparative": "more turbulent",
+      "superlative": "the most turbulent",
+      "adverb": "turbulently"
+    }
   },
   {
     "lemma": "chemical",
@@ -10066,7 +10276,13 @@
       "pol-adj-0427-chemiczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "chemical",
+      "comparative": "more chemical",
+      "superlative": "the most chemical",
+      "adverb": "chemically"
+    }
   },
   {
     "lemma": "showy",
@@ -10075,7 +10291,13 @@
       "pol-adj-0428-efektowny"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "showy",
+      "comparative": "showier",
+      "superlative": "showiest",
+      "adverb": "showily"
+    }
   },
   {
     "lemma": "striking",
@@ -10084,7 +10306,13 @@
       "pol-adj-0428-efektowny"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "striking",
+      "comparative": "more striking",
+      "superlative": "the most striking",
+      "adverb": "strikingly"
+    }
   },
   {
     "lemma": "impressive",
@@ -10094,7 +10322,13 @@
       "pol-adj-0585-imponujący"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "impressive",
+      "comparative": "more impressive",
+      "superlative": "the most impressive",
+      "adverb": "impressively"
+    }
   },
   {
     "lemma": "adult",
@@ -10103,7 +10337,13 @@
       "pol-adj-0429-dorosły"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "adult",
+      "comparative": "more adult",
+      "superlative": "the most adult",
+      "adverb": false
+    }
   },
   {
     "lemma": "European",
@@ -10112,7 +10352,13 @@
       "pol-adj-0430-europejski"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "European",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "navy blue",
@@ -10121,7 +10367,13 @@
       "pol-adj-0431-granatowy"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "navy blue",
+      "comparative": "more navy blue",
+      "superlative": "the most navy blue",
+      "adverb": false
+    }
   },
   {
     "lemma": "Danish",
@@ -10130,7 +10382,13 @@
       "pol-adj-0432-duński"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "Danish",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "English",
@@ -10139,7 +10397,13 @@
       "pol-adj-0433-angielski"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "English",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "genetic",
@@ -10148,7 +10412,13 @@
       "pol-adj-0434-genetyczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "genetic",
+      "comparative": "more genetic",
+      "superlative": "the most genetic",
+      "adverb": "genetically"
+    }
   },
   {
     "lemma": "financial",
