@@ -9,7 +9,7 @@ from utils.universal import Color as c, get_curried_save, load_tempsave_if_exist
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "adj"
+    wordtype = "nco"
     batch = "01"
     # # # # # #
 
@@ -40,13 +40,13 @@ if __name__ == '__main__':
 
     for index, tgt_lobj in enumerate(tgt_lobjs):
         print('')
-        print(f"{index + 1}/{len(tgt_lobjs)}", tgt_lobj['lemma'])
+        print(f"{index + 1}/{len(tgt_lobjs)}", tgt_lobj['id'][8:])
         if not tgt_lobj.get('inflections'):
             tgt_lobj['inflections'] = get_inflections(tgt_lobj["lemma"])
 
-        if index % 5 == 0:
-            save(tgt_lobjs, True)
-            progress_bar(index + 1, len(tgt_lobjs), True)
+            if index % 5 == 0:
+                save(tgt_lobjs, True)
+                progress_bar(index + 1, len(tgt_lobjs), True)
 
     save(tgt_lobjs)
 

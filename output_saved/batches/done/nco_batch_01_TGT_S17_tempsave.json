@@ -2763,7 +2763,17 @@
       "pol-nco-0118-długość(length)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "length",
+        "gen": "length's"
+      },
+      "plural": {
+        "nom": "lengths",
+        "gen": "lengths'"
+      }
+    }
   },
   {
     "lemma": "duration",
@@ -2772,7 +2782,17 @@
       "pol-nco-0119-długość(duration)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "duration",
+        "gen": "duration's"
+      },
+      "plural": {
+        "nom": "durations",
+        "gen": "durations'"
+      }
+    }
   },
   {
     "lemma": "fork",
@@ -2781,7 +2801,17 @@
       "pol-nco-0120-widelec"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "fork",
+        "gen": "fork's"
+      },
+      "plural": {
+        "nom": "forks",
+        "gen": "forks'"
+      }
+    }
   },
   {
     "lemma": "letter",
@@ -2795,6 +2825,16 @@
       "singleWordtype": true,
       "text": "object",
       "emoji": "📦"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "letter",
+        "gen": "letter's"
+      },
+      "plural": {
+        "nom": "letters",
+        "gen": "letters'"
+      }
     }
   },
   {
@@ -2809,6 +2849,16 @@
       "singleWordtype": true,
       "text": "linguistics",
       "emoji": "🔤"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "letter",
+        "gen": "letter's"
+      },
+      "plural": {
+        "nom": "letters",
+        "gen": "letters'"
+      }
     }
   },
   {
@@ -2823,6 +2873,16 @@
       "singleWordtype": true,
       "text": "money",
       "emoji": "💵"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "bank",
+        "gen": "bank's"
+      },
+      "plural": {
+        "nom": "banks",
+        "gen": "banks'"
+      }
     }
   },
   {
@@ -2837,6 +2897,16 @@
       "singleWordtype": true,
       "text": "nature",
       "emoji": "🌳"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "bank",
+        "gen": "bank's"
+      },
+      "plural": {
+        "nom": "banks",
+        "gen": "banks'"
+      }
     }
   },
   {
@@ -2846,7 +2916,17 @@
       "pol-nco-0123-płaszcz"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "coat",
+        "gen": "coat's"
+      },
+      "plural": {
+        "nom": "coats",
+        "gen": "coats'"
+      }
+    }
   },
   {
     "lemma": "truth",
@@ -2855,7 +2935,17 @@
       "pol-nco-0124-prawda"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "truth",
+        "gen": "truth's"
+      },
+      "plural": {
+        "nom": "truths",
+        "gen": "truths'"
+      }
+    }
   },
   {
     "lemma": "taste",
@@ -2865,7 +2955,17 @@
       "pol-nco-0249-smak"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "taste",
+        "gen": "taste's"
+      },
+      "plural": {
+        "nom": "tastes",
+        "gen": "tastes'"
+      }
+    }
   },
   {
     "lemma": "taste",
@@ -2875,7 +2975,17 @@
       "pol-nco-0249-smak"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "taste",
+        "gen": "taste's"
+      },
+      "plural": {
+        "nom": "tastes",
+        "gen": "tastes'"
+      }
+    }
   },
   {
     "lemma": "personal preference",
@@ -2884,7 +2994,17 @@
       "pol-nco-0125-gust"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "personal preference",
+        "gen": "personal preference's"
+      },
+      "plural": {
+        "nom": "personal preferences",
+        "gen": "personal preferences'"
+      }
+    }
   },
   {
     "lemma": "flight",
@@ -2893,7 +3013,17 @@
       "pol-nco-0126-lot"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "flight",
+        "gen": "flight's"
+      },
+      "plural": {
+        "nom": "flights",
+        "gen": "flights'"
+      }
+    }
   },
   {
     "lemma": "horse",
@@ -2902,7 +3032,17 @@
       "pol-nco-0127-koń"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "horse",
+        "gen": "horse's"
+      },
+      "plural": {
+        "nom": "horses",
+        "gen": "horses'"
+      }
+    }
   },
   {
     "lemma": "salt",
@@ -2911,7 +3051,17 @@
       "pol-nco-0128-sól"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "salt",
+        "gen": "salt's"
+      },
+      "plural": {
+        "nom": "salts",
+        "gen": "salts'"
+      }
+    }
   },
   {
     "lemma": "cow",
@@ -2920,7 +3070,17 @@
       "pol-nco-0129-krowa"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "cow",
+        "gen": "cow's"
+      },
+      "plural": {
+        "nom": "cows",
+        "gen": "cows'"
+      }
+    }
   },
   {
     "lemma": "hotel",
@@ -2929,7 +3089,17 @@
       "pol-nco-0130-hotel"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "hotel",
+        "gen": "hotel's"
+      },
+      "plural": {
+        "nom": "hotels",
+        "gen": "hotels'"
+      }
+    }
   },
   {
     "lemma": "product",
@@ -2938,7 +3108,17 @@
       "pol-nco-0131-produkt"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "product",
+        "gen": "product's"
+      },
+      "plural": {
+        "nom": "products",
+        "gen": "products'"
+      }
+    }
   },
   {
     "lemma": "sign",
@@ -2952,6 +3132,16 @@
       "singleWordtype": true,
       "text": "object",
       "emoji": "📦"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "sign",
+        "gen": "sign's"
+      },
+      "plural": {
+        "nom": "signs",
+        "gen": "signs'"
+      }
     }
   },
   {
@@ -2966,6 +3156,16 @@
       "singleWordtype": true,
       "text": "abstract",
       "emoji": "💭"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "sign",
+        "gen": "sign's"
+      },
+      "plural": {
+        "nom": "signs",
+        "gen": "signs'"
+      }
     }
   },
   {
@@ -2975,7 +3175,17 @@
       "pol-nco-0132-znak"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "mark",
+        "gen": "mark's"
+      },
+      "plural": {
+        "nom": "marks",
+        "gen": "marks'"
+      }
+    }
   },
   {
     "lemma": "symbol",
@@ -2984,7 +3194,17 @@
       "pol-nco-0132-znak"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "symbol",
+        "gen": "symbol's"
+      },
+      "plural": {
+        "nom": "symbols",
+        "gen": "symbols'"
+      }
+    }
   },
   {
     "lemma": "juice",
@@ -2993,7 +3213,17 @@
       "pol-nco-0133-sok"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "juice",
+        "gen": "juice's"
+      },
+      "plural": {
+        "nom": "juices",
+        "gen": "juices'"
+      }
+    }
   },
   {
     "lemma": "butter",
@@ -3002,7 +3232,17 @@
       "pol-nco-0134-masło"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "butter",
+        "gen": "butter's"
+      },
+      "plural": {
+        "nom": "butters",
+        "gen": "butters'"
+      }
+    }
   },
   {
     "lemma": "yogurt",
@@ -3011,7 +3251,17 @@
       "pol-nco-0135-jogurt"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "yogurt",
+        "gen": "yogurt's"
+      },
+      "plural": {
+        "nom": "yogurts",
+        "gen": "yogurts'"
+      }
+    }
   },
   {
     "lemma": "night",
@@ -3020,7 +3270,17 @@
       "pol-nco-0136-noc"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "night",
+        "gen": "night's"
+      },
+      "plural": {
+        "nom": "nights",
+        "gen": "nights'"
+      }
+    }
   },
   {
     "lemma": "eye",
@@ -3029,7 +3289,17 @@
       "pol-nco-0137-oko"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "eye",
+        "gen": "eye's"
+      },
+      "plural": {
+        "nom": "eyes",
+        "gen": "eyes'"
+      }
+    }
   },
   {
     "lemma": "oxygen",
@@ -3038,7 +3308,15 @@
       "pol-nco-0138-tlen"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "oxygen",
+        "gen": "oxygen's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "sex",
@@ -3047,7 +3325,17 @@
       "pol-nco-0139-seks"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "sex",
+        "gen": "sex's"
+      },
+      "plural": {
+        "nom": "sexes",
+        "gen": "sexes'"
+      }
+    }
   },
   {
     "lemma": "marijuana",
@@ -3057,7 +3345,17 @@
       "pol-nco-1013-zioło(cannabis)"
     ],
     "register": 6,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "marijuana",
+        "gen": "marijuana's"
+      },
+      "plural": {
+        "nom": "marijuanas",
+        "gen": "marijuanas'"
+      }
+    }
   },
   {
     "lemma": "tree",
@@ -3066,7 +3364,17 @@
       "pol-nco-0141-drzewo"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "tree",
+        "gen": "tree's"
+      },
+      "plural": {
+        "nom": "trees",
+        "gen": "trees'"
+      }
+    }
   },
   {
     "lemma": "percent",
@@ -3075,7 +3383,17 @@
       "pol-nco-0142-procent"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "percent",
+        "gen": "percent's"
+      },
+      "plural": {
+        "nom": "percents",
+        "gen": "percents'"
+      }
+    }
   },
   {
     "lemma": "wine",
@@ -3084,7 +3402,17 @@
       "pol-nco-0143-wino"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "wine",
+        "gen": "wine's"
+      },
+      "plural": {
+        "nom": "wines",
+        "gen": "wines'"
+      }
+    }
   },
   {
     "lemma": "cash desk",
@@ -3093,7 +3421,17 @@
       "pol-nco-0144-kasa(cash desk)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "cash desk",
+        "gen": "cash desk's"
+      },
+      "plural": {
+        "nom": "cash desks",
+        "gen": "cash desks'"
+      }
+    }
   },
   {
     "lemma": "checkout",
@@ -3102,7 +3440,17 @@
       "pol-nco-0144-kasa(cash desk)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "checkout",
+        "gen": "checkout's"
+      },
+      "plural": {
+        "nom": "checkouts",
+        "gen": "checkouts'"
+      }
+    }
   },
   {
     "lemma": "cash register",
@@ -3111,7 +3459,17 @@
       "pol-nco-0144-kasa(cash desk)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "cash register",
+        "gen": "cash register's"
+      },
+      "plural": {
+        "nom": "cash registers",
+        "gen": "cash registers'"
+      }
+    }
   },
   {
     "lemma": "till",
@@ -3120,7 +3478,17 @@
       "pol-nco-0144-kasa(cash desk)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "till",
+        "gen": "till's"
+      },
+      "plural": {
+        "nom": "tills",
+        "gen": "tills'"
+      }
+    }
   },
   {
     "lemma": "money",
@@ -3130,7 +3498,15 @@
       "pol-nco-0366-pieniądz"
     ],
     "register": 6,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "money",
+        "gen": "money's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "weather",
@@ -3140,7 +3516,15 @@
       "pol-nco-0948-pogoda"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "weather",
+        "gen": "weather's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "handwriting",
@@ -3149,7 +3533,17 @@
       "pol-nco-0147-pismo"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "singular": {
+        "nom": "handwriting",
+        "gen": "handwriting's"
+      },
+      "plural": {
+        "nom": "handwritings",
+        "gen": "handwritings'"
+      }
+    }
   },
   {
     "lemma": "fuck",
@@ -3158,7 +3552,17 @@
       "pol-nco-0148-kurwa(curseword)"
     ],
     "register": 8,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "fuck",
+        "gen": "fuck's"
+      },
+      "plural": {
+        "nom": "fucks",
+        "gen": "fucks'"
+      }
+    }
   },
   {
     "lemma": "cement",
@@ -3167,7 +3571,17 @@
       "pol-nco-0149-cement"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "cement",
+        "gen": "cement's"
+      },
+      "plural": {
+        "nom": "cements",
+        "gen": "cements'"
+      }
+    }
   },
   {
     "lemma": "coffee",
@@ -3176,7 +3590,17 @@
       "pol-nco-0150-kawa"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "coffee",
+        "gen": "coffee's"
+      },
+      "plural": {
+        "nom": "coffees",
+        "gen": "coffees'"
+      }
+    }
   },
   {
     "lemma": "honey bee",
@@ -3185,7 +3609,17 @@
       "pol-nco-0151-pszczoła"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "honey bee",
+        "gen": "honey bee's"
+      },
+      "plural": {
+        "nom": "honey bees",
+        "gen": "honey bees'"
+      }
+    }
   },
   {
     "lemma": "bee",
@@ -3194,7 +3628,17 @@
       "pol-nco-0151-pszczoła"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "bee",
+        "gen": "bee's"
+      },
+      "plural": {
+        "nom": "bees",
+        "gen": "bees'"
+      }
+    }
   },
   {
     "lemma": "soil",
@@ -3203,7 +3647,17 @@
       "pol-nco-0152-gleba"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "soil",
+        "gen": "soil's"
+      },
+      "plural": {
+        "nom": "soils",
+        "gen": "soils'"
+      }
+    }
   },
   {
     "lemma": "ear",
@@ -3212,7 +3666,17 @@
       "pol-nco-0153-ucho"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "ear",
+        "gen": "ear's"
+      },
+      "plural": {
+        "nom": "ears",
+        "gen": "ears'"
+      }
+    }
   },
   {
     "lemma": "November",
@@ -3221,7 +3685,17 @@
       "pol-nco-0154-listopad"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "November",
+        "gen": "November's"
+      },
+      "plural": {
+        "nom": "Novembers",
+        "gen": "Novembers'"
+      }
+    }
   },
   {
     "lemma": "telescope",
@@ -3230,7 +3704,17 @@
       "pol-nco-0155-teleskop"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "singular": {
+        "nom": "telescope",
+        "gen": "telescope's"
+      },
+      "plural": {
+        "nom": "telescopes",
+        "gen": "telescopes'"
+      }
+    }
   },
   {
     "lemma": "pyramid",
@@ -3244,6 +3728,16 @@
       "singleWordtype": true,
       "text": "location",
       "emoji": "📍"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "pyramid",
+        "gen": "pyramid's"
+      },
+      "plural": {
+        "nom": "pyramids",
+        "gen": "pyramids'"
+      }
     }
   },
   {
@@ -3258,6 +3752,16 @@
       "singleWordtype": true,
       "text": "abstract",
       "emoji": "💭"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "pyramid",
+        "gen": "pyramid's"
+      },
+      "plural": {
+        "nom": "pyramids",
+        "gen": "pyramids'"
+      }
     }
   },
   {
@@ -3267,7 +3771,17 @@
       "pol-nco-0157-skarpeta"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "sock",
+        "gen": "sock's"
+      },
+      "plural": {
+        "nom": "socks",
+        "gen": "socks'"
+      }
+    }
   },
   {
     "lemma": "leg",
@@ -3276,7 +3790,17 @@
       "pol-nco-0158-noga"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "leg",
+        "gen": "leg's"
+      },
+      "plural": {
+        "nom": "legs",
+        "gen": "legs'"
+      }
+    }
   },
   {
     "lemma": "microscope",
@@ -3285,7 +3809,17 @@
       "pol-nco-0159-mikroskop"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "singular": {
+        "nom": "microscope",
+        "gen": "microscope's"
+      },
+      "plural": {
+        "nom": "microscopes",
+        "gen": "microscopes'"
+      }
+    }
   },
   {
     "lemma": "income",
@@ -3295,7 +3829,17 @@
       "pol-nco-0557-przychód"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "income",
+        "gen": "income's"
+      },
+      "plural": {
+        "nom": "incomes",
+        "gen": "incomes'"
+      }
+    }
   },
   {
     "lemma": "height",
@@ -3309,6 +3853,16 @@
       "singleWordtype": true,
       "text": "abstract",
       "emoji": "💭"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "height",
+        "gen": "height's"
+      },
+      "plural": {
+        "nom": "heights",
+        "gen": "heights'"
+      }
     }
   },
   {
@@ -3323,6 +3877,16 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "height",
+        "gen": "height's"
+      },
+      "plural": {
+        "nom": "heights",
+        "gen": "heights'"
+      }
     }
   },
   {
@@ -3332,7 +3896,17 @@
       "pol-nco-0161-wysokość"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "altitude",
+        "gen": "altitude's"
+      },
+      "plural": {
+        "nom": "altitudes",
+        "gen": "altitudes'"
+      }
+    }
   },
   {
     "lemma": "minute",
@@ -3341,7 +3915,17 @@
       "pol-nco-0163-minuta"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "minute",
+        "gen": "minute's"
+      },
+      "plural": {
+        "nom": "minutes",
+        "gen": "minutes'"
+      }
+    }
   },
   {
     "lemma": "Thursday",
@@ -3350,7 +3934,17 @@
       "pol-nco-0164-czwartek"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "Thursday",
+        "gen": "Thursday's"
+      },
+      "plural": {
+        "nom": "Thursdays",
+        "gen": "Thursdays'"
+      }
+    }
   },
   {
     "lemma": "Friday",
@@ -3359,7 +3953,17 @@
       "pol-nco-0165-piątek"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "Friday",
+        "gen": "Friday's"
+      },
+      "plural": {
+        "nom": "Fridays",
+        "gen": "Fridays'"
+      }
+    }
   },
   {
     "lemma": "love",
@@ -3373,6 +3977,14 @@
       "singleWordtype": true,
       "text": "abstract",
       "emoji": "💭"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "love",
+        "gen": "love's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
     }
   },
   {
@@ -3387,6 +3999,16 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "love",
+        "gen": "love's"
+      },
+      "plural": {
+        "nom": "loves",
+        "gen": "loves'"
+      }
     }
   },
   {
@@ -3396,7 +4018,17 @@
       "pol-nco-0166-miłość"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "charity",
+        "gen": "charity's"
+      },
+      "plural": {
+        "nom": "charities",
+        "gen": "charities'"
+      }
+    }
   },
   {
     "lemma": "culture",
@@ -3405,7 +4037,17 @@
       "pol-nco-0167-kultura"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "culture",
+        "gen": "culture's"
+      },
+      "plural": {
+        "nom": "cultures",
+        "gen": "cultures'"
+      }
+    }
   },
   {
     "lemma": "Tuesday",
@@ -3414,7 +4056,17 @@
       "pol-nco-0168-wtorek"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "Tuesday",
+        "gen": "Tuesday's"
+      },
+      "plural": {
+        "nom": "Tuesdays",
+        "gen": "Tuesdays'"
+      }
+    }
   },
   {
     "lemma": "tabletop",
@@ -3423,7 +4075,17 @@
       "pol-nco-0169-blat"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "tabletop",
+        "gen": "tabletop's"
+      },
+      "plural": {
+        "nom": "tabletops",
+        "gen": "tabletops'"
+      }
+    }
   },
   {
     "lemma": "countertop",
@@ -3432,7 +4094,17 @@
       "pol-nco-0169-blat"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "countertop",
+        "gen": "countertop's"
+      },
+      "plural": {
+        "nom": "countertops",
+        "gen": "countertops'"
+      }
+    }
   },
   {
     "lemma": "counter",
@@ -3441,7 +4113,17 @@
       "pol-nco-0169-blat"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "counter",
+        "gen": "counter's"
+      },
+      "plural": {
+        "nom": "counters",
+        "gen": "counters'"
+      }
+    }
   },
   {
     "lemma": "price",
@@ -3455,6 +4137,16 @@
       "singleWordtype": true,
       "text": "money",
       "emoji": "💵"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "price",
+        "gen": "price's"
+      },
+      "plural": {
+        "nom": "prices",
+        "gen": "prices'"
+      }
     }
   },
   {
@@ -3469,6 +4161,16 @@
       "singleWordtype": true,
       "text": "abstract",
       "emoji": "💭"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "price",
+        "gen": "price's"
+      },
+      "plural": {
+        "nom": "prices",
+        "gen": "prices'"
+      }
     }
   },
   {
@@ -3478,7 +4180,15 @@
       "pol-nco-0171-duma"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "pride",
+        "gen": "pride's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "planet",
@@ -3487,7 +4197,17 @@
       "pol-nco-0172-planeta"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "planet",
+        "gen": "planet's"
+      },
+      "plural": {
+        "nom": "planets",
+        "gen": "planets'"
+      }
+    }
   },
   {
     "lemma": "park",
@@ -3496,7 +4216,17 @@
       "pol-nco-0173-park"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "park",
+        "gen": "park's"
+      },
+      "plural": {
+        "nom": "parks",
+        "gen": "parks'"
+      }
+    }
   },
   {
     "lemma": "description",
@@ -3505,7 +4235,17 @@
       "pol-nco-0174-opis"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "description",
+        "gen": "description's"
+      },
+      "plural": {
+        "nom": "descriptions",
+        "gen": "descriptions'"
+      }
+    }
   },
   {
     "lemma": "blender",
@@ -3514,7 +4254,17 @@
       "pol-nco-0175-blender"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "blender",
+        "gen": "blender's"
+      },
+      "plural": {
+        "nom": "blenders",
+        "gen": "blenders'"
+      }
+    }
   },
   {
     "lemma": "uranium",
@@ -3523,7 +4273,15 @@
       "pol-nco-0176-uran"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "uranium",
+        "gen": "uranium's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "Wednesday",
@@ -3532,7 +4290,17 @@
       "pol-nco-0177-środa"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "Wednesday",
+        "gen": "Wednesday's"
+      },
+      "plural": {
+        "nom": "Wednesdays",
+        "gen": "Wednesdays'"
+      }
+    }
   },
   {
     "lemma": "comet",
@@ -3541,7 +4309,17 @@
       "pol-nco-0178-kometa"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "comet",
+        "gen": "comet's"
+      },
+      "plural": {
+        "nom": "comets",
+        "gen": "comets'"
+      }
+    }
   },
   {
     "lemma": "board",
@@ -3555,6 +4333,16 @@
       "singleWordtype": true,
       "text": "material",
       "emoji": "👚"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "board",
+        "gen": "board's"
+      },
+      "plural": {
+        "nom": "boards",
+        "gen": "boards'"
+      }
     }
   },
   {
@@ -3569,6 +4357,16 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "board",
+        "gen": "board's"
+      },
+      "plural": {
+        "nom": "boards",
+        "gen": "boards'"
+      }
     }
   },
   {
@@ -3578,7 +4376,17 @@
       "pol-nco-0179-deska"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "plank",
+        "gen": "plank's"
+      },
+      "plural": {
+        "nom": "planks",
+        "gen": "planks'"
+      }
+    }
   },
   {
     "lemma": "bull",
@@ -3587,7 +4395,17 @@
       "pol-nco-0180-byk"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "bull",
+        "gen": "bull's"
+      },
+      "plural": {
+        "nom": "bulls",
+        "gen": "bulls'"
+      }
+    }
   },
   {
     "lemma": "biology",
@@ -3596,7 +4414,15 @@
       "pol-nco-0181-biologia"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "biology",
+        "gen": "biology's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "picture",
@@ -3610,6 +4436,16 @@
       "singleWordtype": true,
       "text": "abstract",
       "emoji": "💭"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "picture",
+        "gen": "picture's"
+      },
+      "plural": {
+        "nom": "pictures",
+        "gen": "pictures'"
+      }
     }
   },
   {
@@ -3624,6 +4460,16 @@
       "singleWordtype": true,
       "text": "object",
       "emoji": "📦"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "picture",
+        "gen": "picture's"
+      },
+      "plural": {
+        "nom": "pictures",
+        "gen": "pictures'"
+      }
     }
   },
   {
@@ -3633,7 +4479,17 @@
       "pol-nco-0182-obraz(image)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "image",
+        "gen": "image's"
+      },
+      "plural": {
+        "nom": "images",
+        "gen": "images'"
+      }
+    }
   },
   {
     "lemma": "painting",
@@ -3643,7 +4499,17 @@
       "pol-nco-1044-malarstwo"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "painting",
+        "gen": "painting's"
+      },
+      "plural": {
+        "nom": "paintings",
+        "gen": "paintings'"
+      }
+    }
   },
   {
     "lemma": "forename",
@@ -3652,7 +4518,17 @@
       "pol-nco-0184-imię"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "forename",
+        "gen": "forename's"
+      },
+      "plural": {
+        "nom": "forenames",
+        "gen": "forenames'"
+      }
+    }
   },
   {
     "lemma": "given name",
@@ -3661,7 +4537,17 @@
       "pol-nco-0184-imię"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "given name",
+        "gen": "given name's"
+      },
+      "plural": {
+        "nom": "given names",
+        "gen": "given names'"
+      }
+    }
   },
   {
     "lemma": "christian name",
@@ -3670,7 +4556,17 @@
       "pol-nco-0184-imię"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "christian name",
+        "gen": "christian name's"
+      },
+      "plural": {
+        "nom": "christian names",
+        "gen": "christian names'"
+      }
+    }
   },
   {
     "lemma": "first name",
@@ -3679,7 +4575,17 @@
       "pol-nco-0184-imię"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "first name",
+        "gen": "first name's"
+      },
+      "plural": {
+        "nom": "first names",
+        "gen": "first names'"
+      }
+    }
   },
   {
     "lemma": "name",
@@ -3689,7 +4595,17 @@
       "pol-nco-0281-nazwa"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "name",
+        "gen": "name's"
+      },
+      "plural": {
+        "nom": "names",
+        "gen": "names'"
+      }
+    }
   },
   {
     "lemma": "family",
@@ -3698,7 +4614,17 @@
       "pol-nco-0185-rodzina"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "family",
+        "gen": "family's"
+      },
+      "plural": {
+        "nom": "families",
+        "gen": "families'"
+      }
+    }
   },
   {
     "lemma": "example",
@@ -3707,7 +4633,17 @@
       "pol-nco-0186-przykład"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "example",
+        "gen": "example's"
+      },
+      "plural": {
+        "nom": "examples",
+        "gen": "examples'"
+      }
+    }
   },
   {
     "lemma": "morning",
@@ -3716,7 +4652,17 @@
       "pol-nco-0187-rano"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "morning",
+        "gen": "morning's"
+      },
+      "plural": {
+        "nom": "mornings",
+        "gen": "mornings'"
+      }
+    }
   },
   {
     "lemma": "March",
@@ -3725,7 +4671,17 @@
       "pol-nco-0188-marzec"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "March",
+        "gen": "March's"
+      },
+      "plural": {
+        "nom": "Marches",
+        "gen": "Marches'"
+      }
+    }
   },
   {
     "lemma": "tooth",
@@ -3734,7 +4690,17 @@
       "pol-nco-0189-ząb"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "tooth",
+        "gen": "tooth's"
+      },
+      "plural": {
+        "nom": "teeth",
+        "gen": "teeth's"
+      }
+    }
   },
   {
     "lemma": "wave",
@@ -3743,7 +4709,17 @@
       "pol-nco-0190-fala"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "wave",
+        "gen": "wave's"
+      },
+      "plural": {
+        "nom": "waves",
+        "gen": "waves'"
+      }
+    }
   },
   {
     "lemma": "second",
@@ -3752,7 +4728,17 @@
       "pol-nco-0191-sekunda"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "second",
+        "gen": "second's"
+      },
+      "plural": {
+        "nom": "seconds",
+        "gen": "seconds'"
+      }
+    }
   },
   {
     "lemma": "June",
@@ -3761,7 +4747,17 @@
       "pol-nco-0192-czerwiec"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "June",
+        "gen": "June's"
+      },
+      "plural": {
+        "nom": "Junes",
+        "gen": "Junes'"
+      }
+    }
   },
   {
     "lemma": "milk",
@@ -3770,7 +4766,17 @@
       "pol-nco-0193-mleko"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "milk",
+        "gen": "milk's"
+      },
+      "plural": {
+        "nom": "milks",
+        "gen": "milks'"
+      }
+    }
   },
   {
     "lemma": "law",
@@ -3779,7 +4785,17 @@
       "pol-nco-0194-prawo(law)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "law",
+        "gen": "law's"
+      },
+      "plural": {
+        "nom": "laws",
+        "gen": "laws'"
+      }
+    }
   },
   {
     "lemma": "right",
@@ -3788,7 +4804,17 @@
       "pol-nco-0195-prawo(right)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "right",
+        "gen": "right's"
+      },
+      "plural": {
+        "nom": "rights",
+        "gen": "rights'"
+      }
+    }
   },
   {
     "lemma": "body",
@@ -3797,7 +4823,17 @@
       "pol-nco-0196-ciało"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "body",
+        "gen": "body's"
+      },
+      "plural": {
+        "nom": "bodies",
+        "gen": "bodies'"
+      }
+    }
   },
   {
     "lemma": "gold",
@@ -3806,7 +4842,15 @@
       "pol-nco-0197-złoto"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "gold",
+        "gen": "gold's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "colour",
@@ -3819,7 +4863,17 @@
     "frequency": 1,
     "additionalSpellings": [
       "color"
-    ]
+    ],
+    "inflections": {
+      "singular": {
+        "nom": "colour",
+        "gen": "colour's"
+      },
+      "plural": {
+        "nom": "colours",
+        "gen": "colours'"
+      }
+    }
   },
   {
     "lemma": "nitrogen",
@@ -3828,7 +4882,15 @@
       "pol-nco-0199-azot"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "nitrogen",
+        "gen": "nitrogen's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "time",
@@ -3842,6 +4904,14 @@
       "singleWordtype": true,
       "text": "time",
       "emoji": "🕒"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "time",
+        "gen": "time's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
     }
   },
   {
@@ -3856,6 +4926,16 @@
       "singleWordtype": true,
       "text": "instance",
       "emoji": "⚪"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "time",
+        "gen": "time's"
+      },
+      "plural": {
+        "nom": "times",
+        "gen": "times'"
+      }
     }
   },
   {
