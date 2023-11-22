@@ -4,7 +4,7 @@ import time
 from copy import deepcopy
 
 from utils.general.common import write_todo
-from utils.universal import Color as c, interact_cmd_history, replace_char_at_index
+from utils.universal import Color as c, interact_cmd_history, replace_char_at_index, split_if_slash
 
 
 def show1(lobj, target_lang):
@@ -930,10 +930,10 @@ def get_inflections_eng_ver(lemma, manually_entered_inflections: [str] = None, r
         return {
             "infinitive": lemma,
             "verbal": {},
-            "v2": v2,
-            "v3": v3,
-            "thirdPS": thirdPS,
-            "gerund": gerund
+            "v2": split_if_slash(v2),
+            "v3": split_if_slash(v3),
+            "thirdPS": split_if_slash(thirdPS),
+            "gerund": split_if_slash(gerund)
         }
 
     if len(user_input) == 1:
@@ -996,11 +996,11 @@ def get_inflections_eng_nou(
         return {
             "singular": {
                 "nom": lemma,
-                "gen": sing_gen
+                "gen": split_if_slash(sing_gen)
             },
             "plural": {
-                "nom": plur_nom,
-                "gen": plur_gen
+                "nom": split_if_slash(plur_nom),
+                "gen": split_if_slash(plur_gen)
             }
         }
 
@@ -1057,9 +1057,9 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
     if not user_input or user_input == 'y':
         return {
             "simple": lemma,
-            "comparative": compar,
-            "superlative": superl,
-            "adverb": adverb
+            "comparative": split_if_slash(compar),
+            "superlative": split_if_slash(superl),
+            "adverb": split_if_slash(adverb)
         }
 
 

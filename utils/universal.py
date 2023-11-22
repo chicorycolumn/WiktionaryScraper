@@ -240,7 +240,7 @@ def replace_char_at_index(s, index, new_char):
 def progress_bar(index, total, use_emojis: bool = False):
     height = 50
     emojis_1 = '🎷🌇🏐🏔🎵🏈🎣🏀🎼🎁🏰️💃🌃🎃🌋🥋🎺🎂🏜🪅🏸🎹🎊🎳⚽🕺🏝🎈🎻🎸🎋🥅🎄🏏🎏🏕🥊🎆🗻🏉🎾🥌🎿🏓⛸🎅🎶🥎🏖'
-    emojis_2 = "🍓👹💃🍊🐯🎃🦁🐈🌻🌝🐝🍌🐠🍋🧀🌽🍀🌲🌴🐍🐢🌱🥑🦖🫑🎋🥶🧢🐬🚙🐳👖🌀📘🙆‍♀️💟😈🍆👾🍇💜"
+    emojis_2 = "🍓👹💃🍊🐯🎃🦁🐈🌻🌝🐝🍌🐠🍋🧀🌽🍀🌲🌴🐍🌱🥑🦖🫑🎋🥶🧢🐬🚙🐳👖🌀📘🙆‍♀️💟🍆👾🍇💜"
 
 
     if use_emojis:
@@ -253,3 +253,7 @@ def progress_bar(index, total, use_emojis: bool = False):
     else:
         progress = floor((index / total) * height)
         Color.print_purple(f'[{"#" * progress}{"-" * (height - progress)}]')
+
+
+def split_if_slash(s):
+    return s.split('/') if '/' in s else s
