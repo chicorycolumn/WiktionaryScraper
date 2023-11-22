@@ -520,7 +520,17 @@
       "pol-nco-0023-moneta"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "coin",
+        "gen": "coin's"
+      },
+      "plural": {
+        "nom": "coins",
+        "gen": "coins'"
+      }
+    }
   },
   {
     "lemma": "Saturday",
@@ -529,7 +539,17 @@
       "pol-nco-0024-sobota"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "Saturday",
+        "gen": "Saturday's"
+      },
+      "plural": {
+        "nom": "Saturdays",
+        "gen": "Saturdays'"
+      }
+    }
   },
   {
     "lemma": "zloty",
@@ -538,7 +558,17 @@
       "pol-nco-0025-złoty"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "zloty",
+        "gen": "zloty's"
+      },
+      "plural": {
+        "nom": "zlotys",
+        "gen": "zlotys'"
+      }
+    }
   },
   {
     "lemma": "carrot",
@@ -547,7 +577,17 @@
       "pol-nco-0026-marchewka"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "carrot",
+        "gen": "carrot's"
+      },
+      "plural": {
+        "nom": "carrots",
+        "gen": "carrots'"
+      }
+    }
   },
   {
     "lemma": "cheese",
@@ -556,7 +596,17 @@
       "pol-nco-0027-ser"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "cheese",
+        "gen": "cheese's"
+      },
+      "plural": {
+        "nom": "cheeses",
+        "gen": "cheeses'"
+      }
+    }
   },
   {
     "lemma": "cabbage",
@@ -565,7 +615,17 @@
       "pol-nco-0028-kapusta"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "cabbage",
+        "gen": "cabbage's"
+      },
+      "plural": {
+        "nom": "cabbages",
+        "gen": "cabbages'"
+      }
+    }
   },
   {
     "lemma": "kale",
@@ -574,7 +634,17 @@
       "pol-nco-0028-kapusta"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "kale",
+        "gen": "kale's"
+      },
+      "plural": {
+        "nom": "kales",
+        "gen": "kales'"
+      }
+    }
   },
   {
     "lemma": "raspberry",
@@ -583,7 +653,17 @@
       "pol-nco-0029-malina"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "raspberry",
+        "gen": "raspberry's"
+      },
+      "plural": {
+        "nom": "raspberries",
+        "gen": "raspberries'"
+      }
+    }
   },
   {
     "lemma": "rubber",
@@ -597,6 +677,16 @@
       "singleWordtype": true,
       "text": "material",
       "emoji": "👚"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "rubber",
+        "gen": "rubber's"
+      },
+      "plural": {
+        "nom": "rubbers",
+        "gen": "rubbers'"
+      }
     }
   },
   {
@@ -611,6 +701,16 @@
       "singleWordtype": true,
       "text": "object",
       "emoji": "📦"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "rubber",
+        "gen": "rubber's"
+      },
+      "plural": {
+        "nom": "rubbers",
+        "gen": "rubbers'"
+      }
     }
   },
   {
@@ -620,7 +720,17 @@
       "pol-nco-0031-guma(chewing gum)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "chewing gum",
+        "gen": "chewing gum's"
+      },
+      "plural": {
+        "nom": "chewing gums",
+        "gen": "chewing gums'"
+      }
+    }
   },
   {
     "lemma": "way",
@@ -631,7 +741,17 @@
       "pol-nco-0860-trasa"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "way",
+        "gen": "way's"
+      },
+      "plural": {
+        "nom": "ways",
+        "gen": "ways'"
+      }
+    }
   },
   {
     "lemma": "way",
@@ -642,7 +762,17 @@
       "pol-nco-0860-trasa"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "way",
+        "gen": "way's"
+      },
+      "plural": {
+        "nom": "ways",
+        "gen": "ways'"
+      }
+    }
   },
   {
     "lemma": "road",
@@ -651,7 +781,17 @@
       "pol-nco-0033-droga(road)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "road",
+        "gen": "road's"
+      },
+      "plural": {
+        "nom": "roads",
+        "gen": "roads'"
+      }
+    }
   },
   {
     "lemma": "cat",
@@ -660,7 +800,17 @@
       "pol-nco-0034-kot"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "cat",
+        "gen": "cat's"
+      },
+      "plural": {
+        "nom": "cats",
+        "gen": "cats'"
+      }
+    }
   },
   {
     "lemma": "fox",
@@ -669,7 +819,17 @@
       "pol-nco-0035-lis"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "fox",
+        "gen": "fox's"
+      },
+      "plural": {
+        "nom": "foxes",
+        "gen": "foxes'"
+      }
+    }
   },
   {
     "lemma": "bird",
@@ -678,7 +838,17 @@
       "pol-nco-0036-ptak"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "bird",
+        "gen": "bird's"
+      },
+      "plural": {
+        "nom": "birds",
+        "gen": "birds'"
+      }
+    }
   },
   {
     "lemma": "wolf",
@@ -687,7 +857,17 @@
       "pol-nco-0037-wilk"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "wolf",
+        "gen": "wolf's"
+      },
+      "plural": {
+        "nom": "wolves",
+        "gen": "wolves'"
+      }
+    }
   },
   {
     "lemma": "tongue",
@@ -696,7 +876,17 @@
       "pol-nco-0038-język(tongue)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "tongue",
+        "gen": "tongue's"
+      },
+      "plural": {
+        "nom": "tongues",
+        "gen": "tongues'"
+      }
+    }
   },
   {
     "lemma": "language",
@@ -705,7 +895,17 @@
       "pol-nco-0039-język(language)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "language",
+        "gen": "language's"
+      },
+      "plural": {
+        "nom": "languages",
+        "gen": "languages'"
+      }
+    }
   },
   {
     "lemma": "hall",

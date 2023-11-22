@@ -1008,13 +1008,13 @@ def get_inflections_eng_nou(
             c.print_red("You must type one string: nominative plural")
             return restart()
 
-        plur_nom = user_input.split(' ')[1]
+        plur_nom = user_input
         sing_gen = lemma + "'s"
 
         if plur_nom.endswith('s'):
-            plur_gen = sing_gen + "'"
+            plur_gen = plur_nom + "'"
         else:
-            plur_gen = sing_gen + "'s"
+            plur_gen = plur_nom + "'s"
 
         return get_inflections_eng_nou(lemma, [plur_nom, sing_gen, plur_gen], True)
 
