@@ -257,3 +257,12 @@ def progress_bar(index, total, use_emojis: bool = False):
 
 def split_if_slash(s):
     return s.split('/') if (type(s) is str and '/' in s) else s
+
+
+def print_inflections(inflections):
+    print("")
+    for key1 in inflections:
+        Color.print_blue(key1)
+        for key2 in inflections[key1]:
+            Color.print_blue("     " + key2)
+            print("          ", inflections[key1][key2])

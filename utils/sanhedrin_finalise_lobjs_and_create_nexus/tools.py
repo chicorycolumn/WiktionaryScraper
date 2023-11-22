@@ -4,7 +4,7 @@ import time
 from copy import deepcopy
 
 from utils.general.common import write_todo
-from utils.universal import Color as c, interact_cmd_history, replace_char_at_index, split_if_slash
+from utils.universal import Color as c, interact_cmd_history, replace_char_at_index, split_if_slash, print_inflections
 
 
 def show1(lobj, target_lang):
@@ -977,7 +977,7 @@ def get_inflections_eng_nou(
     print_function(f'{lemma}, {plur_nom}')
     print_function(f'{sing_gen}, {plur_gen}')
     print("")
-    user_input = input('Enter for YES / Any for NO\nq     Keep terminal y\nw     Plural same as singular\nOr type in irregular plural eg "men" and press Enter\n: ')
+    user_input = input('Enter for YES / Any for NO\nq     Keep terminal y\nw     Plural same as singular\ns     Tantum singulare\np     Tantum plurale\nOr type in irregular plural eg "men" and press Enter\n: ')
 
     if not user_input or user_input == 'y':
         return {
@@ -990,6 +990,34 @@ def get_inflections_eng_nou(
                 "gen": split_if_slash(plur_gen)
             }
         }
+
+    if user_input == 's':
+        inflections = {
+            "singular": {
+                "nom": lemma,
+                "gen": lemma + "'s",
+                "lacking": True,
+                "tantumSingulare": True,
+            }
+        }
+
+        print_inflections(inflections)
+
+        return inflections
+
+    if user_input == 'p':
+        inflections = {
+            "plural": {
+                "nom": lemma,
+                "gen": False,
+                "lacking": True,
+                "tantumPlurale": True,
+            }
+        }
+
+        print_inflections(inflections)
+
+        return inflections
 
     if user_input == 'q':
         return get_inflections_eng_nou(lemma, None, True, True)

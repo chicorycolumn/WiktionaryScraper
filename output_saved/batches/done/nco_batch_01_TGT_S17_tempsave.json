@@ -914,7 +914,17 @@
       "pol-nco-0040-hol"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "hall",
+        "gen": "hall's"
+      },
+      "plural": {
+        "nom": "halls",
+        "gen": "halls'"
+      }
+    }
   },
   {
     "lemma": "hallway",
@@ -923,7 +933,17 @@
       "pol-nco-0040-hol"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "hallway",
+        "gen": "hallway's"
+      },
+      "plural": {
+        "nom": "hallways",
+        "gen": "hallways'"
+      }
+    }
   },
   {
     "lemma": "lobby",
@@ -932,7 +952,17 @@
       "pol-nco-0040-hol"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "lobby",
+        "gen": "lobby's"
+      },
+      "plural": {
+        "nom": "lobbies",
+        "gen": "lobbies'"
+      }
+    }
   },
   {
     "lemma": "moment",
@@ -942,7 +972,17 @@
       "pol-nco-0378-chwila"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "moment",
+        "gen": "moment's"
+      },
+      "plural": {
+        "nom": "moments",
+        "gen": "moments'"
+      }
+    }
   },
   {
     "lemma": "window",
@@ -951,7 +991,17 @@
       "pol-nco-0042-okno"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "window",
+        "gen": "window's"
+      },
+      "plural": {
+        "nom": "windows",
+        "gen": "windows'"
+      }
+    }
   },
   {
     "lemma": "radio",
@@ -960,7 +1010,17 @@
       "pol-nco-0043-radio"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "radio",
+        "gen": "radio's"
+      },
+      "plural": {
+        "nom": "radios",
+        "gen": "radios'"
+      }
+    }
   },
   {
     "lemma": "problem",
@@ -969,7 +1029,17 @@
       "pol-nco-0044-problem"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "problem",
+        "gen": "problem's"
+      },
+      "plural": {
+        "nom": "problems",
+        "gen": "problems'"
+      }
+    }
   },
   {
     "lemma": "hen",
@@ -978,7 +1048,17 @@
       "pol-nco-0045-kura"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "hen",
+        "gen": "hen's"
+      },
+      "plural": {
+        "nom": "hens",
+        "gen": "hens'"
+      }
+    }
   },
   {
     "lemma": "street",
@@ -987,7 +1067,17 @@
       "pol-nco-0046-ulica"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "street",
+        "gen": "street's"
+      },
+      "plural": {
+        "nom": "streets",
+        "gen": "streets'"
+      }
+    }
   },
   {
     "lemma": "paper",
@@ -996,7 +1086,17 @@
       "pol-nco-0047-papier"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "paper",
+        "gen": "paper's"
+      },
+      "plural": {
+        "nom": "papers",
+        "gen": "papers'"
+      }
+    }
   },
   {
     "lemma": "kettle",
@@ -1005,7 +1105,17 @@
       "pol-nco-0048-czajnik"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "kettle",
+        "gen": "kettle's"
+      },
+      "plural": {
+        "nom": "kettles",
+        "gen": "kettles'"
+      }
+    }
   },
   {
     "lemma": "teapot",
@@ -1014,7 +1124,17 @@
       "pol-nco-0048-czajnik"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "teapot",
+        "gen": "teapot's"
+      },
+      "plural": {
+        "nom": "teapots",
+        "gen": "teapots'"
+      }
+    }
   },
   {
     "lemma": "knife",
@@ -1023,7 +1143,17 @@
       "pol-nco-0049-nóż"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "knife",
+        "gen": "knife's"
+      },
+      "plural": {
+        "nom": "knives",
+        "gen": "knives'"
+      }
+    }
   },
   {
     "lemma": "computer",
@@ -1032,7 +1162,17 @@
       "pol-nco-0050-komputer"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "computer",
+        "gen": "computer's"
+      },
+      "plural": {
+        "nom": "computers",
+        "gen": "computers'"
+      }
+    }
   },
   {
     "lemma": "hospital",
@@ -1041,7 +1181,17 @@
       "pol-nco-0051-szpital"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "hospital",
+        "gen": "hospital's"
+      },
+      "plural": {
+        "nom": "hospitals",
+        "gen": "hospitals'"
+      }
+    }
   },
   {
     "lemma": "physics",
