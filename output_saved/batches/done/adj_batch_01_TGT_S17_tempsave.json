@@ -6432,7 +6432,13 @@
       "pol-adj-0251-prawdopodobny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "probable",
+      "comparative": "more probable",
+      "superlative": "the most probable",
+      "adverb": "probably"
+    }
   },
   {
     "lemma": "sad",
@@ -6441,7 +6447,13 @@
       "pol-adj-0252-smutny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "sad",
+      "comparative": "sadder",
+      "superlative": "saddest",
+      "adverb": "sadly"
+    }
   },
   {
     "lemma": "mysterious",
@@ -6450,7 +6462,13 @@
       "pol-adj-0253-tajemniczy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "mysterious",
+      "comparative": "more mysterious",
+      "superlative": "the most mysterious",
+      "adverb": "mysteriously"
+    }
   },
   {
     "lemma": "secretive",
@@ -6459,7 +6477,13 @@
       "pol-adj-0253-tajemniczy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "secretive",
+      "comparative": "more secretive",
+      "superlative": "the most secretive",
+      "adverb": "secretively"
+    }
   },
   {
     "lemma": "stubborn",
@@ -6468,7 +6492,13 @@
       "pol-adj-0255-uparty"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "stubborn",
+      "comparative": "stubborner",
+      "superlative": "stubbornest",
+      "adverb": "stubbornly"
+    }
   },
   {
     "lemma": "talented",
@@ -6478,7 +6508,13 @@
       "pol-adj-0514-utalentowany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "talented",
+      "comparative": "more talented",
+      "superlative": "the most talented",
+      "adverb": "talentedly"
+    }
   },
   {
     "lemma": "gifted",
@@ -6488,7 +6524,13 @@
       "pol-adj-0514-utalentowany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "gifted",
+      "comparative": "more gifted",
+      "superlative": "the most gifted",
+      "adverb": "giftedly"
+    }
   },
   {
     "lemma": "capable",
@@ -6497,7 +6539,13 @@
       "pol-adj-0256-zdolny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "capable",
+      "comparative": "more capable",
+      "superlative": "the most capable",
+      "adverb": "capably"
+    }
   },
   {
     "lemma": "round",
@@ -6506,7 +6554,13 @@
       "pol-adj-0257-okrągły"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "round",
+      "comparative": "rounder",
+      "superlative": "roundest",
+      "adverb": "roundly"
+    }
   },
   {
     "lemma": "circular",
@@ -6515,7 +6569,13 @@
       "pol-adj-0257-okrągły"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "circular",
+      "comparative": "more circular",
+      "superlative": "the most circular",
+      "adverb": "circularly"
+    }
   },
   {
     "lemma": "long",
@@ -6524,7 +6584,13 @@
       "pol-adj-0258-długi"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "long",
+      "comparative": "longer",
+      "superlative": "longest",
+      "adverb": false
+    }
   },
   {
     "lemma": "exceptional",
@@ -6533,7 +6599,13 @@
       "pol-adj-0259-wyjątkowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "exceptional",
+      "comparative": "more exceptional",
+      "superlative": "the most exceptional",
+      "adverb": "exceptionally"
+    }
   },
   {
     "lemma": "medieval",
@@ -6542,7 +6614,13 @@
       "pol-adj-0260-średniowieczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "medieval",
+      "comparative": "more medieval",
+      "superlative": "the most medieval",
+      "adverb": "medievally"
+    }
   },
   {
     "lemma": "yellow",
@@ -6551,7 +6629,13 @@
       "pol-adj-0261-żółty"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "yellow",
+      "comparative": "yellower",
+      "superlative": "yellowest",
+      "adverb": false
+    }
   },
   {
     "lemma": "sour",
@@ -6560,7 +6644,13 @@
       "pol-adj-0262-kwaśny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "sour",
+      "comparative": "sourer",
+      "superlative": "sourest",
+      "adverb": "sourly"
+    }
   },
   {
     "lemma": "Mediterranean",
@@ -6569,7 +6659,13 @@
       "pol-adj-0264-śródziemnomorski"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "Mediterranean",
+      "comparative": "more Mediterranean",
+      "superlative": "the most Mediterranean",
+      "adverb": false
+    }
   },
   {
     "lemma": "foreign",
@@ -6579,7 +6675,13 @@
       "pol-adj-0345-obcy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "foreign",
+      "comparative": "more foreign",
+      "superlative": "the most foreign",
+      "adverb": "foreignly"
+    }
   },
   {
     "lemma": "terrible",
@@ -6589,7 +6691,13 @@
       "pol-adj-0343-straszny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "terrible",
+      "comparative": "more terrible",
+      "superlative": "the most terrible",
+      "adverb": "terribly"
+    }
   },
   {
     "lemma": "nutty",
@@ -6598,7 +6706,13 @@
       "pol-adj-0267-zwariowany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "nutty",
+      "comparative": "nuttier",
+      "superlative": "nuttiest",
+      "adverb": "nuttily"
+    }
   },
   {
     "lemma": "barmy",
@@ -6607,7 +6721,13 @@
       "pol-adj-0267-zwariowany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "barmy",
+      "comparative": "barmier",
+      "superlative": "barmiest",
+      "adverb": "barmily"
+    }
   },
   {
     "lemma": "crazy",
@@ -6616,7 +6736,13 @@
       "pol-adj-0267-zwariowany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "crazy",
+      "comparative": "crazier",
+      "superlative": "craziest",
+      "adverb": "crazily"
+    }
   },
   {
     "lemma": "daft",
@@ -6625,7 +6751,13 @@
       "pol-adj-0267-zwariowany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "daft",
+      "comparative": "dafter",
+      "superlative": "daftest",
+      "adverb": "daftly"
+    }
   },
   {
     "lemma": "unpleasant",
@@ -6635,7 +6767,13 @@
       "pol-adj-0648-nieprzyjemny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "unpleasant",
+      "comparative": "more unpleasant",
+      "superlative": "the most unpleasant",
+      "adverb": "unpleasantly"
+    }
   },
   {
     "lemma": "exhausted",
@@ -6644,7 +6782,13 @@
       "pol-adj-0269-wyczerpany"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "exhausted",
+      "comparative": "more exhausted",
+      "superlative": "the most exhausted",
+      "adverb": "exhaustedly"
+    }
   },
   {
     "lemma": "unhealthy",
@@ -6653,7 +6797,13 @@
       "pol-adj-0270-niezdrowy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "unhealthy",
+      "comparative": "unhealthier",
+      "superlative": "unhealthiest",
+      "adverb": "unhealthily"
+    }
   },
   {
     "lemma": "pleasant",
@@ -6668,6 +6818,12 @@
       "singleWordtype": true,
       "text": "quality",
       "emoji": "✅"
+    },
+    "inflections": {
+      "simple": "pleasant",
+      "comparative": "pleasanter",
+      "superlative": "pleasantest",
+      "adverb": "pleasantly"
     }
   },
   {
@@ -6682,6 +6838,12 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "simple": "pleasant",
+      "comparative": "pleasanter",
+      "superlative": "pleasantest",
+      "adverb": "pleasantly"
     }
   },
   {
@@ -6691,7 +6853,13 @@
       "pol-adj-0273-czerwony"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "red",
+      "comparative": "redder",
+      "superlative": "reddest",
+      "adverb": false
+    }
   },
   {
     "lemma": "average",
@@ -6705,6 +6873,12 @@
       "singleWordtype": true,
       "text": "mathematical",
       "emoji": "🧮"
+    },
+    "inflections": {
+      "simple": "average",
+      "comparative": "more average",
+      "superlative": "the most average",
+      "adverb": "averagely"
     }
   },
   {
@@ -6719,6 +6893,12 @@
       "singleWordtype": true,
       "text": "quality",
       "emoji": "✅"
+    },
+    "inflections": {
+      "simple": "average",
+      "comparative": "more average",
+      "superlative": "the most average",
+      "adverb": "averagely"
     }
   },
   {
@@ -6728,7 +6908,13 @@
       "pol-adj-0276-radosny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "joyful",
+      "comparative": "more joyful",
+      "superlative": "the most joyful",
+      "adverb": "joyfully"
+    }
   },
   {
     "lemma": "cheerful",
@@ -6737,7 +6923,13 @@
       "pol-adj-0276-radosny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "cheerful",
+      "comparative": "more cheerful",
+      "superlative": "the most cheerful",
+      "adverb": "cheerfully"
+    }
   },
   {
     "lemma": "colourful",
@@ -6750,7 +6942,13 @@
       "pol-adj-0416-barwny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "colourful",
+      "comparative": "more colourful",
+      "superlative": "the most colourful",
+      "adverb": "colourfully"
+    }
   },
   {
     "lemma": "brown",
@@ -6759,7 +6957,13 @@
       "pol-adj-0278-brązowy"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "brown",
+      "comparative": "browner",
+      "superlative": "brownest",
+      "adverb": false
+    }
   },
   {
     "lemma": "sticky",
@@ -6768,7 +6972,13 @@
       "pol-adj-0279-lepki"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "sticky",
+      "comparative": "stickier",
+      "superlative": "stickiest",
+      "adverb": "stickily"
+    }
   },
   {
     "lemma": "forbidden",
@@ -6777,7 +6987,13 @@
       "pol-adj-0280-zakazany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "forbidden",
+      "comparative": "more forbidden",
+      "superlative": "the most forbidden",
+      "adverb": false
+    }
   },
   {
     "lemma": "prohibited",
@@ -6786,7 +7002,13 @@
       "pol-adj-0280-zakazany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "prohibited",
+      "comparative": "more prohibited",
+      "superlative": "the most prohibited",
+      "adverb": false
+    }
   },
   {
     "lemma": "banned",
@@ -6795,7 +7017,13 @@
       "pol-adj-0280-zakazany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "banned",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "outlawed",
@@ -6804,7 +7032,13 @@
       "pol-adj-0280-zakazany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "outlawed",
+      "comparative": "more outlawed",
+      "superlative": "the most outlawed",
+      "adverb": false
+    }
   },
   {
     "lemma": "content",
@@ -6813,7 +7047,13 @@
       "pol-adj-0282-zadowolony"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "content",
+      "comparative": "more content",
+      "superlative": "the most content",
+      "adverb": "contently"
+    }
   },
   {
     "lemma": "satisfied",
@@ -6822,7 +7062,13 @@
       "pol-adj-0282-zadowolony"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "satisfied",
+      "comparative": "more satisfied",
+      "superlative": "the most satisfied",
+      "adverb": "satisfiedly"
+    }
   },
   {
     "lemma": "triangular",
@@ -6831,7 +7077,13 @@
       "pol-adj-0283-trójkątny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "triangular",
+      "comparative": "more triangular",
+      "superlative": "the most triangular",
+      "adverb": "triangularly"
+    }
   },
   {
     "lemma": "superb",
@@ -6840,7 +7092,13 @@
       "pol-adj-0284-znakomity"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "superb",
+      "comparative": "more superb",
+      "superlative": "the most superb",
+      "adverb": "superbly"
+    }
   },
   {
     "lemma": "tight-fitting",
@@ -6849,7 +7107,13 @@
       "pol-adj-0285-obcisły"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "tight-fitting",
+      "comparative": "more tight-fitting",
+      "superlative": "the most tight-fitting",
+      "adverb": false
+    }
   },
   {
     "lemma": "lazy",
@@ -6858,7 +7122,13 @@
       "pol-adj-0286-leniwy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "lazy",
+      "comparative": "lazier",
+      "superlative": "laziest",
+      "adverb": "lazily"
+    }
   },
   {
     "lemma": "strange",
@@ -6867,7 +7137,13 @@
       "pol-adj-0287-dziwny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "strange",
+      "comparative": "stranger",
+      "superlative": "strangest",
+      "adverb": "strangely"
+    }
   },
   {
     "lemma": "odd",
@@ -6876,7 +7152,13 @@
       "pol-adj-0287-dziwny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "odd",
+      "comparative": "odder",
+      "superlative": "oddest",
+      "adverb": "oddly"
+    }
   },
   {
     "lemma": "healthy",
@@ -6885,7 +7167,13 @@
       "pol-adj-0288-zdrowy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "healthy",
+      "comparative": "healthier",
+      "superlative": "healthiest",
+      "adverb": "healthily"
+    }
   },
   {
     "lemma": "independent",
@@ -6894,7 +7182,13 @@
       "pol-adj-0289-niezależny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "independent",
+      "comparative": "more independent",
+      "superlative": "the most independent",
+      "adverb": "independently"
+    }
   },
   {
     "lemma": "disgusting",
@@ -6904,7 +7198,13 @@
       "pol-adj-0705-ohydny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "disgusting",
+      "comparative": "more disgusting",
+      "superlative": "the most disgusting",
+      "adverb": "disgustingly"
+    }
   },
   {
     "lemma": "repulsive",

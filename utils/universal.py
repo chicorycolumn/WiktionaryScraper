@@ -239,13 +239,15 @@ def replace_char_at_index(s, index, new_char):
 
 def progress_bar(index, total, use_emojis: bool = False):
     height = 50
-    emojis = '🎷🌇🏐🏔🎵🏈🎣🏀🎼🎁🏰️💃🌃🎃🌋🥋🎺🎂🏜🪅🏸🎹🎊🎳⚽🕺🏝🎈🎻🎸🎋🥅🎄🏏🎏🏕🥊🎆🗻🏉🎾🥌🎿🏓⛸🎅🎶🥎🏖'
+    emojis_1 = '🎷🌇🏐🏔🎵🏈🎣🏀🎼🎁🏰️💃🌃🎃🌋🥋🎺🎂🏜🪅🏸🎹🎊🎳⚽🕺🏝🎈🎻🎸🎋🥅🎄🏏🎏🏕🥊🎆🗻🏉🎾🥌🎿🏓⛸🎅🎶🥎🏖'
+    emojis_2 = "🍓👹💃🍊🐯🎃🦁🐈⭐🌻🌝🐝🍌🐠🍋🧀🌽🍀🌲🌴🐍🐢🌱🥑🦖🫑🎋🥶🧢🐬🚙🐳👖🌀📘🙆‍♀️💟😈🍆👾🍇💜"
+
 
     if use_emojis:
-        height = len(emojis)
+        height = len(emojis_2)
         progress = floor((index / total) * height)
-        emoji_string = emojis[0:progress]
-        print(f'[{emoji_string}{"-" * (height - progress)}]')
+        emoji_string = emojis_2[0:progress]
+        print(f'[{emoji_string}{("-" if not use_emojis else "--") * (height - progress)}]')
         if (len(emoji_string)):
             print(("   " + emoji_string[-1]) * 5)
     else:
