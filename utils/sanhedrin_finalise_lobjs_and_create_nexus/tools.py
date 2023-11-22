@@ -927,14 +927,14 @@ def get_inflections_eng_ver(lemma, manually_entered_inflections: [str] = None, r
     user_input = input('Enter YES\nAny   NO\nd     to double final consonant\nOr type in manually and press enter\n: ')
 
     if not user_input or user_input == 'y':
-        return {
+        return [{
             "infinitive": lemma,
             "verbal": {},
             "v2": split_if_slash(v2),
             "v3": split_if_slash(v3),
             "thirdPS": split_if_slash(thirdPS),
             "gerund": split_if_slash(gerund)
-        }
+        }, False]
 
     if len(user_input) == 1:
         if user_input == 'd':
@@ -959,6 +959,7 @@ def get_inflections_eng_nou(
         manually_entered_inflections: [str] = None,
         reconfirming: bool = False,
         keep_terminal_y: bool = False,
+        flag: bool = False,
 ):
     def restart():
         return get_inflections_eng_nou(lemma)
@@ -979,8 +980,12 @@ def get_inflections_eng_nou(
     print("")
     user_input = input('Enter for YES / Any for NO\nq     Keep terminal y\nw     Plural same as singular\ns     Tantum singulare\np     Tantum plurale\nOr type in irregular plural eg "men" and press Enter\n: ')
 
+    if user_input and user_input[0] == 'x':
+        flag = '🚩'
+        user_input = user_input[1:]
+
     if not user_input or user_input == 'y':
-        return {
+        return [{
             "singular": {
                 "nom": lemma,
                 "gen": split_if_slash(sing_gen)
@@ -989,7 +994,7 @@ def get_inflections_eng_nou(
                 "nom": split_if_slash(plur_nom),
                 "gen": split_if_slash(plur_gen)
             }
-        }
+        }, flag]
 
     if user_input == 's':
         inflections = {
@@ -1003,7 +1008,7 @@ def get_inflections_eng_nou(
 
         print_inflections(inflections)
 
-        return inflections
+        return [inflections, flag]
 
     if user_input == 'p':
         inflections = {
@@ -1017,16 +1022,16 @@ def get_inflections_eng_nou(
 
         print_inflections(inflections)
 
-        return inflections
+        return [inflections, flag]
 
     if user_input == 'q':
-        return get_inflections_eng_nou(lemma, None, True, True)
+        return get_inflections_eng_nou(lemma, None, True, True, flag=flag)
 
     if user_input == 'w':
         plur_nom = lemma
         sing_gen = lemma + "'s"
         plur_gen = sing_gen
-        return get_inflections_eng_nou(lemma, [plur_nom, sing_gen, plur_gen], True)
+        return get_inflections_eng_nou(lemma, [plur_nom, sing_gen, plur_gen], True, flag=flag)
 
     if len(user_input) == 1:
         return restart()
@@ -1044,7 +1049,7 @@ def get_inflections_eng_nou(
         else:
             plur_gen = plur_nom + "'s"
 
-        return get_inflections_eng_nou(lemma, [plur_nom, sing_gen, plur_gen], True)
+        return get_inflections_eng_nou(lemma, [plur_nom, sing_gen, plur_gen], True, flag=flag)
 
 
 def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, reconfirming: bool = False):
@@ -1067,7 +1072,6 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
         if lemma.endswith('ic'):
             adverb = replace_char_at_index(adverb, -3, 'cal')
 
-
     print("")
     print_function = c.print_blue if reconfirming else c.print_bold
     print_function(compar if compar else '(none)')
@@ -1081,13 +1085,12 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
     user_input = input('Enter for YES / Any for NO / Or type in manually and press Enter\na     "more" and "most" plus adverb\ns     "more" and "most" but NO adverb\nd     double final consonant\nf     NO adverb\ng     NO ANYTHING\nh     adverb ONLY\n: ')
 
     if not user_input or user_input == 'y':
-        return {
+        return [{
             "simple": lemma,
             "comparative": split_if_slash(compar),
             "superlative": split_if_slash(superl),
             "adverb": split_if_slash(adverb)
-        }
-
+        }, False]
 
     if user_input == 'f':
         return get_inflections_eng_adj(lemma, [compar, superl, False], True)

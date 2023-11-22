@@ -170,9 +170,14 @@ It uses additionalSpellings that you manually type into this stage.
                                         Create inflection data for TGT.
 
 
-5A) Run "S17_create_inflection_data_eng.py"
-    - to create the inflection data for English TGT lobjs
-    Modifies "nou_batch_01_tgt.json"
+5Ai)  Run "S17_create_inflection_data_eng.py"
+      - to create the inflection data for English TGT lobjs
+      Modifies "nou_batch_01_tgt.json"
+
+
+
+5Aii) Search for 'swde' and '🚩' and resolve those manually added flags.
+      Modifies "nou_batch_01_tgt.json"
 
 
 

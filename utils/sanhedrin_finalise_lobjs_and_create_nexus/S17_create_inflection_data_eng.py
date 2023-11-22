@@ -42,7 +42,14 @@ if __name__ == '__main__':
         print('')
         print(f"{index + 1}/{len(tgt_lobjs)}", tgt_lobj['id'][8:])
         if not tgt_lobj.get('inflections'):
-            tgt_lobj['inflections'] = get_inflections(tgt_lobj["lemma"])
+            inflections, flag = get_inflections(tgt_lobj["lemma"])
+
+            tgt_lobj['inflections'] = inflections
+
+            if flag:
+                c.print_bold('ADDED FLAG TO THIS LOBJ')
+                print(flag, flag, flag)
+                tgt_lobj['id'] = tgt_lobj['id'] + flag
 
             if index % 5 == 0:
                 save(tgt_lobjs, True)
