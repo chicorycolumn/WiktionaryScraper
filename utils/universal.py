@@ -256,4 +256,4 @@ def progress_bar(index, total, use_emojis: bool = False):
 
 
 def split_if_slash(s):
-    return s.split('/') if '/' in s else s
+    return s.split('/') if (type(s) is str and '/' in s) else s
