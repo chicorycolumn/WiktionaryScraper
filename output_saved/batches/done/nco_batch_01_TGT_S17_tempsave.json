@@ -7742,7 +7742,17 @@
       "pol-nco-0311-cytryna"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "lemon",
+        "gen": "lemon's"
+      },
+      "plural": {
+        "nom": "lemons",
+        "gen": "lemons'"
+      }
+    }
   },
   {
     "lemma": "council",
@@ -7751,16 +7761,36 @@
       "pol-nco-0312-rada(council)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "council",
+        "gen": "council's"
+      },
+      "plural": {
+        "nom": "councils",
+        "gen": "councils'"
+      }
+    }
   },
   {
     "lemma": "advice",
-    "id": "eng-nco-0397-advice",
+    "id": "eng-nco-0397-advice🚩",
     "»trans": [
       "pol-nco-0313-rada(advice)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "advice",
+        "gen": "advice's"
+      },
+      "plural": {
+        "nom": "piece of advice",
+        "gen": "piece of advice's"
+      }
+    }
   },
   {
     "lemma": "bowl",
@@ -7769,7 +7799,17 @@
       "pol-nco-0314-miska"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "bowl",
+        "gen": "bowl's"
+      },
+      "plural": {
+        "nom": "bowls",
+        "gen": "bowls'"
+      }
+    }
   },
   {
     "lemma": "potato",
@@ -7779,7 +7819,17 @@
       "pol-nco-0618-kartofel"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "potato",
+        "gen": "potato's"
+      },
+      "plural": {
+        "nom": "potatoes",
+        "gen": "potatoes'"
+      }
+    }
   },
   {
     "lemma": "motorcycle",
@@ -7788,7 +7838,17 @@
       "pol-nco-0316-motocykl"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "motorcycle",
+        "gen": "motorcycle's"
+      },
+      "plural": {
+        "nom": "motorcycles",
+        "gen": "motorcycles'"
+      }
+    }
   },
   {
     "lemma": "lead",
@@ -7802,6 +7862,14 @@
       "singleWordtype": true,
       "text": "chemical",
       "emoji": "🧪"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "lead",
+        "gen": "lead's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
     }
   },
   {
@@ -7816,6 +7884,16 @@
       "singleWordtype": true,
       "text": "animal",
       "emoji": "🐕"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "lead",
+        "gen": "lead's"
+      },
+      "plural": {
+        "nom": "leads",
+        "gen": "leads'"
+      }
     }
   },
   {
@@ -7830,6 +7908,16 @@
       "singleWordtype": true,
       "text": "nature",
       "emoji": "🌳️"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "plant",
+        "gen": "plant's"
+      },
+      "plural": {
+        "nom": "plants",
+        "gen": "plants'"
+      }
     }
   },
   {
@@ -7845,6 +7933,16 @@
       "singleWordtype": true,
       "text": "location",
       "emoji": "📍"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "plant",
+        "gen": "plant's"
+      },
+      "plural": {
+        "nom": "plants",
+        "gen": "plants'"
+      }
     }
   },
   {
@@ -7854,7 +7952,17 @@
       "pol-nco-0319-smycz"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "leash",
+        "gen": "leash's"
+      },
+      "plural": {
+        "nom": "leashes",
+        "gen": "leashes'"
+      }
+    }
   },
   {
     "lemma": "sword",
@@ -7863,7 +7971,17 @@
       "pol-nco-0320-miecz"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "sword",
+        "gen": "sword's"
+      },
+      "plural": {
+        "nom": "swords",
+        "gen": "swords'"
+      }
+    }
   },
   {
     "lemma": "crab",
@@ -7872,7 +7990,17 @@
       "pol-nco-0321-krab"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "crab",
+        "gen": "crab's"
+      },
+      "plural": {
+        "nom": "crabs",
+        "gen": "crabs'"
+      }
+    }
   },
   {
     "lemma": "stroke",
@@ -7881,7 +8009,17 @@
       "pol-nco-0322-udar"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "singular": {
+        "nom": "stroke",
+        "gen": "stroke's"
+      },
+      "plural": {
+        "nom": "strokes",
+        "gen": "strokes'"
+      }
+    }
   },
   {
     "lemma": "cold",
@@ -7895,6 +8033,14 @@
       "singleWordtype": true,
       "text": "temperature",
       "emoji": "🌡️"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "cold",
+        "gen": "cold's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
     }
   },
   {
@@ -7909,6 +8055,16 @@
       "singleWordtype": true,
       "text": "medical",
       "emoji": "🩺"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "cold",
+        "gen": "cold's"
+      },
+      "plural": {
+        "nom": "colds",
+        "gen": "colds'"
+      }
     }
   },
   {
@@ -7918,7 +8074,15 @@
       "pol-nco-0323-zimno"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "coldness",
+        "gen": "coldness's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "smoke",
@@ -7927,7 +8091,15 @@
       "pol-nco-0324-dym"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "smoke",
+        "gen": "smoke's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   },
   {
     "lemma": "wood",
@@ -7936,7 +8108,17 @@
       "pol-nco-0325-drewno"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "wood",
+        "gen": "wood's"
+      },
+      "plural": {
+        "nom": "woods",
+        "gen": "woods'"
+      }
+    }
   },
   {
     "lemma": "fear",
@@ -7945,7 +8127,17 @@
       "pol-nco-0326-strach"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "fear",
+        "gen": "fear's"
+      },
+      "plural": {
+        "nom": "fears",
+        "gen": "fears'"
+      }
+    }
   },
   {
     "lemma": "fever",
