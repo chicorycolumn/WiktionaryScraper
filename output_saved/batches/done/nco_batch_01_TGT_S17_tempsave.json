@@ -7071,7 +7071,17 @@
       "pol-nco-0280-nazwisko"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "last name",
+        "gen": "last name's"
+      },
+      "plural": {
+        "nom": "last names",
+        "gen": "last names'"
+      }
+    }
   },
   {
     "lemma": "family name",
@@ -7080,7 +7090,17 @@
       "pol-nco-0280-nazwisko"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "family name",
+        "gen": "family name's"
+      },
+      "plural": {
+        "nom": "family names",
+        "gen": "family names'"
+      }
+    }
   },
   {
     "lemma": "shit",
@@ -7089,7 +7109,17 @@
       "pol-nco-0282-gówno"
     ],
     "register": 8,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "shit",
+        "gen": "shit's"
+      },
+      "plural": {
+        "nom": "shits",
+        "gen": "shits'"
+      }
+    }
   },
   {
     "lemma": "piece of shit",
@@ -7098,7 +7128,17 @@
       "pol-nco-0282-gówno"
     ],
     "register": 8,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "piece of shit",
+        "gen": "piece of shit's"
+      },
+      "plural": {
+        "nom": "pieces of shit",
+        "gen": "pieces of shit's"
+      }
+    }
   },
   {
     "lemma": "celery",
@@ -7107,7 +7147,17 @@
       "pol-nco-0283-seler"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "celery",
+        "gen": "celery's"
+      },
+      "plural": {
+        "nom": "celeries",
+        "gen": "celeries'"
+      }
+    }
   },
   {
     "lemma": "celeriac",
@@ -7116,7 +7166,17 @@
       "pol-nco-0283-seler"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "celeriac",
+        "gen": "celeriac's"
+      },
+      "plural": {
+        "nom": "celeriacs",
+        "gen": "celeriacs'"
+      }
+    }
   },
   {
     "lemma": "bed",
@@ -7125,7 +7185,17 @@
       "pol-nco-0284-łóżko"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "bed",
+        "gen": "bed's"
+      },
+      "plural": {
+        "nom": "beds",
+        "gen": "beds'"
+      }
+    }
   },
   {
     "lemma": "sound",
@@ -7134,7 +7204,17 @@
       "pol-nco-0285-dźwięk"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "sound",
+        "gen": "sound's"
+      },
+      "plural": {
+        "nom": "sounds",
+        "gen": "sounds'"
+      }
+    }
   },
   {
     "lemma": "hand",
@@ -7143,7 +7223,17 @@
       "pol-nco-0286-ręka(hand)"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "hand",
+        "gen": "hand's"
+      },
+      "plural": {
+        "nom": "hands",
+        "gen": "hands'"
+      }
+    }
   },
   {
     "lemma": "arm",
@@ -7153,7 +7243,17 @@
       "pol-nco-0386-ramię"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "arm",
+        "gen": "arm's"
+      },
+      "plural": {
+        "nom": "arms",
+        "gen": "arms'"
+      }
+    }
   },
   {
     "lemma": "camel",
@@ -7162,7 +7262,17 @@
       "pol-nco-0288-wielbłąd"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "camel",
+        "gen": "camel's"
+      },
+      "plural": {
+        "nom": "camels",
+        "gen": "camels'"
+      }
+    }
   },
   {
     "lemma": "apple",
@@ -7171,7 +7281,17 @@
       "pol-nco-0289-jabłko"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "apple",
+        "gen": "apple's"
+      },
+      "plural": {
+        "nom": "apples",
+        "gen": "apples'"
+      }
+    }
   },
   {
     "lemma": "end",
@@ -7180,7 +7300,17 @@
       "pol-nco-0290-koniec"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "end",
+        "gen": "end's"
+      },
+      "plural": {
+        "nom": "ends",
+        "gen": "ends'"
+      }
+    }
   },
   {
     "lemma": "flea",
@@ -7189,7 +7319,17 @@
       "pol-nco-0291-pchła"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "flea",
+        "gen": "flea's"
+      },
+      "plural": {
+        "nom": "fleas",
+        "gen": "fleas'"
+      }
+    }
   },
   {
     "lemma": "penny",
@@ -7198,7 +7338,17 @@
       "pol-nco-0292-grosz"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "penny",
+        "gen": "penny's"
+      },
+      "plural": {
+        "nom": "pennies",
+        "gen": "pennies'"
+      }
+    }
   },
   {
     "lemma": "sky",
@@ -7207,7 +7357,17 @@
       "pol-nco-0293-niebo(sky)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "sky",
+        "gen": "sky's"
+      },
+      "plural": {
+        "nom": "skies",
+        "gen": "skies'"
+      }
+    }
   },
   {
     "lemma": "train",
@@ -7216,7 +7376,17 @@
       "pol-nco-0295-pociąg"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "train",
+        "gen": "train's"
+      },
+      "plural": {
+        "nom": "trains",
+        "gen": "trains'"
+      }
+    }
   },
   {
     "lemma": "lunch",
@@ -7225,7 +7395,17 @@
       "pol-nco-0296-obiad"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "lunch",
+        "gen": "lunch's"
+      },
+      "plural": {
+        "nom": "lunches",
+        "gen": "lunches'"
+      }
+    }
   },
   {
     "lemma": "herring",
@@ -7234,7 +7414,17 @@
       "pol-nco-0297-śledź"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "herring",
+        "gen": "herring's"
+      },
+      "plural": {
+        "nom": "herrings",
+        "gen": "herrings'"
+      }
+    }
   },
   {
     "lemma": "metre",
@@ -7246,7 +7436,17 @@
     "frequency": 3,
     "additionalSpellings": [
       "meter"
-    ]
+    ],
+    "inflections": {
+      "singular": {
+        "nom": "metre",
+        "gen": "metre's"
+      },
+      "plural": {
+        "nom": "metres",
+        "gen": "metres'"
+      }
+    }
   },
   {
     "lemma": "lettuce",
@@ -7255,7 +7455,17 @@
       "pol-nco-0299-sałata"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "lettuce",
+        "gen": "lettuce's"
+      },
+      "plural": {
+        "nom": "lettuces",
+        "gen": "lettuces'"
+      }
+    }
   },
   {
     "lemma": "pumpkin",
@@ -7264,7 +7474,17 @@
       "pol-nco-0300-dynia"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "pumpkin",
+        "gen": "pumpkin's"
+      },
+      "plural": {
+        "nom": "pumpkins",
+        "gen": "pumpkins'"
+      }
+    }
   },
   {
     "lemma": "balloon",
@@ -7273,7 +7493,17 @@
       "pol-nco-0301-balon"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "balloon",
+        "gen": "balloon's"
+      },
+      "plural": {
+        "nom": "balloons",
+        "gen": "balloons'"
+      }
+    }
   },
   {
     "lemma": "word",
@@ -7282,7 +7512,17 @@
       "pol-nco-0302-słowo"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "word",
+        "gen": "word's"
+      },
+      "plural": {
+        "nom": "words",
+        "gen": "words'"
+      }
+    }
   },
   {
     "lemma": "moth",
@@ -7291,16 +7531,36 @@
       "pol-nco-0303-ćma"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "moth",
+        "gen": "moth's"
+      },
+      "plural": {
+        "nom": "moths",
+        "gen": "moths'"
+      }
+    }
   },
   {
     "lemma": "air",
-    "id": "eng-nco-0386-air",
+    "id": "eng-nco-0386-air🚩",
     "»trans": [
       "pol-nco-0304-powietrze"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "air",
+        "gen": "air's"
+      },
+      "plural": {
+        "nom": "airs",
+        "gen": "airs'"
+      }
+    }
   },
   {
     "lemma": "queen",
@@ -7309,7 +7569,17 @@
       "pol-nco-0305-królowa"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "queen",
+        "gen": "queen's"
+      },
+      "plural": {
+        "nom": "queens",
+        "gen": "queens'"
+      }
+    }
   },
   {
     "lemma": "chicken",
@@ -7318,13 +7588,33 @@
       "pol-nco-0306-kurczak"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "chicken",
+        "gen": "chicken's"
+      },
+      "plural": {
+        "nom": "chickens",
+        "gen": "chickens'"
+      }
+    }
   },
   {
     "lemma": "chick",
     "id": "eng-nco-8888-chick(bird)",
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "singular": {
+        "nom": "chick",
+        "gen": "chick's"
+      },
+      "plural": {
+        "nom": "chicks",
+        "gen": "chicks'"
+      }
+    }
   },
   {
     "lemma": "axe",
@@ -7337,7 +7627,17 @@
     "frequency": 4,
     "additionalSpellings": [
       "ax"
-    ]
+    ],
+    "inflections": {
+      "singular": {
+        "nom": "axe",
+        "gen": "axe's"
+      },
+      "plural": {
+        "nom": "axes",
+        "gen": "axes'"
+      }
+    }
   },
   {
     "lemma": "aeroplane",
@@ -7346,7 +7646,17 @@
       "pol-nco-0308-samolot"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "aeroplane",
+        "gen": "aeroplane's"
+      },
+      "plural": {
+        "nom": "aeroplanes",
+        "gen": "aeroplanes'"
+      }
+    }
   },
   {
     "lemma": "airplane",
@@ -7355,7 +7665,17 @@
       "pol-nco-0308-samolot"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "airplane",
+        "gen": "airplane's"
+      },
+      "plural": {
+        "nom": "airplanes",
+        "gen": "airplanes'"
+      }
+    }
   },
   {
     "lemma": "plane",
@@ -7364,16 +7684,36 @@
       "pol-nco-0308-samolot"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "plane",
+        "gen": "plane's"
+      },
+      "plural": {
+        "nom": "planes",
+        "gen": "planes'"
+      }
+    }
   },
   {
     "lemma": "beer",
-    "id": "eng-nco-0393-beer",
+    "id": "eng-nco-0393-beer🚩",
     "»trans": [
       "pol-nco-0309-piwo"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "beer",
+        "gen": "beer's"
+      },
+      "plural": {
+        "nom": "beers",
+        "gen": "beers'"
+      }
+    }
   },
   {
     "lemma": "head",
@@ -7383,7 +7723,17 @@
       "pol-nco-0995-łeb"
     ],
     "register": 6,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "head",
+        "gen": "head's"
+      },
+      "plural": {
+        "nom": "heads",
+        "gen": "heads'"
+      }
+    }
   },
   {
     "lemma": "lemon",
