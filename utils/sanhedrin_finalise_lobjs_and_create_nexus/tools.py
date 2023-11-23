@@ -1082,7 +1082,7 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
     else:
         print("")
 
-    user_input = input('Enter for YES / Any for NO / Or type in manually and press Enter\na     "more" and "most" plus adverb\ns     "more" and "most" but NO adverb\nd     double final consonant\nf     NO adverb\ng     NO ANYTHING\nh     adverb ONLY\n: ')
+    user_input = input('Enter for YES / Any for NO / Or type in manually and press Enter\na     "more" and "most" plus adverb\ns     "more" and "most" but NO adverb\nd     double final consonant\nf     NO adverb\ng     adverb ONLY\nx     NO ANYTHING\n: ')
 
     if not user_input or user_input == 'y':
         return [{
@@ -1094,7 +1094,7 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
 
     if user_input == 'f':
         return get_inflections_eng_adj(lemma, [compar, superl, False], True)
-    if user_input == 'h':
+    if user_input == 'g':
         return get_inflections_eng_adj(lemma, [False, False, adverb], True)
     if user_input == 'd':
         compar = compar[0:-2] + compar[-3] + compar[-2:]
@@ -1104,7 +1104,7 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
         return get_inflections_eng_adj(lemma, [f'more {lemma}', f'the most {lemma}', False], True)
     if user_input == 'a':
         return get_inflections_eng_adj(lemma, [f'more {lemma}', f'the most {lemma}', adverb], True)
-    if user_input in ['no', 'g']:
+    if user_input in ['no', 'x']:
         return get_inflections_eng_adj(lemma, [False, False, False], True)
 
     if len(user_input) == 1:
