@@ -63,7 +63,7 @@
   },
   {
     "lemma": "glass",
-    "id": "eng-nco-0004-glass(material)🚩",,
+    "id": "eng-nco-0004-glass(material)🚩",
     "»trans": [
       "pol-nco-0465-szkło"
     ],
@@ -6957,7 +6957,17 @@
       "pol-nco-0276-dokument"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "document",
+        "gen": "document's"
+      },
+      "plural": {
+        "nom": "documents",
+        "gen": "documents'"
+      }
+    }
   },
   {
     "lemma": "hive",
@@ -6966,7 +6976,17 @@
       "pol-nco-0277-ul"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "singular": {
+        "nom": "hive",
+        "gen": "hive's"
+      },
+      "plural": {
+        "nom": "hives",
+        "gen": "hives'"
+      }
+    }
   },
   {
     "lemma": "beehive",
@@ -6975,7 +6995,17 @@
       "pol-nco-0277-ul"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "singular": {
+        "nom": "beehive",
+        "gen": "beehive's"
+      },
+      "plural": {
+        "nom": "beehives",
+        "gen": "beehives'"
+      }
+    }
   },
   {
     "lemma": "blackbird",
@@ -6984,7 +7014,17 @@
       "pol-nco-0278-kos"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "blackbird",
+        "gen": "blackbird's"
+      },
+      "plural": {
+        "nom": "blackbirds",
+        "gen": "blackbirds'"
+      }
+    }
   },
   {
     "lemma": "April",
@@ -6993,7 +7033,17 @@
       "pol-nco-0279-kwiecień"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "April",
+        "gen": "April's"
+      },
+      "plural": {
+        "nom": "Aprils",
+        "gen": "Aprils'"
+      }
+    }
   },
   {
     "lemma": "surname",
@@ -7002,7 +7052,17 @@
       "pol-nco-0280-nazwisko"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "surname",
+        "gen": "surname's"
+      },
+      "plural": {
+        "nom": "surnames",
+        "gen": "surnames'"
+      }
+    }
   },
   {
     "lemma": "last name",

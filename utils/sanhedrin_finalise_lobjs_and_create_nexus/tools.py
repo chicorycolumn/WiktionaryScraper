@@ -945,7 +945,7 @@ def get_inflections_eng_ver(lemma, manually_entered_inflections: [str] = None, r
         return restart()
 
     else:
-        split = user_input.split(" ")
+        split = user_input.split(",")
         if len(split) != 4 or any(len(s) < 2 for s in split):
             c.print_red("You must type four strings: v2, v3, thirdPS, gerund")
             return restart()
@@ -1037,7 +1037,7 @@ def get_inflections_eng_nou(
         return restart()
 
     else:
-        if len(user_input) < 2 or " " in user_input:
+        if len(user_input) < 2 or "," in user_input:
             c.print_red("You must type one string: nominative plural")
             return restart()
 
@@ -1111,7 +1111,7 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
         return restart()
 
     else:
-        split = user_input.split(" ")
+        split = user_input.split(",")
 
         if len(split) != 3 or any(len(s) < 2 for s in split):
             c.print_red("You must type three strings: comparative, superlative, adverb. Type 'no' for any if none.")
