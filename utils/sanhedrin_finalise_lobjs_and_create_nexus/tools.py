@@ -1044,10 +1044,18 @@ def get_inflections_eng_nou(
         plur_nom = user_input
         sing_gen = lemma + "'s"
 
-        if plur_nom.endswith('s'):
-            plur_gen = plur_nom + "'"
+        if type(plur_nom) is str:
+            if '/' in plur_nom:
+                plur_nom = plur_nom.split('/')
+            else:
+                plur_nom = [plur_nom]
         else:
-            plur_gen = plur_nom + "'s"
+            plur_nom = plur_nom.split('/')
+
+        if plur_nom[0].endswith('s'):
+            plur_gen = [plur_nom_str + "'" for plur_nom_str in plur_nom]
+        else:
+            plur_gen = [plur_nom_str + "'s" for plur_nom_str in plur_nom]
 
         return get_inflections_eng_nou(lemma, [plur_nom, sing_gen, plur_gen], True, flag=flag)
 
