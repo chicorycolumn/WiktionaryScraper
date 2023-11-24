@@ -12653,7 +12653,13 @@
       "pol-adj-0563-intensywny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "intensive",
+      "comparative": "more intensive",
+      "superlative": "the most intensive",
+      "adverb": "intensively"
+    }
   },
   {
     "lemma": "mild",
@@ -12662,7 +12668,13 @@
       "pol-adj-0564-łagodny(mild)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "mild",
+      "comparative": "milder",
+      "superlative": "mildest",
+      "adverb": "mildly"
+    }
   },
   {
     "lemma": "benign",
@@ -12671,7 +12683,13 @@
       "pol-adj-0565-łagodny(benign)"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "benign",
+      "comparative": "more benign",
+      "superlative": "the most benign",
+      "adverb": "benignly"
+    }
   },
   {
     "lemma": "subtle",
@@ -12680,7 +12698,13 @@
       "pol-adj-0566-subtelny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "subtle",
+      "comparative": "subtler",
+      "superlative": "subtlest",
+      "adverb": "subtly"
+    }
   },
   {
     "lemma": "veritable",
@@ -12689,7 +12713,13 @@
       "pol-adj-0567-istny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "veritable",
+      "comparative": "more veritable",
+      "superlative": "the most veritable",
+      "adverb": "veritably"
+    }
   },
   {
     "lemma": "two year old",
@@ -12698,7 +12728,13 @@
       "pol-adj-0568-dwuletni"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "two year old",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "mental",
@@ -12708,7 +12744,13 @@
       "pol-adj-0768-psychiczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "mental",
+      "comparative": "more mental",
+      "superlative": "the most mental",
+      "adverb": "mentally"
+    }
   },
   {
     "lemma": "intellectual",
@@ -12717,7 +12759,13 @@
       "pol-adj-0569-umysłowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "intellectual",
+      "comparative": "more intellectual",
+      "superlative": "the most intellectual",
+      "adverb": "intellectually"
+    }
   },
   {
     "lemma": "advantageous",
@@ -12726,7 +12774,13 @@
       "pol-adj-0570-korzystny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "advantageous",
+      "comparative": "more advantageous",
+      "superlative": "the most advantageous",
+      "adverb": "advantageously"
+    }
   },
   {
     "lemma": "beneficial",
@@ -12736,7 +12790,13 @@
       "pol-adj-0718-pożyteczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "beneficial",
+      "comparative": "more beneficial",
+      "superlative": "the most beneficial",
+      "adverb": "beneficially"
+    }
   },
   {
     "lemma": "classic",
@@ -12745,7 +12805,13 @@
       "pol-adj-0572-klasyczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "classic",
+      "comparative": "more classic",
+      "superlative": "the most classic",
+      "adverb": "classically"
+    }
   },
   {
     "lemma": "classical",
@@ -12754,7 +12820,13 @@
       "pol-adj-0572-klasyczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "classical",
+      "comparative": "more classical",
+      "superlative": "the most classical",
+      "adverb": "classically"
+    }
   },
   {
     "lemma": "competitive",
@@ -12763,7 +12835,13 @@
       "pol-adj-0573-konkurencyjny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "competitive",
+      "comparative": "more competitive",
+      "superlative": "the most competitive",
+      "adverb": "competitively"
+    }
   },
   {
     "lemma": "cosmic",
@@ -12772,7 +12850,13 @@
       "pol-adj-0574-kosmiczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "cosmic",
+      "comparative": "more cosmic",
+      "superlative": "the most cosmic",
+      "adverb": "cosmically"
+    }
   },
   {
     "lemma": "building",
@@ -12781,7 +12865,13 @@
       "pol-adj-0575-budowlany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "building",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "construction",
@@ -12790,7 +12880,13 @@
       "pol-adj-0575-budowlany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "construction",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "combat",
@@ -12799,7 +12895,13 @@
       "pol-adj-0576-bojowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "combat",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "battle",
@@ -12808,7 +12910,13 @@
       "pol-adj-0576-bojowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "battle",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "erotic",
@@ -12817,7 +12925,13 @@
       "pol-adj-0577-erotyczny"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "erotic",
+      "comparative": "more erotic",
+      "superlative": "the most erotic",
+      "adverb": "erotically"
+    }
   },
   {
     "lemma": "trade",
@@ -12826,7 +12940,13 @@
       "pol-adj-0578-handlowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "trade",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "royal",
@@ -12835,7 +12955,13 @@
       "pol-adj-0579-królewski"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "royal",
+      "comparative": false,
+      "superlative": false,
+      "adverb": "royally"
+    }
   },
   {
     "lemma": "stone",
@@ -12844,7 +12970,13 @@
       "pol-adj-0580-kamienny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "stone",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "nuclear",
@@ -12854,7 +12986,13 @@
       "pol-adj-0680-nuklearny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "nuclear",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "atomic",
@@ -12863,7 +13001,13 @@
       "pol-adj-0582-atomowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "atomic",
+      "comparative": false,
+      "superlative": false,
+      "adverb": "atomically"
+    }
   },
   {
     "lemma": "Japanese",
@@ -12872,7 +13016,13 @@
       "pol-adj-0583-japoński"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "Japanese",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "silk",
@@ -12881,7 +13031,13 @@
       "pol-adj-0584-jedwabny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "silk",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "silken",
@@ -12890,7 +13046,13 @@
       "pol-adj-0584-jedwabny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "silken",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "Spanish",
@@ -12899,7 +13061,13 @@
       "pol-adj-0586-hiszpański"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "Spanish",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "conservative",
@@ -12908,7 +13076,13 @@
       "pol-adj-0588-konserwatywny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "conservative",
+      "comparative": "more conservative",
+      "superlative": "the most conservative",
+      "adverb": "conservatively"
+    }
   },
   {
     "lemma": "autumn",
@@ -12917,7 +13091,13 @@
       "pol-adj-0590-jesienny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "autumn",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "autumnal",
@@ -12926,7 +13106,13 @@
       "pol-adj-0590-jesienny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "autumnal",
+      "comparative": "more autumnal",
+      "superlative": "the most autumnal",
+      "adverb": "autumnally"
+    }
   },
   {
     "lemma": "garish",
@@ -12935,7 +13121,13 @@
       "pol-adj-0591-jaskrawy"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "garish",
+      "comparative": "more garish",
+      "superlative": "the most garish",
+      "adverb": "garishly"
+    }
   },
   {
     "lemma": "rubber",
@@ -12944,7 +13136,13 @@
       "pol-adj-0592-gumowy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "rubber",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "rubbery",
@@ -12953,7 +13151,13 @@
       "pol-adj-0592-gumowy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "rubbery",
+      "comparative": "rubberier",
+      "superlative": "rubberiest",
+      "adverb": "rubberily"
+    }
   },
   {
     "lemma": "gum",
@@ -12962,7 +13166,13 @@
       "pol-adj-0592-gumowy"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "gum",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "Irish",
@@ -12971,7 +13181,13 @@
       "pol-adj-0593-irlandzki"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "Irish",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "Israeli",
@@ -12980,7 +13196,13 @@
       "pol-adj-0594-izraelski"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "Israeli",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "logical",
@@ -12989,7 +13211,13 @@
       "pol-adj-0595-logiczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "logical",
+      "comparative": "more logical",
+      "superlative": "the most logical",
+      "adverb": "logically"
+    }
   },
   {
     "lemma": "metal",
@@ -12998,7 +13226,13 @@
       "pol-adj-0596-metalowy"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "metal",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "criminal",
@@ -13008,7 +13242,13 @@
       "pol-adj-0598-przestępczy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "criminal",
+      "comparative": "more criminal",
+      "superlative": "the most criminal",
+      "adverb": "criminally"
+    }
   },
   {
     "lemma": "monthly",
@@ -13017,7 +13257,13 @@
       "pol-adj-0599-miesięczny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "monthly",
+      "comparative": "more monthly",
+      "superlative": "the most monthly",
+      "adverb": "monthly"
+    }
   },
   {
     "lemma": "one",
@@ -13026,7 +13272,13 @@
       "pol-adj-0600-niejaki"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "one",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "loyal",
@@ -13035,7 +13287,13 @@
       "pol-adj-0601-lojalny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "loyal",
+      "comparative": "more loyal",
+      "superlative": "the most loyal",
+      "adverb": "loyally"
+    }
   },
   {
     "lemma": "faithful",
@@ -13044,7 +13302,13 @@
       "pol-adj-0602-wierny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "faithful",
+      "comparative": "more faithful",
+      "superlative": "the most faithful",
+      "adverb": "faithfully"
+    }
   },
   {
     "lemma": "human",
@@ -13053,7 +13317,13 @@
       "pol-adj-0603-ludzki"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "human",
+      "comparative": "more human",
+      "superlative": "the most human",
+      "adverb": "humanly"
+    }
   },
   {
     "lemma": "city",
@@ -13062,7 +13332,13 @@
       "pol-adj-0604-miejski"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "city",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "urban",
@@ -13071,7 +13347,13 @@
       "pol-adj-0604-miejski"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "urban",
+      "comparative": "more urban",
+      "superlative": "the most urban",
+      "adverb": "urbanly"
+    }
   },
   {
     "lemma": "out of order",
@@ -13080,7 +13362,13 @@
       "pol-adj-0605-nieczynny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "out of order",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "unexpected",
@@ -13090,7 +13378,13 @@
       "pol-adj-0609-niespodziewany"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "unexpected",
+      "comparative": "more unexpected",
+      "superlative": "the most unexpected",
+      "adverb": "unexpectedly"
+    }
   },
   {
     "lemma": "negative",
@@ -13099,7 +13393,13 @@
       "pol-adj-0610-negatywny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "negative",
+      "comparative": "more negative",
+      "superlative": "the most negative",
+      "adverb": "negatively"
+    }
   },
   {
     "lemma": "positive",
@@ -13108,7 +13408,13 @@
       "pol-adj-0611-pozytywny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "positive",
+      "comparative": "more positive",
+      "superlative": "the most positive",
+      "adverb": "positively"
+    }
   },
   {
     "lemma": "following",
@@ -13117,7 +13423,13 @@
       "pol-adj-0612-następujący"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "following",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "uneven",
@@ -13126,7 +13438,13 @@
       "pol-adj-0613-nierówny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "uneven",
+      "comparative": "more uneven",
+      "superlative": "the most uneven",
+      "adverb": "unevenly"
+    }
   },
   {
     "lemma": "unequal",
@@ -13135,7 +13453,13 @@
       "pol-adj-0613-nierówny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "unequal",
+      "comparative": "more unequal",
+      "superlative": "the most unequal",
+      "adverb": "unequally"
+    }
   },
   {
     "lemma": "less than",
@@ -13144,7 +13468,13 @@
       "pol-adj-0614-niecały"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "less than",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "absent",
