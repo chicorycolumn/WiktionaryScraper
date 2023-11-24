@@ -13483,7 +13483,13 @@
       "pol-adj-0615-nieobecny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "absent",
+      "comparative": "more absent",
+      "superlative": "the most absent",
+      "adverb": "absently"
+    }
   },
   {
     "lemma": "summer",
@@ -13492,7 +13498,13 @@
       "pol-adj-0616-letni(summer)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "summer",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "summery",
@@ -13501,7 +13513,13 @@
       "pol-adj-0616-letni(summer)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "summery",
+      "comparative": "more summery",
+      "superlative": "the most summery",
+      "adverb": false
+    }
   },
   {
     "lemma": "lukewarm",
@@ -13510,7 +13528,13 @@
       "pol-adj-0617-letni(lukewarm)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "lukewarm",
+      "comparative": "lukewarmer",
+      "superlative": "lukewarmest",
+      "adverb": "lukewarmly"
+    }
   },
   {
     "lemma": "indifferent",
@@ -13519,7 +13543,13 @@
       "pol-adj-0618-obojętny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "indifferent",
+      "comparative": "more indifferent",
+      "superlative": "the most indifferent",
+      "adverb": "indifferently"
+    }
   },
   {
     "lemma": "male",
@@ -13533,6 +13563,12 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "simple": "male",
+      "comparative": "more male",
+      "superlative": "the most male",
+      "adverb": false
     }
   },
   {
@@ -13544,6 +13580,12 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "simple": "male",
+      "comparative": "more male",
+      "superlative": "the most male",
+      "adverb": false
     }
   },
   {
@@ -13558,6 +13600,12 @@
       "singleWordtype": true,
       "text": "linguistics",
       "emoji": "🔤"
+    },
+    "inflections": {
+      "simple": "masculine",
+      "comparative": "more masculine",
+      "superlative": "the most masculine",
+      "adverb": "masculinely"
     }
   },
   {
@@ -13572,6 +13620,12 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "simple": "masculine",
+      "comparative": "more masculine",
+      "superlative": "the most masculine",
+      "adverb": "masculinely"
     }
   },
   {
@@ -13581,7 +13635,13 @@
       "pol-adj-0620-męski(manly)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "manly",
+      "comparative": "manlier",
+      "superlative": "manliest",
+      "adverb": false
+    }
   },
   {
     "lemma": "magnetic",
@@ -13590,7 +13650,13 @@
       "pol-adj-0621-magnetyczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "magnetic",
+      "comparative": "more magnetic",
+      "superlative": "the most magnetic",
+      "adverb": "magnetically"
+    }
   },
   {
     "lemma": "marriage",
@@ -13599,7 +13665,13 @@
       "pol-adj-0622-małżeński"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "marriage",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "marital",
@@ -13608,7 +13680,13 @@
       "pol-adj-0622-małżeński"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "marital",
+      "comparative": "more marital",
+      "superlative": "the most marital",
+      "adverb": "maritally"
+    }
   },
   {
     "lemma": "matrimonial",
@@ -13617,7 +13695,13 @@
       "pol-adj-0622-małżeński"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "matrimonial",
+      "comparative": "more matrimonial",
+      "superlative": "the most matrimonial",
+      "adverb": "matrimonially"
+    }
   },
   {
     "lemma": "folk",
@@ -13626,7 +13710,13 @@
       "pol-adj-0623-ludowy"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "folk",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "people's",
@@ -13635,7 +13725,13 @@
       "pol-adj-0623-ludowy"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "people's",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "colloquial",
@@ -13644,7 +13740,13 @@
       "pol-adj-0624-potoczny"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "colloquial",
+      "comparative": "more colloquial",
+      "superlative": "the most colloquial",
+      "adverb": "colloquially"
+    }
   },
   {
     "lemma": "customary",
@@ -13653,7 +13755,13 @@
       "pol-adj-0625-zwyczajowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "customary",
+      "comparative": "more customary",
+      "superlative": "the most customary",
+      "adverb": "customarily"
+    }
   },
   {
     "lemma": "habitual",
@@ -13662,7 +13770,13 @@
       "pol-adj-0625-zwyczajowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "habitual",
+      "comparative": "more habitual",
+      "superlative": "the most habitual",
+      "adverb": "habitually"
+    }
   },
   {
     "lemma": "recent",
@@ -13671,7 +13785,13 @@
       "pol-adj-0626-niedawny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "recent",
+      "comparative": "more recent",
+      "superlative": "the most recent",
+      "adverb": "recently"
+    }
   },
   {
     "lemma": "fresh",
@@ -13680,7 +13800,13 @@
       "pol-adj-0627-świeży"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "fresh",
+      "comparative": "fresher",
+      "superlative": "freshest",
+      "adverb": "freshly"
+    }
   },
   {
     "lemma": "icy",
@@ -13689,7 +13815,13 @@
       "pol-adj-0628-lodowaty"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "icy",
+      "comparative": "icier",
+      "superlative": "iciest",
+      "adverb": "icily"
+    }
   },
   {
     "lemma": "ice cold",
@@ -13698,7 +13830,13 @@
       "pol-adj-0628-lodowaty"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "ice cold",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "German",
@@ -13707,7 +13845,13 @@
       "pol-adj-0630-niemiecki"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "German",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "gory",
@@ -13716,7 +13860,13 @@
       "pol-adj-0631-krwawy"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "simple": "gory",
+      "comparative": "gorier",
+      "superlative": "goriest",
+      "adverb": "gorily"
+    }
   },
   {
     "lemma": "unfavorable",
@@ -13725,7 +13875,13 @@
       "pol-adj-0632-niekorzystny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "unfavorable",
+      "comparative": "more unfavorable",
+      "superlative": "the most unfavorable",
+      "adverb": "unfavorably"
+    }
   },
   {
     "lemma": "adverse",
@@ -13734,7 +13890,13 @@
       "pol-adj-0632-niekorzystny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "adverse",
+      "comparative": "more adverse",
+      "superlative": "the most adverse",
+      "adverb": "adversely"
+    }
   },
   {
     "lemma": "left",
@@ -13743,7 +13905,13 @@
       "pol-adj-0633-lewy"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "left",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "left hand",
@@ -13752,7 +13920,13 @@
       "pol-adj-0633-lewy"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "simple": "left hand",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "magical",
@@ -13761,7 +13935,13 @@
       "pol-adj-0634-magiczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "magical",
+      "comparative": "more magical",
+      "superlative": "the most magical",
+      "adverb": "magically"
+    }
   },
   {
     "lemma": "luxurious",
@@ -13770,7 +13950,13 @@
       "pol-adj-0635-luksusowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "luxurious",
+      "comparative": "more luxurious",
+      "superlative": "the most luxurious",
+      "adverb": "luxuriously"
+    }
   },
   {
     "lemma": "luxury",
@@ -13779,7 +13965,13 @@
       "pol-adj-0635-luksusowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "luxury",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "deluxe",
@@ -13788,7 +13980,13 @@
       "pol-adj-0635-luksusowy"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "deluxe",
+      "comparative": "more deluxe",
+      "superlative": "the most deluxe",
+      "adverb": "deluxely"
+    }
   },
   {
     "lemma": "numerous",
@@ -13797,7 +13995,13 @@
       "pol-adj-0636-liczny"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "numerous",
+      "comparative": "more numerous",
+      "superlative": "the most numerous",
+      "adverb": "numerously"
+    }
   },
   {
     "lemma": "sea",
@@ -13806,7 +14010,13 @@
       "pol-adj-0638-morski(sea)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "sea",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "marine",
@@ -13815,7 +14025,13 @@
       "pol-adj-0638-morski(sea)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "marine",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "nautical",
@@ -13824,7 +14040,13 @@
       "pol-adj-0638-morski(sea)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "nautical",
+      "comparative": "more nautical",
+      "superlative": "the most nautical",
+      "adverb": "nautically"
+    }
   },
   {
     "lemma": "teal",
@@ -13833,7 +14055,13 @@
       "pol-adj-0639-morski(teal)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "simple": "teal",
+      "comparative": "more teal",
+      "superlative": "the most teal",
+      "adverb": false
+    }
   },
   {
     "lemma": "medical",
@@ -13843,7 +14071,13 @@
       "pol-adj-0649-medyczny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "medical",
+      "comparative": "more medical",
+      "superlative": "the most medical",
+      "adverb": "medically"
+    }
   },
   {
     "lemma": "disabled",
@@ -13852,7 +14086,13 @@
       "pol-adj-0641-niepełnosprawny"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "disabled",
+      "comparative": "more disabled",
+      "superlative": "the most disabled",
+      "adverb": false
+    }
   },
   {
     "lemma": "handicapped",
@@ -13861,7 +14101,13 @@
       "pol-adj-0641-niepełnosprawny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "handicapped",
+      "comparative": "more handicapped",
+      "superlative": "the most handicapped",
+      "adverb": false
+    }
   },
   {
     "lemma": "Lithuanian",
@@ -13870,7 +14116,13 @@
       "pol-adj-0642-litewski"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "Lithuanian",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "excessive",
@@ -13879,7 +14131,13 @@
       "pol-adj-0643-nadmierny"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "excessive",
+      "comparative": "more excessive",
+      "superlative": "the most excessive",
+      "adverb": "excessively"
+    }
   },
   {
     "lemma": "Muslim",
@@ -13888,7 +14146,13 @@
       "pol-adj-0644-muzułmański"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "simple": "Muslim",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "some",
@@ -13897,7 +14161,13 @@
       "pol-adj-0645-niektóry"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "simple": "some",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
+    }
   },
   {
     "lemma": "worrying",
