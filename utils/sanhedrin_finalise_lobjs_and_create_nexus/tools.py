@@ -907,7 +907,7 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
         return get_inflections_eng_ver(lemma, cmd_history)
 
     if manually_entered_inflections:
-        v2, v3, thirdPS, gerund = manually_entered_inflections
+        v2, v3, gerund, thirdPS = manually_entered_inflections
     else:
         remaining_words = None
         split_char = None
@@ -944,7 +944,7 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
     print_function = c.print_blue if reconfirming else c.print_bold
     print_function(f"yesterday I {v2},    I've already {v3}")
     print("")
-    print_function(f'       she {thirdPS},      yo we {gerund}')
+    print_function(f'     yo we {gerund},      she {thirdPS}')
     print("")
     user_input = input('Enter YES\nAny   NO\nd     to double final consonant\ne     to keep terminal "y"\nOr type in manually and press enter\n: ')
 
@@ -971,13 +971,13 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
             v3 = replace_char_at_index(v3, -3, 'y')
             thirdPS = replace_char_at_index(thirdPS, -3, 'y')
             thirdPS = replace_char_at_index(thirdPS, -2, '')
-            return get_inflections_eng_ver(lemma, cmd_history, [v2, v3, thirdPS, gerund])
+            return get_inflections_eng_ver(lemma, cmd_history, [v2, v3, gerund, thirdPS])
         return restart()
         if user_input == 'd':
             v2 = v2[0:-2] + v2[-3] + v2[-2:]
             v3 = v2
             gerund = gerund[0:-3] + gerund[-4] + gerund[-3:]
-            return get_inflections_eng_ver(lemma, cmd_history, [v2, v3, thirdPS, gerund])
+            return get_inflections_eng_ver(lemma, cmd_history, [v2, v3, gerund, thirdPS])
         return restart()
 
     else:
@@ -985,13 +985,13 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
 
         if len(split) == 1:
             split.append(v3)
-            split.append(thirdPS)
             split.append(gerund)
+            split.append(thirdPS)
         if len(split) == 2:
+            split.append(gerund)
             split.append(thirdPS)
-            split.append(gerund)
         if len(split) == 3:
-            split.append(gerund)
+            split.append(thirdPS)
 
         split = [False if el == 'no' else el for el in split]
         return get_inflections_eng_ver(lemma, cmd_history, split, reconfirming)
