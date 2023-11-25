@@ -955,12 +955,19 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
 
     else:
         split = user_input.split(",")
-        if len(split) != 4 or any(len(s) < 2 for s in split):
-            c.print_red("You must type four strings: v2, v3, thirdPS, gerund")
-            return restart()
-        else:
-            split = [False if el == 'no' else el for el in split]
-            return get_inflections_eng_ver(lemma, cmd_history, split, reconfirming)
+
+        if len(split) == 1:
+            split.append(v3)
+            split.append(thirdPS)
+            split.append(gerund)
+        if len(split) == 2:
+            split.append(thirdPS)
+            split.append(gerund)
+        if len(split) == 3:
+            split.append(gerund)
+
+        split = [False if el == 'no' else el for el in split]
+        return get_inflections_eng_ver(lemma, cmd_history, split, reconfirming)
 
 
 def get_inflections_eng_nou(
