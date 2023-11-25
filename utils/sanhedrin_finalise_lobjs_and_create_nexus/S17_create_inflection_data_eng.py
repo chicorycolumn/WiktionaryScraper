@@ -38,11 +38,17 @@ if __name__ == '__main__':
 
     print("Loaded", len(tgt_lobjs), "target lobjs.")
 
+    cmd_history = []
+
     for index, tgt_lobj in enumerate(tgt_lobjs):
         print('')
         print(f"{index + 1}/{len(tgt_lobjs)}", tgt_lobj['id'][8:])
         if not tgt_lobj.get('inflections'):
-            inflections, flag = get_inflections(tgt_lobj["lemma"])
+
+            if tgt_lobj['lemma'] == 'be':
+                continue
+
+            inflections, flag = get_inflections(tgt_lobj["lemma"], cmd_history)
 
             tgt_lobj['inflections'] = inflections
 

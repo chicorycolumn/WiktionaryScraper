@@ -902,9 +902,9 @@ def get_nonexisting(lobjs, nex, lang):
     return nonexisting
 
 
-def get_inflections_eng_ver(lemma, manually_entered_inflections: [str] = None, reconfirming: bool = False):
+def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [str] = None, reconfirming: bool = False):
     def restart():
-        return get_inflections_eng_ver(lemma)
+        return get_inflections_eng_ver(lemma, cmd_history)
 
     if manually_entered_inflections:
         v2, v3, thirdPS, gerund = manually_entered_inflections
@@ -936,6 +936,13 @@ def get_inflections_eng_ver(lemma, manually_entered_inflections: [str] = None, r
             "gerund": split_if_slash(gerund)
         }, False]
 
+    cmd_history_interaction = interact_cmd_history(user_input, cmd_history)
+    if cmd_history_interaction == True:
+        return restart()
+    if type(cmd_history_interaction) is str:
+        user_input = cmd_history_interaction
+    cmd_history.append(user_input)
+
     if len(user_input) == 1:
         if user_input == 'd':
             v2 = v2[0:-2] + v2[-3] + v2[-2:]
@@ -951,18 +958,19 @@ def get_inflections_eng_ver(lemma, manually_entered_inflections: [str] = None, r
             return restart()
         else:
             split = [False if el == 'no' else el for el in split]
-            return get_inflections_eng_ver(lemma, split, reconfirming)
+            return get_inflections_eng_ver(lemma, cmd_history, split, reconfirming)
 
 
 def get_inflections_eng_nou(
         lemma,
+        cmd_history,
         manually_entered_inflections: [str] = None,
         reconfirming: bool = False,
         keep_terminal_y: bool = False,
         flag: bool = False,
 ):
     def restart():
-        return get_inflections_eng_nou(lemma)
+        return get_inflections_eng_nou(lemma, cmd_history)
 
     if manually_entered_inflections:
         plur_nom, sing_gen, plur_gen = manually_entered_inflections
@@ -978,7 +986,15 @@ def get_inflections_eng_nou(
     print_function(f'{lemma}, {plur_nom}')
     print_function(f'{sing_gen}, {plur_gen}')
     print("")
-    user_input = input('Enter for YES / Any for NO\nq     Keep terminal y\nw     Plural same as singular\ns     Tantum singulare\np     Tantum plurale\nOr type in irregular plural eg "men" and press Enter\n: ')
+    user_input = input(
+        'Enter for YES / Any for NO\nq     Keep terminal y\nw     Plural same as singular\ns     Tantum singulare\np     Tantum plurale\nOr type in irregular plural eg "men" and press Enter\n: ')
+
+    cmd_history_interaction = interact_cmd_history(user_input, cmd_history)
+    if cmd_history_interaction == True:
+        return restart()
+    if type(cmd_history_interaction) is str:
+        user_input = cmd_history_interaction
+    cmd_history.append(user_input)
 
     if user_input and user_input[0] == 'x':
         flag = '🚩'
@@ -1025,13 +1041,13 @@ def get_inflections_eng_nou(
         return [inflections, flag]
 
     if user_input == 'q':
-        return get_inflections_eng_nou(lemma, None, True, True, flag=flag)
+        return get_inflections_eng_nou(lemma, cmd_history, None, True, True, flag=flag)
 
     if user_input == 'w':
         plur_nom = lemma
         sing_gen = lemma + "'s"
         plur_gen = sing_gen
-        return get_inflections_eng_nou(lemma, [plur_nom, sing_gen, plur_gen], True, flag=flag)
+        return get_inflections_eng_nou(lemma, cmd_history, [plur_nom, sing_gen, plur_gen], True, flag=flag)
 
     if len(user_input) == 1:
         return restart()
@@ -1057,12 +1073,12 @@ def get_inflections_eng_nou(
         else:
             plur_gen = [plur_nom_str + "'s" for plur_nom_str in plur_nom]
 
-        return get_inflections_eng_nou(lemma, [plur_nom, sing_gen, plur_gen], True, flag=flag)
+        return get_inflections_eng_nou(lemma, cmd_history, [plur_nom, sing_gen, plur_gen], True, flag=flag)
 
 
-def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, reconfirming: bool = False):
+def get_inflections_eng_adj(lemma, cmd_history, manually_entered_inflections: [str] = None, reconfirming: bool = False):
     def restart():
-        return get_inflections_eng_adj(lemma)
+        return get_inflections_eng_adj(lemma, cmd_history)
 
     if manually_entered_inflections:
         compar, superl, adverb = manually_entered_inflections
@@ -1090,7 +1106,8 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
     else:
         print("")
 
-    user_input = input('Enter for YES / Any for NO / Or type in manually and press Enter\na     "more" and "most" plus adverb\ns     "more" and "most" but NO adverb\nd     double final consonant\nf     NO adverb\ng     adverb ONLY\nx     NO ANYTHING\n: ')
+    user_input = input(
+        'Enter for YES / Any for NO / Or type in manually and press Enter\na     "more" and "most" plus adverb\ns     "more" and "most" but NO adverb\nd     double final consonant\nf     NO adverb\ng     adverb ONLY\nx     NO ANYTHING\n: ')
 
     if not user_input or user_input == 'y':
         return [{
@@ -1100,20 +1117,27 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
             "adverb": split_if_slash(adverb)
         }, False]
 
+    cmd_history_interaction = interact_cmd_history(user_input, cmd_history)
+    if cmd_history_interaction == True:
+        return restart()
+    if type(cmd_history_interaction) is str:
+        user_input = cmd_history_interaction
+    cmd_history.append(user_input)
+
     if user_input == 'f':
-        return get_inflections_eng_adj(lemma, [compar, superl, False], True)
+        return get_inflections_eng_adj(lemma, cmd_history, [compar, superl, False], True)
     if user_input == 'g':
-        return get_inflections_eng_adj(lemma, [False, False, adverb], True)
+        return get_inflections_eng_adj(lemma, cmd_history, [False, False, adverb], True)
     if user_input == 'd':
         compar = compar[0:-2] + compar[-3] + compar[-2:]
         superl = superl[0:-3] + superl[-4] + superl[-3:]
-        return get_inflections_eng_adj(lemma, [compar, superl, adverb], True)
+        return get_inflections_eng_adj(lemma, cmd_history, [compar, superl, adverb], True)
     if user_input == 's':
-        return get_inflections_eng_adj(lemma, [f'more {lemma}', f'the most {lemma}', False], True)
+        return get_inflections_eng_adj(lemma, cmd_history, [f'more {lemma}', f'the most {lemma}', False], True)
     if user_input == 'a':
-        return get_inflections_eng_adj(lemma, [f'more {lemma}', f'the most {lemma}', adverb], True)
+        return get_inflections_eng_adj(lemma, cmd_history, [f'more {lemma}', f'the most {lemma}', adverb], True)
     if user_input in ['no', 'x']:
-        return get_inflections_eng_adj(lemma, [False, False, False], True)
+        return get_inflections_eng_adj(lemma, cmd_history, [False, False, False], True)
 
     if len(user_input) == 1:
         return restart()
@@ -1126,4 +1150,4 @@ def get_inflections_eng_adj(lemma, manually_entered_inflections: [str] = None, r
             return restart()
         else:
             split = [False if el == 'no' else el for el in split]
-            return get_inflections_eng_adj(lemma, split, True)
+            return get_inflections_eng_adj(lemma, cmd_history, split, True)
