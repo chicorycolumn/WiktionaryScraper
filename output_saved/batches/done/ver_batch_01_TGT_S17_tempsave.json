@@ -476,7 +476,15 @@
       "pol-ver-0015-usiąść"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "sit down",
+      "verbal": {},
+      "v2": "sat down",
+      "v3": "sat down",
+      "thirdPS": "sits down",
+      "gerund": "sitting down"
+    }
   },
   {
     "lemma": "sit",
@@ -490,7 +498,15 @@
       "pol-ver-0014-siadać"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "sit",
+      "verbal": {},
+      "v2": "sat",
+      "v3": "sat",
+      "thirdPS": "sits",
+      "gerund": "sitting"
+    }
   },
   {
     "lemma": "fall down",
@@ -503,7 +519,15 @@
       "pol-ver-0017-upaść"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "fall down",
+      "verbal": {},
+      "v2": "fell down",
+      "v3": "fallen down",
+      "thirdPS": "falls down",
+      "gerund": "falling down"
+    }
   },
   {
     "lemma": "fall",
@@ -521,6 +545,14 @@
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "infinitive": "fall",
+      "verbal": {},
+      "v2": "fell",
+      "v3": "fallen",
+      "thirdPS": "falls",
+      "gerund": "falling"
     }
   },
   {
@@ -536,6 +568,14 @@
       "singleWordtype": true,
       "text": "general",
       "emoji": "🔲"
+    },
+    "inflections": {
+      "infinitive": "fall",
+      "verbal": {},
+      "v2": "fell",
+      "v3": "fallen",
+      "thirdPS": "falls",
+      "gerund": "falling"
     }
   },
   {
@@ -546,7 +586,15 @@
       "pol-ver-0019-przygotowywać"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "prepare",
+      "verbal": {},
+      "v2": "prepared",
+      "v3": "prepared",
+      "thirdPS": "prepares",
+      "gerund": "preparing"
+    }
   },
   {
     "lemma": "put",
@@ -558,7 +606,15 @@
       "pol-ver-0747-stawiać"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "infinitive": "put",
+      "verbal": {},
+      "v2": "put",
+      "v3": "put",
+      "thirdPS": "puts",
+      "gerund": "putting"
+    }
   },
   {
     "lemma": "put in",
@@ -568,7 +624,15 @@
       "pol-ver-0023-włożyć"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "put in",
+      "verbal": {},
+      "v2": "put in",
+      "v3": "put in",
+      "thirdPS": "puts in",
+      "gerund": "putting in"
+    }
   },
   {
     "lemma": "change",
@@ -583,6 +647,14 @@
       "singleWordtype": true,
       "text": "general",
       "emoji": "🔲"
+    },
+    "inflections": {
+      "infinitive": "change",
+      "verbal": {},
+      "v2": "changed",
+      "v3": "changed",
+      "thirdPS": "changes",
+      "gerund": "changing"
     }
   },
   {
@@ -598,6 +670,14 @@
       "singleWordtype": true,
       "text": "clothes",
       "emoji": "👚"
+    },
+    "inflections": {
+      "infinitive": "change",
+      "verbal": {},
+      "v2": "changed",
+      "v3": "changed",
+      "thirdPS": "changes",
+      "gerund": "changing"
     }
   },
   {
@@ -613,6 +693,14 @@
       "singleWordtype": true,
       "text": "mathematical",
       "emoji": "🧮"
+    },
+    "inflections": {
+      "infinitive": "count",
+      "verbal": {},
+      "v2": "counted",
+      "v3": "counted",
+      "thirdPS": "counts",
+      "gerund": "counting"
     }
   },
   {
@@ -627,6 +715,14 @@
       "singleWordtype": true,
       "text": "importance",
       "emoji": "❗"
+    },
+    "inflections": {
+      "infinitive": "count",
+      "verbal": {},
+      "v2": "counted",
+      "v3": "counted",
+      "thirdPS": "counts",
+      "gerund": "counting"
     }
   },
   {
@@ -636,7 +732,15 @@
       "pol-ver-0028-liczyć(count on)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "count on",
+      "verbal": {},
+      "v2": "counted on",
+      "v3": "counted on",
+      "thirdPS": "counts on",
+      "gerund": "counting on"
+    }
   },
   {
     "lemma": "matter",
@@ -645,7 +749,15 @@
       "pol-ver-0029-liczyć(matter)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "matter",
+      "verbal": {},
+      "v2": "mattered",
+      "v3": "mattered",
+      "thirdPS": "matters",
+      "gerund": "mattering"
+    }
   },
   {
     "lemma": "give",
@@ -655,7 +767,15 @@
       "pol-ver-0032-dawać(give)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "give",
+      "verbal": {},
+      "v2": "gave",
+      "v3": "given",
+      "thirdPS": "gives",
+      "gerund": "giving"
+    }
   },
   {
     "lemma": "let",
