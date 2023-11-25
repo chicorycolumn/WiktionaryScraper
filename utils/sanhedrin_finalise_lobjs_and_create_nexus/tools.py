@@ -909,6 +909,19 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
     if manually_entered_inflections:
         v2, v3, thirdPS, gerund = manually_entered_inflections
     else:
+        remaining_words = None
+        split_char = None
+        if ' ' in lemma:
+            split_char = ' '
+            split = lemma.split(' ')
+            lemma = split[0]
+            remaining_words = split[1:]
+        elif '-' in lemma:
+            split_char = '-'
+            split = lemma.split('-')
+            lemma = split[0]
+            remaining_words = split[1:]
+
         v2 = lemma + ("ed" if not lemma.endswith('e') else 'd')
         v3 = v2
         thirdPS = lemma + ("s" if (lemma[-1] not in 'hxsy' or lemma.endswith('th')) else "es")
@@ -919,6 +932,13 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
         gerund = lemma + "ing"
         if lemma.endswith('e'):
             gerund = replace_char_at_index(gerund, -4, '')
+
+        if remaining_words:
+            print('remaining_words', remaining_words)
+            v2 = split_char.join([v2, *remaining_words])
+            v3 = split_char.join([v3, *remaining_words])
+            thirdPS = split_char.join([thirdPS, *remaining_words])
+            gerund = split_char.join([gerund, *remaining_words])
 
     print("")
     print_function = c.print_blue if reconfirming else c.print_bold
