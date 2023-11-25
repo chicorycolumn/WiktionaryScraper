@@ -3972,7 +3972,15 @@
       "pol-ver-0198-zapytywać"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "ask",
+      "verbal": {},
+      "v2": "asked",
+      "v3": "asked",
+      "thirdPS": "asks",
+      "gerund": "asking"
+    }
   },
   {
     "lemma": "benefit",
@@ -3982,7 +3990,24 @@
       "pol-ver-0194-skorzystać(benefit)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "benefit",
+      "verbal": {},
+      "v2": [
+        "benefited",
+        "benefitted"
+      ],
+      "v3": [
+        "benefited",
+        "benefitted"
+      ],
+      "thirdPS": "benefits",
+      "gerund": [
+        "benefiting",
+        "benefitting"
+      ]
+    }
   },
   {
     "lemma": "profit",
@@ -3992,7 +4017,15 @@
       "pol-ver-0194-skorzystać(benefit)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "profit",
+      "verbal": {},
+      "v2": "profited",
+      "v3": "profited",
+      "thirdPS": "profits",
+      "gerund": "profiting"
+    }
   },
   {
     "lemma": "take advantage",
@@ -4002,7 +4035,15 @@
       "pol-ver-0195-skorzystać(take advantage)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "take",
+      "verbal": {},
+      "v2": "took advantage",
+      "v3": "taken advantage",
+      "thirdPS": "takes advantage",
+      "gerund": "taking advantage"
+    }
   },
   {
     "lemma": "listen",
@@ -4012,7 +4053,15 @@
       "pol-ver-0204-posłuchać"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "infinitive": "listen",
+      "verbal": {},
+      "v2": "listened",
+      "v3": "listened",
+      "thirdPS": "listens",
+      "gerund": "listening"
+    }
   },
   {
     "lemma": "see",
@@ -4023,7 +4072,15 @@
       "pol-ver-0209-widywać"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "see",
+      "verbal": {},
+      "v2": "saw",
+      "v3": "seen",
+      "thirdPS": "sees",
+      "gerund": "seeing"
+    }
   },
   {
     "lemma": "fall in love",
@@ -4032,7 +4089,15 @@
       "pol-ver-0212-zakochać"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "fall",
+      "verbal": {},
+      "v2": "fell in love",
+      "v3": "fallen in love",
+      "thirdPS": "falls in love",
+      "gerund": "falling in love"
+    }
   },
   {
     "lemma": "fall for",
@@ -4041,7 +4106,15 @@
       "pol-ver-0212-zakochać"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "fall",
+      "verbal": {},
+      "v2": "fell for",
+      "v3": "fallen for",
+      "thirdPS": "falls for",
+      "gerund": "falling for"
+    }
   },
   {
     "lemma": "look at",
@@ -4051,7 +4124,15 @@
       "pol-ver-0214-popatrzeć"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "look",
+      "verbal": {},
+      "v2": "looked at",
+      "v3": "looked at",
+      "thirdPS": "looks at",
+      "gerund": "looking at"
+    }
   },
   {
     "lemma": "reside",
@@ -4061,7 +4142,15 @@
       "pol-ver-0216-zamieszkać"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "reside",
+      "verbal": {},
+      "v2": "resided",
+      "v3": "resided",
+      "thirdPS": "resides",
+      "gerund": "residing"
+    }
   },
   {
     "lemma": "reply",
@@ -4073,7 +4162,15 @@
       "pol-ver-0613-odrzekać"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "reply",
+      "verbal": {},
+      "v2": "replied",
+      "v3": "replied",
+      "thirdPS": "replies",
+      "gerund": "replying"
+    }
   },
   {
     "lemma": "respond",
@@ -4085,7 +4182,15 @@
       "pol-ver-0613-odrzekać"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "respond",
+      "verbal": {},
+      "v2": "responded",
+      "v3": "responded",
+      "thirdPS": "responds",
+      "gerund": "responding"
+    }
   },
   {
     "lemma": "answer",
@@ -4097,7 +4202,15 @@
       "pol-ver-0613-odrzekać"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "answer",
+      "verbal": {},
+      "v2": "answered",
+      "v3": "answered",
+      "thirdPS": "answers",
+      "gerund": "answering"
+    }
   },
   {
     "lemma": "answer for",
@@ -4107,7 +4220,15 @@
       "pol-ver-0220-odpowiadać(answer for)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "answer",
+      "verbal": {},
+      "v2": "answered for",
+      "v3": "answered for",
+      "thirdPS": "answers for",
+      "gerund": "answering for"
+    }
   },
   {
     "lemma": "be accountable for",
@@ -4117,7 +4238,15 @@
       "pol-ver-0220-odpowiadać(answer for)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "be",
+      "verbal": {},
+      "v2": "swde",
+      "v3": "bed accountable for",
+      "thirdPS": "bes accountable for",
+      "gerund": "bing accountable for"
+    }
   },
   {
     "lemma": "be responsible for",
@@ -4127,7 +4256,15 @@
       "pol-ver-0220-odpowiadać(answer for)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "be",
+      "verbal": {},
+      "v2": "swde",
+      "v3": "bed responsible for",
+      "thirdPS": "bes responsible for",
+      "gerund": "bing responsible for"
+    }
   },
   {
     "lemma": "wait",
@@ -4138,7 +4275,15 @@
       "pol-ver-0223-zaczekać"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "wait",
+      "verbal": {},
+      "v2": "waited",
+      "v3": "waited",
+      "thirdPS": "waits",
+      "gerund": "waiting"
+    }
   },
   {
     "lemma": "complain",
@@ -4147,7 +4292,15 @@
       "pol-ver-0225-narzekać"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "complain",
+      "verbal": {},
+      "v2": "complained",
+      "v3": "complained",
+      "thirdPS": "complains",
+      "gerund": "complaining"
+    }
   },
   {
     "lemma": "kiss",
@@ -4157,7 +4310,15 @@
       "pol-ver-0227-pocałować"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "kiss",
+      "verbal": {},
+      "v2": "kissed",
+      "v3": "kissed",
+      "thirdPS": "kisses",
+      "gerund": "kissing"
+    }
   },
   {
     "lemma": "lurk",
@@ -4169,7 +4330,15 @@
       "pol-ver-0228-czaić"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "infinitive": "lurk",
+      "verbal": {},
+      "v2": "lurked",
+      "v3": "lurked",
+      "thirdPS": "lurks",
+      "gerund": "lurking"
+    }
   },
   {
     "lemma": "skulk",
@@ -4181,7 +4350,15 @@
       "pol-ver-0228-czaić"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "infinitive": "skulk",
+      "verbal": {},
+      "v2": "skulked",
+      "v3": "skulked",
+      "thirdPS": "skulks",
+      "gerund": "skulking"
+    }
   },
   {
     "lemma": "lie in wait",
@@ -4190,7 +4367,15 @@
       "pol-ver-0228-czaić"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "infinitive": "lie",
+      "verbal": {},
+      "v2": "lay in wait",
+      "v3": "laid in wait",
+      "thirdPS": "lies in wait",
+      "gerund": "lying in wait"
+    }
   },
   {
     "lemma": "get ill",
@@ -4200,7 +4385,18 @@
       "pol-ver-0230-zachorować"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "get",
+      "verbal": {},
+      "v2": "got ill",
+      "v3": [
+        "got ill",
+        "gotten ill"
+      ],
+      "thirdPS": "gets ill",
+      "gerund": "getting ill"
+    }
   },
   {
     "lemma": "get sick",
@@ -4210,7 +4406,18 @@
       "pol-ver-0230-zachorować"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "get",
+      "verbal": {},
+      "v2": "got sick",
+      "v3": [
+        "got sick",
+        "gotten sick"
+      ],
+      "thirdPS": "gets sick",
+      "gerund": "getting sick"
+    }
   },
   {
     "lemma": "appreciate",
@@ -4220,7 +4427,15 @@
       "pol-ver-0232-doceniać"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "appreciate",
+      "verbal": {},
+      "v2": "appreciated",
+      "v3": "appreciated",
+      "thirdPS": "appreciates",
+      "gerund": "appreciating"
+    }
   },
   {
     "lemma": "annoy",
@@ -4232,7 +4447,15 @@
       "pol-ver-0389-zirytować"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "annoy",
+      "verbal": {},
+      "v2": "annoyed",
+      "v3": "annoyed",
+      "thirdPS": "annoys",
+      "gerund": "annoying"
+    }
   },
   {
     "lemma": "irritate",
@@ -4244,7 +4467,15 @@
       "pol-ver-0389-zirytować"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "irritate",
+      "verbal": {},
+      "v2": "irritated",
+      "v3": "irritated",
+      "thirdPS": "irritates",
+      "gerund": "irritating"
+    }
   },
   {
     "lemma": "be nervous",
@@ -4257,7 +4488,15 @@
       "pol-ver-0236-zdenerwować(be nervous)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "be",
+      "verbal": {},
+      "v2": "swde",
+      "v3": "bed nervous",
+      "thirdPS": "bes nervous",
+      "gerund": "bing nervous"
+    }
   },
   {
     "lemma": "be irritated",
@@ -4267,7 +4506,15 @@
       "pol-ver-0236-zdenerwować(be nervous)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "be",
+      "verbal": {},
+      "v2": "swde",
+      "v3": "bed irritated",
+      "thirdPS": "bes irritated",
+      "gerund": "bing irritated"
+    }
   },
   {
     "lemma": "be annoyed",
@@ -4277,7 +4524,15 @@
       "pol-ver-0236-zdenerwować(be nervous)"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "be",
+      "verbal": {},
+      "v2": "swde",
+      "v3": "bed annoyed",
+      "thirdPS": "bes annoyed",
+      "gerund": "bing annoyed"
+    }
   },
   {
     "lemma": "strive",
@@ -4286,7 +4541,21 @@
       "pol-ver-0237-dążyć"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "infinitive": "strive",
+      "verbal": {},
+      "v2": [
+        "strove",
+        "strived"
+      ],
+      "v3": [
+        "striven",
+        "strived"
+      ],
+      "thirdPS": "strives",
+      "gerund": "striving"
+    }
   },
   {
     "lemma": "enjoy",
@@ -4296,7 +4565,15 @@
       "pol-ver-0241-ucieszyć"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "enjoy",
+      "verbal": {},
+      "v2": "enjoyed",
+      "v3": "enjoyed",
+      "thirdPS": "enjoys",
+      "gerund": "enjoying"
+    }
   },
   {
     "lemma": "figure out",
@@ -4306,7 +4583,15 @@
       "pol-ver-0243-domyślać"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "figure",
+      "verbal": {},
+      "v2": "figured out",
+      "v3": "figured out",
+      "thirdPS": "figures out",
+      "gerund": "figuring out"
+    }
   },
   {
     "lemma": "work out",
@@ -4316,7 +4601,15 @@
       "pol-ver-0243-domyślać"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "work",
+      "verbal": {},
+      "v2": "worked out",
+      "v3": "worked out",
+      "thirdPS": "works out",
+      "gerund": "working out"
+    }
   },
   {
     "lemma": "hide",
@@ -4329,7 +4622,15 @@
       "pol-ver-0401-skryć"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "hide",
+      "verbal": {},
+      "v2": "hid",
+      "v3": "hidden",
+      "thirdPS": "hides",
+      "gerund": "hiding"
+    }
   },
   {
     "lemma": "conceal",
@@ -4342,7 +4643,15 @@
       "pol-ver-0401-skryć"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "conceal",
+      "verbal": {},
+      "v2": "concealed",
+      "v3": "concealed",
+      "thirdPS": "conceals",
+      "gerund": "concealing"
+    }
   },
   {
     "lemma": "ripen",
@@ -4355,7 +4664,15 @@
       "pol-ver-0248-dojrzewać(ripen)"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "infinitive": "ripen",
+      "verbal": {},
+      "v2": "ripened",
+      "v3": "ripened",
+      "thirdPS": "ripens",
+      "gerund": "ripening"
+    }
   },
   {
     "lemma": "mature",
@@ -4368,7 +4685,15 @@
       "pol-ver-0249-dojrzewać(mature)"
     ],
     "register": 0,
-    "frequency": 5
+    "frequency": 5,
+    "inflections": {
+      "infinitive": "mature",
+      "verbal": {},
+      "v2": "matured",
+      "v3": "matured",
+      "thirdPS": "matures",
+      "gerund": "maturing"
+    }
   },
   {
     "lemma": "carry out",
@@ -4380,7 +4705,15 @@
       "pol-ver-0814-przeprowadzać(carry)"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "carry",
+      "verbal": {},
+      "v2": "carried out",
+      "v3": "carried out",
+      "thirdPS": "carries out",
+      "gerund": "carrying out"
+    }
   },
   {
     "lemma": "hurl",
@@ -4390,7 +4723,15 @@
       "pol-ver-0253-ciskać"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "hurl",
+      "verbal": {},
+      "v2": "hurled",
+      "v3": "hurled",
+      "thirdPS": "hurls",
+      "gerund": "hurling"
+    }
   },
   {
     "lemma": "fling",
