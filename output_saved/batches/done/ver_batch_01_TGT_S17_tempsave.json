@@ -3171,6 +3171,14 @@
       "singleWordtype": true,
       "text": "general",
       "emoji": "🔲"
+    },
+    "inflections": {
+      "infinitive": "play",
+      "verbal": {},
+      "v2": "played",
+      "v3": "played",
+      "thirdPS": "plays",
+      "gerund": "playing"
     }
   },
   {
@@ -3186,6 +3194,14 @@
       "singleWordtype": true,
       "text": "games/sports",
       "emoji": "🎲"
+    },
+    "inflections": {
+      "infinitive": "play",
+      "verbal": {},
+      "v2": "played",
+      "v3": "played",
+      "thirdPS": "plays",
+      "gerund": "playing"
     }
   },
   {
@@ -3201,6 +3217,14 @@
       "singleWordtype": true,
       "text": "music",
       "emoji": "🎵"
+    },
+    "inflections": {
+      "infinitive": "play",
+      "verbal": {},
+      "v2": "played",
+      "v3": "played",
+      "thirdPS": "plays",
+      "gerund": "playing"
     }
   },
   {
@@ -3216,6 +3240,14 @@
       "singleWordtype": true,
       "text": "theatre",
       "emoji": "🎭"
+    },
+    "inflections": {
+      "infinitive": "play",
+      "verbal": {},
+      "v2": "played",
+      "v3": "played",
+      "thirdPS": "plays",
+      "gerund": "playing"
     }
   },
   {
@@ -3228,7 +3260,15 @@
       "pol-ver-0450-nabywać"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "buy",
+      "verbal": {},
+      "v2": "bought",
+      "v3": "bought",
+      "thirdPS": "buys",
+      "gerund": "buying"
+    }
   },
   {
     "lemma": "purchase",
@@ -3240,7 +3280,15 @@
       "pol-ver-0450-nabywać"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "purchase",
+      "verbal": {},
+      "v2": "purchased",
+      "v3": "purchased",
+      "thirdPS": "purchases",
+      "gerund": "purchasing"
+    }
   },
   {
     "lemma": "die",
@@ -3255,7 +3303,15 @@
       "pol-ver-0342-zginąć"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "die",
+      "verbal": {},
+      "v2": "died",
+      "v3": "died",
+      "thirdPS": "dies",
+      "gerund": "dying"
+    }
   },
   {
     "lemma": "try",
@@ -3270,6 +3326,14 @@
       "singleWordtype": true,
       "text": "plus noun",
       "emoji": "🇳"
+    },
+    "inflections": {
+      "infinitive": "try",
+      "verbal": {},
+      "v2": "tried",
+      "v3": "tried",
+      "thirdPS": "tries",
+      "gerund": "trying"
     }
   },
   {
@@ -3288,6 +3352,14 @@
       "singleWordtype": true,
       "text": "plus verb",
       "emoji": "🇻"
+    },
+    "inflections": {
+      "infinitive": "try",
+      "verbal": {},
+      "v2": "tried",
+      "v3": "tried",
+      "thirdPS": "tries",
+      "gerund": "trying"
     }
   },
   {
@@ -3300,7 +3372,15 @@
       "pol-ver-0761-starać"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "attempt",
+      "verbal": {},
+      "v2": "attempted",
+      "v3": "attempted",
+      "thirdPS": "attempts",
+      "gerund": "attempting"
+    }
   },
   {
     "lemma": "leave behind",
@@ -3310,7 +3390,15 @@
       "pol-ver-0152-zostawić"
     ],
     "register": 0,
-    "frequency": 4
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "leave",
+      "verbal": {},
+      "v2": "left behind",
+      "v3": "left behind",
+      "thirdPS": "leaves behind",
+      "gerund": "leaving behind"
+    }
   },
   {
     "lemma": "close",
@@ -3320,7 +3408,15 @@
       "pol-ver-0155-zamykać(close)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "close",
+      "verbal": {},
+      "v2": "closed",
+      "v3": "closed",
+      "thirdPS": "closes",
+      "gerund": "closing"
+    }
   },
   {
     "lemma": "shut",
@@ -3330,7 +3426,15 @@
       "pol-ver-0155-zamykać(close)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "shut",
+      "verbal": {},
+      "v2": "shut",
+      "v3": "shut",
+      "thirdPS": "shuts",
+      "gerund": "shutting"
+    }
   },
   {
     "lemma": "lock",
@@ -3340,7 +3444,15 @@
       "pol-ver-0156-zamykać(lock)"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "lock",
+      "verbal": {},
+      "v2": "locked",
+      "v3": "locked",
+      "thirdPS": "locks",
+      "gerund": "locking"
+    }
   },
   {
     "lemma": "hate",
@@ -3349,7 +3461,15 @@
       "pol-ver-0157-nienawidzić"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "infinitive": "hate",
+      "verbal": {},
+      "v2": "hated",
+      "v3": "hated",
+      "thirdPS": "hates",
+      "gerund": "hating"
+    }
   },
   {
     "lemma": "detest",

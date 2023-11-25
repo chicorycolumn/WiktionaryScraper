@@ -946,7 +946,7 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
     print("")
     print_function(f'       she {thirdPS},      yo we {gerund}')
     print("")
-    user_input = input('Enter YES\nAny   NO\nd     to double final consonant\nOr type in manually and press enter\n: ')
+    user_input = input('Enter YES\nAny   NO\nd     to double final consonant\ne     to keep terminal "y"\nOr type in manually and press enter\n: ')
 
     if not user_input or user_input == 'y':
         return [{
@@ -966,6 +966,13 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
     cmd_history.append(user_input)
 
     if len(user_input) == 1:
+        if user_input == 'e':
+            v2 = replace_char_at_index(v2, -3, 'y')
+            v3 = replace_char_at_index(v3, -3, 'y')
+            thirdPS = replace_char_at_index(thirdPS, -3, 'y')
+            thirdPS = replace_char_at_index(thirdPS, -2, '')
+            return get_inflections_eng_ver(lemma, cmd_history, [v2, v3, thirdPS, gerund])
+        return restart()
         if user_input == 'd':
             v2 = v2[0:-2] + v2[-3] + v2[-2:]
             v3 = v2
