@@ -922,9 +922,9 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
 
     print("")
     print_function = c.print_blue if reconfirming else c.print_bold
-    print_function(f"today I {lemma},    yesterday I {v2},    I've already {v3}")
+    print_function(f"yesterday I {v2},    I've already {v3}")
     print("")
-    print_function(f'          she {thirdPS},      yo we {gerund}')
+    print_function(f'       she {thirdPS},      yo we {gerund}')
     print("")
     user_input = input('Enter YES\nAny   NO\nd     to double final consonant\nOr type in manually and press enter\n: ')
 

@@ -6,7 +6,20 @@
       "pol-ver-0000-być"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "infinitive": "be",
+      "v2": {
+        "isTerminus": true,
+        "normal": [
+          "was",
+          "were"
+        ]
+      },
+      "v3": "been",
+      "thirdPS": "is",
+      "gerund": "being"
+    }
   },
   {
     "lemma": "have",
@@ -18,8 +31,13 @@
     "frequency": 1,
     "inflections": {
       "infinitive": "have",
-      "verbal": {},
-      "v2": "had",
+      "v2": {
+        "isTerminus": true,
+        "normal": [
+          "has",
+          "have"
+        ]
+      },
       "v3": "had",
       "thirdPS": "has",
       "gerund": "having"
@@ -789,7 +807,15 @@
       "pol-ver-0829-pozwolić"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "infinitive": "let",
+      "verbal": {},
+      "v2": "let",
+      "v3": "let",
+      "thirdPS": "lets",
+      "gerund": "letting"
+    }
   },
   {
     "lemma": "allow",
@@ -803,7 +829,15 @@
       "pol-ver-0829-pozwolić"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "allow",
+      "verbal": {},
+      "v2": "allowed",
+      "v3": "allowed",
+      "thirdPS": "allows",
+      "gerund": "allowing"
+    }
   },
   {
     "lemma": "permit",
@@ -817,7 +851,15 @@
       "pol-ver-0829-pozwolić"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "permit",
+      "verbal": {},
+      "v2": "permitted",
+      "v3": "permitted",
+      "thirdPS": "permits",
+      "gerund": "permitting"
+    }
   },
   {
     "lemma": "return",
@@ -835,6 +877,14 @@
       "singleWordtype": true,
       "text": "transport",
       "emoji": "🚢️️"
+    },
+    "inflections": {
+      "infinitive": "return",
+      "verbal": {},
+      "v2": "returned",
+      "v3": "returned",
+      "thirdPS": "returns",
+      "gerund": "returning"
     }
   },
   {
@@ -850,6 +900,14 @@
       "singleWordtype": true,
       "text": "object",
       "emoji": "📦"
+    },
+    "inflections": {
+      "infinitive": "return",
+      "verbal": {},
+      "v2": "returned",
+      "v3": "returned",
+      "thirdPS": "returns",
+      "gerund": "returning"
     }
   },
   {
@@ -863,7 +921,15 @@
       "pol-ver-0035-wracać"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "come back",
+      "verbal": {},
+      "v2": "came back",
+      "v3": "come back",
+      "thirdPS": "comes back",
+      "gerund": "coming back"
+    }
   },
   {
     "lemma": "prefer",
@@ -875,7 +941,15 @@
       "pol-ver-0036-woleć"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "prefer",
+      "verbal": {},
+      "v2": "preferred",
+      "v3": "preferred",
+      "thirdPS": "prefers",
+      "gerund": "preferring"
+    }
   },
   {
     "lemma": "happen",
@@ -887,7 +961,15 @@
       "pol-ver-0037-dziać"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "happen",
+      "verbal": {},
+      "v2": "happened",
+      "v3": "happened",
+      "thirdPS": "happens",
+      "gerund": "happening"
+    }
   },
   {
     "lemma": "eat",
@@ -897,7 +979,15 @@
       "pol-ver-0039-zjeść"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "infinitive": "eat",
+      "verbal": {},
+      "v2": "ate",
+      "v3": "eaten",
+      "thirdPS": "eats",
+      "gerund": "eating"
+    }
   },
   {
     "lemma": "eat up",
@@ -906,7 +996,15 @@
       "pol-ver-0040-zjadać"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "eat up",
+      "verbal": {},
+      "v2": "ate up",
+      "v3": "eaten up",
+      "thirdPS": "eats up",
+      "gerund": "eating up"
+    }
   },
   {
     "lemma": "can",
@@ -921,6 +1019,9 @@
       "singleWordtype": true,
       "text": "ability",
       "emoji": "🏃"
+    },
+    "inflections": {
+      "infinitive": "swde"
     }
   },
   {
@@ -935,6 +1036,9 @@
       "singleWordtype": true,
       "text": "permission",
       "emoji": "🚫"
+    },
+    "inflections": {
+      "infinitive": "swde"
     }
   },
   {
@@ -949,6 +1053,9 @@
       "singleWordtype": true,
       "text": "general",
       "emoji": "🔲"
+    },
+    "inflections": {
+      "infinitive": "swde"
     }
   },
   {
@@ -962,7 +1069,20 @@
       "pol-ver-0045-móc(can or be able to)"
     ],
     "register": 0,
-    "frequency": 1
+    "frequency": 1,
+    "inflections": {
+      "infinitive": "be able to",
+      "v2": {
+        "isTerminus": true,
+        "normal": [
+          "was able to",
+          "were able to"
+        ]
+      },
+      "v3": "been able to",
+      "thirdPS": "is able to",
+      "gerund": "being able to"
+    }
   },
   {
     "lemma": "know how",
@@ -971,7 +1091,15 @@
       "pol-ver-0042-umieć"
     ],
     "register": 0,
-    "frequency": 2
+    "frequency": 2,
+    "inflections": {
+      "infinitive": "know how",
+      "verbal": {},
+      "v2": "knew how",
+      "v3": "known how",
+      "thirdPS": "knows how",
+      "gerund": "knowing how"
+    }
   },
   {
     "lemma": "be allowed",
