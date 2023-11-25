@@ -917,6 +917,8 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
             v2 = replace_char_at_index(v2, -3, 'i')
             v3 = replace_char_at_index(v3, -3, 'i')
         gerund = lemma + "ing"
+        if lemma.endswith('e'):
+            gerund = replace_char_at_index(gerund, -4, '')
 
     print("")
     print_function = c.print_blue if reconfirming else c.print_bold

@@ -1,0 +1,8654 @@
+[
+  {
+    "lemma": "be",
+    "id": "eng-ver-0001-be",
+    "»trans": [
+      "pol-ver-0000-być"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "have",
+    "id": "eng-ver-0002-have",
+    "»trans": [
+      "pol-ver-0000-mieć"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "inflections": {
+      "infinitive": "have",
+      "verbal": {},
+      "v2": "had",
+      "v3": "had",
+      "thirdPS": "has",
+      "gerund": "having"
+    }
+  },
+  {
+    "lemma": "do",
+    "id": "eng-ver-0003-do(general)",
+    "»trans": [
+      "pol-ver-0000-robić",
+      "pol-ver-0000-zrobić"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
+    "inflections": {
+      "infinitive": "do",
+      "verbal": {},
+      "v2": "did",
+      "v3": "done",
+      "thirdPS": "does",
+      "gerund": "doing"
+    }
+  },
+  {
+    "lemma": "do",
+    "id": "eng-ver-0004-do(perform)",
+    "»trans": [
+      "pol-ver-0250-dokonywać",
+      "pol-ver-0251-dokonać"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    },
+    "inflections": {
+      "infinitive": "do",
+      "verbal": {},
+      "v2": "did",
+      "v3": "done",
+      "thirdPS": "does",
+      "gerund": "doing"
+    }
+  },
+  {
+    "lemma": "make",
+    "id": "eng-ver-0005-make(create)",
+    "»trans": [
+      "pol-ver-0000-robić",
+      "pol-ver-0000-zrobić",
+      "pol-ver-0909-stwarzać",
+      "pol-ver-0910-stworzyć"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
+    "inflections": {
+      "infinitive": "make",
+      "verbal": {},
+      "v2": "made",
+      "v3": "made",
+      "thirdPS": "makes",
+      "gerund": "making"
+    }
+  },
+  {
+    "lemma": "make",
+    "id": "eng-ver-0006-make(perform)",
+    "»trans": [
+      "pol-ver-0250-dokonywać",
+      "pol-ver-0251-dokonać"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    },
+    "inflections": {
+      "infinitive": "make",
+      "verbal": {},
+      "v2": "made",
+      "v3": "made",
+      "thirdPS": "makes",
+      "gerund": "making"
+    }
+  },
+  {
+    "lemma": "make",
+    "id": "eng-ver-0007-make(causative)",
+    "»trans": [
+      "pol-ver-0378-uczynić",
+      "pol-ver-0907-czynić"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "causative",
+      "emoji": "❗"
+    }
+  },
+  {
+    "lemma": "make",
+    "id": "eng-ver-0008-make(decision)",
+    "»trans": [
+      "pol-ver-0649-podjąć",
+      "pol-ver-0650-podejmować"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    }
+  },
+  {
+    "lemma": "make",
+    "id": "eng-ver-0009-make(a mistake)",
+    "»trans": [
+      "pol-ver-0830-popełnić",
+      "pol-ver-0831-popełniać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "negative judgement",
+      "emoji": "👎"
+    }
+  },
+  {
+    "lemma": "create",
+    "id": "eng-ver-0010-create",
+    "»trans": [
+      "pol-ver-0000-robić",
+      "pol-ver-0000-zrobić",
+      "pol-ver-0909-stwarzać",
+      "pol-ver-0910-stworzyć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "stand",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0011-stand(on your feet)",
+    "»trans": [
+      "pol-ver-0001-stać(stand)",
+      "pol-ver-0002-stanąć"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    }
+  },
+  {
+    "lemma": "become",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0013-become",
+    "»trans": [
+      "pol-ver-0003-stawać",
+      "pol-ver-0004-stać(become)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "get up",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0014-getup",
+    "»trans": [
+      "pol-ver-0005-wstać",
+      "pol-ver-0006-wstawać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "stand up",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0015-standup",
+    "»trans": [
+      "pol-ver-0005-wstać",
+      "pol-ver-0006-wstawać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "take",
+    "id": "eng-ver-0017-take(general)",
+    "»trans": [
+      "pol-ver-0007-brać",
+      "pol-ver-0008-wziąć"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "take",
+    "id": "eng-ver-0018-take(decision)",
+    "»trans": [
+      "pol-ver-0649-podjąć",
+      "pol-ver-0650-podejmować"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    }
+  },
+  {
+    "lemma": "run",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0019-run(around)",
+    "»trans": [
+      "pol-ver-0009-biegać"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "with no destination",
+      "emoji": "🔁"
+    }
+  },
+  {
+    "lemma": "run",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0020-run(to)",
+    "»trans": [
+      "pol-ver-0010-pobiec",
+      "pol-ver-0011-biec"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "with specific destination",
+      "emoji": "🔚"
+    }
+  },
+  {
+    "lemma": "run",
+    "id": "eng-ver-0021-run(lead)",
+    "»trans": [
+      "pol-ver-0380-kierować",
+      "pol-ver-0832-prowadzić(lead)",
+      "pol-ver-0833-prowadzać(lead)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "employment",
+      "emoji": "🏢"
+    }
+  },
+  {
+    "lemma": "jog",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0022-jog",
+    "»trans": [
+      "pol-ver-0009-biegać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "go jogging",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0023-gojogging",
+    "»trans": [
+      "pol-ver-0009-biegać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "sit down",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0024-sitdown",
+    "»trans": [
+      "pol-ver-0012-siąść",
+      "pol-ver-0014-siadać",
+      "pol-ver-0015-usiąść"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "sit",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0025-sit",
+    "»trans": [
+      "pol-ver-0012-siąść",
+      "pol-ver-0013-siedzieć",
+      "pol-ver-0014-siadać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "fall down",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0026-falldown",
+    "»trans": [
+      "pol-ver-0016-upadać",
+      "pol-ver-0017-upaść"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "fall",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0027-fall(person)",
+    "»trans": [
+      "pol-ver-0016-upadać",
+      "pol-ver-0017-upaść"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
+    }
+  },
+  {
+    "lemma": "fall",
+    "id": "eng-ver-0028-fall(general)",
+    "»trans": [
+      "pol-ver-0729-paść",
+      "pol-ver-0730-padać"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "prepare",
+    "id": "eng-ver-0029-prepare",
+    "»trans": [
+      "pol-ver-0018-przygotować",
+      "pol-ver-0019-przygotowywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "put",
+    "id": "eng-ver-0030-put",
+    "»trans": [
+      "pol-ver-0020-położyć",
+      "pol-ver-0021-kłaść",
+      "pol-ver-0746-postawić",
+      "pol-ver-0747-stawiać"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "put in",
+    "id": "eng-ver-0031-putin",
+    "»trans": [
+      "pol-ver-0022-wkładać",
+      "pol-ver-0023-włożyć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "change",
+    "id": "eng-ver-0032-change(general)",
+    "»trans": [
+      "pol-ver-0024-zmienić",
+      "pol-ver-0025-zmieniać"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "change",
+    "id": "eng-ver-0033-change(clothes)",
+    "»trans": [
+      "pol-ver-0779-przebrać",
+      "pol-ver-0780-przebierać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "clothes",
+      "emoji": "👚"
+    }
+  },
+  {
+    "lemma": "count",
+    "id": "eng-ver-0034-count(numbers)",
+    "»trans": [
+      "pol-ver-0026-policzyć",
+      "pol-ver-0027-liczyć(count)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "mathematical",
+      "emoji": "🧮"
+    }
+  },
+  {
+    "lemma": "count",
+    "id": "eng-ver-0035-count(matter)",
+    "»trans": [
+      "pol-ver-0029-liczyć(matter)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "importance",
+      "emoji": "❗"
+    }
+  },
+  {
+    "lemma": "count on",
+    "id": "eng-ver-0036-counton",
+    "»trans": [
+      "pol-ver-0028-liczyć(count on)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "matter",
+    "id": "eng-ver-0037-matter",
+    "»trans": [
+      "pol-ver-0029-liczyć(matter)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "give",
+    "id": "eng-ver-0038-give",
+    "»trans": [
+      "pol-ver-0030-dać(give)",
+      "pol-ver-0032-dawać(give)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "let",
+    "id": "eng-ver-0039-let",
+    "»trans": [
+      "pol-ver-0031-dać(let)",
+      "pol-ver-0033-dawać(let)",
+      "pol-ver-0238-dopuścić",
+      "pol-ver-0239-dopuszczać",
+      "pol-ver-0828-pozwalać",
+      "pol-ver-0829-pozwolić"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "allow",
+    "id": "eng-ver-0040-allow",
+    "»trans": [
+      "pol-ver-0031-dać(let)",
+      "pol-ver-0033-dawać(let)",
+      "pol-ver-0238-dopuścić",
+      "pol-ver-0239-dopuszczać",
+      "pol-ver-0828-pozwalać",
+      "pol-ver-0829-pozwolić"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "permit",
+    "id": "eng-ver-0041-permit",
+    "»trans": [
+      "pol-ver-0031-dać(let)",
+      "pol-ver-0033-dawać(let)",
+      "pol-ver-0238-dopuścić",
+      "pol-ver-0239-dopuszczać",
+      "pol-ver-0828-pozwalać",
+      "pol-ver-0829-pozwolić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "return",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0042-return(travel)",
+    "»trans": [
+      "pol-ver-0034-wrócić",
+      "pol-ver-0035-wracać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transport",
+      "emoji": "🚢️️"
+    }
+  },
+  {
+    "lemma": "return",
+    "id": "eng-ver-0043-return(give back)",
+    "»trans": [
+      "pol-ver-0566-oddać(give back)",
+      "pol-ver-0568-oddawać(give back)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    }
+  },
+  {
+    "lemma": "come back",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0044-comeback",
+    "»trans": [
+      "pol-ver-0034-wrócić",
+      "pol-ver-0035-wracać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "prefer",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0045-prefer",
+    "»trans": [
+      "pol-ver-0036-woleć"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "happen",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0046-happen",
+    "»trans": [
+      "pol-ver-0037-dziać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "eat",
+    "id": "eng-ver-0047-eat",
+    "»trans": [
+      "pol-ver-0038-jeść",
+      "pol-ver-0039-zjeść"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "eat up",
+    "id": "eng-ver-0048-eatup",
+    "»trans": [
+      "pol-ver-0040-zjadać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "can",
+    "id": "eng-ver-0049-can(able)",
+    "»trans": [
+      "pol-ver-0042-umieć",
+      "pol-ver-0045-móc(can or be able to)"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "ability",
+      "emoji": "🏃"
+    }
+  },
+  {
+    "lemma": "can",
+    "id": "eng-ver-0050-can(allowed)",
+    "»trans": [
+      "pol-ver-0046-móc(can or be allowed)"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "permission",
+      "emoji": "🚫"
+    }
+  },
+  {
+    "lemma": "can",
+    "id": "eng-ver-0051-can(might)",
+    "»trans": [
+      "pol-ver-0047-móc(can may might)"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "be able to",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0052-beableto",
+    "»trans": [
+      "pol-ver-0042-umieć",
+      "pol-ver-0045-móc(can or be able to)"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "know how",
+    "id": "eng-ver-0053-knowhow",
+    "»trans": [
+      "pol-ver-0042-umieć"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "be allowed",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0054-beallowed",
+    "»trans": [
+      "pol-ver-0046-móc(can or be allowed)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "may",
+    "id": "eng-ver-0055-may",
+    "»trans": [
+      "pol-ver-0047-móc(can may might)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "might",
+    "id": "eng-ver-0056-might",
+    "»trans": [
+      "pol-ver-0047-móc(can may might)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "want",
+    "id": "eng-ver-0057-want",
+    "»trans": [
+      "pol-ver-0048-chcieć"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "drink up",
+    "id": "eng-ver-0058-drinkup",
+    "»trans": [
+      "pol-ver-0049-wypijać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "drink",
+    "id": "eng-ver-0059-drink",
+    "»trans": [
+      "pol-ver-0050-wypić",
+      "pol-ver-0051-pić"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "cook",
+    "id": "eng-ver-0060-cook",
+    "»trans": [
+      "pol-ver-0052-ugotować(cook)",
+      "pol-ver-0054-gotować(cook)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "boil",
+    "id": "eng-ver-0061-boil",
+    "»trans": [
+      "pol-ver-0053-ugotować(boil)",
+      "pol-ver-0055-gotować(boil)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "need",
+    "id": "eng-ver-0062-need",
+    "»trans": [
+      "pol-ver-0056-potrzebować"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "must",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0063-must",
+    "»trans": [
+      "pol-ver-0057-musieć"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "have to",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0064-haveto",
+    "»trans": [
+      "pol-ver-0057-musieć"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "need to",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0065-needto",
+    "»trans": [
+      "pol-ver-0057-musieć"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "bring",
+    "id": "eng-ver-0066-bring",
+    "»trans": [
+      "pol-ver-0060-przynieść(bring)",
+      "pol-ver-0062-przynosić(bring)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "fetch",
+    "id": "eng-ver-0067-fetch",
+    "»trans": [
+      "pol-ver-0061-przynieść(fetch)",
+      "pol-ver-0063-przynosić(fetch)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "descend",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0068-descend",
+    "»trans": [
+      "pol-ver-0064-schodzić",
+      "pol-ver-0065-zejść"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "go down",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0069-godown",
+    "»trans": [
+      "pol-ver-0064-schodzić",
+      "pol-ver-0065-zejść"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "arrive",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0070-arrive(foot)",
+    "»trans": [
+      "pol-ver-0066-przychodzić",
+      "pol-ver-0068-przyjść"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    }
+  },
+  {
+    "lemma": "arrive",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0071-arrive(vehicle)",
+    "»trans": [
+      "pol-ver-0067-przyjechać",
+      "pol-ver-0069-przyjeżdżać",
+      "pol-ver-0264-dojechać",
+      "pol-ver-0265-dojeżdżać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "driving",
+      "emoji": "🚗"
+    }
+  },
+  {
+    "lemma": "come",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0073-come(foot)",
+    "»trans": [
+      "pol-ver-0066-przychodzić",
+      "pol-ver-0068-przyjść"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    }
+  },
+  {
+    "lemma": "come",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0074-come(vehicle)",
+    "»trans": [
+      "pol-ver-0067-przyjechać",
+      "pol-ver-0069-przyjeżdżać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "driving",
+      "emoji": "🚗"
+    }
+  },
+  {
+    "lemma": "come",
+    "id": "eng-ver-0075-come(origin)",
+    "»trans": [
+      "pol-ver-0631-pochodzić"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg a country",
+      "emoji": "🗾"
+    }
+  },
+  {
+    "lemma": "go",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0076-go(foot)",
+    "»trans": [
+      "pol-ver-0070-iść(go)",
+      "pol-ver-0072-pójść(go)",
+      "pol-ver-0074-chodzić(go)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    }
+  },
+  {
+    "lemma": "go",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0077-go(vehicle)",
+    "»trans": [
+      "pol-ver-0076-jechać(go)",
+      "pol-ver-0078-pojechać(go)",
+      "pol-ver-0080-jeździć(go)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "driving",
+      "emoji": "🚗"
+    }
+  },
+  {
+    "lemma": "walk",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0078-walk",
+    "»trans": [
+      "pol-ver-0071-iść(walk)",
+      "pol-ver-0073-pójść(walk)",
+      "pol-ver-0075-chodzić(walk)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "drive",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0079-drive(intransitive)",
+    "»trans": [
+      "pol-ver-0077-jechać(drive)",
+      "pol-ver-0079-pojechać(drive)",
+      "pol-ver-0081-jeździć(drive)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "intransitive",
+      "emoji": "🇮"
+    }
+  },
+  {
+    "lemma": "drive",
+    "id": "eng-ver-0080-drive(transitive)",
+    "»trans": [
+      "pol-ver-0834-prowadzić(drive)",
+      "pol-ver-0835-prowadzać(drive)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transitive",
+      "emoji": "🇹"
+    }
+  },
+  {
+    "lemma": "think",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0081-think",
+    "»trans": [
+      "pol-ver-0082-pomyśleć",
+      "pol-ver-0083-myśleć"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "turn off",
+    "id": "eng-ver-0082-turnoff",
+    "»trans": [
+      "pol-ver-0084-wyłączać(turn off)",
+      "pol-ver-0086-wyłączyć(turn off)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "switch off",
+    "id": "eng-ver-0083-switchoff",
+    "»trans": [
+      "pol-ver-0084-wyłączać(turn off)",
+      "pol-ver-0086-wyłączyć(turn off)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "exclude",
+    "id": "eng-ver-0084-exclude",
+    "»trans": [
+      "pol-ver-0085-wyłączać(exclude)",
+      "pol-ver-0087-wyłączyć(exclude)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "open",
+    "id": "eng-ver-0085-open",
+    "»trans": [
+      "pol-ver-0088-otwierać",
+      "pol-ver-0089-otworzyć"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "tell",
+    "id": "eng-ver-0086-tell",
+    "»trans": [
+      "pol-ver-0090-powiedzieć",
+      "pol-ver-0091-mówić(talk)",
+      "pol-ver-0158-opowiedzieć",
+      "pol-ver-0159-opowiadać",
+      "pol-ver-0710-oznajmić",
+      "pol-ver-0711-oznajmiać"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "say",
+    "transitivity": [
+      "t",
+      "i"
+    ],
+    "id": "eng-ver-0087-say",
+    "»trans": [
+      "pol-ver-0090-powiedzieć",
+      "pol-ver-0091-mówić(talk)"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "speak",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0088-speak(talk)",
+    "»trans": [
+      "pol-ver-0091-mówić(talk)",
+      "pol-ver-0092-porozmawiać",
+      "pol-ver-0093-rozmawiać"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "speak",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0089-speakalanguage(language)",
+    "»trans": [
+      "pol-ver-0908-mówić(speak a language)"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "a language",
+      "emoji": "🇯🇵"
+    }
+  },
+  {
+    "lemma": "talk",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0090-talk",
+    "»trans": [
+      "pol-ver-0091-mówić(talk)",
+      "pol-ver-0092-porozmawiać",
+      "pol-ver-0093-rozmawiać",
+      "pol-ver-0379-gadać"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "converse",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0092-converse",
+    "»trans": [
+      "pol-ver-0092-porozmawiać",
+      "pol-ver-0093-rozmawiać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "chat",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0093-chat",
+    "»trans": [
+      "pol-ver-0092-porozmawiać",
+      "pol-ver-0093-rozmawiać",
+      "pol-ver-0379-gadać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "end",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0095-end(intransitive)",
+    "»trans": [
+      "pol-ver-0094-kończyć",
+      "pol-ver-0095-skończyć"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "intransitive",
+      "emoji": "🇮"
+    }
+  },
+  {
+    "lemma": "end",
+    "id": "eng-ver-0096-end(transitive)",
+    "»trans": [
+      "pol-ver-0263-dokończyć"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transitive",
+      "emoji": "🇹"
+    }
+  },
+  {
+    "lemma": "finish",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0097-finish(intransitive)",
+    "»trans": [
+      "pol-ver-0094-kończyć",
+      "pol-ver-0095-skończyć"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "intransitive",
+      "emoji": "🇮"
+    }
+  },
+  {
+    "lemma": "finish",
+    "id": "eng-ver-0098-finish(transitive)",
+    "»trans": [
+      "pol-ver-0263-dokończyć"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transitive",
+      "emoji": "🇹"
+    }
+  },
+  {
+    "lemma": "sleep",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0099-sleep",
+    "»trans": [
+      "pol-ver-0096-spać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "lose",
+    "id": "eng-ver-0100-lose(possession)",
+    "»trans": [
+      "pol-ver-0097-tracić(lose)",
+      "pol-ver-0099-stracić(lose)",
+      "pol-ver-0101-utracić"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "lose",
+    "id": "eng-ver-0101-lose(misplace)",
+    "»trans": [
+      "pol-ver-0169-zgubić(lose)"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "cannot find",
+      "emoji": "👓"
+    }
+  },
+  {
+    "lemma": "lose",
+    "id": "eng-ver-0102-lose(game)",
+    "»trans": [
+      "pol-ver-0201-przegrać",
+      "pol-ver-0202-przegrywać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "games/sports",
+      "emoji": "🎲"
+    }
+  },
+  {
+    "lemma": "waste",
+    "id": "eng-ver-0103-waste",
+    "»trans": [
+      "pol-ver-0098-tracić(waste)",
+      "pol-ver-0100-stracić(waste)",
+      "pol-ver-0528-marnować",
+      "pol-ver-0529-zmarnować"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "sell",
+    "id": "eng-ver-0104-sell",
+    "»trans": [
+      "pol-ver-0102-sprzedawać",
+      "pol-ver-0103-sprzedać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "pay",
+    "id": "eng-ver-0105-pay",
+    "»trans": [
+      "pol-ver-0104-zapłacić",
+      "pol-ver-0105-płacić"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "organise",
+    "id": "eng-ver-0106-organise(general)",
+    "»trans": [
+      "pol-ver-0107-organizować",
+      "pol-ver-0108-zorganizować"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "additionalSpellings": [
+      "organize"
+    ],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "organise",
+    "id": "eng-ver-0107-organise(event)",
+    "»trans": [
+      "pol-ver-0555-odbyć(hold)",
+      "pol-ver-0557-odbywać(hold)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "additionalSpellings": [
+      "organize"
+    ],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "event",
+      "emoji": "📅️"
+    }
+  },
+  {
+    "lemma": "switch on",
+    "id": "eng-ver-0108-switchon",
+    "»trans": [
+      "pol-ver-0109-włączyć(switch on)",
+      "pol-ver-0111-włączać(switch on)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "turn on",
+    "id": "eng-ver-0109-turnon(device)",
+    "»trans": [
+      "pol-ver-0109-włączyć(switch on)",
+      "pol-ver-0111-włączać(switch on)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "technology",
+      "emoji": "💻"
+    }
+  },
+  {
+    "lemma": "turn on",
+    "id": "eng-ver-0110-turnon(sexually)",
+    "»trans": [
+      "pol-ver-0512-nakręcić(sexually)",
+      "pol-ver-0514-nakręcać(sexually)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "romantic",
+      "emoji": "💕"
+    }
+  },
+  {
+    "lemma": "include",
+    "id": "eng-ver-0111-include(include)",
+    "»trans": [
+      "pol-ver-0110-włączyć(include)",
+      "pol-ver-0112-włączać(include)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "include",
+      "emoji": "⚪"
+    }
+  },
+  {
+    "lemma": "include",
+    "id": "eng-ver-0112-include(comprise)",
+    "»trans": [
+      "pol-ver-0455-objąć",
+      "pol-ver-0456-obejmować"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "comprise",
+      "emoji": "⚪"
+    }
+  },
+  {
+    "lemma": "enter",
+    "id": "eng-ver-0113-enter",
+    "»trans": [
+      "pol-ver-0113-wejść",
+      "pol-ver-0114-wchodzić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "go into",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0114-gointo",
+    "»trans": [
+      "pol-ver-0113-wejść",
+      "pol-ver-0114-wchodzić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "wash",
+    "id": "eng-ver-0115-wash",
+    "»trans": [
+      "pol-ver-0115-umyć",
+      "pol-ver-0116-myć"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "clean",
+    "id": "eng-ver-0116-clean(wash)",
+    "»trans": [
+      "pol-ver-0115-umyć",
+      "pol-ver-0116-myć"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "with water",
+      "emoji": "🧽"
+    }
+  },
+  {
+    "lemma": "clean",
+    "id": "eng-ver-0117-clean(tidy)",
+    "»trans": [
+      "pol-ver-0122-sprzątać",
+      "pol-ver-0224-posprzątać"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg a room",
+      "emoji": "🧹"
+    }
+  },
+  {
+    "lemma": "watch",
+    "id": "eng-ver-0118-watch(film)",
+    "»trans": [
+      "pol-ver-0117-oglądać",
+      "pol-ver-0118-obejrzeć"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "television",
+      "emoji": "📺"
+    }
+  },
+  {
+    "lemma": "watch",
+    "id": "eng-ver-0119-watch(child)",
+    "»trans": [
+      "pol-ver-0735-pilnować(watch)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "keep an eye on",
+      "emoji": "👀"
+    }
+  },
+  {
+    "lemma": "use",
+    "id": "eng-ver-0120-use(use)",
+    "»trans": [
+      "pol-ver-0119-używać",
+      "pol-ver-0120-użyć",
+      "pol-ver-0190-korzystać(use)",
+      "pol-ver-0193-skorzystać(use)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "use",
+    "id": "eng-ver-0121-use(takeadvantage)",
+    "»trans": [
+      "pol-ver-0192-korzystać(take advantage)",
+      "pol-ver-0195-skorzystać(take advantage)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "negative judgement",
+      "emoji": "👎"
+    }
+  },
+  {
+    "lemma": "look for",
+    "id": "eng-ver-0122-lookfor",
+    "»trans": [
+      "pol-ver-0121-szukać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "search for",
+    "id": "eng-ver-0123-searchfor",
+    "»trans": [
+      "pol-ver-0121-szukać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "clean up",
+    "id": "eng-ver-0124-cleanup(tidy)",
+    "»trans": [
+      "pol-ver-0122-sprzątać",
+      "pol-ver-0224-posprzątać"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg a room",
+      "emoji": "🧹"
+    }
+  },
+  {
+    "lemma": "clean up",
+    "id": "eng-ver-0125-cleanup(cleananobject)",
+    "»trans": [
+      "pol-ver-0544-oczyścić(clean up)",
+      "pol-ver-0546-oczyszczać(clean up)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    }
+  },
+  {
+    "lemma": "tidy up",
+    "id": "eng-ver-0126-tidyup",
+    "»trans": [
+      "pol-ver-0122-sprzątać",
+      "pol-ver-0224-posprzątać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "tidy",
+    "id": "eng-ver-0127-tidy",
+    "»trans": [
+      "pol-ver-0122-sprzątać",
+      "pol-ver-0224-posprzątać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "live",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0128-live(be alive)",
+    "»trans": [
+      "pol-ver-0123-żyć"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "live",
+    "id": "eng-ver-0129-live(location)",
+    "»trans": [
+      "pol-ver-0215-mieszkać",
+      "pol-ver-0216-zamieszkać"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "location",
+      "emoji": "📍"
+    }
+  },
+  {
+    "lemma": "ask for",
+    "id": "eng-ver-0130-askfor",
+    "»trans": [
+      "pol-ver-0124-poprosić",
+      "pol-ver-0125-prosić"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "get",
+    "id": "eng-ver-0131-get(receive)",
+    "»trans": [
+      "pol-ver-0126-dostawać",
+      "pol-ver-0127-dostać"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    }
+  },
+  {
+    "lemma": "get",
+    "id": "eng-ver-0132-get(understand)",
+    "»trans": [
+      "pol-ver-0721-pojąć",
+      "pol-ver-0722-pojmować"
+    ],
+    "register": 0,
+    "frequency": 5,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "psychological",
+      "emoji": "🧠"
+    }
+  },
+  {
+    "lemma": "receive",
+    "id": "eng-ver-0133-receive",
+    "»trans": [
+      "pol-ver-0126-dostawać",
+      "pol-ver-0127-dostać",
+      "pol-ver-0699-otrzymywać",
+      "pol-ver-0700-otrzymać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "give birth",
+    "id": "eng-ver-0134-givebirth",
+    "»trans": [
+      "pol-ver-0128-urodzić",
+      "pol-ver-0129-rodzić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "be born",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0135-beborn",
+    "»trans": [
+      "pol-ver-0128-urodzić",
+      "pol-ver-0129-rodzić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "exit",
+    "id": "eng-ver-0136-exit",
+    "»trans": [
+      "pol-ver-0130-wyjść",
+      "pol-ver-0131-wychodzić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "go out",
+    "id": "eng-ver-0137-goout",
+    "»trans": [
+      "pol-ver-0130-wyjść",
+      "pol-ver-0131-wychodzić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "leave",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0138-leave(foot)",
+    "»trans": [
+      "pol-ver-0130-wyjść",
+      "pol-ver-0131-wychodzić"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    }
+  },
+  {
+    "lemma": "leave",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0139-leave(vehicle)",
+    "»trans": [
+      "pol-ver-0591-odjechać",
+      "pol-ver-0592-odjeżdżać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "driving",
+      "emoji": "🚗"
+    }
+  },
+  {
+    "lemma": "leave",
+    "id": "eng-ver-0140-leave(behind)",
+    "»trans": [
+      "pol-ver-0151-zostawiać",
+      "pol-ver-0152-zostawić"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    }
+  },
+  {
+    "lemma": "leave",
+    "id": "eng-ver-0141-leave(exit)",
+    "»trans": [
+      "pol-ver-0570-odchodzić",
+      "pol-ver-0571-odejść"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transport",
+      "emoji": "🚢️️"
+    }
+  },
+  {
+    "lemma": "leave",
+    "id": "eng-ver-0142-leave(abandon)",
+    "»trans": [
+      "pol-ver-0657-opuścić",
+      "pol-ver-0658-opuszczać",
+      "pol-ver-0867-porzucić",
+      "pol-ver-0868-porzucać"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
+    }
+  },
+  {
+    "lemma": "like",
+    "id": "eng-ver-0143-like",
+    "»trans": [
+      "pol-ver-0132-lubić",
+      "pol-ver-0133-polubić",
+      "pol-ver-0185-uwielbiać",
+      "pol-ver-0186-uwielbić"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "send",
+    "id": "eng-ver-0144-send(send)",
+    "»trans": [
+      "pol-ver-0134-wysyłać(send)",
+      "pol-ver-0136-wysłać(send)",
+      "pol-ver-0895-przesłać",
+      "pol-ver-0896-przesyłać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "send",
+    "id": "eng-ver-0145-send(mail)",
+    "»trans": [
+      "pol-ver-0135-wysyłać(mail)",
+      "pol-ver-0137-wysłać(mail)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "postal service",
+      "emoji": "✉️"
+    }
+  },
+  {
+    "lemma": "mail",
+    "id": "eng-ver-0146-mail",
+    "»trans": [
+      "pol-ver-0135-wysyłać(mail)",
+      "pol-ver-0137-wysłać(mail)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "win",
+    "id": "eng-ver-0147-win",
+    "»trans": [
+      "pol-ver-0138-wygrywać",
+      "pol-ver-0139-wygrać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "decide",
+    "id": "eng-ver-0148-decide",
+    "»trans": [
+      "pol-ver-0140-decydować",
+      "pol-ver-0141-zdecydować",
+      "pol-ver-0771-postanawiać",
+      "pol-ver-0772-postanowić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "believe",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0149-believe",
+    "»trans": [
+      "pol-ver-0142-uwierzyć",
+      "pol-ver-0143-wierzyć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "trust",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0150-trust",
+    "»trans": [
+      "pol-ver-0142-uwierzyć",
+      "pol-ver-0143-wierzyć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "have fun",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0151-havefun",
+    "»trans": [
+      "pol-ver-0144-bawić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "play",
+    "id": "eng-ver-0152-play(have fun)",
+    "»trans": [
+      "pol-ver-0144-bawić"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "play",
+    "id": "eng-ver-0153-play(game)",
+    "»trans": [
+      "pol-ver-0205-grać",
+      "pol-ver-0206-zagrać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "games/sports",
+      "emoji": "🎲"
+    }
+  },
+  {
+    "lemma": "play",
+    "id": "eng-ver-0154-play(instrument)",
+    "»trans": [
+      "pol-ver-0205-grać",
+      "pol-ver-0206-zagrać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "music",
+      "emoji": "🎵"
+    }
+  },
+  {
+    "lemma": "play",
+    "id": "eng-ver-0155-play(role)",
+    "»trans": [
+      "pol-ver-0538-odgrywać",
+      "pol-ver-0539-odegrać"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "theatre",
+      "emoji": "🎭"
+    }
+  },
+  {
+    "lemma": "buy",
+    "id": "eng-ver-0156-buy",
+    "»trans": [
+      "pol-ver-0145-kupować",
+      "pol-ver-0146-kupić",
+      "pol-ver-0449-nabyć",
+      "pol-ver-0450-nabywać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "purchase",
+    "id": "eng-ver-0157-purchase",
+    "»trans": [
+      "pol-ver-0145-kupować",
+      "pol-ver-0146-kupić",
+      "pol-ver-0449-nabyć",
+      "pol-ver-0450-nabywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "die",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0158-die",
+    "»trans": [
+      "pol-ver-0147-umrzeć",
+      "pol-ver-0148-umierać",
+      "pol-ver-0341-ginąć",
+      "pol-ver-0342-zginąć"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "try",
+    "id": "eng-ver-0159-try(plus noun)",
+    "»trans": [
+      "pol-ver-0149-próbować",
+      "pol-ver-0150-spróbować"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "plus noun",
+      "emoji": "🇳"
+    }
+  },
+  {
+    "lemma": "try",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0160-try(to)",
+    "»trans": [
+      "pol-ver-0760-postarać",
+      "pol-ver-0761-starać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "plus verb",
+      "emoji": "🇻"
+    }
+  },
+  {
+    "lemma": "attempt",
+    "id": "eng-ver-0161-attempt",
+    "»trans": [
+      "pol-ver-0149-próbować",
+      "pol-ver-0150-spróbować",
+      "pol-ver-0760-postarać",
+      "pol-ver-0761-starać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "leave behind",
+    "id": "eng-ver-0162-leavebehind",
+    "»trans": [
+      "pol-ver-0151-zostawiać",
+      "pol-ver-0152-zostawić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "close",
+    "id": "eng-ver-0163-close",
+    "»trans": [
+      "pol-ver-0153-zamknąć(close)",
+      "pol-ver-0155-zamykać(close)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "shut",
+    "id": "eng-ver-0164-shut",
+    "»trans": [
+      "pol-ver-0153-zamknąć(close)",
+      "pol-ver-0155-zamykać(close)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "lock",
+    "id": "eng-ver-0165-lock",
+    "»trans": [
+      "pol-ver-0154-zamknąć(lock)",
+      "pol-ver-0156-zamykać(lock)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "hate",
+    "id": "eng-ver-0166-hate",
+    "»trans": [
+      "pol-ver-0157-nienawidzić"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "detest",
+    "id": "eng-ver-0167-detest",
+    "»trans": [
+      "pol-ver-0157-nienawidzić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "despise",
+    "id": "eng-ver-0168-despise",
+    "»trans": [
+      "pol-ver-0157-nienawidzić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "carry",
+    "id": "eng-ver-0169-carry",
+    "»trans": [
+      "pol-ver-0160-nieść",
+      "pol-ver-0161-nosić(carry)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "wear",
+    "id": "eng-ver-0170-wear",
+    "»trans": [
+      "pol-ver-0162-nosić(wear)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "find",
+    "id": "eng-ver-0171-find",
+    "»trans": [
+      "pol-ver-0163-znaleźć",
+      "pol-ver-0164-znajdować",
+      "pol-ver-0605-odnaleźć",
+      "pol-ver-0606-odnajdywać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "wake",
+    "id": "eng-ver-0172-wake",
+    "»trans": [
+      "pol-ver-0165-obudzić",
+      "pol-ver-0166-budzić"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "wake up",
+    "id": "eng-ver-0173-wakeup",
+    "»trans": [
+      "pol-ver-0165-obudzić",
+      "pol-ver-0166-budzić"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "awake",
+    "id": "eng-ver-0174-awake",
+    "»trans": [
+      "pol-ver-0165-obudzić",
+      "pol-ver-0166-budzić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "thank",
+    "id": "eng-ver-0175-thank",
+    "»trans": [
+      "pol-ver-0167-podziękować",
+      "pol-ver-0168-dziękować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "mislay",
+    "id": "eng-ver-0176-mislay",
+    "»trans": [
+      "pol-ver-0169-zgubić(lose)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "misplace",
+    "id": "eng-ver-0177-misplace",
+    "»trans": [
+      "pol-ver-0169-zgubić(lose)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "get lost",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0178-getlost",
+    "»trans": [
+      "pol-ver-0170-zgubić(get lost)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "promise",
+    "id": "eng-ver-0179-promise",
+    "»trans": [
+      "pol-ver-0171-obiecywać",
+      "pol-ver-0172-obiecać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "hear out",
+    "id": "eng-ver-0180-hearout",
+    "»trans": [
+      "pol-ver-0173-wysłuchać",
+      "pol-ver-0174-wysłuchiwać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "repeat",
+    "id": "eng-ver-0181-repeat",
+    "»trans": [
+      "pol-ver-0175-powtórzyć",
+      "pol-ver-0176-powtarzać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "teach",
+    "id": "eng-ver-0182-teach",
+    "»trans": [
+      "pol-ver-0177-nauczyć(teach)",
+      "pol-ver-0179-nauczać(teach)",
+      "pol-ver-0196-uczyć(teach)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "learn",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0183-learn",
+    "»trans": [
+      "pol-ver-0178-nauczyć(learn)",
+      "pol-ver-0180-nauczać(learn)",
+      "pol-ver-0197-uczyć(learn)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "study",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0184-study(learn)",
+    "»trans": [
+      "pol-ver-0178-nauczyć(learn)",
+      "pol-ver-0180-nauczać(learn)",
+      "pol-ver-0197-uczyć(learn)"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "school",
+      "emoji": "🎒"
+    }
+  },
+  {
+    "lemma": "study",
+    "id": "eng-ver-0185-study(research)",
+    "»trans": [
+      "pol-ver-0266-badać(research)",
+      "pol-ver-0269-zbadać(research)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "university",
+      "emoji": "🎓"
+    }
+  },
+  {
+    "lemma": "describe",
+    "id": "eng-ver-0186-describe",
+    "»trans": [
+      "pol-ver-0181-opisywać",
+      "pol-ver-0182-opisać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "start",
+    "id": "eng-ver-0187-start",
+    "»trans": [
+      "pol-ver-0183-zaczynać",
+      "pol-ver-0184-zacząć"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "begin",
+    "id": "eng-ver-0188-begin",
+    "»trans": [
+      "pol-ver-0183-zaczynać",
+      "pol-ver-0184-zacząć"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "adore",
+    "id": "eng-ver-0189-adore",
+    "»trans": [
+      "pol-ver-0185-uwielbiać",
+      "pol-ver-0186-uwielbić",
+      "pol-ver-0210-kochać",
+      "pol-ver-0211-pokochać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "love",
+    "id": "eng-ver-0190-love(adore)",
+    "»trans": [
+      "pol-ver-0185-uwielbiać",
+      "pol-ver-0186-uwielbić",
+      "pol-ver-0210-kochać",
+      "pol-ver-0211-pokochać"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "love",
+    "id": "eng-ver-0191-love(romantic)",
+    "»trans": [
+      "pol-ver-0210-kochać",
+      "pol-ver-0211-pokochać"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "romantic",
+      "emoji": "💕"
+    }
+  },
+  {
+    "lemma": "ask",
+    "id": "eng-ver-0192-ask",
+    "»trans": [
+      "pol-ver-0187-pytać",
+      "pol-ver-0188-zapytać",
+      "pol-ver-0189-spytać",
+      "pol-ver-0198-zapytywać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "benefit",
+    "id": "eng-ver-0193-benefit",
+    "»trans": [
+      "pol-ver-0191-korzystać(benefit)",
+      "pol-ver-0194-skorzystać(benefit)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "profit",
+    "id": "eng-ver-0194-profit",
+    "»trans": [
+      "pol-ver-0191-korzystać(benefit)",
+      "pol-ver-0194-skorzystać(benefit)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "take advantage",
+    "id": "eng-ver-0195-takeadvantage",
+    "»trans": [
+      "pol-ver-0192-korzystać(take advantage)",
+      "pol-ver-0195-skorzystać(take advantage)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "listen",
+    "id": "eng-ver-0197-listen",
+    "»trans": [
+      "pol-ver-0203-słuchać",
+      "pol-ver-0204-posłuchać"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "see",
+    "id": "eng-ver-0198-see",
+    "»trans": [
+      "pol-ver-0207-widzieć",
+      "pol-ver-0208-zobaczyć",
+      "pol-ver-0209-widywać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "fall in love",
+    "id": "eng-ver-0199-fallinlove",
+    "»trans": [
+      "pol-ver-0212-zakochać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "fall for",
+    "id": "eng-ver-0200-fallfor",
+    "»trans": [
+      "pol-ver-0212-zakochać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "look at",
+    "id": "eng-ver-0201-lookat",
+    "»trans": [
+      "pol-ver-0213-patrzeć",
+      "pol-ver-0214-popatrzeć"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "reside",
+    "id": "eng-ver-0202-reside",
+    "»trans": [
+      "pol-ver-0215-mieszkać",
+      "pol-ver-0216-zamieszkać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "reply",
+    "id": "eng-ver-0203-reply",
+    "»trans": [
+      "pol-ver-0217-odpowiedzieć(reply)",
+      "pol-ver-0219-odpowiadać(reply)",
+      "pol-ver-0612-odrzec",
+      "pol-ver-0613-odrzekać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "respond",
+    "id": "eng-ver-0204-respond",
+    "»trans": [
+      "pol-ver-0217-odpowiedzieć(reply)",
+      "pol-ver-0219-odpowiadać(reply)",
+      "pol-ver-0612-odrzec",
+      "pol-ver-0613-odrzekać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "answer",
+    "id": "eng-ver-0205-answer",
+    "»trans": [
+      "pol-ver-0217-odpowiedzieć(reply)",
+      "pol-ver-0219-odpowiadać(reply)",
+      "pol-ver-0612-odrzec",
+      "pol-ver-0613-odrzekać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "answer for",
+    "id": "eng-ver-0206-answerfor",
+    "»trans": [
+      "pol-ver-0218-odpowiedzieć(answer for)",
+      "pol-ver-0220-odpowiadać(answer for)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "be accountable for",
+    "id": "eng-ver-0207-beaccountablefor",
+    "»trans": [
+      "pol-ver-0218-odpowiedzieć(answer for)",
+      "pol-ver-0220-odpowiadać(answer for)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "be responsible for",
+    "id": "eng-ver-0208-beresponsiblefor",
+    "»trans": [
+      "pol-ver-0218-odpowiedzieć(answer for)",
+      "pol-ver-0220-odpowiadać(answer for)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "wait",
+    "id": "eng-ver-0209-wait",
+    "»trans": [
+      "pol-ver-0221-poczekać",
+      "pol-ver-0222-czekać",
+      "pol-ver-0223-zaczekać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "complain",
+    "id": "eng-ver-0210-complain",
+    "»trans": [
+      "pol-ver-0225-narzekać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "kiss",
+    "id": "eng-ver-0211-kiss",
+    "»trans": [
+      "pol-ver-0226-całować",
+      "pol-ver-0227-pocałować"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "lurk",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0212-lurk",
+    "»trans": [
+      "pol-ver-0228-czaić"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "skulk",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0213-skulk",
+    "»trans": [
+      "pol-ver-0228-czaić"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "lie in wait",
+    "id": "eng-ver-0214-lieinwait",
+    "»trans": [
+      "pol-ver-0228-czaić"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "get ill",
+    "id": "eng-ver-0215-getill",
+    "»trans": [
+      "pol-ver-0229-chorować",
+      "pol-ver-0230-zachorować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "get sick",
+    "id": "eng-ver-0216-getsick",
+    "»trans": [
+      "pol-ver-0229-chorować",
+      "pol-ver-0230-zachorować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "appreciate",
+    "id": "eng-ver-0217-appreciate",
+    "»trans": [
+      "pol-ver-0231-docenić",
+      "pol-ver-0232-doceniać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "annoy",
+    "id": "eng-ver-0218-annoy",
+    "»trans": [
+      "pol-ver-0233-denerwować(annoy)",
+      "pol-ver-0235-zdenerwować(annoy)",
+      "pol-ver-0388-irytować",
+      "pol-ver-0389-zirytować"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "irritate",
+    "id": "eng-ver-0219-irritate",
+    "»trans": [
+      "pol-ver-0233-denerwować(annoy)",
+      "pol-ver-0235-zdenerwować(annoy)",
+      "pol-ver-0388-irytować",
+      "pol-ver-0389-zirytować"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "be nervous",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0220-benervous",
+    "»trans": [
+      "pol-ver-0234-denerwować(be nervous)",
+      "pol-ver-0236-zdenerwować(be nervous)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "be irritated",
+    "id": "eng-ver-0221-beirritated",
+    "»trans": [
+      "pol-ver-0234-denerwować(be nervous)",
+      "pol-ver-0236-zdenerwować(be nervous)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "be annoyed",
+    "id": "eng-ver-0222-beannoyed",
+    "»trans": [
+      "pol-ver-0234-denerwować(be nervous)",
+      "pol-ver-0236-zdenerwować(be nervous)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "strive",
+    "id": "eng-ver-0223-strive",
+    "»trans": [
+      "pol-ver-0237-dążyć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "enjoy",
+    "id": "eng-ver-0224-enjoy",
+    "»trans": [
+      "pol-ver-0240-cieszyć",
+      "pol-ver-0241-ucieszyć"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "figure out",
+    "id": "eng-ver-0226-figureout",
+    "»trans": [
+      "pol-ver-0242-domyślić",
+      "pol-ver-0243-domyślać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "work out",
+    "id": "eng-ver-0228-workout",
+    "»trans": [
+      "pol-ver-0242-domyślić",
+      "pol-ver-0243-domyślać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "hide",
+    "id": "eng-ver-0229-hide",
+    "»trans": [
+      "pol-ver-0244-chować",
+      "pol-ver-0245-schować",
+      "pol-ver-0399-kryć",
+      "pol-ver-0400-ukryć",
+      "pol-ver-0401-skryć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "conceal",
+    "id": "eng-ver-0230-conceal",
+    "»trans": [
+      "pol-ver-0244-chować",
+      "pol-ver-0245-schować",
+      "pol-ver-0399-kryć",
+      "pol-ver-0400-ukryć",
+      "pol-ver-0401-skryć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "ripen",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0231-ripen",
+    "»trans": [
+      "pol-ver-0246-dojrzeć(ripen)",
+      "pol-ver-0248-dojrzewać(ripen)"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "mature",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0232-mature",
+    "»trans": [
+      "pol-ver-0247-dojrzeć(mature)",
+      "pol-ver-0249-dojrzewać(mature)"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "carry out",
+    "id": "eng-ver-0233-carryout",
+    "»trans": [
+      "pol-ver-0250-dokonywać",
+      "pol-ver-0251-dokonać",
+      "pol-ver-0813-przeprowadzić(carry out)",
+      "pol-ver-0814-przeprowadzać(carry)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "hurl",
+    "id": "eng-ver-0234-hurl",
+    "»trans": [
+      "pol-ver-0252-cisnąć",
+      "pol-ver-0253-ciskać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "fling",
+    "id": "eng-ver-0235-fling",
+    "»trans": [
+      "pol-ver-0252-cisnąć",
+      "pol-ver-0253-ciskać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "throw",
+    "id": "eng-ver-0236-throw",
+    "»trans": [
+      "pol-ver-0252-cisnąć",
+      "pol-ver-0253-ciskać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "hurt",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0237-hurt",
+    "»trans": [
+      "pol-ver-0254-boleć"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "ache",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0238-ache",
+    "»trans": [
+      "pol-ver-0254-boleć"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "perceive",
+    "id": "eng-ver-0239-perceive(visually)",
+    "»trans": [
+      "pol-ver-0255-dostrzec",
+      "pol-ver-0256-dostrzegać"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "with eyes",
+      "emoji": "👀"
+    }
+  },
+  {
+    "lemma": "perceive",
+    "id": "eng-ver-0240-perceive(generally)",
+    "»trans": [
+      "pol-ver-0875-postrzegać",
+      "pol-ver-0876-postrzec"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "make out",
+    "id": "eng-ver-0241-makeout",
+    "»trans": [
+      "pol-ver-0255-dostrzec",
+      "pol-ver-0256-dostrzegać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "spot",
+    "id": "eng-ver-0242-spot",
+    "»trans": [
+      "pol-ver-0255-dostrzec",
+      "pol-ver-0256-dostrzegać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "spy",
+    "id": "eng-ver-0243-spy",
+    "»trans": [
+      "pol-ver-0255-dostrzec",
+      "pol-ver-0256-dostrzegać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "grab",
+    "id": "eng-ver-0244-grab",
+    "»trans": [
+      "pol-ver-0257-chwytać(grab)",
+      "pol-ver-0259-chwycić(grab)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "grasp",
+    "id": "eng-ver-0245-grasp(physically)",
+    "»trans": [
+      "pol-ver-0257-chwytać(grab)",
+      "pol-ver-0259-chwycić(grab)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    }
+  },
+  {
+    "lemma": "grasp",
+    "id": "eng-ver-0246-grasp(mentally)",
+    "»trans": [
+      "pol-ver-0721-pojąć",
+      "pol-ver-0722-pojmować"
+    ],
+    "register": 0,
+    "frequency": 5,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "psychological",
+      "emoji": "🧠"
+    }
+  },
+  {
+    "lemma": "catch",
+    "id": "eng-ver-0247-catch",
+    "»trans": [
+      "pol-ver-0258-chwytać(catch)",
+      "pol-ver-0260-chwycić(catch)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "adjust",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0248-adjust",
+    "»trans": [
+      "pol-ver-0261-dostosować",
+      "pol-ver-0262-dostosowywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "adapt",
+    "id": "eng-ver-0249-adapt",
+    "»trans": [
+      "pol-ver-0261-dostosować",
+      "pol-ver-0262-dostosowywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "complete",
+    "id": "eng-ver-0250-complete",
+    "»trans": [
+      "pol-ver-0263-dokończyć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "research",
+    "id": "eng-ver-0251-research",
+    "»trans": [
+      "pol-ver-0266-badać(research)",
+      "pol-ver-0269-zbadać(research)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "investigate",
+    "id": "eng-ver-0252-investigate",
+    "»trans": [
+      "pol-ver-0266-badać(research)",
+      "pol-ver-0269-zbadać(research)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "test",
+    "id": "eng-ver-0253-test",
+    "»trans": [
+      "pol-ver-0267-badać(test)",
+      "pol-ver-0270-zbadać(test)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "explore",
+    "id": "eng-ver-0254-explore",
+    "»trans": [
+      "pol-ver-0268-badać(explore)",
+      "pol-ver-0271-zbadać(explore)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "get along with",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0255-getalongwith",
+    "»trans": [
+      "pol-ver-0272-dogadać",
+      "pol-ver-0273-dogadywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "feel",
+    "id": "eng-ver-0256-feel(transitive)",
+    "»trans": [
+      "pol-ver-0274-czuć(feel)",
+      "pol-ver-0277-poczuć(feel)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transitive",
+      "emoji": "🇹"
+    }
+  },
+  {
+    "lemma": "feel",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0257-feel(intransitive)",
+    "»trans": [
+      "pol-ver-0276-czuć(feel)",
+      "pol-ver-0279-poczuć(feel)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "intransitive",
+      "emoji": "🇮"
+    }
+  },
+  {
+    "lemma": "smell",
+    "id": "eng-ver-0258-smell(transitive)",
+    "»trans": [
+      "pol-ver-0275-czuć(smell)",
+      "pol-ver-0278-poczuć(smell)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transitive",
+      "emoji": "🇹"
+    }
+  },
+  {
+    "lemma": "smell",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0259-smell(intransitive)",
+    "»trans": [
+      "pol-ver-0626-pachnieć"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "intransitive",
+      "emoji": "🇮"
+    }
+  },
+  {
+    "lemma": "attack",
+    "id": "eng-ver-0260-attack",
+    "»trans": [
+      "pol-ver-0280-atakować",
+      "pol-ver-0281-zaatakować",
+      "pol-ver-0443-napaść",
+      "pol-ver-0444-napadać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "build",
+    "id": "eng-ver-0261-build",
+    "»trans": [
+      "pol-ver-0282-budować",
+      "pol-ver-0283-zbudować"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "construct",
+    "id": "eng-ver-0262-construct",
+    "»trans": [
+      "pol-ver-0282-budować",
+      "pol-ver-0283-zbudować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "deliver",
+    "id": "eng-ver-0263-deliver",
+    "»trans": [
+      "pol-ver-0284-dostarczać",
+      "pol-ver-0285-dostarczyć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "grow",
+    "id": "eng-ver-0264-grow",
+    "»trans": [
+      "pol-ver-0286-dorastać",
+      "pol-ver-0287-dorosnąć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "grow up",
+    "id": "eng-ver-0265-growup",
+    "»trans": [
+      "pol-ver-0286-dorastać",
+      "pol-ver-0287-dorosnąć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "exercise",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0266-exercise",
+    "»trans": [
+      "pol-ver-0288-ćwiczyć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "do exercise",
+    "id": "eng-ver-0267-doexercise",
+    "»trans": [
+      "pol-ver-0288-ćwiczyć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "add",
+    "id": "eng-ver-0268-add",
+    "»trans": [
+      "pol-ver-0289-dodać",
+      "pol-ver-0290-dodawać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "cut",
+    "id": "eng-ver-0269-cut",
+    "»trans": [
+      "pol-ver-0291-ciąć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "praise",
+    "id": "eng-ver-0270-praise",
+    "»trans": [
+      "pol-ver-0292-chwalić(praise)",
+      "pol-ver-0294-pochwalić(praise)"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "boast",
+    "id": "eng-ver-0271-boast",
+    "»trans": [
+      "pol-ver-0293-chwalić(boast)",
+      "pol-ver-0295-pochwalić(boast)"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "value",
+    "id": "eng-ver-0272-value",
+    "»trans": [
+      "pol-ver-0296-cenić"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "plead",
+    "id": "eng-ver-0273-plead",
+    "»trans": [
+      "pol-ver-0297-błagać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "beg",
+    "id": "eng-ver-0274-beg",
+    "»trans": [
+      "pol-ver-0297-błagać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "sound",
+    "id": "eng-ver-0275-sound",
+    "»trans": [
+      "pol-ver-0298-brzmieć",
+      "pol-ver-0299-zabrzmieć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "engage",
+    "id": "eng-ver-0276-engage",
+    "»trans": [
+      "pol-ver-0300-angażować",
+      "pol-ver-0301-zaangażować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "get involved",
+    "id": "eng-ver-0277-getinvolved",
+    "»trans": [
+      "pol-ver-0300-angażować",
+      "pol-ver-0301-zaangażować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "protect",
+    "id": "eng-ver-0278-protect(general)",
+    "»trans": [
+      "pol-ver-0302-chronić",
+      "pol-ver-0303-uchronić",
+      "pol-ver-0304-schronić"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "protect",
+    "id": "eng-ver-0279-protect(military)",
+    "»trans": [
+      "pol-ver-0368-bronić(defend)",
+      "pol-ver-0370-obronić(defend)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "military",
+      "emoji": "🪖"
+    }
+  },
+  {
+    "lemma": "read",
+    "id": "eng-ver-0280-read",
+    "»trans": [
+      "pol-ver-0305-czytać",
+      "pol-ver-0306-czytywać",
+      "pol-ver-0307-przeczytać"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "reach",
+    "id": "eng-ver-0281-reach",
+    "»trans": [
+      "pol-ver-0308-docierać",
+      "pol-ver-0309-dotrzeć",
+      "pol-ver-0325-dojść",
+      "pol-ver-0326-dochodzić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "beat",
+    "id": "eng-ver-0282-beat(strike)",
+    "»trans": [
+      "pol-ver-0310-bić",
+      "pol-ver-0311-bijać"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    }
+  },
+  {
+    "lemma": "beat",
+    "id": "eng-ver-0283-beat(defeat)",
+    "»trans": [
+      "pol-ver-0705-pokonywać",
+      "pol-ver-0706-pokonać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "games/sports",
+      "emoji": "🎲"
+    }
+  },
+  {
+    "lemma": "suffer",
+    "id": "eng-ver-0284-suffer",
+    "»trans": [
+      "pol-ver-0312-cierpieć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "pull",
+    "id": "eng-ver-0285-pull",
+    "»trans": [
+      "pol-ver-0313-ciągnąć",
+      "pol-ver-0632-pociągnąć",
+      "pol-ver-0633-pociągać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "attach",
+    "id": "eng-ver-0286-attach",
+    "»trans": [
+      "pol-ver-0314-dołączyć(attach)",
+      "pol-ver-0316-dołączać(attach)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "join",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0287-join",
+    "»trans": [
+      "pol-ver-0315-dołączyć(join)",
+      "pol-ver-0317-dołączać(join)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "join in",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0288-joinin",
+    "»trans": [
+      "pol-ver-0315-dołączyć(join)",
+      "pol-ver-0317-dołączać(join)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "fear",
+    "id": "eng-ver-0289-fear",
+    "»trans": [
+      "pol-ver-0318-bać",
+      "pol-ver-0463-obawiać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "be afraid of",
+    "id": "eng-ver-0290-beafraidof",
+    "»trans": [
+      "pol-ver-0318-bać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "be scared of",
+    "id": "eng-ver-0291-bescaredof",
+    "»trans": [
+      "pol-ver-0318-bać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "care for",
+    "id": "eng-ver-0292-carefor",
+    "»trans": [
+      "pol-ver-0319-dbać",
+      "pol-ver-0724-opiekować"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "take care of",
+    "id": "eng-ver-0293-takecareof",
+    "»trans": [
+      "pol-ver-0319-dbać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "look after",
+    "id": "eng-ver-0294-lookafter",
+    "»trans": [
+      "pol-ver-0319-dbać",
+      "pol-ver-0724-opiekować"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "catch up with",
+    "id": "eng-ver-0295-catch up with(in a race)",
+    "»trans": [
+      "pol-ver-0320-dogonić",
+      "pol-ver-0321-doganiać",
+      "pol-ver-0375-dopaść",
+      "pol-ver-0376-dopadać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "catch up to",
+    "id": "eng-ver-0296-catch up to",
+    "»trans": [
+      "pol-ver-0320-dogonić",
+      "pol-ver-0321-doganiać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "withdraw",
+    "id": "eng-ver-0297-withdraw",
+    "»trans": [
+      "pol-ver-0322-cofać",
+      "pol-ver-0323-cofnąć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "back off",
+    "id": "eng-ver-0298-backoff",
+    "»trans": [
+      "pol-ver-0322-cofać",
+      "pol-ver-0323-cofnąć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "back down",
+    "id": "eng-ver-0299-backdown",
+    "»trans": [
+      "pol-ver-0322-cofać",
+      "pol-ver-0323-cofnąć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "stay awake",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0300-stayawake",
+    "»trans": [
+      "pol-ver-0324-czuwać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "get to",
+    "id": "eng-ver-0301-get to(arrive)",
+    "»trans": [
+      "pol-ver-0325-dojść",
+      "pol-ver-0326-dochodzić"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transport",
+      "emoji": "🚢️️"
+    }
+  },
+  {
+    "lemma": "touch",
+    "id": "eng-ver-0303-touch",
+    "»trans": [
+      "pol-ver-0327-dotknąć",
+      "pol-ver-0328-dotykać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "be angry",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0304-be angry",
+    "»trans": [
+      "pol-ver-0329-gniewać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "get angry",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0305-get angry",
+    "»trans": [
+      "pol-ver-0329-gniewać",
+      "pol-ver-0330-rozgniewać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "demand",
+    "id": "eng-ver-0307-demand",
+    "»trans": [
+      "pol-ver-0331-domagać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "claim",
+    "id": "eng-ver-0308-claim(compensation)",
+    "»trans": [
+      "pol-ver-0331-domagać"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "money",
+      "emoji": "💵"
+    }
+  },
+  {
+    "lemma": "claim",
+    "id": "eng-ver-0308-claim(that)",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "speech",
+      "emoji": "💬"
+    }
+  },
+  {
+    "lemma": "claim",
+    "id": "eng-ver-0308-conclude(that)",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "speech",
+      "emoji": "💬"
+    }
+  },
+  {
+    "lemma": "claim",
+    "id": "eng-ver-0308-state",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "share",
+    "id": "eng-ver-0309-share",
+    "»trans": [
+      "pol-ver-0332-dzielić",
+      "pol-ver-0333-podzielić",
+      "pol-ver-0739-podzielać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "divide",
+    "id": "eng-ver-0310-divide",
+    "»trans": [
+      "pol-ver-0332-dzielić",
+      "pol-ver-0333-podzielić",
+      "pol-ver-0739-podzielać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "split",
+    "id": "eng-ver-0311-split",
+    "»trans": [
+      "pol-ver-0332-dzielić",
+      "pol-ver-0333-podzielić",
+      "pol-ver-0739-podzielać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "stare",
+    "id": "eng-ver-0312-stare",
+    "»trans": [
+      "pol-ver-0334-gapić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "gawk",
+    "id": "eng-ver-0313-gawk",
+    "»trans": [
+      "pol-ver-0334-gapić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "ring",
+    "id": "eng-ver-0314-ring",
+    "»trans": [
+      "pol-ver-0335-dzwonić",
+      "pol-ver-0336-zadzwonić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "call",
+    "id": "eng-ver-0315-call",
+    "»trans": [
+      "pol-ver-0335-dzwonić",
+      "pol-ver-0336-zadzwonić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "experience",
+    "id": "eng-ver-0316-experience",
+    "»trans": [
+      "pol-ver-0337-doświadczyć",
+      "pol-ver-0338-doświadczać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "accept",
+    "id": "eng-ver-0317-accept",
+    "»trans": [
+      "pol-ver-0339-akceptować",
+      "pol-ver-0340-zaakceptować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "perish",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0318-perish",
+    "»trans": [
+      "pol-ver-0341-ginąć",
+      "pol-ver-0342-zginąć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "find out",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0319-findout",
+    "»trans": [
+      "pol-ver-0343-dowiadywać",
+      "pol-ver-0344-dowiedzieć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "flash",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0320-flash",
+    "»trans": [
+      "pol-ver-0345-błysnąć",
+      "pol-ver-0346-błyskać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "command",
+    "id": "eng-ver-0321-command(lead)",
+    "»trans": [
+      "pol-ver-0347-dowodzić"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "employment",
+      "emoji": "🏢"
+    }
+  },
+  {
+    "lemma": "command",
+    "id": "eng-ver-0322-command(order)",
+    "»trans": [
+      "pol-ver-0500-nakazać",
+      "pol-ver-0501-nakazywać"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "order",
+      "emoji": "❗"
+    }
+  },
+  {
+    "lemma": "lead",
+    "id": "eng-ver-0323-lead",
+    "»trans": [
+      "pol-ver-0347-dowodzić",
+      "pol-ver-0906-poprowadzić",
+      "pol-ver-0380-kierować",
+      "pol-ver-0832-prowadzić(lead)",
+      "pol-ver-0833-prowadzać(lead)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "surprise",
+    "id": "eng-ver-0324-surprise",
+    "»trans": [
+      "pol-ver-0348-dziwić",
+      "pol-ver-0349-zdziwić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "concern",
+    "id": "eng-ver-0325-concern",
+    "»trans": [
+      "pol-ver-0350-dotyczyć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "pertain to",
+    "id": "eng-ver-0326-pertainto",
+    "»trans": [
+      "pol-ver-0350-dotyczyć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "apply",
+    "id": "eng-ver-0327-apply(abstract)",
+    "»trans": [
+      "pol-ver-0350-dotyczyć"
+    ],
+    "register": 0,
+    "frequency": 5,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    }
+  },
+  {
+    "lemma": "apply",
+    "id": "eng-ver-0328-apply(eg sunscreen)",
+    "»trans": [
+      "pol-ver-0466-nakładać(sunscreen)",
+      "pol-ver-0468-nałożyć(sunscreen)"
+    ],
+    "register": 0,
+    "frequency": 5,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    }
+  },
+  {
+    "lemma": "keep",
+    "id": "eng-ver-0329-keep(promise)",
+    "»trans": [
+      "pol-ver-0351-dotrzymać",
+      "pol-ver-0352-dotrzymywać"
+    ],
+    "register": 0,
+    "frequency": 5,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "a promise",
+      "emoji": "🫶"
+    }
+  },
+  {
+    "lemma": "keep",
+    "id": "eng-ver-0330-keep(general)",
+    "»trans": [
+      "pol-ver-0853-przechowywać",
+      "pol-ver-0854-przechować"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "torment",
+    "id": "eng-ver-0331-torment",
+    "»trans": [
+      "pol-ver-0353-dręczyć(torment)",
+      "pol-ver-0457-męczyć(torment)",
+      "pol-ver-0460-zmęczyć(torment)"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "bother",
+    "id": "eng-ver-0332-bother",
+    "»trans": [
+      "pol-ver-0354-dręczyć(bother)",
+      "pol-ver-0458-męczyć(nag)",
+      "pol-ver-0461-zmęczyć(nag)"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "trouble",
+    "id": "eng-ver-0333-trouble",
+    "»trans": [
+      "pol-ver-0354-dręczyć(bother)",
+      "pol-ver-0458-męczyć(nag)",
+      "pol-ver-0461-zmęczyć(nag)"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "tire",
+    "id": "eng-ver-0334-tire",
+    "»trans": [
+      "pol-ver-0459-męczyć(tire)",
+      "pol-ver-0462-zmęczyć(tire)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "nag",
+    "id": "eng-ver-0335-nag",
+    "»trans": [
+      "pol-ver-0354-dręczyć(bother)",
+      "pol-ver-0458-męczyć(nag)",
+      "pol-ver-0461-zmęczyć(nag)"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "tremble",
+    "id": "eng-ver-0336-tremble",
+    "»trans": [
+      "pol-ver-0355-drżeć",
+      "pol-ver-0356-zadrżeć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "shiver",
+    "id": "eng-ver-0337-shiver",
+    "»trans": [
+      "pol-ver-0355-drżeć",
+      "pol-ver-0356-zadrżeć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "block",
+    "id": "eng-ver-0338-block",
+    "»trans": [
+      "pol-ver-0357-blokować"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "suffocate",
+    "id": "eng-ver-0339-suffocate",
+    "»trans": [
+      "pol-ver-0358-dusić",
+      "pol-ver-0359-udusić"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "asphyxiate",
+    "id": "eng-ver-0340-asphyxiate",
+    "»trans": [
+      "pol-ver-0358-dusić",
+      "pol-ver-0359-udusić"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "strangle",
+    "id": "eng-ver-0341-strangle",
+    "»trans": [
+      "pol-ver-0358-dusić",
+      "pol-ver-0359-udusić"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "choke",
+    "id": "eng-ver-0342-choke",
+    "»trans": [
+      "pol-ver-0358-dusić",
+      "pol-ver-0359-udusić"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "analyse",
+    "id": "eng-ver-0343-analyse",
+    "»trans": [
+      "pol-ver-0360-analizować",
+      "pol-ver-0361-przeanalizować"
+    ],
+    "register": 0,
+    "frequency": 5,
+    "additionalSpellings": [
+      "analyze"
+    ]
+  },
+  {
+    "lemma": "work",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0344-work(device)",
+    "»trans": [
+      "pol-ver-0362-działać",
+      "pol-ver-0363-zadziałać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "technology",
+      "emoji": "💻"
+    }
+  },
+  {
+    "lemma": "work",
+    "id": "eng-ver-0345-work(person)",
+    "»trans": [
+      "pol-ver-0817-pracować"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "employment",
+      "emoji": "🏢"
+    }
+  },
+  {
+    "lemma": "function",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0346-function",
+    "»trans": [
+      "pol-ver-0362-działać",
+      "pol-ver-0363-zadziałać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "not be able to wait",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0347-not be able to wait",
+    "»trans": [
+      "pol-ver-0364-doczekać(negative only)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "shine",
+    "id": "eng-ver-0348-shine",
+    "»trans": [
+      "pol-ver-0365-błyszczeć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "glitter",
+    "id": "eng-ver-0350-glitter",
+    "»trans": [
+      "pol-ver-0365-błyszczeć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "shimmer",
+    "id": "eng-ver-0352-shimmer",
+    "»trans": [
+      "pol-ver-0365-błyszczeć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "sparkle",
+    "id": "eng-ver-0354-sparkle",
+    "»trans": [
+      "pol-ver-0365-błyszczeć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "stroke",
+    "id": "eng-ver-0355-stroke",
+    "»trans": [
+      "pol-ver-0366-głaskać",
+      "pol-ver-0367-pogłaskać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "defend",
+    "id": "eng-ver-0356-defend",
+    "»trans": [
+      "pol-ver-0368-bronić(defend)",
+      "pol-ver-0370-obronić(defend)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "guard",
+    "id": "eng-ver-0357-guard",
+    "»trans": [
+      "pol-ver-0368-bronić(defend)",
+      "pol-ver-0370-obronić(defend)",
+      "pol-ver-0734-pilnować(guard)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "fight back",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0358-fightback",
+    "»trans": [
+      "pol-ver-0369-bronić(fight back)",
+      "pol-ver-0371-obronić(fight back)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "tease",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0359-tease",
+    "»trans": [
+      "pol-ver-0372-drażnić"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "chase",
+    "id": "eng-ver-0360-chase",
+    "»trans": [
+      "pol-ver-0373-gonić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "pursue",
+    "id": "eng-ver-0361-pursue",
+    "»trans": [
+      "pol-ver-0373-gonić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "preach",
+    "id": "eng-ver-0362-preach",
+    "»trans": [
+      "pol-ver-0374-głosić"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "proclaim",
+    "id": "eng-ver-0363-proclaim",
+    "»trans": [
+      "pol-ver-0374-głosić"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "pant",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0365-pant",
+    "»trans": [
+      "pol-ver-0377-dyszeć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "direct",
+    "id": "eng-ver-0366-direct",
+    "»trans": [
+      "pol-ver-0380-kierować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "head",
+    "id": "eng-ver-0367-head",
+    "»trans": [
+      "pol-ver-0380-kierować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "manage",
+    "id": "eng-ver-0368-manage",
+    "»trans": [
+      "pol-ver-0380-kierować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "exist",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0369-exist",
+    "»trans": [
+      "pol-ver-0381-istnieć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "kick",
+    "id": "eng-ver-0370-kick",
+    "»trans": [
+      "pol-ver-0382-kopać(kick)",
+      "pol-ver-0384-kopnąć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "dig",
+    "id": "eng-ver-0371-dig",
+    "»trans": [
+      "pol-ver-0383-kopać(dig)",
+      "pol-ver-0385-wykopać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "shout",
+    "id": "eng-ver-0372-shout",
+    "»trans": [
+      "pol-ver-0386-krzyczeć",
+      "pol-ver-0387-krzyknąć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "yell",
+    "id": "eng-ver-0373-yell",
+    "»trans": [
+      "pol-ver-0386-krzyczeć",
+      "pol-ver-0387-krzyknąć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "associate",
+    "id": "eng-ver-0374-associate",
+    "»trans": [
+      "pol-ver-0390-kojarzyć",
+      "pol-ver-0391-skojarzyć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "agree",
+    "id": "eng-ver-0375-agree",
+    "»trans": [
+      "pol-ver-0392-godzić",
+      "pol-ver-0912-zgodzić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "tempt",
+    "id": "eng-ver-0376-tempt",
+    "»trans": [
+      "pol-ver-0393-kusić",
+      "pol-ver-0394-skusić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "moan",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0377-moan",
+    "»trans": [
+      "pol-ver-0395-jęknąć",
+      "pol-ver-0396-jęczeć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "nod",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0378-nod",
+    "»trans": [
+      "pol-ver-0397-kiwać",
+      "pol-ver-0398-kiwnąć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "land",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0379-land",
+    "»trans": [
+      "pol-ver-0402-lądować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "feed",
+    "id": "eng-ver-0380-feed",
+    "»trans": [
+      "pol-ver-0403-karmić",
+      "pol-ver-0404-nakarmić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "circulate",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0381-circulate",
+    "»trans": [
+      "pol-ver-0405-krążyć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "discuss",
+    "id": "eng-ver-0382-discuss",
+    "»trans": [
+      "pol-ver-0406-dyskutować",
+      "pol-ver-0607-omówić",
+      "pol-ver-0608-omawiać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "continue",
+    "id": "eng-ver-0383-continue",
+    "»trans": [
+      "pol-ver-0407-kontynuować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "fly",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0384-fly",
+    "»trans": [
+      "pol-ver-0408-latać",
+      "pol-ver-0409-lecieć",
+      "pol-ver-0410-polecieć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "guarantee",
+    "id": "eng-ver-0385-guarantee",
+    "»trans": [
+      "pol-ver-0411-gwarantować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "invest",
+    "id": "eng-ver-0386-invest",
+    "»trans": [
+      "pol-ver-0412-inwestować",
+      "pol-ver-0413-zainwestować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "form",
+    "id": "eng-ver-0387-form",
+    "»trans": [
+      "pol-ver-0414-kształtować",
+      "pol-ver-0415-ukształtować"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "shape",
+    "id": "eng-ver-0388-shape",
+    "»trans": [
+      "pol-ver-0414-kształtować",
+      "pol-ver-0415-ukształtować"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "flourish",
+    "id": "eng-ver-0389-flourish",
+    "»trans": [
+      "pol-ver-0416-kwitnąć(flourish)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "thrive",
+    "id": "eng-ver-0390-thrive",
+    "»trans": [
+      "pol-ver-0416-kwitnąć(flourish)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "blossom",
+    "id": "eng-ver-0391-blossom",
+    "»trans": [
+      "pol-ver-0417-kwitnąć(blossom)"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "bloom",
+    "id": "eng-ver-0392-bloom",
+    "»trans": [
+      "pol-ver-0417-kwitnąć(blossom)"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "gather",
+    "id": "eng-ver-0393-gather",
+    "»trans": [
+      "pol-ver-0418-gromadzić",
+      "pol-ver-0419-zgromadzić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "collect",
+    "id": "eng-ver-0394-collect",
+    "»trans": [
+      "pol-ver-0418-gromadzić",
+      "pol-ver-0419-zgromadzić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "brake",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0395-brake",
+    "»trans": [
+      "pol-ver-0420-hamować(brake)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "inhibit",
+    "id": "eng-ver-0396-inhibit",
+    "»trans": [
+      "pol-ver-0421-hamować(inhibit)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "suppress",
+    "id": "eng-ver-0397-suppress",
+    "»trans": [
+      "pol-ver-0421-hamować(inhibit)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "interest",
+    "id": "eng-ver-0398-interest",
+    "»trans": [
+      "pol-ver-0422-interesować",
+      "pol-ver-0423-zainteresować"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "steal",
+    "id": "eng-ver-0399-steal",
+    "»trans": [
+      "pol-ver-0424-kraść",
+      "pol-ver-0425-ukraść"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "cost",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0400-cost",
+    "»trans": [
+      "pol-ver-0426-kosztować"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "threaten",
+    "transitivity": [
+      "t",
+      "i"
+    ],
+    "id": "eng-ver-0401-threaten(speech)",
+    "»trans": [
+      "pol-ver-0427-grozić",
+      "pol-ver-0428-zagrozić(threaten)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "speech",
+      "emoji": "💬"
+    }
+  },
+  {
+    "lemma": "threaten",
+    "id": "eng-ver-0402-threaten(endanger)",
+    "»trans": [
+      "pol-ver-0429-zagrozić(endanger)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "endanger",
+      "emoji": "☠️"
+    }
+  },
+  {
+    "lemma": "endanger",
+    "id": "eng-ver-0403-endanger",
+    "»trans": [
+      "pol-ver-0429-zagrozić(endanger)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "jeopardise",
+    "id": "eng-ver-0404-jeopardise",
+    "»trans": [
+      "pol-ver-0429-zagrozić(endanger)",
+      "pol-ver-0464-narażać",
+      "pol-ver-0465-narazić"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "additionalSpellings": [
+      "jeopardize"
+    ]
+  },
+  {
+    "lemma": "spin",
+    "id": "eng-ver-0405-spin",
+    "»trans": [
+      "pol-ver-0430-kręcić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "bite",
+    "id": "eng-ver-0406-bite",
+    "»trans": [
+      "pol-ver-0431-gryźć",
+      "pol-ver-0432-ugryźć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "ignore",
+    "id": "eng-ver-0407-ignore",
+    "»trans": [
+      "pol-ver-0433-ignorować",
+      "pol-ver-0434-zignorować"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "lie",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0408-lie(untruth)",
+    "»trans": [
+      "pol-ver-0435-kłamać",
+      "pol-ver-0436-skłamać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "linguistics",
+      "emoji": "🔤"
+    }
+  },
+  {
+    "lemma": "lie",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0409-lie(bodily)",
+    "»trans": [
+      "pol-ver-0499-leżeć"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    }
+  },
+  {
+    "lemma": "rotate",
+    "id": "eng-ver-0410-rotate",
+    "»trans": [
+      "pol-ver-0437-obracać",
+      "pol-ver-0438-obrócić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "turn",
+    "id": "eng-ver-0411-turn",
+    "»trans": [
+      "pol-ver-0437-obracać",
+      "pol-ver-0438-obrócić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "revolve",
+    "id": "eng-ver-0412-revolve",
+    "»trans": [
+      "pol-ver-0437-obracać",
+      "pol-ver-0438-obrócić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "offend",
+    "id": "eng-ver-0413-offend",
+    "»trans": [
+      "pol-ver-0439-obrazić",
+      "pol-ver-0440-obrażać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "upset",
+    "id": "eng-ver-0414-upset",
+    "»trans": [
+      "pol-ver-0439-obrazić",
+      "pol-ver-0440-obrażać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "measure",
+    "id": "eng-ver-0415-measure",
+    "»trans": [
+      "pol-ver-0441-mierzyć",
+      "pol-ver-0442-zmierzyć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "assault",
+    "id": "eng-ver-0416-assault",
+    "»trans": [
+      "pol-ver-0443-napaść",
+      "pol-ver-0444-napadać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "mug",
+    "id": "eng-ver-0417-mug",
+    "»trans": [
+      "pol-ver-0443-napaść",
+      "pol-ver-0444-napadać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "mutter",
+    "id": "eng-ver-0418-mutter",
+    "»trans": [
+      "pol-ver-0445-mamrotać",
+      "pol-ver-0446-wymamrotać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "murmur",
+    "id": "eng-ver-0420-murmur",
+    "»trans": [
+      "pol-ver-0445-mamrotać",
+      "pol-ver-0446-wymamrotać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "glisten",
+    "transitivity": [
+      "i",
+      "r"
+    ],
+    "id": "eng-ver-0421-glisten",
+    "»trans": [
+      "pol-ver-0447-lśnić"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "blink",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0422-blink",
+    "»trans": [
+      "pol-ver-0448-mrugać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "acquire",
+    "id": "eng-ver-0424-acquire",
+    "»trans": [
+      "pol-ver-0449-nabyć",
+      "pol-ver-0450-nabywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "mix",
+    "id": "eng-ver-0425-mix",
+    "»trans": [
+      "pol-ver-0451-zamieszać(mix)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "stir",
+    "id": "eng-ver-0426-stir",
+    "»trans": [
+      "pol-ver-0452-zamieszać(stir)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "decrease",
+    "id": "eng-ver-0427-decrease",
+    "»trans": [
+      "pol-ver-0453-obniżać",
+      "pol-ver-0454-obniżyć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "reduce",
+    "id": "eng-ver-0428-reduce",
+    "»trans": [
+      "pol-ver-0453-obniżać",
+      "pol-ver-0454-obniżyć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "lower",
+    "id": "eng-ver-0429-lower",
+    "»trans": [
+      "pol-ver-0453-obniżać",
+      "pol-ver-0454-obniżyć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "encompass",
+    "id": "eng-ver-0430-encompass",
+    "»trans": [
+      "pol-ver-0455-objąć",
+      "pol-ver-0456-obejmować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "worry",
+    "id": "eng-ver-0431-worry(mind)",
+    "»trans": [
+      "pol-ver-0463-obawiać",
+      "pol-ver-0801-przejąć(mind)",
+      "pol-ver-0804-przejmować(mind)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "a thought about",
+      "emoji": "💭"
+    }
+  },
+  {
+    "lemma": "worry",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0432-worry(emotion)",
+    "»trans": [
+      "pol-ver-0502-martwić",
+      "pol-ver-0503-zmartwić"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "emotion",
+      "emoji": "🧠"
+    }
+  },
+  {
+    "lemma": "put at risk",
+    "id": "eng-ver-0433-put at risk",
+    "»trans": [
+      "pol-ver-0464-narażać",
+      "pol-ver-0465-narazić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "risk",
+    "id": "eng-ver-0434-risk",
+    "»trans": [
+      "pol-ver-0464-narażać",
+      "pol-ver-0465-narazić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "put in danger",
+    "id": "eng-ver-0435-put in danger",
+    "»trans": [
+      "pol-ver-0464-narażać",
+      "pol-ver-0465-narazić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "impose",
+    "id": "eng-ver-0436-impose",
+    "»trans": [
+      "pol-ver-0467-nakładać(sanctions)",
+      "pol-ver-0469-nałożyć(sanctions)"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "be called",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0437-becalled",
+    "»trans": [
+      "pol-ver-0470-nazwać",
+      "pol-ver-0471-nazywać"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "destroy",
+    "id": "eng-ver-0438-destroy",
+    "»trans": [
+      "pol-ver-0472-niszczyć",
+      "pol-ver-0473-zniszczyć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "keep quiet",
+    "id": "eng-ver-0439-keepquiet",
+    "»trans": [
+      "pol-ver-0474-milczeć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "be quiet",
+    "id": "eng-ver-0440-bequiet",
+    "»trans": [
+      "pol-ver-0474-milczeć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "keep silent",
+    "id": "eng-ver-0441-keepsilent",
+    "»trans": [
+      "pol-ver-0474-milczeć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "be silent",
+    "id": "eng-ver-0442-besilent",
+    "»trans": [
+      "pol-ver-0474-milczeć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "repair",
+    "id": "eng-ver-0443-repair",
+    "»trans": [
+      "pol-ver-0475-naprawić",
+      "pol-ver-0476-naprawiać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "mend",
+    "id": "eng-ver-0444-mend",
+    "»trans": [
+      "pol-ver-0475-naprawić",
+      "pol-ver-0476-naprawiać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "fix",
+    "id": "eng-ver-0445-fix",
+    "»trans": [
+      "pol-ver-0475-naprawić",
+      "pol-ver-0476-naprawiać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "insist",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0446-insist",
+    "»trans": [
+      "pol-ver-0477-nalegać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "take place",
+    "id": "eng-ver-0447-takeplace",
+    "»trans": [
+      "pol-ver-0478-nastąpić",
+      "pol-ver-0479-następować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "occur",
+    "id": "eng-ver-0449-occur",
+    "»trans": [
+      "pol-ver-0478-nastąpić",
+      "pol-ver-0479-następować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "be bored",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0451-bebored",
+    "»trans": [
+      "pol-ver-0480-nudzić",
+      "pol-ver-0481-znudzić"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "mumble",
+    "id": "eng-ver-0452-mumble",
+    "»trans": [
+      "pol-ver-0482-mruknąć",
+      "pol-ver-0483-mruczeć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "record",
+    "id": "eng-ver-0453-record",
+    "»trans": [
+      "pol-ver-0484-nagrywać",
+      "pol-ver-0485-nagrać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "wave",
+    "id": "eng-ver-0454-wave",
+    "»trans": [
+      "pol-ver-0486-machnąć",
+      "pol-ver-0487-machać",
+      "pol-ver-0504-pomachać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "belong",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0455-belong",
+    "»trans": [
+      "pol-ver-0488-należeć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "fit",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0456-fit(into)",
+    "»trans": [
+      "pol-ver-0489-mieścić"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "fit into",
+      "emoji": "📩"
+    }
+  },
+  {
+    "lemma": "fit",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0457-fit(match)",
+    "»trans": [
+      "pol-ver-0717-pasować"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "goes well with",
+      "emoji": "👚"
+    }
+  },
+  {
+    "lemma": "fit",
+    "id": "eng-ver-0458-fit(accommodate)",
+    "»trans": [
+      "pol-ver-0889-pomieścić",
+      "pol-ver-0890-pomieszczać"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "accommodate",
+      "emoji": "📦"
+    }
+  },
+  {
+    "lemma": "murder",
+    "id": "eng-ver-0459-murder",
+    "»trans": [
+      "pol-ver-0490-mordować",
+      "pol-ver-0491-zamordować"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "confuse",
+    "id": "eng-ver-0460-confuse",
+    "»trans": [
+      "pol-ver-0492-mylić",
+      "pol-ver-0493-pomylić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "mix up",
+    "id": "eng-ver-0461-mixup",
+    "»trans": [
+      "pol-ver-0492-mylić",
+      "pol-ver-0493-pomylić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "mistake",
+    "id": "eng-ver-0462-mistake",
+    "»trans": [
+      "pol-ver-0492-mylić",
+      "pol-ver-0493-pomylić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "underestimate",
+    "id": "eng-ver-0463-underestimate",
+    "»trans": [
+      "pol-ver-0494-lekceważyć",
+      "pol-ver-0495-zlekceważyć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "disregard",
+    "id": "eng-ver-0464-disregard",
+    "»trans": [
+      "pol-ver-0494-lekceważyć",
+      "pol-ver-0495-zlekceważyć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "press",
+    "id": "eng-ver-0465-press",
+    "»trans": [
+      "pol-ver-0496-nacisnąć",
+      "pol-ver-0497-naciskać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "push",
+    "id": "eng-ver-0466-push(button)",
+    "»trans": [
+      "pol-ver-0496-nacisnąć",
+      "pol-ver-0497-naciskać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "button",
+      "emoji": "#️⃣"
+    }
+  },
+  {
+    "lemma": "push",
+    "id": "eng-ver-0467-push(general)",
+    "»trans": [
+      "pol-ver-0645-pchnąć",
+      "pol-ver-0646-pchać",
+      "pol-ver-0826-popchnąć",
+      "pol-ver-0827-popychać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "paint",
+    "id": "eng-ver-0468-paint(wall)",
+    "»trans": [
+      "pol-ver-0498-malować"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg a wall",
+      "emoji": "🧱"
+    }
+  },
+  {
+    "lemma": "paint",
+    "id": "eng-ver-0469-paint(picture)",
+    "»trans": [
+      "pol-ver-0498-malować"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg a picture",
+      "emoji": "🖼️"
+    }
+  },
+  {
+    "lemma": "order",
+    "id": "eng-ver-0470-order",
+    "»trans": [
+      "pol-ver-0500-nakazać",
+      "pol-ver-0501-nakazywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "persuade",
+    "id": "eng-ver-0471-persuade",
+    "»trans": [
+      "pol-ver-0505-namawiać",
+      "pol-ver-0506-namówić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "encourage",
+    "id": "eng-ver-0472-encourage",
+    "»trans": [
+      "pol-ver-0505-namawiać",
+      "pol-ver-0506-namówić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "convince",
+    "id": "eng-ver-0473-convince",
+    "»trans": [
+      "pol-ver-0505-namawiać",
+      "pol-ver-0506-namówić",
+      "pol-ver-0820-przekonywać",
+      "pol-ver-0821-przekonać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "talk into",
+    "id": "eng-ver-0474-talkinto",
+    "»trans": [
+      "pol-ver-0505-namawiać",
+      "pol-ver-0506-namówić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "pass by",
+    "id": "eng-ver-0475-passby",
+    "»trans": [
+      "pol-ver-0507-mijać(pass by)",
+      "pol-ver-0509-minąć(pass by)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "pass",
+    "id": "eng-ver-0476-pass(travel)",
+    "»trans": [
+      "pol-ver-0507-mijać(pass by)",
+      "pol-ver-0509-minąć(pass by)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transport",
+      "emoji": "🚢️️"
+    }
+  },
+  {
+    "lemma": "pass",
+    "id": "eng-ver-0477-pass(time)",
+    "»trans": [
+      "pol-ver-0508-mijać(elapse)",
+      "pol-ver-0510-minąć(elapse)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "time",
+      "emoji": "🕒"
+    }
+  },
+  {
+    "lemma": "pass",
+    "id": "eng-ver-0478-pass(salt)",
+    "»trans": [
+      "pol-ver-0665-podawać",
+      "pol-ver-0666-podać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    }
+  },
+  {
+    "lemma": "elapse",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0479-elapse",
+    "»trans": [
+      "pol-ver-0508-mijać(elapse)",
+      "pol-ver-0510-minąć(elapse)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "shoot",
+    "id": "eng-ver-0480-shoot(film)",
+    "»trans": [
+      "pol-ver-0511-nakręcić(film)",
+      "pol-ver-0513-nakręcać(film)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "film",
+      "emoji": "🎥"
+    }
+  },
+  {
+    "lemma": "arouse",
+    "id": "eng-ver-0481-arouse",
+    "»trans": [
+      "pol-ver-0512-nakręcić(turn someone on)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "violate",
+    "id": "eng-ver-0482-violate",
+    "»trans": [
+      "pol-ver-0515-naruszać",
+      "pol-ver-0516-naruszyć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "contravene",
+    "id": "eng-ver-0483-contravene",
+    "»trans": [
+      "pol-ver-0515-naruszać",
+      "pol-ver-0516-naruszyć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "infringe",
+    "id": "eng-ver-0484-infringe",
+    "»trans": [
+      "pol-ver-0515-naruszać",
+      "pol-ver-0516-naruszyć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "write",
+    "id": "eng-ver-0485-write",
+    "»trans": [
+      "pol-ver-0517-napisać",
+      "pol-ver-0518-pisać"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "encounter",
+    "id": "eng-ver-0486-encounter",
+    "»trans": [
+      "pol-ver-0519-napotkać",
+      "pol-ver-0520-napotykać",
+      "pol-ver-0521-natknąć",
+      "pol-ver-0522-natykać",
+      "pol-ver-0530-natrafić",
+      "pol-ver-0531-natrafiać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "come across",
+    "id": "eng-ver-0487-comeacross",
+    "»trans": [
+      "pol-ver-0519-napotkać",
+      "pol-ver-0520-napotykać",
+      "pol-ver-0521-natknąć",
+      "pol-ver-0522-natykać",
+      "pol-ver-0530-natrafić",
+      "pol-ver-0531-natrafiać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "run into",
+    "id": "eng-ver-0488-runinto",
+    "»trans": [
+      "pol-ver-0519-napotkać",
+      "pol-ver-0520-napotykać",
+      "pol-ver-0521-natknąć",
+      "pol-ver-0522-natykać",
+      "pol-ver-0530-natrafić",
+      "pol-ver-0531-natrafiać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "pray",
+    "id": "eng-ver-0489-pray",
+    "»trans": [
+      "pol-ver-0523-modlić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "cure",
+    "id": "eng-ver-0490-cure",
+    "»trans": [
+      "pol-ver-0524-leczyć",
+      "pol-ver-0525-wyleczyć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "heal",
+    "id": "eng-ver-0491-heal",
+    "»trans": [
+      "pol-ver-0524-leczyć",
+      "pol-ver-0525-wyleczyć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "treat",
+    "id": "eng-ver-0492-treat(medical)",
+    "»trans": [
+      "pol-ver-0524-leczyć",
+      "pol-ver-0525-wyleczyć"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "medical",
+      "emoji": "🩺"
+    }
+  },
+  {
+    "lemma": "treat",
+    "id": "eng-ver-0493-treat(consider)",
+    "»trans": [
+      "pol-ver-0811-potraktować",
+      "pol-ver-0812-traktować"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "psychological",
+      "emoji": "🧠"
+    }
+  },
+  {
+    "lemma": "pour",
+    "id": "eng-ver-0494-pour",
+    "»trans": [
+      "pol-ver-0526-nalać",
+      "pol-ver-0527-nalewać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "oversee",
+    "id": "eng-ver-0495-oversee",
+    "»trans": [
+      "pol-ver-0532-nadzorować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "supervise",
+    "id": "eng-ver-0496-supervise",
+    "»trans": [
+      "pol-ver-0532-nadzorować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "imitate",
+    "id": "eng-ver-0497-imitate",
+    "»trans": [
+      "pol-ver-0533-naśladować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "mimic",
+    "id": "eng-ver-0498-mimic",
+    "»trans": [
+      "pol-ver-0533-naśladować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "copy",
+    "id": "eng-ver-0499-copy",
+    "»trans": [
+      "pol-ver-0533-naśladować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "breathe",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0500-breathe",
+    "»trans": [
+      "pol-ver-0534-odetchnąć",
+      "pol-ver-0535-oddychać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "restrict",
+    "id": "eng-ver-0501-restrict",
+    "»trans": [
+      "pol-ver-0536-ograniczyć",
+      "pol-ver-0537-ograniczać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "limit",
+    "id": "eng-ver-0502-limit",
+    "»trans": [
+      "pol-ver-0536-ograniczyć",
+      "pol-ver-0537-ograniczać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "swim away",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0503-swimaway",
+    "»trans": [
+      "pol-ver-0540-odpłynąć(swim away)",
+      "pol-ver-0542-odpływać(swim away)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "swim off",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0504-swimoff",
+    "»trans": [
+      "pol-ver-0540-odpłynąć(swim away)",
+      "pol-ver-0542-odpływać(swim away)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "sail away",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0505-sailaway",
+    "»trans": [
+      "pol-ver-0541-odpłynąć(sail away)",
+      "pol-ver-0543-odpływać(sail away)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "sail off",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0506-sailoff",
+    "»trans": [
+      "pol-ver-0541-odpłynąć(sail away)",
+      "pol-ver-0543-odpływać(sail away)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "purify",
+    "id": "eng-ver-0507-purify",
+    "»trans": [
+      "pol-ver-0545-oczyścić(purify)",
+      "pol-ver-0547-oczyszczać(purify)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "miss",
+    "id": "eng-ver-0508-miss",
+    "»trans": [
+      "pol-ver-0548-ominąć",
+      "pol-ver-0549-omijać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "avoid",
+    "id": "eng-ver-0509-avoid",
+    "»trans": [
+      "pol-ver-0548-ominąć",
+      "pol-ver-0549-omijać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "cancel",
+    "id": "eng-ver-0510-cancel",
+    "»trans": [
+      "pol-ver-0916-anulować(im)",
+      "pol-ver-0915-anulować(pf)",
+      "pol-ver-0550-odwołać",
+      "pol-ver-0551-odwoływać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "say no",
+    "id": "eng-ver-0511-sayno",
+    "»trans": [
+      "pol-ver-0552-odmawiać",
+      "pol-ver-0553-odmówić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "refuse",
+    "id": "eng-ver-0512-refuse(plus noun)",
+    "»trans": [],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "plus noun",
+      "emoji": "🇳"
+    }
+  },
+  {
+    "lemma": "refuse",
+    "id": "eng-ver-0512-refuse(plus verb)",
+    "»trans": [],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "plus verb",
+      "emoji": "🇻"
+    }
+  },
+  {
+    "lemma": "refuse",
+    "id": "eng-ver-0512-refuse(intransitive)",
+    "»trans": [],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "intransitive",
+      "emoji": "🇮"
+    }
+  },
+  {
+    "lemma": "deny",
+    "id": "eng-ver-0513-deny",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "hold",
+    "id": "eng-ver-0514-hold(party)",
+    "»trans": [
+      "pol-ver-0555-odbyć(hold)",
+      "pol-ver-0557-odbywać(hold)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "event",
+      "emoji": "📅️"
+    }
+  },
+  {
+    "lemma": "hold",
+    "id": "eng-ver-0515-hold(storage)",
+    "»trans": [
+      "pol-ver-0853-przechowywać",
+      "pol-ver-0854-przechować"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    }
+  },
+  {
+    "lemma": "put on",
+    "id": "eng-ver-0516-puton(event)",
+    "»trans": [
+      "pol-ver-0555-odbyć(hold)",
+      "pol-ver-0557-odbywać(hold)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "event",
+      "emoji": "📅️"
+    }
+  },
+  {
+    "lemma": "put on",
+    "id": "eng-ver-0516-puton(clothes)",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "clothes",
+      "emoji": "👚"
+    }
+  },
+  {
+    "lemma": "inherit",
+    "id": "eng-ver-0517-inherit",
+    "»trans": [
+      "pol-ver-0558-odziedziczyć",
+      "pol-ver-0559-dziedziczyć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "offer",
+    "id": "eng-ver-0518-offer",
+    "»trans": [
+      "pol-ver-0560-oferować",
+      "pol-ver-0561-zaoferować",
+      "pol-ver-0797-proponować",
+      "pol-ver-0798-zaproponować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "propose",
+    "id": "eng-ver-0519-propose",
+    "»trans": [
+      "pol-ver-0560-oferować",
+      "pol-ver-0561-zaoferować",
+      "pol-ver-0797-proponować",
+      "pol-ver-0798-zaproponować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "fly away",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0520-flyaway",
+    "»trans": [
+      "pol-ver-0562-odlecieć",
+      "pol-ver-0563-odlatywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "fly off",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0521-flyoff",
+    "»trans": [
+      "pol-ver-0562-odlecieć",
+      "pol-ver-0563-odlatywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "postpone",
+    "id": "eng-ver-0522-postpone",
+    "»trans": [
+      "pol-ver-0564-odłożyć",
+      "pol-ver-0565-odkładać",
+      "pol-ver-0882-przełożyć(postpone)",
+      "pol-ver-0884-przekładać(postpone)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "put off",
+    "id": "eng-ver-0523-putoff",
+    "»trans": [
+      "pol-ver-0564-odłożyć",
+      "pol-ver-0565-odkładać",
+      "pol-ver-0882-przełożyć(postpone)",
+      "pol-ver-0884-przekładać(postpone)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "defer",
+    "id": "eng-ver-0524-defer",
+    "»trans": [
+      "pol-ver-0564-odłożyć",
+      "pol-ver-0565-odkładać",
+      "pol-ver-0882-przełożyć(postpone)",
+      "pol-ver-0884-przekładać(postpone)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "give back",
+    "id": "eng-ver-0525-giveback",
+    "»trans": [
+      "pol-ver-0566-oddać(give back)",
+      "pol-ver-0568-oddawać(give back)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "donate",
+    "id": "eng-ver-0526-donate",
+    "»trans": [
+      "pol-ver-0567-oddać(donate)",
+      "pol-ver-0569-oddawać(donate)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "walk away",
+    "id": "eng-ver-0527-walkaway",
+    "»trans": [
+      "pol-ver-0570-odchodzić",
+      "pol-ver-0571-odejść"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "walk off",
+    "id": "eng-ver-0528-walkoff",
+    "»trans": [
+      "pol-ver-0570-odchodzić",
+      "pol-ver-0571-odejść"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "discover",
+    "id": "eng-ver-0529-discover",
+    "»trans": [
+      "pol-ver-0572-odkrywać",
+      "pol-ver-0573-odkryć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "reject",
+    "id": "eng-ver-0530-reject",
+    "»trans": [
+      "pol-ver-0574-odrzucić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "take back",
+    "id": "eng-ver-0531-takeback",
+    "»trans": [
+      "pol-ver-0575-odbierać",
+      "pol-ver-0576-odebrać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "take away",
+    "id": "eng-ver-0532-takeaway",
+    "»trans": [
+      "pol-ver-0575-odbierać",
+      "pol-ver-0576-odebrać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "save",
+    "id": "eng-ver-0533-save(life)",
+    "»trans": [
+      "pol-ver-0577-ocalić",
+      "pol-ver-0578-ocalać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "medical",
+      "emoji": "🩺"
+    }
+  },
+  {
+    "lemma": "save",
+    "id": "eng-ver-0534-save(money)",
+    "»trans": [
+      "pol-ver-0642-oszczędzać",
+      "pol-ver-0733-oszczędzić"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "money",
+      "emoji": "💵"
+    }
+  },
+  {
+    "lemma": "rescue",
+    "id": "eng-ver-0535-rescue",
+    "»trans": [
+      "pol-ver-0577-ocalić",
+      "pol-ver-0578-ocalać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "rest",
+    "id": "eng-ver-0536-rest",
+    "»trans": [
+      "pol-ver-0579-odpocząć",
+      "pol-ver-0580-odpoczywać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "relax",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0537-relax",
+    "»trans": [
+      "pol-ver-0579-odpocząć",
+      "pol-ver-0580-odpoczywać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "announce",
+    "id": "eng-ver-0538-announce",
+    "»trans": [
+      "pol-ver-0581-ogłaszać",
+      "pol-ver-0582-ogłosić",
+      "pol-ver-0710-oznajmić",
+      "pol-ver-0711-oznajmiać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "declare",
+    "id": "eng-ver-0539-declare",
+    "»trans": [
+      "pol-ver-0581-ogłaszać",
+      "pol-ver-0582-ogłosić",
+      "pol-ver-0710-oznajmić",
+      "pol-ver-0711-oznajmiać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "turn out",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0540-turnout",
+    "»trans": [
+      "pol-ver-0583-okazać",
+      "pol-ver-0584-okazywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "transpire",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0541-transpire",
+    "»trans": [
+      "pol-ver-0583-okazać",
+      "pol-ver-0584-okazywać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "step back",
+    "id": "eng-ver-0542-stepback",
+    "»trans": [
+      "pol-ver-0585-odsunąć",
+      "pol-ver-0586-odsuwać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "step aside",
+    "id": "eng-ver-0543-stepaside",
+    "»trans": [
+      "pol-ver-0585-odsunąć",
+      "pol-ver-0586-odsuwać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "reflect",
+    "id": "eng-ver-0544-reflect",
+    "»trans": [
+      "pol-ver-0587-odbić(reflect)",
+      "pol-ver-0588-odbijać(reflect)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "bounce",
+    "id": "eng-ver-0545-bounce",
+    "»trans": [
+      "pol-ver-0589-odbić(bounce)",
+      "pol-ver-0590-odbijać(bounce)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "depart",
+    "id": "eng-ver-0546-depart",
+    "»trans": [
+      "pol-ver-0591-odjechać",
+      "pol-ver-0592-odjeżdżać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "drive off",
+    "id": "eng-ver-0547-driveoff",
+    "»trans": [
+      "pol-ver-0591-odjechać",
+      "pol-ver-0592-odjeżdżać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "drive away",
+    "id": "eng-ver-0548-driveaway",
+    "»trans": [
+      "pol-ver-0591-odjechać",
+      "pol-ver-0592-odjeżdżać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "let go",
+    "id": "eng-ver-0549-letgo",
+    "»trans": [
+      "pol-ver-0593-odpuścić",
+      "pol-ver-0594-odpuszczać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "regain",
+    "id": "eng-ver-0550-regain",
+    "»trans": [
+      "pol-ver-0595-odzyskać",
+      "pol-ver-0596-odzyskiwać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "recover",
+    "id": "eng-ver-0551-recover",
+    "»trans": [
+      "pol-ver-0595-odzyskać",
+      "pol-ver-0596-odzyskiwać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "retrieve",
+    "id": "eng-ver-0552-retrieve",
+    "»trans": [
+      "pol-ver-0595-odzyskać",
+      "pol-ver-0596-odzyskiwać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "get back",
+    "id": "eng-ver-0553-getback",
+    "»trans": [
+      "pol-ver-0595-odzyskać",
+      "pol-ver-0596-odzyskiwać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "reverse",
+    "id": "eng-ver-0554-reverse",
+    "»trans": [
+      "pol-ver-0597-odwracać",
+      "pol-ver-0598-odwrócić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "turn around",
+    "id": "eng-ver-0555-turnaround",
+    "»trans": [
+      "pol-ver-0597-odwracać",
+      "pol-ver-0598-odwrócić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "cut off",
+    "id": "eng-ver-0556-cutoff",
+    "»trans": [
+      "pol-ver-0599-odciąć",
+      "pol-ver-0600-odcinać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "visit",
+    "id": "eng-ver-0557-visit",
+    "»trans": [
+      "pol-ver-0601-odwiedzać",
+      "pol-ver-0602-odwiedzić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "rate",
+    "id": "eng-ver-0558-rate",
+    "»trans": [
+      "pol-ver-0603-oceniać",
+      "pol-ver-0604-ocenić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "evaluate",
+    "id": "eng-ver-0559-evaluate",
+    "»trans": [
+      "pol-ver-0603-oceniać",
+      "pol-ver-0604-ocenić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "mark",
+    "id": "eng-ver-0560-mark",
+    "»trans": [
+      "pol-ver-0603-oceniać",
+      "pol-ver-0604-ocenić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "grade",
+    "id": "eng-ver-0561-grade",
+    "»trans": [
+      "pol-ver-0603-oceniać",
+      "pol-ver-0604-ocenić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "assess",
+    "id": "eng-ver-0562-assess",
+    "»trans": [
+      "pol-ver-0603-oceniać",
+      "pol-ver-0604-ocenić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "wipe away",
+    "id": "eng-ver-0563-wipeaway",
+    "»trans": [
+      "pol-ver-0609-ocierać",
+      "pol-ver-0610-otrzeć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "wipe",
+    "id": "eng-ver-0564-wipe",
+    "»trans": [
+      "pol-ver-0609-ocierać",
+      "pol-ver-0610-otrzeć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "expect",
+    "id": "eng-ver-0565-expect",
+    "»trans": [
+      "pol-ver-0611-oczekiwać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "show",
+    "id": "eng-ver-0566-show",
+    "»trans": [
+      "pol-ver-0614-pokazać",
+      "pol-ver-0615-pokazywać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "roast",
+    "id": "eng-ver-0567-roast",
+    "»trans": [
+      "pol-ver-0616-piec",
+      "pol-ver-0617-upiec"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "bake",
+    "id": "eng-ver-0568-bake",
+    "»trans": [
+      "pol-ver-0616-piec",
+      "pol-ver-0617-upiec"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "cheat",
+    "id": "eng-ver-0569-cheat(deceive)",
+    "»trans": [
+      "pol-ver-0618-oszukiwać(deceive)",
+      "pol-ver-0620-oszukać(deceive)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    }
+  },
+  {
+    "lemma": "cheat",
+    "id": "eng-ver-0570-cheat(game)",
+    "»trans": [
+      "pol-ver-0619-oszukiwać(cheat in a game)",
+      "pol-ver-0621-oszukać(cheat in a game)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "games/sports",
+      "emoji": "🎲"
+    }
+  },
+  {
+    "lemma": "deceive",
+    "id": "eng-ver-0571-deceive",
+    "»trans": [
+      "pol-ver-0618-oszukiwać(deceive)",
+      "pol-ver-0620-oszukać(deceive)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "trick",
+    "id": "eng-ver-0572-trick",
+    "»trans": [
+      "pol-ver-0618-oszukiwać(deceive)",
+      "pol-ver-0620-oszukać(deceive)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "pay for",
+    "id": "eng-ver-0573-payfor",
+    "»trans": [
+      "pol-ver-0622-opłacić",
+      "pol-ver-0623-opłacać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "lean on",
+    "id": "eng-ver-0574-leanon",
+    "»trans": [
+      "pol-ver-0624-opierać",
+      "pol-ver-0625-oprzeć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "smoke",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0575-smoke(tobacco)",
+    "»trans": [
+      "pol-ver-0627-palić(smoke)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "tobacco",
+      "emoji": "🚬"
+    }
+  },
+  {
+    "lemma": "burn",
+    "id": "eng-ver-0576-burn(transitive)",
+    "»trans": [
+      "pol-ver-0628-palić(burn)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "transitive",
+      "emoji": "🇹"
+    }
+  },
+  {
+    "lemma": "burn",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0577-burn(intransitive)",
+    "»trans": [
+      "pol-ver-0659-płonąć",
+      "pol-ver-0660-spłonąć"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "intransitive",
+      "emoji": "🇮"
+    }
+  },
+  {
+    "lemma": "approach",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0578-approach(on foot)",
+    "»trans": [
+      "pol-ver-0629-podchodzić",
+      "pol-ver-0630-podejść"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "body",
+      "emoji": "🧍"
+    }
+  },
+  {
+    "lemma": "approach",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0579-approach(vehicle)",
+    "»trans": [
+      "pol-ver-0638-podjechać",
+      "pol-ver-0639-podjeżdżać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "driving",
+      "emoji": "🚗"
+    }
+  },
+  {
+    "lemma": "surrender",
+    "id": "eng-ver-0580-surrender",
+    "»trans": [
+      "pol-ver-0634-poddawać",
+      "pol-ver-0635-poddać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "give up",
+    "id": "eng-ver-0581-giveup",
+    "»trans": [
+      "pol-ver-0634-poddawać",
+      "pol-ver-0635-poddać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "develop",
+    "id": "eng-ver-0582-develop",
+    "»trans": [
+      "pol-ver-0636-opracować",
+      "pol-ver-0637-opracowywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "cover",
+    "id": "eng-ver-0583-cover",
+    "»trans": [
+      "pol-ver-0640-pokrywać",
+      "pol-ver-0641-pokryć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "pack",
+    "id": "eng-ver-0584-pack",
+    "»trans": [
+      "pol-ver-0643-pakować",
+      "pol-ver-0644-spakować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "pack up",
+    "id": "eng-ver-0585-packup",
+    "»trans": [
+      "pol-ver-0643-pakować",
+      "pol-ver-0644-spakować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "shove",
+    "id": "eng-ver-0586-shove",
+    "»trans": [
+      "pol-ver-0645-pchnąć",
+      "pol-ver-0646-pchać",
+      "pol-ver-0826-popchnąć",
+      "pol-ver-0827-popychać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "recommend",
+    "id": "eng-ver-0587-recommend",
+    "»trans": [
+      "pol-ver-0647-polecić",
+      "pol-ver-0648-polecać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "sign",
+    "id": "eng-ver-0588-sign",
+    "»trans": [
+      "pol-ver-0651-podpisywać",
+      "pol-ver-0652-podpisać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "go crazy",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0589-gocrazy",
+    "»trans": [
+      "pol-ver-0653-oszaleć",
+      "pol-ver-0654-szaleć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "go mad",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0590-gomad",
+    "»trans": [
+      "pol-ver-0653-oszaleć",
+      "pol-ver-0654-szaleć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "go nuts",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0591-gonuts",
+    "»trans": [
+      "pol-ver-0653-oszaleć",
+      "pol-ver-0654-szaleć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "dare",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0592-dare",
+    "»trans": [
+      "pol-ver-0655-ośmielić",
+      "pol-ver-0656-ośmielać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "abandon",
+    "id": "eng-ver-0593-abandon",
+    "»trans": [
+      "pol-ver-0657-opuścić",
+      "pol-ver-0658-opuszczać",
+      "pol-ver-0867-porzucić",
+      "pol-ver-0868-porzucać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "be on fire",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0594-beonfire",
+    "»trans": [
+      "pol-ver-0659-płonąć",
+      "pol-ver-0660-spłonąć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "achieve",
+    "id": "eng-ver-0595-achieve",
+    "»trans": [
+      "pol-ver-0661-osiągnąć",
+      "pol-ver-0662-osiągać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "accomplish",
+    "id": "eng-ver-0596-accomplish",
+    "»trans": [
+      "pol-ver-0661-osiągnąć",
+      "pol-ver-0662-osiągać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "download",
+    "id": "eng-ver-0597-download",
+    "»trans": [
+      "pol-ver-0663-pobierać",
+      "pol-ver-0664-pobrać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "hand",
+    "id": "eng-ver-0598-hand",
+    "»trans": [
+      "pol-ver-0665-podawać",
+      "pol-ver-0666-podać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "burst",
+    "id": "eng-ver-0599-burst",
+    "»trans": [
+      "pol-ver-0667-pęknąć",
+      "pol-ver-0668-pękać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "crack",
+    "id": "eng-ver-0600-crack",
+    "»trans": [
+      "pol-ver-0667-pęknąć",
+      "pol-ver-0668-pękać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "break",
+    "id": "eng-ver-0601-break(burst)",
+    "»trans": [
+      "pol-ver-0667-pęknąć",
+      "pol-ver-0668-pękać"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    }
+  },
+  {
+    "lemma": "break",
+    "id": "eng-ver-0602-break(breaktime)",
+    "»trans": [
+      "pol-ver-0855-przerwać(break)",
+      "pol-ver-0857-przerywać(break)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "time",
+      "emoji": "🕒"
+    }
+  },
+  {
+    "lemma": "swim",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0603-swim",
+    "»trans": [
+      "pol-ver-0669-pływać(swim)",
+      "pol-ver-0670-płynąć(swim)",
+      "pol-ver-0671-popłynąć(swim)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "sail",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0604-sail",
+    "»trans": [
+      "pol-ver-0672-pływać(sail)",
+      "pol-ver-0673-płynąć(sail)",
+      "pol-ver-0674-popłynąć(sail)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "float",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0605-float",
+    "»trans": [
+      "pol-ver-0675-pływać(float)",
+      "pol-ver-0676-płynąć(float)",
+      "pol-ver-0677-popłynąć(float)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "flow",
+    "id": "eng-ver-0606-flow",
+    "»trans": [
+      "pol-ver-0678-popłynąć(flow)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "accuse",
+    "id": "eng-ver-0607-accuse",
+    "»trans": [
+      "pol-ver-0679-oskarżyć",
+      "pol-ver-0680-oskarżać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "surround",
+    "id": "eng-ver-0608-surround",
+    "»trans": [
+      "pol-ver-0681-otaczać",
+      "pol-ver-0682-otoczyć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "encircle",
+    "id": "eng-ver-0609-encircle",
+    "»trans": [
+      "pol-ver-0681-otaczać",
+      "pol-ver-0682-otoczyć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "fuck",
+    "id": "eng-ver-0610-fuck",
+    "»trans": [
+      "pol-ver-0683-pieprzyć(fuck)",
+      "pol-ver-0836-przelecieć"
+    ],
+    "register": 8,
+    "frequency": 4
+  },
+  {
+    "lemma": "fuck up",
+    "id": "eng-ver-0611-fuckup",
+    "»trans": [
+      "pol-ver-0684-pieprzyć(fuck up)"
+    ],
+    "register": 8,
+    "frequency": 4
+  },
+  {
+    "lemma": "underline",
+    "id": "eng-ver-0612-underline",
+    "»trans": [
+      "pol-ver-0685-podkreślać(underline)",
+      "pol-ver-0687-podkreślić(underline)"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "emphasise",
+    "id": "eng-ver-0613-emphasise",
+    "»trans": [
+      "pol-ver-0686-podkreślać(emphasise)",
+      "pol-ver-0688-podkreślić(emphasise)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "additionalSpellings": [
+      "emphasize"
+    ]
+  },
+  {
+    "lemma": "stress",
+    "id": "eng-ver-0614-stress",
+    "»trans": [
+      "pol-ver-0686-podkreślać(emphasise)",
+      "pol-ver-0688-podkreślić(emphasise)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "pick up",
+    "id": "eng-ver-0615-pickup(object)",
+    "»trans": [
+      "pol-ver-0689-podnieść(pick up)",
+      "pol-ver-0691-podnosić(pick up)"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    }
+  },
+  {
+    "lemma": "pick up",
+    "id": "eng-ver-0616-pick up(romantic)",
+    "»trans": [
+      "pol-ver-0695-poderwać",
+      "pol-ver-0696-podrywać"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "romantic",
+      "emoji": "💕"
+    }
+  },
+  {
+    "lemma": "raise",
+    "id": "eng-ver-0617-raise",
+    "»trans": [
+      "pol-ver-0690-podnieść(raise)",
+      "pol-ver-0692-podnosić(raise)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "lift",
+    "id": "eng-ver-0618-lift",
+    "»trans": [
+      "pol-ver-0690-podnieść(raise)",
+      "pol-ver-0692-podnosić(raise)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "wrap",
+    "id": "eng-ver-0619-wrap",
+    "»trans": [
+      "pol-ver-0693-owinąć",
+      "pol-ver-0694-owijać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "hit on",
+    "id": "eng-ver-0620-hiton",
+    "»trans": [
+      "pol-ver-0695-poderwać",
+      "pol-ver-0696-podrywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "appear",
+    "id": "eng-ver-0621-appear",
+    "»trans": [
+      "pol-ver-0697-pojawiać",
+      "pol-ver-0698-pojawić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "cry",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0622-cry",
+    "»trans": [
+      "pol-ver-0701-płakać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "mean",
+    "id": "eng-ver-0623-mean",
+    "»trans": [
+      "pol-ver-0702-oznaczać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "signify",
+    "id": "eng-ver-0624-signify",
+    "»trans": [
+      "pol-ver-0702-oznaczać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "absorb",
+    "id": "eng-ver-0625-absorb",
+    "»trans": [
+      "pol-ver-0703-pochłaniać",
+      "pol-ver-0704-pochłonąć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "defeat",
+    "id": "eng-ver-0626-defeat",
+    "»trans": [
+      "pol-ver-0705-pokonywać",
+      "pol-ver-0706-pokonać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "remember",
+    "id": "eng-ver-0627-remember",
+    "»trans": [
+      "pol-ver-0707-pamiętać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "recall",
+    "id": "eng-ver-0628-recall",
+    "»trans": [
+      "pol-ver-0707-pamiętać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "worsen",
+    "id": "eng-ver-0629-worsen",
+    "»trans": [
+      "pol-ver-0708-pogorszyć",
+      "pol-ver-0709-pogarszać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "make worse",
+    "id": "eng-ver-0630-makeworse",
+    "»trans": [
+      "pol-ver-0708-pogorszyć",
+      "pol-ver-0709-pogarszać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "get worse",
+    "id": "eng-ver-0631-getworse",
+    "»trans": [
+      "pol-ver-0708-pogorszyć",
+      "pol-ver-0709-pogarszać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "deteriorate",
+    "id": "eng-ver-0632-deteriorate",
+    "»trans": [
+      "pol-ver-0708-pogorszyć",
+      "pol-ver-0709-pogarszać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "connect",
+    "id": "eng-ver-0633-connect",
+    "»trans": [
+      "pol-ver-0712-połączyć(connect)",
+      "pol-ver-0714-łączyć(connect)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "combine",
+    "id": "eng-ver-0634-combine",
+    "»trans": [
+      "pol-ver-0713-połączyć(combine)",
+      "pol-ver-0715-łączyć(combine)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "travel",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0635-travel",
+    "»trans": [
+      "pol-ver-0716-podróżować"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "suit",
+    "id": "eng-ver-0636-suit",
+    "»trans": [
+      "pol-ver-0717-pasować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "match",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0637-match",
+    "»trans": [
+      "pol-ver-0717-pasować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "suspect",
+    "id": "eng-ver-0638-suspect",
+    "»trans": [
+      "pol-ver-0718-podejrzewać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "beat up",
+    "id": "eng-ver-0639-beatup",
+    "»trans": [
+      "pol-ver-0719-pobić",
+      "pol-ver-0720-pobijać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "understand",
+    "id": "eng-ver-0640-understand",
+    "»trans": [
+      "pol-ver-0913-zrozumieć",
+      "pol-ver-0914-rozumieć",
+      "pol-ver-0721-pojąć",
+      "pol-ver-0722-pojmować"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "comprehend",
+    "id": "eng-ver-0641-comprehend",
+    "»trans": [
+      "pol-ver-0913-zrozumieć",
+      "pol-ver-0914-rozumieć",
+      "pol-ver-0721-pojąć",
+      "pol-ver-0722-pojmować"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "estimate",
+    "id": "eng-ver-0642-estimate",
+    "»trans": [
+      "pol-ver-0725-oszacować",
+      "pol-ver-0726-szacować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "warn",
+    "id": "eng-ver-0643-warn",
+    "»trans": [
+      "pol-ver-0727-ostrzec",
+      "pol-ver-0728-ostrzegać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "propose to",
+    "id": "eng-ver-0644-proposeto",
+    "»trans": [
+      "pol-ver-0731-oświadczyć",
+      "pol-ver-0732-oświadczać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "keep an eye on",
+    "id": "eng-ver-0645-keepaneyeon",
+    "»trans": [
+      "pol-ver-0735-pilnować(watch)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "plan",
+    "id": "eng-ver-0646-plan",
+    "»trans": [
+      "pol-ver-0736-planować",
+      "pol-ver-0737-zaplanować"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "hunt",
+    "id": "eng-ver-0647-hunt",
+    "»trans": [
+      "pol-ver-0738-polować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "depend on",
+    "id": "eng-ver-0648-dependon",
+    "»trans": [
+      "pol-ver-0740-polegać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "rely on",
+    "id": "eng-ver-0649-relyon",
+    "»trans": [
+      "pol-ver-0740-polegać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "admire",
+    "id": "eng-ver-0650-admire",
+    "»trans": [
+      "pol-ver-0741-podziwiać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "pierce",
+    "id": "eng-ver-0651-pierce",
+    "»trans": [
+      "pol-ver-0742-przebijać",
+      "pol-ver-0743-przebić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "puncture",
+    "id": "eng-ver-0652-puncture",
+    "»trans": [
+      "pol-ver-0742-przebijać",
+      "pol-ver-0743-przebić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "penetrate",
+    "transitivity": [
+      "r"
+    ],
+    "id": "eng-ver-0653-penetrate(pierce)",
+    "»trans": [
+      "pol-ver-0742-przebijać",
+      "pol-ver-0743-przebić"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "pierce",
+      "emoji": "🪛"
+    }
+  },
+  {
+    "lemma": "penetrate",
+    "id": "eng-ver-0654-penetrate(permeate)",
+    "»trans": [
+      "pol-ver-0873-przenikać",
+      "pol-ver-0874-przeniknąć"
+    ],
+    "register": 0,
+    "frequency": 5,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "permeate",
+      "emoji": "💧"
+    }
+  },
+  {
+    "lemma": "keep from",
+    "id": "eng-ver-0655-keepfrom",
+    "»trans": [
+      "pol-ver-0744-powstrzymać",
+      "pol-ver-0745-powstrzymywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "refrain from",
+    "id": "eng-ver-0656-refrainfrom",
+    "»trans": [
+      "pol-ver-0744-powstrzymać",
+      "pol-ver-0745-powstrzymywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "prevent from",
+    "id": "eng-ver-0657-preventfrom",
+    "»trans": [
+      "pol-ver-0744-powstrzymać",
+      "pol-ver-0745-powstrzymywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "stop from",
+    "id": "eng-ver-0658-stopfrom",
+    "»trans": [
+      "pol-ver-0744-powstrzymać",
+      "pol-ver-0745-powstrzymywać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "cause",
+    "id": "eng-ver-0659-cause",
+    "»trans": [
+      "pol-ver-0748-powodować"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "drag",
+    "id": "eng-ver-0660-drag",
+    "»trans": [
+      "pol-ver-0749-przeciągnąć",
+      "pol-ver-0750-przeciągać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "welcome",
+    "id": "eng-ver-0661-welcome",
+    "»trans": [
+      "pol-ver-0751-powitać",
+      "pol-ver-0752-witać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "greet",
+    "id": "eng-ver-0662-greet",
+    "»trans": [
+      "pol-ver-0751-powitać",
+      "pol-ver-0752-witać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "compare",
+    "id": "eng-ver-0663-compare",
+    "»trans": [
+      "pol-ver-0753-porównywać",
+      "pol-ver-0754-porównać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "convey",
+    "id": "eng-ver-0664-convey",
+    "»trans": [
+      "pol-ver-0755-przekazywać",
+      "pol-ver-0756-przekazać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "transmit",
+    "id": "eng-ver-0665-transmit",
+    "»trans": [
+      "pol-ver-0755-przekazywać",
+      "pol-ver-0756-przekazać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "own",
+    "id": "eng-ver-0666-own",
+    "»trans": [
+      "pol-ver-0757-posiadać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "possess",
+    "id": "eng-ver-0667-possess",
+    "»trans": [
+      "pol-ver-0757-posiadać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "enlarge",
+    "id": "eng-ver-0668-enlarge",
+    "»trans": [
+      "pol-ver-0758-powiększyć",
+      "pol-ver-0759-powiększać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "increase",
+    "id": "eng-ver-0669-increase",
+    "»trans": [
+      "pol-ver-0758-powiększyć",
+      "pol-ver-0759-powiększać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "expand",
+    "id": "eng-ver-0670-expand",
+    "»trans": [
+      "pol-ver-0758-powiększyć",
+      "pol-ver-0759-powiększać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "produce",
+    "id": "eng-ver-0671-produce",
+    "»trans": [
+      "pol-ver-0762-produkować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "transform",
+    "id": "eng-ver-0672-transform",
+    "»trans": [
+      "pol-ver-0763-przekształcić",
+      "pol-ver-0764-przekształcać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "meet",
+    "id": "eng-ver-0673-meet",
+    "»trans": [
+      "pol-ver-0765-poznawać(meet)",
+      "pol-ver-0766-poznać(meet)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "get to know",
+    "id": "eng-ver-0674-get to know",
+    "»trans": [
+      "pol-ver-0765-poznawać(meet)",
+      "pol-ver-0766-poznać(meet)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "recognise",
+    "id": "eng-ver-0675-recognise",
+    "»trans": [
+      "pol-ver-0767-poznawać(recognise)",
+      "pol-ver-0768-poznać(recognise)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "additionalSpellings": [
+      "recognize"
+    ]
+  },
+  {
+    "lemma": "shake",
+    "id": "eng-ver-0676-shake",
+    "»trans": [
+      "pol-ver-0769-potrząsać",
+      "pol-ver-0770-potrząsnąć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "help",
+    "id": "eng-ver-0677-help",
+    "»trans": [
+      "pol-ver-0773-pomóc",
+      "pol-ver-0774-pomagać"
+    ],
+    "register": 0,
+    "frequency": 1
+  },
+  {
+    "lemma": "omit",
+    "id": "eng-ver-0678-omit",
+    "»trans": [
+      "pol-ver-0775-pominąć(omit)",
+      "pol-ver-0777-pomijać(omit)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "leave out",
+    "id": "eng-ver-0679-leaveout",
+    "»trans": [
+      "pol-ver-0775-pominąć(omit)",
+      "pol-ver-0777-pomijać(omit)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "skip",
+    "id": "eng-ver-0680-skip",
+    "»trans": [
+      "pol-ver-0776-pominąć(skip)",
+      "pol-ver-0778-pomijać(skip)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "get changed",
+    "id": "eng-ver-0681-getchanged",
+    "»trans": [
+      "pol-ver-0779-przebrać",
+      "pol-ver-0780-przebierać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "go through",
+    "id": "eng-ver-0682-gothrough",
+    "»trans": [
+      "pol-ver-0781-przechodzić",
+      "pol-ver-0782-przejść"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "run over",
+    "id": "eng-ver-0683-runover",
+    "»trans": [
+      "pol-ver-0783-przejechać(run over)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "remain",
+    "id": "eng-ver-0684-remain",
+    "»trans": [
+      "pol-ver-0784-pozostawać",
+      "pol-ver-0785-pozostać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "stay",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0685-stay",
+    "»trans": [
+      "pol-ver-0784-pozostawać",
+      "pol-ver-0785-pozostać"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "improve",
+    "id": "eng-ver-0686-improve",
+    "»trans": [
+      "pol-ver-0786-poprawiać",
+      "pol-ver-0787-poprawić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "correct",
+    "id": "eng-ver-0687-correct",
+    "»trans": [
+      "pol-ver-0786-poprawiać",
+      "pol-ver-0787-poprawić"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "extend",
+    "id": "eng-ver-0688-extend",
+    "»trans": [
+      "pol-ver-0788-przedłużyć",
+      "pol-ver-0789-przedłużać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "prolong",
+    "id": "eng-ver-0689-prolong",
+    "»trans": [
+      "pol-ver-0788-przedłużyć",
+      "pol-ver-0789-przedłużać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "succeed",
+    "id": "eng-ver-0690-succeed",
+    "»trans": [
+      "pol-ver-0790-powieść"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "be going well for",
+    "id": "eng-ver-0691-begoingwellfor",
+    "»trans": [
+      "pol-ver-0790-powodzić(powodzi mi się)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "swallow",
+    "id": "eng-ver-0692-swallow",
+    "»trans": [
+      "pol-ver-0791-przełknąć",
+      "pol-ver-0792-przełykać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "confirm",
+    "id": "eng-ver-0693-confirm",
+    "»trans": [
+      "pol-ver-0795-potwierdzać",
+      "pol-ver-0796-potwierdzić"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "suggest",
+    "id": "eng-ver-0694-suggest",
+    "»trans": [
+      "pol-ver-0797-proponować",
+      "pol-ver-0798-zaproponować"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "take over",
+    "id": "eng-ver-0695-takeover",
+    "»trans": [
+      "pol-ver-0799-przejąć(take)(take over)",
+      "pol-ver-0802-przejmować(take)(take over)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "seize",
+    "id": "eng-ver-0696-seize",
+    "»trans": [
+      "pol-ver-0800-przejąć(take)(seize)",
+      "pol-ver-0803-przejmować(take)(seize)"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "mind",
+    "id": "eng-ver-0697-mind",
+    "»trans": [
+      "pol-ver-0801-przejąć(mind)",
+      "pol-ver-0804-przejmować(mind)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "swear",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0698-swear",
+    "»trans": [
+      "pol-ver-0807-przeklinać",
+      "pol-ver-0808-przekląć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "curse",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0699-curse",
+    "»trans": [
+      "pol-ver-0807-przeklinać",
+      "pol-ver-0808-przekląć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "notify",
+    "id": "eng-ver-0700-notify",
+    "»trans": [
+      "pol-ver-0809-powiadomić",
+      "pol-ver-0810-powiadamiać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "inform",
+    "id": "eng-ver-0701-inform",
+    "»trans": [
+      "pol-ver-0809-powiadomić",
+      "pol-ver-0810-powiadamiać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "consider",
+    "id": "eng-ver-0702-consider(as)",
+    "»trans": [
+      "pol-ver-0811-potraktować",
+      "pol-ver-0812-traktować",
+      "pol-ver-0911-uważać"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "consider something as",
+      "emoji": "⚪"
+    }
+  },
+  {
+    "lemma": "perform",
+    "id": "eng-ver-0703-perform(carry out)",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "perform",
+    "id": "eng-ver-0703-perform(in a show)",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "move",
+    "transitivity": [
+      "i",
+      "r"
+    ],
+    "id": "eng-ver-0704-move(house)",
+    "»trans": [
+      "pol-ver-0815-przeprowadzić(move)",
+      "pol-ver-0816-przeprowadzać(move)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "house",
+      "emoji": "🏠"
+    }
+  },
+  {
+    "lemma": "move",
+    "id": "eng-ver-0705-move(object)",
+    "»trans": [
+      "pol-ver-0818-przenosić(move)",
+      "pol-ver-0819-przenieść(move)"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    }
+  },
+  {
+    "lemma": "transfer",
+    "id": "eng-ver-0706-transfer",
+    "»trans": [
+      "pol-ver-0818-przenosić(move)",
+      "pol-ver-0819-przenieść(move)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "trip",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0707-trip",
+    "»trans": [
+      "pol-ver-0822-potknąć",
+      "pol-ver-0823-potykać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "trip over",
+    "id": "eng-ver-0708-tripover",
+    "»trans": [
+      "pol-ver-0822-potknąć",
+      "pol-ver-0823-potykać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "stumble",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0709-stumble",
+    "»trans": [
+      "pol-ver-0822-potknąć",
+      "pol-ver-0823-potykać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "plant",
+    "id": "eng-ver-0710-plant",
+    "»trans": [
+      "pol-ver-0824-posadzić",
+      "pol-ver-0825-sadzić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "commit",
+    "id": "eng-ver-0711-commit(error)",
+    "»trans": [
+      "pol-ver-0830-popełnić",
+      "pol-ver-0831-popełniać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "negative judgement",
+      "emoji": "👎"
+    }
+  },
+  {
+    "lemma": "regret",
+    "id": "eng-ver-0712-regret",
+    "»trans": [
+      "pol-ver-0837-pożałować",
+      "pol-ver-0838-żałować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "apologise",
+    "id": "eng-ver-0713-apologise",
+    "»trans": [
+      "pol-ver-0839-przeprosić",
+      "pol-ver-0840-przepraszać"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "additionalSpellings": [
+      "apologize"
+    ]
+  },
+  {
+    "lemma": "be sorry",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0714-besorry",
+    "»trans": [
+      "pol-ver-0839-przeprosić",
+      "pol-ver-0840-przepraszać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "startle",
+    "id": "eng-ver-0715-startle",
+    "»trans": [
+      "pol-ver-0841-przestraszyć",
+      "pol-ver-0842-przestraszać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "frighten",
+    "id": "eng-ver-0716-frighten",
+    "»trans": [
+      "pol-ver-0841-przestraszyć",
+      "pol-ver-0842-przestraszać",
+      "pol-ver-0847-przerażać(frighten)",
+      "pol-ver-0849-przerazić(frighten)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "scare",
+    "id": "eng-ver-0717-scare",
+    "»trans": [
+      "pol-ver-0841-przestraszyć",
+      "pol-ver-0842-przestraszać",
+      "pol-ver-0847-przerażać(frighten)",
+      "pol-ver-0849-przerazić(frighten)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "exaggerate",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0718-exaggerate",
+    "»trans": [
+      "pol-ver-0843-przesadzać(exaggerate)",
+      "pol-ver-0845-przesadzić(exaggerate)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "overdo",
+    "id": "eng-ver-0719-overdo",
+    "»trans": [
+      "pol-ver-0844-przesadzać(overdo)",
+      "pol-ver-0846-przesadzić(overdo)"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "horrify",
+    "id": "eng-ver-0720-horrify",
+    "»trans": [
+      "pol-ver-0848-przerażać(horrify)",
+      "pol-ver-0850-przerazić(horrify)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "appall",
+    "id": "eng-ver-0721-appall",
+    "»trans": [
+      "pol-ver-0848-przerażać(horrify)",
+      "pol-ver-0850-przerazić(horrify)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "flip",
+    "id": "eng-ver-0722-flip",
+    "»trans": [
+      "pol-ver-0851-przerzucić",
+      "pol-ver-0852-przerzucać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "store",
+    "id": "eng-ver-0723-store",
+    "»trans": [
+      "pol-ver-0853-przechowywać",
+      "pol-ver-0854-przechować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "stop",
+    "id": "eng-ver-0724-stop",
+    "»trans": [
+      "pol-ver-0855-przerwać(break)",
+      "pol-ver-0857-przerywać(break)",
+      "pol-ver-0859-przestawać",
+      "pol-ver-0860-przestać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "interrupt",
+    "id": "eng-ver-0725-interrupt",
+    "»trans": [
+      "pol-ver-0856-przerwać(interrupt)",
+      "pol-ver-0858-przerywać(interrupt)"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "hang",
+    "id": "eng-ver-0726-hang",
+    "»trans": [
+      "pol-ver-0861-powiesić",
+      "pol-ver-0862-wieszać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "look through",
+    "id": "eng-ver-0727-lookthrough(documents)",
+    "»trans": [
+      "pol-ver-0863-przeglądać",
+      "pol-ver-0864-przejrzeć"
+    ],
+    "register": 0,
+    "frequency": 5,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "documents",
+      "emoji": "📂"
+    }
+  },
+  {
+    "lemma": "browse",
+    "id": "eng-ver-0728-browse",
+    "»trans": [
+      "pol-ver-0863-przeglądać",
+      "pol-ver-0864-przejrzeć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "peruse",
+    "id": "eng-ver-0729-peruse",
+    "»trans": [
+      "pol-ver-0863-przeglądać",
+      "pol-ver-0864-przejrzeć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "get rid of",
+    "id": "eng-ver-0730-getridof",
+    "»trans": [
+      "pol-ver-0865-pozbyć",
+      "pol-ver-0866-pozbywać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "deprive",
+    "id": "eng-ver-0731-deprive",
+    "»trans": [
+      "pol-ver-0869-pozbawić",
+      "pol-ver-0870-pozbawiać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "advise",
+    "id": "eng-ver-0732-advise",
+    "»trans": [
+      "pol-ver-0871-poradzić",
+      "pol-ver-0872-radzić"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "permeate",
+    "id": "eng-ver-0733-permeate",
+    "»trans": [
+      "pol-ver-0873-przenikać",
+      "pol-ver-0874-przeniknąć"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "introduce",
+    "id": "eng-ver-0734-introduce",
+    "»trans": [
+      "pol-ver-0877-przedstawić",
+      "pol-ver-0878-przedstawiać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "present",
+    "id": "eng-ver-0735-present",
+    "»trans": [
+      "pol-ver-0877-przedstawić",
+      "pol-ver-0878-przedstawiać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "bid farewell",
+    "id": "eng-ver-0736-bidfarewell",
+    "»trans": [
+      "pol-ver-0879-pożegnać",
+      "pol-ver-0880-żegnać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "bid goodbye",
+    "id": "eng-ver-0737-bidgoodbye",
+    "»trans": [
+      "pol-ver-0879-pożegnać",
+      "pol-ver-0880-żegnać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "move around",
+    "id": "eng-ver-0738-movearound",
+    "»trans": [
+      "pol-ver-0881-przełożyć(move)",
+      "pol-ver-0883-przekładać(move)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "rearrange",
+    "id": "eng-ver-0739-rearrange",
+    "»trans": [
+      "pol-ver-0881-przełożyć(move)",
+      "pol-ver-0883-przekładać(move)"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "support",
+    "id": "eng-ver-0740-support",
+    "»trans": [
+      "pol-ver-0885-poprzeć",
+      "pol-ver-0886-popierać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "back",
+    "id": "eng-ver-0741-back",
+    "»trans": [
+      "pol-ver-0885-poprzeć",
+      "pol-ver-0886-popierać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "desire",
+    "id": "eng-ver-0742-desire",
+    "»trans": [
+      "pol-ver-0887-pragnąć",
+      "pol-ver-0888-zapragnąć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "long for",
+    "id": "eng-ver-0743-longfor",
+    "»trans": [
+      "pol-ver-0887-pragnąć",
+      "pol-ver-0888-zapragnąć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "wish for",
+    "id": "eng-ver-0744-wishfor",
+    "»trans": [
+      "pol-ver-0887-pragnąć",
+      "pol-ver-0888-zapragnąć"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "accommodate",
+    "id": "eng-ver-0745-accommodate",
+    "»trans": [
+      "pol-ver-0889-pomieścić",
+      "pol-ver-0890-pomieszczać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "marry",
+    "id": "eng-ver-0746-marry",
+    "»trans": [
+      "pol-ver-0891-poślubić",
+      "pol-ver-0892-poślubiać"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "hurry",
+    "id": "eng-ver-0747-hurry",
+    "»trans": [
+      "pol-ver-0893-pospieszyć",
+      "pol-ver-0894-spieszyć"
+    ],
+    "register": 0,
+    "frequency": 3
+  },
+  {
+    "lemma": "protest",
+    "id": "eng-ver-0748-protest",
+    "»trans": [
+      "pol-ver-0897-protestować",
+      "pol-ver-0898-zaprotestować"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "slip past",
+    "id": "eng-ver-0749-slippast",
+    "»trans": [
+      "pol-ver-0899-przemknąć",
+      "pol-ver-0900-przemykać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "sneak past",
+    "id": "eng-ver-0750-sneakpast",
+    "»trans": [
+      "pol-ver-0899-przemknąć",
+      "pol-ver-0900-przemykać"
+    ],
+    "register": 0,
+    "frequency": 5
+  },
+  {
+    "lemma": "lend",
+    "id": "eng-ver-0751-lend",
+    "»trans": [
+      "pol-ver-0901-pożyczyć(lend)",
+      "pol-ver-0903-pożyczać(lend)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "borrow",
+    "id": "eng-ver-0752-borrow",
+    "»trans": [
+      "pol-ver-0902-pożyczyć(borrow)",
+      "pol-ver-0904-pożyczać(borrow)"
+    ],
+    "register": 0,
+    "frequency": 2
+  },
+  {
+    "lemma": "last",
+    "id": "eng-ver-0753-last",
+    "»trans": [
+      "pol-ver-0905-potrwać"
+    ],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "memorise",
+    "id": "eng-ver-0759-memorise",
+    "»trans": [
+      "pol-ver-0708-zapamiętać(memorise)",
+      "pol-ver-0708-zapamiętywać"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "additionalSpellings": [
+      "memorize"
+    ]
+  },
+  {
+    "lemma": "assume",
+    "id": "eng-ver-0760-assume",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "presume",
+    "id": "eng-ver-0761-presume",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "suppose",
+    "id": "eng-ver-0762-suppose",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "bet",
+    "id": "eng-ver-0763-bet",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4
+  },
+  {
+    "lemma": "expose",
+    "id": "eng-ver-8888-expose",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4
+  }
+]
