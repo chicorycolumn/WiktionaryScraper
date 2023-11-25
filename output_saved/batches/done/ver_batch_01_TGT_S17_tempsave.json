@@ -271,7 +271,10 @@
       "infinitive": "get up",
       "verbal": {},
       "v2": "got up",
-      "v3": ["got up", "gotten up"],
+      "v3": [
+        "got up",
+        "gotten up"
+      ],
       "thirdPS": "gets up",
       "gerund": "getting up"
     }
@@ -358,6 +361,14 @@
       "singleWordtype": true,
       "text": "with no destination",
       "emoji": "🔁"
+    },
+    "inflections": {
+      "infinitive": "run",
+      "verbal": {},
+      "v2": "ran",
+      "v3": "run",
+      "thirdPS": "runs",
+      "gerund": "running"
     }
   },
   {
@@ -376,6 +387,14 @@
       "singleWordtype": true,
       "text": "with specific destination",
       "emoji": "🔚"
+    },
+    "inflections": {
+      "infinitive": "run",
+      "verbal": {},
+      "v2": "ran",
+      "v3": "run",
+      "thirdPS": "runs",
+      "gerund": "running"
     }
   },
   {
@@ -392,6 +411,14 @@
       "singleWordtype": true,
       "text": "employment",
       "emoji": "🏢"
+    },
+    "inflections": {
+      "infinitive": "run",
+      "verbal": {},
+      "v2": "ran",
+      "v3": "run",
+      "thirdPS": "runs",
+      "gerund": "running"
     }
   },
   {
@@ -404,7 +431,15 @@
       "pol-ver-0009-biegać"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "jog",
+      "verbal": {},
+      "v2": "jogged",
+      "v3": "jogged",
+      "thirdPS": "jogs",
+      "gerund": "jogging"
+    }
   },
   {
     "lemma": "go jogging",
@@ -416,7 +451,18 @@
       "pol-ver-0009-biegać"
     ],
     "register": 0,
-    "frequency": 3
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "go jogging",
+      "verbal": {},
+      "v2": "went jogging",
+      "v3": [
+        "been jogging",
+        "gone jogging"
+      ],
+      "thirdPS": "goes jogging",
+      "gerund": "going jogging"
+    }
   },
   {
     "lemma": "sit down",

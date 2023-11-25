@@ -950,7 +950,7 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
             v2 = v2[0:-2] + v2[-3] + v2[-2:]
             v3 = v2
             gerund = gerund[0:-3] + gerund[-4] + gerund[-3:]
-            return get_inflections_eng_adj(lemma, [v2, v3, thirdPS, gerund])
+            return get_inflections_eng_ver(lemma, cmd_history, [v2, v3, thirdPS, gerund])
         return restart()
 
     else:
