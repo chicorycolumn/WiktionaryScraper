@@ -911,6 +911,7 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
     else:
         remaining_words = None
         split_char = None
+
         if ' ' in lemma:
             split_char = ' '
             split = lemma.split(' ')
@@ -925,11 +926,13 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
         v2 = lemma + ("ed" if not lemma.endswith('e') else 'd')
         v3 = v2
         thirdPS = lemma + ("s" if (lemma[-1] not in 'hxsy' or lemma.endswith('th')) else "es")
+
         if lemma.endswith('y'):
             thirdPS = replace_char_at_index(thirdPS, -3, 'i')
             v2 = replace_char_at_index(v2, -3, 'i')
             v3 = replace_char_at_index(v3, -3, 'i')
         gerund = lemma + "ing"
+
         if lemma.endswith('e'):
             gerund = replace_char_at_index(gerund, -4, '')
 
@@ -946,7 +949,7 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
     print("")
     print_function(f'     yo we {gerund},      she {thirdPS}')
     print("")
-    user_input = input('Enter YES\nAny   NO\nd     to double final consonant\ne     to keep terminal "y"\nOr type in manually and press enter\n: ')
+    user_input = input('Enter YES\nAny   NO\nd     to double final consonant\ne     to keep terminal "y"\nOr type in manually and press enter (add semicolon after v2 if v3 is same)\n: ')
 
     if not user_input or user_input == 'y':
         return [{
@@ -972,7 +975,6 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
             thirdPS = replace_char_at_index(thirdPS, -3, 'y')
             thirdPS = replace_char_at_index(thirdPS, -2, '')
             return get_inflections_eng_ver(lemma, cmd_history, [v2, v3, gerund, thirdPS])
-        return restart()
         if user_input == 'd':
             v2 = v2[0:-2] + v2[-3] + v2[-2:]
             v3 = v2
@@ -982,6 +984,11 @@ def get_inflections_eng_ver(lemma, cmd_history, manually_entered_inflections: [s
 
     else:
         split = user_input.split(",")
+
+        if split[0][-1] == ';':
+            v2 = split[0][0:-1]
+            split[0] = v2
+            split.insert(0, v2)
 
         if len(split) == 1:
             split.append(v3)
