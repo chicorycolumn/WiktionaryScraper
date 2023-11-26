@@ -31,13 +31,8 @@
     "frequency": 1,
     "inflections": {
       "infinitive": "have",
-      "v2": {
-        "isTerminus": true,
-        "normal": [
-          "has",
-          "have"
-        ]
-      },
+      "verbal": {},
+      "v2": "had",
       "v3": "had",
       "thirdPS": "has",
       "gerund": "having"
@@ -1299,10 +1294,10 @@
     "inflections": {
       "infinitive": "have to",
       "verbal": {},
-      "v2": "swde",
-      "v3": "have toed",
-      "thirdPS": "have tos",
-      "gerund": "have toing"
+      "v2": "had to",
+      "v3": "had to",
+      "thirdPS": "has to",
+      "gerund": "having to"
     }
   },
   {
@@ -3161,11 +3156,11 @@
     "register": 0,
     "frequency": 3,
     "inflections": {
-      "infinitive": "have",
+      "infinitive": "have fun",
       "verbal": {},
-      "v2": "swde",
-      "v3": "haved fun",
-      "thirdPS": "haves fun",
+      "v2": "had fun",
+      "v3": "had fun",
+      "thirdPS": "has fun",
       "gerund": "having fun"
     }
   },
