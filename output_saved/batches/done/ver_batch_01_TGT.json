@@ -1004,6 +1004,7 @@
   {
     "lemma": "can",
     "id": "eng-ver-0049-can(able)",
+    "isModal": true,
     "»trans": [
       "pol-ver-0042-umieć",
       "pol-ver-0045-móc(can or be able to)"
@@ -1016,12 +1017,14 @@
       "emoji": "🏃"
     },
     "inflections": {
-      "infinitive": "swde"
+      "present": "can",
+      "past": "could"
     }
   },
   {
     "lemma": "can",
     "id": "eng-ver-0050-can(allowed)",
+    "isModal": true,
     "»trans": [
       "pol-ver-0046-móc(can or be allowed)"
     ],
@@ -1033,12 +1036,14 @@
       "emoji": "🚫"
     },
     "inflections": {
-      "infinitive": "swde"
+      "present": "can",
+      "past": "could"
     }
   },
   {
     "lemma": "can",
     "id": "eng-ver-0051-can(might)",
+    "isModal": true,
     "»trans": [
       "pol-ver-0047-móc(can may might)"
     ],
@@ -1050,7 +1055,8 @@
       "emoji": "🔲"
     },
     "inflections": {
-      "infinitive": "swde"
+      "present": "can",
+      "past": "could"
     }
   },
   {
@@ -1124,35 +1130,29 @@
   {
     "lemma": "may",
     "id": "eng-ver-0055-may",
+    "isModal": true,
     "»trans": [
       "pol-ver-0047-móc(can may might)"
     ],
     "register": 0,
     "frequency": 2,
     "inflections": {
-      "infinitive": "may",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "maied",
-      "thirdPS": "maies",
-      "gerund": "maying"
+      "present": "may",
+      "past": "might"
     }
   },
   {
     "lemma": "might",
     "id": "eng-ver-0056-might",
+    "isModal": true,
     "»trans": [
       "pol-ver-0047-móc(can may might)"
     ],
     "register": 0,
     "frequency": 2,
     "inflections": {
-      "infinitive": "might",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "mighted",
-      "thirdPS": "mights",
-      "gerund": "mighting"
+      "present": "may",
+      "past": "might"
     }
   },
   {
@@ -1262,22 +1262,16 @@
   },
   {
     "lemma": "must",
-    "transitivity": [
-      "i"
-    ],
     "id": "eng-ver-0063-must",
+    "isModal": true,
     "»trans": [
       "pol-ver-0057-musieć"
     ],
     "register": 0,
     "frequency": 1,
     "inflections": {
-      "infinitive": "must",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "musted",
-      "thirdPS": "musts",
-      "gerund": "musting"
+      "present": "must",
+      "past": "had to"
     }
   },
   {
