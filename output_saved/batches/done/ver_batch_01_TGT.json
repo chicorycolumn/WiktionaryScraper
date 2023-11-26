@@ -1112,14 +1112,19 @@
     ],
     "register": 0,
     "frequency": 2,
-    "inflections": {
-      "infinitive": "be allowed",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "be alloweded",
-      "thirdPS": "be alloweds",
-      "gerund": "be alloweding"
-    }
+  "inflections": {
+    "infinitive": "be allowed",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was allowed",
+        "were allowed"
+      ]
+    },
+    "v3": "been allowed",
+    "thirdPS": "is allowed",
+    "gerund": "being allowed"
+  }
   },
   {
     "lemma": "may",
@@ -2802,14 +2807,19 @@
     ],
     "register": 0,
     "frequency": 3,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed born",
-      "thirdPS": "bes born",
-      "gerund": "bing born"
-    }
+  "inflections": {
+    "infinitive": "be born",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was born",
+        "were born"
+      ]
+    },
+    "v3": "been born",
+    "thirdPS": "is born",
+    "gerund": "being born"
+  }
   },
   {
     "lemma": "exit",
@@ -4239,14 +4249,19 @@
     ],
     "register": 0,
     "frequency": 4,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed accountable for",
-      "thirdPS": "bes accountable for",
-      "gerund": "bing accountable for"
-    }
+  "inflections": {
+    "infinitive": "be accountable for",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was accountable for",
+        "were accountable for"
+      ]
+    },
+    "v3": "been accountable for",
+    "thirdPS": "is accountable for",
+    "gerund": "being accountable for"
+  }
   },
   {
     "lemma": "be responsible for",
@@ -4257,14 +4272,19 @@
     ],
     "register": 0,
     "frequency": 4,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed responsible for",
-      "thirdPS": "bes responsible for",
-      "gerund": "bing responsible for"
-    }
+  "inflections": {
+    "infinitive": "be responsible for",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was responsible for",
+        "were responsible for"
+      ]
+    },
+    "v3": "been responsible for",
+    "thirdPS": "is responsible for",
+    "gerund": "being responsible for"
+  }
   },
   {
     "lemma": "wait",
@@ -4489,14 +4509,19 @@
     ],
     "register": 0,
     "frequency": 3,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed nervous",
-      "thirdPS": "bes nervous",
-      "gerund": "bing nervous"
-    }
+  "inflections": {
+    "infinitive": "be nervous",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was nervous",
+        "were nervous"
+      ]
+    },
+    "v3": "been nervous",
+    "thirdPS": "is nervous",
+    "gerund": "being nervous"
+  }
   },
   {
     "lemma": "be irritated",
@@ -4507,14 +4532,19 @@
     ],
     "register": 0,
     "frequency": 3,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed irritated",
-      "thirdPS": "bes irritated",
-      "gerund": "bing irritated"
-    }
+  "inflections": {
+    "infinitive": "be irritated",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was irritated",
+        "were irritated"
+      ]
+    },
+    "v3": "been irritated",
+    "thirdPS": "is irritated",
+    "gerund": "being irritated"
+  }
   },
   {
     "lemma": "be annoyed",
@@ -4525,14 +4555,19 @@
     ],
     "register": 0,
     "frequency": 3,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed annoyed",
-      "thirdPS": "bes annoyed",
-      "gerund": "bing annoyed"
-    }
+  "inflections": {
+    "infinitive": "be annoyed",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was annoyed",
+        "were annoyed"
+      ]
+    },
+    "v3": "been annoyed",
+    "thirdPS": "is annoyed",
+    "gerund": "being annoyed"
+  }
   },
   {
     "lemma": "strive",
@@ -5840,14 +5875,19 @@
     ],
     "register": 0,
     "frequency": 2,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed afraid of",
-      "thirdPS": "bes afraid of",
-      "gerund": "bing afraid of"
-    }
+  "inflections": {
+    "infinitive": "be afraid of",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was afraid of",
+        "were afraid of"
+      ]
+    },
+    "v3": "been afraid of",
+    "thirdPS": "is afraid of",
+    "gerund": "being afraid of"
+  }
   },
   {
     "lemma": "be scared of",
@@ -5857,14 +5897,19 @@
     ],
     "register": 0,
     "frequency": 2,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed scared of",
-      "thirdPS": "bes scared of",
-      "gerund": "bing scared of"
-    }
+  "inflections": {
+    "infinitive": "be scared of",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was scared of",
+        "were scared of"
+      ]
+    },
+    "v3": "been scared of",
+    "thirdPS": "is scared of",
+    "gerund": "being scared of"
+  }
   },
   {
     "lemma": "care for",
@@ -6086,14 +6131,19 @@
     ],
     "register": 0,
     "frequency": 5,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed angry",
-      "thirdPS": "bes angry",
-      "gerund": "bing angry"
-    }
+  "inflections": {
+    "infinitive": "be angry",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was angry",
+        "were angry"
+      ]
+    },
+    "v3": "been angry",
+    "thirdPS": "is angry",
+    "gerund": "being angry"
+  }
   },
   {
     "lemma": "get angry",
@@ -8540,14 +8590,19 @@
     ],
     "register": 0,
     "frequency": 1,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed called",
-      "thirdPS": "bes called",
-      "gerund": "bing called"
-    }
+  "inflections": {
+    "infinitive": "be called",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was called",
+        "were called"
+      ]
+    },
+    "v3": "been called",
+    "thirdPS": "is called",
+    "gerund": "being called"
+  }
   },
   {
     "lemma": "destroy",
@@ -8592,14 +8647,19 @@
     ],
     "register": 0,
     "frequency": 4,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed quiet",
-      "thirdPS": "bes quiet",
-      "gerund": "bing quiet"
-    }
+  "inflections": {
+    "infinitive": "be quiet",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was quiet",
+        "were quiet"
+      ]
+    },
+    "v3": "been quiet",
+    "thirdPS": "is quiet",
+    "gerund": "being quiet"
+  }
   },
   {
     "lemma": "keep silent",
@@ -8626,14 +8686,19 @@
     ],
     "register": 0,
     "frequency": 4,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed silent",
-      "thirdPS": "bes silent",
-      "gerund": "bing silent"
-    }
+  "inflections": {
+    "infinitive": "be silent",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was silent",
+        "were silent"
+      ]
+    },
+    "v3": "been silent",
+    "thirdPS": "is silent",
+    "gerund": "being silent"
+  }
   },
   {
     "lemma": "repair",
@@ -8757,14 +8822,19 @@
     ],
     "register": 0,
     "frequency": 2,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed bored",
-      "thirdPS": "bes bored",
-      "gerund": "bing bored"
-    }
+  "inflections": {
+    "infinitive": "be bored",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was bored",
+        "were bored"
+      ]
+    },
+    "v3": "been bored",
+    "thirdPS": "is bored",
+    "gerund": "being bored"
+  }
   },
   {
     "lemma": "mumble",
@@ -11635,14 +11705,19 @@
     ],
     "register": 0,
     "frequency": 4,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed on fire",
-      "thirdPS": "bes on fire",
-      "gerund": "bing on fire"
-    }
+  "inflections": {
+    "infinitive": "be on fire",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was on fire",
+        "were on fire"
+      ]
+    },
+    "v3": "been on fire",
+    "thirdPS": "is on fire",
+    "gerund": "being on fire"
+  }
   },
   {
     "lemma": "achieve",
@@ -13446,14 +13521,19 @@
     ],
     "register": 0,
     "frequency": 4,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed going well for",
-      "thirdPS": "bes going well for",
-      "gerund": "bing going well for"
-    }
+  "inflections": {
+    "infinitive": "be going well for",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was going well for",
+        "were going well for"
+      ]
+    },
+    "v3": "been going well for",
+    "thirdPS": "is going well for",
+    "gerund": "being going well for"
+  }
   },
   {
     "lemma": "swallow",
@@ -13915,14 +13995,19 @@
     ],
     "register": 0,
     "frequency": 3,
-    "inflections": {
-      "infinitive": "be",
-      "verbal": {},
-      "v2": "swde",
-      "v3": "bed sorry",
-      "thirdPS": "bes sorry",
-      "gerund": "bing sorry"
-    }
+  "inflections": {
+    "infinitive": "be sorry",
+    "v2": {
+      "isTerminus": true,
+      "normal": [
+        "was sorry",
+        "were sorry"
+      ]
+    },
+    "v3": "been sorry",
+    "thirdPS": "is sorry",
+    "gerund": "being sorry"
+  }
   },
   {
     "lemma": "startle",
