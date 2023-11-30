@@ -25,12 +25,8 @@ if __name__ == '__main__':
     c.print_teal("Output path will be the same as input.")
 
     tgt_lobjs = load_data(input_path)
-    tempsave_tgt_lobjs = load_tempsave_if_exists(tempsave_path)
-    done_ids = [l['id'] for l in tempsave_tgt_lobjs]
-    results = []
-
-    print("Loaded", len(tgt_lobjs), "input tgt_lobjs.")
-    print("Loaded", len(tempsave_tgt_lobjs), "tempsave_tgt_lobjs.")
+    results = load_tempsave_if_exists(tempsave_path)
+    done_ids = [l['id'] for l in results]
 
     cmd_history = []
 
@@ -40,13 +36,14 @@ if __name__ == '__main__':
 
         if tgt_lobj['id'] not in done_ids:
             add_uncountable_label(tgt_lobj, cmd_history)
+            results.append(tgt_lobj)
 
             if index % 5 == 0:
-                save(tgt_lobjs, True)
+                save(results, True)
                 progress_bar(index + 1, len(tgt_lobjs), True)
 
     progress_bar(1, 1, True)
-    save(tgt_lobjs)
+    save(results)
 
     print("")
     print("Completely done.")
