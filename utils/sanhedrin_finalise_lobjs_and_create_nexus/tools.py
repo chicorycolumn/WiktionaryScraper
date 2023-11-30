@@ -1194,3 +1194,44 @@ def get_inflections_eng_adj(lemma, cmd_history, manually_entered_inflections: [s
         else:
             split = [False if el == 'no' else el for el in split]
             return get_inflections_eng_adj(lemma, cmd_history, split, True)
+
+
+def add_uncountable_label(lobj, cmd_history):
+    def restart():
+        return add_uncountable_label(lobj, cmd_history)
+
+    results = []
+
+    print("")
+    user_input = input(c.bold(f'Two {lobj["inflections"]["plural"]["nom"]}. ') + 'OK? ')
+    if not user_input or user_input == 'y':
+        results.append(True)
+    elif user_input in ["'", "n"]:
+        results.append(False)
+    else:
+        return restart()
+
+    user_input = input(c.bold(f'Some {lobj["lemma"]}, two pieces of {lobj["lemma"]}. ') + 'OK? ')
+    if not user_input or user_input == 'y':
+        results.append(True)
+    elif user_input in ["'", "n"]:
+        results.append(False)
+    else:
+        return restart()
+
+    if len(results) != 2:
+        return restart()
+
+    if results[0] and not results[1]:
+        c.print_green('COUNTABLE')
+        return
+    elif results[1] and not results[0]:
+        c.print_purple('TYPE ONE')
+        lobj["_uncountableType"] = 1
+        return
+    elif results[1] and results[0]:
+        c.print_yellow('TYPE TWO')
+        lobj["_uncountableType"] = 2
+        return
+    else:
+        return restart()

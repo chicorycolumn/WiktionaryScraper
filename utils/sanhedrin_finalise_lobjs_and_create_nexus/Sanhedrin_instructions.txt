@@ -170,24 +170,30 @@ It uses additionalSpellings that you manually type into this stage.
                                         Create inflection data for TGT.
 
 
-5Ai)  Run "S17_create_inflection_data_eng.py"
-      - to create the inflection data for English TGT lobjs
-      Modifies "nou_batch_01_tgt.json"
+5A) Run "S17_create_inflection_data_eng.py"
+    - to create the inflection data for English TGT lobjs
+    Modifies "nou_batch_01_tgt.json"
 
 
 
-5Aii) Search for 'swde' and '🚩' and resolve those manually added flags.
-      Modifies "nou_batch_01_tgt.json"
+5B) Run "S18_add_uncountable_label_to_nouns.py" just for 'nco' and 'npe'
+    - to specify uncountable for any such English TGT lobjs
+    Modifies "nou_batch_01_tgt.json"
 
 
 
-5B) Run "S12_connect_sibling_lobjs.py" for TGT
+5C) Search for 'swde' and '🚩' and resolve those manually added flags.
+    Modifies "nou_batch_01_tgt.json"
+
+
+
+5D) Run "S12_connect_sibling_lobjs.py" for TGT
     - to compact data by removing duplicated inflection data, replacing with reference to the one sibling which holds it
     Modifies "nou_batch_01_tgt.json"
 
 
 
-5C) Remove now-unneeded data from SRC and TGT
+5E) Remove now-unneeded data from SRC and TGT
     such as "translations", "»translations", "tags", "topics"
     but keep "notes".
 
