@@ -10,7 +10,7 @@ from utils.universal import Color as c, get_curried_save, load_tempsave_if_exist
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "npe"
+    wordtype = "nco"
     batch = "01"
     # # # # # #
 

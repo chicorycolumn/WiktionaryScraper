@@ -63,7 +63,7 @@
   },
   {
     "lemma": "glass",
-    "id": "eng-nco-0004-glass(material)",
+    "id": "eng-nco-0004-glass(material)🚩",
     "»trans": [
       "pol-nco-0465-szkło"
     ],
@@ -285,7 +285,7 @@
   },
   {
     "lemma": "light",
-    "id": "eng-nco-0015-light(photons)",
+    "id": "eng-nco-0015-light(photons)🚩",
     "»trans": [
       "pol-nco-0763-światło"
     ],
@@ -423,5 +423,100 @@
       }
     },
     "_uncountableType": 1
+  },
+  {
+    "lemma": "track",
+    "id": "eng-nco-0022-track",
+    "»trans": [
+      "pol-nco-0019-tor"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "track",
+        "gen": "track's"
+      },
+      "plural": {
+        "nom": "tracks",
+        "gen": "tracks'"
+      }
+    }
+  },
+  {
+    "lemma": "rail",
+    "id": "eng-nco-0023-rail",
+    "»trans": [
+      "pol-nco-0019-tor"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "rail",
+        "gen": "rail's"
+      },
+      "plural": {
+        "nom": "rails",
+        "gen": "rails'"
+      }
+    }
+  },
+  {
+    "lemma": "mountain",
+    "id": "eng-nco-0024-mountain",
+    "»trans": [
+      "pol-nco-0020-góra(mountain)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "mountain",
+        "gen": "mountain's"
+      },
+      "plural": {
+        "nom": "mountains",
+        "gen": "mountains'"
+      }
+    }
+  },
+  {
+    "lemma": "top",
+    "id": "eng-nco-0025-top",
+    "»trans": [
+      "pol-nco-0021-góra(top)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "top",
+        "gen": "top's"
+      },
+      "plural": {
+        "nom": "tops",
+        "gen": "tops'"
+      }
+    }
+  },
+  {
+    "lemma": "goat",
+    "id": "eng-nco-0026-goat",
+    "»trans": [
+      "pol-nco-0022-koza"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "goat",
+        "gen": "goat's"
+      },
+      "plural": {
+        "nom": "goats",
+        "gen": "goats'"
+      }
+    }
   }
 ]
