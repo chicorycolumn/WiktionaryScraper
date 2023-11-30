@@ -518,5 +518,211 @@
         "gen": "goats'"
       }
     }
+  },
+  {
+    "lemma": "coin",
+    "id": "eng-nco-0027-coin",
+    "»trans": [
+      "pol-nco-0023-moneta"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "coin",
+        "gen": "coin's"
+      },
+      "plural": {
+        "nom": "coins",
+        "gen": "coins'"
+      }
+    }
+  },
+  {
+    "lemma": "Saturday",
+    "id": "eng-nco-0028-Saturday",
+    "»trans": [
+      "pol-nco-0024-sobota"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "Saturday",
+        "gen": "Saturday's"
+      },
+      "plural": {
+        "nom": "Saturdays",
+        "gen": "Saturdays'"
+      }
+    }
+  },
+  {
+    "lemma": "zloty",
+    "id": "eng-nco-0029-zloty",
+    "»trans": [
+      "pol-nco-0025-złoty"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "zloty",
+        "gen": "zloty's"
+      },
+      "plural": {
+        "nom": "zlotys",
+        "gen": "zlotys'"
+      }
+    },
+    "_uncountableType": 2
+  },
+  {
+    "lemma": "carrot",
+    "id": "eng-nco-0030-carrot",
+    "»trans": [
+      "pol-nco-0026-marchewka"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "carrot",
+        "gen": "carrot's"
+      },
+      "plural": {
+        "nom": "carrots",
+        "gen": "carrots'"
+      }
+    },
+    "_uncountableType": 2
+  },
+  {
+    "lemma": "cheese",
+    "id": "eng-nco-0031-cheese",
+    "»trans": [
+      "pol-nco-0027-ser"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "cheese",
+        "gen": "cheese's"
+      },
+      "plural": {
+        "nom": "cheeses",
+        "gen": "cheeses'"
+      }
+    },
+    "_uncountableType": 2
+  },
+  {
+    "lemma": "cabbage",
+    "id": "eng-nco-0032-cabbage",
+    "»trans": [
+      "pol-nco-0028-kapusta"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "cabbage",
+        "gen": "cabbage's"
+      },
+      "plural": {
+        "nom": "cabbages",
+        "gen": "cabbages'"
+      }
+    },
+    "_uncountableType": 2
+  },
+  {
+    "lemma": "kale",
+    "id": "eng-nco-0033-kale",
+    "»trans": [
+      "pol-nco-0028-kapusta"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "kale",
+        "gen": "kale's"
+      },
+      "plural": {
+        "nom": "kales",
+        "gen": "kales'"
+      }
+    },
+    "_uncountableType": 1
+  },
+  {
+    "lemma": "raspberry",
+    "id": "eng-nco-0034-raspberry",
+    "»trans": [
+      "pol-nco-0029-malina"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "raspberry",
+        "gen": "raspberry's"
+      },
+      "plural": {
+        "nom": "raspberries",
+        "gen": "raspberries'"
+      }
+    }
+  },
+  {
+    "lemma": "rubber",
+    "id": "eng-nco-0035-rubber(material)🚩",
+    "»trans": [
+      "pol-nco-0030-guma(rubber)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "material",
+      "emoji": "👚"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "rubber",
+        "gen": "rubber's"
+      },
+      "plural": {
+        "nom": "rubbers",
+        "gen": "rubbers'"
+      }
+    },
+    "_uncountableType": 1
+  },
+  {
+    "lemma": "rubber",
+    "id": "eng-nco-0036-rubber(eraser)",
+    "»trans": [
+      "pol-nco-0990-gumka(eraser)"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "rubber",
+        "gen": "rubber's"
+      },
+      "plural": {
+        "nom": "rubbers",
+        "gen": "rubbers'"
+      }
+    }
   }
 ]
