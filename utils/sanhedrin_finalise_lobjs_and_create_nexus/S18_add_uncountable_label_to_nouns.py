@@ -5,12 +5,12 @@ from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same
     add_uncountable_label
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
-from utils.universal import Color as c, get_curried_save, load_tempsave_if_exists, progress_bar
+from utils.universal import Color as c, get_curried_save, load_tempsave_if_exists, progress_bar, load_data
 
 if __name__ == '__main__':
 
     # # # # # #
-    wordtype = "nco"
+    wordtype = "npe"
     batch = "01"
     # # # # # #
 
@@ -24,11 +24,13 @@ if __name__ == '__main__':
     c.print_teal("tempsave_path =     " + c.teal(tempsave_path))
     c.print_teal("Output path will be the same as input.")
 
-    tgt_lobjs = load_tempsave_if_exists(tempsave_path, input_path)
-    siblings = []
-    sibling_headers = []
+    tgt_lobjs = load_data(input_path)
+    tempsave_tgt_lobjs = load_tempsave_if_exists(tempsave_path)
+    done_ids = [l['id'] for l in tempsave_tgt_lobjs]
+    results = []
 
-    print("Loaded", len(tgt_lobjs), "target lobjs.")
+    print("Loaded", len(tgt_lobjs), "input tgt_lobjs.")
+    print("Loaded", len(tempsave_tgt_lobjs), "tempsave_tgt_lobjs.")
 
     cmd_history = []
 
@@ -36,11 +38,12 @@ if __name__ == '__main__':
         print('')
         print(f"{index + 1}/{len(tgt_lobjs)}", tgt_lobj['id'][8:])
 
-        add_uncountable_label(tgt_lobj, cmd_history)
+        if tgt_lobj['id'] not in done_ids:
+            add_uncountable_label(tgt_lobj, cmd_history)
 
-        if index % 5 == 0:
-            save(tgt_lobjs, True)
-            progress_bar(index + 1, len(tgt_lobjs), True)
+            if index % 5 == 0:
+                save(tgt_lobjs, True)
+                progress_bar(index + 1, len(tgt_lobjs), True)
 
     progress_bar(1, 1, True)
     save(tgt_lobjs)

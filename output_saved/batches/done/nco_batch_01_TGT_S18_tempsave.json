@@ -1,0 +1,427 @@
+[
+  {
+    "lemma": "book",
+    "id": "eng-nco-0001-book",
+    "»trans": [
+      "pol-nco-0001-książka"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "book",
+        "gen": "book's"
+      },
+      "plural": {
+        "nom": "books",
+        "gen": "books'"
+      }
+    }
+  },
+  {
+    "lemma": "spoon",
+    "id": "eng-nco-0002-spoon",
+    "»trans": [
+      "pol-nco-0002-łyżka"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "spoon",
+        "gen": "spoon's"
+      },
+      "plural": {
+        "nom": "spoons",
+        "gen": "spoons'"
+      }
+    }
+  },
+  {
+    "lemma": "glass",
+    "id": "eng-nco-0003-glass(tumbler)",
+    "»trans": [
+      "pol-nco-0003-szklanka"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "glass",
+        "gen": "glass's"
+      },
+      "plural": {
+        "nom": "glasses",
+        "gen": "glasses'"
+      }
+    }
+  },
+  {
+    "lemma": "glass",
+    "id": "eng-nco-0004-glass(material)",
+    "»trans": [
+      "pol-nco-0465-szkło"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "material",
+      "emoji": "👚"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "glass",
+        "gen": "glass's"
+      },
+      "plural": {
+        "nom": "glasses",
+        "gen": "glasses'"
+      }
+    },
+    "_uncountableType": 1
+  },
+  {
+    "lemma": "spring",
+    "id": "eng-nco-0005-spring",
+    "»trans": [
+      "pol-nco-0004-wiosna"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "spring",
+        "gen": "spring's"
+      },
+      "plural": {
+        "nom": "springs",
+        "gen": "springs'"
+      }
+    }
+  },
+  {
+    "lemma": "onion",
+    "id": "eng-nco-0006-onion",
+    "»trans": [
+      "pol-nco-0005-cebula"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "onion",
+        "gen": "onion's"
+      },
+      "plural": {
+        "nom": "onions",
+        "gen": "onions'"
+      }
+    },
+    "_uncountableType": 2
+  },
+  {
+    "lemma": "tea",
+    "id": "eng-nco-0007-tea",
+    "»trans": [
+      "pol-nco-0006-herbata"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "tea",
+        "gen": "tea's"
+      },
+      "plural": {
+        "nom": "teas",
+        "gen": "teas'"
+      }
+    },
+    "_uncountableType": 2
+  },
+  {
+    "lemma": "tower",
+    "id": "eng-nco-0008-tower",
+    "»trans": [
+      "pol-nco-0007-wieża"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "tower",
+        "gen": "tower's"
+      },
+      "plural": {
+        "nom": "towers",
+        "gen": "towers'"
+      }
+    }
+  },
+  {
+    "lemma": "school",
+    "id": "eng-nco-0009-school",
+    "»trans": [
+      "pol-nco-0008-szkoła"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "school",
+        "gen": "school's"
+      },
+      "plural": {
+        "nom": "schools",
+        "gen": "schools'"
+      }
+    }
+  },
+  {
+    "lemma": "telephone",
+    "id": "eng-nco-0010-telephone",
+    "»trans": [
+      "pol-nco-0009-telefon"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "telephone",
+        "gen": "telephone's"
+      },
+      "plural": {
+        "nom": "telephones",
+        "gen": "telephones'"
+      }
+    }
+  },
+  {
+    "lemma": "table",
+    "id": "eng-nco-0011-table",
+    "»trans": [
+      "pol-nco-0010-stół"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "table",
+        "gen": "table's"
+      },
+      "plural": {
+        "nom": "tables",
+        "gen": "tables'"
+      }
+    }
+  },
+  {
+    "lemma": "flower",
+    "id": "eng-nco-0012-flower",
+    "»trans": [
+      "pol-nco-0011-kwiat"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "flower",
+        "gen": "flower's"
+      },
+      "plural": {
+        "nom": "flowers",
+        "gen": "flowers'"
+      }
+    }
+  },
+  {
+    "lemma": "lamp",
+    "id": "eng-nco-0013-lamp",
+    "»trans": [
+      "pol-nco-0012-lampa"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "lamp",
+        "gen": "lamp's"
+      },
+      "plural": {
+        "nom": "lamps",
+        "gen": "lamps'"
+      }
+    }
+  },
+  {
+    "lemma": "light",
+    "id": "eng-nco-0014-light(lamp)",
+    "»trans": [
+      "pol-nco-0012-lampa"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "technology",
+      "emoji": "💻"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "light",
+        "gen": "light's"
+      },
+      "plural": {
+        "nom": "lights",
+        "gen": "lights'"
+      }
+    }
+  },
+  {
+    "lemma": "light",
+    "id": "eng-nco-0015-light(photons)",
+    "»trans": [
+      "pol-nco-0763-światło"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physics",
+      "emoji": "☄️"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "light",
+        "gen": "light's"
+      },
+      "plural": {
+        "nom": "lights",
+        "gen": "lights'"
+      }
+    },
+    "_uncountableType": 1
+  },
+  {
+    "lemma": "vodka",
+    "id": "eng-nco-0016-vodka",
+    "»trans": [
+      "pol-nco-0013-wódka"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "vodka",
+        "gen": "vodka's"
+      },
+      "plural": {
+        "nom": "vodkas",
+        "gen": "vodkas'"
+      }
+    },
+    "_uncountableType": 2
+  },
+  {
+    "lemma": "forest",
+    "id": "eng-nco-0017-forest",
+    "»trans": [
+      "pol-nco-0014-las"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "forest",
+        "gen": "forest's"
+      },
+      "plural": {
+        "nom": "forests",
+        "gen": "forests'"
+      }
+    }
+  },
+  {
+    "lemma": "step",
+    "id": "eng-nco-0018-step",
+    "»trans": [
+      "pol-nco-0015-krok"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "step",
+        "gen": "step's"
+      },
+      "plural": {
+        "nom": "steps",
+        "gen": "steps'"
+      }
+    }
+  },
+  {
+    "lemma": "month",
+    "id": "eng-nco-0019-month",
+    "»trans": [
+      "pol-nco-0016-miesiąc"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "month",
+        "gen": "month's"
+      },
+      "plural": {
+        "nom": "months",
+        "gen": "months'"
+      }
+    }
+  },
+  {
+    "lemma": "dictionary",
+    "id": "eng-nco-0020-dictionary",
+    "»trans": [
+      "pol-nco-0017-słownik(dictionary)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "dictionary",
+        "gen": "dictionary's"
+      },
+      "plural": {
+        "nom": "dictionaries",
+        "gen": "dictionaries'"
+      }
+    }
+  },
+  {
+    "lemma": "vocabulary",
+    "id": "eng-nco-0021-vocabulary",
+    "»trans": [
+      "pol-nco-0018-słownik(lexicon)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "vocabulary",
+        "gen": "vocabulary's"
+      },
+      "plural": {
+        "nom": "vocabularies",
+        "gen": "vocabularies'"
+      }
+    },
+    "_uncountableType": 1
+  }
+]

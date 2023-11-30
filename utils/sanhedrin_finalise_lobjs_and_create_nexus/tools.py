@@ -1202,22 +1202,30 @@ def add_uncountable_label(lobj, cmd_history):
 
     results = []
 
+    if not lobj["inflections"].get('plural') or not lobj["inflections"].get('singular'):
+        c.print_teal('LACKING')
+        return
+
     print("")
     user_input = input(c.bold(f'Two {lobj["inflections"]["plural"]["nom"]}. ') + 'OK? ')
     if not user_input or user_input == 'y':
         results.append(True)
     elif user_input in ["'", "n"]:
         results.append(False)
-    else:
-        return restart()
-
-    user_input = input(c.bold(f'Some {lobj["lemma"]}, two pieces of {lobj["lemma"]}. ') + 'OK? ')
-    if not user_input or user_input == 'y':
+    elif user_input == '#':
         results.append(True)
-    elif user_input in ["'", "n"]:
         results.append(False)
     else:
         return restart()
+
+    if user_input != '#':
+        user_input = input(c.bold(f'Some {lobj["lemma"]}, two pieces of {lobj["lemma"]}. ') + 'OK? ')
+        if not user_input or user_input == 'y':
+            results.append(True)
+        elif user_input in ["'", "n"]:
+            results.append(False)
+        else:
+            return restart()
 
     if len(results) != 2:
         return restart()
