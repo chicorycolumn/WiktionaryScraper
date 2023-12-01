@@ -1113,5 +1113,395 @@
       }
     },
     "_uncountableType": 2
+  },
+  {
+    "lemma": "kettle",
+    "id": "eng-nco-0056-kettle",
+    "»trans": [
+      "pol-nco-0048-czajnik"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "kettle",
+        "gen": "kettle's"
+      },
+      "plural": {
+        "nom": "kettles",
+        "gen": "kettles'"
+      }
+    }
+  },
+  {
+    "lemma": "teapot",
+    "id": "eng-nco-0057-teapot",
+    "»trans": [
+      "pol-nco-0048-czajnik"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "teapot",
+        "gen": "teapot's"
+      },
+      "plural": {
+        "nom": "teapots",
+        "gen": "teapots'"
+      }
+    }
+  },
+  {
+    "lemma": "knife",
+    "id": "eng-nco-0058-knife",
+    "»trans": [
+      "pol-nco-0049-nóż"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "knife",
+        "gen": "knife's"
+      },
+      "plural": {
+        "nom": "knives",
+        "gen": "knives'"
+      }
+    }
+  },
+  {
+    "lemma": "computer",
+    "id": "eng-nco-0059-computer",
+    "»trans": [
+      "pol-nco-0050-komputer"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "computer",
+        "gen": "computer's"
+      },
+      "plural": {
+        "nom": "computers",
+        "gen": "computers'"
+      }
+    }
+  },
+  {
+    "lemma": "hospital",
+    "id": "eng-nco-0060-hospital",
+    "»trans": [
+      "pol-nco-0051-szpital"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "hospital",
+        "gen": "hospital's"
+      },
+      "plural": {
+        "nom": "hospitals",
+        "gen": "hospitals'"
+      }
+    }
+  },
+  {
+    "lemma": "physics",
+    "id": "eng-nco-0061-physics",
+    "»trans": [
+      "pol-nco-0052-fizyka"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "physics",
+        "gen": "physics's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
+  },
+  {
+    "lemma": "mathematics",
+    "id": "eng-nco-0062-mathematics",
+    "»trans": [
+      "pol-nco-0053-matematyka"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "additionalSpellings": [
+      "math",
+      "maths"
+    ],
+    "inflections": {
+      "singular": {
+        "nom": "mathematics",
+        "gen": "mathematics's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
+  },
+  {
+    "lemma": "chemistry",
+    "id": "eng-nco-0063-chemistry",
+    "»trans": [
+      "pol-nco-0054-chemia"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "chemistry",
+        "gen": "chemistry's",
+        "lacking": true,
+        "tantumSingulare": true
+      }
+    }
+  },
+  {
+    "lemma": "chocolate",
+    "id": "eng-nco-0064-chocolate",
+    "»trans": [
+      "pol-nco-0055-czekolada"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "chocolate",
+        "gen": "chocolate's"
+      },
+      "plural": {
+        "nom": "chocolates",
+        "gen": "chocolates'"
+      }
+    },
+    "_uncountableType": 2
+  },
+  {
+    "lemma": "winter",
+    "id": "eng-nco-0065-winter",
+    "»trans": [
+      "pol-nco-0056-zima"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "winter",
+        "gen": "winter's"
+      },
+      "plural": {
+        "nom": "winters",
+        "gen": "winters'"
+      }
+    }
+  },
+  {
+    "lemma": "floor",
+    "id": "eng-nco-0066-floor(!ceiling)",
+    "»trans": [
+      "pol-nco-0057-podłoga"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "not ceiling",
+      "emoji": "🛋️"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "floor",
+        "gen": "floor's"
+      },
+      "plural": {
+        "nom": "floors",
+        "gen": "floors'"
+      }
+    }
+  },
+  {
+    "lemma": "floor",
+    "id": "eng-nco-0067-floor(storey)",
+    "»trans": [
+      "pol-nco-0474-piętro"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "eg ground floor",
+      "emoji": "🏢"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "floor",
+        "gen": "floor's"
+      },
+      "plural": {
+        "nom": "floors",
+        "gen": "floors'"
+      }
+    }
+  },
+  {
+    "lemma": "building",
+    "id": "eng-nco-0068-building",
+    "»trans": [
+      "pol-nco-0058-budynek"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "building",
+        "gen": "building's"
+      },
+      "plural": {
+        "nom": "buildings",
+        "gen": "buildings'"
+      }
+    }
+  },
+  {
+    "lemma": "wall",
+    "id": "eng-nco-0069-wall",
+    "»trans": [
+      "pol-nco-0059-ściana"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "wall",
+        "gen": "wall's"
+      },
+      "plural": {
+        "nom": "walls",
+        "gen": "walls'"
+      }
+    }
+  },
+  {
+    "lemma": "map",
+    "id": "eng-nco-0070-map",
+    "»trans": [
+      "pol-nco-0060-mapa"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "map",
+        "gen": "map's"
+      },
+      "plural": {
+        "nom": "maps",
+        "gen": "maps'"
+      }
+    }
+  },
+  {
+    "lemma": "climate",
+    "id": "eng-nco-0071-climate",
+    "»trans": [
+      "pol-nco-0061-klimat"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "climate",
+        "gen": "climate's"
+      },
+      "plural": {
+        "nom": "climates",
+        "gen": "climates'"
+      }
+    }
+  },
+  {
+    "lemma": "year",
+    "id": "eng-nco-0072-year",
+    "»trans": [
+      "pol-nco-0062-rok",
+      "pol-nco-0093-lato(year)"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "year",
+        "gen": "year's"
+      },
+      "plural": {
+        "nom": "years",
+        "gen": "years'"
+      }
+    }
+  },
+  {
+    "lemma": "state",
+    "id": "eng-nco-0073-state",
+    "»trans": [
+      "pol-nco-0063-stan(mental state)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "state",
+        "gen": "state's"
+      },
+      "plural": {
+        "nom": "states",
+        "gen": "states'"
+      }
+    }
+  },
+  {
+    "lemma": "fate",
+    "id": "eng-nco-0074-fate",
+    "»trans": [
+      "pol-nco-0064-los"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "fate",
+        "gen": "fate's"
+      },
+      "plural": {
+        "nom": "fates",
+        "gen": "fates'"
+      }
+    }
+  },
+  {
+    "lemma": "boom",
+    "id": "eng-nco-0075-boom",
+    "»trans": [
+      "pol-nco-0065-huk"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "boom",
+        "gen": "boom's"
+      },
+      "plural": {
+        "nom": "booms",
+        "gen": "booms'"
+      }
+    }
   }
 ]

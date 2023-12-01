@@ -1207,19 +1207,14 @@ def add_uncountable_label(lobj, cmd_history):
         return
 
     print("")
-    user_input = input(c.bold(f'Two {lobj["inflections"]["plural"]["nom"]}. ') + 'OK? ')
+    user_input = input(c.bold(f'a lot of {lobj["lemma"]} ') + 'is wrong, right? ')
+
     if not user_input or user_input == 'y':
-        results.append(True)
-    elif user_input in ["'", "n"]:
-        results.append(False)
-    elif user_input == '#':
         results.append(True)
         results.append(False)
     else:
-        return restart()
+        user_input = input(c.bold(f'Two {lobj["inflections"]["plural"]["nom"]}. ') + 'OK? ')
 
-    if user_input != '#':
-        user_input = input(c.bold(f'Some {lobj["lemma"]}, two pieces of {lobj["lemma"]}. ') + 'OK? ')
         if not user_input or user_input == 'y':
             results.append(True)
         elif user_input in ["'", "n"]:
@@ -1227,8 +1222,16 @@ def add_uncountable_label(lobj, cmd_history):
         else:
             return restart()
 
-    if len(results) != 2:
-        return restart()
+        user_input = input(c.bold(f'A lot of {lobj["lemma"]}. ') + 'OK? ')
+        if not user_input or user_input == 'y':
+            results.append(True)
+        elif user_input in ["'", "n"]:
+            results.append(False)
+        else:
+            return restart()
+
+        if len(results) != 2:
+            return restart()
 
     if results[0] and not results[1]:
         c.print_green('COUNTABLE')
