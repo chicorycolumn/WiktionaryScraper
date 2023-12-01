@@ -724,5 +724,394 @@
         "gen": "rubbers'"
       }
     }
+  },
+  {
+    "lemma": "chewing gum",
+    "id": "eng-nco-0037-chewinggum",
+    "»trans": [
+      "pol-nco-0031-guma(chewing gum)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "chewing gum",
+        "gen": "chewing gum's"
+      },
+      "plural": {
+        "nom": "chewing gums",
+        "gen": "chewing gums'"
+      }
+    },
+    "_uncountableType": 1
+  },
+  {
+    "lemma": "way",
+    "id": "eng-nco-0038-way(method)",
+    "»trans": [
+      "pol-nco-0032-droga(way)",
+      "pol-nco-0677-sposób",
+      "pol-nco-0860-trasa"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "way",
+        "gen": "way's"
+      },
+      "plural": {
+        "nom": "ways",
+        "gen": "ways'"
+      }
+    }
+  },
+  {
+    "lemma": "way",
+    "id": "eng-nco-0038-way(direction)",
+    "»trans": [
+      "pol-nco-0032-droga(way)",
+      "pol-nco-0677-sposób",
+      "pol-nco-0860-trasa"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "way",
+        "gen": "way's"
+      },
+      "plural": {
+        "nom": "ways",
+        "gen": "ways'"
+      }
+    }
+  },
+  {
+    "lemma": "road",
+    "id": "eng-nco-0039-road",
+    "»trans": [
+      "pol-nco-0033-droga(road)"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "road",
+        "gen": "road's"
+      },
+      "plural": {
+        "nom": "roads",
+        "gen": "roads'"
+      }
+    }
+  },
+  {
+    "lemma": "cat",
+    "id": "eng-nco-0040-cat",
+    "»trans": [
+      "pol-nco-0034-kot"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "cat",
+        "gen": "cat's"
+      },
+      "plural": {
+        "nom": "cats",
+        "gen": "cats'"
+      }
+    }
+  },
+  {
+    "lemma": "fox",
+    "id": "eng-nco-0041-fox",
+    "»trans": [
+      "pol-nco-0035-lis"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "fox",
+        "gen": "fox's"
+      },
+      "plural": {
+        "nom": "foxes",
+        "gen": "foxes'"
+      }
+    }
+  },
+  {
+    "lemma": "bird",
+    "id": "eng-nco-0042-bird",
+    "»trans": [
+      "pol-nco-0036-ptak"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "bird",
+        "gen": "bird's"
+      },
+      "plural": {
+        "nom": "birds",
+        "gen": "birds'"
+      }
+    }
+  },
+  {
+    "lemma": "wolf",
+    "id": "eng-nco-0043-wolf",
+    "»trans": [
+      "pol-nco-0037-wilk"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "wolf",
+        "gen": "wolf's"
+      },
+      "plural": {
+        "nom": "wolves",
+        "gen": "wolves'"
+      }
+    }
+  },
+  {
+    "lemma": "tongue",
+    "id": "eng-nco-0044-tongue",
+    "»trans": [
+      "pol-nco-0038-język(tongue)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "tongue",
+        "gen": "tongue's"
+      },
+      "plural": {
+        "nom": "tongues",
+        "gen": "tongues'"
+      }
+    }
+  },
+  {
+    "lemma": "language",
+    "id": "eng-nco-0045-language",
+    "»trans": [
+      "pol-nco-0039-język(language)"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "language",
+        "gen": "language's"
+      },
+      "plural": {
+        "nom": "languages",
+        "gen": "languages'"
+      }
+    },
+    "_uncountableType": 2
+  },
+  {
+    "lemma": "hall",
+    "id": "eng-nco-0046-hall",
+    "»trans": [
+      "pol-nco-0040-hol"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "hall",
+        "gen": "hall's"
+      },
+      "plural": {
+        "nom": "halls",
+        "gen": "halls'"
+      }
+    }
+  },
+  {
+    "lemma": "hallway",
+    "id": "eng-nco-0047-hallway",
+    "»trans": [
+      "pol-nco-0040-hol"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "hallway",
+        "gen": "hallway's"
+      },
+      "plural": {
+        "nom": "hallways",
+        "gen": "hallways'"
+      }
+    }
+  },
+  {
+    "lemma": "lobby",
+    "id": "eng-nco-0048-lobby",
+    "»trans": [
+      "pol-nco-0040-hol"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "lobby",
+        "gen": "lobby's"
+      },
+      "plural": {
+        "nom": "lobbies",
+        "gen": "lobbies'"
+      }
+    }
+  },
+  {
+    "lemma": "moment",
+    "id": "eng-nco-0049-moment",
+    "»trans": [
+      "pol-nco-0041-moment",
+      "pol-nco-0378-chwila"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "moment",
+        "gen": "moment's"
+      },
+      "plural": {
+        "nom": "moments",
+        "gen": "moments'"
+      }
+    }
+  },
+  {
+    "lemma": "window",
+    "id": "eng-nco-0050-window",
+    "»trans": [
+      "pol-nco-0042-okno"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "window",
+        "gen": "window's"
+      },
+      "plural": {
+        "nom": "windows",
+        "gen": "windows'"
+      }
+    }
+  },
+  {
+    "lemma": "radio",
+    "id": "eng-nco-0051-radio",
+    "»trans": [
+      "pol-nco-0043-radio"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "radio",
+        "gen": "radio's"
+      },
+      "plural": {
+        "nom": "radios",
+        "gen": "radios'"
+      }
+    },
+    "_uncountableType": 2
+  },
+  {
+    "lemma": "problem",
+    "id": "eng-nco-0052-problem",
+    "»trans": [
+      "pol-nco-0044-problem"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "problem",
+        "gen": "problem's"
+      },
+      "plural": {
+        "nom": "problems",
+        "gen": "problems'"
+      }
+    }
+  },
+  {
+    "lemma": "hen",
+    "id": "eng-nco-0053-hen",
+    "»trans": [
+      "pol-nco-0045-kura"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "hen",
+        "gen": "hen's"
+      },
+      "plural": {
+        "nom": "hens",
+        "gen": "hens'"
+      }
+    }
+  },
+  {
+    "lemma": "street",
+    "id": "eng-nco-0054-street",
+    "»trans": [
+      "pol-nco-0046-ulica"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "street",
+        "gen": "street's"
+      },
+      "plural": {
+        "nom": "streets",
+        "gen": "streets'"
+      }
+    }
+  },
+  {
+    "lemma": "paper",
+    "id": "eng-nco-0055-paper🚩",
+    "»trans": [
+      "pol-nco-0047-papier"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "inflections": {
+      "singular": {
+        "nom": "paper",
+        "gen": "paper's"
+      },
+      "plural": {
+        "nom": "papers",
+        "gen": "papers'"
+      }
+    },
+    "_uncountableType": 2
   }
 ]
