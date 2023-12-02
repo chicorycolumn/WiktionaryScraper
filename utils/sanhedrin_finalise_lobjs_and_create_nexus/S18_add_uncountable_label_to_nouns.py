@@ -42,6 +42,7 @@ if __name__ == '__main__':
                 save(results, True)
                 progress_bar(index + 1, len(tgt_lobjs), True)
 
+    save(results, True)
     progress_bar(1, 1, True)
     save(results)
 
