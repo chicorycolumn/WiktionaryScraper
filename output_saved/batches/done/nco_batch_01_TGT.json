@@ -3282,8 +3282,11 @@
     "_uncountableType": 2
   },
   {
-    "lemma": "yogurt",
-    "id": "eng-nco-0165-yogurt",
+    "lemma": "yoghurt",
+    "id": "eng-nco-0165-yoghurt",
+    "additionalSpellings": [
+      "yogurt"
+    ],
     "»trans": [
       "pol-nco-0135-jogurt"
     ],
@@ -3291,12 +3294,12 @@
     "frequency": 3,
     "inflections": {
       "singular": {
-        "nom": "yogurt",
-        "gen": "yogurt's"
+        "nom": "yoghurt",
+        "gen": "yoghurt's"
       },
       "plural": {
-        "nom": "yogurts",
-        "gen": "yogurts'"
+        "nom": "yoghurts",
+        "gen": "yoghurts'"
       }
     },
     "_uncountableType": 2
@@ -7728,6 +7731,9 @@
   {
     "lemma": "aeroplane",
     "id": "eng-nco-0390-aeroplane",
+    "additionalSpellings": [
+      "airplane"
+    ],
     "»trans": [
       "pol-nco-0308-samolot"
     ],
@@ -7741,25 +7747,6 @@
       "plural": {
         "nom": "aeroplanes",
         "gen": "aeroplanes'"
-      }
-    }
-  },
-  {
-    "lemma": "airplane",
-    "id": "eng-nco-0391-airplane",
-    "»trans": [
-      "pol-nco-0308-samolot"
-    ],
-    "register": 0,
-    "frequency": 2,
-    "inflections": {
-      "singular": {
-        "nom": "airplane",
-        "gen": "airplane's"
-      },
-      "plural": {
-        "nom": "airplanes",
-        "gen": "airplanes'"
       }
     }
   },
@@ -14883,27 +14870,11 @@
     }
   },
   {
-    "lemma": "ladybug",
-    "id": "eng-nco-0747-ladybug",
-    "»trans": [
-      "pol-nco-0598-biedronka"
-    ],
-    "register": 0,
-    "frequency": 3,
-    "inflections": {
-      "singular": {
-        "nom": "ladybug",
-        "gen": "ladybug's"
-      },
-      "plural": {
-        "nom": "ladybugs",
-        "gen": "ladybugs'"
-      }
-    }
-  },
-  {
     "lemma": "ladybird",
     "id": "eng-nco-0748-ladybird",
+    "additionalSpellings": [
+      "ladybug"
+    ],
     "»trans": [
       "pol-nco-0598-biedronka"
     ],
