@@ -25891,11 +25891,9 @@
     "inflections": {
       "singular": {
         "nom": "football",
-        "gen": "football's"
-      },
-      "plural": {
-        "nom": "footballs",
-        "gen": "footballs'"
+        "gen": "football's",
+        "lacking": true,
+        "tantumSingulare": true
       }
     }
   },
@@ -25911,11 +25909,9 @@
     "inflections": {
       "singular": {
         "nom": "soccer",
-        "gen": "soccer's"
-      },
-      "plural": {
-        "nom": "soccers",
-        "gen": "soccers'"
+        "gen": "soccer's",
+        "lacking": true,
+        "tantumSingulare": true
       }
     }
   },
