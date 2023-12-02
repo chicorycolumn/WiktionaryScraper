@@ -3,15 +3,12 @@
 Here are the verbs with no conditional impersonal but the superboolean for "conditional" has been set to True by the minimiser. But we will never use this to create sentences so is okay for now: [brać,biec,usiąść,móc,stać,schodzić,musieć,wkładać,siąść,stanąć,zejść,iść,pójść]
 .
 
-
 2022-03-27 19:14 #ERR "defective verb" output_obj["aspect"] is [] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word and TEMPORARILY set override_aspect_length_check to True.
 2022-03-27 19:17 "biegnąć" has no infinitive. Kicking it out.
 2022-03-27 19:17 The "conditional" tense on imperfective "kończyć" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
 2022-03-27 19:17 The "conditional" tense on perfective "wejść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
 2022-03-27 19:17 The "conditional" tense on perfective "wyjść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
 2022-03-27 19:17 The "conditional" tense on imperfective "widywać" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
-
-
 
 2022-07-16 23:39 To "pol-ver-107-nosić(carry)" ID appended "carry"...
 2022-07-16 23:39                                ...I assume "pol-ver-108-nosić(wear)" is not merely a duplicate.
@@ -62,7 +59,6 @@ Here are the verbs with no conditional impersonal but the superboolean for "cond
 2022-09-24 20:30 To "pol-nco-392-zamek(lock)" ID appended "lock"...
 2022-09-24 20:30                                ...I assume "pol-nco-393-zamek(castle)" is not merely a duplicate.
 
-
 2022-09-25 20:07 Verbs. #ERR "eksplodować" output_obj["aspect"] is ['impf', 'or', 'pf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
 2022-09-25 20:09 Verbs. At least two lobjs of "dowodzić" will need allohomInfo added.
 2022-09-25 20:09 Verbs. #ERR "charakteryzować" output_obj["aspect"] is ['impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
@@ -73,9 +69,6 @@ Here are the verbs with no conditional impersonal but the superboolean for "cond
 2022-09-25 20:11 The "conditional" tense on perfective "dojść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
 
 2022-10-03 21:45 Want to parse any of 60 extra nouns-lemmas? (I did not because of wordtype) ['resztka', 'dziczek', 'koneweczka', 'robal', 'błocisko', 'papryczka', 'kuzynka', 'orzełek', 'piach', 'złodziejaszek', 'mięcho', 'mięsko', 'korzonek', 'kościółek', 'inż.', 'owocek', 'ogródek', 'skrzypeczki', 'sklepik', 'sztuczka', 'brzuszysko', 'pochewka', 'skrzydełko', 'tłuszczyk', 'skórka', 'skrzypki', 'grzebyk', 'dziczka', 'wiocha', 'mydełko', 'śliweczka', 'dziurka', 'błocko', 'robaczek', 'gąska', 'złodziejka', 'skoczek', 'włosek', 'pięterko', 'pieprzyk', 'gwiazdka', 'otworek', 'gąsieniczka', 'błotko', 'orzeszek', 'wioska', 'błotnisko', 'małpka', 'brzuszek', 'rożek', 'papieżyca', 'piaseczek', 'kelnerka', 'pokoik', 'godzinka', 'kombinatorka', 'twarzyczka', 'żabka', 'stryszek', 'rzeczka']
-
-"skrzypce" is tantum plurale
-"hair" can be singular but is normally plural, and same goes for "włos".
 
 2022-10-24 17:54 To "pol-nco-452-rząd(row)" ID appended "row"...
 2022-10-24 17:54                                ...I assume "pol-nco-453-rząd(government)" is not merely a duplicate.
@@ -99,7 +92,6 @@ Here are the verbs with no conditional impersonal but the superboolean for "cond
 2022-10-24 17:54                                ...I assume "pol-nco-540-obiekt(facility)" is not merely a duplicate.
 
 2022-10-24 17:59 Want to parse any of 66 extra nouns-lemmas? (I did not because of wordtype) ['osiołek', 'majtasy', 'urzędzik', 'pingwinek', 'kombinatorka', 'aniołek', 'bogini', 'piłeczka', 'kamyk', 'bożek', 'kanapeczka', 'przestępczyni', 'strzałka', 'wróbelek', 'koszulka', 'kalendarzyk', 'buteleczka', 'biedroneczka', 'kamor', 'kartoflisko', 'zdanko', 'gołąbek', 'stateczek', 'rajstopki', 'cząstka', 'gołębica', 'papierosek', 'pytańko', 'teściowa', 'sznureczek', 'komóra', 'plecki', 'kijek', 'kapelusik', 'kartofelek', 'czółko', 'jajeczko', 'anielica', 'komóreczka', 'lodówa', 'walizeczka', 'strażaczek', 'wróblica', 'kwadracik', 'szufladka', 'adwokatka', 'adwokacik', 'kapeluszysko', 'butla', 'nożyce', 'spodenki', 'gruszeczka', 'dzwonek', 'owieczka', 'dzięciołek', 'wróblisko', 'motylek', 'zupka', 'pytanko', 'majteczki', 'lodóweczka', 'majciochy', 'grzybek', 'kapelusisko', 'krzesełko', 'jajco']
-
 
 2022-10-24 18:08 Verbs. #ERR "kazać" output_obj["aspect"] is ['impf', 'or', 'pf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
 2022-10-24 18:08 Verbs. #ERR "kazać" output_obj["aspect"] is ['impf', 'or', 'pf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
@@ -275,8 +267,6 @@ Also sort this in all lobjs.
 2023-01-13 19:40 Appended "fuck" to ID "pol-ver-602-pieprzyć(fuck)" ...
 2023-01-13 19:40                      ...I assume "pol-ver-603-pieprzyć(fuck)" is not merely a duplicate.
 
-
-
 2023-01-13 19:54 Want to parse any of 64 extra nouns-lemmas? (I did not because of wordtype) ['szafeczka', 'zeszycik', 'kawiarenka', 'pancerzyk', 'art.', 'fasolka', 'tasiemka', 'drapieżnica', 'tabliczka', 'dzielniczka', 'sekretarka', 'prezydentka', 'imprezka', 'łyżewka', 'szczota', 'krzaczek', 'mistrzyni', 'futerko', 'nastroik', 'łebek', 'kawałeczek', 'umywaleczka', 'główeczka', 'bela', 'klata', 'ziółko', 'szczoteczka', 'poduszeczka', 'łepek', 'faja', 'piórniczek', 'buła', 'dzwoneczek', 'kaszelek', 'rurka', 'fajczysko', 'pączuszek', 'drucik', 'kołderka', 'karczek', 'węzełek', 'rysuneczek', 'tytulik', 'klateczka', 'karczycho, karczysko', 'bułeczka', 'smrodek', 'półeczka', 'wegetarianka', 'więźniarka', 'fasolisko', 'zadanko', 'fajeczka', 'grzmocik', 'póła', 'ręczniczek', 'beleczka', 'rolniczka', 'mączka', 'kłopocik', 'poducha', 'prześcieradełko', 'pączuś', 'koleżaneczka']
 
 2023-01-14 09:38 Verbs. #ERR "mieszać" output_obj["aspect"] is ['impf', 'impf'] but should have length 1. Perhaps wiki page says "impf (+ genitive)" instead of just "impf". If you assent, re-run this rejected word & TEMPORARILY set override_aspect_length_check True.
@@ -294,8 +284,6 @@ Also sort this in all lobjs.
 2023-01-14 09:45 The "conditional" tense on perfective "przejść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
 2023-01-14 09:45 SKIPPED this entire lobj in minimise_inflections. "future" tense on imperfective "odrzucać" should have 31 strings but has 20.
 2023-01-14 09:45 The "conditional" tense on imperfective "pragnąć" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
-
-śpieszyć spieszyć both acceptable spellings so need duplicate this lobj.
 
 2023-03-28 14:15 Appended "meet" to ID "pol-ver-680-poznawać(meet)" ...
 2023-03-28 14:15                      ...I assume "pol-ver-682-poznawać(recognise)" is not merely a duplicate.
@@ -389,30 +377,31 @@ Also sort this in all lobjs.
 2023-04-12 11:39 "charakteryzować" has no infinitive. Kicking it out of verbs.
 2023-04-12 11:39 The "conditional" tense on perfective "rozejść" should have 18 strings but has 13. I think the Wiktionary page was missing the "conditional impersonal", I have gone ahead and minimised the "conditional" to True boolean. If you disagree, you must change that.
 
-Add licorice spelling.
-Add fulfill spelling.
-Add recognize spelling.
-Add marvelous spelling.
-Scrape wyszkolić szkolić skarżać posłużyć
-Check all translations of sink and drown are scraped.
-Scrape ważyć dare?
-Scrape cuchnąć, spłukać wodę
-Scrape zwichnąć to put alongside sprain.
-Duplicate starczać starczyć into wystarczyć after finalising verbs 10.
-
-Add "induce" and "bring on" to "key": "ver-0387-cause"
-Is "to make" connecting to robić also, and do we need a separate lobj?
-Make "opad" plural only.
-
-Nexus obj for "pretty" need split.
-New lobj for central spatially.
-Add stały and trwały.
-Scrape samiec and samica which will be used in adj nexus.
-Add spelling ass to arse.
-Adjust yogurt spelling.
-Merge lobjs airplane and aeroplane.
-Should 'some', 'other', 'another' have a special flag like 'quantifier'?
-Add allhohom info to post and maybe create lobj for wooden post.
-Add weed/chwast against existing weed marijuana.
-Merge ladybird ladybug spelling.
-Do you have vaccine as well as vaccination?
+ż Add licorice spelling.
+ł Add fulfill spelling.
+ę Add recognize spelling.
+¶ Add marvelous spelling.
+ŧ Scrape wyszkolić szkolić skarżać posłużyć
+← Check all translations of sink and drown are scraped.
+↓ Scrape ważyć dare?
+→ Scrape cuchnąć, spłukać wodę
+ø Scrape zwichnąć to put alongside sprain.
+þ Duplicate starczać starczyć into wystarczyć after finalising verbs 10.
+æ Add "induce" and "bring on" to "key": "ver-0387-cause"
+ß Is "to make" connecting to robić also, and do we need a separate lobj?
+ð Make "opad" plural only.
+đ Nexus obj for "pretty" need split.
+ŋ New lobj for central spatially.
+ħ Add stały and trwały.
+ĸ Scrape samiec and samica which will be used in adj nexus.
+« Add spelling ass to arse.
+» Adjust yogurt spelling.
+¢ Merge lobjs airplane and aeroplane.
+“ Should 'some', 'other', 'another' have a special flag like 'quantifier'?
+” Add allhohom info to post and maybe create lobj for wooden post.
+n Add weed/chwast against existing weed marijuana.
+µ Merge ladybird ladybug spelling.
+ą Do you have vaccine as well as vaccination?
+ź śpieszyć spieszyć both acceptable spellings so need duplicate this lobj.
+ś "skrzypce" is tantum plurale
+ć "hair" can be singular but is normally plural, and same goes for "włos".
