@@ -24753,7 +24753,12 @@
   },
   {
     "lemma": "weed",
-    "id": "eng-nco-1251-weed",
+    "id": "eng-nco-1251-weed(cannabis)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "drug",
+      "emoji": "💊"
+    },
     "»trans": [
       "pol-nco-1013-zioło(cannabis)"
     ],
@@ -24765,6 +24770,29 @@
         "gen": "weed's",
         "lacking": true,
         "tantumSingulare": true
+      }
+    }
+  },
+  {
+    "lemma": "weed",
+    "id": "eng-nco-1251-weed(plant)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "nature",
+      "emoji": "🌳️"
+    },
+    "»trans": [
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "weed",
+        "gen": "weed's"
+      },
+      "plural": {
+        "nom": "weeds",
+        "gen": "weeds'"
       }
     }
   },

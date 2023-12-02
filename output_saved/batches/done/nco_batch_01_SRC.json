@@ -7265,6 +7265,45 @@
     }
   },
   {
+    "lemma": "chwast",
+    "id": "pol-nco-0140-chwast",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m3",
+    "tags": [
+      "concrete",
+      "natural"
+    ],
+    "topics": [
+      "outside"
+    ],
+    "translations": {
+      "ENG": [
+        "weed"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "chwast",
+        "gen": "chwastu",
+        "dat": "chwastowi",
+        "acc": "chwast",
+        "ins": "chwastem",
+        "loc": "chwaście",
+        "voc": "chwaście"
+      },
+      "plural": {
+        "nom": "chwasty",
+        "gen": "chwastów",
+        "dat": "chwastom",
+        "acc": "chwasty",
+        "ins": "chwastami",
+        "loc": "chwastach",
+        "voc": "chwasty"
+      }
+    }
+  },
+  {
     "lemma": "procent",
     "id": "pol-nco-0141-procent",
     "frequency": 3,
@@ -53381,7 +53420,8 @@
         "voc": "szczepienia"
       }
     }
-  },  {
+  },
+  {
     "lemma": "szczepionka",
     "id": "pol-nco-1065-szczepionka",
     "frequency": 4,
