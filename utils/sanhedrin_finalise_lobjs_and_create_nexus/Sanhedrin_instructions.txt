@@ -196,7 +196,7 @@ It uses additionalSpellings that you manually type into this stage.
 5E) Remove now-unneeded data from SRC and TGT
     such as "translations", "»translations", "tags", "topics"
     but keep "notes".
-    - move 'lacking' key.
+    - move 'lacking' and 'tantumPlurale' and 'tantumSingulare' keys out of inflections to top level in lobj.
 
 
 

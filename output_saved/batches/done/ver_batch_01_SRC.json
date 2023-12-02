@@ -103191,6 +103191,113 @@
     }
   },
   {
+    "lemma": "śpieszyć",
+    "id": "pol-ver-0923-śpieszyć",
+    "frequency": 2,
+    "register": 0,
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "tags": [
+      "concrete"
+    ],
+    "topics": [
+      "time"
+    ],
+    "translations": {
+      "ENG": [
+        "to hurry"
+      ]
+    },
+    "inflections": {
+      "infinitive": "śpieszyć",
+      "verbalNoun": "śpieszenie",
+      "activeAdjectival": "śpieszący",
+      "passiveAdjectival": "śpieszony",
+      "contemporaryAdverbial": "śpiesząc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "śpiesz",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "śpieszono"
+            },
+            "plural": {
+              "allPluralGenders": "śpieszono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "śpieszyłem",
+              "f": "śpieszyłam"
+            },
+            "plural": {
+              "virile": "śpieszyliśmy",
+              "nonvirile": "śpieszyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "śpieszyłeś",
+              "f": "śpieszyłaś"
+            },
+            "plural": {
+              "virile": "śpieszyliście",
+              "nonvirile": "śpieszyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "śpieszył",
+              "f": "śpieszyła",
+              "n": "śpieszyło"
+            },
+            "plural": {
+              "virile": "śpieszyli",
+              "nonvirile": "śpieszyły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "śpieszy się"
+            },
+            "plural": {
+              "allPluralGenders": "śpieszy się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "śpieszę"
+            },
+            "plural": {
+              "allPluralGenders": "śpieszymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "śpieszysz"
+            },
+            "plural": {
+              "allPluralGenders": "śpieszycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "śpieszy"
+            },
+            "plural": {
+              "allPluralGenders": "śpieszą"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
     "lemma": "przesłać",
     "id": "pol-ver-0924-przesłać",
     "frequency": 3,
