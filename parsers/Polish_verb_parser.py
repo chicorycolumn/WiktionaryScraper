@@ -44,6 +44,7 @@ class PolishVerbParser(HTMLParser):
 
     got_derived_terms = False
     got_related_terms = False
+    have_hit_probable_page_end = False
 
     def add_lobj_and_reset(self, diff_word_same_conj: bool = False):
         print("add_lobj_and_reset", "\n")
@@ -184,6 +185,7 @@ class PolishVerbParser(HTMLParser):
         print("reset_for_new_word", "\n")
         self.got_derived_terms = False
         self.got_related_terms = False
+        self.have_hit_probable_page_end = False
         self.reset_for_new_table()
         self.output_arr = []
         self.keys = []
@@ -233,7 +235,14 @@ class PolishVerbParser(HTMLParser):
                     self.add_lobj_and_reset()
 
             if self.mode == "gettingderivedterms":
-                self.current_derived_term.append(data)
+                print(22, data)
+                if data and "further reading" in data.lower():
+                    self.have_hit_probable_page_end = True
+                if data in ['Further reading', 'Wielki słownik języka polskiego'] or data.startswith('Polish terms'):
+                    print('STOP')
+                    self.add_lobj_and_reset()
+                else:
+                    self.current_derived_term.append(data)
 
             if self.mode == "getderivedterms":
                 if self.lasttag in ["h1", "h2", "h3", "h4", "h5"] or self.penultimatetag in ["h1", "h2", "h3", "h4", "h5"]:
@@ -273,7 +282,10 @@ class PolishVerbParser(HTMLParser):
         if self.location == "insidetable":
             self.current_row_data.append(data)
         else:
-            if self.lasttag == "span" and self.penultimatetag == "h2":
+            if self.lasttag == "span" and (
+                    self.penultimatetag in ["h2"] or
+                    (self.penultimatetag in ["h3"] and self.have_hit_probable_page_end)
+            ):
                 lang_in_focus = superstrip(data).lower()
                 if lang_in_focus == self.selected_lang:
                     self.location = "insideselectedlang"

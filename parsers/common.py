@@ -26,10 +26,11 @@ def add_output_arr_to_result(output_arr, head_word, result, rejected, progress_s
 
 def trigger_parser(
         head_words_raw, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_to_parse,
-        test_only_boolean_override_check_existing:bool=False,
-        just_assess_scrape_status_of_lemmas:bool=False,
-        sample_version:str=None,
-        reparse_previously_rejected:bool=False
+        test_only_boolean_override_check_existing: bool = False,
+        just_assess_scrape_status_of_lemmas: bool = False,
+        sample_version: str = None,
+        reparse_previously_rejected: bool = False,
+        force_gather_result_even_if_parser_errored: bool = False,
 ):
     if not test_only_boolean_override_check_existing:
         already_parsed_headwords = get_existing_lobjs(wordtype, lemmas_only=True)
@@ -98,8 +99,17 @@ def trigger_parser(
                     add_output_arr_to_result(output_arr, head_word, result, rejected, progress_str)
 
                 except:
-                    print(f'\n#{" " * 30}Loaded html for "{head_word}" {progress_str} but FAILED when reading it.\n')
-                    rejected["loaded_html_but_failed_when_reading"].append(head_word)
+                    if force_gather_result_even_if_parser_errored:
+                        output_arr = parser.output_arr
+                        parser.output_arr = []
+                        if len(output_arr):
+                            rejected["loaded_html_but_failed_when_reading_but_forced_gather_results"].append(head_word)
+                            add_output_arr_to_result(output_arr, head_word, result, rejected, progress_str)
+                        else:
+                            print(f'\n#{" " * 30}Tried to force gather but output array was empty.\n')
+                    else:
+                        print(f'\n#{" " * 30}Loaded html for "{head_word}" {progress_str} but FAILED when reading it.\n')
+                        rejected["loaded_html_but_failed_when_reading"].append(head_word)
 
             except:
                 print(f'\n#{" " * 30}FAILED to even load html for "{head_word}" {progress_str}.\n')
@@ -173,7 +183,8 @@ def scrape_word_data(
         test_only_boolean_override_check_existing: bool = False,
         just_assess_scrape_status_of_lemmas: bool = False,
         sample_version: str = None,
-        reparse_previously_rejected: bool = False
+        reparse_previously_rejected: bool = False,
+        force_gather_result_even_if_parser_errored: bool = False,
 ):
     if wordtype == "adjectives":
         parser = PolishAdjectiveParser(convert_charrefs=False)
@@ -201,8 +212,12 @@ def scrape_word_data(
 
         count = 1
         result = []
-        rejected = {"failed_to_load_html": [], "loaded_html_but_failed_when_reading": [],
-                    "loaded_and_read_html_but_failed_to_create_output": []}
+        rejected = {
+            "failed_to_load_html": [],
+            "loaded_html_but_failed_when_reading": [],
+            "loaded_and_read_html_but_failed_to_create_output": [],
+            "loaded_html_but_failed_when_reading_but_forced_gather_results": [],
+        }
 
         extra_lemmas_objs = []
 
@@ -210,7 +225,8 @@ def scrape_word_data(
             head_words, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs,
             test_only_boolean_override_check_existing=test_only_boolean_override_check_existing,
             just_assess_scrape_status_of_lemmas=just_assess_scrape_status_of_lemmas,
-            sample_version=sample_version, reparse_previously_rejected=reparse_previously_rejected
+            sample_version=sample_version, reparse_previously_rejected=reparse_previously_rejected,
+            force_gather_result_even_if_parser_errored = force_gather_result_even_if_parser_errored
         )
 
         if just_assess_scrape_status_of_lemmas:
@@ -246,7 +262,9 @@ def scrape_word_data(
             if wordtype in ["verbs", "adjectives"]:
                 print(f"# There are {len(extra)} extra headwords now after parsing the original headwords:", extra)
                 extra_lemmas_objs_2 = []
-                trigger_parser(extra, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs_2, test_only_boolean_override_check_existing=test_only_boolean_override_check_existing, sample_version=sample_version)
+                trigger_parser(extra, parser, use_sample, language, wordtype, result, rejected, extra_lemmas_objs_2,
+                               test_only_boolean_override_check_existing=test_only_boolean_override_check_existing,
+                               sample_version=sample_version, force_gather_result_even_if_parser_errored=force_gather_result_even_if_parser_errored)
 
                 extra_2 = []
                 for extra_lemmas_obj in extra_lemmas_objs_2:

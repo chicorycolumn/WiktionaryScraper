@@ -14,15 +14,23 @@ if __name__ == '__main__':
     #         print(el)
 
     step = 1
-    group_number = 99
+    group_number = 700
     input_indexes = [0, 870]
-    wordtype = "a"
+    wordtype = "v"
     these_headwords_only = [
-
+        "wyszkolić",
+        "szkolić",
+        "skarżać",
+        "posłużyć",
+        "ważyć",
+        "cuchnąć",
+        "zwichnąć"
     ]
+    please_alphabetise = False  # does not normally need to be true
+    force_gather_result_even_if_parser_errored = True
     skip_make_ids = False  # only set True when manually testing.
     skip_scraping = False  # only set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
-    reparse_previously_rejected = False  # If you're manually rerunning rejected ones when collecting batch together.
+    reparse_previously_rejected = True  # If you're manually rerunning rejected ones when collecting batch together.
     test_only_boolean_override_check_existing = True  # If you're manually rerunning scraped ones for testing purposes.
     skip_extras = True  # You know, the extra lemmas to parse gathered from synonyms of lemmas you asked to parse.
     langcode = "pol"
@@ -100,6 +108,9 @@ You must duplicate lobjs which have double meaning, and whittle respective trans
     if not skip_extras and reparse_previously_rejected:
         skip_extras = True
 
+    if please_alphabetise:
+        head_words.sort()
+
     if step in [0, 1]:
         scrape_word_data(
             group_number=group_number,
@@ -110,7 +121,8 @@ You must duplicate lobjs which have double meaning, and whittle respective trans
             just_assess_scrape_status_of_lemmas=step == 0,
             reparse_previously_rejected=reparse_previously_rejected,
             test_only_boolean_override_check_existing=test_only_boolean_override_check_existing,
-            skip_extras=skip_extras
+            skip_extras=skip_extras,
+            force_gather_result_even_if_parser_errored=force_gather_result_even_if_parser_errored
         )
     elif step == 2:
         finalise_lemma_objects(group_number, wordtype, langcode, skip_make_ids)
