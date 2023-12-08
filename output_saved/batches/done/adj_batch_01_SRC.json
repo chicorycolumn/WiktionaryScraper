@@ -97817,7 +97817,7 @@
   },
   {
     "lemma": "centralny",
-    "id": "pol-adj-0526-centralny",
+    "id": "pol-adj-0526-centralny(spatially)",
     "frequency": 4,
     "register": 0,
     "tags": [
@@ -97831,6 +97831,198 @@
         "main"
       ]
     },
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "direction",
+      "emoji": "📍"
+    },
+    "inflections": {
+      "adverb": "centralnie",
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "centralny",
+            "gen": "centralnego",
+            "dat": "centralnemu",
+            "acc": "centralnego",
+            "ins": "centralnym",
+            "loc": "centralnym"
+          },
+          "m3": {
+            "nom": "centralny",
+            "gen": "centralnego",
+            "dat": "centralnemu",
+            "acc": "centralny",
+            "ins": "centralnym",
+            "loc": "centralnym"
+          },
+          "f": {
+            "nom": "centralna",
+            "gen": "centralnej",
+            "dat": "centralnej",
+            "acc": "centralną",
+            "ins": "centralną",
+            "loc": "centralnej"
+          },
+          "n": {
+            "nom": "centralne",
+            "gen": "centralnego",
+            "dat": "centralnemu",
+            "acc": "centralne",
+            "ins": "centralnym",
+            "loc": "centralnym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "centralni",
+            "gen": "centralnych",
+            "dat": "centralnym",
+            "acc": "centralnych",
+            "ins": "centralnymi",
+            "loc": "centralnych"
+          },
+          "nonvirile": {
+            "nom": "centralne",
+            "gen": "centralnych",
+            "dat": "centralnym",
+            "acc": "centralne",
+            "ins": "centralnymi",
+            "loc": "centralnych"
+          }
+        }
+      },
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "centralniejszy",
+            "gen": "centralniejszego",
+            "dat": "centralniejszemu",
+            "acc": "centralniejszego",
+            "ins": "centralniejszym",
+            "loc": "centralniejszym"
+          },
+          "m3": {
+            "nom": "centralniejszy",
+            "gen": "centralniejszego",
+            "dat": "centralniejszemu",
+            "acc": "centralniejszy",
+            "ins": "centralniejszym",
+            "loc": "centralniejszym"
+          },
+          "f": {
+            "nom": "centralniejsza",
+            "gen": "centralniejszej",
+            "dat": "centralniejszej",
+            "acc": "centralniejszą",
+            "ins": "centralniejszą",
+            "loc": "centralniejszej"
+          },
+          "n": {
+            "nom": "centralniejsze",
+            "gen": "centralniejszego",
+            "dat": "centralniejszemu",
+            "acc": "centralniejsze",
+            "ins": "centralniejszym",
+            "loc": "centralniejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "centralniejsi",
+            "gen": "centralniejszych",
+            "dat": "centralniejszym",
+            "acc": "centralniejszych",
+            "ins": "centralniejszymi",
+            "loc": "centralniejszych"
+          },
+          "nonvirile": {
+            "nom": "centralniejsze",
+            "gen": "centralniejszych",
+            "dat": "centralniejszym",
+            "acc": "centralniejsze",
+            "ins": "centralniejszymi",
+            "loc": "centralniejszych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najcentralniejszy",
+            "gen": "najcentralniejszego",
+            "dat": "najcentralniejszemu",
+            "acc": "najcentralniejszego",
+            "ins": "najcentralniejszym",
+            "loc": "najcentralniejszym"
+          },
+          "m3": {
+            "nom": "najcentralniejszy",
+            "gen": "najcentralniejszego",
+            "dat": "najcentralniejszemu",
+            "acc": "najcentralniejszy",
+            "ins": "najcentralniejszym",
+            "loc": "najcentralniejszym"
+          },
+          "f": {
+            "nom": "najcentralniejsza",
+            "gen": "najcentralniejszej",
+            "dat": "najcentralniejszej",
+            "acc": "najcentralniejszą",
+            "ins": "najcentralniejszą",
+            "loc": "najcentralniejszej"
+          },
+          "n": {
+            "nom": "najcentralniejsze",
+            "gen": "najcentralniejszego",
+            "dat": "najcentralniejszemu",
+            "acc": "najcentralniejsze",
+            "ins": "najcentralniejszym",
+            "loc": "najcentralniejszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najcentralniejsi",
+            "gen": "najcentralniejszych",
+            "dat": "najcentralniejszym",
+            "acc": "najcentralniejszych",
+            "ins": "najcentralniejszymi",
+            "loc": "najcentralniejszych"
+          },
+          "nonvirile": {
+            "nom": "najcentralniejsze",
+            "gen": "najcentralniejszych",
+            "dat": "najcentralniejszym",
+            "acc": "najcentralniejsze",
+            "ins": "najcentralniejszymi",
+            "loc": "najcentralniejszych"
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "centralny",
+    "id": "pol-adj-0526-centralny(important)",
+    "frequency": 4,
+    "register": 0,
+    "tags": [
+      "part",
+      "concrete"
+    ],
+    "topics": [],
+    "translations": {
+      "ENG": [
+        "central",
+        "main"
+      ]
+    },
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "important",
+      "emoji": "❗"
+    }
     "inflections": {
       "adverb": "centralnie",
       "simple": {

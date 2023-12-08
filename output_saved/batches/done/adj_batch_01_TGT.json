@@ -12135,7 +12135,7 @@
   },
   {
     "lemma": "central",
-    "id": "eng-adj-0763-central",
+    "id": "eng-adj-0763-central(important)",
     "»trans": [
       "pol-adj-0528-centralny"
     ],
@@ -12146,6 +12146,30 @@
       "comparative": "more central",
       "superlative": "the most central",
       "adverb": "centrally"
+    },
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "important",
+      "emoji": "❗"
+    }
+  },
+  {
+    "lemma": "central",
+    "id": "eng-adj-0763-central(spatially)",
+    "»trans": [
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "simple": "central",
+      "comparative": "more central",
+      "superlative": "the most central",
+      "adverb": "centrally"
+    },
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "direction",
+      "emoji": "📍"
     }
   },
   {
@@ -16381,6 +16405,19 @@
       "comparative": "more contemporary",
       "superlative": "the most contemporary",
       "adverb": "contemporarily"
+    }
+  },
+  {
+    "lemma": "middle",
+    "id": "eng-adj-8888-middle",
+    "»trans": [],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "simple": "middle",
+      "comparative": false,
+      "superlative": false,
+      "adverb": false
     }
   }
 ]

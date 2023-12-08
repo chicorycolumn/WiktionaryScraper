@@ -649,7 +649,7 @@
     ]
   },
   {
-    "key": "adj-0031-essential",
+    "key": "adj-0031-fundamental",
     "traductions": {
       "SPA": [],
       "ENG": [
@@ -662,13 +662,13 @@
         "eng-adj-0072-prime",
         "eng-adj-0075-primary(important)",
         "eng-adj-0064-elementary",
-        "eng-adj-0763-central"
+        "eng-adj-0763-central(important)"
       ],
       "POL": [
         "pol-adj-0037-zasadniczy",
         "pol-adj-0040-niezbędny",
         "pol-adj-0065-główny",
-        "pol-adj-0526-centralny",
+        "pol-adj-0526-centralny(important)",
         "pol-adj-0557-kluczowy"
       ]
     },
@@ -10470,25 +10470,6 @@
     ]
   },
   {
-    "key": "adj-0486-left",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-adj-0881-left",
-        "eng-adj-0882-lefthand"
-      ],
-      "POL": [
-        "pol-adj-0631-lewy"
-      ]
-    },
-    "papers": [
-      "concrete"
-    ],
-    "topics": [
-      "spatial"
-    ]
-  },
-  {
     "key": "adj-0487-magical",
     "traductions": {
       "SPA": [],
@@ -12091,6 +12072,25 @@
     ]
   },
   {
+    "key": "adj-0486-left",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0881-left",
+        "eng-adj-0882-lefthand"
+      ],
+      "POL": [
+        "pol-adj-0631-lewy"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "spatial"
+    ]
+  },
+  {
     "key": "adj-0566-right(hand)",
     "traductions": {
       "SPA": [],
@@ -12100,6 +12100,26 @@
       ],
       "POL": [
         "pol-adj-0740-prawy"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "spatial"
+    ]
+  },
+  {
+    "key": "adj-0486-middle",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-8888-middle",
+        "eng-adj-0763-central(spatially)"
+      ],
+      "POL": [
+        "pol-adj-8888-środkowy",
+        "pol-adj-0526-centralny(spatially)"
       ]
     },
     "papers": [
