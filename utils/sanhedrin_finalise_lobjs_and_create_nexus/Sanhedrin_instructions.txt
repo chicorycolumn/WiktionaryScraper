@@ -208,7 +208,9 @@ It uses additionalSpellings that you manually type into this stage.
 
 6B) Resolve any TSFs (tasks of scraping finalising) for this wordtype from NOTES.txt
 
-6C) Run check that every inflection value for a given lobj starts with the same letter as the lemma value.
-    Because sometimes when manually creating lobjs we've missed one, normally virile plural.
+6C-i)   Run check that every inflection value for a given lobj starts with the same letter as the lemma value.
+      Because sometimes when manually creating lobjs we've missed one, normally virile plural.
 
-6D) Run check for allohom info needed, and specfically that two allohoms don't have same allohomInfo.
+6C-ii)  Run check for allohom info needed, and specfically that two allohoms don't have same allohomInfo.
+
+6C-iii) Run check that all lobjs have "register" and "frequency".

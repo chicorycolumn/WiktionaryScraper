@@ -107928,5 +107928,683 @@
         }
       }
     }
+  },
+  {
+    "id": "pol-ver-8888-posłużyć",
+    "frequency": 5,
+    "register": 0,
+    "lemma": "posłużyć",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "posługiwać"
+        ]
+      },
+      "derivedTerms": [
+        "noun posługa"
+      ]
+    },
+    "tags": "xxxxxxxxx",
+    "translations": {
+      "ENG": [
+        "to come in handy[i]",
+        "to serve as[i]",
+        "to use",
+        "to utilise Synonym: użyć[r,with,się]",
+        "to make someone do something[r,with,się]"
+      ]
+    },
+    "inflections": {
+      "infinitive": "posłużyć",
+      "verbalNoun": "posłużenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "posłużywszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "posłuży się"
+            },
+            "plural": {
+              "allPluralGenders": "posłuży się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "posłużę"
+            },
+            "plural": {
+              "allPluralGenders": "posłużymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "posłużysz"
+            },
+            "plural": {
+              "allPluralGenders": "posłużycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "posłuży"
+            },
+            "plural": {
+              "allPluralGenders": "posłużą"
+            }
+          }
+        },
+        "imperative": "posłuż",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "posłużono"
+            },
+            "plural": {
+              "allPluralGenders": "posłużono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": [
+                "posłużyłem"
+              ],
+              "f": [
+                "posłużyłam"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "posłużyliśmy"
+              ],
+              "nonvirile": [
+                "posłużyłyśmy"
+              ]
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": [
+                "posłużyłeś"
+              ],
+              "f": [
+                "posłużyłaś"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "posłużyliście"
+              ],
+              "nonvirile": [
+                "posłużyłyście"
+              ]
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "posłużył",
+              "f": "posłużyła",
+              "n": "posłużyło"
+            },
+            "plural": {
+              "virile": "posłużyli",
+              "nonvirile": "posłużyły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "id": "pol-ver-8888-cuchnąć",
+    "frequency": 3,
+    "register": 0,
+    "lemma": "cuchnąć",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "derivedTerms": [
+        "nouns cuch",
+        "czuch"
+      ]
+    },
+    "tags": "xxxxxxxxx",
+    "translations": {
+      "ENG": [
+        "to reek",
+        "to stink [+instrumental = of something] Synonyms: capić śmierdzieć trącić[i]"
+      ]
+    },
+    "inflections": {
+      "infinitive": "cuchnąć",
+      "verbalNoun": "cuchnięcie",
+      "activeAdjectival": "cuchnący",
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": "cuchnąc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "cuchnij",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "cuchnięto"
+            },
+            "plural": {
+              "allPluralGenders": "cuchnięto"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": [
+                "cuchnąłem"
+              ],
+              "f": [
+                "cuchnęłam"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "cuchnęliśmy"
+              ],
+              "nonvirile": [
+                "cuchnęłyśmy"
+              ]
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": [
+                "cuchnąłeś"
+              ],
+              "f": [
+                "cuchnęłaś"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "cuchnęliście"
+              ],
+              "nonvirile": [
+                "cuchnęłyście"
+              ]
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "cuchnął",
+              "f": "cuchnęła",
+              "n": "cuchnęło"
+            },
+            "plural": {
+              "virile": "cuchnęli",
+              "nonvirile": "cuchnęły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "cuchnie się"
+            },
+            "plural": {
+              "allPluralGenders": "cuchnie się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "cuchnę"
+            },
+            "plural": {
+              "allPluralGenders": "cuchniemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "cuchniesz"
+            },
+            "plural": {
+              "allPluralGenders": "cuchniecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "cuchnie"
+            },
+            "plural": {
+              "allPluralGenders": "cuchną"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "pol-ver-8888-szkolić",
+    "frequency": 4,
+    "register": 0,
+    "lemma": "szkolić",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "derivedTerms": [
+        "verbs doszkalać impf",
+        "doszkolić pf",
+        "podszkalać impf",
+        "podszkolić pf",
+        "przeszkalać impf",
+        "przeszkolić pf",
+        "wyszkalać impf",
+        "wyszkolić pf"
+      ]
+    },
+    "tags": "xxxxxxxxx",
+    "translations": {
+      "ENG": [
+        "to coach",
+        "to train (to teach a task)",
+        "to practise (e.g. one's voice)",
+        "to train[r,with,się] (to practice an ability)"
+      ]
+    },
+    "inflections": {
+      "infinitive": "szkolić",
+      "verbalNoun": "szkolenie",
+      "activeAdjectival": "szkolący",
+      "passiveAdjectival": "szkolony",
+      "contemporaryAdverbial": "szkoląc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "szkol",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "szkolono"
+            },
+            "plural": {
+              "allPluralGenders": "szkolono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": [
+                "szkoliłem"
+              ],
+              "f": [
+                "szkoliłam"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "szkoliliśmy"
+              ],
+              "nonvirile": [
+                "szkoliłyśmy"
+              ]
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": [
+                "szkoliłeś"
+              ],
+              "f": [
+                "szkoliłaś"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "szkoliliście"
+              ],
+              "nonvirile": [
+                "szkoliłyście"
+              ]
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "szkolił",
+              "f": "szkoliła",
+              "n": "szkoliło"
+            },
+            "plural": {
+              "virile": "szkolili",
+              "nonvirile": "szkoliły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "szkoli się"
+            },
+            "plural": {
+              "allPluralGenders": "szkoli się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "szkolę"
+            },
+            "plural": {
+              "allPluralGenders": "szkolimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "szkolisz"
+            },
+            "plural": {
+              "allPluralGenders": "szkolicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "szkoli"
+            },
+            "plural": {
+              "allPluralGenders": "szkolą"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "pol-ver-8888-wyszkolić",
+    "frequency": 4,
+    "register": 0,
+    "lemma": "wyszkolić",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "wyszkalać"
+        ]
+      }
+    },
+    "tags": "xxxxxxxxx",
+    "translations": {
+      "ENG": [
+        "to train by educating Synonym: wyuczyć",
+        "to train onself by educating[r,with,się]"
+      ]
+    },
+    "inflections": {
+      "infinitive": "wyszkolić",
+      "verbalNoun": "wyszkolenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "wyszkolony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "wyszkoliwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "wyszkoli się"
+            },
+            "plural": {
+              "allPluralGenders": "wyszkoli się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "wyszkolę"
+            },
+            "plural": {
+              "allPluralGenders": "wyszkolimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "wyszkolisz"
+            },
+            "plural": {
+              "allPluralGenders": "wyszkolicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "wyszkoli"
+            },
+            "plural": {
+              "allPluralGenders": "wyszkolą"
+            }
+          }
+        },
+        "imperative": "wyszkol",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "wyszkolono"
+            },
+            "plural": {
+              "allPluralGenders": "wyszkolono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": [
+                "wyszkoliłem"
+              ],
+              "f": [
+                "wyszkoliłam"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "wyszkoliliśmy"
+              ],
+              "nonvirile": [
+                "wyszkoliłyśmy"
+              ]
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": [
+                "wyszkoliłeś"
+              ],
+              "f": [
+                "wyszkoliłaś"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "wyszkoliliście"
+              ],
+              "nonvirile": [
+                "wyszkoliłyście"
+              ]
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "wyszkolił",
+              "f": "wyszkoliła",
+              "n": "wyszkoliło"
+            },
+            "plural": {
+              "virile": "wyszkolili",
+              "nonvirile": "wyszkoliły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "id": "pol-ver-8888-ważyć",
+    "frequency": 3,
+    "register": 0,
+    "lemma": "ważyć",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "How much does the Milky Way weigh ?",
+        "The infant weighed only 245 grams.",
+        "\"...Do these goods cost much?\" Now I hit Mr. Urbański in the elbow again and replied: \"I paid a hundred and sixty thousand.\"",
+        "\"...How much space do [the files] take up ?\" \"Two terabytes.\"",
+        "We have the effect in a png file, which takes up only a little: 1.85 gigabytes!",
+        "But Żółkiewski's opinion, which in that Sejm had the authority of a verdict, won out, and a ban was passed by a decree of the Sejm with the severest penalties, that is, banishment and loss of property, so that none of the country's natives would dare to violate the pacts made with the Turks and no Moldavian would dare to invade in arms.",
+        "After Mickiewicz and Słowacki, almost nobody dared to construct a more broadly formed composition..."
+      ],
+      "derivedTerms": [
+        "verbs doważyć pf doważać impf",
+        "podważyć pf podważać impf",
+        "poważyć pf poważać impf",
+        "przeważyć pf przeważać impf",
+        "rozważyć pf rozważać impf",
+        "równoważyć impf zrównoważyć pf",
+        "uważyć pf uważać impf",
+        "wyważyć pf wyważać impf",
+        "zauważyć pf zauważać impf",
+        "zaważyć pf",
+        "znieważyć pf znieważać impf",
+        "zważyć pf zważać impf"
+      ]
+    },
+    "tags": "xxxxxxxxx",
+    "translations": {
+      "ENG": [
+        "to weigh (to determine the weight of an object)",
+        "to weigh in one's hand",
+        "to hold in one's hand to estimate the weight of",
+        "to weigh",
+        "to think about",
+        "to consider",
+        "2019 March 7, “Ile waży Droga Mleczna Naukowcy odpowiadają”, in Rzeczpospolita [1] , archived from the original on 2022-08-02 : Ile waży Droga Mleczna[i]  to weigh (to have a certain weight)",
+        "2019 May 30, “Uratowano najmniejsze dziecko. Niemowlę ważyło 245 gramów”, in Rzeczpospolita [2] , archived from the original on 2022-08-02 : Niemowlę ważyło zaledwie 245 gramów.",
+        "to carry weight",
+        "to be important[i]",
+        "to [3] , Gebethner i Wolff, archived from the original on 2022-08-02, page 38 : – ...Wieleż ważą te dobra Odtrąciłem teraz ja znów pana Urbańskiego w łokieć i odpowiedziałem – Ja dałem sto sześćdziesiąt tysięcy.[i,archaic]  to cost",
+        "to be worth 1900 (first published 1853) Zygmunt Kaczkowski Murdelio (Wybór pism Zygmunta Kaczkowskiego",
+        "to m III)",
+        "2021, Sławomir Nieściur, Anomalia [4] , Drageus Publishing House, archived from the original on 2022-08-03, page 268 : – ...Ile pliki ważą – Dwa terabajty.[i]  to take up (space on a harddrive, of files)",
+        "2021, Andrzej-Ludwik Włoszczyński, Po co ci logo ciąg dalszy [5] , Wydawnictwo internetowe e-bookowo, page 150 : Efekt mamy w pliku png, które waży, bagatela, 1,85 Giga",
+        "to weigh oneself[r,with,się]",
+        "to = to do something] 1870, Paweł Piasecki, Kronika Pawła Piaseckiego biskupa przemyślskiego [6] , Drukarnia Uniwersytetu Jagiellońskiego, archived from the original on 2022-08-03, page 271 : Ale przemogło zdanie Żółkiewskiego, które na owym sejmie powagę wyroku miało i pod najsurowszemi",
+        "to jest wywołania i dóbr utraty karami, przez uchwałę sejmową zabroniono, aby nikt z krajowców nie ważył się gwałcić paktów z Turkami zawartych, ani Multan zbrojnie najeżdżać.[r,with,się]  to dare [+infinitive] or [+ na (accusative)",
+        "1907, “Kronika miesięczna”, in Adam Krasiński, editor, Biblioteka warszawska [7] , volume 266, A. Gins, archived from the original on 2022-08-03, page 189 : Po Mickiewiczu i Słowackim nikt prawie nie ważył się na budowanie utworu szerzej zakrojonego...",
+        "Synonym: decydować się rozstrzygać się[r,with,się]  to be decided (e.g. one's fate)"
+      ]
+    },
+    "inflections": {
+      "infinitive": "ważyć",
+      "verbalNoun": "ważenie",
+      "activeAdjectival": "ważący",
+      "passiveAdjectival": "ważony",
+      "contemporaryAdverbial": "ważąc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "waż",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "ważono"
+            },
+            "plural": {
+              "allPluralGenders": "ważono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": [
+                "ważyłem"
+              ],
+              "f": [
+                "ważyłam"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "ważyliśmy"
+              ],
+              "nonvirile": [
+                "ważyłyśmy"
+              ]
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": [
+                "ważyłeś"
+              ],
+              "f": [
+                "ważyłaś"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "ważyliście"
+              ],
+              "nonvirile": [
+                "ważyłyście"
+              ]
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "ważył",
+              "f": "ważyła",
+              "n": "ważyło"
+            },
+            "plural": {
+              "virile": "ważyli",
+              "nonvirile": "ważyły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "waży się"
+            },
+            "plural": {
+              "allPluralGenders": "waży się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "ważę"
+            },
+            "plural": {
+              "allPluralGenders": "ważymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "ważysz"
+            },
+            "plural": {
+              "allPluralGenders": "ważycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "waży"
+            },
+            "plural": {
+              "allPluralGenders": "ważą"
+            }
+          }
+        }
+      }
+    }
   }
 ]

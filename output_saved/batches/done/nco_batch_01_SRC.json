@@ -54086,6 +54086,8 @@
   },
   {
     "lemma": "przód",
+    "frequency": 3,
+    "register": 0,
     "id": "pol-nco-8888-przód",
     "gender": "m3",
     "tags": [
@@ -54142,6 +54144,8 @@
   },
   {
     "lemma": "dół",
+    "frequency": 4,
+    "register": 0,
     "id": "pol-nco-8888-dół(hole)",
     "gender": "m3",
     "tags": [
@@ -54189,6 +54193,8 @@
   },
   {
     "lemma": "dół",
+    "frequency": 3,
+    "register": 0,
     "id": "pol-nco-8888-dół(bottom)",
     "gender": "m3",
     "tags": [
@@ -54236,6 +54242,8 @@
   },
   {
     "lemma": "dół",
+    "frequency": 4,
+    "register": 0,
     "id": "pol-nco-8888-dół(the blues)",
     "_untranslated": true,
     "gender": "m2",
@@ -54278,6 +54286,8 @@
   },
   {
     "lemma": "śmietana",
+    "frequency": 4,
+    "register": 0,
     "id": "pol-nco-8888-śmietana",
     "gender": "f",
     "tags": [],
@@ -54323,6 +54333,8 @@
   },
   {
     "lemma": "centrum",
+    "frequency": 2,
+    "register": 0,
     "id": "pol-nco-8888-centrum",
     "gender": "n",
     "tags": [
@@ -54384,6 +54396,8 @@
   },
   {
     "lemma": "tyłek",
+    "frequency": 3,
+    "register": 0,
     "id": "pol-nco-8888-tyłek",
     "gender": "m3",
     "tags": [
@@ -54432,6 +54446,8 @@
   },
   {
     "lemma": "bark",
+    "frequency": 2,
+    "register": 0,
     "id": "pol-nco-8888-bark",
     "gender": "m3",
     "tags": [
@@ -54498,46 +54514,9 @@
     }
   },
   {
-    "lemma": "bark",
-    "id": "pol-nco-8888-bark",
-    "gender": "m3",
-    "tags": [
-      "inanimate"
-    ],
-    "translations": {
-      "ENG": [
-        "barque",
-        "(sailing vessel) (nautical)"
-      ]
-    },
-    "extra": {
-      "derivedTerms": [
-        "barkowy"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "bark",
-        "gen": "barku",
-        "dat": "barkowi",
-        "acc": "bark",
-        "ins": "barkiem",
-        "loc": "barku",
-        "voc": "barku"
-      },
-      "plural": {
-        "nom": "barki",
-        "gen": "barków",
-        "dat": "barkom",
-        "acc": "barki",
-        "ins": "barkami",
-        "loc": "barkach",
-        "voc": "barki"
-      }
-    }
-  },
-  {
     "lemma": "dołek",
+    "frequency": 4,
+    "register": 0,
     "id": "pol-nco-8888-dołek",
     "gender": "m3",
     "tags": [
@@ -54584,6 +54563,8 @@
   },
   {
     "lemma": "punkt",
+    "frequency": 3,
+    "register": 0,
     "id": "pol-nco-8888-punkt(dot)",
     "gender": "m3",
     "tags": [
@@ -54712,6 +54693,8 @@
   },
   {
     "lemma": "dupa",
+    "frequency": 4,
+    "register": 0,
     "id": "pol-nco-8888-dupa",
     "gender": "f",
     "tags": [],
@@ -54781,6 +54764,8 @@
   },
   {
     "lemma": "metoda",
+    "frequency": 4,
+    "register": 0,
     "id": "pol-nco-8888-metoda",
     "gender": "f",
     "tags": [],
@@ -54827,6 +54812,8 @@
   },
   {
     "lemma": "tył",
+    "frequency": 4,
+    "register": 0,
     "id": "pol-nco-8888-tył",
     "gender": "m3",
     "tags": [
@@ -54868,6 +54855,8 @@
   },
   {
     "lemma": "kropka",
+    "frequency": 3,
+    "register": 0,
     "id": "pol-nco-8888-kropka(punctuation)",
     "gender": "f",
     "tags": [],
@@ -54920,6 +54909,8 @@
   },
   {
     "lemma": "kropka",
+    "frequency": 3,
+    "register": 0,
     "id": "pol-nco-8888-kropka(dot)",
     "gender": "f",
     "tags": [],
@@ -54972,6 +54963,8 @@
   },
   {
     "lemma": "dno",
+    "frequency": 4,
+    "register": 0,
     "id": "pol-nco-8888-dno",
     "gender": "n",
     "tags": [
@@ -55017,6 +55010,102 @@
         "ins": "dnami",
         "loc": "dnach",
         "voc": "dna"
+      }
+    }
+  },
+  {
+    "id": "pol-nco-8888-samica",
+    "frequency": 5,
+    "register": 0,
+    "lemma": "samica",
+    "gender": "f",
+    "tags": [],
+    "translations": {
+      "ENG": [
+        "female",
+        "(animal of feminine gender)"
+      ]
+    },
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "samiczka"
+        ]
+      },
+      "antonyms": [
+        "samiec"
+      ],
+      "derivedTerms": [
+        "samica alfa"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "samica",
+        "gen": "samicy",
+        "dat": "samicy",
+        "acc": "samicę",
+        "ins": "samicą",
+        "loc": "samicy",
+        "voc": "samico"
+      },
+      "plural": {
+        "nom": "samice",
+        "gen": "samic",
+        "dat": "samicom",
+        "acc": "samice",
+        "ins": "samicami",
+        "loc": "samicach",
+        "voc": "samice"
+      }
+    }
+  },
+  {
+    "id": "pol-nco-8888-samiec",
+    "frequency": 5,
+    "register": 0,
+    "lemma": "samiec",
+    "gender": "m2",
+    "tags": [
+      "animal"
+    ],
+    "translations": {
+      "ENG": [
+        "male",
+        "(animal of masculine gender)"
+      ]
+    },
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "samczyk"
+        ]
+      },
+      "antonyms": [
+        "samica"
+      ],
+      "derivedTerms": [
+        "samiec alfa"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "samiec",
+        "gen": "samca",
+        "dat": "samcowi",
+        "acc": "samca",
+        "ins": "samcem",
+        "loc": "samcu",
+        "voc": "samcu"
+      },
+      "plural": {
+        "nom": "samce",
+        "gen": "samców",
+        "dat": "samcom",
+        "acc": "samce",
+        "ins": "samcami",
+        "loc": "samcach",
+        "voc": "samce"
       }
     }
   }
