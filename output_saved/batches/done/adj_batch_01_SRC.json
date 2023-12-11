@@ -139198,4 +139198,849 @@
       }
     }
   },
+  {
+    "id": "pol-adj-8888-stały",
+    "frequency": 4,
+    "register": 0,
+    "translations": {
+      "ENG": [
+        "fixed",
+        "(not able to move unmovable)",
+        "constant",
+        "permanent",
+        "(being somewhere that one usually stays)",
+        "fixed",
+        "(essential to something's existence and without which something cannot do)",
+        "frequent",
+        "regular",
+        "(participating in or being somewhere often)",
+        "stable",
+        "regular",
+        "constant",
+        "(one who has been in a certain relationship with someone for a long time)",
+        "constant",
+        "(lasting uninterrupted for a long time)",
+        "constant",
+        "(unchanged through time or space)",
+        "constant",
+        "permanent",
+        "(lasting a long time or limitlessly)",
+        "constant",
+        "fixed",
+        "stable",
+        "(unchanging in beliefs, opinion, or emotions)",
+        "w",
+        "(locative)",
+        "constant",
+        "fixed",
+        "stable",
+        "(characteristic of such a person)"
+      ]
+    },
+    "extra": {
+      "synonyms": [
+        "nieruchomy",
+        "nieodłączny",
+        "nieprzerwany",
+        "trwały",
+        "niezmienny"
+      ],
+      "antonyms": [
+        "ruchomy",
+        "czasowy",
+        "tymczasowy",
+        "okresowy",
+        "tymczasowy",
+        "dorywczy",
+        "zmienny"
+      ]
+    },
+    "lemma": "stały",
+    "tags": "xxxxxxxxx",
+    "inflections": {
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "stały",
+            "gen": "stałego",
+            "dat": "stałemu",
+            "acc": "stałego",
+            "ins": "stałym",
+            "loc": "stałym"
+          },
+          "m3": {
+            "nom": "stały",
+            "gen": "stałego",
+            "dat": "stałemu",
+            "acc": "stały",
+            "ins": "stałym",
+            "loc": "stałym"
+          },
+          "f": {
+            "nom": "stała",
+            "gen": "stałej",
+            "dat": "stałej",
+            "acc": "stałą",
+            "ins": "stałą",
+            "loc": "stałej"
+          },
+          "n": {
+            "nom": "stałe",
+            "gen": "stałego",
+            "dat": "stałemu",
+            "acc": "stałe",
+            "ins": "stałym",
+            "loc": "stałym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "stali",
+            "gen": "stałych",
+            "dat": "stałym",
+            "acc": "stałych",
+            "ins": "stałymi",
+            "loc": "stałych"
+          },
+          "nonvirile": {
+            "nom": "stałe",
+            "gen": "stałych",
+            "dat": "stałym",
+            "acc": "stałe",
+            "ins": "stałymi",
+            "loc": "stałych"
+          }
+        }
+      },
+      "adverb": "stale",
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "stalszy",
+                "bardziej stały"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "stalszego",
+                "bardziej stałego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "stalszemu",
+                "bardziej stałemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "stalszego",
+                "bardziej stałego"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "stalszym",
+                "bardziej stałym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "stalszym",
+                "bardziej stałym"
+              ]
+            }
+          },
+          "m3": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "stalszy",
+                "bardziej stały"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "stalszego",
+                "bardziej stałego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "stalszemu",
+                "bardziej stałemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "stalszy",
+                "bardziej stały"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "stalszym",
+                "bardziej stałym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "stalszym",
+                "bardziej stałym"
+              ]
+            }
+          },
+          "f": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "stalsza",
+                "bardziej stała"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "stalszej",
+                "bardziej stałej"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "stalszej",
+                "bardziej stałej"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "stalszą",
+                "bardziej stałą"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "stalszą",
+                "bardziej stałą"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "stalszej",
+                "bardziej stałej"
+              ]
+            }
+          },
+          "n": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "stalsze",
+                "bardziej stałe"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "stalszego",
+                "bardziej stałego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "stalszemu",
+                "bardziej stałemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "stalsze",
+                "bardziej stałe"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "stalszym",
+                "bardziej stałym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "stalszym",
+                "bardziej stałym"
+              ]
+            }
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "stalsi",
+                "bardziej stali"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "stalszych",
+                "bardziej stałych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "stalszym",
+                "bardziej stałym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "stalszych",
+                "bardziej stałych"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "stalszymi",
+                "bardziej stałymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "stalszych",
+                "bardziej stałych"
+              ]
+            }
+          },
+          "nonvirile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "stalsze",
+                "bardziej stałe"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "stalszych",
+                "bardziej stałych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "stalszym",
+                "bardziej stałym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "stalsze",
+                "bardziej stałe"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "stalszymi",
+                "bardziej stałymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "stalszych",
+                "bardziej stałych"
+              ]
+            }
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszy",
+                "najbardziej stały"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszego",
+                "najbardziej stałego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszemu",
+                "najbardziej stałemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszego",
+                "najbardziej stałego"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszym",
+                "najbardziej stałym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszym",
+                "najbardziej stałym"
+              ]
+            }
+          },
+          "m3": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszy",
+                "najbardziej stały"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszego",
+                "najbardziej stałego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszemu",
+                "najbardziej stałemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszy",
+                "najbardziej stały"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszym",
+                "najbardziej stałym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszym",
+                "najbardziej stałym"
+              ]
+            }
+          },
+          "f": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najstalsza",
+                "najbardziej stała"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszej",
+                "najbardziej stałej"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszej",
+                "najbardziej stałej"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszą",
+                "najbardziej stałą"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszą",
+                "najbardziej stałą"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszej",
+                "najbardziej stałej"
+              ]
+            }
+          },
+          "n": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najstalsze",
+                "najbardziej stałe"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszego",
+                "najbardziej stałego"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszemu",
+                "najbardziej stałemu"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najstalsze",
+                "najbardziej stałe"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszym",
+                "najbardziej stałym"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszym",
+                "najbardziej stałym"
+              ]
+            }
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najstalsi",
+                "najbardziej stali"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszych",
+                "najbardziej stałych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszym",
+                "najbardziej stałym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszych",
+                "najbardziej stałych"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszymi",
+                "najbardziej stałymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszych",
+                "najbardziej stałych"
+              ]
+            }
+          },
+          "nonvirile": {
+            "nom": {
+              "isTerminus": true,
+              "normal": [
+                "najstalsze",
+                "najbardziej stałe"
+              ]
+            },
+            "gen": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszych",
+                "najbardziej stałych"
+              ]
+            },
+            "dat": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszym",
+                "najbardziej stałym"
+              ]
+            },
+            "acc": {
+              "isTerminus": true,
+              "normal": [
+                "najstalsze",
+                "najbardziej stałe"
+              ]
+            },
+            "ins": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszymi",
+                "najbardziej stałymi"
+              ]
+            },
+            "loc": {
+              "isTerminus": true,
+              "normal": [
+                "najstalszych",
+                "najbardziej stałych"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "pol-adj-8888-trwały",
+    "frequency": 4,
+    "register": 0,
+    "translations": {
+      "ENG": [
+        "solid",
+        "strong",
+        "lasting",
+        "permanent"
+      ]
+    },
+    "extra": {
+      "synonyms": [
+        "permanentny"
+      ],
+      "antonyms": [
+        "nietrwały"
+      ]
+    },
+    "lemma": "trwały",
+    "tags": "xxxxxxxxx",
+    "inflections": {
+      "simple": {
+        "singular": {
+          "m1": {
+            "nom": "trwały",
+            "gen": "trwałego",
+            "dat": "trwałemu",
+            "acc": "trwałego",
+            "ins": "trwałym",
+            "loc": "trwałym"
+          },
+          "m3": {
+            "nom": "trwały",
+            "gen": "trwałego",
+            "dat": "trwałemu",
+            "acc": "trwały",
+            "ins": "trwałym",
+            "loc": "trwałym"
+          },
+          "f": {
+            "nom": "trwała",
+            "gen": "trwałej",
+            "dat": "trwałej",
+            "acc": "trwałą",
+            "ins": "trwałą",
+            "loc": "trwałej"
+          },
+          "n": {
+            "nom": "trwałe",
+            "gen": "trwałego",
+            "dat": "trwałemu",
+            "acc": "trwałe",
+            "ins": "trwałym",
+            "loc": "trwałym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "trwali",
+            "gen": "trwałych",
+            "dat": "trwałym",
+            "acc": "trwałych",
+            "ins": "trwałymi",
+            "loc": "trwałych"
+          },
+          "nonvirile": {
+            "nom": "trwałe",
+            "gen": "trwałych",
+            "dat": "trwałym",
+            "acc": "trwałe",
+            "ins": "trwałymi",
+            "loc": "trwałych"
+          }
+        }
+      },
+      "adverb": "trwale",
+      "comparative": {
+        "singular": {
+          "m1": {
+            "nom": "trwalszy",
+            "gen": "trwalszego",
+            "dat": "trwalszemu",
+            "acc": "trwalszego",
+            "ins": "trwalszym",
+            "loc": "trwalszym"
+          },
+          "m3": {
+            "nom": "trwalszy",
+            "gen": "trwalszego",
+            "dat": "trwalszemu",
+            "acc": "trwalszy",
+            "ins": "trwalszym",
+            "loc": "trwalszym"
+          },
+          "f": {
+            "nom": "trwalsza",
+            "gen": "trwalszej",
+            "dat": "trwalszej",
+            "acc": "trwalszą",
+            "ins": "trwalszą",
+            "loc": "trwalszej"
+          },
+          "n": {
+            "nom": "trwalsze",
+            "gen": "trwalszego",
+            "dat": "trwalszemu",
+            "acc": "trwalsze",
+            "ins": "trwalszym",
+            "loc": "trwalszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "trwalsi",
+            "gen": "trwalszych",
+            "dat": "trwalszym",
+            "acc": "trwalszych",
+            "ins": "trwalszymi",
+            "loc": "trwalszych"
+          },
+          "nonvirile": {
+            "nom": "trwalsze",
+            "gen": "trwalszych",
+            "dat": "trwalszym",
+            "acc": "trwalsze",
+            "ins": "trwalszymi",
+            "loc": "trwalszych"
+          }
+        }
+      },
+      "superlative": {
+        "singular": {
+          "m1": {
+            "nom": "najtrwalszy",
+            "gen": "najtrwalszego",
+            "dat": "najtrwalszemu",
+            "acc": "najtrwalszego",
+            "ins": "najtrwalszym",
+            "loc": "najtrwalszym"
+          },
+          "m3": {
+            "nom": "najtrwalszy",
+            "gen": "najtrwalszego",
+            "dat": "najtrwalszemu",
+            "acc": "najtrwalszy",
+            "ins": "najtrwalszym",
+            "loc": "najtrwalszym"
+          },
+          "f": {
+            "nom": "najtrwalsza",
+            "gen": "najtrwalszej",
+            "dat": "najtrwalszej",
+            "acc": "najtrwalszą",
+            "ins": "najtrwalszą",
+            "loc": "najtrwalszej"
+          },
+          "n": {
+            "nom": "najtrwalsze",
+            "gen": "najtrwalszego",
+            "dat": "najtrwalszemu",
+            "acc": "najtrwalsze",
+            "ins": "najtrwalszym",
+            "loc": "najtrwalszym"
+          }
+        },
+        "plural": {
+          "virile": {
+            "nom": "najtrwalsi",
+            "gen": "najtrwalszych",
+            "dat": "najtrwalszym",
+            "acc": "najtrwalszych",
+            "ins": "najtrwalszymi",
+            "loc": "najtrwalszych"
+          },
+          "nonvirile": {
+            "nom": "najtrwalsze",
+            "gen": "najtrwalszych",
+            "dat": "najtrwalszym",
+            "acc": "najtrwalsze",
+            "ins": "najtrwalszymi",
+            "loc": "najtrwalszych"
+          }
+        }
+      }
+    }
+  }
 ]

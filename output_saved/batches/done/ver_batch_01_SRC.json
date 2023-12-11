@@ -108606,5 +108606,118 @@
         }
       }
     }
+  },
+  {
+    "id": "pol-ver-8888-zwichnąć",
+    "frequency": 4,
+    "register": 0,
+    "lemma": "zwichnąć",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "tags": "xxxxxxxxx",
+    "inflections": {
+      "infinitive": "zwichnąć",
+      "verbalNoun": "zwichnięcie",
+      "activeAdjectival": "zwichnący",
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": "zwichnąc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "zwichnij",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zwichnięto"
+            },
+            "plural": {
+              "allPluralGenders": "zwichnięto"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": [
+                "zwichnąłem"
+              ],
+              "f": [
+                "zwichnęłam"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "zwichnęliśmy"
+              ],
+              "nonvirile": [
+                "zwichnęłyśmy"
+              ]
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": [
+                "zwichnąłeś"
+              ],
+              "f": [
+                "zwichnęłaś"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "zwichnęliście"
+              ],
+              "nonvirile": [
+                "zwichnęłyście"
+              ]
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zwichnął",
+              "f": "zwichnęła",
+              "n": "zwichnęło"
+            },
+            "plural": {
+              "virile": "zwichnęli",
+              "nonvirile": "zwichnęły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zwichnie się"
+            },
+            "plural": {
+              "allPluralGenders": "zwichnie się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "zwichnę"
+            },
+            "plural": {
+              "allPluralGenders": "zwichniemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "zwichniesz"
+            },
+            "plural": {
+              "allPluralGenders": "zwichniecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zwichnie"
+            },
+            "plural": {
+              "allPluralGenders": "zwichną"
+            }
+          }
+        }
+      }
+    }
   }
 ]
