@@ -12776,7 +12776,7 @@
   },
   {
     "lemma": "hair",
-    "id": "eng-nco-0642-hair(human)",
+    "id": "eng-nco-0642-hair(human, one hair)",
     "»trans": [
       "pol-nco-0515-włos"
     ],
@@ -12796,8 +12796,29 @@
         "nom": "hairs",
         "gen": "hairs'"
       }
+    }
+  },
+  {
+    "lemma": "hair",
+    "id": "eng-nco-0642-hair(human, collective)",
+    "»trans": [
+      "pol-nco-0515-włos"
+    ],
+    "register": 0,
+    "frequency": 2,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
     },
-    "_uncountableType": 2
+    "tantumSingulare": true,
+    "inflections": {
+      "singular": {
+        "nom": "hair",
+        "gen": "hair's"
+      }
+    },
+    "_uncountableType": 1
   },
   {
     "lemma": "hair",

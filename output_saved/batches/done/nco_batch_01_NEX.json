@@ -10368,14 +10368,16 @@
     ]
   },
   {
-    "key": "nco-0499-hair(human)",
+    "key": "nco-0499-hair(human, one hair)",
     "traductions": {
-      "SPA": [],
+      "SPA": [
+        "spa-nco-0002-pelo"
+      ],
       "ENG": [
-        "eng-nco-0642-hair(human)"
+        "eng-nco-0642-hair(human, one hair)"
       ],
       "POL": [
-        "pol-nco-0514-włos"
+        "pol-nco-0514-włos(one hair)"
       ]
     },
     "papers": [
@@ -10384,6 +10386,47 @@
     "topics": [
       "medicine",
       "body"
+    ]
+  },
+  {
+    "key": "nco-0499-hair(human, collective)",
+    "traductions": {
+      "SPA": [
+        "spa-nco-0001-cabello"
+      ],
+      "ENG": [
+        "eng-nco-0642-hair(human, collective)"
+      ],
+      "POL": [
+        "pol-nco-0514-włos(collective)"
+      ]
+    },
+    "papers": [
+      "bodypart"
+    ],
+    "topics": [
+      "medicine",
+      "body"
+    ]
+  },
+  {
+    "key": "nco-0912-hair(fur)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0643-hair(fur)",
+        "eng-nco-1179-fur"
+      ],
+      "POL": [
+        "pol-nco-0960-sierść",
+        "pol-nco-1022-futro"
+      ]
+    },
+    "papers": [
+      "bodypart animal"
+    ],
+    "topics": [
+      "fashion"
     ]
   },
   {
@@ -18443,26 +18486,6 @@
     "papers": [],
     "topics": [
       "art"
-    ]
-  },
-  {
-    "key": "nco-0912-hair(fur)",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-nco-0643-hair(fur)",
-        "eng-nco-1179-fur"
-      ],
-      "POL": [
-        "pol-nco-0960-sierść",
-        "pol-nco-1022-futro"
-      ]
-    },
-    "papers": [
-      "bodypart animal"
-    ],
-    "topics": [
-      "fashion"
     ]
   },
   {

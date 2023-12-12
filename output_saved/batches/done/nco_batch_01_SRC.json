@@ -26689,7 +26689,7 @@
   },
   {
     "lemma": "włos",
-    "id": "pol-nco-0514-włos",
+    "id": "pol-nco-0514-włos(one hair)",
     "frequency": 2,
     "register": 0,
     "gender": "m3",
@@ -26734,6 +26734,56 @@
         "loc": "włosie",
         "voc": "włosie"
       },
+      "plural": {
+        "nom": "włosy",
+        "gen": "włosów",
+        "dat": "włosom",
+        "acc": "włosy",
+        "ins": "włosami",
+        "loc": "włosach",
+        "voc": "włosy"
+      }
+    }
+  },
+  {
+    "lemma": "włos",
+    "id": "pol-nco-0514-włos(collective)",
+    "frequency": 2,
+    "register": 0,
+    "gender": "m3",
+    "tags": [
+      "bodypart",
+      "concrete",
+      "holdable"
+    ],
+    "topics": [
+      "body",
+      "cosmetics",
+      "medicine"
+    ],
+    "translations": {
+      "ENG": [
+        "hair"
+      ]
+    },
+    "extra": {
+      "otherShapes": {
+        "diminutive": [
+          "włosek"
+        ]
+      },
+      "derivedTerms": [
+        "bezwłosy",
+        "białowłosy",
+        "blondwłosy",
+        "włochaty",
+        "włosowy",
+        "owłosienie",
+        "włosienica"
+      ]
+    },
+    "tantumPlurale": true,
+    "inflections": {
       "plural": {
         "nom": "włosy",
         "gen": "włosów",
