@@ -26277,5 +26277,19 @@
         "gen": "drills'"
       }
     }
+  },
+  {
+    "lemma": "rainfall",
+    "id": "eng-nco-8888-rainfall",
+    "register": 0,
+    "frequency": 5,
+    "inflections": {
+      "singular": {
+        "nom": "rainfall",
+        "gen": "rainfall's",
+                "lacking": true,
+        "tantumSingulare": true
+      }
+    }
   }
 ]

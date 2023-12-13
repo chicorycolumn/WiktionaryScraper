@@ -55158,5 +55158,37 @@
         "voc": "samce"
       }
     }
-  }
+  },
+  {
+        "id": "pol-nco-8888-opady",
+        "lemma": "opad",
+        "gender": "m3",
+        "register": 0,
+    "frequency": 5,
+        "extra": {
+            "derivedTerms": [
+                "bezopadowy",
+                "opadowy",
+                "opad Biernackiego",
+                "opad pośmiertny",
+                "opad promieniotwórczy"
+            ],
+            "usage": [
+                "opady deszczu ― rain fall",
+                "opady śniegu ― snow fall"
+            ]
+        },
+        "inflections": {
+            "plural": {
+                "nom": "opady",
+                "gen": "opadów",
+                "dat": "opadom",
+                "acc": "opady",
+                "ins": "opadami",
+                "loc": "opadach",
+                "voc": "opady"
+            }
+        },
+    "tantumPlurale": true,
+    }
 ]
