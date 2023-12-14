@@ -11533,7 +11533,7 @@
       "SPA": [],
       "ENG": [
         "eng-nco-0719-mail",
-        "eng-nco-0720-post"
+        "eng-nco-0720-post(mail)"
       ],
       "POL": [
         "pol-nco-0575-poczta(mail)"
@@ -20665,5 +20665,63 @@
     },
         "papers": ["weather type"],
         "topics": ["outdoor", "geography"]
+  },
+    {
+    "key": "nco-0557-post(eg wooden)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0720-post(eg wooden)"
+      ],
+      "POL": [
+        "pol-nco-8888-słupek"
+      ]
+    },
+    "papers": [
+      "furniture",
+      "concrete"
+    ],
+    "topics": [
+      "communications",
+      "writing",
+      "home",
+      "inside"
+    ]
+  },
+    {
+    "key": "nco-0557-pole(eg metal)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-8888-pole(eg metal)"
+      ],
+      "POL": [
+        "pol-nco-8888-słup"
+      ]
+    },
+    "papers": [
+
+    ],
+    "topics": [
+
+    ]
+  },
+    {
+    "key": "nco-0557-pole(eg North)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "pol-nco-8888-pole(eg North)"
+      ],
+      "POL": [
+        "eng-nco-8888-biegun"
+      ]
+    },
+    "papers": [
+
+    ],
+    "topics": [
+
+    ]
   }
 ]

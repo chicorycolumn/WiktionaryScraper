@@ -14357,10 +14357,15 @@
   },
   {
     "lemma": "post",
-    "id": "eng-nco-0720-post",
+    "id": "eng-nco-0720-post(mail)",
     "»trans": [
       "pol-nco-0576-poczta(mail)"
     ],
+        "allohomInfo": {
+      "singleWordtype": true,
+      "text": "mail",
+      "emoji": "✉"
+    },
     "register": 0,
     "frequency": 3,
     "inflections": {
@@ -14374,6 +14379,30 @@
       }
     },
     "_uncountableType": 1
+  },
+  {
+    "lemma": "post",
+    "id": "eng-nco-0720-post(eg wooden)",
+    "»trans": [
+      "pol-nco-0576-poczta(mail)"
+    ],
+        "allohomInfo": {
+      "singleWordtype": true,
+      "text": "pole",
+      "emoji": "💈"
+    },
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "post",
+        "gen": "post's"
+      },
+      "plural": {
+        "nom": "post",
+        "gen": "post's"
+      }
+    }
   },
   {
     "lemma": "post office",
