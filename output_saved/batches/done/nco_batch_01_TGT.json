@@ -26320,5 +26320,47 @@
         "tantumSingulare": true
       }
     }
+  },
+    {
+    "lemma": "pole",
+    "id": "eng-nco-8888-pole(eg metal)",
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "long stick",
+      "emoji": "💈"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "pole",
+        "gen": "pole's"
+      },
+      "plural": {
+        "nom": "poles",
+        "gen": "poles'"
+      }
+    }
+  },
+    {
+    "lemma": "pole",
+    "id": "eng-nco-8888-pole(eg North)",
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "direction",
+      "emoji": "🧭"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "pole",
+        "gen": "pole's"
+      },
+      "plural": {
+        "nom": "poles",
+        "gen": "poles'"
+      }
+    }
   }
 ]

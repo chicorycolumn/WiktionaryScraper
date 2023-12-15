@@ -55189,6 +55189,60 @@
                 "voc": "opady"
             }
         },
-    "tantumPlurale": true,
+    "tantumPlurale": true
+    },
+  {
+        "id": "pol-nco-8888-słup",
+        "lemma": "słup",
+        "gender": "m3",
+        "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "słup",
+        "gen": "słupa",
+        "dat": "słupowi",
+        "acc": "słup",
+        "ins": "słupem",
+        "loc": "słupie",
+        "voc": "słupie"
+      },
+      "plural": {
+        "nom": "słupy",
+        "gen": "słupów",
+        "dat": "słupom",
+        "acc": "słupy",
+        "ins": "słupami",
+        "loc": "słupach",
+        "voc": "słupy"
+      }
     }
+  },
+  {
+        "id": "pol-nco-8888-tyczka",
+        "lemma": "tyczka",
+        "gender": "f",
+        "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "tyczka",
+        "gen": "tyczki",
+        "dat": "tyczce",
+        "acc": "tyczkę",
+        "ins": "tyczką",
+        "loc": "tyczce",
+        "voc": "tyczko"
+      },
+      "plural": {
+        "nom": "tyczki",
+        "gen": "tyczek",
+        "dat": "tyczkom",
+        "acc": "tyczki",
+        "ins": "tyczkami",
+        "loc": "tyczkach",
+        "voc": "tyczki"
+      }
+    }
+  }
 ]
