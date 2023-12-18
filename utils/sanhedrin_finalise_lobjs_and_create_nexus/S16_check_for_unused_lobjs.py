@@ -15,11 +15,19 @@ if __name__ == '__main__':
     src_lang = "POL"
     # # # # # #
 
+    manual_ignore = {
+        'nco': ['samiec', 'samica']
+    }
+
     def add_to_res_dict(main_dict_key, wordtype, res_dict, results_list):
         main_res_dict = []
         ignored_res_dict = []
         for result_str in results_list:
-            if result_str.split("-")[1] == wordtype:
+            lemma_of_result_str = result_str.split("-")[-1]
+            wordtype_of_result_str = result_str.split("-")[1]
+            if wordtype in manual_ignore and lemma_of_result_str in manual_ignore[wordtype]:
+                ignored_res_dict.append(result_str)
+            elif wordtype_of_result_str == wordtype:
                 main_res_dict.append(result_str)
             else:
                 ignored_res_dict.append(result_str)
