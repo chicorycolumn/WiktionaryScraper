@@ -130,5 +130,111 @@
       "inside",
       "restaurant"
     ]
+  },
+  {
+    "key": "nco-0007-tower",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0008-tower"
+      ],
+      "POL": [
+        "pol-nco-0007-wieża"
+      ]
+    },
+    "papers": [
+      "location",
+      "building",
+      "concrete",
+      "s5"
+    ],
+    "topics": [
+      "inside"
+    ]
+  },
+  {
+    "key": "nco-0008-school",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0009-school"
+      ],
+      "POL": [
+        "pol-nco-0008-szkoła"
+      ]
+    },
+    "papers": [
+      "location",
+      "building",
+      "concrete",
+      "school hypernym",
+      "s5"
+    ],
+    "topics": [
+      "inside",
+      "school"
+    ]
+  },
+  {
+    "key": "nco-0009-telephone",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0010-telephone"
+      ],
+      "POL": [
+        "pol-nco-0009-telefon"
+      ]
+    },
+    "papers": [
+      "device",
+      "concrete",
+      "s1"
+    ],
+    "topics": [
+      "communications",
+      "tech"
+    ]
+  },
+  {
+    "key": "nco-0010-table",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0011-table"
+      ],
+      "POL": [
+        "pol-nco-0010-stół"
+      ]
+    },
+    "papers": [
+      "furniture",
+      "concrete",
+      "s2"
+    ],
+    "topics": [
+      "home",
+      "inside"
+    ]
+  },
+  {
+    "key": "nco-0011-flower",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0012-flower"
+      ],
+      "POL": [
+        "pol-nco-0011-kwiat"
+      ]
+    },
+    "papers": [
+      "natural",
+      "concrete",
+      "s1"
+    ],
+    "topics": [
+      "outside"
+    ]
   }
 ]

@@ -30,11 +30,17 @@ if __name__ == '__main__':
 
     cmd_history = []
 
+    def print_simple_status(index, lobjs, lobj, done: bool = False):
+        lem = lobj['key'][9:]
+        print(f"{index + 1}/{len(lobjs)}", c.green(lem) if done else c.blue(lem))
+
     for index, nex_lobj in enumerate(nex_lobjs):
         print('')
-        print(f"{index + 1}/{len(nex_lobjs)}", nex_lobj['key'][8:])
 
-        if nex_lobj['key'] not in done_ids:
+        if nex_lobj['key'] in done_ids:
+            print_simple_status(index, nex_lobjs, nex_lobj, done=True)
+        else:
+            print_simple_status(index, nex_lobjs, nex_lobj)
             add_size_tag(nex_lobj, cmd_history)
             results.append(nex_lobj)
 

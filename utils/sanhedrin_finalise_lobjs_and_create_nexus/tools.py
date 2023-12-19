@@ -1254,17 +1254,23 @@ def add_size_tag(lobj, cmd_history):
         return add_size_tag(lobj, cmd_history)
 
     if 'concrete' not in lobj['papers']:
+        print("")
+        print("")
+        print("")
         c.print_teal('NOT CONCRETE')
+        print("")
+        print("")
+        print("")
         return
 
-    print("")
-    c.print_bold('0  whoops, not actually concrete')
     print("")
     c.print_bold('1  POCKETABLE     needle - booklet')
     c.print_bold('2  HAND held      book - chair')
     c.print_bold('3  TEAM move      armchair - car')
-    c.print_bold('4  MACHINE move  lorry - ship')
+    c.print_bold('4  MACHINE move   lorry - ship')
     c.print_bold('5  IMMOVABLE      house - mountain - wall')
+    print("")
+    c.print_bold('0  NOT actually concrete')
     print("")
 
     user_input = input('Enter digit: ')
