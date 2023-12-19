@@ -18,13 +18,6 @@ if __name__ == '__main__':
     input_indexes = [0, 870]
     wordtype = "v"
     these_headwords_only = [
-        "wyszkolić",
-        "szkolić",
-        "skarżać",
-        "posłużyć",
-        "ważyć",
-        "cuchnąć",
-        "zwichnąć"
     ]
     please_alphabetise = False  # does not normally need to be true
     force_gather_result_even_if_parser_errored = True

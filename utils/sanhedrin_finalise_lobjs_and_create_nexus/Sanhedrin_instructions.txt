@@ -182,18 +182,25 @@ It uses additionalSpellings that you manually type into this stage.
 
 
 
-5C) Search for 'swde' and '🚩' and resolve those manually added flags.
+5C) Search for swde, 🚩, "" and resolve those 3.
     Modifies "nou_batch_01_tgt.json"
 
 
 
-5D) Run "S12_connect_sibling_lobjs.py" for TGT
+5D) Run "S19_add_size_label_to_nouns.py" for nco NEX
+    - to add size info of concrete objects
+    - remove outdated 'holdable' paper tag
+    Modifies "nco_batch_01_nex.json"
+
+
+
+5E) Run "S12_connect_sibling_lobjs.py" for TGT
     - to compact data by removing duplicated inflection data, replacing with reference to the one sibling which holds it
     Modifies "nou_batch_01_tgt.json"
 
 
 
-5E) Remove now-unneeded data from SRC and TGT
+5F) Remove now-unneeded data from SRC and TGT
     such as "translations", "»translations", "tags", "topics"
     but keep "notes".
     - move 'lacking' and 'tantumPlurale' and 'tantumSingulare' keys out of inflections to top level in lobj.
