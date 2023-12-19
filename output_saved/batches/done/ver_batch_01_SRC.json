@@ -107930,134 +107930,98 @@
     }
   },
   {
-    "id": "pol-ver-8888-posłużyć",
+    "lemma": "posługiwać",
+    "id": "pol-ver-8888-posługiwać",
     "frequency": 5,
     "register": 0,
-    "lemma": "posłużyć",
-    "aspect": "perfective",
+    "aspect": "imperfective",
     "secondaryAspects": [],
-    "extra": {
-      "otherShapes": {
-        "imperfective": [
-          "posługiwać"
-        ]
-      },
-      "derivedTerms": [
-        "noun posługa"
-      ]
-    },
-    "tags": "xxxxxxxxx",
-    "translations": {
-      "ENG": [
-        "to come in handy[i]",
-        "to serve as[i]",
-        "to use",
-        "to utilise Synonym: użyć[r,with,się]",
-        "to make someone do something[r,with,się]"
-      ]
-    },
     "inflections": {
-      "infinitive": "posłużyć",
-      "verbalNoun": "posłużenie",
-      "activeAdjectival": false,
-      "passiveAdjectival": false,
-      "contemporaryAdverbial": false,
-      "anteriorAdverbial": "posłużywszy",
+      "infinitive": "posługiwać",
+      "verbalNoun": "posługiwanie",
+      "activeAdjectival": "posługujący",
+      "passiveAdjectival": "posługiwany",
+      "contemporaryAdverbial": "posługując",
+      "anteriorAdverbial": false,
       "verbal": {
         "conditional": true,
-        "future": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "posłuży się"
-            },
-            "plural": {
-              "allPluralGenders": "posłuży się"
-            }
-          },
-          "1per": {
-            "singular": {
-              "allSingularGendersExcludingNeuter": "posłużę"
-            },
-            "plural": {
-              "allPluralGenders": "posłużymy"
-            }
-          },
-          "2per": {
-            "singular": {
-              "allSingularGendersExcludingNeuter": "posłużysz"
-            },
-            "plural": {
-              "allPluralGenders": "posłużycie"
-            }
-          },
-          "3per": {
-            "singular": {
-              "allSingularGenders": "posłuży"
-            },
-            "plural": {
-              "allPluralGenders": "posłużą"
-            }
-          }
-        },
-        "imperative": "posłuż",
+        "future": true,
+        "imperative": "posługuj",
         "past": {
           "impersonal": {
             "singular": {
-              "allSingularGenders": "posłużono"
+              "allSingularGenders": "posługiwano"
             },
             "plural": {
-              "allPluralGenders": "posłużono"
+              "allPluralGenders": "posługiwano"
             }
           },
           "1per": {
             "singular": {
-              "m": [
-                "posłużyłem"
-              ],
-              "f": [
-                "posłużyłam"
-              ]
+              "m": "posługiwałem",
+              "f": "posługiwałam"
             },
             "plural": {
-              "virile": [
-                "posłużyliśmy"
-              ],
-              "nonvirile": [
-                "posłużyłyśmy"
-              ]
+              "virile": "posługiwaliśmy",
+              "nonvirile": "posługiwałyśmy"
             }
           },
           "2per": {
             "singular": {
-              "m": [
-                "posłużyłeś"
-              ],
-              "f": [
-                "posłużyłaś"
-              ]
+              "m": "posługiwałeś",
+              "f": "posługiwałaś"
             },
             "plural": {
-              "virile": [
-                "posłużyliście"
-              ],
-              "nonvirile": [
-                "posłużyłyście"
-              ]
+              "virile": "posługiwaliście",
+              "nonvirile": "posługiwałyście"
             }
           },
           "3per": {
             "singular": {
-              "m": "posłużył",
-              "f": "posłużyła",
-              "n": "posłużyło"
+              "m": "posługiwał",
+              "f": "posługiwała",
+              "n": "posługiwało"
             },
             "plural": {
-              "virile": "posłużyli",
-              "nonvirile": "posłużyły"
+              "virile": "posługiwali",
+              "nonvirile": "posługiwały"
             }
           }
         },
-        "present": false
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "posługuje się"
+            },
+            "plural": {
+              "allPluralGenders": "posługuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "posługuję"
+            },
+            "plural": {
+              "allPluralGenders": "posługujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "posługujesz"
+            },
+            "plural": {
+              "allPluralGenders": "posługujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "posługuje"
+            },
+            "plural": {
+              "allPluralGenders": "posługują"
+            }
+          }
+        }
       }
     }
   },
@@ -108447,7 +108411,7 @@
   },
   {
     "id": "pol-ver-8888-ważyć",
-    "frequency": 3,
+    "frequency": 4,
     "register": 0,
     "lemma": "ważyć",
     "aspect": "imperfective",

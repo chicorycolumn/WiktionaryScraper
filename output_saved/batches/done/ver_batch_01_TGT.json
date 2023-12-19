@@ -3840,6 +3840,20 @@
     }
   },
   {
+    "lemma": "train",
+    "id": "eng-ver-0184-train",
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "train",
+      "verbal": {},
+      "v2": "trained",
+      "v3": "trained",
+      "thirdPS": "trains",
+      "gerund": "training"
+    }
+  },
+  {
     "lemma": "describe",
     "id": "eng-ver-0186-describe",
     "»trans": [
@@ -5274,6 +5288,28 @@
       ],
       "thirdPS": "smells",
       "gerund": "smelling"
+    }
+  },
+  {
+    "lemma": "smell",
+    "transitivity": [
+      "i"
+    ],
+    "id": "eng-ver-0259-stink",
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "stink",
+      "verbal": {},
+      "v2": [
+        "stank",
+        "stunk"
+      ],
+      "v3": [
+        "stunk"
+      ],
+      "thirdPS": "stinks",
+      "gerund": "stinking"
     }
   },
   {
@@ -14855,6 +14891,36 @@
       "v3": "exposed",
       "thirdPS": "exposes",
       "gerund": "exposing"
+    }
+  },
+  {
+    "lemma": "weigh",
+    "id": "eng-ver-8888-weigh",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "weigh",
+      "verbal": {},
+      "v2": "weighed",
+      "v3": "weighed",
+      "thirdPS": "weighs",
+      "gerund": "weighing"
+    }
+  },
+  {
+    "lemma": "dislocate",
+    "id": "eng-ver-8888-dislocate",
+    "»trans": [],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "dislocate",
+      "verbal": {},
+      "v2": "dislocated",
+      "v3": "dislocated",
+      "thirdPS": "dislocates",
+      "gerund": "dislocating"
     }
   }
 ]

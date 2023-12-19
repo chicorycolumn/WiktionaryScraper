@@ -1326,7 +1326,8 @@
         "pol-ver-0122-używać",
         "pol-ver-0123-użyć",
         "pol-ver-0193-korzystać(use)",
-        "pol-ver-0196-skorzystać(use)"
+        "pol-ver-0196-skorzystać(use)",
+        "pol-ver-8888-posługiwać"
       ]
     },
     "papers": [
@@ -2165,6 +2166,27 @@
     ],
     "topics": [
       "school"
+    ]
+  },
+  {
+    "key": "ver-0100-train",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0184-train"
+      ],
+      "POL": [
+        "pol-ver-8888-szkolić",
+        "pol-ver-8888-wyszkolić"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "business",
+      "school",
+      "work"
     ]
   },
   {
@@ -6921,6 +6943,26 @@
     ]
   },
   {
+    "key": "ver-0324-stink",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-0259-stink"
+      ],
+      "POL": [
+        "pol-ver-8888-cuchnąć"
+      ]
+    },
+    "papers": [
+      "perception",
+      "abstract",
+      "negative judgment"
+    ],
+    "topics": [
+      "sense and perception"
+    ]
+  },
+  {
     "key": "ver-0325-smoke(tobacco)",
     "traductions": {
       "SPA": [],
@@ -9759,6 +9801,45 @@
     "topics": [
       "music",
       "theatre"
+    ]
+  },
+  {
+    "key": "ver-8888-weigh",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-8888-weigh"
+      ],
+      "POL": [
+        "pol-ver-8888-ważyć"
+      ]
+    },
+    "papers": [
+      "dimension",
+      "concrete"
+    ],
+    "topics": [
+      "sense and perception",
+      "appearance"
+    ]
+  },
+  {
+    "key": "ver-8888-dislocate",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-ver-8888-dislocate"
+      ],
+      "POL": [
+        "pol-ver-8888-zwichnąć"
+      ]
+    },
+    "papers": [
+      "disease"
+    ],
+    "topics": [
+      "disease",
+      "medicine"
     ]
   }
 ]
