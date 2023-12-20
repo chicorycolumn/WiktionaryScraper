@@ -1253,39 +1253,48 @@ def add_size_tag(lobj, cmd_history):
     def restart():
         return add_size_tag(lobj, cmd_history)
 
+    def print_lobj_info():
+        print('ENG:', lobj['traductions']['ENG'])
+        print('POL:', lobj['traductions']['POL'])
+
     if 'concrete' not in lobj['papers']:
-        print("")
-        print("")
-        print("")
-        c.print_teal('NOT CONCRETE')
-        print("")
-        print("")
-        print("")
-        return
+        user_input = input('Not concrete?   ENTER to confirm   ANY to amend   ? for info: ')
+        if user_input == '?':
+            print_lobj_info()
+            return restart()
+        if not user_input:
+            c.print_teal("- - - - - - -")
+            c.print_teal('NOT CONCRETE')
+            c.print_teal("- - - - - - -")
+            c.print_teal("- - - - - - -")
+            return
 
-    print("")
-    c.print_bold('1  POCKETABLE     needle - booklet')
-    c.print_bold('2  HAND held      book - chair')
-    c.print_bold('3  TEAM move      armchair - car')
-    c.print_bold('4  MACHINE move   lorry - ship')
-    c.print_bold('5  IMMOVABLE      house - mountain - wall')
-    print("")
-    c.print_bold('0  NOT actually concrete')
-    print("")
-
-    user_input = input('Enter digit: ')
+    c.print_bold('1Pocket, 2Hand, 3Person, 4Team, 5Machine, 6Immovable        ? for info')
+    user_input = input('Enter digit 0-6: ')
 
     if not user_input:
+        return restart()
+
+    if user_input == '?':
+        print_lobj_info()
         return restart()
 
     print("WAS:", lobj['papers'])
 
     if user_input == '0':
         lobj['papers'] = [t for t in lobj['papers'] if t not in ['concrete', 'holdable']]
-    elif user_input in '12345':
-        lobj['papers'] = [t for t in lobj['papers'] if t not in ['holdable']]
-        lobj['papers'].append('s' + user_input)
+    elif user_input in '123456':
+        size_tag = 's' + user_input
+        lobj['papers'] = [size_tag] + [t for t in lobj['papers'] if t not in ['holdable']]
     else:
+        if user_input == 'h':
+            c.print_bold('0  NOT actually concrete')
+            c.print_bold('1  POCKETABLE     needle - booklet')
+            c.print_bold('2  HAND held      book - racquet')
+            c.print_bold('3  PERSON move    dog - armchair')
+            c.print_bold('4  TEAM move      bed - car')
+            c.print_bold('5  MACHINE move   lorry - ship')
+            c.print_bold('6  IMMOVABLE      house - mountain - wall')
         return restart()
 
     print("NOW:", lobj['papers'])
