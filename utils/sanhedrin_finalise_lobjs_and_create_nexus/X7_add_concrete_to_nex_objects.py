@@ -64,6 +64,7 @@ if __name__ == '__main__':
         save(results, True)
         progress_bar(1, 1, True)
         save(results)
+
     elif wordtype == 'ver':
         for index, nex_lobj in enumerate(nex_lobjs):
             if 'concrete' in nex_lobj['papers']:
@@ -72,6 +73,7 @@ if __name__ == '__main__':
                 nex_lobj['papers'] = [t for t in nex_lobj['papers'] if t != 'abstract']
             results.append(nex_lobj)
         save(results)
+
     elif wordtype == 'npe':
         for index, nex_lobj in enumerate(nex_lobjs):
             if 'concrete' not in nex_lobj['papers']:
@@ -80,6 +82,7 @@ if __name__ == '__main__':
                 nex_lobj['papers'] = [t for t in nex_lobj['papers'] if t != 'abstract']
             results.append(nex_lobj)
         save(results)
+
     elif wordtype == 'nco':
         res = {
             'concrete': [],
@@ -91,24 +94,26 @@ if __name__ == '__main__':
             has_concrete_tag = 'concrete' in nex_lobj['papers']
             has_abstract_tag = 'abstract' in nex_lobj['papers']
             if has_concrete_tag and has_abstract_tag:
-                res['both'].append(nex_lobj['key'])
+                res['both'].append(nex_lobj)
             elif has_concrete_tag:
-                res['concrete'].append(nex_lobj['key'])
+                res['concrete'].append(nex_lobj)
             elif has_abstract_tag:
-                res['abstract'].append(nex_lobj['key'])
+                res['abstract'].append(nex_lobj)
             else:
-                res['neither'].append(nex_lobj['key'])
+                res['neither'].append(nex_lobj)
+
         for res_key in res:
             print("")
             print(res_key, len(res[res_key]))
             print("")
-            for el in res[res_key]:
-                print(el)
-        for index, nex_lobj in enumerate(res['neither']):
-            print('')
+            for nobj in res[res_key]:
+                print(nobj['key'])
 
-            if nex_lobj['key'] in done_ids:
+        neither_ids = [nobj['key'] for nobj in res['neither']]
+        for index, nex_lobj in enumerate(nex_lobjs):
+            if nex_lobj['key'] not in neither_ids:
                 print_simple_status(index, nex_lobjs, nex_lobj, done=True)
+                results.append(nex_lobj)
             else:
                 print_simple_status(index, nex_lobjs, nex_lobj)
                 lem = nex_lobj['key'][9:]
@@ -124,12 +129,13 @@ if __name__ == '__main__':
                 nex_lobj['papers'] = new_papers
                 results.append(nex_lobj)
 
-                if index % 5 == 0:
-                    save(results, True)
-                    progress_bar(index + 1, len(nex_lobjs), True)
+            if index % 5 == 0:
+                save(results, True)
+                progress_bar(index + 1, len(nex_lobjs), True)
 
         save(results, True)
         progress_bar(1, 1, True)
         save(results)
+
     print("")
     print("Completely done.")
