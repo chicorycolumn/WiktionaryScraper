@@ -1298,3 +1298,17 @@ def add_size_tag(lobj, cmd_history):
         return restart()
 
     print("NOW:", lobj['papers'])
+
+
+def get_concrete_input(lem):
+    added_tags = []
+
+    user_input = input(f'{lem} man, {lem} ball?   ENTER for yes   ANY for no  ')
+    if not user_input or user_input == 'y':
+        added_tags.append('concrete')
+
+    user_input = input(f'{lem} idea, {lem} action?   ENTER for yes   ANY for no  ')
+    if not user_input or user_input == 'y':
+        added_tags.append('abstract')
+
+    return added_tags

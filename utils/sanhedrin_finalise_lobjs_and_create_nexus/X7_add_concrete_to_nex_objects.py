@@ -2,7 +2,7 @@ from parsers.common import scrape_word_data
 from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, add_signalwords, \
     get_signalword, test_signalword, get_inflections_eng_ver, get_inflections_eng_nou, get_inflections_eng_adj, \
-    add_size_tag
+    add_size_tag, get_concrete_input
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
 from utils.universal import Color as c, get_curried_save, load_tempsave_if_exists, progress_bar, load_data
@@ -45,12 +45,12 @@ if __name__ == '__main__':
             print_simple_status(index, nex_lobjs, nex_lobj)
             lem = nex_lobj['key'][9:]
 
-            added_tags = []
-
-            if not input(f'{lem} man, {lem} ball?   ENTER for yes   ANY for no  '):
-                added_tags.append('concrete')
-            if not input(f'{lem} idea, {lem} action?   ENTER for yes   ANY for no  '):
-                added_tags.append('abstract')
+            if nex_lobj['key'].endswith('(concrete)'):
+                added_tags = ['concrete']
+            elif nex_lobj['key'].endswith('(abstract)'):
+                added_tags = ['abstract']
+            else:
+                added_tags = get_concrete_input(lem)
 
             new_papers = added_tags + [t for t in nex_lobj['papers'] if t not in ['concrete', 'abstract']]
             nex_lobj['papers'] = new_papers
