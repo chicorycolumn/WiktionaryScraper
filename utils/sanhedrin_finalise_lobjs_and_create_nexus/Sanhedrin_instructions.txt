@@ -191,9 +191,9 @@ It uses additionalSpellings that you manually type into this stage.
        Modifies "nco_batch_01_nex.json"
 
 
-5C-iii)Run "X7_add_concrete_to_nex_objects.py" for all NEX
-       - to add or remove 'concrete' and 'abstract' tags as needed
-       Modifies "nou_batch_01_nex.json"
+5C-iii) Run "X7_add_concrete_to_nex_objects.py" for all NEX
+        - to add or remove 'concrete' and 'abstract' tags as needed
+        Modifies "nou_batch_01_nex.json"
 
 
 5C-iv) Run "S19_add_size_label_to_nouns.py" for nco NEX
