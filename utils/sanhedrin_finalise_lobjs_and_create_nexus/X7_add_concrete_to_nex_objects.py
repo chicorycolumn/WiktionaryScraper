@@ -11,7 +11,7 @@ if __name__ == '__main__':
 
     # # # # # #
     batch = "01"
-    wordtype = 'adj'
+    wordtype = 'ver'
     # # # # # #
 
     input_filename = f"{wordtype}_batch_{batch}_NEX"
@@ -35,34 +35,73 @@ if __name__ == '__main__':
         lem = lobj['key'][9:]
         print(f"{index + 1}/{len(lobjs)}", c.green(lem) if done else c.blue(lem))
 
+    if wordtype == 'adj':
+        for index, nex_lobj in enumerate(nex_lobjs):
+            print('')
 
-    for index, nex_lobj in enumerate(nex_lobjs):
-        print('')
-
-        if nex_lobj['key'] in done_ids:
-            print_simple_status(index, nex_lobjs, nex_lobj, done=True)
-        else:
-            print_simple_status(index, nex_lobjs, nex_lobj)
-            lem = nex_lobj['key'][9:]
-
-            if nex_lobj['key'].endswith('(concrete)'):
-                added_tags = ['concrete']
-            elif nex_lobj['key'].endswith('(abstract)'):
-                added_tags = ['abstract']
+            if nex_lobj['key'] in done_ids:
+                print_simple_status(index, nex_lobjs, nex_lobj, done=True)
             else:
-                added_tags = get_concrete_input(lem)
+                print_simple_status(index, nex_lobjs, nex_lobj)
+                lem = nex_lobj['key'][9:]
 
-            new_papers = added_tags + [t for t in nex_lobj['papers'] if t not in ['concrete', 'abstract']]
-            nex_lobj['papers'] = new_papers
+                if nex_lobj['key'].endswith('(concrete)'):
+                    added_tags = ['concrete']
+                elif nex_lobj['key'].endswith('(abstract)'):
+                    added_tags = ['abstract']
+                else:
+                    added_tags = get_concrete_input(lem)
+
+                new_papers = added_tags + [t for t in nex_lobj['papers'] if t not in ['concrete', 'abstract']]
+                nex_lobj['papers'] = new_papers
+                results.append(nex_lobj)
+
+                if index % 5 == 0:
+                    save(results, True)
+                    progress_bar(index + 1, len(nex_lobjs), True)
+
+        save(results, True)
+        progress_bar(1, 1, True)
+        save(results)
+    elif wordtype == 'ver':
+        for index, nex_lobj in enumerate(nex_lobjs):
+            if 'concrete' in nex_lobj['papers']:
+                nex_lobj['papers'] = [t for t in nex_lobj['papers'] if t != 'concrete']
+            if 'abstract' in nex_lobj['papers']:
+                nex_lobj['papers'] = [t for t in nex_lobj['papers'] if t != 'abstract']
             results.append(nex_lobj)
-
-            if index % 5 == 0:
-                save(results, True)
-                progress_bar(index + 1, len(nex_lobjs), True)
-
-    save(results, True)
-    progress_bar(1, 1, True)
-    save(results)
-
+        save(results)
+    elif wordtype == 'npe':
+        for index, nex_lobj in enumerate(nex_lobjs):
+            if 'concrete' not in nex_lobj['papers']:
+                nex_lobj['papers'].append('concrete')
+            if 'abstract' in nex_lobj['papers']:
+                nex_lobj['papers'] = [t for t in nex_lobj['papers'] if t != 'abstract']
+            results.append(nex_lobj)
+        save(results)
+    elif wordtype == 'nco':
+        res = {
+            'concrete': [],
+            'abstract': [],
+            'both': [],
+            'neither': [],
+        }
+        for index, nex_lobj in enumerate(nex_lobjs):
+            has_concrete_tag = 'concrete' in nex_lobj['papers']
+            has_abstract_tag = 'abstract' in nex_lobj['papers']
+            if has_concrete_tag and has_abstract_tag:
+                res['both'].append(nex_lobj['key'])
+            elif has_concrete_tag:
+                res['concrete'].append(nex_lobj['key'])
+            elif has_abstract_tag:
+                res['abstract'].append(nex_lobj['key'])
+            else:
+                res['neither'].append(nex_lobj['key'])
+        for res_key in res:
+            print("")
+            print(res_key, len(res[res_key]))
+            print("")
+            for el in res[res_key]:
+                print(el)
     print("")
     print("Completely done.")
