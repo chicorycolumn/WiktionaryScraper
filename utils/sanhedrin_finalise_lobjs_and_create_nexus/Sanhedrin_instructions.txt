@@ -176,37 +176,40 @@ It uses additionalSpellings that you manually type into this stage.
 
 
 
-5B) Run "S18_add_uncountable_label_to_nouns.py" just for 'nco' and 'npe'
-    - to specify uncountable for any such English TGT lobjs
+5B) Search for swde, 🚩, "" and resolve those 3.
     Modifies "nou_batch_01_tgt.json"
 
 
 
-5C) Search for swde, 🚩, "" and resolve those 3.
-    Modifies "nou_batch_01_tgt.json"
+5C-i)  Run "S18_add_uncountable_label_to_nouns.py" just for 'nco' and 'npe'
+       - to specify uncountable for any such English TGT lobjs
+       Modifies "nou_batch_01_tgt.json"
+
+
+5C-ii) Run "X6_check_for_empty_nexus_papers_topics.py" for nco NEX
+       - to add any missing papers or topics data
+       Modifies "nco_batch_01_nex.json"
+
+
+5C-iii) Run "X7_add_concrete_to_nex_objects.py" for all NEX
+        - to add or remove 'concrete' and 'abstract' tags as needed
+        Modifies "nou_batch_01_nex.json"
+
+
+5C-iv) Run "S19_add_size_label_to_nouns.py" for nco NEX
+       - to add size info of concrete objects
+       - remove outdated 'holdable' paper tag
+       Modifies "nco_batch_01_nex.json"
 
 
 
-5D) Run "X5_check_for_empty_nexus_papers_topics.py" for nco NEX
-    - to add any missing papers or topics data
-    Modifies "nco_batch_01_nex.json"
-
-
-
-5E) Run "S19_add_size_label_to_nouns.py" for nco NEX
-    - to add size info of concrete objects
-    - remove outdated 'holdable' paper tag
-    Modifies "nco_batch_01_nex.json"
-
-
-
-5F) Run "S12_connect_sibling_lobjs.py" for TGT
+5D) Run "S12_connect_sibling_lobjs.py" for TGT
     - to compact data by removing duplicated inflection data, replacing with reference to the one sibling which holds it
     Modifies "nou_batch_01_tgt.json"
 
 
 
-5G) Remove now-unneeded data from SRC and TGT
+5E) Remove now-unneeded data from SRC and TGT
     such as "translations", "»translations", "tags", "topics"
     but keep "notes".
     - move 'lacking' and 'tantumPlurale' and 'tantumSingulare' keys out of inflections to top level in lobj.
