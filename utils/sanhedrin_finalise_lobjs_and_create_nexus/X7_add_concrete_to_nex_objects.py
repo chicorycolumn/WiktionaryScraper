@@ -47,9 +47,9 @@ if __name__ == '__main__':
 
             added_tags = []
 
-            if not input(f'The {lem} man, the {lem} ball?   ENTER for yes   ANY for no  '):
+            if not input(f'{lem} man, {lem} ball?   ENTER for yes   ANY for no  '):
                 added_tags.append('concrete')
-            if not input(f'The {lem} dream, the {lem} sadness?   ENTER for yes   ANY for no  '):
+            if not input(f'{lem} idea, {lem} action?   ENTER for yes   ANY for no  '):
                 added_tags.append('abstract')
 
             new_papers = added_tags + [t for t in nex_lobj['papers'] if t not in ['concrete', 'abstract']]
