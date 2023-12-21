@@ -1300,7 +1300,7 @@ def add_size_tag(lobj, cmd_history):
     print("NOW:", lobj['papers'])
 
 
-def get_concrete_input(lem):
+def get_concrete_input_adjective(lem):
     added_tags = []
 
     user_input = input(f'{lem} man, {lem} ball?   ENTER for yes   ANY for no  ')
@@ -1308,6 +1308,20 @@ def get_concrete_input(lem):
         added_tags.append('concrete')
 
     user_input = input(f'{lem} idea, {lem} action?   ENTER for yes   ANY for no  ')
+    if not user_input or user_input == 'y':
+        added_tags.append('abstract')
+
+    return added_tags
+
+
+def get_concrete_input_noun(lem):
+    added_tags = []
+
+    user_input = input(f'red {lem}, hot {lem}?   ENTER for yes   ANY for no  ')
+    if not user_input or user_input == 'y':
+        added_tags.append('concrete')
+
+    user_input = input(f'thought, idea, {lem}?   ENTER for yes   ANY for no  ')
     if not user_input or user_input == 'y':
         added_tags.append('abstract')
 

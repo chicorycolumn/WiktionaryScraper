@@ -2,7 +2,7 @@ from parsers.common import scrape_word_data
 from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, add_signalwords, \
     get_signalword, test_signalword, get_inflections_eng_ver, get_inflections_eng_nou, get_inflections_eng_adj, \
-    add_size_tag, get_concrete_input
+    add_size_tag, get_concrete_input_adjective, get_concrete_input_noun
 from utils.postprocessing.common import finalise_lemma_objects
 from utils.scraping.common import check_rescraped_against_existing
 from utils.universal import Color as c, get_curried_save, load_tempsave_if_exists, progress_bar, load_data
@@ -11,7 +11,7 @@ if __name__ == '__main__':
 
     # # # # # #
     batch = "01"
-    wordtype = 'ver'
+    wordtype = 'nco'
     # # # # # #
 
     input_filename = f"{wordtype}_batch_{batch}_NEX"
@@ -50,7 +50,7 @@ if __name__ == '__main__':
                 elif nex_lobj['key'].endswith('(abstract)'):
                     added_tags = ['abstract']
                 else:
-                    added_tags = get_concrete_input(lem)
+                    added_tags = get_concrete_input_adjective(lem)
 
                 new_papers = added_tags + [t for t in nex_lobj['papers'] if t not in ['concrete', 'abstract']]
                 nex_lobj['papers'] = new_papers
@@ -103,5 +103,32 @@ if __name__ == '__main__':
             print("")
             for el in res[res_key]:
                 print(el)
+        for index, nex_lobj in enumerate(res['neither']):
+            print('')
+
+            if nex_lobj['key'] in done_ids:
+                print_simple_status(index, nex_lobjs, nex_lobj, done=True)
+            else:
+                print_simple_status(index, nex_lobjs, nex_lobj)
+                lem = nex_lobj['key'][9:]
+
+                if nex_lobj['key'].endswith('(concrete)'):
+                    added_tags = ['concrete']
+                elif nex_lobj['key'].endswith('(abstract)'):
+                    added_tags = ['abstract']
+                else:
+                    added_tags = get_concrete_input_noun(lem)
+
+                new_papers = added_tags + [t for t in nex_lobj['papers'] if t not in ['concrete', 'abstract']]
+                nex_lobj['papers'] = new_papers
+                results.append(nex_lobj)
+
+                if index % 5 == 0:
+                    save(results, True)
+                    progress_bar(index + 1, len(nex_lobjs), True)
+
+        save(results, True)
+        progress_bar(1, 1, True)
+        save(results)
     print("")
     print("Completely done.")
