@@ -35,6 +35,7 @@ if __name__ == '__main__':
         lem = lobj['key'][9:]
         print(f"{index + 1}/{len(lobjs)}", c.green(lem) if done else c.blue(lem))
 
+
     if wordtype == 'adj':
         for index, nex_lobj in enumerate(nex_lobjs):
             print('')
