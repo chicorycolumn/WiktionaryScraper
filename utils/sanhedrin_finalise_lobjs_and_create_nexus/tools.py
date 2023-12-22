@@ -1321,7 +1321,7 @@ def get_concrete_input_noun(lem):
     if not user_input or user_input == 'y':
         added_tags.append('concrete')
 
-    user_input = input(f'thought, idea, {lem}?   ENTER for yes   ANY for no  ')
+    user_input = input(f'unclear {lem}, evident {lem}?   ENTER for yes   ANY for no  ')
     if not user_input or user_input == 'y':
         added_tags.append('abstract')
 

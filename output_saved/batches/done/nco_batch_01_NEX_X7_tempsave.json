@@ -1161,5 +1161,732 @@
       "home",
       "inside"
     ]
+  },
+  {
+    "key": "nco-0058-building",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0068-building"
+      ],
+      "POL": [
+        "pol-nco-0058-budynek"
+      ]
+    },
+    "papers": [
+      "building hypernym",
+      "location",
+      "building",
+      "concrete"
+    ],
+    "topics": [
+      "inside"
+    ]
+  },
+  {
+    "key": "nco-0059-wall",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0069-wall"
+      ],
+      "POL": [
+        "pol-nco-0059-ściana"
+      ]
+    },
+    "papers": [
+      "part of house",
+      "concrete"
+    ],
+    "topics": [
+      "home",
+      "inside"
+    ]
+  },
+  {
+    "key": "nco-0060-map",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0070-map"
+      ],
+      "POL": [
+        "pol-nco-0060-mapa"
+      ]
+    },
+    "papers": [
+      "concrete"
+    ],
+    "topics": [
+      "travel",
+      "geography"
+    ]
+  },
+  {
+    "key": "nco-0061-climate",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0071-climate"
+      ],
+      "POL": [
+        "pol-nco-0061-klimat"
+      ]
+    },
+    "papers": [
+      "transport",
+      "weather type",
+      "abstract"
+    ],
+    "topics": [
+      "outdoor",
+      "travel",
+      "geography",
+      "school"
+    ]
+  },
+  {
+    "key": "nco-0062-year",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0072-year"
+      ],
+      "POL": [
+        "pol-nco-0062-rok"
+      ]
+    },
+    "papers": [
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ]
+  },
+  {
+    "key": "nco-0063-state",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0073-state"
+      ],
+      "POL": [
+        "pol-nco-0063-stan"
+      ]
+    },
+    "papers": [
+      "abstract"
+    ],
+    "topics": [
+      "mental"
+    ]
+  },
+  {
+    "key": "nco-0064-fate",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0074-fate"
+      ],
+      "POL": [
+        "pol-nco-0064-los"
+      ]
+    },
+    "papers": [
+      "religion",
+      "abstract"
+    ],
+    "topics": [
+      "religion"
+    ]
+  },
+  {
+    "key": "nco-0065-boom",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0075-boom",
+        "eng-nco-0076-bang",
+        "eng-nco-0077-crash",
+        "eng-nco-0078-rumble"
+      ],
+      "POL": [
+        "pol-nco-0065-huk"
+      ]
+    },
+    "papers": [
+      "noise",
+      "abstract"
+    ],
+    "topics": [
+      "sense and perception"
+    ]
+  },
+  {
+    "key": "nco-0066-bridge",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0079-bridge"
+      ],
+      "POL": [
+        "pol-nco-0066-most"
+      ]
+    },
+    "papers": [
+      "location",
+      "building",
+      "concrete"
+    ],
+    "topics": [
+      "inside"
+    ]
+  },
+  {
+    "key": "nco-0067-side",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0080-side"
+      ],
+      "POL": [
+        "pol-nco-0067-bok",
+        "pol-nco-0631-strona(side)"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "abstract"
+    ],
+    "topics": [
+      "geometry"
+    ]
+  },
+  {
+    "key": "nco-0068-nature",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0081-nature"
+      ],
+      "POL": [
+        "pol-nco-0068-natura"
+      ]
+    },
+    "papers": [
+      "natural",
+      "concrete",
+      "abstract"
+    ],
+    "topics": [
+      "outside"
+    ]
+  },
+  {
+    "key": "nco-0069-home",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0082-home",
+        "eng-nco-0083-house"
+      ],
+      "POL": [
+        "pol-nco-0069-dom"
+      ]
+    },
+    "papers": [
+      "location",
+      "building",
+      "concrete"
+    ],
+    "topics": [
+      "inside"
+    ]
+  },
+  {
+    "key": "nco-0070-Sunday",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0084-Sunday"
+      ],
+      "POL": [
+        "pol-nco-0070-niedziela"
+      ]
+    },
+    "papers": [
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ]
+  },
+  {
+    "key": "nco-0071-water",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0085-water"
+      ],
+      "POL": [
+        "pol-nco-0071-woda"
+      ]
+    },
+    "papers": [
+      "material",
+      "natural",
+      "uncountable",
+      "concrete",
+      "holdable",
+      "drink"
+    ],
+    "topics": [
+      "restaurant",
+      "inside",
+      "engineering",
+      "outside",
+      "kitchen",
+      "chemistry"
+    ]
+  },
+  {
+    "key": "nco-0072-kilogram",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0086-kilogram"
+      ],
+      "POL": [
+        "pol-nco-0072-kilogram"
+      ]
+    },
+    "papers": [
+      "abstract",
+      "measurement"
+    ],
+    "topics": [
+      "math"
+    ]
+  },
+  {
+    "key": "nco-0073-port",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0087-port",
+        "eng-nco-0088-harbour"
+      ],
+      "POL": [
+        "pol-nco-0073-port"
+      ]
+    },
+    "papers": [
+      "location",
+      "concrete"
+    ],
+    "topics": [
+      "travel"
+    ]
+  },
+  {
+    "key": "nco-0074-ocean",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0089-ocean"
+      ],
+      "POL": [
+        "pol-nco-0074-ocean"
+      ]
+    },
+    "papers": [
+      "natural",
+      "location",
+      "concrete"
+    ],
+    "topics": [
+      "geography",
+      "outside"
+    ]
+  },
+  {
+    "key": "nco-0075-bath",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0090-bath",
+        "eng-nco-0091-bathtub"
+      ],
+      "POL": [
+        "pol-nco-0075-wanna"
+      ]
+    },
+    "papers": [
+      "furniture",
+      "concrete"
+    ],
+    "topics": [
+      "washroom",
+      "home",
+      "inside"
+    ]
+  },
+  {
+    "key": "nco-0076-screen",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0092-screen"
+      ],
+      "POL": [
+        "pol-nco-0076-ekran"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "computer part",
+      "device"
+    ],
+    "topics": [
+      "computing",
+      "tech"
+    ]
+  },
+  {
+    "key": "nco-0077-list",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0093-list"
+      ],
+      "POL": [
+        "pol-nco-0077-lista"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "abstract"
+    ],
+    "topics": [
+      "work",
+      "school"
+    ]
+  },
+  {
+    "key": "nco-0078-May",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0094-May"
+      ],
+      "POL": [
+        "pol-nco-0078-maj"
+      ]
+    },
+    "papers": [
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ]
+  },
+  {
+    "key": "nco-0079-sofa",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0095-sofa"
+      ],
+      "POL": [
+        "pol-nco-0079-kanapa"
+      ]
+    },
+    "papers": [
+      "furniture",
+      "concrete"
+    ],
+    "topics": [
+      "home",
+      "inside"
+    ]
+  },
+  {
+    "key": "nco-0080-stairs",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0096-stairs",
+        "eng-nco-0097-stairway"
+      ],
+      "POL": [
+        "pol-nco-0080-schody"
+      ]
+    },
+    "papers": [
+      "part of house",
+      "concrete"
+    ],
+    "topics": [
+      "home",
+      "inside"
+    ]
+  },
+  {
+    "key": "nco-0082-alarm",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0099-alarm"
+      ],
+      "POL": [
+        "pol-nco-0082-alarm"
+      ]
+    },
+    "papers": [
+      "device",
+      "noise",
+      "abstract"
+    ],
+    "topics": [
+      "tech",
+      "sense and perception"
+    ]
+  },
+  {
+    "key": "nco-0083-December",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0100-December"
+      ],
+      "POL": [
+        "pol-nco-0083-grudzień"
+      ]
+    },
+    "papers": [
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ]
+  },
+  {
+    "key": "nco-0084-myth",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0101-myth"
+      ],
+      "POL": [
+        "pol-nco-0084-mit"
+      ]
+    },
+    "papers": [
+      "abstract"
+    ],
+    "topics": [
+      "religion"
+    ]
+  },
+  {
+    "key": "nco-0085-week",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0102-week"
+      ],
+      "POL": [
+        "pol-nco-0085-tydzień"
+      ]
+    },
+    "papers": [
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ]
+  },
+  {
+    "key": "nco-0086-gift",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0103-gift",
+        "eng-nco-0497-present"
+      ],
+      "POL": [
+        "pol-nco-0086-dar",
+        "pol-nco-0394-prezent"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "abstract"
+    ],
+    "topics": [
+      "holiday",
+      "people"
+    ]
+  },
+  {
+    "key": "nco-0087-remotecontrol",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0104-remotecontrol"
+      ],
+      "POL": [
+        "pol-nco-0087-pilot(remote control)"
+      ]
+    },
+    "papers": [
+      "holdable",
+      "concrete",
+      "household object"
+    ],
+    "topics": [
+      "tech",
+      "home",
+      "inside",
+      "entertainment"
+    ]
+  },
+  {
+    "key": "nco-0088-Monday",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0105-Monday"
+      ],
+      "POL": [
+        "pol-nco-0088-poniedziałek"
+      ]
+    },
+    "papers": [
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ]
+  },
+  {
+    "key": "nco-0089-paradise",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0106-paradise",
+        "eng-nco-0107-heaven"
+      ],
+      "POL": [
+        "pol-nco-0089-raj",
+        "pol-nco-0293-niebo(heaven)"
+      ]
+    },
+    "papers": [
+      "special location",
+      "religion",
+      "abstract"
+    ],
+    "topics": [
+      "religion"
+    ]
+  },
+  {
+    "key": "nco-0090-miracle",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0108-miracle"
+      ],
+      "POL": [
+        "pol-nco-0090-cud"
+      ]
+    },
+    "papers": [
+      "abstract",
+      "religion"
+    ],
+    "topics": [
+      "religion"
+    ]
+  },
+  {
+    "key": "nco-0091-ceiling",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0109-ceiling"
+      ],
+      "POL": [
+        "pol-nco-0091-sufit"
+      ]
+    },
+    "papers": [
+      "part of house",
+      "concrete"
+    ],
+    "topics": [
+      "home",
+      "inside"
+    ]
+  },
+  {
+    "key": "nco-0092-summer",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0110-summer"
+      ],
+      "POL": [
+        "pol-nco-0092-lato(summer)"
+      ]
+    },
+    "papers": [
+      "abstract"
+    ],
+    "topics": [
+      "time"
+    ]
+  },
+  {
+    "key": "nco-0093-spark",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0111-spark"
+      ],
+      "POL": [
+        "pol-nco-0093-iskra"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "abstract"
+    ],
+    "topics": [
+      "engineering"
+    ]
+  },
+  {
+    "key": "nco-0094-paint",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0112-paint"
+      ],
+      "POL": [
+        "pol-nco-0094-farba"
+      ]
+    },
+    "papers": [
+      "holdable",
+      "concrete",
+      "household object"
+    ],
+    "topics": [
+      "art",
+      "home",
+      "inside"
+    ]
   }
 ]

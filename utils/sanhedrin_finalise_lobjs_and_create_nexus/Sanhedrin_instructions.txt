@@ -186,14 +186,14 @@ It uses additionalSpellings that you manually type into this stage.
        Modifies "nou_batch_01_tgt.json"
 
 
-5C-ii) Run "X6_check_for_empty_nexus_papers_topics.py" for nco NEX
-       - to add any missing papers or topics data
-       Modifies "nco_batch_01_nex.json"
+5C-ii) Run "X7_add_concrete_to_nex_objects.py" for all NEX
+       - to add or remove 'concrete' and 'abstract' tags as needed
+       Modifies "nou_batch_01_nex.json"
 
 
-5C-iii) Run "X7_add_concrete_to_nex_objects.py" for all NEX
-        - to add or remove 'concrete' and 'abstract' tags as needed
-        Modifies "nou_batch_01_nex.json"
+5C-iii) Run "X6_check_for_empty_nexus_papers_topics.py" for nco NEX
+        - to add any missing papers or topics data
+        Modifies "nco_batch_01_nex.json"
 
 
 5C-iv) Run "S19_add_size_label_to_nouns.py" for nco NEX
@@ -225,7 +225,7 @@ It uses additionalSpellings that you manually type into this stage.
 6B) Resolve any TSFs (tasks of scraping finalising) for this wordtype from NOTES.txt
 
 6C-i)   Run check that every inflection value for a given lobj starts with the same letter as the lemma value.
-      Because sometimes when manually creating lobjs we've missed one, normally virile plural.
+        Because sometimes when manually creating lobjs we've missed one, normally virile plural.
 
 6C-ii)  Run check for allohom info needed, and specfically that two allohoms don't have same allohomInfo.
 

@@ -31,9 +31,10 @@ if __name__ == '__main__':
     cmd_history = []
 
 
-    def print_simple_status(index, lobjs, lobj, done: bool = False):
+    def print_simple_status(index, lobjs, lobj, done: bool = False, automatic: bool = False):
         lem = lobj['key'][9:]
-        print(f"{index + 1}/{len(lobjs)}", c.green(lem) if done else c.blue(lem))
+        printout = c.yellow(lem) if automatic else c.green(lem) if done else c.blue(lem)
+        print(f"{index + 1}/{len(lobjs)}", printout)
 
 
     if wordtype == 'adj':
@@ -110,12 +111,16 @@ if __name__ == '__main__':
                 print(nobj['key'])
 
         neither_ids = [nobj['key'] for nobj in res['neither']]
+        counter = 0
         for index, nex_lobj in enumerate(nex_lobjs):
-            if nex_lobj['key'] not in neither_ids:
+            if nex_lobj['key'] in done_ids:
                 print_simple_status(index, nex_lobjs, nex_lobj, done=True)
+            elif nex_lobj['key'] not in neither_ids:
+                print_simple_status(index, nex_lobjs, nex_lobj, done=False, automatic=True)
                 results.append(nex_lobj)
             else:
                 print_simple_status(index, nex_lobjs, nex_lobj)
+                counter += 1
                 lem = nex_lobj['key'][9:]
 
                 if nex_lobj['key'].endswith('(concrete)'):
@@ -129,9 +134,10 @@ if __name__ == '__main__':
                 nex_lobj['papers'] = new_papers
                 results.append(nex_lobj)
 
-            if index % 5 == 0:
+            if counter == 5:
                 save(results, True)
                 progress_bar(index + 1, len(nex_lobjs), True)
+                counter == 0
 
         save(results, True)
         progress_bar(1, 1, True)
