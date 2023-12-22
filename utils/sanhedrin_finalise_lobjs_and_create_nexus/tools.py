@@ -1321,7 +1321,7 @@ def get_concrete_input_noun(lem):
     if not user_input or user_input == 'y':
         added_tags.append('concrete')
 
-    user_input = input(f'he formulate {lem}, he experience {lem}?   ENTER for yes   ANY for no  ')
+    user_input = input(f'he experience {lem}, he formulate {lem}?   ENTER for yes   ANY for no  ')
     if not user_input or user_input == 'y':
         added_tags.append('abstract')
 
