@@ -111,7 +111,7 @@ if __name__ == '__main__':
                 print(nobj['key'])
 
         neither_ids = [nobj['key'] for nobj in res['neither']]
-        counter = 0
+        counter = 1
         for index, nex_lobj in enumerate(nex_lobjs):
             if nex_lobj['key'] in done_ids:
                 print_simple_status(index, nex_lobjs, nex_lobj, done=True)
@@ -134,10 +134,10 @@ if __name__ == '__main__':
                 nex_lobj['papers'] = new_papers
                 results.append(nex_lobj)
 
-            if counter == 5:
-                save(results, True)
-                progress_bar(index + 1, len(nex_lobjs), True)
-                counter == 0
+                if counter % 5 == 1:
+                    save(results, True)
+                    progress_bar(index + 1, len(nex_lobjs), True)
+                    counter == 0
 
         save(results, True)
         progress_bar(1, 1, True)
