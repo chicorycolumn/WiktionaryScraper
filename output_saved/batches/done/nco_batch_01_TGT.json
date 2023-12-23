@@ -88,7 +88,7 @@
   },
   {
     "lemma": "spring",
-    "id": "eng-nco-0005-spring",
+    "id": "eng-nco-0005-spring(season)",
     "»trans": [
       "pol-nco-0004-wiosna"
     ],
@@ -103,6 +103,11 @@
         "nom": "springs",
         "gen": "springs'"
       }
+    },
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "time",
+      "emoji": "🕒"
     }
   },
   {
@@ -26323,6 +26328,27 @@
         "nom": "poles",
         "gen": "poles'"
       }
+    }
+  },
+  {
+    "lemma": "spring",
+    "id": "eng-nco-0005-spring(metal)",
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "spring",
+        "gen": "spring's"
+      },
+      "plural": {
+        "nom": "springs",
+        "gen": "springs'"
+      }
+    },
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "metal",
+      "emoji": "🛠️"
     }
   }
 ]

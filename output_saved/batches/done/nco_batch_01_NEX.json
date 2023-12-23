@@ -69,11 +69,11 @@
     ]
   },
   {
-    "key": "nco-0004-spring",
+    "key": "nco-0004-spring(season)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0005-spring"
+        "eng-nco-0005-spring(season)"
       ],
       "POL": [
         "pol-nco-0004-wiosna"
@@ -21425,6 +21425,25 @@
       "geography",
       "outside",
       "travel"
+    ]
+  },
+  {
+    "key": "nco-8888-spring(metal)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-8888-spring(metal)"
+      ],
+      "POL": [
+        "pol-nco-8888-sprężyna"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "component"
+    ],
+    "topics": [
+      "engineering"
     ]
   }
 ]
