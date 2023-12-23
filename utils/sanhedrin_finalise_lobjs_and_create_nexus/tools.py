@@ -1258,19 +1258,22 @@ def add_size_tag(lobj, cmd_history):
         print('POL:', lobj['traductions']['POL'])
 
     if 'concrete' not in lobj['papers']:
-        user_input = input('Not concrete?   ENTER to confirm   ANY to amend   ? for info: ')
-        if user_input == '?':
-            print_lobj_info()
-            return restart()
-        if not user_input:
-            c.print_teal("- - - - - - -")
-            c.print_teal('NOT CONCRETE')
-            c.print_teal("- - - - - - -")
-            c.print_teal("- - - - - - -")
+        if 'abstract' in lobj['papers']:
+            c.print_yellow('IS ABSTRACT ONLY')
+            print("")
+            print("")
+            print("")
+            print("")
             return
-
-    c.print_bold('1Pocket, 2Hand, 3Person, 4Team, 5Machine, 6Immovable        ? for info')
-    user_input = input('Enter digit 0-6: ')
+        else:
+            print_lobj_info()
+            raise Exception('Not concrete or abstract?')
+    else:
+        if any(t in lobj['papers'] for t in ['building', 'nation']):
+            user_input = '6'
+        else:
+            c.print_bold('1-Pocket, 2-OneHand, 3-BothArms, 4-Team, 5-Machine, 6-Immovable, a-Abstract        ? for info')
+            user_input = input('Enter digit 0-6: ')
 
     if not user_input:
         return restart()
@@ -1278,6 +1281,10 @@ def add_size_tag(lobj, cmd_history):
     if user_input == '?':
         print_lobj_info()
         return restart()
+
+    if user_input == 'a':
+        lobj['papers'].append('abstract')
+        return
 
     print("WAS:", lobj['papers'])
 
@@ -1290,8 +1297,8 @@ def add_size_tag(lobj, cmd_history):
         if user_input == 'h':
             c.print_bold('0  NOT actually concrete')
             c.print_bold('1  POCKETABLE     needle - booklet')
-            c.print_bold('2  HAND held      book - racquet')
-            c.print_bold('3  PERSON move    dog - armchair')
+            c.print_bold('2  ONE HAND       book - racquet')
+            c.print_bold('3  BOTHS HANDS    dog - armchair')
             c.print_bold('4  TEAM move      bed - car')
             c.print_bold('5  MACHINE move   lorry - ship')
             c.print_bold('6  IMMOVABLE      house - mountain - wall')
