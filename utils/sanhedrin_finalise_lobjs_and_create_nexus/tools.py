@@ -1272,7 +1272,7 @@ def add_size_tag(lobj, cmd_history):
         if any(t in lobj['papers'] for t in ['building', 'nation']):
             user_input = '6'
         else:
-            c.print_bold('1-Pocket, 2-OneHand, 3-BothArms, 4-Team, 5-Machine, 6-Immovable, a-Abstract        ? for info')
+            c.print_bold('1-Pocket, 2-OneHand, 3-BothArms, 4-Team, 5-Machine, 6-Immovable,    a-Abstract, z-Not applicable        ? for info')
             user_input = input('Enter digit 0-6: ')
 
     if not user_input:
@@ -1283,7 +1283,11 @@ def add_size_tag(lobj, cmd_history):
         return restart()
 
     if user_input == 'a':
-        lobj['papers'].append('abstract')
+        if 'abstract' not in lobj['papers']:
+            lobj['papers'].append('abstract')
+        return
+
+    if user_input == 'z':
         return
 
     print("WAS:", lobj['papers'])
