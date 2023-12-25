@@ -34,17 +34,19 @@ if __name__ == '__main__':
         lem = lobj['key'][9:]
         print(f"{index + 1}/{len(lobjs)}", c.green(lem) if done else c.blue(lem))
 
+    counter = 0
     for index, nex_lobj in enumerate(nex_lobjs):
         print('')
 
         if nex_lobj['key'] in done_ids:
             print_simple_status(index, nex_lobjs, nex_lobj, done=True)
         else:
+            counter += 1
             print_simple_status(index, nex_lobjs, nex_lobj)
             add_size_tag(nex_lobj, cmd_history)
             results.append(nex_lobj)
 
-            if index % 5 == 0:
+            if counter % 5 == 0:
                 save(results, True)
                 progress_bar(index + 1, len(nex_lobjs), True)
 
