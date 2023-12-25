@@ -581,6 +581,25 @@
     }
   },
   {
+    "lemma": "queen",
+    "id": "eng-npe-8888-queen",
+    "»trans": [
+      "pol-nco-0305-królowa"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "queen",
+        "gen": "queen's"
+      },
+      "plural": {
+        "nom": "queens",
+        "gen": "queens'"
+      }
+    }
+  },
+  {
     "lemma": "leader",
     "id": "eng-npe-0025-leader",
     "»trans": [
@@ -1346,6 +1365,25 @@
       "plural": {
         "nom": "princes",
         "gen": "princes'"
+      }
+    }
+  },
+  {
+    "lemma": "princess",
+    "id": "eng-npe-8888-princess",
+    "»trans": [
+      "pol-npe-0073-książę"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "princess",
+        "gen": "princess's"
+      },
+      "plural": {
+        "nom": "princesses",
+        "gen": "princesses'"
       }
     }
   },

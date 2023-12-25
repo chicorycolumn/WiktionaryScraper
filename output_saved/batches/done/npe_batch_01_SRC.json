@@ -4305,7 +4305,7 @@
   {
     "lemma": "książę",
     "id": "pol-npe-0074-książę",
-    "frequency": 2,
+    "frequency": 4,
     "register": 0,
     "gender": "m1",
     "tags": [
@@ -4349,6 +4349,44 @@
         "ins": "książętami",
         "loc": "książętach",
         "voc": "książęta"
+      }
+    }
+  },
+  {
+    "lemma": "księżniczka",
+    "id": "pol-npe-8888-księżniczka",
+    "frequency": 4,
+    "register": 0,
+    "gender": "f",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "profession",
+      "title"
+    ],
+    "topics": [
+      "people",
+      "work"
+    ],
+    "inflections": {
+      "singular": {
+        "nom": "księżniczka",
+        "gen": "księżniczki",
+        "dat": "księżniczce",
+        "acc": "księżniczkę",
+        "ins": "księżniczką",
+        "loc": "księżniczce",
+        "voc": "księżniczko"
+      },
+      "plural": {
+        "nom": "księżniczki",
+        "gen": "księżniczek",
+        "dat": "księżniczkom",
+        "acc": "księżniczki",
+        "ins": "księżniczkami",
+        "loc": "księżniczkach",
+        "voc": "księżniczki"
       }
     }
   },
@@ -7580,6 +7618,55 @@
         "ins": "królami",
         "loc": "królach",
         "voc": "królowie"
+      }
+    }
+  },
+  {
+    "lemma": "królowa",
+    "id": "pol-npe-8888-królowa",
+    "frequency": 3,
+    "register": 0,
+    "gender": "f",
+    "tags": [
+      "concrete",
+      "living",
+      "person",
+      "profession"
+    ],
+    "topics": [
+      "people",
+      "work"
+    ],
+    "translations": {
+      "ENG": [
+        "queen"
+      ]
+    },
+    "extra": {
+      "synonyms": [
+        "dama",
+        "hetman",
+        "królówka"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "królowa",
+        "gen": "królowej",
+        "dat": "królowej",
+        "acc": "królową",
+        "ins": "królową",
+        "loc": "królowej",
+        "voc": "królowo"
+      },
+      "plural": {
+        "nom": "królowe",
+        "gen": "królowych",
+        "dat": "królowym",
+        "acc": "królowe",
+        "ins": "królowymi",
+        "loc": "królowych",
+        "voc": "królowe"
       }
     }
   }

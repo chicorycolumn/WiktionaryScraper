@@ -658,6 +658,30 @@
     ]
   },
   {
+    "key": "nco-8888-queen",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-npe-8888-queen"
+      ],
+      "POL": [
+        "pol-npe-8888-królowa"
+      ]
+    },
+    "papers": [
+      "living",
+      "profession",
+      "concrete",
+      "person",
+      "title"
+    ],
+    "topics": [
+      "work",
+      "people",
+      "history"
+    ]
+  },
+  {
     "key": "npe-0027-king",
     "traductions": {
       "SPA": [],
@@ -672,11 +696,13 @@
       "concrete",
       "profession",
       "person",
-      "living"
+      "living",
+      "title"
     ],
     "topics": [
       "work",
-      "people"
+      "people",
+      "history"
     ]
   },
   {
@@ -1517,7 +1543,32 @@
     ],
     "topics": [
       "work",
-      "people"
+      "people",
+      "history"
+    ]
+  },
+  {
+    "key": "npe-8888-princess",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-npe-8888-princess"
+      ],
+      "POL": [
+        "pol-npe-8888-księżniczka"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "person",
+      "profession",
+      "living",
+      "title"
+    ],
+    "topics": [
+      "work",
+      "people",
+      "history"
     ]
   },
   {
