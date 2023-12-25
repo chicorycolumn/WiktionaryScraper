@@ -1292,6 +1292,14 @@ def add_size_tag(lobj, cmd_history):
 
     print("WAS:", lobj['papers'])
 
+    if user_input in 'qwe':
+        translate_input_dict = {
+            'q': '4',
+            'w': '5',
+            'e': '6',
+        }
+        user_input = translate_input_dict[user_input]
+
     if user_input == '0':
         lobj['papers'] = [t for t in lobj['papers'] if t not in ['concrete', 'holdable']]
     elif user_input in '123456':

@@ -584,7 +584,7 @@
     "lemma": "queen",
     "id": "eng-npe-8888-queen",
     "»trans": [
-      "pol-nco-0305-królowa"
+      "pol-npe-0305-królowa"
     ],
     "register": 0,
     "frequency": 3,
@@ -2739,6 +2739,44 @@
       "plural": {
         "nom": "workmates",
         "gen": "workmates'"
+      }
+    }
+  },
+  {
+    "lemma": "child",
+    "id": "eng-npe-8888-child",
+    "»trans": [
+      "pol-npe-0541-dziecko"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "child",
+        "gen": "child's"
+      },
+      "plural": {
+        "nom": "children",
+        "gen": "children's"
+      }
+    }
+  },
+  {
+    "lemma": "baby",
+    "id": "eng-npe-8888-baby",
+    "»trans": [
+      "pol-npe-0541-dziecko"
+    ],
+    "register": 0,
+    "frequency": 1,
+    "inflections": {
+      "singular": {
+        "nom": "baby",
+        "gen": "baby's"
+      },
+      "plural": {
+        "nom": "babies",
+        "gen": "babies'"
       }
     }
   }

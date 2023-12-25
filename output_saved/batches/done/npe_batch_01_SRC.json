@@ -7669,5 +7669,97 @@
         "voc": "królowe"
       }
     }
+  },
+  {
+    "lemma": "dziecko",
+    "id": "pol-npe-8888-dziecko",
+    "frequency": 1,
+    "register": 0,
+    "gender": "n",
+    "tags": [
+      "concrete",
+      "living",
+      "person"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "child"
+      ]
+    },
+    "extra": {
+      "synonyms": [
+        "dziecko"
+      ],
+      "derivedTerms": [
+        "bezdzietny",
+        "bezdzietnie",
+        "bezdzietność",
+        "wylać dziecko z kąpielą",
+        "wylewać dziecko z kąpielą"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "dziecko",
+        "gen": "dziecka",
+        "dat": "dziecku",
+        "acc": "dziecko",
+        "ins": "dzieckiem",
+        "loc": "dziecku",
+        "voc": "dziecko"
+      },
+      "plural": {
+        "nom": "dzieci",
+        "gen": "dzieci",
+        "dat": "dzieciom",
+        "acc": "dzieci",
+        "ins": "dziećmi",
+        "loc": "dzieciach",
+        "voc": "dzieci"
+      }
+    }
+  },
+  {
+    "lemma": "niemowlę",
+    "id": "pol-npe-8888-niemowlę",
+    "frequency": 1,
+    "register": 0,
+    "gender": "n",
+    "tags": [
+      "concrete",
+      "living",
+      "person"
+    ],
+    "topics": [
+      "people"
+    ],
+    "translations": {
+      "ENG": [
+        "child"
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "niemowlę",
+        "gen": "niemowlęcia",
+        "dat": "niemowlęciu",
+        "acc": "niemowlę",
+        "ins": "niemowlęciem",
+        "loc": "niemowlęciu",
+        "voc": "niemowlę"
+      },
+      "plural": {
+        "nom": "niemowlęta",
+        "gen": "niemowląt",
+        "dat": "niemowlętom",
+        "acc": "niemowlęta",
+        "ins": "niemowlętami",
+        "loc": "niemowlętach",
+        "voc": "niemowlęta"
+      }
+    }
   }
 ]
