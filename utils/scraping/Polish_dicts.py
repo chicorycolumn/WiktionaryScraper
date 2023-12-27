@@ -176,8 +176,12 @@ shorthand_tag_refs = {
         "topics": ["geometry"],
     },
     "$": {  # cheap expensive buy sell cost
-        "tags": ["money"],
-        "topics": ["shopping", "business"],
+        "tags": [],
+        "topics": ["shopping", "business", "money"],
+    },
+    "$$": {  # cheap expensive buy sell cost
+        "tags": ["currency"],
+        "topics": ["shopping", "business", "money"],
     },
     "@": {  # inch metre litre
         "tags": ["measurement"],
