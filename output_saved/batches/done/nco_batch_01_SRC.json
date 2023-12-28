@@ -18234,51 +18234,6 @@
     }
   },
   {
-    "lemma": "kochanie",
-    "id": "pol-nco-0356-kochanie",
-    "frequency": 4,
-    "register": 6,
-    "gender": "n",
-    "tags": [],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "love",
-        "honey",
-        "darling",
-        "sweetheart"
-      ]
-    },
-    "extra": {
-      "usage": [
-        "Moim dwóm największym kochaniom , temu dużemu i temu małemu. To my two most darling dear s, the big one and the little one.",
-        "Od tego kochania całkiem już straciła głowę. ― She almost went crazy from all this loving ."
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "kochanie",
-        "gen": "kochania",
-        "dat": "kochaniu",
-        "acc": "kochanie",
-        "ins": "kochaniem",
-        "loc": "kochaniu",
-        "voc": "kochanie"
-      },
-      "plural": {
-        "nom": "kochania",
-        "gen": "kochań",
-        "dat": "kochaniom",
-        "acc": "kochania",
-        "ins": "kochaniami",
-        "loc": "kochaniach",
-        "voc": "kochania"
-      }
-    }
-  },
-  {
     "lemma": "bilet",
     "id": "pol-nco-0357-bilet",
     "frequency": 3,
@@ -31271,92 +31226,6 @@
     }
   },
   {
-    "lemma": "anioł",
-    "id": "pol-nco-0608-anioł",
-    "frequency": 4,
-    "register": 0,
-    "gender": "m2",
-    "tags": [
-      "concrete",
-      "living",
-      "person"
-    ],
-    "topics": [
-      "people",
-      "religion"
-    ],
-    "translations": {
-      "ENG": [
-        "angel"
-      ]
-    },
-    "extra": {
-      "otherShapes": {
-        "diminutive": [
-          "aniołek"
-        ],
-        "feminine": [
-          "anielica"
-        ]
-      },
-      "derivedTerms": [
-        "anieli",
-        "anielski",
-        "aniołkowaty",
-        "aniołowy",
-        "archanielski",
-        "anielsko",
-        "anielątko",
-        "anielę",
-        "anielica",
-        "anielskość",
-        "anielstwo",
-        "aniołeczek",
-        "anioł morski",
-        "Anioł Pański",
-        "Anioł Stróż",
-        "anioł stróż",
-        "archanioł",
-        "Miasto Aniołów",
-        "upadły anioł",
-        "anieleć",
-        "rozanielać",
-        "rozanielić"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "anioł",
-        "gen": "anioła",
-        "dat": "aniołowi",
-        "acc": "anioła",
-        "ins": "aniołem",
-        "loc": "aniele",
-        "voc": "aniele"
-      },
-      "plural": {
-        "nom": [
-          "anioły",
-          "aniołowie",
-          "anieli"
-        ],
-        "gen": "aniołów",
-        "dat": "aniołom",
-        "acc": [
-          "anioły",
-          "aniołów"
-        ],
-        "ins": "aniołami",
-        "loc": "aniołach",
-        "voc": [
-          "anioły",
-          "aniołowie",
-          "anieli"
-        ]
-      }
-    }
-  },
-  {
     "lemma": "komórka",
     "id": "pol-nco-0609-komórka(cell)",
     "frequency": 5,
@@ -35608,65 +35477,6 @@
         "ins": "wiewiórkami",
         "loc": "wiewiórkach",
         "voc": "wiewiórki"
-      }
-    }
-  },
-  {
-    "lemma": "ksiądz",
-    "id": "pol-nco-0692-ksiądz",
-    "frequency": 3,
-    "register": 0,
-    "gender": "m3",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "profession"
-    ],
-    "topics": [
-      "people",
-      "religion",
-      "work"
-    ],
-    "translations": {
-      "ENG": [
-        "priest"
-      ]
-    },
-    "extra": {
-      "otherShapes": {
-        "abbreviation": [
-          "ks."
-        ]
-      },
-      "synonyms": [
-        "ksiądz"
-      ],
-      "derivedTerms": [
-        "kto ma księdza w rodzie, tego bieda nie ubodzie"
-      ],
-      "usage": [
-        "Nasza szefowa, pani Magdalena, na zarzut księdza , że jej nieskromny dekolt wzbudza grzeszne myśli odpowiedziała, że on nie skusiłby jej, nawet gdyby stanął przed nią nago. Our boss, Ms. Magdalena, to the priest's objection that her immodest décolletage evokes sinful thoughts replied that he would not tempt her even if he stood naked in front of her."
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "ksiądz",
-        "gen": "księdza",
-        "dat": "księdzu",
-        "acc": "księdza",
-        "ins": "księdzem",
-        "loc": "księdzu",
-        "voc": "księże"
-      },
-      "plural": {
-        "nom": "księża",
-        "gen": "księży",
-        "dat": "księżom",
-        "acc": "księży",
-        "ins": "księżmi",
-        "loc": "księżach",
-        "voc": "księża"
       }
     }
   },
@@ -41429,97 +41239,6 @@
     }
   },
   {
-    "lemma": "sędzia",
-    "id": "pol-nco-0815-sędzia(referee)",
-    "frequency": 4,
-    "register": 0,
-    "gender": "f",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "profession"
-    ],
-    "topics": [
-      "people",
-      "sport",
-      "work"
-    ],
-    "translations": {
-      "ENG": [
-        "referee"
-      ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "games/sports",
-      "emoji": "🎲"
-    },
-    "extra": {
-      "otherShapes": {
-        "masculine": [
-          "sędzia"
-        ]
-      }
-    },
-    "inflections": {
-      "singular": {
-        "nom": "sędzia",
-        "gen": "sędziego",
-        "dat": "sędziemu",
-        "acc": "sędziego",
-        "ins": "sędzią",
-        "loc": "sędzi",
-        "voc": "sędzio"
-      },
-      "plural": {
-        "nom": "sędziowie",
-        "gen": "sędziów",
-        "dat": "sędziom",
-        "acc": "sędziów",
-        "ins": "sędziami",
-        "loc": "sędziach",
-        "voc": "sędziowie"
-      }
-    }
-  },
-  {
-    "lemma": "sędzia",
-    "id": "pol-nco-0816-sędzia(judge)",
-    "_inflectionsRoot": "pol-nco-0816-sędzia(referee)",
-    "frequency": 4,
-    "register": 0,
-    "gender": "f",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "profession"
-    ],
-    "topics": [
-      "people",
-      "law",
-      "work"
-    ],
-    "translations": {
-      "ENG": [
-        "judge"
-      ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "law/justice",
-      "emoji": "⚖️"
-    },
-    "extra": {
-      "otherShapes": {
-        "masculine": [
-          "sędzia"
-        ]
-      }
-    }
-  },
-  {
     "lemma": "płot",
     "id": "pol-nco-0817-płot",
     "frequency": 3,
@@ -47086,59 +46805,6 @@
           "koszty",
           "koszta"
         ]
-      }
-    }
-  },
-  {
-    "lemma": "krewny",
-    "id": "pol-nco-0935-krewny",
-    "frequency": 3,
-    "register": 0,
-    "gender": "m3",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative",
-      "relative hypernym"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "relative"
-      ]
-    },
-    "extra": {
-      "otherShapes": {
-        "feminine": [
-          "krewna"
-        ]
-      },
-      "derivedTerms": [
-        "krewniaczy",
-        "ubogi krewny"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "krewny",
-        "gen": "krewnego",
-        "dat": "krewnemu",
-        "acc": "krewnego",
-        "ins": "krewnym",
-        "loc": "krewnym",
-        "voc": "krewny"
-      },
-      "plural": {
-        "nom": "krewni",
-        "gen": "krewnych",
-        "dat": "krewnym",
-        "acc": "krewnych",
-        "ins": "krewnymi",
-        "loc": "krewnych",
-        "voc": "krewni"
       }
     }
   },
@@ -53529,39 +53195,6 @@
         "ins": "czkawkami",
         "loc": "czkawkach",
         "voc": "czkawki"
-      }
-    }
-  },
-  {
-    "lemma": "pierdolec",
-    "id": "pol-nco-1071-pierdolec",
-    "_lacking": true,
-    "frequency": 3,
-    "register": 7,
-    "gender": "m2",
-    "tantumSingulare": true,
-    "tags": [
-      "concrete",
-      "living",
-      "person"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "fucker"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "pierdolec",
-        "gen": "pierdolca",
-        "dat": "pierdolcowi",
-        "acc": "pierdolca",
-        "ins": "pierdolcem",
-        "loc": "pierdolcu",
-        "voc": "pierdolcu"
       }
     }
   },

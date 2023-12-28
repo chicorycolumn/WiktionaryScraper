@@ -2779,5 +2779,205 @@
         "gen": "babies'"
       }
     }
+  },
+  {
+    "lemma": "angel",
+    "id": "eng-npe-0758-angel",
+    "»trans": [
+      "pol-nco-0609-anioł"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "angel",
+        "gen": "angel's"
+      },
+      "plural": {
+        "nom": "angels",
+        "gen": "angels'"
+      }
+    }
+  },
+  {
+    "lemma": "priest",
+    "id": "eng-npe-0866-priest",
+    "»trans": [
+      "pol-nco-0693-ksiądz"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "priest",
+        "gen": "priest's"
+      },
+      "plural": {
+        "nom": "priests",
+        "gen": "priests'"
+      }
+    }
+  },
+  {
+    "lemma": "referee",
+    "id": "eng-npe-1008-referee",
+    "»trans": [
+      "pol-nco-0816-sędzia(referee)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "referee",
+        "gen": "referee's"
+      },
+      "plural": {
+        "nom": "referees",
+        "gen": "referees'"
+      }
+    }
+  },
+  {
+    "lemma": "judge",
+    "id": "eng-npe-1009-judge",
+    "»trans": [
+      "pol-nco-0817-sędzia(judge)"
+    ],
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "judge",
+        "gen": "judge's"
+      },
+      "plural": {
+        "nom": "judges",
+        "gen": "judges'"
+      }
+    }
+  },
+  {
+    "lemma": "relative",
+    "id": "eng-npe-1149-relative",
+    "»trans": [
+      "pol-nco-0936-krewny"
+    ],
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "relative",
+        "gen": "relative's"
+      },
+      "plural": {
+        "nom": "relatives",
+        "gen": "relatives'"
+      }
+    }
+  },
+  {
+    "lemma": "fucker",
+    "id": "eng-npe-1313-fucker",
+    "»trans": [
+      "pol-nco-1072-pierdolec"
+    ],
+    "register": 7,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "fucker",
+        "gen": "fucker's"
+      },
+      "plural": {
+        "nom": "fuckers",
+        "gen": "fuckers'"
+      }
+    }
+  },
+  {
+    "lemma": "love",
+    "id": "eng-npe-0203-love(darling)",
+    "»trans": [
+      "pol-nco-0357-kochanie"
+    ],
+    "register": 6,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "love",
+        "gen": "love's"
+      },
+      "plural": {
+        "nom": "loves",
+        "gen": "loves'"
+      }
+    }
+  },
+  {
+    "lemma": "honey",
+    "id": "eng-npe-0438-honey(darling)",
+    "»trans": [
+      "pol-nco-0357-kochanie"
+    ],
+    "register": 6,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "honey",
+        "gen": "honey's"
+      },
+      "plural": {
+        "nom": "honeys",
+        "gen": "honeys'"
+      }
+    }
+  },
+  {
+    "lemma": "darling",
+    "id": "eng-npe-0453-darling",
+    "»trans": [
+      "pol-nco-0357-kochanie"
+    ],
+    "register": 6,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "darling",
+        "gen": "darling's"
+      },
+      "plural": {
+        "nom": "darlings",
+        "gen": "darlings'"
+      }
+    }
+  },
+  {
+    "lemma": "sweetheart",
+    "id": "eng-npe-0454-sweetheart",
+    "»trans": [
+      "pol-nco-0357-kochanie"
+    ],
+    "register": 6,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "sweetheart",
+        "gen": "sweetheart's"
+      },
+      "plural": {
+        "nom": "sweethearts",
+        "gen": "sweethearts'"
+      }
+    }
   }
 ]
