@@ -94,9 +94,10 @@ and then creating the Nexus objects that connect them.
                                         Enhancing lobjs in both SRC and TGT.
 
 
-From now on, if you add or remove lobjs from TGT or SRC files, you must then run the following
-supplemental stages otherwise the ID links between NEX and TGT/SRC will be broken.
-    "X2_renumber_src_lobjs_in_src_and_nex.py" and "X3_renumber_tgt_lobjs_in_tgt_and_nex.py"
+From now on if you want to renumber any lobjs in TGT or SRC, do not run S4 as the ID links to NEX will break.
+Instead run:
+    "X2_renumber_src_lobjs_in_src_and_nex.py"
+    "X3_renumber_tgt_lobjs_in_tgt_and_nex.py"
     Modifies "nou_batch_01_NEX.json"
     Modifies "nou_batch_01_SRC.json"
     Modifies "nou_batch_01_TGT.json"
@@ -216,6 +217,10 @@ It uses additionalSpellings that you manually type into this stage.
 
 
 
+5F) Run X2 X3 to renumber SRC, TGT, NEX
+
+
+
 - - - - - - - - - - - - - - - - - - - - - - - - - - PHASE SIX - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
                                                    Final tasks.
 
@@ -229,4 +234,4 @@ It uses additionalSpellings that you manually type into this stage.
 
 6C-ii)  Run check for allohom info needed, and specfically that two allohoms don't have same allohomInfo.
 
-6C-iii) Run check that all lobjs have "register" and "frequency".
+6C-iii) Run check that all lobjs have "register" and "frequency", or rather, every key.
