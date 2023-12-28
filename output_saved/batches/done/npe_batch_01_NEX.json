@@ -2306,10 +2306,11 @@
       ]
     },
     "papers": [
-      "concrete",
       "relative",
-      "person",
-      "living"
+      "relative hypernym",
+      "concrete",
+      "living",
+      "person"
     ],
     "topics": [
       "people"
@@ -2785,28 +2786,6 @@
     "topics": [
       "law",
       "work",
-      "people"
-    ]
-  },
-  {
-    "key": "npe-0892-relative",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-npe-1149-relative"
-      ],
-      "POL": [
-        "pol-npe-0935-krewny"
-      ]
-    },
-    "papers": [
-      "relative",
-      "relative hypernym",
-      "concrete",
-      "living",
-      "person"
-    ],
-    "topics": [
       "people"
     ]
   },

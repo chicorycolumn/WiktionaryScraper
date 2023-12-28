@@ -1989,26 +1989,7 @@
         ]
       }
     },
-    "inflections": {
-      "singular": {
-        "nom": "kolega",
-        "gen": "kolegi",
-        "dat": "koledze",
-        "acc": "kolegę",
-        "ins": "kolegą",
-        "loc": "koledze",
-        "voc": "kolego"
-      },
-      "plural": {
-        "nom": "koledzy",
-        "gen": "kolegów",
-        "dat": "kolegom",
-        "acc": "kolegów",
-        "ins": "kolegami",
-        "loc": "kolegach",
-        "voc": "koledzy"
-      }
-    }
+    "_inflectionsRoot": "pol-npe-0028-kolega(friend)"
   },
   {
     "lemma": "koleżanka",
@@ -2095,26 +2076,7 @@
         ]
       }
     },
-    "inflections": {
-      "singular": {
-        "nom": "koleżanka",
-        "gen": "koleżanki",
-        "dat": "koleżance",
-        "acc": "koleżankę",
-        "ins": "koleżanką",
-        "loc": "koleżance",
-        "voc": "koleżanko"
-      },
-      "plural": {
-        "nom": "koleżanki",
-        "gen": "koleżanek",
-        "dat": "koleżankom",
-        "acc": "koleżanki",
-        "ins": "koleżankami",
-        "loc": "koleżankach",
-        "voc": "koleżanki"
-      }
-    }
+    "_inflectionsRoot": "pol-npe-0121-koleżanka(friend)"
   },
   {
     "lemma": "kumpel",
@@ -7941,26 +7903,7 @@
         ]
       }
     },
-    "inflections": {
-      "singular": {
-        "nom": "sędzia",
-        "gen": "sędziego",
-        "dat": "sędziemu",
-        "acc": "sędziego",
-        "ins": "sędzią",
-        "loc": "sędzi",
-        "voc": "sędzio"
-      },
-      "plural": {
-        "nom": "sędziowie",
-        "gen": "sędziów",
-        "dat": "sędziom",
-        "acc": "sędziów",
-        "ins": "sędziami",
-        "loc": "sędziach",
-        "voc": "sędziowie"
-      }
-    }
+    "_inflectionsRoot": "pol-npe-0095-sędzia(judge)"
   },
   {
     "lemma": "sędzia",
@@ -7995,59 +7938,6 @@
         "masculine": [
           "sędzia"
         ]
-      }
-    }
-  },
-  {
-    "lemma": "krewny",
-    "id": "pol-npe-0935-krewny",
-    "frequency": 3,
-    "register": 0,
-    "gender": "m3",
-    "tags": [
-      "concrete",
-      "living",
-      "person",
-      "relative",
-      "relative hypernym"
-    ],
-    "topics": [
-      "people"
-    ],
-    "translations": {
-      "ENG": [
-        "relative"
-      ]
-    },
-    "extra": {
-      "otherShapes": {
-        "feminine": [
-          "krewna"
-        ]
-      },
-      "derivedTerms": [
-        "krewniaczy",
-        "ubogi krewny"
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "krewny",
-        "gen": "krewnego",
-        "dat": "krewnemu",
-        "acc": "krewnego",
-        "ins": "krewnym",
-        "loc": "krewnym",
-        "voc": "krewny"
-      },
-      "plural": {
-        "nom": "krewni",
-        "gen": "krewnych",
-        "dat": "krewnym",
-        "acc": "krewnych",
-        "ins": "krewnymi",
-        "loc": "krewnych",
-        "voc": "krewni"
       }
     }
   },
