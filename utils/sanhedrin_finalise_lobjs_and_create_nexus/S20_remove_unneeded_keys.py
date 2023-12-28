@@ -13,7 +13,7 @@ if __name__ == '__main__':
     wordtypes = []  # Leave blank for all.
     batch = "01"
     suffix = "TGT"
-
+    run_this_part_only = 1  # 0 for both, otherwise 1 or 2.
 
     # # # # # #
 
@@ -30,7 +30,7 @@ if __name__ == '__main__':
 
         lobjs = load_data(input_path)
 
-        keys_to_remove = ["translations", "»translations", "tags", "topics"]
+        keys_to_remove = ["translations", "»translations", "»trans", "tags", "topics"]
         keys_to_move_out_of_inflections = ['lacking', 'tantumPlurale', 'tantumSingulare']
         requires_prefix = ['lacking']
         inflection_keys = ['singular', 'plural']
@@ -39,33 +39,37 @@ if __name__ == '__main__':
         parent_lobjs = []
 
         for lobj in lobjs:
-            # for key_to_remove in keys_to_remove:
-            #     lobj.pop(key_to_remove, None)
+            if not run_this_part_only or run_this_part_only == 1:
+                c.print_bold('RUNNING PART 1')
+                for key_to_remove in keys_to_remove:
+                    lobj.pop(key_to_remove, None)
 
             if '_inflectionsRoot' in lobj:
                 child_lobjs.append(lobj)
             else:
                 parent_lobjs.append(lobj)
 
-        for lobj in child_lobjs:
-            inflections_source = [x for x in lobjs if x['id'] == lobj['_inflectionsRoot']]
+        if not run_this_part_only or run_this_part_only == 2:
+            c.print_bold('RUNNING PART 2')
+            for lobj in child_lobjs:
+                inflections_source = [x for x in lobjs if x['id'] == lobj['_inflectionsRoot']]
 
-            for key_to_move in keys_to_move_out_of_inflections:
-                for inflection_key in inflection_keys:
-                    if inflection_key in inflections_source and key_to_move in inflections_source[inflection_key]:
-                        value = inflections_source[inflection_key][key_to_move]
-                        if key_to_move in requires_prefix:
-                            key_to_move = '_' + key_to_move
-                        lobj[key_to_move] = value
+                for key_to_move in keys_to_move_out_of_inflections:
+                    for inflection_key in inflection_keys:
+                        if inflection_key in inflections_source and key_to_move in inflections_source[inflection_key]:
+                            value = inflections_source[inflection_key][key_to_move]
+                            if key_to_move in requires_prefix:
+                                key_to_move = '_' + key_to_move
+                            lobj[key_to_move] = value
 
-        for lobj in parent_lobjs:
-            for key_to_move in keys_to_move_out_of_inflections:
-                for inflection_key in inflection_keys:
-                    if inflection_key in lobj['inflections'] and key_to_move in lobj['inflections'][inflection_key]:
-                        value = lobj['inflections'][inflection_key].pop(key_to_move)
-                        if key_to_move in requires_prefix:
-                            key_to_move = '_' + key_to_move
-                        lobj[key_to_move] = value
+            for lobj in parent_lobjs:
+                for key_to_move in keys_to_move_out_of_inflections:
+                    for inflection_key in inflection_keys:
+                        if inflection_key in lobj['inflections'] and key_to_move in lobj['inflections'][inflection_key]:
+                            value = lobj['inflections'][inflection_key].pop(key_to_move)
+                            if key_to_move in requires_prefix:
+                                key_to_move = '_' + key_to_move
+                            lobj[key_to_move] = value
 
         save(lobjs)
 
