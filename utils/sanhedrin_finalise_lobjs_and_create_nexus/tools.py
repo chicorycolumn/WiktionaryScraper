@@ -875,6 +875,14 @@ def run_sanhedrin(fxn, wordtypes, additional_args=[]):
         time.sleep(1)
 
 
+def run_sanhedrin_with_suffixes(fxn, wordtypes, suffixes, additional_args=[]):
+    if not len(suffixes):
+        suffixes = ['SRC', 'TGT']
+    for suffix in suffixes:
+        addition_args = [suffix] + additional_args
+        run_sanhedrin(fxn, wordtypes, addition_args)
+
+
 def get_unused(lobjs, nex, lang):
     unused = []
     for lob in [l for l in lobjs if not l.get("_untranslated")]:

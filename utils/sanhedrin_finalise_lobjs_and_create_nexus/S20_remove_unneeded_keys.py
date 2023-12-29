@@ -1,7 +1,7 @@
 from parsers.common import scrape_word_data
 from utils.general.common import write_todo
 from utils.sanhedrin_finalise_lobjs_and_create_nexus.tools import is_it_the_same_meaning, q, add_allohom_info, \
-    run_sanhedrin
+    run_sanhedrin_with_suffixes
 from utils.postprocessing.common import finalise_lemma_objects, add_tags_and_topics_from_shorthand
 from utils.scraping.Polish_dicts import shorthand_tag_refs
 from utils.scraping.common import check_rescraped_against_existing
@@ -75,7 +75,4 @@ if __name__ == '__main__':
 
         print("Completely done.")
 
-    if not len(suffixes):
-        suffixes = ['SRC', 'TGT']
-    for suffix in suffixes:
-        run_sanhedrin(go, wordtypes, [suffix])
+    run_sanhedrin_with_suffixes(go, wordtypes, suffixes)
