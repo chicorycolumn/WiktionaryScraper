@@ -12,13 +12,13 @@ if __name__ == '__main__':
     # # # # # #
     wordtypes = []  # Leave blank for all.
     batch = "01"
-    suffix = "TGT"
-    run_this_part_only = 1  # 0 for both, otherwise 1 or 2.
+    suffixes = []  # Leave blank for both SRC and TGT.
+    run_this_part_only = 0  # 0 for both, otherwise 1 or 2.
 
     # # # # # #
 
 
-    def go(wordtype):
+    def go(wordtype, suffix):
         input_filename = f"{wordtype}_batch_{batch}_{suffix}"
         stem = "./../../output_saved/batches/done/"
         input_path = f"{stem}{input_filename}"
@@ -75,5 +75,7 @@ if __name__ == '__main__':
 
         print("Completely done.")
 
-
-    run_sanhedrin(go, wordtypes)
+    if not len(suffixes):
+        suffixes = ['SRC', 'TGT']
+    for suffix in suffixes:
+        run_sanhedrin(go, wordtypes, [suffix])
