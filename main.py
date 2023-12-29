@@ -14,17 +14,17 @@ if __name__ == '__main__':
     #         print(el)
 
     step = 1
-    group_number = 700
+    group_number = 444
     input_indexes = [0, 870]
-    wordtype = "v"
+    wordtype = "a"
     these_headwords_only = [
     ]
     please_alphabetise = False  # does not normally need to be true
     force_gather_result_even_if_parser_errored = True
     skip_make_ids = False  # only set True when manually testing.
     skip_scraping = False  # only set True if you've already scraped but want to rerun post-scraping fxns of Step 1.
-    reparse_previously_rejected = True  # If you're manually rerunning rejected ones when collecting batch together.
-    test_only_boolean_override_check_existing = True  # If you're manually rerunning scraped ones for testing purposes.
+    reparse_previously_rejected = False  # If you're manually rerunning rejected ones when collecting batch together.
+    test_only_boolean_override_check_existing = False # If you're manually rerunning scraped ones for testing purposes.
     skip_extras = True  # You know, the extra lemmas to parse gathered from synonyms of lemmas you asked to parse.
     langcode = "pol"
 
