@@ -47,10 +47,6 @@ shorthand_tag_refs = {
         "tags": ["uncountable"],
         "topics": [],
     },
-    "h": {
-        "tags": ["holdable", "concrete"],
-        "topics": [],
-    },
     "m": {
         "tags": ["manmade", "concrete"],
         "topics": [],
