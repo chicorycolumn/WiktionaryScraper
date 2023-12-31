@@ -13,7 +13,7 @@ if __name__ == '__main__':
     wordtypes = []  # Leave blank for all.
     batch = "01"
     suffixes = []  # Leave blank for both SRC and TGT.
-    just_list_them = True  # Should be False
+    just_list_them = False  # Should be False
     # # # # # #
 
     def go(wordtype, suffix):

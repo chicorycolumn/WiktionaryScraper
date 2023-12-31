@@ -802,6 +802,7 @@ allohom_infos = {
     "tv": {"singleWordtype": True, "text": "transitive", "emoji": "🇹"},
     "pv": {"singleWordtype": True, "text": "plus verb", "emoji": "🇻"},
     "pn": {"singleWordtype": True, "text": "plus noun", "emoji": "🇳"},
+    "so": {"singleWordtype": True, "text": "sound", "emoji": "🔊"},
 }
 
 

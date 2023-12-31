@@ -208,7 +208,7 @@ def deepequals(obj1, obj2):
 
 
 def interact_cmd_history(user_input, cmd_history):
-    if user_input[0] == "q":
+    if user_input[0] == "q" and (len(user_input) == 1 or user_input[1] in '1234567890'):
         if user_input[1] == "q":
             Color.print_yellow("COMMAND HISTORY")
             for ind in range(1, 5):
