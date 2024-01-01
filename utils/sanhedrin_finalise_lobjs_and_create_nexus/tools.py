@@ -803,6 +803,10 @@ allohom_infos = {
     "pv": {"singleWordtype": True, "text": "plus verb", "emoji": "🇻"},
     "pn": {"singleWordtype": True, "text": "plus noun", "emoji": "🇳"},
     "so": {"singleWordtype": True, "text": "sound", "emoji": "🔊"},
+    "xs": {"singleWordtype": True, "text": "small", "emoji": "🔹"},
+    "xl": {"singleWordtype": True, "text": "large", "emoji": "🔷"},
+    "ns": {"singleWordtype": True, "text": "single", "emoji": "1️"},
+    "nm": {"singleWordtype": True, "text": "many", "emoji": "1️"},
 }
 
 
