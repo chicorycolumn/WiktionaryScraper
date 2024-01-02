@@ -132,18 +132,13 @@ It uses additionalSpellings that you manually type into this stage.
 
 
 
-3D-i)   Run "S14_add_allohom_info.py" for TGT and SRC
+3D)     Run "S14_add_allohom_info.py" for TGT and SRC
         - to manually create allohomInfo where needed
         Modifies "nou_batch_01_{tgt,src}.json"
 
-3D-ii)  Run "S15_doublecheck_allohom_info.py" for TGT and SRC
-        - to add allohom info to any lobjs which missed it
-        Modifies "nou_batch_01_{tgt,src}.json"
 
-3D-iii) Rerun "S14_add_allohom_info.py" for TGT and SRC
-        Modifies "nou_batch_01_{tgt,src}.json"
 
-3D-iv)  Rerun "S12_connect_sibling_lobjs.py" for SRC
+3E)     Rerun "S12_connect_sibling_lobjs.py" for SRC
         Modifies "nou_batch_01_src.json"
 
 
@@ -204,19 +199,26 @@ It uses additionalSpellings that you manually type into this stage.
 
 
 
-5D) Run "S12_connect_sibling_lobjs.py" for TGT
-    - to compact data by removing duplicated inflection data, replacing with reference to the one sibling which holds it
-    Modifies "nou_batch_01_tgt.json"
-
-
-
-5E) Run "S20_remove_unneeded_keys.py" for TGT and SRC
+5D) Run "S20_remove_unneeded_keys.py" for TGT and SRC
     - to remove now-unneeded data from SRC and TGT such as "translations", "»translations", "tags", "topics"
     - to move 'lacking' and 'tantumPlurale' and 'tantumSingulare' keys out of inflections to top level in lobj
 
 
 
+3E)  Run "S14_add_allohom_info.py" for TGT and SRC
+     - to manually create allohomInfo where needed
+     Modifies "nou_batch_01_{tgt,src}.json"
+
+
+
 5F) Run X2 X3 to renumber SRC, TGT, NEX
+Renumbering will be broken for _rootInflections key. Fix this.
+
+
+
+5G) Run "S12_connect_sibling_lobjs.py" for TGT
+    - to compact data by removing duplicated inflection data, replacing with reference to the one sibling which holds it
+    Modifies "nou_batch_01_tgt.json"
 
 
 

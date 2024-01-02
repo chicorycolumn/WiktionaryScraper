@@ -14,9 +14,11 @@ if __name__ == '__main__':
     batch = "01"
     suffixes = []  # Leave blank for both SRC and TGT.
     just_list_them = False  # Should be False
+
+
     # # # # # #
 
-    def go(wordtype, suffix):
+    def add_allohom_info(wordtype, suffix):
         input_filename = f"{wordtype}_batch_{batch}_{suffix}"
         stem = "./../../output_saved/batches/done/"
         input_path = f"{stem}{input_filename}"
@@ -51,4 +53,61 @@ if __name__ == '__main__':
 
         print("Completely done.")
 
-    run_sanhedrin_with_suffixes(go, wordtypes, suffixes)
+
+    def flag_any_other_required_allohom(wordtype, suffix, round):
+        lang = suffix
+        input_filename = f"{wordtype}_batch_{batch}_{lang.upper()}"
+
+        stem = "./../../output_saved/batches/done/"
+
+        input_path = f"{stem}{input_filename}"
+        save = get_curried_save(input_path, None)
+
+        c.print_teal("input_path    =     " + c.teal(input_path))
+        c.print_teal("No tempsave file is used in this stage..")
+
+        lobjs = load_data(input_path)
+        c.print_yellow("Loaded " + input_path)
+        print("Loaded", len(lobjs), "lobjs.")
+
+        new_lobjs_dict = {}
+        for lob in lobjs:
+            if lob["lemma"] in new_lobjs_dict:
+                new_lobjs_dict[lob["lemma"]].append(lob)
+            else:
+                new_lobjs_dict[lob["lemma"]] = [lob]
+
+        for tarkey in new_lobjs_dict:
+            for lob in new_lobjs_dict[tarkey]:
+                if "allohomInfo" in lob and len(new_lobjs_dict[tarkey]) < 2:
+                    if round == 1:
+                        c.print_red(f'{lob["id"]}   REMOVING ALLOHOM INFO')
+                        lob.pop("allohomInfo")
+                    if "(" in lob["id"]:
+                        lob["id"] = lob["id"][:lob["id"].index("(")]
+                elif "allohomInfo" not in lob and len(new_lobjs_dict[tarkey]) >= 2:
+                    lob["id"] = lob["id"] + f"(þ)"
+
+        save(lobjs)
+
+
+    def run_both(round):
+        c.print_purple('ADDING ANY NECESSARY FLAGS')
+        run_sanhedrin_with_suffixes(flag_any_other_required_allohom, wordtypes, suffixes, [round])
+        c.print_purple('FINISHED ANY NECESSARY FLAGS')
+
+        print('')
+
+        c.print_blue('READY TO ADD ALLOHOM INFO FROM USER INPUT')
+        run_sanhedrin_with_suffixes(add_allohom_info, wordtypes, suffixes)
+        c.print_blue('READY TO ADD ALLOHOM INFO FROM USER INPUT')
+
+
+    c.print_bold('- - - - -')
+    c.print_bold('PHASE 1/2')
+    c.print_bold('- - - - -')
+    run_both(round=1)
+    c.print_bold('- - - - -')
+    c.print_bold('PHASE 2/2')
+    c.print_bold('- - - - -')
+    run_both(round=2)
