@@ -805,8 +805,8 @@ allohom_infos = {
     "so": {"singleWordtype": True, "text": "sound", "emoji": "🔊"},
     "xs": {"singleWordtype": True, "text": "small", "emoji": "🔹"},
     "xl": {"singleWordtype": True, "text": "large", "emoji": "🔷"},
-    "ns": {"singleWordtype": True, "text": "single", "emoji": "1️"},
-    "nm": {"singleWordtype": True, "text": "many", "emoji": "1️"},
+    "ns": {"singleWordtype": True, "text": "single", "emoji": "1"},
+    "nm": {"singleWordtype": True, "text": "many", "emoji": "2"},
 }
 
 
