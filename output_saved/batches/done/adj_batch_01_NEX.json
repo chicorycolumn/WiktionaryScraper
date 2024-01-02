@@ -3272,20 +3272,44 @@
     ]
   },
   {
-    "key": "adj-0139-small",
+    "key": "adj-0139-small(concrete)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-adj-0299-small",
+        "eng-adj-0299-small(concrete)",
         "eng-adj-0933-little"
       ],
       "POL": [
-        "pol-adj-0176-mały",
-        "pol-adj-0676-niewielki"
+        "pol-adj-0176-mały(concrete)",
+        "pol-adj-0676-niewielki(concrete)"
       ]
     },
     "papers": [
       "concrete",
+      "dimension"
+    ],
+    "topics": [
+      "sense and perception",
+      "appearance"
+    ]
+  },
+  {
+    "key": "adj-0139-small(abstract)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-adj-0299-small(abstract)",
+        "eng-adj-8888-minor",
+        "eng-adj-8888-slight"
+      ],
+      "POL": [
+        "pol-adj-0176-mały(abstract)",
+        "pol-adj-0676-niewielki(abstract)",
+        "pol-adj-0416-drobny(abstract)"
+
+      ]
+    },
+    "papers": [
       "abstract",
       "dimension"
     ],
@@ -3302,7 +3326,7 @@
         "eng-adj-0148-fine(texture)"
       ],
       "POL": [
-        "pol-adj-0416-drobny(fine)"
+        "pol-adj-0416-drobny(texture)"
       ]
     },
     "papers": [
