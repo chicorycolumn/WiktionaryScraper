@@ -807,6 +807,7 @@ allohom_infos = {
     "xl": {"singleWordtype": True, "text": "large", "emoji": "🔷"},
     "ns": {"singleWordtype": True, "text": "single", "emoji": "1"},
     "nm": {"singleWordtype": True, "text": "many", "emoji": "2"},
+    "tc": {"singleWordtype": True, "text": "theatre", "emoji": "🎭"},
 }
 
 
