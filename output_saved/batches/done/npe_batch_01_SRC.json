@@ -1174,6 +1174,11 @@
         "loc": "laskach",
         "voc": "laski"
       }
+    },
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
     }
   },
   {
@@ -1449,6 +1454,11 @@
         "loc": "kolegach",
         "voc": "koledzy"
       }
+    },
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "more close",
+      "emoji": "🫂"
     }
   },
   {
@@ -1467,7 +1477,12 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-npe-0028-kolega(friend)"
+    "_inflectionsRoot": "pol-npe-0028-kolega(friend)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "more distant",
+      "emoji": "👋"
+    }
   },
   {
     "lemma": "koleżanka",
@@ -1504,6 +1519,11 @@
         "loc": "koleżankach",
         "voc": "koleżanki"
       }
+    },
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "more close",
+      "emoji": "🫂"
     }
   },
   {
@@ -1522,7 +1542,12 @@
         ]
       }
     },
-    "_inflectionsRoot": "pol-npe-0121-koleżanka(friend)"
+    "_inflectionsRoot": "pol-npe-0121-koleżanka(friend)",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "more distant",
+      "emoji": "👋"
+    }
   },
   {
     "lemma": "kumpel",
