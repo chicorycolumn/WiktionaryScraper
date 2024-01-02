@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
     # # # # # #
 
-    def add_allohom_info(wordtype, suffix):
+    def add_missing_allohom_info(wordtype, suffix):
         input_filename = f"{wordtype}_batch_{batch}_{suffix}"
         stem = "./../../output_saved/batches/done/"
         input_path = f"{stem}{input_filename}"
@@ -99,7 +99,7 @@ if __name__ == '__main__':
         print('')
 
         c.print_blue('READY TO ADD ALLOHOM INFO FROM USER INPUT')
-        run_sanhedrin_with_suffixes(add_allohom_info, wordtypes, suffixes)
+        run_sanhedrin_with_suffixes(add_missing_allohom_info, wordtypes, suffixes)
         c.print_blue('READY TO ADD ALLOHOM INFO FROM USER INPUT')
 
 

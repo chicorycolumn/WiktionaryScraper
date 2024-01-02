@@ -859,6 +859,8 @@ def add_allohom_info(cmd_history, lobj, following_lobjs):
     print(c.green(allohom_info["text"]), allohom_info)
     print("")
     lobj["allohomInfo"] = allohom_info
+    if lobj['id'].endswith('(þ)'):
+        lobj['id'] = lobj['id'][0:-3]
     time.sleep(0.8)
 
 
