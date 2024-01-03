@@ -83,8 +83,8 @@ if __name__ == '__main__':
                     if round == 1 and ('allohomInDifferentWordtype' not in lob['allohomInfo'] or not lob['allohomInfo']['allohomInDifferentWordtype']):
                         c.print_red(f'{lob["id"]}   REMOVING ALLOHOM INFO')
                         lob.pop("allohomInfo")
-                    if "(" in lob["id"]:
-                        lob["id"] = lob["id"][:lob["id"].index("(")]
+                        if "(" in lob["id"]:
+                            lob["id"] = lob["id"][:lob["id"].index("(")]
                 elif "allohomInfo" not in lob and len(new_lobjs_dict[tarkey]) >= 2:
                     lob["id"] = lob["id"] + f"(þ)"
 
