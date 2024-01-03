@@ -10,7 +10,7 @@ from utils.universal import Color as c, get_curried_save, load_data
 if __name__ == '__main__':
 
     # # # # # #
-    wordtypes = []  # Leave blank for all.
+    wordtypes = ['nco']  # Leave blank for all.
     batch = "01"
     suffixes = []  # Leave blank for both SRC and TGT.
     just_list_them = False  # Should be False
@@ -80,7 +80,7 @@ if __name__ == '__main__':
         for tarkey in new_lobjs_dict:
             for lob in new_lobjs_dict[tarkey]:
                 if "allohomInfo" in lob and len(new_lobjs_dict[tarkey]) < 2:
-                    if round == 1:
+                    if round == 1 and ('allohomInDifferentWordtype' not in lob['allohomInfo'] or not lob['allohomInfo']['allohomInDifferentWordtype']):
                         c.print_red(f'{lob["id"]}   REMOVING ALLOHOM INFO')
                         lob.pop("allohomInfo")
                     if "(" in lob["id"]:
