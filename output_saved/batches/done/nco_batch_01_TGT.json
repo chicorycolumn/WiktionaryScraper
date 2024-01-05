@@ -1239,9 +1239,35 @@
   },
   {
     "lemma": "state",
-    "id": "eng-nco-0073-state",
+    "id": "eng-nco-0073-state(condition)",
     "register": 0,
-    "frequency": 3,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "🧠"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "state",
+        "gen": "state's"
+      },
+      "plural": {
+        "nom": "states",
+        "gen": "states'"
+      }
+    }
+  },
+  {
+    "lemma": "state",
+    "id": "eng-nco-0073-state(political entity)",
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "geographic place",
+      "emoji": "⛰️"
+    },
     "inflections": {
       "singular": {
         "nom": "state",
@@ -20288,6 +20314,43 @@
       "plural": {
         "nom": "deliveries",
         "gen": "deliveries'"
+      }
+    }
+  },
+  {
+    "lemma": "delivery",
+    "id": "eng-nco-8888-delivery(logistics)",
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "logistics",
+      "emoji": "📦"
+    },
+    "inflections": {
+      "singular": {
+        "nom": "delivery",
+        "gen": "delivery's"
+      },
+      "plural": {
+        "nom": "deliveries",
+        "gen": "deliveries'"
+      }
+    }
+  },
+  {
+    "lemma": "shipment",
+    "id": "eng-nco-8888-shipment",
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "singular": {
+        "nom": "shipment",
+        "gen": "shipment's"
+      },
+      "plural": {
+        "nom": "shipments",
+        "gen": "shipments'"
       }
     }
   },

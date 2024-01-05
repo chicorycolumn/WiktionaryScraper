@@ -2529,8 +2529,8 @@
   },
   {
     "lemma": "stan",
-    "id": "pol-nco-0063-stan",
-    "frequency": 3,
+    "id": "pol-nco-0063-stan(condition)",
+    "frequency": 4,
     "register": 0,
     "gender": "m3",
     "allohomInfo": {
@@ -2545,6 +2545,38 @@
         "owocostan",
         "pustostan"
       ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "stan",
+        "gen": "stanu",
+        "dat": "stanowi",
+        "acc": "stan",
+        "ins": "stanem",
+        "loc": "stanie",
+        "voc": "stanie"
+      },
+      "plural": {
+        "nom": "stany",
+        "gen": "stanów",
+        "dat": "stanom",
+        "acc": "stany",
+        "ins": "stanami",
+        "loc": "stanach",
+        "voc": "stany"
+      }
+    }
+  },
+  {
+    "lemma": "stan",
+    "id": "pol-nco-0063-stan(political entity)",
+    "frequency": 4,
+    "register": 0,
+    "gender": "m3",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "geographic place",
+      "emoji": "⛰️"
     },
     "inflections": {
       "singular": {
@@ -40797,6 +40829,60 @@
         "ins": "kokardkami",
         "loc": "kokardkach",
         "voc": "kokardki"
+      }
+    }
+  },
+  {
+    "lemma": "przesyłka",
+    "id": "pol-nco-8888-przesyłka",
+    "frequency": 4,
+    "register": 0,
+    "gender": "f",
+    "inflections": {
+      "singular": {
+        "nom": "przesyłka",
+        "gen": "przesyłki",
+        "dat": "przesyłce",
+        "acc": "przesyłkę",
+        "ins": "przesyłką",
+        "loc": "przesyłce",
+        "voc": "przesyłko"
+      },
+      "plural": {
+        "nom": "przesyłki",
+        "gen": "przesyłek",
+        "dat": "przesyłkom",
+        "acc": "przesyłki",
+        "ins": "przesyłkami",
+        "loc": "przesyłkach",
+        "voc": "przesyłki"
+      }
+    }
+  },
+  {
+    "lemma": "dostawa",
+    "id": "pol-nco-8888-dostawa",
+    "frequency": 4,
+    "register": 0,
+    "gender": "f",
+    "inflections": {
+      "singular": {
+        "nom": "dostawa",
+        "gen": "dostawy",
+        "dat": "dostawie",
+        "acc": "dostawę",
+        "ins": "dostawą",
+        "loc": "dostawie",
+        "voc": "dostawo"
+      },
+      "plural": {
+        "nom": "dostawy",
+        "gen": "dostaw",
+        "dat": "dostawom",
+        "acc": "dostawy",
+        "ins": "dostawami",
+        "loc": "dostawach",
+        "voc": "dostawy"
       }
     }
   }

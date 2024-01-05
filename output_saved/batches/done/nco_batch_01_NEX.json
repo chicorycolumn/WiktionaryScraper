@@ -1294,14 +1294,80 @@
     ]
   },
   {
-    "key": "nco-0063-state",
+    "key": "nco-0215-country(nation)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0073-state"
+        "eng-nco-0271-country(nation)"
       ],
       "POL": [
-        "pol-nco-0063-stan"
+        "pol-nco-0215-kraj"
+      ]
+    },
+    "papers": [
+      "s6",
+      "concrete",
+      "nation hypernym"
+    ],
+    "topics": [
+      "holiday",
+      "geography"
+    ]
+  },
+  {
+    "key": "nco-0524-nation",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0673-nation"
+      ],
+      "POL": [
+        "pol-nco-0539-naród"
+      ]
+    },
+    "papers": [
+      "s6",
+      "location",
+      "concrete",
+      "nation",
+      "nation hypernym"
+    ],
+    "topics": [
+      "geography",
+      "politics",
+      "outside"
+    ]
+  },
+  {
+    "key": "nco-0063-state(political entity)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0073-state(political entity)"
+      ],
+      "POL": [
+        "pol-nco-0063-stan(political entity)"
+      ]
+    },
+    "papers": [
+      "s6",
+      "concrete",
+      "nation hypernym"
+    ],
+    "topics": [
+      "holiday",
+      "geography"
+    ]
+  },
+  {
+    "key": "nco-0063-state(condition)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0073-state(condition)"
+      ],
+      "POL": [
+        "pol-nco-0063-stan(condition)"
       ]
     },
     "papers": [
@@ -4488,27 +4554,6 @@
     ],
     "topics": [
       "time"
-    ]
-  },
-  {
-    "key": "nco-0215-country(nation)",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-nco-0271-country(nation)"
-      ],
-      "POL": [
-        "pol-nco-0215-kraj"
-      ]
-    },
-    "papers": [
-      "s6",
-      "concrete",
-      "nation hypernym"
-    ],
-    "topics": [
-      "holiday",
-      "geography"
     ]
   },
   {
@@ -11338,30 +11383,6 @@
     "topics": [
       "mental",
       "philosophy and ethics"
-    ]
-  },
-  {
-    "key": "nco-0524-nation",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-nco-0673-nation"
-      ],
-      "POL": [
-        "pol-nco-0539-naród"
-      ]
-    },
-    "papers": [
-      "s6",
-      "location",
-      "concrete",
-      "nation",
-      "nation hypernym"
-    ],
-    "topics": [
-      "geography",
-      "politics",
-      "outside"
     ]
   },
   {
@@ -19796,6 +19817,28 @@
     ],
     "topics": [
       "medicine"
+    ]
+  },
+  {
+    "key": "nco-0936-delivery(logistics)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-8888-delivery(logistics)",
+        "eng-nco-8888-shipment"
+      ],
+      "POL": [
+        "pol-nco-8888-przesyłka",
+        "pol-nco-8888-dostawa"
+      ]
+    },
+    "papers": [
+      "concrete",
+      "money"
+    ],
+    "topics": [
+      "communications",
+      "shopping"
     ]
   },
   {
