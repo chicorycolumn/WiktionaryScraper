@@ -80,7 +80,7 @@ if __name__ == '__main__':
         for tarkey in new_lobjs_dict:
             for lob in new_lobjs_dict[tarkey]:
                 if "allohomInfo" in lob and len(new_lobjs_dict[tarkey]) < 2:
-                    if round == 1 and ('allohomInDifferentWordtype' not in lob['allohomInfo'] or not lob['allohomInfo']['allohomInDifferentWordtype']):
+                    if round == 1 and lob['allohomInfo']['singleWordtype']:
                         c.print_red(f'{lob["id"]}   REMOVING ALLOHOM INFO')
                         lob.pop("allohomInfo")
                         if "(" in lob["id"]:
