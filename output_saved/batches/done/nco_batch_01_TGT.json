@@ -9836,7 +9836,7 @@
   },
   {
     "lemma": "period",
-    "id": "eng-nco-0590-period(general)",
+    "id": "eng-nco-0590-period(time)",
     "register": 0,
     "frequency": 2,
     "inflections": {
@@ -10671,7 +10671,7 @@
   },
   {
     "lemma": "subject",
-    "id": "eng-nco-0636-subject(theme)",
+    "id": "eng-nco-0636-subject(topic)",
     "register": 0,
     "frequency": 3,
     "inflections": {
@@ -22255,6 +22255,22 @@
       "singleWordtype": true,
       "text": "metal",
       "emoji": "🛠️"
+    }
+  },
+  {
+    "lemma": "point",
+    "id": "eng-nco-8888-point",
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "singular": {
+        "nom": "point",
+        "gen": "point's"
+      },
+      "plural": {
+        "nom": "points",
+        "gen": "points'"
+      }
     }
   }
 ]

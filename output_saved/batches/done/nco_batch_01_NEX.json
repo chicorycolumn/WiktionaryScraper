@@ -10005,14 +10005,33 @@
     ]
   },
   {
-    "key": "nco-0461-period(general)",
+    "key": "nco-8888-point",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0590-period(general)"
+        "eng-nco-8888-point"
       ],
       "POL": [
-        "pol-nco-0472-okres(general)"
+        "pol-nco-8888-punkt(abstract)"
+      ]
+    },
+    "papers": [
+      "abstract",
+      "shape"
+    ],
+    "topics": [
+      "geometry"
+    ]
+  },
+  {
+    "key": "nco-0461-period(time)",
+    "traductions": {
+      "SPA": [],
+      "ENG": [
+        "eng-nco-0590-period(time)"
+      ],
+      "POL": [
+        "pol-nco-0472-okres(time)"
       ]
     },
     "papers": [
@@ -11365,11 +11384,11 @@
     ]
   },
   {
-    "key": "nco-0523-subject(theme)",
+    "key": "nco-0523-subject(topic)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0636-subject(theme)",
+        "eng-nco-0636-subject(topic)",
         "eng-nco-0672-topic"
       ],
       "POL": [
