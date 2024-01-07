@@ -36343,19 +36343,14 @@
   },
   {
     "lemma": "doczekać",
-    "id": "pol-ver-0370-doczekać(negative only)",
+    "id": "pol-ver-0370-doczekać[negative only]",
     "frequency": 4,
     "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "negative only",
-      "emoji": "✖️"
-    },
     "extra": {
       "usage": [
-        "Niemogę się doczekać . ― I can't wait ."
+        "Nie mogę się doczekać . ― I can't wait ."
       ],
       "otherShapes": {
         "imperfective": [
@@ -79939,6 +79934,330 @@
     }
   },
   {
+    "lemma": "potrącać",
+    "id": "pol-ver-0809-potrącać(run over)",
+    "frequency": 4,
+    "register": 0,
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "driving",
+      "emoji": "🚗"
+    },
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "potrącić"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "potrącać",
+      "verbalNoun": "potrącanie",
+      "activeAdjectival": "potrącający",
+      "passiveAdjectival": "potrącany",
+      "contemporaryAdverbial": "potrącając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "potrącaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "potrącano"
+            },
+            "plural": {
+              "allPluralGenders": "potrącano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "potrącałem",
+              "f": "potrącałam"
+            },
+            "plural": {
+              "virile": "potrącaliśmy",
+              "nonvirile": "potrącałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "potrącałeś",
+              "f": "potrącałaś"
+            },
+            "plural": {
+              "virile": "potrącaliście",
+              "nonvirile": "potrącałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "potrącał",
+              "f": "potrącała",
+              "n": "potrącało"
+            },
+            "plural": {
+              "virile": "potrącali",
+              "nonvirile": "potrącały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "potrąca się"
+            },
+            "plural": {
+              "allPluralGenders": "potrąca się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "potrącam"
+            },
+            "plural": {
+              "allPluralGenders": "potrącamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "potrącasz"
+            },
+            "plural": {
+              "allPluralGenders": "potrącacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "potrąca"
+            },
+            "plural": {
+              "allPluralGenders": "potrącają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "potrącić",
+    "id": "pol-ver-0809-potrącić(deduct)",
+    "frequency": 4,
+    "register": 0,
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "mathematical",
+      "emoji": "🧮"
+    },
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "potrącać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "potrącić",
+      "verbalNoun": "potrącenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "potrącony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "potrąciwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "potrąci się"
+            },
+            "plural": {
+              "allPluralGenders": "potrąci się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "potrącę"
+            },
+            "plural": {
+              "allPluralGenders": "potrącimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "potrącisz"
+            },
+            "plural": {
+              "allPluralGenders": "potrącicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "potrąci"
+            },
+            "plural": {
+              "allPluralGenders": "potrącą"
+            }
+          }
+        },
+        "imperative": "potrąć",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "potrącono"
+            },
+            "plural": {
+              "allPluralGenders": "potrącono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "potrąciłem",
+              "f": "potrąciłam"
+            },
+            "plural": {
+              "virile": "potrąciliśmy",
+              "nonvirile": "potrąciłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "potrąciłeś",
+              "f": "potrąciłaś"
+            },
+            "plural": {
+              "virile": "potrąciliście",
+              "nonvirile": "potrąciłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "potrącił",
+              "f": "potrąciła",
+              "n": "potrąciło"
+            },
+            "plural": {
+              "virile": "potrącili",
+              "nonvirile": "potrąciły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "potrącać",
+    "id": "pol-ver-0809-potrącać(deduct)",
+    "frequency": 4,
+    "register": 0,
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "mathematical",
+      "emoji": "🧮"
+    },
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "potrącić"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "potrącać",
+      "verbalNoun": "potrącanie",
+      "activeAdjectival": "potrącający",
+      "passiveAdjectival": "potrącany",
+      "contemporaryAdverbial": "potrącając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "potrącaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "potrącano"
+            },
+            "plural": {
+              "allPluralGenders": "potrącano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "potrącałem",
+              "f": "potrącałam"
+            },
+            "plural": {
+              "virile": "potrącaliśmy",
+              "nonvirile": "potrącałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "potrącałeś",
+              "f": "potrącałaś"
+            },
+            "plural": {
+              "virile": "potrącaliście",
+              "nonvirile": "potrącałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "potrącał",
+              "f": "potrącała",
+              "n": "potrącało"
+            },
+            "plural": {
+              "virile": "potrącali",
+              "nonvirile": "potrącały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "potrąca się"
+            },
+            "plural": {
+              "allPluralGenders": "potrąca się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "potrącam"
+            },
+            "plural": {
+              "allPluralGenders": "potrącamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "potrącasz"
+            },
+            "plural": {
+              "allPluralGenders": "potrącacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "potrąca"
+            },
+            "plural": {
+              "allPluralGenders": "potrącają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
     "lemma": "pozostawać",
     "id": "pol-ver-0810-pozostawać",
     "frequency": 4,
@@ -95590,6 +95909,404 @@
             },
             "plural": {
               "allPluralGenders": "zwichną"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "odliczyć",
+    "id": "pol-ver-8888-odliczyć",
+    "frequency": 3,
+    "register": 0,
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "inflections": {
+      "infinitive": "odliczyć",
+      "verbalNoun": "odliczenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "odliczony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "odliczywszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odliczy się"
+            },
+            "plural": {
+              "allPluralGenders": "odliczy się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "odliczę"
+            },
+            "plural": {
+              "allPluralGenders": "odliczymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "odliczysz"
+            },
+            "plural": {
+              "allPluralGenders": "odliczycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "odliczy"
+            },
+            "plural": {
+              "allPluralGenders": "odliczą"
+            }
+          }
+        },
+        "imperative": "odlicz",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odliczono"
+            },
+            "plural": {
+              "allPluralGenders": "odliczono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "odliczyłem",
+              "f": "odliczyłam"
+            },
+            "plural": {
+              "virile": "odliczyliśmy",
+              "nonvirile": "odliczyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "odliczyłeś",
+              "f": "odliczyłaś"
+            },
+            "plural": {
+              "virile": "odliczyliście",
+              "nonvirile": "odliczyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "odliczył",
+              "f": "odliczyła",
+              "n": "odliczyło"
+            },
+            "plural": {
+              "virile": "odliczyli",
+              "nonvirile": "odliczyły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "odliczać",
+    "id": "pol-ver-8888-odliczać",
+    "frequency": 3,
+    "register": 0,
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "inflections": {
+      "infinitive": "odliczać",
+      "verbalNoun": "odliczanie",
+      "activeAdjectival": "odliczający",
+      "passiveAdjectival": "odliczany",
+      "contemporaryAdverbial": "odliczając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "odliczaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odliczano"
+            },
+            "plural": {
+              "allPluralGenders": "odliczano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "odliczałem",
+              "f": "odliczałam"
+            },
+            "plural": {
+              "virile": "odliczaliśmy",
+              "nonvirile": "odliczałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "odliczałeś",
+              "f": "odliczałaś"
+            },
+            "plural": {
+              "virile": "odliczaliście",
+              "nonvirile": "odliczałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "odliczał",
+              "f": "odliczała",
+              "n": "odliczało"
+            },
+            "plural": {
+              "virile": "odliczali",
+              "nonvirile": "odliczały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odlicza się"
+            },
+            "plural": {
+              "allPluralGenders": "odlicza się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "odliczam"
+            },
+            "plural": {
+              "allPluralGenders": "odliczamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "odliczasz"
+            },
+            "plural": {
+              "allPluralGenders": "odliczacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "odlicza"
+            },
+            "plural": {
+              "allPluralGenders": "odliczają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "odjąć",
+    "id": "pol-ver-8888-odjąć",
+    "frequency": 4,
+    "register": 0,
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "odejmować"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "odjąć",
+      "verbalNoun": "odjęcie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "odjęty",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "odjąwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odejmie się"
+            },
+            "plural": {
+              "allPluralGenders": "odejmie się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "odejmę"
+            },
+            "plural": {
+              "allPluralGenders": "odejmiemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "odejmiesz"
+            },
+            "plural": {
+              "allPluralGenders": "odejmiecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "odejmie"
+            },
+            "plural": {
+              "allPluralGenders": "odejmą"
+            }
+          }
+        },
+        "imperative": "odejmij",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odjęto"
+            },
+            "plural": {
+              "allPluralGenders": "odjęto"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "odjąłem",
+              "f": "odjęłam"
+            },
+            "plural": {
+              "virile": "odjęliśmy",
+              "nonvirile": "odjęłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "odjąłeś",
+              "f": "odjęłaś"
+            },
+            "plural": {
+              "virile": "odjęliście",
+              "nonvirile": "odjęłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "odjął",
+              "f": "odjęła",
+              "n": "odjęło"
+            },
+            "plural": {
+              "virile": "odjęli",
+              "nonvirile": "odjęły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "odejmować",
+    "id": "pol-ver-8888-odejmować",
+    "frequency": 4,
+    "register": 0,
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "odjąć"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "odejmować",
+      "verbalNoun": "odejmowanie",
+      "activeAdjectival": "odejmujący",
+      "passiveAdjectival": "odejmowany",
+      "contemporaryAdverbial": "odejmując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "odejmuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odejmowano"
+            },
+            "plural": {
+              "allPluralGenders": "odejmowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "odejmowałem",
+              "f": "odejmowałam"
+            },
+            "plural": {
+              "virile": "odejmowaliśmy",
+              "nonvirile": "odejmowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "odejmowałeś",
+              "f": "odejmowałaś"
+            },
+            "plural": {
+              "virile": "odejmowaliście",
+              "nonvirile": "odejmowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "odejmował",
+              "f": "odejmowała",
+              "n": "odejmowało"
+            },
+            "plural": {
+              "virile": "odejmowali",
+              "nonvirile": "odejmowały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "odejmuje się"
+            },
+            "plural": {
+              "allPluralGenders": "odejmuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "odejmuję"
+            },
+            "plural": {
+              "allPluralGenders": "odejmujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "odejmujesz"
+            },
+            "plural": {
+              "allPluralGenders": "odejmujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "odejmuje"
+            },
+            "plural": {
+              "allPluralGenders": "odejmują"
             }
           }
         }
