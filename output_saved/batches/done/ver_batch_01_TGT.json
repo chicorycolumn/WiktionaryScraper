@@ -202,6 +202,28 @@
     }
   },
   {
+    "lemma": "stand",
+    "transitivity": [
+      "t"
+    ],
+    "id": "eng-ver-0011-stand(tolerate)",
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "emotion",
+      "emoji": "🧍"
+    },
+    "inflections": {
+      "infinitive": "stand",
+      "verbal": {},
+      "v2": "stood",
+      "v3": "stood",
+      "thirdPS": "stands",
+      "gerund": "standing"
+    }
+  },
+  {
     "lemma": "become",
     "transitivity": [
       "r"
@@ -4251,7 +4273,7 @@
     }
   },
   {
-    "lemma": "smell",
+    "lemma": "stink",
     "transitivity": [
       "i"
     ],
@@ -5054,17 +5076,17 @@
     }
   },
   {
-    "lemma": "claim",
+    "lemma": "state",
     "id": "eng-ver-0308-state",
     "register": 0,
     "frequency": 4,
     "inflections": {
-      "infinitive": "claim",
+      "infinitive": "state",
       "verbal": {},
-      "v2": "claimed",
-      "v3": "claimed",
-      "thirdPS": "claims",
-      "gerund": "claiming"
+      "v2": "stated",
+      "v3": "stated",
+      "thirdPS": "states",
+      "gerund": "stating"
     }
   },
   {
@@ -12000,6 +12022,62 @@
       "v3": "deducted",
       "thirdPS": "deducts",
       "gerund": "deducting"
+    }
+  },
+  {
+    "lemma": "bear",
+    "id": "eng-ver-8888-bear",
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "bear",
+      "verbal": {},
+      "v2": "beared",
+      "v3": "beared",
+      "thirdPS": "bears",
+      "gerund": "bearing"
+    }
+  },
+  {
+    "lemma": "put up with",
+    "id": "eng-ver-8888-put up with",
+    "register": 0,
+    "frequency": 3,
+    "inflections": {
+      "infinitive": "put up with",
+      "verbal": {},
+      "v2": "put up with",
+      "v3": "put up with",
+      "thirdPS": "puts up with",
+      "gerund": "putting up with"
+    }
+  },
+  {
+    "lemma": "tolerate",
+    "id": "eng-ver-8888-tolerate",
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "tolerate",
+      "verbal": {},
+      "v2": "tolerated",
+      "v3": "tolerated",
+      "thirdPS": "tolerates",
+      "gerund": "tolerating"
+    }
+  },
+  {
+    "lemma": "endure",
+    "id": "eng-ver-8888-endure",
+    "register": 0,
+    "frequency": 4,
+    "inflections": {
+      "infinitive": "endure",
+      "verbal": {},
+      "v2": "endured",
+      "v3": "endured",
+      "thirdPS": "endures",
+      "gerund": "enduring"
     }
   }
 ]

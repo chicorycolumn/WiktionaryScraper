@@ -96312,5 +96312,211 @@
         }
       }
     }
+  },
+  {
+    "lemma": "znieść",
+    "id": "pol-ver-8888-znieść",
+    "frequency": 3,
+    "register": 0,
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "znosić"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "znieść",
+      "verbalNoun": "zniesienie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zniesiony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zniósłszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zniesie się"
+            },
+            "plural": {
+              "allPluralGenders": "zniesie się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zniosę"
+            },
+            "plural": {
+              "allPluralGenders": "zniesiemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zniesiesz"
+            },
+            "plural": {
+              "allPluralGenders": "zniesiecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zniesie"
+            },
+            "plural": {
+              "allPluralGenders": "zniosą"
+            }
+          }
+        },
+        "imperative": "znieś",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zniesiono"
+            },
+            "plural": {
+              "allPluralGenders": "zniesiono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zniosłem",
+              "f": "zniosłam"
+            },
+            "plural": {
+              "virile": "znieśliśmy",
+              "nonvirile": "zniosłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zniosłeś",
+              "f": "zniosłaś"
+            },
+            "plural": {
+              "virile": "znieśliście",
+              "nonvirile": "zniosłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zniósł",
+              "f": "zniosła",
+              "n": "zniosło"
+            },
+            "plural": {
+              "virile": "znieśli",
+              "nonvirile": "zniosły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "znosić",
+    "id": "pol-ver-8888-znosić",
+    "frequency": 3,
+    "register": 0,
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "znieść"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "znosić",
+      "verbalNoun": "znoszenie",
+      "activeAdjectival": "znoszący",
+      "passiveAdjectival": "znoszony",
+      "contemporaryAdverbial": "znosząc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "znoś",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "znoszono"
+            },
+            "plural": {
+              "allPluralGenders": "znoszono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "znosiłem",
+              "f": "znosiłam"
+            },
+            "plural": {
+              "virile": "znosiliśmy",
+              "nonvirile": "znosiłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "znosiłeś",
+              "f": "znosiłaś"
+            },
+            "plural": {
+              "virile": "znosiliście",
+              "nonvirile": "znosiłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "znosił",
+              "f": "znosiła",
+              "n": "znosiło"
+            },
+            "plural": {
+              "virile": "znosili",
+              "nonvirile": "znosiły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "znosi się"
+            },
+            "plural": {
+              "allPluralGenders": "znosi się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "znoszę"
+            },
+            "plural": {
+              "allPluralGenders": "znosimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "znosisz"
+            },
+            "plural": {
+              "allPluralGenders": "znosicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "znosi"
+            },
+            "plural": {
+              "allPluralGenders": "znoszą"
+            }
+          }
+        }
+      }
+    }
   }
 ]
