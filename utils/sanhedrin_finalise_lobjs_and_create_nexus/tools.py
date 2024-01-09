@@ -772,7 +772,7 @@ allohom_infos = {
     "ga": {"singleWordtype": True, "text": "games/sports", "emoji": "🎲"},
     "mt": {"singleWordtype": True, "text": "material", "emoji": "👚"},
     "pu": {"singleWordtype": True, "text": "punctuation", "emoji": "❕"},
-    "em": {"singleWordtype": True, "text": "employment", "emoji": "🏢"},
+    "ey": {"singleWordtype": True, "text": "employment", "emoji": "🏢"},
     "ro": {"singleWordtype": True, "text": "romantic", "emoji": "💕"},
     "dr": {"singleWordtype": True, "text": "driving", "emoji": "🚗"},
     "si": {"singleWordtype": True, "text": "science", "emoji": "🧫"},
@@ -808,6 +808,7 @@ allohom_infos = {
     "ns": {"singleWordtype": True, "text": "single", "emoji": "1"},
     "nm": {"singleWordtype": True, "text": "many", "emoji": "2"},
     "tc": {"singleWordtype": True, "text": "theatre", "emoji": "🎭"},
+    "em": {"singleWordtype": True, "text": "emotion", "emoji": "🤪"},
 }
 
 
