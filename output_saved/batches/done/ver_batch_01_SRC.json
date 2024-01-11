@@ -96518,5 +96518,440 @@
         }
       }
     }
+  },
+  {
+    "id": "pol-ver-8888-strzelać",
+    "lemma": "strzelać",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "strzelić"
+        ]
+      },
+      "derivedTerms": [
+        "verbs dostrzelić impf dostrzeliwać pf",
+        "nastrzelać impf",
+        "obstrzeliwać impf obstrzelać pf",
+        "odstrzeliwać impf odstrzelić pf",
+        "ostrzeliwać impf ostrzelać pf",
+        "postrzelać impf postrzelić pf",
+        "przestrzeliwać impf przestrzelać pf",
+        "przystrzeliwać impf przystrzelać pf przystrzelić pf",
+        "rozstrzeliwać impf rozstrzelać pf",
+        "ustrzelić pf",
+        "wstrzeliwać impf wstrzelać pf wstrzelić pf",
+        "wystrzeliwać impf wystrzelać pf wystrzelić pf",
+        "zastrzelić pf",
+        "zestrzeliwać impf zestrzelać pf zestrzelić pf",
+        "noun strzał",
+        "strzała",
+        "strzałka",
+        "strzelanka",
+        "strzelec",
+        "Strzelec"
+      ]
+    },
+    "inflections": {
+      "infinitive": "strzelać",
+      "verbalNoun": "strzelanie",
+      "activeAdjectival": "strzelający",
+      "passiveAdjectival": "strzelany",
+      "contemporaryAdverbial": "strzelając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "strzelaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "strzelano"
+            },
+            "plural": {
+              "allPluralGenders": "strzelano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "strzelałem",
+              "f": "strzelałam"
+            },
+            "plural": {
+              "virile": "strzelaliśmy",
+              "nonvirile": "strzelałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "strzelałeś",
+              "f": "strzelałaś"
+            },
+            "plural": {
+              "virile": "strzelaliście",
+              "nonvirile": "strzelałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "strzelał",
+              "f": "strzelała",
+              "n": "strzelało"
+            },
+            "plural": {
+              "virile": "strzelali",
+              "nonvirile": "strzelały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "strzela się"
+            },
+            "plural": {
+              "allPluralGenders": "strzela się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "strzelam"
+            },
+            "plural": {
+              "allPluralGenders": "strzelamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "strzelasz"
+            },
+            "plural": {
+              "allPluralGenders": "strzelacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "strzela"
+            },
+            "plural": {
+              "allPluralGenders": "strzelają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "pol-ver-8888-strzelić",
+    "lemma": "strzelić",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "strzelać"
+        ]
+      },
+      "derivedTerms": [
+        "adverb jak z bicza strzelił",
+        "verbs dostrzelić impf dostrzeliwać pf",
+        "nastrzelać impf",
+        "obstrzeliwać impf obstrzelać pf",
+        "odstrzeliwać impf odstrzelić pf",
+        "ostrzeliwać impf ostrzelać pf",
+        "postrzelać impf postrzelić pf",
+        "przestrzeliwać impf przestrzelać pf",
+        "przystrzeliwać impf przystrzelać pf przystrzelić pf",
+        "rozstrzeliwać impf rozstrzelać pf",
+        "ustrzelić pf",
+        "wstrzeliwać impf wstrzelać pf wstrzelić pf",
+        "wystrzeliwać impf wystrzelać pf wystrzelić pf",
+        "zastrzelić pf",
+        "zestrzeliwać impf zestrzelać pf zestrzelić pf",
+        "nouns strzał",
+        "strzała",
+        "strzałka",
+        "strzelanka",
+        "strzelec",
+        "Strzelec"
+      ]
+    },
+    "inflections": {
+      "infinitive": "strzelić",
+      "verbalNoun": "strzelenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "strzeliwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "strzeli się"
+            },
+            "plural": {
+              "allPluralGenders": "strzeli się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "strzelę"
+            },
+            "plural": {
+              "allPluralGenders": "strzelimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "strzelisz"
+            },
+            "plural": {
+              "allPluralGenders": "strzelicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "strzeli"
+            },
+            "plural": {
+              "allPluralGenders": "strzelą"
+            }
+          }
+        },
+        "imperative": "strzel",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "strzelono"
+            },
+            "plural": {
+              "allPluralGenders": "strzelono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "strzeliłem",
+              "f": "strzeliłam"
+            },
+            "plural": {
+              "virile": "strzeliliśmy",
+              "nonvirile": "strzeliłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "strzeliłeś",
+              "f": "strzeliłaś"
+            },
+            "plural": {
+              "virile": "strzeliliście",
+              "nonvirile": "strzeliłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "strzelił",
+              "f": "strzeliła",
+              "n": "strzeliło"
+            },
+            "plural": {
+              "virile": "strzelili",
+              "nonvirile": "strzeliły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "id": "pol-ver-8888-postrzelić",
+    "lemma": "postrzelić",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "inflections": {
+      "infinitive": "postrzelić",
+      "verbalNoun": "postrzelenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "postrzeliwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "postrzeli się"
+            },
+            "plural": {
+              "allPluralGenders": "postrzeli się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "postrzelę"
+            },
+            "plural": {
+              "allPluralGenders": "postrzelimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "postrzelisz"
+            },
+            "plural": {
+              "allPluralGenders": "postrzelicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "postrzeli"
+            },
+            "plural": {
+              "allPluralGenders": "postrzelą"
+            }
+          }
+        },
+        "imperative": "postrzel",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "postrzelono"
+            },
+            "plural": {
+              "allPluralGenders": "postrzelono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "postrzeliłem",
+              "f": "postrzeliłam"
+            },
+            "plural": {
+              "virile": "postrzeliliśmy",
+              "nonvirile": "postrzeliłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "postrzeliłeś",
+              "f": "postrzeliłaś"
+            },
+            "plural": {
+              "virile": "postrzeliliście",
+              "nonvirile": "postrzeliłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "postrzelił",
+              "f": "postrzeliła",
+              "n": "postrzeliło"
+            },
+            "plural": {
+              "virile": "postrzelili",
+              "nonvirile": "postrzeliły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "id": "pol-ver-8888-zastrzelić",
+    "lemma": "zastrzelić",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "inflections": {
+      "infinitive": "zastrzelić",
+      "verbalNoun": "zastrzelenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": false,
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zastrzeliwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zastrzeli się"
+            },
+            "plural": {
+              "allPluralGenders": "zastrzeli się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zastrzelę"
+            },
+            "plural": {
+              "allPluralGenders": "zastrzelimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zastrzelisz"
+            },
+            "plural": {
+              "allPluralGenders": "zastrzelicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zastrzeli"
+            },
+            "plural": {
+              "allPluralGenders": "zastrzelą"
+            }
+          }
+        },
+        "imperative": "zastrzel",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zastrzelono"
+            },
+            "plural": {
+              "allPluralGenders": "zastrzelono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zastrzeliłem",
+              "f": "zastrzeliłam"
+            },
+            "plural": {
+              "virile": "zastrzeliliśmy",
+              "nonvirile": "zastrzeliłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zastrzeliłeś",
+              "f": "zastrzeliłaś"
+            },
+            "plural": {
+              "virile": "zastrzeliliście",
+              "nonvirile": "zastrzeliłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zastrzelił",
+              "f": "zastrzeliła",
+              "n": "zastrzeliło"
+            },
+            "plural": {
+              "virile": "zastrzelili",
+              "nonvirile": "zastrzeliły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
   }
 ]
