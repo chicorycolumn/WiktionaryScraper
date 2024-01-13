@@ -96953,5 +96953,101 @@
         "present": false
       }
     }
+  },
+  {
+    "lemma": "dymić",
+    "id": "pol-ver-8888-dymić",
+    "frequency": 4,
+    "register": 0,
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "inflections": {
+      "infinitive": "dymić",
+      "verbalNoun": "dymienie",
+      "activeAdjectival": "dymiący",
+      "passiveAdjectival": "dymiony",
+      "contemporaryAdverbial": "dymiąc",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "dym",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dymiono"
+            },
+            "plural": {
+              "allPluralGenders": "dymiono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "dymiłem",
+              "f": "dymiłam"
+            },
+            "plural": {
+              "virile": "dymiliśmy",
+              "nonvirile": "dymiłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "dymiłeś",
+              "f": "dymiłaś"
+            },
+            "plural": {
+              "virile": "dymiliście",
+              "nonvirile": "dymiłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "dymił",
+              "f": "dymiła",
+              "n": "dymiło"
+            },
+            "plural": {
+              "virile": "dymili",
+              "nonvirile": "dymiły"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "dymi się"
+            },
+            "plural": {
+              "allPluralGenders": "dymi się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "dymię"
+            },
+            "plural": {
+              "allPluralGenders": "dymimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "dymisz"
+            },
+            "plural": {
+              "allPluralGenders": "dymicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "dymi"
+            },
+            "plural": {
+              "allPluralGenders": "dymią"
+            }
+          }
+        }
+      }
+    }
   }
 ]
