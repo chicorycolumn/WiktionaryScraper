@@ -97049,5 +97049,197 @@
         }
       }
     }
+  },
+  {
+    "lemma": "spoglądać",
+    "id": "pol-ver-8888-spoglądać",
+    "frequency": 3,
+    "register": 0,
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "inflections": {
+      "infinitive": "spoglądać",
+      "verbalNoun": "spoglądanie",
+      "activeAdjectival": "spoglądający",
+      "passiveAdjectival": "spoglądany",
+      "contemporaryAdverbial": "spoglądając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "spoglądaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "spoglądano"
+            },
+            "plural": {
+              "allPluralGenders": "spoglądano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "spoglądałem",
+              "f": "spoglądałam"
+            },
+            "plural": {
+              "virile": "spoglądaliśmy",
+              "nonvirile": "spoglądałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "spoglądałeś",
+              "f": "spoglądałaś"
+            },
+            "plural": {
+              "virile": "spoglądaliście",
+              "nonvirile": "spoglądałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "spoglądał",
+              "f": "spoglądała",
+              "n": "spoglądało"
+            },
+            "plural": {
+              "virile": "spoglądali",
+              "nonvirile": "spoglądały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "spogląda się"
+            },
+            "plural": {
+              "allPluralGenders": "spogląda się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "spoglądam"
+            },
+            "plural": {
+              "allPluralGenders": "spoglądamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "spoglądasz"
+            },
+            "plural": {
+              "allPluralGenders": "spoglądacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "spogląda"
+            },
+            "plural": {
+              "allPluralGenders": "spoglądają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "spojrzeć",
+    "id": "pol-ver-8888-spojrzeć",
+    "frequency": 3,
+    "register": 0,
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "inflections": {
+      "infinitive": "spojrzeć",
+      "verbalNoun": "spojrzenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "spojrzany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "spojrzawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "spojrzy się"
+            },
+            "plural": {
+              "allPluralGenders": "spojrzy się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "spojrzę"
+            },
+            "plural": {
+              "allPluralGenders": "spojrzymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "spojrzysz"
+            },
+            "plural": {
+              "allPluralGenders": "spojrzycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "spojrzy"
+            },
+            "plural": {
+              "allPluralGenders": "spojrzą"
+            }
+          }
+        },
+        "imperative": "spojrzyj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "spojrzano"
+            },
+            "plural": {
+              "allPluralGenders": "spojrzano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "spojrzałem",
+              "f": "spojrzałam"
+            },
+            "plural": {
+              "virile": "spojrzeliśmy",
+              "nonvirile": "spojrzałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "spojrzałeś",
+              "f": "spojrzałaś"
+            },
+            "plural": {
+              "virile": "spojrzeliście",
+              "nonvirile": "spojrzałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "spojrzał",
+              "f": "spojrzała",
+              "n": "spojrzało"
+            },
+            "plural": {
+              "virile": "spojrzeli",
+              "nonvirile": "spojrzały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
   }
 ]
