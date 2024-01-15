@@ -97241,5 +97241,197 @@
         "present": false
       }
     }
+  },
+  {
+    "lemma": "nadrobić",
+    "id": "pol-ver-8888-nadrobić",
+    "frequency": 4,
+    "register": 0,
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "inflections": {
+      "infinitive": "nadrobić",
+      "verbalNoun": "nadrobienie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "nadrobiony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "nadrobiwszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "nadrobi się"
+            },
+            "plural": {
+              "allPluralGenders": "nadrobi się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "nadrobię"
+            },
+            "plural": {
+              "allPluralGenders": "nadrobimy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "nadrobisz"
+            },
+            "plural": {
+              "allPluralGenders": "nadrobicie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "nadrobi"
+            },
+            "plural": {
+              "allPluralGenders": "nadrobią"
+            }
+          }
+        },
+        "imperative": "nadrób",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "nadrobiono"
+            },
+            "plural": {
+              "allPluralGenders": "nadrobiono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "nadrobiłem",
+              "f": "nadrobiłam"
+            },
+            "plural": {
+              "virile": "nadrobiliśmy",
+              "nonvirile": "nadrobiłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "nadrobiłeś",
+              "f": "nadrobiłaś"
+            },
+            "plural": {
+              "virile": "nadrobiliście",
+              "nonvirile": "nadrobiłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "nadrobił",
+              "f": "nadrobiła",
+              "n": "nadrobiło"
+            },
+            "plural": {
+              "virile": "nadrobili",
+              "nonvirile": "nadrobiły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "nadrabiać",
+    "id": "pol-ver-8888-nadrabiać",
+    "frequency": 4,
+    "register": 0,
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "inflections": {
+      "infinitive": "nadrabiać",
+      "verbalNoun": "nadrabianie",
+      "activeAdjectival": "nadrabiający",
+      "passiveAdjectival": "nadrabiany",
+      "contemporaryAdverbial": "nadrabiając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "nadrabiaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "nadrabiano"
+            },
+            "plural": {
+              "allPluralGenders": "nadrabiano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "nadrabiałem",
+              "f": "nadrabiałam"
+            },
+            "plural": {
+              "virile": "nadrabialiśmy",
+              "nonvirile": "nadrabiałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "nadrabiałeś",
+              "f": "nadrabiałaś"
+            },
+            "plural": {
+              "virile": "nadrabialiście",
+              "nonvirile": "nadrabiałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "nadrabiał",
+              "f": "nadrabiała",
+              "n": "nadrabiało"
+            },
+            "plural": {
+              "virile": "nadrabiali",
+              "nonvirile": "nadrabiały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "nadrabia się"
+            },
+            "plural": {
+              "allPluralGenders": "nadrabia się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "nadrabiam"
+            },
+            "plural": {
+              "allPluralGenders": "nadrabiamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "nadrabiasz"
+            },
+            "plural": {
+              "allPluralGenders": "nadrabiacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "nadrabia"
+            },
+            "plural": {
+              "allPluralGenders": "nadrabiają"
+            }
+          }
+        }
+      }
+    }
   }
 ]
