@@ -97433,5 +97433,204 @@
         }
       }
     }
+  },
+  {
+    "lemma": "rozważać",
+    "id": "pol-ver-8888-rozważać",
+    "frequency": 4,
+    "register": 0,
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "inflections": {
+      "infinitive": "rozważać",
+      "verbalNoun": "rozważanie",
+      "activeAdjectival": "rozważający",
+      "passiveAdjectival": "rozważany",
+      "contemporaryAdverbial": "rozważając",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "rozważaj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "rozważano"
+            },
+            "plural": {
+              "allPluralGenders": "rozważano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "rozważałem",
+              "f": "rozważałam"
+            },
+            "plural": {
+              "virile": "rozważaliśmy",
+              "nonvirile": "rozważałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "rozważałeś",
+              "f": "rozważałaś"
+            },
+            "plural": {
+              "virile": "rozważaliście",
+              "nonvirile": "rozważałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "rozważał",
+              "f": "rozważała",
+              "n": "rozważało"
+            },
+            "plural": {
+              "virile": "rozważali",
+              "nonvirile": "rozważały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "rozważa się"
+            },
+            "plural": {
+              "allPluralGenders": "rozważa się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "rozważam"
+            },
+            "plural": {
+              "allPluralGenders": "rozważamy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "rozważasz"
+            },
+            "plural": {
+              "allPluralGenders": "rozważacie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "rozważa"
+            },
+            "plural": {
+              "allPluralGenders": "rozważają"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "rozważyć",
+    "id": "pol-ver-8888-rozważyć",
+    "frequency": 4,
+    "register": 0,
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "lekceważyć"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "rozważyć",
+      "verbalNoun": "rozważenie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "rozważony",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "rozważywszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "rozważy się"
+            },
+            "plural": {
+              "allPluralGenders": "rozważy się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "rozważę"
+            },
+            "plural": {
+              "allPluralGenders": "rozważymy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "rozważysz"
+            },
+            "plural": {
+              "allPluralGenders": "rozważycie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "rozważy"
+            },
+            "plural": {
+              "allPluralGenders": "rozważą"
+            }
+          }
+        },
+        "imperative": "rozważ",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "rozważono"
+            },
+            "plural": {
+              "allPluralGenders": "rozważono"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "rozważyłem",
+              "f": "rozważyłam"
+            },
+            "plural": {
+              "virile": "rozważyliśmy",
+              "nonvirile": "rozważyłyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "rozważyłeś",
+              "f": "rozważyłaś"
+            },
+            "plural": {
+              "virile": "rozważyliście",
+              "nonvirile": "rozważyłyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "rozważył",
+              "f": "rozważyła",
+              "n": "rozważyło"
+            },
+            "plural": {
+              "virile": "rozważyli",
+              "nonvirile": "rozważyły"
+            }
+          }
+        },
+        "present": false
+      }
+    }
   }
 ]
