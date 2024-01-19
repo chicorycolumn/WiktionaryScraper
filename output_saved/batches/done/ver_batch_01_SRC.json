@@ -29083,7 +29083,7 @@
   },
   {
     "lemma": "angażować",
-    "id": "pol-ver-0304-angażować",
+    "id": "pol-ver-0304-angażować(get involved)",
     "frequency": 4,
     "register": 0,
     "aspect": "imperfective",
@@ -29193,7 +29193,223 @@
   },
   {
     "lemma": "zaangażować",
-    "id": "pol-ver-0305-zaangażować",
+    "id": "pol-ver-0305-zaangażować(get involved)",
+    "frequency": 4,
+    "register": 0,
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "angażować"
+        ]
+      },
+      "derivedTerms": [
+        "noun angaż"
+      ]
+    },
+    "inflections": {
+      "infinitive": "zaangażować",
+      "verbalNoun": "zaangażowanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zaangażowany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zaangażowawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zaangażuje się"
+            },
+            "plural": {
+              "allPluralGenders": "zaangażuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "zaangażuję"
+            },
+            "plural": {
+              "allPluralGenders": "zaangażujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "zaangażujesz"
+            },
+            "plural": {
+              "allPluralGenders": "zaangażujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zaangażuje"
+            },
+            "plural": {
+              "allPluralGenders": "zaangażują"
+            }
+          }
+        },
+        "imperative": "zaangażuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zaangażowano"
+            },
+            "plural": {
+              "allPluralGenders": "zaangażowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "zaangażowałem",
+              "f": "zaangażowałam"
+            },
+            "plural": {
+              "virile": "zaangażowaliśmy",
+              "nonvirile": "zaangażowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "zaangażowałeś",
+              "f": "zaangażowałaś"
+            },
+            "plural": {
+              "virile": "zaangażowaliście",
+              "nonvirile": "zaangażowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zaangażował",
+              "f": "zaangażowała",
+              "n": "zaangażowało"
+            },
+            "plural": {
+              "virile": "zaangażowali",
+              "nonvirile": "zaangażowały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "lemma": "angażować",
+    "id": "pol-ver-0304-angażować(commit to)",
+    "frequency": 4,
+    "register": 0,
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "usage": [
+        "angażować policję ― to involve the police angażować fundusze ― to allocate/commit/involve funds angażować siły wroga ― to engage enemy forces angażować do akcji ― to get (someone) involved to action angażować w politykę ― to get someone involved in politics angażować uwagę ― to capture someone's attention angażować umysł ― to occupy someone's mind angażować wyobraźnię ― to stimulate someone's immagination",
+        "angażować się di filmu ― to be cast in a movie"
+      ],
+      "otherShapes": {
+        "perfective": [
+          "zaangażować"
+        ]
+      },
+      "derivedTerms": [
+        "noun angaż"
+      ]
+    },
+    "inflections": {
+      "infinitive": "angażować",
+      "verbalNoun": "angażowanie",
+      "activeAdjectival": "angażujący",
+      "passiveAdjectival": "angażowany",
+      "contemporaryAdverbial": "angażując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "angażuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "angażowano"
+            },
+            "plural": {
+              "allPluralGenders": "angażowano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": "angażowałem",
+              "f": "angażowałam"
+            },
+            "plural": {
+              "virile": "angażowaliśmy",
+              "nonvirile": "angażowałyśmy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": "angażowałeś",
+              "f": "angażowałaś"
+            },
+            "plural": {
+              "virile": "angażowaliście",
+              "nonvirile": "angażowałyście"
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "angażował",
+              "f": "angażowała",
+              "n": "angażowało"
+            },
+            "plural": {
+              "virile": "angażowali",
+              "nonvirile": "angażowały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "angażuje się"
+            },
+            "plural": {
+              "allPluralGenders": "angażuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGenders": "angażuję"
+            },
+            "plural": {
+              "allPluralGenders": "angażujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGenders": "angażujesz"
+            },
+            "plural": {
+              "allPluralGenders": "angażujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "angażuje"
+            },
+            "plural": {
+              "allPluralGenders": "angażują"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "lemma": "zaangażować",
+    "id": "pol-ver-0305-zaangażować(commit to)",
     "frequency": 4,
     "register": 0,
     "aspect": "perfective",

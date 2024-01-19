@@ -11329,11 +11329,30 @@
     "lemma": "commit",
     "id": "eng-ver-0711-commit(error)",
     "register": 0,
-    "frequency": 3,
+    "frequency": 4,
     "allohomInfo": {
       "singleWordtype": true,
       "text": "negative judgement",
       "emoji": "👎"
+    },
+    "inflections": {
+      "infinitive": "commit",
+      "verbal": {},
+      "v2": "committed",
+      "v3": "committed",
+      "thirdPS": "commits",
+      "gerund": "committing"
+    }
+  },
+  {
+    "lemma": "commit",
+    "id": "eng-ver-0711-commit(to)",
+    "register": 0,
+    "frequency": 4,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "put energy towards",
+      "emoji": "⚪"
     },
     "inflections": {
       "infinitive": "commit",
