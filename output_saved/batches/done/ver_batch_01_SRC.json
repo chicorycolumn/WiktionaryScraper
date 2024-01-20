@@ -97848,5 +97848,243 @@
         "present": false
       }
     }
+  },
+  {
+    "id": "pol-ver-8888-zobowiązać",
+    "frequency": 4,
+    "register": 0,
+    "lemma": "zobowiązać",
+    "aspect": "perfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "imperfective": [
+          "zobowiązywać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "zobowiązać",
+      "verbalNoun": "zobowiązanie",
+      "activeAdjectival": false,
+      "passiveAdjectival": "zobowiązany",
+      "contemporaryAdverbial": false,
+      "anteriorAdverbial": "zobowiązawszy",
+      "verbal": {
+        "conditional": true,
+        "future": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zobowiąże się"
+            },
+            "plural": {
+              "allPluralGenders": "zobowiąże się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "zobowiążę"
+            },
+            "plural": {
+              "allPluralGenders": "zobowiążemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "zobowiążesz"
+            },
+            "plural": {
+              "allPluralGenders": "zobowiążecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zobowiąże"
+            },
+            "plural": {
+              "allPluralGenders": "zobowiążą"
+            }
+          }
+        },
+        "imperative": "zobowiąż",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zobowiązano"
+            },
+            "plural": {
+              "allPluralGenders": "zobowiązano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": [
+                "zobowiązałem"
+              ],
+              "f": [
+                "zobowiązałam"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "zobowiązaliśmy"
+              ],
+              "nonvirile": [
+                "zobowiązałyśmy"
+              ]
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": [
+                "zobowiązałeś"
+              ],
+              "f": [
+                "zobowiązałaś"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "zobowiązaliście"
+              ],
+              "nonvirile": [
+                "zobowiązałyście"
+              ]
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zobowiązał",
+              "f": "zobowiązała",
+              "n": "zobowiązało"
+            },
+            "plural": {
+              "virile": "zobowiązali",
+              "nonvirile": "zobowiązały"
+            }
+          }
+        },
+        "present": false
+      }
+    }
+  },
+  {
+    "id": "pol-ver-8888-zobowiązywać",
+    "frequency": 4,
+    "register": 0,
+    "lemma": "zobowiązywać",
+    "aspect": "imperfective",
+    "secondaryAspects": [],
+    "extra": {
+      "otherShapes": {
+        "perfective": [
+          "zobowiązać"
+        ]
+      }
+    },
+    "inflections": {
+      "infinitive": "zobowiązywać",
+      "verbalNoun": "zobowiązywanie",
+      "activeAdjectival": "zobowiązujący",
+      "passiveAdjectival": "zobowiązywany",
+      "contemporaryAdverbial": "zobowiązując",
+      "anteriorAdverbial": false,
+      "verbal": {
+        "conditional": true,
+        "future": true,
+        "imperative": "zobowiązuj",
+        "past": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zobowiązywano"
+            },
+            "plural": {
+              "allPluralGenders": "zobowiązywano"
+            }
+          },
+          "1per": {
+            "singular": {
+              "m": [
+                "zobowiązywałem"
+              ],
+              "f": [
+                "zobowiązywałam"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "zobowiązywaliśmy"
+              ],
+              "nonvirile": [
+                "zobowiązywałyśmy"
+              ]
+            }
+          },
+          "2per": {
+            "singular": {
+              "m": [
+                "zobowiązywałeś"
+              ],
+              "f": [
+                "zobowiązywałaś"
+              ]
+            },
+            "plural": {
+              "virile": [
+                "zobowiązywaliście"
+              ],
+              "nonvirile": [
+                "zobowiązywałyście"
+              ]
+            }
+          },
+          "3per": {
+            "singular": {
+              "m": "zobowiązywał",
+              "f": "zobowiązywała",
+              "n": "zobowiązywało"
+            },
+            "plural": {
+              "virile": "zobowiązywali",
+              "nonvirile": "zobowiązywały"
+            }
+          }
+        },
+        "present": {
+          "impersonal": {
+            "singular": {
+              "allSingularGenders": "zobowiązuje się"
+            },
+            "plural": {
+              "allPluralGenders": "zobowiązuje się"
+            }
+          },
+          "1per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "zobowiązuję"
+            },
+            "plural": {
+              "allPluralGenders": "zobowiązujemy"
+            }
+          },
+          "2per": {
+            "singular": {
+              "allSingularGendersExcludingNeuter": "zobowiązujesz"
+            },
+            "plural": {
+              "allPluralGenders": "zobowiązujecie"
+            }
+          },
+          "3per": {
+            "singular": {
+              "allSingularGenders": "zobowiązuje"
+            },
+            "plural": {
+              "allPluralGenders": "zobowiązują"
+            }
+          }
+        }
+      }
+    }
   }
 ]
