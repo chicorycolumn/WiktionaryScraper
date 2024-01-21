@@ -4009,6 +4009,39 @@
     },
     "_inflectionsRoot": "pol-npe-0095-sędzia(judge)"
   },
+    {
+    "lemma": "kochanie",
+    "id": "pol-npe-0104-kochanie",
+    "frequency": 4,
+    "register": 6,
+    "gender": "n",
+    "extra": {
+      "usage": [
+        "Moim dwóm największym kochaniom , temu dużemu i temu małemu. To my two most darling dear s, the big one and the little one.",
+        "Od tego kochania całkiem już straciła głowę. ― She almost went crazy from all this loving ."
+      ]
+    },
+    "inflections": {
+      "singular": {
+        "nom": "kochanie",
+        "gen": "kochania",
+        "dat": "kochaniu",
+        "acc": "kochanie",
+        "ins": "kochaniem",
+        "loc": "kochaniu",
+        "voc": "kochanie"
+      },
+      "plural": {
+        "nom": "kochania",
+        "gen": "kochań",
+        "dat": "kochaniom",
+        "acc": "kochania",
+        "ins": "kochaniami",
+        "loc": "kochaniach",
+        "voc": "kochania"
+      }
+    }
+  },
   {
     "lemma": "turystka",
     "id": "pol-npe-0105-turystka",
@@ -5755,39 +5788,6 @@
         "ins": "skurwielami",
         "loc": "skurwielach",
         "voc": "skurwiele"
-      }
-    }
-  },
-  {
-    "lemma": "kochanie",
-    "id": "pol-npe-0156-kochanie",
-    "frequency": 4,
-    "register": 6,
-    "gender": "n",
-    "extra": {
-      "usage": [
-        "Moim dwóm największym kochaniom , temu dużemu i temu małemu. To my two most darling dear s, the big one and the little one.",
-        "Od tego kochania całkiem już straciła głowę. ― She almost went crazy from all this loving ."
-      ]
-    },
-    "inflections": {
-      "singular": {
-        "nom": "kochanie",
-        "gen": "kochania",
-        "dat": "kochaniu",
-        "acc": "kochanie",
-        "ins": "kochaniem",
-        "loc": "kochaniu",
-        "voc": "kochanie"
-      },
-      "plural": {
-        "nom": "kochania",
-        "gen": "kochań",
-        "dat": "kochaniom",
-        "acc": "kochania",
-        "ins": "kochaniami",
-        "loc": "kochaniach",
-        "voc": "kochania"
       }
     }
   }
