@@ -1362,3 +1362,45 @@ def get_concrete_input_noun(lem):
         added_tags.append('abstract')
 
     return added_tags
+
+
+def renumber_inflections_root(stage, src, save, src_input_path):
+    remaining = []
+
+    src_ids = [l['id'] for l in src]
+    for src_lobj in src:
+        if "_inflectionsRoot" in src_lobj:
+            root_id = src_lobj["_inflectionsRoot"]
+            if root_id not in src_ids:
+                root_id_trimmed = root_id[12:]
+                matching_ids = [id for id in src_ids if id != src_lobj['id'] and id[12:] == root_id_trimmed]
+
+                if stage == 2 and len(matching_ids) == 1:
+                    src_lobj["_inflectionsRoot"] = matching_ids[0]
+                    print(c.green(src_lobj['id']))
+
+                elif len(matching_ids) == 0:
+                    more_matching_ids = []
+                    for id in [sid for sid in src_ids if sid != src_lobj['id']]:
+                        if "(" in id:
+                            double_trimmed_id = id[12:id.index("(")]
+                            if double_trimmed_id == root_id_trimmed:
+                                more_matching_ids.append(id)
+                    if stage == 2 and len(more_matching_ids) == 1:
+                        src_lobj["_inflectionsRoot"] = more_matching_ids[0]
+                        print(c.green(src_lobj['id']))
+                    else:
+                        remaining.append([src_lobj['id'], more_matching_ids])
+
+                elif len(matching_ids) > 1:
+                    remaining.append([src_lobj['id'], matching_ids])
+
+    if len(remaining):
+        c.print_red("REQUIRE MANUAL RESOLUTION:")
+        for remaining_item in remaining:
+            print(remaining_item[0])
+            print(remaining_item[1])
+            print("")
+
+    if stage == 2:
+        save(src_input_path, None, src)
