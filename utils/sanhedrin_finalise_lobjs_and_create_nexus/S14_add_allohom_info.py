@@ -10,7 +10,7 @@ from utils.universal import Color as c, get_curried_save, load_data
 if __name__ == '__main__':
 
     # # # # # #
-    wordtypes = ['nco']  # Leave blank for all.
+    wordtypes = []  # Leave blank for all.
     batch = "01"
     suffixes = []  # Leave blank for both SRC and TGT.
     just_list_them = False  # Should be False
