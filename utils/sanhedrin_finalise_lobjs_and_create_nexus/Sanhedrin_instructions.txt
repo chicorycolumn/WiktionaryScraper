@@ -212,13 +212,13 @@ It uses additionalSpellings that you manually type into this stage.
 
 
 5F) Run X2 X3 to renumber SRC, TGT, NEX
-Renumbering will be broken for _rootInflections key. Fix this.
+    Then X8_correct_numbering_on_inflection_root.
 
 
 
 5G) Run "S12_connect_sibling_lobjs.py" for TGT
     - to compact data by removing duplicated inflection data, replacing with reference to the one sibling which holds it
-    Modifies "nou_batch_01_tgt.json"
+    Modifies "nou_batch_01_{tgt,src}.json"
 
 
 
