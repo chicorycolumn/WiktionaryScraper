@@ -24529,32 +24529,29 @@
     }
   },
   {
-    "lemma": "czoło",
-    "id": "pol-nco-0645-czoło(forefront)",
-    "_lacking": true,
+    "lemma": "dostawa",
+    "id": "pol-nco-0645-dostawa",
     "frequency": 4,
     "register": 0,
-    "gender": "n",
-    "tantumSingulare": true,
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "abstract",
-      "emoji": "💭"
-    },
-    "extra": {
-      "usage": [
-        "Na czele pochodu szli zasłużeni dla partii działacze. ― The merited activists for the party were walking ahead of the procession"
-      ]
-    },
+    "gender": "f",
     "inflections": {
       "singular": {
-        "nom": "czoło",
-        "gen": "czoła",
-        "dat": "czołu",
-        "acc": "czoło",
-        "ins": "czołem",
-        "loc": "czele",
-        "voc": "czoło"
+        "nom": "dostawa",
+        "gen": "dostawy",
+        "dat": "dostawie",
+        "acc": "dostawę",
+        "ins": "dostawą",
+        "loc": "dostawie",
+        "voc": "dostawo"
+      },
+      "plural": {
+        "nom": "dostawy",
+        "gen": "dostaw",
+        "dat": "dostawom",
+        "acc": "dostawy",
+        "ins": "dostawami",
+        "loc": "dostawach",
+        "voc": "dostawy"
       }
     }
   },
@@ -40870,33 +40867,6 @@
         "ins": "przesyłkami",
         "loc": "przesyłkach",
         "voc": "przesyłki"
-      }
-    }
-  },
-  {
-    "lemma": "dostawa",
-    "id": "pol-nco-1109-dostawa",
-    "frequency": 4,
-    "register": 0,
-    "gender": "f",
-    "inflections": {
-      "singular": {
-        "nom": "dostawa",
-        "gen": "dostawy",
-        "dat": "dostawie",
-        "acc": "dostawę",
-        "ins": "dostawą",
-        "loc": "dostawie",
-        "voc": "dostawo"
-      },
-      "plural": {
-        "nom": "dostawy",
-        "gen": "dostaw",
-        "dat": "dostawom",
-        "acc": "dostawy",
-        "ins": "dostawami",
-        "loc": "dostawach",
-        "voc": "dostawy"
       }
     }
   }

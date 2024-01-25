@@ -10009,7 +10009,7 @@
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-1337-point"
+        "eng-nco-0801-point"
       ],
       "POL": [
         "pol-nco-1092-punkt(abstract)"
@@ -13324,22 +13324,23 @@
     ]
   },
   {
-    "key": "nco-0633-forefront",
+    "key": "nco-0633-spring(metal)",
     "traductions": {
       "SPA": [],
       "ENG": [
-        "eng-nco-0801-forefront"
+        "eng-nco-0006-spring(metal)"
       ],
       "POL": [
-        "pol-nco-0645-czoło(forefront)"
+        "pol-nco-1106-sprężyna"
       ]
     },
     "papers": [
-      "abstract",
-      "part"
+      "s1",
+      "concrete",
+      "component"
     ],
     "topics": [
-      "spatial"
+      "engineering"
     ]
   },
   {
@@ -19848,7 +19849,7 @@
       ],
       "POL": [
         "pol-nco-1108-przesyłka",
-        "pol-nco-1109-dostawa"
+        "pol-nco-0645-dostawa"
       ]
     },
     "papers": [
@@ -21731,26 +21732,6 @@
       "geography",
       "outside",
       "travel"
-    ]
-  },
-  {
-    "key": "nco-1038-spring(metal)",
-    "traductions": {
-      "SPA": [],
-      "ENG": [
-        "eng-nco-0006-spring(metal)"
-      ],
-      "POL": [
-        "pol-nco-1106-sprężyna"
-      ]
-    },
-    "papers": [
-      "s1",
-      "concrete",
-      "component"
-    ],
-    "topics": [
-      "engineering"
     ]
   }
 ]
