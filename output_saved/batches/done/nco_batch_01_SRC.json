@@ -2578,26 +2578,7 @@
       "text": "geographic place",
       "emoji": "⛰️"
     },
-    "inflections": {
-      "singular": {
-        "nom": "stan",
-        "gen": "stanu",
-        "dat": "stanowi",
-        "acc": "stan",
-        "ins": "stanem",
-        "loc": "stanie",
-        "voc": "stanie"
-      },
-      "plural": {
-        "nom": "stany",
-        "gen": "stanów",
-        "dat": "stanom",
-        "acc": "stany",
-        "ins": "stanami",
-        "loc": "stanach",
-        "voc": "stany"
-      }
-    }
+    "_inflectionsRoot": "pol-nco-0063-stan(condition)"
   },
   {
     "lemma": "los",
@@ -40284,31 +40265,12 @@
     "register": 0,
     "id": "pol-nco-1092-punkt(abstract)",
     "gender": "m3",
-    "inflections": {
-      "singular": {
-        "nom": "punkt",
-        "gen": "punktu",
-        "dat": "punktowi",
-        "acc": "punkt",
-        "ins": "punktem",
-        "loc": "punkcie",
-        "voc": "punkcie"
-      },
-      "plural": {
-        "nom": "punkty",
-        "gen": "punktów",
-        "dat": "punktom",
-        "acc": "punkty",
-        "ins": "punktami",
-        "loc": "punktach",
-        "voc": "punkty"
-      }
-    },
     "allohomInfo": {
       "singleWordtype": true,
       "text": "abstract",
       "emoji": "💭"
-    }
+    },
+    "_inflectionsRoot": "pol-nco-1091-punkt(dot)"
   },
   {
     "lemma": "dupa",
