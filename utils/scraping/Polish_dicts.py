@@ -130,11 +130,11 @@ shorthand_tag_refs = {
         "topics": ["body"],
     },
     "bin": {  # toe eye skin
-        "tags": ["bodypart", "bodypart internal"],
+        "tags": ["bodypart internal"],
         "topics": ["medicine", "body"],
     },
     "bex": {  # toe eye skin
-        "tags": ["bodypart", "bodypart external"],
+        "tags": ["bodypart external"],
         "topics": ["medicine", "body"],
     },
     "ba": {  # toe eye skin
