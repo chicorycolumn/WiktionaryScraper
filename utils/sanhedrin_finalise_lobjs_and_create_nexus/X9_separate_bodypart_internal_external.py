@@ -33,10 +33,10 @@ if __name__ == '__main__':
             c.print_blue(nob['key'])
             user_input = input("Enter for External,    Any key for Internal: ")
             if not user_input:
-                c.print_bold('external')
+                c.print_green('external')
                 nob['papers'].append('bodypart external')
             else:
-                c.print_bold('internal')
+                c.print_yellow('internal')
                 nob['papers'].append('bodypart internal')
 
     save(nex_input_path, None, nex)
