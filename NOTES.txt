@@ -19,7 +19,7 @@ Sometimes the comparative like "lepszy" appears as a separate lobj, but normally
 [✔] Batch 1 adj.
 
 TSF-002 (nou)
-We haven't been using the "an" abstract noun tag - go through done nouns and see where add it.
+[✔] We haven't been using the "an" abstract noun tag - go through done nouns and see where add it.
 
 TSF-005 (special)
 Add "każdy" and "wszystki" manually as special lobjs. I guess they're adj lobjs, but they're specially handled ones.
@@ -32,10 +32,10 @@ Check "adverb" is present inside inflections then delete the top level "adverb" 
 [✔] Batch 1 adj.
 
 TSF-007 (nou)
-Sort bodypart nouns into internal and external.
+[✔] Sort bodypart nouns into internal and external.
 
 TSF-008 (all)
-Move "money" tag into topics. Add "currency" tag to lobjs.
+[✔] Move "money" tag into topics. Add "currency" tag to lobjs.
 
 TSF-009 (all)
 If the lemma section of a lobj id starts with a *, then it requires special handling.
