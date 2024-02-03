@@ -5743,8 +5743,7 @@
     "_lacking": true,
     "frequency": 3,
     "register": 7,
-    "gender": "m2",
-    "tantumSingulare": true,
+    "gender": "m1",
     "inflections": {
       "singular": {
         "nom": "pierdolec",
@@ -5754,6 +5753,15 @@
         "ins": "pierdolcem",
         "loc": "pierdolcu",
         "voc": "pierdolcu"
+      },
+      "plural": {
+        "nom": "pierdolcy",
+        "gen": "pierdolców",
+        "dat": "pierdolcom",
+        "acc": "pierdolców",
+        "ins": "pierdolcami",
+        "loc": "pierdolcach",
+        "voc": "pierdolcy"
       }
     }
   },
@@ -5763,7 +5771,6 @@
     "frequency": 3,
     "register": 7,
     "gender": "m2",
-    "tantumSingulare": true,
     "inflections": {
       "singular": {
         "nom": "skurwiel",
