@@ -2570,6 +2570,7 @@
   {
     "lemma": "stan",
     "id": "pol-nco-0064-stan(political entity)",
+    "_inflectionsRoot": "pol-nco-0063-stan(condition)",
     "frequency": 4,
     "register": 0,
     "gender": "m3",
@@ -2577,8 +2578,7 @@
       "singleWordtype": true,
       "text": "geographic place",
       "emoji": "⛰️"
-    },
-    "_inflectionsRoot": "pol-nco-0063-stan(condition)"
+    }
   },
   {
     "lemma": "los",
@@ -3596,6 +3596,11 @@
     "frequency": 2,
     "register": 0,
     "gender": "n",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "weather",
+      "emoji": "☀️️"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -3635,11 +3640,6 @@
         "loc": "latach",
         "voc": "lata"
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "weather",
-      "emoji": "☀️️"
     }
   },
   {
@@ -14924,6 +14924,11 @@
     "frequency": 2,
     "register": 0,
     "gender": "n",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "higher up",
+      "emoji": "⬆️"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -14965,19 +14970,20 @@
         "loc": "ramionach",
         "voc": "ramiona"
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "higher up",
-      "emoji": "⬆️"
     }
   },
   {
     "lemma": "ramię",
     "id": "pol-nco-0384-ramię(arm)",
+    "_inflectionsRoot": "pol-nco-0383-ramię(shoulder)",
     "frequency": 2,
     "register": 0,
     "gender": "n",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "lower down",
+      "emoji": "⬇️"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -14999,12 +15005,6 @@
         "ramię przy ramieniu",
         "ramię w ramię"
       ]
-    },
-    "_inflectionsRoot": "pol-nco-0383-ramię(shoulder)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "lower down",
-      "emoji": "⬇️"
     }
   },
   {
@@ -18064,6 +18064,11 @@
     "frequency": 2,
     "register": 0,
     "gender": "m3",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "time",
+      "emoji": "🕒"
+    },
     "inflections": {
       "singular": {
         "nom": "okres",
@@ -18083,19 +18088,20 @@
         "loc": "okresach",
         "voc": "okresy"
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "time",
-      "emoji": "🕒"
     }
   },
   {
     "lemma": "okres",
     "id": "pol-nco-0473-okres(menstrual)",
+    "_inflectionsRoot": "pol-nco-0472-okres(time)",
     "frequency": 2,
     "register": 0,
     "gender": "m2",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "medical",
+      "emoji": "🩺"
+    },
     "extra": {
       "synonyms": [
         "period",
@@ -18109,12 +18115,6 @@
         "okresowo",
         "okresowy"
       ]
-    },
-    "_inflectionsRoot": "pol-nco-0472-okres(time)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "medical",
-      "emoji": "🩺"
     }
   },
   {
@@ -18881,6 +18881,11 @@
     "frequency": 3,
     "register": 0,
     "gender": "f",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "small",
+      "emoji": "🔹"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -18919,19 +18924,20 @@
         "loc": "dziurach",
         "voc": "dziury"
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "small",
-      "emoji": "🔹"
     }
   },
   {
     "lemma": "dziura",
     "id": "pol-nco-0493-dziura(large)",
+    "_inflectionsRoot": "pol-nco-0492-dziura(small)",
     "frequency": 3,
     "register": 0,
     "gender": "f",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "large",
+      "emoji": "🔷"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -18950,12 +18956,6 @@
       "usage": [
         "Hypernym: otwór"
       ]
-    },
-    "_inflectionsRoot": "pol-nco-0492-dziura(small)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "large",
-      "emoji": "🔷"
     }
   },
   {
@@ -19170,6 +19170,11 @@
     "frequency": 2,
     "register": 0,
     "gender": "f",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "biology",
+      "emoji": "🧬"
+    },
     "extra": {
       "synonyms": [
         "grunt",
@@ -19213,19 +19218,20 @@
         "loc": "ziemiach",
         "voc": "ziemie"
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "biology",
-      "emoji": "🧬"
     }
   },
   {
     "lemma": "ziemia",
     "id": "pol-nco-0500-ziemia(ground)",
+    "_inflectionsRoot": "pol-nco-0499-ziemia(soil)",
     "frequency": 2,
     "register": 0,
     "gender": "f",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    },
     "extra": {
       "synonyms": [
         "grunt",
@@ -19249,12 +19255,6 @@
         "uziemiać",
         "uziemić"
       ]
-    },
-    "_inflectionsRoot": "pol-nco-0499-ziemia(soil)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "physical",
-      "emoji": "🪨"
     }
   },
   {
@@ -19866,6 +19866,11 @@
     "frequency": 2,
     "register": 0,
     "gender": "m3",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "single",
+      "emoji": "1"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -19901,11 +19906,6 @@
         "loc": "włosach",
         "voc": "włosy"
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "single",
-      "emoji": "1"
     }
   },
   {
@@ -19914,6 +19914,12 @@
     "frequency": 2,
     "register": 0,
     "gender": "m3",
+    "tantumPlurale": true,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "many",
+      "emoji": "2"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -19930,7 +19936,6 @@
         "włosienica"
       ]
     },
-    "tantumPlurale": true,
     "inflections": {
       "plural": {
         "nom": "włosy",
@@ -19941,11 +19946,6 @@
         "loc": "włosach",
         "voc": "włosy"
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "many",
-      "emoji": "2"
     }
   },
   {
@@ -31230,6 +31230,11 @@
     "frequency": 4,
     "register": 0,
     "gender": "f",
+    "allohomInfo": {
+      "singleWordtype": false,
+      "text": "medical",
+      "emoji": "🩺"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -31275,11 +31280,6 @@
         "loc": "laskach",
         "voc": "laski"
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": false,
-      "text": "medical",
-      "emoji": "🩺"
     }
   },
   {
@@ -39823,9 +39823,9 @@
   },
   {
     "lemma": "przód",
+    "id": "pol-nco-1082-przód",
     "frequency": 3,
     "register": 0,
-    "id": "pol-nco-1082-przód",
     "gender": "m3",
     "extra": {
       "synonyms": [
@@ -39873,10 +39873,15 @@
   },
   {
     "lemma": "dół",
+    "id": "pol-nco-1083-dół(hole)",
     "frequency": 4,
     "register": 0,
-    "id": "pol-nco-1083-dół(hole)",
     "gender": "m3",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    },
     "extra": {
       "usage": [
         "dół łokciowy ― cubital fossa",
@@ -39903,57 +39908,52 @@
         "loc": "dołach",
         "voc": "doły"
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "physical",
-      "emoji": "🪨"
     }
   },
   {
     "lemma": "dół",
+    "id": "pol-nco-1084-dół(bottom)",
+    "_inflectionsRoot": "pol-nco-1083-dół(hole)",
     "frequency": 3,
     "register": 0,
-    "id": "pol-nco-1084-dół(bottom)",
     "gender": "m3",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "location",
+      "emoji": "📍"
+    },
     "extra": {
       "usage": [
         "dół łokciowy ― cubital fossa",
         "dół nadobojczykowy ― supraclavicular fossa",
         "dół skroniowy ― temporal fossa"
       ]
-    },
-    "_inflectionsRoot": "pol-nco-1083-dół(hole)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "location",
-      "emoji": "📍"
     }
   },
   {
     "lemma": "dół",
+    "id": "pol-nco-1085-dół(the blues)",
+    "_inflectionsRoot": "pol-nco-1083-dół(hole)",
+    "_untranslated": true,
     "frequency": 4,
     "register": 0,
-    "id": "pol-nco-1085-dół(the blues)",
-    "_untranslated": true,
     "gender": "m2",
-    "extra": {
-      "usage": [
-        "mieć doła ― to feel down"
-      ]
-    },
-    "_inflectionsRoot": "pol-nco-1083-dół(hole)",
     "allohomInfo": {
       "singleWordtype": true,
       "text": "psychological",
       "emoji": "🧠"
+    },
+    "extra": {
+      "usage": [
+        "mieć doła ― to feel down"
+      ]
     }
   },
   {
     "lemma": "śmietana",
+    "id": "pol-nco-1086-śmietana",
     "frequency": 4,
     "register": 0,
-    "id": "pol-nco-1086-śmietana",
     "gender": "f",
     "extra": {
       "otherShapes": {
@@ -39992,9 +39992,9 @@
   },
   {
     "lemma": "centrum",
+    "id": "pol-nco-1087-centrum",
     "frequency": 2,
     "register": 0,
-    "id": "pol-nco-1087-centrum",
     "gender": "n",
     "extra": {
       "synonyms": [
@@ -40040,9 +40040,9 @@
   },
   {
     "lemma": "tyłek",
+    "id": "pol-nco-1088-tyłek",
     "frequency": 3,
     "register": 0,
-    "id": "pol-nco-1088-tyłek",
     "gender": "m3",
     "extra": {
       "otherShapes": {
@@ -40081,9 +40081,9 @@
   },
   {
     "lemma": "bark",
+    "id": "pol-nco-1089-bark",
     "frequency": 2,
     "register": 0,
-    "id": "pol-nco-1089-bark",
     "gender": "m3",
     "extra": {
       "synonyms": [
@@ -40137,9 +40137,9 @@
   },
   {
     "lemma": "dołek",
+    "id": "pol-nco-1090-dołek",
     "frequency": 4,
     "register": 0,
-    "id": "pol-nco-1090-dołek",
     "gender": "m3",
     "extra": {
       "otherShapes": {
@@ -40171,10 +40171,15 @@
   },
   {
     "lemma": "punkt",
+    "id": "pol-nco-1091-punkt(dot)",
     "frequency": 3,
     "register": 0,
-    "id": "pol-nco-1091-punkt(dot)",
     "gender": "m3",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "writing",
+      "emoji": "📖"
+    },
     "extra": {
       "otherShapes": {
         "abbreviation": [
@@ -40252,31 +40257,26 @@
         "loc": "punktach",
         "voc": "punkty"
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "writing",
-      "emoji": "📖"
     }
   },
   {
     "lemma": "punkt",
+    "id": "pol-nco-1092-punkt(abstract)",
+    "_inflectionsRoot": "pol-nco-1091-punkt(dot)",
     "frequency": 3,
     "register": 0,
-    "id": "pol-nco-1092-punkt(abstract)",
     "gender": "m3",
     "allohomInfo": {
       "singleWordtype": true,
       "text": "abstract",
       "emoji": "💭"
-    },
-    "_inflectionsRoot": "pol-nco-1091-punkt(dot)"
+    }
   },
   {
     "lemma": "dupa",
+    "id": "pol-nco-1093-dupa",
     "frequency": 4,
     "register": 0,
-    "id": "pol-nco-1093-dupa",
     "gender": "f",
     "extra": {
       "otherShapes": {
@@ -40334,9 +40334,9 @@
   },
   {
     "lemma": "metoda",
+    "id": "pol-nco-1094-metoda",
     "frequency": 4,
     "register": 0,
-    "id": "pol-nco-1094-metoda",
     "gender": "f",
     "extra": {
       "synonyms": [
@@ -40375,9 +40375,9 @@
   },
   {
     "lemma": "tył",
+    "id": "pol-nco-1095-tył",
     "frequency": 4,
     "register": 0,
-    "id": "pol-nco-1095-tył",
     "gender": "m3",
     "extra": {
       "derivedTerms": [
@@ -40409,10 +40409,15 @@
   },
   {
     "lemma": "kropka",
+    "id": "pol-nco-1096-kropka(punctuation)",
     "frequency": 3,
     "register": 0,
-    "id": "pol-nco-1096-kropka(punctuation)",
     "gender": "f",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "linguistics",
+      "emoji": "🔤"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -40451,19 +40456,20 @@
         "loc": "kropkach",
         "voc": "kropki"
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "linguistics",
-      "emoji": "🔤"
     }
   },
   {
     "lemma": "kropka",
+    "id": "pol-nco-1097-kropka(dot)",
+    "_inflectionsRoot": "pol-nco-1096-kropka(punctuation)",
     "frequency": 3,
     "register": 0,
-    "id": "pol-nco-1097-kropka(dot)",
     "gender": "f",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "general",
+      "emoji": "🔲"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -40482,19 +40488,13 @@
         "kropkować",
         "znaleźć się w kropce"
       ]
-    },
-    "_inflectionsRoot": "pol-nco-1096-kropka(punctuation)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "general",
-      "emoji": "🔲"
     }
   },
   {
     "lemma": "dno",
+    "id": "pol-nco-1098-dno",
     "frequency": 4,
     "register": 0,
-    "id": "pol-nco-1098-dno",
     "gender": "n",
     "extra": {
       "otherShapes": {
@@ -40532,10 +40532,10 @@
     }
   },
   {
+    "lemma": "samica",
     "id": "pol-nco-1099-samica",
     "frequency": 5,
     "register": 0,
-    "lemma": "samica",
     "gender": "f",
     "extra": {
       "otherShapes": {
@@ -40572,10 +40572,10 @@
     }
   },
   {
+    "lemma": "samiec",
     "id": "pol-nco-1100-samiec",
     "frequency": 5,
     "register": 0,
-    "lemma": "samiec",
     "gender": "m2",
     "extra": {
       "otherShapes": {
@@ -40612,11 +40612,12 @@
     }
   },
   {
-    "id": "pol-nco-1101-opady",
     "lemma": "opad",
-    "gender": "m3",
-    "register": 0,
+    "id": "pol-nco-1101-opady",
     "frequency": 5,
+    "register": 0,
+    "gender": "m3",
+    "tantumPlurale": true,
     "extra": {
       "derivedTerms": [
         "bezopadowy",
@@ -40640,15 +40641,14 @@
         "loc": "opadach",
         "voc": "opady"
       }
-    },
-    "tantumPlurale": true
+    }
   },
   {
-    "id": "pol-nco-1102-słup",
     "lemma": "słup",
-    "gender": "m3",
-    "register": 0,
+    "id": "pol-nco-1102-słup",
     "frequency": 4,
+    "register": 0,
+    "gender": "m3",
     "inflections": {
       "singular": {
         "nom": "słup",
@@ -40671,11 +40671,11 @@
     }
   },
   {
-    "id": "pol-nco-1103-tyczka",
     "lemma": "tyczka",
-    "gender": "f",
-    "register": 0,
+    "id": "pol-nco-1103-tyczka",
     "frequency": 4,
+    "register": 0,
+    "gender": "f",
     "inflections": {
       "singular": {
         "nom": "tyczka",
@@ -40698,11 +40698,11 @@
     }
   },
   {
-    "id": "pol-nco-1104-biegun",
     "lemma": "biegun",
-    "gender": "m3",
-    "register": 0,
+    "id": "pol-nco-1104-biegun",
     "frequency": 4,
+    "register": 0,
+    "gender": "m3",
     "inflections": {
       "singular": {
         "nom": "biegun",
@@ -40725,11 +40725,11 @@
     }
   },
   {
-    "id": "pol-nco-1105-słupek",
     "lemma": "słupek",
-    "gender": "m3",
-    "register": 0,
+    "id": "pol-nco-1105-słupek",
     "frequency": 4,
+    "register": 0,
+    "gender": "m3",
     "inflections": {
       "singular": {
         "nom": "słupek",
