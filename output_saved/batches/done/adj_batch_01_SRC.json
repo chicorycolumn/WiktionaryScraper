@@ -4157,6 +4157,7 @@
   {
     "lemma": "wrażliwy",
     "id": "pol-adj-0023-wrażliwy(susceptible)",
+    "_inflectionsRoot": "pol-adj-0022-wrażliwy(impressionable)",
     "frequency": 4,
     "register": 0,
     "allohomInfo": {
@@ -4168,8 +4169,7 @@
       "antonyms": [
         "niewrażliwy"
       ]
-    },
-    "_inflectionsRoot": "pol-adj-0022-wrażliwy(impressionable)"
+    }
   },
   {
     "lemma": "powszechny",
@@ -15456,6 +15456,11 @@
     "id": "pol-adj-0098-cichy(volume)",
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "sound",
+      "emoji": "🔊"
+    },
     "extra": {
       "antonyms": [
         "głośny"
@@ -15625,28 +15630,23 @@
           }
         }
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "sound",
-      "emoji": "🔊"
     }
   },
   {
     "lemma": "cichy",
     "id": "pol-adj-0099-cichy(calm)",
+    "_inflectionsRoot": "pol-adj-0098-cichy(volume)",
     "frequency": 3,
     "register": 0,
-    "extra": {
-      "antonyms": [
-        "głośny"
-      ]
-    },
-    "_inflectionsRoot": "pol-adj-0098-cichy(volume)",
     "allohomInfo": {
       "singleWordtype": true,
       "text": "psychological",
       "emoji": "🧠"
+    },
+    "extra": {
+      "antonyms": [
+        "głośny"
+      ]
     }
   },
   {
@@ -31856,6 +31856,11 @@
     "id": "pol-adj-0172-wściekły(angry)",
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "psychological",
+      "emoji": "🧠"
+    },
     "extra": {
       "synonyms": [
         "zły"
@@ -32025,19 +32030,14 @@
           }
         }
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "psychological",
-      "emoji": "🧠"
     }
   },
   {
     "lemma": "wściekły",
     "id": "pol-adj-0173-wściekły(rabid)",
+    "_inflectionsRoot": "pol-adj-0172-wściekły(angry)",
     "frequency": 4,
     "register": 0,
-    "_inflectionsRoot": "pol-adj-0172-wściekły(angry)",
     "allohomInfo": {
       "singleWordtype": true,
       "text": "medical",
@@ -32646,6 +32646,11 @@
     "id": "pol-adj-0178-mały(concrete)",
     "frequency": 1,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    },
     "extra": {
       "synonyms": [
         "mały"
@@ -32818,18 +32823,19 @@
           }
         }
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "physical",
-      "emoji": "🪨"
     }
   },
   {
     "lemma": "mały",
     "id": "pol-adj-0179-mały(abstract)",
+    "_inflectionsRoot": "pol-adj-0178-mały(concrete)",
     "frequency": 1,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    },
     "extra": {
       "synonyms": [
         "mały"
@@ -32837,13 +32843,7 @@
       "antonyms": [
         "duży"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "abstract",
-      "emoji": "💭"
-    },
-    "_inflectionsRoot": "pol-adj-0178-mały(concrete)"
+    }
   },
   {
     "lemma": "suchy",
@@ -40236,6 +40236,11 @@
     "id": "pol-adj-0229-zabawny(fun)",
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "quality",
+      "emoji": "✅"
+    },
     "extra": {
       "synonyms": [
         "dowcipny",
@@ -40408,18 +40413,19 @@
           }
         }
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "quality",
-      "emoji": "✅"
     }
   },
   {
     "lemma": "zabawny",
     "id": "pol-adj-0230-zabawny(humorous thing)",
+    "_inflectionsRoot": "pol-adj-0229-zabawny(fun)",
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    },
     "extra": {
       "synonyms": [
         "dowcipny",
@@ -40427,19 +40433,19 @@
         "komiczny",
         "żartobliwy"
       ]
-    },
-    "_inflectionsRoot": "pol-adj-0229-zabawny(fun)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "object",
-      "emoji": "📦"
     }
   },
   {
     "lemma": "zabawny",
     "id": "pol-adj-0231-zabawny(humorous person)",
+    "_inflectionsRoot": "pol-adj-0229-zabawny(fun)",
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "person",
+      "emoji": "🏃"
+    },
     "extra": {
       "synonyms": [
         "dowcipny",
@@ -40447,12 +40453,6 @@
         "komiczny",
         "żartobliwy"
       ]
-    },
-    "_inflectionsRoot": "pol-adj-0229-zabawny(fun)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "person",
-      "emoji": "🏃"
     }
   },
   {
@@ -40460,6 +40460,11 @@
     "id": "pol-adj-0232-śmieszny(humorous thing)",
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "object",
+      "emoji": "📦"
+    },
     "extra": {
       "usage": [
         "Nie ma w tym nic śmiesznego . ― There is nothing funny about it."
@@ -40629,28 +40634,23 @@
           }
         }
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "object",
-      "emoji": "📦"
     }
   },
   {
     "lemma": "śmieszny",
     "id": "pol-adj-0233-śmieszny(humorous person)",
+    "_inflectionsRoot": "pol-adj-0232-śmieszny(humorous thing)",
     "frequency": 3,
     "register": 0,
-    "extra": {
-      "usage": [
-        "Nie ma w tym nic śmiesznego . ― There is nothing funny about it."
-      ]
-    },
-    "_inflectionsRoot": "pol-adj-0232-śmieszny(humorous thing)",
     "allohomInfo": {
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
+    },
+    "extra": {
+      "usage": [
+        "Nie ma w tym nic śmiesznego . ― There is nothing funny about it."
+      ]
     }
   },
   {
@@ -60985,6 +60985,11 @@
     "id": "pol-adj-0339-obecny(in attendance)",
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "event",
+      "emoji": "📅️"
+    },
     "extra": {
       "synonyms": [
         "bieżący"
@@ -61046,28 +61051,23 @@
           }
         }
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "event",
-      "emoji": "📅️"
     }
   },
   {
     "lemma": "obecny",
     "id": "pol-adj-0340-obecny(time)",
+    "_inflectionsRoot": "pol-adj-0339-obecny(in attendance)",
     "frequency": 4,
     "register": 0,
-    "extra": {
-      "synonyms": [
-        "bieżący"
-      ]
-    },
-    "_inflectionsRoot": "pol-adj-0339-obecny(in attendance)",
     "allohomInfo": {
       "singleWordtype": true,
       "text": "time",
       "emoji": "🕒"
+    },
+    "extra": {
+      "synonyms": [
+        "bieżący"
+      ]
     }
   },
   {
@@ -62602,14 +62602,14 @@
   {
     "lemma": "miły",
     "id": "pol-adj-0348-miły(polite)",
+    "_inflectionsRoot": "pol-adj-0347-miły(thing)",
     "frequency": 3,
     "register": 0,
     "allohomInfo": {
       "singleWordtype": true,
       "text": "person",
       "emoji": "🏃"
-    },
-    "_inflectionsRoot": "pol-adj-0347-miły(thing)"
+    }
   },
   {
     "lemma": "niedbały",
@@ -75133,6 +75133,7 @@
   {
     "lemma": "drobny",
     "id": "pol-adj-0426-drobny(abstract)",
+    "_inflectionsRoot": "pol-adj-0425-drobny(texture)",
     "frequency": 3,
     "register": 0,
     "allohomInfo": {
@@ -75144,8 +75145,7 @@
       "synonyms": [
         "mały"
       ]
-    },
-    "_inflectionsRoot": "pol-adj-0425-drobny(texture)"
+    }
   },
   {
     "lemma": "gładki",
@@ -89333,14 +89333,14 @@
   {
     "lemma": "centralny",
     "id": "pol-adj-0536-centralny(important)",
+    "_inflectionsRoot": "pol-adj-0535-centralny(spatially)",
     "frequency": 4,
     "register": 0,
     "allohomInfo": {
       "singleWordtype": true,
       "text": "important",
       "emoji": "❗"
-    },
-    "_inflectionsRoot": "pol-adj-0535-centralny(spatially)"
+    }
   },
   {
     "lemma": "edukacyjny",
@@ -89660,6 +89660,11 @@
     "id": "pol-adj-0542-dzisiejszy(literally today)",
     "frequency": 4,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "event",
+      "emoji": "📅️"
+    },
     "inflections": {
       "simple": {
         "singular": {
@@ -89715,19 +89720,14 @@
           }
         }
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "event",
-      "emoji": "📅️"
     }
   },
   {
     "lemma": "dzisiejszy",
     "id": "pol-adj-0543-dzisiejszy(contemporary)",
+    "_inflectionsRoot": "pol-adj-0542-dzisiejszy(literally today)",
     "frequency": 4,
     "register": 0,
-    "_inflectionsRoot": "pol-adj-0542-dzisiejszy(literally today)",
     "allohomInfo": {
       "singleWordtype": true,
       "text": "general",
@@ -89737,9 +89737,9 @@
   {
     "lemma": "dzisiejszy",
     "id": "pol-adj-0544-dzisiejszy(present)",
+    "_inflectionsRoot": "pol-adj-0542-dzisiejszy(literally today)",
     "frequency": 4,
     "register": 0,
-    "_inflectionsRoot": "pol-adj-0542-dzisiejszy(literally today)",
     "allohomInfo": {
       "singleWordtype": true,
       "text": "time",
@@ -108936,6 +108936,11 @@
     "id": "pol-adj-0690-niewielki(concrete)",
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "physical",
+      "emoji": "🪨"
+    },
     "extra": {
       "synonyms": [
         "mały",
@@ -109108,18 +109113,19 @@
           }
         }
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "physical",
-      "emoji": "🪨"
     }
   },
   {
     "lemma": "niewielki",
     "id": "pol-adj-0691-niewielki(abstract)",
+    "_inflectionsRoot": "pol-adj-0690-niewielki(concrete)",
     "frequency": 3,
     "register": 0,
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "abstract",
+      "emoji": "💭"
+    },
     "extra": {
       "synonyms": [
         "mały",
@@ -109128,13 +109134,7 @@
       "antonyms": [
         "wielki"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "abstract",
-      "emoji": "💭"
-    },
-    "_inflectionsRoot": "pol-adj-0690-niewielki(concrete)"
+    }
   },
   {
     "lemma": "odmienny",
@@ -126987,6 +126987,7 @@
     }
   },
   {
+    "lemma": "stały",
     "id": "pol-adj-0803-stały",
     "frequency": 4,
     "register": 0,
@@ -127008,8 +127009,8 @@
         "zmienny"
       ]
     },
-    "lemma": "stały",
     "inflections": {
+      "adverb": "stale",
       "simple": {
         "singular": {
           "m1": {
@@ -127064,7 +127065,6 @@
           }
         }
       },
-      "adverb": "stale",
       "comparative": {
         "singular": {
           "m1": {
@@ -127608,6 +127608,7 @@
     }
   },
   {
+    "lemma": "trwały",
     "id": "pol-adj-0804-trwały",
     "frequency": 4,
     "register": 0,
@@ -127619,8 +127620,8 @@
         "nietrwały"
       ]
     },
-    "lemma": "trwały",
     "inflections": {
+      "adverb": "trwale",
       "simple": {
         "singular": {
           "m1": {
@@ -127675,7 +127676,6 @@
           }
         }
       },
-      "adverb": "trwale",
       "comparative": {
         "singular": {
           "m1": {
@@ -127787,16 +127787,24 @@
     }
   },
   {
+    "lemma": "srebrny",
     "id": "pol-adj-0805-srebrny",
-    "register": 0,
     "frequency": 5,
+    "register": 0,
     "extra": {
       "synonyms": [
         "srebrzysty"
       ]
     },
-    "lemma": "srebrny",
     "inflections": {
+      "adverb": {
+        "isTerminus": true,
+        "normal": [
+          "srebrnie",
+          "srebrno"
+        ],
+        "additionalInfrequent": []
+      },
       "simple": {
         "singular": {
           "m1": {
@@ -127850,14 +127858,6 @@
             "loc": "srebrnych"
           }
         }
-      },
-      "adverb": {
-        "isTerminus": true,
-        "normal": [
-          "srebrnie",
-          "srebrno"
-        ],
-        "additionalInfrequent": []
       },
       "comparative": {
         "singular": {
@@ -127970,9 +127970,10 @@
     }
   },
   {
+    "lemma": "siwy",
     "id": "pol-adj-0806-siwy",
-    "register": 0,
     "frequency": 5,
+    "register": 0,
     "extra": {
       "synonyms": [
         "popielaty",
@@ -127981,8 +127982,8 @@
         "sędziwy"
       ]
     },
-    "lemma": "siwy",
     "inflections": {
+      "adverb": "siwo",
       "simple": {
         "singular": {
           "m1": {
@@ -128037,7 +128038,6 @@
           }
         }
       },
-      "adverb": "siwo",
       "comparative": {
         "singular": {
           "m1": {
@@ -128149,16 +128149,17 @@
     }
   },
   {
+    "lemma": "bordowy",
     "id": "pol-adj-0807-bordowy",
-    "register": 0,
     "frequency": 5,
+    "register": 0,
     "extra": {
       "synonyms": [
         "bordo"
       ]
     },
-    "lemma": "bordowy",
     "inflections": {
+      "adverb": "bordowo",
       "simple": {
         "singular": {
           "m1": {
@@ -128213,7 +128214,6 @@
           }
         }
       },
-      "adverb": "bordowo",
       "comparative": {
         "singular": {
           "m1": {
@@ -128325,9 +128325,10 @@
     }
   },
   {
+    "lemma": "złoty",
     "id": "pol-adj-0808-złoty",
-    "register": 0,
     "frequency": 3,
+    "register": 0,
     "extra": {
       "synonyms": [
         "złocisty",
@@ -128340,7 +128341,6 @@
         "dobry"
       ]
     },
-    "lemma": "złoty",
     "inflections": {
       "adverb": "złoto",
       "simple": {
@@ -128508,9 +128508,10 @@
     }
   },
   {
+    "lemma": "liliowy",
     "id": "pol-adj-0809-liliowy",
-    "register": 0,
     "frequency": 4,
+    "register": 0,
     "extra": {
       "synonyms": [
         "jasnofioletowy",
@@ -128518,8 +128519,8 @@
         "liliowy:"
       ]
     },
-    "lemma": "liliowy",
     "inflections": {
+      "adverb": "liliowo",
       "simple": {
         "singular": {
           "m1": {
@@ -128574,7 +128575,6 @@
           }
         }
       },
-      "adverb": "liliowo",
       "comparative": {
         "singular": {
           "m1": {
@@ -128686,16 +128686,17 @@
     }
   },
   {
+    "lemma": "beżowy",
     "id": "pol-adj-0810-beżowy",
-    "register": 0,
     "frequency": 4,
+    "register": 0,
     "extra": {
       "synonyms": [
         "beż"
       ]
     },
-    "lemma": "beżowy",
     "inflections": {
+      "adverb": "beżowo",
       "simple": {
         "singular": {
           "m1": {
@@ -128750,7 +128751,6 @@
           }
         }
       },
-      "adverb": "beżowo",
       "comparative": {
         "singular": {
           "m1": {
@@ -128862,10 +128862,10 @@
     }
   },
   {
-    "id": "pol-adj-0811-karmazynowy",
-    "register": 0,
-    "frequency": 5,
     "lemma": "karmazynowy",
+    "id": "pol-adj-0811-karmazynowy",
+    "frequency": 5,
+    "register": 0,
     "inflections": {
       "adverb": "karmazynowo",
       "simple": {
@@ -129033,10 +129033,10 @@
     }
   },
   {
-    "id": "pol-adj-0812-lazurowy",
-    "register": 0,
-    "frequency": 5,
     "lemma": "lazurowy",
+    "id": "pol-adj-0812-lazurowy",
+    "frequency": 5,
+    "register": 0,
     "inflections": {
       "adverb": "lazurowo",
       "simple": {
@@ -129204,11 +129204,19 @@
     }
   },
   {
-    "id": "pol-adj-0813-szkarłatny",
-    "register": 0,
-    "frequency": 4,
     "lemma": "szkarłatny",
+    "id": "pol-adj-0813-szkarłatny",
+    "frequency": 4,
+    "register": 0,
     "inflections": {
+      "adverb": {
+        "isTerminus": true,
+        "normal": [
+          "szkarłatno",
+          "szkarłatnie"
+        ],
+        "additionalInfrequent": []
+      },
       "simple": {
         "singular": {
           "m1": {
@@ -129262,14 +129270,6 @@
             "loc": "szkarłatnych"
           }
         }
-      },
-      "adverb": {
-        "isTerminus": true,
-        "normal": [
-          "szkarłatno",
-          "szkarłatnie"
-        ],
-        "additionalInfrequent": []
       },
       "comparative": {
         "singular": {
@@ -129382,10 +129382,10 @@
     }
   },
   {
-    "id": "pol-adj-0814-turkusowy",
-    "register": 0,
-    "frequency": 4,
     "lemma": "turkusowy",
+    "id": "pol-adj-0814-turkusowy",
+    "frequency": 4,
+    "register": 0,
     "inflections": {
       "adverb": "turkusowo",
       "simple": {
