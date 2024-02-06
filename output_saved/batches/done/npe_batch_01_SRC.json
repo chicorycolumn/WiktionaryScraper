@@ -1155,6 +1155,11 @@
     "frequency": 4,
     "register": 6,
     "gender": "f",
+    "allohomInfo": {
+      "singleWordtype": false,
+      "text": "person",
+      "emoji": "🏃"
+    },
     "inflections": {
       "singular": {
         "nom": "laska",
@@ -1174,11 +1179,6 @@
         "loc": "laskach",
         "voc": "laski"
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": false,
-      "text": "person",
-      "emoji": "🏃"
     }
   },
   {
@@ -1425,6 +1425,11 @@
     "frequency": 3,
     "register": 0,
     "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "more close",
+      "emoji": "🫂"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -1454,19 +1459,20 @@
         "loc": "kolegach",
         "voc": "koledzy"
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "more close",
-      "emoji": "🫂"
     }
   },
   {
     "lemma": "kolega",
     "id": "pol-npe-0038-kolega(colleague)",
+    "_inflectionsRoot": "pol-npe-0037-kolega(friend)",
     "frequency": 3,
     "register": 0,
     "gender": "m1",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "more distant",
+      "emoji": "👋"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -1476,12 +1482,6 @@
           "koleżanka"
         ]
       }
-    },
-    "_inflectionsRoot": "pol-npe-0037-kolega(friend)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "more distant",
-      "emoji": "👋"
     }
   },
   {
@@ -1490,6 +1490,11 @@
     "frequency": 3,
     "register": 0,
     "gender": "f",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "more close",
+      "emoji": "🫂"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -1519,19 +1524,20 @@
         "loc": "koleżankach",
         "voc": "koleżanki"
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "more close",
-      "emoji": "🫂"
     }
   },
   {
     "lemma": "koleżanka",
     "id": "pol-npe-0040-koleżanka(colleague)",
+    "_inflectionsRoot": "pol-npe-0039-koleżanka(friend)",
     "frequency": 3,
     "register": 0,
     "gender": "f",
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "more distant",
+      "emoji": "👋"
+    },
     "extra": {
       "otherShapes": {
         "diminutive": [
@@ -1541,12 +1547,6 @@
           "kolega"
         ]
       }
-    },
-    "_inflectionsRoot": "pol-npe-0039-koleżanka(friend)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "more distant",
-      "emoji": "👋"
     }
   },
   {
@@ -3992,6 +3992,7 @@
   {
     "lemma": "sędzia",
     "id": "pol-npe-0103-sędzia(referee)",
+    "_inflectionsRoot": "pol-npe-0102-sędzia(judge)",
     "frequency": 4,
     "register": 0,
     "gender": "f",
@@ -4006,8 +4007,7 @@
           "sędzia"
         ]
       }
-    },
-    "_inflectionsRoot": "pol-npe-0102-sędzia(judge)"
+    }
   },
   {
     "lemma": "kochanie",
