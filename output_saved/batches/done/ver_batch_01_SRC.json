@@ -519,6 +519,11 @@
     "register": 0,
     "aspect": "imperfective",
     "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "perform an action",
+      "emoji": "🏃"
+    },
     "extra": {
       "usage": [
         "Robię im śniadanie. ― I'm making them breakfast.",
@@ -649,20 +654,21 @@
           }
         }
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "perform an action",
-      "emoji": "🏃"
     }
   },
   {
     "lemma": "robić",
     "id": "pol-ver-0006-robić(make)",
+    "_inflectionsRoot": "pol-ver-0005-robić(do)",
     "frequency": 1,
     "register": 0,
     "aspect": "imperfective",
     "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "create",
+      "emoji": "🛠️"
+    },
     "extra": {
       "usage": [
         "Robię im śniadanie. ― I'm making them breakfast.",
@@ -705,12 +711,6 @@
         "robotnik",
         "references .mw-parser-output .reflist.list-style-lower-alpha ol{list-style:lower-alpha}.mw-parser-output .reflist.list-style-upper-alpha ol{list-style:upper-alpha}.mw-parser-output .reflist.list-style-lower-roman ol{list-style:lower-roman}.mw-parser-output .reflist.list-style-upper-roman ol{list-style:upper-roman}.mw-parser-output .reflist.list-style-lower-greek ol{list-style:lower-greek}.mw-parser-output .reflist.list-style-disc ol{list-style:disc}.mw-parser-output .reflist.list-style-square ol{list-style:square}.mw-parser-output .reflist.list-style-none ol{list-style:none}.mw-parser-output .reflist.nobacklinks .mw-cite-backlink,.mw-parser-output .reflist.nobacklinks li>a{display:none}.mw-parser-output .reflist.font-size-xx-small ol{font-size:xx-small}.mw-parser-output .reflist.font-size-x-small ol{font-size:x-small}.mw-parser-output .reflist.font-size-smaller ol{font-size:smaller}.mw-parser-output .reflist.font-size-small ol{font-size:small}.mw-parser-output .reflist.font-size-medium ol{font-size:medium}.mw-parser-output .reflist.font-size-large ol{font-size:large}.mw-parser-output .reflist.font-size-larger ol{font-size:larger}.mw-parser-output .reflist.font-size-x-large ol{font-size:x-large}.mw-parser-output .reflist.font-size-xx-large ol{font-size:xx-large}.mw-parser-output .reflist[data-column-count=\"2\"] .mw-references-wrap{column-count:2}.mw-parser-output .reflist[data-column-count=\"3\"] .mw-references-wrap{column-count:3}.mw-parser-output .reflist[data-column-count=\"4\"] .mw-references-wrap{column-count:4}.mw-parser-output .reflist[data-column-count=\"5\"] .mw-references-wrap{column-count:5} ^ b. sieradzka-baziur , editor (2011–2015), “ robić ”, in słownik pojęciowy języka staropolskiego conceptual dictionary of old polish (in polish), kraków ijp pan →isbn"
       ]
-    },
-    "_inflectionsRoot": "pol-ver-0005-robić(do)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "create",
-      "emoji": "🛠️"
     }
   },
   {
@@ -720,6 +720,11 @@
     "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "perform an action",
+      "emoji": "🏃"
+    },
     "extra": {
       "otherShapes": {
         "imperfective": [
@@ -818,20 +823,21 @@
         },
         "present": false
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "perform an action",
-      "emoji": "🏃"
     }
   },
   {
     "lemma": "zrobić",
     "id": "pol-ver-0008-zrobić(make)",
+    "_inflectionsRoot": "pol-ver-0007-zrobić(do)",
     "frequency": 1,
     "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "create",
+      "emoji": "🛠️"
+    },
     "extra": {
       "otherShapes": {
         "imperfective": [
@@ -842,12 +848,6 @@
         "verbs zrobić miejsce pf robić miejsce impf",
         "zrobić z igły widły pf robić z igły widły impf"
       ]
-    },
-    "_inflectionsRoot": "pol-ver-0007-zrobić(do)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "create",
-      "emoji": "🛠️"
     }
   },
   {
@@ -29138,6 +29138,11 @@
     "register": 0,
     "aspect": "imperfective",
     "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "get involved",
+      "emoji": "⚪︎︎"
+    },
     "extra": {
       "usage": [
         "angażować policję ― to involve the police angażować fundusze ― to allocate/commit/involve funds angażować siły wroga ― to engage enemy forces angażować do akcji ― to get (someone) involved to action angażować w politykę ― to get someone involved in politics angażować uwagę ― to capture someone's attention angażować umysł ― to occupy someone's mind angażować wyobraźnię ― to stimulate someone's immagination",
@@ -29239,20 +29244,21 @@
           }
         }
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "get involved",
-      "emoji": "⚪︎︎"
     }
   },
   {
     "lemma": "angażować",
     "id": "pol-ver-0310-angażować(commit to)",
+    "_inflectionsRoot": "pol-ver-0309-angażować(get involved)",
     "frequency": 4,
     "register": 0,
     "aspect": "imperfective",
     "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "commit to",
+      "emoji": "⚪︎"
+    },
     "extra": {
       "usage": [
         "angażować policję ― to involve the police angażować fundusze ― to allocate/commit/involve funds angażować siły wroga ― to engage enemy forces angażować do akcji ― to get (someone) involved to action angażować w politykę ― to get someone involved in politics angażować uwagę ― to capture someone's attention angażować umysł ― to occupy someone's mind angażować wyobraźnię ― to stimulate someone's immagination",
@@ -29266,13 +29272,7 @@
       "derivedTerms": [
         "noun angaż"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "commit to",
-      "emoji": "⚪︎"
-    },
-    "_inflectionsRoot": "pol-ver-0309-angażować(get involved)"
+    }
   },
   {
     "lemma": "zaangażować",
@@ -29281,6 +29281,11 @@
     "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "get involved",
+      "emoji": "⚪︎︎"
+    },
     "extra": {
       "otherShapes": {
         "imperfective": [
@@ -29378,20 +29383,21 @@
         },
         "present": false
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "get involved",
-      "emoji": "⚪︎︎"
     }
   },
   {
     "lemma": "zaangażować",
     "id": "pol-ver-0312-zaangażować(commit to)",
+    "_inflectionsRoot": "pol-ver-0311-zaangażować(get involved)",
     "frequency": 4,
     "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "commit to",
+      "emoji": "⚪︎"
+    },
     "extra": {
       "otherShapes": {
         "imperfective": [
@@ -29401,13 +29407,7 @@
       "derivedTerms": [
         "noun angaż"
       ]
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "commit to",
-      "emoji": "⚪︎"
-    },
-    "_inflectionsRoot": "pol-ver-0311-zaangażować(get involved)"
+    }
   },
   {
     "lemma": "chronić",
@@ -39136,6 +39136,8 @@
   {
     "lemma": "zgodzić",
     "id": "pol-ver-0403-zgodzić",
+    "frequency": 3,
+    "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
     "extra": {
@@ -39238,9 +39240,7 @@
         },
         "present": false
       }
-    },
-    "register": 0,
-    "frequency": 3
+    }
   },
   {
     "lemma": "godzić",
@@ -80050,6 +80050,7 @@
   {
     "lemma": "potrącić",
     "id": "pol-ver-0829-potrącić(deduct)",
+    "_inflectionsRoot": "pol-ver-0828-potrącić(run over)",
     "frequency": 4,
     "register": 0,
     "aspect": "perfective",
@@ -80065,8 +80066,7 @@
           "potrącać"
         ]
       }
-    },
-    "_inflectionsRoot": "pol-ver-0828-potrącić(run over)"
+    }
   },
   {
     "lemma": "potrącać",
@@ -80179,6 +80179,7 @@
   {
     "lemma": "potrącać",
     "id": "pol-ver-0831-potrącać(deduct)",
+    "_inflectionsRoot": "pol-ver-0830-potrącać(run over)",
     "frequency": 4,
     "register": 0,
     "aspect": "imperfective",
@@ -80194,8 +80195,7 @@
           "potrącić"
         ]
       }
-    },
-    "_inflectionsRoot": "pol-ver-0830-potrącać(run over)"
+    }
   },
   {
     "lemma": "pozostawać",
@@ -92318,6 +92318,8 @@
   {
     "lemma": "stwarzać",
     "id": "pol-ver-0959-stwarzać",
+    "frequency": 4,
+    "register": 0,
     "aspect": "imperfective",
     "secondaryAspects": [],
     "extra": {
@@ -92425,13 +92427,13 @@
           }
         }
       }
-    },
-    "register": 0,
-    "frequency": 4
+    }
   },
   {
     "lemma": "stworzyć",
     "id": "pol-ver-0960-stworzyć",
+    "frequency": 4,
+    "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
     "extra": {
@@ -92539,13 +92541,13 @@
         },
         "present": false
       }
-    },
-    "register": 0,
-    "frequency": 4
+    }
   },
   {
     "lemma": "uważać",
     "id": "pol-ver-0961-uważać",
+    "frequency": 3,
+    "register": 0,
     "aspect": "imperfective",
     "secondaryAspects": [],
     "inflections": {
@@ -92635,13 +92637,13 @@
           }
         }
       }
-    },
-    "register": 0,
-    "frequency": 3
+    }
   },
   {
     "lemma": "zrozumieć",
     "id": "pol-ver-0962-zrozumieć",
+    "frequency": 1,
+    "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
     "extra": {
@@ -92738,13 +92740,13 @@
         },
         "present": false
       }
-    },
-    "register": 0,
-    "frequency": 1
+    }
   },
   {
     "lemma": "rozumieć",
     "id": "pol-ver-0963-rozumieć",
+    "frequency": 1,
+    "register": 0,
     "aspect": "imperfective",
     "secondaryAspects": [],
     "extra": {
@@ -92852,9 +92854,7 @@
           }
         }
       }
-    },
-    "register": 0,
-    "frequency": 1
+    }
   },
   {
     "lemma": "anulować",
@@ -94112,8 +94112,15 @@
   {
     "lemma": "występować",
     "id": "pol-ver-0981-występować(perform)",
+    "frequency": 4,
+    "register": 0,
     "aspect": "imperfective",
     "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "perform an action",
+      "emoji": "🏃"
+    },
     "extra": {
       "usage": [
         "Nad Biebrzą licznie występują bobry. ― Near the Biebrza, beavers are found in large numbers.",
@@ -94229,20 +94236,21 @@
           }
         }
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "perform an action",
-      "emoji": "🏃"
-    },
-    "register": 0,
-    "frequency": 4
+    }
   },
   {
     "lemma": "występować",
     "id": "pol-ver-0982-występować(occur)",
+    "_inflectionsRoot": "pol-ver-0981-występować(perform)",
+    "frequency": 4,
+    "register": 0,
     "aspect": "imperfective",
     "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "event",
+      "emoji": "📅️"
+    },
     "extra": {
       "usage": [
         "Nad Biebrzą licznie występują bobry. ― Near the Biebrza, beavers are found in large numbers.",
@@ -94254,21 +94262,20 @@
           "wystąpić"
         ]
       }
-    },
-    "_inflectionsRoot": "pol-ver-0981-występować(perform)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "event",
-      "emoji": "📅️"
-    },
-    "register": 0,
-    "frequency": 4
+    }
   },
   {
     "lemma": "wystąpić",
     "id": "pol-ver-0983-wystąpić(perform)",
+    "frequency": 4,
+    "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "perform an action",
+      "emoji": "🏃"
+    },
     "extra": {
       "otherShapes": {
         "imperfective": [
@@ -94379,39 +94386,34 @@
         },
         "present": false
       }
-    },
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "perform an action",
-      "emoji": "🏃"
-    },
-    "register": 0,
-    "frequency": 4
+    }
   },
   {
     "lemma": "wystąpić",
     "id": "pol-ver-0984-wystąpić(occur)",
+    "_inflectionsRoot": "pol-ver-0983-wystąpić(perform)",
+    "frequency": 4,
+    "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
+    "allohomInfo": {
+      "singleWordtype": true,
+      "text": "event",
+      "emoji": "📅️"
+    },
     "extra": {
       "otherShapes": {
         "imperfective": [
           "występować"
         ]
       }
-    },
-    "_inflectionsRoot": "pol-ver-0983-wystąpić(perform)",
-    "allohomInfo": {
-      "singleWordtype": true,
-      "text": "event",
-      "emoji": "📅️"
-    },
-    "register": 0,
-    "frequency": 4
+    }
   },
   {
     "lemma": "sugerować",
     "id": "pol-ver-0985-sugerować",
+    "frequency": 2,
+    "register": 0,
     "aspect": "imperfective",
     "secondaryAspects": [],
     "extra": {
@@ -94524,13 +94526,13 @@
           }
         }
       }
-    },
-    "register": 0,
-    "frequency": 2
+    }
   },
   {
     "lemma": "zasugerować",
     "id": "pol-ver-0986-zasugerować",
+    "frequency": 2,
+    "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
     "extra": {
@@ -94643,13 +94645,13 @@
         },
         "present": false
       }
-    },
-    "register": 0,
-    "frequency": 2
+    }
   },
   {
     "lemma": "zaryzykować",
     "id": "pol-ver-0987-zaryzykować",
+    "frequency": 4,
+    "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
     "extra": {
@@ -94762,13 +94764,13 @@
         },
         "present": false
       }
-    },
-    "register": 0,
-    "frequency": 4
+    }
   },
   {
     "lemma": "ryzykować",
     "id": "pol-ver-0988-ryzykować",
+    "frequency": 4,
+    "register": 0,
     "aspect": "imperfective",
     "secondaryAspects": [],
     "extra": {
@@ -94886,13 +94888,13 @@
           }
         }
       }
-    },
-    "register": 0,
-    "frequency": 4
+    }
   },
   {
     "lemma": "zezłościć",
     "id": "pol-ver-0989-zezłościć",
+    "frequency": 4,
+    "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
     "extra": {
@@ -95005,13 +95007,13 @@
         },
         "present": false
       }
-    },
-    "register": 0,
-    "frequency": 4
+    }
   },
   {
     "lemma": "złościć",
     "id": "pol-ver-0990-złościć",
+    "frequency": 4,
+    "register": 0,
     "aspect": "imperfective",
     "secondaryAspects": [],
     "extra": {
@@ -95125,9 +95127,7 @@
           }
         }
       }
-    },
-    "register": 0,
-    "frequency": 4
+    }
   },
   {
     "lemma": "posługiwać",
@@ -95226,10 +95226,10 @@
     }
   },
   {
+    "lemma": "cuchnąć",
     "id": "pol-ver-0992-cuchnąć",
     "frequency": 3,
     "register": 0,
-    "lemma": "cuchnąć",
     "aspect": "imperfective",
     "secondaryAspects": [],
     "extra": {
@@ -95344,10 +95344,10 @@
     }
   },
   {
+    "lemma": "szkolić",
     "id": "pol-ver-0993-szkolić",
     "frequency": 4,
     "register": 0,
-    "lemma": "szkolić",
     "aspect": "imperfective",
     "secondaryAspects": [],
     "extra": {
@@ -95468,10 +95468,10 @@
     }
   },
   {
+    "lemma": "wyszkolić",
     "id": "pol-ver-0994-wyszkolić",
     "frequency": 4,
     "register": 0,
-    "lemma": "wyszkolić",
     "aspect": "perfective",
     "secondaryAspects": [],
     "extra": {
@@ -95587,10 +95587,10 @@
     }
   },
   {
+    "lemma": "ważyć",
     "id": "pol-ver-0995-ważyć",
     "frequency": 4,
     "register": 0,
-    "lemma": "ważyć",
     "aspect": "imperfective",
     "secondaryAspects": [],
     "extra": {
@@ -95724,10 +95724,10 @@
     }
   },
   {
+    "lemma": "zwichnąć",
     "id": "pol-ver-0996-zwichnąć",
     "frequency": 4,
     "register": 0,
-    "lemma": "zwichnąć",
     "aspect": "imperfective",
     "secondaryAspects": [],
     "inflections": {
@@ -96440,8 +96440,10 @@
     }
   },
   {
-    "id": "pol-ver-1003-strzelać",
     "lemma": "strzelać",
+    "id": "pol-ver-1003-strzelać",
+    "frequency": 4,
+    "register": 0,
     "aspect": "imperfective",
     "secondaryAspects": [],
     "extra": {
@@ -96560,13 +96562,13 @@
           }
         }
       }
-    },
-    "register": 0,
-    "frequency": 4
+    }
   },
   {
-    "id": "pol-ver-1004-strzelić",
     "lemma": "strzelić",
+    "id": "pol-ver-1004-strzelić",
+    "frequency": 4,
+    "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
     "extra": {
@@ -96686,13 +96688,13 @@
         },
         "present": false
       }
-    },
-    "register": 0,
-    "frequency": 4
+    }
   },
   {
-    "id": "pol-ver-1005-postrzelić",
     "lemma": "postrzelić",
+    "id": "pol-ver-1005-postrzelić",
+    "frequency": 4,
+    "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
     "inflections": {
@@ -96782,13 +96784,13 @@
         },
         "present": false
       }
-    },
-    "register": 0,
-    "frequency": 4
+    }
   },
   {
-    "id": "pol-ver-1006-zastrzelić",
     "lemma": "zastrzelić",
+    "id": "pol-ver-1006-zastrzelić",
+    "frequency": 4,
+    "register": 0,
     "aspect": "perfective",
     "secondaryAspects": [],
     "inflections": {
@@ -96878,9 +96880,7 @@
         },
         "present": false
       }
-    },
-    "register": 0,
-    "frequency": 4
+    }
   },
   {
     "lemma": "dymić",
@@ -97562,10 +97562,10 @@
     }
   },
   {
+    "lemma": "zobowiązać",
     "id": "pol-ver-1014-zobowiązać",
     "frequency": 4,
     "register": 0,
-    "lemma": "zobowiązać",
     "aspect": "perfective",
     "secondaryAspects": [],
     "extra": {
@@ -97681,10 +97681,10 @@
     }
   },
   {
+    "lemma": "zobowiązywać",
     "id": "pol-ver-1015-zobowiązywać",
     "frequency": 4,
     "register": 0,
-    "lemma": "zobowiązywać",
     "aspect": "imperfective",
     "secondaryAspects": [],
     "extra": {
