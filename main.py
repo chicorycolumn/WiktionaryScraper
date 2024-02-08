@@ -18,6 +18,25 @@ if __name__ == '__main__':
     input_indexes = [0, 870]
     wordtype = "a"
     these_headwords_only = [
+        # skóra głowy
+        # trzustka
+        # szyjka macicy
+        # łożysko
+        # srom
+        # prostata
+        # stercz
+        # śledziona
+        # migdałki
+        # ścięgno
+        # więzadło
+        # miednica
+        # czaszka
+        # kręgosłup
+        # brzuch
+        # zatoka
+        # żyła
+        # tętnica
+        # prącie
     ]
     please_alphabetise = False  # does not normally need to be true
     force_gather_result_even_if_parser_errored = True

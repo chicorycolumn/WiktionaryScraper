@@ -9,15 +9,16 @@ from utils.universal import Color as c, get_curried_save, load_tempsave_if_exist
 if __name__ == '__main__':
 
     # # # # # #
-    wordtypes = ['ver']  # Leave blank for all.
+    wordtypes = []  # Leave blank for all.
     batch = "01"
     suffix = "SRC"
     lang = "pol"
 
     files_are_in_done_folder = True
 
-    add_dummy_id = True  # Only set True when running Sanhedrin step 4B).
-    override_filepath = "output_saved/output_verbs_500"  # Only for when running Sanhedrin step 4B).
+    add_dummy_id = False  # Only set True when running Sanhedrin step 4B).
+    override_filepath = None  # Only for when running Sanhedrin step 4B).
+    # override_filepath = "output_saved/output_verbs_500"  # Only for when running Sanhedrin step 4B).
 
     # # # # # #
 
@@ -125,7 +126,7 @@ if __name__ == '__main__':
 
                 for k in lobj["inflections"]:
                     if k not in inflection_keys:
-                        c.print_red(f'Did not expect inflection key "{k}"')
+                        c.print_red(f'Did not expect inflection key "{k}" on {lobj["id"]}')
                         raise Exception("Stop")
 
                 for k in inflection_keys:
@@ -139,7 +140,7 @@ if __name__ == '__main__':
 
                     for k in lobj["inflections"]["verbal"]:
                         if k not in inflection_keys_ref["verbal"]:
-                            c.print_red(f'Did not expect inflection key "{k}"')
+                            c.print_red(f'Did not expect inflection-verbal key "{k}" on {lobj["id"]}')
                             raise Exception("Stop")
 
                     for k in inflection_keys_ref["verbal"]:
@@ -159,7 +160,7 @@ if __name__ == '__main__':
 
                 for k in lobj:
                     if k not in inflection_keys:
-                        c.print_red(f'Did not expect lobj key "{k}"')
+                        c.print_red(f'Did not expect lobj key "{k}" on {lobj["id"]}')
                         raise Exception("Stop")
 
                 for k in inflection_keys:
