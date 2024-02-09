@@ -35,6 +35,7 @@ if __name__ == '__main__':
         for lobj in lobjs:
             for key_to_check_exist_on_all in keys_to_check_exist_on_all:
                 if key_to_check_exist_on_all not in lobj:
+                    print("🚩", lobj["id"])
                     lobj[key_to_check_exist_on_all] = '🚩'
 
         save(lobjs)
