@@ -50,7 +50,7 @@ if __name__ == '__main__':
                               "gender" if lang in ['pol'] else None, ],
                 'optional': ["_inflectionsRoot", "_untranslated", "_lacking", "allohomInfo", "extra",
                              "additionalSpellings", "tantumSingulare",
-                             "tantumPlurale", ],
+                             "tantumPlurale", "_uncountableType"],
             },
             "npe": {
                 'mandatory': ["lemma", "id", "frequency", "register", "inflections",
@@ -63,7 +63,7 @@ if __name__ == '__main__':
                               "aspect" if lang in ['pol'] else None, ],
                 'optional': ["_inflectionsRoot", "_untranslated", "_lacking", "allohomInfo", "extra",
                              "additionalSpellings",
-                             "secondaryAspects"],
+                             "secondaryAspects", "transitivity", "isModal"],
             }
         }
 
