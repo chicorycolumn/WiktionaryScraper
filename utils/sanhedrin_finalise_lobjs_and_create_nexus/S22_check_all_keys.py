@@ -56,7 +56,9 @@ if __name__ == '__main__':
                 'mandatory': ["lemma", "id", "frequency", "register", "inflections",
                               "gender" if lang in ['pol'] else None, ],
                 'optional': ["_inflectionsRoot", "_untranslated", "_lacking", "allohomInfo", "extra",
-                             "additionalSpellings", ],
+                             "additionalSpellings",
+                             # "_uncountableType"  # Technically permissible eg police but unusual.
+                             ],
             },
             "ver": {
                 'mandatory': ["lemma", "id", "frequency", "register", "inflections",
