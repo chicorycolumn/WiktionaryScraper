@@ -237,7 +237,8 @@ It uses additionalSpellings that you manually type into this stage.
         "S22_check_all_keys.py"
     to check that all lobjs have required keys and no unexpected keys.
 
-6E) Run check that every inflection value for a given lobj starts with the same letter as the lemma value.
+6E) Run "S23_check_all_inflections.py"
+    to check that every inflection value for a given lobj starts with the same letter as the lemma value.
     Because sometimes when manually creating lobjs we've missed one, normally virile plural.
 
 
