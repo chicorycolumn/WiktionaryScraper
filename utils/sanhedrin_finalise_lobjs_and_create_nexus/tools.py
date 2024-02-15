@@ -1404,3 +1404,10 @@ def renumber_inflections_root(stage, src, save, src_input_path):
 
     if stage == 2:
         save(src_input_path, None, src)
+
+
+def check_all_inflections_begin_with(inflections_obj, lemma):
+    # for inflection in inflections_obj:
+    #     if not inflection.startswith(lemma[0:3]):
+    #         return False
+    # return True
