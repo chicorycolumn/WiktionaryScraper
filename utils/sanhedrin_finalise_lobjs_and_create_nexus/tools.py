@@ -1407,7 +1407,26 @@ def renumber_inflections_root(stage, src, save, src_input_path):
 
 
 def check_all_inflections_begin_with(inflections_obj, lemma):
-    # for inflection in inflections_obj:
-    #     if not inflection.startswith(lemma[0:3]):
-    #         return False
-    # return True
+    incorrect_values = []
+
+    def check_function(inflection_value):
+        is_correct = inflection_value.startswith(lemma[0:3])
+        if not is_correct:
+            incorrect_values.append(inflection_value)
+
+    def recurse(inf):
+        for k in inf:
+            if type(inf[k]) is str:
+                check_function(inf[k])
+            elif type(inf[k]) is dict:
+                recurse(inf[k])
+            elif type(inf[k]) is list:
+                for el in inf[k]:
+                    check_function(el)
+
+    recurse(inflections_obj)
+
+    if len(incorrect_values):
+        print(incorrect_values)
+        return False
+    return True
