@@ -1406,11 +1406,12 @@ def renumber_inflections_root(stage, src, save, src_input_path):
         save(src_input_path, None, src)
 
 
-def check_all_inflections_begin_with(inflections_obj, lemma):
+def check_all_inflections_begin_with(lobj):
+    inflections_obj = lobj['inflections']
     incorrect_values = []
 
     def check_function(inflection_value):
-        is_correct = inflection_value.startswith(lemma[0:3])
+        is_correct = inflection_value.startswith(lobj['lemma'][0:3])
         if not is_correct:
             incorrect_values.append(inflection_value)
 

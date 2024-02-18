@@ -27,11 +27,13 @@ if __name__ == '__main__':
         lobjs = load_data(input_path)
 
         for lindex, lobj in enumerate(lobjs):
-            if 'inflections' in lobj:
-                check_all_inflections_begin_with(lobj['inflections'], lobj['lemma'])
-            elif '_inflectionsRoot' in lobj:
+            if '_inflectionsRoot' in lobj:
                 parent_lobj = [l for l in lobjs if l['id'] == lobj['_inflectionsRoot']]
-                check_all_inflections_begin_with({"lemma": lobj['lemma']}, parent_lobj['lemma'])
+                lobj['inflections'] = parent_lobj['inflections']
+                lobj.pop('_inflectionsRoot')
+            result_bool = check_all_inflections_begin_with(lobj)
+            print(f'{lindex + 1}/{len(lobjs)}', result_bool)
+
         print("")
         print("Completely done.")
 
