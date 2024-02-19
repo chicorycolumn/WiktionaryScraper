@@ -1412,6 +1412,12 @@ def check_all_inflections_begin_with(lobj):
 
     def check_function(inflection_value):
         is_correct = inflection_value.startswith(lobj['lemma'][0:3])
+
+        if not is_correct and " " in inflection_value:
+            split = inflection_value.split(" ")
+            if split[0] in ['bardziej', 'najbardziej'] and split[1].startswith(lobj['lemma'][0:3]):
+                is_correct = True
+
         if not is_correct:
             incorrect_values.append(inflection_value)
 
