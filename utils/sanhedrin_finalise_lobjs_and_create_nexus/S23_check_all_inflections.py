@@ -28,7 +28,7 @@ if __name__ == '__main__':
 
         for lindex, lobj in enumerate(lobjs):
             if '_inflectionsRoot' in lobj:
-                parent_lobj = [l for l in lobjs if l['id'] == lobj['_inflectionsRoot']]
+                parent_lobj = [l for l in lobjs if l['id'] == lobj['_inflectionsRoot']][0]
                 lobj['inflections'] = parent_lobj['inflections']
                 lobj.pop('_inflectionsRoot')
             result_bool = check_all_inflections_begin_with(lobj)
