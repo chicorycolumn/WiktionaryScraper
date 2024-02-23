@@ -1434,6 +1434,7 @@ def check_all_inflections_begin_with(lobj):
     recurse(inflections_obj)
 
     if len(incorrect_values):
+        c.print_bold(lobj['lemma'])
         for incorrect_value in incorrect_values:
             c.print_red(incorrect_value)
         return False
