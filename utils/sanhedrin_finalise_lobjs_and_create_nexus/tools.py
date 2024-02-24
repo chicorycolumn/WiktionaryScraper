@@ -1415,7 +1415,7 @@ def check_all_inflections_begin_with(lobj):
 
         if not is_correct and " " in inflection_value:
             split = inflection_value.split(" ")
-            if split[0] in ['bardziej', 'najbardziej'] and split[1].startswith(lobj['lemma'][0:3]):
+            if split[0] in ['bardziej', 'najbardziej', 'more', 'the'] and split[1].startswith(lobj['lemma'][0:3]):
                 is_correct = True
 
         if not is_correct:
