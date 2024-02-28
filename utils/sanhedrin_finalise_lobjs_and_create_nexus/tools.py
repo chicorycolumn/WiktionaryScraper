@@ -1411,9 +1411,13 @@ def check_all_inflections_begin_with(lobj):
     incorrect_values = []
 
     def check_function(inflection_value):
-        lemma_start = lobj['lemma'][0:3]
+        lemma_start = lobj['lemma'][0:2]
 
-        acceptable_beginnings = [lemma_start, f'bardziej {lemma_start}']
+        acceptable_beginnings = [
+            lemma_start,
+            f'bardziej {lemma_start}',
+            f'najbardziej {lemma_start}',
+        ]
         is_correct = any(inflection_value.startswith(acceptable_beginning) for acceptable_beginning in acceptable_beginnings)
 
         if not is_correct:
