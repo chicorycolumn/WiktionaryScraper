@@ -1418,6 +1418,7 @@ def check_all_inflections_begin_with(lobj):
             f'bardziej {lemma_start}',
             f'najbardziej {lemma_start}',
             f'more {lemma_start}',
+            f'the most {lemma_start}',
         ]
         is_correct = any(inflection_value.startswith(acceptable_beginning) for acceptable_beginning in acceptable_beginnings)
 
