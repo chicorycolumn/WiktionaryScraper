@@ -1417,6 +1417,7 @@ def check_all_inflections_begin_with(lobj):
             lemma_start,
             f'bardziej {lemma_start}',
             f'najbardziej {lemma_start}',
+            f'naj{lemma_start}',
             f'more {lemma_start}',
             f'the most {lemma_start}',
         ]
