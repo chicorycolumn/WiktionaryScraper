@@ -1846,12 +1846,20 @@
         "dat": "radiu",
         "acc": "radio",
         "ins": "radiem",
-        "loc": "radiu (radio)",
+        "loc": {
+          "isTerminus": true,
+          "normal": [
+            "radiu"
+          ],
+          "additionalInfrequent": [
+            "radio"
+          ]
+        },
         "voc": "radio"
       },
       "plural": {
         "nom": "radia",
-        "gen": "(radiów)",
+        "gen": "radiów",
         "dat": "radiom",
         "acc": "radia",
         "ins": "radiami",
@@ -3970,11 +3978,15 @@
       },
       "plural": {
         "nom": "energie",
-        "gen": [
-          "energii",
-          "energij",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "energii"
+          ],
+          "additionalInfrequent": [
+            "energij"
+          ]
+        },
         "dat": "energiom",
         "acc": "energie",
         "ins": "energiami",
@@ -7870,11 +7882,15 @@
       },
       "plural": {
         "nom": "okazje",
-        "gen": [
-          "okazji",
-          "okazyj",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "okazji"
+          ],
+          "additionalInfrequent": [
+            "okazyj"
+          ]
+        },
         "dat": "okazjom",
         "acc": "okazje",
         "ins": "okazjami",
@@ -17283,11 +17299,15 @@
     "inflections": {
       "plural": {
         "nom": "wakacje",
-        "gen": [
-          "wakacji",
-          "wakacyj",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "wakacji"
+          ],
+          "additionalInfrequent": [
+            "wakacyj"
+          ]
+        },
         "dat": "wakacjom",
         "acc": "wakacje",
         "ins": "wakacjami",
@@ -17395,11 +17415,15 @@
       },
       "plural": {
         "nom": "cukinie",
-        "gen": [
-          "cukinii",
-          "cukinij",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "cukinii"
+          ],
+          "additionalInfrequent": [
+            "cukinij"
+          ]
+        },
         "dat": "cukiniom",
         "acc": "cukinie",
         "ins": "cukiniami",
@@ -21786,11 +21810,15 @@
       },
       "plural": {
         "nom": "informacje",
-        "gen": [
-          "informacji",
-          "informacyj",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "informacji"
+          ],
+          "additionalInfrequent": [
+            "informacyj"
+          ]
+        },
         "dat": "informacjom",
         "acc": "informacje",
         "ins": "informacjami",
@@ -24676,11 +24704,15 @@
       },
       "plural": {
         "nom": "sytuacje",
-        "gen": [
-          "sytuacji",
-          "sytuacyj",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "sytuacji"
+          ],
+          "additionalInfrequent": [
+            "sytuacyj"
+          ]
+        },
         "dat": "sytuacjom",
         "acc": "sytuacje",
         "ins": "sytuacjami",
@@ -26823,11 +26855,15 @@
       },
       "plural": {
         "nom": "stacje",
-        "gen": [
-          "stacji",
-          "stacyj",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "stacji"
+          ],
+          "additionalInfrequent": [
+            "stacyj"
+          ]
+        },
         "dat": "stacjom",
         "acc": "stacje",
         "ins": "stacjami",
@@ -29915,11 +29951,15 @@
       },
       "plural": {
         "nom": "telewizje",
-        "gen": [
-          "telewizji",
-          "telewizyj",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "telewizji"
+          ],
+          "additionalInfrequent": [
+            "telewizyj"
+          ]
+        },
         "dat": "telewizjom",
         "acc": "telewizje",
         "ins": "telewizjami",
@@ -32895,11 +32935,15 @@
       },
       "plural": {
         "nom": "depresje",
-        "gen": [
-          "depresji",
-          "depresyj",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "depresji"
+          ],
+          "additionalInfrequent": [
+            "depresyj"
+          ]
+        },
         "dat": "depresjom",
         "acc": "depresje",
         "ins": "depresjami",
@@ -33227,11 +33271,15 @@
       },
       "plural": {
         "nom": "kolacje",
-        "gen": [
-          "kolacji",
-          "kolacyj",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "kolacji"
+          ],
+          "additionalInfrequent": [
+            "kolacyj"
+          ]
+        },
         "dat": "kolacjom",
         "acc": "kolacje",
         "ins": "kolacjami",
@@ -35644,7 +35692,15 @@
       },
       "plural": {
         "nom": "masaże",
-        "gen": "masaży (masażów)",
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "masaży"
+          ],
+          "additionalInfrequent": [
+            "masażów"
+          ]
+        },
         "dat": "masażom",
         "acc": "masaże",
         "ins": "masażami",
@@ -35752,11 +35808,15 @@
       },
       "plural": {
         "nom": "grawitacje",
-        "gen": [
-          "grawitacji",
-          "grawitacyj",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "grawitacji"
+          ],
+          "additionalInfrequent": [
+            "grawitacyj"
+          ]
+        },
         "dat": "grawitacjom",
         "acc": "grawitacje",
         "ins": "grawitacjami",
@@ -36634,11 +36694,15 @@
       },
       "plural": {
         "nom": "linie",
-        "gen": [
-          "linii",
-          "linij",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "linii"
+          ],
+          "additionalInfrequent": [
+            "linij"
+          ]
+        },
         "dat": "liniom",
         "acc": "linie",
         "ins": "liniami",
@@ -37913,11 +37977,15 @@
       },
       "plural": {
         "nom": "decyzje",
-        "gen": [
-          "decyzji",
-          "decyzyj",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "decyzji"
+          ],
+          "additionalInfrequent": [
+            "decyzyj"
+          ]
+        },
         "dat": "decyzjom",
         "acc": "decyzje",
         "ins": "decyzjami",
@@ -38800,11 +38868,15 @@
       },
       "plural": {
         "nom": "reakcje",
-        "gen": [
-          "reakcji",
-          "reakcyj",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "reakcji"
+          ],
+          "additionalInfrequent": [
+            "reakcyj"
+          ]
+        },
         "dat": "reakcjom",
         "acc": "reakcje",
         "ins": "reakcjami",
@@ -39573,7 +39645,15 @@
       },
       "plural": {
         "nom": "spiżarnie",
-        "gen": "spiżarni (spiżarń)",
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "spiżarni"
+          ],
+          "additionalInfrequent": [
+            "spiżarń"
+          ]
+        },
         "dat": "spiżarniom",
         "acc": "spiżarnie",
         "ins": "spiżarniami",

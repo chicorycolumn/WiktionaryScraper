@@ -2345,11 +2345,15 @@
       },
       "plural": {
         "nom": "policje",
-        "gen": [
-          "policji",
-          "policyj",
-          "(archaic)"
-        ],
+        "gen": {
+          "isTerminus": true,
+          "normal": [
+            "policji"
+          ],
+          "additionalInfrequent": [
+            "policyj"
+          ]
+        },
         "dat": "policjom",
         "acc": "policje",
         "ins": "policjami",

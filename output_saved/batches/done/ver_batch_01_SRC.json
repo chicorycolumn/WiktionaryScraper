@@ -5355,7 +5355,7 @@
       "verbal": {
         "conditional": true,
         "future": true,
-        "imperative": "—",
+        "imperative": false,
         "past": {
           "1per": {
             "singular": {
@@ -6346,7 +6346,7 @@
       "verbal": {
         "conditional": true,
         "future": true,
-        "imperative": "—",
+        "imperative": false,
         "past": {
           "1per": {
             "singular": {
@@ -7150,14 +7150,6 @@
         },
         "imperative": "przyjdź",
         "past": {
-          "impersonal": {
-            "singular": {
-              "allSingularGenders": "—"
-            },
-            "plural": {
-              "allPluralGenders": "—"
-            }
-          },
           "1per": {
             "singular": {
               "m": "przyszedłem",
@@ -20861,87 +20853,87 @@
     "aspect": "perfective",
     "secondaryAspects": [],
     "inflections": {
-      "infinitive": "pokochać",
-      "verbalNoun": "pokochanie",
+      "infinitive": "zakochać",
+      "verbalNoun": "zakochanie",
       "activeAdjectival": false,
-      "passiveAdjectival": "pokochany",
+      "passiveAdjectival": "zakochany",
       "contemporaryAdverbial": false,
-      "anteriorAdverbial": "pokochawszy",
+      "anteriorAdverbial": "zakochawszy",
       "verbal": {
         "conditional": true,
         "future": {
           "impersonal": {
             "singular": {
-              "allSingularGenders": "pokocha się"
+              "allSingularGenders": "zakocha się"
             },
             "plural": {
-              "allPluralGenders": "pokocha się"
+              "allPluralGenders": "zakocha się"
             }
           },
           "1per": {
             "singular": {
-              "allSingularGenders": "pokocham"
+              "allSingularGenders": "zakocham"
             },
             "plural": {
-              "allPluralGenders": "pokochamy"
+              "allPluralGenders": "zakochamy"
             }
           },
           "2per": {
             "singular": {
-              "allSingularGenders": "pokochasz"
+              "allSingularGenders": "zakochasz"
             },
             "plural": {
-              "allPluralGenders": "pokochacie"
+              "allPluralGenders": "zakochacie"
             }
           },
           "3per": {
             "singular": {
-              "allSingularGenders": "pokocha"
+              "allSingularGenders": "zakocha"
             },
             "plural": {
-              "allPluralGenders": "pokochają"
+              "allPluralGenders": "zakochają"
             }
           }
         },
-        "imperative": "pokochaj",
+        "imperative": "zakochaj",
         "past": {
           "impersonal": {
             "singular": {
-              "allSingularGenders": "pokochano"
+              "allSingularGenders": "zakochano"
             },
             "plural": {
-              "allPluralGenders": "pokochano"
+              "allPluralGenders": "zakochano"
             }
           },
           "1per": {
             "singular": {
-              "m": "pokochałem",
-              "f": "pokochałam"
+              "m": "zakochałem",
+              "f": "zakochałam"
             },
             "plural": {
-              "virile": "pokochaliśmy",
-              "nonvirile": "pokochałyśmy"
+              "virile": "zakochaliśmy",
+              "nonvirile": "zakochałyśmy"
             }
           },
           "2per": {
             "singular": {
-              "m": "pokochałeś",
-              "f": "pokochałaś"
+              "m": "zakochałeś",
+              "f": "zakochałaś"
             },
             "plural": {
-              "virile": "pokochaliście",
-              "nonvirile": "pokochałyście"
+              "virile": "zakochaliście",
+              "nonvirile": "zakochałyście"
             }
           },
           "3per": {
             "singular": {
-              "m": "pokochał",
-              "f": "pokochała",
-              "n": "pokochało"
+              "m": "zakochał",
+              "f": "zakochała",
+              "n": "zakochało"
             },
             "plural": {
-              "virile": "pokochali",
-              "nonvirile": "pokochały"
+              "virile": "zakochali",
+              "nonvirile": "zakochały"
             }
           }
         },
@@ -39196,7 +39188,7 @@
             }
           }
         },
-        "imperative": "zrób",
+        "imperative": "zgódź",
         "past": {
           "impersonal": {
             "singular": {
@@ -69130,33 +69122,33 @@
           },
           "1per": {
             "singular": {
-              "m": "płynąłem",
-              "f": "płynęłam"
+              "m": "popłynąłem",
+              "f": "popłynęłam"
             },
             "plural": {
-              "virile": "płynęliśmy",
-              "nonvirile": "płynęłyśmy"
+              "virile": "popłynęliśmy",
+              "nonvirile": "popłynęłyśmy"
             }
           },
           "2per": {
             "singular": {
-              "m": "płynąłeś",
-              "f": "płynęłaś"
+              "m": "popłynąłeś",
+              "f": "popłynęłaś"
             },
             "plural": {
-              "virile": "płynęliście",
-              "nonvirile": "płynęłyście"
+              "virile": "popłynęliście",
+              "nonvirile": "popłynęłyście"
             }
           },
           "3per": {
             "singular": {
-              "m": "płynął",
-              "f": "płynęła",
-              "n": "płynęło"
+              "m": "popłynął",
+              "f": "popłynęła",
+              "n": "popłynęło"
             },
             "plural": {
-              "virile": "płynęli",
-              "nonvirile": "płynęły"
+              "virile": "popłynęli",
+              "nonvirile": "popłynęły"
             }
           }
         },
@@ -69256,7 +69248,7 @@
       "activeAdjectival": false,
       "passiveAdjectival": "oskarżony",
       "contemporaryAdverbial": false,
-      "anteriorAdverbial": "oksarżywszy",
+      "anteriorAdverbial": "oskarżywszy",
       "verbal": {
         "conditional": true,
         "future": {
@@ -74930,7 +74922,7 @@
             }
           }
         },
-        "imperative": "{{{8}}}",
+        "imperative": "oszczędź",
         "past": {
           "impersonal": {
             "singular": {
