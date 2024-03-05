@@ -2,7 +2,7 @@ import json
 import os
 import time
 from math import floor
-
+import unicodedata
 
 class Colors:
     PURPLE = '\033[95m'
@@ -266,3 +266,19 @@ def print_inflections(inflections):
         for key2 in inflections[key1]:
             Color.print_blue("     " + key2)
             print("          ", inflections[key1][key2])
+
+
+def print_in_multiples(items, multiple: int = 10):
+    last_multiple_of_ten = 0
+    if len(items) < multiple:
+        print(items)
+    else:
+        for num in range(0, len(items)):
+            if num and (not num % multiple) or (num + 1 == len(items)):
+                print(items[last_multiple_of_ten:num+1])
+                last_multiple_of_ten = num+1
+
+
+def strip_accents(s):
+   return ''.join(c for c in unicodedata.normalize('NFD', s)
+                  if unicodedata.category(c) != 'Mn')
