@@ -4,7 +4,8 @@ import time
 from copy import deepcopy
 
 from utils.general.common import write_todo
-from utils.universal import Color as c, interact_cmd_history, replace_char_at_index, split_if_slash, print_inflections
+from utils.universal import Color as c, interact_cmd_history, replace_char_at_index, split_if_slash, print_inflections, \
+    print_in_multiples, strip_accents
 
 
 def show1(lobj, target_lang):
@@ -1409,20 +1410,20 @@ def renumber_inflections_root(stage, src, save, src_input_path):
 def check_all_inflections_begin_with(lobj):
     inflections_obj = lobj['inflections']
     incorrect_values = []
+    lemma_start = strip_accents(lobj['lemma'][0:2])
+    acceptable_beginnings = [
+        lemma_start,
+        f'bardziej {lemma_start}',
+        f'najbardziej {lemma_start}',
+        f'naj{lemma_start}',
+        f'more {lemma_start}',
+        f'the most {lemma_start}',
+    ]
 
     def check_function(inflection_value):
-        lemma_start = lobj['lemma'][0:2]
-
-        acceptable_beginnings = [
-            lemma_start,
-            f'bardziej {lemma_start}',
-            f'najbardziej {lemma_start}',
-            f'naj{lemma_start}',
-            f'more {lemma_start}',
-            f'the most {lemma_start}',
-        ]
-        is_correct = any(inflection_value.startswith(acceptable_beginning) for acceptable_beginning in acceptable_beginnings)
-
+        if any(bad_char in inflection_value for bad_char in '(){}[]'):
+            c.print_red(inflection_value)
+        is_correct = any(strip_accents(inflection_value).startswith(acceptable_beginning) for acceptable_beginning in acceptable_beginnings)
         if not is_correct:
             incorrect_values.append(inflection_value)
 
@@ -1439,8 +1440,8 @@ def check_all_inflections_begin_with(lobj):
     recurse(inflections_obj)
 
     if len(incorrect_values):
-        c.print_bold(lobj['lemma'])
-        for incorrect_value in incorrect_values:
-            c.print_red(incorrect_value)
+        print('')
+        c.print_bold(lobj['id'])
+        print_in_multiples(incorrect_values)
         return False
     return True
