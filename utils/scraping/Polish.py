@@ -128,9 +128,9 @@ def minimise_inflections(lemma_object):
     #       Minimise, eg where "m", "f", "n" keys all hold same value, minimise to just "allSingularGenders" key.
 
     recursively_minimise(full_inflections, {
-        "allSingularGenders": ["m", "f", "n"],
-        "allSingularGendersExcludingNeuter": ["m", "f"],
-        "allPluralGenders": ["virile", "nonvirile"]
+        "_SingularGenders": ["m", "f", "n"],
+        "_SingularGendersExcludingNeuter": ["m", "f"],
+        "_PluralGenders": ["virile", "nonvirile"]
     })
 
     # STEP FOUR
