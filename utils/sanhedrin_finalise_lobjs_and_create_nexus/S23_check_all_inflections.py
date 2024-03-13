@@ -32,9 +32,8 @@ if __name__ == '__main__':
                 lobj['inflections'] = parent_lobj['inflections']
                 lobj.pop('_inflectionsRoot')
             result_bool = check_all_inflections_begin_with(lobj)
-            # if result_bool:
-            #     c.print_green(f'{lindex + 1}/{len(lobjs)} {lobj["lemma"]}')
-
+            if not result_bool:
+                print('!')
 
         print("")
         print("Completely done.")
