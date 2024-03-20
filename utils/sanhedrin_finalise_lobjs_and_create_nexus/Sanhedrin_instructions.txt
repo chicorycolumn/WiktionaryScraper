@@ -243,5 +243,11 @@ It uses additionalSpellings that you manually type into this stage.
     to check that every inflection value for a given lobj starts with the same letter as the lemma value.
     Because sometimes when manually creating lobjs we've missed one, normally virile plural.
 
+6G) Run "S24_change_array_terminus_to_terminus_obj.py" (to make this fxn)
+    to change all terminal array values in lobjs inflections to terminus objects.
+
+6H) Run "S25_add_gender_to_eng.py" (to make this fxn)
+    to add gender to all ENG npe and nco lobjs.
+
 
 
