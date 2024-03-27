@@ -41,7 +41,7 @@ if __name__ == '__main__':
         if freq == "X":
             raise Exception(f'No frequency tag on "{src_lobj["id"]}"')
 
-        register = 0
+        register = 1
 
         for reg_ref in reg_refs:
             if reg_ref["tag"] in src_lobj["tags"]:
