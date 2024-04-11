@@ -137,7 +137,7 @@ class PolishNounParser(HTMLParser):
             return
 
         # Adding to last output object after exiting table, which is not typical.
-        if self.mode == "getderivedterms" and self.lasttag == "a" \
+        if self.mode == "getderivedterms" and self.lasttag in ["a", "strong"] \
                 and data not in ["edit", "show ▼"]\
                 and not data.lower().startswith("descendants"):
             self.output_arr[-1]["extra"]["derivedTerms"].append(data)
@@ -174,7 +174,7 @@ class PolishNounParser(HTMLParser):
         if self.mode == "getgender":
             self.output_obj["gender"] = add_string(self.output_obj["gender"], data)
 
-        if self.mode.startswith("getword") and self.lasttag == "a":
+        if self.mode.startswith("getword") and self.lasttag in ["a", "strong"]:
             word_index = int(self.mode.split("-")[1])
             key = self.keys[word_index]
             subkey = self.subkey

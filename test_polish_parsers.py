@@ -157,6 +157,8 @@ def test_PolishAdjectiveParser(index, input_words: list, expected_path: str, use
      "polish_nouns_6", True, None),  # Word with two meanings and two conjugation tables.
     ('N7', ["brać"],
      "polish_nouns_7", True, None),  # Page has 1 verb 1 noun, homonyms (not nec list as allohoms as diff wordtypes).
+    ('N8', ["pochrzyn"],
+     "polish_nouns_8", True, None),  # Some pages have bold text Mianownik sometimes Biernik which was getting dropped.
 ])
 def test_PolishNounParser(n: int, input_words: list, expected_path: str, use_sample: bool, sample_version: str, wordtype: str = "nouns"):
     print(f'# Starting, given {len(input_words)} words.')
